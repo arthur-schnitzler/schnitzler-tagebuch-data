@@ -8,3 +8,7 @@ en: TEI-encoded data repository for the online edition of Arthur Schnitzler’s 
 Dieses Repository versammelt die Daten (im Format XML/TEI), die der Online-Ausgabe von Arthur Schnitzlers Tagebuch (1879–1931) zu Grunde liegen. 
 
 Die Daten haben eine bekannte Schwachstelle. Die Personen sind zwar ausgezeichnet, aber bei einem kleinen Prozentsatz (4–5%) fehlen die @ref-Attribute, die die Personen mit ihren Normangaben auflösen lassen. Dies wird voraussichtlich in den nächsten Monaten behoben. 
+
+Für die Daten der Website siehe:
+
+https://github.com/acdh-oeaw/schnitzler-tagebuch
