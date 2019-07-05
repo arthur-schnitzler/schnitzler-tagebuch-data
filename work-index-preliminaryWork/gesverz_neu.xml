@@ -126,40 +126,40 @@
         </fileDesc>
     </teiHeader>
     <!-- Digitalisierte Fassung des Verzeichnisses
-   
-   Jeder Werkeintrag ist ein Item mit zumindest </item><item><title> und <ref>
-   
-   1) <title>
-   Titel des Werks
-   
-         <title type="pmb" key="35702">Abendspaziergang</title>
-   a) <title> Werktitel. Nach Möglichkeit nach der ersten veröffentlichten Fassung ("Lieutenant Gustl", nicht "Leutnant Gustl")
-   b) type="pmb" key="35702" Die Nummer aus PMB: https://pmb.acdh.oeaw.ac.at/apis/entities/entity/work/list/
-  
-         <title type="alt" xml:lang="en">Evening stroll</title>  
-   c) Alternative Titel als weitere <title type="alt">
-   d) Zusätzliches Attribut für die Sprache, xml:lang="en"> mit dem Sprachkürzel, falls es nicht deutsch
-         
-   
-   2) <ref>
-   Verweise auf die Tage, an denen das Werk im Tagebuch vorkommt
-   
-          <ref>
-              <date when-iso="1901-10-28">28.10.1901</date>
-              <date when-iso="1905-12-10">10.12.1905</date>
-          </ref>
-    
-    Unsichere Daten sind mit dem Attribut cert="low" versehen:
-            
-            <date when-iso="1901-10-28" cert="low">28.10.1901</date>
-    
-    3) <annotationBlock>
-    Weitere Angaben des Index
-    
-    Alle weiteren Angaben landen in
-    <annotationBlock>
-   
-   -->
+ 
+ Jeder Werkeintrag ist ein Item mit zumindest </item><item><title> und <ref>
+ 
+ 1) <title>
+ Titel des Werks
+ 
+ <title type="pmb" key="35702">Abendspaziergang</title>
+ a) <title> Werktitel. Nach Möglichkeit nach der ersten veröffentlichten Fassung ("Lieutenant Gustl", nicht "Leutnant Gustl")
+ b) type="pmb" key="35702" Die Nummer aus PMB: https://pmb.acdh.oeaw.ac.at/apis/entities/entity/work/list/
+ 
+ <title type="alt" xml:lang="en">Evening stroll</title> 
+ c) Alternative Titel als weitere <title type="alt">
+ d) Zusätzliches Attribut für die Sprache, xml:lang="en"> mit dem Sprachkürzel, falls es nicht deutsch
+ 
+ 
+ 2) <ref>
+ Verweise auf die Tage, an denen das Werk im Tagebuch vorkommt
+ 
+ <ref>
+ <date when-iso="1901-10-28">28.10.1901</date>
+ <date when-iso="1905-12-10">10.12.1905</date>
+ </ref>
+ 
+ Unsichere Daten sind mit dem Attribut cert="low" versehen:
+ 
+ <date when-iso="1901-10-28" cert="low">28.10.1901</date>
+ 
+ 3) <annotationBlock>
+ Weitere Angaben des Index
+ 
+ Alle weiteren Angaben landen in
+ <annotationBlock>
+ 
+ -->
     <text>
         <body>
             <list>
@@ -743,7 +743,7 @@
                     <day>23</day>
                     <day>31</day>
                     <year>1911</year>
-                    <day>1</day>
+                    <month>1</month>
                     <day>12</day>
                     <month>02</month>
                     <day>7</day>
@@ -800,7 +800,7 @@
                     <year>1917</year>
                     <month>02</month>
                     <day>15</day>
-                    <month>05</month>
+                    
                     <month>08</month>
                     <day>14</day>
                     <year>1918</year>
@@ -947,7 +947,8 @@
                     <day>26</day>
                     <day>28</day>
                     <year>1909</year>
-                    <day>19</day>
+                    <month>01</month>
+                    <day>9</day>
                     <year>1910</year>
                     <month>02</month>
                     <day>21</day>
@@ -1221,7 +1222,7 @@
                     <day>2</day>
                     <day>3</day>
                     <day>16</day>
-                    <year>1911</year>
+                    <year>1911</year><month>03</month><day>1</day><month>04</month><day>26</day><month>11</month><day>8</day><year>1912</year><month>06</month><day>15</day>
                     <year>1913</year>
                     <month>07</month>
                     <day>8</day>
@@ -1327,8 +1328,8 @@
                     <year>1896</year>
                     <month>12</month>
                     <day>11</day>
-                    <year>1897</year>
-                    <day>12</day>
+                    <year>1897</year><month>01</month>
+                    <day>2</day>
                     <year>1901</year>
                     <month>10</month>
                     <day>27</day>
@@ -1447,7 +1448,7 @@
                     <month>10</month>
                     <day>12</day>
                     <year>1919</year>
-                    <day>1</day>
+                    <month>1</month>
                     <day>31</day>
                     <month>02</month>
                     <day>3</day>
@@ -1823,7 +1824,7 @@
                     <day>25</day>
                     <day>26</day>
                     <year>1929</year>
-                    <day>1</day>
+                    <month>1</month>
                     <day>2</day>
                     <day>5</day>
                     <day>10</day>
@@ -2202,7 +2203,7 @@
                     <month>10</month>
                     <day>4</day>
                     <year>1929</year>
-                    <day>1</day>
+                    <month>1</month>
                     <day>23</day>
                     <month>02</month>
                     <day>10</day>
@@ -2323,9 +2324,9 @@
                     <title>Belastet</title>
                     <year>1880</year>
                     <month>05</month>
-                    <month>02</month>
-                    <year>1881</year>
-                    <day>12</day>
+                    <day>11</day>
+                    <year>1881</year><month>01</month>
+                    <day>2</day>
                     <year>1882</year>
                     <month>12</month>
                     <day>1</day>
@@ -2640,7 +2641,7 @@
                     <day>15</day>
                     <day>16</day>
                     <year>1916</year>
-                    <day>1</day>
+                    <month>1</month>
                     <day>25</day>
                     <month>06</month>
                     <day>13</day>
@@ -2807,237 +2808,20 @@
                     <day>24</day>
                 </item>
                 <item><title>Dämmerseelen</title>
-                    <annotationBlock>Novellensammlung</annotationBlock>
-                    <year>1906</year>
-                    <month>11</month>
-                    <day>26</day>
-                    <year>1907</year>
-                    <month>01</month>
-                    <day>4</day><month>03</month><day>7</day>
-                    <day>14</day>
-                    <day>19</day>
-                    <day>30</day>
-                    <day>31</day>
-                    <month>04</month>
-                    <day>5</day>
-                    <month>07</month>
-                    <day>14</day>
-                    <year>1908</year>
-                    <month>06</month>
-                    <day>14</day>
-                    <year>1909</year>
-                    <month>01</month>
-                    <day>1</day>
-                    <day>15</day> Davos <year>1912</year>
-                    <month>03</month>
-                    <day>2</day>
-                    <year>1916</year>
-                    <month>01</month>
-                    <day>8</day>
-                    <year>1919</year>
-                    <month>01</month>
-                    <day>30</day>
-                    <year>1921</year>
-                    <month>07</month>
-                    <day>10</day></item>
+                    <annotationBlock>Novellensammlung</annotationBlock><year>1906</year><month>11</month><day>26</day><year>1907</year><month>01</month><day>4</day><month>03</month><day>7</day><day>14</day><day>19</day><day>30</day><day>31</day><month>04</month><day>5</day><month>07</month><day>14</day><year>1908</year><month>06</month><day>14</day><year>1909</year><month>01</month><day>1</day><day>15</day>
+                    Davos
+                        <year>1912</year><month>03</month><day>2</day><year>1916</year><month>01</month><day>8</day><year>1919</year><month>01</month><day>30</day><year>1921</year><month>07</month><day>10</day></item>
                 <item><title>Daybreak</title>
                     <annotationBlock>Film</annotationBlock>
-                    <annotationBlock>Regie Jacques Feyder</annotationBlock>
-                    <year>1929</year><month>10</month><day>10</day>
-                    <day>11</day>
-                    <day>25</day>
-                    <month>11</month>
-                    <day>19</day>
-                    <year>1930</year>
-                    <month>01</month>
-                    <day>6</day>
-                    <month>05</month>
-                    <day>27</day> Das Denkmal der Fürstin <year>1906</year>
-                    <month>06</month>
-                    <day>18</day></item>
+                    <annotationBlock>Regie Jacques
+                        Feyder</annotationBlock><year>1929</year><month>10</month><day>10</day><day>11</day><day>25</day><month>11</month><day>19</day><year>1930</year><month>01</month><day>6</day><month>05</month><day>27</day>
+                    Das Denkmal der Fürstin <year>1906</year><month>06</month><day>18</day></item>
                 <item>
                     <title>Doktor Gräsler, Badearzt</title>
-                    <annotationBlock>Doctor Graesler, Übersetzung von Paul Zeisler</annotationBlock>
-                    <year>1909</year>
-                    <month>01</month>
-                    <day>1</day>
-                    <year>1911</year>
-                    <month>01</month>
-                    <day>1</day>
-                    <day>19</day>
-                    <day>28</day>
-                    <day>31</day>
-                    <month>02</month>
-                    <day>4</day>
-                    <day>7</day><day>11</day>
-                    <day>12</day>
-                    <day>14</day><strich/><day>16</day>
-                    <day>18</day>
-                    <day>20</day>
-                    <month>03</month>
-                    <day>3</day>
-                    <day>4</day>
-                    <day>6</day><strich/><day>10</day>
-                    <day>13</day>
-                    <day>14</day>
-                    <day>16</day><strich/><day>19</day>
-                    <day>21</day><strich/><day>25</day>
-                    <day>28</day><strich/><day>30</day>
-                    <month>04</month><day>1</day>
-                    <day>4</day><strich/><day>6</day>
-                    <month>05</month>
-                    <day>5</day><strich/><day>10</day>
-                    <day>14</day>
-                    <day>15</day>
-                    <day>17</day><strich/><day>20</day>
-                    <day>24</day>
-                    <day>25</day>
-                    <month>06</month><day>1</day>
-                    <day>2</day>
-                    <day>5</day>
-                    <day>8</day>
-                    <day>10</day>
-                    <day>12</day><strich/><day>16</day>
-                    <day>19</day><strich/><day>21</day>
-                    <year>1912</year>
-                    <month>03</month>
-                    <day>10</day>
-                    <day>29</day>
-                    <year>1914</year>
-                    <month>01</month>
-                    <day>24</day>
-                    <day>25</day>
-                    <month>02</month>
-                    <day>2</day>
-                    <day>21</day>
-                    <day>24</day>
-                    <month>03</month>
-                    <day>3</day>
-                    <day>11</day>
-                    <day>12</day>
-                    <day>16</day>
-                    <day>19</day>
-                    <day>20</day>
-                    <day>28</day>
-                    <month>04</month>
-                    <day>4</day>
-                    <day>8</day>
-                    <day>20</day><strich/><day>24</day>
-                    <day>30</day>
-                    <month>06</month>
-                    <day>10</day><strich/><day>13</day>
-                    <day>15</day><strich/><day>17</day>
-                    <day>19</day>
-                    <day>22</day>
-                    <day>23</day>
-                    <day>25</day><strich/><day>27</day>
-                    <day>30</day>
-                    <month>07</month>
-                    <day>1</day><strich/><day>5</day>
-                    <month>08</month>
-                    <day>11</day><strich/><day>13</day>
-                    <day>15</day>
-                    <day>22</day>
-                    <day>27</day><strich/><day>31</day>
-                    <month>09</month>
-                    <day>1</day>
-                    <day>6</day>
-                    <day>11</day><strich/><day>14</day>
-                    <day>16</day>
-                    <day>17</day>
-                    <day>19</day>
-                    <day>21</day>
-                    <day>22</day>
-                    <day>24</day>
-                    <day>25</day>
-                    <day>28</day><month>10</month><day>1</day>
-                    <day>4</day>
-                    <day>6</day><strich/><day>8</day>
-                    <month>11</month>
-                    <day>8</day>
-                    <day>16</day>
-                    <day>20</day><strich/><day>22</day>
-                    <day>24</day>
-                    <month>12</month>
-                    <day>3</day>
-                    <day>5</day>
-                    <day>6</day>
-                    <day>8</day>
-                    <day>12</day>
-                    <year>1916</year>
-                    <month>05</month>
-                    <day>31</day>
-                    <month>09</month>
-                    <day>20</day><month>10</month><day>20</day>
-                    <month>11</month>
-                    <day>12</day>
-                    <month>12</month>
-                    <day>30</day>
-                    <year>1917</year>
-                    <month>01</month>
-                    <day>9</day>
-                    <month>02</month>
-                    <day>15</day>
-                    <month>05</month>
-                    <day>17</day>
-                    <day>20</day><strich/><day>23</day>
-                    <month>06</month>
-                    <day>22</day>
-                    <month>08</month>
-                    <day>21</day>
-                    <day>26</day>
-                    <day>28</day>
-                    <month>09</month>
-                    <day>23</day>
-                    <day>24</day><month>10</month><day>6</day>
-                    <day>9</day>
-                    <day>16</day>
-                    <day>31</day>
-                    <month>12</month>
-                    <day>8</day>
-                    <day>25</day>
-                    <year>1919</year>
-                    <month>04</month>
-                    <day>20</day>
-                    <year>1922</year>
-                    <month>06</month>
-                    <day>21</day>
-                    <day>28</day>
-                    <month>07</month>
-                    <day>16</day><month>10</month><day>3</day><year>1924</year>
-                    <month>01</month>
-                    <day>1</day>
-                    <month>02</month>
-                    <day>25</day>
-                    <year>1929</year>
-                    <month>06</month>
-                    <day>15</day>
-                    <year>1930</year>
-                    <month>01</month>
-                    <day>9</day> Der Ehrentag Jour de gloire, Ubersetzung von Maurice Rémon und
-                    Gaspard Valette <year>1897</year>
-                    <month>03</month>
-                    <day>12</day>
-                    <day>22</day>
-                    <month>07</month>
-                    <day>7</day><year>1898</year>
-                    <month>05</month>
-                    <day>4</day>
-                    <year>1900</year>
-                    <month>03</month>
-                    <day>19</day>
-                    <year>1903</year>
-                    <month>08</month>
-                    <day>5</day>
-                    <year>1912</year>
-                    <month>05</month>
-                    <day>24</day>
-                    <year>1922</year>
-                    <month>04</month>
-                    <day>19</day>
-                    <year>1930</year>
-                    <month>02</month>
-                    <day>8</day></item>
+                    <annotationBlock>Doctor Graesler, Übersetzung von Paul
+                        Zeisler</annotationBlock><year>1909</year><month>01</month><day>1</day><year>1911</year><month>01</month><day>1</day><day>19</day><day>28</day><day>31</day><month>02</month><day>4</day><day>7</day><day>11</day><day>12</day><day>14</day><strich/><day>16</day><day>18</day><day>20</day><month>03</month><day>3</day><day>4</day><day>6</day><strich/><day>10</day><day>13</day><day>14</day><day>16</day><strich/><day>19</day><day>21</day><strich/><day>25</day><day>28</day><strich/><day>30</day><month>04</month><day>1</day><day>4</day><strich/><day>6</day><month>05</month><day>5</day><strich/><day>10</day><day>14</day><day>15</day><day>17</day><strich/><day>20</day><day>24</day><day>25</day><month>06</month><day>1</day><day>2</day><day>5</day><day>8</day><day>10</day><day>12</day><strich/><day>16</day><day>19</day><strich/><day>21</day><year>1912</year><month>03</month><day>10</day><day>29</day><year>1914</year><month>01</month><day>24</day><day>25</day><month>02</month><day>2</day><day>21</day><day>24</day><month>03</month><day>3</day><day>11</day><day>12</day><day>16</day><day>19</day><day>20</day><day>28</day><month>04</month><day>4</day><day>8</day><day>20</day><strich/><day>24</day><day>30</day><month>06</month><day>10</day><strich/><day>13</day><day>15</day><strich/><day>17</day><day>19</day><day>22</day><day>23</day><day>25</day><strich/><day>27</day><day>30</day><month>07</month><day>1</day><strich/><day>5</day><month>08</month><day>11</day><strich/><day>13</day><day>15</day><day>22</day><day>27</day><strich/><day>31</day><month>09</month><day>1</day><day>6</day><day>11</day><strich/><day>14</day><day>16</day><day>17</day><day>19</day><day>21</day><day>22</day><day>24</day><day>25</day><day>28</day><month>10</month><day>1</day><day>4</day><day>6</day><strich/><day>8</day><month>11</month><day>8</day><day>16</day><day>20</day><strich/><day>22</day><day>24</day><month>12</month><day>3</day><day>5</day><day>6</day><day>8</day><day>12</day><year>1916</year><month>05</month><day>31</day><month>09</month><day>20</day><month>10</month><day>20</day><month>11</month><day>12</day><month>12</month><day>30</day><year>1917</year><month>01</month><day>9</day><month>02</month><day>15</day><month>05</month><day>17</day><day>20</day><strich/><day>23</day><month>06</month><day>22</day><month>08</month><day>21</day><day>26</day><day>28</day><month>09</month><day>23</day><day>24</day><month>10</month><day>6</day><day>9</day><day>16</day><day>31</day><month>12</month><day>8</day><day>25</day><year>1919</year><month>04</month><day>20</day><year>1922</year><month>06</month><day>21</day><day>28</day><month>07</month><day>16</day><month>10</month><day>3</day><year>1924</year><month>01</month><day>1</day><month>02</month><day>25</day><year>1929</year><month>06</month><day>15</day><year>1930</year><month>01</month><day>9</day>
+                    Der Ehrentag Jour de gloire, Ubersetzung von Maurice Rémon und Gaspard Valette
+                        <year>1897</year><month>03</month><day>12</day><day>22</day><month>07</month><day>7</day><year>1898</year><month>05</month><day>4</day><year>1900</year><month>03</month><day>19</day><year>1903</year><month>08</month><day>5</day><year>1912</year><month>05</month><day>24</day><year>1922</year><month>04</month><day>19</day><year>1930</year><month>02</month><day>8</day></item>
                 <item>
                     <title>Eifersucht auf die Vergangenheit</title>
                     <year>1891</year>
@@ -3293,8 +3077,8 @@
                     <day>10</day>
                     <month>12</month>
                     <day>1</day>
-                    <year>1883</year>
-                    <day>12</day>
+                    <year>1883</year><month>01</month>
+                    <day>2</day>
                     <month>08</month>
                     <day>24</day>
                 </item>
@@ -3920,7 +3704,7 @@
                     <day>19</day>
                     <day>24</day>
                     <year>1916</year>
-                    <day>1</day>
+                    <month>1</month>
                     <day>3</day>
                     <strich/>
                     <day>5</day>
@@ -4997,8 +4781,8 @@
                     <day>21</day>
                     <month>09</month>
                     <day>14</day>
-                    <year>1909</year>
-                    <day>11</day>
+                    <year>1909</year><month>01</month>
+                    <day>1</day>
                     <year>1911</year>
                     <month>09</month>
                     <day>19</day>
@@ -5991,8 +5775,8 @@
                     <day>23</day>
                     <month>06</month>
                     <day>10</day>
-                    <year>1912</year>
-                    <day>11</day>
+                    <year>1912</year><month>01</month>
+                    <day>1</day>
                     <year>1915</year>
                     <month>07</month>
                     <day>19</day>
@@ -6444,10 +6228,10 @@
                     <year>1914</year>
                     <month>09</month>
                     <day>13</day>
-                    <year>1915</year>
-                    <day>11</day>
-                    <year>1916</year>
+                    <year>1915</year><month>01</month>
                     <day>1</day>
+                    <year>1916</year>
+                    <month>1</month>
                     <day>8</day>
                     <year>1918</year>
                     <month>02</month>
@@ -6976,8 +6760,8 @@
                     <day>20</day>
                     <month>12</month>
                     <day>29</day>
-                    <year>1923</year>
-                    <day>11</day>
+                    <year>1923</year><month>01</month>
+                    <day>1</day>
                     <month>03</month>
                     <day>21</day>
                     <month>04</month>
@@ -10810,8 +10594,8 @@
                     <day>18</day>
                     <month>11</month>
                     <day>19</day>
-                    <year>1926</year>
-                    <day>19</day>
+                    <year>1926</year><month>01</month>
+                    <day>9</day>
                     <month>02</month>
                     <day>13</day>
                     <month>03</month>
@@ -11773,8 +11557,8 @@
                     <year>1926</year>
                     <month>12</month>
                     <day>31</day>
-                    <year>1927</year>
-                    <day>13</day>
+                    <year>1927</year><month>01</month>
+                    <day>3</day>
                     <year>1929</year>
                     <month>11</month>
                     <day>11</day>
@@ -12243,6 +12027,7 @@
                     <month>10</month>
                     <day>28</day>
                     <month>11</month>
+                    <day>13</day><month>12</month><day>10</day><year>1919</year><month>01</month><day>19</day><day>26</day><month>03</month><day>14</day>
                     <month>05</month>
                     <day>2</day>
                     <day>25</day>
@@ -12403,8 +12188,8 @@
                     <month>12</month>
                     <day>11</day>
                     <day>14</day>
-                    <year>1921</year>
-                    <day>17</day>
+                    <year>1921</year><month>01</month>
+                    <day>7</day>
                     <month>02</month>
                     <day>15</day>
                     <month>12</month>
@@ -13155,7 +12940,7 @@
                     <day>28</day>
                     <day>31</day>
                     <year>1913</year>
-                    <day>1</day>
+                    <month>1</month>
                     <day>3</day>
                     <strich/>
                     <day>5</day>
@@ -13882,7 +13667,7 @@
                     <day>25</day>
                     <day>31</day>
                     <year>1922</year>
-                    <day>1</day>
+                    <month>1</month>
                     <day>4</day>
                     <day>9</day>
                     <day>27</day>
@@ -14009,7 +13794,7 @@
                     <day>21</day>
                     <day>23</day>
                     <year>1930</year>
-                    <day>1</day>
+                    <month>1</month>
                     <day>10</day>
                     <day>29</day>
                     <month>02</month>
@@ -14049,8 +13834,8 @@
                     <day>11</day>
                 </item>
                 <item>
-                    <title>Reisebeschreibung</title>
-                    <year>1874</year>
+                    <title>Reisebeschreibung 1874</title>
+                   
                     <year>1914</year>
                     <month>01</month>
                     <day>6</day>
@@ -14329,8 +14114,8 @@
                     <day>11</day>
                     <month>12</month>
                     <day>29</day>
-                    <year>1913</year>
-                    <day>15</day>
+                    <year>1913</year><month>01</month>
+                    <day>5</day>
                     <month>05</month>
                     <day>11</day>
                     <day>28</day>
@@ -14375,8 +14160,8 @@
                     <month>06</month>
                     <day>6</day>
                     <day>7</day>
-                    <year>1921</year>
-                    <day>11</day>
+                    <year>1921</year><month>01</month>
+                    <day>1</day>
                     <year>1922</year>
                     <month>01</month>
                     <day>5</day>
@@ -14510,7 +14295,7 @@
                         Clauser</annotationBlock>
                     <year>1902</year>
                     <month>05</month>
-                    <month>02</month>
+                    <day>11</day>
                     <year>1903</year>
                     <month>03</month>
                     <day>19</day>
@@ -14582,8 +14367,8 @@
                     <month>05</month>
                     <day>14</day>
                     <day>18</day>
-                    <year>1925</year>
-                    <day>19</day>
+                    <year>1925</year><month>01</month>
+                    <day>9</day>
                     <year>1928</year>
                     <month>12</month>
                     <day>4</day>
@@ -15059,8 +14844,8 @@
                     <day>22</day>
                     <month>12</month>
                     <day>14</day>
-                    <year>1909</year>
-                    <day>11</day>
+                    <year>1909</year><month>01</month>
+                    <day>1</day>
                     <month>03</month>
                     <day>25</day>
                     <month>06</month>
@@ -15440,8 +15225,8 @@
                     <year>1926</year>
                     <month>08</month>
                     <day>31</day>
-                    <year>1927</year>
-                    <day>13</day>
+                    <year>1927</year><month>01</month>
+                    <day>3</day>
                     <month>10</month>
                     <day>22</day>
                     <month>12</month>
@@ -15726,7 +15511,7 @@
                     <day>18</day>
                     <day>21</day>
                     <year>1913</year>
-                    <day>1</day>
+                    <month>1</month>
                     <day>4</day>
                     <day>7</day>
                     <day>8</day>
@@ -16612,7 +16397,7 @@
                     <day>6</day>
                     <year>1917</year>
                     <month>05</month>
-                    <month>02</month>
+                    <day>11</day>
                     <year>1918</year>
                     <month>02</month>
                     <day>24</day>
@@ -16837,8 +16622,8 @@
                     <day>3</day>
                     <month>12</month>
                     <day>28</day>
-                    <year>1911</year>
-                    <day>14</day>
+                    <year>1911</year><month>01</month>
+                    <day>4</day>
                     <year>1912</year>
                     <month>04</month>
                     <day>12</day>
@@ -16948,8 +16733,8 @@
                     <month>06</month>
                     <day>5</day>
                     <day>14</day>
-                    <year>1909</year>
-                    <day>11</day>
+                    <year>1909</year><month>01</month>
+                    <day>1</day>
                     <month>11</month>
                     <day>24</day>
                     <month>12</month>
@@ -17237,8 +17022,8 @@
                     <day>4</day>
                     <day>9</day>
                     <day>13</day>
-                    <year>1922</year>
-                    <day>17</day>
+                    <year>1922</year><month>01</month>
+                    <day>7</day>
                     <month>03</month>
                     <day>20</day>
                     <month>04</month>
@@ -18386,10 +18171,10 @@
                     <year>1907</year>
                     <month>06</month>
                     <day>15</day>
-                    <year>1916</year>
-                    <day>18</day>
-                    <year>1920</year>
-                    <day>14</day>
+                    <year>1916</year><month>01</month>
+                    <day>8</day>
+                    <year>1920</year><month>01</month>
+                    <day>4</day>
                     <year>1921</year>
                     <month>06</month>
                     <day>18</day>
@@ -18754,8 +18539,8 @@
                     <day>9</day>
                     <strich/>
                     <day>11</day>
-                    <year>1909</year>
-                    <day>11</day>
+                    <year>1909</year><month>01</month>
+                    <day>1</day>
                     <year>1912</year>
                     <month>06</month>
                     <day>23</day>
@@ -21034,8 +20819,8 @@
                     <day>19</day>
                     <month>06</month>
                     <day>29</day>
-                    <year>1911</year>
-                    <day>14</day>
+                    <year>1911</year><month>01</month>
+                    <day>4</day>
                     <year>1912</year>
                     <month>05</month>
                     <day>5</day>
@@ -21081,7 +20866,7 @@
                     <month>10</month>
                     <day>10</day>
                     <year>1923</year>
-                    <day>1</day>
+                    <month>1</month>
                     <day>12</day>
                     <year>1924</year>
                     <month>02</month>
