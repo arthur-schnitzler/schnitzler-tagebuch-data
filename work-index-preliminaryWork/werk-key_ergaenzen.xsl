@@ -8,14 +8,14 @@
     <xsl:output method="xml" indent="yes"/>
     
     <xsl:param name="werke" select="document('works.xml')"/>
-    <xsl:key name="werk-lookup" match="row" use="Werk_Titel"/>
+    <xsl:key name="werk-lookup" match="row" use="substring(Werk_Titel, 1, 6)"/>
     
-    <xsl:template match="tei:title[ancestor::tei:body]">
+    <xsl:template match="tei:title[ancestor::tei:body and not(@key)]">
         <xsl:choose>
-            <xsl:when test="key('werk-lookup', text(), $werke) and not(key('werk-lookup', text(), $werke)[2])">
+            <xsl:when test="key('werk-lookup', text(), $werke) and not(key('werk-lookup', substring(text(), 1, 6), $werke)[2])">
                 <xsl:element name="tei:title" namespace="http://www.tei-c.org/ns/1.0">
                     <xsl:attribute name="tei:key">
-                        <xsl:value-of select="key('werk-lookup', text(), $werke)/Werk"/>
+                        <xsl:value-of select="key('werk-lookup', substring(text(), 1, 6), $werke)/Werk"/>
                     </xsl:attribute>
                     <xsl:apply-templates/>
                 </xsl:element>
