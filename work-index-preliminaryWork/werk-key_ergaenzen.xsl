@@ -12,7 +12,7 @@
     
     <xsl:template match="tei:title[ancestor::tei:body]">
         <xsl:choose>
-            <xsl:when test="key('werk-lookup', text(), $werke)">
+            <xsl:when test="key('werk-lookup', text(), $werke) and not(key('werk-lookup', text(), $werke)[2])">
                 <xsl:element name="tei:title" namespace="http://www.tei-c.org/ns/1.0">
                     <xsl:attribute name="tei:key">
                         <xsl:value-of select="key('werk-lookup', text(), $werke)/Werk"/>
