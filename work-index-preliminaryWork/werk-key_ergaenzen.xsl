@@ -8,7 +8,7 @@
     <xsl:output method="xml" indent="yes"/>
     
     <xsl:param name="werke" select="document('works.xml')"/>
-    <xsl:key name="werk-lookup" match="row" use="substring(Werk_Titel, 1, 6)"/>
+    <xsl:key name="werk-lookup" match="row" use="Werk_Titel"/>
     
     <xsl:template match="tei:title[ancestor::tei:body and not(@key)]">
         <xsl:choose>
