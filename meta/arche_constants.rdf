@@ -80,6 +80,6 @@
         <acdh:hasTitle type="literal">$doc//tei:titleStmt/tei:title[@type="main"]/text()|| " (Schnitzler Tagebuch Digital)"</acdh:hasTitle>
         <acdh:hasCoverageStartDate type="date">$doc//tei:titleStmt/tei:title[@type="iso-date"]/text()</acdh:hasCoverageStartDate>
         <acdh:isContinuedBy type="resource">$doc/@next</acdh:isContinuedBy>
-        <acdh:continues type="resource">$doc/@next</acdh:continues>
+        <acdh:continues type="resource">$doc/@pref</acdh:continues>
     </acdh:TeiLookUps>
 </acdh:ACDH>
