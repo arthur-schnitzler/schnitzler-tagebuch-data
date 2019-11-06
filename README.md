@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/186618600.svg)](https://zenodo.org/badge/latestdoi/186618600)
+
 # schnitzler-tagebuch-data
 Arthur Schnitzler: Tagebuch (1879–1931) Daten
 
