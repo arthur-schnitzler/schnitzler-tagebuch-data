@@ -1,76 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <netvisConfig xmlns="https://digital-archiv/ns/netvis/config">
     <Nodes>
-        <TeiDoc>
+        <Entity type="Brief">
+            <getId type="xpath">$entity-id</getId>
+            <getEntity type="xpath">doc($app:editions||'/'||$entity-id)//tei:TEI</getEntity>
             <mandatoryProps>
                 <id type="xpath">data($node/@xml:id)</id>
                 <label type="xpath">$node//tei:titleStmt/tei:title[@type="main"]/text()</label>
-                <detailView type="xpath">app:hrefToDoc($node, 'editions')</detailView>
+                <detail_view type="xpath">app:hrefToDoc($node, 'editions')</detail_view>
+                <as_graph type="xpath">concat('../pages/', app:hrefToDoc($node, 'editions'))</as_graph>
                 <type type="literal">Brief</type>
-                <text type="xpath">$node//tei:body//text()</text>
+                <text type="xpath">substring(normalize-space(string-join($node//tei:body//text(), ' ')), 1, 75)</text>
             </mandatoryProps>
             <relations>
                 <target>
-                    <color>#669900</color>
                     <xpath>$node//tei:back//tei:person</xpath>
                     <relationType>erwähnt</relationType>
                     <mandatoryProps>
                         <id type="xpath">data($node/@xml:id)</id>
                         <label type="xpath">normalize-space(string-join($node//tei:persName//text(), ' '))</label>
-                        <detailView type="literal">some_link</detailView>
+                        <detail_view type="literal">some_link</detail_view>
+                        <as_graph type="xpath">concat('../pages/', app:hrefToDoc($node, 'editions'))</as_graph>
                         <type type="literal">Person</type>
                         <relationType type="literal">erwähnt Person</relationType>
                     </mandatoryProps>
                 </target>
                 <target>
-                    <color>#669900</color>
                     <xpath>$node//tei:back//tei:place</xpath>
                     <relationType>erwähnt</relationType>
                     <mandatoryProps>
                         <id type="xpath">data($node/@xml:id)</id>
                         <label type="xpath">normalize-space(string-join($node//tei:placeName/text(), ' '))</label>
-                        <detailView type="literal">some_link</detailView>
+                        <detail_view type="literal">some_link</detail_view>
+                        <as_graph type="xpath">concat('../pages/', app:hrefToDoc($node, 'editions'))</as_graph>
                         <type type="literal">Place</type>
                         <relationType type="literal">erwähnt Ort</relationType>
                     </mandatoryProps>
                 </target>
                 <target>
-                    <color>#669900</color>
                     <xpath>$node//tei:back//tei:bibl</xpath>
                     <relationType>erwähnt</relationType>
                     <mandatoryProps>
-                        <id type="xpath">concat('bibl_', data($node/@xml:id))</id>
+                        <id type="xpath">'bibl_'||data($node/@xml:id)</id>
                         <label type="xpath">normalize-space(string-join($node/tei:title/text(), ' '))</label>
-                        <detailView type="literal">some_link</detailView>
+                        <detail_view type="literal">some_link</detail_view>
+                        <as_graph type="xpath">netvis:graph-url('bibl_'||data($node/@xml:id), 'Werk')</as_graph>
                         <type type="literal">Werk</type>
                         <relationType type="literal">erwähnt Werk</relationType>
                     </mandatoryProps>
                 </target>
             </relations>
-        </TeiDoc>
-        <Person>
-            <idLookup type="xpath"/>
-        </Person>
+        </Entity>
+        <Entity type="Werk">
+            <getId type="xpath">substring-after($entity-id, 'bibl_')</getId>
+            <getEntity type="xpath">doc($app:workIndex)//tei:title[@key=$id]/ancestor::tei:item</getEntity>
+            <mandatoryProps>
+                <id type="xpath">'bibl_'||data($node//tei:title/@key)</id>
+                <label type="xpath">$node//tei:title/text()</label>
+                <detail_view type="xpath">'../pages/work-search.html?searchkey='||data($node//tei:title/@key)</detail_view>
+                <as_graph type="xpath">netvis:graph-url('bibl_'||data($node//tei:title/@key), 'Werk')</as_graph>
+                <type type="literal">Werk</type>
+            </mandatoryProps>
+            <target>
+                <xpath>$node//tei:date</xpath>
+                <relationType>wird erwähnt in Brief</relationType>
+                <mandatoryProps>
+                    <id type="xpath">'entry__'||data($node/@when)||'.xml'</id>
+                    <label type="xpath">'Eintrag vom'||$node/text()</label>
+                    <detail_view type="literal">some_link</detail_view>
+                    <as_graph type="xpath">netvis:graph-url('entry__'||data($node/@when)||'.xml', 'Brief')</as_graph>
+                    <type type="literal">Brief</type>
+                    <relationType type="literal">wird erwähnt in Brief</relationType>
+                </mandatoryProps>
+            </target>
+        </Entity>
     </Nodes>
     <NodeTypes>
         <node>
             <id>Brief</id>
-            <color>#006699</color>
+            <color>#6b5b95</color>
             <label>Brief</label>
         </node>
         <node>
             <id>Person</id>
-            <color>#006692</color>
+            <color>#feb236</color>
             <label>Person</label>
         </node>
         <node>
             <id>Place</id>
-            <color>#006442</color>
+            <color>#d64161</color>
             <label>Place</label>
         </node>
         <node>
             <id>Werk</id>
-            <color>#007442</color>
+            <color>#ff7b25</color>
             <label>Werk</label>
         </node>
     </NodeTypes>
