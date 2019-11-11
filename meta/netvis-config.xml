@@ -8,7 +8,7 @@
                 <id type="xpath">data($node/@xml:id)</id>
                 <label type="xpath">$node//tei:titleStmt/tei:title[@type="main"]/text()</label>
                 <detail_view type="xpath">app:hrefToDoc($node, 'editions')</detail_view>
-                <as_graph type="xpath">concat('../pages/', app:hrefToDoc($node, 'editions'))</as_graph>
+                <as_graph type="xpath">netvis:graph-url($node/@xml:id, 'Tagebucheintrag')</as_graph>
                 <type type="literal">Tagebucheintrag</type>
                 <text type="xpath">substring(normalize-space(string-join($node//tei:body//text(), ' ')), 1, 75)</text>
             </mandatoryProps>
