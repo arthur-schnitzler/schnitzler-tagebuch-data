@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1902-02-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-02-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-02-04.xml">
-   <teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1888-08-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1888-08-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1888-08-16.xml">
+   <teiHeader>6
       <fileDesc>
          <titleStmt>
-            <title type="main">Montag, 3. Februar 1902</title>
-            <title type="iso-date">1902-02-03</title>
+            <title type="main">Mittwoch, 15. August 1888</title>
+            <title type="iso-date">1888-08-15</title>
             <title type="sub">Arthur Schnitzler Tagebuch 1879–1931</title>
             <author>
                <persName ref="http://d-nb.info/gnd/118609807">
@@ -90,13 +90,13 @@
                </licence>
             </availability>
             
-         <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F2C6-4</tei:idno>
+         <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E095-F</tei:idno>
             </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
-                  <title level="m">Tagebuch 1893-1902</title>
-                  <idno type="ISBN">978-3-7001-1636-3</idno>
+                  <title level="m">Tagebuch 1879-1892</title>
+                  <idno type="ISBN">978-3-7001-1185-6</idno>
                   <author>
                      <persName>
                         <forename>Arthur</forename>
@@ -138,12 +138,12 @@
                      <pubPlace>
                         <placeName>Wien</placeName>
                      </pubPlace>
-                     <date when="1989">1989</date>
+                     <date when="1988">1988</date>
                   </imprint>
-                  <biblScope unit="volume">1893-1902</biblScope>
-                  <biblScope unit="page">398</biblScope>
+                  <biblScope unit="volume">1879-1892</biblScope>
+                  <biblScope unit="page">235</biblScope>
                   <extent>
-                     <measure type="pages">504</measure>
+                     <measure type="pages">488</measure>
                   </extent>
                </monogr>
                <series>
@@ -178,10 +178,11 @@
    </teiHeader>
    <text>
       <body>
-         <div type="diary-day" xml:id="entry__1902-02-03">
-            <p xml:space="preserve"><date when="1902-02-03">3/2</date> <rs type="person" xml:id="pNt_18471" ref="#person_19832"><forename>O.</forename></rs> zieht mit <rs type="person" xml:id="pNt_18472" ref="#person_20386"><forename>Liesl</forename></rs> nach <rs type="place" xml:id="pl_03853" ref="#place_02031ed2507818d10a37c1a6bf0c9f9d">Mödling</rs>, Curhaus.</p>
+         <div type="diary-day">
+            <p xml:space="preserve"><date type="range">14, 15</date></p>
          </div>
       </body>
+      
    
     </text>
 </TEI>
