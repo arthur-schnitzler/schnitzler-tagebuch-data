@@ -19,7 +19,7 @@
                     <mandatoryProps>
                         <id type="xpath">data($node/@xml:id)</id>
                         <label type="xpath">normalize-space(string-join($node//tei:persName//text(), ' '))</label>
-                        <detail_view type="literal">some_link</detail_view>
+                        <detail_view type="xpath">concat('../pages/hits.html?searchkey=', data($node/@xml:id))</detail_view>
                         <as_graph type="xpath">netvis:graph-url($node/@xml:id, 'Person')</as_graph>
                         <type type="literal">Person</type>
                         <relationType type="literal">erwähnt Person</relationType>
@@ -31,7 +31,7 @@
                     <mandatoryProps>
                         <id type="xpath">data($node/@xml:id)</id>
                         <label type="xpath">normalize-space(string-join($node//tei:placeName//text(), ' '))</label>
-                        <detail_view type="literal">some_link</detail_view>
+                        <detail_view type="xpath">concat('../pages/hits.html?searchkey=', data($node/@xml:id))</detail_view>
                         <as_graph type="xpath">netvis:graph-url($node/@xml:id, 'Place')</as_graph>
                         <type type="literal">Place</type>
                         <relationType type="literal">wird erwähnt in Tagebucheintrag</relationType>
@@ -43,7 +43,7 @@
                     <mandatoryProps>
                         <id type="xpath">'bibl_'||data($node/@xml:id)</id>
                         <label type="xpath">normalize-space(string-join($node/tei:title/text(), ' '))</label>
-                        <detail_view type="literal">some_link</detail_view>
+                        <detail_view type="xpath">concat('../pages/work-search.html?searchkey=', data($node/@xml:id))</detail_view>
                         <as_graph type="xpath">netvis:graph-url('bibl_'||data($node/@xml:id), 'Werk')</as_graph>
                         <type type="literal">Werk</type>
                         <relationType type="literal">erwähnt Werk</relationType>
@@ -67,7 +67,7 @@
                 <mandatoryProps>
                     <id type="xpath">'entry__'||data($node/@when)||'.xml'</id>
                     <label type="xpath">'Eintrag vom'||$node/text()</label>
-                    <detail_view type="literal">some_link</detail_view>
+                    <detail_view type="xpath">concat('../pages/hits.html?searchkey=', data($node/@xml:id))</detail_view>
                     <as_graph type="xpath">netvis:graph-url('entry__'||data($node/@when)||'.xml', 'Tagebucheintrag')</as_graph>
                     <type type="literal">Tagebucheintrag</type>
                     <relationType type="literal">wird erwähnt in Tagebucheintrag</relationType>
@@ -80,7 +80,7 @@
             <mandatoryProps>
                 <id type="xpath">data($node/@xml:id)</id>
                 <label type="xpath">normalize-space(string-join($node//tei:persName//text(), ' '))</label>
-                <detail_view type="literal">some_link</detail_view>
+                <detail_view type="xpath">concat('../pages/hits.html?searchkey=', data($node/@xml:id))</detail_view>
                 <as_graph type="xpath">netvis:graph-url($node/@xml:id, 'Person')</as_graph>
                 <type type="literal">Person</type>
                 <relationType type="literal">wird erwähnt in Tagebucheintrag</relationType>
@@ -105,7 +105,7 @@
             <mandatoryProps>
                 <id type="xpath">data($node/@xml:id)</id>
                 <label type="xpath">normalize-space(string-join($node//tei:placeName//text(), ' '))</label>
-                <detail_view type="literal">some_link</detail_view>
+                <detail_view type="xpath">concat('../pages/hits.html?searchkey=', data($node/@xml:id))</detail_view>
                 <as_graph type="xpath">netvis:graph-url($node/@xml:id, 'Place')</as_graph>
                 <type type="literal">Place</type>
                 <relationType type="literal">wird erwähnt in Tagebucheintrag</relationType>
