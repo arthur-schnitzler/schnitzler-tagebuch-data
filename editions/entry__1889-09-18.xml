@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1889-09-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-09-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-09-19.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1889-09-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-09-17.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-09-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -90,7 +94,7 @@
                </licence>
             </availability>
             
-         <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E1B9-6</tei:idno>
+            <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E1B9-6</tei:idno>
             </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -176,6 +180,15 @@
       </encodingDesc>
       <profileDesc/>
    </teiHeader>
+   <facsimile xmlns="">
+      <graphics URL="419.jpg"/>
+      <graphics URL="420.jpg"/>
+      <graphics URL="421.jpg"/>
+      <graphics URL="422.jpg"/>
+      <graphics URL="423.jpg"/>
+      <graphics URL="424.jpg"/>
+      <graphics URL="425.jpg"/>
+   </facsimile>
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1889-09-18">
@@ -269,7 +282,7 @@ entwickelt sich nun zu dreien eine etwas befangene Conversation,
 ohne dass der Sache eigentlich Erwähnung gethan wird. Man hat das 
 Gefühl, als wenn man sich nicht böse wäre.― Wir scheiden als gute 
 Freunde. <persName xml:id="pNt_03882"><forename>Mz.</forename></persName> hat mir ein beschriebenes Fließpapier in die Hand 
-gedrückt. Solle ihr zum <rs type='place' ref='#place_burgtheater'>Burgtheater</rs> folgen.― Komme dorthin; wir 
+gedrückt. Solle ihr zum <rs type="place" ref="#place_burgtheater">Burgtheater</rs> folgen.― Komme dorthin; wir 
 sind beide von einer seltsamen trügerischen Hoffnung beseligt; es ist 
 uns, als wäre das Gewitter ohne Schaden vorbei gegangen.― Wir sind 
 guter Dinge; Abd. im Theater, <bibl>Alpenkönig und Menschenfeind</bibl>, wo sie 

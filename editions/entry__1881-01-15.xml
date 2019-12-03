@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1881-01-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1881-01-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1881-01-19.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1881-01-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1881-01-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1881-01-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -90,7 +94,7 @@
                </licence>
             </availability>
             
-         <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DDE5-A</tei:idno>
+            <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DDE5-A</tei:idno>
             </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -176,10 +180,13 @@
       </encodingDesc>
       <profileDesc/>
    </teiHeader>
+   <facsimile xmlns="">
+      <graphics URL="114.jpg"/>
+   </facsimile>
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1881-01-15">
-<p xml:space="preserve"><date when="1881-01-15">15/1</date> Samstag Abd.― Am 13. das erste Mal auf dem Eisplatze, am 11.
+            <p xml:space="preserve"><date when="1881-01-15">15/1</date> Samstag Abd.― Am 13. das erste Mal auf dem Eisplatze, am 11.
 <pb n="94"/>
 <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header"><fw place="top_left" type="pageNum">94</fw> <fw place="top_center"><date type="range">1881: 1 15 - 1 30</date></fw></tei:fw>
 im Concert <rs type="person" xml:id="pNt_00985" ref="#person_17807"><surname>Mancio</surname></rs>, wo <rs type="person" xml:id="pNt_00986" ref="#person_18320"><forename>Fany</forename> <surname>M.</surname></rs> sang, hinter <rs type="person" xml:id="pNt_00987" ref="#person_17368"><forename>Fany</forename></rs> gesessen, bei einem 
