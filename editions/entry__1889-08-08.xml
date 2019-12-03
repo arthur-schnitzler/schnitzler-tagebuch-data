@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1889-08-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-08-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-08-09.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1889-08-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-08-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-08-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -90,7 +94,7 @@
                </licence>
             </availability>
             
-         <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E190-3</tei:idno>
+            <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E190-3</tei:idno>
             </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -176,6 +180,13 @@
       </encodingDesc>
       <profileDesc/>
    </teiHeader>
+   <facsimile xmlns="">
+      <graphics URL="398.jpg"/>
+      <graphics URL="399.jpg"/>
+      <graphics URL="400.jpg"/>
+      <graphics URL="401.jpg"/>
+      <graphics URL="402.jpg"/>
+   </facsimile>
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1889-08-08">
@@ -184,7 +195,15 @@
             <p xml:space="preserve" rend="indent">Am 17. 7. Rendezvous mit <persName xml:id="pNt_03728"><forename>Mz.</forename></persName> in <placeName type="city" xml:id="pl_00770">Neulengbach</placeName>.</p>
             <p xml:space="preserve" rend="indent">Am 19. trafen wir uns Wald in <placeName type="city" xml:id="pl_00771">Rekawinkel</placeName>.― Es wurde heißer. Sie reißt sich los… Sie macht ihr Geständnis „Ich bin ein Mensch“. Ja, sie ist eine gefallene ― Dann beruhigt sie sich, ist süß und lieb ― wir liegen im Grase ― und beinahe! ―</p>
             <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header">
-               <pb n="259"/><seg type="header"><fw place="top_center"><date>1889: VIII 8 </date></fw><fw place="top_right" type="pageNum">259</fw></seg></tei:fw><p xml:space="preserve" rend="indent">zwei Tage drauf treffen wir uns wieder; sie schämt sich ― es ist alles vorbei ― Dann wieder: Ja ― wir werden glücklich sein! Ich verrückt.― Wie zu <persName xml:id="pNt_03729"><forename>Fännchens</forename></persName> Zeiten… Muss mich berauschen.</p>
+               <pb n="259"/>
+               <seg type="header">
+                  <fw place="top_center">
+                     <date>1889: VIII 8 </date>
+                  </fw>
+                  <fw place="top_right" type="pageNum">259</fw>
+               </seg>
+            </tei:fw>
+            <p xml:space="preserve" rend="indent">zwei Tage drauf treffen wir uns wieder; sie schämt sich ― es ist alles vorbei ― Dann wieder: Ja ― wir werden glücklich sein! Ich verrückt.― Wie zu <persName xml:id="pNt_03729"><forename>Fännchens</forename></persName> Zeiten… Muss mich berauschen.</p>
             <p xml:space="preserve" rend="indent">― Wie sie die Bücher vergraben hat ―</p>
             <p xml:space="preserve" rend="indent">Das weite Land!―</p>
             <p xml:space="preserve" rend="indent">Im Gras!</p>
@@ -203,7 +222,15 @@
             <p xml:space="preserve" rend="indent">― Und jetzt eben bekomm ich einen Brief von ihr, von <persName xml:id="pNt_03740"><forename>Mz.</forename></persName>, ― meine Briefe sind von ihrer Mutter gefunden ― „alles ist aus“ ― Ich weiss mich nicht aus vor Aufregung. Ich bin verliebt wie ein Narr, wie ein Kind ― Ich soll morgen eine Fußpartie beginnen ― bin in einer Stimmung, dass ich mir den Tod wünsche. Es ist unglaublich! Dieses Mädl hat mich verzaubert, wahnsinnig gemacht ― Ich hoffe ― die Sache, das Brief Malheur wird sich geben ― aber bis dahin! bis ich wieder einen Brief, bis ich Aufklärung habe!―</p>
             <p xml:space="preserve" rend="indent">Ich bin der Verzweiflung nahe ― Mir ist, als sänke mit diesem süßen Mädl all mein Lebensglück hin! Ich habe nur mehr einen Gedanken! sie! eine Sehnsucht! sie wiederzusehn. Es ist toll! unglaublich!―</p>
             <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header">
-               <pb n="260"/><seg type="header"><fw place="top_left" type="pageNum">260</fw> <fw place="top_center"><date type="range">1889: VIII 8 - VIII 18</date></fw></seg></tei:fw><p xml:space="preserve" rend="indent">Und jetzt, ― diese Ungewißheit vielleicht Tage und Wochen lang! Und vielleicht wirklich aus!―</p>
+               <pb n="260"/>
+               <seg type="header">
+                  <fw place="top_left" type="pageNum">260</fw> 
+                  <fw place="top_center">
+                     <date type="range">1889: VIII 8 - VIII 18</date>
+                  </fw>
+               </seg>
+            </tei:fw>
+            <p xml:space="preserve" rend="indent">Und jetzt, ― diese Ungewißheit vielleicht Tage und Wochen lang! Und vielleicht wirklich aus!―</p>
             <p xml:space="preserve" rend="indent">Dabei kam zugleich mit dem Brief <persName xml:id="pNt_03741"><forename>Mizis</forename></persName> ― einer von <persName xml:id="pNt_03742"><forename>Jean.</forename></persName>, tief traurig!― In Wahrheit viel trauriger. Sie ist krank, ist unglücklich ― Und das, das Unglück dieses Mädls, mit der ich 2 Jahre gelebt, die ich angebetet habe! all das läßt mich ganz kalt im Verhältnis zu der Ungewißheit wegen <persName xml:id="pNt_03743"><forename>Mizi</forename></persName>!― Es ist unfaßbar!― Und das ist nicht alles! Andres ist noch da, mich vollends hin zu machen ― Mein <rs type="allusively" xml:id="rst_00085">Vater</rs> bei der Abreise sehr gekränkt über mich wegen nächtlichem Ausbleiben sagt: „Ich bin vernichtet“ ―</p>
             <p xml:space="preserve" rend="indent">― Und da bin ich jetzt, weiß nicht, wie mich halten, um nicht zu zerspringen ― Und dabei fühl ich ganz gut ― eigentlich ― ist es nur das, oder die eine! Wie wohl, wie glücklich wäre ich in diesem Augenblick ― wenn einfach ein Brief von <persName xml:id="pNt_03744"><forename>Mz.</forename></persName> käme ― Alles wieder gut! an <seg rend="italicised">dem</seg> Tag sehen wir uns wieder!―</p>
             <p xml:space="preserve" rend="indent">― Wieder einmal hab ich das Gefühl, daß ich noch nie, noch nie so elend war!</p>
