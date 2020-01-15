@@ -159,7 +159,7 @@
         <acdh:isContinuedBy type="resource">$item/@next</acdh:isContinuedBy>
         <acdh:continues type="resource">$item/@pref</acdh:continues>
         <acdh:isPartOf type="resource">$item/@xml:base</acdh:isPartOf>
-        
+        <acdh:hasSource type="resource_many">$item//tei:graphic/@url</acdh:hasSource>
     </acdh:TeiLookUps>
     
     <!-- mapping  tei:person to arche:Person -->
