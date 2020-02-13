@@ -140,10 +140,9 @@
     <acdh:RepoObject>
         <acdh:hasLicense rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"/>
-        <acdh:hasLifeCycleStatus rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelifecyclestatus/active"/>
-        <acdh:hasLicensor rdf:resource="https://viaf.org/viaf/6515148451584915970000/"/> <!-- ACDH -->
-        <acdh:hasContact rdf:resource="https://viaf.org/viaf/6515148451584915970000/"/> <!-- ACDH -->
-        <acdh:hasOwner rdf:resource="https://viaf.org/viaf/6515148451584915970000/"/>
+        <acdh:hasLicensor rdf:resource="https://viaf.org/viaf/6515148451584915970000"/> <!-- ACDH -->
+        <acdh:hasContact rdf:resource="https://viaf.org/viaf/6515148451584915970000"/> <!-- ACDH -->
+        <acdh:hasOwner rdf:resource="https://viaf.org/viaf/6515148451584915970000"/>
         <acdh:hasRightsHolder rdf:resource="http://viaf.org/viaf/141440509"/><!-- ÖAW -->
         <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/601"/> <!-- Geschichte, Archäologie -->
         <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602"/> <!-- Sprach- und Literaturwissenschaften -->
@@ -172,6 +171,7 @@
         <acdh:hasCoverageStartDate type="date">$item//tei:titleStmt/tei:title[@type="iso-date"]/text()</acdh:hasCoverageStartDate>
         <acdh:isContinuedBy type="resource">$item/@next</acdh:isContinuedBy>
         <acdh:continues type="resource">$item/@pref</acdh:continues>
+        <acdh:hasPid type="resource">$item//tei:publicationStmt/tei:idno/text()</acdh:hasPid>
         <acdh:isPartOf type="resource">$item/@xml:base</acdh:isPartOf>
         <acdh:hasSource type="resource_many">$item//tei:graphic/@url</acdh:hasSource>
     </acdh:TeiLookUps>
