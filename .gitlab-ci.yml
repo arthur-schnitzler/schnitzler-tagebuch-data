@@ -1,0 +1,11 @@
+stages:
+  - deploy
+
+deploy:
+  only:
+    refs:
+      - development
+      - master
+  stage: deploy
+  trigger: acdh-oeaw/schnitzler-tagebuch-docker
+
