@@ -76,7 +76,7 @@
         </Entity>
         <Entity type="Person">
             <getId type="xpath">$entity-id</getId>
-            <getEntity type="xpath">doc($app:personIndex)//tei:person[@xml:id=$id]</getEntity>
+            <getEntity type="xpath">doc($app:personIndex)//id($id)</getEntity>
             <mandatoryProps>
                 <id type="xpath">data($node/@xml:id)</id>
                 <label type="xpath">normalize-space(string-join($node//tei:persName//text(), ' '))</label>
@@ -86,7 +86,7 @@
                 <relationType type="literal">wird erwähnt in Tagebucheintrag</relationType>
             </mandatoryProps>
             <target>
-                <xpath>collection($app:editions)//tei:TEI[.//*/@xml:id=data($node/@xml:id)]</xpath>
+                <xpath>collection($app:editions)/id($node/@xml:id)/ancestor::tei:TEI</xpath>
                 <relationType>wird erwähnt in Tagebucheintrag</relationType>
                 <mandatoryProps>
                     <id type="xpath">data($node/@xml:id)</id>
@@ -101,7 +101,7 @@
         </Entity>
         <Entity type="Place">
             <getId type="xpath">$entity-id</getId>
-            <getEntity type="xpath">doc($app:placeIndex)//tei:place[@xml:id=$id]</getEntity>
+            <getEntity type="xpath">doc($app:placeIndex)//id($id)</getEntity>
             <mandatoryProps>
                 <id type="xpath">data($node/@xml:id)</id>
                 <label type="xpath">normalize-space(string-join($node//tei:placeName//text(), ' '))</label>
@@ -111,7 +111,7 @@
                 <relationType type="literal">wird erwähnt in Tagebucheintrag</relationType>
             </mandatoryProps>
             <target>
-                <xpath>collection($app:editions)//tei:TEI[.//*/@xml:id=data($node/@xml:id)]</xpath>
+                <xpath>collection($app:editions)/id($node/@xml:id)/ancestor::tei:TEI</xpath>
                 <relationType>wird erwähnt in Tagebucheintrag</relationType>
                 <mandatoryProps>
                     <id type="xpath">data($node/@xml:id)</id>
