@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1906-05-07.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-05-06.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-05-08.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-05-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-05-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-05-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -94,7 +90,7 @@
                </licence>
             </availability>
             
-            <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F8B9-D</tei:idno>
+         <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F8B9-D</tei:idno>
             </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -144,7 +140,7 @@
                      <date when="1991">1991</date>
                   </imprint>
                   <biblScope unit="volume">1903-1908</biblScope>
-                  <biblScope unit="page">200</biblScope>
+                  <biblScope unit="page">398</biblScope>
                   <extent>
                      <measure type="pages">492</measure>
                   </extent>
@@ -179,10 +175,6 @@
       </encodingDesc>
       <profileDesc/>
    </teiHeader>
-   <facsimile>
-      <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2223.tif"/>
-      <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2224.tif"/>
-   </facsimile>
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1906-05-07">
@@ -192,7 +184,7 @@
 Neulich, nachdem er sekkant gewesen und allerlei Fragen gestellt: Warum 
 heut Milch? …Warum den Lochsessel? …Warum hab ich 
 keinen Löffel etc. ― endlich: „Warum so ßlimm ―?“ ―</p>
-            <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_14971">Roman</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_14971" ref="#genID__bibl_b5df36ac79aa6391ffb432b9e5ad7880">Roman</rs>.―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_24901" ref="#person_19559"><surname>Samuelys</surname></rs>.― Blühender Garten, Gewitterstimmung.―</p>
          </div>
       </body>
