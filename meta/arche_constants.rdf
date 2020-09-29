@@ -78,16 +78,16 @@
             <acdh:hasFirstName xml:lang="de">Walter</acdh:hasFirstName>
         </acdh:Person>
 
-        <acdh:Organisation rdf:about="https://id.acdh.oeaw.ac.at/verlagoeaw">
+        <!-- <acdh:Organisation rdf:about="https://id.acdh.oeaw.ac.at/verlagoeaw">
             <acdh:hasTitle xml:lang="de">Verlag der Österreichischen Akademie der Wissenschaften</acdh:hasTitle>
             <acdh:hasIdentifier rdf:resource="https://viaf.org/viaf/236805538"/>
             <acdh:hasAddressLine1>Dr. Ignaz Seipel Platz 2</acdh:hasAddressLine1>
             <acdh:hasPostcode>A-1010</acdh:hasPostcode>
             <acdh:hasCity xml:lang="de">Wien</acdh:hasCity>
             <acdh:isMemberOf rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"/>
-            <acdh:hasUrl rdf:resource="https://verlag.oeaw.ac.at/"/>
+            <acdh:hasUrl>https://verlag.oeaw.ac.at/</acdh:hasUrl>
             <acdh:hasEmail>verlag@oeaw.ac.at</acdh:hasEmail>
-        </acdh:Organisation>
+        </acdh:Organisation> -->
 
         <acdh:Publication rdf:about="https://id.acdh.oeaw.ac.at/pub-schnitzler-tagebuchgesamtwerk">
             <acdh:hasTitle xml:lang="de">Arthur Schnitzler Tagebuch 1879-1931. Gesamtwerk</acdh:hasTitle>
@@ -112,7 +112,7 @@
                 1927–1930. (Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach, 1997)
                 1931. Gesamtverzeichnisse 1897–1931. (Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach, 2000).</acdh:hasDescription>
             <acdh:hasExtent xml:lang="de">4947 Seiten</acdh:hasExtent>
-            <acdh:hasPublisher rdf:resource="https://id.acdh.oeaw.ac.at/verlagoeaw"/>
+            <acdh:hasPublisher xml:lang="de">Verlag der Österreichischen Akademie der Wissenschaften</acdh:hasPublisher>
             <acdh:hasAvailableDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1981</acdh:hasAvailableDate>
             <acdh:hasCreatedStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1981-01-01</acdh:hasCreatedStartDate>
             <acdh:hasCreatedEndDate>2000-12-31</acdh:hasCreatedEndDate>
@@ -121,7 +121,7 @@
     </acdh:MetaAgents>
 
     <acdh:CollStruct>
-        <acdh:TopColl url="https://id.acdh.oeaw.ac.at/schnitzler/">
+        <acdh:TopColl url="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch">
             <acdh:hasTitle xml:lang="de">Arthur Schnitzler Tagebuch (1879-1931)</acdh:hasTitle>
             <acdh:hasDescription xml:lang="de">
                 Die Tagebucheinträge von Arthur Schnitzler kodiert in XML/TEI, ergänzt um ein Personen- sowie Ortsregister.
@@ -168,16 +168,19 @@
 
     <!-- Resource specific mandatory or very nice to have constant properties -->
     <acdh:SpecResource collection="editions">
-        <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"/> <!-- TEI encoded texts -->
+        <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"/>
+        <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"/>
+        <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"/>
+        <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"/>
     </acdh:SpecResource>
 
     <!-- maps arche props to their values via xpath expressions; be aware the current TEI document needs to be encoded as '$doc' -->
     <acdh:TeiLookUps>
         <acdh:hasTitle type="literal">$item//tei:titleStmt/tei:title[@type="main"]/text()|| " (Schnitzler Tagebuch Digital)"</acdh:hasTitle>
         <acdh:hasCoverageStartDate type="date">$item//tei:titleStmt/tei:title[@type="iso-date"]/text()</acdh:hasCoverageStartDate>
-        <acdh:isContinuedBy type="resource">$item/@next</acdh:isContinuedBy>
+        <!-- <acdh:isContinuedBy type="resource">$item/@next</acdh:isContinuedBy> -->
         <acdh:continues type="resource">$item/@pref</acdh:continues>
-        <acdh:hasPid type="resource">$item//tei:publicationStmt/tei:idno/text()</acdh:hasPid>
+        <acdh:hasPid type="literal">$item//tei:publicationStmt/tei:idno/text()</acdh:hasPid>
         <acdh:isPartOf type="resource">$item/@xml:base</acdh:isPartOf>
         <acdh:hasSource type="resource_many">$item//tei:graphic/@url</acdh:hasSource>
     </acdh:TeiLookUps>
