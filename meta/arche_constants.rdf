@@ -181,7 +181,7 @@
         <!-- <acdh:isContinuedBy type="resource">$item/@next</acdh:isContinuedBy> -->
         <acdh:continues type="resource">$item/@pref</acdh:continues>
         <acdh:hasPid type="literal">$item//tei:publicationStmt/tei:idno/text()</acdh:hasPid>
-        <acdh:isPartOf type="resource">$item/@xml:base</acdh:isPartOf>
+        <acdh:isPartOf type="resource">concat($item/@xml:base, '/',  substring-before($item//tei:title[@type="iso-date"]/text(), '-'))</acdh:isPartOf>
         <acdh:hasSource type="resource_many">$item//tei:graphic/@url</acdh:hasSource>
     </acdh:TeiLookUps>
 
