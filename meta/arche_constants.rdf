@@ -93,6 +93,7 @@
             <acdh:hasTitle xml:lang="de">Arthur Schnitzler Tagebuch 1879-1931. Gesamtwerk</acdh:hasTitle>
             <acdh:hasNonLinkedIdentifier>ISBN 978-3-7001-0395-0</acdh:hasNonLinkedIdentifier>
             <!-- AS hasAuthor und/oder hasActor ?? -->
+            <acdh:hasEditor rdf:resource="https://d-nb.info/gnd/1145358152"/>
             <acdh:hasEditor rdf:resource="https://id.acdh.oeaw.ac.at/wwelzig"/>
             <acdh:hasEditor rdf:resource="https://id.acdh.oeaw.ac.at/spertlik"/>
             <acdh:hasEditor rdf:resource="https://id.acdh.oeaw.ac.at/rurbach"/>
@@ -100,23 +101,17 @@
             <acdh:hasEditor rdf:resource="https://id.acdh.oeaw.ac.at/rmiklin"/>
             <acdh:hasEditor rdf:resource="https://id.acdh.oeaw.ac.at/mneyes"/>
             <acdh:hasEditor rdf:resource="https://id.acdh.oeaw.ac.at/wruprechter"/>
-            <acdh:hasDescription xml:lang="de">Tagebuch 1879–1931. Herausgegeben von der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig. Wien: Verlag der Österreichischen Akademie der Wissenschaften, 1981–2000.
-                1879–1892. (Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach, 1987)
-                1893–1902. (Unter Mitwirkung von Peter Michael Braunwarth, Konstanze Fliedl, Susanne Pertlik und Reinhard Urbach, 1989)
-                1903–1908. (Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach, 1991)
-                1909–1912. (Unter Mitwirkung von Peter Michael Braunwarth, Richard Miklin, Maria Neyses, Susanne Pertlik, Walter Ruprechter und Reinhard Urbach, 1981)
-                1913–1916. (Unter Mitwirkung von Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik, Walter Ruprechter und Reinhard Urbach, 1983)
-                1917–1919. (Unter Mitwirkung von Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Reinhard Urbach, 1985)
-                1920–1922. (Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach, 1993)
-                1923–1926. (Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach, 1995)
-                1927–1930. (Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach, 1997)
-                1931. Gesamtverzeichnisse 1897–1931. (Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach, 2000).</acdh:hasDescription>
+            <acdh:hasDescription xml:lang="de">Tagebuch 1879–1931. Herausgegeben von der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig. Wien: Verlag der Österreichischen Akademie der
+                Wissenschaften, 1981–2000. 1879–1892. (Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach, 1987) 1893–1902. (Unter Mitwirkung von Peter Michael Braunwarth, Konstanze Fliedl, Susanne Pertlik und Reinhard Urbach, 1989)
+                1903–1908. (Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach, 1991) 1909–1912. (Unter Mitwirkung von Peter Michael Braunwarth, Richard Miklin, Maria Neyses, Susanne Pertlik, Walter Ruprechter und Reinhard Urbach,
+                1981) 1913–1916. (Unter Mitwirkung von Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik, Walter Ruprechter und Reinhard Urbach, 1983) 1917–1919. (Unter Mitwirkung von Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Reinhard
+                Urbach, 1985) 1920–1922. (Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach, 1993) 1923–1926. (Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach, 1995) 1927–1930. (Unter Mitwirkung von
+                Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach, 1997) 1931. Gesamtverzeichnisse 1897–1931. (Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach, 2000).</acdh:hasDescription>
             <acdh:hasExtent xml:lang="de">4947 Seiten</acdh:hasExtent>
             <acdh:hasPublisher xml:lang="de">Verlag der Österreichischen Akademie der Wissenschaften</acdh:hasPublisher>
-            <acdh:hasAvailableDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1981</acdh:hasAvailableDate>
-            <acdh:hasCreatedStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1981-01-01</acdh:hasCreatedStartDate>
-            <acdh:hasCreatedEndDate>2000-12-31</acdh:hasCreatedEndDate>
+            <acdh:hasIssuedDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1981</acdh:hasIssuedDate>
             <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"/>
+            <acdh:hasCity xml:lang="de">Wien</acdh:hasCity>
         </acdh:Publication>
     </acdh:MetaAgents>
 
