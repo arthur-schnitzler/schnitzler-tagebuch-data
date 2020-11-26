@@ -122,18 +122,22 @@
                 Die Tagebucheinträge von Arthur Schnitzler kodiert in XML/TEI, ergänzt um ein Personen- sowie Ortsregister.
             </acdh:hasDescription>
             <acdh:hasActor rdf:resource="https://d-nb.info/gnd/118609807"/> <!-- Schnitzler -->
-            <acdh:hasCoverageStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1879</acdh:hasCoverageStartDate>
-            <acdh:hasCoverageEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1931</acdh:hasCoverageEndDate>
+            <acdh:hasCoverageStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1879-03-03</acdh:hasCoverageStartDate>
+            <acdh:hasCoverageEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1931-10-19</acdh:hasCoverageEndDate>
             <acdh:hasSubject xml:lang="de">Tagebuch</acdh:hasSubject>
             <acdh:hasSubject xml:lang="de">Literarisches Werk</acdh:hasSubject>
         </acdh:TopColl>
         <acdh:DataColl name="editions">
             <acdh:hasTitle xml:lang="de">Editionen</acdh:hasTitle>
             <acdh:hasDescription xml:lang="de">XML/TEI Dokumente des Tagebuchs von Arthur Schnitzler</acdh:hasDescription>
+            <acdh:hasCoverageStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1879-03-03</acdh:hasCoverageStartDate>
+            <acdh:hasCoverageEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1931-10-19</acdh:hasCoverageEndDate>
         </acdh:DataColl>
         <acdh:DataColl name="indices">
             <acdh:hasTitle xml:lang="de">Register</acdh:hasTitle>
             <acdh:hasDescription xml:lang="de">XML/TEI kodiertes Orts- und Personenregister</acdh:hasDescription>
+            <acdh:hasCoverageStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1879-03-03</acdh:hasCoverageStartDate>
+            <acdh:hasCoverageEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1931-10-19</acdh:hasCoverageEndDate>
         </acdh:DataColl>
     </acdh:CollStruct>
 
@@ -173,6 +177,7 @@
     <acdh:TeiLookUps>
         <acdh:hasTitle type="literal">$item//tei:titleStmt/tei:title[@type="main"]/text()|| " (Schnitzler Tagebuch Digital)"</acdh:hasTitle>
         <acdh:hasCoverageStartDate type="date">$item//tei:titleStmt/tei:title[@type="iso-date"]/text()</acdh:hasCoverageStartDate>
+        <acdh:hasCoverageEndDate type="date">$item//tei:titleStmt/tei:title[@type="iso-date"]/text()</acdh:hasCoverageEndDate>
         <!-- <acdh:isContinuedBy type="resource">$item/@next</acdh:isContinuedBy> -->
         <acdh:continues type="resource">$item/@pref</acdh:continues>
         <acdh:hasPid type="literal">$item//tei:publicationStmt/tei:idno/text()</acdh:hasPid>
