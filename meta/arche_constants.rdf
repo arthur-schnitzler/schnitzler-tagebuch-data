@@ -124,6 +124,7 @@
             <acdh:hasActor rdf:resource="https://d-nb.info/gnd/118609807"/> <!-- Schnitzler -->
             <acdh:hasCoverageStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1879-03-03</acdh:hasCoverageStartDate>
             <acdh:hasCoverageEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1931-10-19</acdh:hasCoverageEndDate>
+            <acdh:hasSource rdf:resource="https://id.acdh.oeaw.ac.at/pub-schnitzler-tagebuchgesamtwerk"/>
             <acdh:hasSubject xml:lang="de">Tagebuch</acdh:hasSubject>
             <acdh:hasSubject xml:lang="de">Literarisches Werk</acdh:hasSubject>
         </acdh:TopColl>
@@ -132,12 +133,14 @@
             <acdh:hasDescription xml:lang="de">XML/TEI Dokumente des Tagebuchs von Arthur Schnitzler</acdh:hasDescription>
             <acdh:hasCoverageStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1879-03-03</acdh:hasCoverageStartDate>
             <acdh:hasCoverageEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1931-10-19</acdh:hasCoverageEndDate>
+            <acdh:hasSource rdf:resource="https://id.acdh.oeaw.ac.at/pub-schnitzler-tagebuchgesamtwerk"/>
         </acdh:DataColl>
         <acdh:DataColl name="indices">
             <acdh:hasTitle xml:lang="de">Register</acdh:hasTitle>
             <acdh:hasDescription xml:lang="de">XML/TEI kodiertes Orts- und Personenregister</acdh:hasDescription>
             <acdh:hasCoverageStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1879-03-03</acdh:hasCoverageStartDate>
             <acdh:hasCoverageEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1931-10-19</acdh:hasCoverageEndDate>
+            <acdh:hasSource rdf:resource="https://id.acdh.oeaw.ac.at/pub-schnitzler-tagebuchgesamtwerk"/>
         </acdh:DataColl>
     </acdh:CollStruct>
 
@@ -162,7 +165,8 @@
         <acdh:hasCurator rdf:resource="https://d-nb.info/gnd/1043833846"/> <!-- Peter Andorfer -->
         <acdh:hasDepositor rdf:resource="https://d-nb.info/gnd/1043833846"/>
         <acdh:hasMetadataCreator rdf:resource="https://d-nb.info/gnd/1043833846"/>
-        <acdh:hasSource rdf:resource="https://id.acdh.oeaw.ac.at/pub-schnitzler-tagebuchgesamtwerk"/>
+        <acdh:relation rdf:resource="https://id.acdh.oeaw.ac.at/pub-schnitzler-tagebuchgesamtwerk"/>
+        <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"/>
     </acdh:RepoObject>
 
     <!-- Resource specific mandatory or very nice to have constant properties -->
@@ -170,7 +174,6 @@
         <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"/>
         <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"/>
         <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"/>
-        <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"/>
     </acdh:SpecResource>
 
     <!-- maps arche props to their values via xpath expressions; be aware the current TEI document needs to be encoded as '$doc' -->
