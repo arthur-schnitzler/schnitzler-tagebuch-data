@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1929-11-01.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-10-31.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-11-02.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-11-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-10-31.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-11-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,13 +173,12 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7375.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1929-11-01">
             <p xml:space="preserve"><date when="1929-11-01">1/11</date> ― Tel. mit <rs type="person" xml:id="pNt_87957" ref="#person_14234"><forename>Suz.</forename> <surname>Cl.</surname></rs>―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_87958" ref="#person_18720"><forename>Leo</forename> <surname>Perutz</surname></rs> bei mir. <rs type="place" xml:id="pl_18964" ref="#place_95ecca0e62ec2768ab1586ca5fd8801f" ana="#exclude">Amerik.</rs> Tonfilmgespräch; andre geschäftliche 
@@ -197,11 +191,9 @@ Erfahrungen. Lebendiger, warmer Mensch.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_87964" ref="#person_16293"><surname>Hofmannsthal</surname></rs> Heft <rs type="work" subtype="newspaper" xml:id="bibl_680">N. R.</rs> Ein wundervoller Aufsatz (Rede Dichterakademie) 
 <rs type="person" xml:id="pNt_87965" ref="#person_21107"><forename>Jakobs</forename></rs> über <rs type="work" xml:id="bibl_681"><rs type="person" xml:id="pNt_87966" ref="#person_16293"><forename>Hugo</forename></rs> als Freund</rs>.―</p>
             <p xml:space="preserve" rend="indent">Z. N. <rs type="person" xml:id="pNt_87967" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>, <rs type="person" xml:id="pNt_87968" ref="#person_17784"><forename>Alma</forename></rs>, <rs type="person" xml:id="pNt_87969" ref="#person_21243"><surname>Werfel</surname></rs>, <rs type="person" xml:id="pNt_87970" ref="#person_21594"><roleName>Hofr.</roleName> <surname>Z.</surname></rs>― ― <rs type="person" xml:id="pNt_87971" ref="#person_17784"><forename>Alma</forename></rs> war etwas praeoccupirt, 
-durch ein neues Erlebnis ihrer Tochter <rs type="person" xml:id="pNt_87972" ref="#person_16321"><forename>Annie</forename></rs>;― mit der <rs type="allusively" xml:id="rst_02179">Hofr.</rs> über 
+durch ein neues Erlebnis ihrer Tochter <rs ref="#person_21584" fix="ja" type="person" xml:id="pNt_87972"><forename>Annie</forename></rs>;― mit der <rs type="allusively" xml:id="rst_02179">Hofr.</rs> über 
 <rs type="place" xml:id="pl_18966" ref="#place_4949bd5f4356074941523ed82733267e" ana="#exclude">Pariser</rs> Möglichkeiten (<rs type="work" subtype="self" xml:id="bibl_682">Reigen</rs> etc.) ―</p>
             <p xml:space="preserve" rend="indent">Lese die „<rs type="work" xml:id="bibl_683">Barbara</rs>“ von <rs type="person" xml:id="pNt_87973" ref="#person_21243"><surname>Werfel</surname></rs>.</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

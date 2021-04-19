@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1910-02-22.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-02-21.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-02-23.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-02-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-02-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-02-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,13 +173,12 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2856.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1910-02-22">
             <p xml:space="preserve"><date when="1910-02-22">22/2</date> <rs type="place" xml:id="pl_06955" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs>, mit <rs type="person" xml:id="pNt_32101" ref="#person_13913"><surname>Brahm</surname></rs>.</p>
             <pb n="129"/>
@@ -194,10 +188,8 @@
                </fw>
                <fw n="129" place="top_right" type="pageNum">129</fw>
             </tei:fw>
-            <p xml:space="preserve" rend="indent">Dort <rs type="person" xml:id="pNt_32102" ref="#person_19542"><surname>Saltens</surname></rs> (<rs type="person" xml:id="pNt_32103" ref="#person_20237"><roleName>Frau</roleName> <surname>Specht</surname></rs>, Fr. <rs type="person" xml:id="pNt_32104" ref="#person_14014"><forename>Ignaz</forename> <surname>Brüll</surname></rs> mit Töchtern). 
+            <p xml:space="preserve" rend="indent">Dort <rs type="person" xml:id="pNt_32102" ref="#person_19542"><surname>Saltens</surname></rs> (<rs type="person" xml:id="pNt_32103" ref="#person_20237"><roleName>Frau</roleName> <surname>Specht</surname></rs>, Fr. <rs ref="#person_14016" fix="ja" type="person" xml:id="pNt_32104"><forename>Ignaz</forename><surname>Brüll</surname></rs> mit Töchtern). 
 Spaziergang mit <rs type="person" xml:id="pNt_32105" ref="#person_13913"><surname>Brahm</surname></rs>. Kothwetter.</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

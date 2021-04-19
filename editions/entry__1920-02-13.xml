@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1920-02-13.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-02-12.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-02-14.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-02-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-02-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-02-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,21 +173,20 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5025.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5026.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5027.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1920-02-13">
             <p xml:space="preserve"><date when="1920-02-13">13/2</date> Vm. dict. <rs type="work" subtype="self" xml:id="bibl_3895">Med. Film</rs>, geht ganz gut.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_58000" ref="#person_19832"><forename>O.</forename></rs> kommt von dem Gesangslehrer <rs type="person" xml:id="pNt_58001" ref="#person_15357"><surname>Gau</surname></rs>, dem sie vorgesungen ― er 
 weiß nur, daß das „nicht ihre Stimme“ ist;― <rs type="person" xml:id="pNt_58002" ref="#person_19832"><forename>O.</forename></rs> verspricht sich, 
 nach Erfahrungen andrer, und nach Anhören andrer Schülerinnen in 
-seiner Lection, der sie mit <rs type="person" xml:id="pNt_58003"><forename>Käte</forename> <surname>Stern</surname></rs> beiwohnte, was für die 
+seiner Lection, der sie mit <rs ref="#person_20418" fix="ja" type="person" xml:id="pNt_58003"><forename>Käte</forename><surname>Stern</surname></rs> beiwohnte, was für die 
 Entwicklung ihrer Stimme; und wird bei ihm studieren.― Sonderbares 
 Gemisch von Energie, Eigensinn, Unruhe, Eitelkeit und sachlichem 
 Interesse.―</p>
@@ -218,7 +212,5 @@ Straßen zu gehn, zur Tram.―</p>
 ― Sonderbare Welt.―</p>
             <p xml:space="preserve" rend="indent">N. d. N. <rs type="person" xml:id="pNt_58006" ref="#person_16770"><forename>Arthur</forename> <surname>Kaufmann</surname></rs>, <rs type="person" xml:id="pNt_58007" ref="#person_19784"><surname>Schmutzers</surname></rs> und <rs type="person" xml:id="pNt_58008" ref="#person_19543"><forename>Otti</forename> <surname>Salten</surname></rs>.―</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

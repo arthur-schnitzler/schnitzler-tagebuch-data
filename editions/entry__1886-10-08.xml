@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1886-10-08.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1886-09-17.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1886-11-24.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1886-10-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1886-09-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1886-11-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,15 +173,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0301.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0302.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0303.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1886-10-08">
             <p xml:space="preserve"><date when="1886-10-08">8/10</date> Freitag Nachm.― Nicht um ein Haar besser. Schlechter eher.―</p>
             <p xml:space="preserve" rend="indent">Doch es ist noch einiges nachzutragen.</p>
@@ -244,7 +238,7 @@ sein.</p>
             <p xml:space="preserve" rend="indent">Wie sie mir einmal beim Schachspiel sagte: Ich möchte Ihren Kopf 
 in die Hand nehmen und streicheln…</p>
             <p xml:space="preserve" rend="indent">Und beim letzten Heimfahren im Waggon … wie sie mir da die Blume, die 
-ich von <rs type="person" xml:id="pNt_02681"><forename>Emmy</forename></rs> erhalten hatte, aus dem Knopfloch riss und wegwarf.―</p>
+ich von <rs check="offen" type="person" xml:id="pNt_02681"><forename>Emmy</forename></rs> erhalten hatte, aus dem Knopfloch riss und wegwarf.―</p>
             <p xml:space="preserve" rend="indent">Und als ich sie fragte, …warum lächeln Sie denn immer so grausam, 
 wenn ich eifersüchtig bin, erwiderte sie: … Weil es mich so unendlich 
 glücklich macht!</p>
@@ -261,7 +255,5 @@ denke, wie es mich da überkommt … ein Schwindel,…mir klopft das
 Herz … es ist gewiss! Damals muss ich am glücklichsten gewesen sein!―</p>
             <p xml:space="preserve" rend="center">November</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

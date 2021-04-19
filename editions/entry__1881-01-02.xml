@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1881-01-02.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-12-17.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1881-01-08.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1881-01-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-12-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1881-01-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,14 +173,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0113.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0114.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1881-01-02">
             <p xml:space="preserve"><date when="1881-01-02">2/1</date> Sonntag Mg.―</p>
             <p xml:space="preserve" rend="indent">Einige statist. Daten über das verlaufene Jahr. Ich besuchte die Burg 
@@ -201,7 +195,7 @@ fallen in den Mai. Am 1. Juni schrieb ich den letzten Akt der Komödie
 „<rs type="work" subtype="self" xml:id="bibl_18847">Vor der Welt</rs>“, wodurch das ganze Stück vollendet in meinem Pulte 
 lag. Ein <rs type="work" subtype="self" xml:id="bibl_18848">Roman</rs> wurde begonnen, desgleichen eine <rs type="work" subtype="self" xml:id="bibl_18849">Novelle in Versen</rs>, 
 schließlich beinah 2 Akte des <rs type="work" subtype="self" xml:id="bibl_18850">Peters</rs> geschrieben. Der Stoff wird um 
-ein paar Jahrhunderte zurückversetzt, der Held <rs type="person" xml:id="pNt_00974"><forename>Sebaldus</forename></rs> getauft, 
+ein paar Jahrhunderte zurückversetzt, der Held <rs check="offen" type="person" xml:id="pNt_00974"><forename>Sebaldus</forename></rs> getauft, 
 das Stück im September neu hervorgenommen und gedichtet bis zum 
 dritten Akt. Zwei Novellen, „<rs type="work" subtype="self" xml:id="bibl_18851">Menschenliebe</rs>“, „<rs type="work" subtype="self" xml:id="bibl_18852">der Sohn des 
 Berühmten</rs>“ begann ich im August. Noch ist die Skizze „<rs type="work" subtype="self" xml:id="bibl_18853">Frühlingsnacht 
@@ -220,7 +214,5 @@ im <rs type="place" xml:id="pl_00188" ref="#place_273c6fe7cd0300c46e98e05cc3414e
 <rs type="person" xml:id="pNt_00980" ref="#person_15199"><surname>Frieberger</surname></rs> kennen.― Am intimsten verkehrt ich mit <rs type="person" xml:id="pNt_00981" ref="#person_14386"><forename>Eug.</forename></rs> <rs type="person" xml:id="pNt_00982" ref="#person_14386"><surname>D.</surname></rs>, der im 
 Oktober nach <rs type="place" xml:id="pl_00189" ref="#place_d0a6343a081a7335baa965ce4fd0845c">München</rs> reiste.― Seitdem mit niemandem wirklich intim.</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

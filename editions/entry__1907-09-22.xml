@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1907-09-22.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-09-21.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-09-23.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1907-09-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-09-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-09-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -177,16 +172,15 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2412.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2413.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1907-09-22">
-            <p xml:space="preserve"><date when="1907-09-22">22/9</date> S.― Vm. Tennis (mit <rs type="person" xml:id="pNt_27322" ref="#person_20241"><forename>Else</forename> <surname>Speidel</surname></rs>).</p>
+            <p xml:space="preserve"><date when="1907-09-22">22/9</date> S.― Vm. Tennis (mit <rs ref="#person_15833" fix="ja" type="person" xml:id="pNt_27322"><forename>Else</forename><surname>Speidel</surname></rs>).</p>
             <p xml:space="preserve" rend="indent">Mittag bei <rs type="person" xml:id="pNt_27323" ref="#person_16646"><surname>Kainz</surname></rs>: <rs type="person" xml:id="pNt_27324" ref="#person_20204"><surname>Sonnenthal</surname></rs>, <rs type="person" xml:id="pNt_27325" ref="#person_15944"><surname>Hartmann</surname></rs>, <rs type="person" xml:id="pNt_27326" ref="#person_17642"><surname>Loewe</surname></rs>, <rs type="person" xml:id="pNt_27327" ref="#person_19542"><surname>Salten</surname></rs>, <rs type="person" xml:id="pNt_27328" ref="#person_17558"><forename>Paul</forename> <surname>Lindau</surname></rs>.― 
 <rs type="person" xml:id="pNt_27329" ref="#person_20204"><surname>Sonnenthal</surname></rs> las die Anekdote vom Waldkirchlein vor. <rs type="person" xml:id="pNt_27330" ref="#person_17558"><surname>Lindau</surname></rs> sprach über 
 <rs type="person" xml:id="pNt_27331" ref="#person_15973"><surname>Hau</surname></rs> (er hat eine Brochure geschrieben, ist gefordert, geklagt worden etc.).</p>
@@ -203,7 +197,5 @@ eine Mörderbande treibt sich herum …
 nervös ― ich war bei den größten Aerzten …“ (Früher reicher 
 Bankier, jetzt verarmt und irrsinnig.)</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

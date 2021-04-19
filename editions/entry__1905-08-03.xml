@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1905-08-03.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-08-02.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-08-04.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-08-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-08-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-08-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -177,7 +172,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2107.tif"/>
@@ -185,9 +180,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1905-08-03">
-            <p xml:space="preserve"><date when="1905-08-03">3/8</date> Vm. im <rs type="place" xml:id="pl_05256" ref="#place_aced77fcb653c3216ac883df10617126" ana="#exclude">Pötzleinsdorfer</rs> Wald, <rs type="person" xml:id="pNt_23228" ref="#person_15498"><surname>Goethe</surname></rs> <rs type="person" xml:id="pNt_23229" ref="#person_19154"><surname>Reinhard</surname></rs> gelesen.―</p>
+            <p xml:space="preserve"><date when="1905-08-03">3/8</date> Vm. im <rs type="place" xml:id="pl_05256" ref="#place_aced77fcb653c3216ac883df10617126" ana="#exclude">Pötzleinsdorfer</rs> Wald, <rs type="person" xml:id="pNt_23228" ref="#person_15498" check="offen"><surname>Goethe</surname></rs> <rs type="person" xml:id="pNt_23229" ref="#person_19154" check="offen"><surname>Reinhard</surname></rs> gelesen.―</p>
             <p xml:space="preserve" rend="indent">Nm. letzte Correcturen an <rs type="work" subtype="self" xml:id="bibl_15821">N. E.</rs> (<rs type="work" subtype="self" xml:id="bibl_15822">Caecilie Adams</rs>?) (1. und 2. Akt).― 
-Tennis; nachher mit <rs type="person" xml:id="pNt_23230" ref="#person_19542"><surname>Saltens</surname></rs> und O. beim <rs type="person" xml:id="pNt_23231"><surname>Steinböck</surname></rs> genachtm.― Zu Hause 
+Tennis; nachher mit <rs type="person" xml:id="pNt_23230" ref="#person_19542"><surname>Saltens</surname></rs> und O. beim <rs check="offen" type="person" xml:id="pNt_23231"><surname>Steinböck</surname></rs> genachtm.― Zu Hause 
 wieder schweres Zukunftsgespräch.―</p>
          </div>
       </body>

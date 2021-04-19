@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1909-02-22.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-02-21.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-02-23.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-02-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-02-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-02-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,15 +173,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2646.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2647.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2648.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1909-02-22">
             <p xml:space="preserve"><date when="1909-02-22">22/2</date> Sehr früh in arger Kälte spazieren. Traf die <rs type="place" xml:id="pl_06606" ref="#place_53a418050a9b16c1abb1c0da8aca63ba" ana="#exclude">Karlsbader</rs> Curisten 
 <rs type="person" xml:id="pNt_29821" ref="#person_20242"><forename>Felix</forename></rs> und <rs type="person" xml:id="pNt_29822" ref="#person_15833"><forename>Else</forename></rs>.</p>
@@ -194,7 +188,7 @@
 finanzielle Aussichtslosigkeit. Insbesondre darüber, wie ja alle 
 Kritiken über mich feststehen, ehe der Kritiker eine Zeile gelesen, 
 ein Wort gehört hat. Weder <rs type="person" xml:id="pNt_29823" ref="#person_20637"><roleName>Herr</roleName> <surname>Tann-Bergler</surname></rs> wird plötzlich eingestehn, 
-daß er etwa 15 Jahre lang ein Trottel war und mich verkannt hat ― <rs type="person" xml:id="pNt_29824"><roleName>Herr</roleName> <surname>Stößl</surname></rs> 
+daß er etwa 15 Jahre lang ein Trottel war und mich verkannt hat ― <rs ref="#person_20453" fix="ja" type="person" xml:id="pNt_29824"><roleName>Herr</roleName><surname>Stößl</surname></rs> 
 wird nicht zugeben, daß er gefälscht und gelogen hat; ― wer festgestellt 
 hat, daß ich „in großer Form versage ―“ wird nicht plötzlich zugeben, 
 daß ich ein gutes <rs type="work" subtype="self" xml:id="bibl_12426">5aktiges Drama</rs> schreiben kann ― wer mich als den 
@@ -220,7 +214,5 @@ Erklärte mich auch bereit ihm zu helfen, eventuell ältere
 Gedichte aus der <rs type="work" subtype="self" xml:id="bibl_12430">Anatol</rs> Zeit für Gesangstexte vorzuschlagen.―</p>
             <p xml:space="preserve" rend="indent">Abends am <rs type="work" subtype="self" xml:id="bibl_12431">W. L.</rs></p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

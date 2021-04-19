@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1889-01-26.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-01-25.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-01-27.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1889-01-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-01-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-01-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,19 +173,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0368.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1889-01-26">
-            <p xml:space="preserve"><date when="1889-01-26">26.</date> <rs type="person" xml:id="pNt_03539"><forename>J.</forename></rs> Scene.</p>
+            <p xml:space="preserve"><date when="1889-01-26">26.</date> <rs ref="#person_16022" fix="ja" type="person" xml:id="pNt_03539"><forename>J.</forename></rs> Scene.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_03540" ref="#person_15289"><surname>Fürst</surname></rs> Soirée.</p>
             <p xml:space="preserve" rend="indent">Redoute, <rs type="person" xml:id="pNt_03541" ref="#person_19398"><forename>Mizi</forename></rs> Fahrt nach Hause.</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

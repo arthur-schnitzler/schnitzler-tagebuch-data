@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1924-11-15.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-11-14.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-11-16.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1924-11-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-11-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-11-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,13 +173,12 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6392.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1924-11-15">
             <p xml:space="preserve"><date when="1924-11-15">15/11</date> Schöner Wintertag. Spazieren <rs type="place" xml:id="pl_15781" ref="#place_431168489e6885d4e91ebc5edec7dfb4">Grinzing</rs>, gegen <rs type="place" xml:id="pl_15782" ref="#place_4eccc29620e7bfd13d3e8f6f024426fe">Leopoldsberg</rs> 
 über <rs type="place" xml:id="pl_15783" ref="#place_8422ab675d39a4dfeec1f2c35bf74e2d">Kahlenbergdorf</rs> zurück. Müßte immerfort notiren ― meine 
@@ -193,9 +187,7 @@ Conversationen mit mir selbst werden manchmal zu lebhaft.</p>
 uns ihre Zeichnungen und Aquarelle; verschiedenster Art; sehr begabt.―</p>
             <p xml:space="preserve" rend="indent">Zeitungen, <rs type="work" subtype="self" xml:id="bibl_21423">aphor.</rs>―</p>
             <p xml:space="preserve" rend="indent">Abends <rs type="person" xml:id="pNt_73755" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> bei mir.―</p>
-            <p xml:space="preserve" rend="indent">N. d. N. mit <rs type="person" xml:id="pNt_73756"><roleName>Frl.</roleName> <surname>S.</surname></rs> ein <rs type="person" xml:id="pNt_73757" ref="#person_13555"><surname>Beethoven</surname></rs> Quartett und <rs type="work" xml:id="bibl_21424">Egmont Ouverture</rs>.</p>
+            <p xml:space="preserve" rend="indent">N. d. N. mit <rs ref="#person_20191" fix="ja" type="person" xml:id="pNt_73756"><roleName>Frl.</roleName><surname>S.</surname></rs> ein <rs type="person" xml:id="pNt_73757" ref="#person_13555"><surname>Beethoven</surname></rs> Quartett und <rs type="work" xml:id="bibl_21424">Egmont Ouverture</rs>.</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

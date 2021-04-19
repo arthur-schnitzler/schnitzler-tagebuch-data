@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1895-07-25.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-07-24.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-07-26.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1895-07-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-07-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-07-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,7 +173,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1042.tif"/>
@@ -187,8 +182,8 @@
       <body>
          <div type="diary-day" xml:id="entry__1895-07-25">
             <p xml:space="preserve"><date when="1895-07-25">25/7</date> Bic. Vorm., mit der <rs type="person" xml:id="pNt_10837" ref="#person_13979"><forename>Lou</forename> <surname>Brion</surname></rs> geplauscht. Nm. <rs type="place" xml:id="pl_02071" ref="#place_1e16be54e7a0530f7f6994e967daacb1">Strobl</rs>, Bad. Die 
-<rs type="person" xml:id="pNt_10838" ref="#person_14797"><surname>Ernsts</surname></rs>. <rs type="person" xml:id="pNt_10839" ref="#person_14801"><forename>Carla’s</forename></rs> Schwester.― Im Bade.―</p>
-            <p xml:space="preserve" rend="indent">Theater „<rs type="work" xml:id="bibl_22200">Dragoner</rs>“. Nach Kreuz und Krone mit <rs type="person" xml:id="pNt_10840"><surname>Neumann</surname></rs>, <rs type="person" xml:id="pNt_10841" ref="#person_13551"><forename>Richard</forename></rs> 
+<rs type="person" xml:id="pNt_10838" ref="#person_14797" check="offen"><surname>Ernsts</surname></rs>. <rs type="person" xml:id="pNt_10839" ref="#person_14801"><forename>Carla’s</forename></rs> Schwester.― Im Bade.―</p>
+            <p xml:space="preserve" rend="indent">Theater „<rs type="work" xml:id="bibl_22200">Dragoner</rs>“. Nach Kreuz und Krone mit <rs check="offen" type="person" xml:id="pNt_10840"><surname>Neumann</surname></rs>, <rs type="person" xml:id="pNt_10841" ref="#person_13551"><forename>Richard</forename></rs> 
 und <rs type="person" xml:id="pNt_10842" ref="#person_18985"><surname>Pserhofer</surname></rs>.―</p>
          </div>
       </body>

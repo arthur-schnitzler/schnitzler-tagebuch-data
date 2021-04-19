@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1910-07-10.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-07-09.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-07-11.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-07-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-07-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-07-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,13 +173,12 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2940.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1910-07-10">
             <p xml:space="preserve"><date when="1910-07-10">10/7</date> S. Früh mit <rs type="person" xml:id="pNt_33069" ref="#person_19827"><forename>Julius</forename></rs> ins Sanatorium; <rs type="person" xml:id="pNt_33070" ref="#person_16646"><surname>Kainz</surname></rs> Adieu gesagt; dann 
 <rs type="person" xml:id="pNt_33071" ref="#person_13913"><surname>Brahm</surname></rs> und <rs type="person" xml:id="pNt_33072" ref="#person_16572"><roleName>Frau</roleName> <surname>Jonas</surname></rs>.</p>
@@ -195,9 +189,7 @@
 <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header"><fw place="top_center"><date type="range">1910: VII 10 ― VII 16</date></fw> <fw n="161" place="top_right" type="pageNum">161</fw></tei:fw>
 schon gepackt.―</p>
             <p xml:space="preserve" rend="indent">Hatte gelesen: Novellen von <rs type="person" xml:id="pNt_33079" ref="#person_17559"><forename>Rudolf</forename> <surname>Lindau</surname></rs>; begonnen: <rs type="person" xml:id="pNt_33080" ref="#person_15108"><surname>France</surname></rs>, 
-<rs type="work" xml:id="bibl_11848">Thais</rs>; <rs type="work" xml:id="bibl_11849">Briefe</rs> <rs type="person" xml:id="pNt_33081" ref="#person_15498"><surname>Goethe</surname></rs> ― <rs type="person" xml:id="pNt_33082" ref="#person_21350"><surname>Willemer</surname></rs>.</p>
+<rs type="work" xml:id="bibl_11848">Thais</rs>; <rs type="work" xml:id="bibl_11849">Briefe</rs> <rs type="person" xml:id="pNt_33081" ref="#person_15498" check="offen"><surname>Goethe</surname></rs> ― <rs type="person" xml:id="pNt_33082" ref="#person_21350" check="offen"><surname>Willemer</surname></rs>.</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

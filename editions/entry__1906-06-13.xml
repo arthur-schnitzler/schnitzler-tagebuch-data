@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1906-06-13.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-06-12.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-06-14.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-06-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-06-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-06-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -177,16 +172,15 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2236.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2237.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1906-06-13">
-            <p xml:space="preserve"><date when="1906-06-13">13/6</date> Vm. Tennis <rs type="person" xml:id="pNt_25105" ref="#person_20097"><forename>Annie</forename> <surname>Sikora</surname></rs>, <rs type="person" xml:id="pNt_25106" ref="#person_20242"><forename>Fel.</forename> <surname>Speidel</surname></rs>, <rs type="person" xml:id="pNt_25107" ref="#person_16770"><surname>Kaufmann</surname></rs>, <rs type="person" xml:id="pNt_25108" ref="#person_20872"><forename>Agnes</forename> <surname>Sp.</surname></rs>―</p>
+            <p xml:space="preserve"><date when="1906-06-13">13/6</date> Vm. Tennis <rs ref="#person_20523" fix="ja" type="person" xml:id="pNt_25105"><forename>Annie</forename><surname>Sikora</surname></rs>, <rs type="person" xml:id="pNt_25106" ref="#person_20242"><forename>Fel.</forename> <surname>Speidel</surname></rs>, <rs type="person" xml:id="pNt_25107" ref="#person_16770"><surname>Kaufmann</surname></rs>, <rs type="person" xml:id="pNt_25108" ref="#person_20872"><forename>Agnes</forename> <surname>Sp.</surname></rs>―</p>
             <p xml:space="preserve" rend="indent">Nm. an der <rs type="work" subtype="self" xml:id="bibl_15034">Zwischenspielskizze</rs> („<rs type="work" subtype="self" xml:id="bibl_15035">Schauspieler</rs>“) ― Andres betrachtet, 
 darunter den <rs type="work" subtype="self" xml:id="bibl_15036">Landsknechtstoff</rs> (aus dem Urkeim des <rs type="work" subtype="self" xml:id="bibl_15037">Eins. Wegs</rs> entstanden). 
 Vor Jahresfrist etwa hatt ich diesen Stoff an <rs type="person" xml:id="pNt_25109" ref="#person_16293"><forename>Hugo</forename></rs> erzählt, der mir 
@@ -198,7 +192,5 @@ erfundene“.―</p>
 bleibt auf eine Weile unterbrochen.)</p>
             <p xml:space="preserve" rend="indent">Abd. Dr. <rs type="person" xml:id="pNt_25110" ref="#person_13473"><forename>Ludwig</forename> <surname>Bauer</surname></rs> bei mir.</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

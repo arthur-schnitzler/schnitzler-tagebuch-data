@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1930-11-03.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-11-02.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-11-04.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-11-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-11-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-11-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,14 +173,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7584.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7585.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1930-11-03">
             <p xml:space="preserve"><date when="1930-11-03">3/11</date> Telegr. von <rs type="person" xml:id="pNt_91137" ref="#person_19688"><surname>Schildkraut</surname></rs> ― wegen <rs type="place" xml:id="pl_19605" ref="#place_adf2880be62591ae963cd302c69f330d" ana="#exclude">Amerikareise</rs> zur ― <rs type="work" subtype="self" xml:id="bibl_1384">Anatol</rs> Première 
 (etwa das 6. in der Sache).</p>
@@ -193,7 +187,7 @@
             <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_19606" ref="#place_95ecca0e62ec2768ab1586ca5fd8801f" ana="#exclude">Amerik.</rs> Brief <rs type="person" xml:id="pNt_91138" ref="#person_16782"><surname>Kauser</surname></rs> wegen Tonfilm <rs type="work" subtype="self" xml:id="bibl_1386">Anatol</rs>, ziemlich erpresserisch.― Gleich 
 geantwortet.</p>
             <p xml:space="preserve" rend="indent">― Um 4 <rs type="person" xml:id="pNt_91139" ref="#person_14234"><forename>Suz.</forename></rs> auf eine Stunde.</p>
-            <p xml:space="preserve" rend="indent">― <rs type="person" xml:id="pNt_91140" ref="#person_13498"><roleName>Dr.</roleName> <surname>Bayer</surname></rs>, ein junger <rs type="person" xml:id="pNt_91141" ref="#person_17957"><surname>Marxschüler</surname></rs>, der mir wegen Compos. 
+            <p xml:space="preserve" rend="indent">― <rs type="person" xml:id="pNt_91140" ref="#person_13498"><roleName>Dr.</roleName> <surname>Bayer</surname></rs>, ein junger <rs ref="#person_17956" fix="ja" type="person" xml:id="pNt_91141"><surname>Marxschüler</surname></rs>, der mir wegen Compos. 
 „<rs type="work" subtype="self" xml:id="bibl_1387">Zwischenspiel</rs>“ geschrieben; ev. aber auch zu Compos. „<rs type="work" subtype="self" xml:id="bibl_1388">Schwestern</rs>“ 
 bereit wäre. Beides schwer ― ich sagte, das eine enthalte zu wenig, 
 das andre zu viel Musik.―</p>
@@ -202,7 +196,5 @@ das andre zu viel Musik.―</p>
 seine <rs type="person" xml:id="pNt_91143" ref="#person_18356"><forename>Napoleon</forename></rs> <rs type="place" xml:id="pl_19607" ref="#place_8f5696351d40139b803a68a8cef76cea">Helena</rs> Novelle (geplant),― filmrechtliches, ich allerlei 
 <rs type="work" subtype="self" xml:id="bibl_1391">autobiographisches</rs>;― über <rs type="person" xml:id="pNt_91144" ref="#person_13643"><surname>Bergner</surname></rs> <rs type="person" xml:id="pNt_91145" ref="#person_14335"><surname>Czinner</surname></rs> u. dgl.―</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

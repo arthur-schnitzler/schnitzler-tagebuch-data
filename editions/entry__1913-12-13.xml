@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1913-12-13.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-12-12.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-12-14.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-12-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-12-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-12-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,25 +173,22 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3739.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3740.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1913-12-13">
             <p xml:space="preserve"><date when="1913-12-13">13/12</date> Dict. <rs type="work" subtype="self" xml:id="bibl_9814">Novelle</rs>, Briefe.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_42296" ref="#person_14786"><roleName>Dr.</roleName> <surname>Ergas</surname></rs> erscheint (bei dem in der Capponcina v. <rs type="person" xml:id="pNt_42297" ref="#person_20885"><surname>Unruh</surname></rs> wohnt); wegen 
 „<rs type="work" xml:id="bibl_9815">Prinz Ferdinand</rs>“, <rs type="place" ref="#place_burgtheater">Burgtheater</rs>. Ich teleph. an <rs type="person" xml:id="pNt_42298" ref="#person_19364"><surname>Rosenbaum</surname></rs> in dieser 
 Sache.</p>
-            <p xml:space="preserve" rend="indent">Nm. Trödelei.― <rs type="person" xml:id="pNt_42299" ref="#person_20241"><forename>Else</forename> <surname>Speidel</surname></rs>, die ich (nach laryngosk. Untersuchung 
+            <p xml:space="preserve" rend="indent">Nm. Trödelei.― <rs ref="#person_15833" fix="ja" type="person" xml:id="pNt_42299"><forename>Else</forename><surname>Speidel</surname></rs>, die ich (nach laryngosk. Untersuchung 
 Vormittag) elektrisire.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_42300" ref="#person_13359"><forename>Stephi</forename></rs> zum Nachtmahl; ist nach <rs type="place" xml:id="pl_08557" ref="#place_0bcbcfedf2ef1f96542597b9279fb141">Rom</rs>, ― nach <rs type="place" xml:id="pl_08558" ref="#place_51c7c0e8bc877f41a415a8e7efedd068">St. Moritz</rs> eingeladen 
 und fühlt sich „psychisch impotent“ beides anzunehmen.</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

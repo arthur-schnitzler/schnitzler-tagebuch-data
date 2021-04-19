@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1905-01-12.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-01-11.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-01-13.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-01-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-01-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-01-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -177,14 +172,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2024.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2025.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1905-01-12">
             <p xml:space="preserve"><date when="1905-01-12">12/1</date> Komischer Traum (nach Lecture „<rs type="work" xml:id="bibl_15435">Capt. Dodero</rs>“ von <rs type="person" xml:id="pNt_22275" ref="#person_13422"><surname>Barilli</surname></rs>) Conditorei?― 
 <rs type="place" xml:id="pl_05028" ref="#place_aee3a3659cda85d6f26ea5e2a43a4d0f">Kaiser Josefstr.</rs> ― der Kaiser von <rs type="place" xml:id="pl_05029" ref="#place_ae54a5c026f31ada088992587d92cb3a">China</rs>, dem ich „Trottel“ sage, in 
@@ -198,13 +192,11 @@ des Leidens unter seiner Größe. Hatte es noch kaum einem andern
 gegenüber in dem Maße.― Seine innere Sicherheit.― Darüber und 
 über ähnliches sprach ich noch lang mit O. nachdem ich (aus dem 
 Riedhof) nach Haus war.―</p>
-            <p xml:space="preserve" rend="indent">Sowohl <rs type="person" xml:id="pNt_22282" ref="#person_20509"><forename>Richard</forename></rs> als <rs type="person" xml:id="pNt_22283" ref="#person_16293"><forename>Hugo</forename></rs> sind künstlerisch (Formgebung in höchstem Sinn) 
+            <p xml:space="preserve" rend="indent">Sowohl <rs ref="#person_13551" fix="ja" type="person" xml:id="pNt_22282"><forename>Richard</forename></rs> als <rs type="person" xml:id="pNt_22283" ref="#person_16293"><forename>Hugo</forename></rs> sind künstlerisch (Formgebung in höchstem Sinn) 
 begabter als ich; überdies hat <rs type="person" xml:id="pNt_22284" ref="#person_16293"><forename>Hugo</forename></rs> den Vorzug der Energie vor mir, und 
-<rs type="person" xml:id="pNt_22285" ref="#person_20509"><forename>Richard</forename></rs> den der innern Reinheit („Charakter“s). An Einfällen bin ich 
+<rs ref="#person_13551" fix="ja" type="person" xml:id="pNt_22285"><forename>Richard</forename></rs> den der innern Reinheit („Charakter“s). An Einfällen bin ich 
 wohl reicher ― aber wie wenig kann ich im Grunde mit ihnen anfangen. 
 (Wehe, wenn es ein andrer sagte!) ―</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

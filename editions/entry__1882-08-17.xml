@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1882-08-17.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1882-08-16.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1882-08-18.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1882-08-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1882-08-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1882-08-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,7 +173,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0181.tif"/>
@@ -186,7 +181,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1882-08-17">
-            <p xml:space="preserve"><date when="1882-08-17">17. 8.</date> Bei <rs type="person" xml:id="pNt_01668" ref="#person_16364"><forename>Richard</forename> <surname>H.</surname></rs> in <rs type="place" xml:id="pl_00332" ref="#place_661f4200c3f047474d1df224f62f0503">Aussee</rs>. Famos. <rs type="person" xml:id="pNt_01669"><roleName>Frau</roleName> <surname type="unclear">H.</surname></rs> <rs type="person" xml:id="pNt_01670" ref="#person_13389"><roleName>Frl.</roleName> <surname>Ball.</surname></rs></p>
+            <p xml:space="preserve"><date when="1882-08-17">17. 8.</date> Bei <rs type="person" xml:id="pNt_01668" ref="#person_16364"><forename>Richard</forename> <surname>H.</surname></rs> in <rs type="place" xml:id="pl_00332" ref="#place_661f4200c3f047474d1df224f62f0503">Aussee</rs>. Famos. <rs ref="#person_16360" fix="ja" type="person" xml:id="pNt_01669"><roleName>Frau</roleName><surname type="unclear">H.</surname></rs> <rs type="person" xml:id="pNt_01670" ref="#person_13389"><roleName>Frl.</roleName> <surname>Ball.</surname></rs></p>
          </div>
       </body>
    

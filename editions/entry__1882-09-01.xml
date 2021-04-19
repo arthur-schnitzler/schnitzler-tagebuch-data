@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1882-09-01.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1882-08-31.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1882-09-09.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1882-09-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1882-08-31.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1882-09-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,7 +173,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0185.tif"/>
@@ -186,7 +181,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1882-09-01">
-            <p xml:space="preserve"><date when="1882-09-01">1/9</date> Freitag. In der Früh zu <rs type="person" xml:id="pNt_01695" ref="#person_17825"><forename>Louis</forename> <surname>M.</surname></rs>, mit ihm zu Arm. <rs type="person" xml:id="pNt_01696" ref="#person_18863"><surname>P.</surname></rs> ins Café 
+            <p xml:space="preserve"><date when="1882-09-01">1/9</date> Freitag. In der Früh zu <rs type="person" xml:id="pNt_01695" ref="#person_17825"><forename>Louis</forename> <surname>M.</surname></rs>, mit ihm zu Arm. <rs ref="#person_18735" fix="ja" type="person" xml:id="pNt_01696"><surname>P.</surname></rs> ins Café 
 Europe, dann die Militäruniformen bestellt.― Nachm. kamen <rs type="person" xml:id="pNt_01697" ref="#person_18766"><forename>Jacques</forename></rs> 
 und <rs type="person" xml:id="pNt_01698" ref="#person_20643"><forename>Richard</forename> <surname>T.</surname></rs> zu mir; <rs type="place" xml:id="pl_00339" ref="#place_9ae90ea21d3e063c02809f046183f123">Ring</rs>, Café <rs type="org">Kurzweil</rs>, Central, <rs type="place" xml:id="pl_00340" ref="#place_d7f977f9a16210838a0dd6b32f6fb25d">Volksg.</rs> ―</p>
          </div>

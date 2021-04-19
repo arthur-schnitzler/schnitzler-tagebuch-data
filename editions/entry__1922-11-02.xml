@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1922-11-02.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-11-01.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-11-03.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-11-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-11-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-11-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,7 +173,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5877.tif"/>
@@ -187,7 +182,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1922-11-02">
-            <p xml:space="preserve"><date when="1922-11-02">2/11</date> <rs type="place" xml:id="pl_14364" ref="#place_d08263375d4ab4ccd1b00f39389801d7">Reichenberg</rs>. Regen. <rs type="person" xml:id="pNt_67705"><roleName>Hr.</roleName> <surname>Schnabel</surname></rs> begleitet mich Polizei (Meldung), 
+            <p xml:space="preserve"><date when="1922-11-02">2/11</date> <rs type="place" xml:id="pl_14364" ref="#place_d08263375d4ab4ccd1b00f39389801d7">Reichenberg</rs>. Regen. <rs ref="#person_19793" fix="ja" type="person" xml:id="pNt_67705"><roleName>Hr.</roleName><surname>Schnabel</surname></rs> begleitet mich Polizei (Meldung), 
 Museum.― Treffen seinen Vater, Dr. <rs type="person" xml:id="pNt_67706" ref="#person_19791"><forename>Julius</forename> <surname>Schn.</surname></rs>, der bei <rs type="person" xml:id="pNt_67707" ref="#person_20324"><surname>Standthartner</surname></rs> vor 
 35 Jahren mein „Vorgesetzter“ war.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_67708" ref="#person_17650"><roleName>Frl.</roleName> <surname>L.</surname></rs> holt mich im <rs type="person" xml:id="pNt_67709" ref="#person_15881"><surname>Hamburger</surname></rs> Auto nach <rs type="place" xml:id="pl_14365" ref="#place_965b48b8867b94e78d463de08cc2809d">Gablonz</rs>. Sie und <rs type="person" xml:id="pNt_67710" ref="#person_21538"><surname>Z.</surname></rs> haben sich beide 
@@ -199,7 +194,7 @@ Anzahl meiner Radirungen.― Zurück im Auto.</p>
             <p xml:space="preserve" rend="indent">― In den „<rs type="place" xml:id="pl_14368" ref="#place_d7f977f9a16210838a0dd6b32f6fb25d">Volksgarten</rs>“. Unmögl. Saal. Lese vor mäßig großem Publikum 
 <rs type="work" subtype="self" xml:id="bibl_2868">dreifache Warnung</rs>, und „<rs type="work" subtype="self" xml:id="bibl_2869">letzte Masken</rs>“ (gut);― dann <rs type="work" subtype="self" xml:id="bibl_2870">Weihnachtseinkäufe</rs> 
 mäßig und <rs type="work" subtype="self" xml:id="bibl_2871">Excentrik</rs> schlecht, das auch ganz abfiel.―</p>
-            <p xml:space="preserve" rend="indent">Gen. allein im Hotel. Später <rs type="person" xml:id="pNt_67713"><roleName>Hr.</roleName> <surname>Schnabel</surname></rs> und ein <rs type="person" xml:id="pNt_67714" ref="#person_13348"><roleName>Hr.</roleName> <surname>Bach</surname></rs>. Über 
+            <p xml:space="preserve" rend="indent">Gen. allein im Hotel. Später <rs ref="#person_19793" fix="ja" type="person" xml:id="pNt_67713"><roleName>Hr.</roleName><surname>Schnabel</surname></rs> und ein <rs type="person" xml:id="pNt_67714" ref="#person_13348"><roleName>Hr.</roleName> <surname>Bach</surname></rs>. Über 
 <rs type="place" xml:id="pl_14369" ref="#place_dd82bd74a61891d5998d799b4f29bb73" ana="#exclude">Reichenberger</rs> Verhältnisse.―</p>
          </div>
       </body>

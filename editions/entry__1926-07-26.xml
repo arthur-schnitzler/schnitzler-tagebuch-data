@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1926-07-26.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-07-25.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-07-27.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-07-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-07-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-07-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,14 +173,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6696.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6697.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1926-07-26">
             <p xml:space="preserve"><date when="1926-07-26">26/7</date> <rs type="person" xml:id="pNt_78287" ref="#person_14682"><roleName>Hofr.</roleName> <surname>Eisenmenger</surname></rs> telefonirt mir, dass es <rs type="person" xml:id="pNt_78288" ref="#person_18291"><roleName>Dr.</roleName> <surname>Müller</surname></rs> nicht gelingt 
 einen meiner Stoffe für <rs type="place" xml:id="pl_16760" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> (Film) zu placiren.― Bald darauf erhalt 
@@ -195,7 +189,7 @@ Honorirungsversuch), zum <rs type="work" subtype="self" xml:id="bibl_20346">Anat
 von <rs type="person" xml:id="pNt_78290" ref="#person_14544"><forename>Ashley</forename> <surname>Dukes</surname></rs> aus dem Jahre 1910 (in der ich als ausschließlich 
 Dichter ― der „Halbwelt“ sozusagen gerühmt werde).</p>
             <p xml:space="preserve" rend="indent">Dictirt Briefe und <rs type="work" subtype="self" xml:id="bibl_20347">Tgb.</rs> Auszug 12 und 13.―</p>
-            <p xml:space="preserve" rend="indent">Das <rs type="work" subtype="self" xml:id="bibl_20348">Diagramm</rs> an <rs type="person" xml:id="pNt_78291" ref="#person_15001"><surname>Fischer</surname></rs> (<rs type="person" xml:id="pNt_78292" ref="#person_17888"><surname>Maril</surname></rs>) gesandt.―</p>
+            <p xml:space="preserve" rend="indent">Das <rs type="work" subtype="self" xml:id="bibl_20348">Diagramm</rs> an <rs type="person" xml:id="pNt_78291" ref="#person_15001" check="offen"><surname>Fischer</surname></rs> (<rs type="person" xml:id="pNt_78292" ref="#person_17888"><surname>Maril</surname></rs>) gesandt.―</p>
             <p xml:space="preserve" rend="indent">Nm. gepackt.―</p>
             <p xml:space="preserve" rend="indent">Abds. bei <rs type="person" xml:id="pNt_78293" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>― Ihr einige alte Novellenstoffe erzählt und vorgelesen 
 (die ihr zum Theil sehr zuwider waren).― (Mir wieder andre.) ―</p>
@@ -205,7 +199,5 @@ wissen, welcher zunächst. Die Angelegenheit wird getrübt; weil ich
 die event. Rentabilität in Berechnung ziehen muss. Niemals noch ist 
 wenigstens in dieser Hinsicht die Zukunft so problematisch vor mir gelegen.</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

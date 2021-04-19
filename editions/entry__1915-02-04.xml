@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1915-02-04.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-03.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-05.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-02-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,19 +173,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3981.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1915-02-04">
-            <p xml:space="preserve"><date when="1915-02-04">4/2</date> Mit O. und <rs type="person" xml:id="pNt_44902" ref="#person_19986"><forename>Gustav</forename></rs> nach <rs type="place" xml:id="pl_09200" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>, zur Bahn von <rs type="person" xml:id="pNt_44903" ref="#person_15374"><forename>Grethe</forename></rs> begleitet. Südbahn 
+            <p xml:space="preserve"><date when="1915-02-04">4/2</date> Mit O. und <rs type="person" xml:id="pNt_44902" ref="#person_19986"><forename>Gustav</forename></rs> nach <rs type="place" xml:id="pl_09200" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>, zur Bahn von <rs ref="#person_16647" fix="ja" type="person" xml:id="pNt_44903"><forename>Grethe</forename></rs> begleitet. Südbahn 
 gegessen.―</p>
             <p xml:space="preserve" rend="indent">Daheim alles in Ordnung. <rs type="person" xml:id="pNt_44904" ref="#person_14130"><forename>Lili</forename></rs> rodelt im Garten.</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

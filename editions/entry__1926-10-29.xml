@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1926-10-29.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-10-28.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-10-30.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-10-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-10-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-10-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,14 +173,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6747.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6748.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1926-10-29">
             <p xml:space="preserve"><date when="1926-10-29">29/10</date> ― In der <rs type="work" subtype="newspaper" xml:id="bibl_20518">N. Fr. Pr.</rs> ein Interview <rs type="person" xml:id="pNt_78901" ref="#person_17834"><forename>Heinrich</forename> <surname>Mann</surname></rs>, in dem er mir 
 Reverenz erweist und von meiner „wahren Heimat“ <rs type="place" xml:id="pl_16980" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> spricht.― In Zusammenhang mit der „Incognito Anwesenheit“ 
@@ -197,12 +191,10 @@ insbesondre wegen der Verquickung mit Geldfragen;― doch wir verständigen uns 
 <rs type="person" xml:id="pNt_78907" ref="#person_14130"><forename>Lili</forename></rs> im Grunde ganz einer Meinung … Wir plaudern dann noch stundenlang in 
 bestem Einvernehmen über allerlei Dinge des Alltags, geschäftliches, Freunde.―</p>
             <p xml:space="preserve" rend="indent">― Währenddem kommt Anfrage von <rs type="person" xml:id="pNt_78908" ref="#person_17517"><surname>Liebermann</surname></rs>, ob ich Wahl in die Akademie 
-annehme und Brief von <rs type="person" xml:id="pNt_78909" ref="#person_21298"><surname>Wiegler</surname></rs>, <rs type="person" xml:id="pNt_78910" ref="#person_20870"><surname>Ullstein</surname></rs> werbe „mit Freuden“ um den 
+annehme und Brief von <rs type="person" xml:id="pNt_78909" ref="#person_21298"><surname>Wiegler</surname></rs>, <rs type="person" xml:id="pNt_78910" ref="#person_20870" check="offen"><surname>Ullstein</surname></rs> werbe „mit Freuden“ um den 
 Vorabdruck der <rs type="work" subtype="self" xml:id="bibl_20519">(Bdn.) Novelle</rs>.―</p>
             <p xml:space="preserve" rend="indent">― Am <rs type="work" subtype="self" xml:id="bibl_20520">Diagramm</rs>, an <rs type="work" subtype="self" xml:id="bibl_20521">Therese</rs>.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_78911" ref="#person_19832"><forename>O.</forename></rs> nachtmahlt bei uns.―</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

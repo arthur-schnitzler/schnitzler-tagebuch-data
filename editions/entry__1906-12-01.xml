@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1906-12-01.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-11-30.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-12-02.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-12-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-11-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-12-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -177,7 +172,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2295.tif"/>
@@ -186,8 +181,8 @@
       <body>
          <div type="diary-day" xml:id="entry__1906-12-01">
             <p xml:space="preserve"><date when="1906-12-01">1/12</date> Dictirt <rs type="work" subtype="self" xml:id="bibl_15341">Roman</rs>, Briefe.―</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_25897" ref="#person_15374"><forename>Grethe</forename></rs> ein <rs type="person" xml:id="pNt_25898" ref="#person_13555"><surname>Beethoven</surname></rs> Quintett.―</p>
-            <p xml:space="preserve" rend="indent">Mit O. und <rs type="person" xml:id="pNt_25899" ref="#person_15374"><forename>Grethe</forename></rs> bei der 25. Aufführung dreier <rs type="person" xml:id="pNt_25900" ref="#person_14472"><surname>Dörmann</surname></rs> Einakter im Kl. 
+            <p xml:space="preserve" rend="indent">Mit <rs ref="#person_16485" fix="ja" type="person" xml:id="pNt_25897"><forename>Grethe</forename></rs> ein <rs type="person" xml:id="pNt_25898" ref="#person_13555"><surname>Beethoven</surname></rs> Quintett.―</p>
+            <p xml:space="preserve" rend="indent">Mit O. und <rs ref="#person_16485" fix="ja" type="person" xml:id="pNt_25899"><forename>Grethe</forename></rs> bei der 25. Aufführung dreier <rs type="person" xml:id="pNt_25900" ref="#person_14472"><surname>Dörmann</surname></rs> Einakter im Kl. 
 Sch. Scheint eine Zukunft zu haben.― (Sie wollen das „<rs type="work" subtype="self" xml:id="bibl_15342">Märchen</rs>“, werd es 
 ihnen aber nicht geben glaub ich, vorläufig.)</p>
          </div>

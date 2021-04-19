@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1879-06-13.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1879-06-09.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1879-06-16.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1879-06-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1879-06-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1879-06-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,14 +173,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0001.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0002.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1879-06-13">
             <p xml:space="preserve"><date when="1879-06-13">13/6</date> Maturaaufsatz:</p>
             <lg>
@@ -196,7 +190,5 @@
             <p xml:space="preserve" rend="indent">Latein: 32 Verse <rs type="person" xml:id="pNt_00016" ref="#person_20943"><surname>Virgil</surname></rs> <rs type="work" xml:id="bibl_23520">Aeneis</rs>. 4. Gesang 219-251f.</p>
             <p xml:space="preserve" rend="indent">Griechisch <rs type="person" xml:id="pNt_00017" ref="#person_18829"><surname>Plato</surname></rs> <rs type="work" xml:id="bibl_23521">Menexenos</rs> Cap. 18.</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

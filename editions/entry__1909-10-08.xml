@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1909-10-08.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-10-07.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-10-09.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-10-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-10-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-10-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,13 +173,12 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2765.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1909-10-08">
             <p xml:space="preserve"><date when="1909-10-08">8/10</date> Vm. Tennis.―</p>
             <p xml:space="preserve" rend="indent">Nm. an „<rs type="work" subtype="self" xml:id="bibl_12893">Vorige</rs>“ ―</p>
@@ -198,11 +192,9 @@ Stellung, das falsche Bild <rs type="place" xml:id="pl_06830" ref="#place_b472f5
                </fw>
                <fw n="95" place="top_right" type="pageNum">95</fw>
             </tei:fw>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_31030" ref="#person_20098"><roleName>Hr.</roleName> <surname>Sikora</surname></rs> und Frau. <rs type="person" xml:id="pNt_31031" ref="#person_19564"><surname>S.</surname></rs> macht auf gefährliche Schäden des Hauses 
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_31030" ref="#person_20098"><roleName>Hr.</roleName> <surname>Sikora</surname></rs> und Frau. <rs ref="#person_19831" fix="ja" type="person" xml:id="pNt_31031"><surname>S.</surname></rs> macht auf gefährliche Schäden des Hauses 
 aufmerksam.</p>
             <p xml:space="preserve" rend="indent">Zu <rs type="allusively" xml:id="rst_01055">Mama</rs>. Familie. <rs type="person" xml:id="pNt_31032" ref="#person_21334"><roleName>Tante</roleName> <forename>Johanna</forename></rs> wurde gestern an Struma operirt.</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

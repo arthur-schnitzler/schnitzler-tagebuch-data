@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1918-09-24.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-23.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-25.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-09-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,14 +173,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4710.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4711.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1918-09-24">
             <p xml:space="preserve"><date when="1918-09-24">24/9</date> Vm. Panorama (<rs type="place" xml:id="pl_11243" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs>).―</p>
             <p xml:space="preserve" rend="indent">Überbrachte <rs type="person" xml:id="pNt_54253" ref="#person_13663"><surname>Bernau</surname></rs> die „<rs type="work" subtype="self" xml:id="bibl_5837">Schwestern</rs>“.―</p>
@@ -207,7 +201,5 @@ drei Mörder <rs type="person" xml:id="pNt_54261" ref="#person_14367"><surname>D
 <rs type="person" xml:id="pNt_54265" ref="#person_20876"><surname>Ulmer</surname></rs> ist der Name eines schlechten <rs type="place" xml:id="pl_11245" ref="#place_b831c3aed38a22564ae26fcadf9e38d3" ana="#exclude">Münchner</rs> Schauspielers.).</p>
             <p xml:space="preserve" rend="indent">― Wie lange schrieb ich schon keine Träume ein!</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

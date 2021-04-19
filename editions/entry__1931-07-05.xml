@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1931-07-05.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-04.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-06.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-07-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,14 +173,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7733.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7734.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1931-07-05">
             <p xml:space="preserve"><date when="1931-07-05">5/7</date> S.― Telef. mit <rs type="person" xml:id="pNt_93350" ref="#person_19832"><forename>O.</forename></rs> <rs type="place" xml:id="pl_19987" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>.― Später ein Expr. Brief von ihr.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_93351" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> <rs type="place" xml:id="pl_19988" ref="#place_187ad9aa5bf46727d6f6cd8ad17cad55">Galitzinberg</rs>, Wiesenruhe.</p>
@@ -197,9 +191,7 @@ besonders durch die Nähe ― und dadurch dass ich ― mich „altern“ fühlte
 oder wenigstens der Unaufhaltsamkeit bewußt war.―</p>
             <p xml:space="preserve" rend="indent">Dann „<rs type="work" subtype="self" xml:id="bibl_23839">Ruf des Lebens</rs>“ vorgenommen.― Werd ich noch jemals wieder arbeiten 
 können.―</p>
-            <p xml:space="preserve" rend="indent">Z. N.  <rs type="person" xml:id="pNt_93354" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>; <rs type="person" xml:id="pNt_93355" ref="#person_16811"><forename>Ferry</forename></rs> und <rs type="person" xml:id="pNt_93356" ref="#person_16321"><forename>Annie</forename></rs>; nach dem Nachtm. auf der Terrasse.―</p>
+            <p xml:space="preserve" rend="indent">Z. N.  <rs type="person" xml:id="pNt_93354" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>; <rs type="person" xml:id="pNt_93355" ref="#person_16811" check="offen"><forename>Ferry</forename></rs> und <rs type="person" xml:id="pNt_93356" ref="#person_16321" check="offen"><forename>Annie</forename></rs>; nach dem Nachtm. auf der Terrasse.―</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

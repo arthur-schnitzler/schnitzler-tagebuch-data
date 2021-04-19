@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1889-11-20.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-11-19.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-11-21.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1889-11-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-11-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-11-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,19 +173,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0435.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1889-11-20">
             <p xml:space="preserve"><date when="1889-11-20">20/11</date> Mittwoch.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_04096" ref="#person_15485"><forename>Mz.</forename></rs> teleph. mir.</p>
-            <p xml:space="preserve" rend="indent">Symposion. <rs type="role" xml:id="pNt_04097"><forename>Max</forename></rs>, <rs type="person" xml:id="pNt_04098" ref="#person_19730"><forename>Fritz</forename></rs>, <rs type="person" xml:id="pNt_04099" ref="#person_17696"><surname>Lothar</surname></rs>.</p>
+            <p xml:space="preserve" rend="indent">Symposion. <rs type="role" xml:id="pNt_04097"><forename>Max</forename></rs>, <rs type="person" xml:id="pNt_04098" ref="#person_19730" check="offen"><forename>Fritz</forename></rs>, <rs type="person" xml:id="pNt_04099" ref="#person_17696"><surname>Lothar</surname></rs>.</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

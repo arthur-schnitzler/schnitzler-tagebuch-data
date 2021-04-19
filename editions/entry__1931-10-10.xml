@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1931-10-10.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-10-09.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-10-11.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-10-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-10-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-10-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,7 +173,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7790.tif"/>
@@ -187,7 +182,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1931-10-10">
-            <p xml:space="preserve"><date when="1931-10-10">10/10</date> Schöne Herbsttage.― Tel. mit <rs type="person" xml:id="pNt_94076"><roleName>Dr.</roleName> <surname>H.</surname></rs> wegen der neuen 
+            <p xml:space="preserve"><date when="1931-10-10">10/10</date> Schöne Herbsttage.― Tel. mit <rs ref="#person_16277" fix="ja" type="person" xml:id="pNt_94076"><roleName>Dr.</roleName><surname>H.</surname></rs> wegen der neuen 
 Devisenvorschriften;― Unannehmlichkeiten durchaus.― Ein wenig Spazieren;― 
 auch mit <rs type="person" xml:id="pNt_94077" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs></p>
             <p xml:space="preserve" rend="indent">― Dictirt Briefe; und über die Situation, besonders finanziell 

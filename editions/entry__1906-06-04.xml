@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1906-06-04.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-06-03.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-06-05.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-06-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-06-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-06-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -177,16 +172,15 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2233.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2234.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1906-06-04">
-            <p xml:space="preserve"><date when="1906-06-04">4/6</date> Pfingstmontag. Vm. Tennis <rs type="person" xml:id="pNt_25059" ref="#person_16770"><surname>Kaufmann</surname></rs>, <rs type="person" xml:id="pNt_25060" ref="#person_20872"><forename>Agnes</forename> <surname>Sp.</surname></rs>, (O., <rs type="person" xml:id="pNt_25061" ref="#person_16321"><forename>Annie</forename></rs>).</p>
+            <p xml:space="preserve"><date when="1906-06-04">4/6</date> Pfingstmontag. Vm. Tennis <rs type="person" xml:id="pNt_25059" ref="#person_16770"><surname>Kaufmann</surname></rs>, <rs type="person" xml:id="pNt_25060" ref="#person_20872"><forename>Agnes</forename> <surname>Sp.</surname></rs>, (O., <rs type="person" xml:id="pNt_25061" ref="#person_16321" check="offen"><forename>Annie</forename></rs>).</p>
             <p xml:space="preserve" rend="indent">― Nm. am <rs type="work" subtype="self" xml:id="bibl_15019">Roman</rs>.―</p>
             <p xml:space="preserve" rend="indent">In den <rs type="place" xml:id="pl_05571" ref="#place_86a694cf5ce5552ca627cb96b607eccd">Prater</rs>, Spalier, Wagen mit <rs type="allusively" xml:id="rst_00710">Mama</rs> und O. abgewartet, mit ihnen 
 gefahren. Erinnerung an frühere Derbytage. Es muss bald 20 Jahre sein, 
@@ -197,7 +191,5 @@ der <rs type="person" xml:id="pNt_25064" ref="#person_17932"><surname>Marschner<
 redete er auch vernünftiges.― O. sang ein wenig. Sie ist ihm offenbar 
 rasend unsympathisch.―</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

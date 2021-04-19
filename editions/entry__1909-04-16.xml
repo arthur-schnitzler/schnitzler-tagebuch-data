@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1909-04-16.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-04-15.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-04-17.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-04-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-04-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-04-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,7 +173,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2677.tif"/>
@@ -187,9 +182,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1909-04-16">
-            <p xml:space="preserve"><date when="1909-04-16">16/4</date> Vm. erstes Tennis, mit <rs type="person" xml:id="pNt_30123" ref="#person_20241"><forename>Else</forename> <surname>Speidel</surname></rs>.</p>
+            <p xml:space="preserve"><date when="1909-04-16">16/4</date> Vm. erstes Tennis, mit <rs type="person" xml:id="pNt_30123" ref="#person_20241" check="offen"><forename>Else</forename> <surname>Speidel</surname></rs>.</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_12579">Medardus</rs> ―</p>
-            <p xml:space="preserve" rend="indent">In <rs type="person" xml:id="pNt_30124" ref="#person_16294"><forename>Hugo</forename></rs> <rs type="person" xml:id="pNt_30125" ref="#person_16292"><forename>Gertys</forename></rs> Loge mit O. und <rs type="person" xml:id="pNt_30126"><roleName>Dr.</roleName> <surname>Hofmannsthal</surname></rs>: <rs type="work" xml:id="bibl_12580">Elektra</rs>, <rs type="work" xml:id="bibl_12581">Poil 
+            <p xml:space="preserve" rend="indent">In <rs type="person" xml:id="pNt_30124" ref="#person_16294"><forename>Hugo</forename></rs> <rs type="person" xml:id="pNt_30125" ref="#person_16292"><forename>Gertys</forename></rs> Loge mit O. und <rs check="offen" type="person" xml:id="pNt_30126"><roleName>Dr.</roleName><surname>Hofmannsthal</surname></rs>: <rs type="work" xml:id="bibl_12580">Elektra</rs>, <rs type="work" xml:id="bibl_12581">Poil 
 de Carotte</rs> (<rs type="person" xml:id="pNt_30127" ref="#person_14415"><surname>Desprès</surname></rs>) <rs type="work" xml:id="bibl_12582">Fardeau de la liberté</rs> (<rs type="person" xml:id="pNt_30128" ref="#person_17735"><surname>Lugné-Poe</surname></rs>). Hörte wenige Worte.―</p>
          </div>
       </body>

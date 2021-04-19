@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1915-07-22.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-07-21.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-07-23.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-07-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-07-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-07-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,17 +173,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4078.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1915-07-22">
-            <p xml:space="preserve"><date when="1915-07-22">22/7</date> Vm. und Nm. an <rs type="work" subtype="self" xml:id="bibl_8270"><rs type="person" xml:id="pNt_45997" ref="#person_14147"><surname>Cas.</surname></rs> Nov.</rs>, die vorläufig abgeschlossen. Ebenso 
+            <p xml:space="preserve"><date when="1915-07-22">22/7</date> Vm. und Nm. an <rs type="work" subtype="self" xml:id="bibl_8270"><rs type="person" xml:id="pNt_45997" ref="#person_14147" check="offen"><surname>Cas.</surname></rs> Nov.</rs>, die vorläufig abgeschlossen. Ebenso 
 endete ich das ausführl. Scenar. zum <rs type="work" subtype="self" xml:id="bibl_8271">Weiher</rs>.</p>
-            <p xml:space="preserve" rend="indent">― Genachtm. silb. Brunnen mit <rs type="person" xml:id="pNt_45998" ref="#person_21600"><surname>Zuckerkandl</surname></rs>, Frau, <rs type="person" xml:id="pNt_45999" ref="#person_21602"><forename>Vicki</forename></rs>, <rs type="allusively" xml:id="rst_01420">Hofrätin</rs> 
+            <p xml:space="preserve" rend="indent">― Genachtm. silb. Brunnen mit <rs type="person" xml:id="pNt_45998" ref="#person_21600" check="offen"><surname>Zuckerkandl</surname></rs>, Frau, <rs type="person" xml:id="pNt_45999" ref="#person_21602"><forename>Vicki</forename></rs>, <rs type="allusively" xml:id="rst_01420">Hofrätin</rs> 
 und <rs type="person" xml:id="pNt_46000" ref="#person_18218"><surname>Moll</surname></rs>.</p>
             <pb n="212"/>
             <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header">
@@ -198,7 +192,5 @@ und <rs type="person" xml:id="pNt_46000" ref="#person_18218"><surname>Moll</surn
                </fw>
             </tei:fw>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

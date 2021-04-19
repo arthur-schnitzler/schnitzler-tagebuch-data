@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1893-01-11.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-01-10.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-01-12.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1893-01-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-01-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-01-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,19 +173,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0668.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1893-01-11">
             <p xml:space="preserve"><date when="1893-01-11">11/1</date> Mit <rs type="person" xml:id="pNt_06970" ref="#person_14199"><forename>Gusti</forename></rs> im Museum.―</p>
-            <p xml:space="preserve" rend="indent">Abds. bei <rs type="person" xml:id="pNt_06971"><surname>Horn’s</surname></rs>. <rs type="person" xml:id="pNt_06972" ref="#person_16364"><forename>Richard</forename></rs> Advocat.― Bürgerlich und langweilig.―</p>
+            <p xml:space="preserve" rend="indent">Abds. bei <rs ref="#person_16368" fix="ja" type="person" xml:id="pNt_06971"><surname>Horn’s</surname></rs>. <rs type="person" xml:id="pNt_06972" ref="#person_16364"><forename>Richard</forename></rs> Advocat.― Bürgerlich und langweilig.―</p>
             <p xml:space="preserve" rend="indent">Juristenball.― Nach ½ Stunde weg.― <rs type="person" xml:id="pNt_06973" ref="#person_16293"><forename>Loris</forename></rs>, <rs type="person" xml:id="pNt_06974" ref="#person_21375"><surname>Winter</surname></rs>.</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

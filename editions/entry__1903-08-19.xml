@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1903-08-19.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-08-18.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-08-20.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1903-08-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-08-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-08-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -75,7 +70,7 @@
          <publicationStmt>
             <publisher>
                <orgName>Austrian Centre for Digital Humanities, Austrian Academy of
-                        Sciences</orgName>
+                  Sciences</orgName>
                <address>
                   <addrLine>Sonnenfelsgasse 19</addrLine>
                   <addrLine>1010 Vienna</addrLine>
@@ -88,14 +83,13 @@
             <date when="2017">2017</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
-                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License
-                            applies to this text.</p>
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                     to this text.</p>
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F4DF-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -112,8 +106,8 @@
                         <forename>Werner</forename>
                         <surname>Welzig</surname>
                      </persName>
-                     <affiliation>Obmann der <orgName>Kommission für literarische Gebrauchsformen der
-                                Österreichischen Akademie der Wissenschaften</orgName>
+                     <affiliation>Obmann der <orgName>Kommission für literarische Gebrauchsformen
+                           der Österreichischen Akademie der Wissenschaften</orgName>
                      </affiliation>
                   </editor>
                   <respStmt>
@@ -133,10 +127,9 @@
                   </respStmt>
                   <imprint>
                      <publisher>
-                        <orgName>Verlag der Österreichischen Akademie der
-                                    Wissenschaften</orgName>
-                        <orgName>Kommission für literarische Gebrauchsformen der
-                                    Österreichischen Akademie der Wissenschaften</orgName>
+                        <orgName>Verlag der Österreichischen Akademie der Wissenschaften</orgName>
+                        <orgName>Kommission für literarische Gebrauchsformen der Österreichischen
+                           Akademie der Wissenschaften</orgName>
                      </publisher>
                      <pubPlace>
                         <placeName>Wien</placeName>
@@ -153,13 +146,12 @@
                   <title level="s">Tagebuch 1879-1931 - Gesamtausgabe</title>
                   <idno type="ISBN">978-3-7001-0395-0</idno>
                   <editor>
-                     <orgName>Verlag der Österreichischen Akademie der
-                                Wissenschaften</orgName>
-                     <orgName>Kommission für literarische Gebrauchsformen der
-                                Österreichischen Akademie der Wissenschaften</orgName>, Obmann:
-                            <persName>Werner Welzig</persName>. Unter Mitwirkung von
-                            <persName>Peter Michael Braunwarth</persName>, <persName>Susanne
-                                Pertlik</persName> und <persName>Reinhard Urbach</persName>
+                     <orgName>Verlag der Österreichischen Akademie der Wissenschaften</orgName>
+                     <orgName>Kommission für literarische Gebrauchsformen der Österreichischen
+                        Akademie der Wissenschaften</orgName>, Obmann: <persName>Werner
+                        Welzig</persName>. Unter Mitwirkung von <persName>Peter Michael
+                        Braunwarth</persName>, <persName>Susanne Pertlik</persName> und
+                        <persName>Reinhard Urbach</persName>
                   </editor>
                   <biblScope unit="volume">Band 1-10</biblScope>
                </series>
@@ -170,14 +162,17 @@
          <editorialDecl>
             <p>Annotation according to TEI/P5.</p>
             <hyphenation eol="none">
-               <p>All end-of-line hyphenation has been removed: any remaining hyphenation occurred within the line</p>
+               <p>All end-of-line hyphenation has been removed: any remaining hyphenation occurred
+                  within the line</p>
             </hyphenation>
             <interpretation>
                <p>personal names, place names, dates</p>
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc>
+         
+      </profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1841.tif"/>
@@ -186,10 +181,9 @@
       <body>
          <div type="diary-day" xml:id="entry__1903-08-19">
             <p xml:space="preserve"><date when="1903-08-19">19/8</date> <rs type="place" xml:id="pl_04442" ref="#place_84465f5d4faee0a7e284c0f3878b528a">Riva</rs>. Park. Spaziergang. Wundervolles Bad.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_20167"><surname>Stiassnys</surname></rs>.― Lunch.― <rs type="work" subtype="self" xml:id="bibl_17798">3. Akt</rs>.― Unwetter. Nach <rs type="place" xml:id="pl_04443" ref="#place_34f36b9454115e3b99acdf7913509e12">Trient</rs>.― Dort <rs type="person" xml:id="pNt_20168" ref="#person_15529"><forename>P.</forename> <surname>G.</surname></rs> und 
+            <p xml:space="preserve" rend="indent"><rs check="offen" type="person" xml:id="pNt_20167"><surname>Stiassnys</surname></rs>.― Lunch.― <rs type="work" subtype="self" xml:id="bibl_17798">3. Akt</rs>.― Unwetter. Nach <rs type="place" xml:id="pl_04443" ref="#place_34f36b9454115e3b99acdf7913509e12">Trient</rs>.― Dort <rs type="person" xml:id="pNt_20168" ref="#person_15529"><forename>P.</forename> <surname>G.</surname></rs> und 
 <rs type="person" xml:id="pNt_20169" ref="#person_19434"><roleName>Frau</roleName> <surname>R.</surname></rs></p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

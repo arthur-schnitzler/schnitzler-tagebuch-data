@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1924-11-29.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-11-28.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-11-30.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1924-11-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-11-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-11-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,14 +173,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6404.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6405.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1924-11-29">
             <p xml:space="preserve"><date when="1924-11-29">29/11</date> Allerlei Aerger mit <rs type="person" xml:id="pNt_73888" ref="#person_14130"><forename>Lili</forename></rs>, die nun wieder die fixe Idee mit 
 dem Eislaufen (und Eisflirten) hat ― Alles wird gleich zur 
@@ -194,10 +188,8 @@ Monomanie bei ihr,― Manicure, Zwetschencompote und Schlittschuhe.―</p>
             <p xml:space="preserve" rend="indent">Dict. (Steuerrekurs; <rs type="work" subtype="self" xml:id="bibl_21471">aphor.</rs>;― <rs type="work" subtype="self" xml:id="bibl_21472">Nov.</rs>)</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="work" subtype="self" xml:id="bibl_21473">aphor.</rs>―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_73890" ref="#person_21602"><forename>Vicki</forename></rs>; fragt mich in einer Bildersache um Rath wegen Zeugenaussage.</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_73891" ref="#person_14130"><forename>Lili</forename></rs> Tanzabend <rs type="person" xml:id="pNt_73892"><surname>Telsensemble</surname></rs>. Mit <rs type="person" xml:id="pNt_73893" ref="#person_20323"><forename>Karen</forename> <surname>Stampe-Bendix</surname></rs>, deren 
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_73891" ref="#person_14130"><forename>Lili</forename></rs> Tanzabend <rs ref="#person_20659" fix="ja" type="person" xml:id="pNt_73892"><surname>Telsensemble</surname></rs>. Mit <rs type="person" xml:id="pNt_73893" ref="#person_20323"><forename>Karen</forename> <surname>Stampe-Bendix</surname></rs>, deren 
 reizende Tochter als Solistin mittanzte ― ―</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

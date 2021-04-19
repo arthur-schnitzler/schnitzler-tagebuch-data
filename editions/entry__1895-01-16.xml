@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1895-01-16.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-01-15.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-01-17.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1895-01-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-01-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-01-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,14 +173,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0939.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0940.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1895-01-16">
             <p xml:space="preserve"><date when="1895-01-16">16/1</date> Schicke an <rs type="person" xml:id="pNt_09808" ref="#person_20243"><surname>Speidel</surname></rs> meine Sachen.― Im Museum <rs type="person" xml:id="pNt_09809" ref="#person_21047"><forename>Olga</forename></rs>, die mir 
 gestern geschrieben hatte.― Sehr hübsch und elegant. Sie hatte 
@@ -197,7 +191,7 @@ beruhigen. Es war eine schöne lebendige Stunde. Wir kamen, wie schon
 Beisammensein ineinander verlieben würden.― Ihr Mann berührt sie jetzt 
 nicht ― weil er ― sie von einem andern in der Hoffnung glaubt. Sie 
 schwört mir, dass sie noch keines Mannes Gel. war; obzwar sie sogar 
-einmal in einem Haus des <rs type="person" xml:id="pNt_09811"><roleName>Grafen</roleName> <surname>S.</surname></rs> gewesen ― „Das Leben ist 
+einmal in einem Haus des <rs ref="#person_19534" fix="ja" type="person" xml:id="pNt_09811"><roleName>Grafen</roleName><surname>S.</surname></rs> gewesen ― „Das Leben ist 
 interessant ― es ist doch das beste, was wir haben“ sagte sie.―</p>
             <p xml:space="preserve" rend="indent">Es gibt Wesen, die nicht in der Continuität leben, die dadurch 
 jederzeit von ihrer Vergangenheit, ja selbst von ihrem gestern 
@@ -210,7 +204,5 @@ sein Drama <rs type="work" xml:id="bibl_22061">Phryne</rs> vorlesen lasse.― Im
 interessanter erster Akt.― Ich fühle, daß <rs type="person" xml:id="pNt_09814" ref="#person_13374"><surname>Bahr</surname></rs> sie gegen mich 
 ausspielen wird.</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

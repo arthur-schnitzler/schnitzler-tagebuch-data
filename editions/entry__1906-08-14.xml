@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1906-08-14.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-08-13.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-08-15.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-08-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-08-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-08-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -177,18 +172,17 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2251.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2252.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2253.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1906-08-14">
             <p xml:space="preserve"><date when="1906-08-14">14/8</date> Im Archiv. <rs type="person" xml:id="pNt_25323" ref="#person_21043"><roleName>Dr.</roleName> <surname>Wahle</surname></rs>, kleiner Jude, nett, liebenswürdig. Zeigt mir 
-allerlei Manuscripte, <rs type="work" xml:id="bibl_15131">Tagebücher</rs>, <rs type="work" xml:id="bibl_15132">Faust</rs>, Briefe (auch <rs type="person" xml:id="pNt_25324" ref="#person_21564"><forename>Christianens</forename></rs> etc.) ― 
+allerlei Manuscripte, <rs type="work" xml:id="bibl_15131">Tagebücher</rs>, <rs type="work" xml:id="bibl_15132">Faust</rs>, Briefe (auch <rs type="person" xml:id="pNt_25324" ref="#person_21564" check="offen"><forename>Christianens</forename></rs> etc.) ― 
 Plötzlich erscheint jemand, der mir als <rs type="person" xml:id="pNt_25325" ref="#person_20571"><roleName>Direktor</roleName> <surname>Suphan</surname></rs> vorgestellt wird. 
 Kühle Begrüßung, die ihn offenbar verletzt. Er fragt mich, ob ich hier 
 arbeiten will. Ich: „Nein. Tourist. <rs type="person" xml:id="pNt_25326" ref="#person_21043"><roleName>Dr.</roleName> <surname>Wahle</surname></rs> war so freundlich ―“ Er (zu 
@@ -210,7 +204,7 @@ ist immer so. Hat schon manche hinaus geekelt ― ―</p>
             <p xml:space="preserve" rend="indent">― Ich diagnostizirte kindische Eitelkeit und Größenwahn, was <rs type="person" xml:id="pNt_25334" ref="#person_15158"><surname>W.</surname></rs> 
 bestätigt. Wir sprachen noch von der <rs type="person" xml:id="pNt_25335" ref="#person_15766"><surname>Schoder</surname></rs>, die hier in der Nähe wohnt 
 (und mich „verehrt“ ― jedenfalls nicht wie ich sie).―</p>
-            <p xml:space="preserve" rend="indent">Nach Fortgehn bedauerte ich zuerst <rs type="person" xml:id="pNt_25336"><roleName>Herrn</roleName> <surname>S.</surname></rs> nicht irgend was vernichtend 
+            <p xml:space="preserve" rend="indent">Nach Fortgehn bedauerte ich zuerst <rs check="offen" type="person" xml:id="pNt_25336"><roleName>Herrn</roleName><surname>S.</surname></rs> nicht irgend was vernichtend 
 großartiges gesagt zu haben. Dann war es mir aber angenehm, da er mich, 
 als Direktor, am Ende auch noch hinausgewiesen hätte. Es bleibt nach jeder 
 Richtung das „klügste“ und das „würdigste“ ― dass ich seine 
@@ -226,7 +220,5 @@ reiner Verhältnisse in unserm Kreis wegen Mangels an Güte.</p>
 <rs type="person" xml:id="pNt_25339" ref="#person_16293"><forename>Hugo</forename></rs>.― Mittags ein Gespräch über Sanatoriumszustände.―</p>
             <p xml:space="preserve" rend="indent">Russ. Hof soupirt.</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

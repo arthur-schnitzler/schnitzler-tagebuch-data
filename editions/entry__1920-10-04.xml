@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1920-10-04.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-10-03.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-10-05.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-10-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-10-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-10-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,21 +173,18 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5194.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1920-10-04">
             <p xml:space="preserve"><date when="1920-10-04">4/10</date> Dict. Briefe, <rs type="work" subtype="self" xml:id="bibl_4291">Weiher</rs>.</p>
-            <p xml:space="preserve" rend="indent">Zu Tisch das junge Ehepaar <rs type="person" xml:id="pNt_60035" ref="#person_19226"><forename>Emil Alph.</forename> <surname>Rheinhardt</surname></rs> und <rs type="person" xml:id="pNt_60036" ref="#person_16292"><forename>Gerty</forename></rs>.</p>
+            <p xml:space="preserve" rend="indent">Zu Tisch das junge Ehepaar <rs type="person" xml:id="pNt_60035" ref="#person_19226"><forename>Emil Alph.</forename> <surname>Rheinhardt</surname></rs> und <rs type="person" xml:id="pNt_60036" ref="#person_16292" check="offen"><forename>Gerty</forename></rs>.</p>
             <p xml:space="preserve" rend="indent">― Am „<rs type="work" subtype="self" xml:id="bibl_4292">Weiher</rs>“.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_60037" ref="#person_15692"><surname>Grosz</surname></rs> verabschiedet sich, geht nach <rs type="place" xml:id="pl_12565" ref="#place_bd2b145b873049a539012fea08bfa71a">Mannheim</rs>.</p>
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_60037" ref="#person_15692" check="offen"><surname>Grosz</surname></rs> verabschiedet sich, geht nach <rs type="place" xml:id="pl_12565" ref="#place_bd2b145b873049a539012fea08bfa71a">Mannheim</rs>.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_60038" ref="#person_17786"><surname>Mahler</surname></rs> <rs type="work" xml:id="bibl_4293">Fünfte</rs>, mit <rs type="person" xml:id="pNt_60039" ref="#person_18881"><forename>Kolap</forename></rs>.―</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

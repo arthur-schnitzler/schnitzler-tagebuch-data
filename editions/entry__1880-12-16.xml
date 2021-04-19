@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1880-12-16.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-12-15.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-12-17.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1880-12-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-12-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-12-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,7 +173,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0111.tif"/>
@@ -186,7 +181,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1880-12-16">
-            <p xml:space="preserve"><date when="1880-12-16">16/12</date> Donnerstag früh ― Traf gestern Nachts <rs type="person" xml:id="pNt_00966"><forename>Moriz</forename> <surname>W.</surname></rs> wieder. Er war 
+            <p xml:space="preserve"><date when="1880-12-16">16/12</date> Donnerstag früh ― Traf gestern Nachts <rs ref="#person_21286" fix="ja" type="person" xml:id="pNt_00966"><forename>Moriz</forename><surname>W.</surname></rs> wieder. Er war 
 in <rs type="place" xml:id="pl_00183" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>, Journalist.―</p>
          </div>
       </body>

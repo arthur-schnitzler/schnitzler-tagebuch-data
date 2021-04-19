@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1904-12-31.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-12-30.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-01-01.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-12-31.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-12-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-01-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -177,13 +172,12 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2017.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1904-12-31">
             <p xml:space="preserve"><date when="1904-12-31">31/12</date> Ankunft <rs type="place" xml:id="pl_05013" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.― Briefe (an <rs type="person" xml:id="pNt_22200" ref="#person_16293"><forename>Hugo</forename></rs> über die Besetzung des <rs type="figur">Jaffier</rs>).― 
 Beim Friseur.―</p>
@@ -197,13 +191,11 @@ Beim Friseur.―</p>
             <p xml:space="preserve" rend="indent">Roulette; etwa 20 Kr. gewonnen.―</p>
             <p xml:space="preserve" rend="indent">Im Sturm und Schnee, Kälte nach Haus.―</p>
             <p xml:space="preserve" rend="indent">Las in <rs type="place" xml:id="pl_05014" ref="#place_1f8c82592620c6015573491c32824424">Lueg</rs> (begann zu lesen) <rs type="work" xml:id="bibl_17565">Balsamo</rs>.― (<rs type="person" xml:id="pNt_22209" ref="#person_14547"><surname>Dumas</surname></rs>.) ― Begann <rs type="work" xml:id="bibl_17566">Briefe</rs> 
-<rs type="person" xml:id="pNt_22210" ref="#person_19154"><surname>Reinhard</surname></rs> ― <rs type="person" xml:id="pNt_22211" ref="#person_15498"><surname>Goethe</surname></rs>.―</p>
+<rs type="person" xml:id="pNt_22210" ref="#person_19154" check="offen"><surname>Reinhard</surname></rs> ― <rs type="person" xml:id="pNt_22211" ref="#person_15498" check="offen"><surname>Goethe</surname></rs>.―</p>
             <p xml:space="preserve" rend="center">
 1905</p>
             <p xml:space="preserve" rend="center">
 Januar</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1879-12-08.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1879-12-04.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1879-12-13.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1879-12-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1879-12-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1879-12-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,18 +173,17 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0006.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0007.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1879-12-08">
             <p xml:space="preserve"><date when="1879-12-08">8/12</date> Montag Abends.</p>
             <p xml:space="preserve" rend="indent">„Ich habe Leidenschaft zuviel“ ― so sagt ich ihr heute, als ich Arm 
-in Arm mit ihr im Zimmer bei <rs type="person" xml:id="pNt_00093"><surname>Königs</surname></rs> auf und ab ging. Was wir da 
+in Arm mit ihr im Zimmer bei <rs ref="#person_16961" fix="ja" type="person" xml:id="pNt_00093"><surname>Königs</surname></rs> auf und ab ging. Was wir da 
 unaufhörlich miteinander sprachen, ich kanns nicht mehr erzählen, 
 wir sagten uns in einem fort, daß wir uns liebten und wieder daß wir 
 uns liebten. Als wir miteinander tanzten, küsst’ ich sie oftmals.</p>
@@ -198,7 +192,5 @@ uns liebten. Als wir miteinander tanzten, küsst’ ich sie oftmals.</p>
 unser Verhältnis schlecht, wenn sie heute dem <rs type="person" xml:id="pNt_00096" ref="#person_18766"><forename>Jacques</forename></rs> gegenüber 
 nochmals behauptete, <rs type="person" xml:id="pNt_00097" ref="#person_17368"><forename>Fany</forename></rs> fühle keine wahre Liebe zu mir.</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

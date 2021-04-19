@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1917-03-04.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-03-03.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-03-05.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1917-03-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-03-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-03-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,14 +173,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4416.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4417.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1917-03-04">
             <p xml:space="preserve"><date when="1917-03-04">4/3</date> S. Dreimarkstein in Schnee. Düsterste Stimmung; auch aus häusl. 
 Gründen. Gerade wegen ihrer Nichtigkeit paradigm. stehe diese 
@@ -205,7 +199,7 @@ nun aber, geht bös schlafen;― erwidert meinen Morgengruss nicht u. s.
 w.― Beim Nachhausekommen ― die gewisse unerträgliche Atmosphäre als 
 hätte sich was katastrophales ereignet;― es wird kein Wort gesprochen; 
 sie liegt den ganzen Nachm. auf ihrem Divan, ich bin (alberner Weise) 
-arbeitsunfähig;― gehe ins Concert Trio <rs type="person" xml:id="pNt_50041" ref="#person_15694"><surname>Grümmer</surname></rs> ― <rs type="person" xml:id="pNt_50042" ref="#person_14085"><surname>Busch</surname></rs> ― <rs type="person" xml:id="pNt_50043" ref="#person_17648"><surname>Loewe</surname></rs> ― mit 
+arbeitsunfähig;― gehe ins Concert Trio <rs type="person" xml:id="pNt_50041" ref="#person_15694"><surname>Grümmer</surname></rs> ― <rs type="person" xml:id="pNt_50042" ref="#person_14085"><surname>Busch</surname></rs> ― <rs ref="#person_17641" fix="ja" type="person" xml:id="pNt_50043"><surname>Loewe</surname></rs> ― mit 
 <rs type="person" xml:id="pNt_50044" ref="#person_19822"><forename>Heini</forename></rs> zurück, theils Stadtbahn, theils zu Fuss; O. zu Bett; nach dem 
 Nachtm. Auseinandersetzung: ob sie das Recht zu haben glaube mir 
 Lebenstage zu rauben, weil ich im richtigen Moment mein „Genug“ 
@@ -213,7 +207,5 @@ gesprochen;― erläutere ihr, dass ihre Verstimmung in Wahrheit doch
 wieder nur aus Rechthaberei und Eitelkeit hervorgehe und, da sie ― wie 
 natürlich ― ihr Unrecht nicht einsieht ― scheiden wir in Unfrieden ―</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

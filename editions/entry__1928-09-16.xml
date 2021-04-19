@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1928-09-16.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-09-15.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-09-17.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-09-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-09-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-09-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,13 +173,12 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7165.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1928-09-16">
             <p xml:space="preserve"><date when="1928-09-16">16/9</date> S.― Vm. engagire ich eine Köchin.―</p>
             <p xml:space="preserve" rend="indent">Ordnen.―</p>
@@ -196,11 +190,9 @@ wenn ich auch immer Unverläßlichkeit im kleinen und im großen spüre;―
 es bleibt doch der innere Zusammenhang, gemeinsame Anfänge und Jugendklänge 
 und ein „Wie Schade“.―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="work" subtype="self" xml:id="bibl_19650">Zug</rs>, Bild 4-6 (die ziemlich definitiv sind), und 7-9 durchgelesen.</p>
-            <p xml:space="preserve" rend="indent">Z. N. bei <rs type="person" xml:id="pNt_84780" ref="#person_19756"><forename>Paula</forename> <surname>Schmidl</surname></rs>; wo auch <rs type="person" xml:id="pNt_84781"><forename>Emmy</forename> <surname>Sgal</surname></rs> (die älteste Schwester) 
+            <p xml:space="preserve" rend="indent">Z. N. bei <rs type="person" xml:id="pNt_84780" ref="#person_19756"><forename>Paula</forename> <surname>Schmidl</surname></rs>; wo auch <rs ref="#person_20075" fix="ja" type="person" xml:id="pNt_84781"><forename>Emmy</forename><surname>Sgal</surname></rs> (die älteste Schwester) 
 aus <rs type="place" xml:id="pl_18292" ref="#place_59ead8d1e124ccfb79f3ace06f43e703">London</rs>; <rs type="person" xml:id="pNt_84782" ref="#person_16852"><forename>Hansi</forename></rs> mit Mann.― Über Verlogenheit in Religion und 
 Sittlichkeit und „Theosophie“.―</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

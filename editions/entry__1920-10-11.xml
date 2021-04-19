@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1920-10-11.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-10-10.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-10-12.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-10-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-10-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-10-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,14 +173,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5199.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5200.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1920-10-11">
             <p xml:space="preserve"><date when="1920-10-11">11/10</date> Vm. dictirt Briefe.―</p>
             <p xml:space="preserve" rend="indent">Mittagessen Terrasse. <rs type="person" xml:id="pNt_60099" ref="#person_16770"><surname>Kaufmann</surname></rs> kam dazu, von der Steuerbehörde, im 
@@ -200,13 +194,11 @@ schönes, einfaches;― trotzdem bin ich wieder ein wenig besorgt.</p>
 <surname>Schilling</surname></rs> vom <rs type="place" ref="#place_volkstheater">Volksth.</rs> war eben bei ihm.― Er beschäftige sich in der 
 letzten Zeit mit der Bibel.― Ich sprach von <rs type="person" xml:id="pNt_60102" ref="#person_18442"><surname>Nicolai</surname></rs>, <rs type="work" xml:id="bibl_4304">Biologie des Krieges</rs>; 
 lobte es,― es sei nicht das übliche pacifistische Geschwefel … „Wie 
-sollte das auch sein, sagte <rs type="person" xml:id="pNt_60103" ref="#person_18916"><surname>P.</surname></rs>;― er heißt ja <rs type="person" xml:id="pNt_60104" ref="#person_21178"><surname>Weinstein</surname></rs>.―“</p>
+sollte das auch sein, sagte <rs type="person" xml:id="pNt_60103" ref="#person_18916"><surname>P.</surname></rs>;― er heißt ja <rs type="person" xml:id="pNt_60104" ref="#person_21178" check="offen"><surname>Weinstein</surname></rs>.―“</p>
             <p xml:space="preserve" rend="indent">Seine treuen Haushälterinnen im Vorzimmer mit mir über das 
 Verlagsgeschäft.―</p>
             <p xml:space="preserve" rend="indent"> 
-― Ins Concert <rs type="person" xml:id="pNt_60105"><surname>Fried</surname></rs> <rs type="person" xml:id="pNt_60106" ref="#person_17786"><surname>Mahler</surname></rs> <rs type="work" xml:id="bibl_4305">VII.</rs>, mit <rs type="person" xml:id="pNt_60107" ref="#person_19832"><forename>O.</forename></rs>―</p>
+― Ins Concert <rs check="offen" type="person" xml:id="pNt_60105"><surname>Fried</surname></rs> <rs type="person" xml:id="pNt_60106" ref="#person_17786"><surname>Mahler</surname></rs> <rs type="work" xml:id="bibl_4305">VII.</rs>, mit <rs type="person" xml:id="pNt_60107" ref="#person_19832"><forename>O.</forename></rs>―</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

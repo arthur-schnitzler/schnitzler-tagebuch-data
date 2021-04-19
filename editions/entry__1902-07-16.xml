@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1902-07-16.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-07-15.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-07-17.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1902-07-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-07-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-07-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,17 +173,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1697.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1902-07-16">
-            <p xml:space="preserve"><date when="1902-07-16">16/7</date> <rs type="place" xml:id="pl_04020" ref="#place_a25ff6cb521df1cd0272d03eee7efd32">Brühl</rs> ― <rs type="place" xml:id="pl_04021" ref="#place_1c24743c9fa25eb3584fe72837b40057">Heiligenkreuz</rs> ― <rs type="place" xml:id="pl_04022" ref="#place_9a43e84f6e1d406076f2372205804f6d">Baden</rs> (<rs type="person" xml:id="pNt_18769"><forename>Grethl</forename></rs>) ― <rs type="place" xml:id="pl_04023" ref="#place_e13ec8c925540228f5e6a053948bf715">Siegenfeld</rs> <rs type="place" xml:id="pl_04024" ref="#place_a25ff6cb521df1cd0272d03eee7efd32">Brühl</rs>.―</p>
+            <p xml:space="preserve"><date when="1902-07-16">16/7</date> <rs type="place" xml:id="pl_04020" ref="#place_a25ff6cb521df1cd0272d03eee7efd32">Brühl</rs> ― <rs type="place" xml:id="pl_04021" ref="#place_1c24743c9fa25eb3584fe72837b40057">Heiligenkreuz</rs> ― <rs type="place" xml:id="pl_04022" ref="#place_9a43e84f6e1d406076f2372205804f6d">Baden</rs> (<rs ref="#person_17804" fix="ja" type="person" xml:id="pNt_18769"><forename>Grethl</forename></rs>) ― <rs type="place" xml:id="pl_04023" ref="#place_e13ec8c925540228f5e6a053948bf715">Siegenfeld</rs> <rs type="place" xml:id="pl_04024" ref="#place_a25ff6cb521df1cd0272d03eee7efd32">Brühl</rs>.―</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

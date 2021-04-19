@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1911-11-02.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-11-01.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-11-03.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-11-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-11-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-11-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,14 +173,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3262.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3263.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1911-11-02">
             <p xml:space="preserve"><date when="1911-11-02">2/11</date> Vm. nach <rs type="place" xml:id="pl_07673" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>. Esplanade Hotel. Gegessen.</p>
             <p xml:space="preserve" rend="indent">Zu <rs type="person" xml:id="pNt_36502" ref="#person_17834"><forename>Heinrich</forename> <surname>Mann</surname></rs> ins Hotel, von dem eine Einladung zur Samstag 
@@ -195,14 +189,12 @@ einen Roman „<rs type="work" xml:id="bibl_11268">Der Unterthan</rs>“.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_36505" ref="#person_13913"><surname>Brahm</surname></rs> holt mich ab, Lessingtheater.</p>
             <p xml:space="preserve" rend="indent">„<rs type="work" subtype="self" xml:id="bibl_11269">Weites Land</rs>“. Gut inszenirt. <rs type="person" xml:id="pNt_36506" ref="#person_18235"><surname>Monnard</surname></rs> als <rs type="work">Hofreiter</rs> absolut 
 unmöglich. So konnte das Stück hier nicht verstanden werden. <rs type="person" xml:id="pNt_36508" ref="#person_20811"><surname>Triesch</surname></rs> 
-(<rs type="figur">Genia</rs>), <rs type="person" xml:id="pNt_36510" ref="#person_16126"><surname>Herterich</surname></rs> (<rs type="person" xml:id="pNt_36511" ref="#person_15033"><forename>Erna</forename></rs>), <rs type="person" xml:id="pNt_36512" ref="#person_15709"><surname>Grüning</surname></rs> (<rs type="person" xml:id="pNt_36513"><roleName>Frau</roleName> <surname>Wahl</surname></rs>) sehr gut. Nach dem 
+(<rs type="figur">Genia</rs>), <rs type="person" xml:id="pNt_36510" ref="#person_16126"><surname>Herterich</surname></rs> (<rs type="person" xml:id="pNt_36511" ref="#person_15033" check="offen"><forename>Erna</forename></rs>), <rs type="person" xml:id="pNt_36512" ref="#person_15709"><surname>Grüning</surname></rs> (<rs check="offen" type="person" xml:id="pNt_36513"><roleName>Frau</roleName><surname>Wahl</surname></rs>) sehr gut. Nach dem 
 4. Akt wurde der Beifall so stürmisch, daß ich mich ein paar Mal 
 bedanken mußte. 12.Vorstellung. Es wird nicht lang gehn.</p>
             <p xml:space="preserve" rend="indent">Esplanade genachtmahlt mit <rs type="person" xml:id="pNt_36514" ref="#person_15009"><surname>Fischers</surname></rs> und <rs type="person" xml:id="pNt_36515" ref="#person_14718"><forename>Elias</forename></rs>. Der 
 <rs type="work" xml:id="bibl_11270">Rosenkavalierwalzer</rs>, während dessen (zufällig) <rs type="person" xml:id="pNt_36516" ref="#person_21036"><forename>Siegfried</forename> <surname>Wagner</surname></rs> den Saal 
 verläßt. Karte an <rs type="person" xml:id="pNt_36517" ref="#person_16293"><forename>Hugo</forename></rs>.</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

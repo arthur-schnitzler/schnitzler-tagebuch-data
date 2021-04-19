@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1908-06-19.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-06-18.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-06-20.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-06-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-06-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-06-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -177,19 +172,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2524.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1908-06-19">
-            <p xml:space="preserve"><date when="1908-06-19">19/6</date> <rs type="place" xml:id="pl_06361" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> <rs type="place" xml:id="pl_06362" ref="#place_661f4200c3f047474d1df224f62f0503">Aussee</rs> (mit O.) Hotel <rs type="person" xml:id="pNt_28524"><surname>Hackinger</surname></rs>.</p>
+            <p xml:space="preserve"><date when="1908-06-19">19/6</date> <rs type="place" xml:id="pl_06361" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> <rs type="place" xml:id="pl_06362" ref="#place_661f4200c3f047474d1df224f62f0503">Aussee</rs> (mit O.) Hotel <rs check="offen" type="person" xml:id="pNt_28524"><surname>Hackinger</surname></rs>.</p>
             <p xml:space="preserve" rend="indent">Abends Spazierfahrt <rs type="place" xml:id="pl_06363" ref="#place_2384804448a53e420c3707bdfb9fb295">Altaussee</rs>.</p>
             <p xml:space="preserve" rend="indent">Die <rs type="work" subtype="self" xml:id="bibl_13475">Frieberg Novelle</rs> überdacht.</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>
