@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1930-11-01.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-10-31.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-11-02.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-11-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-10-31.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-11-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,16 +173,15 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7583.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7584.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1930-11-01">
-            <p xml:space="preserve"><date when="1930-11-01">1/11</date> Vm. bei <rs type="person" xml:id="pNt_91124" ref="#person_14026"><roleName>Dr.</roleName> <surname>Brunner</surname></rs> (auf Empfehlung <rs type="person" xml:id="pNt_91125" ref="#person_16811"><forename>Ferrys</forename></rs>) Poliklinik ― 
+            <p xml:space="preserve"><date when="1930-11-01">1/11</date> Vm. bei <rs type="person" xml:id="pNt_91124" ref="#person_14026"><roleName>Dr.</roleName> <surname>Brunner</surname></rs> (auf Empfehlung <rs type="person" xml:id="pNt_91125" ref="#person_16811" check="offen"><forename>Ferrys</forename></rs>) Poliklinik ― 
 Ohrenuntersuchung. Er ist durchaus gegen Apparat, hingegen, ohne eigentliche 
 Überzeugung für Massagen Trommelfell.― Sympathischer Mensch.―</p>
             <p xml:space="preserve" rend="indent">Zu Tisch <rs type="person" xml:id="pNt_91126" ref="#person_18881"><forename>Kolap</forename></rs> und Bruder.― Warmer Tag. Garten.</p>
@@ -196,7 +190,5 @@ Ohrenuntersuchung. Er ist durchaus gegen Apparat, hingegen, ohne eigentliche
 in <rs type="person" xml:id="pNt_91130" ref="#person_17891"><surname>Marischkas</surname></rs> Loge.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_91131" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Weingartl genachtm.―</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

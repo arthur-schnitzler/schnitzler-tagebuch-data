@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1920-09-27.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-09-26.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-09-28.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-09-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-09-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-09-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,14 +173,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5190.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5191.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1920-09-27">
             <p xml:space="preserve"><date when="1920-09-27">27/9</date> Dict. Briefe.― <rs type="person" xml:id="pNt_59978" ref="#person_17562"><forename>R.</forename> <surname>L.</surname></rs> erscheint Vormittag.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_4272">Weiher</rs>.</p>
@@ -194,10 +188,8 @@ Jahre gearbeitet. Politisches. Sie sagt einen Sieg der labour party in
 <rs type="place" xml:id="pl_12554" ref="#place_64f607906be7598a02d75dbc1e979662">England</rs>, und Revision des Friedensvertrages voraus.―</p>
             <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_12555" ref="#place_f841cfc511914d4aad334bc4c7f771fe" ana="#exclude">Ungarische</rs> Verwandte <rs type="person" xml:id="pNt_59980" ref="#person_19832"><forename>O.s</forename></rs> zum Thee. Frau mit 2 Kindern, der Sohn wegen des 
 numerus clausus von <rs type="place" xml:id="pl_12556" ref="#place_16e3171623eb5d625287846c66d1ce72" ana="#exclude">Budapester</rs> Univ. weg.―</p>
-            <p xml:space="preserve" rend="indent">Zu <rs type="person" xml:id="pNt_59981" ref="#person_15855"><surname>Hajek</surname></rs>, der wieder eine Nierenkolik durchgemacht. Frau <rs type="person" xml:id="pNt_59982"><forename>Lili</forename> <surname>Eisenberg</surname></rs> bei 
+            <p xml:space="preserve" rend="indent">Zu <rs type="person" xml:id="pNt_59981" ref="#person_15855"><surname>Hajek</surname></rs>, der wieder eine Nierenkolik durchgemacht. Frau <rs ref="#person_14679" fix="ja" type="person" xml:id="pNt_59982"><forename>Lili</forename><surname>Eisenberg</surname></rs> bei 
 <rs type="person" xml:id="pNt_59983" ref="#person_15854"><forename>Gisa</forename></rs>.―</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

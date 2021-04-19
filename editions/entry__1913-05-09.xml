@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1913-05-09.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-05-08.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-05-10.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-05-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-05-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-05-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,14 +173,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3616.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3617.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1913-05-09">
             <p xml:space="preserve"><date when="1913-05-09">9/5</date> Dict. <rs type="work" subtype="self" xml:id="bibl_9453">Novelle</rs>.―</p>
             <pb n="37"/>
@@ -197,7 +191,7 @@
             </tei:fw>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_40717" ref="#person_16770"><forename>Arthur</forename> <surname>Kaufmann</surname></rs>; er fährt nach <rs type="place" xml:id="pl_08271" ref="#place_8ac85cc83788186b74cc9ca468d300c5">Brioni</rs>. Spitzencatarrh; ißt bei uns.―</p>
             <p xml:space="preserve" rend="indent">― Mit O. zum Antiquitätenhändler <rs type="person" xml:id="pNt_40718" ref="#person_16890"><surname>Klein</surname></rs>.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_40719"><forename>Joh.</forename> <surname>Strauß</surname></rs> Th. (Kl. Th.); <rs type="person" xml:id="pNt_40720" ref="#person_21295"><surname>Wied</surname></rs>, <rs type="work" xml:id="bibl_9454">2·2 = 5</rs>. Nachher mit <rs type="person" xml:id="pNt_40721" ref="#person_13428"><surname>Barnowsky</surname></rs>, 
+            <p xml:space="preserve" rend="indent"><rs check="offen" type="person" xml:id="pNt_40719"><forename>Joh.</forename><surname>Strauß</surname></rs> Th. (Kl. Th.); <rs type="person" xml:id="pNt_40720" ref="#person_21295"><surname>Wied</surname></rs>, <rs type="work" xml:id="bibl_9454">2·2 = 5</rs>. Nachher mit <rs type="person" xml:id="pNt_40721" ref="#person_13428"><surname>Barnowsky</surname></rs>, 
 <rs type="person" xml:id="pNt_40722" ref="#person_15709"><roleName>Frau</roleName> <surname>Grüning</surname></rs> (die vortreffliche Schauspielerin) <rs type="person" xml:id="pNt_40723" ref="#person_21594"><roleName>Hofrätin</roleName> <surname>Zuckerkandl</surname></rs>, 
 <rs type="person" xml:id="pNt_40724" ref="#person_21597"><forename>Fritz</forename></rs>, <rs type="person" xml:id="pNt_40725" ref="#person_21602"><forename>Vicki</forename></rs>, Buchhändler <rs type="person" xml:id="pNt_40726" ref="#person_16069"><surname>Heller</surname></rs> im Imperial.― <rs type="person" xml:id="pNt_40727" ref="#person_16069"><surname>Heller</surname></rs> über seine 
 Bemühungen. Der Volksbildungsverein traut sich nun auch nicht einen 
@@ -206,7 +200,5 @@ der <rs type="place" xml:id="pl_08272" ref="#place_0f2f3070dbc7c0bb90b16cf58fd4e
 Redaction: „Haben Sie das nötig ―“ Alles was sonst gegen die Censur 
 schreit,― hält das Maul ― oder fällt mir in den Rücken.―</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

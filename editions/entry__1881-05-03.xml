@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1881-05-03.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1881-05-02.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1881-05-05.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1881-05-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1881-05-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1881-05-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,7 +173,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0126.tif"/>
@@ -187,7 +182,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1881-05-03">
             <p xml:space="preserve"><date when="1881-05-03">3/5</date> Dinstag.― <rs type="person" xml:id="pNt_01174" ref="#person_16963"><forename>Ida</forename></rs> dagegen theilt mir mit, <rs type="person" xml:id="pNt_01175" ref="#person_17368"><forename>Fany</forename></rs> habe ihr gestern 
-gesagt, sie liebe <rs type="person" xml:id="pNt_01176" ref="#person_19227"><surname>L.</surname></rs>, werde sich bald verloben ― Ich kann hiezu nichts 
+gesagt, sie liebe <rs ref="#person_17370" fix="ja" type="person" xml:id="pNt_01176"><surname>L.</surname></rs>, werde sich bald verloben ― Ich kann hiezu nichts 
 mehr bemerken als: ??????</p>
          </div>
       </body>

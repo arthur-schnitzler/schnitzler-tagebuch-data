@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1909-07-25.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-07-24.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-07-26.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-07-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-07-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-07-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,7 +173,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2730.tif"/>
@@ -186,7 +181,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1909-07-25">
-            <p xml:space="preserve"><date when="1909-07-25">25/7</date> S. Mit <rs type="person" xml:id="pNt_30688" ref="#person_19986"><forename>Gustav</forename></rs>, <rs type="person" xml:id="pNt_30689"><roleName>Hrn</roleName> und <roleName>Fr.</roleName> <surname>Schönbrunn</surname></rs> übern Sonnleitberg <rs type="place" xml:id="pl_06761" ref="#place_62abecfac3ba329cf2d2736a2d24dd89">Prein</rs>.</p>
+            <p xml:space="preserve"><date when="1909-07-25">25/7</date> S. Mit <rs type="person" xml:id="pNt_30688" ref="#person_19986"><forename>Gustav</forename></rs>, <rs ref="#person_19846" fix="ja" type="person" xml:id="pNt_30689"><roleName>Hrn</roleName><roleName>Fr.</roleName><surname>Schönbrunn</surname></rs> übern Sonnleitberg <rs type="place" xml:id="pl_06761" ref="#place_62abecfac3ba329cf2d2736a2d24dd89">Prein</rs>.</p>
             <p xml:space="preserve" rend="indent">Am <rs type="work" subtype="self" xml:id="bibl_12770">Med.</rs>―</p>
             <p xml:space="preserve" rend="indent">Tennis.</p>
          </div>

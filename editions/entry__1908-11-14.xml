@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1908-11-14.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-11-13.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-11-15.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-11-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-11-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-11-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -177,16 +172,15 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2579.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2580.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1908-11-14">
-            <p xml:space="preserve"><date when="1908-11-14">14/11</date> ― Las Vm. im Kfh. Kritiken über <rs type="person" xml:id="pNt_29130"><surname>Rößlers</surname></rs> „<rs type="work" xml:id="bibl_13765">Reichen Jüngling</rs>“ und 
+            <p xml:space="preserve"><date when="1908-11-14">14/11</date> ― Las Vm. im Kfh. Kritiken über <rs ref="#person_19326" fix="ja" type="person" xml:id="pNt_29130"><surname>Rößlers</surname></rs> „<rs type="work" xml:id="bibl_13765">Reichen Jüngling</rs>“ und 
 fand dass nur <rs type="person" xml:id="pNt_29131" ref="#person_16228"><forename>Robert</forename> <surname>Hirschfeld</surname></rs> in seinen religiösen Empfindungen verletzt 
 ist.―</p>
             <p xml:space="preserve" rend="indent">Abg. <rs type="person" xml:id="pNt_29132" ref="#person_17785"><roleName>Dr.</roleName> <surname>Mahler</surname></rs> besucht mich; Aufruf, im Anschluss an die tückischen 
@@ -207,7 +201,5 @@ Unterschätzung <rs type="place" xml:id="pl_06503" ref="#place_b472f5868425ac2bc
 Mißbehagen über den übeln Dampf der gläubig-kriecherisch-einfältigen 
 Worte.</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

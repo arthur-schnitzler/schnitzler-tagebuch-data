@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1911-04-23.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-04-22.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-04-24.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-04-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-04-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-04-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,17 +173,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3143.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3144.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1911-04-23">
             <p xml:space="preserve"><date when="1911-04-23">23/4</date> Traum: ― <rs type="person" xml:id="pNt_35121" ref="#person_13555"><surname>Beethovensches</surname></rs> Orchestervorspiel, zu einer Art Lied der 
-<rs type="person" xml:id="pNt_35122"><forename>Leonore</forename></rs> aus <rs type="work" xml:id="bibl_10941">Tasso</rs> ― in B dur ― Gram, daß ich es einmal nicht werde 
+<rs check="offen" type="person" xml:id="pNt_35122"><forename>Leonore</forename></rs> aus <rs type="work" xml:id="bibl_10941">Tasso</rs> ― in B dur ― Gram, daß ich es einmal nicht werde 
 hören können. (Fähigkeit des Traums, sowohl Glücks- als 
 Unglücksgefühle quasi chemisch rein darzustellen.―)</p>
             <p xml:space="preserve" rend="indent">― Spazierfahrt <rs type="place" xml:id="pl_07451" ref="#place_64fd5297d702bf1f9d2c338cea86ccc3">Cap Martin</rs>.―</p>
@@ -197,7 +191,5 @@ beides leidlich; dann <rs type="work" subtype="self" xml:id="bibl_10944">Doppels
             <p xml:space="preserve" rend="indent">Nach <rs type="place" xml:id="pl_07452" ref="#place_bd252a07287728930fd4a0849c16f60b">Monte Carlo</rs>. Spiel. Ich verlor um 80 frs. O. gewann etwa 50.― 
 Nachtmahl im Café de Paris.―</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

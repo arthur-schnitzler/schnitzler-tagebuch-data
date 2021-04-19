@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1912-06-06.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-06-05.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-06-07.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-06-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-06-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-06-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,14 +173,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3414.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3415.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1912-06-06">
             <p xml:space="preserve"><date when="1912-06-06">6/6</date> Frohnleichnam. Gegen <rs type="place" xml:id="pl_07890" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs>. Nach Jahren <rs type="person" xml:id="pNt_38177" ref="#person_16633"><forename>Heinrich</forename> 
 <surname>Kahane</surname></rs> getroffen (der in einer neuen Gasse mit Verwandten ein Haus 
@@ -201,11 +195,9 @@ die der Politik.― Im Wald auf dem <rs type="place" xml:id="pl_07892" ref="#pla
 <rs type="work" subtype="self" xml:id="bibl_10273">Pfarrerscene</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. desgleichen.― Gelesen in <rs type="person" xml:id="pNt_38178" ref="#person_14087"><surname>Busch</surname></rs> (<rs type="person" xml:id="pNt_38179" ref="#person_13749"><surname>Bismarcks</surname></rs>) <rs type="work" xml:id="bibl_10274">Tagebüchern</rs>, im 
 neuen <rs type="work" subtype="newspaper" xml:id="bibl_10275">Imago</rs>heft; etc.―</p>
-            <p xml:space="preserve" rend="indent">Zum Nachtmahl <rs type="person" xml:id="pNt_38180" ref="#person_19986"><forename>Gustav</forename></rs>, <rs type="person" xml:id="pNt_38181" ref="#person_19364"><roleName>Dr.</roleName> <surname>Rosenbaum</surname></rs> und Frau; <rs type="person" xml:id="pNt_38182" ref="#person_20509"><forename>Richard</forename></rs>, 
+            <p xml:space="preserve" rend="indent">Zum Nachtmahl <rs type="person" xml:id="pNt_38180" ref="#person_19986"><forename>Gustav</forename></rs>, <rs type="person" xml:id="pNt_38181" ref="#person_19364"><roleName>Dr.</roleName> <surname>Rosenbaum</surname></rs> und Frau; <rs ref="#person_13551" fix="ja" type="person" xml:id="pNt_38182"><forename>Richard</forename></rs>, 
 <rs type="person" xml:id="pNt_38183" ref="#person_13550"><forename>Paula</forename></rs>, <rs type="person" xml:id="pNt_38184" ref="#person_19827"><forename>Julius</forename></rs>, <rs type="person" xml:id="pNt_38185" ref="#person_19823"><forename>Helene</forename></rs>.</p>
             <p xml:space="preserve" rend="indent">― Café auf der neuen Terrasse.</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1904-02-20.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-02-19.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-02-21.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-02-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-02-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-02-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -177,23 +172,20 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1897.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1904-02-20">
             <p xml:space="preserve"><date when="1904-02-20">20/2</date> Früh Jurist <rs type="person" xml:id="pNt_20832" ref="#person_19908"><surname>Schückler</surname></rs>, soll an einem „Autorenabend“ lesen ― damit 
 ein kleiner akad. Verein von dem Reinertrag einen Musenalmanach drucken 
 lassen kann!―</p>
             <p xml:space="preserve" rend="indent">Briefe dictirt.―</p>
-            <p xml:space="preserve" rend="indent">Im Sanat. <rs type="person" xml:id="pNt_20833" ref="#person_15296"><surname>Fürth</surname></rs>.― <rs type="person" xml:id="pNt_20834" ref="#person_15854"><forename>Gisela</forename></rs> hat sich von <rs type="person" xml:id="pNt_20835" ref="#person_17355"><surname>Latzko</surname></rs> operiren 
+            <p xml:space="preserve" rend="indent">Im Sanat. <rs type="person" xml:id="pNt_20833" ref="#person_15296" check="offen"><surname>Fürth</surname></rs>.― <rs type="person" xml:id="pNt_20834" ref="#person_15854"><forename>Gisela</forename></rs> hat sich von <rs type="person" xml:id="pNt_20835" ref="#person_17355"><surname>Latzko</surname></rs> operiren 
 lassen, Hoffnung, dass ihre Schmerzen vergehn.―</p>
-            <p xml:space="preserve" rend="indent">Concert <rs type="person" xml:id="pNt_20836"><forename>Lili</forename> <surname>Lehmann</surname></rs>.― <rs type="person" xml:id="pNt_20837" ref="#person_16293"><forename>Hugo</forename></rs> <rs type="person" xml:id="pNt_20838" ref="#person_16292"><forename>Gerty</forename></rs> gesprochen.</p>
+            <p xml:space="preserve" rend="indent">Concert <rs check="offen" type="person" xml:id="pNt_20836"><forename>Lili</forename><surname>Lehmann</surname></rs>.― <rs type="person" xml:id="pNt_20837" ref="#person_16293"><forename>Hugo</forename></rs> <rs type="person" xml:id="pNt_20838" ref="#person_16292"><forename>Gerty</forename></rs> gesprochen.</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

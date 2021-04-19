@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
      xml:id="entry__1879-03-03.xml"
      next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1879-03-19.xml">
+=======
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1879-03-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1879-03-19.xml">
+>>>>>>> dev
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -177,19 +181,18 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1879-03-03">
             <p>
                <date when="1879-03-03">3/3</date> Soirée.</p>
-            <p rend="indent">Am nächsten Tag <rs type="person" xml:id="pNt_94470" ref="#person_14397">
+            <p rend="indent">Am nächsten Tag <rs type="person" xml:id="pNt_94470" ref="#person_14397" check="offen">
                   <forename>Hermines</forename>
                </rs> Liebenswürdigkeit.</p>
-            <p rend="indent">― <rs type="person" xml:id="pNt_94471" ref="#person_14740">
+            <p rend="indent">― <rs type="person" xml:id="pNt_94471" ref="#person_14740" check="offen">
                   <forename>Emilie</forename>
-               </rs> ― <rs type="person" xml:id="pNt_94472" ref="#person_21217">
+               </rs> ― <rs type="person" xml:id="pNt_94472" ref="#person_21217" check="offen">
                   <forename>Adolf</forename>
                </rs>, der sie retten will.</p>
             <p rend="indent">… Bei ihr …</p>
@@ -199,8 +202,13 @@
                    xml:id="bibl_23504"
                    ref="#genID__bibl_5bc27fd5823448358cd53800c6bbca15">Tagebuches</rs>.―</p>
          </div>
+<<<<<<< HEAD
       </body>
       
    
     </text>
 </TEI>
+=======
+      </body></text>
+</TEI>
+>>>>>>> dev

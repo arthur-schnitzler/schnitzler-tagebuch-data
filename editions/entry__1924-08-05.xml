@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1924-08-05.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-08-04.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-08-06.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1924-08-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-08-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-08-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,7 +173,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6315.tif"/>
@@ -187,7 +182,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1924-08-05">
             <p xml:space="preserve"><date when="1924-08-05">5/8</date> Reisevorbereitungen.</p>
-            <p xml:space="preserve" rend="indent">Abends ½7 Abreise mit <rs type="person" xml:id="pNt_72827" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Ihr Bruder <rs type="person" xml:id="pNt_72828"><forename>Freddy</forename></rs> an der Bahn.</p>
+            <p xml:space="preserve" rend="indent">Abends ½7 Abreise mit <rs type="person" xml:id="pNt_72827" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Ihr Bruder <rs ref="#person_17608" fix="ja" type="person" xml:id="pNt_72828"><forename>Freddy</forename></rs> an der Bahn.</p>
          </div>
       </body>
    

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1905-06-18.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-06-17.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-06-19.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-06-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-06-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-06-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -177,21 +172,18 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2090.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1905-06-18">
             <p xml:space="preserve"><date when="1905-06-18">18/6</date> S.― Vm. allein (wie gewöhnlich) spazieren, Dreimarkstein etc.―</p>
-            <p xml:space="preserve" rend="indent">Mittags <rs type="person" xml:id="pNt_23046" ref="#person_17958"><forename>Paul</forename> <surname>M.</surname></rs> und <rs type="person" xml:id="pNt_23047" ref="#person_20097"><forename>Annie</forename> <surname>Sikora</surname></rs> da.― Abds. las ich die „<rs type="work" subtype="self" xml:id="bibl_15769">Neue Ehe</rs>“ 
+            <p xml:space="preserve" rend="indent">Mittags <rs type="person" xml:id="pNt_23046" ref="#person_17958"><forename>Paul</forename> <surname>M.</surname></rs> und <rs ref="#person_20523" fix="ja" type="person" xml:id="pNt_23047"><forename>Annie</forename><surname>Sikora</surname></rs> da.― Abds. las ich die „<rs type="work" subtype="self" xml:id="bibl_15769">Neue Ehe</rs>“ 
 (vorläufiger Titel) Olga und <rs type="person" xml:id="pNt_23048" ref="#person_19986"><forename>Gustav</forename></rs> vor; sie gefiel leidlich; 
 gewisse kleine Aenderungen erscheinen wünschenswerth; ich selbst hatte 
 keinen übeln Eindruck.</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1916-12-08.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-12-07.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-12-09.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1916-12-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-12-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-12-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,14 +173,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4371.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4372.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1916-12-08">
             <p xml:space="preserve"><date when="1916-12-08">8/12</date> Traum: Komme auf die Poliklinik, die aber aussieht wie das akad. 
 Gymn. ― oder das neue anatom. Institut, suche meinen <rs type="allusively" xml:id="rst_01476">Vater</rs>, der nicht 
@@ -193,7 +187,7 @@ da, es ist leer, natürlich der Krieg,― ich erwäge, dass ich ja hier meinen
 Dienst ableisten könne. (Quellen: Olgas Angina;― Poliklinik und 
 Gymnasium als Jugendeindrücke schieben sich zusammen;― <rs type="allusively" xml:id="rst_01477">Vater</rs> kehrt 
 immer wieder.) ―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_49374" ref="#person_19828"><forename>Karl</forename></rs> und <rs type="person" xml:id="pNt_49375" ref="#person_16321"><forename>Annie</forename></rs> kommen; <rs type="person" xml:id="pNt_49376" ref="#person_19828"><forename>Karl</forename></rs> erzählt allerlei vom Krieg, der Heldenlüge 
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_49374" ref="#person_19828"><forename>Karl</forename></rs> und <rs type="person" xml:id="pNt_49375" ref="#person_16321" check="offen"><forename>Annie</forename></rs> kommen; <rs type="person" xml:id="pNt_49376" ref="#person_19828"><forename>Karl</forename></rs> erzählt allerlei vom Krieg, der Heldenlüge 
 und anderm desgleichen.</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_49377" ref="#person_14653"><roleName>Prof.</roleName> <surname>Ehrlich</surname></rs>, klugschwätzend.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_49378" ref="#person_16486"><forename>Norbert</forename> <surname>Jacques</surname></rs> zum Thee; erzählt von Kriegslieferanten, Kriegsministerium; 
@@ -203,7 +197,5 @@ Offiziere, Fürsten, <rs type="person" xml:id="pNt_49380" ref="#person_16647"><f
 Neutralität, <rs type="place" xml:id="pl_10323" ref="#place_6ebeb40f8c21adc033b5fafe0412dc7c" ana="#exclude">Deutschfreundlichkeit</rs> etc.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_49381" ref="#person_19822"><forename>Heini</forename></rs> 3 <rs type="person" xml:id="pNt_49382" ref="#person_18066"><surname>Mendelssohnouverturen</surname></rs>.―</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

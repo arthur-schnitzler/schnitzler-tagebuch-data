@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1882-06-03.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1882-05-30.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1882-06-09.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1882-06-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1882-05-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1882-06-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,14 +173,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0177.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0178.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1882-06-03">
             <p xml:space="preserve"><date when="1882-06-03">3/6</date> Samstag (eigentlich Sonntag) nach Mitternacht.― Daß einem 
 etwas, was vor mehr als zehn Jahren geschehn ist, so tief gehen 
@@ -198,7 +192,7 @@ kann ―</p>
                </fw>
             </tei:fw>
             <p xml:space="preserve" rend="indent">In der letzten Zeit überaus häufig mit <rs type="person" xml:id="pNt_01629" ref="#person_17368"><forename>Fännchen</forename></rs>, <rs type="person" xml:id="pNt_01630" ref="#person_18320"><forename>Fany</forename> <surname>M.</surname></rs>, <rs type="person" xml:id="pNt_01631" ref="#person_16963"><forename>Ida</forename></rs>, 
-<rs type="person" xml:id="pNt_01632"><forename>Thilda</forename></rs> und <rs type="person" xml:id="pNt_01633"><forename>Jenny</forename> <surname>Schleicher</surname></rs>, <rs type="person" xml:id="pNt_01634" ref="#person_21526"><forename>Regine</forename> <surname>Z.</surname></rs> etc. zusammengekommen.</p>
+<rs check="offen" type="person" xml:id="pNt_01632"><forename>Thilda</forename></rs> und <rs check="offen" type="person" xml:id="pNt_01633"><forename>Jenny</forename><surname>Schleicher</surname></rs>, <rs type="person" xml:id="pNt_01634" ref="#person_21526"><forename>Regine</forename> <surname>Z.</surname></rs> etc. zusammengekommen.</p>
             <p xml:space="preserve" rend="indent">― Das einzige, was mich noch manchmal vermuten lässt, daß es doch 
 noch nicht so ganz aus sei mit mir, ist meine immer heftiger auftauchende 
 Sehnsucht, wieder zurückzukehren in mein „Heimatland Poesie ―“. 
@@ -218,7 +212,5 @@ können. Lebwohl, sei geküsst von Deiner <rs type="person" xml:id="pNt_01636" r
             <p xml:space="preserve" rend="indent">― Wenn ich mich aufs Gewissen frage, so muss ich mir sagen, daß 
 dieser Engel von einem Mädchen eigentlich sehr bemitleidenswerth ist.―</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

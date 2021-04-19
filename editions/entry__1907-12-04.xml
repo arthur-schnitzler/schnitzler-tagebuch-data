@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1907-12-04.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-12-03.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-12-05.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1907-12-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-12-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-12-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -177,20 +172,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2446.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1907-12-04">
             <p xml:space="preserve"><date when="1907-12-04">4/12</date> Vm. spazieren Cottage.―</p>
-            <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_27692" ref="#person_15374"><forename>Grethe</forename></rs> dictirt.</p>
+            <p xml:space="preserve" rend="indent">Bei <rs ref="#person_16485" fix="ja" type="person" xml:id="pNt_27692"><forename>Grethe</forename></rs> dictirt.</p>
             <p xml:space="preserve" rend="indent">Union ―</p>
          </div>
-      </body>
-      
-   
-    </text>
+      </body></text>
 </TEI>

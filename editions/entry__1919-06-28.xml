@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1919-06-28.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-06-27.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-06-29.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-06-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-06-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-06-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,17 +173,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4873.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4874.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1919-06-28">
-            <p xml:space="preserve"><date when="1919-06-28">28/6</date> Vm. sang O. mir, <rs type="person" xml:id="pNt_56388" ref="#person_19822"><forename>Heini</forename></rs>, <rs type="person" xml:id="pNt_56389" ref="#person_18881"><forename>Kolap</forename></rs>, von <rs type="person" xml:id="pNt_56390" ref="#person_15692"><surname>Grosz</surname></rs> schön begleitet ihr 
-morgiges Programm <rs type="person" xml:id="pNt_56391" ref="#person_21432"><surname>Wolf</surname></rs>, <rs type="person" xml:id="pNt_56392" ref="#person_14371"><surname>Debussy</surname></rs>, <rs type="person" xml:id="pNt_56393" ref="#person_15692"><surname>Grosz</surname></rs>; sehr schön vor.</p>
+            <p xml:space="preserve"><date when="1919-06-28">28/6</date> Vm. sang O. mir, <rs type="person" xml:id="pNt_56388" ref="#person_19822"><forename>Heini</forename></rs>, <rs type="person" xml:id="pNt_56389" ref="#person_18881"><forename>Kolap</forename></rs>, von <rs type="person" xml:id="pNt_56390" ref="#person_15692" check="offen"><surname>Grosz</surname></rs> schön begleitet ihr 
+morgiges Programm <rs type="person" xml:id="pNt_56391" ref="#person_21432"><surname>Wolf</surname></rs>, <rs type="person" xml:id="pNt_56392" ref="#person_14371"><surname>Debussy</surname></rs>, <rs type="person" xml:id="pNt_56393" ref="#person_15692" check="offen"><surname>Grosz</surname></rs>; sehr schön vor.</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_56394" ref="#person_18922"><roleName>Hr.</roleName> <surname>Porges</surname></rs> (Saschafilm) in Angelegenheit des <rs type="work" subtype="self" xml:id="bibl_4902">Medardus</rs>.―</p>
             <p xml:space="preserve" rend="indent">Lehrer <rs type="person" xml:id="pNt_56395" ref="#person_20361"><surname>Steinbauer</surname></rs>, dem ich für die vortreffliche Unterrichtertheilung 
 an <rs type="person" xml:id="pNt_56396" ref="#person_14130"><forename>Lili</forename></rs> dankte.</p>
@@ -199,7 +193,5 @@ Jahre an dieser Stelle verbracht.</p>
             <p xml:space="preserve" rend="indent">Las <rs type="person" xml:id="pNt_56399" ref="#person_14383"><forename>Richard</forename> <surname>Dehmels</surname></rs> <rs type="work" xml:id="bibl_4904">Kriegstagebuch</rs>; nicht ohne Interesse. Er ist schon 
 wer, allerdings nicht das und soviel als er sich einbildet.</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

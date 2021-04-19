@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1912-08-02.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-01.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-03.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-08-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,14 +173,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3455.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3456.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1912-08-02">
             <p xml:space="preserve"><date when="1912-08-02">2/8</date> Bad.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_10427">Sommerstück</rs>. Geschrieben. Will es doch für alle Fälle 
@@ -195,16 +189,11 @@ hinter mich bringen.</p>
 charmante junge <rs type="person" xml:id="pNt_38563" ref="#person_17203"><roleName>Frau</roleName> <surname>Kupelwieser</surname></rs> schließt sich an, <rs type="place" xml:id="pl_07982" ref="#place_bef8fe1b1c6ee56f2ac3138db9faf605">Rancon</rs>; Klippen, 
 dann mit einmal Seitenweg in die Weinberge.―</p>
             <p xml:space="preserve" rend="indent">Nach dem Nachtmahl auf der Terrasse oben <rs type="person" xml:id="pNt_38564" ref="#person_13754"><forename>Julius</forename> <surname>Bittner</surname></rs> der mir 
-bisher persönlich unbekannt Karte abgegeben. Verbindungsglied: <rs type="person" xml:id="pNt_38565"><forename>Bruno</forename> 
-<pb n="347"/>
-<tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header"><fw place="top_center"><date type="range">1912: VIII 2 ― VIII 10</date></fw> <fw n="347" place="top_right" type="pageNum">347</fw></tei:fw>
-<surname>Walter</surname></rs>.― Über <rs type="place" xml:id="pl_07983" ref="#place_ee4c6f2f0df2cd2abf7db20478cad25d" ana="#exclude">Wiener</rs> Kritik, Kritik im allgemeinen; (anläßlich der 
+bisher persönlich unbekannt Karte abgegeben. Verbindungsglied: <rs ref="#person_21080" fix="ja" type="person" xml:id="pNt_38565"><forename>Bruno</forename><pb n="347"/><tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header"><fw place="top_center"><date type="range">1912: VIII 2 ― VIII 10</date></fw> <fw n="347" place="top_right" type="pageNum">347</fw></tei:fw><surname>Walter</surname></rs>.― Über <rs type="place" xml:id="pl_07983" ref="#place_ee4c6f2f0df2cd2abf7db20478cad25d" ana="#exclude">Wiener</rs> Kritik, Kritik im allgemeinen; (anläßlich der 
 übeln Aufnahme von <rs type="work" xml:id="bibl_10429">Bergsee</rs>), über <rs type="person" xml:id="pNt_38566" ref="#person_15637"><surname>Gregor</surname></rs>, <rs type="person" xml:id="pNt_38567" ref="#person_21486"><surname>Wymetal</surname></rs>;― <rs type="person" xml:id="pNt_38568" ref="#person_17786"><surname>Mahler</surname></rs> etc. 
 Später über seine gerichtliche Seite. (Er ist Bezirksrichter.) ― 
 Leichte Erinnerung an <rs type="person" xml:id="pNt_38569" ref="#person_14065"><surname>Burckhard</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Las <rs type="person" xml:id="pNt_38570" ref="#person_16463"><forename>Jacobs</forename></rs> „<rs type="work" xml:id="bibl_10430">Leichenbegängnis der Gemma Ebria</rs>“. Prätentiöser Schmarrn.―</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

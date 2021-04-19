@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1907-09-21.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-09-20.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-09-22.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1907-09-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-09-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-09-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -177,23 +172,20 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2412.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1907-09-21">
             <p xml:space="preserve"><date when="1907-09-21">21/9</date> ― Probe.― Ziemlich schmierenhaft. Ich führe so gut wie allein 
 Regie.―</p>
             <p xml:space="preserve" rend="indent">Nm. dictirt <rs type="work" subtype="self" xml:id="bibl_14442">Roman</rs>.</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_27316"><forename>Grethl</forename></rs>; der <rs type="person" xml:id="pNt_27317" ref="#person_20386"><forename>Liesl</forename></rs>, wie sich heute herausstellte, 300 Kr. schuldet. Ich gab 
+            <p xml:space="preserve" rend="indent"><rs ref="#person_16485" fix="ja" type="person" xml:id="pNt_27316"><forename>Grethl</forename></rs>; der <rs type="person" xml:id="pNt_27317" ref="#person_20386"><forename>Liesl</forename></rs>, wie sich heute herausstellte, 300 Kr. schuldet. Ich gab 
 sie ihr.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_27318" ref="#person_14365"><surname>Davis</surname></rs> erscheint, in Frack; will mich zu einem Souper mit <rs type="person" xml:id="pNt_27319" ref="#person_17696"><surname>Lothar</surname></rs>, <rs type="person" xml:id="pNt_27320" ref="#person_17585"><surname>Lipschütz</surname></rs> 
 und <rs type="person" xml:id="pNt_27321" ref="#person_21133"><roleName>Frl.</roleName> <surname>Weede</surname></rs> mit haben; „<rs type="work" subtype="self" xml:id="bibl_14443">Märchen</rs>“gespräch.― Entlasse ihn.―</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

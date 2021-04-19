@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1893-04-22.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-04-21.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-04-23.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1893-04-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-04-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-04-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,14 +173,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0704.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0705.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1893-04-22">
             <p xml:space="preserve"><date when="1893-04-22">22/4</date> Vorm. die Schwester auf der <rs type="place" xml:id="pl_01461" ref="#place_2de2cbfcf4f6f7265397fff154638c9e">Wieden</rs>, der gegenüber <rs type="person" xml:id="pNt_07286" ref="#person_15485"><forename>Mz.</forename></rs> frech 
 wieder das intime Verhältnis abgeläugnet hat; zum Beweis schickt sie 
@@ -194,7 +188,7 @@ ist es ja klar, daß sie mit ihm von <rs type="place" xml:id="pl_01462" ref="#pl
 ich ja durch die anon. Briefe Kenntnis erhalten hatte.― ― Ich war 
 rasend vor Wuth, dass diese Person jetzt noch läugnet.― Es ist 
 ungeheuerlich; es ist einfach krank. Denn sie konnte nicht nur vermuthen; 
-sie <hi xmlns:tei="http://www.tei-c.org/ns/1.0" rend="italicised">wußte</hi> , daß ich die Briefe schließlich von <rs type="person" xml:id="pNt_07287" ref="#person_19226"><surname>R.</surname></rs> zugesandt 
+sie <hi xmlns:tei="http://www.tei-c.org/ns/1.0" rend="italicised">wußte</hi> , daß ich die Briefe schließlich von <rs ref="#person_19459" fix="ja" type="person" xml:id="pNt_07287"><surname>R.</surname></rs> zugesandt 
 erhalten werde.― Sie sagt zu <rs type="person" xml:id="pNt_07288" ref="#person_14199"><forename>Gusti</forename></rs>.― „Ich versteh mich nicht ― mir 
 fehlt etwas, was die andern Frauen haben ― Und dabei hab ich nur Qualen 
 ausgestanden.“ Und dabei heult sie Tag und Nacht nachwievor und 
@@ -208,7 +202,5 @@ und verzweifelt; und wenigstens läugnend, dass sie von <rs type="person" xml:id
 worden.― Nach der ganzen Sachlage wäre das noch elender von ihr 
 gewesen.― Ich schrieb ihr unzählige Seiten; und schlief miserabel.</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

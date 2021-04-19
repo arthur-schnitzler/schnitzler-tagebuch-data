@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1894-12-29.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-12-28.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-12-30.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1894-12-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-12-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-12-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,7 +173,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0930.tif"/>
@@ -186,7 +181,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1894-12-29">
-            <p xml:space="preserve"><date when="1894-12-29">29/12</date> Nm. <rs type="person" xml:id="pNt_09703"><forename>Lina</forename> <surname>P.</surname></rs> da; ich küsste sie.― In Budap. Orpheum-Gesellschaft 
+            <p xml:space="preserve"><date when="1894-12-29">29/12</date> Nm. <rs ref="#person_18820" fix="ja" type="person" xml:id="pNt_09703"><forename>Lina</forename><surname>P.</surname></rs> da; ich küsste sie.― In Budap. Orpheum-Gesellschaft 
 mit <rs type="person" xml:id="pNt_09704" ref="#person_16293"><forename>Hugo</forename></rs> und <rs type="person" xml:id="pNt_09705" ref="#person_13551"><forename>Richard</forename></rs>.</p>
          </div>
       </body>

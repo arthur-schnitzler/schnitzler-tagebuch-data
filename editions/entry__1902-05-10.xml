@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1902-05-10.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-05-09.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-05-11.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1902-05-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-05-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-05-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,18 +173,15 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1683.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1902-05-10">
             <p xml:space="preserve"><date when="1902-05-10">10/5</date> Carlth. <rs type="work" xml:id="bibl_18010">Hoffnung</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_18612" ref="#person_19541"><surname>Salten</surname></rs>, <rs type="person" xml:id="pNt_18613" ref="#person_18104"><surname>Metzl</surname></rs>, <rs type="person" xml:id="pNt_18614" ref="#person_20898"><surname>Vacano</surname></rs> <rs type="person" xml:id="pNt_18615" ref="#person_17404"><forename>Else</forename> <surname>Lehmann</surname></rs> <rs type="person" xml:id="pNt_18616" ref="#person_20776"><surname>Tonello</surname></rs>.</p>
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_18612" ref="#person_19541" check="offen"><surname>Salten</surname></rs>, <rs type="person" xml:id="pNt_18613" ref="#person_18104" check="offen"><surname>Metzl</surname></rs>, <rs type="person" xml:id="pNt_18614" ref="#person_20898"><surname>Vacano</surname></rs> <rs type="person" xml:id="pNt_18615" ref="#person_17404"><forename>Else</forename> <surname>Lehmann</surname></rs> <rs type="person" xml:id="pNt_18616" ref="#person_20776" check="offen"><surname>Tonello</surname></rs>.</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

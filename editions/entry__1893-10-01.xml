@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1893-10-01.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-09-30.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-10-02.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1893-10-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-09-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-10-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,7 +173,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0779.tif"/>
@@ -186,7 +181,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1893-10-01">
-            <p xml:space="preserve"><date when="1893-10-01">1/10</date> Von <rs type="person" xml:id="pNt_07884" ref="#person_14008"><forename>L.</forename></rs> guter Brief. Von <rs type="person" xml:id="pNt_07885" ref="#person_21214"><forename>Fifi</forename></rs> gereizter, den ich mit einer Art 
+            <p xml:space="preserve"><date when="1893-10-01">1/10</date> Von <rs type="person" xml:id="pNt_07884" ref="#person_14008" check="offen"><forename>L.</forename></rs> guter Brief. Von <rs type="person" xml:id="pNt_07885" ref="#person_21214"><forename>Fifi</forename></rs> gereizter, den ich mit einer Art 
 Abschiedsbr. beantwortete ―</p>
             <p xml:space="preserve" rend="indent">Bic.-partie <rs type="place" xml:id="pl_01638" ref="#place_07e1e69de6ad35be535fe26851d79cc0">Andrä Wördern</rs> mit <rs type="person" xml:id="pNt_07886" ref="#person_15194"><forename>Gustav</forename></rs> und Clubmitgliedern.</p>
             <pb n="54"/>
@@ -197,7 +192,7 @@ Abschiedsbr. beantwortete ―</p>
                </fw>
             </tei:fw>
             <p xml:space="preserve" rend="indent">Zu Haus Gesellschaft anläßlich Verlobung <rs type="person" xml:id="pNt_07887" ref="#person_19827"><forename>Julius</forename></rs>.― Hübsches 
-Gespräch mit Cousine <rs type="person" xml:id="pNt_07888"><forename>Elsa</forename></rs>.―</p>
+Gespräch mit Cousine <rs check="offen" type="person" xml:id="pNt_07888"><forename>Elsa</forename></rs>.―</p>
             <p xml:space="preserve" rend="indent">Im Kfh. <rs type="person" xml:id="pNt_07889" ref="#person_20925"><forename>Leo</forename> <surname>Vanjung</surname></rs>, über russische Zustände; köstlich, wie er 
 einen Sicherheitswachmann arretirte ―</p>
          </div>

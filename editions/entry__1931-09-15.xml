@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1931-09-15.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-09-14.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-09-16.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-09-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-09-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-09-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,24 +173,21 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7778.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7779.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1931-09-15">
             <p xml:space="preserve"><date when="1931-09-15">15/9</date> Vm. mit <rs type="person" xml:id="pNt_93920" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> spazieren <rs type="place" xml:id="pl_20163" ref="#place_86f90c857ca2c813e066ea7b3502cb7c">Hohe Warte</rs> etc.―</p>
             <p xml:space="preserve" rend="indent">Zu Tisch <rs type="person" xml:id="pNt_93921" ref="#person_14234"><forename>Suz.</forename></rs> bei mir.― Ihre Herbstnervosität;― die materiellen 
 Verhältnisse;― häusliches.― Um 5 ging sie.</p>
-            <p xml:space="preserve" rend="indent">Um 6 in die Herzstation zu <rs type="person" xml:id="pNt_93922" ref="#person_16811"><forename>Ferry</forename></rs>; er stimmte im Grund meiner Diagnose 
+            <p xml:space="preserve" rend="indent">Um 6 in die Herzstation zu <rs ref="#person_14482" fix="ja" type="person" xml:id="pNt_93922"><forename>Ferry</forename></rs>; er stimmte im Grund meiner Diagnose 
 zu, Cardialdyspepsie. (Gewiss organische Veränderungen.) ―</p>
             <p xml:space="preserve" rend="indent">― Zu Haus allein genachtm.―</p>
             <p xml:space="preserve" rend="indent">Langes telef. Gespräch mit <rs type="person" xml:id="pNt_93923" ref="#person_13589"><surname>Benedikt</surname></rs>;― politisches.―</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

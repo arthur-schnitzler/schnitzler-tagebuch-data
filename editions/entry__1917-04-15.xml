@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1917-04-15.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-04-14.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-04-16.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1917-04-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-04-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-04-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,7 +173,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4443.tif"/>
@@ -188,7 +183,7 @@
          <div type="diary-day" xml:id="entry__1917-04-15">
             <p xml:space="preserve"><date when="1917-04-15">15/4</date> S.― In ziemlich übelm Befinden Spaziergang Hameau ― rothes 
 Kreuz ― <rs type="place" xml:id="pl_10468" ref="#place_c79ad839f84019f53250a4e6365359f9">Neuwaldegg</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_6399">Unmensch</rs>.― Zum Thee <rs type="person" xml:id="pNt_50339" ref="#person_19227"><forename>Gerty v.</forename> <surname>L.</surname></rs>, <rs type="person" xml:id="pNt_50340"><forename>Annie</forename> <surname>Sch.</surname></rs>, <rs type="person" xml:id="pNt_50341" ref="#person_19851"><roleName>Frau</roleName> <surname>Chiavacci</surname></rs>.</p>
+            <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_6399">Unmensch</rs>.― Zum Thee <rs type="person" xml:id="pNt_50339" ref="#person_19227"><forename>Gerty v.</forename> <surname>L.</surname></rs>, <rs ref="#person_14481" fix="ja" type="person" xml:id="pNt_50340"><forename>Annie</forename><surname>Sch.</surname></rs>, <rs type="person" xml:id="pNt_50341" ref="#person_19851"><roleName>Frau</roleName> <surname>Chiavacci</surname></rs>.</p>
             <p xml:space="preserve" rend="indent">Mit O. Concert <rs type="person" xml:id="pNt_50342" ref="#person_19394"><surname>Rosenthal</surname></rs> (<rs type="person" xml:id="pNt_50343" ref="#person_14977"><surname>Field</surname></rs> etc.).</p>
          </div>
       </body>

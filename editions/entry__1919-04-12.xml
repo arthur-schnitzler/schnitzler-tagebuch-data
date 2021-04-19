@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1919-04-12.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-04-11.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-04-13.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-04-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-04-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-04-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,15 +173,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4826.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1919-04-12">
-            <p xml:space="preserve"><date when="1919-04-12">12/4</date> Vm. bei <rs type="person" xml:id="pNt_55809"><forename>Mimi</forename> <surname>Zuckerkandl</surname></rs>, die mich gebeten hatte, um sich über 
+            <p xml:space="preserve"><date when="1919-04-12">12/4</date> Vm. bei <rs ref="#person_21600" fix="ja" type="person" xml:id="pNt_55809"><forename>Mimi</forename><surname>Zuckerkandl</surname></rs>, die mich gebeten hatte, um sich über 
 ihre Beziehung zu O. auszusprechen. Allerlei verletzte Empfindlichkeiten, 
 von beiden Seiten. Völlig wird sich’s natürlich nie wieder herstellen 
 lassen.― In mir wühlt es unheimlich weiter.―</p>
@@ -194,7 +188,5 @@ lassen.― In mir wühlt es unheimlich weiter.―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_55810" ref="#person_19542"><surname>Saltens</surname></rs> n. d. N.― „Kinderball“.― <rs type="person" xml:id="pNt_55811" ref="#person_20803"><surname>Tressler</surname></rs> sang Chansons, <rs type="person" xml:id="pNt_55812" ref="#person_18570"><surname>Oppenheimer</surname></rs> 
 machte seine Musikspäße. Ich plauderte u. a. mit <rs type="person" xml:id="pNt_55813" ref="#person_15066"><roleName>Dr.</roleName> <surname>Foges</surname></rs>, und <rs type="person" xml:id="pNt_55814" ref="#person_14696"><surname>Terramare</surname></rs>.</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

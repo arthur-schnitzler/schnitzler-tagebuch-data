@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1897-12-15.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-12-14.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-12-16.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1897-12-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-12-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-12-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,19 +173,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1400.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1897-12-15">
             <p xml:space="preserve"><date when="1897-12-15">15/12</date> Zu Haus.― <rs type="person" xml:id="pNt_14792" ref="#person_19150"><forename>Mz.</forename> <surname>Rh.</surname></rs> Nm. bei mir.― Abd. <rs type="person" xml:id="pNt_14793" ref="#person_19542"><surname>Salten</surname></rs> bei mir; 
-Gespräch über die untreuen Geliebten.― Briefe <rs type="person" xml:id="pNt_14794"><forename>Jeanettens</forename></rs>, über <rs type="person" xml:id="pNt_14795" ref="#person_16729"><forename>Bertha</forename></rs> 
+Gespräch über die untreuen Geliebten.― Briefe <rs ref="#person_16022" fix="ja" type="person" xml:id="pNt_14794"><forename>Jeanettens</forename></rs>, über <rs type="person" xml:id="pNt_14795" ref="#person_16729"><forename>Bertha</forename></rs> 
 <rs type="person" xml:id="pNt_14796" ref="#person_16729"><surname>Karlsburg</surname></rs>.―</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

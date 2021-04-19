@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1904-07-10.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-07-09.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-07-11.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-07-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-07-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-07-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -177,19 +172,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1938.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1904-07-10">
             <p xml:space="preserve"><date when="1904-07-10">10/7</date> S.― Vm. zu Haus.― Nm. <rs type="person" xml:id="pNt_21289" ref="#person_20386"><forename>Liesl</forename></rs>, <rs type="person" xml:id="pNt_21290" ref="#person_20383"><surname>Steinrück</surname></rs>;― später <rs type="allusively" xml:id="rst_00436">Mama</rs>, dann <rs type="person" xml:id="pNt_21291" ref="#person_20925"><forename>Leo</forename> 
-<surname>Vanjung</surname></rs> und <rs type="person" xml:id="pNt_21292" ref="#person_16774"><surname>Kfm.</surname></rs>―</p>
-            <p xml:space="preserve" rend="indent">Abd. mit O. <rs type="person" xml:id="pNt_21293" ref="#person_20386"><forename>Liesl</forename></rs> und <rs type="person" xml:id="pNt_21294" ref="#person_17324"><surname>Lantz</surname></rs> <rs type="person" xml:id="pNt_21295"><surname>Steinböck</surname></rs> soupirt.―</p>
+<surname>Vanjung</surname></rs> und <rs type="person" xml:id="pNt_21292" ref="#person_16774" check="offen"><surname>Kfm.</surname></rs>―</p>
+            <p xml:space="preserve" rend="indent">Abd. mit O. <rs type="person" xml:id="pNt_21293" ref="#person_20386"><forename>Liesl</forename></rs> und <rs type="person" xml:id="pNt_21294" ref="#person_17324"><surname>Lantz</surname></rs> <rs check="offen" type="person" xml:id="pNt_21295"><surname>Steinböck</surname></rs> soupirt.―</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

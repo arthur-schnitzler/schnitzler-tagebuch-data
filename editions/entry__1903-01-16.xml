@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1903-01-16.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-01-15.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-01-17.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1903-01-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-01-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-01-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -177,19 +172,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1761.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1903-01-16">
-            <p xml:space="preserve"><date when="1903-01-16">16/1</date> <rs type="place" xml:id="pl_04191" ref="#place_f7688f95685985f806fab40e78596fe8">Hallein</rs>.― Glaube die Wurzel <rs type="work" subtype="self" xml:id="bibl_17579">des Stücks</rs> zu finden: <rs type="person" xml:id="pNt_19448"><forename>Julian</forename></rs>: Auch ich 
-habe etwas gemordet, dem das Leben nicht [getaugt] hat;― wie <rs type="person" xml:id="pNt_19449" ref="#person_19502"><forename>Hans</forename></rs> …, 
+            <p xml:space="preserve"><date when="1903-01-16">16/1</date> <rs type="place" xml:id="pl_04191" ref="#place_f7688f95685985f806fab40e78596fe8">Hallein</rs>.― Glaube die Wurzel <rs type="work" subtype="self" xml:id="bibl_17579">des Stücks</rs> zu finden: <rs check="offen" type="person" xml:id="pNt_19448"><forename>Julian</forename></rs>: Auch ich 
+habe etwas gemordet, dem das Leben nicht [getaugt] hat;― wie <rs type="person" xml:id="pNt_19449" ref="#person_19502" check="offen"><forename>Hans</forename></rs> …, 
 ähnl. Verh. wie <rs type="role" xml:id="pNt_19450"><surname>Parricida</surname></rs> und <rs type="work" xml:id="bibl_17580">Tell</rs>.―</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

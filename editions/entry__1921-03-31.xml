@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1921-03-31.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-03-30.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-04-01.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1921-03-31.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-03-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-04-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,14 +173,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5367.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5368.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1921-03-31">
             <p xml:space="preserve"><date when="1921-03-31">31/3</date> Vm. mit <rs type="person" xml:id="pNt_61932" ref="#person_14130"><forename>Lili</forename></rs> ins Sanat. <rs type="place" xml:id="pNt_61933" ref="#place_sanatoriumloew">Loew</rs>; <rs type="person" xml:id="pNt_61934" ref="#person_15854"><forename>Gis.</forename></rs> kam bald.― <rs type="person" xml:id="pNt_61935" ref="#person_15855"><surname>Hajek</surname></rs> um 10; 
 Operation (durfte nicht dabei sein) das ganze mit Aethernarkose kaum eine 
@@ -201,11 +195,9 @@ und plauderte mit ihr: über <rs type="work" xml:id="bibl_3244">Don Carlos</rs> 
 eigentlich Freunde oder Freundinnen habe, ob ihr so was nicht abgehe. Sie 
 darauf „du genügst mir vollkommen“, und hatte Thränen im Aug.</p>
             <p xml:space="preserve" rend="indent">Dann kam <rs type="person" xml:id="pNt_61944" ref="#person_20112"><forename>Wucki</forename></rs>, bei ihr schlafen.―</p>
-            <p xml:space="preserve" rend="indent">Daheim Telegr. von <rs type="person" xml:id="pNt_61945" ref="#person_19832"><forename>O.</forename></rs>, ich möge <rs type="person" xml:id="pNt_61946" ref="#person_14200"><surname>G.</surname></rs> die „auch von ihm gewünschte“ 
+            <p xml:space="preserve" rend="indent">Daheim Telegr. von <rs type="person" xml:id="pNt_61945" ref="#person_19832"><forename>O.</forename></rs>, ich möge <rs ref="#person_15685" fix="ja" type="person" xml:id="pNt_61946"><surname>G.</surname></rs> die „auch von ihm gewünschte“ 
 Unterredung gewähren (er ist zu seiner philh. Novität hier) spät telef. 
 sie noch, und fragte nach <rs type="person" xml:id="pNt_61947" ref="#person_14130"><forename>Lilis</forename></rs> Befinden.―</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

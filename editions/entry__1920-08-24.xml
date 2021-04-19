@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1920-08-24.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-08-23.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-08-25.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-08-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-08-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-08-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,7 +173,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5160.tif"/>
@@ -187,9 +182,9 @@
       <body>
          <div type="diary-day" xml:id="entry__1920-08-24">
             <p xml:space="preserve"><date when="1920-08-24">24/8</date> Abreise.― Im Zug gelesen <rs type="person" xml:id="pNt_59574" ref="#person_20823"><surname>Tschechow</surname></rs>, die <rs type="work" xml:id="bibl_4236">Schwestern</rs> und <rs type="work" xml:id="bibl_4237">Onkel Wanja</rs> 
-(zum 2. oder 3. Mal).― <rs type="place" xml:id="pl_12473" ref="#place_c2ad928214981e457405589604924059">Ischl</rs>. An der Bahn <rs type="person" xml:id="pNt_59575" ref="#person_19823"><forename>Helene</forename></rs> und <rs type="person" xml:id="pNt_59576" ref="#person_16321"><forename>Annie</forename></rs>.― Hotel 
+(zum 2. oder 3. Mal).― <rs type="place" xml:id="pl_12473" ref="#place_c2ad928214981e457405589604924059">Ischl</rs>. An der Bahn <rs type="person" xml:id="pNt_59575" ref="#person_19823"><forename>Helene</forename></rs> und <rs ref="#person_14481" fix="ja" type="person" xml:id="pNt_59576"><forename>Annie</forename></rs>.― Hotel 
 Kaiserkrone.―</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_59577" ref="#person_16321"><forename>Annie</forename></rs> Spaziergang Sterzens Abendsitz, Steinfeld.</p>
+            <p xml:space="preserve" rend="indent">Mit <rs ref="#person_14481" fix="ja" type="person" xml:id="pNt_59577"><forename>Annie</forename></rs> Spaziergang Sterzens Abendsitz, Steinfeld.</p>
             <p xml:space="preserve" rend="indent">― N. d. N. mit ihr <rs type="institution" xml:id="pNt_59578"><surname>Zauner</surname></rs>: Menschenmenge. Cousin <rs type="person" xml:id="pNt_59579" ref="#person_17815"><forename>Alfred</forename></rs>.</p>
          </div>
       </body>

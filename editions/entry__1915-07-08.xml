@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1915-07-08.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-07-07.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-07-09.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-07-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-07-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-07-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,17 +173,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4070.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1915-07-08">
             <p xml:space="preserve"><date when="1915-07-08">8/7</date> Heute wäre meine <rs type="allusively" xml:id="rst_01416">Mutter</rs> 75 Jahre alt geworden! ―</p>
             <p xml:space="preserve" rend="indent">Las alte Briefe von <rs type="person" xml:id="pNt_45922" ref="#person_21286"><surname>Wechsel</surname></rs> und <rs type="person" xml:id="pNt_45923" ref="#person_16364"><surname>Horn</surname></rs> zum „<rs type="work" subtype="self" xml:id="bibl_8232">Nachklang</rs>“.―</p>
-            <p xml:space="preserve" rend="indent">Nm. an der <rs type="work" subtype="self" xml:id="bibl_8233"><rs type="person" xml:id="pNt_45924" ref="#person_14147"><surname>Casanova</surname></rs> Nov.</rs>―</p>
+            <p xml:space="preserve" rend="indent">Nm. an der <rs type="work" subtype="self" xml:id="bibl_8233"><rs ref="#person_19831" fix="ja" type="person" xml:id="pNt_45924"><surname>Casanova</surname></rs> Nov.</rs>―</p>
             <p xml:space="preserve" rend="indent">Gewitter Abends. <rs type="person" xml:id="pNt_45925" ref="#person_14130"><forename>Lili</forename></rs> beim Fenster, wie’s blitzt sagt sie „Jetzt 
 machen die Engerln eine Thür auf“.―</p>
             <p xml:space="preserve" rend="indent">― Las einen Band <rs type="person" xml:id="pNt_45926" ref="#person_16186"><surname>Heyse</surname></rs> Novellen (8. Bd.) zu Ende, völlig unberührt, 
@@ -197,7 +191,5 @@ von dem Mangel an Wahrheit ― nein, hier wirkt etwas activer: von der
 Unwahrheit der seelischen Vorgänge. (Im „Geschehn“ gibts gar keine 
 Unwahrheit ― nur Unwahrscheinlichkeit, was oft einen Vorzug bedeutet.―)</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1890-01-25.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-01-24.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-01-26.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1890-01-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-01-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-01-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,19 +173,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0442.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1890-01-25">
             <p xml:space="preserve"><date when="1890-01-25">25.</date> <rs type="person" xml:id="pNt_04328" ref="#person_15485"><forename>Mz.</forename></rs> nicht da.― Ball <rs type="person" xml:id="pNt_04329" ref="#person_18889"><surname>Pollak</surname></rs>. <rs type="person" xml:id="pNt_04330" ref="#person_13733"><forename>Hel.</forename> <surname>H.</surname></rs> gut und lieb.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_04331" ref="#person_21157"><surname>Weilens</surname></rs> Bemerkung über <rs type="person" xml:id="pNt_04332" ref="#person_15485"><forename>Mz.</forename></rs>, die ihn dann reut.</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_04333"><forename>Anny</forename> <surname>H.</surname></rs> über <rs type="person" xml:id="pNt_04334" ref="#person_13162"><forename>Rich.</forename> <surname>Engländer</surname></rs>.―</p>
+            <p xml:space="preserve" rend="indent"><rs ref="#person_16321" fix="ja" type="person" xml:id="pNt_04333"><forename>Anny</forename><surname>H.</surname></rs> über <rs type="person" xml:id="pNt_04334" ref="#person_13162"><forename>Rich.</forename> <surname>Engländer</surname></rs>.―</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

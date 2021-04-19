@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1902-03-31.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-03-30.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-04-01.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1902-03-31.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-03-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-04-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,7 +173,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1676.tif"/>
@@ -187,7 +182,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1902-03-31">
-            <p xml:space="preserve"><date when="1902-03-31">31/3</date> Ostermontag.― Gestern Abd. starb <rs type="person" xml:id="pNt_18540"><forename>Elsa</forename></rs>.― (Ich war einige Mal 
+            <p xml:space="preserve"><date when="1902-03-31">31/3</date> Ostermontag.― Gestern Abd. starb <rs ref="#person_17900" fix="ja" type="person" xml:id="pNt_18540"><forename>Elsa</forename></rs>.― (Ich war einige Mal 
 dort gewesen. Zuletzt vor etwa 8 Tagen.) ― Auf dem Schüttel.― Ihre 
 Leiche, mit aufgelösten Haaren.―</p>
             <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_03900" ref="#place_a25ff6cb521df1cd0272d03eee7efd32">Brühl</rs>, schreckliches Wetter.― Arbeite ohne Lust.―</p>

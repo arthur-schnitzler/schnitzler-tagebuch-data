@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1894-05-06.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-05-05.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-05-07.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1894-05-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-05-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-05-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,17 +173,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0834.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1894-05-06">
-            <p xml:space="preserve"><date when="1894-05-06">6/5</date> <rs type="person" xml:id="pNt_08738" ref="#person_19564"><forename>Dilly</forename></rs> ― Bildhauerschule. <rs type="person" xml:id="pNt_08739" ref="#person_13374"><surname>Bahr</surname></rs>.― <rs type="person" xml:id="pNt_08740" ref="#person_15485"><forename>Mz.</forename></rs> Bild <rs type="person" xml:id="pNt_08741"><forename>Georg</forename></rs>.</p>
+            <p xml:space="preserve"><date when="1894-05-06">6/5</date> <rs type="person" xml:id="pNt_08738" ref="#person_19564"><forename>Dilly</forename></rs> ― Bildhauerschule. <rs type="person" xml:id="pNt_08739" ref="#person_13374"><surname>Bahr</surname></rs>.― <rs type="person" xml:id="pNt_08740" ref="#person_15485"><forename>Mz.</forename></rs> Bild <rs ref="#person_16048" fix="ja" type="person" xml:id="pNt_08741"><forename>Georg</forename></rs>.</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

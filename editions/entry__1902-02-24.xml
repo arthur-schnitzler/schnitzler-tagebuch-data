@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1902-02-24.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-02-23.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-02-26.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1902-02-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-02-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-02-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,19 +173,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1671.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1902-02-24">
             <p xml:space="preserve"><date when="1902-02-24">24/2</date> Bei <rs type="person" xml:id="pNt_18490" ref="#person_17900"><forename>Else</forename> <surname>Markbreiter</surname></rs>, die sehr krank, aus <rs type="place" xml:id="pl_03869" ref="#place_ada9a060b058259f01de14e24997f87d">Corsica</rs> zurück, wohnt 
-in der Wohnung <rs type="person" xml:id="pNt_18491" ref="#person_13654"><forename>Gustl</forename> <surname>Bermann</surname></rs>, am Schüttel.― „Ich lebe noch 4 
+in der Wohnung <rs ref="#person_13653" fix="ja" type="person" xml:id="pNt_18491"><forename>Gustl</forename><surname>Bermann</surname></rs>, am Schüttel.― „Ich lebe noch 4 
 Wochen.“ ― „Dass man nicht den Muth hat sich umzubringen.“ ―</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

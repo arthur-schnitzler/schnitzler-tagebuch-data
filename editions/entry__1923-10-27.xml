@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1923-10-27.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-10-26.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-10-28.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-10-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-10-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-10-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,13 +173,12 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6132.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1923-10-27">
             <p xml:space="preserve"><date when="1923-10-27">27/10</date> Vm. bei <rs type="person" xml:id="pNt_70549" ref="#person_15854"><forename>Gisa</forename></rs>. (Kränkungen von <rs type="place" xml:id="pl_15131" ref="#place_5cfd5837c67e04c1d6f52c1b42c11f10">Rio</rs> aus.) ―</p>
             <p xml:space="preserve" rend="indent">Finanzministerium mit <rs type="person" xml:id="pNt_70550" ref="#person_13754"><surname>Bittner</surname></rs> und <rs type="person" xml:id="pNt_70551" ref="#person_17915"><roleName>Dr.</roleName> <surname>Markus</surname></rs> in Steuersachen für 
@@ -192,10 +186,8 @@ unsern Verband. Mit Sect. Chefs <rs type="person" xml:id="pNt_70552" ref="#perso
 einem Referenten conferirt.―</p>
             <p xml:space="preserve" rend="indent">― In der Secession (<rs type="person" xml:id="pNt_70554" ref="#person_15283"><surname>Füger</surname></rs> bis <rs type="person" xml:id="pNt_70555" ref="#person_16910"><surname>Klimt</surname></rs>) mit <rs type="person" xml:id="pNt_70556" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs></p>
             <p xml:space="preserve" rend="indent">― <rs type="person" xml:id="pNt_70557" ref="#person_20112"><forename>Wucki</forename></rs> kommt aus dem Spital.</p>
-            <p xml:space="preserve" rend="indent">Meine Nichte <rs type="person" xml:id="pNt_70558" ref="#person_16321"><forename>Annie</forename></rs> besucht mich.</p>
+            <p xml:space="preserve" rend="indent">Meine Nichte <rs ref="#person_14481" fix="ja" type="person" xml:id="pNt_70558"><forename>Annie</forename></rs> besucht mich.</p>
             <p xml:space="preserve" rend="indent">Briefe geschrieben (an <rs type="person" xml:id="pNt_70559" ref="#person_19832"><forename>O.</forename></rs> und <rs type="person" xml:id="pNt_70560" ref="#person_18137"><forename>Dora</forename></rs>).</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

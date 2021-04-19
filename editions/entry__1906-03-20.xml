@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1906-03-20.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-03-19.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-03-21.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-03-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-03-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-03-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -177,18 +172,17 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2205.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2206.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1906-03-20">
             <p xml:space="preserve"><date when="1906-03-20">20/3</date> Im Regen und Schnee ein wenig spazieren.</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_14850">Roman</rs>.</p>
-            <p xml:space="preserve" rend="indent">Mit O. und <rs type="person" xml:id="pNt_24627" ref="#person_15374"><forename>Grethe</forename></rs> Abd. Lustspielth. <rs type="work" xml:id="bibl_14851">Styx</rs>, <rs type="work" xml:id="bibl_14852">Courage</rs>, <rs type="work" subtype="self" xml:id="bibl_14853">Wurstl</rs>. Schlecht 
+            <p xml:space="preserve" rend="indent">Mit O. und <rs ref="#person_16485" fix="ja" type="person" xml:id="pNt_24627"><forename>Grethe</forename></rs> Abd. Lustspielth. <rs type="work" xml:id="bibl_14851">Styx</rs>, <rs type="work" xml:id="bibl_14852">Courage</rs>, <rs type="work" subtype="self" xml:id="bibl_14853">Wurstl</rs>. Schlecht 
 besuchtes Haus (Wetter!); ich hatte den Eindruck, dass außer <rs type="person" xml:id="pNt_24628" ref="#person_16770"><roleName>Dr.</roleName> <surname>Kaufmann</surname></rs>, 
 der zufällig drin war, niemand das Stück verstand.― Zu Hause sagte O. 
 einige ganz kluge Dinge über das nicht einfache meiner Production ― 
@@ -198,7 +192,5 @@ sagte sie dann (der nemlich in seiner Art erklärte, dass jede Frau die
 Produkte ihres Manns bewundre, solang sie ihn liebe) …Er würde 
 finden, du liebst mich nicht mehr.―</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

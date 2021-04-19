@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1927-03-23.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-03-22.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-03-24.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-03-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-03-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-03-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,20 +173,19 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6835.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6836.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1927-03-23">
-            <p xml:space="preserve"><date when="1927-03-23">23/3</date> Vm. kam <rs type="person" xml:id="pNt_80099" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs>;― bald nach ihr <rs type="person" xml:id="pNt_80100"><forename>Franzl</forename></rs> und <rs type="person" xml:id="pNt_80101" ref="#person_17509"><roleName>Dr.</roleName> <surname>L.</surname></rs>―</p>
-            <p xml:space="preserve" rend="indent">― Nm. <rs type="person" xml:id="pNt_80102"><forename>R.</forename> <surname>L.</surname></rs>― Behandlung.―</p>
+            <p xml:space="preserve"><date when="1927-03-23">23/3</date> Vm. kam <rs type="person" xml:id="pNt_80099" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs>;― bald nach ihr <rs check="offen" type="person" xml:id="pNt_80100"><forename>Franzl</forename></rs> und <rs type="person" xml:id="pNt_80101" ref="#person_17509"><roleName>Dr.</roleName> <surname>L.</surname></rs>―</p>
+            <p xml:space="preserve" rend="indent">― Nm. <rs check="offen" type="person" xml:id="pNt_80102"><forename>R.</forename><surname>L.</surname></rs>― Behandlung.―</p>
             <p xml:space="preserve" rend="indent"><rs type="work" subtype="self" xml:id="bibl_24278">Aphoristisches</rs>.―</p>
             <p xml:space="preserve" rend="indent">Abds. z. N. <rs type="person" xml:id="pNt_80103" ref="#person_15751"><surname>Gundolf</surname></rs> und Frau; sowie <rs type="person" xml:id="pNt_80104" ref="#person_19832"><forename>O.</forename></rs> (seltsam, auch nach 6 Jahren sie 
-immer als „Gast“ zu notiren) ― Mit <rs type="person" xml:id="pNt_80105" ref="#person_14200"><surname>G.</surname></rs> übers <rs type="work" subtype="self" xml:id="bibl_24279">Diagramm</rs>;― er gibt meiner 
+immer als „Gast“ zu notiren) ― Mit <rs type="person" xml:id="pNt_80105" ref="#person_14200" check="offen"><surname>G.</surname></rs> übers <rs type="work" subtype="self" xml:id="bibl_24279">Diagramm</rs>;― er gibt meiner 
 Erwiderung an ihn wohl im ganzen recht.― Bücher (die <rs type="work" subtype="self" xml:id="bibl_24280">Medardus</rs> <rs type="place" xml:id="pl_17170" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> 
 1809 Sammlung u. a.) ― Über <rs type="person" xml:id="pNt_80106" ref="#person_20772"><surname>Tolstoi</surname></rs> ― meine Auffassung seines zwanghaften 
 hysterischen Komödiantentums;― Komödiantentum <rs type="person" xml:id="pNt_80107" ref="#person_18356"><forename>Napoleons</forename></rs>.― Über 
@@ -199,7 +193,5 @@ hysterischen Komödiantentums;― Komödiantentum <rs type="person" xml:id="pNt_
 <rs type="person" xml:id="pNt_80110" ref="#person_18190"><surname>Mitterwurzer</surname></rs>, <rs type="person" xml:id="pNt_80111" ref="#person_14065"><surname>Burckhard</surname></rs>. Es war animirt, wir verstanden einander 
 vortrefflich in Humor und Ernst, und ich fasste große Sympathie für ihn.―</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

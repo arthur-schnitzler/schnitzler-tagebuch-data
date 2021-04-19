@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1914-03-24.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-03-23.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-03-25.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-03-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-03-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-03-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,14 +173,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3798.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3799.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1914-03-24">
             <p xml:space="preserve"><date when="1914-03-24">24/3</date> Besorgungen Stadt.― Dictirt <rs type="work" subtype="self" xml:id="bibl_8754">Fink</rs>.―</p>
             <p xml:space="preserve" rend="indent">Im Marionettentheater (<rs type="place" ref="#place_ehrbarsaal">Ehrbarsaal</rs>) mit O., <rs type="person" xml:id="pNt_43164" ref="#person_19822"><forename>Heini</forename></rs>, <rs type="person" xml:id="pNt_43165" ref="#person_14130"><forename>Lili</forename></rs>, <rs type="person" xml:id="pNt_43166" ref="#person_13355"><forename>Ama</forename></rs>. <rs type="person" xml:id="pNt_43167" ref="#person_14130"><forename>Lilis</forename></rs> 
@@ -201,7 +195,5 @@ Honneurs. Man gab <rs type="work" xml:id="bibl_8755">Eulenschloss</rs>.―</p>
                </fw>
             </tei:fw>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

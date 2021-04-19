@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1921-03-03.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-03-02.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-03-04.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1921-03-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-03-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-03-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,7 +173,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5338.tif"/>
@@ -188,7 +183,7 @@
          <div type="diary-day" xml:id="entry__1921-03-03">
             <p xml:space="preserve"><date when="1921-03-03">3/3</date> Dict. <rs type="work" subtype="self" xml:id="bibl_3194">Weiher</rs>; Briefe.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_3195">Weiher</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Concert <rs type="person" xml:id="pNt_61601" ref="#person_18892"><forename>Robert</forename> <surname>Pollak</surname></rs> (Violine);― mit <rs type="person" xml:id="pNt_61602" ref="#person_18881"><forename>Kolap</forename></rs> <rs type="person" xml:id="pNt_61603"><forename>[Jessie]</forename></rs>.―</p>
+            <p xml:space="preserve" rend="indent">Concert <rs type="person" xml:id="pNt_61601" ref="#person_18892"><forename>Robert</forename> <surname>Pollak</surname></rs> (Violine);― mit <rs type="person" xml:id="pNt_61602" ref="#person_18881"><forename>Kolap</forename></rs> <rs ref="#person_19707" fix="ja" type="person" xml:id="pNt_61603"><forename>[Jessie]</forename></rs>.―</p>
             <p xml:space="preserve" rend="indent">Tiefste Verdüsterung.―</p>
          </div>
       </body>

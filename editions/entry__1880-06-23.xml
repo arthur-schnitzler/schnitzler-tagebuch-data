@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1880-06-23.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-06-21.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-06-25.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1880-06-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-06-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-06-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,7 +173,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0077.tif"/>
@@ -187,12 +182,12 @@
       <body>
          <div type="diary-day" xml:id="entry__1880-06-23">
             <p xml:space="preserve"><date when="1880-06-23">23/6</date> Mittwoch Abd. Wieder <rs type="place" xml:id="pl_00115" ref="#place_d7f977f9a16210838a0dd6b32f6fb25d">Volkg.</rs> und wieder alle erdenklichen 
-Mädchen gesprochen. <rs type="person" xml:id="pNt_00596" ref="#person_17368"><forename>Fanny</forename></rs> sieht nicht gut aus; <rs type="person" xml:id="pNt_00597"><name type="unclear">L.</name></rs> hat bemerkt, dass 
+Mädchen gesprochen. <rs type="person" xml:id="pNt_00596" ref="#person_17368"><forename>Fanny</forename></rs> sieht nicht gut aus; <rs ref="#person_17370" fix="ja" type="person" xml:id="pNt_00597"><name type="unclear">L.</name></rs> hat bemerkt, dass 
 sie mir bei <rs type="work" xml:id="bibl_23481">Faust</rs> einen Kuss zuwarf; er sagt’, wär er ihr Mann, so ließ 
 er sich scheiden, so aber könne ers nicht dulden. Ich fragt sie, mich 
 zum hundertsten Male: Was soll es werden? Und die Antwort fehlte.―</p>
             <p xml:space="preserve" rend="indent">Studiert heute viel Botanik.</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_00598"><surname>L.</surname></rs> ist bis Sonntag verreist.</p>
+            <p xml:space="preserve" rend="indent"><rs ref="#person_17370" fix="ja" type="person" xml:id="pNt_00598"><surname>L.</surname></rs> ist bis Sonntag verreist.</p>
             <pb n="66"/>
             <fw type="header">
                <fw place="top_left" type="pageNum">66</fw>

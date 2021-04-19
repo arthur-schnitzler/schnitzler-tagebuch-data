@@ -1,9 +1,13 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
      xml:id="entry__1902-09-16.xml"
      prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-09-15.xml"
      next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-09-18.xml">
+=======
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1902-09-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-09-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-09-18.xml">
+>>>>>>> dev
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,7 +182,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1710.tif"/>
@@ -186,10 +190,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1902-09-16">
-            <p xml:space="preserve"><date when="1902-09-16">16/9</date> <rs type="place" xml:id="pl_04118" ref="#place_a25ff6cb521df1cd0272d03eee7efd32">Brühl</rs> ― <rs type="person" xml:id="pNt_18900" ref="#person_13551"><forename>Rich.</forename></rs>, <rs type="person" xml:id="pNt_18901" ref="#person_13550"><forename>Paula</forename></rs> bei mir.</p>
+            <p xml:space="preserve"><date when="1902-09-16">16/9</date> <rs type="place" xml:id="pl_04118" ref="#place_a25ff6cb521df1cd0272d03eee7efd32">Brühl</rs> ― <rs type="person" xml:id="pNt_18900" ref="#person_13551" check="offen"><forename>Rich.</forename></rs>, <rs type="person" xml:id="pNt_18901" ref="#person_13550" check="offen"><forename>Paula</forename></rs> bei mir.</p>
          </div>
       </body>
       
+<<<<<<< HEAD
       <back>
          <listPerson>
             <person xml:id="person_13551">
@@ -243,3 +248,7 @@
       </back>
    </text>
 </TEI>
+=======
+      </text>
+</TEI>
+>>>>>>> dev

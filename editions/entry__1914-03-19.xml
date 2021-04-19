@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1914-03-19.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-03-18.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-03-20.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-03-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-03-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-03-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,19 +173,18 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3796.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1914-03-19">
             <p xml:space="preserve"><date when="1914-03-19">19/3</date> Vm. <rs type="work" subtype="self" xml:id="bibl_8740">Fink</rs> dictirt.―</p>
-            <p xml:space="preserve" rend="indent">Zum Thee <rs type="person" xml:id="pNt_43114" ref="#person_15781"><forename>Leonie</forename> <surname>Guttmann</surname></rs>. (<rs type="person" xml:id="pNt_43115" ref="#person_18224"><surname>Molnar</surname></rs> u. a. <rs type="place" xml:id="pl_08646" ref="#place_601df943a89d2ac73e0e43a5d37fc228x" ana="#exclude">Ungarn</rs>.)</p>
+            <p xml:space="preserve" rend="indent">Zum Thee <rs type="person" xml:id="pNt_43114" ref="#person_15781"><forename>Leonie</forename> <surname>Guttmann</surname></rs>. (<rs type="person" xml:id="pNt_43115" ref="#person_18224" check="offen"><surname>Molnar</surname></rs> u. a. <rs type="place" xml:id="pl_08646" ref="#place_601df943a89d2ac73e0e43a5d37fc228x" ana="#exclude">Ungarn</rs>.)</p>
             <p xml:space="preserve" rend="indent">― Am „<rs type="work" subtype="self" xml:id="bibl_8741">Graesler</rs>“. Einige Anfänge zur Novelle „<rs type="work" subtype="self" xml:id="bibl_8742">Der Literat</rs>“ (andrer 
 Titel ― „<rs type="work" subtype="self" xml:id="bibl_8743">Unmensch</rs>“―?).</p>
-            <p xml:space="preserve" rend="indent">Nach dem Nachtm. <rs type="person" xml:id="pNt_43116" ref="#person_15833"><forename>Else</forename></rs> und <rs type="person" xml:id="pNt_43117" ref="#person_20242"><forename>Felix</forename> <surname>Sp.</surname></rs>; sie von <rs type="person" xml:id="pNt_43118"><surname>Gärtners</surname></rs>; brühwarm das 
+            <p xml:space="preserve" rend="indent">Nach dem Nachtm. <rs type="person" xml:id="pNt_43116" ref="#person_15833"><forename>Else</forename></rs> und <rs type="person" xml:id="pNt_43117" ref="#person_20242"><forename>Felix</forename> <surname>Sp.</surname></rs>; sie von <rs check="offen" type="person" xml:id="pNt_43118"><surname>Gärtners</surname></rs>; brühwarm das 
 komische Geschwätz der <rs type="person" xml:id="pNt_43119" ref="#person_19615"><forename>Alice</forename> <surname>Schalek</surname></rs> und der <rs type="person" xml:id="pNt_43120" ref="#person_18450"><surname>Niese</surname></rs> über O.’s „Hochmut“ 
 überbringen.―</p>
             <pb n="105"/>
@@ -201,7 +195,5 @@ komische Geschwätz der <rs type="person" xml:id="pNt_43119" ref="#person_19615"
                <fw n="105" place="top_right" type="pageNum">105</fw>
             </tei:fw>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

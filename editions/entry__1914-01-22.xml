@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1914-01-22.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-01-21.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-01-23.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-01-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-01-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-01-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,20 +173,17 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3767.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1914-01-22">
             <p xml:space="preserve"><date when="1914-01-22">22/1</date> Abreise mit O. im Express. <rs type="person" xml:id="pNt_42658" ref="#person_19773"><surname>Schmidt Bonns</surname></rs> <rs type="work" xml:id="bibl_8632">Legenden</rs> (Geschenk des 
 Autors) mit mäßigem Vergnügen gelesen. <rs type="person" xml:id="pNt_42659" ref="#person_17475"><surname>Lessings</surname></rs> <rs type="work" xml:id="bibl_8633">Brochure gegen 
 <rs type="person" xml:id="pNt_42660" ref="#person_16477"><surname>Jacobsohn</surname></rs></rs> … (… „dass sie alle beide stinken“). <rs type="person" xml:id="pNt_42661" ref="#person_16404"><surname>Huch</surname></rs> weiter.</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_08610" ref="#place_26cf926782fe0bf1a37ac9960658499f">Regensburg</rs>: Grüner <rs type="person" xml:id="pNt_42662" ref="#person_16780"><surname>Kranz</surname></rs>. <rs type="person" xml:id="pNt_42663" ref="#person_19625"><forename>Vera</forename> <surname>Schapira</surname></rs>.</p>
+            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_08610" ref="#place_26cf926782fe0bf1a37ac9960658499f">Regensburg</rs>: Grüner <rs type="person" xml:id="pNt_42662" ref="#person_16780" check="offen"><surname>Kranz</surname></rs>. <rs type="person" xml:id="pNt_42663" ref="#person_19625"><forename>Vera</forename> <surname>Schapira</surname></rs>.</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1906-04-01.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-03-31.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-04-02.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-04-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-03-31.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-04-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -177,22 +172,19 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2211.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1906-04-01">
             <p xml:space="preserve"><date when="1906-04-01">1/4</date> Vm. (Regen und Sonnenschein) spazieren <rs type="place" xml:id="pl_05487" ref="#place_431168489e6885d4e91ebc5edec7dfb4">Grinzing</rs>, <rs type="place" xml:id="pl_05488" ref="#place_86f90c857ca2c813e066ea7b3502cb7c">Hohe Warte</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_14891">Roman</rs>.</p>
             <p xml:space="preserve" rend="indent">Viel musizirt. <rs type="work" xml:id="bibl_14892">Lohengrin</rs>; Vocalisen und „<rs type="work" xml:id="bibl_14893">Entführung</rs>“ mit O.</p>
             <p xml:space="preserve" rend="indent">Auf dem Spazierg. über einen Aufsatz meditirt: „<rs type="work" subtype="self" xml:id="bibl_14894">Wie sich die Leute 
 das Dichten vorstellen</rs>.“ ―</p>
-            <p xml:space="preserve" rend="indent">Lese vorwiegend <rs type="person" xml:id="pNt_24686" ref="#person_17599"><surname>Litzmanns</surname></rs> „<rs type="work" xml:id="bibl_14895"><rs type="person" xml:id="pNt_24687"><forename>Clara</forename> <surname>Schumann</surname></rs></rs>“.</p>
+            <p xml:space="preserve" rend="indent">Lese vorwiegend <rs type="person" xml:id="pNt_24686" ref="#person_17599"><surname>Litzmanns</surname></rs> „<rs type="work" xml:id="bibl_14895"><rs check="offen" type="person" xml:id="pNt_24687"><forename>Clara</forename><surname>Schumann</surname></rs></rs>“.</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

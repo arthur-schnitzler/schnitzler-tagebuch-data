@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1915-12-15.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-12-14.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-12-16.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-12-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-12-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-12-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,15 +173,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4164.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1915-12-15">
-            <p xml:space="preserve"><date when="1915-12-15">15/12</date> Vm. dict. Briefe, <rs type="work" subtype="self" xml:id="bibl_8559">Fldb.</rs>, <rs type="work" subtype="self" xml:id="bibl_8560"><rs type="person" xml:id="pNt_47071" ref="#person_14147"><surname>Cas.</surname></rs> Nov.</rs>―</p>
+            <p xml:space="preserve"><date when="1915-12-15">15/12</date> Vm. dict. Briefe, <rs type="work" subtype="self" xml:id="bibl_8559">Fldb.</rs>, <rs type="work" subtype="self" xml:id="bibl_8560"><rs type="person" xml:id="pNt_47071" ref="#person_14147" check="offen"><surname>Cas.</surname></rs> Nov.</rs>―</p>
             <p xml:space="preserve" rend="indent">Nm. Briefe von <rs type="person" xml:id="pNt_47072" ref="#person_21047"><forename>O.</forename> <surname>W.</surname></rs> an mich und meine an sie zu Ende gelesen. 
 Über 18 Jahre ist sie todt! Unfaßbar.―</p>
             <p xml:space="preserve" rend="indent">Am <rs type="work" subtype="self" xml:id="bibl_8561">Flb.</rs>― (Schwierigkeiten zu Beginn des 4. Aktes.) ―</p>
@@ -195,7 +189,5 @@ die Unzulänglichkeiten meiner Künstlerschaft; sie über die Schatten,
 die über mein Wesen fallen, seit jeher.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_47073" ref="#person_14130"><forename>Lili</forename></rs> aus dem Kino, ihre Erzählung, ihr Brief ans Christkindl.―</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

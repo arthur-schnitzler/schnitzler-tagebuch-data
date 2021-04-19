@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1890-01-31.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-01-30.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-02-01.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1890-01-31.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-01-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-02-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -178,22 +173,19 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0442.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1890-01-31">
             <p xml:space="preserve"><date when="1890-01-31">31.</date> Bei <rs type="person" xml:id="pNt_04342" ref="#person_17899"><roleName>Onkel</roleName> <forename>Edm.</forename></rs> ― Nachricht von <rs type="person" xml:id="pNt_04343" ref="#person_13733"><forename>H.</forename> <surname>H.</surname></rs> Wollen nicht.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_04344" ref="#person_15485"><forename>Mz.</forename></rs> Glücklich.</p>
-            <p xml:space="preserve" rend="right"><rs type="person" xml:id="pNt_04345"><forename>J.</forename></rs> 1 563</p>
+            <p xml:space="preserve" rend="right"><rs check="offen" type="person" xml:id="pNt_04345"><forename>J.</forename></rs> 1 563</p>
             <p xml:space="preserve" rend="right"><rs type="person" xml:id="pNt_04346" ref="#person_15485"><forename>Mz.</forename></rs> 4. 35</p>
             <p xml:space="preserve" rend="right">[au]!</p>
             <p xml:space="preserve" rend="center">Feber</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>

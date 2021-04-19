@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1907-10-14.xml"
-     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-10-13.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-10-15.xml">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1907-10-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-10-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-10-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -177,24 +172,21 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc></profileDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2423.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2424.tif"/>
    </facsimile>
-   <text>
-      <body>
+   <text><body>
          <div type="diary-day" xml:id="entry__1907-10-14">
             <p xml:space="preserve"><date when="1907-10-14">14/10</date> Vm. Tennis.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_14501">Roman</rs>.―</p>
             <p xml:space="preserve" rend="indent">Dictirt. Briefe. <rs type="work" subtype="self" xml:id="bibl_14502">Roman</rs>, 2 und 3 endgiltig.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_27420" ref="#person_15374"><forename>Grethe</forename></rs> und <rs type="person" xml:id="pNt_27421" ref="#person_15033"><forename>Erna</forename></rs> zum Nachtmahl.―</p>
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_27420" ref="#person_15374" check="offen"><forename>Grethe</forename></rs> und <rs type="person" xml:id="pNt_27421" ref="#person_15033"><forename>Erna</forename></rs> zum Nachtmahl.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_27422" ref="#person_20767"><roleName>Prof.</roleName> <surname>Toldy</surname></rs>, mit Hinhaltungen von <rs type="person" xml:id="pNt_27423" ref="#person_21168"><surname>Weinberger</surname></rs>. Er sang nach dem Nachtmahl, 
 mit sehr schöner Stimme, sich selbst begleitend, Lieder, Winterstürme, 
-Abendstern, <rs type="place" xml:id="pl_06143" ref="#place_87c998d33ab0f79900585ee1ea2e4be5" ana="#exclude">altitalien.</rs>; „<rs type="person" xml:id="pNt_27424"><forename>Leocadie</forename></rs>; meine geliebte, mein Weib ―“.</p>
+Abendstern, <rs type="place" xml:id="pl_06143" ref="#place_87c998d33ab0f79900585ee1ea2e4be5" ana="#exclude">altitalien.</rs>; „<rs check="offen" type="person" xml:id="pNt_27424"><forename>Leocadie</forename></rs>; meine geliebte, mein Weib ―“.</p>
          </div>
-      </body>
-   
-    </text>
+      </body></text>
 </TEI>
