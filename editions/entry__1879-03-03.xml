@@ -1,12 +1,8 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-     xml:id="entry__1879-03-03.xml"
-     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1879-03-19.xml">
-=======
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1879-03-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1879-03-19.xml">
->>>>>>> dev
+   xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+   xml:id="entry__1879-03-03.xml"
+   next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1879-03-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -78,7 +74,7 @@
          <publicationStmt>
             <publisher>
                <orgName>Austrian Centre for Digital Humanities, Austrian Academy of
-                        Sciences</orgName>
+                  Sciences</orgName>
                <address>
                   <addrLine>Sonnenfelsgasse 19</addrLine>
                   <addrLine>1010 Vienna</addrLine>
@@ -91,14 +87,14 @@
             <date when="2017">2017</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
-                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License
-                            applies to this text.</p>
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                     to this text.</p>
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
-            <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DCDB-7</tei:idno>
-            </publicationStmt>
+            <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI"
+               >http://hdl.handle.net/21.11115/0000-000B-DCDB-7</tei:idno>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -115,9 +111,8 @@
                         <forename>Werner</forename>
                         <surname>Welzig</surname>
                      </persName>
-                     <affiliation>Obmann der <orgName>Kommission für literarische
-                                Gebrauchsformen der Österreichischen Akademie der
-                                Wissenschaften</orgName>
+                     <affiliation>Obmann der <orgName>Kommission für literarische Gebrauchsformen
+                           der Österreichischen Akademie der Wissenschaften</orgName>
                      </affiliation>
                   </editor>
                   <respStmt>
@@ -137,10 +132,9 @@
                   </respStmt>
                   <imprint>
                      <publisher>
-                        <orgName>Verlag der Österreichischen Akademie der
-                                    Wissenschaften</orgName>
-                        <orgName>Kommission für literarische Gebrauchsformen der
-                                    Österreichischen Akademie der Wissenschaften</orgName>
+                        <orgName>Verlag der Österreichischen Akademie der Wissenschaften</orgName>
+                        <orgName>Kommission für literarische Gebrauchsformen der Österreichischen
+                           Akademie der Wissenschaften</orgName>
                      </publisher>
                      <pubPlace>
                         <placeName>Wien</placeName>
@@ -157,13 +151,12 @@
                   <title level="s">Tagebuch 1879-1931 - Gesamtausgabe</title>
                   <idno type="ISBN">978-3-7001-0395-0</idno>
                   <editor>
-                     <orgName>Verlag der Österreichischen Akademie der
-                                Wissenschaften</orgName>
-                     <orgName>Kommission für literarische Gebrauchsformen der
-                                Österreichischen Akademie der Wissenschaften</orgName>, Obmann:
-                            <persName>Werner Welzig</persName>. Unter Mitwirkung von
-                            <persName>Peter Michael Braunwarth</persName>, <persName>Susanne
-                                Pertlik</persName> und <persName>Reinhard Urbach</persName>
+                     <orgName>Verlag der Österreichischen Akademie der Wissenschaften</orgName>
+                     <orgName>Kommission für literarische Gebrauchsformen der Österreichischen
+                        Akademie der Wissenschaften</orgName>, Obmann: <persName>Werner
+                        Welzig</persName>. Unter Mitwirkung von <persName>Peter Michael
+                        Braunwarth</persName>, <persName>Susanne Pertlik</persName> und
+                        <persName>Reinhard Urbach</persName>
                   </editor>
                   <biblScope unit="volume">Band 1-10</biblScope>
                </series>
@@ -174,41 +167,35 @@
          <editorialDecl>
             <p>Annotation according to TEI/P5.</p>
             <hyphenation eol="none">
-               <p>All end-of-line hyphenation has been removed: any remaining hyphenation occurred within the line</p>
+               <p>All end-of-line hyphenation has been removed: any remaining hyphenation occurred
+                  within the line</p>
             </hyphenation>
             <interpretation>
                <p>personal names, place names, dates</p>
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1879-03-03">
             <p>
                <date when="1879-03-03">3/3</date> Soirée.</p>
-            <p rend="indent">Am nächsten Tag <rs type="person" xml:id="pNt_94470" ref="#person_14397" check="offen">
+            <p rend="indent">Am nächsten Tag <rs type="person" xml:id="pNt_94470">
                   <forename>Hermines</forename>
                </rs> Liebenswürdigkeit.</p>
-            <p rend="indent">― <rs type="person" xml:id="pNt_94471" ref="#person_14740" check="offen">
+            <p rend="indent">― <rs type="person" xml:id="pNt_94471">
                   <forename>Emilie</forename>
-               </rs> ― <rs type="person" xml:id="pNt_94472" ref="#person_21217" check="offen">
+               </rs> ― <rs type="person" xml:id="pNt_94472">
                   <forename>Adolf</forename>
                </rs>, der sie retten will.</p>
             <p rend="indent">… Bei ihr …</p>
             <p rend="indent">Verläuft sich in den Sand.―</p>
             <p rend="indent">Großer Verdruss durch das Auffinden meines <rs type="work"
-                   subtype="self"
-                   xml:id="bibl_23504"
-                   ref="#genID__bibl_5bc27fd5823448358cd53800c6bbca15">Tagebuches</rs>.―</p>
+                  subtype="self" xml:id="bibl_23504"
+                  ref="#genID__bibl_5bc27fd5823448358cd53800c6bbca15">Tagebuches</rs>.―</p>
          </div>
-<<<<<<< HEAD
       </body>
-      
-   
-    </text>
+   </text>
 </TEI>
-=======
-      </body></text>
-</TEI>
->>>>>>> dev

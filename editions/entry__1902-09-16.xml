@@ -1,13 +1,9 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
      xml:id="entry__1902-09-16.xml"
      prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-09-15.xml"
      next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-09-18.xml">
-=======
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1902-09-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-09-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-09-18.xml">
->>>>>>> dev
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -190,65 +186,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1902-09-16">
-            <p xml:space="preserve"><date when="1902-09-16">16/9</date> <rs type="place" xml:id="pl_04118" ref="#place_a25ff6cb521df1cd0272d03eee7efd32">Brühl</rs> ― <rs type="person" xml:id="pNt_18900" ref="#person_13551" check="offen"><forename>Rich.</forename></rs>, <rs type="person" xml:id="pNt_18901" ref="#person_13550" check="offen"><forename>Paula</forename></rs> bei mir.</p>
+            <p xml:space="preserve"><date when="1902-09-16">16/9</date> <rs type="place" xml:id="pl_04118" ref="#place_a25ff6cb521df1cd0272d03eee7efd32">Brühl</rs> ― <rs type="person" xml:id="pNt_18900"><forename>Rich.</forename></rs>, <rs type="person" xml:id="pNt_18901"><forename>Paula</forename></rs> bei mir.</p>
          </div>
       </body>
       
-<<<<<<< HEAD
-      <back>
-         <listPerson>
-            <person xml:id="person_13551">
-               <persName>
-                  <surname>Beer-Hofmann</surname>
-                  <forename>Richard</forename>
-               </persName>
-               <occupation>Schriftsteller</occupation>
-               <birth>
-                  <date>1866-07-11</date>
-                  <placeName>Wien</placeName>
-               </birth>
-               <death>
-                  <date>1945-09-26</date>
-                  <placeName>New York</placeName>
-               </death>
-               <idno type="ASTB">person_13551</idno>
-               <idno type="GND">http://d-nb.info/gnd/118654756</idno>
-               <idno type="ASBW">A002007</idno>
-            </person>
-            <person xml:id="person_13550">
-               <persName>
-                  <surname>Beer-Hofmann</surname>
-                  <forename>Paula</forename>
-               </persName>
-               <persName subtype="Geboren" type="alt">
-                  <surname type="alt" subtype="Geboren">Lissy</surname>
-               </persName>
-               <birth>
-                  <date>1879-02-25</date>
-                  <placeName>Wien</placeName>
-               </birth>
-               <death>
-                  <date>1939-10-30</date>
-                  <placeName>Zürich</placeName>
-               </death>
-               <idno type="ASTB">person_13550</idno>
-               <idno type="GND">http://d-nb.info/gnd/119044994</idno>
-               <idno type="ASBW">A002138</idno>
-            </person>
-         </listPerson>
-         <listPlace>
-            <place xml:id="place_a25ff6cb521df1cd0272d03eee7efd32">
-               <placeName type="region">Brühl</placeName>
-               <location>
-                  <geo decls="#LatLng">48.082800 16.250657</geo>
-               </location>
-               <note type="done"/>
-            </place>
-         </listPlace>
-      </back>
+      
    </text>
 </TEI>
-=======
-      </text>
-</TEI>
->>>>>>> dev
