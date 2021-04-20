@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1889-03-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-03-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-03-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+   xml:id="entry__1889-03-28.xml"
+   prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-03-27.xml"
+   next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-03-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -70,7 +75,7 @@
          <publicationStmt>
             <publisher>
                <orgName>Austrian Centre for Digital Humanities, Austrian Academy of
-                        Sciences</orgName>
+                  Sciences</orgName>
                <address>
                   <addrLine>Sonnenfelsgasse 19</addrLine>
                   <addrLine>1010 Vienna</addrLine>
@@ -83,14 +88,14 @@
             <date when="2017">2017</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
-                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License
-                            applies to this text.</p>
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                     to this text.</p>
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
-            <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E16E-C</tei:idno>
-            </publicationStmt>
+            <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI"
+               >http://hdl.handle.net/21.11115/0000-000B-E16E-C</tei:idno>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -107,9 +112,8 @@
                         <forename>Werner</forename>
                         <surname>Welzig</surname>
                      </persName>
-                     <affiliation>Obmann der <orgName>Kommission für literarische
-                                Gebrauchsformen der Österreichischen Akademie der
-                                Wissenschaften</orgName>
+                     <affiliation>Obmann der <orgName>Kommission für literarische Gebrauchsformen
+                           der Österreichischen Akademie der Wissenschaften</orgName>
                      </affiliation>
                   </editor>
                   <respStmt>
@@ -129,10 +133,9 @@
                   </respStmt>
                   <imprint>
                      <publisher>
-                        <orgName>Verlag der Österreichischen Akademie der
-                                    Wissenschaften</orgName>
-                        <orgName>Kommission für literarische Gebrauchsformen der
-                                    Österreichischen Akademie der Wissenschaften</orgName>
+                        <orgName>Verlag der Österreichischen Akademie der Wissenschaften</orgName>
+                        <orgName>Kommission für literarische Gebrauchsformen der Österreichischen
+                           Akademie der Wissenschaften</orgName>
                      </publisher>
                      <pubPlace>
                         <placeName>Wien</placeName>
@@ -149,13 +152,12 @@
                   <title level="s">Tagebuch 1879-1931 - Gesamtausgabe</title>
                   <idno type="ISBN">978-3-7001-0395-0</idno>
                   <editor>
-                     <orgName>Verlag der Österreichischen Akademie der
-                                Wissenschaften</orgName>
-                     <orgName>Kommission für literarische Gebrauchsformen der
-                                Österreichischen Akademie der Wissenschaften</orgName>, Obmann:
-                            <persName>Werner Welzig</persName>. Unter Mitwirkung von
-                            <persName>Peter Michael Braunwarth</persName>, <persName>Susanne
-                                Pertlik</persName> und <persName>Reinhard Urbach</persName>
+                     <orgName>Verlag der Österreichischen Akademie der Wissenschaften</orgName>
+                     <orgName>Kommission für literarische Gebrauchsformen der Österreichischen
+                        Akademie der Wissenschaften</orgName>, Obmann: <persName>Werner
+                        Welzig</persName>. Unter Mitwirkung von <persName>Peter Michael
+                        Braunwarth</persName>, <persName>Susanne Pertlik</persName> und
+                        <persName>Reinhard Urbach</persName>
                   </editor>
                   <biblScope unit="volume">Band 1-10</biblScope>
                </series>
@@ -166,14 +168,15 @@
          <editorialDecl>
             <p>Annotation according to TEI/P5.</p>
             <hyphenation eol="none">
-               <p>All end-of-line hyphenation has been removed: any remaining hyphenation occurred within the line</p>
+               <p>All end-of-line hyphenation has been removed: any remaining hyphenation occurred
+                  within the line</p>
             </hyphenation>
             <interpretation>
                <p>personal names, place names, dates</p>
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0371.tif"/>
@@ -215,14 +218,13 @@ Warum eigentlich: Manchmal Mittags Rendezvous in der Stadt ― in der
 letzten Viertelstunde liebt sie mich gewöhnlich. Samstag auf einem 
 Ball zusammen ― ein Tanz ― bin mit ihrem Mann brouillirt. Hätte 
 Sonntag auf einem Ball mit ihr sein sollen, kam nicht hin; „aus“.</p>
-            <pb n="248"/>
+            <p xml:space="preserve" rend="indent"><pb n="248"/>
             <seg type="header">
                <fw place="top_left" type="pageNum">248</fw>
                <fw place="top_center">
                   <date>1889: III 28 </date>
                </fw>
-            </seg>
-            <p xml:space="preserve" rend="indent"><persName xml:id="pNt_03613"><forename>Gisela</forename> <surname>M.</surname></persName> war mir zu langweilig und hatte Fehler in der Toilette, die 
+            </seg><persName xml:id="pNt_03613"><forename>Gisela</forename> <surname>M.</surname></persName> war mir zu langweilig und hatte Fehler in der Toilette, die 
 mich disgustirten. Ich war brutal mit ihr und kümmerte mich nicht weiter.</p>
             <p xml:space="preserve" rend="indent">Ihre Schwester <persName xml:id="pNt_03614"><forename>Olga</forename></persName> wollte sich mir auf einem Maskenball interessant 
 machen.</p>
@@ -280,15 +282,14 @@ deren Behandlung durch Hypnose und Suggestion</bibl>.</p>
             <p xml:space="preserve" rend="indent">Schwester der <persName xml:id="pNt_03628"><forename>Lola</forename> <surname>Beeth</surname></persName> auf 2 Bällen.</p>
             <p xml:space="preserve" rend="indent">Vormittag im Arkadencafé mit <persName xml:id="pNt_03629"><forename>Fritz</forename></persName>, <persName xml:id="pNt_03630"><forename>Theod.</forename> <surname>Friedmann</surname></persName>, <persName xml:id="pNt_03631"><surname>Rudinger</surname></persName>.</p>
          </div>
-         <pb n="248"/>
+         <div type="diary-day">
+            <p xml:space="preserve"><pb n="248"/>
          <seg type="header">
             <fw place="top_left" type="pageNum">248</fw>
             <fw place="top_center">
                <date>1889: III 28 </date>
             </fw>
-         </seg>
-         <div type="diary-day">
-            <p xml:space="preserve"><date when="1889-04-13">13. April 1889</date>. Nachmittag Samstag. Ein Tag zum Beispiel: Vorgestern 
+         </seg><date when="1889-04-13">13. April 1889</date>. Nachmittag Samstag. Ein Tag zum Beispiel: Vorgestern 
 Nachmittag <persName xml:id="pNt_03632"><forename>Mizi</forename></persName> bei mir. Nichts, weder Gewalt, noch Vernunftgründe, 
 noch Zärtlichkeit! Sie läßt sich küssen, küsst zurück und 
 deutet an, sagt mir geradeheraus, dass sie doch eigentlich in mich 
@@ -307,14 +308,13 @@ Rausche der Sinnlichkeit.</p>
 erwartet mich, ist zärtlich, langweilig, enervirt mich. Ich möchte bald 
 <persName xml:id="pNt_03634"><forename>Mizi</forename></persName>, bald <persName xml:id="pNt_03635"><forename>Adele</forename></persName> neben mir haben. Meinetwegen selbst eine Dirne ― 
 nur etwas andres.</p>
-            <pb n="250"/>
+            <p xml:space="preserve" rend="indent"><pb n="250"/>
             <seg type="header">
                <fw place="top_left" type="pageNum">250</fw>
                <fw place="top_center">
                   <date type="range">1889: IV 13 - III 24</date>
                </fw>
-            </seg>
-            <p xml:space="preserve" rend="indent"> ― Und liege bis zum grauenden Frühlingsmorgen und stehe auf; 
+            </seg>― Und liege bis zum grauenden Frühlingsmorgen und stehe auf; 
 drüben der große Irrenhausgarten liegt im Frühlicht da ― Hinunter 
 die vier Stöcke, nach Hause mitten unter dem Gemeng von 
 Frühaufstehern, Arbeitern, Bedienerinnen, Bäckern, Köchinnen, 
@@ -326,6 +326,5 @@ Fleischselchern und Mägden. Umkleiden, auf die Poliklinik.</p>
             <p xml:space="preserve" rend="indent">bei [chon.] <rs type="person" xml:id="pNt_03645" ref="#person_15854"><forename>Gisa</forename></rs> ―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>
