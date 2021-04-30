@@ -166,6 +166,7 @@
         <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"/>
         <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"/>
         <acdh:hasCustomXsl rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://tei4arche.acdh-dev.oeaw.ac.at/xsl/schnitzler-tagebuch.xsl</acdh:hasCustomXsl>
+        <acdh:hasSchema rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://tei-c.org/Vault/P5/4.2.2/xml/tei/custom/schema/relaxng/tei_all.rng</acdh:hasSchema>
     </acdh:SpecResource>
     
     <!-- maps arche props to their values via xpath expressions; be aware the current TEI document needs to be encoded as '$doc' -->
