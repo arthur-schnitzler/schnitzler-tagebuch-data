@@ -13,7 +13,7 @@ Die Daten haben eine bekannte Schwachstelle. Die Personen sind zwar ausgezeichne
 
 Für die Daten der Website siehe:
 
-https://github.com/acdh-oeaw/schnitzler-tagebuch
+https://github.com/arthur-schnitzler/schnitzler-tagebuch-data
 
 Lizenz:
 https://creativecommons.org/licenses/by-sa/4.0/
