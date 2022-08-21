@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-04-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-04-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-04-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-04-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-04-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-04-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1AB0-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,17 +177,18 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7464.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1930-04-08">
             <p xml:space="preserve"><date when="1930-04-08">8/4</date> Vm. bei <rs type="person" xml:id="pNt_89388" ref="#person_19986"><forename>Gustav</forename></rs>. <rs type="person" xml:id="pNt_89389" ref="#person_20714"><forename>Hugo</forename> <surname>Thimig</surname></rs> dazu; wir reden ihm zur Staroperation 
 zu.― <rs type="person" xml:id="pNt_89390" ref="#person_20714"><surname>Th.</surname></rs> über die Berliner Theaterverhältnisse ―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_89391" ref="#person_18722"><roleName>Dr.</roleName> <surname>Peter</surname></rs>. <rs type="person" xml:id="pNt_89392" ref="#person_16735"><surname>Karolyi</surname></rs> erzählt bolschewistisches aus den Umsturzjahren 
-<rs type="place" xml:id="pl_19153" ref="#place_0a298cf9ec95507e9feeadcb70029ca9">Szegeds</rs>.</p>
+<rs type="place" xml:id="pl_19153" ref="#pmb46376">Szegeds</rs>.</p>
             <p xml:space="preserve" rend="indent">― Zu Tisch bei <rs type="person" xml:id="pNt_89393" ref="#person_19827"><forename>Julius</forename></rs>. <rs type="person" xml:id="pNt_89394"><forename>Ferry</forename></rs> und <rs type="person" xml:id="pNt_89395"><forename>Annie</forename></rs>.― <rs type="person" xml:id="pNt_89396"><forename>Ferry</forename></rs> von seinem letzten 
 Samstag Gespräch mit <rs type="person" xml:id="pNt_89397" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_89398" ref="#person_14234"><forename>Suz.</forename></rs> bei mir.―</p>
@@ -193,5 +198,6 @@ und erzählt sehr herzlich von ihm. Dann aber weinte sie bittre Thränen
 dem Wort „sonderbar“ kommt man nicht aus. Das „<rs type="work" subtype="self" xml:id="bibl_969">Land</rs>“ ist immer noch 
 „weiter“ als man denkt.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

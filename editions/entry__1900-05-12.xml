@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1900-05-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-05-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-05-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1900-05-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-05-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-05-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F07D-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -162,7 +166,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1562.tif"/>
@@ -170,7 +174,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1900-05-12">
-            <p xml:space="preserve"><date when="1900-05-12">12/5</date> Nm. mit <rs type="person" xml:id="pNt_17048" ref="#person_14073"><forename>Lola</forename> <surname>B.</surname></rs> <rs type="place" xml:id="pl_03393" ref="#place_971d9360a377fa82fd2640a5119b1112">Schönbrunn</rs>. Sie war nachgerade unerträglich
+            <p xml:space="preserve"><date when="1900-05-12">12/5</date> Nm. mit <rs type="person" xml:id="pNt_17048" ref="#person_14073"><forename>Lola</forename> <surname>B.</surname></rs> <rs type="place" xml:id="pl_03393" ref="#pmb92518">Schönbrunn</rs>. Sie war nachgerade unerträglich
 durch ihre Art, mich unverzüglich auf Pietätlosigkeit gegenüber dem
 Andenken der <rs type="allusively" xml:id="rst_00317">Todten</rs> ertappen zu wollen. So sagte sie mir z. B. ….
 Sie sind wohl davon abgekommen, sich neben ihr begraben zu lassen.―
@@ -178,6 +182,5 @@ Dabei ist alles ganz echt an ihr.― Eine Vernachlässigung ihrer selbst
 empfindet sie stets als Verleugnung des Andenkens der <rs type="allusively" xml:id="rst_00318">Entschwundenen</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

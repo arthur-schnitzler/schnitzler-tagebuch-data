@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-07-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-31.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1931-07-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-31.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1C8D-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7749.tif"/>
@@ -183,7 +187,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1931-07-30">
             <p xml:space="preserve"><date when="1931-07-30">30/7</date> In der Früh ruft <rs type="person" xml:id="pNt_93518" ref="#person_14234"><forename>Suz.</forename></rs> an ― sie ist um ½12 bei mir, erzählt 
-von <rs type="place" xml:id="pl_20042" ref="#place_8b32ee9ceed3cd308ec9e80f541bfa55">Zöptau</rs>; ich ihr vom <rs type="place" xml:id="pl_20043" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs>; ich führe sie über den Gürtel nach 
+von <rs type="place" xml:id="pl_20042" ref="#pmb92129">Zöptau</rs>; ich ihr vom <rs type="place" xml:id="pl_20043" ref="#pmb91735">Semmering</rs>; ich führe sie über den Gürtel nach 
 Haus; esse bei <rs type="person" xml:id="pNt_93519" ref="#person_19827"><forename>Julius’</forename></rs>.―</p>
             <p xml:space="preserve" rend="indent">Früh hatt ich mit <rs type="person" xml:id="pNt_93520" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> telef.; ruhig; sie reist baldigst ab.―</p>
             <p xml:space="preserve" rend="indent">― Ich befinde mich fast den ganzen Tag ziemlich unwohl und von allerlei 
@@ -193,6 +197,5 @@ Gedanken, auch hypoch. Art gepeinigt.―</p>
 z. B. Urfassung des <rs type="work" subtype="self" xml:id="bibl_23887">Wurstl</rs> (<rs type="work" subtype="self" xml:id="bibl_23888">Marionetten</rs>), <rs type="work" subtype="self" xml:id="bibl_23889">Fliederbusch</rs> etc.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

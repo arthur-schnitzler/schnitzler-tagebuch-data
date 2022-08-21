@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-09-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-09-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0A41-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4712.tif"/>
@@ -182,8 +186,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1918-09-28">
-            <p xml:space="preserve"><date when="1918-09-28">28/9</date> Mit <rs type="person" xml:id="pNt_54283" ref="#person_21602"><forename>Vicki</forename></rs> spazieren <rs type="place" xml:id="pl_11248" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> ― <rs type="place" xml:id="pl_11249" ref="#place_75f2e194839d6ba0e5d4080c211a449a">Dornbacher Park</rs>. Über <rs type="person" xml:id="pNt_54284" ref="#person_13374"><surname>Bahr</surname></rs>; 
-meine <rs type="place" ref="#place_burgtheater">Burgtheater</rs>erlebnisse; über die <rs type="work" subtype="self" xml:id="bibl_5850">Novelle</rs>.― Viel über <rs type="person" xml:id="pNt_54285" ref="#person_13359"><forename>Stephi</forename></rs> und 
+            <p xml:space="preserve"><date when="1918-09-28">28/9</date> Mit <rs type="person" xml:id="pNt_54283" ref="#person_21602"><forename>Vicki</forename></rs> spazieren <rs type="place" xml:id="pl_11248" ref="#pmb169">Pötzleinsdorf</rs> ― <rs type="place" xml:id="pl_11249" ref="#pmb176">Dornbacher Park</rs>. Über <rs type="person" xml:id="pNt_54284" ref="#person_13374"><surname>Bahr</surname></rs>; 
+meine <rs type="place" ref="#pmb14">Burgtheater</rs>erlebnisse; über die <rs type="work" subtype="self" xml:id="bibl_5850">Novelle</rs>.― Viel über <rs type="person" xml:id="pNt_54285" ref="#person_13359"><forename>Stephi</forename></rs> und 
 <rs type="person" xml:id="pNt_54286" ref="#person_21600"><forename>Mimi</forename></rs>. Gemeinsames und Verschiedenheiten. Decadence und zugleich ein 
 neuer Anfang. Mußte <rs type="person" xml:id="pNt_54287" ref="#person_13359"><forename>St.</forename></rs> sterben?― Über <rs type="person" xml:id="pNt_54288" ref="#person_18548"><forename>Rudi</forename> <surname>O.</surname></rs>, der nächstens 
 Frau <rs type="person" xml:id="pNt_54289" ref="#person_18546"><forename>Mädi</forename> <surname>F.</surname></rs> heiratet.</p>
@@ -195,6 +199,5 @@ sie also vielleicht noch wird abgeben müssen (König in <rs type="work" xml:id=
             <p xml:space="preserve" rend="indent">― Mit <rs type="person" xml:id="pNt_54292" ref="#person_19822"><forename>Heini</forename></rs> <rs type="person" xml:id="pNt_54293" ref="#person_18282"><surname>Mozart</surname></rs> <rs type="work" xml:id="bibl_5853">Jupitersymph.</rs>― <rs type="person" xml:id="pNt_54294" ref="#person_16852"><forename>Hansi</forename></rs> n. d. N.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

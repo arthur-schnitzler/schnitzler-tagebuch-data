@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-01-31.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-01-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-02-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-01-31.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-01-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-02-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FC7D-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2634.tif"/>
@@ -183,7 +187,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1909-01-31">
             <p xml:space="preserve"><date when="1909-01-31">31/1</date> S.― Im Sturm und Staub spazieren. Eine Wohnung in der 
-<rs type="place" xml:id="pl_06594" ref="#place_4241ea59e7a87a653c3bd9400633e973">Reithlegasse</rs> angesehn. Unmöglich ―.</p>
+<rs type="place" xml:id="pl_06594" ref="#pmb92480">Reithlegasse</rs> angesehn. Unmöglich ―.</p>
             <p xml:space="preserve" rend="indent">Nach Tisch <rs type="allusively" xml:id="rst_00996">Mama</rs>, die uns auf eine Annonce eines <rs type="place" xml:id="pl_06595" ref="#place_e12f265f448e10f362084064ed286868" ana="#exclude">Badner</rs> Hauses 
 aufmerksam machte. Wir machen uns mit dem Gedanken vertraut, 
 ganz auswärts zu wohnen.</p>
@@ -196,6 +200,5 @@ der Vollendung näher als ich vermuthet; Schwierigkeiten dürfte nur der
 auch thun werde. Ich hoffe im Feber noch fertig zu sein, dann <rs type="work" subtype="self" xml:id="bibl_12380">Medardus</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-12-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-12-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-12-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-12-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-12-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-12-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1BB1-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7614.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1930-12-21">
-            <p xml:space="preserve"><date when="1930-12-21">21/12</date> S.― Besorgungen Stadt (Puppe etc.) ― Mit <rs type="person" xml:id="pNt_91668" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> <rs type="place" xml:id="pl_19679" ref="#place_c8369178c0d715f504a72813045a5cd0">Graben</rs>; mit ihr 
+            <p xml:space="preserve"><date when="1930-12-21">21/12</date> S.― Besorgungen Stadt (Puppe etc.) ― Mit <rs type="person" xml:id="pNt_91668" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> <rs type="place" xml:id="pl_19679" ref="#pmb90753">Graben</rs>; mit ihr 
 <rs type="person" xml:id="pNt_91669" ref="#person_19986"><forename>Gustav</forename></rs> abgeholt, der ebenso wie sie bei mir zu Mittag ass.― Er trieb seine 
 „Skepsis“ wieder einmal ins skurrile; sein Mißtrauen gegen Weltgeschichte 
 und Biographen ― ― seine Überschätzung der „Authenticität“, und der 
@@ -190,6 +194,5 @@ Datenwichtigkeit.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_91670" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Kino „<rs type="work" xml:id="bibl_1508">Va banque</rs>“; sie nachtm. bei mir.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

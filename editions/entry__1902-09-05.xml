@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1902-09-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-09-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-09-06.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1902-09-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-09-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-09-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F388-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,16 +177,18 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1708.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1902-09-05">
-            <p xml:space="preserve"><date when="1902-09-05">5/9</date> <rs type="place" xml:id="pl_04097" ref="#place_0b7c1a4cf2c4245c996f79af6c29af35">Hieflau</rs> (Rad) ― <rs type="place" xml:id="pl_04098" ref="#place_35dcef0697854f6dda4d3cbfe23e2b71">Gstatterboden</rs> ― <rs type="place" xml:id="pl_04099" ref="#place_2107344164da4c7c989114f8677fea63">Admont</rs> ― <rs type="place" xml:id="pl_04100" ref="#place_fa7d505a33915c29dffb638bb3649fcc">Liezen</rs> ― <rs type="place" xml:id="pl_04101" ref="#place_ed6f1e5733388e8acb75dae0af0d219c">Pyhrnpass</rs> 
-― <rs type="place" xml:id="pl_04102" ref="#place_0922086273aac37ed10d23d0463e7450">Spital</rs> 7-2 ― erschöpft.― Unverbesserlich. Abends Rad <rs type="place" xml:id="pl_04103" ref="#place_6305cc804c600621de72de6673f5698a">Windisch 
+            <p xml:space="preserve"><date when="1902-09-05">5/9</date> <rs type="place" xml:id="pl_04097" ref="#pmb90875">Hieflau</rs> (Rad) ― <rs type="place" xml:id="pl_04098" ref="#pmb90797">Gstatterboden</rs> ― <rs type="place" xml:id="pl_04099" ref="#pmb90194">Admont</rs> ― <rs type="place" xml:id="pl_04100" ref="#pmb45236">Liezen</rs> ― <rs type="place" xml:id="pl_04101" ref="#pmb91554">Pyhrnpass</rs> 
+― <rs type="place" xml:id="pl_04102" ref="#pmb91794">Spital</rs> 7-2 ― erschöpft.― Unverbesserlich. Abends Rad <rs type="place" xml:id="pl_04103" ref="#pmb92085">Windisch 
 Garsten</rs>. Ekel vor diesen Beiseln.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

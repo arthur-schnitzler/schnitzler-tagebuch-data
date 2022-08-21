@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-10-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-10-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-10-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-10-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-10-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-10-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F685-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1983.tif"/>
@@ -181,13 +185,12 @@
       <body>
          <div type="diary-day" xml:id="entry__1904-10-19">
             <p xml:space="preserve"><date when="1904-10-19">19/10</date> Vm. Briefe geschrieben, <rs type="person" xml:id="pNt_21741" ref="#person_18086"><surname>Mereschkowski</surname></rs> gelesen.―</p>
-            <p xml:space="preserve" rend="indent">Dann mit O. schöner Spaziergang <rs type="place" xml:id="pl_04945" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> ― <rs type="place" xml:id="pl_04946" ref="#place_bf303a935ba7bb30e892cb5d0f2ea6ac">Michaelerberg</rs> ― 
-<rs type="place" xml:id="pl_04947" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Dann mit O. schöner Spaziergang <rs type="place" xml:id="pl_04945" ref="#pmb169">Pötzleinsdorf</rs> ― <rs type="place" xml:id="pl_04946" ref="#pmb91239">Michaelerberg</rs> ― 
+<rs type="place" xml:id="pl_04947" ref="#pmb169">Pötzleinsdorf</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="work" xml:id="bibl_17361">Meistersinger</rs> gespielt.― Novelle von der „<rs type="work" subtype="self" xml:id="bibl_17362">Volkssängerin</rs>“ neu 
 begonnen.―</p>
-            <p xml:space="preserve" rend="indent">Mit O. <rs type="place" xml:id="pl_04948" ref="#place_6fc6f10422bfe80ddcba23b4f7f080dc">Hietzing</rs>.― <rs type="person" xml:id="pNt_21742" ref="#person_16293"><forename>Hugo</forename></rs> und Frau ―</p>
+            <p xml:space="preserve" rend="indent">Mit O. <rs type="place" xml:id="pl_04948" ref="#pmb63">Hietzing</rs>.― <rs type="person" xml:id="pNt_21742" ref="#person_16293"><forename>Hugo</forename></rs> und Frau ―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

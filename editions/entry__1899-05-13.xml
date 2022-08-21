@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1899-05-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-05-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-05-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1899-05-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-05-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-05-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EF23-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,14 +177,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1491.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1899-05-13">
-            <p xml:space="preserve"><date when="1899-05-13">13/5</date> Mit <rs type="person" xml:id="pNt_16295" ref="#person_19986"><forename>Gustav</forename></rs> <rs type="place" xml:id="pl_03098" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> und <rs type="place" xml:id="pl_03099" ref="#place_f5af0e4beb99b2ded62ac5ff72643954">Dornbach</rs>.―</p>
+            <p xml:space="preserve"><date when="1899-05-13">13/5</date> Mit <rs type="person" xml:id="pNt_16295" ref="#person_19986"><forename>Gustav</forename></rs> <rs type="place" xml:id="pl_03098" ref="#pmb169">Pötzleinsdorf</rs> und <rs type="place" xml:id="pl_03099" ref="#pmb90546">Dornbach</rs>.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

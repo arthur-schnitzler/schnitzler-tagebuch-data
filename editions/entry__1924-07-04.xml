@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1924-07-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-07-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-07-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1924-07-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-07-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-07-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1279-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6293.tif"/>
@@ -182,20 +186,19 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1924-07-04">
-            <p xml:space="preserve"><date when="1924-07-04">4/7</date> <rs type="place" xml:id="pl_15463" ref="#place_c38ad36647aca0261d667c432a4866bd">Salzburg</rs>. Vm. Spazierg. mit <rs type="person" xml:id="pNt_72601" ref="#person_21614"><forename>Stefan</forename> <surname>Zweig</surname></rs>, <rs type="person" xml:id="pNt_72602" ref="#person_17834"><forename>Heinrich</forename> <surname>Mann</surname></rs> in 
-sommerlicher Landschaft, über <rs type="place" xml:id="pl_15464" ref="#place_74fdd4bc634a1360e10d6f45327f7e2e">Parsch</rs>, <rs type="place" xml:id="pl_15465" ref="#place_639a777f1daa60e404eb39d85953aa42">Aigen</rs> zum <rs type="institution" xml:id="pNt_72603"><surname>Steinlechner</surname></rs> 
+            <p xml:space="preserve"><date when="1924-07-04">4/7</date> <rs type="place" xml:id="pl_15463" ref="#pmb91649">Salzburg</rs>. Vm. Spazierg. mit <rs type="person" xml:id="pNt_72601" ref="#person_21614"><forename>Stefan</forename> <surname>Zweig</surname></rs>, <rs type="person" xml:id="pNt_72602" ref="#person_17834"><forename>Heinrich</forename> <surname>Mann</surname></rs> in 
+sommerlicher Landschaft, über <rs type="place" xml:id="pl_15464" ref="#pmb49759">Parsch</rs>, <rs type="place" xml:id="pl_15465" ref="#pmb90200">Aigen</rs> zum <rs type="institution" xml:id="pNt_72603"><surname>Steinlechner</surname></rs> 
 (wo wir aßen). Über <rs type="place" xml:id="pl_15466" ref="#place_55c76de3045e4a0a1e0b4506c5e2d403" ana="#exclude">französ.</rs> und <rs type="place" xml:id="pl_15467" ref="#place_29edfc109f5a668e40ee5525a2f6c059" ana="#exclude">deutsche</rs> Sprache, Übersetzung, Tradition etc.―</p>
             <p xml:space="preserve" rend="indent">Nm. hält mir <rs type="person" xml:id="pNt_72604" ref="#person_16915"><roleName>Herr</roleName> <surname>Klobasser</surname></rs> in seinem Zimmer einen Vortrag über 
 geologisches, chemisches, seinen Sohn, etc. und schenkt mir ein Feuerzeug.</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_72605" ref="#person_19822"><forename>Heini</forename></rs> kommt um 6 aus <rs type="place" xml:id="pl_15468" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>; bringt mir u. a. Inscenirungsbilder von 
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_72605" ref="#person_19822"><forename>Heini</forename></rs> kommt um 6 aus <rs type="place" xml:id="pl_15468" ref="#pmb50">Wien</rs>; bringt mir u. a. Inscenirungsbilder von 
 <rs type="person" xml:id="pNt_72606" ref="#person_13466"><forename>Bettina</forename> <surname>Bauer</surname></rs>, zum <rs type="work" subtype="self" xml:id="bibl_21151">Eins. Weg</rs>.</p>
-            <p xml:space="preserve" rend="indent">― Spazieren mit <rs type="person" xml:id="pNt_72607" ref="#person_19822"><forename>Heini</forename></rs> an der <rs type="place" xml:id="pl_15469" ref="#place_187d562f68b355a3434576d3f6a41a82">Salzach</rs>. Nachtm. mit <rs type="person" xml:id="pNt_72608" ref="#person_17834"><forename>Heinrich</forename> <surname>Mann</surname></rs> und 
-seiner Frau, <rs type="person" xml:id="pNt_72609" ref="#person_21614"><forename>Stef.</forename> <surname>Zweig</surname></rs> und Frau im <rs type="place" xml:id="pl_15470" ref="#place_4263b2b97d973d9bf5986610a87654b2">Mirabellgarten</rs>; dann Café Bazar 
+            <p xml:space="preserve" rend="indent">― Spazieren mit <rs type="person" xml:id="pNt_72607" ref="#person_19822"><forename>Heini</forename></rs> an der <rs type="place" xml:id="pl_15469" ref="#pmb91647">Salzach</rs>. Nachtm. mit <rs type="person" xml:id="pNt_72608" ref="#person_17834"><forename>Heinrich</forename> <surname>Mann</surname></rs> und 
+seiner Frau, <rs type="person" xml:id="pNt_72609" ref="#person_21614"><forename>Stef.</forename> <surname>Zweig</surname></rs> und Frau im <rs type="place" xml:id="pl_15470" ref="#pmb92405">Mirabellgarten</rs>; dann Café Bazar 
 mit den gleichen; sowie <rs type="person" xml:id="pNt_72610" ref="#person_17350"><surname>Latzko</surname></rs> und Frau (einer <rs type="place" xml:id="pl_15471" ref="#place_8e83043feae40314ce132cd9f8028288" ana="#exclude">Georgierin</rs>).</p>
             <p xml:space="preserve" rend="indent">Nm. stellt sich mir ein <rs type="place" xml:id="pl_15472" ref="#place_e019ad6453c82723bc20f13c924ea8b0" ana="#exclude">Amerikaner</rs> <rs type="person" xml:id="pNt_72611" ref="#person_17861"><roleName>Dr.</roleName> <surname>Marcus</surname></rs> vor, Journalist 
 etc. und lädt mich zu dem am Abend stattfindenden Concert seiner Frau (vergeblich) ein.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

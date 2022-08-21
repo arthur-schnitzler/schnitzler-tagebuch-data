@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-01-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-01-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-01-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-01-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-01-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-01-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0EF4-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,16 +177,17 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5620.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5621.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5622.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1922-01-14">
-            <p xml:space="preserve"><date when="1922-01-14">14/1</date> In <rs type="place" xml:id="pl_13615" ref="#place_6fc6f10422bfe80ddcba23b4f7f080dc">Hietzing</rs> bei der Wittwe <rs type="person" xml:id="pNt_64871" ref="#person_18916"><surname>Popper</surname></rs> (er hatte am Tag vor seinem 
+            <p xml:space="preserve"><date when="1922-01-14">14/1</date> In <rs type="place" xml:id="pl_13615" ref="#pmb63">Hietzing</rs> bei der Wittwe <rs type="person" xml:id="pNt_64871" ref="#person_18916"><surname>Popper</surname></rs> (er hatte am Tag vor seinem 
 Tode seine Wirtschafterin geheiratet). Die beiden Frauen (sie und ihre 
 Nichte) noch immer in Thränen. ― Frau <rs type="person" xml:id="pNt_64872"><forename>Adolf</forename> <surname>Gelber</surname></rs> mit der 2j. Enkelin.―</p>
             <p xml:space="preserve" rend="indent">Gestern Brief von <rs type="person" xml:id="pNt_64873" ref="#person_19832"><forename>O.</forename></rs> an <rs type="person" xml:id="pNt_64874" ref="#person_19822"><forename>Heini</forename></rs>, ihre Ankunft bei <rs type="person" xml:id="pNt_64875" ref="#person_17784"><forename>Alma</forename></rs> in den nächsten 
@@ -213,5 +218,6 @@ gibt Proben aufs Exempel.―</p>
 wirkt ergreifend. Eine Tragödie, die jeder Mensch erlebt, und doch 
 eine Tragoedie? Hier stimmt etwas nicht.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

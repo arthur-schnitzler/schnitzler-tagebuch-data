@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1895-08-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-08-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-08-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1895-08-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-08-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-08-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E9FE-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,15 +177,17 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1051.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1895-08-27">
-            <p xml:space="preserve"><date when="1895-08-27">27/8</date> Mit <rs type="person" xml:id="pNt_10941" ref="#person_19542"><surname>Salten</surname></rs> Bic. über <rs type="place" xml:id="pl_02118" ref="#place_ec3b8f91abd5adbb9fc8134582a34868">Holzkirchen</rs> nach <rs type="place" xml:id="pl_02119" ref="#place_d0a6343a081a7335baa965ce4fd0845c">München</rs>.― Hier Abends 
+            <p xml:space="preserve"><date when="1895-08-27">27/8</date> Mit <rs type="person" xml:id="pNt_10941" ref="#person_19542"><surname>Salten</surname></rs> Bic. über <rs type="place" xml:id="pl_02118" ref="#pmb90905">Holzkirchen</rs> nach <rs type="place" xml:id="pl_02119" ref="#pmb45258">München</rs>.― Hier Abends 
 <rs type="work" xml:id="bibl_22223">Meistersinger</rs>.― Lauter gute Briefe fanden sich vor.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1925-10-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-10-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-10-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1925-10-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-10-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-10-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-144C-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6560.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1925-10-14">
-            <p xml:space="preserve"><date when="1925-10-14">14/10</date> <rs type="place" xml:id="pl_16398" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>. Bei <rs type="pubHouse"><rs type="person" xml:id="pNt_76088" ref="#person_15009"><forename>S.</forename> <surname>Fischer</surname></rs> Verlag</rs>. Gründliche doch herzliche Aussprache mit 
+            <p xml:space="preserve"><date when="1925-10-14">14/10</date> <rs type="place" xml:id="pl_16398" ref="#pmb168">Berlin</rs>. Bei <rs type="pubHouse"><rs type="person" xml:id="pNt_76088" ref="#person_15009"><forename>S.</forename> <surname>Fischer</surname></rs> Verlag</rs>. Gründliche doch herzliche Aussprache mit 
 ihm; werde ihm wohl die <rs type="work" subtype="self" xml:id="bibl_16694">Traumnov.</rs> geben.― <rs type="person" xml:id="pNt_76089" ref="#person_17888"><roleName>Dr.</roleName> <surname>Maril</surname></rs>;― <rs type="person" xml:id="pNt_76090" ref="#person_13659"><roleName>Dr.</roleName> <surname>Bermann</surname></rs>, bis vor 
 kurzem Arzt, jetzt, als künftiger Schwiegersohn, im Verlag.</p>
             <p xml:space="preserve" rend="indent">― Im Esplanade mit <rs type="person" xml:id="pNt_76091" ref="#person_19822"><forename>Heini</forename></rs> und <rs type="person" xml:id="pNt_76092" ref="#person_21298"><forename>Paul</forename> <surname>Wiegler</surname></rs> zu Tisch.―</p>
@@ -194,6 +198,5 @@ Einladung von <rs type="person" xml:id="pNt_76102" ref="#person_16550"><surname>
 vermeiden (was auch in <rs type="person" xml:id="pNt_76103" ref="#person_19822"><forename>Heini’s</forename></rs> Sinn).―)</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

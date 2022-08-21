@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1902-12-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-12-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-12-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1902-12-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-12-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-12-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F3F5-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1752.tif"/>
@@ -181,15 +185,14 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1902-12-27">
-            <p xml:space="preserve"><date when="1902-12-27">27/12</date> Vm. bei <rs type="person" xml:id="pNt_19377" ref="#person_17696"><surname>Lothar</surname></rs> in <rs type="place" xml:id="pl_04174" ref="#place_3962fe91966640892c61d1838300ed1a">St. Veit</rs>, nur das Weib vorräthig; die klug, 
+            <p xml:space="preserve"><date when="1902-12-27">27/12</date> Vm. bei <rs type="person" xml:id="pNt_19377" ref="#person_17696"><surname>Lothar</surname></rs> in <rs type="place" xml:id="pl_04174" ref="#pmb91377">St. Veit</rs>, nur das Weib vorräthig; die klug, 
 aber geradezu unerträglich ist.―</p>
-            <p xml:space="preserve" rend="indent">― Nm. Prof. <rs type="person" xml:id="pNt_19378" ref="#person_16493"><forename>Otto Franz</forename> <surname>Jahn</surname></rs>, <rs type="place" xml:id="pl_04175" ref="#place_0049ed66982b3d5aef681a9d69c9392f">Trautenau</rs>, mit Stück zur 
+            <p xml:space="preserve" rend="indent">― Nm. Prof. <rs type="person" xml:id="pNt_19378" ref="#person_16493"><forename>Otto Franz</forename> <surname>Jahn</surname></rs>, <rs type="place" xml:id="pl_04175" ref="#pmb91930">Trautenau</rs>, mit Stück zur 
 Beurtheilung, was ich aufs Frühjahr verschob.―</p>
             <p xml:space="preserve" rend="indent">Arbeitete (durch einen kurzen Besuch <rs type="person" xml:id="pNt_19379" ref="#person_19832"><forename>O.</forename></rs> unterbrochen die zu 
 <rs type="work" xml:id="bibl_18221">Norma</rs> ging) bis spät Abend ― am <rs type="work" subtype="self" xml:id="bibl_18222">2. Akt</rs> total erfolglos und in 
 bedrückter Stimmung, auch bei <rs type="person" xml:id="pNt_19380" ref="#person_19832"><forename>O.</forename></rs>―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

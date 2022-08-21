@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-05-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-05-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-05-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-05-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-05-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-05-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FFB2-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3147.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1911-05-02">
-            <p xml:space="preserve"><date when="1911-05-02">2/5</date> <rs type="place" xml:id="pl_07463" ref="#place_d0a6343a081a7335baa965ce4fd0845c">München</rs>. Einkauf mit O.―</p>
+            <p xml:space="preserve"><date when="1911-05-02">2/5</date> <rs type="place" xml:id="pl_07463" ref="#pmb45258">München</rs>. Einkauf mit O.―</p>
             <p xml:space="preserve" rend="indent">Mittag mit <rs type="person" xml:id="pNt_35173" ref="#person_15485"><forename>M.</forename> <surname>Gl.</surname></rs> und <rs type="person" xml:id="pNt_35174" ref="#person_20796"><surname>Trebitsch</surname></rs>; zufällig auch <rs type="person" xml:id="pNt_35175" ref="#person_17831"><roleName>Dr.</roleName> <surname>Manheimer</surname></rs>. 
 Später <rs type="person" xml:id="pNt_35176" ref="#person_21050"><surname>Waldau</surname></rs>; <rs type="person" xml:id="pNt_35177" ref="#person_14199"><forename>Gusti</forename> <surname>Gl.</surname></rs></p>
             <p xml:space="preserve" rend="indent">Bei uns im Hotelszimmer <rs type="person" xml:id="pNt_35178" ref="#person_15485"><forename>Mizi</forename></rs> und <rs type="person" xml:id="pNt_35179" ref="#person_14199"><forename>Gusti</forename></rs>.</p>
@@ -194,6 +198,5 @@ hörte wenig.―</p>
             <p xml:space="preserve" rend="indent">Auf die Bahn mit <rs type="person" xml:id="pNt_35186" ref="#person_15485"><forename>M.</forename> <surname>Gl.</surname></rs> Abreise.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

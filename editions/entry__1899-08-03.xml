@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1899-08-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-08-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-08-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1899-08-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-08-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-08-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EF74-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1508.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1899-08-03">
-            <p xml:space="preserve"><date when="1899-08-03">3/8</date> Rad ― <rs type="place" xml:id="pl_03188" ref="#place_81b99b9040b92b2e67e664a52cb4af2c">Prags</rs> ― zu Fuss <rs type="place" xml:id="pl_03189" ref="#place_206f77f4c557f285973ede2a33f1836b">Pragsersee</rs>.―</p>
+            <p xml:space="preserve"><date when="1899-08-03">3/8</date> Rad ― <rs type="place" xml:id="pl_03188" ref="#pmb91526">Prags</rs> ― zu Fuss <rs type="place" xml:id="pl_03189" ref="#pmb91528">Pragsersee</rs>.―</p>
             <p xml:space="preserve" rend="indent">Abd. erschien Frau <rs type="person" xml:id="pNt_16487" ref="#person_13641"><forename>Joh.</forename> <surname>Fr.</surname></rs> und Bruder. Sehr lebhaft.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

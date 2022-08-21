@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-02-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-02-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-02-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-02-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-02-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-02-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1A84-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7443.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1930-02-23">
-            <p xml:space="preserve"><date when="1930-02-23">23/2</date> S. Telef. mit <rs type="person" xml:id="pNt_89069" ref="#person_19832"><forename>O.</forename></rs> sowie <rs type="person" xml:id="pNt_89070" ref="#person_18137"><forename>Dora</forename></rs> (<rs type="place" xml:id="pl_19118" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>).―</p>
+            <p xml:space="preserve"><date when="1930-02-23">23/2</date> S. Telef. mit <rs type="person" xml:id="pNt_89069" ref="#person_19832"><forename>O.</forename></rs> sowie <rs type="person" xml:id="pNt_89070" ref="#person_18137"><forename>Dora</forename></rs> (<rs type="place" xml:id="pl_19118" ref="#pmb168">Berlin</rs>).―</p>
             <p xml:space="preserve" rend="indent">Briefe.― Kleiner Spaziergang mit <rs type="person" xml:id="pNt_89071" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs></p>
             <p xml:space="preserve" rend="indent">― Nm. las ich das Jungemädchentagebuch <rs type="person" xml:id="pNt_89072" ref="#person_14234"><forename>Suz.</forename></rs> weiter.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_89073" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Kino Tonfilmoperette <rs type="work" xml:id="bibl_907">Hochzeit in Hollywood</rs> ― ― von so 
@@ -198,6 +202,5 @@ und ungerecht machen die Thränen einer Frau, die man nicht liebt; und
 die Tragik entwickelt nur „Langeweile“ ―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

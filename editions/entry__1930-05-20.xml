@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-05-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-05-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-05-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-05-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-05-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-05-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1ADA-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7491.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1930-05-20">
-            <p xml:space="preserve"><date when="1930-05-20">20/5</date> Vm. bei <rs type="person" xml:id="pNt_89772" ref="#person_14682"><roleName>Fr. Hofr.</roleName> <surname>Eisenmenger</surname></rs>, aus <rs type="place" xml:id="pl_19249" ref="#place_e884124295d0c4d07d9bcf5096fd5495">Amerika</rs> zurück. (Ihre Detectivarbeit 
+            <p xml:space="preserve"><date when="1930-05-20">20/5</date> Vm. bei <rs type="person" xml:id="pNt_89772" ref="#person_14682"><roleName>Fr. Hofr.</roleName> <surname>Eisenmenger</surname></rs>, aus <rs type="place" xml:id="pl_19249" ref="#pmb43406">Amerika</rs> zurück. (Ihre Detectivarbeit 
 wegen des <rs type="person" xml:id="pNt_89773" ref="#person_17880"><forename>Maria Theresia</forename></rs> Schmuckes.― Zustände dort;― liter.-geschäftliches. 
 Ihre Bemühungen <rs type="work" subtype="self" xml:id="bibl_1051">Kakadu</rs> Tonfilm vergeblich, wegen „communistischer 
 Gefahr“.―)</p>
@@ -193,6 +197,5 @@ Gefahr“.―)</p>
 <rs type="work" xml:id="bibl_1054">Termiten Buch</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

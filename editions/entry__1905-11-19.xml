@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-11-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-11-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-11-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-11-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-11-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-11-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F810-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2154.tif"/>
@@ -180,15 +184,14 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1905-11-19">
-            <p xml:space="preserve"><date when="1905-11-19">19/11</date> <rs type="place" xml:id="pl_05363" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>.― Mittags bei <rs type="person" xml:id="pNt_23863" ref="#person_15306"><surname>Fulda</surname></rs>, wo <rs type="person" xml:id="pNt_23864" ref="#person_13920"><surname>Brandes</surname></rs> (der mich umarmte), 
+            <p xml:space="preserve"><date when="1905-11-19">19/11</date> <rs type="place" xml:id="pl_05363" ref="#pmb168">Berlin</rs>.― Mittags bei <rs type="person" xml:id="pNt_23863" ref="#person_15306"><surname>Fulda</surname></rs>, wo <rs type="person" xml:id="pNt_23864" ref="#person_13920"><surname>Brandes</surname></rs> (der mich umarmte), 
 <rs type="person" xml:id="pNt_23865" ref="#person_13913"><surname>Brahm</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Auf der Reise <rs type="person" xml:id="pNt_23866" ref="#person_20796"><surname>Trebitsch</surname></rs> „<rs type="work" xml:id="bibl_16061">Haus am Abhang</rs>“. Ich glaube, man hat ihm 
 dabei geholfen.―</p>
-            <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_23867" ref="#person_20386"><forename>Liesl</forename></rs>.― (<rs type="place" xml:id="pl_05364" ref="#place_ac0492801e20ab7eea043cf0f7c954e9">Hardenbergstraße</rs> 24.)</p>
+            <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_23867" ref="#person_20386"><forename>Liesl</forename></rs>.― (<rs type="place" xml:id="pl_05364" ref="#pmb51904">Hardenbergstraße</rs> 24.)</p>
             <p xml:space="preserve" rend="indent">Lessingtheater: „<rs type="work" xml:id="bibl_16062">Stein unter Steinen</rs>“ (<rs type="person" xml:id="pNt_23868" ref="#person_20563"><surname>Sudermann</surname></rs>).</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_23869" ref="#person_20383"><surname>Steinrück</surname></rs> bei <rs type="person" xml:id="pNt_23870"><surname>Wedl</surname></rs> genachtm.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

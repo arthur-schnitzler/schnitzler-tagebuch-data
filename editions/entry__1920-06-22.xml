@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-06-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-06-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-06-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1920-06-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-06-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-06-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0CB9-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5126.tif"/>
@@ -182,12 +186,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1920-06-22">
-            <p xml:space="preserve"><date when="1920-06-22">22/6</date> <rs type="place" xml:id="pl_12358" ref="#place_d1bbe5c82af588aa9fd6e5f65d6acab3">Reichenau</rs>. Regentag. Vm. <rs type="place" xml:id="pl_12359" ref="#place_565cf0c58c028d1a982ac11ffc3eb3b9">Arzberg</rs>, <rs type="place" xml:id="pl_12360" ref="#place_5884bac5272bf94a2487941d33f4ddc1">Payerbach</rs>.</p>
+            <p xml:space="preserve"><date when="1920-06-22">22/6</date> <rs type="place" xml:id="pl_12358" ref="#pmb91574">Reichenau</rs>. Regentag. Vm. <rs type="place" xml:id="pl_12359" ref="#pmb92150">Arzberg</rs>, <rs type="place" xml:id="pl_12360" ref="#pmb948">Payerbach</rs>.</p>
             <p xml:space="preserve" rend="indent">Nm. gegen Thalhof, mit <rs type="person" xml:id="pNt_59195" ref="#person_14130"><forename>Lili</forename></rs> und <rs ref="#person_21262" type="person" xml:id="pNt_59196"><forename>Grethe</forename> <surname>W.</surname></rs>;― Scheiterplatz. Erdbeeren, 
 Cyclamen.― <rs ref="#person_21262" type="person" xml:id="pNt_59197"><forename>Grethe</forename> <surname>W.</surname></rs> spielt Laute auf den Holzstämmen und singt dazu. 
 <rs type="person" xml:id="pNt_59198" ref="#person_21259"><forename>Hans</forename> <surname>W.</surname></rs> hat eben maturirt.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

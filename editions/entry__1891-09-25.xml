@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1891-09-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-09-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-09-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1891-09-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-09-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-09-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E46E-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0560.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1891-09-25">
-            <p xml:space="preserve"><date when="1891-09-25">25. 9.</date> ― <rs type="place" xml:id="pl_01229" ref="#place_19ed5f8ceab486afbee6b3ba5c88884d">Dresden</rs>. Dadurch daß ich keinen Brief von <rs type="person" xml:id="pNt_05583" ref="#person_15485"><forename>Mz.</forename></rs> auf der Post 
+            <p xml:space="preserve"><date when="1891-09-25">25. 9.</date> ― <rs type="place" xml:id="pl_01229" ref="#pmb90550">Dresden</rs>. Dadurch daß ich keinen Brief von <rs type="person" xml:id="pNt_05583" ref="#person_15485"><forename>Mz.</forename></rs> auf der Post 
 fand, war mir der Tag ein wenig gestört. Eine ganz leichte, aber doch 
 eben fühlbare Unruhe. Diese vielen ― vielen Stunden ― ich habe keine 
 <pb n="349"/>
@@ -189,9 +193,8 @@ eben fühlbare Unruhe. Diese vielen ― vielen Stunden ― ich habe keine
 Ahnung was sie macht. Mein Vertrauen ist doch nur ein Rausch, nicht 
 ein mildes dauerndes Wohlbehagen.―</p>
             <p xml:space="preserve" rend="indent">Gemäldegallerie ― Spazierfahrt ―</p>
-            <p xml:space="preserve" rend="indent">Nach <rs type="place" xml:id="pl_01230" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.</p>
+            <p xml:space="preserve" rend="indent">Nach <rs type="place" xml:id="pl_01230" ref="#pmb50">Wien</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

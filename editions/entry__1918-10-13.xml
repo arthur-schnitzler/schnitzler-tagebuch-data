@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-10-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-10-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-10-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-10-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-10-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-10-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0A50-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,15 +177,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4719.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4720.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1918-10-13">
-            <p xml:space="preserve"><date when="1918-10-13">13/10</date> S. Spazierg. <rs type="place" xml:id="pl_11277" ref="#place_388686540f35afe7790d134863d92203">Kahlenberg</rs>- und <rs type="place" xml:id="pl_11278" ref="#place_6b7fda82438237e2ea5e1f7ca74eccd9" ana="#exclude">Leopoldsberggegend</rs>. Trüb. Schöner 
+            <p xml:space="preserve"><date when="1918-10-13">13/10</date> S. Spazierg. <rs type="place" xml:id="pl_11277" ref="#pmb574">Kahlenberg</rs>- und <rs type="place" xml:id="pl_11278" ref="#place_6b7fda82438237e2ea5e1f7ca74eccd9" ana="#exclude">Leopoldsberggegend</rs>. Trüb. Schöner 
 Herbstwald. In verhältnismäßig leidlicher Stimmung, so daß ich selbst 
 ein paar Verse zum <rs type="work" subtype="self" xml:id="bibl_5885">Weiher</rs> schreiben konnte.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_54395" ref="#person_19822"><forename>Heini</forename></rs> nach Tisch ein <rs type="work" xml:id="bibl_5886">Brandenburg Concert</rs>.―</p>
@@ -196,5 +201,6 @@ und Bewohner!). <rs type="person" xml:id="pNt_54402" ref="#person_15685"><surnam
 Componisten über <rs type="person" xml:id="pNt_54403" ref="#person_20509"><forename>Rich.</forename> <surname>Strauß</surname></rs> u. a. reden!― Es ist doch immer und 
 überall das gleiche!―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

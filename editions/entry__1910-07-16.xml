@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-07-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-07-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-07-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-07-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-07-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-07-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FE90-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2942.tif"/>
@@ -185,9 +189,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1910-07-16">
-            <p xml:space="preserve"><date when="1910-07-16">16/7</date> Letzte Nacht in der <rs type="place" xml:id="pl_07136" ref="#place_bc3b8ec9cf2c0402110160c09740ce66">Spöttelgasse</rs>. Träume. Verwirrt von <rs type="person" xml:id="pNt_33105" ref="#person_17901"><roleName>Onkel</roleName> 
+            <p xml:space="preserve"><date when="1910-07-16">16/7</date> Letzte Nacht in der <rs type="place" xml:id="pl_07136" ref="#pmb92539">Spöttelgasse</rs>. Träume. Verwirrt von <rs type="person" xml:id="pNt_33105" ref="#person_17901"><roleName>Onkel</roleName> 
 <forename>Felix</forename></rs> und den seinen.</p>
-            <p xml:space="preserve" rend="indent">Dann: Bin in den Gängen des <rs type="place" ref="#place_burgtheater">Burgtheater</rs>s, verirre mich beinah, 
+            <p xml:space="preserve" rend="indent">Dann: Bin in den Gängen des <rs type="place" ref="#pmb14">Burgtheater</rs>s, verirre mich beinah, 
 Probe <rs type="work" subtype="self" xml:id="bibl_11854">Medardus</rs>, ohne mich zu verständigen. Erstes Bild. (Erinnre 
 mich nicht.) Zweites, die Schenkenszene: ein großes Orchester, lauter 
 <pb n="162"/>
@@ -207,7 +211,7 @@ das <rs type="work" subtype="self" xml:id="bibl_11855">W. L.</rs> ein, ich erbli
 Husarenoffiziere im Gelände, es sollte eigentlich heißen: Schöne 
 Aussichten (ohne Witz), freilich, das ist modern, da werden mir die Leute 
 verzeihn, daß es nicht nur lustig. Abgedeckte Drehbühne, bleiben wir? … 
-Fahrt <rs type="place" xml:id="pl_07137" ref="#place_d27d3b2f350d0b313506c77a540e2f3e">Kärntnerstraße</rs>, abgebrochnes Haus, aus einem Fenster, dessen 
+Fahrt <rs type="place" xml:id="pl_07137" ref="#pmb92330">Kärntnerstraße</rs>, abgebrochnes Haus, aus einem Fenster, dessen 
 Aussicht dadurch freigeworden, blickt eine Schreibmaschinistin, ziemlich 
 alt, in blau weiß gestreifter Bluse ―</p>
             <p xml:space="preserve" rend="indent">Im Theater, sparsame Decoration, aha <rs type="person" xml:id="pNt_33113" ref="#person_13913"><surname>Brahm</surname></rs>, bin zuerst auf der Bühne, 
@@ -225,6 +229,5 @@ Commune (nach Berichten des Ingenieurs etc.) ― Bad.― Nachtmahl
 <rs type="person" xml:id="pNt_33121"><surname>Holzer</surname></rs>, im Bett noch in der „<rs type="work" subtype="newspaper" xml:id="bibl_11857">Schaubühne</rs>“.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

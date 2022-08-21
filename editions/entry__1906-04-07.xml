@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-04-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-04-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-04-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1906-04-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-04-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-04-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F89B-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2213.tif"/>
@@ -184,7 +188,7 @@
             <p xml:space="preserve"><date when="1906-04-07">7/4</date> Vm. mit O. Secession.</p>
             <p xml:space="preserve" rend="indent">Nm. mit <rs type="allusively" xml:id="rst_00686">Mama</rs> <rs type="work" xml:id="bibl_14910">7.</rs> <rs type="person" xml:id="pNt_24720" ref="#person_13555"><surname>Beethoven</surname></rs>.</p>
             <p xml:space="preserve" rend="indent">Zu Hause Notizen zum <rs type="work" subtype="self" xml:id="bibl_14911">Roman</rs> 6. Capitel.―</p>
-            <p xml:space="preserve" rend="indent">„<rs type="work" subtype="self" xml:id="bibl_14912">Ritterlichen</rs>“ (<rs type="place" xml:id="pl_05493" ref="#place_e01585f07dba8bd0e6a1e3c2e14bf208">Taormina</rs> 1904) durchgesehen; gute Lustspielelemente ― aber 
+            <p xml:space="preserve" rend="indent">„<rs type="work" subtype="self" xml:id="bibl_14912">Ritterlichen</rs>“ (<rs type="place" xml:id="pl_05493" ref="#pmb906">Taormina</rs> 1904) durchgesehen; gute Lustspielelemente ― aber 
 die Sache als ganzes mir nicht interessant genug, es ernsthaft vorzunehmen. 
 Auch würde man mir den „<rs type="work" xml:id="bibl_14913">Arzt der Ehre</rs>“ von <rs type="person" xml:id="pNt_24721" ref="#person_18233"><surname>Mongré</surname></rs> unter die Nase 
 reiben.―</p>
@@ -199,6 +203,5 @@ Dramatiker mag von Vergangenheiten schwer sein; zukunftsträchtig darf er
 nie und nimmer sein.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

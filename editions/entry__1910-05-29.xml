@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-05-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-05-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-05-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-05-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-05-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-05-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FE60-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,16 +177,18 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2911.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1910-05-29">
-            <p xml:space="preserve"><date when="1910-05-29">29/5</date> <rs type="place" xml:id="pl_07071" ref="#place_f197524aef7e6b2ee8b3196b6ca91c61">Territet</rs> ― <rs type="place" xml:id="pl_07072" ref="#place_2f4d156f29b46c9add9d9337453822fc">Lausanne</rs>. Autofahrt; zu Schiff nach <rs type="place" xml:id="pl_07073" ref="#place_8ca50072cb49f324767a637541931075">Evian</rs> (Hotel de 
-<rs type="place" xml:id="pl_07074" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs>),― <rs type="place" xml:id="pl_07075" ref="#place_83deff89dfe7cf1a8fa68a324f29f21e">Bouveret</rs> ― <rs type="place" xml:id="pl_07076" ref="#place_f197524aef7e6b2ee8b3196b6ca91c61">Territet</rs>. 
+            <p xml:space="preserve"><date when="1910-05-29">29/5</date> <rs type="place" xml:id="pl_07071" ref="#pmb52051">Territet</rs> ― <rs type="place" xml:id="pl_07072" ref="#pmb50004">Lausanne</rs>. Autofahrt; zu Schiff nach <rs type="place" xml:id="pl_07073" ref="#pmb90607">Evian</rs> (Hotel de 
+<rs type="place" xml:id="pl_07074" ref="#pmb182">Paris</rs>),― <rs type="place" xml:id="pl_07075" ref="#pmb90388">Bouveret</rs> ― <rs type="place" xml:id="pl_07076" ref="#pmb52051">Territet</rs>. 
 Kursaal, Restaurant Palmiers.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

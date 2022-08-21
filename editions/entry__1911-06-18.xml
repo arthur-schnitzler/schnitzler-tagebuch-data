@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-06-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-06-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-06-19.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-06-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-06-17.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-06-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FFE1-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,15 +177,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3181.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3182.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1911-06-18">
-            <p xml:space="preserve"><date when="1911-06-18">18/6</date> S. Mit <rs type="person" xml:id="pNt_35560" ref="#person_19822"><forename>Heini</forename></rs> <rs type="place" xml:id="pl_07511" ref="#place_388686540f35afe7790d134863d92203">Kahlenberg</rs> ― Josefsteig ― <rs type="place" xml:id="pl_07512" ref="#place_a3c879a4f19e7987aa5aa1f1b929b0da">Klosterneuburg</rs>. 
+            <p xml:space="preserve"><date when="1911-06-18">18/6</date> S. Mit <rs type="person" xml:id="pNt_35560" ref="#person_19822"><forename>Heini</forename></rs> <rs type="place" xml:id="pl_07511" ref="#pmb574">Kahlenberg</rs> ― Josefsteig ― <rs type="place" xml:id="pl_07512" ref="#pmb865">Klosterneuburg</rs>. 
 <pb n="248"/>
 <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header"><fw n="248" place="top_left" type="pageNum">248</fw> <fw place="top_center"><date type="range">1911: VI 18 ― VI 21</date></fw></tei:fw>
 Himbeerkracherln in der Waldschänke.― War innerlich zuviel mit dem 
@@ -206,5 +211,6 @@ Erlebnisse, Briefe aus dem Publikum.―</p>
 <rs type="person" xml:id="pNt_35577" ref="#person_21109"><forename>Julie</forename></rs>; dann auch <rs type="person" xml:id="pNt_35578" ref="#person_19543"><forename>Otti</forename> <surname>Salten</surname></rs>, <rs type="person" xml:id="pNt_35579" ref="#person_16038"><roleName>Frl.</roleName> <surname>Heim</surname></rs>, <rs type="person" xml:id="pNt_35580" ref="#person_16518"><roleName>Frl.</roleName> <surname>Jarosch</surname></rs> (neu).― <rs type="person" xml:id="pNt_35581" ref="#person_21109"><forename>Julie</forename></rs>, 
 miserabel aussehend, ging bald. (<rs type="person" xml:id="pNt_35582" ref="#person_13359"><forename>Steffi</forename></rs>!) ― Pokerpartie mit <rs type="person" xml:id="pNt_35583"><roleName>Frau</roleName> <surname>B.</surname></rs>, <rs type="person" xml:id="pNt_35584"><surname>Salten</surname></rs>, <rs type="person" xml:id="pNt_35585"><surname>Wassermann</surname></rs>, <rs type="person" xml:id="pNt_35586" ref="#person_19543"><forename>Otti</forename></rs>.― Maibowle.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

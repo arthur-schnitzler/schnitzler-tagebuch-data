@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-03-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-03-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-03-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-03-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-03-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-03-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0267-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3588.tif"/>
@@ -182,13 +186,12 @@
       <body>
          <div type="diary-day" xml:id="entry__1913-03-25">
             <p xml:space="preserve"><date when="1913-03-25">25/3</date> Gespräch über den kommenden Sommer;― leider nur herb. In 
-entsprechender Stimmung spazieren <rs type="place" xml:id="pl_08192" ref="#place_9c457f4107132ccb2d87ebf5e13f0b74">Schafberg</rs> ― <rs type="place" xml:id="pl_08193" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> ― 
-<rs type="place" xml:id="pl_08194" ref="#place_a513bae177c89d12226f343ac5ff1ee3">Salmannsdorf</rs>.―</p>
+entsprechender Stimmung spazieren <rs type="place" xml:id="pl_08192" ref="#pmb59367">Schafberg</rs> ― <rs type="place" xml:id="pl_08193" ref="#pmb169">Pötzleinsdorf</rs> ― 
+<rs type="place" xml:id="pl_08194" ref="#pmb91641">Salmannsdorf</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. einige Besserung. (Berichte von einem Krankenbett!) ―</p>
             <p xml:space="preserve" rend="indent">Las die Briefe an <rs type="allusively" xml:id="rst_01315">Mama</rs> zu Ende.―</p>
             <p xml:space="preserve" rend="indent">Allein zu <rs type="person" xml:id="pNt_40388" ref="#person_19827"><forename>Julius</forename></rs>. <rs type="person" xml:id="pNt_40389" ref="#person_19986"><forename>Gustav</forename></rs>, <rs type="person" xml:id="pNt_40390" ref="#person_16740"><roleName>Dr.</roleName> <surname>Karplus</surname></rs>, <rs type="person" xml:id="pNt_40391" ref="#person_13171"><forename>Hans</forename> <surname>Altmann</surname></rs>.― Politik, Steuern.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

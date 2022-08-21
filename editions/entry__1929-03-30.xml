@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-03-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-03-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-03-31.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-03-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-03-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-03-31.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-193A-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7263.tif"/>
@@ -183,13 +187,12 @@
          <div type="diary-day" xml:id="entry__1929-03-30">
             <p xml:space="preserve"><date when="1929-03-30">30/3</date> Dictirt: Briefe.―</p>
             <p xml:space="preserve" rend="indent">Nm. nichts rechtes.</p>
-            <p xml:space="preserve" rend="indent">Gegen Abend <rs type="person" xml:id="pNt_86380" ref="#person_19141"><roleName>[Mr.]</roleName> <surname>Reinach</surname></rs> (<rs type="place" xml:id="pl_18582" ref="#place_3496da6c1db0a5223edb1fb4c415a154">Mainzer</rs> Familie), lebt <rs type="place" xml:id="pl_18583" ref="#place_f4334fdfa1c728eae375fe781e2e2d9d">Francisco</rs>, erzählt 
-von <rs type="place" xml:id="pl_18584" ref="#place_1ac441036f927b9815ba1137464ee064">Hollywood</rs>, Reichtum, und Elend.</p>
+            <p xml:space="preserve" rend="indent">Gegen Abend <rs type="person" xml:id="pNt_86380" ref="#person_19141"><roleName>[Mr.]</roleName> <surname>Reinach</surname></rs> (<rs type="place" xml:id="pl_18582" ref="#pmb44119">Mainzer</rs> Familie), lebt <rs type="place" xml:id="pl_18583" ref="#pmb38216">Francisco</rs>, erzählt 
+von <rs type="place" xml:id="pl_18584" ref="#pmb38174">Hollywood</rs>, Reichtum, und Elend.</p>
             <p xml:space="preserve" rend="indent">― Mit <rs type="person" xml:id="pNt_86381" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Kino („<rs type="work" xml:id="bibl_237">Champagner</rs>“, <rs type="person" xml:id="pNt_86382" ref="#person_13387"><surname>Balfour</surname></rs>,― <rs type="person" xml:id="pNt_86383" ref="#person_20808"><surname>Trevor</surname></rs>) ― nachher mit 
-ihr <rs type="place" ref="#place_meissl">Meißl</rs> genachtm.―</p>
+ihr <rs type="place" ref="#pmb96">Meißl</rs> genachtm.―</p>
             <p xml:space="preserve" rend="indent">Lese <rs type="work" xml:id="bibl_238">Flamingo</rs> von <rs type="person" xml:id="pNt_86385" ref="#person_13874"><forename>Mary</forename> <surname>Borden</surname></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

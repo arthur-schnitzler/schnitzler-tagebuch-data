@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-12-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-11-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-12-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-12-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-11-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-12-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1755-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6999.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1927-12-01">
-            <p xml:space="preserve"><date when="1927-12-01">1/12</date> <rs type="place" xml:id="pl_17715" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>.― Vm. bei Dr. <rs type="person" xml:id="pNt_82365" ref="#person_15513"><forename>Wenzel</forename> <surname>Goldbaum</surname></rs>. Wegen des Prozesses <rs type="place" xml:id="pl_17716" ref="#place_4a887b8a68acf9b04d9d027bddedb06b">Leipzig</rs>, 
+            <p xml:space="preserve"><date when="1927-12-01">1/12</date> <rs type="place" xml:id="pl_17715" ref="#pmb168">Berlin</rs>.― Vm. bei Dr. <rs type="person" xml:id="pNt_82365" ref="#person_15513"><forename>Wenzel</forename> <surname>Goldbaum</surname></rs>. Wegen des Prozesses <rs type="place" xml:id="pl_17716" ref="#pmb864">Leipzig</rs>, 
 Zahlung der Tant. für <rs type="person" xml:id="pNt_82366" ref="#person_13643"><surname>Bergners</surname></rs> <rs type="work" subtype="self" xml:id="bibl_24887">Else</rs> Vorlesung. Von da aus allgemeines, 
 und mein Vorschlag größerer Action wegen Honorirung der Vorträge, und 
 urheberrechtl. Aenderungen. Wir sprachen uns gut.</p>
@@ -205,6 +209,5 @@ schöpferhaften Lebendigkeiten auch in seinen schwächeren Dramen.―</p>
 Ich war sehr müd.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1902-12-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-12-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-12-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1902-12-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-12-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-12-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F3F1-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,15 +177,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1750.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1751.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1902-12-23">
-            <p xml:space="preserve"><date when="1902-12-23">23/12</date> Vm. spazieren <rs type="place" xml:id="pl_04172" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> ― <rs type="place" xml:id="pl_04173" ref="#place_c79ad839f84019f53250a4e6365359f9">Neuwaldegg</rs>.</p>
+            <p xml:space="preserve"><date when="1902-12-23">23/12</date> Vm. spazieren <rs type="place" xml:id="pl_04172" ref="#pmb169">Pötzleinsdorf</rs> ― <rs type="place" xml:id="pl_04173" ref="#pmb170">Neuwaldegg</rs>.</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_19357" ref="#person_15233"><forename>Osk.</forename> <surname>Friedmann</surname></rs>, wünschte für seinen Bruder <rs type="work" subtype="self" xml:id="bibl_18216">Reigen</rs> zu Weihnachten; 
 ich lieh ihn.― Über <rs type="person" xml:id="pNt_19358" ref="#person_13162"><surname>Altenbergs</surname></rs> Existenz der 8 Uhr Abd. aufsteht, 
 Briefe an Huren schreibt und erklärt, diese seien das höchste der Cultur.</p>
@@ -198,5 +203,6 @@ geschlafen hat.</p>
             <p xml:space="preserve" rend="indent">Ich liebte sie sehr; schämte mich ein wenig der Stimmungen, in 
 denen ich nicht weiss, dass sie mein Glück vorstellt.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

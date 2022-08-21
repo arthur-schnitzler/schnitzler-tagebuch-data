@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1925-06-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-06-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-06-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1925-06-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-06-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-06-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-13DB-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6506.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1925-06-23">
-            <p xml:space="preserve"><date when="1925-06-23">23/6</date> <rs type="place" xml:id="pl_16114" ref="#place_d0a6343a081a7335baa965ce4fd0845c">München</rs>. Schwere Stimmung mit Thränen (immer nur Wirkung von 
-<rs type="place" xml:id="pl_16115" ref="#place_63714a562352ef3ae472da20ed0384c0">Bd.-Bd.</rs> aus).― Abreise. Eine junge Dame im Coupé liest „<rs type="work" subtype="self" xml:id="bibl_16522">Frl. Else</rs>“.</p>
-            <p xml:space="preserve" rend="indent">In <rs type="place" xml:id="pl_16116" ref="#place_1ff97f22292e3d91119e867aadcf511b">Innsbruck</rs> steigt <rs type="person" xml:id="pNt_75348" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> zu mir ein. Anfangs kann sie ihre Verstimmung wegen 
-<rs type="place" xml:id="pl_16117" ref="#place_63714a562352ef3ae472da20ed0384c0">Bd.-Bd.</rs> nicht beherrschen; bald aber besinnt sie sich eines bessern.― <rs type="place" xml:id="pl_16118" ref="#place_e794bd47a0c2b16ef03ce0f8891ad76a">Brenner</rs> als <rs type="place" xml:id="pl_16119" ref="#place_d06a4c9ac44f4e202427917bb2fc3ac0" ana="#exclude">ital.</rs> Grenze.―</p>
-            <p xml:space="preserve" rend="indent">Um 7 Uhr Abd. <rs type="place" xml:id="pl_16120" ref="#place_834e1bca2cb7d2238249e70860ed8ae8">Meran</rs>.― Hotel Savoy.―</p>
+            <p xml:space="preserve"><date when="1925-06-23">23/6</date> <rs type="place" xml:id="pl_16114" ref="#pmb45258">München</rs>. Schwere Stimmung mit Thränen (immer nur Wirkung von 
+<rs type="place" xml:id="pl_16115" ref="#pmb228">Bd.-Bd.</rs> aus).― Abreise. Eine junge Dame im Coupé liest „<rs type="work" subtype="self" xml:id="bibl_16522">Frl. Else</rs>“.</p>
+            <p xml:space="preserve" rend="indent">In <rs type="place" xml:id="pl_16116" ref="#pmb90931">Innsbruck</rs> steigt <rs type="person" xml:id="pNt_75348" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> zu mir ein. Anfangs kann sie ihre Verstimmung wegen 
+<rs type="place" xml:id="pl_16117" ref="#pmb228">Bd.-Bd.</rs> nicht beherrschen; bald aber besinnt sie sich eines bessern.― <rs type="place" xml:id="pl_16118" ref="#pmb608">Brenner</rs> als <rs type="place" xml:id="pl_16119" ref="#place_d06a4c9ac44f4e202427917bb2fc3ac0" ana="#exclude">ital.</rs> Grenze.―</p>
+            <p xml:space="preserve" rend="indent">Um 7 Uhr Abd. <rs type="place" xml:id="pl_16120" ref="#pmb43520">Meran</rs>.― Hotel Savoy.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-06-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-06-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-06-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-06-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-06-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-06-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-198E-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7311.tif"/>
@@ -181,16 +185,15 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1929-06-22">
-            <p xml:space="preserve"><date when="1929-06-22">22/6</date> <rs type="place" xml:id="pl_18724" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs>.― Früh <rs type="person" xml:id="pNt_87045" ref="#person_14745"><roleName>Dr.</roleName> <surname>Ender</surname></rs> bei <rs type="person" xml:id="pNt_87046" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>; der es noch immer nicht 
+            <p xml:space="preserve"><date when="1929-06-22">22/6</date> <rs type="place" xml:id="pl_18724" ref="#pmb91735">Semmering</rs>.― Früh <rs type="person" xml:id="pNt_87045" ref="#person_14745"><roleName>Dr.</roleName> <surname>Ender</surname></rs> bei <rs type="person" xml:id="pNt_87046" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>; der es noch immer nicht 
 gut geht.</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_87047" ref="#person_19704"><roleName>Dr.</roleName> <surname>Schinnerer</surname></rs> auf dem <rs type="place" xml:id="pl_18725" ref="#place_797995abb7274e2eab2059ba02411f0f">Pinkenkogel</rs>. Schutzhaus. Mit dem Wirth über 
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_87047" ref="#person_19704"><roleName>Dr.</roleName> <surname>Schinnerer</surname></rs> auf dem <rs type="place" xml:id="pl_18725" ref="#pmb91482">Pinkenkogel</rs>. Schutzhaus. Mit dem Wirth über 
 die idiotischen behördlichen Verfügungen, wegen der hygien. Anlagen.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_87048" ref="#person_19704"><surname>Sch.</surname></rs> im Hotel gespeist.―</p>
             <p xml:space="preserve" rend="indent">Gegen Abend <rs type="person" xml:id="pNt_87049" ref="#person_14745"><roleName>Dr.</roleName> <surname>Ender</surname></rs> bei <rs type="person" xml:id="pNt_87050" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs></p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_87051" ref="#person_19704"><surname>Sch.</surname></rs> im „Stübl“ genachtm.―</p>
-            <p xml:space="preserve" rend="indent">Feuerwerk (<rs type="place" xml:id="pl_18726" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs> Jubilaeum).</p>
+            <p xml:space="preserve" rend="indent">Feuerwerk (<rs type="place" xml:id="pl_18726" ref="#pmb91735">Semmering</rs> Jubilaeum).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

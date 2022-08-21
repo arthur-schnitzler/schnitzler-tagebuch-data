@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-06-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-06-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-06-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1906-06-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-06-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-06-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F8DB-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,20 +176,22 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2235.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1906-06-10">
-            <p xml:space="preserve"><date when="1906-06-10">10/6</date> S. Vm. mit <rs type="person" xml:id="pNt_25092" ref="#person_15529"><forename>Paul</forename> <surname>Goldmann</surname></rs> <rs type="place" xml:id="pl_05576" ref="#place_c79ad839f84019f53250a4e6365359f9">Neuwaldegg</rs> Park. Er redete dummes Zeug 
+            <p xml:space="preserve"><date when="1906-06-10">10/6</date> S. Vm. mit <rs type="person" xml:id="pNt_25092" ref="#person_15529"><forename>Paul</forename> <surname>Goldmann</surname></rs> <rs type="place" xml:id="pl_05576" ref="#pmb170">Neuwaldegg</rs> Park. Er redete dummes Zeug 
 über Literatur. Im ganzen thut er mir leid. Bei <rs type="allusively" xml:id="rst_00713">Mama</rs> mit ihm, O., und den 
 Neffen und Nichten gespeist.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="allusively" xml:id="rst_00714">Mama</rs> <rs type="work" xml:id="bibl_15028">Es dur Symph.</rs> <rs type="person" xml:id="pNt_25093" ref="#person_18282"><surname>Mozart</surname></rs>.</p>
-            <p xml:space="preserve" rend="indent">Mit O. <rs type="place" xml:id="pl_05577" ref="#place_86a694cf5ce5552ca627cb96b607eccd">Prater</rs> gefahren (<rs type="person" xml:id="pNt_25094" ref="#person_19827"><forename>Julius</forename></rs> Wagen).</p>
+            <p xml:space="preserve" rend="indent">Mit O. <rs type="place" xml:id="pl_05577" ref="#pmb91530">Prater</rs> gefahren (<rs type="person" xml:id="pNt_25094" ref="#person_19827"><forename>Julius</forename></rs> Wagen).</p>
             <p xml:space="preserve" rend="indent">Zu Hause Eintragungen.</p>
             <p xml:space="preserve" rend="indent">Abd. <rs type="person" xml:id="pNt_25095" ref="#person_17958"><forename>Paul</forename> <surname>M.</surname></rs> bei uns.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

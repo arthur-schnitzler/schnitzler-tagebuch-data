@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-05-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-05-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-05-06.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-05-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-05-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-05-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0123-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3391.tif"/>
@@ -183,9 +187,9 @@
       <body>
          <div type="diary-day" xml:id="entry__1912-05-05">
             <p xml:space="preserve"><date when="1912-05-05">5/5</date> S. Früh am <rs type="work" subtype="self" xml:id="bibl_10206">Bernhardi</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Spaziergang <rs type="place" xml:id="pl_07844" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs>, in ziemlich schweren Gedanken.―</p>
+            <p xml:space="preserve" rend="indent">Spaziergang <rs type="place" xml:id="pl_07844" ref="#pmb169">Pötzleinsdorf</rs>, in ziemlich schweren Gedanken.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_10207">Bernhardi</rs>.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_37893" ref="#person_19480"><roleName>Herr</roleName> <surname>Ruttkay</surname></rs> (<rs type="work" subtype="newspaper" xml:id="bibl_10208">Az Est</rs>, <rs type="place" xml:id="pl_07845" ref="#place_9fed5dae86e3030d9be3740efa198659">Budapest</rs>) „interviewt“ mich im Garten. 
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_37893" ref="#person_19480"><roleName>Herr</roleName> <surname>Ruttkay</surname></rs> (<rs type="work" subtype="newspaper" xml:id="bibl_10208">Az Est</rs>, <rs type="place" xml:id="pl_07845" ref="#pmb43471">Budapest</rs>) „interviewt“ mich im Garten. 
 Netter junger Mensch.</p>
             <p xml:space="preserve" rend="indent">― <rs type="person" xml:id="pNt_37894" ref="#person_13913"><surname>Brahm</surname></rs> und Neffe. Olga frägt, was für den Fall dauernder 
 Erkrankung <rs type="person" xml:id="pNt_37895" ref="#person_18235"><surname>Monnards</surname></rs> mit „<rs type="work" subtype="self" xml:id="bibl_10209">Zwischenspiel</rs>“ geschehe. Sie ist (viel mehr 
@@ -195,6 +199,5 @@ ist.― Über das neue Stück, das ich ihm vorlesen werde (<rs type="work" subty
             <p xml:space="preserve" rend="indent">― Nachher ein unerquickliches Reisegespräch mit O., das aber gut endete.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

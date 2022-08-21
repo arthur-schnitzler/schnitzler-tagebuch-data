@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-05-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-05-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-05-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-05-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-05-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-05-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-10CD-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6031.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1923-05-02">
-            <p xml:space="preserve"><date when="1923-05-02">2/5</date> Früh kommt <rs type="person" xml:id="pNt_69297" ref="#person_19822"><forename>Heini</forename></rs> aus <rs type="place" xml:id="pl_14674" ref="#place_2f8cfc13edee95175f630a54177679cf">Preßburg</rs> zurück; wohl und in guter Laune.―</p>
+            <p xml:space="preserve"><date when="1923-05-02">2/5</date> Früh kommt <rs type="person" xml:id="pNt_69297" ref="#person_19822"><forename>Heini</forename></rs> aus <rs type="place" xml:id="pl_14674" ref="#pmb39615">Preßburg</rs> zurück; wohl und in guter Laune.―</p>
             <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_14675" ref="#place_832a56d2d4d566ae5b327150cb1970d7" ana="#exclude">Daen.</rs> Consulat; Visum. Was für bessere Luft,― wenn man in diese 
 Atmosphäre tritt. (Hatte eben das neueste Hakenkreuzlerplakat gelesen;― 
 welch ein niedres Geschmeiß.―)</p>
@@ -195,6 +199,5 @@ und <rs type="person" xml:id="pNt_69299" ref="#person_19823"><forename>Helene</f
 Schöner Frühlingsabend.― <rs type="person" xml:id="pNt_69301" ref="#person_19822"><forename>Heini</forename></rs> spielt <rs type="person" xml:id="pNt_69302" ref="#person_20509"><forename>Rich.</forename> <surname>Strauß</surname></rs> <rs type="work" xml:id="bibl_1804">Don Quixote</rs> vor.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

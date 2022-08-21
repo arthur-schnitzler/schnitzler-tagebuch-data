@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-01-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-01-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-01-06.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-01-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-01-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-01-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F565-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1879.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1904-01-05">
-            <p xml:space="preserve"><date when="1904-01-05">5/1</date> Panorama (<rs type="place" xml:id="pl_04571" ref="#place_673db1ddaf52b7adb7e20072f4e3bf7a">Norwegen</rs> <rs type="person" xml:id="pNt_20594" ref="#person_13197"><surname>Andrée</surname></rs>).―</p>
+            <p xml:space="preserve"><date when="1904-01-05">5/1</date> Panorama (<rs type="place" xml:id="pl_04571" ref="#pmb64465">Norwegen</rs> <rs type="person" xml:id="pNt_20594" ref="#person_13197"><surname>Andrée</surname></rs>).―</p>
             <p xml:space="preserve" rend="indent">An <rs type="person" xml:id="pNt_20595" ref="#person_14473"><surname>Dohnanyi</surname></rs> die <rs type="work" subtype="self" xml:id="bibl_16934">Pantomime</rs> und <rs type="work" subtype="self" xml:id="bibl_16935">Beatrice</rs>.―</p>
             <p xml:space="preserve" rend="indent">An <rs type="person" xml:id="pNt_20596" ref="#person_16646"><surname>Kainz</surname></rs> (der mir in der letzten Zeit hatte seine Sympathie durch <rs type="person" xml:id="pNt_20597" ref="#person_14923"><surname>Feld</surname></rs> 
 ausdrücken lassen) den <rs type="work" subtype="self" xml:id="bibl_16936">Eins. Weg</rs>.</p>
@@ -189,6 +193,5 @@ ausdrücken lassen) den <rs type="work" subtype="self" xml:id="bibl_16936">Eins.
             <p xml:space="preserve" rend="indent"><rs type="work" subtype="self" xml:id="bibl_16937">Journalisten</rs> 3. Akt entworfen.― Bei <rs type="person" xml:id="pNt_20600" ref="#person_15854"><forename>Gisa</forename></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

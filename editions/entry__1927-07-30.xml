@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-07-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-07-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-07-31.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-07-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-07-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-07-31.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-16D9-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6916.tif"/>
@@ -181,14 +185,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1927-07-30">
-            <p xml:space="preserve"><date when="1927-07-30">30/7</date> Vm. Miss <rs type="person" xml:id="pNt_81340" ref="#person_14788"><forename>Ruth J.</forename> <surname>Erichs</surname></rs> <rs type="place" xml:id="pl_17426" ref="#place_87809c954948d8a20507bee3648281b3">New York</rs>, wegen Übersetzungen.</p>
+            <p xml:space="preserve"><date when="1927-07-30">30/7</date> Vm. Miss <rs type="person" xml:id="pNt_81340" ref="#person_14788"><forename>Ruth J.</forename> <surname>Erichs</surname></rs> <rs type="place" xml:id="pl_17426" ref="#pmb44053">New York</rs>, wegen Übersetzungen.</p>
             <p xml:space="preserve" rend="indent">Dict. <rs type="work" subtype="self" xml:id="bibl_24580">Aphoristisches</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. ziemlich vertrödelt.―</p>
-            <p xml:space="preserve" rend="indent">Im <rs type="place" xml:id="pl_17427" ref="#place_a9a988302086229505c21f885134919d">Josefst.</rs> Th. „<rs type="work" xml:id="bibl_24581">Kameliendame</rs>“ mit einer <rs type="place" xml:id="pl_17428" ref="#place_3e59557b630aba415b2b473b86a70e73" ana="#exclude">russ.</rs> Schauspielerin, von 
+            <p xml:space="preserve" rend="indent">Im <rs type="place" xml:id="pl_17427" ref="#pmb58">Josefst.</rs> Th. „<rs type="work" xml:id="bibl_24581">Kameliendame</rs>“ mit einer <rs type="place" xml:id="pl_17428" ref="#place_3e59557b630aba415b2b473b86a70e73" ana="#exclude">russ.</rs> Schauspielerin, von 
 <rs type="person" xml:id="pNt_81341" ref="#person_16355"><surname>Horch</surname></rs> bearbeitet; mit <rs type="person" xml:id="pNt_81342" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> und <rs type="person" xml:id="pNt_81343" ref="#person_18881"><forename>Kolap</forename></rs>, mit denen ich dann auch (im Hahn) 
 nachtm.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

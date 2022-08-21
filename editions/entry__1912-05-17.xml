@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-05-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-05-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-05-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-05-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-05-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-05-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-012F-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3399.tif"/>
@@ -182,15 +186,14 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1912-05-17">
-            <p xml:space="preserve"><date when="1912-05-17">17/5</date> <rs type="place" xml:id="pl_07866" ref="#place_e4d4b19346747823e5636ed1238a7521">Venedig</rs>.― Vm. Regen. Gondel zur Accademia, mit <rs type="person" xml:id="pNt_37997" ref="#person_16770"><surname>Kaufmann</surname></rs>. 
+            <p xml:space="preserve"><date when="1912-05-17">17/5</date> <rs type="place" xml:id="pl_07866" ref="#pmb462">Venedig</rs>.― Vm. Regen. Gondel zur Accademia, mit <rs type="person" xml:id="pNt_37997" ref="#person_16770"><surname>Kaufmann</surname></rs>. 
 Treffen <rs type="person" xml:id="pNt_37998" ref="#person_19273"><surname>Rilke</surname></rs>. Mit ihm über seinen <rs type="work" xml:id="bibl_10231">Laurids Brigge</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. Gondelfahrt Canale, Spaziergang, mit <rs type="person" xml:id="pNt_37999" ref="#person_16770"><surname>Kaufmann</surname></rs>; zu „<rs type="org">Jesurum</rs>“.</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_38001" ref="#person_19784"><roleName>Prof.</roleName> <surname>Schmutzer</surname></rs> und Frau, bei <rs type="place" ref="#place_bonvecchiati">Bonvecchiati</rs> mit ihnen 
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_38001" ref="#person_19784"><roleName>Prof.</roleName> <surname>Schmutzer</surname></rs> und Frau, bei <rs type="place" ref="#pmb92174">Bonvecchiati</rs> mit ihnen 
 genachtmahlt. Sie bringen uns Grüße von Haus, gute Nachrichten von den 
 <rs type="allusively" xml:id="rst_01291">Kindern</rs>; über die Geschenke, Blumen, die bei mir zu Hause stehn.</p>
-            <p xml:space="preserve" rend="indent">Auf den <rs type="place" xml:id="pl_07867" ref="#place_5daafd9ad08609ff9ff5204b4ca5bf01">Markusplatz</rs> (<rs type="institution" xml:id="pNt_38003"><surname>Lavena</surname></rs>).</p>
+            <p xml:space="preserve" rend="indent">Auf den <rs type="place" xml:id="pl_07867" ref="#pmb92388">Markusplatz</rs> (<rs type="institution" xml:id="pNt_38003"><surname>Lavena</surname></rs>).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

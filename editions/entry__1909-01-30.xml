@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-01-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-01-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-01-31.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-01-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-01-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-01-31.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FC7C-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2633.tif"/>
@@ -183,19 +187,18 @@
       <body>
          <div type="diary-day" xml:id="entry__1909-01-30">
             <p xml:space="preserve"><date when="1909-01-30">30/1</date> Vm. spazieren mit <rs type="person" xml:id="pNt_29709" ref="#person_21107"><surname>W.</surname></rs>, <rs type="person" xml:id="pNt_29710" ref="#person_20796"><surname>Tr.</surname></rs>, <rs type="person" xml:id="pNt_29711" ref="#person_20872"><forename>Agnes</forename></rs>, dann fertig gemacht. Nm. wir 
-mit <rs type="person" xml:id="pNt_29712" ref="#person_21107"><surname>Wassermann</surname></rs> und <rs type="person" xml:id="pNt_29713" ref="#person_20796"><surname>Trebitsch</surname></rs> nach <rs type="place" xml:id="pl_06591" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.</p>
+mit <rs type="person" xml:id="pNt_29712" ref="#person_21107"><surname>Wassermann</surname></rs> und <rs type="person" xml:id="pNt_29713" ref="#person_20796"><surname>Trebitsch</surname></rs> nach <rs type="place" xml:id="pl_06591" ref="#pmb50">Wien</rs>.</p>
             <p xml:space="preserve" rend="indent">Oben gelesen <rs type="person" xml:id="pNt_29714" ref="#person_14052"><surname>Bülow</surname></rs> <rs type="work" xml:id="bibl_12371">Briefe</rs> 7. Band; eine schlechte kleine <rs type="person" xml:id="pNt_29715"><surname>Berlioz</surname></rs> 
 <rs type="work" xml:id="bibl_12372">Biographie</rs> (von <rs type="person" xml:id="pNt_29716" ref="#person_19875"><surname>Schrader</surname></rs>); wieder einmal <rs type="person" xml:id="pNt_29717" ref="#person_16165"><surname>Herzls</surname></rs> <rs type="work" xml:id="bibl_12373">Buch der Narrheit</rs>, 
 einiges ― mußte O. Recht geben: es liest sich wie <rs type="person" xml:id="pNt_29718" ref="#person_19986"><surname>Schwarzkopf</surname></rs>. (Die 
 zwei konnten sich nicht leiden.)</p>
-            <p xml:space="preserve" rend="indent">Vorgefunden u. a. Zeitungen aus <rs type="place" xml:id="pl_06592" ref="#place_0bcbcfedf2ef1f96542597b9279fb141">Rom</rs> vom Übersetzer des <rs type="work" subtype="self" xml:id="bibl_12374">Kakadu</rs>, 
+            <p xml:space="preserve" rend="indent">Vorgefunden u. a. Zeitungen aus <rs type="place" xml:id="pl_06592" ref="#pmb445">Rom</rs> vom Übersetzer des <rs type="work" subtype="self" xml:id="bibl_12374">Kakadu</rs>, 
 <rs type="person" xml:id="pNt_29719" ref="#person_20844"><surname>Tutino</surname></rs>. Scheint ganz leeres Haus und sehr schlechte Aufführung 
 gewesen; von den Referaten sind manche überraschend anständig.</p>
-            <p xml:space="preserve" rend="indent">― Neulich in <rs type="place" xml:id="pl_06593" ref="#place_42dc29389d6318f0fe5b21396ce73b22">Turin</rs> fielen „<rs type="work" subtype="self" xml:id="bibl_12375">letzte Masken</rs>“ durch, „<rs type="work" subtype="self" xml:id="bibl_12376">Abschiedssouper</rs>“ 
+            <p xml:space="preserve" rend="indent">― Neulich in <rs type="place" xml:id="pl_06593" ref="#pmb917">Turin</rs> fielen „<rs type="work" subtype="self" xml:id="bibl_12375">letzte Masken</rs>“ durch, „<rs type="work" subtype="self" xml:id="bibl_12376">Abschiedssouper</rs>“ 
 gefiel sehr.―</p>
             <p xml:space="preserve" rend="indent">„<rs type="work" subtype="self" xml:id="bibl_12377">Liebelei</rs>“ und „<rs type="work" subtype="self" xml:id="bibl_12378">Comtesse</rs>“ machen hier weiter volle Häuser.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

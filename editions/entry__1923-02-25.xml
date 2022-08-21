@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-02-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-02-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-02-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-02-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-02-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-02-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-108B-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,14 +177,15 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5981.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1923-02-25">
-            <p xml:space="preserve"><date when="1923-02-25">25/2</date> S. Vm. in grauem Kothwetter mit <rs type="person" xml:id="pNt_68691" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> <rs type="place" xml:id="pl_14575" ref="#place_431168489e6885d4e91ebc5edec7dfb4">Grinzing</rs> (Friedhof, Grab <rs type="person" xml:id="pNt_68692" ref="#person_17786"><surname>Mahlers</surname></rs>) 
+            <p xml:space="preserve"><date when="1923-02-25">25/2</date> S. Vm. in grauem Kothwetter mit <rs type="person" xml:id="pNt_68691" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> <rs type="place" xml:id="pl_14575" ref="#pmb90771">Grinzing</rs> (Friedhof, Grab <rs type="person" xml:id="pNt_68692" ref="#person_17786"><surname>Mahlers</surname></rs>) 
 spazieren. <rs type="person" xml:id="pNt_68693" ref="#person_18748"><forename>Walter</forename></rs> gestern abgereist.― Ihre Zukunftspläne, die vielen Eisen 
 im Feuer.―</p>
             <p xml:space="preserve" rend="indent">Nm. mit <rs type="person" xml:id="pNt_68694" ref="#person_19822"><forename>Heini</forename></rs> <rs type="work" xml:id="bibl_1672">Bläserquintett</rs> <rs type="person" xml:id="pNt_68695" ref="#person_13555"><surname>Beethoven</surname></rs>, <rs type="work" xml:id="bibl_1673">5. Clav. Concert</rs> von <rs type="person" xml:id="pNt_68696" ref="#person_18282"><surname>Mozart</surname></rs>. (Vor 
@@ -191,5 +196,6 @@ ein paar Tagen <rs type="person" xml:id="pNt_68697" ref="#person_18282"><surname
 außerordentliches Werk ― wenn auch keineswegs wie man glaubte ein 
 naturalistisches. Naturalistisch ist es nur im Detail.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

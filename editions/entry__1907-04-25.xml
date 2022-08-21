@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1907-04-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-04-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-04-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1907-04-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-04-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-04-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FA1A-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2369.tif"/>
@@ -180,13 +184,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1907-04-25">
-            <p xml:space="preserve"><date when="1907-04-25">25/4</date> Vm. Panorama (<rs type="place" xml:id="pl_05940" ref="#place_6314044c3803213e9fd3f3ecf8c90d65">Madrid</rs>).―</p>
+            <p xml:space="preserve"><date when="1907-04-25">25/4</date> Vm. Panorama (<rs type="place" xml:id="pl_05940" ref="#pmb914">Madrid</rs>).―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="allusively" xml:id="rst_00832">Mama</rs> Nm. ein <rs type="work" xml:id="bibl_14217">Sextett</rs> von <rs type="person" xml:id="pNt_26764" ref="#person_13555"><surname>Beethoven</surname></rs>.</p>
             <p xml:space="preserve" rend="indent">Nm. dictirt „<rs type="work" subtype="self" xml:id="bibl_14218">Tod des Jungg.</rs>“ zu Ende, Briefe etc.</p>
             <p xml:space="preserve" rend="indent">Abend <rs type="person" xml:id="pNt_26765" ref="#person_15032"><surname>Fleischer</surname></rs> und <rs type="person" xml:id="pNt_26766" ref="#person_17324"><surname>Lantz</surname></rs> da, später <rs type="person" xml:id="pNt_26767" ref="#person_21546"><forename>Mirjam</forename> <surname>Horwitz</surname></rs>.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_26768" ref="#person_15032"><surname>Fleischer</surname></rs> und O. sangen.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

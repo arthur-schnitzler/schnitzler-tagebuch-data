@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1897-09-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-09-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-09-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1897-09-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-09-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-09-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-ECDE-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1372.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1897-09-12">
-            <p xml:space="preserve"><date when="1897-09-12">12/9</date> S.― Vorm. <rs type="place" xml:id="pl_02724" ref="#place_f0ef1fe3f949f690ba52cff060d5229f">M.</rs> Die kleine <rs type="person" xml:id="pNt_14397" ref="#person_15650"><forename>Grethel</forename></rs>, Enkelin der <rs type="person" xml:id="pNt_14398" ref="#person_16850"><roleName>Frau</roleName> <surname>K.</surname></rs> mir 
+            <p xml:space="preserve"><date when="1897-09-12">12/9</date> S.― Vorm. <rs type="place" xml:id="pl_02724" ref="#pmb91217">M.</rs> Die kleine <rs type="person" xml:id="pNt_14397" ref="#person_15650"><forename>Grethel</forename></rs>, Enkelin der <rs type="person" xml:id="pNt_14398" ref="#person_16850"><roleName>Frau</roleName> <surname>K.</surname></rs> mir 
 entgegen.― <rs type="person" xml:id="pNt_14399" ref="#person_15178"><surname>Y.</surname></rs> und <rs type="person" xml:id="pNt_14400" ref="#person_13551"><forename>Richard</forename></rs> Mittag bei uns.―</p>
             <p xml:space="preserve" rend="indent">Mit beiden Abds. „<rs type="work" xml:id="bibl_21688">Blaubart</rs>“. Loge; sie dicht an mir, es war sehr 
 schön, dann <rs type="person" xml:id="pNt_14401"><surname>Tonello</surname></rs>. Ich hab sie sehr lieb.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

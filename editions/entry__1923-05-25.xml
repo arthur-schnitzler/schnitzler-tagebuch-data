@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-05-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-05-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-05-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-05-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-05-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-05-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-10E4-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6051.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1923-05-25">
-            <p xml:space="preserve"><date when="1923-05-25">25/5</date> <rs type="place" xml:id="pl_14759" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>. Vm. Deutsche Bank, wegen Aufstellung etc.; dann <rs type="person" xml:id="pNt_69562"><surname>Fischer</surname></rs>; 
+            <p xml:space="preserve"><date when="1923-05-25">25/5</date> <rs type="place" xml:id="pl_14759" ref="#pmb168">Berlin</rs>. Vm. Deutsche Bank, wegen Aufstellung etc.; dann <rs type="person" xml:id="pNt_69562"><surname>Fischer</surname></rs>; 
 geschäftliches mit ihm und <rs type="person" xml:id="pNt_69563" ref="#person_15643"><surname>Greiner</surname></rs>;― Correctur (<rs type="work" subtype="self" xml:id="bibl_1852">Aphorismen</rs> fürs 
 <rs type="person" xml:id="pNt_69564" ref="#person_13374"><surname>Bahrheft</surname></rs> <rs type="work" subtype="newspaper" xml:id="bibl_1853">N. R.</rs>) bei <rs type="person" xml:id="pNt_69565" ref="#person_16786"><roleName>Dr.</roleName> <surname>Kayser</surname></rs> gelesen. Zu <rs type="person" xml:id="pNt_69566" ref="#person_14730"><roleName>Dr.</roleName> <surname>Eloesser</surname></rs> (Schutzverband) 
 in der Angelegenheit <rs type="person" xml:id="pNt_69567" ref="#person_15957"><surname>Harz</surname></rs>, und <rs type="person" xml:id="pNt_69568"><surname>Rotter</surname></rs>;― zu <rs type="person" xml:id="pNt_69569"><surname>Michaelis</surname></rs>, mit Riesenflieder. 
@@ -201,6 +205,5 @@ Einlage (einen <rs type="person" xml:id="pNt_69576"><surname>Rotterscheck</surna
 <surname>F.s</surname></rs> Bruder).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

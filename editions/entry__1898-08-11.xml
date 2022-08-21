@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1898-08-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-08-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-08-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1898-08-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-08-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-08-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EE2A-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1449.tif"/>
@@ -181,9 +185,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1898-08-11">
-            <p xml:space="preserve"><date when="1898-08-11">11/8</date> Abschied von <rs type="person" xml:id="pNt_15539" ref="#person_19150"><forename>Mz.</forename> <surname>Rh.</surname></rs>― <rs type="place" xml:id="pl_02966" ref="#place_d0a6343a081a7335baa965ce4fd0845c">München</rs> ― <rs type="place" xml:id="pl_02967" ref="#place_aea93afdf4bee7f4b52526ee5f040cea">Basel</rs>. Dort <rs type="person" xml:id="pNt_15540" ref="#person_16293"><forename>Hugo</forename></rs>.</p>
+            <p xml:space="preserve"><date when="1898-08-11">11/8</date> Abschied von <rs type="person" xml:id="pNt_15539" ref="#person_19150"><forename>Mz.</forename> <surname>Rh.</surname></rs>― <rs type="place" xml:id="pl_02966" ref="#pmb45258">München</rs> ― <rs type="place" xml:id="pl_02967" ref="#pmb854">Basel</rs>. Dort <rs type="person" xml:id="pNt_15540" ref="#person_16293"><forename>Hugo</forename></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

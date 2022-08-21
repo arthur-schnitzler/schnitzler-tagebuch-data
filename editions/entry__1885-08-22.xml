@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1885-08-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-08-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-08-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1885-08-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-08-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-08-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DEDB-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0249.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1885-08-22">
-            <p xml:space="preserve"><date when="1885-08-22">22/8</date> Samstag. <rs type="place" xml:id="pl_00471" ref="#place_7ca9b7a978fffe1f2c288963006cc6da">Locarno</rs> (4 Uhr früh) ― Isola Bella (Schiff) Schloss und 
-Garten. Herrlicher Ausblick.― <rs type="place" xml:id="pl_00472" ref="#place_165c895edb0ca302de3b8d0a2039d4b7">Luino</rs> (Schiff) ― <rs type="place" xml:id="pl_00473" ref="#place_cee818e4161f849ae1190eb9ae071bc8">Ponte tresa</rs> (Bahn) ― 
-<rs type="place" xml:id="pl_00474" ref="#place_581df48b4c75f9e166eb77e67725cbd3">Lugano</rs> ― <rs type="place" xml:id="pl_00475" ref="#place_0f634a3c02bc26fc0f0a5702dc124d35">Porlezza</rs> (Schiff) ― <rs type="place" xml:id="pl_00476" ref="#place_9255ac016d7a922a7830cca85ae8f12d">Menaggio</rs> (Schiff). <rs type="person" xml:id="pNt_02326" ref="#person_18280"><roleName>Mr.</roleName> <surname>Moucourt</surname></rs>.</p>
+            <p xml:space="preserve"><date when="1885-08-22">22/8</date> Samstag. <rs type="place" xml:id="pl_00471" ref="#pmb49781">Locarno</rs> (4 Uhr früh) ― Isola Bella (Schiff) Schloss und 
+Garten. Herrlicher Ausblick.― <rs type="place" xml:id="pl_00472" ref="#pmb54223">Luino</rs> (Schiff) ― <rs type="place" xml:id="pl_00473" ref="#pmb91502">Ponte tresa</rs> (Bahn) ― 
+<rs type="place" xml:id="pl_00474" ref="#pmb885">Lugano</rs> ― <rs type="place" xml:id="pl_00475" ref="#pmb91506">Porlezza</rs> (Schiff) ― <rs type="place" xml:id="pl_00476" ref="#pmb91227">Menaggio</rs> (Schiff). <rs type="person" xml:id="pNt_02326" ref="#person_18280"><roleName>Mr.</roleName> <surname>Moucourt</surname></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

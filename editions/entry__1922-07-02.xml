@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-07-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-07-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-07-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-07-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-07-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-07-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0F9D-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5753.tif"/>
@@ -182,7 +186,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1922-07-02">
             <p xml:space="preserve"><date when="1922-07-02">2/7</date> S.― Gestern das <rs type="work" xml:id="bibl_2647"><rs type="work" subtype="self" xml:id="bibl_2648">Reigenbuch</rs></rs> ausgelesen. Ein Document.</p>
-            <p xml:space="preserve" rend="indent">― Spaziere <rs type="place" xml:id="pl_13994" ref="#place_bf303a935ba7bb30e892cb5d0f2ea6ac">Michaelerberg</rs>. Im Nachhauseweg wie öfters <rs type="person" xml:id="pNt_66547" ref="#person_17666"><forename>Siegfried</forename> <surname>Löwy</surname></rs> und 
+            <p xml:space="preserve" rend="indent">― Spaziere <rs type="place" xml:id="pl_13994" ref="#pmb91239">Michaelerberg</rs>. Im Nachhauseweg wie öfters <rs type="person" xml:id="pNt_66547" ref="#person_17666"><forename>Siegfried</forename> <surname>Löwy</surname></rs> und 
 Verleger <rs type="person" xml:id="pNt_66548" ref="#person_21168"><surname>Weinberger</surname></rs>.</p>
             <p xml:space="preserve" rend="indent">Nm. am „<rs type="work" subtype="self" xml:id="bibl_2649">Verf.</rs>“;― hatte öfters die Empfindung, als wärs completer 
 Unsinn. Der schöne Sommernachmittag, die bevorstehende Abreise der Kinder, 
@@ -195,6 +199,5 @@ Augenschmerzen.―</p>
 <rs type="person" xml:id="pNt_66551" ref="#person_19822"><forename>Heini</forename></rs> bewährte sich als tüchtiger Reisemarschall;― Abreise der <rs type="allusively" xml:id="rst_01904">Kinder</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-07-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-07-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-07-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-07-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-07-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-07-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0B6F-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4891.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1919-07-28">
-            <p xml:space="preserve"><date when="1919-07-28">28/7</date> O. fährt nach <rs type="place" xml:id="pl_11781" ref="#place_d1bbe5c82af588aa9fd6e5f65d6acab3">Reichenau</rs> ― Nach Gelderledigung ― nervöser Weinkrampf 
+            <p xml:space="preserve"><date when="1919-07-28">28/7</date> O. fährt nach <rs type="place" xml:id="pl_11781" ref="#pmb91574">Reichenau</rs> ― Nach Gelderledigung ― nervöser Weinkrampf 
 meinerseits. Sie möchte daß ich rede ― Nein. Sie möchte wieder 
 helfen,― spricht von den „Unvergänglichkeiten“.― Ein Brief von <rs type="person" xml:id="pNt_56591" ref="#person_20386"><forename>Liesl</forename></rs>, 
 Bemerkungen über äußere Schwierigkeiten des <rs type="place" xml:id="pl_11782" ref="#place_b831c3aed38a22564ae26fcadf9e38d3" ana="#exclude">Münchner</rs> Concerts;― 
@@ -192,7 +196,7 @@ ganz entgegengesetzten Naturen … („Dieselben dummen Thränen einem
 Fächer ― und mir.“)</p>
             <p xml:space="preserve" rend="indent">Dictirt Briefe, <rs type="work" subtype="self" xml:id="bibl_4967">autob.</rs>―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="work" subtype="self" xml:id="bibl_4968">Tgb.</rs> 1906.―</p>
-            <p xml:space="preserve" rend="indent">Hr. <rs type="person" xml:id="pNt_56593" ref="#person_18817"><forename>Karl</forename> <surname>Pitter</surname></rs>, aus <rs type="place" xml:id="pl_11783" ref="#place_c38ad36647aca0261d667c432a4866bd">Salzburg</rs>, während des Kriegs in <rs type="place" xml:id="pl_11784" ref="#place_5ea5f4002712b1a9a4e292d3c83736b9">Spanien</rs>; wegen 
+            <p xml:space="preserve" rend="indent">Hr. <rs type="person" xml:id="pNt_56593" ref="#person_18817"><forename>Karl</forename> <surname>Pitter</surname></rs>, aus <rs type="place" xml:id="pl_11783" ref="#pmb91649">Salzburg</rs>, während des Kriegs in <rs type="place" xml:id="pl_11784" ref="#pmb388">Spanien</rs>; wegen 
 <pb n="276"/>
 <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header"><fw n="276" place="top_left" type="pageNum">276</fw> <fw place="top_center"><date>1919: VII 28 </date></fw></tei:fw>
 ev. Übersetzungen. Jetzt Hofmeister bei <rs type="person" xml:id="pNt_56594" ref="#person_15294"><roleName>Prinz</roleName> <surname>Fürstenberg</surname></rs>. Erzählt 
@@ -203,6 +207,5 @@ Er ist von seiner Klinik sehr beglückt.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_56596" ref="#person_19822"><forename>Heini</forename></rs> ein <rs type="person" xml:id="pNt_56597" ref="#person_13914"><surname>Brahms</surname></rs> Quint.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

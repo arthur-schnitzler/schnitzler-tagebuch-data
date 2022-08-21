@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1925-08-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-08-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-08-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1925-08-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-08-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-08-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-141C-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6534.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1925-08-27">
-            <p xml:space="preserve"><date when="1925-08-27">27/8</date> <rs type="place" xml:id="pl_16285" ref="#place_cd6d4220663b7d6c67ef78667e8310db">Schuls</rs>. Mit <rs type="person" xml:id="pNt_75728" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> <rs type="place" xml:id="pl_16286" ref="#place_88e34b81a8069a36ab5302affaa050c8">Tarasp</rs>,― <rs type="place" xml:id="pl_16287" ref="#place_f21e076debceae07feb389ecab418b78">Fontana</rs> ― <rs type="place" xml:id="pl_16288" ref="#place_50d6edf3ec27ba74aa562ba4c5e607b8">Vulpera</rs> ― (ganz der gleiche 
+            <p xml:space="preserve"><date when="1925-08-27">27/8</date> <rs type="place" xml:id="pl_16285" ref="#pmb63808">Schuls</rs>. Mit <rs type="person" xml:id="pNt_75728" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> <rs type="place" xml:id="pl_16286" ref="#pmb91871">Tarasp</rs>,― <rs type="place" xml:id="pl_16287" ref="#pmb90645">Fontana</rs> ― <rs type="place" xml:id="pl_16288" ref="#pmb61018">Vulpera</rs> ― (ganz der gleiche 
 Spaziergang wie vor 2 Jahren).―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_16611">Weiher</rs>, dem Ende zu.</p>
             <p xml:space="preserve" rend="indent">Abds. Spaziergang mit <rs type="person" xml:id="pNt_75729" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs></p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1907-05-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-05-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-05-06.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1907-05-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-05-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-05-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FA24-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2373.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1907-05-05">
-            <p xml:space="preserve"><date when="1907-05-05">5/5</date> S. Mit O. und <rs type="person" xml:id="pNt_26817" ref="#person_19822"><forename>Heini</forename></rs> <rs type="place" xml:id="pl_05948" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs>, <rs type="place" xml:id="pl_05949" ref="#place_c79ad839f84019f53250a4e6365359f9">Neuwaldegg</rs>;― <rs type="person" xml:id="pNt_26818" ref="#person_21311"><roleName>Frl.</roleName> <surname>Wiesenhofer</surname></rs>, 
+            <p xml:space="preserve"><date when="1907-05-05">5/5</date> S. Mit O. und <rs type="person" xml:id="pNt_26817" ref="#person_19822"><forename>Heini</forename></rs> <rs type="place" xml:id="pl_05948" ref="#pmb169">Pötzleinsdorf</rs>, <rs type="place" xml:id="pl_05949" ref="#pmb170">Neuwaldegg</rs>;― <rs type="person" xml:id="pNt_26818" ref="#person_21311"><roleName>Frl.</roleName> <surname>Wiesenhofer</surname></rs>, 
 draußen in Stellung, schloss sich an.―</p>
             <p xml:space="preserve" rend="indent">Las Nm. die <rs type="work" subtype="self" xml:id="bibl_14232">Tragikomoedie</rs> durch, habe keine Freude von dem Stück. Würde 
 es ― unter andern Umständen wahrscheinlich fortlegen.―</p>
@@ -191,6 +195,5 @@ Erörterungen über allerlei Dinge der Kunst in ein confuses Reden kommt,
 dem man ziemlich hilflos gegenüber steht.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

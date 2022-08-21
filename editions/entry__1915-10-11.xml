@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-10-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-10-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-10-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1915-10-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-10-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-10-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0607-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,18 +177,19 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4116.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4117.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1915-10-11">
             <p xml:space="preserve"><date when="1915-10-11">11/10</date> Dictirt allerlei, Bücher- und Sitzeversendungen. Den <rs type="person" xml:id="pNt_46484" ref="#person_19755"><surname>Schmidls</surname></rs> 
 ihre Loge gebracht.―</p>
             <p xml:space="preserve" rend="indent">Nm. kommt <rs type="person" xml:id="pNt_46485" ref="#person_20892"><surname>U.</surname></rs> 29 uns ratfragen, wegen ev. Annahme der Vicecommandantenstellung 
-in dem neuen großen Spital bei <rs type="place" xml:id="pl_09629" ref="#place_431168489e6885d4e91ebc5edec7dfb4">Grinzing</rs>; wo er gleich für <rs type="person" xml:id="pNt_46486" ref="#person_13359"><forename>Stephi</forename></rs> eine 
+in dem neuen großen Spital bei <rs type="place" xml:id="pl_09629" ref="#pmb90771">Grinzing</rs>; wo er gleich für <rs type="person" xml:id="pNt_46486" ref="#person_13359"><forename>Stephi</forename></rs> eine 
 Stellung hätte.</p>
             <p xml:space="preserve" rend="indent">Generalprobe „<rs type="work" subtype="self" xml:id="bibl_8373">K. d. W.</rs>“, in einer Parterreloge mit O.― <rs type="person" xml:id="pNt_46487" ref="#person_15529"><forename>Paul</forename> <surname>Goldmann</surname></rs> mit 
 Frau war u. a. drin; ging verlegen grüßend an mir vorüber; während wir 
@@ -198,5 +203,6 @@ bei mir nicht. Himmlisch die <rs type="person" xml:id="pNt_46489" ref="#person_1
 (Direktor). <rs type="person" xml:id="pNt_46491" ref="#person_21059"><surname>Walden</surname></rs> in allen gut, ja famos.― Nachher nur ein paar Worte 
 mit der <rs type="allusively" xml:id="rst_01429">Hofrätin</rs>, und <rs type="person" xml:id="pNt_46492" ref="#person_16449"><forename>Garda</forename></rs>.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-11-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-11-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-11-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1906-11-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-11-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-11-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F987-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2294.tif"/>
@@ -183,7 +187,7 @@
             <p xml:space="preserve"><date when="1906-11-29">29/11</date> Vm. bei <rs type="person" xml:id="pNt_25879" ref="#person_15929"><roleName>Dr.</roleName> <surname>Harpner</surname></rs>, wo auch <rs type="person" xml:id="pNt_25880" ref="#person_14065"><surname>Burckhard</surname></rs>; über die Gründung einer 
 Autorengenossenschaft.―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_25881" ref="#person_20242"><surname>Speidels</surname></rs>, wo auch O. Über ihre ― <rs type="person" xml:id="pNt_25882" ref="#person_20242"><roleName>Fr.</roleName> <surname>Speidels</surname></rs> ― Zukunftsmöglichkeiten; 
-ihr Ruin im <rs type="place" ref="#place_burgtheater">Burgtheater</rs>; <rs type="place" xml:id="pl_05743" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> etc.― Über <rs type="person" xml:id="pNt_25883" ref="#person_20242"><forename>F.</forename> <surname>Sp.s</surname></rs> Roman; er sehr 
+ihr Ruin im <rs type="place" ref="#pmb14">Burgtheater</rs>; <rs type="place" xml:id="pl_05743" ref="#pmb168">Berlin</rs> etc.― Über <rs type="person" xml:id="pNt_25883" ref="#person_20242"><forename>F.</forename> <surname>Sp.s</surname></rs> Roman; er sehr 
 niedergeschlagen über dessen Mißlingen. Ich sagte ihm, dass die guten 
 menschlichen Elemente drin einen neuerlichen Versuch rechtfertigten.―</p>
             <p xml:space="preserve" rend="indent">Nm. (wie meist) Klavier (<rs type="work" xml:id="bibl_15336">verk. Braut</rs>).</p>
@@ -194,6 +198,5 @@ Gedichte sagte.―</p>
 hübsch Clavier (auch <rs type="work" subtype="self" xml:id="bibl_15338">meinen Walzer</rs>).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

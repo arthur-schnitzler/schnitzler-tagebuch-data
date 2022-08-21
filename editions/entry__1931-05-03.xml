@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-05-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-05-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-05-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1931-05-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-05-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-05-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1C35-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,22 +177,24 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7693.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1931-05-03">
             <p xml:space="preserve"><date when="1931-05-03">3/5</date> S.― Tel. mit <rs type="person" xml:id="pNt_92760" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> ―</p>
-            <p xml:space="preserve" rend="indent">mit <rs type="person" xml:id="pNt_92761" ref="#person_19832"><forename>O.</forename></rs> <rs type="place" xml:id="pl_19878" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> ―</p>
+            <p xml:space="preserve" rend="indent">mit <rs type="person" xml:id="pNt_92761" ref="#person_19832"><forename>O.</forename></rs> <rs type="place" xml:id="pl_19878" ref="#pmb168">Berlin</rs> ―</p>
             <p xml:space="preserve" rend="indent">mit <rs type="person" xml:id="pNt_92762" ref="#person_14234"><forename>Suz.</forename></rs> (ihre gestrige Gesellschaft, bis 4 Uhr früh und Langeweile).―</p>
             <p xml:space="preserve" rend="indent">Rosen von <rs type="person" xml:id="pNt_92763" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs>―</p>
-            <p xml:space="preserve" rend="indent">Auto mit <rs type="person" xml:id="pNt_92764" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> ― <rs type="place" xml:id="pl_19879" ref="#place_f31da60292f235984a0cb55466b84b5f">Weidlingbach</rs> ― <rs type="place" xml:id="pl_19880" ref="#place_361000b73d3947c615f058769b32865c">Steinriegl</rs> ― <rs type="place" xml:id="pl_19881" ref="#place_b900112ce988d972bc2d561413e84979">Sofienalpe</rs> ― <rs type="place" xml:id="pl_19882" ref="#place_c79ad839f84019f53250a4e6365359f9">Neuwaldegg</rs> ― 
-<rs type="place" xml:id="pl_19883" ref="#place_a513bae177c89d12226f343ac5ff1ee3">Salmannsdorf</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Auto mit <rs type="person" xml:id="pNt_92764" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> ― <rs type="place" xml:id="pl_19879" ref="#pmb44394">Weidlingbach</rs> ― <rs type="place" xml:id="pl_19880" ref="#pmb49210">Steinriegl</rs> ― <rs type="place" xml:id="pl_19881" ref="#pmb92533">Sofienalpe</rs> ― <rs type="place" xml:id="pl_19882" ref="#pmb170">Neuwaldegg</rs> ― 
+<rs type="place" xml:id="pl_19883" ref="#pmb91641">Salmannsdorf</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. Zeitungen. Mit dem <rs type="work" subtype="self" xml:id="bibl_23731">Roman</rs> beschäftigt.</p>
             <p xml:space="preserve" rend="indent">Abd. mit <rs type="person" xml:id="pNt_92765" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Burgth., <rs type="person" xml:id="pNt_92766" ref="#person_21604"><surname>Zuckmayer</surname></rs> „<rs type="work" xml:id="bibl_23732">Hauptmann von Köpenick</rs>“ gefiel mir 
 sehr.― Mit <rs type="person" xml:id="pNt_92767" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Hotel <rs type="person" xml:id="pNt_92768"><surname>Krant</surname></rs> soup.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

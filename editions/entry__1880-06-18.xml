@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1880-06-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-06-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-06-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1880-06-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-06-17.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-06-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DD76-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0076.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1880-06-18">
-            <p xml:space="preserve"><date when="1880-06-18">18/6</date> Freitag früh.― Gestern Abend war ich en fam. in <rs type="place" xml:id="pl_00107" ref="#place_13e0d56607e09fd9ecc36830a7036add">Heiligenstadt</rs> 
+            <p xml:space="preserve"><date when="1880-06-18">18/6</date> Freitag früh.― Gestern Abend war ich en fam. in <rs type="place" xml:id="pl_00107" ref="#pmb90847">Heiligenstadt</rs> 
 und verbrachte einen lieblichen Abend. Die graziöseste junge Frau, 
 die ich mein Lebtag gesehen, ist <rs type="person" xml:id="pNt_00581" ref="#person_19370"><forename>Ida</forename> <surname>R.</surname></rs> Eine Zigeunermusik spielte 
 zum Tanze und ich drehte mich mit dem liebenswürdigen 
@@ -205,6 +209,5 @@ heitere Minuten und Stunden. Sie werden sich einmal aneinander
 reihen und das wird heißen … eine glückliche Zeit!</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1891-04-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-04-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-04-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1891-04-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-04-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-04-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E3E0-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0525.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1891-04-29">
-            <p xml:space="preserve"><date when="1891-04-29">29. 4.</date> <rs type="person" xml:id="pNt_05229" ref="#person_15485"><forename>Mz.</forename></rs> Nachm. bei mir.― Sie muss nach <rs type="place" xml:id="pl_01059" ref="#place_e33aa4ba5c56cc07714ea6d6520cf548">Brünn</rs>.― in meinen 
+            <p xml:space="preserve"><date when="1891-04-29">29. 4.</date> <rs type="person" xml:id="pNt_05229" ref="#person_15485"><forename>Mz.</forename></rs> Nachm. bei mir.― Sie muss nach <rs type="place" xml:id="pl_01059" ref="#pmb833">Brünn</rs>.― in meinen 
 Schmerz über die neuerliche Trennung mischte sich zweifellos ein 
 Gran Befriedigung.― Der Grund dafür: diese Stunden der 
 Wartenervosität los zu sein, und ich glaube in Ruhe arbeiten zu können.</p>
@@ -198,7 +202,7 @@ weggefallen, es ist mir einfach schrecklich.―</p>
             <p xml:space="preserve" rend="indent">In 2 Monaten ist sie wieder da, auch in der Zwischenzeit kommt 
 sie wohl ein paar Mal ― aber dann die nächste Saison ― von dem was 
 werden soll, gar nicht zu reden.―</p>
-            <p xml:space="preserve" rend="indent">Abds. war ich bei ihr; das erste Mal bei ihr und der alten in <rs type="place" xml:id="pl_01060" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> 
+            <p xml:space="preserve" rend="indent">Abds. war ich bei ihr; das erste Mal bei ihr und der alten in <rs type="place" xml:id="pl_01060" ref="#pmb50">Wien</rs> 
 genachtmahlt. Das leere Zimmer, ärmlich, mit den Koffern und Kisten, 
 schlechter Beleuchtung. Der Alkoven.― Ich fühlte mich ganz behaglich.― 
 Merkwürdiger Weise störten mich die Schatten der Vergangenheit, die 
@@ -212,6 +216,5 @@ empfinde. Und wie glücklich ist man, wenn man diese Lüge wieder
 einmal erpresst hat. (3).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

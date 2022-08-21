@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1892-09-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-09-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-09-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1892-09-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-09-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-09-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E5C3-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,15 +177,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0633.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0634.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1892-09-02">
-            <p xml:space="preserve"><date when="1892-09-02">2. 9.</date> Vorm. mit <rs type="person" xml:id="pNt_06512" ref="#person_19827"><forename>Julius</forename></rs> <rs type="place" xml:id="pl_01327" ref="#place_1e3c7c657544ebb1e32a5a21f37e8121">Ziemnitzwilddnis</rs>.―</p>
+            <p xml:space="preserve"><date when="1892-09-02">2. 9.</date> Vorm. mit <rs type="person" xml:id="pNt_06512" ref="#person_19827"><forename>Julius</forename></rs> <rs type="place" xml:id="pl_01327" ref="#pmb92123">Ziemnitzwilddnis</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. bei <rs type="person" xml:id="pNt_06513" ref="#person_15029"><roleName>Frau</roleName> <surname>Fl.</surname></rs>; vor ihr und <rs ref="#person_20136" type="person" xml:id="pNt_06514"><surname>Singer’s</surname></rs> (Mutter und Tochter) und 
 <rs type="person" xml:id="pNt_06515" ref="#person_13551"><forename>Richard</forename></rs> „<rs type="work" subtype="self" xml:id="bibl_22929">Abschiedsouper</rs>“, „<rs type="work" subtype="self" xml:id="bibl_22930">Weihnachtseink.</rs>“ „<rs type="work" subtype="self" xml:id="bibl_22931">Episode</rs>“ und <rs type="work" subtype="self" xml:id="bibl_22932">Ged.</rs> 
 vorgelesen.― <rs type="person" xml:id="pNt_06516" ref="#person_13391"><forename>Jenny</forename> <surname>S.</surname></rs> kokettes 17j. Mädl, die mit mir kokettirt und 
@@ -191,5 +196,6 @@ sie mich für eine gute Partie hält und 2.) weil sie mich oft mit
 behaupte, sie sehe der <rs type="person" xml:id="pNt_06518" ref="#person_15485"><surname>Gl.</surname></rs> ähnlich.― Abd. Spaziergang. Sie: 
 „Bleiben Sie bei mir“ etc.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

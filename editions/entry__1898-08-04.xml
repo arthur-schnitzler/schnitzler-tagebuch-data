@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1898-08-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-08-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-08-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1898-08-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-08-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-08-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EE23-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1448.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1898-08-04">
-            <p xml:space="preserve"><date when="1898-08-04">4/8</date> Mit <rs type="person" xml:id="pNt_15526" ref="#person_19150"><forename>Mz.</forename> <surname>Rh.</surname></rs> Rad <rs type="place" xml:id="pl_02960" ref="#place_2c831c8c65f3ca4921e2bac87398f74c">Kreuth</rs>; überraschend schön.― Bad Nm.; 
+            <p xml:space="preserve"><date when="1898-08-04">4/8</date> Mit <rs type="person" xml:id="pNt_15526" ref="#person_19150"><forename>Mz.</forename> <surname>Rh.</surname></rs> Rad <rs type="place" xml:id="pl_02960" ref="#pmb64703">Kreuth</rs>; überraschend schön.― Bad Nm.; 
 gegenseitig Besuche.― Abd. Spaziergang; Abd. der alte <rs ref="#person_19147" type="person" xml:id="pNt_15527"><forename>Rh.</forename></rs> von einem 
 Radfahrer niedergestoßen; fast folgenlos.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-10-31.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-10-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-11-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1906-10-31.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-10-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-11-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F96A-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2282.tif"/>
@@ -180,7 +184,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1906-10-31">
-            <p xml:space="preserve"><date when="1906-10-31">31/10</date> Vm. Zahnarzt; Panorama (<rs type="place" xml:id="pl_05714" ref="#place_6c9b800bdc4430ab9ce5519495b58640">Trafoi</rs> etc.) etc.</p>
+            <p xml:space="preserve"><date when="1906-10-31">31/10</date> Vm. Zahnarzt; Panorama (<rs type="place" xml:id="pl_05714" ref="#pmb91918">Trafoi</rs> etc.) etc.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_25734" ref="#person_13551"><forename>Richard</forename></rs> (zufällig) führt O. und mich durch sein neues 
 Haus. Entzückend.</p>
             <p xml:space="preserve" rend="indent">Dann mit O. bei <rs type="person" xml:id="pNt_25735" ref="#person_20242"><surname>Speidels</surname></rs> in der neuen Wohnung; sehr hübsch.</p>
@@ -189,6 +193,5 @@ Haus. Entzückend.</p>
             <p xml:space="preserve" rend="center">November</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

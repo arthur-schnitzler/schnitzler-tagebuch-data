@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-11-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-11-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-11-06.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-11-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-11-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-11-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F802-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2147.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1905-11-05">
-            <p xml:space="preserve"><date when="1905-11-05">5/11</date> S. <rs type="place" xml:id="pl_05355" ref="#place_c12b8d9779a8ad2b240a57b31c979290">Prag</rs>.― Mit <rs type="person" xml:id="pNt_23778" ref="#person_21169"><surname>Weinert</surname></rs> gebummelt. Kleinseite. Paläste.― <rs type="place" xml:id="pl_05356" ref="#place_71c8a2d97fe883539f4e930f56e6097e">Wenzelsplatz</rs>. 
+            <p xml:space="preserve"><date when="1905-11-05">5/11</date> S. <rs type="place" xml:id="pl_05355" ref="#pmb91524">Prag</rs>.― Mit <rs type="person" xml:id="pNt_23778" ref="#person_21169"><surname>Weinert</surname></rs> gebummelt. Kleinseite. Paläste.― <rs type="place" xml:id="pl_05356" ref="#pmb92599">Wenzelsplatz</rs>. 
 Wahlrechtsdemonstrationen. Militärpatrouille, die mich und <rs type="person" xml:id="pNt_23779" ref="#person_20682"><surname>Teweles</surname></rs>, wie wir 
 von <rs type="person" xml:id="pNt_23780"><forename>Alice</forename> <surname>Ziegler-Bondy</surname></rs> weggehen „in die Flucht treibt“.― <rs type="person" xml:id="pNt_23781"><roleName>Herr</roleName> <surname>Ziegler</surname></rs>. 
 Die Kinder.― <rs type="person" xml:id="pNt_23782" ref="#person_21547"><forename>Alice</forename> <surname>Z.</surname></rs> erst heute nach dem zweiten aufgestanden.―</p>
@@ -196,6 +200,5 @@ Production und <rs type="person" xml:id="pNt_23785" ref="#person_15172"><surname
             <p xml:space="preserve" rend="indent">Im dtsch. Casino mit <rs type="person" xml:id="pNt_23787" ref="#person_20682"><surname>Teweles</surname></rs>, <rs type="person" xml:id="pNt_23788" ref="#person_21169"><surname>Weinert</surname></rs>, <rs type="person" xml:id="pNt_23789" ref="#person_19547"><surname>Salus</surname></rs>, <rs type="person" xml:id="pNt_23790" ref="#person_13097"><surname>Adler</surname></rs>, <rs type="person" xml:id="pNt_23791" ref="#person_14875"><surname>Faktor</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

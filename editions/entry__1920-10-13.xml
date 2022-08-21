@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-10-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-10-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-10-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1920-10-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-10-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-10-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0D2A-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,12 +177,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5201.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1920-10-13">
             <p xml:space="preserve"><date when="1920-10-13">13/10</date> Vm. am <rs type="work" subtype="self" xml:id="bibl_4307">Weiher</rs> etc.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_60121" ref="#person_17562"><forename>R.</forename> <surname>L.</surname></rs> zu Tisch. Auf der Terrasse.―</p>
@@ -192,5 +197,6 @@ ihres Gatten Testament;― spricht von dem Wahnsinn in den sie sich gerettet
 habe (vor 15 Jahren).―</p>
             <p xml:space="preserve" rend="indent">Im Concert der <rs type="person" xml:id="pNt_60127" ref="#person_16169"><roleName>Frau</roleName> <surname>Herzog-Thullner</surname></rs>, mit <rs type="person" xml:id="pNt_60128" ref="#person_19832"><forename>O.</forename></rs>―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

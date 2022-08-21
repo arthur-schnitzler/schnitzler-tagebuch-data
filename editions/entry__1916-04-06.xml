@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1916-04-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-04-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-04-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1916-04-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-04-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-04-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-06B9-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4241.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1916-04-06">
-            <p xml:space="preserve"><date when="1916-04-06">6/4</date> Vm. <rs type="place" xml:id="pl_09871" ref="#place_75f2e194839d6ba0e5d4080c211a449a">Dornbacher Park</rs>, Rohrerhütte. Kaum Leute. <rs type="person" xml:id="pNt_47772" ref="#person_19348"><roleName>Dr.</roleName> <surname>Rosanes</surname></rs>, der 
+            <p xml:space="preserve"><date when="1916-04-06">6/4</date> Vm. <rs type="place" xml:id="pl_09871" ref="#pmb176">Dornbacher Park</rs>, Rohrerhütte. Kaum Leute. <rs type="person" xml:id="pNt_47772" ref="#person_19348"><roleName>Dr.</roleName> <surname>Rosanes</surname></rs>, der 
 auch in den Frühling hinein wanderte.―</p>
             <p xml:space="preserve" rend="indent">Nm. das <rs type="work" subtype="self" xml:id="bibl_7310">Tgb.</rs> weiter.― (82, 83.)</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_47773" ref="#person_19822"><forename>Heini</forename></rs> im Tonkünstler Orchester Concert.― (<rs type="person" xml:id="pNt_47774" ref="#person_15702"><surname>Grünfeld</surname></rs> blieb im 
@@ -189,6 +193,5 @@ letzten Satz <rs type="person" xml:id="pNt_47775" ref="#person_18282"><surname>M
 was andres, seit Jahrzehnten) ―)</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

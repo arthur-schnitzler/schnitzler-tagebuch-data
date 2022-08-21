@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-02-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-02-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-02-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-02-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-02-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-02-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F6F4-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2039.tif"/>
@@ -182,7 +186,7 @@
          <div type="diary-day" xml:id="entry__1905-02-07">
             <p xml:space="preserve"><date when="1905-02-07">7/2</date> Vm. Schneider <rs type="person" xml:id="pNt_22421" ref="#person_14981"><surname>Fimpel</surname></rs>, Sanatorium (<rs type="person" xml:id="pNt_22422" ref="#person_17907"><forename>Paul</forename> <surname>Markbreiter</surname></rs>, operirter Cousin), 
 <rs type="person" xml:id="pNt_22423" ref="#person_15369"><surname>Geiringer</surname></rs> (Advokat) den ich erst auf der Straße traf zufällig (über den 
-<rs type="person" xml:id="pNt_22424" ref="#person_18146"><roleName>Dr.</roleName> <surname>Michel</surname></rs>), Panorama (<rs type="place" xml:id="pl_05052" ref="#place_6d25b766c477f95b5f7648fa17ba9bd5">St. Louis</rs>).―</p>
+<rs type="person" xml:id="pNt_22424" ref="#person_18146"><roleName>Dr.</roleName> <surname>Michel</surname></rs>), Panorama (<rs type="place" xml:id="pl_05052" ref="#pmb45739">St. Louis</rs>).―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="allusively" xml:id="rst_00524">Mama</rs> nach Tisch <rs type="work" xml:id="bibl_15508">C moll (dur ?) Quartett</rs> von <rs type="person" xml:id="pNt_22425" ref="#person_14579"><surname>Dvořák</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Am <rs type="work" subtype="self" xml:id="bibl_15509">Roman</rs> weiter.―</p>
             <p xml:space="preserve" rend="indent">Am <rs type="work" subtype="self" xml:id="bibl_15510">Wurstl</rs> (den ich zu Ostern vielleicht in der „<rs type="work" subtype="newspaper" xml:id="bibl_15511">Zeit</rs>“ publicire).</p>
@@ -193,6 +197,5 @@ von <rs type="person" xml:id="pNt_22427" ref="#person_19154"><surname>Reinhardts
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_22430" ref="#person_15755"><surname>Gurschner</surname></rs> schickte das Relief. Gut.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

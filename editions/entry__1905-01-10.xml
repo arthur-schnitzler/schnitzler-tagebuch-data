@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-01-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-01-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-01-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-01-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-01-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-01-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F6D8-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,12 +176,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2023.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1905-01-10">
             <p xml:space="preserve"><date when="1905-01-10">10/1</date> Las Vm. den von <rs type="person" xml:id="pNt_22267" ref="#person_20986"><surname>Vollmoeller</surname></rs> an mich gesandten „<rs type="work" xml:id="bibl_15428">Deutschen Grafen</rs>“ 
 der mich sehr interessirte. (Mscrpt.) ― Traf <rs type="person" xml:id="pNt_22268" ref="#person_19564"><surname>Sandrock</surname></rs>, die eben zu mir 
@@ -188,5 +193,6 @@ erklärte sie, sie möchte die Rolle in einer Matinée spielen.―</p>
             <p xml:space="preserve" rend="indent">Nm. Briefe (<rs type="person" xml:id="pNt_22271" ref="#person_20986"><surname>Vollmoeller</surname></rs> etc.), am <rs type="work" subtype="self" xml:id="bibl_15430">Stück</rs>.―</p>
             <p xml:space="preserve" rend="indent">Vorher mit <rs type="allusively" xml:id="rst_00510">Mama</rs> ein Quartett von <rs type="person" xml:id="pNt_22272" ref="#person_15464"><surname>Glazounow</surname></rs>.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

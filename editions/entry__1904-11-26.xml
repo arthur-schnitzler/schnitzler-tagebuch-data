@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-11-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-11-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-11-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-11-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-11-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-11-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F6AB-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2000.tif"/>
@@ -180,13 +184,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1904-11-26">
-            <p xml:space="preserve"><date when="1904-11-26">26/11</date> Vm. in <rs type="place" xml:id="pl_04987" ref="#place_318e051b87a18bd62b48dc49a3318206">Hütteldorf</rs> bei <rs type="person" xml:id="pNt_22016" ref="#person_20068"><forename>Franz</forename> <surname>Servaes</surname></rs> (<rs type="work" subtype="newspaper" xml:id="bibl_17480">Neue Freie Pr.</rs>).</p>
+            <p xml:space="preserve"><date when="1904-11-26">26/11</date> Vm. in <rs type="place" xml:id="pl_04987" ref="#pmb90913">Hütteldorf</rs> bei <rs type="person" xml:id="pNt_22016" ref="#person_20068"><forename>Franz</forename> <surname>Servaes</surname></rs> (<rs type="work" subtype="newspaper" xml:id="bibl_17480">Neue Freie Pr.</rs>).</p>
             <p xml:space="preserve" rend="indent">― Nm. <rs type="person" xml:id="pNt_22017" ref="#person_14997"><roleName>Herr</roleName> <surname>Fischer</surname></rs> bei mir, Intimes Theater.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_22018"><forename>Annie</forename> <surname>Sikora</surname></rs>, die uns manches vortrug (<rs type="person" xml:id="pNt_22019"><forename>Hilde</forename> <surname>Wangel</surname></rs>, <rs type="work" xml:id="bibl_17481">Mirandolina</rs> etc.) ―</p>
             <p xml:space="preserve" rend="indent">Mit O. Lieder von <rs type="person" xml:id="pNt_22020" ref="#person_21432"><surname>Wolf</surname></rs>, <rs type="person" xml:id="pNt_22021" ref="#person_20519"><surname>Streicher</surname></rs> etc.―</p>
             <p xml:space="preserve" rend="indent">Die <rs type="work" subtype="self" xml:id="bibl_17482">N. E.</rs> wieder vorgenommen.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

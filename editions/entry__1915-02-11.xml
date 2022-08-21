@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-02-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1915-02-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0515-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,17 +177,18 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3984.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3985.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1915-02-11">
             <p xml:space="preserve"><date when="1915-02-11">11/2</date> Vm. bei <rs type="person" xml:id="pNt_44935" ref="#person_19827"><forename>Julius</forename></rs> im Spital. Operationen, Ambulanz. Auch das übrige 
 Elend geht im Krieg weiter,― man vergißt’s manchmal. Die 2 Verwundeten 
-von 11 und 15 Jahren (Brüder, in der Scheune bei <rs type="place" xml:id="pl_09207" ref="#place_9b0d4160fe44c8e36effe4c4ef8b2976">Gorlice</rs>). ― Der 
+von 11 und 15 Jahren (Brüder, in der Scheune bei <rs type="place" xml:id="pl_09207" ref="#pmb90739">Gorlice</rs>). ― Der 
 Freiwillige, seit 5 Monaten (Beckenschuss) bettlägerig,― der seither 
 hofft, mich kennen zu lernen, und zu dem mich <rs type="person" xml:id="pNt_44936" ref="#person_20424"><roleName>Prof.</roleName> <surname>Sternberg</surname></rs> führt.―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_44937" ref="#person_13580"><roleName>Dr.</roleName> <surname>Bendiener</surname></rs>, <rs type="pubHouse">Oest. Verlag</rs>;― über die Herausgabe des „<rs type="work" subtype="self" xml:id="bibl_7915">Geronimo</rs>“.</p>
@@ -194,5 +199,6 @@ sich aufgenommen.― Dann gingen sie, er und sie, ins Theater, er erschien
 im Frack ― ich frage „Wohin?“. Er geheimnisvoll … „Auf eine Soirée.“ 
 ― Es gibt keinen unnaivern Menschen auf der Welt als ihn.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

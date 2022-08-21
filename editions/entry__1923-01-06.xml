@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-01-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-01-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-01-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-01-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-01-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-01-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1059-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5941.tif"/>
@@ -183,7 +187,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1923-01-06">
-            <p xml:space="preserve"><date when="1923-01-06">6/1</date> Traum. Am <rs type="place" xml:id="pl_14482" ref="#place_08ed6a7731de7d063ae87130ed014e03">Donaukanal</rs>, der aber viel breiter ― insbesondre die Ufer 
+            <p xml:space="preserve"><date when="1923-01-06">6/1</date> Traum. Am <rs type="place" xml:id="pl_14482" ref="#pmb90540">Donaukanal</rs>, der aber viel breiter ― insbesondre die Ufer 
 Stadtseite mit allerlei Waren, etc. voll, durch die man sich den Weg bahnen 
 muß; mit <rs type="person" xml:id="pNt_68280" ref="#person_19986"><forename>Gustav</forename></rs> (und <rs type="person" xml:id="pNt_68281" ref="#person_19822"><forename>Heini</forename></rs>?); <rs type="person" xml:id="pNt_68282" ref="#person_19986"><forename>Gustav</forename></rs> hat ein riesiges Schiffsmodell in der 
 Hand; auf dem Deck oder tiefer sind Teller mit Datteln und Obst ― es ist ein 
@@ -204,7 +208,7 @@ auch, allein, in Überzieher, gelbe Handschuhe, bewußt elegant;― wieder in
 die Hall (lauter „<rs type="work" subtype="self" xml:id="bibl_1551">Else</rs>“ Motive) ― da sitzt <rs type="person" xml:id="pNt_68287" ref="#person_19822"><forename>Heini</forename></rs> (oder <rs type="person" xml:id="pNt_68288" ref="#person_19827"><forename>Julius</forename></rs>?) sowie <rs type="person" xml:id="pNt_68289" ref="#person_14130"><forename>Lili</forename></rs>, 
 erwachsen, mit sehr großem Hut (― oder <rs type="person" xml:id="pNt_68290" ref="#person_15854"><forename>Gisa</forename></rs> ― das ganze auch Erinnerung an 
 Reisen mit den <rs type="allusively" xml:id="rst_01968">Eltern</rs>), ich scherze, daß <rs type="person" xml:id="pNt_68291" ref="#person_14130"><forename>Lili</forename></rs> aussieht wie eine <rs type="place" xml:id="pl_14483" ref="#place_5315a714fa6e30028771b64a39ee667c" ana="#exclude">amerikanische</rs> 
-Reisende, aus <rs type="place" xml:id="pl_14484" ref="#place_6d25b766c477f95b5f7648fa17ba9bd5">St. Louis</rs>,― oder <rs type="place" xml:id="pl_14485" ref="#place_7d07b15a160712cc823f7a117fb9b2c1">Massachusetts</rs> ― was ich falsch ausspreche,― 
+Reisende, aus <rs type="place" xml:id="pl_14484" ref="#pmb45739">St. Louis</rs>,― oder <rs type="place" xml:id="pl_14485" ref="#pmb40796">Massachusetts</rs> ― was ich falsch ausspreche,― 
 und von <rs type="person" xml:id="pNt_68292" ref="#person_19822"><forename>Heini</forename></rs> corrigirt werde.</p>
             <p xml:space="preserve" rend="indent">Kurzer Spaziergang.―</p>
             <p xml:space="preserve" rend="indent">Nm. hauptsächlich an der <rs type="work" subtype="self" xml:id="bibl_1552">Doppelnov.</rs>―</p>
@@ -213,6 +217,5 @@ gehn;― manchmal versucht sies ― bis zur Oper, mit einem Wagen zurück.
 Fährt nie Tram.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

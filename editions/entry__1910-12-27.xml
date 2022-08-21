@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-12-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-12-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-12-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-12-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-12-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-12-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FF34-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,19 +177,20 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3066.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3067.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1910-12-27">
             <p xml:space="preserve"><date when="1910-12-27">27/12</date> Vm. dictirt: <rs type="work" subtype="self" xml:id="bibl_12247">Komödiant</rs>, altes aus „<rs type="work" subtype="self" xml:id="bibl_12248">Eins. Weg</rs>“.</p>
             <p xml:space="preserve" rend="indent">― <rs type="person" xml:id="pNt_34305" ref="#person_20242"><surname>Speidels</surname></rs>, mit ihnen zu ihnen hinauf.― Weihnachtsgeschenke, etc.</p>
             <p xml:space="preserve" rend="indent">Nm. weiter am <rs type="work" subtype="self" xml:id="bibl_12249">Komöd.</rs> und vorläufig (ohne viel Hoffnung) abgeschlossen.―</p>
             <p xml:space="preserve" rend="indent">Dr. <rs type="person" xml:id="pNt_34306" ref="#person_14626"><forename>Paul</forename> <surname>Eger</surname></rs>; über <rs type="person" xml:id="pNt_34307" ref="#person_18413"><forename>Angelo</forename> <surname>Neumanns</surname></rs> Tod.― Bevorstehender Cyclus 
-meiner Stücke in <rs type="place" xml:id="pl_07318" ref="#place_c12b8d9779a8ad2b240a57b31c979290">Prag</rs>. 12 Abende ― dabei ohne <rs type="work" subtype="self" xml:id="bibl_12250">Märchen</rs>, <rs type="work" subtype="self" xml:id="bibl_12251">Beatrice</rs>, 
+meiner Stücke in <rs type="place" xml:id="pl_07318" ref="#pmb91524">Prag</rs>. 12 Abende ― dabei ohne <rs type="work" subtype="self" xml:id="bibl_12250">Märchen</rs>, <rs type="work" subtype="self" xml:id="bibl_12251">Beatrice</rs>, 
 <rs type="work" subtype="self" xml:id="bibl_12252">Medardus</rs>, <rs type="work" subtype="self" xml:id="bibl_12253">Weites Land</rs>.―</p>
             <p xml:space="preserve" rend="indent">Ins <rs type="institution" xml:id="pNt_34308"><surname>Pucher</surname></rs>, seit Jahren nicht, wegen <rs type="person" xml:id="pNt_34309"><forename>Hugo</forename></rs>, dem ich für <rs type="person" xml:id="pNt_34310" ref="#person_19154"><surname>Reinhardt</surname></rs> 
 Instructionen wegen <rs type="work" subtype="self" xml:id="bibl_12254">Medardus</rs> gab. Zum Schluß bat er mich, ein wenig 
@@ -201,5 +206,6 @@ befürchtend, <rs type="person" xml:id="pNt_34311" ref="#person_20925"><forename
             <p xml:space="preserve" rend="indent">Mit O. Lieder von <rs type="person" xml:id="pNt_34313" ref="#person_13914"><surname>Brahms</surname></rs> und <rs type="person" xml:id="pNt_34314" ref="#person_21432"><surname>Wolf</surname></rs> neu.―</p>
             <p xml:space="preserve" rend="indent">Lese <rs type="person" xml:id="pNt_34315"><surname>Grillparzer</surname></rs> <rs type="work" xml:id="bibl_12256">Gespräche</rs>, 3. Bd.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

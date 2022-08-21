@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1898-08-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-08-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-08-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1898-08-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-08-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-08-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EE2B-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1449.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1898-08-12">
-            <p xml:space="preserve"><date when="1898-08-12">12/8</date> <rs type="place" xml:id="pl_02968" ref="#place_aea93afdf4bee7f4b52526ee5f040cea">Basel</rs>. Münster, Museum, hist. Mus.― Nm. per Rad ― <rs type="place" xml:id="pl_02969" ref="#place_31bffc37285b6b2998fb3dc3236fc559">Delémont</rs> 
+            <p xml:space="preserve"><date when="1898-08-12">12/8</date> <rs type="place" xml:id="pl_02968" ref="#pmb854">Basel</rs>. Münster, Museum, hist. Mus.― Nm. per Rad ― <rs type="place" xml:id="pl_02969" ref="#pmb90515">Delémont</rs> 
 Gabelbruch meines Rads.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

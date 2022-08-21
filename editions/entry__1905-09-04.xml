@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-09-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-09-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-09-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-09-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-09-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-09-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F7C4-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2120.tif"/>
@@ -180,15 +184,14 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1905-09-04">
-            <p xml:space="preserve"><date when="1905-09-04">4/9</date> Vm. bei <rs type="person" xml:id="pNt_23369" ref="#person_19411"><surname>Rotenstern</surname></rs>; geschäftliches.― Bei <rs type="person" xml:id="pNt_23370"><forename>Grethl</forename></rs>, die nach <rs type="place" xml:id="pl_05299" ref="#place_36660b0099a8fb7694b57edcbb304e09">Abbazia</rs> 
+            <p xml:space="preserve"><date when="1905-09-04">4/9</date> Vm. bei <rs type="person" xml:id="pNt_23369" ref="#person_19411"><surname>Rotenstern</surname></rs>; geschäftliches.― Bei <rs type="person" xml:id="pNt_23370"><forename>Grethl</forename></rs>, die nach <rs type="place" xml:id="pl_05299" ref="#pmb38096">Abbazia</rs> 
 fährt.― <rs type="person" xml:id="pNt_23371" ref="#person_17815"><forename>Alfred</forename></rs> der sich ein Auto gekauft hat.― <rs type="person" xml:id="pNt_23372" ref="#person_17909"><forename>Raoul</forename> <surname>M.’s</surname></rs> Schulden und 
 Schwindeleien. (Hat der <rs type="person" xml:id="pNt_23373" ref="#person_19440"><surname>Roussel</surname></rs> u. a. ihre 16000 Kr. unterschlagen.) ―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_15887">3. Akt</rs>.― Nähert sich.―</p>
             <p xml:space="preserve" rend="indent">Mit O. „<rs type="work" xml:id="bibl_15888">Jugend</rs>“. Debut <rs type="person" xml:id="pNt_23374" ref="#person_18306"><forename>Paula</forename> <surname>Müller</surname></rs>; versprechend.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_23375" ref="#person_15324"><surname>Galafrès</surname></rs> und Mutter neben uns.― <rs type="person" xml:id="pNt_23376" ref="#person_15469"><surname>Glöckner</surname></rs> besucht uns.―</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_23377" ref="#person_19542"><surname>Salten</surname></rs> und Fr. <rs type="place" xml:id="pl_05300" ref="#place_d7f977f9a16210838a0dd6b32f6fb25d">Volksg.</rs> soupirt. <rs type="person" xml:id="pNt_23378"><surname>S.</surname></rs> Antrag nach <rs type="place" xml:id="pl_05301" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>, Chefredaction.</p>
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_23377" ref="#person_19542"><surname>Salten</surname></rs> und Fr. <rs type="place" xml:id="pl_05300" ref="#pmb103">Volksg.</rs> soupirt. <rs type="person" xml:id="pNt_23378"><surname>S.</surname></rs> Antrag nach <rs type="place" xml:id="pl_05301" ref="#pmb168">Berlin</rs>, Chefredaction.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

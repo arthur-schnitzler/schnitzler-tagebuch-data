@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-11-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-11-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-11-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-11-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-11-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-11-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-15D0-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6750.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1926-11-07">
-            <p xml:space="preserve"><date when="1926-11-07">7/11</date> S. Vorm. Mit <rs type="person" xml:id="pNt_78961" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> <rs type="place" xml:id="pl_16992" ref="#place_2f31cd32c95be3538f3d1027d7737c99">Satzberg</rs>; schönes Herbstlicht ―</p>
+            <p xml:space="preserve"><date when="1926-11-07">7/11</date> S. Vorm. Mit <rs type="person" xml:id="pNt_78961" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> <rs type="place" xml:id="pl_16992" ref="#pmb91663">Satzberg</rs>; schönes Herbstlicht ―</p>
             <p xml:space="preserve" rend="indent">Zu Tisch <rs type="person" xml:id="pNt_78962" ref="#person_19832"><forename>O.</forename></rs>; <rs type="person" xml:id="pNt_78963" ref="#person_16362"><forename>Lotte</forename> <surname>Horn</surname></rs>.</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_20543">Diagr.</rs>―</p>
             <p xml:space="preserve" rend="indent">Z. N. <rs type="person" xml:id="pNt_78964" ref="#person_19832"><forename>O.</forename></rs> ― ich begleitete sie zu einem Auto,― nach 10 Minuten kam sie 
@@ -197,6 +201,5 @@ ruhig aber aussichtslos. Um 12 ging <rs type="person" xml:id="pNt_78970" ref="#p
 Geschmacklosigkeit und gelegentlichen Verkitschtheit ― wie viel Talent hat dieser Mensch ― gemessen an 90 Perzent seiner unverschämten und unfruchtbaren „Kritiker“.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

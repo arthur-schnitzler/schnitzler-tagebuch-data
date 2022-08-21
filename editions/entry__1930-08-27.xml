@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-08-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-08-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-08-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-08-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-08-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-08-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1B3D-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7544.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1930-08-27">
-            <p xml:space="preserve"><date when="1930-08-27">27/8</date> <rs type="place" xml:id="pl_19485" ref="#place_07746ef3772ea6e718f5cd3a37681d92">Marienbad</rs>. Frühstück Kurgarten.― Mit <rs type="person" xml:id="pNt_90565" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> zu <rs type="person" xml:id="pNt_90566" ref="#person_16858"><roleName>Dr.</roleName> <surname>Kisch</surname></rs>. Sie 
+            <p xml:space="preserve"><date when="1930-08-27">27/8</date> <rs type="place" xml:id="pl_19485" ref="#pmb91211">Marienbad</rs>. Frühstück Kurgarten.― Mit <rs type="person" xml:id="pNt_90565" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> zu <rs type="person" xml:id="pNt_90566" ref="#person_16858"><roleName>Dr.</roleName> <surname>Kisch</surname></rs>. Sie 
 consultirt ihn (ich warte daneben; die stickende Haushälterin). Er diagn. 
 eigentlich nur „dass sie einen Mord begehn könnte“; verordnet Diät.― 
 Mit mir über mich nur wenig;― keine Kur,― nur „Ruhe“.―</p>
@@ -192,6 +196,5 @@ durchgesehn ― welche Analogien,― nicht nur unter einander.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_90568" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Kino „<rs type="work" xml:id="bibl_1217">der Mädchenhirt</rs>“, mit ihr Teplerhaus genachtm.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

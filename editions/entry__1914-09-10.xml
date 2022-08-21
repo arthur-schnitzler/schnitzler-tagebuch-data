@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-09-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-09-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-09-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-09-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-09-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-09-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-047C-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3876.tif"/>
@@ -185,14 +189,13 @@
             <p xml:space="preserve"><date when="1914-09-10">10/9</date> Vm. <rs type="place" xml:id="pl_08948" ref="#place_cf7d8aac11089afe24b5aa7b15232659" ana="#exclude">Wiedner</rs> Spital; machte mit <rs type="person" xml:id="pNt_44011" ref="#person_19827"><forename>Julius</forename></rs> die Visite. Über hundert 
 Verwundete. Erzählungen einzelner. <rs type="person" xml:id="pNt_44012" ref="#person_19827"><forename>Julius</forename></rs> wirkt ganz einzig als Arzt 
 durch seine Bestimmtheit und Milde.―</p>
-            <p xml:space="preserve" rend="indent">― Neue Schlachten um <rs type="place" xml:id="pl_08949" ref="#place_73712d3d0428c81db13497b943ee8dc6">Lemberg</rs>, und bei <rs type="place" xml:id="pl_08950" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs> beginnen. Bedenkliches 
-(privat) aus <rs type="place" xml:id="pl_08951" ref="#place_e884124295d0c4d07d9bcf5096fd5495">Amerika</rs>, wo die Stimmung auch gegen <rs type="place" xml:id="pl_08952" ref="#place_3c2f8b8c8c43538b25a0327ae84c3f65">Deutschland</rs> sein soll. 
+            <p xml:space="preserve" rend="indent">― Neue Schlachten um <rs type="place" xml:id="pl_08949" ref="#pmb46224">Lemberg</rs>, und bei <rs type="place" xml:id="pl_08950" ref="#pmb182">Paris</rs> beginnen. Bedenkliches 
+(privat) aus <rs type="place" xml:id="pl_08951" ref="#pmb43406">Amerika</rs>, wo die Stimmung auch gegen <rs type="place" xml:id="pl_08952" ref="#pmb151">Deutschland</rs> sein soll. 
 Man möchte verzweifeln …</p>
             <p xml:space="preserve" rend="indent">Las Nm. <rs type="work" xml:id="bibl_8980">Wahrheit und Dichtung</rs> (zum 3.mal) zu Ende ―</p>
             <p xml:space="preserve" rend="indent"><rs ref="#person_19625" type="person" xml:id="pNt_44013"><forename>Vera</forename> <surname>Specht</surname></rs> kam, erzählt von ihren Besuchen im Garnisonspital mit 
 <rs type="person" xml:id="pNt_44014" ref="#person_19090"><roleName>Frau</roleName> <surname>Redlich</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

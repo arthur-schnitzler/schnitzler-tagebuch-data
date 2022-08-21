@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-07-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-07-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-07-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-07-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-07-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-07-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FD20-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2723.tif"/>
@@ -182,10 +186,11 @@
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2726.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2727.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1909-07-13">
             <p xml:space="preserve"><date when="1909-07-13">13/7</date> Wachte 4 Uhr Morgens aus einem überraschend lebhaften Traum 
-auf, den ich gleich flüchtig notirte: Bin zu Hause (<rs type="place" xml:id="pl_06752" ref="#place_811c7ad30c4e603795ef80e0c113ad9e">Frankgasse</rs>?) eine 
+auf, den ich gleich flüchtig notirte: Bin zu Hause (<rs type="place" xml:id="pl_06752" ref="#pmb397">Frankgasse</rs>?) eine 
 Dame <rs type="role" xml:id="pNt_30633"><roleName>Frau</roleName> <surname>Nandow</surname></rs> kommt, mit Brief ihres Gatten, Direktors, wo 
 mein Stück mit ihr in der Hauptrolle (welches Stück?) aufgeführt 
 wurde, aber mißfiel. Ich weise Kritiken vor, daß es nicht so schlimm 
@@ -205,7 +210,7 @@ die Straße weiter, eine Stufe aufwärts und der Bursch ruft „Hoch
 <rs type="person" xml:id="pNt_30643" ref="#person_17731"><surname>Lueger</surname></rs>“. (<rs type="person" xml:id="pNt_30644" ref="#person_20796"><surname>Trebitsch</surname></rs> erzählte gestern von einem Plattenüberfall auf den 
 Dichter <rs type="person" xml:id="pNt_30645" ref="#person_13447"><surname>Bartsch</surname></rs>.) ― Mit <rs type="role" xml:id="pNt_30646"><roleName>Frau</roleName> <surname>Nandow</surname></rs> vor einem Varieté, oder Theater? 
 ― ja richtig noch auf der Straße ich zu ihr: „Sie müssen mir von 
-ihrem Leben erzählen.“ Sie: „Ich bin nach <rs type="place" xml:id="pl_06753" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> Ihretwegen gekommen“. 
+ihrem Leben erzählen.“ Sie: „Ich bin nach <rs type="place" xml:id="pl_06753" ref="#pmb50">Wien</rs> Ihretwegen gekommen“. 
 Ich. „Das ist ein Ende, kein Anfang.“ (Unbewußtes verkehrtes Citat aus <rs type="work" subtype="self" xml:id="bibl_12752">Medardus</rs>.) ―</p>
             <p xml:space="preserve" rend="indent">Im Theater in einer Loge <rs type="person" xml:id="pNt_30647" ref="#person_17448"><surname>Léons</surname></rs> Frau? oder Tochter? (sieht der 
 <rs type="person" xml:id="pNt_30648" ref="#person_16546"><roleName>Frau</roleName> <surname>Jerusalem</surname></rs> im Traum ähnlich), <rs type="role" xml:id="pNt_30649"><roleName>Frau</roleName> <surname>Nandow</surname></rs> wartet im 
@@ -231,8 +236,9 @@ Dame (die ich übrigens nicht sehe) Turnübungen macht, die
 ihm wegen Lebensgefahr und Unsittlichkeit (?) verboten werden.―</p>
             <p xml:space="preserve" rend="indent">Spaziergang. Auf einer Wiese gelegen und zu <rs type="work" subtype="self" xml:id="bibl_12756">Med.</rs> notirt.―</p>
             <p xml:space="preserve" rend="indent">Nm. Streichungen des <rs type="work" subtype="self" xml:id="bibl_12757">Med.</rs> begonnen.</p>
-            <p xml:space="preserve" rend="indent">― Mit O. Spaziergang <rs type="place" xml:id="pl_06754" ref="#place_d1bbe5c82af588aa9fd6e5f65d6acab3">Reichenau</rs>.</p>
+            <p xml:space="preserve" rend="indent">― Mit O. Spaziergang <rs type="place" xml:id="pl_06754" ref="#pmb91574">Reichenau</rs>.</p>
             <p xml:space="preserve" rend="indent">Fortgesetzt schlechtes Wetter.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

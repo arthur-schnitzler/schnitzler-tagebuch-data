@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-03-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-03-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-03-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-03-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-03-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-03-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FF8C-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3130.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1911-03-25">
-            <p xml:space="preserve"><date when="1911-03-25">25/3</date> Regen; mit <rs type="person" xml:id="pNt_34994" ref="#person_19822"><forename>Heini</forename></rs> Historisches Museum der Stadt <rs type="place" xml:id="pl_07400" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.―</p>
+            <p xml:space="preserve"><date when="1911-03-25">25/3</date> Regen; mit <rs type="person" xml:id="pNt_34994" ref="#person_19822"><forename>Heini</forename></rs> Historisches Museum der Stadt <rs type="place" xml:id="pl_07400" ref="#pmb50">Wien</rs>.―</p>
             <p xml:space="preserve" rend="indent">Brief von der <rs type="person" xml:id="pNt_34995" ref="#person_19564"><surname>Sandrock</surname></rs>, der Verzweiflung, dem Verhungern nah; möchte tausend Kronen.―</p>
             <p xml:space="preserve" rend="indent">(Die Briefe der letzten Zeit: von der Schwester <rs type="person" xml:id="pNt_34996" ref="#person_19150"><forename>M.</forename> <surname>R.s</surname></rs>, von <rs type="person" xml:id="pNt_34997" ref="#person_14734"><forename>M.</forename> <surname>E.</surname></rs>, ― 
 von der Schwester <rs type="person" xml:id="pNt_34998" ref="#person_15485"><forename>M.</forename> <surname>G.s</surname></rs> und nun von der <rs type="person" xml:id="pNt_34999" ref="#person_19564"><surname>Sandrock</surname></rs>!) ―</p>
@@ -198,6 +202,5 @@ dahin ist,― verdanken wir unser schönes Haus ― und seine Wittwe
 wahrscheinlich ihr letztes Liebesglück.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

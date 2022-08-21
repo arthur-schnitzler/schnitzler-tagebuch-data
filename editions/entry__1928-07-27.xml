@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-07-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-07-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-07-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-07-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-07-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-07-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1844-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7132.tif"/>
@@ -182,9 +186,9 @@
       <body>
          <div type="diary-day" xml:id="entry__1928-07-27">
             <p xml:space="preserve"><date when="1928-07-27">27/7</date> Mit <rs type="person" xml:id="pNt_84311" ref="#person_18881"><forename>Kolap</forename></rs> Bristol wo auch <rs type="person" xml:id="pNt_84312" ref="#person_19802"><forename>Ditta</forename> <surname>Schn.</surname></rs> und <rs type="person" xml:id="pNt_84313" ref="#person_13730"><surname>Billiter</surname></rs>.― <rs type="person" xml:id="pNt_84314" ref="#person_18881"><forename>Kolap</forename></rs> 
-und <rs type="person" xml:id="pNt_84315" ref="#person_19802"><forename>Ditta</forename> <surname>Schn.</surname></rs> mit mir Flugplatz.― Dort schon <rs type="person" xml:id="pNt_84316" ref="#person_19832"><forename>O.</forename></rs>, die aus <rs type="place" xml:id="pl_18138" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> 
+und <rs type="person" xml:id="pNt_84315" ref="#person_19802"><forename>Ditta</forename> <surname>Schn.</surname></rs> mit mir Flugplatz.― Dort schon <rs type="person" xml:id="pNt_84316" ref="#person_19832"><forename>O.</forename></rs>, die aus <rs type="place" xml:id="pl_18138" ref="#pmb168">Berlin</rs> 
 hergeflogen.</p>
-            <p xml:space="preserve" rend="indent">Hoffnungsloser Flug nach <rs type="place" xml:id="pl_18139" ref="#place_e4d4b19346747823e5636ed1238a7521">Venedig</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Hoffnungsloser Flug nach <rs type="place" xml:id="pl_18139" ref="#pmb462">Venedig</rs>.―</p>
             <p xml:space="preserve" rend="indent">Dort am Flugplatz <rs type="person" xml:id="pNt_84317" ref="#person_14129"><forename>Arnoldo</forename></rs> ― wir wissen alles (hatten es gewußt). „Un 
 coup de pistolet …“ Gestern Abend um ½11 war sie schon 
 hinüber.―</p>
@@ -195,6 +199,5 @@ Garten des Hotel Brit., erzählt mir den Hergang.―</p>
             <p xml:space="preserve" rend="indent">Wir nachtm. alle 3, auf der Terrasse des Rest. Toscana.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-05-31.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-05-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-06-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-05-31.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-05-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-06-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-09C9-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,12 +177,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4645.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1918-05-31">
             <p xml:space="preserve"><date when="1918-05-31">31/5</date> Vm. beim Zahnarzt.― Dictirt „<rs type="work" subtype="self" xml:id="bibl_5612">Sohn</rs>“.―</p>
             <p xml:space="preserve" rend="indent">Nm. brachte mir <rs type="person" xml:id="pNt_53341" ref="#person_13551"><forename>Richard</forename></rs> <rs type="work" xml:id="bibl_5613">Jaákobs Traum</rs>. Gespräch über seine Kinder mit 
@@ -199,5 +204,6 @@ es nur ein Mensch höchsten Ranges schreiben konnte, der nebstbei ―
 wieder ein Beweis seiner Außerordentlichkeit,― ohne im „wesentlichen“ 
 ein „Dichter“ zu sein ― ein großer Dichter ist!―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

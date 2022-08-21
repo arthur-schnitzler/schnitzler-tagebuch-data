@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-04-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-04-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-04-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-04-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-04-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-04-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-027C-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3600.tif"/>
@@ -185,7 +189,7 @@
             <p xml:space="preserve"><date when="1913-04-15">15/4</date> Mit O. und <rs type="person" xml:id="pNt_40531" ref="#person_16770"><forename>A.</forename> <surname>Kaufmann</surname></rs> zum Juwelier <rs type="person" xml:id="pNt_40532" ref="#person_16423"><surname>Hutter</surname></rs>, ihm die Occasionsperlen 
 zur Schätzung vorlegen. Er fand 3.500 zu viel; ebenso der später 
 befragte <rs type="person" xml:id="pNt_40533" ref="#person_15015"><surname>Fischmeister</surname></rs>.</p>
-            <p xml:space="preserve" rend="indent">Innre Erbitterung, wegen O.s Idee, der <rs type="person" xml:id="pNt_40534" ref="#person_21447"><roleName>Frau</roleName> <surname>Wolff</surname></rs> in <rs type="place" xml:id="pl_08211" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> vorzusingen, 
+            <p xml:space="preserve" rend="indent">Innre Erbitterung, wegen O.s Idee, der <rs type="person" xml:id="pNt_40534" ref="#person_21447"><roleName>Frau</roleName> <surname>Wolff</surname></rs> in <rs type="place" xml:id="pl_08211" ref="#pmb168">Berlin</rs> vorzusingen, 
 deshalb ev. hinzureisen. Ich fühle wohl, wie sich nun diese Dinge in 
 mir oft zum krankhaften steigern und wie ich O.s Fehler (der bedenklichste: 
 Beeinflußbarkeit) durch meine hypochondrische Art, sie zu betrachten, 
@@ -194,6 +198,5 @@ weiss ich, dass, wohin immer unsre Beziehungen hinlaufen werden, nicht
 bei mir die Schuld gelegen sein wird.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

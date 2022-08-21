@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-01-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-01-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-01-31.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-01-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-01-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-01-31.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1624-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,20 +177,22 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6801.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1927-01-30">
             <p xml:space="preserve"><date when="1927-01-30">30/1</date> S.― Vm. mit <rs type="person" xml:id="pNt_79678" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Spazierg. Krapfenwaldl ― Cobenzl.―</p>
             <p xml:space="preserve" rend="indent">Nm. an „<rs type="work" subtype="self" xml:id="bibl_24109">Therese</rs>“.― Üble Stimmung in Hinsicht auf den Roman.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_79679" ref="#person_19832"><forename>O.</forename></rs> kam;― drückte meine Mißstimmung über den Roman aus;― die materielle 
 Notwendigkeit ihn zu vollenden. Die Schwierigkeiten und Sorgen hinsichtlich 
-<rs type="place" xml:id="pl_17102" ref="#place_e4d4b19346747823e5636ed1238a7521">Venedig</rs>; des Sommers, der Geldausgaben … Fühle dabei immer das mangelnde 
+<rs type="place" xml:id="pl_17102" ref="#pmb462">Venedig</rs>; des Sommers, der Geldausgaben … Fühle dabei immer das mangelnde 
 letzte Verständnis das <rs type="person" xml:id="pNt_79680" ref="#person_19832"><forename>O.</forename></rs> dem Ernst der Lage entgegenbringt. Das Gespräch 
 mühselig und fremd; wir waren beide froh als <rs type="person" xml:id="pNt_79681" ref="#person_14130"><forename>Lili</forename></rs> kam.― Sie nachtm. hier.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

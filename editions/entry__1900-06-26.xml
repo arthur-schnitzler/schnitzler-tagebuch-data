@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1900-06-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-06-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-06-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1900-06-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-06-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-06-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F0AA-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -162,7 +166,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1572.tif"/>
@@ -170,10 +174,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1900-06-26">
-            <p xml:space="preserve"><date when="1900-06-26">26/6</date> Abd. mit <rs type="person" xml:id="pNt_17189" ref="#person_14213"><forename>Hel.</forename> <surname>Ch.</surname></rs>, später <rs type="person" xml:id="pNt_17190" ref="#person_21214"><forename>Fifi</forename></rs>. Café <rs type="place" xml:id="pl_03447" ref="#place_9276bb03d04ad0aaf2a8b8c9560ada31">Hernals</rs>, Wagen nach Haus.
+            <p xml:space="preserve"><date when="1900-06-26">26/6</date> Abd. mit <rs type="person" xml:id="pNt_17189" ref="#person_14213"><forename>Hel.</forename> <surname>Ch.</surname></rs>, später <rs type="person" xml:id="pNt_17190" ref="#person_21214"><forename>Fifi</forename></rs>. Café <rs type="place" xml:id="pl_03447" ref="#pmb67">Hernals</rs>, Wagen nach Haus.
 <rs type="person" xml:id="pNt_17191" ref="#person_14213"><forename>Hel.</forename></rs></p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

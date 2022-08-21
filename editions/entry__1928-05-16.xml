@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-05-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-05-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-05-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-05-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-05-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-05-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-17FC-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,26 +177,28 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7089.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7090.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1928-05-16">
             <p xml:space="preserve"><date when="1928-05-16">16/5</date> Vm. Besorgungen.</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_83723" ref="#person_17562"><forename>R.</forename> <surname>L.</surname></rs> Behandlung.― Sie blieb zu Tisch. Ihr Gatte ist in <rs type="place" xml:id="pl_17975" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> 
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_83723" ref="#person_17562"><forename>R.</forename> <surname>L.</surname></rs> Behandlung.― Sie blieb zu Tisch. Ihr Gatte ist in <rs type="place" xml:id="pl_17975" ref="#pmb50">Wien</rs> 
 (vermutlich zur Scheidung).</p>
             <p xml:space="preserve" rend="indent">Nm. wieder so gut wie nichts.―</p>
             <p xml:space="preserve" rend="indent">Hofr. Dr. <rs type="person" xml:id="pNt_83724" ref="#person_16134"><forename>Friedr.</forename> <surname>Hertz</surname></rs> besucht mich. Anfangs schleppende Unterhaltung 
 (seine Stellung;― <rs type="person" xml:id="pNt_83725" ref="#person_19190"><surname>Renner</surname></rs>, der ihn ins Bundeskanzleramt gebracht.― 
 <rs type="person" xml:id="pNt_83726" ref="#person_20038"><surname>Seipel</surname></rs> jetzt sein Chef. Sein halbamtlicher Verkehr mit <rs type="place" xml:id="pl_17976" ref="#place_a0edf2027dba611b2917924dd24a3203" ana="#exclude">Amerikanern</rs> 
-etc. Communismus, <rs type="place" xml:id="pl_17977" ref="#place_65f7b8e17e93bc2a87843d99e82c08a5">Rußland</rs>); dann (wobei es anregender wurde) 
+etc. Communismus, <rs type="place" xml:id="pl_17977" ref="#pmb34438">Rußland</rs>); dann (wobei es anregender wurde) 
 geschichtliches (<rs type="person" xml:id="pNt_83727" ref="#person_20246"><surname>Spengler</surname></rs>, <rs type="person" xml:id="pNt_83728" ref="#person_15423"><surname>Gibbon</surname></rs>, etc.) ―</p>
             <p xml:space="preserve" rend="indent">Z. N. bei <rs type="person" xml:id="pNt_83729" ref="#person_19756"><forename>Paula</forename> <surname>Schmidl</surname></rs>. Allein dort;― etwas flau ― n. d. N. 
 spielten wir (sie Violine) eine <rs type="person" xml:id="pNt_83730" ref="#person_15835"><surname>Haendel</surname></rs>, eine <rs type="person" xml:id="pNt_83731" ref="#person_18282"><surname>Mozart</surname></rs> eine 
 <rs type="person" xml:id="pNt_83732" ref="#person_20979"><surname>Vivaldi</surname></rs>, eine <rs type="person" xml:id="pNt_83733" ref="#person_13344"><surname>Bach</surname></rs> Sonate.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

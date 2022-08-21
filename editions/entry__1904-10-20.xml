@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-10-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-10-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-10-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-10-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-10-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-10-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F686-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,12 +176,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1983.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1904-10-20">
             <p xml:space="preserve"><date when="1904-10-20">20/10</date> Vm. an <rs type="person" xml:id="pNt_21743" ref="#person_19154"><surname>Reinhardt</surname></rs> ziemlich zustimmend telegrafirt.―</p>
             <p xml:space="preserve" rend="indent">Dictirt <rs type="work" subtype="self" xml:id="bibl_17363">N. E.</rs> 2. Akt Schluss.― Skizze zum <rs type="work" subtype="self" xml:id="bibl_17364"><rs type="person" xml:id="pNt_21744" ref="#person_17298"><forename>Marie</forename> <surname>Lang</surname></rs> Stück</rs>.―</p>
@@ -185,5 +190,6 @@
 über den <rs type="work" subtype="self" xml:id="bibl_17366">Einakterabend</rs>.―</p>
             <p xml:space="preserve" rend="indent">Oper, <rs type="work" xml:id="bibl_17367">Figaro</rs>, mit O.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

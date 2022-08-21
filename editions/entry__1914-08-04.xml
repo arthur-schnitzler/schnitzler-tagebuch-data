@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-08-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-08-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-08-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-08-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-08-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-08-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0457-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,15 +177,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3862.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3863.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1914-08-04">
-            <p xml:space="preserve"><date when="1914-08-04">4/8</date> Mit <rs type="person" xml:id="pNt_43860" ref="#person_19822"><forename>Heini</forename></rs> nach <rs type="place" xml:id="pl_08861" ref="#place_51c7c0e8bc877f41a415a8e7efedd068">St. Moritz</rs> (oberer <rs type="place" xml:id="pl_08862" ref="#place_e8fed098cf1db2870fb1451f2af25311" ana="#exclude">Innschluchtweg</rs>).― <rs type="person" xml:id="pNt_43861" ref="#person_19468"><roleName>Dr.</roleName> <surname>Rundt</surname></rs>; er 
+            <p xml:space="preserve"><date when="1914-08-04">4/8</date> Mit <rs type="person" xml:id="pNt_43860" ref="#person_19822"><forename>Heini</forename></rs> nach <rs type="place" xml:id="pl_08861" ref="#pmb44374">St. Moritz</rs> (oberer <rs type="place" xml:id="pl_08862" ref="#place_e8fed098cf1db2870fb1451f2af25311" ana="#exclude">Innschluchtweg</rs>).― <rs type="person" xml:id="pNt_43861" ref="#person_19468"><roleName>Dr.</roleName> <surname>Rundt</surname></rs>; er 
 zeigt mir die Innenräume des Kulmhotel. Hier noch volles Leben.―</p>
             <p xml:space="preserve" rend="indent">Nm. am „<rs type="work" subtype="self" xml:id="bibl_8957">Ormin</rs>“.―</p>
             <p xml:space="preserve" rend="indent">Mit O. <rs type="person" xml:id="pNt_43862" ref="#person_20925"><forename>Leo</forename></rs> <rs type="person" xml:id="pNt_43863" ref="#person_21231"><forename>Bella</forename></rs> Waldspaziergang. <rs type="person" xml:id="pNt_43864" ref="#person_19394"><surname>Rosenthal</surname></rs> der Pianist und Frau 
@@ -189,5 +194,6 @@ zeigt mir die Innenräume des Kulmhotel. Hier noch volles Leben.―</p>
             <p xml:space="preserve" rend="indent">Abends wie immer mit <rs type="person" xml:id="pNt_43866" ref="#person_20925"><forename>Leo</forename></rs> und <rs type="person" xml:id="pNt_43867" ref="#person_21231"><forename>Bella</forename></rs> im Restaurant. Besorgnisse wegen der 
 Heimkehr. Mit <rs type="person" xml:id="pNt_43868" ref="#person_20925"><forename>Leo</forename></rs> Billard.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

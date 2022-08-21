@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1903-03-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-03-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-03-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1903-03-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-03-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-03-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F449-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1793.tif"/>
@@ -180,8 +184,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1903-03-22">
-            <p xml:space="preserve"><date when="1903-03-22">22/3</date> S.― <rs type="place" xml:id="pl_04212" ref="#place_97af703f48200e54a8cc106005251faf">Gentzg.</rs> geschlafen.― Mit O. im warmen Frühlingswetter 
-<rs type="place" xml:id="pl_04213" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> ― <rs type="place" xml:id="pl_04214" ref="#place_3b0cf80ce6f7c6e0340cf31265c8f3f7">Sievring</rs> spaziert. In jedem Jahr bin ich von dem neuen 
+            <p xml:space="preserve"><date when="1903-03-22">22/3</date> S.― <rs type="place" xml:id="pl_04212" ref="#pmb40694">Gentzg.</rs> geschlafen.― Mit O. im warmen Frühlingswetter 
+<rs type="place" xml:id="pl_04213" ref="#pmb169">Pötzleinsdorf</rs> ― <rs type="place" xml:id="pl_04214" ref="#pmb64219">Sievring</rs> spaziert. In jedem Jahr bin ich von dem neuen 
 Frühling tiefer ergriffen ― und zugleich kommt eine Angst, dass man 
 (wenn man weiterlebt) doch wieder zu dem fürchterlichen Winter 
 verurtheilt ist.― Auch der <rs type="work" subtype="self" xml:id="bibl_17650">Roman</rs> wacht zu dieser Zeit immer auf.―</p>
@@ -189,6 +193,5 @@ verurtheilt ist.― Auch der <rs type="work" subtype="self" xml:id="bibl_17650">
 viel geplaudert, musicirt; bis nach 1.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

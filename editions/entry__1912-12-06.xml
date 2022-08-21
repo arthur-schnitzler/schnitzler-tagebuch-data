@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-12-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-12-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-12-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-12-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-12-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-12-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-01FA-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3527.tif"/>
@@ -184,8 +188,8 @@
          <div type="diary-day" xml:id="entry__1912-12-06">
             <p xml:space="preserve"><date when="1912-12-06">6/12</date> Dictirt „<rs type="work" subtype="self" xml:id="bibl_10616">Komödiantin</rs>“ ―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="allusively" xml:id="rst_01306">Papas</rs> Briefe an <rs type="allusively" xml:id="rst_01307">Mama</rs> zu Ende gelesen. (Nicht viele vorhanden, 
-meist von Congressen.) Briefpapiere manche „<rs type="place" xml:id="pl_08110" ref="#place_a989b2fa80e04411d03076b92e04fd9b">Jägerzeile</rs> 525“, 
-dann <rs type="place" xml:id="pl_08111" ref="#place_f049cba9de759c3281e03390b86aa64a">Praterstr.</rs> 14 mein Geburtshaus.―</p>
+meist von Congressen.) Briefpapiere manche „<rs type="place" xml:id="pl_08110" ref="#pmb92306">Jägerzeile</rs> 525“, 
+dann <rs type="place" xml:id="pl_08111" ref="#pmb92460">Praterstr.</rs> 14 mein Geburtshaus.―</p>
             <p xml:space="preserve" rend="indent">Da O. bettlägerig, allein zu <rs type="person" xml:id="pNt_39515" ref="#person_15855"><surname>Hajeks</surname></rs>, wo <rs type="person" xml:id="pNt_39516" ref="#person_19827"><forename>Julius</forename></rs>, <rs type="person" xml:id="pNt_39517" ref="#person_19823"><forename>Helene</forename></rs>, <rs type="person" xml:id="pNt_39518" ref="#person_20915"><surname>Vallos</surname></rs>. 
 Zumeist über die Kriegsgefahr.</p>
             <pb n="373"/>
@@ -197,6 +201,5 @@ Zumeist über die Kriegsgefahr.</p>
             </tei:fw>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

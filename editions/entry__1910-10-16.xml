@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-10-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-10-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-10-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-10-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-10-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-10-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FEEC-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3006.tif"/>
@@ -182,16 +186,15 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1910-10-16">
-            <p xml:space="preserve"><date when="1910-10-16">16/10</date> Mit O. <rs type="place" xml:id="pl_07256" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs>.</p>
+            <p xml:space="preserve"><date when="1910-10-16">16/10</date> Mit O. <rs type="place" xml:id="pl_07256" ref="#pmb91735">Semmering</rs>.</p>
             <p xml:space="preserve" rend="indent">Nm. Spaziergang neuer Thalhofweg.</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_33708" ref="#person_16707"><forename>Edmund</forename> <surname>Kapper</surname></rs> und Frau im Café; haben in <rs type="place" xml:id="pl_07257" ref="#place_8b6f0975edbb61684a14fc0b1891e1b1">Neapel</rs> unsern 
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_33708" ref="#person_16707"><forename>Edmund</forename> <surname>Kapper</surname></rs> und Frau im Café; haben in <rs type="place" xml:id="pl_07257" ref="#pmb91330">Neapel</rs> unsern 
 Eintrag im Beschwerdebuch gelesen (der der einzige geblieben) 
-nachdem sie in <rs type="place" xml:id="pl_07258" ref="#place_71bf62d567dd035d7a21b5b7b0c62c16">Bajae</rs> noch schlimmres erlebt.―</p>
+nachdem sie in <rs type="place" xml:id="pl_07258" ref="#pmb962">Bajae</rs> noch schlimmres erlebt.―</p>
             <p xml:space="preserve" rend="indent">Gefeilt am „<rs type="work" subtype="self" xml:id="bibl_12042">Tagebuch</rs>“, an der „<rs type="work" subtype="self" xml:id="bibl_12043">Parabel</rs>“.</p>
             <p xml:space="preserve" rend="indent">Zum „<rs type="work" subtype="self" xml:id="bibl_12044">Komödianten</rs>“ meditirt.</p>
             <p xml:space="preserve" rend="indent">Nach dem Nachtmahl <rs type="person" xml:id="pNt_33709" ref="#person_19691"><roleName>Fr.</roleName> <surname>Schiller</surname></rs> und Sohn.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

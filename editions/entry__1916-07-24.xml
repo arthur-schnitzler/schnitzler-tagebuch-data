@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1916-07-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-07-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-07-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1916-07-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-07-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-07-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0726-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4299.tif"/>
@@ -182,16 +186,15 @@
       <body>
          <div type="diary-day" xml:id="entry__1916-07-24">
             <p xml:space="preserve"><date when="1916-07-24">24/7</date> Wieder der Hundetraum. Diesmal ein kleiner weißer, mit 
-Nasenfutteral. Man erzählt mir, dass er (in <rs type="place" xml:id="pl_10079" ref="#place_318e051b87a18bd62b48dc49a3318206">Hütteldorf</rs>?) die 
+Nasenfutteral. Man erzählt mir, dass er (in <rs type="place" xml:id="pl_10079" ref="#pmb90913">Hütteldorf</rs>?) die 
 Straßen unsicher macht; ich stehe dann mit <rs type="person" xml:id="pNt_48395" ref="#person_18881"><forename>Frieda</forename> <surname>P.</surname></rs> beim Fenster; 
 der Hund kommt vorbei, sie streichelt ihn, ich auch, plötzlich hab 
 ich eine Wunde am Finger, und muss zu <rs type="person" xml:id="pNt_48396" ref="#person_18669"><surname>Pasteur</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_48397" ref="#person_19822"><forename>Heini</forename></rs> Jägersteig Stummernalm.―</p>
-            <p xml:space="preserve" rend="indent">Dr. <rs type="person" xml:id="pNt_48398" ref="#person_18012"><forename>Aug.</forename> <surname>Mayer</surname></rs>, der Archäolog beim Seewirth; über <rs type="place" xml:id="pl_10080" ref="#place_d0a6343a081a7335baa965ce4fd0845c">München</rs>, 
+            <p xml:space="preserve" rend="indent">Dr. <rs type="person" xml:id="pNt_48398" ref="#person_18012"><forename>Aug.</forename> <surname>Mayer</surname></rs>, der Archäolog beim Seewirth; über <rs type="place" xml:id="pl_10080" ref="#pmb45258">München</rs>, 
 Theater, etc., Kriegsverhältnisse ―</p>
             <p xml:space="preserve" rend="indent">An „<rs type="work" subtype="self" xml:id="bibl_7515">Wiederkehr</rs>“.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

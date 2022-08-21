@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1895-08-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-08-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-08-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1895-08-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-08-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-08-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E9F9-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1050.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1895-08-22">
-            <p xml:space="preserve"><date when="1895-08-22">22/8</date> Bic. mit <rs type="person" xml:id="pNt_10929" ref="#person_19542"><surname>Salten</surname></rs> zum <rs type="place" xml:id="pl_02098" ref="#place_7ed4496167f8edc24d094798be1c9cc8">Königssee</rs>.― <rs type="person" xml:id="pNt_10930" ref="#person_13551"><forename>Rich.</forename></rs> und <rs type="person" xml:id="pNt_10931" ref="#person_13196"><forename>Lou</forename></rs> nach 
-<rs type="place" xml:id="pl_02099" ref="#place_c53290a5b61793c14730914e3a95d48b">Bartholomä</rs>, zurück, <rs type="place" xml:id="pl_02100" ref="#place_10610ec60fcdfbccb325e1eec16a82ad">Berchtesgaden</rs>. Bergwerk: Sensation großer Fluss, 
+            <p xml:space="preserve"><date when="1895-08-22">22/8</date> Bic. mit <rs type="person" xml:id="pNt_10929" ref="#person_19542"><surname>Salten</surname></rs> zum <rs type="place" xml:id="pl_02098" ref="#pmb91054">Königssee</rs>.― <rs type="person" xml:id="pNt_10930" ref="#person_13551"><forename>Rich.</forename></rs> und <rs type="person" xml:id="pNt_10931" ref="#person_13196"><forename>Lou</forename></rs> nach 
+<rs type="place" xml:id="pl_02099" ref="#pmb91802">Bartholomä</rs>, zurück, <rs type="place" xml:id="pl_02100" ref="#pmb797">Berchtesgaden</rs>. Bergwerk: Sensation großer Fluss, 
 ferne breite erleuchtete Quais, Stadt weit, ferne Burg, Abgrund.― 
 Kopfweh Abd.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

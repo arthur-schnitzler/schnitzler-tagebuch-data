@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1907-07-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-07-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-07-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1907-07-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-07-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-07-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FA60-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2399.tif"/>
@@ -180,10 +184,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1907-07-04">
-            <p xml:space="preserve"><date when="1907-07-04">4/7</date> <rs type="place" xml:id="pl_06030" ref="#place_2781d78cf5bdbb757c7c275e91694387">Innichen</rs> ― <rs type="place" xml:id="pl_06031" ref="#place_89c45d55b0c2fb7972461e12717105e7">Fischleinboden</rs> (Hotels) ― Wildbad <rs type="place" xml:id="pl_06032" ref="#place_2781d78cf5bdbb757c7c275e91694387">Innichen</rs> (Graf, Gräfin; 
-<rs type="person" xml:id="pNt_27178" ref="#person_15536"><roleName>Dr.</roleName> <surname>Goldschläger</surname></rs> und Frau) ― <rs type="place" xml:id="pl_06033" ref="#place_1fe7212a360eee1e78551d8e2e997fd0">Welsberg</rs>.</p>
+            <p xml:space="preserve"><date when="1907-07-04">4/7</date> <rs type="place" xml:id="pl_06030" ref="#pmb90929">Innichen</rs> ― <rs type="place" xml:id="pl_06031" ref="#pmb90156">Fischleinboden</rs> (Hotels) ― Wildbad <rs type="place" xml:id="pl_06032" ref="#pmb90929">Innichen</rs> (Graf, Gräfin; 
+<rs type="person" xml:id="pNt_27178" ref="#person_15536"><roleName>Dr.</roleName> <surname>Goldschläger</surname></rs> und Frau) ― <rs type="place" xml:id="pl_06033" ref="#pmb428">Welsberg</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

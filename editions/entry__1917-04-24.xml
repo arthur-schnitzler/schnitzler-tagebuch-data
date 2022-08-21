@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1917-04-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-04-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-04-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1917-04-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-04-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-04-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0838-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,19 +177,20 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4448.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4449.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1917-04-24">
-            <p xml:space="preserve"><date when="1917-04-24">24/4</date> Im Hineinfahren <rs type="person" xml:id="pNt_50412" ref="#person_15402"><surname>Gerner</surname></rs>, Lector des <rs type="place" ref="#place_burgtheater">Burgtheater</rs>s ― sehr flau in 
+            <p xml:space="preserve"><date when="1917-04-24">24/4</date> Im Hineinfahren <rs type="person" xml:id="pNt_50412" ref="#person_15402"><surname>Gerner</surname></rs>, Lector des <rs type="place" ref="#pmb14">Burgtheater</rs>s ― sehr flau in 
 Hinsicht auf den neuen Mann.― Bei <rs type="person" xml:id="pNt_50413" ref="#person_14690"><surname>Eisenstein</surname></rs> ― über den <rs type="work" subtype="self" xml:id="bibl_6419">Reigen-Fall</rs>.― 
 Mit <rs type="person" xml:id="pNt_50414" ref="#person_13699"><roleName>Prof.</roleName> <surname>Bettelheim</surname></rs> in die Stadt; auch gegen <rs type="person" xml:id="pNt_50415" ref="#person_18168"><surname>Millenkovich</surname></rs>; über <rs type="person" xml:id="pNt_50416" ref="#person_19493"><surname>Saar</surname></rs>, 
 dessen Echtheit gegenüber dem unwahrern <rs type="person" xml:id="pNt_50417" ref="#person_16186"><surname>Heyse</surname></rs>; über Autobiographien u. 
-dergl.― Panorama (<rs type="place" xml:id="pl_10476" ref="#place_d52387880e1ea22817a72d3759213819">Java</rs>).― Bei <rs type="person" xml:id="pNt_50418" ref="#person_19986"><forename>Gustav</forename></rs> (er wollte schon demissioniren, 
+dergl.― Panorama (<rs type="place" xml:id="pl_10476" ref="#pmb90952">Java</rs>).― Bei <rs type="person" xml:id="pNt_50418" ref="#person_19986"><forename>Gustav</forename></rs> (er wollte schon demissioniren, 
 ich wie alle andern rathen ab. Man darf es den Leuten nicht zu leicht 
 machen. <rs type="person" xml:id="pNt_50419" ref="#person_19986"><forename>Gustav</forename></rs> glaubt ― <rs type="person" xml:id="pNt_50420" ref="#person_13236"><surname>Antropp</surname></rs> werde von <rs type="person" xml:id="pNt_50421"><surname>M.</surname></rs> als Beirath gewünscht).―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_50422" ref="#person_15369"><roleName>Dr.</roleName> <surname>Geiringer</surname></rs>. Über <rs type="work" subtype="self" xml:id="bibl_6420">Reigen</rs>. Er findet mein Vorgehen richtig, ich 
@@ -197,5 +202,6 @@ Frau, <rs type="person" xml:id="pNt_50428"><surname>Stroß</surname></rs> und Fr
 Anschluss an ein Tanzgespräch.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_50435" ref="#person_19822"><forename>Heini</forename></rs> <rs type="person" xml:id="pNt_50436" ref="#person_18282"><surname>Mozart</surname></rs> <rs type="work" xml:id="bibl_6424">1. Clavierconc.</rs></p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

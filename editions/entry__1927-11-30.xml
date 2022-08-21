@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-11-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-11-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-12-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-11-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-11-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-12-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1754-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6998.tif"/>
@@ -182,8 +186,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1927-11-30">
-            <p xml:space="preserve"><date when="1927-11-30">30/11</date> <rs type="place" xml:id="pl_17713" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>. In die <rs type="org">Hegewald-Film</rs>.― <rs type="person" xml:id="pNt_82330" ref="#person_14957"><roleName>Director</roleName> <surname>Fett</surname></rs>; mit ihm und den 
-Dramaturgen <rs type="person" xml:id="pNt_82331" ref="#person_16607"><surname>Juttke</surname></rs>, <rs type="person" xml:id="pNt_82332" ref="#person_16871"><surname>Klaren</surname></rs>, <rs type="person" xml:id="pNt_82333" ref="#person_13704"><roleName>Director</roleName> <surname>Beyer</surname></rs>, <rs type="place" xml:id="pl_17714" ref="#place_48034928a1e88e10486ed444e8721b13">Weissensee</rs>, Atelier.― Regiss. 
+            <p xml:space="preserve"><date when="1927-11-30">30/11</date> <rs type="place" xml:id="pl_17713" ref="#pmb168">Berlin</rs>. In die <rs type="org">Hegewald-Film</rs>.― <rs type="person" xml:id="pNt_82330" ref="#person_14957"><roleName>Director</roleName> <surname>Fett</surname></rs>; mit ihm und den 
+Dramaturgen <rs type="person" xml:id="pNt_82331" ref="#person_16607"><surname>Juttke</surname></rs>, <rs type="person" xml:id="pNt_82332" ref="#person_16871"><surname>Klaren</surname></rs>, <rs type="person" xml:id="pNt_82333" ref="#person_13704"><roleName>Director</roleName> <surname>Beyer</surname></rs>, <rs type="place" xml:id="pl_17714" ref="#pmb60779">Weissensee</rs>, Atelier.― Regiss. 
 <rs type="person" xml:id="pNt_82334" ref="#person_17778"><forename>Holger</forename> <surname>Madsen</surname></rs>, der den 1. <rs type="work" subtype="self" xml:id="bibl_24881">Liebelei Film</rs> gemacht.― Dr. <rs type="person" xml:id="pNt_82335" ref="#person_18286"><forename>Kurt</forename> <surname>Mühsam</surname></rs> von 
 der <rs type="work" subtype="newspaper" xml:id="bibl_24882">Berl. Z. a. M.</rs> erscheint (mir neu); es stellt sich heraus: Art 
 Presse-Empfang. Lerne (costumirt) <rs type="person" xml:id="pNt_82336" ref="#person_16752"><forename>Bruno</forename> <surname>Kastner</surname></rs> (<rs type="figur">Karinski</rs>) <rs type="person" xml:id="pNt_82338" ref="#person_15908"><surname>Hansen</surname></rs> (<rs type="figur">Enderle</rs>), 
@@ -205,6 +209,5 @@ Garderoben gesprochen.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_82361" ref="#person_19832"><forename>O.</forename></rs> und <rs type="person" xml:id="pNt_82362" ref="#person_19822"><forename>Heini</forename></rs> bei <rs type="institution" xml:id="pNt_82363"><surname>Lutter</surname></rs> u. <rs type="person" xml:id="pNt_82364"><surname>Wegener</surname></rs> genachtm.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

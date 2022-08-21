@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-08-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-08-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0196-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3466.tif"/>
@@ -182,13 +186,12 @@
       <body>
          <div type="diary-day" xml:id="entry__1912-08-28">
             <p xml:space="preserve"><date when="1912-08-28">28/8</date> <rs type="person" xml:id="pNt_38692" ref="#person_19827"><forename>Julius</forename></rs>, nach einer neuen Magenattacke, reist früh mit <rs type="person" xml:id="pNt_38693" ref="#person_19823"><forename>Helene</forename></rs> 
-nach <rs type="place" xml:id="pl_08016" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Mit O. nach <rs type="place" xml:id="pl_08017" ref="#place_88efeb2b7acfb455f327a86818da75f6">Sterzing</rs> und zurück.</p>
+nach <rs type="place" xml:id="pl_08016" ref="#pmb50">Wien</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Mit O. nach <rs type="place" xml:id="pl_08017" ref="#pmb40302">Sterzing</rs> und zurück.</p>
             <p xml:space="preserve" rend="indent">Nm. die neuen <rs type="work" subtype="self" xml:id="bibl_10447">Bernh.</rs> Correcturen durchgesehn.―</p>
             <p xml:space="preserve" rend="indent">Spazieren allein <rs type="person" xml:id="pNt_38694"><forename>Franz Josefs</forename></rs> Höhe, Kohlgrubenweg.―</p>
             <p xml:space="preserve" rend="indent">Billard mit Neffen <rs type="person" xml:id="pNt_38695" ref="#person_19821"><forename>Hans</forename></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

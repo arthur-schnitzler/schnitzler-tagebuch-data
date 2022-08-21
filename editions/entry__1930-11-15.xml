@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-11-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-11-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-11-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-11-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-11-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-11-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1B8D-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,17 +177,18 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7593.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7594.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1930-11-15">
-            <p xml:space="preserve"><date when="1930-11-15">15/11</date> <rs type="place" xml:id="pl_19630" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>.― Tel. mit <rs type="person" xml:id="pNt_91285" ref="#person_14234"><forename>Suz.</forename></rs> <rs type="place" xml:id="pl_19631" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.―</p>
+            <p xml:space="preserve"><date when="1930-11-15">15/11</date> <rs type="place" xml:id="pl_19630" ref="#pmb168">Berlin</rs>.― Tel. mit <rs type="person" xml:id="pNt_91285" ref="#person_14234"><forename>Suz.</forename></rs> <rs type="place" xml:id="pl_19631" ref="#pmb50">Wien</rs>.―</p>
             <p xml:space="preserve" rend="indent">Briefe von <rs type="person" xml:id="pNt_91286" ref="#person_14234"><forename>Suz.</forename></rs>, <rs type="person" xml:id="pNt_91287" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>, <rs type="person" xml:id="pNt_91288" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs></p>
-            <p xml:space="preserve" rend="indent">Nach <rs type="place" xml:id="pl_19632" ref="#place_e968dc5bb69215ff17b5de04db395670">Dahlem</rs> zu <rs type="person" xml:id="pNt_91289" ref="#person_15306"><surname>Fulda</surname></rs>. Geschichte seiner Krankheit (<rs type="place" xml:id="pl_19633" ref="#place_3859ff9074d497ed0cb3c08be85996ad">Bozen</rs>, <rs type="place" xml:id="pl_19634" ref="#place_834e1bca2cb7d2238249e70860ed8ae8">Meran</rs>). 
+            <p xml:space="preserve" rend="indent">Nach <rs type="place" xml:id="pl_19632" ref="#pmb90508">Dahlem</rs> zu <rs type="person" xml:id="pNt_91289" ref="#person_15306"><surname>Fulda</surname></rs>. Geschichte seiner Krankheit (<rs type="place" xml:id="pl_19633" ref="#pmb40260">Bozen</rs>, <rs type="place" xml:id="pl_19634" ref="#pmb43520">Meran</rs>). 
 Mißstimmung wegen der übeln Haltung der Theater, der Jugend gegenüber 
 seinen Stücken. Erlebnisse.― Mit ihm und seiner Frau kurze Spaziergänge. 
 Große Herzlichkeit.</p>
@@ -192,5 +197,6 @@ Große Herzlichkeit.</p>
             <p xml:space="preserve" rend="indent">― Mit <rs type="person" xml:id="pNt_91298" ref="#person_19832"><forename>O.</forename></rs> Abd. „Tonfilm Varieté“ (Nollendorf Th.),― dann Esplanade.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_91299" ref="#person_19822"><forename>Heini</forename></rs> kam später.― <rs ref="#person_20385" type="person" xml:id="pNt_91300"><forename>Lissie</forename> <surname>Steinrück</surname></rs> zufällig auch dort.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

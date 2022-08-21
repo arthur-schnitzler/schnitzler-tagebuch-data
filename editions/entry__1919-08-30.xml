@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-08-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-08-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-08-31.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-08-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-08-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-08-31.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0B90-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4913.tif"/>
@@ -182,11 +186,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1919-08-30">
-            <p xml:space="preserve"><date when="1919-08-30">30/8</date> Vm. <rs type="place" ref="#place_volkstheater">Volkstheater</rs>. Mit <rs type="person" xml:id="pNt_56799" ref="#person_13663"><surname>Bernau</surname></rs> die Besetzung von <rs type="work" subtype="self" xml:id="bibl_5011">Lebend. Std.</rs> und 
+            <p xml:space="preserve"><date when="1919-08-30">30/8</date> Vm. <rs type="place" ref="#pmb92202">Volkstheater</rs>. Mit <rs type="person" xml:id="pNt_56799" ref="#person_13663"><surname>Bernau</surname></rs> die Besetzung von <rs type="work" subtype="self" xml:id="bibl_5011">Lebend. Std.</rs> und 
 <rs type="work" subtype="self" xml:id="bibl_5012">Schwestern</rs> besprochen.</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_56800" ref="#person_21600"><forename>Mimi</forename> <surname>Zuckerkandl</surname></rs>; die <rs type="allusively" xml:id="rst_01651">Frau Prof.</rs> kam dazu, verweint ― <rs type="person" xml:id="pNt_56801" ref="#person_15374"><forename>Marg.</forename> 
 <surname>Gelbard</surname></rs> zieht <rs type="person" xml:id="pNt_56802" ref="#person_21601"><forename>Otto</forename></rs> ganz von ihr ab ― sucht ihr nun auch die Kinder zu 
-entfremden;― neulich war <rs type="person" xml:id="pNt_56803" ref="#person_21601"><forename>Otto</forename></rs> von <rs type="place" xml:id="pl_11849" ref="#place_9a43e84f6e1d406076f2372205804f6d">Baden</rs> aus in <rs type="place" xml:id="pl_11850" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>, ohne sein 
+entfremden;― neulich war <rs type="person" xml:id="pNt_56803" ref="#person_21601"><forename>Otto</forename></rs> von <rs type="place" xml:id="pl_11849" ref="#pmb662">Baden</rs> aus in <rs type="place" xml:id="pl_11850" ref="#pmb50">Wien</rs>, ohne sein 
 einstiges Haus überhaupt zu besuchen u. s. w.― Und was sie ihm gethan, 
 durch Jahre lang, zählt nicht mehr, hat sie vergessen.― Ich rieth, die 
 Sache nicht (durch einen Brief, wie sie wollte) zu verschärfen, sondern 
@@ -195,6 +199,5 @@ bin für ein Gespräch zwischen <rs type="person" xml:id="pNt_56804" ref="#perso
 Büchel von <rs type="person" xml:id="pNt_56805" ref="#person_20653"><surname>Techet</surname></rs> „<rs type="work" xml:id="bibl_5013">Menschen ohne Lachen</rs>“.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

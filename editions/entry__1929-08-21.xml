@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-08-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-08-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-08-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-08-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-08-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-08-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-19CA-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,18 +177,20 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7342.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1929-08-21">
-            <p xml:space="preserve"><date when="1929-08-21">21/8</date> <rs type="place" xml:id="pl_18827" ref="#place_d0a6343a081a7335baa965ce4fd0845c">München</rs>. Um ½2 mit Aeroplan (<rs type="person" xml:id="pNt_87551" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> zum ersten Mal) ― 
-<rs type="place" xml:id="pl_18828" ref="#place_103a821a3a6a0b923c9f74a39662bb51">Zürich</rs> ½4; von dort in ganz kleinem Aeroplan (wie Taxi) mit 
-2 andern Herren (einer kam aus <rs type="place" xml:id="pl_18829" ref="#place_60960432acfa4972c8f13dd89a872920">Breslau</rs> zu Luft) ― über <rs type="place" xml:id="pl_18830" ref="#place_961698fa64951bd6d3437ebc7931a899">Bern</rs> ― <rs type="place" xml:id="pl_18831" ref="#place_2f4d156f29b46c9add9d9337453822fc">Lausanne</rs>. 
+            <p xml:space="preserve"><date when="1929-08-21">21/8</date> <rs type="place" xml:id="pl_18827" ref="#pmb45258">München</rs>. Um ½2 mit Aeroplan (<rs type="person" xml:id="pNt_87551" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> zum ersten Mal) ― 
+<rs type="place" xml:id="pl_18828" ref="#pmb484">Zürich</rs> ½4; von dort in ganz kleinem Aeroplan (wie Taxi) mit 
+2 andern Herren (einer kam aus <rs type="place" xml:id="pl_18829" ref="#pmb90392">Breslau</rs> zu Luft) ― über <rs type="place" xml:id="pl_18830" ref="#pmb1223">Bern</rs> ― <rs type="place" xml:id="pl_18831" ref="#pmb50004">Lausanne</rs>. 
 6 Uhr.― Zum Ouchy Beaurivage. Schönes nicht sympath. Hotel. Spazieren.― 
 Hotel soup. mit <rs type="person" xml:id="pNt_87552" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>― Beide in schlechter Stimmung.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

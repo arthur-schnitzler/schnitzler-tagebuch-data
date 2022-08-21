@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-04-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-04-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-04-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-04-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-04-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-04-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1950-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,12 +177,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7274.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1929-04-21">
             <p xml:space="preserve"><date when="1929-04-21">21/4</date> S. Ordnerei;― mit <rs type="person" xml:id="pNt_86548" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Mittags Spazieren Cottage-Straßen.― ―</p>
             <p xml:space="preserve" rend="indent">Nm. Zeitungen;― Briefe ordnen (warum?);― am <rs type="work" subtype="self" xml:id="bibl_315">Roman</rs>.</p>
@@ -186,5 +191,6 @@
             <p xml:space="preserve" rend="indent">― <rs type="person" xml:id="pNt_86550" ref="#person_14775"><forename>Jehudo</forename> <surname>Epsteins</surname></rs> <rs type="work" xml:id="bibl_316">Selbstbiographie</rs> (<rs type="work" xml:id="bibl_317">Ost nach West</rs>) mit Interesse 
 gelesen.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1897-02-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-02-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-02-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1897-02-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-02-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-02-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EC17-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1304.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1897-02-23">
-            <p xml:space="preserve"><date when="1897-02-23">23/2</date> Vorm. mit <rs type="person" xml:id="pNt_13650" ref="#person_19150"><forename>Mz.</forename> <surname>Rh.</surname></rs> spazieren.― Brief von <rs type="person" xml:id="pNt_13651" ref="#person_21047"><forename>Olga</forename></rs> aus <rs type="place" xml:id="pl_02536" ref="#place_36660b0099a8fb7694b57edcbb304e09">Abbazia</rs>.―</p>
+            <p xml:space="preserve"><date when="1897-02-23">23/2</date> Vorm. mit <rs type="person" xml:id="pNt_13650" ref="#person_19150"><forename>Mz.</forename> <surname>Rh.</surname></rs> spazieren.― Brief von <rs type="person" xml:id="pNt_13651" ref="#person_21047"><forename>Olga</forename></rs> aus <rs type="place" xml:id="pl_02536" ref="#pmb38096">Abbazia</rs>.―</p>
             <p xml:space="preserve" rend="indent"><hi xmlns:tei="http://www.tei-c.org/ns/1.0" rend="italicised"><rs type="person" xml:id="pNt_13652" ref="#person_19564"><forename>Dilly</forename></rs></hi> erschien um 5, sagte, seit <rs type="person" xml:id="pNt_13653" ref="#person_18190"><surname>Mitterwurzer</surname></rs> todt, gehe sie 
 täglich in ein andres Theater und habe jede Nacht einen andern Mann bei 
 sich.― Über <rs type="person" xml:id="pNt_13654" ref="#person_14065"><surname>Burckhard</surname></rs>: der fühlt ja nichts, der war schon am Montag 
@@ -204,6 +208,5 @@ dass sie zu <rs type="person" xml:id="pNt_13661" ref="#person_16293"><forename>H
 gesprochen ― und dass sie mich geheiratet hätte, ohne mich zu lieben.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

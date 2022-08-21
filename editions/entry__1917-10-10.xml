@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1917-10-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-10-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-10-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1917-10-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-10-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-10-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-08E1-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4539.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1917-10-10">
-            <p xml:space="preserve"><date when="1917-10-10">10/10</date> ― Seit <rs type="place" xml:id="pl_10747" ref="#place_5cea8f71bfa6f42547adaf63d65eb3ed">Partenkirchen</rs> mit O. in schönster Harmonie.―</p>
+            <p xml:space="preserve"><date when="1917-10-10">10/10</date> ― Seit <rs type="place" xml:id="pl_10747" ref="#pmb667">Partenkirchen</rs> mit O. in schönster Harmonie.―</p>
             <p xml:space="preserve" rend="indent">Dictirt u. a. <rs type="work" subtype="self" xml:id="bibl_6806">Landsknecht Skizze</rs>, begonnen.―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="work" subtype="self" xml:id="bibl_6807"><rs type="person" xml:id="pNt_51668"><surname>Cas.</surname></rs> Nov.</rs> Feile.―</p>
             <p xml:space="preserve" rend="indent">Concert: „<rs type="work" xml:id="bibl_6808">Lied von der Erde</rs>“ (<rs type="person" xml:id="pNt_51669" ref="#person_18374"><surname>Nedbal</surname></rs> dirigirte) ―</p>
@@ -191,6 +195,5 @@
 Das wäre das schlimmste.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

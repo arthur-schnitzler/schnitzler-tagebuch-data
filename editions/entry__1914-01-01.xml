@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-01-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-12-31.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-01-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-01-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-12-31.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-01-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0381-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3755.tif"/>
@@ -181,18 +185,17 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1914-01-01">
-            <p xml:space="preserve"><date when="1914-01-01">1/1</date> Schöner Wintertag. Spazieren Himmel, Cobenzl, <rs type="place" xml:id="pl_08582" ref="#place_431168489e6885d4e91ebc5edec7dfb4">Grinzing</rs>, übern 
-<rs type="place" xml:id="pl_08583" ref="#place_6352aa36edbedc20efbb28d51d0a46bf">Kaasgraben</rs> zurück; allerlei Feldwege auch, die ich noch nie gegangen.― 
-Schon am <rs type="place" xml:id="pl_08584" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs>, rückkehrend, <rs type="person" xml:id="pNt_42486" ref="#person_21345"><roleName>Frl.</roleName> <surname>Wilke</surname></rs> begegnet, dann 
+            <p xml:space="preserve"><date when="1914-01-01">1/1</date> Schöner Wintertag. Spazieren Himmel, Cobenzl, <rs type="place" xml:id="pl_08582" ref="#pmb90771">Grinzing</rs>, übern 
+<rs type="place" xml:id="pl_08583" ref="#pmb92316">Kaasgraben</rs> zurück; allerlei Feldwege auch, die ich noch nie gegangen.― 
+Schon am <rs type="place" xml:id="pl_08584" ref="#pmb113">Türkenschanzpark</rs>, rückkehrend, <rs type="person" xml:id="pNt_42486" ref="#person_21345"><roleName>Frl.</roleName> <surname>Wilke</surname></rs> begegnet, dann 
 O.; <rs type="person" xml:id="pNt_42487"><roleName>Frl.</roleName> <surname>W.</surname></rs> begleitet uns bis zum Haus.―</p>
             <p xml:space="preserve" rend="indent">― Nm. (etwas müd) Zeitungen u. dergl.― Scenarium <rs type="work" subtype="self" xml:id="bibl_8593">Fink</rs> 1. und 2. A. 
 durchgesehn.―</p>
             <p xml:space="preserve" rend="indent">Abends mit O. zu <rs type="person" xml:id="pNt_42488" ref="#person_13355"><surname>Bachrachs</surname></rs>. Dort <rs type="person" xml:id="pNt_42489" ref="#person_17425"><forename>Max</forename> <surname>Leitner</surname></rs> und <rs type="person" xml:id="pNt_42490" ref="#person_20532"><surname>Stringa</surname></rs>. (U. a. 
 über <rs type="person" xml:id="pNt_42491" ref="#person_20925"><forename>Leo</forename></rs>, seinen Kreis von Frauen; die „wie ein Mann“ gegen <rs type="person" xml:id="pNt_42492" ref="#person_21231"><forename>Bella</forename></rs> 
 stehn.) ― In schneidender Kälte, unter klarem Himmel zu Fuss zurück.</p>
-            <p xml:space="preserve" rend="indent">Vorher zu <rs type="person" xml:id="pNt_42493" ref="#person_20238"><surname>Spechts</surname></rs> mit O., wegen Concertvorbesprechung <rs type="place" xml:id="pl_08585" ref="#place_26cf926782fe0bf1a37ac9960658499f">Regensburg</rs> etc.―</p>
+            <p xml:space="preserve" rend="indent">Vorher zu <rs type="person" xml:id="pNt_42493" ref="#person_20238"><surname>Spechts</surname></rs> mit O., wegen Concertvorbesprechung <rs type="place" xml:id="pl_08585" ref="#pmb58684">Regensburg</rs> etc.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

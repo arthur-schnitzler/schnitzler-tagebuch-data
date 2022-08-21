@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-01-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-01-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-01-06.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-01-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-01-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-01-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1A53-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7416.tif"/>
@@ -181,15 +185,14 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1930-01-05">
-            <p xml:space="preserve"><date when="1930-01-05">5/1</date> S. <rs type="place" xml:id="pl_19030" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>.― Tel. mit <rs type="person" xml:id="pNt_88627" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>; die sich wieder recht thöricht 
+            <p xml:space="preserve"><date when="1930-01-05">5/1</date> S. <rs type="place" xml:id="pl_19030" ref="#pmb168">Berlin</rs>.― Tel. mit <rs type="person" xml:id="pNt_88627" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>; die sich wieder recht thöricht 
 verhielt, als ich erklärte noch hier zu bleiben ― umsomehr als 
 <rs type="person" xml:id="pNt_88628" ref="#person_17784"><forename>Alma</forename></rs> sie und mich für Mittwoch mit <rs type="person" xml:id="pNt_88629" ref="#person_20885"><surname>Unruh</surname></rs> zu sich bat.―</p>
-            <p xml:space="preserve" rend="indent">― Mit <rs type="person" xml:id="pNt_88630" ref="#person_19832"><forename>O.</forename></rs> in den <rs type="place" xml:id="pl_19031" ref="#place_db4a42a192c3c97a2871005a8ccd6439">Grunewald</rs>; mit <rs type="person" xml:id="pNt_88631" ref="#person_18140"><forename>Karl</forename> <surname>M.</surname></rs> und <rs type="person" xml:id="pNt_88632" ref="#person_18137"><forename>Dora</forename></rs> spazieren; bei ihnen 
+            <p xml:space="preserve" rend="indent">― Mit <rs type="person" xml:id="pNt_88630" ref="#person_19832"><forename>O.</forename></rs> in den <rs type="place" xml:id="pl_19031" ref="#pmb129">Grunewald</rs>; mit <rs type="person" xml:id="pNt_88631" ref="#person_18140"><forename>Karl</forename> <surname>M.</surname></rs> und <rs type="person" xml:id="pNt_88632" ref="#person_18137"><forename>Dora</forename></rs> spazieren; bei ihnen 
 gegessen; auch <rs type="person" xml:id="pNt_88633" ref="#person_19822"><forename>Heini</forename></rs>. ― Grammophon. Mit <rs type="person" xml:id="pNt_88634" ref="#person_19822"><forename>Heini</forename></rs> <rs type="work" xml:id="bibl_798">5. Brandenburg Concert</rs> ―</p>
             <p xml:space="preserve" rend="indent">― Abds. Dtsch. Theater <rs type="person" xml:id="pNt_88635" ref="#person_20080"><surname>Shaw</surname></rs>, <rs type="work" xml:id="bibl_799">Kaiser von Amerika</rs> (<rs type="person" xml:id="pNt_88636" ref="#person_17120"><surname>Krauss</surname></rs>). (Mit <rs type="person" xml:id="pNt_88637" ref="#person_19832"><forename>O.</forename></rs>, 
 die heimfuhr.) Im Esplanade genachtm. mit <rs type="person" xml:id="pNt_88638" ref="#person_16355"><surname>Horch</surname></rs>, <rs type="person" xml:id="pNt_88639" ref="#person_19822"><forename>Heini</forename></rs> <rs type="person" xml:id="pNt_88640" ref="#person_13139"><forename>Ruth</forename></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

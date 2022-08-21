@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-08-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-08-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-08-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-08-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-08-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-08-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FBC9-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2538.tif"/>
@@ -182,13 +186,12 @@
          <div type="diary-day" xml:id="entry__1908-08-04">
             <p xml:space="preserve"><date when="1908-08-04">4/8</date> Wald. <rs type="work" subtype="self" xml:id="bibl_13572">W. L.</rs> bedacht.―</p>
             <p xml:space="preserve" rend="indent">Nm. mit O., <rs type="person" xml:id="pNt_28653" ref="#person_21107"><surname>Wassermann</surname></rs>, <rs type="person" xml:id="pNt_28654" ref="#person_16770"><surname>Kaufmann</surname></rs>, <rs type="person" xml:id="pNt_28655" ref="#person_20872"><forename>Agnes</forename> <surname>Sp.</surname></rs> wundervoller Fußweg, über 
-<rs type="place" xml:id="pl_06415" ref="#place_96b3c2905dbb187a3c0c62ca8c337b83">Ums</rs> nach <rs type="place" xml:id="pl_06416" ref="#place_46de9383c947caf5c526332c6dd8d52b">Weisslahnbad</rs>.</p>
+<rs type="place" xml:id="pl_06415" ref="#pmb91971">Ums</rs> nach <rs type="place" xml:id="pl_06416" ref="#pmb92071">Weisslahnbad</rs>.</p>
             <p xml:space="preserve" rend="indent">Junge Dame, die mir Edelweiss, den „<rs type="work" subtype="self" xml:id="bibl_13573">Weg ins freie</rs>“ bringt, ich solle 
 was hineinschreiben; ich durchblättre das Buch, finde dumme 
 Randbemerkungen, z. B. „<rs type="person" xml:id="pNt_28656" ref="#person_15975"><surname>Hauff</surname></rs> Plagiat!“ etc.; die junge Dame kommt sich 
 furchtbar entschuldigen, ohne ihr Wissen hat ein dummer Bub etc…</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

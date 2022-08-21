@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-09-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-09-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-09-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-09-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-09-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-09-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0BAD-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4930.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1919-09-28">
-            <p xml:space="preserve"><date when="1919-09-28">28/9</date> S. Spazieren <rs type="place" xml:id="pl_11896" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs>. Im Wald am <rs type="work" subtype="self" xml:id="bibl_5048">Weiher</rs>.―</p>
+            <p xml:space="preserve"><date when="1919-09-28">28/9</date> S. Spazieren <rs type="place" xml:id="pl_11896" ref="#pmb169">Pötzleinsdorf</rs>. Im Wald am <rs type="work" subtype="self" xml:id="bibl_5048">Weiher</rs>.―</p>
             <p xml:space="preserve" rend="indent">Zu Tisch <rs type="person" xml:id="pNt_56948" ref="#person_20885"><surname>Unruh</surname></rs>, nachher <rs type="person" xml:id="pNt_56949" ref="#person_14784"><forename>Fritzi</forename> <surname>Ergas</surname></rs>, <rs type="person" xml:id="pNt_56950" ref="#person_16770"><forename>Arthur</forename> <surname>Kaufmann</surname></rs>.― Wir saßen unter 
 der Esche. <rs type="person" xml:id="pNt_56951" ref="#person_20885"><surname>Unruh</surname></rs> in seiner Schönheit; klug und humorvoll, menschlich, 
 beruhigter als neulich wirkte prachtvoll. Ich zeigte ihm Zimmer, 
@@ -197,6 +201,5 @@ sie hingebeten, mitgebracht. Sie wirkte ganz sympathisch.― Zeigte
 Photographien, eigne, Olga, Kinder.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

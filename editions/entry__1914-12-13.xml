@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-12-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-12-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-12-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-12-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-12-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-12-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-04DA-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3942.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1914-12-13">
-            <p xml:space="preserve"><date when="1914-12-13">13/12</date> S. Spazieren <rs type="place" xml:id="pl_09113" ref="#place_13e0d56607e09fd9ecc36830a7036add">Heiligenstadt</rs> etc.―</p>
+            <p xml:space="preserve"><date when="1914-12-13">13/12</date> S. Spazieren <rs type="place" xml:id="pl_09113" ref="#pmb90847">Heiligenstadt</rs> etc.―</p>
             <p xml:space="preserve" rend="indent">Zum Thee <rs type="person" xml:id="pNt_44583" ref="#person_19943"><forename>Wolfgang</forename> <surname>Schumann</surname></rs> und Frau. Sie hat indes das Doctorat der 
 Botanik gemacht. Er war einberufen, wurde gleich zurückgeschickt. Will 
 sich der Politik zuwenden, studirt <rs type="place" xml:id="pl_09114" ref="#place_3e59557b630aba415b2b473b86a70e73" ana="#exclude">russ.</rs> Geschichte. <rs type="person" xml:id="pNt_44584" ref="#person_14130"><forename>Lili</forename></rs> plaudert 
@@ -192,6 +196,5 @@ allgemeinen.―</p>
             <p xml:space="preserve" rend="indent">Nach dem Nachtm. <rs type="person" xml:id="pNt_44586" ref="#person_19755"><surname>Schmidls</surname></rs> und <rs type="person" xml:id="pNt_44587" ref="#person_21602"><forename>Vicki</forename></rs>; O. sang einiges, besonders <rs type="person" xml:id="pNt_44588" ref="#person_13223"><surname>Ansorge</surname></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

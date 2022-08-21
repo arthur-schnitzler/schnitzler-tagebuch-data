@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-11-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-11-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-11-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-11-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-11-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-11-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F694-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1988.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1904-11-03">
-            <p xml:space="preserve"><date when="1904-11-03">3/11</date> Vm. im <rs type="place" ref="#place_volkstheater">Volkstheater</rs>, mit <rs type="person" xml:id="pNt_21822" ref="#person_21211"><surname>Weisse</surname></rs>, <rs type="person" xml:id="pNt_21823" ref="#person_14056"><surname>Bukovics</surname></rs> über Termin <rs type="work" subtype="self" xml:id="bibl_17415">Freiwild</rs> 
+            <p xml:space="preserve"><date when="1904-11-03">3/11</date> Vm. im <rs type="place" ref="#pmb92202">Volkstheater</rs>, mit <rs type="person" xml:id="pNt_21822" ref="#person_21211"><surname>Weisse</surname></rs>, <rs type="person" xml:id="pNt_21823" ref="#person_14056"><surname>Bukovics</surname></rs> über Termin <rs type="work" subtype="self" xml:id="bibl_17415">Freiwild</rs> 
 (26. d.) etc.; man ist jetzt dort auffallend liebenswürdig zu mir.― 
 Besorgungen.―</p>
             <p xml:space="preserve" rend="indent">Nm. las ich älteres von mir, das noch nicht ganz 
@@ -190,7 +194,7 @@ trotz einzelner guter Stellen doch alles recht schwerfällig und ich
 fühlte wie recht ich mit der „spaßhaften“ Bemerkung hatte die ich 
 neulich zu <rs type="person" xml:id="pNt_21824" ref="#person_16293"><forename>Hugo</forename></rs> machte ― „ich bin überhaupt kein Künstler ― ich 
 bin nur culturhistorisch interessant“.―</p>
-            <p xml:space="preserve" rend="indent">„<rs type="work" xml:id="bibl_17419">Fesseln der Liebe</rs>“ von <rs type="person" xml:id="pNt_21825" ref="#person_20931"><surname>Vaucaire</surname></rs> neulich <rs type="place" xml:id="pl_04964" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> fielen 
+            <p xml:space="preserve" rend="indent">„<rs type="work" xml:id="bibl_17419">Fesseln der Liebe</rs>“ von <rs type="person" xml:id="pNt_21825" ref="#person_20931"><surname>Vaucaire</surname></rs> neulich <rs type="place" xml:id="pl_04964" ref="#pmb168">Berlin</rs> fielen 
 durch. Ich hatte contre coeur, nur aus Gefälligkeit für <rs type="person" xml:id="pNt_21826" ref="#person_20931"><surname>Vaucaire</surname></rs>, 
 der mich brieflich und telegr. drum bat; ein Vorwort zu der <rs type="place" xml:id="pl_04965" ref="#place_8b8ce697991b9cb2c90683f6c6c6c358" ana="#exclude">dtsch.</rs> 
 Ausgabe geschrieben ― was mir in allen <rs type="place" xml:id="pl_04966" ref="#place_a0b17e8ab129fddb1ab63c36c1780c24" ana="#exclude">Berl.</rs> Blättern übel genommen 
@@ -198,6 +202,5 @@ wird ― (und bei welcher Gelegenheit <rs type="work" subtype="self" xml:id="bib
 den Klee gelobt wird). Was mich ein wenig enervirte.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

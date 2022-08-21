@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1925-03-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-03-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-03-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1925-03-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-03-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-03-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1379-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6468.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1925-03-17">
-            <p xml:space="preserve"><date when="1925-03-17">17/3</date> <rs type="place" xml:id="pl_15995" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>. Vm. bei Justizrath <rs type="person" xml:id="pNt_74729" ref="#person_19379"><surname>Rosenberger</surname></rs>, mehr besuchsweise.</p>
+            <p xml:space="preserve"><date when="1925-03-17">17/3</date> <rs type="place" xml:id="pl_15995" ref="#pmb168">Berlin</rs>. Vm. bei Justizrath <rs type="person" xml:id="pNt_74729" ref="#person_19379"><surname>Rosenberger</surname></rs>, mehr besuchsweise.</p>
             <p xml:space="preserve" rend="indent">Mittag Esplanade, mit <rs type="person" xml:id="pNt_74730" ref="#person_21298"><forename>Paul</forename> <surname>Wiegler</surname></rs> gegessen; zum Caffè <rs type="person" xml:id="pNt_74731" ref="#person_15210"><surname>Friedell</surname></rs>, <rs type="person" xml:id="pNt_74732" ref="#person_19822"><forename>Heini</forename></rs>.―</p>
             <p xml:space="preserve" rend="indent">„<rs type="work" subtype="self" xml:id="bibl_16335">Therese</rs>“ weiter durchgesehn.―</p>
             <p xml:space="preserve" rend="indent">Marmorhaus Kino (<rs type="person" xml:id="pNt_74733" ref="#person_13133"><surname>Albertini</surname></rs> Film etc.); mit <rs type="person" xml:id="pNt_74734" ref="#person_19822"><forename>Heini</forename></rs> und seiner Freundin <rs type="person" xml:id="pNt_74735" ref="#person_18048"><forename>Ali</forename> <surname>M.</surname></rs> 
 (kennen gelernt) klug und etwas kühl;― mit ihnen (nach Suchen) Fürstenhof genachtm.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

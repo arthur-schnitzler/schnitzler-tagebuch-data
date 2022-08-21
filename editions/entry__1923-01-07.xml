@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-01-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-01-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-01-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-01-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-01-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-01-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-105A-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5943.tif"/>
@@ -183,11 +187,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1923-01-07">
-            <p xml:space="preserve"><date when="1923-01-07">7/1</date> S. Träumte heute etwas verworren von <rs type="place" xml:id="pl_14486" ref="#place_811c7ad30c4e603795ef80e0c113ad9e">Frankgasse</rs> 1,― im Hinaufgehn war 
-es aber eigentlich <rs type="place" xml:id="pl_14487" ref="#place_cfa835a4df2f287f2b999521ebe66bee">Burgring</rs>. Dann wieder Hotelgänge. In einem Badezimmer <rs type="person" xml:id="pNt_68295" ref="#person_18063"><roleName>Dr.</roleName> 
+            <p xml:space="preserve"><date when="1923-01-07">7/1</date> S. Träumte heute etwas verworren von <rs type="place" xml:id="pl_14486" ref="#pmb397">Frankgasse</rs> 1,― im Hinaufgehn war 
+es aber eigentlich <rs type="place" xml:id="pl_14487" ref="#pmb274">Burgring</rs>. Dann wieder Hotelgänge. In einem Badezimmer <rs type="person" xml:id="pNt_68295" ref="#person_18063"><roleName>Dr.</roleName> 
 <surname>Menczel</surname></rs> im Bad ― ich sperrte ab, aber der Riegel taugte nichts,― zuerst ging 
 eine Dame durch, dann ein Kindermädchen mit einem Kind und einem Topferl.― 
-An der Ecke <rs type="place" xml:id="pl_14488" ref="#place_d30a40c8cfdf4076ad3387196cb35930">Garnison-</rs> <rs type="place" xml:id="pl_14489" ref="#place_9ce4d8c98a6877d79975eac1b717b8e3">Alserstraße</rs>, wohin ich von <rs type="place" xml:id="pl_14490" ref="#place_811c7ad30c4e603795ef80e0c113ad9e">Frankgasse</rs> aus kam (per 
+An der Ecke <rs type="place" xml:id="pl_14488" ref="#pmb731">Garnison-</rs> <rs type="place" xml:id="pl_14489" ref="#pmb92140">Alserstraße</rs>, wohin ich von <rs type="place" xml:id="pl_14490" ref="#pmb397">Frankgasse</rs> aus kam (per 
 Tram?) und ausstieg, geschah irgend was, weiß nicht mehr was, aber es hatte 
 irgend eine günstige Bedeutung, ich war eilig und agil. (Beide <rs type="work" subtype="self" xml:id="bibl_1553">Novellen</rs> 
 spielen in diesen Traum hinein.) ― ―</p>
@@ -211,6 +215,5 @@ wahrscheinlich nur ein (Halb-?) Jude schreiben kann. Übrigens ist er 1914
 beendet.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

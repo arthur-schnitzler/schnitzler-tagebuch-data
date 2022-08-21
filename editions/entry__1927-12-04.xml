@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-12-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-12-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-12-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-12-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-12-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-12-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1758-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7002.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1927-12-04">
-            <p xml:space="preserve"><date when="1927-12-04">4/12</date> S. <rs type="place" xml:id="pl_17721" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>. Vm. bei <rs type="person" xml:id="pNt_82417" ref="#person_18137"><forename>Dora</forename></rs>. Mit ihr und ihrem Mann spazieren.</p>
+            <p xml:space="preserve"><date when="1927-12-04">4/12</date> S. <rs type="place" xml:id="pl_17721" ref="#pmb168">Berlin</rs>. Vm. bei <rs type="person" xml:id="pNt_82417" ref="#person_18137"><forename>Dora</forename></rs>. Mit ihr und ihrem Mann spazieren.</p>
             <p xml:space="preserve" rend="indent">Zu Tisch bei <rs type="person" xml:id="pNt_82418" ref="#person_18793"><surname>Pietrkowski</surname></rs>; wo <rs type="person" xml:id="pNt_82419" ref="#person_19832"><forename>O.</forename></rs>, <rs type="person" xml:id="pNt_82420" ref="#person_19822"><forename>Heini</forename></rs>, <rs type="person" xml:id="pNt_82421" ref="#person_18832"><roleName>Prof.</roleName> <surname>Plesch</surname></rs> (Internist) Frau u. a. 
 ― Mit <rs type="person" xml:id="pNt_82422" ref="#person_18832"><roleName>Prof.</roleName> <surname>Pl.</surname></rs> (über Alkohol und Nicotin).― Spielte ein wenig Clavier. 
 <rs type="person" xml:id="pNt_82423" ref="#person_13420"><forename>Colette</forename></rs> und <rs type="person" xml:id="pNt_82424" ref="#person_19822"><forename>Heini</forename></rs> Foxtrott Gesang und Clavier.</p>
@@ -191,6 +195,5 @@ genachtm. N. d. N. <rs type="person" xml:id="pNt_82428" ref="#person_21107"><for
 Unterhaltung, besonders über Psychoanalyse, <rs type="person" xml:id="pNt_82431" ref="#person_15172"><surname>Freud</surname></rs> u. a.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

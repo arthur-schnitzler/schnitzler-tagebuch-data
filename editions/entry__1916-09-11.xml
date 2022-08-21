@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1916-09-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-09-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-09-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1916-09-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-09-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-09-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0757-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,15 +177,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4320.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4321.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1916-09-11">
-            <p xml:space="preserve"><date when="1916-09-11">11/9</date> Früh nach <rs type="place" xml:id="pl_10172" ref="#place_c38ad36647aca0261d667c432a4866bd">Salzburg</rs>. Europe. Nm. um 4 kam O. aus <rs type="place" xml:id="pl_10173" ref="#place_300a9ca833420adc130ce572f2d757fd">Tutzing</rs> 
+            <p xml:space="preserve"><date when="1916-09-11">11/9</date> Früh nach <rs type="place" xml:id="pl_10172" ref="#pmb91649">Salzburg</rs>. Europe. Nm. um 4 kam O. aus <rs type="place" xml:id="pl_10173" ref="#pmb44493">Tutzing</rs> 
 zurück; erwartete sie oben, beim Grenzschutz.― Wir waren beide sehr 
 froh uns wiederzuhaben. Im Hotel erzählt sie mir. <rs type="person" xml:id="pNt_48734" ref="#person_20386"><forename>Liesls</forename></rs> Befinden recht 
 mäßig, sie spricht viel von ihrem Ende, aber ist doch eigentlich recht 
@@ -196,9 +201,10 @@ Wurzel: das Erlebnis;― bei diesen ― der Betrieb.― Meine liter. Stellung
 hätte ich mir durch ― <rs type="work" subtype="self" xml:id="bibl_7582">K. d. W.</rs> gewissermaßen verschlechtert (bei einer 
 gewissen Clique ― wo ich mir in den nächsten Jahren durch jedes neue 
 Werk meine Stellung „verschlechtern“ werde).― Hier sind ewige 
-Gesetze wirksam.― ― Die Verpflegungsverhältnisse in <rs type="place" xml:id="pl_10174" ref="#place_300a9ca833420adc130ce572f2d757fd">Tutzing</rs> sehr gut. Die 
+Gesetze wirksam.― ― Die Verpflegungsverhältnisse in <rs type="place" xml:id="pl_10174" ref="#pmb44493">Tutzing</rs> sehr gut. Die 
 Kriegsstimmung wie es scheint besser als bei uns.―</p>
             <p xml:space="preserve" rend="indent">Nach dem Nachtm. <rs type="person" xml:id="pNt_48743" ref="#person_19675"><roleName>Hr.</roleName> <surname>Scheyer</surname></rs>.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

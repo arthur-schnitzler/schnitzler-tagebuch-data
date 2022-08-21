@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-03-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-03-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-03-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1906-03-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-03-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-03-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F888-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2205.tif"/>
@@ -180,7 +184,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1906-03-19">
-            <p xml:space="preserve"><date when="1906-03-19">19/3</date> Vm. in <rs type="place" xml:id="pl_05480" ref="#place_3962fe91966640892c61d1838300ed1a">St. Veit</rs> bei <rs type="person" xml:id="pNt_24617" ref="#person_13374"><surname>Bahr</surname></rs>. Er geht im Oktober „als Direktor“ wie er 
+            <p xml:space="preserve"><date when="1906-03-19">19/3</date> Vm. in <rs type="place" xml:id="pl_05480" ref="#pmb91377">St. Veit</rs> bei <rs type="person" xml:id="pNt_24617" ref="#person_13374"><surname>Bahr</surname></rs>. Er geht im Oktober „als Direktor“ wie er 
 sagt, zu <rs type="person" xml:id="pNt_24618" ref="#person_19154"><surname>Reinhardt</surname></rs>.― Über <rs type="person" xml:id="pNt_24619" ref="#person_15919"><surname>Harden</surname></rs> etc.―</p>
             <p xml:space="preserve" rend="indent">― Mtg. <rs type="person" xml:id="pNt_24620" ref="#person_16130"><roleName>Fr.</roleName> <surname>Hertwig</surname></rs> da, welche uns photographirte.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_14849">Roman</rs>, mühsam und stimmunglos.― Schwere hypochondr. Stimmung, 
@@ -189,6 +193,5 @@ durchs Ohr gesteigert bis zur Verzweiflung.―</p>
 und Frau, ein <rs type="person" xml:id="pNt_24626" ref="#person_19342"><roleName>Dr.</roleName> <surname>Ron</surname></rs> genachtm.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

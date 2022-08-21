@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-11-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-11-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-11-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-11-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-11-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-11-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-102A-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5901.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1922-11-20">
-            <p xml:space="preserve"><date when="1922-11-20">20/11</date> Preßpolemik wegen <rs type="place" xml:id="pl_14410" ref="#place_c895460d8e2f632d0cf203ee6ce63c2c">Teplitz</rs> geht weiter;― der Protest der dreißig 
+            <p xml:space="preserve"><date when="1922-11-20">20/11</date> Preßpolemik wegen <rs type="place" xml:id="pl_14410" ref="#pmb955">Teplitz</rs> geht weiter;― der Protest der dreißig 
 antisemitischen Vereine gegen mich. (Ein Abgrund von Dummheit und 
 Heuchelei.)</p>
             <p xml:space="preserve" rend="indent">― Dictirt Briefe, und <rs type="work" subtype="self" xml:id="bibl_2914">Tgb.</rs> Auszüge.―</p>
@@ -189,6 +193,5 @@ Heuchelei.)</p>
             <p xml:space="preserve" rend="indent">Z. N. bei <rs type="person" xml:id="pNt_67874" ref="#person_19827"><forename>Julius’</forename></rs>. <rs type="person" xml:id="pNt_67875" ref="#person_19681"><roleName>Prof.</roleName> <surname>Schiff</surname></rs> etc. Etwas Musik.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

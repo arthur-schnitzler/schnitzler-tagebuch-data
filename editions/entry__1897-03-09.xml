@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1897-03-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-03-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-03-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1897-03-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-03-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-03-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EC25-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1309.tif"/>
@@ -182,7 +186,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1897-03-09">
             <p xml:space="preserve"><date when="1897-03-09">9/3</date> Mit <rs type="person" xml:id="pNt_13691" ref="#person_19150"><forename>Mz.</forename> <surname>Rh.</surname></rs>― <rs type="person" xml:id="pNt_13692" ref="#person_16222"><forename>Georg</forename> <surname>Hirschfeld</surname></rs> kommt an. „<rs type="work" xml:id="bibl_21588">Versunkene Glocke</rs>“
-Burg.― <rs type="person" xml:id="pNt_13693" ref="#person_16222"><surname>Hirschfeld</surname></rs>, <rs type="person" xml:id="pNt_13694" ref="#person_13251"><surname>Armant</surname></rs> (<rs type="place" xml:id="pl_02541" ref="#place_d0a6343a081a7335baa965ce4fd0845c">München</rs>) soup.</p>
+Burg.― <rs type="person" xml:id="pNt_13693" ref="#person_16222"><surname>Hirschfeld</surname></rs>, <rs type="person" xml:id="pNt_13694" ref="#person_13251"><surname>Armant</surname></rs> (<rs type="place" xml:id="pl_02541" ref="#pmb45258">München</rs>) soup.</p>
             <pb n="241"/>
             <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header">
                <fw place="top_center">
@@ -192,6 +196,5 @@ Burg.― <rs type="person" xml:id="pNt_13693" ref="#person_16222"><surname>Hirsc
             </tei:fw>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

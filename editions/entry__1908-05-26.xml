@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-05-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-05-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FB83-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2512.tif"/>
@@ -182,11 +186,10 @@
          <div type="diary-day" xml:id="entry__1908-05-26">
             <p xml:space="preserve"><date when="1908-05-26">26/5</date> Vm. allein <rs type="place" xml:id="pl_06334" ref="#place_aced77fcb653c3216ac883df10617126" ana="#exclude">Pötzleinsdorfer</rs> Wald, über <rs type="work" subtype="self" xml:id="bibl_13426">Bernhardi</rs> meditirt.―</p>
             <p xml:space="preserve" rend="indent">Mittags <rs type="person" xml:id="pNt_28351" ref="#person_15781"><forename>Leonie</forename> <surname>Guttmann</surname></rs> da.― Olga sang.</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_28352" ref="#person_16159"><surname>Herzka</surname></rs> (<rs type="place" ref="#place_volkstheater">Volkstheater</rs>) Besprechung wegen „<rs type="work" subtype="self" xml:id="bibl_13427">Comt. Mizzi</rs>“.</p>
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_28352" ref="#person_16159"><surname>Herzka</surname></rs> (<rs type="place" ref="#pmb92202">Volkstheater</rs>) Besprechung wegen „<rs type="work" subtype="self" xml:id="bibl_13427">Comt. Mizzi</rs>“.</p>
             <p xml:space="preserve" rend="indent">Mit O. und <rs type="person" xml:id="pNt_28353" ref="#person_15781"><forename>Leonie</forename></rs> Lustspielth. „<rs type="work" xml:id="bibl_13428">Förster Christl</rs>“ (<rs type="person" xml:id="pNt_28354" ref="#person_18450"><surname>Niese</surname></rs>), mit <rs type="person" xml:id="pNt_28355" ref="#person_19986"><forename>Gustav</forename></rs> in 
 der Loge; dann alle Eisvogel und Kinematograph.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

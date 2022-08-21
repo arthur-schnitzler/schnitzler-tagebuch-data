@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1890-09-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-09-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-09-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1890-09-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-09-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-09-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E32C-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0481.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1890-09-24">
-            <p xml:space="preserve"><date when="1890-09-24">24.</date> früh bei <rs type="person" xml:id="pNt_04776"><forename>Mz.</forename></rs> ― <rs type="place" xml:id="pl_01001" ref="#place_2005a5064bd432843a583f37a0584417">Gaisberg</rs>.― Bei ihr z. H. (Probe) gewartet ― Tiger 
+            <p xml:space="preserve"><date when="1890-09-24">24.</date> früh bei <rs type="person" xml:id="pNt_04776"><forename>Mz.</forename></rs> ― <rs type="place" xml:id="pl_01001" ref="#pmb90685">Gaisberg</rs>.― Bei ihr z. H. (Probe) gewartet ― Tiger 
 genachtm.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

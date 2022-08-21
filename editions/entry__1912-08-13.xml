@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-08-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-08-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0187-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3459.tif"/>
@@ -184,12 +188,11 @@
          <div type="diary-day" xml:id="entry__1912-08-13">
             <p xml:space="preserve"><date when="1912-08-13">13/8</date> Bei <rs type="person" xml:id="pNt_38609" ref="#person_17444"><roleName>Dr.</roleName> <surname>Lenz</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Am <rs type="work" subtype="self" xml:id="bibl_10442">Bernhardi</rs> ―</p>
-            <p xml:space="preserve" rend="indent">Motorfahrt nach <rs type="place" xml:id="pl_07994" ref="#place_23f6399f9f90c32eb49c09f6d4c245c3">Barbariga</rs>. (Fort.) Die Offiziere. Spaziergang am 
+            <p xml:space="preserve" rend="indent">Motorfahrt nach <rs type="place" xml:id="pl_07994" ref="#pmb90310">Barbariga</rs>. (Fort.) Die Offiziere. Spaziergang am 
 Meer. Das Leben dort. Jause in der Cantine, mitgebracht. Rückfahrt 
 bei ziemlich bewegter See.― Der komische <rs type="person" xml:id="pNt_38610" ref="#person_18491"><roleName>Ltnt.</roleName> <surname>Nowak</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Nach dem Nachtmahl Mackao (ich, O., <rs type="person" xml:id="pNt_38611" ref="#person_21601"><surname>Zuckerkandl</surname></rs>, <rs type="person" xml:id="pNt_38612" ref="#person_14259"><surname>Colmers</surname></rs>, <rs type="person" xml:id="pNt_38613" ref="#person_19755"><surname>Schmidl</surname></rs>).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

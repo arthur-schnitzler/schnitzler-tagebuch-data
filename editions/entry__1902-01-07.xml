@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1902-01-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-01-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-01-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1902-01-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-01-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-01-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F2AF-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1666.tif"/>
@@ -181,9 +185,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1902-01-07">
-            <p xml:space="preserve"><date when="1902-01-07">7/1</date> <rs type="place" xml:id="pl_03838" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>. Bei <rs type="person" xml:id="pNt_18407" ref="#person_19832"><forename>O.</forename></rs> Vm. und Nm.― <rs type="person" xml:id="pNt_18408" ref="#person_19351"><surname>Rosé</surname></rs>.</p>
+            <p xml:space="preserve"><date when="1902-01-07">7/1</date> <rs type="place" xml:id="pl_03838" ref="#pmb50">Wien</rs>. Bei <rs type="person" xml:id="pNt_18407" ref="#person_19832"><forename>O.</forename></rs> Vm. und Nm.― <rs type="person" xml:id="pNt_18408" ref="#person_19351"><surname>Rosé</surname></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

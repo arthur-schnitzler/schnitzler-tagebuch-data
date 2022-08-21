@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-06-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-06-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-06-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-06-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-06-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-06-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-02BB-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3636.tif"/>
@@ -184,9 +188,8 @@
             <p xml:space="preserve"><date when="1913-06-17">17/6</date> Brief <rs type="person" xml:id="pNt_41002" ref="#person_21602"><forename>Vickis</forename></rs> an O., Vater und Mutter betreffend.―</p>
             <p xml:space="preserve" rend="indent">Vm. im Garten an der <rs type="work" subtype="self" xml:id="bibl_9501">Novelle</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. den „<rs type="work" subtype="self" xml:id="bibl_9502">Weiher</rs>“ überdacht.―</p>
-            <p xml:space="preserve" rend="indent">Mit O. Comfortablefahrt <rs type="place" xml:id="pl_08315" ref="#place_3cd12a15f599840b0400eb546f5793f2">Neustift</rs> etc.―</p>
+            <p xml:space="preserve" rend="indent">Mit O. Comfortablefahrt <rs type="place" xml:id="pl_08315" ref="#pmb91344">Neustift</rs> etc.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

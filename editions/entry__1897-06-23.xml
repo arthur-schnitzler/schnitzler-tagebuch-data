@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1897-06-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-06-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-06-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1897-06-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-06-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-06-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EC8E-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1340.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1897-06-23">
-            <p xml:space="preserve"><date when="1897-06-23">23/6</date> Bic. mit <rs type="person" xml:id="pNt_14118"><surname>Salten</surname></rs> und <rs type="person" xml:id="pNt_14119"><surname>Metzl</surname></rs>, <rs type="place" xml:id="pl_02632" ref="#place_26772cb430822468d91f9978930b32cd">Laxenburg</rs>.― Ich nach <rs type="place" xml:id="pl_02633" ref="#place_0e891dbd1b1814a0cddd64e270c6ffac">Voeslau</rs>.―</p>
-            <p xml:space="preserve" rend="indent">(<rs type="allusively" xml:id="rst_00255">Mama</rs> etc.) Bahn <rs type="place" xml:id="pl_02634" ref="#place_02031ed2507818d10a37c1a6bf0c9f9d">Mödling</rs>; mit <rs type="person" xml:id="pNt_14120"><surname>S.</surname></rs> und <rs type="person" xml:id="pNt_14121"><surname>M.</surname></rs> nach <rs type="place" xml:id="pl_02635" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.</p>
+            <p xml:space="preserve"><date when="1897-06-23">23/6</date> Bic. mit <rs type="person" xml:id="pNt_14118"><surname>Salten</surname></rs> und <rs type="person" xml:id="pNt_14119"><surname>Metzl</surname></rs>, <rs type="place" xml:id="pl_02632" ref="#pmb53786">Laxenburg</rs>.― Ich nach <rs type="place" xml:id="pl_02633" ref="#pmb992">Voeslau</rs>.―</p>
+            <p xml:space="preserve" rend="indent">(<rs type="allusively" xml:id="rst_00255">Mama</rs> etc.) Bahn <rs type="place" xml:id="pl_02634" ref="#pmb968">Mödling</rs>; mit <rs type="person" xml:id="pNt_14120"><surname>S.</surname></rs> und <rs type="person" xml:id="pNt_14121"><surname>M.</surname></rs> nach <rs type="place" xml:id="pl_02635" ref="#pmb50">Wien</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

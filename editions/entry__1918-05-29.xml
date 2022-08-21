@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-05-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-05-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-05-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-05-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-05-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-05-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-09C7-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4644.tif"/>
@@ -188,7 +192,7 @@ pathologischen Elemente mit aller Klarheit auseinandergehalten. Nein
 und hundert Mal nein;― es wäre nicht nöthig!</p>
             <p xml:space="preserve" rend="indent">Dictirt Briefe u. dergl.;― eigentlich nichts.―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_53321" ref="#person_19874"><surname>Schott</surname></rs>; der den <rs type="work" subtype="self" xml:id="bibl_5609">Medardus</rs> gelesen hatte. Allerlei übers 
-<rs type="place" ref="#place_burgtheater">Burgtheater</rs>.―</p>
+<rs type="place" ref="#pmb14">Burgtheater</rs>.―</p>
             <p xml:space="preserve" rend="indent">Palais <rs type="person" xml:id="pNt_53322" ref="#person_13306"><surname>Auersperg</surname></rs>, Figurinenausstellung etc. zu Kriegsfürsorgezweck. 
 Sehr „mondän“. Frau <rs type="person" xml:id="pNt_53323" ref="#person_19501"><forename>Emmy</forename> <surname>Sachs</surname></rs> führt mich herum; stellt mir einige 
 Gräfinnen vor. Macht mir Mittheilung von der Verlobung ihrer Schwester 
@@ -203,6 +207,5 @@ Kleine Mädchen oben spielend.―</p>
             <p xml:space="preserve" rend="indent">Lese <rs type="person" xml:id="pNt_53331"><forename>P.</forename> <surname>A.</surname></rs>, <rs type="work" xml:id="bibl_5610">Vita ipsa</rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

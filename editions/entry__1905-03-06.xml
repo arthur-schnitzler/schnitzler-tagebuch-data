@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-03-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-03-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-03-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-03-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-03-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-03-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F70F-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2052.tif"/>
@@ -180,10 +184,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1905-03-06">
-            <p xml:space="preserve"><date when="1905-03-06">6/3</date> Ging und fuhr tramway <rs type="place" xml:id="pl_05088" ref="#place_abb342bac0e91a48251f9a382d6df167">Villefranche</rs> ― <rs type="place" xml:id="pl_05089" ref="#place_3856f54edc335918dc266c16a0827c90">Eze</rs> ― <rs type="place" xml:id="pl_05090" ref="#place_d6a297c6193fd59309453a0db7a51b90">Monaco</rs> ― <rs type="place" xml:id="pl_05091" ref="#place_bd252a07287728930fd4a0849c16f60b">Monte Carlo</rs> 
-― <rs type="place" xml:id="pl_05092" ref="#place_64fd5297d702bf1f9d2c338cea86ccc3">Martin</rs> ― <rs type="place" xml:id="pl_05093" ref="#place_fd90af29b9843498b46c03408c979372">Mentone</rs> (Mittag) ― <rs type="place" xml:id="pl_05094" ref="#place_bd252a07287728930fd4a0849c16f60b">Monte Carlo</rs>. <rs type="place" xml:id="pl_05095" ref="#place_abb342bac0e91a48251f9a382d6df167">Villefranche</rs>.― Abfahrt</p>
+            <p xml:space="preserve"><date when="1905-03-06">6/3</date> Ging und fuhr tramway <rs type="place" xml:id="pl_05088" ref="#pmb51666">Villefranche</rs> ― <rs type="place" xml:id="pl_05089" ref="#pmb90611">Eze</rs> ― <rs type="place" xml:id="pl_05090" ref="#pmb91267">Monaco</rs> ― <rs type="place" xml:id="pl_05091" ref="#pmb5862">Monte Carlo</rs> 
+― <rs type="place" xml:id="pl_05092" ref="#pmb90442">Martin</rs> ― <rs type="place" xml:id="pl_05093" ref="#pmb36456">Mentone</rs> (Mittag) ― <rs type="place" xml:id="pl_05094" ref="#pmb5862">Monte Carlo</rs>. <rs type="place" xml:id="pl_05095" ref="#pmb51666">Villefranche</rs>.― Abfahrt</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

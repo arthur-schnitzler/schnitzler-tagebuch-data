@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-05-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-05-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-05-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-05-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-05-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-05-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0F79-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5724.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1922-05-27">
-            <p xml:space="preserve"><date when="1922-05-27">27/5</date> Vm. Notar (wegen <rs type="place" xml:id="pl_13922" ref="#place_e5e72ce64abf0b0be68d544840ab0cbf">Rumaenien</rs>), Bank (<rs type="person" xml:id="pNt_66205" ref="#person_17425"><surname>Leitner</surname></rs>) ― begegne <rs type="person" xml:id="pNt_66206" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs> ganz 
+            <p xml:space="preserve"><date when="1922-05-27">27/5</date> Vm. Notar (wegen <rs type="place" xml:id="pl_13922" ref="#pmb378">Rumaenien</rs>), Bank (<rs type="person" xml:id="pNt_66205" ref="#person_17425"><surname>Leitner</surname></rs>) ― begegne <rs type="person" xml:id="pNt_66206" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs> ganz 
 zufällig an der Stelle wo wir einander Rendezvous geben wollten aber davon 
 abkamen ― begleite sie durch die Stadt, zu <rs type="org">Backhausen</rs> (Stoff) ― ― zu ihrer 
 Schwester <rs type="person" xml:id="pNt_66208"><forename>Mizi</forename></rs> (Modesalon),― in die Wohnung ihrer Tante gleiches Haus, wo 
@@ -194,6 +198,5 @@ war <rs type="person" xml:id="pNt_66212" ref="#person_19822"><forename>Heini</fo
 als erste Rolle ― gleich den „<rs type="person" xml:id="pNt_66214"><forename>Hugo</forename></rs>“ im <rs type="work" subtype="self" xml:id="bibl_2564">Vermächtnis</rs> spielen. Bedenken.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

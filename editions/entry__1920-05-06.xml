@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-05-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-05-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-05-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1920-05-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-05-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-05-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0C8A-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5091.tif"/>
@@ -184,12 +188,11 @@
             <p xml:space="preserve"><date when="1920-05-06">6/5</date> Behandlung wie gestern, diktiert Briefe.</p>
             <p xml:space="preserve" rend="indent">Nachmittag <rs type="person" xml:id="pNt_58762" ref="#person_13681"><forename>Hermann</forename> <surname>Bernstein</surname></rs> vom <rs type="work" subtype="newspaper" xml:id="bibl_4058">New-York-American</rs>, wünscht 
 zuerst von mir Prophezeiungen, was ich ziemlich ablehne, erzählt 
-allerlei aus dem bolschewistischen <rs type="place" xml:id="pl_12241" ref="#place_65f7b8e17e93bc2a87843d99e82c08a5">Russland</rs>. Dann Literarisches. 
+allerlei aus dem bolschewistischen <rs type="place" xml:id="pl_12241" ref="#pmb34438">Russland</rs>. Dann Literarisches. 
 Auch er will zum Teil meine Interessen vertreten. Weltläufiger 
 Journalist von respektablem Format.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_58763" ref="#person_19822"><forename>Heini</forename></rs> Konzert <rs type="person" xml:id="pNt_58764" ref="#person_17053"><surname>Kornauth</surname></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

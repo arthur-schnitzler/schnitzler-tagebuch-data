@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-05-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-05-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-05-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-05-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-05-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-05-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1965-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7287.tif"/>
@@ -182,17 +186,16 @@
       <body>
          <div type="diary-day" xml:id="entry__1929-05-12">
             <p xml:space="preserve"><date when="1929-05-12">12/5</date> S.― Früh in etwas besserem Zustand.</p>
-            <p xml:space="preserve" rend="indent"><rs ref="#person_14482" type="person" xml:id="pNt_86718"><forename>Ferry</forename></rs> kam. Frage der <rs type="place" xml:id="pl_18649" ref="#place_ccd2a8ffe72453fd32a08412ff1ff875">Wörthersee</rs> Reise. Langes Gespräch über 
+            <p xml:space="preserve" rend="indent"><rs ref="#person_14482" type="person" xml:id="pNt_86718"><forename>Ferry</forename></rs> kam. Frage der <rs type="place" xml:id="pl_18649" ref="#pmb430">Wörthersee</rs> Reise. Langes Gespräch über 
 vergangnes.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_86719" ref="#person_19832"><forename>O.</forename></rs> telef. aus <rs type="place" xml:id="pl_18650" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> (da <rs type="person" xml:id="pNt_86720" ref="#person_13730"><roleName>Prof.</roleName> <surname>Billiter</surname></rs>, von <rs type="person" xml:id="pNt_86721" ref="#person_19802"><roleName>Frau</roleName> <forename>Ditta</forename></rs>, die gestern telef. 
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_86719" ref="#person_19832"><forename>O.</forename></rs> telef. aus <rs type="place" xml:id="pl_18650" ref="#pmb168">Berlin</rs> (da <rs type="person" xml:id="pNt_86720" ref="#person_13730"><roleName>Prof.</roleName> <surname>Billiter</surname></rs>, von <rs type="person" xml:id="pNt_86721" ref="#person_19802"><roleName>Frau</roleName> <forename>Ditta</forename></rs>, die gestern telef. 
 informirt, von ev. Verschiebung meiner Reise gesprochen); ich antwortete 
 beruhigend.―</p>
-            <p xml:space="preserve" rend="indent">Zu <rs type="person" xml:id="pNt_86722" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Autofahrt (trüb, Regen) <rs type="place" xml:id="pl_18651" ref="#place_3b0cf80ce6f7c6e0340cf31265c8f3f7">Sievring</rs> ― (<rs type="place" xml:id="pl_18652" ref="#place_79569c4d5a6b9125210394665c1e4f3f">Weidling</rs>) ― <rs type="place" xml:id="pl_18653" ref="#place_a3c879a4f19e7987aa5aa1f1b929b0da">Klosterneuburg</rs> 
+            <p xml:space="preserve" rend="indent">Zu <rs type="person" xml:id="pNt_86722" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Autofahrt (trüb, Regen) <rs type="place" xml:id="pl_18651" ref="#pmb64219">Sievring</rs> ― (<rs type="place" xml:id="pl_18652" ref="#pmb44392">Weidling</rs>) ― <rs type="place" xml:id="pl_18653" ref="#pmb865">Klosterneuburg</rs> 
 ― aß bei ihr.―</p>
             <p xml:space="preserve" rend="indent">Nm. Zeitungen; in tiefer Depression. Schrieb an <rs type="person" xml:id="pNt_86723" ref="#person_19832"><forename>O.</forename></rs> (beruhigend).</p>
             <p xml:space="preserve" rend="indent">Z. N. <rs type="person" xml:id="pNt_86724" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>, <rs type="person" xml:id="pNt_86725" ref="#person_18881"><forename>Kolap</forename></rs> und Bruder.― Schwere Depression.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

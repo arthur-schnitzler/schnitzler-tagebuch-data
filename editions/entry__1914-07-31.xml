@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-07-31.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-07-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-08-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-07-31.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-07-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-08-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0453-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3860.tif"/>
@@ -185,12 +189,11 @@
             <p xml:space="preserve"><date when="1914-07-31">31/7</date> Vm. an der Bahn vergeblich <rs type="person" xml:id="pNt_43846" ref="#person_13428"><surname>Barnowsky</surname></rs> erwartet.―</p>
             <p xml:space="preserve" rend="indent">Kriegs und Mobilis. Nachr.―</p>
             <p xml:space="preserve" rend="indent">Am „<rs type="work" subtype="self" xml:id="bibl_8953">Bachusfest</rs>“.―</p>
-            <p xml:space="preserve" rend="indent">Nm. kommt <rs type="person" xml:id="pNt_43847" ref="#person_13428"><surname>Barnowsky</surname></rs>; aus <rs type="place" xml:id="pl_08847" ref="#place_ed6893b78d32ca570adf82aa6fe6e5be">Pontresina</rs>; ― sehr erregt, wegen Kriegsgefahr.― 
-Spaziergang nach <rs type="place" xml:id="pl_08848" ref="#place_0a16bce3e470dfab76d6a8c529e2725d">Samaden</rs>, auf dem wir Besetzungs- und Inszenirungsfragen 
+            <p xml:space="preserve" rend="indent">Nm. kommt <rs type="person" xml:id="pNt_43847" ref="#person_13428"><surname>Barnowsky</surname></rs>; aus <rs type="place" xml:id="pl_08847" ref="#pmb34946">Pontresina</rs>; ― sehr erregt, wegen Kriegsgefahr.― 
+Spaziergang nach <rs type="place" xml:id="pl_08848" ref="#pmb44306">Samaden</rs>, auf dem wir Besetzungs- und Inszenirungsfragen 
 des „<rs type="work" subtype="self" xml:id="bibl_8954">Medardus</rs>“ besprechen. Wenn er überhaupt spielen kann, glaubt er 
 kann ihm nur der <rs type="work" subtype="self" xml:id="bibl_8955">Med.</rs> (als quasi „actuell“) helfen.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

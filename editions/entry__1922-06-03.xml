@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-06-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-06-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-06-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-06-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-06-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-06-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0F80-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5731.tif"/>
@@ -181,17 +185,16 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1922-06-03">
-            <p xml:space="preserve"><date when="1922-06-03">3/6</date> Vm. bei <rs type="person" xml:id="pNt_66294" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs>;― sie fahren heute nach <rs type="place" xml:id="pl_13938" ref="#place_5884bac5272bf94a2487941d33f4ddc1">Payerbach</rs>.―</p>
+            <p xml:space="preserve"><date when="1922-06-03">3/6</date> Vm. bei <rs type="person" xml:id="pNt_66294" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs>;― sie fahren heute nach <rs type="place" xml:id="pl_13938" ref="#pmb948">Payerbach</rs>.―</p>
             <p xml:space="preserve" rend="indent">― Begegnung mit <rs type="person" xml:id="pNt_66295" ref="#person_19823"><forename>Helene</forename></rs>;― sprachen lang über <rs type="person" xml:id="pNt_66296" ref="#person_19832"><forename>O.</forename></rs>, und das Gerücht ihrer 
 Wiederkehr ―</p>
             <p xml:space="preserve" rend="indent">Zum Thee <rs ref="#person_17031" type="person" xml:id="pNt_66297"><roleName>Dr.</roleName> <surname>v. Koos</surname></rs> und Frau (Cellistin); über das project. 
-<rs type="place" ref="#place_burgtheater">Burgtheater</rs>gastspiel <rs type="place" xml:id="pl_13939" ref="#place_67eb2b8d0aab60ec69666532ff9527c9">Holland</rs>.―</p>
+<rs type="place" ref="#pmb14">Burgtheater</rs>gastspiel <rs type="place" xml:id="pl_13939" ref="#pmb44016">Holland</rs>.―</p>
             <p xml:space="preserve" rend="indent">Maler <rs type="person" xml:id="pNt_66298" ref="#person_16377"><surname>Horovitz</surname></rs> zeigt mir eine mäßig gelungene Skizze zu „<rs type="work" subtype="self" xml:id="bibl_2578">Lebendige 
 Stunden</rs>“; bringt mir zur Auswahl Holzschnitte etc., ich wähle eine 
-schöne Farbenlithographie <rs type="place" xml:id="pl_13940" ref="#place_1d4660e0a445b02912a96b0ac4fe036a">Haag</rs>.―</p>
+schöne Farbenlithographie <rs type="place" xml:id="pl_13940" ref="#pmb58810">Haag</rs>.―</p>
             <p xml:space="preserve" rend="indent">― Ordnete.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

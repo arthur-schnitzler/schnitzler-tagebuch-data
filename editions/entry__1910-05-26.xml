@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-05-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-05-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-05-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-05-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-05-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-05-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FE5D-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2911.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1910-05-26">
-            <p xml:space="preserve"><date when="1910-05-26">26/5</date> <rs type="place" xml:id="pl_07059" ref="#place_906e621d0a453fe7be4c326293881c73">Interlaken</rs> ― <rs type="place" xml:id="pl_07060" ref="#place_c520d422acee0fd1ebc1ad9acdb6165c">Zweisimmen</rs> ― <rs type="place" xml:id="pl_07061" ref="#place_f197524aef7e6b2ee8b3196b6ca91c61">Territet</rs> (Hotel des Alpes). Spazieren 
-gegen <rs type="place" xml:id="pl_07062" ref="#place_399116a8917dd71d678d79151b93bbed">Chillon</rs>.―</p>
+            <p xml:space="preserve"><date when="1910-05-26">26/5</date> <rs type="place" xml:id="pl_07059" ref="#pmb916">Interlaken</rs> ― <rs type="place" xml:id="pl_07060" ref="#pmb48715">Zweisimmen</rs> ― <rs type="place" xml:id="pl_07061" ref="#pmb52051">Territet</rs> (Hotel des Alpes). Spazieren 
+gegen <rs type="place" xml:id="pl_07062" ref="#pmb90472">Chillon</rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

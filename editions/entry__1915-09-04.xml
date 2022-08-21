@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-09-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-09-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-09-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1915-09-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-09-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-09-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-05E2-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4094.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1915-09-04">
-            <p xml:space="preserve"><date when="1915-09-04">4/9</date> Spaziergang im Herbstwetter <rs type="place" xml:id="pl_09555" ref="#place_3b0cf80ce6f7c6e0340cf31265c8f3f7">Sievering</rs> ― <rs type="place" xml:id="pl_09556" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs>. Beinahe 
+            <p xml:space="preserve"><date when="1915-09-04">4/9</date> Spaziergang im Herbstwetter <rs type="place" xml:id="pl_09555" ref="#pmb64219">Sievering</rs> ― <rs type="place" xml:id="pl_09556" ref="#pmb169">Pötzleinsdorf</rs>. Beinahe 
 stets zwangshaft meine Beziehung mit O. bedenkend.</p>
             <p xml:space="preserve" rend="indent">― Nm. am <rs type="work" subtype="self" xml:id="bibl_8295">Nachklang</rs>, in dauernd übelm Befinden. <rs type="person" xml:id="pNt_46260" ref="#person_21406"><surname>Wittels</surname></rs> „<rs type="work" xml:id="bibl_8296">sexuelle Not</rs>“ 
 mit Interesse gelesen.―</p>
             <p xml:space="preserve" rend="indent">Nach dem Nachtm. bei <rs type="person" xml:id="pNt_46261" ref="#person_19784"><surname>Schmutzers</surname></rs>. Billard.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

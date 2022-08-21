@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1921-06-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-06-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-06-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1921-06-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-06-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-06-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0E1F-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,12 +177,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5432.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1921-06-15">
             <p xml:space="preserve"><date when="1921-06-15">15/6</date> Früh gepackt.―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_62663" ref="#person_19542"><surname>Salten</surname></rs>; der eben mit <rs type="person" xml:id="pNt_62664" ref="#person_13521"><roleName>Dr.</roleName> <surname>Beda</surname></rs> offenbar am Film beschäftigt war; Adieu 
@@ -188,10 +193,11 @@ sagen.―</p>
 <rs type="person" xml:id="pNt_62666" ref="#person_19835"><surname>Schober</surname></rs> <rs type="work" subtype="self" xml:id="bibl_3378">Reigen</rs> im September wieder gespielt werden dürfte.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_62667" ref="#person_18881"><forename>Kolap</forename></rs> zu Tisch. Die günstige Gestaltung der literar. und finanz. 
 Angelegenheiten. Wär alles andre eben so gut!―</p>
-            <p xml:space="preserve" rend="indent">Ein <rs type="person" xml:id="pNt_62668" ref="#person_16457"><roleName>Herr</roleName> <surname>Ivach</surname></rs> aus <rs type="place" xml:id="pl_13072" ref="#place_a7d5bd23ed772c7010f2f81527d0aad5">Bukarest</rs>; wegen <rs type="work" subtype="self" xml:id="bibl_3379">Reigen</rs>, hatte eben abgeschlossen.―</p>
+            <p xml:space="preserve" rend="indent">Ein <rs type="person" xml:id="pNt_62668" ref="#person_16457"><roleName>Herr</roleName> <surname>Ivach</surname></rs> aus <rs type="place" xml:id="pl_13072" ref="#pmb90411">Bukarest</rs>; wegen <rs type="work" subtype="self" xml:id="bibl_3379">Reigen</rs>, hatte eben abgeschlossen.―</p>
             <p xml:space="preserve" rend="indent">Geordnet.―</p>
             <p xml:space="preserve" rend="indent">Abends zu <rs type="person" xml:id="pNt_62669" ref="#person_18063"><surname>Menczels</surname></rs>. Garten, Bibliothek.―</p>
             <p xml:space="preserve" rend="indent">N. d. N. Pläne durchgesehn.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-09-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-09-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-09-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-09-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-09-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-09-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0480-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3881.tif"/>
@@ -185,7 +189,7 @@
          <div type="diary-day" xml:id="entry__1914-09-14">
             <p xml:space="preserve"><date when="1914-09-14">14/9</date> Mit <rs type="person" xml:id="pNt_44046" ref="#person_19822"><forename>Heini</forename></rs> Zahnarzt. <rs type="person" xml:id="pNt_44047" ref="#person_18722"><surname>Peter</surname></rs> eingerückt;― <rs type="person" xml:id="pNt_44048" ref="#person_16735"><surname>Karolyi</surname></rs> höchst 
 pessimistisch.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_44049" ref="#person_18297"><forename>Hans</forename> <surname>Müller</surname></rs> den ich beim <rs type="place" xml:id="pl_08963" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs> treffe erzählt u. a. Eine 
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_44049" ref="#person_18297"><forename>Hans</forename> <surname>Müller</surname></rs> den ich beim <rs type="place" xml:id="pl_08963" ref="#pmb113">Türkenschanzpark</rs> treffe erzählt u. a. Eine 
 Dame im Cafe Heinrichshof ― erzählt, sie habe beim Labedienst den 
 jüdischen Soldaten natürlich nichts gegeben die sollten überhaupt in 
 der Front ganz vorn stehn um erschossen zu werden;― Erbitterung ― sie 
@@ -201,11 +205,10 @@ Verweigert ihnen Verbandszeug ― Auto;― sowie der auf anderm Weg
 ersuchte <rs type="person" xml:id="pNt_44052" ref="#person_15151"><roleName>Erzh.</roleName> <forename>Salvator</forename></rs> bei der Visite die bezüglichen Aufträge gibt ― 
 der Graf in Habt acht Stellung ― „Sehr wohl ― kaiserliche Hoheit ―“ 
 Und sofort wird alles besorgt!―</p>
-            <p xml:space="preserve" rend="indent">Abend kommen <rs type="person" xml:id="pNt_44053" ref="#person_21602"><forename>Vicki</forename></rs> und <rs type="person" xml:id="pNt_44054" ref="#person_19755"><surname>Schmidl</surname></rs> (aus <rs type="place" xml:id="pl_08964" ref="#place_bba97efdeb45d301a386ddccd28c3bf3">Lunz</rs> zurück). Er ist ärgerlich 
+            <p xml:space="preserve" rend="indent">Abend kommen <rs type="person" xml:id="pNt_44053" ref="#person_21602"><forename>Vicki</forename></rs> und <rs type="person" xml:id="pNt_44054" ref="#person_19755"><surname>Schmidl</surname></rs> (aus <rs type="place" xml:id="pl_08964" ref="#pmb941">Lunz</rs> zurück). Er ist ärgerlich 
 über das ewige Schimpfen der <rs type="place" xml:id="pl_08965" ref="#place_ee4c6f2f0df2cd2abf7db20478cad25d" ana="#exclude">Wiener</rs> ― und nach einer viertel Stunde 
 schimpft er selbst.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

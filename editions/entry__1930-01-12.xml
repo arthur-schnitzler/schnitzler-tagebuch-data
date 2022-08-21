@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-01-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-01-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-01-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-01-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-01-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-01-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1A5A-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,29 +177,31 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7420.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7421.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1930-01-12">
-            <p xml:space="preserve"><date when="1930-01-12">12/1</date> S. <rs type="place" xml:id="pl_19055" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> ― Brief aus <rs type="place" xml:id="pl_19056" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Telef. mit <rs type="person" xml:id="pNt_88725" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> <rs type="place" xml:id="pl_19057" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.</p>
+            <p xml:space="preserve"><date when="1930-01-12">12/1</date> S. <rs type="place" xml:id="pl_19055" ref="#pmb168">Berlin</rs> ― Brief aus <rs type="place" xml:id="pl_19056" ref="#pmb182">Paris</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Telef. mit <rs type="person" xml:id="pNt_88725" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> <rs type="place" xml:id="pl_19057" ref="#pmb50">Wien</rs>.</p>
             <p xml:space="preserve" rend="indent"><rs type="work" subtype="self" xml:id="bibl_809">Pénombre des âmes</rs>, von A. S., übersetzt von <rs type="person" xml:id="pNt_88726" ref="#person_14234"><forename>S.</forename> <surname>C.</surname></rs> ― von <rs type="institution" xml:id="pNt_88727"><surname>Stock</surname></rs> aus 
-<rs type="place" xml:id="pl_19058" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs> gesandt;― die 10 von <rs type="person" xml:id="pNt_88728" ref="#person_14234"><forename>Suz.</forename></rs> übersetzten Novellen.―</p>
+<rs type="place" xml:id="pl_19058" ref="#pmb182">Paris</rs> gesandt;― die 10 von <rs type="person" xml:id="pNt_88728" ref="#person_14234"><forename>Suz.</forename></rs> übersetzten Novellen.―</p>
             <p xml:space="preserve" rend="indent">Zu <rs type="person" xml:id="pNt_88729" ref="#person_14178"><surname>Chapiro</surname></rs> und Frau (schöne Wohnung; das schöne Kind; die schöne 
 Bibliothek).―</p>
             <p xml:space="preserve" rend="indent">Zu <rs type="person" xml:id="pNt_88730" ref="#person_18137"><forename>Dora</forename></rs>. Spaziergang.― Über <rs type="person" xml:id="pNt_88731" ref="#person_19832"><forename>O.s</forename></rs> „Menschenfischerei“.― Und was in 
-<rs type="place" xml:id="pl_19059" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> zu thun?― (Neulich: „Sonderbar,― was ich vor 30 Jahren erstrebt 
+<rs type="place" xml:id="pl_19059" ref="#pmb50">Wien</rs> zu thun?― (Neulich: „Sonderbar,― was ich vor 30 Jahren erstrebt 
 ― <rs type="person" xml:id="pNt_88732" ref="#person_14234"><forename>Suz.</forename></rs> hats jetzt erreicht ―“)</p>
             <p xml:space="preserve" rend="indent">― Zu Tisch bei <rs ref="#person_18140" type="person" xml:id="pNt_88733"><surname>Michaelis</surname></rs>, <rs type="person" xml:id="pNt_88734" ref="#person_19832"><forename>O.</forename></rs>;― Konr. <rs type="person" xml:id="pNt_88735" ref="#person_15906"><surname>Hansen</surname></rs>.―</p>
-            <p xml:space="preserve" rend="indent">Um 6 telef. <rs type="person" xml:id="pNt_88736" ref="#person_14234"><forename>Suz.</forename></rs> aus <rs type="place" xml:id="pl_19060" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Um 6 telef. <rs type="person" xml:id="pNt_88736" ref="#person_14234"><forename>Suz.</forename></rs> aus <rs type="place" xml:id="pl_19060" ref="#pmb182">Paris</rs>.―</p>
             <p xml:space="preserve" rend="indent">Z. N. bei <rs type="person" xml:id="pNt_88737" ref="#person_19832"><forename>O.</forename></rs>, wo <rs type="person" xml:id="pNt_88738" ref="#person_18793"><surname>Pietrkowskis</surname></rs>, <rs type="person" xml:id="pNt_88739" ref="#person_13420"><forename>Colette</forename></rs>, <rs type="person" xml:id="pNt_88740" ref="#person_17037"><forename>Louise</forename> <surname>Koppel</surname></rs>, <rs type="person" xml:id="pNt_88741" ref="#person_21600"><forename>Mimi</forename></rs>; und 
 später auch <rs type="person" xml:id="pNt_88742" ref="#person_21602"><forename>Vicki</forename></rs>, <rs type="person" xml:id="pNt_88743" ref="#person_19822"><forename>Heini</forename></rs>, <rs type="person" xml:id="pNt_88744" ref="#person_15906"><surname>Hansen</surname></rs>.― Müd und schlecht gehört.― 
 <rs type="person" xml:id="pNt_88745" ref="#person_13420"><forename>Colette</forename></rs> jetzt verheiratet, nach schwerer Krankheit (todtes Kind).― 
-Mit <rs type="person" xml:id="pNt_88746" ref="#person_18793"><surname>Pietr.</surname></rs> über Bolschewismus, <rs type="place" xml:id="pl_19061" ref="#place_65f7b8e17e93bc2a87843d99e82c08a5">Rußland</rs>.―</p>
+Mit <rs type="person" xml:id="pNt_88746" ref="#person_18793"><surname>Pietr.</surname></rs> über Bolschewismus, <rs type="place" xml:id="pl_19061" ref="#pmb34438">Rußland</rs>.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

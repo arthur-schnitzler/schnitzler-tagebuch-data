@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-10-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-10-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-10-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-10-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-10-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-10-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-19FD-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7365.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1929-10-11">
-            <p xml:space="preserve"><date when="1929-10-11">11/10</date> Besorgungen (Commercial Cable, Tel. <rs type="place" xml:id="pl_18947" ref="#place_e884124295d0c4d07d9bcf5096fd5495">Amerika</rs> Film), bei <rs type="person" xml:id="pNt_87801" ref="#person_18722"><roleName>Dr.</roleName> <surname>Peter</surname></rs> 
-(<rs type="person" xml:id="pNt_87802" ref="#person_16735"><surname>Karolyi</surname></rs> gesprochen); <rs type="place" xml:id="pl_18948" ref="#place_c8369178c0d715f504a72813045a5cd0">Graben</rs> <rs type="person" xml:id="pNt_87803" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> begegnet, mit ihr herum.―</p>
-            <p xml:space="preserve" rend="indent">In der <rs type="place" xml:id="pl_18949" ref="#place_a9a988302086229505c21f885134919d">Josefstadt</rs>; <rs type="person" xml:id="pNt_87804" ref="#person_15412"><roleName>Dr.</roleName> <surname>Geyer</surname></rs> „<rs type="work" subtype="self" xml:id="bibl_632">Spiel d. Morgl.</rs>“ übergeben.―</p>
+            <p xml:space="preserve"><date when="1929-10-11">11/10</date> Besorgungen (Commercial Cable, Tel. <rs type="place" xml:id="pl_18947" ref="#pmb43406">Amerika</rs> Film), bei <rs type="person" xml:id="pNt_87801" ref="#person_18722"><roleName>Dr.</roleName> <surname>Peter</surname></rs> 
+(<rs type="person" xml:id="pNt_87802" ref="#person_16735"><surname>Karolyi</surname></rs> gesprochen); <rs type="place" xml:id="pl_18948" ref="#pmb90753">Graben</rs> <rs type="person" xml:id="pNt_87803" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> begegnet, mit ihr herum.―</p>
+            <p xml:space="preserve" rend="indent">In der <rs type="place" xml:id="pl_18949" ref="#pmb58">Josefstadt</rs>; <rs type="person" xml:id="pNt_87804" ref="#person_15412"><roleName>Dr.</roleName> <surname>Geyer</surname></rs> „<rs type="work" subtype="self" xml:id="bibl_632">Spiel d. Morgl.</rs>“ übergeben.―</p>
             <p xml:space="preserve" rend="indent">Nm. durchgesehn „<rs type="work" subtype="self" xml:id="bibl_633">Sekundant</rs>“, „<rs type="work" subtype="self" xml:id="bibl_634">Roman</rs>“, sowie 3 Bilder „<rs type="work" subtype="self" xml:id="bibl_635">Zug</rs>“.―</p>
             <p xml:space="preserve" rend="indent">Allein genachtm.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-11-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-10-31.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-11-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-11-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-10-31.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-11-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FC22-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,19 +176,21 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2572.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1908-11-01">
-            <p xml:space="preserve"><date when="1908-11-01">1/11</date> S. Vm. spazieren <rs type="place" xml:id="pl_06489" ref="#place_f5af0e4beb99b2ded62ac5ff72643954">Dornbach</rs>, <rs type="place" xml:id="pl_06490" ref="#place_187ad9aa5bf46727d6f6cd8ad17cad55">Galitzinberg</rs>.</p>
-            <p xml:space="preserve" rend="indent">Zu Tisch <rs type="person" xml:id="pNt_29074" ref="#person_13913"><surname>Brahm</surname></rs> bei uns. Nachher kam <rs type="person" xml:id="pNt_29075" ref="#person_21107"><surname>Wassermann</surname></rs> (aus <rs type="place" xml:id="pl_06491" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> zurück zum 
+            <p xml:space="preserve"><date when="1908-11-01">1/11</date> S. Vm. spazieren <rs type="place" xml:id="pl_06489" ref="#pmb90546">Dornbach</rs>, <rs type="place" xml:id="pl_06490" ref="#pmb90687">Galitzinberg</rs>.</p>
+            <p xml:space="preserve" rend="indent">Zu Tisch <rs type="person" xml:id="pNt_29074" ref="#person_13913"><surname>Brahm</surname></rs> bei uns. Nachher kam <rs type="person" xml:id="pNt_29075" ref="#person_21107"><surname>Wassermann</surname></rs> (aus <rs type="place" xml:id="pl_06491" ref="#pmb168">Berlin</rs> zurück zum 
 Begräbnis seiner zum Fenster hinausgesprungnen Schwägerin <rs type="person" xml:id="pNt_29076" ref="#person_16937"><forename>Sophie</forename> <surname>Knepler</surname></rs>) 
 mit ihm spielten O. und ich Domino.― <rs type="person" xml:id="pNt_29077" ref="#person_13913"><surname>Brahm</surname></rs> blieb auch über Jause und 
 Nachtmahl; es war ganz gemütlich.―</p>
             <p xml:space="preserve" rend="indent">Nachher las ich noch ein paar Mscrpt. Skizzen <rs type="person" xml:id="pNt_29078" ref="#person_14643"><forename>Albert</forename> <surname>Ehrenstein</surname></rs>.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

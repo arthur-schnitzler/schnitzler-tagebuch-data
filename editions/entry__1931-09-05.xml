@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-09-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-09-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-09-06.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1931-09-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-09-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-09-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1CB2-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7773.tif"/>
@@ -181,8 +185,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1931-09-05">
-            <p xml:space="preserve"><date when="1931-09-05">5/9</date> ― <rs type="person" xml:id="pNt_93842" ref="#person_18137"><forename>Dora</forename></rs> tel. aus <rs type="place" xml:id="pl_20145" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_93843" ref="#person_18881"><forename>Kolap</forename></rs> wieder (aus <rs type="place" xml:id="pl_20146" ref="#place_661f4200c3f047474d1df224f62f0503">Aussee</rs>) da.― Dict. Briefe (<rs type="person" xml:id="pNt_93844"><surname>Simon</surname></rs> <rs type="person" xml:id="pNt_93845"><surname>Schuster</surname></rs>,― ― <rs type="person" xml:id="pNt_93846"><surname>Fischer</surname></rs>, 
+            <p xml:space="preserve"><date when="1931-09-05">5/9</date> ― <rs type="person" xml:id="pNt_93842" ref="#person_18137"><forename>Dora</forename></rs> tel. aus <rs type="place" xml:id="pl_20145" ref="#pmb168">Berlin</rs>.―</p>
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_93843" ref="#person_18881"><forename>Kolap</forename></rs> wieder (aus <rs type="place" xml:id="pl_20146" ref="#pmb415">Aussee</rs>) da.― Dict. Briefe (<rs type="person" xml:id="pNt_93844"><surname>Simon</surname></rs> <rs type="person" xml:id="pNt_93845"><surname>Schuster</surname></rs>,― ― <rs type="person" xml:id="pNt_93846"><surname>Fischer</surname></rs>, 
 <rs type="person" xml:id="pNt_93847" ref="#person_13374"><surname>Bahr</surname></rs>);― „<rs type="work" subtype="self" xml:id="bibl_23925">Sekundant</rs>“ neu zu dict. begonnen ―</p>
             <p xml:space="preserve" rend="indent">― Über die finanz. und sonstige Situation.</p>
             <p xml:space="preserve" rend="indent">― Den Nachm. in übelm Befinden verbracht.―</p>
@@ -190,6 +194,5 @@
             <p xml:space="preserve" rend="indent">― An <rs type="person" xml:id="pNt_93848" ref="#person_19822"><forename>Heini</forename></rs> Bericht über <rs type="work" xml:id="bibl_23927">Komparserie</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

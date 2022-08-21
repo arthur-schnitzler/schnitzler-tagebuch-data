@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-08-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-08-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-08-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-08-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-08-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-08-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F7B5-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,20 +176,22 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2114.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1905-08-20">
-            <p xml:space="preserve"><date when="1905-08-20">20/8</date> Früh (10.20) allein nach <rs type="place" xml:id="pl_05281" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.― Südbh. gegessen.―</p>
+            <p xml:space="preserve"><date when="1905-08-20">20/8</date> Früh (10.20) allein nach <rs type="place" xml:id="pl_05281" ref="#pmb50">Wien</rs>.― Südbh. gegessen.―</p>
             <p xml:space="preserve" rend="indent">Nm. Zeitungen gelesen. Correctur von <rs type="work" subtype="self" xml:id="bibl_15851">N. E.</rs>, das nun, über <rs type="work" subtype="self" xml:id="bibl_15852">Caecilie 
 Adams</rs>, …“ <rs type="work" subtype="self" xml:id="bibl_15853">Nicht mehr zu dir zu gehn</rs>“ … <rs type="work" subtype="self" xml:id="bibl_15854">Adagio</rs> ― zu dem 
 Titel „<rs type="work" subtype="self" xml:id="bibl_15855">Zwischenspiel</rs>“ gelangt ist. Ich las es nicht ohne Mißbehagen.― 
-Im <rs type="place" xml:id="pl_05282" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs> genachtmahlt.―</p>
+Im <rs type="place" xml:id="pl_05282" ref="#pmb113">Türkenschanzpark</rs> genachtmahlt.―</p>
             <p xml:space="preserve" rend="indent">Dann das <rs type="work" subtype="self" xml:id="bibl_15856">Tgb.</rs> weiter: Ende 95, erste Hälfte 96.― Beginn des 
 Bekanntwerdens, und nie stand es mit der Productivität schlechter.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

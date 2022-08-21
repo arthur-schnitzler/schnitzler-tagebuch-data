@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-09-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-09-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-09-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-09-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-09-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-09-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1878-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,20 +177,22 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7165.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7166.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1928-09-17">
             <p xml:space="preserve"><date when="1928-09-17">17/9</date> Dictirt „<rs type="work" subtype="self" xml:id="bibl_19651">Zug</rs>“ 7. Bild.―</p>
             <p xml:space="preserve" rend="indent">Nm. beschäftigt mit „<rs type="work" subtype="self" xml:id="bibl_19652">Spiel der Sommerlüfte</rs>“.</p>
             <p xml:space="preserve" rend="indent">Z. N. <rs ref="#person_19802" type="person" xml:id="pNt_84783"><forename>Ditta</forename> <surname>Schneider</surname></rs>. Viel über <rs type="person" xml:id="pNt_84784" ref="#person_19832"><forename>O.</forename></rs>― <rs type="person" xml:id="pNt_84785" ref="#person_19832"><forename>D.</forename></rs> hatte ihr geschrieben, 
-dass es das richtigste sei, jetzt <rs type="place" xml:id="pl_18293" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>; kurz nicht Zusammenziehn 
+dass es das richtigste sei, jetzt <rs type="place" xml:id="pl_18293" ref="#pmb168">Berlin</rs>; kurz nicht Zusammenziehn 
 mit mir das Wort geredet;― seither ist <rs type="person" xml:id="pNt_84786" ref="#person_19832"><forename>O.</forename></rs> stumm. Dann erzählte sie 
 mir viel aus ihrem Leben.― Und immer wieder sprachen wir über <rs type="person" xml:id="pNt_84787" ref="#person_14130"><forename>Lili</forename></rs>.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

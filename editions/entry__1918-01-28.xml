@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-01-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-01-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-01-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-01-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-01-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-01-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-094E-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4591.tif"/>
@@ -182,7 +186,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1918-01-28">
             <p xml:space="preserve"><date when="1918-01-28">28/1</date> Dict. Skizze <rs type="work" subtype="self" xml:id="bibl_5303">Verf.</rs> 3. Akt.</p>
-            <p xml:space="preserve" rend="indent">Hr. <rs type="person" xml:id="pNt_52495" ref="#person_18194"><forename>Otto</forename> <surname>Mittler</surname></rs>, Marine Ingenieur, aus <rs type="place" xml:id="pl_10855" ref="#place_9219ee9e1eb760ce3bd97532b5ca05e1">Pola</rs> (der mir seine begabten 
+            <p xml:space="preserve" rend="indent">Hr. <rs type="person" xml:id="pNt_52495" ref="#person_18194"><forename>Otto</forename> <surname>Mittler</surname></rs>, Marine Ingenieur, aus <rs type="place" xml:id="pl_10855" ref="#pmb851">Pola</rs> (der mir seine begabten 
 <rs type="person" xml:id="pNt_52496" ref="#person_18621"><surname>Ovidübersetzungen</surname></rs> geschickt hat, im Mscrpt.);― Gespräch ging etwas 
 mühselig, wohl auch wegen meiner Übelhörigkeit.―</p>
             <p xml:space="preserve" rend="indent">Nm. Notizen zu <rs type="work" subtype="self" xml:id="bibl_5304">Nachkl.</rs>―</p>
@@ -192,6 +196,5 @@ Schauspielerei, Eitelkeit und Schamlosigkeit (als Kategorien); über <rs type="p
 und <rs type="person" xml:id="pNt_52501" ref="#person_20530"><surname>Strindberg</surname></rs>.― Sympathisch, gar nicht dumm.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

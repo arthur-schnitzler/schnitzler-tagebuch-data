@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-04-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-04-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-04-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1931-04-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-04-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-04-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1C2E-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7688.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1931-04-26">
-            <p xml:space="preserve"><date when="1931-04-26">26/4</date> S. Tel. mit <rs type="person" xml:id="pNt_92713" ref="#person_19832"><forename>O.</forename></rs> <rs type="place" xml:id="pl_19867" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>, die bald nach <rs type="place" xml:id="pl_19868" ref="#place_ff6b92568f199b01f10dd417db89f87d">Franzensbad</rs> geht.―</p>
+            <p xml:space="preserve"><date when="1931-04-26">26/4</date> S. Tel. mit <rs type="person" xml:id="pNt_92713" ref="#person_19832"><forename>O.</forename></rs> <rs type="place" xml:id="pl_19867" ref="#pmb168">Berlin</rs>, die bald nach <rs type="place" xml:id="pl_19868" ref="#pmb390">Franzensbad</rs> geht.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_92714" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> (Auto) Galitzinberg; kleiner Spaziergang.</p>
             <p xml:space="preserve" rend="indent">Zu Tisch bei mir <rs type="person" xml:id="pNt_92715" ref="#person_19756"><forename>Paula</forename> <surname>Schmidl</surname></rs>; zeige ihr die Veränderung in Haus und 
 Garten.―</p>
@@ -190,6 +194,5 @@ Garten.―</p>
 Situation.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

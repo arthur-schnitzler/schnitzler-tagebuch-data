@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-07-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-07-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-07-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-07-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-07-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-07-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FE8F-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2942.tif"/>
@@ -182,7 +186,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1910-07-15">
             <p xml:space="preserve"><date when="1910-07-15">15/7</date> Räumen.― Gegen 1 erscheint <rs type="person" xml:id="pNt_33099" ref="#person_13624"><roleName>Baron</roleName> <surname>Berger</surname></rs> (erster Besuch in der 
-<rs type="place" xml:id="pl_07135" ref="#place_61f407ddde813da2482868b31eab013d">Sternwartestr.</rs>); ob er mit <rs type="person" xml:id="pNt_33100" ref="#person_16646"><surname>Kainz</surname></rs> auch gleich über <rs type="work" subtype="self" xml:id="bibl_11853">das Stück</rs> verhandeln 
+<rs type="place" xml:id="pl_07135" ref="#pmb150">Sternwartestr.</rs>); ob er mit <rs type="person" xml:id="pNt_33100" ref="#person_16646"><surname>Kainz</surname></rs> auch gleich über <rs type="work" subtype="self" xml:id="bibl_11853">das Stück</rs> verhandeln 
 könne; er wolle ihm diese Rolle als eine der ersten in dem Brief, den er 
 morgen „dichten“ wolle, vorschlagen. Mit <rs type="person" xml:id="pNt_33101" ref="#person_16646"><surname>K.</surname></rs> müsse es ein Bombenerfolg 
 werden. Ohne ihn traue er sich kaum. Er war sehr amusant; O. lernte ihn kennen.</p>
@@ -190,6 +194,5 @@ werden. Ohne ihn traue er sich kaum. Er war sehr amusant; O. lernte ihn kennen.<
             <p xml:space="preserve" rend="indent">Mit O. bei <rs type="org">Bablik</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

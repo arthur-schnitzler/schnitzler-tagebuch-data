@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-09-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-09-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-09-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-09-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-09-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-09-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-187C-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7168.tif"/>
@@ -182,16 +186,15 @@
       <body>
          <div type="diary-day" xml:id="entry__1928-09-21">
             <p xml:space="preserve"><date when="1928-09-21">21/9</date> Vm. im Geschäft bei <rs type="person" xml:id="pNt_84814" ref="#person_19802"><roleName>Frau</roleName> <forename>Ditta</forename></rs>.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_18296" ref="#place_a9a988302086229505c21f885134919d">Josefst.</rs> Th.; bei Direktor <rs type="person" xml:id="pNt_84815" ref="#person_15412"><forename>Emil</forename> <surname>Geyer</surname></rs> (der mir wegen eines 
+            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_18296" ref="#pmb58">Josefst.</rs> Th.; bei Direktor <rs type="person" xml:id="pNt_84815" ref="#person_15412"><forename>Emil</forename> <surname>Geyer</surname></rs> (der mir wegen eines 
 neuen Stücks, sozusagen auch im Namen <rs type="person" xml:id="pNt_84816" ref="#person_19154"><surname>Reinhardts</surname></rs> geschrieben) ― ev. 
 wenn „<rs type="work" subtype="self" xml:id="bibl_19661">Z. der Sch.</rs>“ fertig würde.― Über <rs type="person" xml:id="pNt_84817" ref="#person_19154"><surname>Reinhardt</surname></rs>, der immer nur 
 von außen an die Stücke herankäme (<rs type="person" xml:id="pNt_84818" ref="#person_13913"><surname>Brahm</surname></rs>: „könnte man nicht“),― 
 über einiges neuere u. s. w.―</p>
             <p xml:space="preserve" rend="indent">― Nm. improvisirt <rs type="person" xml:id="pNt_84819" ref="#person_17784"><forename>Alma</forename></rs> und <rs type="person" xml:id="pNt_84820" ref="#person_21243"><surname>Werfel</surname></rs>. Nur über <rs type="person" xml:id="pNt_84821" ref="#person_14130"><forename>Lili</forename></rs>.― <rs type="person" xml:id="pNt_84822" ref="#person_17784"><forename>Alma</forename></rs> fährt 
-nach <rs type="place" xml:id="pl_18297" ref="#place_e4d4b19346747823e5636ed1238a7521">Venedig</rs>, <rs type="person" xml:id="pNt_84823" ref="#person_21243"><surname>W.</surname></rs> wieder auf den <rs type="place" xml:id="pl_18298" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs>.</p>
+nach <rs type="place" xml:id="pl_18297" ref="#pmb462">Venedig</rs>, <rs type="person" xml:id="pNt_84823" ref="#person_21243"><surname>W.</surname></rs> wieder auf den <rs type="place" xml:id="pl_18298" ref="#pmb91735">Semmering</rs>.</p>
             <p xml:space="preserve" rend="indent">― Z. N. bei <rs type="person" xml:id="pNt_84824" ref="#person_15855"><surname>Hajeks</surname></rs>.― <rs type="person" xml:id="pNt_84825" ref="#person_19827"><forename>Julius</forename></rs> und <rs type="person" xml:id="pNt_84826" ref="#person_19821"><forename>Hans</forename></rs>, nachher auch <rs type="person" xml:id="pNt_84827"><forename>Ferry</forename></rs> und <rs type="person" xml:id="pNt_84828"><forename>Annie</forename></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

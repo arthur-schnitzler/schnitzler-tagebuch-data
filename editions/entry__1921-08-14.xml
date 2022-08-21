@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1921-08-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-08-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-08-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1921-08-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-08-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-08-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0E5B-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5499.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1921-08-14">
-            <p xml:space="preserve"><date when="1921-08-14">14/8</date> S. Vorm. <rs type="place" xml:id="pl_13268" ref="#place_661f4200c3f047474d1df224f62f0503">Aussee</rs> bei <rs type="person" xml:id="pNt_63316" ref="#person_17509"><surname>Lichtensterns</surname></rs>; Frau <rs type="person" xml:id="pNt_63317" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs> bettlägerig, nur ein paar 
+            <p xml:space="preserve"><date when="1921-08-14">14/8</date> S. Vorm. <rs type="place" xml:id="pl_13268" ref="#pmb415">Aussee</rs> bei <rs type="person" xml:id="pNt_63316" ref="#person_17509"><surname>Lichtensterns</surname></rs>; Frau <rs type="person" xml:id="pNt_63317" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs> bettlägerig, nur ein paar 
 Worte, mit den andern fort.―</p>
             <p xml:space="preserve" rend="indent">Zu Tisch bei <rs type="person" xml:id="pNt_63318" ref="#person_15854"><forename>Gisa’s</forename></rs> mit <rs type="person" xml:id="pNt_63319" ref="#person_16770"><forename>Arthur</forename> <surname>Kfm.</surname></rs></p>
             <p xml:space="preserve" rend="indent">Nm. Notizen zum <rs type="work" subtype="self" xml:id="bibl_3473">Verführer</rs>.</p>
@@ -189,6 +193,5 @@ Worte, mit den andern fort.―</p>
             <p xml:space="preserve" rend="indent">Beim Seewirth gen. mit <rs type="person" xml:id="pNt_63323" ref="#person_21559"><surname>Zifferers</surname></rs>, <rs type="person" xml:id="pNt_63324" ref="#person_13305"><surname>Auernheimers</surname></rs>, <rs type="person" xml:id="pNt_63325" ref="#person_13355"><forename>Ama</forename></rs>, <rs type="person" xml:id="pNt_63326" ref="#person_21600"><forename>Mimi</forename></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

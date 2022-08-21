@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-12-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-12-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-12-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-12-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-12-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-12-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-04CF-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3938.tif"/>
@@ -184,10 +188,10 @@
             <p xml:space="preserve"><date when="1914-12-02">2/12</date> Dictirt Briefe etc. (wieder die Berichtigung für die neutralen 
 Länder; an <rs type="person" xml:id="pNt_44528" ref="#person_21614"><surname>Zweig</surname></rs> etc.) ―</p>
             <p xml:space="preserve" rend="indent">Traum: mit <rs type="person" xml:id="pNt_44529" ref="#person_21614"><surname>Zweig</surname></rs> im Fiaker hügelan, orientalische? Stadt; er führt 
-mich, durchs <rs type="place" xml:id="pl_09096" ref="#place_51b8a1e064b9ddf3f887361c3c9abc3e">Helenenthal</rs>, nach <rs type="place" xml:id="pl_09097" ref="#place_6630b5aaa6d7cf0c597b381d921f2ebc">Sibirien</rs>, angeblich auf 6 Monate, ich 
+mich, durchs <rs type="place" xml:id="pl_09096" ref="#pmb90849">Helenenthal</rs>, nach <rs type="place" xml:id="pl_09097" ref="#pmb91739">Sibirien</rs>, angeblich auf 6 Monate, ich 
 hege Mißtrauen.―</p>
             <p xml:space="preserve" rend="indent">Mittag mit O. spazierend <rs type="person" xml:id="pNt_44530" ref="#person_15345"><surname>Ganz</surname></rs>, <rs type="person" xml:id="pNt_44531" ref="#person_19850"><surname>Schönherr</surname></rs>, <rs type="person" xml:id="pNt_44532" ref="#person_20803"><surname>Treßler</surname></rs> ― Kunde von 
-<rs type="place" xml:id="pl_09098" ref="#place_60009fcd9bdc0a26be542a3564d55ff8">Belgrads</rs> Fall.―</p>
+<rs type="place" xml:id="pl_09098" ref="#pmb40222">Belgrads</rs> Fall.―</p>
             <p xml:space="preserve" rend="indent">Gegen Abend <rs type="person" xml:id="pNt_44533" ref="#person_14664"><roleName>Dr.</roleName> <surname>Eichenbaum</surname></rs>; möchte, da <rs type="place" xml:id="pl_09099" ref="#place_850341b5d79df2312e63fa19138423cf" ana="#exclude">galizische</rs> Zukunft unsicher, 
 eine Bankstelle.― Über einzelne meiner Werke, die ich ihm neulich 
 mitgegeben.―</p>
@@ -196,6 +200,5 @@ darüber komisch-ernst verzweifelt. Bisher gewissenhaft, pflichttreu ―
 jetzt wird sie’s nicht mehr sein können.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

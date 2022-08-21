@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-04-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-04-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-04-06.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-04-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-04-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-04-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FF97-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3136.tif"/>
@@ -184,8 +188,8 @@
          <div type="diary-day" xml:id="entry__1911-04-05">
             <p xml:space="preserve"><date when="1911-04-05">5/4</date> In der Zeitung ein Vortrag <rs type="person" xml:id="pNt_35055" ref="#person_13624"><roleName>Baron</roleName> <surname>Bergers</surname></rs> vor den 
 Universitäts-Professoren aus Anlaß der bevorstehenden Reise nach 
-<rs type="place" xml:id="pl_07408" ref="#place_9bbe5cef5dacc0b4666c2a1d1a8b5615">Griechenland</rs>;― mit Bemerkungen über den „Tiefstand der heutigen 
-Dramatik …“. Der <rs type="place" ref="#place_burgtheater">Burgtheater</rs>direktor ― in ― diesem Jahr!― ― 
+<rs type="place" xml:id="pl_07408" ref="#pmb44293">Griechenland</rs>;― mit Bemerkungen über den „Tiefstand der heutigen 
+Dramatik …“. Der <rs type="place" ref="#pmb14">Burgtheater</rs>direktor ― in ― diesem Jahr!― ― 
 Ebenso aber würde er in einem Vortrag vor einem modernen Verein 
 erklären, alle Professoren seien alte Esel ― (wenn dazu nicht etwas 
 mehr Courage gehörte). Der „Feuilletonist als standard individuum“. 
@@ -196,6 +200,5 @@ in ihren Ähnlichkeiten und Verschiedenheiten!― ―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="allusively" xml:id="rst_01197">Mama</rs> (ohne O.) <rs type="person" xml:id="pNt_35059" ref="#person_19827"><forename>Julius</forename></rs>, <rs type="person" xml:id="pNt_35060" ref="#person_19823"><forename>Helene</forename></rs>, <rs type="person" xml:id="pNt_35061" ref="#person_19986"><forename>Gustav</forename></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

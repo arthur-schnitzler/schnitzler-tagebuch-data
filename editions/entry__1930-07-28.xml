@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-07-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-07-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-07-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-07-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-07-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-07-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1B1F-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7530.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1930-07-28">
-            <p xml:space="preserve"><date when="1930-07-28">28/7</date> <rs type="place" xml:id="pl_19396" ref="#place_51c7c0e8bc877f41a415a8e7efedd068">St. Moritz</rs>: Traum (nach unruhiger Nacht) ich fahre (mit <rs type="person" xml:id="pNt_90338" ref="#person_19822"><forename>Heini</forename></rs>) in der 
+            <p xml:space="preserve"><date when="1930-07-28">28/7</date> <rs type="place" xml:id="pl_19396" ref="#pmb44374">St. Moritz</rs>: Traum (nach unruhiger Nacht) ich fahre (mit <rs type="person" xml:id="pNt_90338" ref="#person_19822"><forename>Heini</forename></rs>) in der 
 Bahn an einem Friedhof vorbei, Dämme, und empfinde es schmerzlich, dass 
 ich nie meine Biographie lesen werde ―</p>
             <p xml:space="preserve" rend="indent">― Spazierg. um den See.―</p>
@@ -191,6 +195,5 @@ ich nie meine Biographie lesen werde ―</p>
             <p xml:space="preserve" rend="indent">Brief von <rs type="person" xml:id="pNt_90342" ref="#person_14234"><forename>Suz.</forename></rs>―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

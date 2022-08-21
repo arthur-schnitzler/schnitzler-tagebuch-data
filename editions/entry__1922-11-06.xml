@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-11-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-11-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-11-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-11-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-11-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-11-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-101C-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,13 +177,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5888.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5889.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1922-11-06">
             <p xml:space="preserve"><date when="1922-11-06">6/11</date> Vm. Briefe dictirt.― (<rs type="person" xml:id="pNt_67750" ref="#person_18881"><forename>Kolap</forename></rs> wie immer nach dem Dictiren zu Tisch.―)</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_67751" ref="#person_19822"><forename>Heini</forename></rs> spielt <rs type="work" xml:id="bibl_2882">Boris Godunow</rs> vor.―</p>
@@ -201,5 +206,6 @@ Krankheit … Darauf er: Da haben Sie eigentlich recht. Ich heiße
 Die Frage und Antwort (Gespräch neulich über den <rs type="place" xml:id="pl_14382" ref="#place_b98105faab91cfbc7f0aa9feac58715c" ana="#exclude">Franzosen</rs>) ― die goldne 
 Feder dreifache Bedeutung.―)</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

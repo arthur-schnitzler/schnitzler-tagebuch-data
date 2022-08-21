@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-05-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-05-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-05-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-05-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-05-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-05-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0F6A-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5711.tif"/>
@@ -182,12 +186,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1922-05-12">
-            <p xml:space="preserve"><date when="1922-05-12">12/5</date> <rs type="place" xml:id="pl_13881" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>. Dtsch. Bank. Geschäftl. Gespräch mit <rs type="person" xml:id="pNt_66024" ref="#person_18153"><roleName>Hrn.</roleName> <surname>Mierau</surname></rs> und 
+            <p xml:space="preserve"><date when="1922-05-12">12/5</date> <rs type="place" xml:id="pl_13881" ref="#pmb168">Berlin</rs>. Dtsch. Bank. Geschäftl. Gespräch mit <rs type="person" xml:id="pNt_66024" ref="#person_18153"><roleName>Hrn.</roleName> <surname>Mierau</surname></rs> und 
 <rs type="person" xml:id="pNt_66025" ref="#person_20244"><roleName>Dir.</roleName> <surname>Speier</surname></rs>; Ankauf von Papieren.</p>
-            <p xml:space="preserve" rend="indent">― Bei <rs type="person" xml:id="pNt_66026" ref="#person_19294"><roleName>Dir.</roleName> <surname>Robert</surname></rs> Theater am <rs type="place" xml:id="pl_13882" ref="#place_70e63dbfd3c995c3c42b2138b663711a">Kurfürstendamm</rs>. Er zeigt mir das neue Haus;― 
+            <p xml:space="preserve" rend="indent">― Bei <rs type="person" xml:id="pNt_66026" ref="#person_19294"><roleName>Dir.</roleName> <surname>Robert</surname></rs> Theater am <rs type="place" xml:id="pl_13882" ref="#pmb91087">Kurfürstendamm</rs>. Er zeigt mir das neue Haus;― 
 möchte allerlei von mir in einem seiner 3-6 Theater spielen.</p>
             <p xml:space="preserve" rend="indent">Bei „<rs type="org">Horcher</rs>“ zu Mittag.</p>
-            <p xml:space="preserve" rend="indent">Gegen Abend nach <rs type="place" xml:id="pl_13883" ref="#place_e968dc5bb69215ff17b5de04db395670">Dahlem</rs>, zu <rs type="person" xml:id="pNt_66028" ref="#person_15306"><surname>Fulda</surname></rs>. Er und seine Frau zeigen mir das sehr 
+            <p xml:space="preserve" rend="indent">Gegen Abend nach <rs type="place" xml:id="pl_13883" ref="#pmb90508">Dahlem</rs>, zu <rs type="person" xml:id="pNt_66028" ref="#person_15306"><surname>Fulda</surname></rs>. Er und seine Frau zeigen mir das sehr 
 hübsche Haus in allen seinen Räumen; er gibt mir sein neues Stück „<rs type="work" xml:id="bibl_2529">Des 
 Esels Schatten</rs>“, das eben geprobt wird. Er begleitet mich bis zu <rs type="person" xml:id="pNt_66029" ref="#person_18140"><surname>Mich.</surname></rs>’ mit 
 denen ich zu <rs type="person" xml:id="pNt_66030" ref="#person_15009"><surname>Fischer’s</surname></rs> fahre. Dort <rs type="person" xml:id="pNt_66031" ref="#person_19288"><surname>Rittner</surname></rs>,― der nun filmt; <rs type="person" xml:id="pNt_66032" ref="#person_20842"><roleName>Frau</roleName> <surname>Tusar</surname></rs>, Frau 
@@ -197,6 +201,5 @@ Lebhaftes Filmgespräch bei Tisch. Mit <rs type="person" xml:id="pNt_66035" ref=
 <rs type="person" xml:id="pNt_66036" ref="#person_18395"><surname>Nestroy</surname></rs> ― <rs type="work" xml:id="bibl_2530">Jux</rs> ― kam) über <rs type="person" xml:id="pNt_66037" ref="#person_17786"><surname>Mahler</surname></rs>.― Im <rs type="role" xml:id="pNt_66038"><surname>Tusarschen</surname></rs> Auto nach Haus.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

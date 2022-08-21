@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1897-08-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-08-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-08-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1897-08-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-08-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-08-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-ECCF-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1366.tif"/>
@@ -182,12 +186,11 @@
       <body>
          <div type="diary-day" xml:id="entry__1897-08-28">
             <p xml:space="preserve"><date when="1897-08-28">28/8</date> Vorm. stundenlang mit ihr in der Au.― Nachmittag mit <rs type="person" xml:id="pNt_14339" ref="#person_15529"><forename>Paul</forename> <surname>G.</surname></rs> 
-bei <rs type="person" xml:id="pNt_14340" ref="#person_19143"><forename>Else</forename> <surname>S.</surname></rs>― Abds. mit ihr <rs type="place" xml:id="pl_02703" ref="#place_39a489f609460ac329d6efa0598c1e3a">Lindaustraße</rs>; Wagen; das hohe Thal, 
-Restaur. gesessen; sehr schön; noch bis zum <rs type="place" xml:id="pl_02704" ref="#place_9ddb9a090a34b5f1d97cd00fe7949b8c">Nussensee</rs> gefahren ― 
+bei <rs type="person" xml:id="pNt_14340" ref="#person_19143"><forename>Else</forename> <surname>S.</surname></rs>― Abds. mit ihr <rs type="place" xml:id="pl_02703" ref="#pmb92377">Lindaustraße</rs>; Wagen; das hohe Thal, 
+Restaur. gesessen; sehr schön; noch bis zum <rs type="place" xml:id="pl_02704" ref="#pmb92425">Nussensee</rs> gefahren ― 
 dort ganz einsam; Rückfahrt;― hatte sie mehr als sonst, war nahezu 
 glücklich.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

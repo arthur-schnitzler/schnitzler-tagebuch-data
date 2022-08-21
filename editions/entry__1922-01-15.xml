@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-01-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-01-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-01-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-01-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-01-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-01-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0EF5-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,13 +177,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5622.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5623.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1922-01-15">
             <p xml:space="preserve"><date when="1922-01-15">15/1</date> S. Guter Schlaf von 6-7 Stunden wie fast immer;― dann die 
 Morgenstunde im Halbschlummer, zerwühlt, fast verstört. Hatte 
@@ -198,7 +203,7 @@ Widerstand (ich meine was er so gelegentlich veröffentlicht, wie heut
 eine <rs type="person" xml:id="pNt_64893" ref="#person_18214"><surname>Molièresache</surname></rs> in der <rs type="work" subtype="newspaper" xml:id="bibl_2278">N. Fr. Pr.</rs>). Das Niveau immer zu spüren ― 
 und zugleich eine Überheblichkeit, Affectation, Snobismus, die mir 
 immer unerträglicher werden.―</p>
-            <p xml:space="preserve" rend="indent">Spaziergang im Schnee, <rs type="place" xml:id="pl_13616" ref="#place_bf303a935ba7bb30e892cb5d0f2ea6ac">Michaelerberg</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Spaziergang im Schnee, <rs type="place" xml:id="pl_13616" ref="#pmb91239">Michaelerberg</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. Zeitung lesen.</p>
             <p xml:space="preserve" rend="indent">Zum Thee <rs type="person" xml:id="pNt_64894" ref="#person_19874"><surname>Schott</surname></rs> (Burgth.geschichten, Intriguen, Keilerei mit dem 
 besoffenen <rs type="person" xml:id="pNt_64895" ref="#person_15392"><surname>George</surname></rs>, der bestechliche <rs type="person" xml:id="pNt_64896" ref="#person_18215"><surname>Molitor</surname></rs> (von dem die 
@@ -208,5 +213,6 @@ hatte) mit Schwester ― <rs type="person" xml:id="pNt_64899" ref="#person_19874
 <rs type="work" subtype="self" xml:id="bibl_2281">Pierrette</rs>, zeigte seine Figurinen ―</p>
             <p xml:space="preserve" rend="indent">Begann <rs type="person" xml:id="pNt_64901" ref="#person_15210"><surname>Friedells</surname></rs> <rs type="work" xml:id="bibl_2282"><rs type="person" xml:id="pNt_64902"><surname>Altenberg</surname></rs> Buch</rs> zu lesen.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

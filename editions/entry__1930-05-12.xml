@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-05-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-05-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-05-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-05-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-05-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-05-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1AD2-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7486.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1930-05-12">
-            <p xml:space="preserve"><date when="1930-05-12">12/5</date> <rs type="place" xml:id="pl_19231" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs>.―</p>
+            <p xml:space="preserve"><date when="1930-05-12">12/5</date> <rs type="place" xml:id="pl_19231" ref="#pmb91735">Semmering</rs>.―</p>
             <p xml:space="preserve" rend="indent">Tel. mit <rs type="person" xml:id="pNt_89686" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>, mit dem Haus (<rs type="person" xml:id="pNt_89687" ref="#person_18181"><forename>[Minna]</forename></rs>).</p>
-            <p xml:space="preserve" rend="indent">Zu dritt <rs type="place" xml:id="pl_19232" ref="#place_8c013d27c25b2d109cfc000dee9900bf">Maria Schutz</rs> gegangen, dort gegessen;― dann Auto über <rs type="place" xml:id="pl_19233" ref="#place_c9fe2ce48d12e0308505cd0da82e9273">Gloggnitz</rs>, 
-<rs type="place" xml:id="pl_19234" ref="#place_5884bac5272bf94a2487941d33f4ddc1">Payerbach</rs>, Orthof ― <rs type="place" xml:id="pl_19235" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs>.― Fülle der Erinnerungen, für <rs type="person" xml:id="pNt_89688" ref="#person_19832"><forename>O.</forename></rs> und mich.―</p>
+            <p xml:space="preserve" rend="indent">Zu dritt <rs type="place" xml:id="pl_19232" ref="#pmb45277">Maria Schutz</rs> gegangen, dort gegessen;― dann Auto über <rs type="place" xml:id="pl_19233" ref="#pmb90727">Gloggnitz</rs>, 
+<rs type="place" xml:id="pl_19234" ref="#pmb948">Payerbach</rs>, Orthof ― <rs type="place" xml:id="pl_19235" ref="#pmb91735">Semmering</rs>.― Fülle der Erinnerungen, für <rs type="person" xml:id="pNt_89688" ref="#person_19832"><forename>O.</forename></rs> und mich.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-12-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-12-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-12-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1906-12-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-12-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-12-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F98B-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2296.tif"/>
@@ -180,16 +184,15 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1906-12-03">
-            <p xml:space="preserve"><date when="1906-12-03">3/12</date> Vm. <rs type="person" xml:id="pNt_25906" ref="#person_15562"><surname>Gomperz</surname></rs>.― <rs type="person" xml:id="pNt_25907" ref="#person_16228"><forename>Robert</forename> <surname>Hirschfeld</surname></rs> am <rs type="place" xml:id="pl_05745" ref="#place_9ae90ea21d3e063c02809f046183f123">Ring</rs>, Discussion über <rs type="person" xml:id="pNt_25908" ref="#person_17786"><surname>Mahler</surname></rs>. 
+            <p xml:space="preserve"><date when="1906-12-03">3/12</date> Vm. <rs type="person" xml:id="pNt_25906" ref="#person_15562"><surname>Gomperz</surname></rs>.― <rs type="person" xml:id="pNt_25907" ref="#person_16228"><forename>Robert</forename> <surname>Hirschfeld</surname></rs> am <rs type="place" xml:id="pl_05745" ref="#pmb91600">Ring</rs>, Discussion über <rs type="person" xml:id="pNt_25908" ref="#person_17786"><surname>Mahler</surname></rs>. 
 Mein persönl. Verhältnis zu seiner Kunst. <rs type="person" xml:id="pNt_25909" ref="#person_16228"><forename>R.</forename> <surname>H.</surname></rs> prophezeit, ich würde 
 zurückkommen von ihm (ähnlich wie ich mich ein wenig vom <rs type="person" xml:id="pNt_25910" ref="#person_19942"><surname>Schumann</surname></rs> 
 (gewisser Kammerstücke und Orchestersachen) zu dem ich in meiner 
 Jugend ein ganz persönl. Verhältnis hatte entferne) ―</p>
-            <p xml:space="preserve" rend="indent">Panorama (<rs type="place" xml:id="pl_05746" ref="#place_5a40df22f64943e2d6e2d37ef55a26c8">Montblanc</rs> etc.).</p>
+            <p xml:space="preserve" rend="indent">Panorama (<rs type="place" xml:id="pl_05746" ref="#pmb565">Montblanc</rs> etc.).</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="work" xml:id="bibl_15345">9.</rs> <rs type="person" xml:id="pNt_25911" ref="#person_19902"><surname>Schubert</surname></rs> Sonate gespielt. (<rs type="person" xml:id="pNt_25912" ref="#person_19902"><surname>Schubert</surname></rs> bewundre ich immer mehr.)</p>
             <p xml:space="preserve" rend="indent">Am <rs type="work" subtype="self" xml:id="bibl_15346">Roman</rs> weiter.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

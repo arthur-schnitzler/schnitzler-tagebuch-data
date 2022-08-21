@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-10-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-10-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-10-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1915-10-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-10-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-10-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0600-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,13 +177,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4110.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4111.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1915-10-04">
             <p xml:space="preserve"><date when="1915-10-04">4/10</date> Vm. Probe „<rs type="work" subtype="self" xml:id="bibl_8354">Stunde</rs>“, „<rs type="work" subtype="self" xml:id="bibl_8355">Große Scene</rs>“. Die <rs type="person" xml:id="pNt_46450" ref="#person_18035"><surname>Medelsky</surname></rs> eine große 
 <pb n="225"/>
@@ -190,5 +195,6 @@ Schauspieler.―</p>
             <p xml:space="preserve" rend="indent">In der Pilsenetzer genachtm.; <rs type="person" xml:id="pNt_46451" ref="#person_21614"><forename>Stefan</forename> <surname>Zweig</surname></rs> macht mich mit den 
 Kriegsberichterstattern <rs type="person" xml:id="pNt_46452" ref="#person_13089"><forename>Leonhard</forename> <surname>Adelt</surname></rs> und <rs type="person" xml:id="pNt_46453" ref="#person_16081"><surname>Hellssen</surname></rs> bekannt.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

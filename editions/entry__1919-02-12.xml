@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-02-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-02-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-02-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-02-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-02-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-02-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0ACA-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4799.tif"/>
@@ -182,13 +186,12 @@
       <body>
          <div type="diary-day" xml:id="entry__1919-02-12">
             <p xml:space="preserve"><date when="1919-02-12">12/2</date> Dict. <rs type="work" subtype="self" xml:id="bibl_4590">autobiogr.</rs>―</p>
-            <p xml:space="preserve" rend="indent">Nachricht von <rs type="person" xml:id="pNt_55446" ref="#person_16770"><surname>Kaufmann</surname></rs> aus <rs type="place" xml:id="pl_11510" ref="#place_75b5054bbde3f5254dbd14d67c3f3d75">Kiew</rs>; er scheint sich zurückzusehnen. 
+            <p xml:space="preserve" rend="indent">Nachricht von <rs type="person" xml:id="pNt_55446" ref="#person_16770"><surname>Kaufmann</surname></rs> aus <rs type="place" xml:id="pl_11510" ref="#pmb45594">Kiew</rs>; er scheint sich zurückzusehnen. 
 Bolschewistenangst dort. Raubgesindel mit politischen Allüren ― dazu 
 ist nun ein Drittel der Menschheit geworden. Oder ist es nicht eigentlich 
 eine Definition des Menschen überhaupt ―?</p>
             <p xml:space="preserve" rend="indent">Nm. gerechnet, getrödelt; nicht recht wohl.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

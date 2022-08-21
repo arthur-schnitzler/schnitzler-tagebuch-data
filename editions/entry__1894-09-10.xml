@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1894-09-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-09-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-09-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1894-09-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-09-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-09-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E8A3-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,14 +177,15 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0869.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1894-09-10">
-            <p xml:space="preserve"><date when="1894-09-10">10/9</date> Mit <rs type="allusively" xml:id="rst_00210">Schwägerin</rs> nach <rs type="place" xml:id="pl_01825" ref="#place_9a43e84f6e1d406076f2372205804f6d">Baden</rs>.― Abds. bei <rs type="person" xml:id="pNt_09186" ref="#person_19564"><forename>Dilly</forename></rs>. Manchmal ist sie 
+            <p xml:space="preserve"><date when="1894-09-10">10/9</date> Mit <rs type="allusively" xml:id="rst_00210">Schwägerin</rs> nach <rs type="place" xml:id="pl_01825" ref="#pmb662">Baden</rs>.― Abds. bei <rs type="person" xml:id="pNt_09186" ref="#person_19564"><forename>Dilly</forename></rs>. Manchmal ist sie 
 ganz Cocotte. Z. B. heut. Sie fing mit den „Nerven“ an. „,So’bin ich 
 geflogen.“ Dann macht sie dirnenhafte Bemerkungen über meine 
 <rs type="allusively" xml:id="rst_00211">Schwägerin</rs>, die sie nicht kennt. Dann ist sie tief gekränkt, weil ich 
@@ -190,5 +195,6 @@ windet sie sich affectirt-hysterisch, während ich Klavier spiele.―
 Und bevor ich weggeh, enervirt sie mich mit ihren wüthenden 
 Gewohnheitsküssen.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

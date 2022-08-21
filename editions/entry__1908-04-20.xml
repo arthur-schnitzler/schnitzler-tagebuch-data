@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-04-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-04-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-04-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-04-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-04-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-04-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FB5F-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,12 +176,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2499.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1908-04-20">
             <p xml:space="preserve"><date when="1908-04-20">20/4</date> Ostermontag. Unfreundliches Wetter. Mit O. und <rs type="person" xml:id="pNt_28185" ref="#person_19822"><forename>Heini</forename></rs> im Cottage herum; 
 bei <rs type="allusively" xml:id="rst_00923">Mama</rs> gegessen; mit <rs type="person" xml:id="pNt_28186" ref="#person_21332"><forename>Arthur</forename> <surname>Wilheim</surname></rs>, <rs type="person" xml:id="pNt_28187" ref="#person_17909"><forename>Raoul</forename> <surname>Markbreiter</surname></rs>, <rs type="person" xml:id="pNt_28188" ref="#person_17508"><forename>Max</forename> <surname>Lichtenstern</surname></rs>, 
@@ -187,5 +192,6 @@ bei <rs type="allusively" xml:id="rst_00923">Mama</rs> gegessen; mit <rs type="p
 <rs type="person" xml:id="pNt_28193"><surname>Leopold</surname></rs> etc.― <rs type="person" xml:id="pNt_28194" ref="#person_18085"><surname>Meredith</surname></rs> <rs type="work" xml:id="bibl_13377">Egoist</rs>.― <rs type="person" xml:id="pNt_28195" ref="#person_17169"><surname>Kürnberger</surname></rs> <rs type="work" xml:id="bibl_13378">Briefe</rs>.</p>
             <p xml:space="preserve" rend="indent">― Gespräch mit O. über meine Hypochondrie.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

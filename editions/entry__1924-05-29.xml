@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1924-05-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-05-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-05-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1924-05-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-05-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-05-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1255-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6273.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1924-05-29">
-            <p xml:space="preserve"><date when="1924-05-29">29/5</date> Vm. mit <rs type="person" xml:id="pNt_72359" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> <rs type="place" xml:id="pl_15394" ref="#place_5c76163a4535a69a05551159f795dfcc">Wilhelminenberg</rs> ― <rs type="place" xml:id="pl_15395" ref="#place_187ad9aa5bf46727d6f6cd8ad17cad55">Predigtstuhl</rs> ― Jubiläums Warte 
-― <rs type="place" xml:id="pl_15396" ref="#place_c79ad839f84019f53250a4e6365359f9">Neuwaldegg</rs>.―</p>
+            <p xml:space="preserve"><date when="1924-05-29">29/5</date> Vm. mit <rs type="person" xml:id="pNt_72359" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> <rs type="place" xml:id="pl_15394" ref="#pmb92081">Wilhelminenberg</rs> ― <rs type="place" xml:id="pl_15395" ref="#pmb90687">Predigtstuhl</rs> ― Jubiläums Warte 
+― <rs type="place" xml:id="pl_15396" ref="#pmb170">Neuwaldegg</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. ziemlich vertrödelt.―</p>
             <p xml:space="preserve" rend="indent">Z. N. <rs type="person" xml:id="pNt_72360" ref="#person_18868"><forename>Marianne</forename> <surname>Pollaczek</surname></rs> und <rs ref="#person_18001" type="person" xml:id="pNt_72361"><forename>Liesl</forename></rs>; nachher spielten wir alle Poker 
 (nach Jahren ich).―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

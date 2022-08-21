@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-02-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-02-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-02-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-02-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-02-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-02-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F58B-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1893.tif"/>
@@ -180,7 +184,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1904-02-12">
-            <p xml:space="preserve"><date when="1904-02-12">12/2</date> Schlecht geschlafen. Träume.― Eine Reise <rs type="place" xml:id="pl_04606" ref="#place_d5460b665e26333bdf699f77a2e3cf17">Frankfurt</rs> ― <rs type="place" xml:id="pl_04607" ref="#place_2fc01bde301ce78776bfd009c2edc542">Cöln</rs> 
+            <p xml:space="preserve"><date when="1904-02-12">12/2</date> Schlecht geschlafen. Träume.― Eine Reise <rs type="place" xml:id="pl_04606" ref="#pmb146">Frankfurt</rs> ― <rs type="place" xml:id="pl_04607" ref="#pmb91050">Cöln</rs> 
 (Erinnerungen).―</p>
             <p xml:space="preserve" rend="indent"><rs type="work" subtype="self" xml:id="bibl_16979">Generalprobe</rs>. Wechselnde, aber eher gute Wirkung. O.― 
 <rs type="person" xml:id="pNt_20765" ref="#person_20796"><surname>Trebitsch</surname></rs>.― <rs type="person" xml:id="pNt_20766" ref="#person_14717"><roleName>Fr.</roleName> <surname>Elias</surname></rs>.― <rs type="person" xml:id="pNt_20767" ref="#person_14925"><forename>Mara</forename> <surname>Feldern</surname></rs> etc. <rs type="person" xml:id="pNt_20768" ref="#person_16574"><forename>Jonas</forename></rs>.―</p>
@@ -191,6 +195,5 @@ sympathisch.―</p>
 (<rs type="person" xml:id="pNt_20773" ref="#person_17779"><surname>Maeterlinck</surname></rs>); <rs type="person" xml:id="pNt_20774" ref="#person_20796"><surname>Trebitsch</surname></rs>.― Im Savoy soup. <rs type="person" xml:id="pNt_20775" ref="#person_20796"><surname>Treb.</surname></rs> und <rs type="person" xml:id="pNt_20776" ref="#person_13913"><surname>Brahm</surname></rs> bei uns.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

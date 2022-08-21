@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-12-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-12-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-12-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1906-12-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-12-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-12-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F991-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2299.tif"/>
@@ -196,13 +200,12 @@ und feilte dran.― Vorgestern erzählte ich <rs type="person" xml:id="pNt_25938
 mit <rs type="person" xml:id="pNt_25939" ref="#person_16165"><surname>Herzl</surname></rs> auf einer Stiege.― Ferner, in den letzten Tagen hatt ich das 
 Gefühl, als werde mir der <rs type="work" subtype="self" xml:id="bibl_15358">Roman</rs> blasser, und ich wünschte natürlich, dass 
 er mir wieder innerlich lebhafter werde.―)</p>
-            <p xml:space="preserve" rend="indent">Spazieren <rs type="place" xml:id="pl_05749" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs>, <rs type="place" xml:id="pl_05750" ref="#place_c79ad839f84019f53250a4e6365359f9">Neuwaldegg</rs>.</p>
+            <p xml:space="preserve" rend="indent">Spazieren <rs type="place" xml:id="pl_05749" ref="#pmb169">Pötzleinsdorf</rs>, <rs type="place" xml:id="pl_05750" ref="#pmb170">Neuwaldegg</rs>.</p>
             <p xml:space="preserve" rend="indent">Auf der Tram mit <rs type="person" xml:id="pNt_25940" ref="#person_17428"><roleName>Hrn.</roleName> <surname>Lemberger</surname></rs> über Reisen.</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="allusively" xml:id="rst_00777">Mama</rs> zu Tisch; mit <rs type="person" xml:id="pNt_25941"><forename>Raoul</forename></rs> die <rs type="work" xml:id="bibl_15359">5.</rs> <rs type="person" xml:id="pNt_25942" ref="#person_20822"><surname>Tschaikowski</surname></rs>.</p>
             <p xml:space="preserve" rend="indent">― <rs type="person" xml:id="pNt_25943" ref="#person_20080"><surname>Shaw</surname></rs> <rs type="work" xml:id="bibl_15360">Mensch etc.</rs> ausgelesen.―</p>
             <p xml:space="preserve" rend="indent"><rs type="work" subtype="self" xml:id="bibl_15361">Roman</rs> 9., bisheriges, nicht weiter.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

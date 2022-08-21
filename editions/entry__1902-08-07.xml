@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1902-08-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-08-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-08-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1902-08-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-08-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-08-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F36C-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1701.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1902-08-07">
-            <p xml:space="preserve"><date when="1902-08-07">7/8</date> Mit <rs type="person" xml:id="pNt_18819" ref="#person_16293"><forename>Hugo</forename></rs> Rad.― <rs type="place" xml:id="pl_04051" ref="#place_1c24743c9fa25eb3584fe72837b40057">Heiligenkreuz</rs> ― <rs type="place" xml:id="pl_04052" ref="#place_4af3f5f9b0c89badcfec63ac017c307b">Alland</rs> ― <rs type="place" xml:id="pl_04053" ref="#place_9a43e84f6e1d406076f2372205804f6d">Baden</rs> ―</p>
+            <p xml:space="preserve"><date when="1902-08-07">7/8</date> Mit <rs type="person" xml:id="pNt_18819" ref="#person_16293"><forename>Hugo</forename></rs> Rad.― <rs type="place" xml:id="pl_04051" ref="#pmb90845">Heiligenkreuz</rs> ― <rs type="place" xml:id="pl_04052" ref="#pmb90217">Alland</rs> ― <rs type="place" xml:id="pl_04053" ref="#pmb662">Baden</rs> ―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="work" subtype="self" xml:id="bibl_18059">Tagebücher</rs>.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_18820" ref="#person_19542"><surname>Salten</surname></rs> Frau, <rs type="person" xml:id="pNt_18821" ref="#person_15004"><surname>Aram</surname></rs> <rs type="person" xml:id="pNt_18822" ref="#person_19827"><forename>Jul.</forename></rs> soupirt.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

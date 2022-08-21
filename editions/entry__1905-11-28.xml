@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-11-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-11-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-11-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-11-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-11-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-11-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F819-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,16 +176,18 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2158.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1905-11-28">
-            <p xml:space="preserve"><date when="1905-11-28">28/11</date> Früh <rs type="place" xml:id="pl_05371" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>. Den Tag mit Ordnen und Trendeleien verbracht.― Nm. 
+            <p xml:space="preserve"><date when="1905-11-28">28/11</date> Früh <rs type="place" xml:id="pl_05371" ref="#pmb50">Wien</rs>. Den Tag mit Ordnen und Trendeleien verbracht.― Nm. 
 <rs type="allusively" xml:id="rst_00627">Mama</rs> und <rs type="person" xml:id="pNt_23959" ref="#person_15854"><forename>Gisa</forename></rs> da; Abds. <rs type="person" xml:id="pNt_23960"><roleName>Frau</roleName> <roleName>Frl.</roleName> <surname>Erl</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">„<rs type="work" xml:id="bibl_16079">Die Andre</rs>“ von <rs type="person" xml:id="pNt_23961" ref="#person_13374"><surname>Bahr</surname></rs> war ein Theaterskandal.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

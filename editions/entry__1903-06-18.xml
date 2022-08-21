@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1903-06-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-06-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-06-19.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1903-06-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-06-17.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-06-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F4A1-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1819.tif"/>
@@ -180,12 +184,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1903-06-18">
-            <p xml:space="preserve"><date when="1903-06-18">18/6</date> Vorm. O., dann <rs type="place" xml:id="pl_04329" ref="#place_fa8a4a0fb753daa46810c572b474ef4f">Brunn</rs> <rs type="person" xml:id="pNt_19902" ref="#person_15726"><surname>Gudera</surname></rs> wegen Bern.― Nm. <rs type="person" xml:id="pNt_19903" ref="#person_19081"><roleName>Herr</roleName> <surname>Réau</surname></rs> <rs type="place" xml:id="pl_04330" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs>, 
+            <p xml:space="preserve"><date when="1903-06-18">18/6</date> Vorm. O., dann <rs type="place" xml:id="pl_04329" ref="#pmb40202">Brunn</rs> <rs type="person" xml:id="pNt_19902" ref="#person_15726"><surname>Gudera</surname></rs> wegen Bern.― Nm. <rs type="person" xml:id="pNt_19903" ref="#person_19081"><roleName>Herr</roleName> <surname>Réau</surname></rs> <rs type="place" xml:id="pl_04330" ref="#pmb182">Paris</rs>, 
 angenehm.― <rs type="work" subtype="self" xml:id="bibl_17717">Junggesellenstück</rs>.― Die Einaktertexte (alte, <rs type="person" xml:id="pNt_19904" ref="#person_18529"><surname>Offenbach</surname></rs>), von 
 <rs type="person" xml:id="pNt_19905" ref="#person_21074"><surname>Wallner</surname></rs> geschickt, gelesen.― <rs type="work" subtype="self" xml:id="bibl_17718">Cassian</rs> auf Operettenmöglichkeit hin 
 bedacht.― <rs type="person" xml:id="pNt_19906" ref="#person_20796"><surname>Trebitsch</surname></rs> begleitet mich.― Mit O. nach dem Nachtmahl spazieren.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

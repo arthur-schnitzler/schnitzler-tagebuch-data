@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-04-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-04-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-04-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-04-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-04-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-04-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FB54-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,12 +176,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2494.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1908-04-09">
             <p xml:space="preserve"><date when="1908-04-09">9/4</date> Vm. bei <rs type="person" xml:id="pNt_28133"><forename>Grethe</forename></rs> dictirt.</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_28134" ref="#person_14690"><surname>Eisenstein</surname></rs>, über ev. <rs type="work" subtype="self" xml:id="bibl_13350">Reigen-Verlag</rs>.―</p>
@@ -185,5 +190,6 @@
             <p xml:space="preserve" rend="indent">― Lese <rs type="place" xml:id="pl_06251" ref="#place_d06a4c9ac44f4e202427917bb2fc3ac0" ana="#exclude">ital.</rs> und <rs type="place" xml:id="pl_06252" ref="#place_e3e64deb07c5945e1bbf4e9f2f006697" ana="#exclude">englisch</rs> zur Uebung;</p>
             <p xml:space="preserve" rend="indent">Einfälle zum „<rs type="work" subtype="self" xml:id="bibl_13352">Verführer</rs>“.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

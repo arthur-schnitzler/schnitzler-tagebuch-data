@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1885-08-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-08-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-08-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1885-08-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-08-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-08-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DEDE-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0249.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1885-08-25">
-            <p xml:space="preserve"><date when="1885-08-25">25/8</date> Dinstag. <rs type="place" xml:id="pl_00483" ref="#place_b2114cc02aeee3cd3f80a773ca6597de">Como</rs> ― <rs type="place" xml:id="pl_00484" ref="#place_ab21db0a2aa2e84be73932be6063b033">Mailand</rs>. Friedhof. <rs type="place" xml:id="pl_00485" ref="#place_1b26f57d84249cb108111a318b269455">Domplatz</rs>. Biffi. Ankunft 
+            <p xml:space="preserve"><date when="1885-08-25">25/8</date> Dinstag. <rs type="place" xml:id="pl_00483" ref="#pmb60525">Como</rs> ― <rs type="place" xml:id="pl_00484" ref="#pmb886">Mailand</rs>. Friedhof. <rs type="place" xml:id="pl_00485" ref="#pmb92211">Domplatz</rs>. Biffi. Ankunft 
 der <rs type="allusively" xml:id="rst_00053">Eltern</rs> etc.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-04-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-04-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-04-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-04-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-04-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-04-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0B0D-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4829.tif"/>
@@ -182,8 +186,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1919-04-20">
-            <p xml:space="preserve"><date when="1919-04-20">20/4</date> Ostersonntag.― Von O. [Allasch] und Veilchen.― Spazierg. <rs type="place" xml:id="pl_11594" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> ― 
-<rs type="place" xml:id="pl_11595" ref="#place_75f2e194839d6ba0e5d4080c211a449a">Dornbacher Park</rs> ― Hameau ― Dreimarkstein ― <rs type="place" xml:id="pl_11596" ref="#place_a513bae177c89d12226f343ac5ff1ee3">Salmannsdorf</rs>.― 
+            <p xml:space="preserve"><date when="1919-04-20">20/4</date> Ostersonntag.― Von O. [Allasch] und Veilchen.― Spazierg. <rs type="place" xml:id="pl_11594" ref="#pmb169">Pötzleinsdorf</rs> ― 
+<rs type="place" xml:id="pl_11595" ref="#pmb176">Dornbacher Park</rs> ― Hameau ― Dreimarkstein ― <rs type="place" xml:id="pl_11596" ref="#pmb91641">Salmannsdorf</rs>.― 
 In der früh <rs type="person" xml:id="pNt_55849" ref="#person_20242"><surname>Speidel</surname></rs> begegnet, der eben in die Burg geht, sein Stück 
 einreichen.</p>
             <p xml:space="preserve" rend="indent">― Im Wald <rs type="person" xml:id="pNt_55850" ref="#person_13080"><roleName>Dr.</roleName> <surname>Abels</surname></rs>. Polit. Gespräch;― anlässlich der heute verfügten 
@@ -199,6 +203,5 @@ enthalten. „Wie viel muß er sich selbst mir gegenüber gut zu machen
 gehabt haben!―“</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

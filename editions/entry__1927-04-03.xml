@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-04-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-04-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-04-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-04-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-04-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-04-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1663-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,15 +177,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6842.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6843.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1927-04-03">
-            <p xml:space="preserve"><date when="1927-04-03">3/4</date> S. Vm. Spazierg. mit <rs type="person" xml:id="pNt_80219" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> <rs type="place" xml:id="pl_17186" ref="#place_187ad9aa5bf46727d6f6cd8ad17cad55">Galizinberg</rs> ― <rs type="place" xml:id="pl_17187" ref="#place_ae27b00fe645446cec370e16f3d1a671">Ottakring</rs>.― Dann zu <rs type="person" xml:id="pNt_80220" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>, 
+            <p xml:space="preserve"><date when="1927-04-03">3/4</date> S. Vm. Spazierg. mit <rs type="person" xml:id="pNt_80219" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> <rs type="place" xml:id="pl_17186" ref="#pmb90687">Galizinberg</rs> ― <rs type="place" xml:id="pl_17187" ref="#pmb66">Ottakring</rs>.― Dann zu <rs type="person" xml:id="pNt_80220" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>, 
 die wieder einen Anfall hatte, aber sich nun nach Morphium wohler befand.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_80221" ref="#person_14130"><forename>Lili</forename></rs> (war mit <rs type="person" xml:id="pNt_80222" ref="#person_19832"><forename>O.</forename></rs> in der <rs type="place" xml:id="pl_17188" ref="#place_3673d0f84f5721e2acacc2218f69b81d" ana="#exclude">span.</rs> Reitschule gewesen) ― erzählt mir von der 
 tiefen Verletztheit <rs type="person" xml:id="pNt_80223" ref="#person_19832"><forename>O.s</forename></rs>, weil ich neulich Abends bei <rs type="person" xml:id="pNt_80224" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs> gewesen; hat ihr 
@@ -189,5 +194,6 @@ tiefen Verletztheit <rs type="person" xml:id="pNt_80223" ref="#person_19832"><fo
             <p xml:space="preserve" rend="indent">Nm. <rs type="work" subtype="self" xml:id="bibl_24316">aphoristisches</rs> (das schon veröff. durchgesehn).―</p>
             <p xml:space="preserve" rend="indent">Abds. bei <rs type="person" xml:id="pNt_80225" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>; die noch sehr matt;― sich aber ihrer Art nach wieder sehr brav hält.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

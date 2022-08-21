@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1917-09-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-09-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-10-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1917-09-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-09-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-10-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-08D7-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4537.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1917-09-30">
-            <p xml:space="preserve"><date when="1917-09-30">30/9</date> S. Spaziergang <rs type="place" xml:id="pl_10742" ref="#place_318e051b87a18bd62b48dc49a3318206">Hütteldorf</rs> ― Knödelhütte ― <rs type="place" xml:id="pl_10743" ref="#place_b900112ce988d972bc2d561413e84979">Sofienalpe</rs> ― Hameau 
-<rs type="place" xml:id="pl_10744" ref="#place_a513bae177c89d12226f343ac5ff1ee3">Salmannsdorf</rs>.―</p>
+            <p xml:space="preserve"><date when="1917-09-30">30/9</date> S. Spaziergang <rs type="place" xml:id="pl_10742" ref="#pmb90913">Hütteldorf</rs> ― Knödelhütte ― <rs type="place" xml:id="pl_10743" ref="#pmb92533">Sofienalpe</rs> ― Hameau 
+<rs type="place" xml:id="pl_10744" ref="#pmb91641">Salmannsdorf</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. getrödelt.― Gegen Abend <rs type="person" xml:id="pNt_51624" ref="#person_19827"><forename>Julius</forename></rs> <rs type="person" xml:id="pNt_51625" ref="#person_19823"><forename>Helene</forename></rs>, <rs type="person" xml:id="pNt_51626" ref="#person_19828"><forename>Karl</forename></rs>, <rs ref="#person_14481" type="person" xml:id="pNt_51627"><forename>Annie</forename></rs>. Ich gab <rs type="person" xml:id="pNt_51628" ref="#person_19827"><forename>Julius</forename></rs> 
 den <rs type="work" subtype="self" xml:id="bibl_6777">Fldb.</rs> mit.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-03-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-03-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-03-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-03-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-03-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-03-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F5AC-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1902.tif"/>
@@ -180,11 +184,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1904-03-16">
-            <p xml:space="preserve"><date when="1904-03-16">16/3</date> Vm. mit <rs type="person" xml:id="pNt_20916" ref="#person_20796"><surname>Trebitsch</surname></rs> (der nach <rs type="place" xml:id="pl_04629" ref="#place_5ea5f4002712b1a9a4e292d3c83736b9">Spanien</rs> reist) spazieren.</p>
+            <p xml:space="preserve"><date when="1904-03-16">16/3</date> Vm. mit <rs type="person" xml:id="pNt_20916" ref="#person_20796"><surname>Trebitsch</surname></rs> (der nach <rs type="place" xml:id="pl_04629" ref="#pmb388">Spanien</rs> reist) spazieren.</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="work" subtype="self" xml:id="bibl_17014">Roman</rs>.― Abd. <rs type="work" xml:id="bibl_17015">Carmen</rs> mit O.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="work" subtype="self" xml:id="bibl_17016">Reigen</rs> in <rs type="place" xml:id="pl_04630" ref="#place_3c2f8b8c8c43538b25a0327ae84c3f65">Deutschland</rs> beschlagnahmt.―</p>
+            <p xml:space="preserve" rend="indent"><rs type="work" subtype="self" xml:id="bibl_17016">Reigen</rs> in <rs type="place" xml:id="pl_04630" ref="#pmb151">Deutschland</rs> beschlagnahmt.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1907-03-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-03-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-03-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1907-03-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-03-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-03-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F9EB-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2341.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1907-03-09">
-            <p xml:space="preserve"><date when="1907-03-09">9/3</date> Vm. bei <rs type="person" xml:id="pNt_26462" ref="#person_13305"><surname>Auernheimer</surname></rs> (<rs type="place" xml:id="pl_05863" ref="#place_8527a3c0b933716d364f4934071cbd02">Neulinggasse</rs>). Über militär. Erinnerungen, 
+            <p xml:space="preserve"><date when="1907-03-09">9/3</date> Vm. bei <rs type="person" xml:id="pNt_26462" ref="#person_13305"><surname>Auernheimer</surname></rs> (<rs type="place" xml:id="pl_05863" ref="#pmb1212">Neulinggasse</rs>). Über militär. Erinnerungen, 
 ethische und hygien. Zustände bei Militär etc., Aerztefragen, Aerztestoffe 
 etc.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="allusively" xml:id="rst_00816">Mama</rs> Nm. eine <rs type="person" xml:id="pNt_26463" ref="#person_19902"><surname>Schubert</surname></rs> Symph.―</p>
@@ -191,6 +195,5 @@ etc.―</p>
             <p xml:space="preserve" rend="indent">„<rs type="work" subtype="self" xml:id="bibl_14065">Schmetterling</rs>“ in der <rs type="work" subtype="newspaper" xml:id="bibl_14066">Arena</rs> erschienen.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

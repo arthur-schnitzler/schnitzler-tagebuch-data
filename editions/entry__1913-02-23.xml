@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-02-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-02-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-02-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-02-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-02-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-02-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0249-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3574.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1913-02-23">
-            <p xml:space="preserve"><date when="1913-02-23">23/2</date> S. Mit O. zu <rs type="person" xml:id="pNt_40180" ref="#person_15194"><surname>Frids</surname></rs>, nicht daheim; <rs type="place" xml:id="pl_08169" ref="#place_efba35b183eff80dd7eb7b03452d0d6c">Belvederegarten</rs>.</p>
+            <p xml:space="preserve"><date when="1913-02-23">23/2</date> S. Mit O. zu <rs type="person" xml:id="pNt_40180" ref="#person_15194"><surname>Frids</surname></rs>, nicht daheim; <rs type="place" xml:id="pl_08169" ref="#pmb90328">Belvederegarten</rs>.</p>
             <p xml:space="preserve" rend="indent">― Zu Tisch <rs type="person" xml:id="pNt_40181" ref="#person_13359"><forename>Stephi</forename></rs> und <rs type="person" xml:id="pNt_40182" ref="#person_15781"><forename>Leonie</forename></rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. mit Thermophor auf dem Fauteuil; in düstrer (von anderswoher) 
 hypochondr. Stimmung. <rs type="person" xml:id="pNt_40183" ref="#person_13760"><surname>Björnson</surname></rs> „<rs type="work" xml:id="bibl_9321">Es flaggen</rs>“ ausgelesen. 
@@ -190,6 +194,5 @@ Dann in Plänen. Einiges zum „<rs type="work" subtype="self" xml:id="bibl_9322
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_40184" ref="#person_13355"><surname>Bachrachs</surname></rs> genachtmahlt. <rs type="person" xml:id="pNt_40185" ref="#person_20532"><surname>Stringa</surname></rs> und <rs type="person" xml:id="pNt_40186" ref="#person_18548"><forename>Rudi</forename> <surname>Olden</surname></rs>. „Erraten.“―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

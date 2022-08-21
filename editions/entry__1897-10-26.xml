@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1897-10-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-10-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-10-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1897-10-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-10-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-10-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-ED0A-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1386.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1897-10-26">
-            <p xml:space="preserve"><date when="1897-10-26">26/10</date> Bic. <rs type="person" xml:id="pNt_14552"><surname>Loebs</surname></rs>, <rs type="person" xml:id="pNt_14553" ref="#person_19542"><surname>Salten</surname></rs>, <rs type="person" xml:id="pNt_14554"><surname>Pollaczek</surname></rs> <rs type="place" xml:id="pl_02776" ref="#place_86a694cf5ce5552ca627cb96b607eccd">Prater</rs>. Bei <rs type="person" xml:id="pNt_14555" ref="#person_15485"><forename>Mz. I</forename></rs> ― Sie nicht zu 
+            <p xml:space="preserve"><date when="1897-10-26">26/10</date> Bic. <rs type="person" xml:id="pNt_14552"><surname>Loebs</surname></rs>, <rs type="person" xml:id="pNt_14553" ref="#person_19542"><surname>Salten</surname></rs>, <rs type="person" xml:id="pNt_14554"><surname>Pollaczek</surname></rs> <rs type="place" xml:id="pl_02776" ref="#pmb91530">Prater</rs>. Bei <rs type="person" xml:id="pNt_14555" ref="#person_15485"><forename>Mz. I</forename></rs> ― Sie nicht zu 
 Haus, traf sie dann, blass, traurig, war ihr sehr zugethan, begleitete 
 sie, war bei ihr.― Nm. bei <rs type="person" xml:id="pNt_14556" ref="#person_19150"><forename>Mz.</forename> <surname>Rh.</surname></rs> ― die auf <rs type="person" xml:id="pNt_14557" ref="#person_18863"><forename>Cl.</forename> <surname>L.</surname></rs> eifersüchtig.― Abd. 
 bei <rs type="person" xml:id="pNt_14558"><surname>Strisower</surname></rs>.― <rs type="person" xml:id="pNt_14559" ref="#person_16366"><forename>Risa</forename></rs>, langweilig.― Im ganzen fühl ich mich sehr 
@@ -189,6 +193,5 @@ darnieder, besonders durch dieses Ohrenklingen; arbeite aber an meinem
 <rs type="work" subtype="self" xml:id="bibl_21714">Stück</rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

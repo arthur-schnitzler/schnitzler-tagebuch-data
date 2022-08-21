@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-04-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-04-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-04-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-04-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-04-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-04-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FE2B-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2882.tif"/>
@@ -182,7 +186,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1910-04-06">
             <p xml:space="preserve"><date when="1910-04-06">6/4</date> Vm. Discussionen mit O., spazieren. Wohnungsmessungen; 
-<rs type="place" xml:id="pl_06996" ref="#place_9912c9330e203d0dc109bf7e74e09e51" ana="#exclude">Schweizer</rs> Pläne, da <rs type="work" subtype="self" xml:id="bibl_11649">Liebelei</rs> Oper <rs type="place" xml:id="pl_06997" ref="#place_d5460b665e26333bdf699f77a2e3cf17">Frankfurt</rs> verschoben.―</p>
+<rs type="place" xml:id="pl_06996" ref="#place_9912c9330e203d0dc109bf7e74e09e51" ana="#exclude">Schweizer</rs> Pläne, da <rs type="work" subtype="self" xml:id="bibl_11649">Liebelei</rs> Oper <rs type="place" xml:id="pl_06997" ref="#pmb146">Frankfurt</rs> verschoben.―</p>
             <p xml:space="preserve" rend="indent">Nm. an <rs type="work" subtype="self" xml:id="bibl_11650">M. u. S.</rs></p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_32432" ref="#person_18011"><surname>Mayer</surname></rs> und O. zu <rs type="person" xml:id="pNt_32433" ref="#person_13551"><forename>Richard</forename></rs> und <rs type="person" xml:id="pNt_32434" ref="#person_13550"><forename>Paula</forename></rs>. <rs type="person" xml:id="pNt_32435" ref="#person_18011"><surname>M.</surname></rs> wollte das Haus kennen lernen. 
 <rs type="person" xml:id="pNt_32436" ref="#person_18011"><surname>Mayer</surname></rs> und <rs type="person" xml:id="pNt_32437" ref="#person_19986"><forename>Gustav</forename></rs> nachtmahlten bei uns.</p>
@@ -190,6 +194,5 @@
 erste Frage in ihrem Brief.― O. sang.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

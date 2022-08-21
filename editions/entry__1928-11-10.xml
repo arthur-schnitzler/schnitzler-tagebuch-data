@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-11-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-11-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-11-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-11-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-11-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-11-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-18AE-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7190.tif"/>
@@ -182,15 +186,14 @@
       <body>
          <div type="diary-day" xml:id="entry__1928-11-10">
             <p xml:space="preserve"><date when="1928-11-10">10/11</date> Dict. „<rs type="work" subtype="self" xml:id="bibl_19759">Spiel d. Sommerl.</rs>“.― Brief von <rs type="person" xml:id="pNt_85217" ref="#person_19832"><forename>O.</forename></rs>: Versetzung <rs type="person" xml:id="pNt_85218" ref="#person_14129"><forename>Arnoldo</forename></rs> 
-nach <rs type="place" xml:id="pl_18376" ref="#place_eb87d3206befc77a1c742bcbae44ef0a">Udine</rs>; das ihr der <rs type="place" xml:id="pl_18377" ref="#place_d06a4c9ac44f4e202427917bb2fc3ac0" ana="#exclude">ital.</rs> Botschafter, bei dem sie sich 
+nach <rs type="place" xml:id="pl_18376" ref="#pmb91965">Udine</rs>; das ihr der <rs type="place" xml:id="pl_18377" ref="#place_d06a4c9ac44f4e202427917bb2fc3ac0" ana="#exclude">ital.</rs> Botschafter, bei dem sie sich 
 verwendet mittheilt.― Dann Bemerkung über mein „Verhalten“ in 
-<rs type="place" xml:id="pl_18378" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> ihr gegenüber, das sie „unglücklich gemacht“.―</p>
+<rs type="place" xml:id="pl_18378" ref="#pmb168">Berlin</rs> ihr gegenüber, das sie „unglücklich gemacht“.―</p>
             <p xml:space="preserve" rend="indent">Nm. wieder so gut wie nichts.</p>
             <p xml:space="preserve" rend="indent">Abds. (allein zu Hause) sah ich alte Zeitungsausschnitte (allgemeines) 
 durch.― Insbesondre das verlogene Geheul der antisem. Kritiker im 
 Krieg (<rs type="work" subtype="self" xml:id="bibl_19760">Kom. d. Worte</rs>) amüsirt mich.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

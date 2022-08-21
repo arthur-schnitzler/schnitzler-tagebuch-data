@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-12-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-12-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-12-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1920-12-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-12-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-12-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0D69-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,13 +177,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5246.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5247.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1920-12-15">
             <p xml:space="preserve"><date when="1920-12-15">15/12</date> Vm. Bank; Beratung mit Hrn. <rs type="person" xml:id="pNt_60697" ref="#person_17175"><surname>Kugel</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Burgth., bei <rs type="person" xml:id="pNt_60698" ref="#person_16247"><surname>Hock</surname></rs>; hauptsächlich wegen Wiederaufnahme des <rs type="work" subtype="self" xml:id="bibl_4428">Medardus</rs>. 
@@ -199,5 +204,6 @@ Banalisirter <rs type="figur">Vilma Flamm-Typ</rs>.―</p>
             <p xml:space="preserve" rend="indent">Las zu Ende die <rs type="person" xml:id="pNt_60708" ref="#person_18442"><surname>Nicolai’sche</surname></rs> <rs type="work" xml:id="bibl_4433">Biologie des Krieges</rs> und die <rs type="work" xml:id="bibl_4434">Briefe</rs> von 
 <rs type="person" xml:id="pNt_60709"><forename>Caroline</forename></rs>.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

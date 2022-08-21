@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1896-05-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-05-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-05-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1896-05-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-05-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-05-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EB11-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1169.tif"/>
@@ -181,8 +185,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1896-05-28">
-            <p xml:space="preserve"><date when="1896-05-28">28/5</date> Bic. <rs type="place" xml:id="pl_02262" ref="#place_15132be64d12d34052619003b16df487">Tulln</rs> ― <rs type="place" xml:id="pl_02263" ref="#place_a3c879a4f19e7987aa5aa1f1b929b0da">Klosterneuburg</rs> ― Radbruch wie ich mit <rs type="person" xml:id="pNt_12237" ref="#person_15855"><surname>Hajek</surname></rs> und 
-Dr. <rs type="person" xml:id="pNt_12238" ref="#person_19987"><forename>M.</forename> <surname>Schwarzkopf</surname></rs> eben nach <rs type="place" xml:id="pl_02264" ref="#place_79569c4d5a6b9125210394665c1e4f3f">Weidling</rs> fahren wollte.―</p>
+            <p xml:space="preserve"><date when="1896-05-28">28/5</date> Bic. <rs type="place" xml:id="pl_02262" ref="#pmb91959">Tulln</rs> ― <rs type="place" xml:id="pl_02263" ref="#pmb865">Klosterneuburg</rs> ― Radbruch wie ich mit <rs type="person" xml:id="pNt_12237" ref="#person_15855"><surname>Hajek</surname></rs> und 
+Dr. <rs type="person" xml:id="pNt_12238" ref="#person_19987"><forename>M.</forename> <surname>Schwarzkopf</surname></rs> eben nach <rs type="place" xml:id="pl_02264" ref="#pmb44392">Weidling</rs> fahren wollte.―</p>
             <p xml:space="preserve" rend="indent">Allein auf der Landstraße in der Dämmerung. Auf dem Land, Abd. allein, 
 überfällt mich fast immer eine seltsame Traurigkeit, in der manches 
 vom Altwerden, vom Bleiben der Natur und wohl auch von der Erinnerung an 
@@ -195,6 +199,5 @@ ich mich sehne.―</p>
 dem wir einmal sprachen).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

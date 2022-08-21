@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-10-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-10-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-10-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-10-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-10-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-10-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0BC3-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4948.tif"/>
@@ -183,7 +187,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1919-10-20">
             <p xml:space="preserve"><date when="1919-10-20">20/10</date> Traum (ich schreibe nun selten welche auf). Irgendwo auf dem 
-Land ungefähr <rs type="place" xml:id="pl_11944" ref="#place_c79ad839f84019f53250a4e6365359f9">Neuwaldegg</rs> erwarten ich und andre die Tram, um auf 
+Land ungefähr <rs type="place" xml:id="pl_11944" ref="#pmb170">Neuwaldegg</rs> erwarten ich und andre die Tram, um auf 
 den Centralfriedhof zu einem Begräbnis zu fahren. Ein Wagen, normal. 
 Dann kommt (extra) ein zweiter ― in dem (ein grauer Lastwagen, dann 
 aber sieht er normal aus) etwa sechs schwarze Kähne, gewissermaßen 
@@ -192,7 +196,7 @@ nach oben gegenüber. Ein heitrer Sommertag; belanglos wer begraben wird,
 ich weiß es auch nicht oder denke nicht dran ―; die Kähne ― Särge 
 für die Trauergäste;― ich entschließe mich aber doch, in die erste 
 Tram einzusteigen; sitze Eckplatz links vorn ― es kommt noch <rs type="person" xml:id="pNt_57147" ref="#person_13471"><forename>Julius</forename> 
-<surname>Bauer</surname></rs>, … ich weiß noch, dass ich am <rs type="place" xml:id="pl_11945" ref="#place_b6838b4a250a6393d18e5657d5b296d3">Schwarzenbergplatz</rs> umsteigen 
+<surname>Bauer</surname></rs>, … ich weiß noch, dass ich am <rs type="place" xml:id="pl_11945" ref="#pmb91711">Schwarzenbergplatz</rs> umsteigen 
 muß ― alles weitre verschwindet. (Der schwarze Kahn ― Sarg wohl aus 
 der <rs type="work" xml:id="bibl_5080">Frau ohne Schatten</rs>.)</p>
             <p xml:space="preserve" rend="indent">― Schlafe leidlich, wache wie immer mit leichten Herzschmerzen auf, 
@@ -211,9 +215,8 @@ aber wohl.)</p>
                <fw n="301" place="top_right" type="pageNum">301</fw>
             </tei:fw>
             <p xml:space="preserve" rend="indent">Nm. Sitzung Autorenverband.</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" ref="#place_volkstheater">Volksth.</rs>, <rs type="work" xml:id="bibl_5081">Tasso</rs>; zwei Acte, 1. Reihe. Hörte fast nichts.</p>
+            <p xml:space="preserve" rend="indent"><rs type="place" ref="#pmb92202">Volksth.</rs>, <rs type="work" xml:id="bibl_5081">Tasso</rs>; zwei Acte, 1. Reihe. Hörte fast nichts.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

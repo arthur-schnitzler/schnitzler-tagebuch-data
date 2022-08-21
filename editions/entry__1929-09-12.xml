@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-09-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-09-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-09-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-09-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-09-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-09-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-19E0-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7349.tif"/>
@@ -182,15 +186,14 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1929-09-12">
-            <p xml:space="preserve"><date when="1929-09-12">12/9</date> <rs type="place" xml:id="pl_18902" ref="#place_0d02faf704bd0c9d27ef4e5dc7980b02">Nürnberg</rs>.― Brief von <rs type="person" xml:id="pNt_87609" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>, recht vernünftig, ich versöhnlich, 
+            <p xml:space="preserve"><date when="1929-09-12">12/9</date> <rs type="place" xml:id="pl_18902" ref="#pmb44172">Nürnberg</rs>.― Brief von <rs type="person" xml:id="pNt_87609" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>, recht vernünftig, ich versöhnlich, 
 sie auch. Wozu das alles.―</p>
-            <p xml:space="preserve" rend="indent">Bahn.― <rs type="person" xml:id="pNt_87610" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Abreise <rs type="place" xml:id="pl_18903" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>, ich <rs type="place" xml:id="pl_18904" ref="#place_07746ef3772ea6e718f5cd3a37681d92">Marienbad</rs>.</p>
-            <p xml:space="preserve" rend="indent">Dort 3 Uhr, Hotel <rs type="place" xml:id="pl_18905" ref="#place_00f8780e567ba1b5689c43337d826371">Weimar</rs>.― Angenehm. Dauernd herrliches Wetter. Finde 
+            <p xml:space="preserve" rend="indent">Bahn.― <rs type="person" xml:id="pNt_87610" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Abreise <rs type="place" xml:id="pl_18903" ref="#pmb50">Wien</rs>, ich <rs type="place" xml:id="pl_18904" ref="#pmb91211">Marienbad</rs>.</p>
+            <p xml:space="preserve" rend="indent">Dort 3 Uhr, Hotel <rs type="place" xml:id="pl_18905" ref="#pmb92063">Weimar</rs>.― Angenehm. Dauernd herrliches Wetter. Finde 
 <rs type="person" xml:id="pNt_87611" ref="#person_13551"><forename>Rich.</forename></rs> und <rs type="person" xml:id="pNt_87612" ref="#person_13550"><forename>Paula</forename></rs> gegen Abend bei der Musik. Sie sind überrascht und 
 erfreut. <rs type="person" xml:id="pNt_87613" ref="#person_13550"><forename>Paula</forename></rs> erhebt sich und küsst mich. <rs type="person" xml:id="pNt_87614" ref="#person_13551"><forename>Rich.</forename></rs>: Ein „Einzelfall“.― 
 Wir nachtmahlen zusammen in „Neptun“.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

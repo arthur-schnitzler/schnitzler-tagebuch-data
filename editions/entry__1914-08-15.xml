@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-08-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-08-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-08-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-08-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-08-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-08-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0462-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3867.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1914-08-15">
-            <p xml:space="preserve"><date when="1914-08-15">15/8</date> <rs type="place" xml:id="pl_08887" ref="#place_6f859ce40468277cddd6642488938d70">Ragaz</rs> ― <rs type="place" xml:id="pl_08888" ref="#place_4293c5990fed6c6352653a9489c26ab9">Buchs</rs> ― <rs type="place" xml:id="pl_08889" ref="#place_fef029496b06aa0f5a4468390461f12c">Feldkirch</rs>. Hotel Post. Regen. In der 
+            <p xml:space="preserve"><date when="1914-08-15">15/8</date> <rs type="place" xml:id="pl_08887" ref="#pmb49990">Ragaz</rs> ― <rs type="place" xml:id="pl_08888" ref="#pmb859">Buchs</rs> ― <rs type="place" xml:id="pl_08889" ref="#pmb44368">Feldkirch</rs>. Hotel Post. Regen. In der 
 Bezirkshauptmannschaft Legitimation geholt zur Weiterreise!― Nm. an 
 <rs type="work" subtype="self" xml:id="bibl_8965">Graesler</rs>.― Spazieren.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

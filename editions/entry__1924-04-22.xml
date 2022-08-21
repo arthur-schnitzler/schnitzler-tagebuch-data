@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1924-04-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-04-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-04-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1924-04-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-04-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-04-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1230-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,13 +177,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6253.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6254.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1924-04-22">
             <p xml:space="preserve"><date when="1924-04-22">22/4</date> Vm. (bei ziemlichem Übelbefinden) an <rs type="work" subtype="self" xml:id="bibl_20969">aphoristischem</rs>.―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_72129" ref="#person_19756"><forename>Paula</forename> <surname>Schmidl</surname></rs>. (Sie gab mir ein Portrait von sich <rs type="person" xml:id="pNt_72130" ref="#person_19755"><forename>Hugo</forename></rs> und dem 
@@ -189,5 +194,6 @@ Enkel.) ―</p>
             <p xml:space="preserve" rend="indent">Nachher traf ich noch <rs type="person" xml:id="pNt_72132" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs>; die mir ihre Unannehmlichkeiten 
 und Schmerzen klagte. (Die ersteren gehn ihr tiefer.)</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

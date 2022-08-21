@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1895-06-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-06-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-06-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1895-06-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-06-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-06-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E9C1-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1034.tif"/>
@@ -182,12 +186,11 @@
       <body>
          <div type="diary-day" xml:id="entry__1895-06-27">
             <p xml:space="preserve"><date when="1895-06-27">27/6</date> Nm. teleph. <rs type="person" xml:id="pNt_10738" ref="#person_19564"><forename>Dilly</forename></rs> (nachdem vorher ein andres weibliches Wesen 
-aus dem <rs type="place" xml:id="pl_02029" ref="#place_51b8a1e064b9ddf3f887361c3c9abc3e">Helenenthal</rs> teleph., nur um „meine Stimme“ kennen zu 
+aus dem <rs type="place" xml:id="pl_02029" ref="#pmb90849">Helenenthal</rs> teleph., nur um „meine Stimme“ kennen zu 
 lernen) <rs type="person" xml:id="pNt_10739" ref="#person_14065"><surname>Burckhard</surname></rs> hat mir dein <rs type="work" subtype="self" xml:id="bibl_22178">Stück</rs> geschickt. Ich werde (lachen) 
 deine Rolle <hi xmlns:tei="http://www.tei-c.org/ns/1.0" rend="italicised">nicht</hi> spielen.― Ich: Schön.― Sie: Sonst hast du 
 mir nichts zu sagen?― Nein.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

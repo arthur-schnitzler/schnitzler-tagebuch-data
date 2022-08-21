@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1921-04-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-04-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-04-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1921-04-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-04-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-04-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0DE0-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,20 +177,22 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5377.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5378.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1921-04-13">
-            <p xml:space="preserve"><date when="1921-04-13">13/4</date> Tel. <rs type="person" xml:id="pNt_62037" ref="#person_19832"><forename>O.</forename></rs>,― morgen <rs type="place" xml:id="pl_12906" ref="#place_c38ad36647aca0261d667c432a4866bd">Salzburg</rs>, Zusammenkunft in Gegenwart <rs type="person" xml:id="pNt_62038" ref="#person_17784"><forename>Almas</forename></rs>. Nein.―</p>
+            <p xml:space="preserve"><date when="1921-04-13">13/4</date> Tel. <rs type="person" xml:id="pNt_62037" ref="#person_19832"><forename>O.</forename></rs>,― morgen <rs type="place" xml:id="pl_12906" ref="#pmb91649">Salzburg</rs>, Zusammenkunft in Gegenwart <rs type="person" xml:id="pNt_62038" ref="#person_17784"><forename>Almas</forename></rs>. Nein.―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_62039" ref="#person_15854"><forename>Gisa</forename></rs>. Besprechung der Sachlage.―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_62040" ref="#person_13355"><forename>Ama</forename></rs>, die recht leidend. <rs type="person" xml:id="pNt_62041" ref="#person_21599"><forename>Minnie</forename> <surname>Zuckerkandl</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Zu Tisch <rs type="person" xml:id="pNt_62042" ref="#person_17562"><forename>R.</forename> <surname>L.</surname></rs></p>
             <p xml:space="preserve" rend="indent">Brief an <rs type="person" xml:id="pNt_62043" ref="#person_16469"><forename>Lucy</forename></rs>.―</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_62044" ref="#person_17562"><forename>R.</forename> <surname>L.</surname></rs> <rs type="place" xml:id="pl_12907" ref="#place_6fc6f10422bfe80ddcba23b4f7f080dc">Hietzing</rs> Rest. Weide.― (<rs type="place" xml:id="pl_12908" ref="#place_e1519f0e509cdb84db48aafc7879aedf">Speising</rs>.) ―</p>
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_62044" ref="#person_17562"><forename>R.</forename> <surname>L.</surname></rs> <rs type="place" xml:id="pl_12907" ref="#pmb63">Hietzing</rs> Rest. Weide.― (<rs type="place" xml:id="pl_12908" ref="#pmb91784">Speising</rs>.) ―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

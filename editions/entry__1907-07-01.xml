@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1907-07-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-06-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-07-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1907-07-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-06-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-07-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FA5D-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2398.tif"/>
@@ -180,11 +184,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1907-07-01">
-            <p xml:space="preserve"><date when="1907-07-01">1/7</date> Nach <rs type="place" xml:id="pl_06018" ref="#place_ab7a0611e8adc12f261c0725a81095d9">Veldes</rs>. Louisenbad. Wohnungen. Bad. <rs type="person" xml:id="pNt_27173" ref="#person_15221"><roleName>Herr</roleName> <surname>Friedländer</surname></rs> (<rs ref="#person_16485" type="person" xml:id="pNt_27174"><forename>Grethls</forename></rs> 
+            <p xml:space="preserve"><date when="1907-07-01">1/7</date> Nach <rs type="place" xml:id="pl_06018" ref="#pmb92003">Veldes</rs>. Louisenbad. Wohnungen. Bad. <rs type="person" xml:id="pNt_27173" ref="#person_15221"><roleName>Herr</roleName> <surname>Friedländer</surname></rs> (<rs ref="#person_16485" type="person" xml:id="pNt_27174"><forename>Grethls</forename></rs> 
 „Onkel Tom“) und <rs type="person" xml:id="pNt_27175" ref="#person_13358"><roleName>Hr.</roleName> <surname>Bachrach</surname></rs>.</p>
-            <p xml:space="preserve" rend="indent">― Abfahrt nach <rs type="place" xml:id="pl_06019" ref="#place_0d630f309cd8eaead4c6693378f162fb">Villach</rs>.</p>
+            <p xml:space="preserve" rend="indent">― Abfahrt nach <rs type="place" xml:id="pl_06019" ref="#pmb92011">Villach</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

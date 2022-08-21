@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1903-10-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-10-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-10-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1903-10-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-10-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-10-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F51C-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1856.tif"/>
@@ -181,12 +185,11 @@
       <body>
          <div type="diary-day" xml:id="entry__1903-10-24">
             <p xml:space="preserve"><date when="1903-10-24">24/10</date> Wie ich auch schon von andern hörte, heute durch <rs type="person" xml:id="pNt_20340" ref="#person_15715"><roleName>Fr.</roleName> <surname>Grünwald</surname></rs>, 
-großer Erfolg des <rs type="work" subtype="self" xml:id="bibl_17844">Märchen</rs> in <rs type="place" xml:id="pl_04501" ref="#place_65f7b8e17e93bc2a87843d99e82c08a5">Rußland</rs> ― Aerger, dass meine Finanzen 
+großer Erfolg des <rs type="work" subtype="self" xml:id="bibl_17844">Märchen</rs> in <rs type="place" xml:id="pl_04501" ref="#pmb34438">Rußland</rs> ― Aerger, dass meine Finanzen 
 nichts davon profitiren, und überhaupt über liter.-materielle Dinge, Stellung 
-und Einkünfte in <rs type="place" xml:id="pl_04502" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> insbesondre ― Aerger über Haus und Hausherrn etc.― 
+und Einkünfte in <rs type="place" xml:id="pl_04502" ref="#pmb50">Wien</rs> insbesondre ― Aerger über Haus und Hausherrn etc.― 
 Letztes am <rs type="work" subtype="self" xml:id="bibl_17845">Stück</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1900-03-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-02-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-03-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1900-03-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-02-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-03-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F035-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -162,7 +166,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1542.tif"/>
@@ -171,10 +175,9 @@
       <body>
          <div type="diary-day" xml:id="entry__1900-03-01">
             <p xml:space="preserve"><date when="1900-03-01">1/3</date> Sonderbar wie schon manchmal die leichte Gereiztheit gegen <rs type="person" xml:id="pNt_16901" ref="#person_16293"><forename>Hugo</forename></rs>.</p>
-            <p xml:space="preserve" rend="indent">Schnee. Spazierg. <rs type="place" xml:id="pl_03333" ref="#place_62abecfac3ba329cf2d2736a2d24dd89">Prein</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Schnee. Spazierg. <rs type="place" xml:id="pl_03333" ref="#pmb49072">Prein</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. mit <rs type="person" xml:id="pNt_16902" ref="#person_18137"><forename>Dora</forename> <surname>Sp.</surname></rs> übern Thalhof. Erinnerung.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

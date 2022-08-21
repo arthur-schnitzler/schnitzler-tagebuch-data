@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1925-12-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-12-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-12-19.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1925-12-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-12-17.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-12-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-148D-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,12 +177,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6602.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1925-12-18">
             <p xml:space="preserve"><date when="1925-12-18">18/12</date> Besorgungen Stadt.―</p>
             <p xml:space="preserve" rend="indent">Zu Tisch bei <rs type="person" xml:id="pNt_76736" ref="#person_17509"><surname>Lichtensterns</surname></rs>.― Gespräch mit <rs type="person" xml:id="pNt_76737" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs>― Die Conflicte.― Hilfe 
@@ -188,5 +193,6 @@
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_76740" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Kino („<rs type="work" xml:id="bibl_16899">Ihre Liebesgeschichte</rs>“, <rs type="person" xml:id="pNt_76741" ref="#person_20590"><forename>Gloria</forename> <surname>Swanson</surname></rs>), dann bei ihr 
 genachtm.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

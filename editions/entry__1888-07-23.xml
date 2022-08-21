@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1888-07-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1888-07-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1888-07-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1888-07-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1888-07-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1888-07-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E080-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0348.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1888-07-23">
-            <p xml:space="preserve"><date when="1888-07-23">23/7</date> Montag. <rs type="place" xml:id="pl_00697" ref="#place_0d84883ca72c88cb53c8a38262efdcbc">Brighton</rs> ― <rs type="place" xml:id="pl_00698" ref="#place_da871503f6796db5142177b404db4fbe">Portsmouth</rs> ― <rs type="place" xml:id="pl_00699" ref="#place_6fc83c551ba6be24246201aa38176ea6">Ryde</rs> ― <rs type="place" xml:id="pl_00700" ref="#place_d85b8267d2957c2e1dac4f93680f556b">Ventnor</rs>. Hill. 
+            <p xml:space="preserve"><date when="1888-07-23">23/7</date> Montag. <rs type="place" xml:id="pl_00697" ref="#pmb36448">Brighton</rs> ― <rs type="place" xml:id="pl_00698" ref="#pmb44273">Portsmouth</rs> ― <rs type="place" xml:id="pl_00699" ref="#pmb91626">Ryde</rs> ― <rs type="place" xml:id="pl_00700" ref="#pmb92005">Ventnor</rs>. Hill. 
 Bootfahrt.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

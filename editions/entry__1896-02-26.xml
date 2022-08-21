@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1896-02-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-02-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-02-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1896-02-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-02-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-02-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EAB5-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1118.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1896-02-26">
-            <p xml:space="preserve"><date when="1896-02-26">26/2</date> <rs type="place" xml:id="pl_02199" ref="#place_a9a988302086229505c21f885134919d">Josefstadt</rs> „<rs type="work" xml:id="bibl_21810">Pumpmajor</rs>“.― Kränzchen „Internation“, wo u. a. 
+            <p xml:space="preserve"><date when="1896-02-26">26/2</date> <rs type="place" xml:id="pl_02199" ref="#pmb58">Josefstadt</rs> „<rs type="work" xml:id="bibl_21810">Pumpmajor</rs>“.― Kränzchen „Internation“, wo u. a. 
 <rs type="person" xml:id="pNt_11807" ref="#person_19150"><forename>Mz.</forename> <surname>Rh.</surname></rs> war, die mich beinah so langweilte wie das Kränzchen selbst.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

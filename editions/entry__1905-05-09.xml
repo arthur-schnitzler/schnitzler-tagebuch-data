@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-05-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-05-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-05-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-05-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-05-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-05-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F74E-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2073.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1905-05-09">
-            <p xml:space="preserve"><date when="1905-05-09">9/5</date> Vm. in der <rs type="place" xml:id="pl_05174" ref="#place_b333d193dca0791c0cf701b0749dc4ce">Hinterbrühl</rs> bei <rs type="person" xml:id="pNt_22822" ref="#person_19559"><surname>Samuely</surname></rs> ein Zimmer für <rs type="person" xml:id="pNt_22823" ref="#person_20386"><forename>Liesl</forename></rs> genommen; mit 
+            <p xml:space="preserve"><date when="1905-05-09">9/5</date> Vm. in der <rs type="place" xml:id="pl_05174" ref="#pmb75">Hinterbrühl</rs> bei <rs type="person" xml:id="pNt_22822" ref="#person_19559"><surname>Samuely</surname></rs> ein Zimmer für <rs type="person" xml:id="pNt_22823" ref="#person_20386"><forename>Liesl</forename></rs> genommen; mit 
 <rs type="person" xml:id="pNt_22824"><surname>S.</surname></rs> in die Stadt. Sympathischer Mensch, kenn ihn schon lang flüchtig.―</p>
             <p xml:space="preserve" rend="indent">Mit O. und <rs type="person" xml:id="pNt_22825" ref="#person_20386"><forename>Liesl</forename></rs> bei <rs type="allusively" xml:id="rst_00564">Mama</rs> gegessen.― <rs type="work" xml:id="bibl_15689">3. Quartett</rs> <rs type="person" xml:id="pNt_22826" ref="#person_19942"><surname>Schumann</surname></rs>.</p>
             <p xml:space="preserve" rend="indent">― Den ersten <rs type="person" xml:id="pNt_22827"><surname>Volksschillerpreis</surname></rs> erhielten <rs type="person" xml:id="pNt_22828" ref="#person_15980"><forename>Gerh.</forename> <surname>Hauptmann</surname></rs> (<rs type="work" xml:id="bibl_15690">Bernd</rs>), 
@@ -191,6 +195,5 @@
 mich ziemlich nervös.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

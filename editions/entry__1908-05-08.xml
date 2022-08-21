@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-05-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-05-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FB71-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2504.tif"/>
@@ -180,7 +184,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1908-05-08">
-            <p xml:space="preserve"><date when="1908-05-08">8/5</date> Spaziergang <rs type="place" xml:id="pl_06292" ref="#place_0738ba6f958afc0571341ad4cabd0114">Gasteig</rs> Anlagen, <rs type="place" xml:id="pl_06293" ref="#place_5d0770456fbd6f86ec07eec5318b6d78">Engl. Garten</rs>, <rs type="place" xml:id="pl_06294" ref="#place_ea4e2c9dd05dcf1a0bcd5d175ecc132a">Schwabing</rs>. Schwere 
+            <p xml:space="preserve"><date when="1908-05-08">8/5</date> Spaziergang <rs type="place" xml:id="pl_06292" ref="#pmb92250">Gasteig</rs> Anlagen, <rs type="place" xml:id="pl_06293" ref="#pmb90589">Engl. Garten</rs>, <rs type="place" xml:id="pl_06294" ref="#pmb36774">Schwabing</rs>. Schwere 
 Auseinandersetzung mit O. (Zukunft.) ―</p>
             <p xml:space="preserve" rend="indent">― Abds. (mit <rs type="person" xml:id="pNt_28235" ref="#person_13925"><surname>Brann</surname></rs>) im Marionettentheater des Papa <rs type="person" xml:id="pNt_28236" ref="#person_19752"><surname>Schmid</surname></rs>. <rs type="work" xml:id="bibl_13402">Faust</rs>. 
 Entzückend.</p>
@@ -189,6 +193,5 @@ Entzückend.</p>
 sehr wohlhabend seit 40 Jahren aus Liebe zur Sache die Drähte lenkt.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

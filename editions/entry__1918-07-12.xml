@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-07-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-07-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-07-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-07-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-07-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-07-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-09F3-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4670.tif"/>
@@ -183,7 +187,7 @@
          <div type="diary-day" xml:id="entry__1918-07-12">
             <p xml:space="preserve"><date when="1918-07-12">12/7</date> Dict. „<rs type="work" subtype="self" xml:id="bibl_5703">Sohn</rs>“.―</p>
             <p xml:space="preserve" rend="indent">Nm. am „<rs type="work" subtype="self" xml:id="bibl_5704">Nachklang</rs>“.―</p>
-            <p xml:space="preserve" rend="indent">Spazierg. mit O. <rs type="place" xml:id="pl_11111" ref="#place_bf303a935ba7bb30e892cb5d0f2ea6ac">Michaelerberg</rs>; sie fragt nach meinen Arbeiten; ich erzähle 
+            <p xml:space="preserve" rend="indent">Spazierg. mit O. <rs type="place" xml:id="pl_11111" ref="#pmb91239">Michaelerberg</rs>; sie fragt nach meinen Arbeiten; ich erzähle 
 vom „<rs type="work" subtype="self" xml:id="bibl_5705">Sohn</rs>“ (der vorläufig eine Materialiensammlung ist, völlig unmöglich 
 in Form und Stil); und einiges vom <rs type="work" subtype="self" xml:id="bibl_5706">Weiher</rs>.― Unsre Beziehung sozusagen gut;― 
 besonders im Gespräch und Zusammensein;― in der Tiefe hat sich eigentlich 
@@ -197,6 +201,5 @@ enttäuscht haben.― Seit ein paar Tagen <rs type="person" xml:id="pNt_53705" r
 nichts kannte), „Allerhand Leute“.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

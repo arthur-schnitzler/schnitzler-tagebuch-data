@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1900-10-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-10-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-10-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1900-10-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-10-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-10-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F107-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -162,7 +166,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1592.tif"/>
@@ -172,12 +176,11 @@
       <body>
          <div type="diary-day" xml:id="entry__1900-10-08">
             <p xml:space="preserve"><date when="1900-10-08">8/10</date> Umziehen, vorläufig ins grüne Zimmer.―</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_17413" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs> <rs type="place" xml:id="pl_03563" ref="#place_86a694cf5ce5552ca627cb96b607eccd">Prater</rs>.― Nm. sie bei mir ― Ein Versagen am Schluss
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_17413" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs> <rs type="place" xml:id="pl_03563" ref="#pmb91530">Prater</rs>.― Nm. sie bei mir ― Ein Versagen am Schluss
 <pb n="339"/>
 <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header"><fw place="top_center"><date type="range">1900: X 8 - X 31</date></fw> <fw place="top_right" type="pn">339</fw></tei:fw>
 vernichtete mich moralisch. Bei <rs type="person" xml:id="pNt_17414" ref="#person_19832"><forename>D.</forename> <surname>M.</surname></rs></p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-12-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-12-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-12-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-12-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-12-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-12-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-04D6-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3941.tif"/>
@@ -183,9 +187,9 @@
          <div type="diary-day" xml:id="entry__1914-12-09">
             <p xml:space="preserve"><date when="1914-12-09">9/12</date> Dictirt „<rs type="work" subtype="self" xml:id="bibl_9144">Verführer</rs>“.―</p>
             <p xml:space="preserve" rend="indent">Nm. Dr. <rs type="person" xml:id="pNt_44565" ref="#person_16770"><forename>Arth.</forename> <surname>Kaufmann</surname></rs>, dem ich meine Erklärung (gegen jenes erfundne 
-Interview) mitgebe, um sie ev. an <rs type="person" xml:id="pNt_44566" ref="#person_21231"><forename>Bella</forename></rs> nach <rs type="place" xml:id="pl_09109" ref="#place_65f7b8e17e93bc2a87843d99e82c08a5">Rußland</rs> zu befördern.―</p>
+Interview) mitgebe, um sie ev. an <rs type="person" xml:id="pNt_44566" ref="#person_21231"><forename>Bella</forename></rs> nach <rs type="place" xml:id="pl_09109" ref="#pmb34438">Rußland</rs> zu befördern.―</p>
             <p xml:space="preserve" rend="indent">Mit O. Burg Abend-Generalprobe zur <rs type="work" xml:id="bibl_9145">Hermannsschlacht</rs>. Großer Eindruck. 
-Es gibt nur <hi xmlns:tei="http://www.tei-c.org/ns/1.0" rend="italicised">ein</hi> <rs type="place" ref="#place_burgtheater">Burgtheater</rs>.―</p>
+Es gibt nur <hi xmlns:tei="http://www.tei-c.org/ns/1.0" rend="italicised">ein</hi> <rs type="place" ref="#pmb14">Burgtheater</rs>.―</p>
             <p xml:space="preserve" rend="indent">In der Pilsenetzer genachtm. mit <rs type="person" xml:id="pNt_44567" ref="#person_20238"><forename>Richard</forename></rs> und <rs ref="#person_19625" type="person" xml:id="pNt_44568"><forename>Vera</forename> <surname>Specht</surname></rs>. (Ihr 
 <pb n="157"/>
 <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header"><fw place="top_center"><date type="range">1914: XII 9 - XII 15</date></fw> <fw n="157" place="top_right" type="pageNum">157</fw></tei:fw>
@@ -194,6 +198,5 @@ anführen“ ―) Die <rs type="person" xml:id="pNt_44569" ref="#person_19103"><
 wechselnde Begleiter.― Über „Insel-, Bett- und Gewitterfrauen“.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

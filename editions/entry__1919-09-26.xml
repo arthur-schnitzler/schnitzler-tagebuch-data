@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-09-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-09-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-09-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-09-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-09-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-09-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0BAB-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4930.tif"/>
@@ -183,10 +187,9 @@
          <div type="diary-day" xml:id="entry__1919-09-26">
             <p xml:space="preserve"><date when="1919-09-26">26/9</date> Dictirt Briefe.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_5043">Weiher</rs>. 
-Abd. zu <rs type="person" xml:id="pNt_56938" ref="#person_13551"><forename>Richard</forename></rs>. Gab ihm Bestellungen für <rs type="place" xml:id="pl_11892" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> mit (Inszenirung 
+Abd. zu <rs type="person" xml:id="pNt_56938" ref="#person_13551"><forename>Richard</forename></rs>. Gab ihm Bestellungen für <rs type="place" xml:id="pl_11892" ref="#pmb168">Berlin</rs> mit (Inszenirung 
 <rs type="work" subtype="self" xml:id="bibl_5044">Reigen</rs> etc.) ― <rs type="person" xml:id="pNt_56939" ref="#person_19822"><forename>Heini</forename></rs> mit <rs type="person" xml:id="pNt_56940" ref="#person_13547"><forename>Gabriel</forename></rs> stöberte in der Bibliothek herum.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

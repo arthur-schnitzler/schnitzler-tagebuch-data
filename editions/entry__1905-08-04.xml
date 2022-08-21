@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-08-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-08-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-08-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-08-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-08-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-08-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F7A5-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2107.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1905-08-04">
-            <p xml:space="preserve"><date when="1905-08-04">4/8</date> Vm. Besorgungen Stadt.― Mit O. bei <rs type="person" xml:id="pNt_23232" ref="#person_18320"><forename>Fanny</forename> <surname>Mütter</surname></rs> (<rs type="place" xml:id="pl_05257" ref="#place_53e75cdbc7449ba89598563b511e672b">Porzellang.</rs>, 
+            <p xml:space="preserve"><date when="1905-08-04">4/8</date> Vm. Besorgungen Stadt.― Mit O. bei <rs type="person" xml:id="pNt_23232" ref="#person_18320"><forename>Fanny</forename> <surname>Mütter</surname></rs> (<rs type="place" xml:id="pl_05257" ref="#pmb436">Porzellang.</rs>, 
 Wohnung der <rs type="person" xml:id="pNt_23233" ref="#person_19424"><surname>Rothenstein</surname></rs>), wo <rs type="person" xml:id="pNt_23234" ref="#person_20925"><forename>Leo</forename> <surname>V.</surname></rs>―</p>
             <p xml:space="preserve" rend="indent">Nachm. spät Tennis.― Genachtm. <rs type="person" xml:id="pNt_23235"><surname>Steinböck</surname></rs> mit <rs type="person" xml:id="pNt_23236" ref="#person_19542"><surname>Saltens</surname></rs>, <rs type="person" xml:id="pNt_23237" ref="#person_18320"><forename>Fanny</forename> <surname>M.</surname></rs>, <rs type="person" xml:id="pNt_23238" ref="#person_20925"><forename>Leo</forename></rs>, 
 der nette Sachen für <rs type="person" xml:id="pNt_23239" ref="#person_19822"><forename>Heini</forename></rs> mitbrachte.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

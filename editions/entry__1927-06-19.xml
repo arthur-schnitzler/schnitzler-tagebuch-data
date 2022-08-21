@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-06-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-06-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-06-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-06-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-06-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-06-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-16B0-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6888.tif"/>
@@ -182,13 +186,12 @@
       <body>
          <div type="diary-day" xml:id="entry__1927-06-19">
             <p xml:space="preserve"><date when="1927-06-19">19/6</date> S. Mit <rs type="person" xml:id="pNt_80939" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Himmel, Cobenzl;― dann mit ihr bei <rs type="person" xml:id="pNt_80940" ref="#person_21224"><roleName>Frau</roleName> <surname>Wellesz</surname></rs> 
-(<rs type="place" xml:id="pl_17360" ref="#place_6352aa36edbedc20efbb28d51d0a46bf">Kaasgraben</rs>);― als ich wegging kamen ihr Sohn und <rs type="person" xml:id="pNt_80941" ref="#person_18867"><forename>Magda</forename> <surname>W.</surname></rs>, die am 5. 7. 
+(<rs type="place" xml:id="pl_17360" ref="#pmb92316">Kaasgraben</rs>);― als ich wegging kamen ihr Sohn und <rs type="person" xml:id="pNt_80941" ref="#person_18867"><forename>Magda</forename> <surname>W.</surname></rs>, die am 5. 7. 
 heiraten; sie waren eben in der neuen Wohnung gewesen und hatten die Gartenmöbel, mein Hochzeitsgeschenk ausprobirt.</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="work" subtype="self" xml:id="bibl_24476">aphoristisches</rs>. Etliches ältre angesehn: so „<rs type="work" subtype="self" xml:id="bibl_24477">Ruf</rs>“ ― die Varianten 
 des 3. Aktes;― Vorarbeiten zu „<rs type="work" subtype="self" xml:id="bibl_24478">Marionetten</rs>“ und <rs type="work" subtype="self" xml:id="bibl_24479">Pierrots Verwandlungen</rs>.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_80942" ref="#person_19832"><forename>O.</forename></rs> brachte <rs ref="#person_19802" type="person" xml:id="pNt_80943"><roleName>Frau</roleName> <surname>Schn.</surname></rs> mit, die mit uns nachtmahlte.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

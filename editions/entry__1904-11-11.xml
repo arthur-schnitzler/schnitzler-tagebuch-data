@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-11-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-11-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-11-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-11-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-11-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-11-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F69C-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1994.tif"/>
@@ -180,18 +184,17 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1904-11-11">
-            <p xml:space="preserve"><date when="1904-11-11">11/11</date> Vm. bei <rs type="person" xml:id="pNt_21889" ref="#person_20796"><surname>Trebitsch</surname></rs> (der in <rs type="place" xml:id="pl_04976" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs> war, nach <rs type="place" xml:id="pl_04977" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> fährt).</p>
+            <p xml:space="preserve"><date when="1904-11-11">11/11</date> Vm. bei <rs type="person" xml:id="pNt_21889" ref="#person_20796"><surname>Trebitsch</surname></rs> (der in <rs type="place" xml:id="pl_04976" ref="#pmb182">Paris</rs> war, nach <rs type="place" xml:id="pl_04977" ref="#pmb168">Berlin</rs> fährt).</p>
             <p xml:space="preserve" rend="indent">Nm. mit <rs type="allusively" xml:id="rst_00485">Mama</rs> ein <rs type="person" xml:id="pNt_21890" ref="#person_15835"><surname>Händel</surname></rs> Orgelconcert, <rs type="work" xml:id="bibl_17441">Leonore Nr. 3</rs>.―</p>
             <p xml:space="preserve" rend="indent">Briefe geschrieben. <rs type="work" xml:id="bibl_17442">Volpone</rs> (<rs type="person" xml:id="pNt_21891" ref="#person_16579"><forename>Ben</forename> <surname>Jonson</surname></rs>) ausgelesen.</p>
             <p xml:space="preserve" rend="indent">Gepackt.―</p>
             <p xml:space="preserve" rend="indent">Hatte Vorm. (das erste Mal seit meiner Hochzeit) <rs type="person" xml:id="pNt_21892"><forename>Minnie</forename> <surname>B.</surname></rs> und 
 Mutter in der Stadt getroffen.― Einen Tag nach unsrer Abreise 
-waren sie in <rs type="place" xml:id="pl_04978" ref="#place_1f8c82592620c6015573491c32824424">Lueg</rs>.― Insbesondre die Mutter konnte eine leichte 
+waren sie in <rs type="place" xml:id="pl_04978" ref="#pmb91173">Lueg</rs>.― Insbesondre die Mutter konnte eine leichte 
 Pikirtheit nicht verbergen.―</p>
             <p xml:space="preserve" rend="indent">Abends bei <rs type="allusively" xml:id="rst_00486">Mama</rs>.― Familie und <rs type="person" xml:id="pNt_21893" ref="#person_19986"><forename>Gustav</forename></rs>.―</p>
             <p xml:space="preserve" rend="indent">Eine Novelle von <rs type="person" xml:id="pNt_21894" ref="#person_19493"><surname>Saar</surname></rs>, <rs type="work" xml:id="bibl_17443">Ginevra</rs>, gelesen.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

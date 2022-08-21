@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-08-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-08-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-08-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-08-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-08-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-08-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-184B-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7136.tif"/>
@@ -185,11 +189,11 @@
             <p xml:space="preserve"><date when="1928-08-03">3/8</date> ― Vm. <rs type="person" xml:id="pNt_84401" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> bei mir; aufgewühlt; doch hält sie sich gut. Sie 
 <hi xmlns:tei="http://www.tei-c.org/ns/1.0" rend="italicised">muss</hi> die jetzige Situation verstehen. Sie bleibt von ½11 
 bis 1.―</p>
-            <p xml:space="preserve" rend="indent">― Gegen Abend fahren wir Auto, ich, <rs type="person" xml:id="pNt_84402" ref="#person_19832"><forename>O.</forename></rs>, <rs type="person" xml:id="pNt_84403" ref="#person_19822"><forename>Heini</forename></rs>, <rs type="person" xml:id="pNt_84404" ref="#person_14129"><forename>Arnoldo</forename></rs> ― <rs type="place" xml:id="pl_18155" ref="#place_b900112ce988d972bc2d561413e84979">Sofienalpe</rs> ― 
-<rs type="place" xml:id="pl_18156" ref="#place_361000b73d3947c615f058769b32865c">Steinriegl</rs> ― (kommen an der Stelle vorbei, wo wir <rs type="person" xml:id="pNt_84405" ref="#person_19832"><forename>O.</forename></rs> und ich, ein paar 
+            <p xml:space="preserve" rend="indent">― Gegen Abend fahren wir Auto, ich, <rs type="person" xml:id="pNt_84402" ref="#person_19832"><forename>O.</forename></rs>, <rs type="person" xml:id="pNt_84403" ref="#person_19822"><forename>Heini</forename></rs>, <rs type="person" xml:id="pNt_84404" ref="#person_14129"><forename>Arnoldo</forename></rs> ― <rs type="place" xml:id="pl_18155" ref="#pmb92533">Sofienalpe</rs> ― 
+<rs type="place" xml:id="pl_18156" ref="#pmb49210">Steinriegl</rs> ― (kommen an der Stelle vorbei, wo wir <rs type="person" xml:id="pNt_84405" ref="#person_19832"><forename>O.</forename></rs> und ich, ein paar 
 Tage vor <rs type="person" xml:id="pNt_84406" ref="#person_14130"><forename>Lilis</forename></rs> Geburt, an einem schönen Herbsttag, auf einer 
 Fiakerfahrt ausstiegen ― ich habe es so dunkelgrün im Gedächtnis) ― 
-― <rs type="place" xml:id="pl_18157" ref="#place_a3c879a4f19e7987aa5aa1f1b929b0da">Klosterneuburg</rs> ― heim. Auf der letzten Strecke war mir besonders 
+― <rs type="place" xml:id="pl_18157" ref="#pmb865">Klosterneuburg</rs> ― heim. Auf der letzten Strecke war mir besonders 
 übel zu Muth und zu Leib.―</p>
             <p xml:space="preserve" rend="indent">Die ungeheuere Müdigkeit.―</p>
             <p xml:space="preserve" rend="indent">― <rs type="work" subtype="newspaper" xml:id="bibl_19572">N. R.</rs> zufällig ein <rs type="person" xml:id="pNt_84407" ref="#person_14469"><surname>Döblin</surname></rs> Artikel „<rs type="work" xml:id="bibl_19573">Mißglückte Metamorphose</rs>“;― 
@@ -198,6 +202,5 @@ spricht das Wort nicht aus),― in Selbstmord endend.―</p>
             <p xml:space="preserve" rend="indent">Im Bett les ich <rs type="person" xml:id="pNt_84408" ref="#person_14264"><surname>Conrad</surname></rs>, <rs type="work" xml:id="bibl_19574">Geheimagent</rs> weiter.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

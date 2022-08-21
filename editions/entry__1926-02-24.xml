@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-02-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-02-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-02-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-02-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-02-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-02-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-14D1-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6634.tif"/>
@@ -182,13 +186,12 @@
       <body>
          <div type="diary-day" xml:id="entry__1926-02-24">
             <p xml:space="preserve"><date when="1926-02-24">24/2</date> Vm. Schneider etc.― Bei <rs type="person" xml:id="pNt_77359" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Bilder ihres Bruders zu „<rs type="work" subtype="self" xml:id="bibl_20035">Else</rs>“ ― 
-Vorher Reisebüro <rs type="org">Cook</rs>, wegen <rs type="place" xml:id="pl_16534" ref="#place_419b15d7a08e509c228471308ab72939">Madeira</rs>.</p>
+Vorher Reisebüro <rs type="org">Cook</rs>, wegen <rs type="place" xml:id="pl_16534" ref="#pmb91183">Madeira</rs>.</p>
             <p xml:space="preserve" rend="indent">― Nm. <rs type="person" xml:id="pNt_77361" ref="#person_16355"><roleName>Dr.</roleName> <surname>Horch</surname></rs>. Meine Ausschnitte „<rs type="work" subtype="self" xml:id="bibl_20036">Reigen</rs>“ u. dgl., humoristisches 
 etc., die er gern ordnen möchte.―</p>
             <p xml:space="preserve" rend="indent">Bilanz etc.―</p>
             <p xml:space="preserve" rend="indent">Spät Abds. mit <rs type="person" xml:id="pNt_77362" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> spazieren, die höchst verstimmt war wegen Mißlingen der Wohnungsmiethe.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

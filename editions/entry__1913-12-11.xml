@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-12-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-12-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-12-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-12-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-12-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-12-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-036C-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,15 +177,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3736.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3737.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1913-12-11">
-            <p xml:space="preserve"><date when="1913-12-11">11/12</date> Probe <rs type="place" xml:id="pl_08554" ref="#place_a9a988302086229505c21f885134919d">Josefstadt</rs>.―</p>
+            <p xml:space="preserve"><date when="1913-12-11">11/12</date> Probe <rs type="place" xml:id="pl_08554" ref="#pmb58">Josefstadt</rs>.―</p>
             <pb n="82"/>
             <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header">
                <fw n="82" place="top_left" type="pageNum">82</fw>
@@ -203,5 +208,6 @@ müsse man ihn und seine Production gewissermaßen umso mehr bewundern.
 ist wieder da. <rs type="person" xml:id="pNt_42275" ref="#person_19421"><forename>Hölönö</forename></rs> leudet sehr …“) ― Er blieb mit mir an O.’s 
 Bett nachtmahlend, bis 10.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

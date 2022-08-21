@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1891-08-31.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-08-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-09-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1891-08-31.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-08-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-09-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E455-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0556.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1891-08-31">
-            <p xml:space="preserve"><date when="1891-08-31">31. 8.</date> In <rs type="place" xml:id="pl_01202" ref="#place_9a43e84f6e1d406076f2372205804f6d">B.</rs> <rs type="person" xml:id="pNt_05543" ref="#person_15485"><forename>Mz.</forename></rs> vor dem Theater eine ¼ Std. gesprochen. Sie spielt 
+            <p xml:space="preserve"><date when="1891-08-31">31. 8.</date> In <rs type="place" xml:id="pl_01202" ref="#pmb662">B.</rs> <rs type="person" xml:id="pNt_05543" ref="#person_15485"><forename>Mz.</forename></rs> vor dem Theater eine ¼ Std. gesprochen. Sie spielt 
 <rs type="work" xml:id="bibl_23143">Gimpel</rs>, ich ging nicht hinein. Habe wieder meine Vergangenheitsattacken 
 und quäle sie. Sie ist von einer wunderbaren Geduld, versucht Einsicht 
 zu zeigen und Trost zu spenden.―</p>
@@ -194,6 +198,5 @@ zu zeigen und Trost zu spenden.―</p>
 September</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

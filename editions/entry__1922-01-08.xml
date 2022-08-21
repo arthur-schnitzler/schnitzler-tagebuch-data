@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-01-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-01-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-01-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-01-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-01-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-01-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0EEE-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5616.tif"/>
@@ -183,7 +187,7 @@
          <div type="diary-day" xml:id="entry__1922-01-08">
             <p xml:space="preserve"><date when="1922-01-08">8/1</date> S. <rs type="person" xml:id="pNt_64828" ref="#person_14130"><forename>Lili</forename></rs> ordnet ihren (<rs type="person" xml:id="pNt_64829" ref="#person_19832"><forename>Olgas</forename></rs>) Glasschrank; und die katholischen 
 Reliquien erhalten Platz unter allem übrigen.</p>
-            <p xml:space="preserve" rend="indent">― Sonniger Wintertag. <rs type="place" xml:id="pl_13607" ref="#place_3b0cf80ce6f7c6e0340cf31265c8f3f7">Sievring</rs> ― Dreimarkstein ― <rs type="place" xml:id="pl_13608" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> ― 
+            <p xml:space="preserve" rend="indent">― Sonniger Wintertag. <rs type="place" xml:id="pl_13607" ref="#pmb64219">Sievring</rs> ― Dreimarkstein ― <rs type="place" xml:id="pl_13608" ref="#pmb169">Pötzleinsdorf</rs> ― 
 nach Hause.― Leidlich nachgedacht.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_64830" ref="#person_19822"><forename>Heini</forename></rs> erklärt seine <rs type="work" xml:id="bibl_2266">Maß für Maß</rs> Inszenirung nicht zusammenzubringen. 
 Wir sprechen über die Grenzen seines Talents; Regie vor allem. Ich sage 
@@ -195,6 +199,5 @@ das decorative läßt zu wünschen übrig.</p>
             <p xml:space="preserve" rend="indent">Geordnet etc.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

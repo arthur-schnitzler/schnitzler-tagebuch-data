@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-04-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-04-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-05-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1920-04-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-04-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-05-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0C84-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5087.tif"/>
@@ -184,11 +188,10 @@
             <p xml:space="preserve"><date when="1920-04-30">30/4</date> Vorm. bei <rs type="person" xml:id="pNt_58701" ref="#person_15913"><roleName>Direktor</roleName> <surname>Hantschel</surname></rs> wegen <rs type="person" xml:id="pNt_58702" ref="#person_19822"><forename>Heini</forename></rs>. Schwierigkeiten 
 in der Mathematik.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_58703" ref="#person_20872"><forename>Agnes</forename> <surname>U.</surname></rs> mit <rs type="person" xml:id="pNt_58704" ref="#person_21107"><forename>Jakob</forename></rs> begegnet. <rs type="person" xml:id="pNt_58705" ref="#person_20872"><forename>Agnes</forename></rs> begleitet mich nach Hause, 
-erzählt mir von <rs type="place" xml:id="pl_12232" ref="#place_d0a6343a081a7335baa965ce4fd0845c">München</rs>, dann Zustände im Hause <rs type="person" xml:id="pNt_58706"><surname>W.</surname></rs>, <rs type="person" xml:id="pNt_58707" ref="#person_21109"><forename>Julie</forename></rs> etc.</p>
+erzählt mir von <rs type="place" xml:id="pl_12232" ref="#pmb45258">München</rs>, dann Zustände im Hause <rs type="person" xml:id="pNt_58706"><surname>W.</surname></rs>, <rs type="person" xml:id="pNt_58707" ref="#person_21109"><forename>Julie</forename></rs> etc.</p>
             <p xml:space="preserve" rend="indent">Nachm. zum Thee <rs type="person" xml:id="pNt_58708"><forename>Minni</forename> <surname>Z.</surname></rs>, Frau <rs type="person" xml:id="pNt_58709" ref="#person_17510"><forename>Vilma</forename> <surname>L.</surname></rs>, später auch <rs type="person" xml:id="pNt_58710" ref="#person_17509"><roleName>Dr.</roleName> <surname>L.</surname></rs>, 
 <rs type="person" xml:id="pNt_58711" ref="#person_13305"><surname>Auernheimer</surname></rs> und Frau. Im Garten unter der Esche.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

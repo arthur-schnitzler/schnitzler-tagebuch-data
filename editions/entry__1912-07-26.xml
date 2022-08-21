@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-07-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-07-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-07-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-07-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-07-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-07-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0175-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3451.tif"/>
@@ -186,7 +190,7 @@
             <p xml:space="preserve" rend="indent">Nm. 1. Akt <rs type="work" subtype="self" xml:id="bibl_10419">Bernh.</rs> (in den Fahnen) durchgesehn.―</p>
             <p xml:space="preserve" rend="indent">Spazierfahrt mit <rs type="person" xml:id="pNt_38525" ref="#person_17207"><roleName>Herrn</roleName> <surname>Kupelwieser</surname></rs>, dem Sohn des Inselbesitzers. 
 Er zeigt uns die Sträflingswohnung, die Stallungen u. s. w. Wir fahren 
-auf den <rs type="place" xml:id="pl_07980" ref="#place_b58956f9e8974e3a0f30757920fe9171">monte Cypro</rs>. Aussichtswarte. <rs type="person" xml:id="pNt_38526"><surname>K.</surname></rs> spricht von <rs type="person" xml:id="pNt_38527" ref="#person_15149"><forename>F.</forename> <surname>E.</surname></rs>, der 
+auf den <rs type="place" xml:id="pl_07980" ref="#pmb92408">monte Cypro</rs>. Aussichtswarte. <rs type="person" xml:id="pNt_38526"><surname>K.</surname></rs> spricht von <rs type="person" xml:id="pNt_38527" ref="#person_15149"><forename>F.</forename> <surname>E.</surname></rs>, der 
 durchaus einen Theil der Insel kaufen will. <rs type="person" xml:id="pNt_38528"><surname>K.s</surname></rs> weigern sich. Chikanen. 
 Die Pfaffen kommen und reden dem alten <rs type="person" xml:id="pNt_38529"><surname>K.</surname></rs> zu … er müsse es doch 
 aus christlicher Nächstenliebe thun.― Die Erzherzöge selbst warnen. 
@@ -197,6 +201,5 @@ Einmütigkeit des Urtheils über <rs type="person" xml:id="pNt_38530" ref="#pers
 gekommen (<rs type="person" xml:id="pNt_38535" ref="#person_15529"><forename>Paul</forename> <surname>Goldmann</surname></rs>, <rs type="work" subtype="newspaper" xml:id="bibl_10420">blaue Donau</rs>).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

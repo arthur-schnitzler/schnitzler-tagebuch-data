@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-10-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-10-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-10-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1920-10-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-10-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-10-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0D33-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5208.tif"/>
@@ -184,10 +188,9 @@
             <p xml:space="preserve"><date when="1920-10-22">22/10</date> Vm. bei <rs type="person" xml:id="pNt_60196" ref="#person_15854"><forename>Gisa</forename></rs>.―</p>
             <p xml:space="preserve" rend="indent">Bei Frau <rs type="person" xml:id="pNt_60197" ref="#person_17510"><forename>Vilma</forename> <surname>Lichtenstern</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. am „<rs type="work" subtype="self" xml:id="bibl_4324">Weiher</rs>“.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_60198" ref="#person_16770"><forename>Arthur</forename> <surname>Kaufmann</surname></rs>; der bald nach <rs type="place" xml:id="pl_12591" ref="#place_661f4200c3f047474d1df224f62f0503">Aussee</rs> zurückgeht und sich darauf freut.―</p>
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_60198" ref="#person_16770"><forename>Arthur</forename> <surname>Kaufmann</surname></rs>; der bald nach <rs type="place" xml:id="pl_12591" ref="#pmb415">Aussee</rs> zurückgeht und sich darauf freut.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_60199" ref="#person_19076"><surname>Ravel</surname></rs> Concert im Gr. C. S.; interessant; mit <rs type="person" xml:id="pNt_60200" ref="#person_19832"><forename>O.</forename></rs> und <rs type="person" xml:id="pNt_60201" ref="#person_19822"><forename>Heini</forename></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

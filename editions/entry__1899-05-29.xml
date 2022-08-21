@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1899-05-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-05-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-05-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1899-05-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-05-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-05-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EF33-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1494.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1899-05-29">
-            <p xml:space="preserve"><date when="1899-05-29">29/5</date> Rad <rs type="place" xml:id="pl_03114" ref="#place_5256279434a2706b04f9cb90cf48af89">Rosenburg</rs> ― <rs type="place" xml:id="pl_03115" ref="#place_b2f3f42d45ff2c1018a9d3b9e6c37ece">Krems</rs>, <rs type="place" xml:id="pl_03116" ref="#place_b2a677fb2730bf552834184278c3511c">Wachau</rs> ― <rs type="place" xml:id="pl_03117" ref="#place_70bde987c42c09240ef3e840fc66a461">Melk</rs>.― Bahn retour.― Bei 
+            <p xml:space="preserve"><date when="1899-05-29">29/5</date> Rad <rs type="place" xml:id="pl_03114" ref="#pmb91618">Rosenburg</rs> ― <rs type="place" xml:id="pl_03115" ref="#pmb36545">Krems</rs>, <rs type="place" xml:id="pl_03116" ref="#pmb531">Wachau</rs> ― <rs type="place" xml:id="pl_03117" ref="#pmb91223">Melk</rs>.― Bahn retour.― Bei 
 <rs type="person" xml:id="pNt_16344" ref="#person_19728"><surname>Schlesinger</surname></rs> Sanat. <rs type="person" xml:id="pNt_16345"><surname>Löw</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

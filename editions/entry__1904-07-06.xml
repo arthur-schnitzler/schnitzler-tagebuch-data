@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-07-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-07-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-07-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-07-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-07-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-07-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F61C-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,12 +176,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1936.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1904-07-06">
             <p xml:space="preserve"><date when="1904-07-06">6/7</date> Vm. spazieren <rs type="place" xml:id="pl_04794" ref="#place_aced77fcb653c3216ac883df10617126" ana="#exclude">Pötzleinsdorfer</rs> Wald und dort am <rs type="work" subtype="self" xml:id="bibl_17140">Roman</rs> geschrieben.―</p>
             <p xml:space="preserve" rend="indent">Zu Mittag <rs type="person" xml:id="pNt_21250" ref="#person_16293"><forename>Hugo</forename></rs> <rs type="person" xml:id="pNt_21251" ref="#person_16292"><forename>Gerty</forename></rs> (und <rs type="person" xml:id="pNt_21252" ref="#person_20386"><forename>Liesl</forename></rs>). <rs type="person" xml:id="pNt_21253" ref="#person_20386"><forename>Liesl</forename></rs> sprach <rs type="work" xml:id="bibl_17141">Sobeide</rs> vor; 
@@ -188,5 +193,6 @@ das Benehmen in der Redaction anläßlich seines Nekrologes über
 Ehrengericht; das er verlangt.</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="institution" xml:id="pNt_21260"><surname>Kratzer</surname></rs> allein genachtm., Kf. Stadtbahn.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

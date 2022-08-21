@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-03-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-03-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-03-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-03-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-03-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-03-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F717-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,19 +176,21 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2053.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1905-03-15">
-            <p xml:space="preserve"><date when="1905-03-15">15/3</date> <rs type="place" xml:id="pl_05105" ref="#place_5e257bfe3f70d446cb1b8076406b8992">Ragusa</rs>. Herr <rs type="person" xml:id="pNt_22580" ref="#person_21090"><forename>Bernh.</forename> <surname>Wandel</surname></rs>, gebildeter kluger junger Mensch von 24 
-Jahren schließt sich auf dem Weg von <rs type="place" xml:id="pl_05106" ref="#place_f58375e35fb21da640876592172e1c70">Gravosa</rs> nach <rs type="place" xml:id="pl_05107" ref="#place_5e257bfe3f70d446cb1b8076406b8992">Ragusa</rs> an.― Hotel 
+            <p xml:space="preserve"><date when="1905-03-15">15/3</date> <rs type="place" xml:id="pl_05105" ref="#pmb682">Ragusa</rs>. Herr <rs type="person" xml:id="pNt_22580" ref="#person_21090"><forename>Bernh.</forename> <surname>Wandel</surname></rs>, gebildeter kluger junger Mensch von 24 
+Jahren schließt sich auf dem Weg von <rs type="place" xml:id="pl_05106" ref="#pmb90757">Gravosa</rs> nach <rs type="place" xml:id="pl_05107" ref="#pmb682">Ragusa</rs> an.― Hotel 
 Imperial, woselbst <rs type="person" xml:id="pNt_22581" ref="#person_16293"><forename>Hugo</forename></rs>.― Spazieren mit ihm, aufs Schiff, wo er mit mir 
 frühstückt. Nm. gegen die Ombla mit ihm. Im Hotel auch flüchtig 
 <rs type="person" xml:id="pNt_22582" ref="#person_14065"><surname>Burckhard</surname></rs> gesprochen.― Schiff. Abfahrt. <rs type="person" xml:id="pNt_22583" ref="#person_21090"><roleName>Hr.</roleName> <surname>Wandel</surname></rs> erläutert mir einige 
 Sternbilder.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

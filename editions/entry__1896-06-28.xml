@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1896-06-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-06-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-06-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1896-06-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-06-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-06-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EB30-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,13 +177,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1187.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1188.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1896-06-28">
             <p xml:space="preserve"><date when="1896-06-28">28/6</date> S. In der früh Brief von <rs type="person" xml:id="pNt_12380" ref="#person_15485"><forename>Mz. I</forename></rs> „Was soll ich machen“― „Rede 
 nichts. Das thut man keinem Weib.“ ― Weil ich nemlich nicht komme.― 
@@ -190,9 +195,10 @@ eigentlich keine. <rs type="person" xml:id="pNt_12381" ref="#person_19150"><fore
 das Geständnis würde was falsches, störendes und quälendes in unser 
 Verhältnis bringen. Und <rs type="person" xml:id="pNt_12382" ref="#person_15485"><forename>Mz. I</forename></rs> weiss ja eigentlich, dass ich eine Geliebte 
 habe, wenn sie auch das Verh. für ein passageres halten mag.</p>
-            <p xml:space="preserve" rend="indent">― Bic. fuhr ich, 2 Uhr von <rs type="place" xml:id="pl_02301" ref="#place_08a8340baddf402a2826ff1a220c1048">Leobersdorf</rs> nach <rs type="place" xml:id="pl_02302" ref="#place_017f791d01c1d14c3ec7a1209e28b020">Gutenstein</rs>. Dann weiter, 
-Regen, nahendes Gewitter, zurück ― bis <rs type="place" xml:id="pl_02303" ref="#place_8dc06ab1bd4d0101627e0c33dc18eba5">Felixdorf</rs>; Bahn.― „<rs type="work" subtype="self" xml:id="bibl_21890">Liebelei</rs>“ 
+            <p xml:space="preserve" rend="indent">― Bic. fuhr ich, 2 Uhr von <rs type="place" xml:id="pl_02301" ref="#pmb91135">Leobersdorf</rs> nach <rs type="place" xml:id="pl_02302" ref="#pmb1036">Gutenstein</rs>. Dann weiter, 
+Regen, nahendes Gewitter, zurück ― bis <rs type="place" xml:id="pl_02303" ref="#pmb90619">Felixdorf</rs>; Bahn.― „<rs type="work" subtype="self" xml:id="bibl_21890">Liebelei</rs>“ 
 war am häufigsten von allen Stücken heuer in der Burg, 16mal.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

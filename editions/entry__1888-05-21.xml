@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1888-05-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1888-05-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1888-05-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1888-05-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1888-05-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1888-05-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E041-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,16 +177,18 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0346.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1888-05-21">
-            <p xml:space="preserve"><date when="1888-05-21">21/5</date> Montag. Ankunft in <rs type="place" xml:id="pl_00673" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs> mit <rs type="person" xml:id="pNt_03261" ref="#person_17901"><forename>Felix</forename></rs> und <rs type="person" xml:id="pNt_03262" ref="#person_17904"><forename>Julie</forename></rs>. <rs type="person" xml:id="pNt_03263"><surname>Rosenbergs</surname></rs>. <rs type="person" xml:id="pNt_03264" ref="#person_19377"><forename>Sandor</forename></rs> 
+            <p xml:space="preserve"><date when="1888-05-21">21/5</date> Montag. Ankunft in <rs type="place" xml:id="pl_00673" ref="#pmb182">Paris</rs> mit <rs type="person" xml:id="pNt_03261" ref="#person_17901"><forename>Felix</forename></rs> und <rs type="person" xml:id="pNt_03262" ref="#person_17904"><forename>Julie</forename></rs>. <rs type="person" xml:id="pNt_03263"><surname>Rosenbergs</surname></rs>. <rs type="person" xml:id="pNt_03264" ref="#person_19377"><forename>Sandor</forename></rs> 
 und <rs type="person" xml:id="pNt_03265" ref="#person_19373"><forename>Mathilde</forename></rs>. <rs type="person" xml:id="pNt_03266" ref="#person_16531"><forename>Szigo</forename></rs>. Schöner Abend. Hippodrom, Ambassadeur etc. In 
 den Cafés (Américain). Sehr fascinirt von den Boulevards.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

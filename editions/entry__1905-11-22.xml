@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-11-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-11-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-11-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-11-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-11-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-11-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F813-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2155.tif"/>
@@ -180,7 +184,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1905-11-22">
-            <p xml:space="preserve"><date when="1905-11-22">22/11</date> „Bußtag“.― <rs type="place" xml:id="pl_05365" ref="#place_db4a42a192c3c97a2871005a8ccd6439">Grunewald</rs> bei <rs type="person" xml:id="pNt_23885" ref="#person_15919"><surname>Harden</surname></rs>, bei <rs type="person" xml:id="pNt_23886" ref="#person_15009"><forename>S.</forename> <surname>Fischer</surname></rs>.― (Neues Haus.) 
+            <p xml:space="preserve"><date when="1905-11-22">22/11</date> „Bußtag“.― <rs type="place" xml:id="pl_05365" ref="#pmb129">Grunewald</rs> bei <rs type="person" xml:id="pNt_23885" ref="#person_15919"><surname>Harden</surname></rs>, bei <rs type="person" xml:id="pNt_23886" ref="#person_15009"><forename>S.</forename> <surname>Fischer</surname></rs>.― (Neues Haus.) 
 Bei <rs type="person" xml:id="pNt_23887" ref="#person_14283"><surname>Coschell</surname></rs> (<rs type="person" xml:id="pNt_23888" ref="#person_16528"><roleName>Hr.</roleName> <surname>Jellinek</surname></rs> und irgend ein Graf). Bei <rs type="person" xml:id="pNt_23889" ref="#person_16574"><surname>Jonas’</surname></rs> gespeist. Dr. 
 <rs type="person" xml:id="pNt_23890" ref="#person_17959"><forename>Paul</forename> <surname>Marx</surname></rs>.</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_23891" ref="#person_15485"><surname>Glümers</surname></rs>.― <rs type="person" xml:id="pNt_23892" ref="#person_15485"><forename>Mizi</forename></rs> und <rs type="person" xml:id="pNt_23893" ref="#person_14199"><forename>Gusti</forename></rs> gut aussehend. Der Bub. Erinnerungen.―</p>
@@ -188,6 +192,5 @@ Bei <rs type="person" xml:id="pNt_23887" ref="#person_14283"><surname>Coschell</
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_23895" ref="#person_20383"><surname>Steinrück</surname></rs>, <rs type="person" xml:id="pNt_23896" ref="#person_20386"><forename>Liesl</forename></rs>, <rs type="person" xml:id="pNt_23897" ref="#person_17324"><surname>Lantz</surname></rs>, <rs type="person" xml:id="pNt_23898" ref="#person_21545"><surname>Ziegel</surname></rs>, <rs type="person" xml:id="pNt_23899" ref="#person_21546"><forename>Mirjam</forename></rs>, <rs type="person" xml:id="pNt_23900" ref="#person_16156"><surname>Herzfeld</surname></rs> bei <rs type="institution">Aschinger</rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

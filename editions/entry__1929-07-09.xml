@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-07-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-07-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-07-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-07-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-07-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-07-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-199F-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7318.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1929-07-09">
-            <p xml:space="preserve"><date when="1929-07-09">9/7</date> Mit <rs type="person" xml:id="pNt_87147" ref="#person_19832"><forename>O.</forename></rs> (<rs type="place" xml:id="pl_18756" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>) telef.;― wir drei.―</p>
+            <p xml:space="preserve"><date when="1929-07-09">9/7</date> Mit <rs type="person" xml:id="pNt_87147" ref="#person_19832"><forename>O.</forename></rs> (<rs type="place" xml:id="pl_18756" ref="#pmb168">Berlin</rs>) telef.;― wir drei.―</p>
             <p xml:space="preserve" rend="indent">Vm. <rs type="person" xml:id="pNt_87148" ref="#person_13795"><roleName>Mrs.</roleName> <surname>Block</surname></rs> (von Guildth.) bei mir, mit ihrem Gatten, Advokaten. 
 Aufführungsmöglichkeiten;― meine <rs type="place" xml:id="pl_18757" ref="#place_923c9d6aaf18f34b857e3d32ee926c57" ana="#exclude">amerik.</rs> Erfahrungen etc. Mein Name 
 drüben etc.― Vom <rs type="person" xml:id="pNt_87149" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Stück „<rs type="work" xml:id="bibl_467">Gespenster im Hause</rs>“ (<rs type="person" xml:id="pNt_87150" ref="#person_20108"><surname>Sil-Vara</surname></rs> hatte 
@@ -195,6 +199,5 @@ es empfohlen) war sie „entzückt“ ― doch die Mehrheit war dagegen.― ―<
 <rs type="person" xml:id="pNt_87165" ref="#person_19822"><forename>Heini</forename></rs> ließ auch das Klavierspielen bald sein.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

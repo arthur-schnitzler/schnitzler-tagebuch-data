@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1890-05-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-05-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-05-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1890-05-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-05-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-05-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E2A6-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0457.tif"/>
@@ -182,10 +186,9 @@
       <body>
          <div type="diary-day" xml:id="entry__1890-05-13">
             <p xml:space="preserve"><date when="1890-05-13">13.</date> <rs type="person" xml:id="pNt_04563" ref="#person_15485"><forename>Mz.</forename></rs> Vorm. im Kfh.</p>
-            <p xml:space="preserve" rend="indent">Abds. im <rs type="place" xml:id="pl_00904" ref="#place_86a694cf5ce5552ca627cb96b607eccd">Prater</rs> mit <rs type="person" xml:id="pNt_04564" ref="#person_18840"><surname>Poestion</surname></rs>, <rs type="person" xml:id="pNt_04565" ref="#person_15529"><surname>Goldmann</surname></rs>, <rs type="person" xml:id="pNt_04566" ref="#person_19769"><forename>Rudolf</forename> <surname>Schmidt</surname></rs>.― 
+            <p xml:space="preserve" rend="indent">Abds. im <rs type="place" xml:id="pl_00904" ref="#pmb91530">Prater</rs> mit <rs type="person" xml:id="pNt_04564" ref="#person_18840"><surname>Poestion</surname></rs>, <rs type="person" xml:id="pNt_04565" ref="#person_15529"><surname>Goldmann</surname></rs>, <rs type="person" xml:id="pNt_04566" ref="#person_19769"><forename>Rudolf</forename> <surname>Schmidt</surname></rs>.― 
 Vergeblich vor <rs type="person" xml:id="pNt_04567" ref="#person_15485"><forename>Mz.</forename></rs> Fenstern. Kf. Parsifal Poker.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

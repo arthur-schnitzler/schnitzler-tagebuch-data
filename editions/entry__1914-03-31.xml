@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-03-31.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-03-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-04-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-03-31.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-03-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-04-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-03DA-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,16 +177,17 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3803.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3804.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1914-03-31">
             <p xml:space="preserve"><date when="1914-03-31">31/3</date> Auf dem (ziemlich regelmäßigen) Frühspaziergang 
-(<rs type="place" xml:id="pl_08655" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs>) <rs type="person" xml:id="pNt_43228" ref="#person_19755"><surname>Schmidl</surname></rs>; mit ihm über die großstädtische 
+(<rs type="place" xml:id="pl_08655" ref="#pmb113">Türkenschanzpark</rs>) <rs type="person" xml:id="pNt_43228" ref="#person_19755"><surname>Schmidl</surname></rs>; mit ihm über die großstädtische 
 Lebensführung, Zerstreuung, Kostspieligkeit, Arbeitsunmöglichkeit.―</p>
             <p xml:space="preserve" rend="indent">Dictirt <rs type="work" subtype="self" xml:id="bibl_8770">Fink</rs>, Anfang 3. Akt, ganz confus; trotzdem nicht hoffnungslos.―</p>
             <p xml:space="preserve" rend="indent">Nm. über <rs type="work" subtype="self" xml:id="bibl_8771">Fink</rs> nachgedacht; auf Veranda und im Garten 
@@ -190,5 +195,6 @@ spazierend.―</p>
             <p xml:space="preserve" rend="indent">Nach dem Nachtm. <rs type="person" xml:id="pNt_43229" ref="#person_15833"><forename>Else</forename></rs>.―</p>
             <p xml:space="preserve" rend="indent">Lese u.a. <rs type="person" xml:id="pNt_43230" ref="#person_15700"><surname>Gründorfs</surname></rs> (Generalstabsoffizier) <rs type="work" xml:id="bibl_8772">Memoiren</rs>.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-08-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-08-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-08-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-08-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-08-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-08-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1B37-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7542.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1930-08-21">
-            <p xml:space="preserve"><date when="1930-08-21">21/8</date> Dictirt (<rs type="person" xml:id="pNt_90533" ref="#person_18881"><forename>Kolap</forename></rs> aus <rs type="place" xml:id="pl_19472" ref="#place_661f4200c3f047474d1df224f62f0503">Aussee</rs> zurück) Briefe.―</p>
+            <p xml:space="preserve"><date when="1930-08-21">21/8</date> Dictirt (<rs type="person" xml:id="pNt_90533" ref="#person_18881"><forename>Kolap</forename></rs> aus <rs type="place" xml:id="pl_19472" ref="#pmb415">Aussee</rs> zurück) Briefe.―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_90534" ref="#person_14940"><roleName>Hr.</roleName> <surname>Felner</surname></rs> (Film) und <rs type="person" xml:id="pNt_90535" ref="#person_14425"><roleName>Gen. Dir.</roleName> <surname>Deutsch</surname></rs> (<rs type="org">Sascha</rs>), in Tonfilmsachen. 
 Vorschläge.―</p>
             <p xml:space="preserve" rend="indent">Z. N. bei <rs type="person" xml:id="pNt_90537" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Radio <rs type="place" xml:id="pl_19473" ref="#place_de1acb5cffea65ab54cc761ce2e60c66" ana="#exclude">Ital.</rs> Stagione „<rs type="work" xml:id="bibl_1204">Barbier von Sevilla</rs>“, 2 Akte.― Dann 
-Gespräche, wegen <rs type="place" xml:id="pl_19474" ref="#place_07746ef3772ea6e718f5cd3a37681d92">Marienbad</rs>; unerfreulich, dann besser.</p>
+Gespräche, wegen <rs type="place" xml:id="pl_19474" ref="#pmb91211">Marienbad</rs>; unerfreulich, dann besser.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

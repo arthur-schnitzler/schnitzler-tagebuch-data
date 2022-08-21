@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1902-06-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-06-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-06-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1902-06-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-06-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-06-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F32A-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1687.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1902-06-02">
-            <p xml:space="preserve"><date when="1902-06-02">2/6</date> Rad übern <rs type="place" xml:id="pl_03956" ref="#place_da4e3775bd2de6c37fadd9b0188f7a4e">Liechtenstein</rs> (wie gewöhnlich) <rs type="place" xml:id="pl_03957" ref="#place_a25ff6cb521df1cd0272d03eee7efd32">Brühl</rs>.― Heißer Tag.―</p>
+            <p xml:space="preserve"><date when="1902-06-02">2/6</date> Rad übern <rs type="place" xml:id="pl_03956" ref="#pmb91145">Liechtenstein</rs> (wie gewöhnlich) <rs type="place" xml:id="pl_03957" ref="#pmb44413">Brühl</rs>.― Heißer Tag.―</p>
             <p xml:space="preserve" rend="indent">Nm. das Scen. zu <rs type="work" subtype="self" xml:id="bibl_18022">Egoisten</rs> wohl endgiltig abgeschlossen.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-09-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-09-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-09-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-09-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-09-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-09-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1B4E-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7553.tif"/>
@@ -182,13 +186,12 @@
       <body>
          <div type="diary-day" xml:id="entry__1930-09-13">
             <p xml:space="preserve"><date when="1930-09-13">13/9</date> Dictirt Briefe (<rs type="person" xml:id="pNt_90668" ref="#person_18881"><forename>Kolap</forename></rs> wieder da).</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_90669" ref="#person_14234"><forename>Suz.</forename></rs> tel. aus <rs type="place" xml:id="pl_19522" ref="#place_ae346a40038f37b848c0d01aaaa37344">Thalheim</rs>.―</p>
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_90669" ref="#person_14234"><forename>Suz.</forename></rs> tel. aus <rs type="place" xml:id="pl_19522" ref="#pmb91887">Thalheim</rs>.―</p>
             <p xml:space="preserve" rend="indent">Heute ― wäre <rs type="person" xml:id="pNt_90670" ref="#person_14130"><forename>Lili</forename></rs> 21 geworden.―</p>
             <p xml:space="preserve" rend="indent">Nm. wieder recht mäßiges Befinden.</p>
             <p xml:space="preserve" rend="indent">Am „<rs type="work" subtype="self" xml:id="bibl_1252">Zug</rs>“ (die letzten Bilder).</p>
             <p xml:space="preserve" rend="indent">Gegen Abend bei <rs type="person" xml:id="pNt_90671" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>;― zu Hause allein genachtm.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

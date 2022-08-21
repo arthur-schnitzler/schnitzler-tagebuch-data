@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-07-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-07-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-07-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-07-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-07-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-07-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-16D8-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6915.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1927-07-29">
-            <p xml:space="preserve"><date when="1927-07-29">29/7</date> Vm. <rs type="person" xml:id="pNt_81333" ref="#person_17562"><forename>R.</forename> <surname>L.</surname></rs> Behandlung.― Reist über <rs type="place" xml:id="pl_17421" ref="#place_1a477f0b4ff0e44372369bbd196cb38a">Böhmen</rs> nach <rs type="place" xml:id="pl_17422" ref="#place_ff8b6a7eb9b23e2fee8a59bad1a6164c">Schweden</rs>.</p>
+            <p xml:space="preserve"><date when="1927-07-29">29/7</date> Vm. <rs type="person" xml:id="pNt_81333" ref="#person_17562"><forename>R.</forename> <surname>L.</surname></rs> Behandlung.― Reist über <rs type="place" xml:id="pl_17421" ref="#pmb90376">Böhmen</rs> nach <rs type="place" xml:id="pl_17422" ref="#pmb44335">Schweden</rs>.</p>
             <p xml:space="preserve" rend="indent">Dictirt <rs type="work" subtype="self" xml:id="bibl_24573">aphoristisches</rs>.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_81334" ref="#person_18291"><roleName>Dr.</roleName> <surname>Müller</surname></rs> und ein <rs ref="#person_13617" type="person" xml:id="pNt_81335"><roleName>Dr.</roleName> <surname>Berg</surname></rs> (?). Dieser will die „Dramatisirungrechte“ 
 <rs type="work" subtype="self" xml:id="bibl_24574">Frl. Else</rs> erwerben. D. h. er hat meine Idee, <rs type="work" subtype="self" xml:id="bibl_24575">Else</rs> monologisch, aber mit 
@@ -192,10 +196,9 @@ zerschlagen; nun „interessirt man sich für <rs type="work" subtype="self" xml
             <p xml:space="preserve" rend="indent">Nm. Frau <rs type="person" xml:id="pNt_81337" ref="#person_19244"><forename>Ros.</forename> <surname>Richter</surname></rs>, die mir neulich Botschaft von <rs type="person" xml:id="pNt_81338" ref="#person_13378"><surname>Baillon</surname></rs> (<rs type="work" xml:id="bibl_24578">Histoire 
 d’une Marie</rs>) und Buch übermittelte;― Fabrikantensfrau, von behaglichem 
 Aussehn, und solchen Umständen; Übersetzerin etc.;― nicht ohne Humor, 
-erzählt von <rs type="place" xml:id="pl_17423" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs> und <rs type="place" xml:id="pl_17424" ref="#place_4949bd5f4356074941523ed82733267e" ana="#exclude">Pariser</rs> Verlegern.―</p>
+erzählt von <rs type="place" xml:id="pl_17423" ref="#pmb182">Paris</rs> und <rs type="place" xml:id="pl_17424" ref="#place_4949bd5f4356074941523ed82733267e" ana="#exclude">Pariser</rs> Verlegern.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_81339" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Kino <rs type="work" xml:id="bibl_24579">Postmeister</rs> (<rs type="place" xml:id="pl_17425" ref="#place_3e59557b630aba415b2b473b86a70e73" ana="#exclude">russ.</rs>), dann mit ihr silb. Brunnen gen.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-02-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-02-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-02-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-02-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-02-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-02-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F6F8-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2040.tif"/>
@@ -182,7 +186,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1905-02-11">
             <p xml:space="preserve"><date when="1905-02-11">11/2</date> Vorm. bei <rs type="person" xml:id="pNt_22436" ref="#person_15854"><forename>Gisa</forename></rs>, dann bei <rs type="person" xml:id="pNt_22437" ref="#person_20243"><surname>Speidel</surname></rs>, den ich seit Jahren nicht gesehen. 
-<rs type="place" xml:id="pl_05053" ref="#place_86f90c857ca2c813e066ea7b3502cb7c">Hohewarte</rs>, Gartenwohnung, Tochter in der Küche. Er vernachlässigt, 
+<rs type="place" xml:id="pl_05053" ref="#pmb92292">Hohewarte</rs>, Gartenwohnung, Tochter in der Küche. Er vernachlässigt, 
 rauchend, am Tisch. Unverändert, aller Sinne mächtig; redeten über 
 <rs type="person" xml:id="pNt_22438" ref="#person_18190"><surname>Mitterwurzer</surname></rs>, <rs type="person" xml:id="pNt_22439" ref="#person_16293"><forename>Hugo</forename></rs> (er fand das Interview, in dem <rs type="person" xml:id="pNt_22440" ref="#person_16293"><forename>Hugo</forename></rs> die <rs type="place" xml:id="pl_05054" ref="#place_ee4c6f2f0df2cd2abf7db20478cad25d" ana="#exclude">Wiener</rs> 
 Theater getadelt bübisch) über den <rs type="work" xml:id="bibl_15521">Grafen von Charolais</rs> („geschwätzig“) 
@@ -194,12 +198,11 @@ verbreitet es.―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_22442" ref="#person_19411"><surname>Rotenstern</surname></rs> (über verschiedenes: Aufführung der <rs type="work" xml:id="bibl_15522">Juden</rs> 
 von <rs type="person" xml:id="pNt_22443" ref="#person_20828"><surname>Tschirikow</surname></rs>, bei der er und seine Frau mitgewirkt) (etc.) ―</p>
             <p xml:space="preserve" rend="indent">― Nm. <rs type="person" xml:id="pNt_22444" ref="#person_15475"><roleName>Reg. R.</roleName> <surname>Glossy</surname></rs> bei mir, mich im Auftrag <rs type="person" xml:id="pNt_22445" ref="#person_13624"><surname>Berger’s</surname></rs> dringend (zwei 
-Stunden lang) auffordern, das „<rs type="place" ref="#place_burgtheater">Burgtheater</rs>referat“ für die <rs type="work" subtype="newspaper" xml:id="bibl_15523">Oest. Rdsch.</rs> 
+Stunden lang) auffordern, das „<rs type="place" ref="#pmb14">Burgtheater</rs>referat“ für die <rs type="work" subtype="newspaper" xml:id="bibl_15523">Oest. Rdsch.</rs> 
 übernehmen.― Ich leide bei solchen Gelegenheiten, konnte noch nicht 
 definitiv ablehnen.―</p>
             <p xml:space="preserve" rend="indent">Am <rs type="work" subtype="self" xml:id="bibl_15524">Roman</rs> weiter. „<rs type="work" subtype="self" xml:id="bibl_15525">Die Nächste</rs>“ durchgelesen.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

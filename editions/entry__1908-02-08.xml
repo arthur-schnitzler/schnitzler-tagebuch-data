@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-02-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-02-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-02-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-02-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-02-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-02-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FB17-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2468.tif"/>
@@ -182,10 +186,9 @@
          <div type="diary-day" xml:id="entry__1908-02-08">
             <p xml:space="preserve"><date when="1908-02-08">8/2</date> Dummer Brief von <rs type="person" xml:id="pNt_27847" ref="#person_18182"><surname>Minor</surname></rs>, „Verdruss, dass ich die Banketteinladung 
 abgelehnt“.―</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_27848" ref="#person_21107"><surname>Wassermann</surname></rs> <rs type="place" xml:id="pl_06198" ref="#place_797995abb7274e2eab2059ba02411f0f">Pinkenkogel</rs> im Schnee; über Humor u. a.</p>
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_27848" ref="#person_21107"><surname>Wassermann</surname></rs> <rs type="place" xml:id="pl_06198" ref="#pmb91482">Pinkenkogel</rs> im Schnee; über Humor u. a.</p>
             <p xml:space="preserve" rend="indent">Lese wieder den 1. Akt des <rs type="person" xml:id="pNt_27849" ref="#person_16293"><forename>Hugoschen</forename></rs> Stücks (<rs type="work" xml:id="bibl_13205">Silvia im Stern</rs>).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

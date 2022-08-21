@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-05-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-05-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-05-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-05-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-05-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-05-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0F68-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5710.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1922-05-10">
-            <p xml:space="preserve"><date when="1922-05-10">10/5</date> <rs type="place" xml:id="pl_13878" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>. Bei <rs type="person" xml:id="pNt_66000" ref="#person_15009"><surname>Fischer</surname></rs>. Geschäftliches mit <rs type="person" xml:id="pNt_66001" ref="#person_15643"><surname>Greiner</surname></rs>.― <rs type="person" xml:id="pNt_66002" ref="#person_16075"><roleName>Director</roleName> 
+            <p xml:space="preserve"><date when="1922-05-10">10/5</date> <rs type="place" xml:id="pl_13878" ref="#pmb168">Berlin</rs>. Bei <rs type="person" xml:id="pNt_66000" ref="#person_15009"><surname>Fischer</surname></rs>. Geschäftliches mit <rs type="person" xml:id="pNt_66001" ref="#person_15643"><surname>Greiner</surname></rs>.― <rs type="person" xml:id="pNt_66002" ref="#person_16075"><roleName>Director</roleName> 
 <surname>Hellmer</surname></rs> vorübergehend.</p>
             <p xml:space="preserve" rend="indent">Im Rest. <rs type="institution" xml:id="pNt_66003"><surname>Lanzsch</surname></rs> Mittag.</p>
             <p xml:space="preserve" rend="indent">Im Hotel <rs type="person" xml:id="pNt_66004" ref="#person_18405"><roleName>Dir.</roleName> <surname>Neuhauser</surname></rs> und <rs type="person" xml:id="pNt_66005" ref="#person_18068"><surname>Mendes</surname></rs>; wegen Film <rs type="work" subtype="self" xml:id="bibl_2523">Liebelei</rs>.</p>
             <p xml:space="preserve" rend="indent">― Bei <rs type="person" xml:id="pNt_66006" ref="#person_18140"><surname>Michaelis</surname></rs> genachtm.― <rs type="person" xml:id="pNt_66007" ref="#person_15009"><surname>Fischers</surname></rs> und <rs type="person" xml:id="pNt_66008" ref="#person_14668"><surname>Eidlitz</surname></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-10-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-10-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-10-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-10-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-10-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-10-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1730-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6978.tif"/>
@@ -184,7 +188,7 @@
          <div type="diary-day" xml:id="entry__1927-10-25">
             <p xml:space="preserve"><date when="1927-10-25">25/10</date> Vm. <rs type="person" xml:id="pNt_82013" ref="#person_17562"><forename>R.</forename> <surname>L.</surname></rs> Behandlung.</p>
             <p xml:space="preserve" rend="indent">Bei Praes. <rs type="person" xml:id="pNt_82014" ref="#person_17585"><surname>Lipschütz</surname></rs> in der „<rs type="work" subtype="newspaper" xml:id="bibl_24761">Kronenzeitung</rs>“, wegen des 
-Urheberrechtscongresses <rs type="place" xml:id="pl_17657" ref="#place_0bcbcfedf2ef1f96542597b9279fb141">Rom</rs>.― (Vorher erzählte er mir ein <rs type="place" xml:id="pl_17658" ref="#place_bd252a07287728930fd4a0849c16f60b">Monte Carlo</rs> 
+Urheberrechtscongresses <rs type="place" xml:id="pl_17657" ref="#pmb445">Rom</rs>.― (Vorher erzählte er mir ein <rs type="place" xml:id="pl_17658" ref="#pmb5862">Monte Carlo</rs> 
 Abenteuer etwas trivialer Natur.)</p>
             <p xml:space="preserve" rend="indent">In dem kleinen Antiqu. Geschäft der <rs type="person" xml:id="pNt_82015"><roleName>Frau</roleName> <surname>Schn.</surname></rs>; sie zeigt mir 
 allerlei was sie <rs type="person" xml:id="pNt_82016" ref="#person_19832"><forename>O.</forename></rs> schicken will und andres. <rs type="person" xml:id="pNt_82017" ref="#person_13730"><roleName>Dr.</roleName> <surname>Billiter</surname></rs> war auch da; 
@@ -205,6 +209,5 @@ vor dem Schlafengehn mit mir geredet, so lese sie jetzt immer in meinen
 Werken … Für mich ist es nicht dasselbe!) ―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

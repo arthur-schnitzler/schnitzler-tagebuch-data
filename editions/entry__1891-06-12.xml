@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1891-06-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-06-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-06-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1891-06-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-06-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-06-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E40B-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0539.tif"/>
@@ -181,15 +185,14 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1891-06-12">
-            <p xml:space="preserve"><date when="1891-06-12">12. 6.</date> War in <rs type="place" xml:id="pl_01103" ref="#place_5d3ab459a3037eb93897639fbbe185e2">Gumpoldskirchen</rs>; <rs type="person" xml:id="pNt_05342" ref="#person_15485"><forename>Mz.</forename></rs> kam aus <rs type="place" xml:id="pl_01104" ref="#place_9a43e84f6e1d406076f2372205804f6d">Baden</rs>, ich aus <rs type="place" xml:id="pl_01105" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>; 
+            <p xml:space="preserve"><date when="1891-06-12">12. 6.</date> War in <rs type="place" xml:id="pl_01103" ref="#pmb54863">Gumpoldskirchen</rs>; <rs type="person" xml:id="pNt_05342" ref="#person_15485"><forename>Mz.</forename></rs> kam aus <rs type="place" xml:id="pl_01104" ref="#pmb662">Baden</rs>, ich aus <rs type="place" xml:id="pl_01105" ref="#pmb50">Wien</rs>; 
 es waren 2 Stunden, die ganz schön verstrichen ― im Gefühl des 
 wirklichen Tiefgeliebtwerdens, des Vertrauens ― des traurigen 
 Auseinandergehens.― Und sie wieder nach der einen ― ich nach der 
 andern Seite. Immer so. Wir sind schon Virtuosen des Abschiednehmens. 
-Und sie fuhr im Coupé nach <rs type="place" xml:id="pl_01106" ref="#place_9a43e84f6e1d406076f2372205804f6d">Baden</rs> ― und ich blieb noch dort sitzen ― 
+Und sie fuhr im Coupé nach <rs type="place" xml:id="pl_01106" ref="#pmb662">Baden</rs> ― und ich blieb noch dort sitzen ― 
 eine Art unfreiwilligen Friedens in mir und um mich.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

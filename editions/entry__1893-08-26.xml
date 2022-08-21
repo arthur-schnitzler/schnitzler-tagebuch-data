@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1893-08-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-08-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-08-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1893-08-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-08-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-08-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E728-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0769.tif"/>
@@ -181,9 +185,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1893-08-26">
-            <p xml:space="preserve"><date when="1893-08-26">26/8</date> <rs type="place" xml:id="pl_01599" ref="#place_75241beccf4ee2461aac8b48c394922f">Toblach</rs> ― <rs type="place" xml:id="pl_01600" ref="#place_4d20f079bfe1a95d5595e8064393ab40">Lienz</rs> ― <rs type="place" xml:id="pl_01601" ref="#place_bdbfaa3b671cbf6dd227175b85155a4c">Dellach</rs> (Bic.) ― <rs type="place" xml:id="pl_01602" ref="#place_0d630f309cd8eaead4c6693378f162fb">Villach</rs> (Bahn).</p>
+            <p xml:space="preserve"><date when="1893-08-26">26/8</date> <rs type="place" xml:id="pl_01599" ref="#pmb91907">Toblach</rs> ― <rs type="place" xml:id="pl_01600" ref="#pmb897">Lienz</rs> ― <rs type="place" xml:id="pl_01601" ref="#pmb90519">Dellach</rs> (Bic.) ― <rs type="place" xml:id="pl_01602" ref="#pmb92011">Villach</rs> (Bahn).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

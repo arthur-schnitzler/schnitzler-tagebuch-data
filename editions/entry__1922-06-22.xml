@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-06-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-06-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-06-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-06-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-06-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-06-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0F93-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,21 +177,23 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5745.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5746.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1922-06-22">
             <p xml:space="preserve"><date when="1922-06-22">22/6</date> Dictirt <rs type="work" subtype="self" xml:id="bibl_2622">Verf.</rs>; Briefe.―</p>
             <p xml:space="preserve" rend="indent">Briefe von <rs type="person" xml:id="pNt_66457" ref="#person_19832"><forename>Olga</forename></rs>, wegen des Sommers; harmlos.―</p>
             <p xml:space="preserve" rend="indent">Nm. bei <rs type="person" xml:id="pNt_66458" ref="#person_20796"><surname>Trebitsch’</surname></rs>.― <rs type="person" xml:id="pNt_66459" ref="#person_14496"><forename>Paula</forename> <surname>Dorsch</surname></rs>, die Schauspielerin, Monocle; fraulich, 
 sympathisch. <rs type="allusively" xml:id="rst_01900">Hofrätin</rs>.</p>
             <p xml:space="preserve" rend="indent">Mit der <rs type="allusively" xml:id="rst_01901">Hofrätin</rs> vor dem Rmdth. (Première) herum, viel über <rs type="person" xml:id="pNt_66460" ref="#person_19832"><forename>Olga</forename></rs>.―</p>
-            <p xml:space="preserve" rend="indent">Brief aus <rs type="place" xml:id="pl_13977" ref="#place_53a577bb3bc587b0c28ab808390f1c9b">Japan</rs>, von einem Professor. „Schn. Feier“ in <rs type="place" xml:id="pl_13978" ref="#place_2b7998ce2bb455a7410f8cac8f4c63d6">Tokio</rs>;― freute 
+            <p xml:space="preserve" rend="indent">Brief aus <rs type="place" xml:id="pl_13977" ref="#pmb318">Japan</rs>, von einem Professor. „Schn. Feier“ in <rs type="place" xml:id="pl_13978" ref="#pmb49165">Tokio</rs>;― freute 
 mich.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

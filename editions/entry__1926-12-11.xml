@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-12-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-12-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-12-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-12-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-12-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-12-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-15F2-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,19 +177,21 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6770.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1926-12-11">
-            <p xml:space="preserve"><date when="1926-12-11">11/12</date> <rs type="person" xml:id="pNt_79244" ref="#person_19832"><forename>O.</forename></rs> teleph. Verkaufswahrscheinlichkeit Haus <rs type="place" xml:id="pl_17032" ref="#place_63714a562352ef3ae472da20ed0384c0">B.-B.</rs>― Mir thut es 
+            <p xml:space="preserve"><date when="1926-12-11">11/12</date> <rs type="person" xml:id="pNt_79244" ref="#person_19832"><forename>O.</forename></rs> teleph. Verkaufswahrscheinlichkeit Haus <rs type="place" xml:id="pl_17032" ref="#pmb228">B.-B.</rs>― Mir thut es 
 leid. Auch dies wird nun eine Art von „Jugenderinnerung“.</p>
             <p xml:space="preserve" rend="indent">― Dictirt Briefe, <rs type="work" subtype="self" xml:id="bibl_20639">Krankengesch.</rs> 89.―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_79245" ref="#person_16355"><roleName>Dr.</roleName> <surname>Horch</surname></rs>; gab ihm allerlei Einakter aus früherer Zeit mit.―</p>
             <p xml:space="preserve" rend="indent">An „<rs type="work" subtype="self" xml:id="bibl_20640">Therese</rs>“.―</p>
             <p xml:space="preserve" rend="indent">Ordnen;― alte Photographien, anon. Briefe. Fragte mich bei manchem, wie sich mein Leben vielleicht gestaltet, wenn ich ihn beantwortet hätte.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

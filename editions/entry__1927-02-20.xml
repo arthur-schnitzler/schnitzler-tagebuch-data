@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-02-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-02-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-02-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-02-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-02-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-02-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1639-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6810.tif"/>
@@ -184,8 +188,8 @@
          <div type="diary-day" xml:id="entry__1927-02-20">
             <p xml:space="preserve"><date when="1927-02-20">20/2</date> S.― Nachricht von <rs type="person" xml:id="pNt_79810" ref="#person_13920"><forename>Georg</forename> <surname>Brandes</surname></rs> Tod. So lang man gefasst sein 
 mußte;― dass er aus der Welt fort ist, macht mich aermer.―</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_79811" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> spazieren. Sonne und Frost <rs type="place" xml:id="pl_17120" ref="#place_431168489e6885d4e91ebc5edec7dfb4">Grinzing</rs> über <rs type="place" xml:id="pl_17121" ref="#place_10183211e9d1040332c30746d97806da" ana="#exclude">Kahlenbergmitte</rs> ― 
-<rs type="place" xml:id="pl_17122" ref="#place_8422ab675d39a4dfeec1f2c35bf74e2d">Kahlenbergerdorf</rs>. <rs type="place" xml:id="pl_17123" ref="#place_c7345be15f74840774e24feb78aa15df">Nußdorf</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_79811" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> spazieren. Sonne und Frost <rs type="place" xml:id="pl_17120" ref="#pmb90771">Grinzing</rs> über <rs type="place" xml:id="pl_17121" ref="#place_10183211e9d1040332c30746d97806da" ana="#exclude">Kahlenbergmitte</rs> ― 
+<rs type="place" xml:id="pl_17122" ref="#pmb90969">Kahlenbergerdorf</rs>. <rs type="place" xml:id="pl_17123" ref="#pmb91367">Nußdorf</rs>.―</p>
             <p xml:space="preserve" rend="indent">Am späten Nachm. mit <rs type="person" xml:id="pNt_79812" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> (die krank war) ein wenig spazieren.</p>
             <p xml:space="preserve" rend="indent">Zu <rs type="person" xml:id="pNt_79813" ref="#person_14959"><roleName>Dr.</roleName> <surname>Feuchtwang</surname></rs>. Oberrabb. <rs type="person" xml:id="pNt_79814" ref="#person_14172"><surname>Chajes</surname></rs> (den ich kennen lernte), <rs type="person" xml:id="pNt_79815" ref="#person_15134"><roleName>Hofr.</roleName> 
 <surname>Frankfurter</surname></rs>, Frau <rs type="person" xml:id="pNt_79816" ref="#person_16547"><surname>Jerusalem</surname></rs> u. a.― <rs type="person" xml:id="pNt_79817" ref="#person_14172"><surname>Chajes</surname></rs> von seiner <rs type="place" xml:id="pl_17124" ref="#place_68129d530337172422c887fec2a70d00" ana="#exclude">Florentiner</rs> und 
@@ -199,6 +203,5 @@ irgendwie lächerlich.― Ihre Zukunftsideen wieder ganz unsicher.― Mit
 <rs type="person" xml:id="pNt_79823" ref="#person_14130"><forename>Lili</forename></rs> später viel über sie.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

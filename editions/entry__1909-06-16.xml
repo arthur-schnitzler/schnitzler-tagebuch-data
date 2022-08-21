@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-06-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-06-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-06-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-06-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-06-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-06-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FD05-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2706.tif"/>
@@ -182,15 +186,14 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1909-06-16">
-            <p xml:space="preserve"><date when="1909-06-16">16/6</date> Mit O. nach <rs type="place" xml:id="pl_06709" ref="#place_cc08545d106b4cb3efd07e555cf63f86">Scharfling</rs> <rs type="place" xml:id="pl_06710" ref="#place_93dc255e180026f5b7c3bdb1f13cf130">Plomberg</rs> (Bahn) ― See ― (Schiff.) ― 
+            <p xml:space="preserve"><date when="1909-06-16">16/6</date> Mit O. nach <rs type="place" xml:id="pl_06709" ref="#pmb91671">Scharfling</rs> <rs type="place" xml:id="pl_06710" ref="#pmb91494">Plomberg</rs> (Bahn) ― See ― (Schiff.) ― 
 <pb n="74"/>
 <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header"><fw n="74" place="top_left" type="pageNum">74</fw> <fw place="top_center"><date type="range">1909: VI 16 ― VI 21</date></fw></tei:fw>
-<rs type="place" xml:id="pl_06711" ref="#place_7af648bdb537c8e802b17da1c2304d2e">Unterach</rs> ― (Elektrische Tram) ― <rs type="place" xml:id="pl_06712" ref="#place_6200f29d669d049c662de58d281da8f3">Weißenbach</rs> (Schiff). Dort zu Mittag.― 
-<rs type="person" xml:id="pNt_30478"><surname>Wolterhaus</surname></rs>. Erinnerungen.― <rs type="place" xml:id="pl_06713" ref="#place_c2ad928214981e457405589604924059">Ischl</rs> (Wagen) (<rs type="institution" xml:id="pNt_30479"><surname>Zauner</surname></rs>) ― Lueg (Bahn).―</p>
+<rs type="place" xml:id="pl_06711" ref="#pmb91973">Unterach</rs> ― (Elektrische Tram) ― <rs type="place" xml:id="pl_06712" ref="#pmb92065">Weißenbach</rs> (Schiff). Dort zu Mittag.― 
+<rs type="person" xml:id="pNt_30478"><surname>Wolterhaus</surname></rs>. Erinnerungen.― <rs type="place" xml:id="pl_06713" ref="#pmb213">Ischl</rs> (Wagen) (<rs type="institution" xml:id="pNt_30479"><surname>Zauner</surname></rs>) ― Lueg (Bahn).―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_30480" ref="#person_14065"><surname>Burckhard</surname></rs> auf der Terrasse genachtmahlt. Seine Flucht aus dem 
 <rs type="place" xml:id="pl_06714" ref="#place_b831c3aed38a22564ae26fcadf9e38d3" ana="#exclude">Münchner</rs> Sanatorium. Allgemeines über Sanatorien, Ärzte u. s.w.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-10-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-10-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-10-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-10-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-10-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-10-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-049D-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3905.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1914-10-13">
-            <p xml:space="preserve"><date when="1914-10-13">13/10</date> <rs type="place" ref="#place_rothschildspital">Rothschildspital</rs>. Sah <rs type="person" xml:id="pNt_44234" ref="#person_21601"><forename>Otto</forename> <surname>Zuckerkandl</surname></rs> operiren; an zwei 
+            <p xml:space="preserve"><date when="1914-10-13">13/10</date> <rs type="place" ref="#pmb92496">Rothschildspital</rs>. Sah <rs type="person" xml:id="pNt_44234" ref="#person_21601"><forename>Otto</forename> <surname>Zuckerkandl</surname></rs> operiren; an zwei 
 Verwundeten; eine furchtbare Kieferverletzung; dann eine Kugel im 
 Becken;― der wäre beinah verblutet; Unterbindung der iliaca; Rettung. 
 Hier ist das wesentliche des Krieges. Alles andre ließe sich wegdenken 
@@ -203,6 +207,5 @@ mir zweifelhaft.―</p>
             </tei:fw>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

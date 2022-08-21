@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-09-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-09-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-09-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-09-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-09-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-09-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-158F-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6716.tif"/>
@@ -181,14 +185,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1926-09-03">
-            <p xml:space="preserve"><date when="1926-09-03">3/9</date> <rs type="place" xml:id="pl_16878" ref="#place_906e621d0a453fe7be4c326293881c73">Interlaken</rs>.― Brief von <rs type="person" xml:id="pNt_78459" ref="#person_14130"><forename>Lili</forename></rs>; die mich bittet, mit <rs type="person" xml:id="pNt_78460" ref="#person_19832"><forename>O.</forename></rs> vom <rs type="place" xml:id="pl_16879" ref="#place_9b5c2555a01778bd31e0cd1c675164b2">Lido</rs> aus am 
-20. 9. bis 20. 10. nach <rs type="place" xml:id="pl_16880" ref="#place_0bcbcfedf2ef1f96542597b9279fb141">Rom</rs> gehen zu dürfen. Ich erwidere auch aus princip. Gründen ablehnend.―</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_78461" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> auf den <rs type="place" xml:id="pl_16881" ref="#place_c6ad8b5c4df40d2f69ee833a8a56681e">Harder</rs>;― wo ich mit <rs type="person" xml:id="pNt_78462" ref="#person_19832"><forename>O.</forename></rs> vor 16 Jahren war;― spreche mit 
+            <p xml:space="preserve"><date when="1926-09-03">3/9</date> <rs type="place" xml:id="pl_16878" ref="#pmb916">Interlaken</rs>.― Brief von <rs type="person" xml:id="pNt_78459" ref="#person_14130"><forename>Lili</forename></rs>; die mich bittet, mit <rs type="person" xml:id="pNt_78460" ref="#person_19832"><forename>O.</forename></rs> vom <rs type="place" xml:id="pl_16879" ref="#pmb91143">Lido</rs> aus am 
+20. 9. bis 20. 10. nach <rs type="place" xml:id="pl_16880" ref="#pmb445">Rom</rs> gehen zu dürfen. Ich erwidere auch aus princip. Gründen ablehnend.―</p>
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_78461" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> auf den <rs type="place" xml:id="pl_16881" ref="#pmb90835">Harder</rs>;― wo ich mit <rs type="person" xml:id="pNt_78462" ref="#person_19832"><forename>O.</forename></rs> vor 16 Jahren war;― spreche mit 
 <rs type="person" xml:id="pNt_78463" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> über <rs type="person" xml:id="pNt_78464" ref="#person_14130"><forename>Lili’s</forename></rs> Brief.― Wohl uns dass wir nicht in die Zukunft sehen 
 können. Melancholie; trotz guten Einverständnisses mit <rs type="person" xml:id="pNt_78465" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> in diesen Tagen.―</p>
             <p xml:space="preserve" rend="indent">Gewitter, Regenbogen.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

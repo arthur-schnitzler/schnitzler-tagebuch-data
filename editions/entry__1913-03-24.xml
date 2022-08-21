@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-03-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-03-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-03-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-03-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-03-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-03-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0266-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3588.tif"/>
@@ -181,9 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1913-03-24">
-            <p xml:space="preserve"><date when="1913-03-24">24/3</date> Ostermontag. Vm. zu <rs type="person" xml:id="pNt_40382" ref="#person_20242"><surname>Speidels</surname></rs>, mit ihnen spazieren, <rs type="place" xml:id="pl_08189" ref="#place_6352aa36edbedc20efbb28d51d0a46bf">Kaasgraben</rs> 
+            <p xml:space="preserve"><date when="1913-03-24">24/3</date> Ostermontag. Vm. zu <rs type="person" xml:id="pNt_40382" ref="#person_20242"><surname>Speidels</surname></rs>, mit ihnen spazieren, <rs type="place" xml:id="pl_08189" ref="#pmb92316">Kaasgraben</rs> 
 (wo wir, hinter der Kirche mit <rs type="person" xml:id="pNt_40383" ref="#person_21107"><surname>Wassermann</surname></rs> und <rs type="person" xml:id="pNt_40384" ref="#person_13305"><surname>Auernheimer</surname></rs> sprachen) 
-<rs type="place" xml:id="pl_08190" ref="#place_431168489e6885d4e91ebc5edec7dfb4">Grinzing</rs>, <rs type="place" xml:id="pl_08191" ref="#place_86f90c857ca2c813e066ea7b3502cb7c">Hohe Warte</rs>. Regen.―</p>
+<rs type="place" xml:id="pl_08190" ref="#pmb90771">Grinzing</rs>, <rs type="place" xml:id="pl_08191" ref="#pmb92292">Hohe Warte</rs>. Regen.―</p>
             <p xml:space="preserve" rend="indent">Nm. sah ich meine Briefe an <rs type="allusively" xml:id="rst_01313">Mama</rs> (theilw. an <rs type="allusively" xml:id="rst_01314">Papa</rs>) durch, die 
 wenig erfreulich auf mich wirkten.</p>
             <p xml:space="preserve" rend="indent">Zum Thee <rs type="person" xml:id="pNt_40385" ref="#person_19827"><forename>Julius</forename></rs> und <rs type="person" xml:id="pNt_40386" ref="#person_19823"><forename>Helene</forename></rs> bei uns.―</p>
@@ -194,6 +198,5 @@ vergangnes, wie sie früher dazu stand; dann von ihrem Gespräch mit
 unerquicklich-unergründliche. Der Nachgeschmack war edel aber herb.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

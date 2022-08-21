@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1898-08-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-08-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-08-19.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1898-08-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-08-17.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-08-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EE31-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,17 +177,19 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1450.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1898-08-18">
-            <p xml:space="preserve"><date when="1898-08-18">18/8</date> Allein <rs type="place" xml:id="pl_02989" ref="#place_b4a3a80247afc58a8bde4afff2b93e4c">Genf</rs> ― <rs type="place" xml:id="pl_02990" ref="#place_906e621d0a453fe7be4c326293881c73">Interlaken</rs> Hotel Métropole gegessen ― dort 
+            <p xml:space="preserve"><date when="1898-08-18">18/8</date> Allein <rs type="place" xml:id="pl_02989" ref="#pmb562">Genf</rs> ― <rs type="place" xml:id="pl_02990" ref="#pmb916">Interlaken</rs> Hotel Métropole gegessen ― dort 
 zufällig <rs type="person" xml:id="pNt_15547" ref="#person_15178"><surname>Y.</surname></rs> und Familie. Von Kindern erkannt, vom Mann freundlich 
 begrüßt, zur Frau ins Zimmer geleitet; bei ihr, höchst freundlich 
-geschieden; nach <rs type="place" xml:id="pl_02991" ref="#place_26396a3ce8cfefa83beb528e27d00ab9">Mürren</rs>, Kopfweh.</p>
+geschieden; nach <rs type="place" xml:id="pl_02991" ref="#pmb88187">Mürren</rs>, Kopfweh.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

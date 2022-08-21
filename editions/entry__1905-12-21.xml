@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-12-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-12-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-12-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-12-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-12-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-12-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F830-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2168.tif"/>
@@ -181,13 +185,12 @@
       <body>
          <div type="diary-day" xml:id="entry__1905-12-21">
             <p xml:space="preserve"><date when="1905-12-21">21/12</date> Vm. Besorgungen in der Stadt.― Sprach <rs type="person" xml:id="pNt_24075" ref="#person_16293"><forename>Hugo</forename></rs> und <rs type="person" xml:id="pNt_24076" ref="#person_16292"><forename>Gerty</forename></rs> (<rs type="work" xml:id="bibl_16134">Oedipus</rs> 
-Jänner <rs type="place" xml:id="pl_05385" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>) ― <rs type="person" xml:id="pNt_24077" ref="#person_19340"><surname>Romanowsky</surname></rs> im Heimfahren.―</p>
+Jänner <rs type="place" xml:id="pl_05385" ref="#pmb168">Berlin</rs>) ― <rs type="person" xml:id="pNt_24077" ref="#person_19340"><surname>Romanowsky</surname></rs> im Heimfahren.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="allusively" xml:id="rst_00639">Mama</rs> (bei uns) Nm. <rs type="work" xml:id="bibl_16135">E dur Quartett</rs> von <rs type="person" xml:id="pNt_24078" ref="#person_19902"><surname>Schubert</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Am <rs type="work" subtype="self" xml:id="bibl_16136">Roman</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Mit O. <rs type="place" xml:id="pl_05386" ref="#place_a9a988302086229505c21f885134919d">Josefstadt</rs> „<rs type="work" xml:id="bibl_16137">Immer modern</rs>“. Mein Gehör! …</p>
+            <p xml:space="preserve" rend="indent">Mit O. <rs type="place" xml:id="pl_05386" ref="#pmb58">Josefstadt</rs> „<rs type="work" xml:id="bibl_16137">Immer modern</rs>“. Mein Gehör! …</p>
             <p xml:space="preserve" rend="indent">Nachts „<rs type="work" subtype="self" xml:id="bibl_16138">R. d. L.</rs>“ letzte Correctur.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

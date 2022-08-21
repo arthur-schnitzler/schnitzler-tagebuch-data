@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-04-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-04-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-04-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-04-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-04-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-04-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-166E-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,12 +177,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6848.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1927-04-14">
             <p xml:space="preserve"><date when="1927-04-14">14/4</date> Gen. Pr. Burg <rs type="person" xml:id="pNt_80310" ref="#person_20108"><surname>Sil-Vara</surname></rs>, „<rs type="work" xml:id="bibl_24339">das Genie und sein Bruder</rs>“ stilloses 
 Gemengsel mit Begabungen, aber als ganzes nichts.</p>
@@ -188,5 +193,6 @@ Gemengsel mit Begabungen, aber als ganzes nichts.</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_80313" ref="#person_19756"><forename>Paula</forename> <surname>Schmidl</surname></rs> genachtm., mit <rs type="person" xml:id="pNt_80314" ref="#person_15682"><roleName>Doc.</roleName> <surname>Gross</surname></rs>. Medizinische Gespräche, 
 Neurologisches, psychologisches, Psychoanalyse.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

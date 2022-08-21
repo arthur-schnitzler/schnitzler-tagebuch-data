@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-06-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-06-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-06-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-06-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-06-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-06-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1AF1-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7504.tif"/>
@@ -182,7 +186,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1930-06-12">
             <p xml:space="preserve"><date when="1930-06-12">12/6</date> Vm. dict.: „<rs type="work" subtype="self" xml:id="bibl_1100">Zug</rs>“ 7. Bild. Briefe.―</p>
-            <p xml:space="preserve" rend="indent">Nm. <rs type="work" subtype="self" xml:id="bibl_1101">Tgb.</rs> 26;― (<rs type="person" xml:id="pNt_89964" ref="#person_19832"><forename>O.</forename></rs> und <rs type="person" xml:id="pNt_89965" ref="#person_14130"><forename>Lili</forename></rs> <rs type="place" xml:id="pl_19288" ref="#place_e4d4b19346747823e5636ed1238a7521">Venedig</rs>),― sehr ergriffen.―</p>
+            <p xml:space="preserve" rend="indent">Nm. <rs type="work" subtype="self" xml:id="bibl_1101">Tgb.</rs> 26;― (<rs type="person" xml:id="pNt_89964" ref="#person_19832"><forename>O.</forename></rs> und <rs type="person" xml:id="pNt_89965" ref="#person_14130"><forename>Lili</forename></rs> <rs type="place" xml:id="pl_19288" ref="#pmb462">Venedig</rs>),― sehr ergriffen.―</p>
             <p xml:space="preserve" rend="indent">― Gegen Abend zu <rs type="person" xml:id="pNt_89966" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>― War für morgen zu <rs type="person" xml:id="pNt_89967"><surname>[Schmidls]</surname></rs> geladen (abgesagt 
 wegen <rs type="person" xml:id="pNt_89968" ref="#person_14234"><forename>Suz.</forename></rs>), mit <rs type="person" xml:id="pNt_89969" ref="#person_19850"><surname>Schönherr</surname></rs>;― der Umstand, dass sie nicht auch, verstimmte 
 <rs type="person" xml:id="pNt_89970" ref="#person_18863"><forename>Clara</forename></rs>;― ich wurde ungeduldig, sie von meiner „Ungüte“ noch 
@@ -190,6 +194,5 @@ wegen <rs type="person" xml:id="pNt_89968" ref="#person_14234"><forename>Suz.</f
 lesend Hypochondrien.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

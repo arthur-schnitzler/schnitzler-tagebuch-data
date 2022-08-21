@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-10-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-09-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-10-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-10-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-09-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-10-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1886-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7171.tif"/>
@@ -184,7 +188,7 @@
          <div type="diary-day" xml:id="entry__1928-10-01">
             <p xml:space="preserve"><date when="1928-10-01">1/10</date> Dictirt <rs type="work" subtype="self" xml:id="bibl_19687">Zug</rs> (3. Sc. neuer Schluss;― nein) Briefe an <rs type="person" xml:id="pNt_84864" ref="#person_15957"><surname>Harz</surname></rs> und 
 <rs type="person" xml:id="pNt_84865" ref="#person_15009"><surname>Fischer</surname></rs>.―</p>
-            <p xml:space="preserve" rend="indent">Nm. (mit <rs type="person" xml:id="pNt_84866" ref="#person_13551"><forename>Richard</forename></rs>) <rs type="person" xml:id="pNt_84867" ref="#person_16997"><roleName>Hr.</roleName> <surname>Kohner</surname></rs>, aus <rs type="place" xml:id="pl_18305" ref="#place_c895460d8e2f632d0cf203ee6ce63c2c">Teplitz</rs>, aber <rs type="place" xml:id="pl_18306" ref="#place_aa7f57c6ec7d7f25ecd04db5284fd973" ana="#exclude">amerikanisirt</rs>, 
+            <p xml:space="preserve" rend="indent">Nm. (mit <rs type="person" xml:id="pNt_84866" ref="#person_13551"><forename>Richard</forename></rs>) <rs type="person" xml:id="pNt_84867" ref="#person_16997"><roleName>Hr.</roleName> <surname>Kohner</surname></rs>, aus <rs type="place" xml:id="pl_18305" ref="#pmb955">Teplitz</rs>, aber <rs type="place" xml:id="pl_18306" ref="#place_aa7f57c6ec7d7f25ecd04db5284fd973" ana="#exclude">amerikanisirt</rs>, 
 Universal Film ― <rs type="person" xml:id="pNt_84868" ref="#person_17248"><surname>Lämmle</surname></rs>; sehr sympathisch (sein ähnlicher 
 Bruder mit),― wegen <rs type="work" subtype="self" xml:id="bibl_19688">Spiel im Morg.</rs> und andrer Sachen ― will in 
 seiner diesjähr. Production jedenfalls etwas von mir bringen. 
@@ -194,6 +198,5 @@ Näheres für <rs type="place" xml:id="pl_18307" ref="#place_be7f11f190986254826
             <p xml:space="preserve" rend="indent">Las <rs type="person" xml:id="pNt_84870" ref="#person_17373"><surname>Lawrence</surname></rs>, <rs type="work" xml:id="bibl_19690">Aufstand in der Wüste</rs> und <rs type="person" xml:id="pNt_84871" ref="#person_21610"><surname>Zweig</surname></rs>, <rs type="work" xml:id="bibl_19691">Caliban</rs> zu Ende.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

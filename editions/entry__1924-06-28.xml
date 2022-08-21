@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1924-06-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-06-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-06-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1924-06-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-06-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-06-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1273-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6286.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1924-06-28">
-            <p xml:space="preserve"><date when="1924-06-28">28/6</date> <rs type="place" xml:id="pl_15445" ref="#place_63714a562352ef3ae472da20ed0384c0">B.-B.</rs> Nachts Gewitter. In die Stadt.― Zu <rs type="person" xml:id="pNt_72543" ref="#person_19832"><forename>O.</forename></rs>― Finanzielles.― 
+            <p xml:space="preserve"><date when="1924-06-28">28/6</date> <rs type="place" xml:id="pl_15445" ref="#pmb228">B.-B.</rs> Nachts Gewitter. In die Stadt.― Zu <rs type="person" xml:id="pNt_72543" ref="#person_19832"><forename>O.</forename></rs>― Finanzielles.― 
 Theuerung. Ihre Schulden.―</p>
             <p xml:space="preserve" rend="indent">Nach Tisch Geplauder mit <rs type="person" xml:id="pNt_72544" ref="#person_19832"><forename>O.</forename></rs> und <rs type="person" xml:id="pNt_72545" ref="#person_14130"><forename>Lili</forename></rs>; gemütlich …</p>
             <p xml:space="preserve" rend="indent">Sie später: „wer mich in den Krallen hätte“ … Niemand. „Oder in den 
@@ -191,6 +195,5 @@ Sie weint.― Herzschmerzen.―</p>
             <p xml:space="preserve" rend="indent">Im Kino (<rs type="work" xml:id="bibl_21142">Buddenbrooks</rs>) mit <rs type="person" xml:id="pNt_72546" ref="#person_19832"><forename>O.</forename></rs> und <rs type="person" xml:id="pNt_72547" ref="#person_14130"><forename>Lili</forename></rs>, im Goldnen Kreuz gen.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

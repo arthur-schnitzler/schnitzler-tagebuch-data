@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-05-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-05-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-05-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-05-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-05-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-05-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F75C-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2079.tif"/>
@@ -181,10 +185,9 @@
       <body>
          <div type="diary-day" xml:id="entry__1905-05-23">
             <p xml:space="preserve"><date when="1905-05-23">23/5</date> Vm. Besorgung in der Stadt.― Briefe dictirt.― Bei <rs type="person" xml:id="pNt_22908" ref="#person_19827"><forename>Julius’</forename></rs> Kindern.―</p>
-            <p xml:space="preserve" rend="indent">Nachm. mit O. <rs type="place" xml:id="pl_05184" ref="#place_b333d193dca0791c0cf701b0749dc4ce">Hinterbrühl</rs> bei <rs type="person" xml:id="pNt_22909" ref="#person_20386"><forename>Liesl</forename></rs>, dort soupirt (<rs type="person" xml:id="pNt_22910" ref="#person_19558"><roleName>Frau</roleName> <surname>Samuely</surname></rs> und 
+            <p xml:space="preserve" rend="indent">Nachm. mit O. <rs type="place" xml:id="pl_05184" ref="#pmb75">Hinterbrühl</rs> bei <rs type="person" xml:id="pNt_22909" ref="#person_20386"><forename>Liesl</forename></rs>, dort soupirt (<rs type="person" xml:id="pNt_22910" ref="#person_19558"><roleName>Frau</roleName> <surname>Samuely</surname></rs> und 
 Tochter). Eine Reise!― 2 Std. hin, 2 Std. zurück. Schlechtes Wetter.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

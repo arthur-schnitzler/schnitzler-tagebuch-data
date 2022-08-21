@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1921-06-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-06-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-07-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1921-06-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-06-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-07-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0E2E-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5453.tif"/>
@@ -185,7 +189,7 @@
          <div type="diary-day" xml:id="entry__1921-06-30">
             <p xml:space="preserve"><date when="1921-06-30">30/6</date> Vm. Schule, <rs type="person" xml:id="pNt_62814" ref="#person_20595"><roleName>Director</roleName> <surname>Swoboda</surname></rs>; Fadessen und Unpraecises wegen <rs type="person" xml:id="pNt_62815" ref="#person_14130"><forename>Lilis</forename></rs> 
 Eintritt.</p>
-            <p xml:space="preserve" rend="indent">Bei der <rs type="allusively" xml:id="rst_01815">Hofrätin</rs>, die auf dem <rs type="place" xml:id="pl_13133" ref="#place_fc2652ac7ac1c389bec19046fc131328">Kreuzberg</rs> bei <rs type="person" xml:id="pNt_62816" ref="#person_17784"><forename>Alma</forename></rs> war ― als eben der 
+            <p xml:space="preserve" rend="indent">Bei der <rs type="allusively" xml:id="rst_01815">Hofrätin</rs>, die auf dem <rs type="place" xml:id="pl_13133" ref="#pmb91067">Kreuzberg</rs> bei <rs type="person" xml:id="pNt_62816" ref="#person_17784"><forename>Alma</forename></rs> war ― als eben der 
 Brief <rs type="person" xml:id="pNt_62817" ref="#person_19832"><forename>O.s</forename></rs> mit der Nachricht von unsrer Scheidung kam; sie schreibt darin 
 daß sie unglücklich sei;― sie fühle, ich sei ihr bester Freund ― ― 
 und von der „Angst“, die sie immer in den letzten Jahren vor mir gehabt. 
@@ -193,7 +197,7 @@ Angst?― Schlechtes Gewissen.― Die <rs type="allusively" xml:id="rst_01816">H
 der <rs type="place" xml:id="pl_13134" ref="#place_874ce3277b081d5f00cae8baf160c165" ana="#exclude">Mannheimer</rs> Affaire unterrichtet. Indess war <rs type="person" xml:id="pNt_62818" ref="#person_19832"><forename>O.</forename></rs> (was sie mir verschwiegen) 
 nah daran gewesen, auch <rs type="person" xml:id="pNt_62819" ref="#person_17784"><forename>Alma</forename></rs> zu verlieren;― sie hatte nemlich zu <rs type="person" xml:id="pNt_62820" ref="#person_21584"><forename>Annie</forename> 
 <surname>Koller</surname></rs> (<rs type="person" xml:id="pNt_62821" ref="#person_17784"><forename>Almas</forename></rs> Tochter!) geäußert ― auch zwischen <rs type="person" xml:id="pNt_62822" ref="#person_17784"><forename>Alma</forename></rs> und <rs type="person" xml:id="pNt_62823" ref="#person_21243"><surname>Werfel</surname></rs> stehe 
-es nicht mehr so gut ― erzähle man in <rs type="place" xml:id="pl_13135" ref="#place_d0a6343a081a7335baa965ce4fd0845c">München</rs> ― Darauf Telegr. von 
+es nicht mehr so gut ― erzähle man in <rs type="place" xml:id="pl_13135" ref="#pmb45258">München</rs> ― Darauf Telegr. von 
 <rs ref="#person_21594" type="person" xml:id="pNt_62824"><forename>Annie</forename></rs> an ihre Mutter, heftiger Brief <rs type="person" xml:id="pNt_62825" ref="#person_17784"><forename>Almas</forename></rs> an <rs type="person" xml:id="pNt_62826" ref="#person_19832"><forename>O.</forename></rs>;― Entschuldigung … (Und 
 <rs type="person" xml:id="pNt_62827" ref="#person_19832"><forename>O.</forename></rs> ist immer empört über den „Klatsch“.) ―</p>
             <p xml:space="preserve" rend="indent">Nerven besser;― deutliche Empfindung der Befreiung.―</p>
@@ -207,6 +211,5 @@ antheilvoll über die letzten Ereignisse … Der Tenor: „So
 überflüssig …!“</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

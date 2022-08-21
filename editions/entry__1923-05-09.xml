@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-05-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-05-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-05-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-05-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-05-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-05-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-10D4-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6035.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1923-05-09">
-            <p xml:space="preserve"><date when="1923-05-09">9/5</date> <rs type="place" xml:id="pl_14694" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>. Vm. Deutsche Bank; dann bei <rs type="person" xml:id="pNt_69337" ref="#person_15009"><forename>S.</forename> <surname>Fischer</surname></rs>, geschäftliches;― 
+            <p xml:space="preserve"><date when="1923-05-09">9/5</date> <rs type="place" xml:id="pl_14694" ref="#pmb168">Berlin</rs>. Vm. Deutsche Bank; dann bei <rs type="person" xml:id="pNt_69337" ref="#person_15009"><forename>S.</forename> <surname>Fischer</surname></rs>, geschäftliches;― 
 ebenso mit <rs type="person" xml:id="pNt_69338" ref="#person_15643"><roleName>Dr.</roleName> <surname>Greiner</surname></rs>; und <rs type="person" xml:id="pNt_69339" ref="#person_16786"><roleName>Dr.</roleName> <surname>Kayser</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Z. E. bei <rs type="institution" xml:id="pNt_69340"><surname>Lanzsch</surname></rs> mit Dr. und <rs type="person" xml:id="pNt_69341" ref="#person_18137"><forename>Dora</forename> <surname>M.</surname></rs>; mit ihr nachher in der Halle 
 geplaudert (über <rs type="person" xml:id="pNt_69342" ref="#person_19832"><forename>O.</forename></rs>).</p>
@@ -194,6 +198,5 @@ Geburtstagsgeschenk) gestohlen. Recherchen ― Disc. mit Directoren etc.
 Unruhig von 3-5 geschlafen …</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

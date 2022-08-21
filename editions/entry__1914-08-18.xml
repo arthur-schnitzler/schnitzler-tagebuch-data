@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-08-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-08-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-08-19.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-08-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-08-17.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-08-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0465-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3867.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1914-08-18">
-            <p xml:space="preserve"><date when="1914-08-18">18/8</date> <rs type="place" xml:id="pl_08893" ref="#place_1ff97f22292e3d91119e867aadcf511b">Innsbruck</rs> ― <rs type="place" xml:id="pl_08894" ref="#place_993fc4f5ed0302643cb4b1312074c65e">Wörgl</rs> ― (<rs type="person" xml:id="pNt_43903" ref="#person_16957"><roleName>Hr.</roleName> <surname>Köhler</surname></rs>; Schauspieler aus <rs type="place" xml:id="pl_08895" ref="#place_35a26de99aba7a32247dfe2dbb256c6d">Mühlhausen</rs> 
+            <p xml:space="preserve"><date when="1914-08-18">18/8</date> <rs type="place" xml:id="pl_08893" ref="#pmb90931">Innsbruck</rs> ― <rs type="place" xml:id="pl_08894" ref="#pmb92105">Wörgl</rs> ― (<rs type="person" xml:id="pNt_43903" ref="#person_16957"><roleName>Hr.</roleName> <surname>Köhler</surname></rs>; Schauspieler aus <rs type="place" xml:id="pl_08895" ref="#pmb91310">Mühlhausen</rs> 
 geflohn, erzählt seine „Erlebnisse“― Verborgen im Keller, sechs Leichen vor dem Thor.)</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

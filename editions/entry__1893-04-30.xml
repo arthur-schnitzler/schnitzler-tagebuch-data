@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1893-04-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-04-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-05-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1893-04-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-04-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-05-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E6B2-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0714.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1893-04-30">
-            <p xml:space="preserve"><date when="1893-04-30">30/4</date> Sonntag. <rs type="person" xml:id="pNt_07328" ref="#person_16293"><forename>Loris</forename></rs>, <rs type="person" xml:id="pNt_07329" ref="#person_19542"><surname>Salten</surname></rs>, <rs type="person" xml:id="pNt_07330" ref="#person_13551"><forename>Richard</forename></rs> und ich <rs type="place" xml:id="pl_01469" ref="#place_c7345be15f74840774e24feb78aa15df">Nußdorf</rs>, <rs type="place" xml:id="pl_01470" ref="#place_431168489e6885d4e91ebc5edec7dfb4">Grinzing</rs>, <rs type="person" xml:id="pNt_07331" ref="#person_19542"><surname>S.</surname></rs> 
+            <p xml:space="preserve"><date when="1893-04-30">30/4</date> Sonntag. <rs type="person" xml:id="pNt_07328" ref="#person_16293"><forename>Loris</forename></rs>, <rs type="person" xml:id="pNt_07329" ref="#person_19542"><surname>Salten</surname></rs>, <rs type="person" xml:id="pNt_07330" ref="#person_13551"><forename>Richard</forename></rs> und ich <rs type="place" xml:id="pl_01469" ref="#pmb91367">Nußdorf</rs>, <rs type="place" xml:id="pl_01470" ref="#pmb90771">Grinzing</rs>, <rs type="person" xml:id="pNt_07331" ref="#person_19542"><surname>S.</surname></rs> 
 <pb n="30"/>
 <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header"><fw place="top_left" type="pn">30</fw> <fw place="top_center"><date type="range">1893: IV 30 - V 8</date></fw></tei:fw>
 und ich früh zurück.― Traurige Zeiten.</p>
@@ -189,6 +193,5 @@ und ich früh zurück.― Traurige Zeiten.</p>
 Mai</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

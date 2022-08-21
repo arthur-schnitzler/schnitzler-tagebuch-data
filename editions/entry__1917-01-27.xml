@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1917-01-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-01-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-01-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1917-01-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-01-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-01-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-07E1-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4396.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1917-01-27">
-            <p xml:space="preserve"><date when="1917-01-27">27/1</date> Spazierg. mit <rs type="person" xml:id="pNt_49746" ref="#person_19850"><surname>Schönherr</surname></rs> <rs type="place" xml:id="pl_10373" ref="#place_24e28ed7e7d74af56d47ff35c697c314">Beethovengang</rs>, <rs type="place" xml:id="pl_10374" ref="#place_13e0d56607e09fd9ecc36830a7036add">Heiligenstadt</rs>, in Schnee 
+            <p xml:space="preserve"><date when="1917-01-27">27/1</date> Spazierg. mit <rs type="person" xml:id="pNt_49746" ref="#person_19850"><surname>Schönherr</surname></rs> <rs type="place" xml:id="pl_10373" ref="#pmb158">Beethovengang</rs>, <rs type="place" xml:id="pl_10374" ref="#pmb90847">Heiligenstadt</rs>, in Schnee 
 Sonne und Kälte. Über Krankheiten, neue Dichter,― <rs type="person" xml:id="pNt_49747" ref="#person_13374"><surname>Bahr</surname></rs>, <rs type="person" xml:id="pNt_49748" ref="#person_14065"><surname>Burckhard</surname></rs>, 
 <rs type="person" xml:id="pNt_49749" ref="#person_16165"><surname>Herzl</surname></rs> ― über <rs type="person" xml:id="pNt_49750" ref="#person_13428"><surname>Barnowsky</surname></rs>, <rs type="person" xml:id="pNt_49751" ref="#person_19154"><surname>Reinhardt</surname></rs> und „Steuersachen“.― Er ist ein 
 ganzer, aber nicht eigentlich reicher Mensch.―</p>
@@ -191,6 +195,5 @@ Den Rest des „<rs type="work" subtype="self" xml:id="bibl_6186">Nachklangs</rs
             <p xml:space="preserve" rend="indent">Lese: <rs type="person" xml:id="pNt_49754"><surname>Goethe</surname></rs> ― <rs type="work" xml:id="bibl_6188"><rs type="person" xml:id="pNt_49755"><forename>Christiane-</forename></rs> <rs type="person" xml:id="pNt_49756" ref="#person_16009"><surname>Hebbel-</surname></rs> <rs type="person" xml:id="pNt_49757" ref="#person_20930"><forename>Rahel-</forename></rs> <rs type="person" xml:id="pNt_49758" ref="#person_16586"><forename>Josef II.-Briefe</forename></rs></rs>; u. a.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

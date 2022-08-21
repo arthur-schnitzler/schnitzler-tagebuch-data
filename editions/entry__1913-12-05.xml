@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-12-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-12-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-12-06.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-12-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-12-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-12-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0366-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,15 +177,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3732.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3733.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1913-12-05">
-            <p xml:space="preserve"><date when="1913-12-05">5/12</date> Probe <rs type="work" subtype="self" xml:id="bibl_9794">Eins. Weg</rs> 4. und 5. Akt. <rs type="place" xml:id="pl_08543" ref="#place_a9a988302086229505c21f885134919d">Josefstadt</rs>. Wenn ich besser hörte, 
+            <p xml:space="preserve"><date when="1913-12-05">5/12</date> Probe <rs type="work" subtype="self" xml:id="bibl_9794">Eins. Weg</rs> 4. und 5. Akt. <rs type="place" xml:id="pl_08543" ref="#pmb58">Josefstadt</rs>. Wenn ich besser hörte, 
 wär es ein reines Vergnügen. Es ist und bleibt das einzig mögliche 
 Theater, die Burg.― Mit dem sympathischen <rs type="person" xml:id="pNt_42217" ref="#person_21059"><surname>Walden</surname></rs> fort.― Nach längrer 
 Zeit <rs type="person" xml:id="pNt_42218" ref="#person_15144"><forename>Loth. Amadeus</forename> <surname>Frankl</surname></rs> begegnet; den Leidensgefährten ― aber 
@@ -194,5 +199,6 @@ können.― Er scheint nun von Altersmelancholie schwer gequält. Er
 schloss das Clavier mit den Worten. „Machen wir den Sargdeckel zu …“ 
 „Wie lang kanns denn noch dauern ―? Und das Leben war so schön!―“</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

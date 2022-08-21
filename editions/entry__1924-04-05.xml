@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1924-04-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-04-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-04-06.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1924-04-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-04-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-04-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-121F-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6242.tif"/>
@@ -194,8 +198,8 @@ für die nächsten Wochen ihre Wohnung zur Verfügung gestellt hatte)
 ein Beweis von Sehnsucht nach mir. Es heißt u. a. in diesem 
 Brief ― (von mir) „Ich weine um ihn, weil er so alt und unweise 
 ist“, „Ahnt er nicht (ungefähr) welche Verantwortung er auf sich 
-nimmt (wegen <rs type="person" xml:id="pNt_71998" ref="#person_14130"><forename>Lili</forename></rs>) und will er so zu Ende leben?“ „Nach <rs type="place" xml:id="pl_15307" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> 
-komm ich nur in die <rs type="place" xml:id="pl_15308" ref="#place_61f407ddde813da2482868b31eab013d">Sternwartestraße</rs> 71 ― oder gar nicht ― mit 
+nimmt (wegen <rs type="person" xml:id="pNt_71998" ref="#person_14130"><forename>Lili</forename></rs>) und will er so zu Ende leben?“ „Nach <rs type="place" xml:id="pl_15307" ref="#pmb50">Wien</rs> 
+komm ich nur in die <rs type="place" xml:id="pl_15308" ref="#pmb150">Sternwartestraße</rs> 71 ― oder gar nicht ― mit 
 einem Menschen, der an der Convention zerbricht, hab ich nichts 
 zu schaffen“.― ― <rs type="person" xml:id="pNt_71999" ref="#person_17784"><forename>Alma</forename></rs> wollte all dies auf ihren Trotz, auf ihre 
 Einsamkeit zurückführen;― es kam das hundertmal geführte 
@@ -206,6 +210,5 @@ wieder einmal auszusprechen. Sie (<rs type="person" xml:id="pNt_72002" ref="#per
 (natürlich auch äußern) Verleumdungsfeldzug gegen mich.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-11-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-11-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-11-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-11-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-11-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-11-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-119F-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6150.tif"/>
@@ -183,12 +187,12 @@
       <body>
          <div type="diary-day" xml:id="entry__1923-11-29">
             <p xml:space="preserve"><date when="1923-11-29">29/11</date> Vm. dictirt.― Briefe, <rs type="work" subtype="self" xml:id="bibl_2164">Verf.</rs>―</p>
-            <p xml:space="preserve" rend="indent">Zu Tisch <rs type="person" xml:id="pNt_70792" ref="#person_17696"><forename>R.</forename> <surname>Lothar</surname></rs> bei mir; will aus <rs type="place" xml:id="pl_15175" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> hieher übersiedeln. 
+            <p xml:space="preserve" rend="indent">Zu Tisch <rs type="person" xml:id="pNt_70792" ref="#person_17696"><forename>R.</forename> <surname>Lothar</surname></rs> bei mir; will aus <rs type="place" xml:id="pl_15175" ref="#pmb168">Berlin</rs> hieher übersiedeln. 
 Verdient mit seinen Stücken viel Geld, hat vor einem Jahr wieder 
 geheiratet; ist guten Muths und geschäftig wie nur je.―</p>
             <p xml:space="preserve" rend="indent">Nm. zeigt mir <rs type="person" xml:id="pNt_70793" ref="#person_19822"><forename>Heini</forename></rs> seine <rs type="figur">Franz Moor-Striche</rs>; wir sprechen einiges durch.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_70795" ref="#person_19542"><surname>Salten</surname></rs> kommt mit dem jungen <rs type="person" xml:id="pNt_70796" ref="#person_21586"><surname>Zsolnay</surname></rs>, der einen Verlag gründet. 
-Über den Namen („Verlag der Autoren“ oder  „<rs type="place" xml:id="pl_15176" ref="#place_86f90c857ca2c813e066ea7b3502cb7c">Hohe Warte</rs>“). ― 
+Über den Namen („Verlag der Autoren“ oder  „<rs type="place" xml:id="pl_15176" ref="#pmb92292">Hohe Warte</rs>“). ― 
 Eventualitäten meine Werke betreffend; auch Übernahme der <rs type="work" subtype="self" xml:id="bibl_2165">Ges. Werke</rs> 
 erwogen. Angeregtes Gespräch über 2 Stunden.―</p>
             <p xml:space="preserve" rend="indent">Nachher kam <rs type="person" xml:id="pNt_70797" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> und war sehr amüsant.―</p>
@@ -199,6 +203,5 @@ Tagebuch</rs>; <rs type="person" xml:id="pNt_70800" ref="#person_16714"><surname
 herausgegeben), fast durchwegs minderwertig.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

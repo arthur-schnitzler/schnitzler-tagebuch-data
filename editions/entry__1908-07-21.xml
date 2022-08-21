@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-07-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-07-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-07-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-07-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-07-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-07-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FBBB-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2533.tif"/>
@@ -180,12 +184,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1908-07-21">
-            <p xml:space="preserve"><date when="1908-07-21">21/7</date> Mit <rs type="person" xml:id="pNt_28600" ref="#person_13913"><surname>Brahm</surname></rs> <rs type="place" xml:id="pl_06405" ref="#place_5452055e8577cd9fc11dc0a36db25147">Ratzes</rs>.―</p>
+            <p xml:space="preserve"><date when="1908-07-21">21/7</date> Mit <rs type="person" xml:id="pNt_28600" ref="#person_13913"><surname>Brahm</surname></rs> <rs type="place" xml:id="pl_06405" ref="#pmb92476">Ratzes</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. den „<rs type="work" subtype="self" xml:id="bibl_13546">Bauernbursch und Gräfin</rs> Stoff“ als 3aktige Komoedie skizzirt.</p>
             <p xml:space="preserve" rend="indent">Kritiken über den <rs type="work" subtype="self" xml:id="bibl_13547">Roman</rs>. <rs type="person" xml:id="pNt_28601" ref="#person_14730"><surname>Eloesser</surname></rs> leidlich klug, <rs type="person" xml:id="pNt_28602" ref="#person_16297"><surname>Hofmiller</surname></rs> anständig und 
 wohlwollend, <rs type="person" xml:id="pNt_28603" ref="#person_15691"><surname>Großmann</surname></rs> lausbübisch.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

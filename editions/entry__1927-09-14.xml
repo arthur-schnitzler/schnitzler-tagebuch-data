@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-09-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-09-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-09-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-09-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-09-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-09-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1707-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6944.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1927-09-14">
-            <p xml:space="preserve"><date when="1927-09-14">14/9</date> <rs type="place" xml:id="pl_17576" ref="#place_9b5c2555a01778bd31e0cd1c675164b2">Lido</rs>.― Vm. <rs type="place" xml:id="pl_17577" ref="#place_e4d4b19346747823e5636ed1238a7521">Venedig</rs> ― (<rs type="person" xml:id="pNt_81677" ref="#person_18881"><roleName>Frl.</roleName> <surname>P.</surname></rs> Abreise) ― mit <rs type="person" xml:id="pNt_81678" ref="#person_18064"><roleName>Fr.</roleName> <surname>M.</surname></rs> Piazza. 
+            <p xml:space="preserve"><date when="1927-09-14">14/9</date> <rs type="place" xml:id="pl_17576" ref="#pmb91143">Lido</rs>.― Vm. <rs type="place" xml:id="pl_17577" ref="#pmb462">Venedig</rs> ― (<rs type="person" xml:id="pNt_81677" ref="#person_18881"><roleName>Frl.</roleName> <surname>P.</surname></rs> Abreise) ― mit <rs type="person" xml:id="pNt_81678" ref="#person_18064"><roleName>Fr.</roleName> <surname>M.</surname></rs> Piazza. 
 <rs type="person" xml:id="pNt_81679" ref="#person_14130"><forename>Lili</forename></rs>, <rs type="person" xml:id="pNt_81680" ref="#person_14129"><forename>Arnoldo</forename></rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. „<rs type="work" subtype="self" xml:id="bibl_24640">Roman</rs>“ weiter Correctur.―</p>
-            <p xml:space="preserve" rend="indent">Abd. mit <rs type="person" xml:id="pNt_81681" ref="#person_18064"><roleName>Fr. Dr.</roleName> <surname>M.</surname></rs> <rs type="place" xml:id="pl_17578" ref="#place_e4d4b19346747823e5636ed1238a7521">Venedig</rs>.― Mit <rs type="person" xml:id="pNt_81682" ref="#person_14129"><forename>A.</forename></rs> und <rs type="person" xml:id="pNt_81683" ref="#person_14130"><forename>L.</forename></rs> Taverna genachtm.; dann 
+            <p xml:space="preserve" rend="indent">Abd. mit <rs type="person" xml:id="pNt_81681" ref="#person_18064"><roleName>Fr. Dr.</roleName> <surname>M.</surname></rs> <rs type="place" xml:id="pl_17578" ref="#pmb462">Venedig</rs>.― Mit <rs type="person" xml:id="pNt_81682" ref="#person_14129"><forename>A.</forename></rs> und <rs type="person" xml:id="pNt_81683" ref="#person_14130"><forename>L.</forename></rs> Taverna genachtm.; dann 
 Piazza.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

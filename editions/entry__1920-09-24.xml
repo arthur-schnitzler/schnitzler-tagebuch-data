@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-09-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-09-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-09-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1920-09-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-09-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-09-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0D17-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,12 +177,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5189.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1920-09-24">
             <p xml:space="preserve"><date when="1920-09-24">24/9</date> Vm. und Nm. am „<rs type="work" subtype="self" xml:id="bibl_4266">Weiher</rs>“.―</p>
             <p xml:space="preserve" rend="indent">Nm. Sitzung der dram. Autoren.―</p>
@@ -191,5 +196,6 @@ etwas zu lieben scheint) kennen gelernt.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_59965" ref="#person_19832"><forename>O.</forename></rs> sozusagen „gekränkt“, daß ich mich im Concert nicht um sie gekümmert;― 
 hat Nachts noch das Bedürfnis mit mir über <rs type="person" xml:id="pNt_59966" ref="#person_17786"><surname>Mahler</surname></rs> u. a. zu reden.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

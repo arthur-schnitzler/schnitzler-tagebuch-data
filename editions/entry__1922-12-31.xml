@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-12-31.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-12-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-01-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-12-31.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-12-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-01-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1053-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5934.tif"/>
@@ -183,7 +187,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1922-12-31">
             <p xml:space="preserve"><date when="1922-12-31">31/12</date> Sehr unklare Träume; in denen <rs ref="#person_16293" type="person" xml:id="pNt_68217"><forename>Hugo</forename></rs> eine Nebenrolle spielte, sowie eine 
-Vortragsreise in die <rs type="place" xml:id="pl_14464" ref="#place_f66b5733f22e8213e2b808307d33c223">Tschechoslowakei</rs> (?).</p>
+Vortragsreise in die <rs type="place" xml:id="pl_14464" ref="#pmb38444">Tschechoslowakei</rs> (?).</p>
             <p xml:space="preserve" rend="indent">Föhn.― Morgen z. Th. mit „Ordnen“ im Schlafz. verbracht. Schwere 
 Bedrückung durch das Ohrenleiden.― Bittre Stimmung gegen <rs type="person" xml:id="pNt_68218" ref="#person_19832"><forename>O.</forename></rs>; Bangigkeit 
 wegen ihres bevorstehenden Aufenthalts hier.― Gefühl der Unzulänglichkeit 
@@ -193,7 +197,7 @@ erbittend;― von seinen social-juridischen Bestrebungen erzählend;
 interessirt sich für die an der Wand hängenden alten 
 („Ahnen“)photographien.―</p>
             <p xml:space="preserve" rend="indent">― Mit <rs type="person" xml:id="pNt_68220" ref="#person_19755"><surname>Schmidls</surname></rs> (nachdem ich <rs type="person" xml:id="pNt_68221" ref="#person_19756"><forename>Paula</forename></rs> etc. gesprochen) und <rs type="person" xml:id="pNt_68222" ref="#person_13551"><forename>Richard</forename></rs> herum; <rs type="person" xml:id="pNt_68223" ref="#person_13551"><forename>Richard</forename></rs> 
-erzählt von <rs type="place" xml:id="pl_14465" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>, wo er zu den Proben von <rs type="work" xml:id="bibl_3040">Charolais</rs> war, die zuerst wegen 
+erzählt von <rs type="place" xml:id="pl_14465" ref="#pmb168">Berlin</rs>, wo er zu den Proben von <rs type="work" xml:id="bibl_3040">Charolais</rs> war, die zuerst wegen 
 Strike, dann wegen <rs type="person" xml:id="pNt_68224" ref="#person_18209"><surname>Moissi</surname></rs> Erkrankung abgebrochen werden mußten.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_68225" ref="#person_19822"><forename>Heini</forename></rs> nach Tisch ein <rs type="person" xml:id="pNt_68226" ref="#person_13344"><surname>Bach</surname></rs> Prel. mit Fuge. Dann liest er mir ein Stück aus 
 dem <rs type="person" xml:id="pNt_68227" ref="#person_17838"><forename>Th.</forename> <surname>Mann’schen</surname></rs> <rs type="work" xml:id="bibl_3041">Hochstaplerroman</rs> vor.―</p>
@@ -208,6 +212,5 @@ trüber Stimmung, las zu Hause noch Zeitung,― und <rs type="person" xml:id="pN
 <rs type="work" xml:id="bibl_3045">Lebenserinnerungen</rs> weiter.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

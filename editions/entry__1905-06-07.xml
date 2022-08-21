@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-06-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-06-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-06-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-06-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-06-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-06-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F76B-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2084.tif"/>
@@ -181,10 +185,9 @@
       <body>
          <div type="diary-day" xml:id="entry__1905-06-07">
             <p xml:space="preserve"><date when="1905-06-07">7/6</date> Vm. Tennis.― Mit <rs type="person" xml:id="pNt_22981" ref="#person_20386"><forename>Liesl</forename></rs> bei <rs type="person" xml:id="pNt_22982" ref="#person_15886"><surname>Hammerschlag</surname></rs>.―</p>
-            <p xml:space="preserve" rend="indent">Mittag <rs type="person" xml:id="pNt_22983" ref="#person_20386"><forename>Liesl</forename></rs> und <rs type="person" xml:id="pNt_22984" ref="#person_16632"><surname>Kahane</surname></rs> (<rs type="place" xml:id="pl_05203" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>) zu Tisch.― Bis gegen 7.</p>
+            <p xml:space="preserve" rend="indent">Mittag <rs type="person" xml:id="pNt_22983" ref="#person_20386"><forename>Liesl</forename></rs> und <rs type="person" xml:id="pNt_22984" ref="#person_16632"><surname>Kahane</surname></rs> (<rs type="place" xml:id="pl_05203" ref="#pmb168">Berlin</rs>) zu Tisch.― Bis gegen 7.</p>
             <p xml:space="preserve" rend="indent">Mit O. zu <rs type="person" xml:id="pNt_22985" ref="#person_21107"><surname>Wassermann’s</surname></rs>. Dort <rs type="person" xml:id="pNt_22986" ref="#person_20872"><forename>Agnes</forename></rs> und <rs type="person" xml:id="pNt_22987" ref="#person_18137"><forename>Dora</forename></rs> mit ihrem Mann.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

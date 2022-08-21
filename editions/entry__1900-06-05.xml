@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1900-06-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-06-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-06-06.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1900-06-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-06-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-06-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F095-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -162,7 +166,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1567.tif"/>
@@ -170,12 +174,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1900-06-05">
-            <p xml:space="preserve"><date when="1900-06-05">5/6</date> Vorm. mit <rs type="person" xml:id="pNt_17113" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs> <rs type="place" xml:id="pl_03420" ref="#place_86a694cf5ce5552ca627cb96b607eccd">Prater</rs>, Nachm. mit ihr <rs type="place" xml:id="pl_03421" ref="#place_9a5f19560d14e39485dbf194820ff166">K.g.</rs> Abd. bei <rs type="person" xml:id="pNt_17114" ref="#person_13581"><surname>Benedict</surname></rs>.―
+            <p xml:space="preserve"><date when="1900-06-05">5/6</date> Vorm. mit <rs type="person" xml:id="pNt_17113" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs> <rs type="place" xml:id="pl_03420" ref="#pmb91530">Prater</rs>, Nachm. mit ihr <rs type="place" xml:id="pl_03421" ref="#pmb92329">K.g.</rs> Abd. bei <rs type="person" xml:id="pNt_17114" ref="#person_13581"><surname>Benedict</surname></rs>.―
 <pb n="331"/>
 <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header"><fw place="top_center"><date type="range">1900: VI 5 - VI 13</date></fw> <fw place="top_right" type="pn">331</fw></tei:fw>
 <rs type="person" xml:id="pNt_17115" ref="#person_13581"><forename>Minnie</forename></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

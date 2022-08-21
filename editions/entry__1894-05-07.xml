@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1894-05-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-05-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-05-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1894-05-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-05-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-05-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E825-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0834.tif"/>
@@ -182,13 +186,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1894-05-07">
-            <p xml:space="preserve"><date when="1894-05-07">7/5</date> Bic. nach <rs type="place" xml:id="pl_01688" ref="#place_15132be64d12d34052619003b16df487">Tulln</rs> über Rohrerhütte mit <rs type="person" xml:id="pNt_08742" ref="#person_19542"><surname>Salten</surname></rs>. <rs type="person" xml:id="pNt_08743" ref="#person_19564"><forename>Dilly</forename></rs> vor meinem 
+            <p xml:space="preserve"><date when="1894-05-07">7/5</date> Bic. nach <rs type="place" xml:id="pl_01688" ref="#pmb91959">Tulln</rs> über Rohrerhütte mit <rs type="person" xml:id="pNt_08742" ref="#person_19542"><surname>Salten</surname></rs>. <rs type="person" xml:id="pNt_08743" ref="#person_19564"><forename>Dilly</forename></rs> vor meinem 
 Fenster (Nachts). Scene, Votivkirche. Sie weint.― Grundlos: Ich 
 „schleiche“ mich ½10 zu ihr ― zeige mich nicht öffentlich mit ihr.― 
 Antwort: Ich zeig mich wo sie will, aber Fiakerfahren und Logen 
 überflüssig, wegen <rs type="allusively" xml:id="rst_00203">Mama</rs> ― entweder halt ich sie oder sie mich aus.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

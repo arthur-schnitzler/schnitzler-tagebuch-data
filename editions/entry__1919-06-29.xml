@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-06-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-06-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-06-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-06-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-06-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-06-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0B53-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,15 +177,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4874.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1919-06-29">
-            <p xml:space="preserve"><date when="1919-06-29">29/6</date> S.― Spazierg. <rs type="place" xml:id="pl_11731" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> ― Hameau ― Dreimarkstein ― 
-<rs type="place" xml:id="pl_11732" ref="#place_a513bae177c89d12226f343ac5ff1ee3">Salmannsdorf</rs>.</p>
+            <p xml:space="preserve"><date when="1919-06-29">29/6</date> S.― Spazierg. <rs type="place" xml:id="pl_11731" ref="#pmb169">Pötzleinsdorf</rs> ― Hameau ― Dreimarkstein ― 
+<rs type="place" xml:id="pl_11732" ref="#pmb91641">Salmannsdorf</rs>.</p>
             <p xml:space="preserve" rend="indent">Am <rs type="work" subtype="self" xml:id="bibl_4905">Weiher</rs>, den 1. Akt ziemlich zu Ende;― aber immer wieder wie 
 von zuckenden Blitzen durch die trüben Gedanken gestört.</p>
             <p xml:space="preserve" rend="indent">Nm. am „<rs type="work" subtype="self" xml:id="bibl_4906">Weiher</rs>“.</p>
@@ -203,5 +208,6 @@ etwas reservirt; wie mir schien.―</p>
 katholisirendes Theaterstück, mit gut gesehenen realistischen 
 Kriegs-Details, die mit der „Idee“ nichts zu thun haben.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

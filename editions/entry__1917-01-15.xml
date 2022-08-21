@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1917-01-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-01-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-01-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1917-01-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-01-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-01-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-07D5-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,18 +177,20 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4391.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1917-01-15">
             <p xml:space="preserve"><date when="1917-01-15">15/1</date> Vm. „<rs type="work" subtype="self" xml:id="bibl_6153">Wahnsinn</rs>“ gefeilt ―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_6154">Fldb.</rs>―</p>
-            <p xml:space="preserve" rend="indent">Mit O. Urania (Krönung <rs type="person" xml:id="pNt_49667" ref="#person_16723"><forename>Karls</forename></rs> in <rs type="place" xml:id="pl_10358" ref="#place_9fed5dae86e3030d9be3740efa198659">Budapest</rs>).―</p>
+            <p xml:space="preserve" rend="indent">Mit O. Urania (Krönung <rs type="person" xml:id="pNt_49667" ref="#person_16723"><forename>Karls</forename></rs> in <rs type="place" xml:id="pl_10358" ref="#pmb43471">Budapest</rs>).―</p>
             <p xml:space="preserve" rend="indent">Nach Nachtm. bei <rs type="person" xml:id="pNt_49668" ref="#person_19784"><surname>Schmutzers</surname></rs>. <rs type="person" xml:id="pNt_49669" ref="#person_19542"><surname>Saltens</surname></rs>. Er erzählt pessimistisches aus 
-<rs type="place" xml:id="pl_10359" ref="#place_3c2f8b8c8c43538b25a0327ae84c3f65">Deutschland</rs>; Äußerungen von <rs type="person" xml:id="pNt_49670" ref="#person_19065"><surname>Rathenau</surname></rs>, die ich nicht glaube. Billard.―</p>
+<rs type="place" xml:id="pl_10359" ref="#pmb151">Deutschland</rs>; Äußerungen von <rs type="person" xml:id="pNt_49670" ref="#person_19065"><surname>Rathenau</surname></rs>, die ich nicht glaube. Billard.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-07-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-07-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-07-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-07-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-07-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-07-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FBAA-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2528.tif"/>
@@ -183,12 +187,11 @@
             <p xml:space="preserve"><date when="1908-07-04">4/7</date> Spazieren Hauenstein, Marienquelle.―</p>
             <p xml:space="preserve" rend="indent">Klavier. Gesang.</p>
             <p xml:space="preserve" rend="indent">Nm. „<rs type="work" subtype="self" xml:id="bibl_13499">Verlockung</rs>“ und „<rs type="work" subtype="self" xml:id="bibl_13500">Frieberg</rs>“.</p>
-            <p xml:space="preserve" rend="indent">Regen.― Gespräch Abds. mit <rs type="person" xml:id="pNt_28542" ref="#person_16178"><surname>Heufler</surname></rs>, über die polit. Zustände in <rs type="place" xml:id="pl_06386" ref="#place_d3d8d213fb1fbd178f1c9c4aea35cbc6">Tirol</rs>. 
+            <p xml:space="preserve" rend="indent">Regen.― Gespräch Abds. mit <rs type="person" xml:id="pNt_28542" ref="#person_16178"><surname>Heufler</surname></rs>, über die polit. Zustände in <rs type="place" xml:id="pl_06386" ref="#pmb423">Tirol</rs>. 
 Ueber einen Bauern, der von dem Vortrag eines landwirtschaftl. Docenten 
 viel mehr befriedigt war als von dem eines Abgeordneten … „jetzt 
 hat der nicht gewußt, ob von Politik oder Mist die Red war“.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

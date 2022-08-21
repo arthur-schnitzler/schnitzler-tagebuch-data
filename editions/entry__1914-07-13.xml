@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-07-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-07-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-07-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-07-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-07-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-07-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0441-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3854.tif"/>
@@ -183,9 +187,8 @@
          <div type="diary-day" xml:id="entry__1914-07-13">
             <p xml:space="preserve"><date when="1914-07-13">13/7</date> Correcturen an „<rs type="work" subtype="self" xml:id="bibl_8936">Herbot</rs>“ („<rs type="work" subtype="self" xml:id="bibl_8937">Große Scene</rs>“).―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_43778" ref="#person_14786"><roleName>Dr.</roleName> <surname>Ergas</surname></rs>, dem ich das Haus zeigte.―</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_43779" ref="#person_21601"><surname>Zuckerkandls</surname></rs> Auto <rs type="place" xml:id="pl_08806" ref="#place_9fb018352ad828a04d6701701ff83e01">Preßbaum</rs> ― <rs type="place" xml:id="pl_08807" ref="#place_0ad32d3934b7c963bf7225500f7532f1">Laab</rs> ― Rother Stadl (dort genachtm.).</p>
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_43779" ref="#person_21601"><surname>Zuckerkandls</surname></rs> Auto <rs type="place" xml:id="pl_08806" ref="#pmb44271">Preßbaum</rs> ― <rs type="place" xml:id="pl_08807" ref="#pmb91091">Laab</rs> ― Rother Stadl (dort genachtm.).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

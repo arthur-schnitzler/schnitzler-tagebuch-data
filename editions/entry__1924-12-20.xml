@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1924-12-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-12-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-12-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1924-12-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-12-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-12-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1322-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6418.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1924-12-20">
-            <p xml:space="preserve"><date when="1924-12-20">20/12</date> Dictirt Briefe (u. a. <rs type="person" xml:id="pNt_74028" ref="#person_14098"><surname>Buxbaum</surname></rs> <rs type="place" xml:id="pl_15830" ref="#place_9974545279455eb03bf50b1b1b4d7fea">Wiesbaden</rs> Dramaturg, 
+            <p xml:space="preserve"><date when="1924-12-20">20/12</date> Dictirt Briefe (u. a. <rs type="person" xml:id="pNt_74028" ref="#person_14098"><surname>Buxbaum</surname></rs> <rs type="place" xml:id="pl_15830" ref="#pmb883">Wiesbaden</rs> Dramaturg, 
 anläßlich eines Referats von <rs type="person" xml:id="pNt_74029" ref="#person_15350"><roleName>Mme.</roleName> <surname>Garry</surname></rs> über einen Vortrag, den 
 er über mich gehalten, und der mich als „aigri … ne pouvant se 
 consoler des reproches des jeunes …“ etc. hinstellt (natürlich 
@@ -190,12 +194,11 @@ nur in der üblichen Leichtfertigkeit des essayistischen Schwätzers, nicht in b
             <p xml:space="preserve" rend="indent">― Gegen Abend zu <rs type="person" xml:id="pNt_74030" ref="#person_15854"><forename>Gisa</forename></rs> (Gratul. zum Geburtstag).</p>
             <p xml:space="preserve" rend="indent">Zu <rs type="person" xml:id="pNt_74031" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>; las ihr „<rs type="work" subtype="self" xml:id="bibl_21525">Fr. d. R.</rs>“ vor, die sie stilistisch anerkannte, 
 die ihr aber unsympathisch war.― Über meine Vortragsreise;― daß 
-<rs type="person" xml:id="pNt_74032" ref="#person_14130"><forename>Lili</forename></rs> mitkommt, und dass ich wieder <rs type="person" xml:id="pNt_74033" ref="#person_19832"><forename>O.</forename></rs> treffe, im <rs type="place" xml:id="pl_15831" ref="#place_07fdc7327879d3bffe6fe858b9c6c054">Engadin</rs>, nahm sie 
+<rs type="person" xml:id="pNt_74032" ref="#person_14130"><forename>Lili</forename></rs> mitkommt, und dass ich wieder <rs type="person" xml:id="pNt_74033" ref="#person_19832"><forename>O.</forename></rs> treffe, im <rs type="place" xml:id="pl_15831" ref="#pmb1061">Engadin</rs>, nahm sie 
 ohne Vergnügen zur Kenntnis.</p>
             <p xml:space="preserve" rend="indent">― Las <rs type="person" xml:id="pNt_74034" ref="#person_21243"><surname>Werfels</surname></rs> „<rs type="work" xml:id="bibl_21526">Juarez und Maximilian</rs>“; ein schönes, wenn auch 
 nicht durchaus „gutes“ Stück.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

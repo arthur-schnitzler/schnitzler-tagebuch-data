@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-05-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-05-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-05-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-05-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-05-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-05-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-10E6-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6052.tif"/>
@@ -182,14 +186,14 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1923-05-27">
-            <p xml:space="preserve"><date when="1923-05-27">27/5</date> Im Schlafwagen Traum: Vorlesung in <rs type="place" xml:id="pl_14762" ref="#place_48de2bea6be48ba27e1f400e476b6b20">Daenemark</rs>; ich lese <rs type="work" subtype="self" xml:id="bibl_1857">Hirtenflöte</rs> 
+            <p xml:space="preserve"><date when="1923-05-27">27/5</date> Im Schlafwagen Traum: Vorlesung in <rs type="place" xml:id="pl_14762" ref="#pmb43570">Daenemark</rs>; ich lese <rs type="work" subtype="self" xml:id="bibl_1857">Hirtenflöte</rs> 
 vor,― merke man hat mir den Anfang gestrichen; ich überlege, wie ichs 
 nun mit dem Schluß machen soll;― neben mir reden laut <rs type="person" xml:id="pNt_69587" ref="#person_16904"><surname>Klenau</surname></rs> mit noch 
 jemandem,― ich ergreife die günstige Gelegenheit und erkläre, daß ich die 
 Vorlesung abbreche. Auch <rs type="person" xml:id="pNt_69588" ref="#person_18142"><forename>Sophus</forename> <surname>Michaelis</surname></rs> ist im Traum (dessen 
 <rs type="work" xml:id="bibl_1858">Novellensammlung</rs> ich eben zu lesen angefangen).― Lese im Coupé 
 <rs type="work" subtype="self" xml:id="bibl_1859">Verführer</rs>; Notizen dazu.</p>
-            <p xml:space="preserve" rend="indent">Ankunft <rs type="place" xml:id="pl_14763" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> 3 Uhr Nm. Heim. Die <rs type="allusively" xml:id="rst_02010">Kinder</rs> sehr gut aussehend. <rs type="person" xml:id="pNt_69589" ref="#person_19822"><forename>Heinis</forename></rs> Erfolge 
+            <p xml:space="preserve" rend="indent">Ankunft <rs type="place" xml:id="pl_14763" ref="#pmb50">Wien</rs> 3 Uhr Nm. Heim. Die <rs type="allusively" xml:id="rst_02010">Kinder</rs> sehr gut aussehend. <rs type="person" xml:id="pNt_69589" ref="#person_19822"><forename>Heinis</forename></rs> Erfolge 
 in „<rs type="work" xml:id="bibl_1860">Juden</rs>“ und <rs type="work" xml:id="bibl_1861">Borkman</rs>. Unter den vielen Briefen die Antwort der Steuer, 
 die auf einer Valutenkursberechnung von <hi xmlns:tei="http://www.tei-c.org/ns/1.0" rend="italicised">Ende</hi> 21 beruht. Sehe neuen Aerger 
 voraus.― Die Verstimmung hält sich nicht lang. Sonderbar, daß ich bei der 
@@ -198,6 +202,5 @@ bis zu Wittwermelancholie.―</p>
             <p xml:space="preserve" rend="indent">― Die Briefe durchgesehn; und Notizen.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

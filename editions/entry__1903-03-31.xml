@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1903-03-31.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-03-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-04-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1903-03-31.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-03-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-04-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F452-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1796.tif"/>
@@ -180,11 +184,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1903-03-31">
-            <p xml:space="preserve"><date when="1903-03-31">31/3</date> Bei O. Vm. Bei <rs type="person" xml:id="pNt_19714" ref="#person_15854"><forename>Gisa</forename></rs>, die aus <rs type="place" xml:id="pl_04219" ref="#place_7014d0181914fb4722b90a49d53f5471">Bologna</rs> etc. zurück ist.―</p>
+            <p xml:space="preserve"><date when="1903-03-31">31/3</date> Bei O. Vm. Bei <rs type="person" xml:id="pNt_19714" ref="#person_15854"><forename>Gisa</forename></rs>, die aus <rs type="place" xml:id="pl_04219" ref="#pmb896">Bologna</rs> etc. zurück ist.―</p>
             <p xml:space="preserve" rend="indent">Abends Symph. Conc.―</p>
             <p xml:space="preserve" rend="center">April</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1899-07-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-07-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-07-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1899-07-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-07-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-07-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EF67-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1505.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1899-07-20">
-            <p xml:space="preserve"><date when="1899-07-20">20/7</date> Vorm. Rad <rs type="place" xml:id="pl_03167" ref="#place_461470e5d4d6d582fa97d6784a500ac8">Krumpendorf</rs> &amp; retour.― Nm. <rs type="place" xml:id="pl_03168" ref="#place_b4e224f0caf47c0f57802484c88cb858">Pörtschach</rs> wo <rs type="person" xml:id="pNt_16466" ref="#person_14076"><surname>B.s</surname></rs>; 
+            <p xml:space="preserve"><date when="1899-07-20">20/7</date> Vorm. Rad <rs type="place" xml:id="pl_03167" ref="#pmb91081">Krumpendorf</rs> &amp; retour.― Nm. <rs type="place" xml:id="pl_03168" ref="#pmb44278">Pörtschach</rs> wo <rs type="person" xml:id="pNt_16466" ref="#person_14076"><surname>B.s</surname></rs>; 
 <pb n="311"/>
 <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header"><fw place="top_center"><date type="range">1899: VII 20 - VIII 8</date></fw> <fw place="top_right" type="pn">311</fw></tei:fw>
 Abd. kam <rs type="person" xml:id="pNt_16467" ref="#person_21107"><surname>Wassermann</surname></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

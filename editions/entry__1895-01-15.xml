@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1895-01-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-01-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-01-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1895-01-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-01-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-01-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E91E-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,16 +177,18 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0939.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1895-01-15">
-            <p xml:space="preserve"><date when="1895-01-15">15/1</date> Höre durch <rs ref="#person_17642" type="person" xml:id="pNt_09804"><surname>Löwe</surname></rs> (<rs type="place" ref="#place_volkstheater">Volksth.</rs>), dass <rs type="person" xml:id="pNt_09805" ref="#person_20243"><surname>Speidel</surname></rs> mein <rs type="work" subtype="self" xml:id="bibl_22059">Stück</rs> als 
+            <p xml:space="preserve"><date when="1895-01-15">15/1</date> Höre durch <rs ref="#person_17642" type="person" xml:id="pNt_09804"><surname>Löwe</surname></rs> (<rs type="place" ref="#pmb92202">Volksth.</rs>), dass <rs type="person" xml:id="pNt_09805" ref="#person_20243"><surname>Speidel</surname></rs> mein <rs type="work" subtype="self" xml:id="bibl_22059">Stück</rs> als 
 Antritts[rolle] der <rs type="person" xml:id="pNt_09806" ref="#person_19564"><surname>Sandrock</surname></rs> empfiehlt und andres von mir lesen will.―</p>
             <p xml:space="preserve" rend="indent">Nachts bei <rs type="person" xml:id="pNt_09807" ref="#person_19564"><forename>Dilly</forename></rs> „<rs type="work" xml:id="bibl_22060">Kameraden</rs>“ durchgenommen.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

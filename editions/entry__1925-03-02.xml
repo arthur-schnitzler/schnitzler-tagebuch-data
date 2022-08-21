@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1925-03-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-03-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-03-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1925-03-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-03-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-03-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-136A-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6458.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1925-03-02">
-            <p xml:space="preserve"><date when="1925-03-02">2/3</date> <rs type="place" xml:id="pl_15963" ref="#place_a9a988302086229505c21f885134919d">Josefst.</rs> Th.;― Generalprobe zu <rs type="work" subtype="self" xml:id="bibl_16298">Anatol</rs>, <rs type="person" xml:id="pNt_74561" ref="#person_16654"><surname>Kalbeck</surname></rs> Regie. Für eine Gen. 
+            <p xml:space="preserve"><date when="1925-03-02">2/3</date> <rs type="place" xml:id="pl_15963" ref="#pmb58">Josefst.</rs> Th.;― Generalprobe zu <rs type="work" subtype="self" xml:id="bibl_16298">Anatol</rs>, <rs type="person" xml:id="pNt_74561" ref="#person_16654"><surname>Kalbeck</surname></rs> Regie. Für eine Gen. 
 Probe noch unfertig. <rs type="person" xml:id="pNt_74562" ref="#person_21050"><surname>Waldau</surname></rs> sehr charmant, aber doch nicht mehr jung genug. 
 <rs type="person" xml:id="pNt_74563" ref="#person_19037"><surname>Rainer</surname></rs> ein etwas trockner <rs type="person" xml:id="pNt_74564" ref="#person_19154"><forename>Max</forename></rs>. Die <rs type="person" xml:id="pNt_74565" ref="#person_16930"><surname>Kneidinger</surname></rs> (<rs type="figur">Cora</rs>) hübsch, und nicht sehr 
 beträchtlich; <rs type="person" xml:id="pNt_74567" ref="#person_15842"><roleName>Frau</roleName> <surname>Hagen</surname></rs> (<rs type="person" xml:id="pNt_74568"><forename>Gabriele</forename></rs>) in der Angestrengtheit um 20 Jahre 
@@ -197,6 +201,5 @@ Frau;― <rs type="person" xml:id="pNt_74577" ref="#person_19154"><surname>Reinh
 unpoetisch,― aber dünn und überflüssig, falsche Symbolik.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

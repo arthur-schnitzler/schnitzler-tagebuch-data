@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-07-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1931-07-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1C86-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7744.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1931-07-23">
-            <p xml:space="preserve"><date when="1931-07-23">23/7</date> <rs type="place" xml:id="pl_20024" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs>.― Mit Wagen <rs type="place" xml:id="pl_20025" ref="#place_432d5012784c301555556312c7ff28ea">Steinhaus</rs>; <rs type="person" xml:id="pNt_93460" ref="#person_17958"><forename>Paul</forename> <surname>Marx</surname></rs> wartet; mit ihm Wagenfahrt 
-<rs type="place" xml:id="pl_20026" ref="#place_a79d6f8a944f3aedfec0c31b67dcbb6c">Fröschnitzthal</rs> ― <rs type="place" xml:id="pl_20027" ref="#place_7f34f2ba36df1d28937b0e392b0e25a6">Pfaffensattel</rs>. Butterbrod, Wirthin, Katzen, Hund. 
-Ausblick. Ich spreche mit <rs type="person" xml:id="pNt_93461" ref="#person_17958"><forename>Paul</forename></rs> über <rs type="place" xml:id="pl_20028" ref="#place_d1bbe5c82af588aa9fd6e5f65d6acab3">Reichenau</rs>, Thalhof, <rs type="person" xml:id="pNt_93462" ref="#person_21047"><surname>Waissnix</surname></rs>.― Um 
+            <p xml:space="preserve"><date when="1931-07-23">23/7</date> <rs type="place" xml:id="pl_20024" ref="#pmb91735">Semmering</rs>.― Mit Wagen <rs type="place" xml:id="pl_20025" ref="#pmb91838">Steinhaus</rs>; <rs type="person" xml:id="pNt_93460" ref="#person_17958"><forename>Paul</forename> <surname>Marx</surname></rs> wartet; mit ihm Wagenfahrt 
+<rs type="place" xml:id="pl_20026" ref="#pmb90667">Fröschnitzthal</rs> ― <rs type="place" xml:id="pl_20027" ref="#pmb91464">Pfaffensattel</rs>. Butterbrod, Wirthin, Katzen, Hund. 
+Ausblick. Ich spreche mit <rs type="person" xml:id="pNt_93461" ref="#person_17958"><forename>Paul</forename></rs> über <rs type="place" xml:id="pl_20028" ref="#pmb91574">Reichenau</rs>, Thalhof, <rs type="person" xml:id="pNt_93462" ref="#person_21047"><surname>Waissnix</surname></rs>.― Um 
 ½3 mit ihm Südbahnhotel gegessen.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

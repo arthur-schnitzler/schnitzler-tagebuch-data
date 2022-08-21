@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1907-05-31.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-05-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-06-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1907-05-31.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-05-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-06-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FA3E-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2387.tif"/>
@@ -180,13 +184,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1907-05-31">
-            <p xml:space="preserve"><date when="1907-05-31">31/5</date> Mit O. spazieren, Burg <rs type="place" xml:id="pl_05987" ref="#place_02031ed2507818d10a37c1a6bf0c9f9d">Mödling</rs>.―</p>
+            <p xml:space="preserve"><date when="1907-05-31">31/5</date> Mit O. spazieren, Burg <rs type="place" xml:id="pl_05987" ref="#pmb968">Mödling</rs>.―</p>
             <p xml:space="preserve" rend="indent">Am <rs type="work" subtype="self" xml:id="bibl_14296">Roman</rs>.―</p>
-            <p xml:space="preserve" rend="indent">O. abgeholt (<rs type="place" xml:id="pl_05988" ref="#place_d94410b77de7d6b7acb88d4a3b1b2378">Vorderbrühl</rs>), <rs type="person" xml:id="pNt_26992" ref="#person_20386"><forename>Liesl</forename></rs>, <rs ref="#person_16485" type="person" xml:id="pNt_26993"><forename>Grethe</forename> <surname>S.</surname></rs>, <rs type="person" xml:id="pNt_26994" ref="#person_15033"><forename>Erna</forename></rs>.―</p>
+            <p xml:space="preserve" rend="indent">O. abgeholt (<rs type="place" xml:id="pl_05988" ref="#pmb92025">Vorderbrühl</rs>), <rs type="person" xml:id="pNt_26992" ref="#person_20386"><forename>Liesl</forename></rs>, <rs ref="#person_16485" type="person" xml:id="pNt_26993"><forename>Grethe</forename> <surname>S.</surname></rs>, <rs type="person" xml:id="pNt_26994" ref="#person_15033"><forename>Erna</forename></rs>.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_26995" ref="#person_16646"><surname>Kainzens</surname></rs>. (Über <rs type="person" xml:id="pNt_26996" ref="#person_20986"><surname>Vollmoeller</surname></rs> und Frau, ihr eigentümliches Benehmen in 
-<rs type="place" xml:id="pl_05989" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>.)</p>
+<rs type="place" xml:id="pl_05989" ref="#pmb168">Berlin</rs>.)</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

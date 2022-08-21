@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1902-05-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-05-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-05-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1902-05-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-05-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-05-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F322-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1686.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1902-05-25">
-            <p xml:space="preserve"><date when="1902-05-25">25/5</date> <rs type="place" xml:id="pl_03950" ref="#place_a25ff6cb521df1cd0272d03eee7efd32">Brühl</rs> <rs type="person" xml:id="pNt_18651" ref="#person_15529"><forename>P.</forename> <surname>G.</surname></rs>― <rs type="person" xml:id="pNt_18652" ref="#person_19986"><forename>Gustav</forename></rs> zu Tisch.</p>
+            <p xml:space="preserve"><date when="1902-05-25">25/5</date> <rs type="place" xml:id="pl_03950" ref="#pmb44413">Brühl</rs> <rs type="person" xml:id="pNt_18651" ref="#person_15529"><forename>P.</forename> <surname>G.</surname></rs>― <rs type="person" xml:id="pNt_18652" ref="#person_19986"><forename>Gustav</forename></rs> zu Tisch.</p>
             <pb n="371"/>
             <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header">
                <fw place="top_center">
@@ -189,9 +193,8 @@
                </fw>
                <fw place="top_right" type="pn">371</fw>
             </tei:fw>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_18653" ref="#person_15529"><forename>P.</forename> <surname>G.</surname></rs> in <rs type="place" xml:id="pl_03951" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> genachtm. <rs type="person" xml:id="pNt_18654" ref="#person_15526"><forename>Eva</forename></rs> Fr.―</p>
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_18653" ref="#person_15529"><forename>P.</forename> <surname>G.</surname></rs> in <rs type="place" xml:id="pl_03951" ref="#pmb50">Wien</rs> genachtm. <rs type="person" xml:id="pNt_18654" ref="#person_15526"><forename>Eva</forename></rs> Fr.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

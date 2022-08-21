@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-03-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-03-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-03-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-03-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-03-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-03-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-03D5-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,12 +177,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3800.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1914-03-26">
             <p xml:space="preserve"><date when="1914-03-26">26/3</date> Am <rs type="work" subtype="self" xml:id="bibl_8761">Fink</rs> dictirt.― <rs type="person" xml:id="pNt_43182" ref="#person_18884"><roleName>Dr.</roleName> <surname>Pollak</surname></rs> bei „<rs ref="#person_16481" type="person" xml:id="pNt_43183"><forename>Erni</forename></rs>“, „<rs type="person" xml:id="pNt_43184" ref="#person_16480"><forename>Fingis</forename></rs>“ Tochter, die 
 über Mittag da ist.―</p>
@@ -186,5 +191,6 @@
             <p xml:space="preserve" rend="indent">Abend bei <rs type="person" xml:id="pNt_43185" ref="#person_19784"><surname>Schmutzers</surname></rs>. Etwa 20 Personen. Sass zwischen <rs type="person" xml:id="pNt_43186" ref="#person_18020"><forename>Maria</forename> <surname>Mayer</surname></rs> und 
 <rs type="person" xml:id="pNt_43187" ref="#person_17999"><roleName>Fr.</roleName> <surname>Mautner</surname></rs>. <rs type="person" xml:id="pNt_43188" ref="#person_19856"><surname>Scholander</surname></rs> sang sehr hübsch.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

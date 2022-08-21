@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-05-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-05-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-05-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-05-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-05-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-05-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1694-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6868.tif"/>
@@ -182,18 +186,17 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1927-05-22">
-            <p xml:space="preserve"><date when="1927-05-22">22/5</date> S. Nachricht von <rs type="person" xml:id="pNt_80671" ref="#person_17563"><surname>Lindberghs</surname></rs> Überquerung <rs type="place" xml:id="pl_17310" ref="#place_87809c954948d8a20507bee3648281b3">New York</rs> ― <rs type="place" xml:id="pl_17311" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs> im 
+            <p xml:space="preserve"><date when="1927-05-22">22/5</date> S. Nachricht von <rs type="person" xml:id="pNt_80671" ref="#person_17563"><surname>Lindberghs</surname></rs> Überquerung <rs type="place" xml:id="pl_17310" ref="#pmb44053">New York</rs> ― <rs type="place" xml:id="pl_17311" ref="#pmb182">Paris</rs> im 
 Aeroplan in 36 Stunden. War bis zu Thränen erschüttert.―</p>
-            <p xml:space="preserve" rend="indent">Zu <rs type="person" xml:id="pNt_80672" ref="#person_15957"><forename>Benj.</forename> <surname>Harz</surname></rs>, <rs type="place" xml:id="pl_17312" ref="#place_4a524fbde0fd36afd1652865666d12e7">Weißgerberlände</rs>. Luxusexempl. <rs type="work" subtype="self" xml:id="bibl_24412">Reigen</rs>, 100. Auflage; 
+            <p xml:space="preserve" rend="indent">Zu <rs type="person" xml:id="pNt_80672" ref="#person_15957"><forename>Benj.</forename> <surname>Harz</surname></rs>, <rs type="place" xml:id="pl_17312" ref="#pmb92598">Weißgerberlände</rs>. Luxusexempl. <rs type="work" subtype="self" xml:id="bibl_24412">Reigen</rs>, 100. Auflage; 
 signirte fünfzig Stück. Über die nächsten Auflagen, für die ich frei 
 bin. Allerlei Bücher seines Verlags, ein Talmud darunter. Trotz unsres 
 nun erledigten Prozesses (er hat sozusagen alles gezahlt) amical wie immer.</p>
-            <p xml:space="preserve" rend="indent">― Zu Tisch <rs type="person" xml:id="pNt_80673" ref="#person_14412"><roleName>Frau</roleName> <surname>Dernburg</surname></rs> bei mir, bei der <rs type="person" xml:id="pNt_80674" ref="#person_19822"><forename>Heini</forename></rs> in <rs type="place" xml:id="pl_17313" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> wohnt. Über 
+            <p xml:space="preserve" rend="indent">― Zu Tisch <rs type="person" xml:id="pNt_80673" ref="#person_14412"><roleName>Frau</roleName> <surname>Dernburg</surname></rs> bei mir, bei der <rs type="person" xml:id="pNt_80674" ref="#person_19822"><forename>Heini</forename></rs> in <rs type="place" xml:id="pl_17313" ref="#pmb168">Berlin</rs> wohnt. Über 
 <rs type="person" xml:id="pNt_80675" ref="#person_19822"><forename>Heini</forename></rs>, seine Zukunft. Persönliches von ihr.</p>
             <p xml:space="preserve" rend="indent">― Nm. ziemlich vertrödelt.―</p>
             <p xml:space="preserve" rend="indent">Abd. <rs type="person" xml:id="pNt_80676" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> bei mir, nachtmahlte da.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

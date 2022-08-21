@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1917-09-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-09-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-09-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1917-09-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-09-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-09-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-08C6-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4531.tif"/>
@@ -184,12 +188,11 @@
          <div type="diary-day" xml:id="entry__1917-09-13">
             <p xml:space="preserve"><date when="1917-09-13">13/9</date> Regentag.― Nm. gab <rs ref="#person_16984" type="person" xml:id="pNt_51532"><roleName>Frau</roleName> <forename>Anneliese</forename></rs> im Café Victoria Luise eine 
 Jause. <rs type="person" xml:id="pNt_51533" ref="#person_20386"><forename>Liesl</forename></rs>, <rs type="person" xml:id="pNt_51534" ref="#person_14298"><roleName>Dr.</roleName> <surname>de Crignis</surname></rs>, <rs type="person" xml:id="pNt_51535" ref="#person_17863"><roleName>Dr.</roleName> <surname>Marcuse</surname></rs> mit seiner kleinen Tochter. 
-Spaziergang gegens <rs type="place" xml:id="pl_10713" ref="#place_c81406b97552b5c27e7d6c7619a07a2b">Kainzenbad</rs>. Mit <rs type="person" xml:id="pNt_51536" ref="#person_14298"><roleName>Dr.</roleName> <surname>Crignis</surname></rs> medizinisches; 
+Spaziergang gegens <rs type="place" xml:id="pl_10713" ref="#pmb92318">Kainzenbad</rs>. Mit <rs type="person" xml:id="pNt_51536" ref="#person_14298"><roleName>Dr.</roleName> <surname>Crignis</surname></rs> medizinisches; 
 Kriegschirurgie u. dergl.; seine Erkrankung, seine Praxis.―</p>
             <p xml:space="preserve" rend="indent">Las „<rs type="work" xml:id="bibl_6748">Dimpfl</rs>“ von <rs type="person" xml:id="pNt_51537" ref="#person_17033"><surname>Kopal</surname></rs> im Mscrpt., ein nicht unwitziges, geschicktes, 
 mehr freches als kühnes Product, übrigens ohne eigentliches Niveau.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

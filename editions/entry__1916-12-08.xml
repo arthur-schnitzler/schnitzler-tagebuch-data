@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1916-12-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-12-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-12-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1916-12-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-12-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-12-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-07AF-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,13 +177,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4371.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4372.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1916-12-08">
             <p xml:space="preserve"><date when="1916-12-08">8/12</date> Traum: Komme auf die Poliklinik, die aber aussieht wie das akad. 
 Gymn. ― oder das neue anatom. Institut, suche meinen <rs type="allusively" xml:id="rst_01476">Vater</rs>, der nicht 
@@ -193,9 +198,10 @@ und anderm desgleichen.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_49378" ref="#person_16486"><forename>Norbert</forename> <surname>Jacques</surname></rs> zum Thee; erzählt von Kriegslieferanten, Kriegsministerium; 
 geschäftmachenden Aristokraten;― das Champagnerfrühstück bei <rs type="person" xml:id="pNt_49379" ref="#person_16638"><surname>Kahn’s</surname></rs> 
 während des <rs type="allusively" subtype="att" xml:id="rst_01478">kaiserl.</rs> Leichenbegängnisses,― die Gesellschaft dort, 
-Offiziere, Fürsten, <rs type="person" xml:id="pNt_49380" ref="#person_16647"><forename>Grethe</forename> <surname>Kainz</surname></rs> etc.― Über die <rs type="place" xml:id="pl_10322" ref="#place_7a0be5a1ed9675975e678b517f07573c">Schweiz</rs>, ihre 
+Offiziere, Fürsten, <rs type="person" xml:id="pNt_49380" ref="#person_16647"><forename>Grethe</forename> <surname>Kainz</surname></rs> etc.― Über die <rs type="place" xml:id="pl_10322" ref="#pmb43435">Schweiz</rs>, ihre 
 Neutralität, <rs type="place" xml:id="pl_10323" ref="#place_6ebeb40f8c21adc033b5fafe0412dc7c" ana="#exclude">Deutschfreundlichkeit</rs> etc.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_49381" ref="#person_19822"><forename>Heini</forename></rs> 3 <rs type="person" xml:id="pNt_49382" ref="#person_18066"><surname>Mendelssohnouverturen</surname></rs>.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

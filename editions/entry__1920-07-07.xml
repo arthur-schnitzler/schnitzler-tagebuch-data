@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-07-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-07-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-07-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1920-07-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-07-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-07-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0CC8-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5134.tif"/>
@@ -182,7 +186,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1920-07-07">
             <p xml:space="preserve"><date when="1920-07-07">7/7</date> Dict. <rs type="work" subtype="self" xml:id="bibl_4175">autob.</rs>, Briefe.―</p>
-            <p xml:space="preserve" rend="indent">Hr. <rs type="person" xml:id="pNt_59307" ref="#person_13445"><forename>Hans</forename> <surname>Bartsch</surname></rs>, mein (und <rs type="person" xml:id="pNt_59308" ref="#person_15009"><surname>Fischers</surname></rs>) Vertreter aus <rs type="place" xml:id="pl_12391" ref="#place_87809c954948d8a20507bee3648281b3">New York</rs>. 
+            <p xml:space="preserve" rend="indent">Hr. <rs type="person" xml:id="pNt_59307" ref="#person_13445"><forename>Hans</forename> <surname>Bartsch</surname></rs>, mein (und <rs type="person" xml:id="pNt_59308" ref="#person_15009"><surname>Fischers</surname></rs>) Vertreter aus <rs type="place" xml:id="pl_12391" ref="#pmb44053">New York</rs>. 
 Geschäftliches. Machte mir einen mäßigen Eindruck.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_4176">Weiher</rs>.―</p>
             <p xml:space="preserve" rend="indent">Abendspazierg. Windmühlhöhe mit <rs type="person" xml:id="pNt_59309" ref="#person_20683"><roleName>Hofr.</roleName> <surname>Tezner</surname></rs>. (Die Zeit, 
@@ -193,6 +197,5 @@ Las zum Ergetzen einiges von <rs type="person" xml:id="pNt_59313" ref="#person_1
 anläßlich <rs type="person" xml:id="pNt_59314" ref="#person_19226"><forename>Emil Alphonse</forename></rs> u. dergl. einmütig gesprochen.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

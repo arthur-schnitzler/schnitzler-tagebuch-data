@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-08-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-08-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-08-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-08-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-08-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-08-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1134-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6092.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1923-08-13">
-            <p xml:space="preserve"><date when="1923-08-13">13/8</date> <rs type="place" xml:id="pl_14934" ref="#place_63714a562352ef3ae472da20ed0384c0">B.-B.</rs>― Stimmung die gleiche. In die Stadt, Bank, etc.― Gepackt.―</p>
+            <p xml:space="preserve"><date when="1923-08-13">13/8</date> <rs type="place" xml:id="pl_14934" ref="#pmb228">B.-B.</rs>― Stimmung die gleiche. In die Stadt, Bank, etc.― Gepackt.―</p>
             <p xml:space="preserve" rend="indent">Oben zu Mittag. <rs type="person" xml:id="pNt_70073" ref="#person_14130"><forename>Lili</forename></rs> hatte ein Päckchen in irgend einem Geschäft 
 vergessen; <rs type="person" xml:id="pNt_70074" ref="#person_19832"><forename>O.</forename></rs> nahm’s tragisch, schickte <rs type="person" xml:id="pNt_70075" ref="#person_14130"><forename>Lili</forename></rs> fort, damit sie es suchte 
 (es wurde bald gefunden);― mit <rs type="person" xml:id="pNt_70076" ref="#person_19832"><forename>O.</forename></rs> auf der Terrasse, ein Gespräch 
@@ -201,6 +205,5 @@ tiefsten,― den einzigen wahrhaft zerstörenden: Einsichtslosigkeit.
             <p xml:space="preserve" rend="indent">Oben genachtm.― <rs type="person" xml:id="pNt_70078" ref="#person_19832"><forename>O.</forename></rs> begleitet mich ein kleines Stück. Abschied.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-02-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-02-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-02-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-02-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-02-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-02-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FB13-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2467.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1908-02-04">
-            <p xml:space="preserve"><date when="1908-02-04">4/2</date> Mit O. <rs type="place" xml:id="pl_06197" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs>.― <rs type="person" xml:id="pNt_27833" ref="#person_19542"><surname>Salten</surname></rs> im Zug. Er sagt über einen <rs type="work" subtype="self" xml:id="bibl_13203">Roman</rs>, dessen 
+            <p xml:space="preserve"><date when="1908-02-04">4/2</date> Mit O. <rs type="place" xml:id="pl_06197" ref="#pmb91735">Semmering</rs>.― <rs type="person" xml:id="pNt_27833" ref="#person_19542"><surname>Salten</surname></rs> im Zug. Er sagt über einen <rs type="work" subtype="self" xml:id="bibl_13203">Roman</rs>, dessen 
 2 erste Theile (Jänner-, Feberheft) er gelesen: Sehr lebendige Gestalten. 
 Dann (zögernd) … „Aber es hat mir erst recht leid gethan, dass ich’s 
 nicht im Manuscript gelesen … es sind stilistische (Fehler?) Mängel, 
@@ -194,6 +198,5 @@ sagte ich neulich.― Wer wird wollen ―?</p>
 Meierei.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1889-08-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-08-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-08-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1889-08-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-08-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-08-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E199-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,14 +177,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0402.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1889-08-17">
-            <p xml:space="preserve"><date when="1889-08-17">17.</date> <rs type="place" xml:id="pl_00838" ref="#place_22c1334b53dfa475b12a296e9d2ae838">Mariazell</rs> ― <rs type="place" xml:id="pl_00839" ref="#place_1e6783952118fa5a0944716def4ccf69">Neuberg</rs> ― <rs type="place" xml:id="pl_00840" ref="#place_d1bbe5c82af588aa9fd6e5f65d6acab3">Reichenau</rs> (<rs type="person" xml:id="pNt_03805" ref="#person_21047"><forename>O.</forename></rs>).</p>
+            <p xml:space="preserve"><date when="1889-08-17">17.</date> <rs type="place" xml:id="pl_00838" ref="#pmb431">Mariazell</rs> ― <rs type="place" xml:id="pl_00839" ref="#pmb36515">Neuberg</rs> ― <rs type="place" xml:id="pl_00840" ref="#pmb91574">Reichenau</rs> (<rs type="person" xml:id="pNt_03805" ref="#person_21047"><forename>O.</forename></rs>).</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

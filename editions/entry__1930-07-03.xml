@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-07-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-07-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-07-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-07-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-07-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-07-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1B06-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7515.tif"/>
@@ -182,14 +186,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1930-07-03">
-            <p xml:space="preserve"><date when="1930-07-03">3/7</date> Nachricht von <rs type="person" xml:id="pNt_90122" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>; Karten aus <rs type="place" xml:id="pl_19332" ref="#place_84bb7a44667327c91eade4b980a38a6f">Karlsbad</rs>.―</p>
+            <p xml:space="preserve"><date when="1930-07-03">3/7</date> Nachricht von <rs type="person" xml:id="pNt_90122" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>; Karten aus <rs type="place" xml:id="pl_19332" ref="#pmb842">Karlsbad</rs>.―</p>
             <p xml:space="preserve" rend="indent">Dictire <rs type="work" subtype="self" xml:id="bibl_1134">Roman</rs> weiter.―</p>
             <p xml:space="preserve" rend="indent">Nm. telef. <rs type="person" xml:id="pNt_90123" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> ganz verdüstert, sich verlassen fühlend ― besser sich 
 nicht zu sehn, da ich so ganz wo anders.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_90124" ref="#person_14234"><forename>Suz.</forename></rs> zu mir, ins <rs type="place" ref="#place_volkstheater">Volksth.</rs> mit ihr (zum ersten Mal) eine recht lustige Posse 
-<rs type="work" xml:id="bibl_1135">Hulla di Bulla</rs>; dann mit ihr ins Parkhotel (<rs type="place" xml:id="pl_19333" ref="#place_6fc6f10422bfe80ddcba23b4f7f080dc">Hietzing</rs>), im Garten genachtm.―</p>
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_90124" ref="#person_14234"><forename>Suz.</forename></rs> zu mir, ins <rs type="place" ref="#pmb92202">Volksth.</rs> mit ihr (zum ersten Mal) eine recht lustige Posse 
+<rs type="work" xml:id="bibl_1135">Hulla di Bulla</rs>; dann mit ihr ins Parkhotel (<rs type="place" xml:id="pl_19333" ref="#pmb63">Hietzing</rs>), im Garten genachtm.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

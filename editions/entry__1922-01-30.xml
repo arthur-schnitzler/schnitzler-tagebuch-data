@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-01-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-01-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-01-31.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-01-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-01-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-01-31.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0F04-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5637.tif"/>
@@ -184,11 +188,11 @@
          <div type="diary-day" xml:id="entry__1922-01-30">
             <p xml:space="preserve"><date when="1922-01-30">30/1</date> Besorgungen in der Stadt.―</p>
             <p xml:space="preserve" rend="indent">Nm. Briefe (u. a. an <rs type="person" xml:id="pNt_65078" ref="#person_13920"><surname>Brandes</surname></rs> zum 80. Geburtstag).</p>
-            <p xml:space="preserve" rend="indent">Z. N. <rs type="person" xml:id="pNt_65079" ref="#person_20602"><forename>Georg</forename> <surname>Szell</surname></rs> und Frau. Kapellmeister in <rs type="place" xml:id="pl_13638" ref="#place_a6b1694c64918f9e8fbeabbc16d599a4">Darmstadt</rs>, wiederholt er 
-dringendst <rs type="person" xml:id="pNt_65080" ref="#person_15954"><surname>Hartungs</surname></rs> Einladung an <rs type="person" xml:id="pNt_65081" ref="#person_19822"><forename>Heini</forename></rs> ― als Regisseur in <rs type="place" xml:id="pl_13639" ref="#place_a6b1694c64918f9e8fbeabbc16d599a4">D.</rs> einzutreten. 
+            <p xml:space="preserve" rend="indent">Z. N. <rs type="person" xml:id="pNt_65079" ref="#person_20602"><forename>Georg</forename> <surname>Szell</surname></rs> und Frau. Kapellmeister in <rs type="place" xml:id="pl_13638" ref="#pmb834">Darmstadt</rs>, wiederholt er 
+dringendst <rs type="person" xml:id="pNt_65080" ref="#person_15954"><surname>Hartungs</surname></rs> Einladung an <rs type="person" xml:id="pNt_65081" ref="#person_19822"><forename>Heini</forename></rs> ― als Regisseur in <rs type="place" xml:id="pl_13639" ref="#pmb834">D.</rs> einzutreten. 
 <rs type="person" xml:id="pNt_65082" ref="#person_19822"><forename>Heini</forename></rs> erwidert, er fühle sich nicht reif dazu, außerdem sei ihm vorläufig 
 das Spielen wichtiger; auch die Arbeiten in der Hofbibliothek beschäftigen ihn 
-lebhaft. Es wird bestimmt, dass <rs type="person" xml:id="pNt_65083" ref="#person_19822"><forename>Heini</forename></rs> in 3 Wochen mit <rs type="person" xml:id="pNt_65084" ref="#person_20602"><surname>Sz.s</surname></rs> nach <rs type="place" xml:id="pl_13640" ref="#place_a6b1694c64918f9e8fbeabbc16d599a4">D.</rs> reist, 
+lebhaft. Es wird bestimmt, dass <rs type="person" xml:id="pNt_65083" ref="#person_19822"><forename>Heini</forename></rs> in 3 Wochen mit <rs type="person" xml:id="pNt_65084" ref="#person_20602"><surname>Sz.s</surname></rs> nach <rs type="place" xml:id="pl_13640" ref="#pmb834">D.</rs> reist, 
 um sich alles in der Nähe zu besehen.― Mir erscheint all das (wohl auch 
 aus egoist. Gründen) um einiges zu früh;― doch kann ich kaum ernstlich 
 abrathen; da die Constellation in jedem Sinn als günstig gelten muß. Das 
@@ -197,6 +201,5 @@ unvorstellbare muß man sich fügen.― <rs type="person" xml:id="pNt_65086" ref
 und dann, unvergleichlich <rs type="work" xml:id="bibl_2310">Othello</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

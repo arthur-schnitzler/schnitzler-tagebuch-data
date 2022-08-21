@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-01-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-01-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-01-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-01-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-01-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-01-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F566-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1880.tif"/>
@@ -180,11 +184,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1904-01-06">
-            <p xml:space="preserve"><date when="1904-01-06">6/1</date> Spaziergang <rs type="place" xml:id="pl_04572" ref="#place_a513bae177c89d12226f343ac5ff1ee3">Salmannsdorf</rs>, Hameau ― <rs type="place" xml:id="pl_04573" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs>, allein, im Schnee. 
+            <p xml:space="preserve"><date when="1904-01-06">6/1</date> Spaziergang <rs type="place" xml:id="pl_04572" ref="#pmb91641">Salmannsdorf</rs>, Hameau ― <rs type="place" xml:id="pl_04573" ref="#pmb169">Pötzleinsdorf</rs>, allein, im Schnee. 
 <rs type="work" subtype="self" xml:id="bibl_16938">Journalisten</rs> überdacht.―</p>
             <p xml:space="preserve" rend="indent">Nm. gepackt, getrendelt, mit O. spazieren.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

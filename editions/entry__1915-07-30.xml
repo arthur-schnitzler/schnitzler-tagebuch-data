@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-07-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-07-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-07-31.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1915-07-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-07-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-07-31.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-05BE-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4081.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1915-07-30">
-            <p xml:space="preserve"><date when="1915-07-30">30/7</date> Vm. bei <rs type="person" xml:id="pNt_46047" ref="#person_13551"><forename>Richard</forename></rs> (<rs type="place" xml:id="pl_09489" ref="#place_942c7ff1150fe0d9237e2cbbf9b7290b">Sterzweg</rs>). Sein Stück (<rs type="work" xml:id="bibl_8275">Jacobs Traum</rs>) fertig, 
+            <p xml:space="preserve"><date when="1915-07-30">30/7</date> Vm. bei <rs type="person" xml:id="pNt_46047" ref="#person_13551"><forename>Richard</forename></rs> (<rs type="place" xml:id="pl_09489" ref="#pmb92550">Sterzweg</rs>). Sein Stück (<rs type="work" xml:id="bibl_8275">Jacobs Traum</rs>) fertig, 
 wills nicht vorlesen, eh das ganze vollendet ― (Wird nicht dabei bleiben.)</p>
-            <p xml:space="preserve" rend="indent">Nm. <rs type="place" xml:id="pl_09490" ref="#place_9ddb9a090a34b5f1d97cd00fe7949b8c">Nussensee</rs> (mit <rs type="person" xml:id="pNt_46048" ref="#person_21597"><forename>Fritz</forename> <surname>Z.</surname></rs>, <rs type="person" xml:id="pNt_46049" ref="#person_19822"><forename>Heini</forename></rs>, <rs type="person" xml:id="pNt_46050" ref="#person_13547"><forename>Gabriel</forename> <surname>B.-H.</surname></rs>) wo wir <rs type="person" xml:id="pNt_46051" ref="#person_13551"><forename>Richard</forename></rs> 
+            <p xml:space="preserve" rend="indent">Nm. <rs type="place" xml:id="pl_09490" ref="#pmb92425">Nussensee</rs> (mit <rs type="person" xml:id="pNt_46048" ref="#person_21597"><forename>Fritz</forename> <surname>Z.</surname></rs>, <rs type="person" xml:id="pNt_46049" ref="#person_19822"><forename>Heini</forename></rs>, <rs type="person" xml:id="pNt_46050" ref="#person_13547"><forename>Gabriel</forename> <surname>B.-H.</surname></rs>) wo wir <rs type="person" xml:id="pNt_46051" ref="#person_13551"><forename>Richard</forename></rs> 
 <rs type="person" xml:id="pNt_46052" ref="#person_13550"><forename>Paula</forename></rs>, <rs type="person" xml:id="pNt_46053" ref="#person_19986"><forename>Gustav</forename></rs> und Bruder <rs type="person" xml:id="pNt_46054" ref="#person_19987"><forename>Max</forename></rs> schon antrafen.― Gespräch übers 
 AItern. „Fassungslos vor Wuth.―“ Ischlerhof genachtm.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-08-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-08-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-08-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-08-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-08-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-08-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1570-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6701.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1926-08-03">
-            <p xml:space="preserve"><date when="1926-08-03">3/8</date> <rs type="place" xml:id="pl_16779" ref="#place_3d3059b170704e8e6b7a1035fb67806b">Adelboden</rs>.― Vorm. vertrödelt, spazieren.―</p>
+            <p xml:space="preserve"><date when="1926-08-03">3/8</date> <rs type="place" xml:id="pl_16779" ref="#pmb90188">Adelboden</rs>.― Vorm. vertrödelt, spazieren.―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="work" subtype="self" xml:id="bibl_20360">Roman</rs> weiter.―</p>
             <p xml:space="preserve" rend="indent">N. d. N. mit <rs type="person" xml:id="pNt_78331" ref="#person_19832"><forename>O.</forename></rs> Gespräch, von Finanzen ausgehend, das sich verschärft 
 und mit Thränen ihrerseits endete. Meine stärksten Empfindungen 
@@ -190,6 +194,5 @@ ist diese Beziehung gegen alle übrigen;― und wie setzt sich die
 Continuität durch (als hätten wir gestern zum letzten Mal gestritten (oder uns geliebt)).―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

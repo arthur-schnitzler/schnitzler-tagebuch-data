@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-06-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-06-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-06-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-06-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-06-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-06-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0151-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3426.tif"/>
@@ -182,7 +186,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1912-06-20">
             <p xml:space="preserve"><date when="1912-06-20">20/6</date> Dictirt (<rs type="work" subtype="self" xml:id="bibl_10341">Mendel-Einakter</rs>).</p>
-            <p xml:space="preserve" rend="indent">Mit O. Nm. über <rs type="person" xml:id="pNt_38290" ref="#person_13631"><surname>Berger</surname></rs> (Antiquitätenhändler) nach <rs type="place" xml:id="pl_07936" ref="#place_6cc6cfe893d0065a8007acc6e4074a69">Rodaun</rs> im 
+            <p xml:space="preserve" rend="indent">Mit O. Nm. über <rs type="person" xml:id="pNt_38290" ref="#person_13631"><surname>Berger</surname></rs> (Antiquitätenhändler) nach <rs type="place" xml:id="pl_07936" ref="#pmb173">Rodaun</rs> im 
 Wagen; zu <rs type="person" xml:id="pNt_38291" ref="#person_16293"><forename>Hugo</forename></rs> und <rs type="person" xml:id="pNt_38292" ref="#person_16292"><forename>Gerty</forename></rs>. Spaziergang Kirche und Wald. Entzückt 
 von der Gegend. Im Garten genachtmahlt. <rs type="person" xml:id="pNt_38293" ref="#person_16293"><forename>Hugo</forename></rs> zeigte wunderbare 
 Stoffe und hatte einen seiner charmanten Tage. Über die <rs type="work" xml:id="bibl_10342">Ariadne</rs>, über 
@@ -190,6 +194,5 @@ Stoffe und hatte einen seiner charmanten Tage. Über die <rs type="work" xml:id=
 über das <rs type="place" xml:id="pl_07937" ref="#place_570aa30e2d2e5089ccd27976bcc44a36" ana="#exclude">russische</rs> Ballet. Er hat dafür 3 kleine Ballets geschrieben.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

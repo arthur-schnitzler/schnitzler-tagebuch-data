@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1895-04-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-04-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-04-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1895-04-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-04-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-04-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E982-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,12 +177,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1014.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1895-04-25">
             <p xml:space="preserve"><date when="1895-04-25">25/4</date> Vorm. mit <rs type="person" xml:id="pNt_10497" ref="#person_19150"><forename>Mz.</forename> <surname>Rh.</surname></rs> bei Uns. Hatte sie sehr lieb.―</p>
             <p xml:space="preserve" rend="indent">Nachm. <rs type="person" xml:id="pNt_10498" ref="#person_15485"><forename>Mz. I</forename></rs> bei mir, traurig über gestern. „Du hast mich eigentlich 
@@ -192,5 +197,6 @@ immer was zurück.</p>
             <p xml:space="preserve" rend="indent">― Sprach heute auch den Maler <rs type="person" xml:id="pNt_10506"><surname>M.</surname></rs>, der sowohl <rs type="person" xml:id="pNt_10507" ref="#person_19150"><forename>Mz.</forename> <surname>Rh.</surname></rs> ― wie <rs type="person" xml:id="pNt_10508" ref="#person_15485"><forename>Mz. I</forename></rs> 
 gemalt hat (diese vor 2 Jahren).</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

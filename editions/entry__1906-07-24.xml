@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-07-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-07-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-07-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1906-07-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-07-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-07-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F907-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2247.tif"/>
@@ -180,11 +184,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1906-07-24">
-            <p xml:space="preserve"><date when="1906-07-24">24/7</date> Spazierg. Espergaede ― Snekkersten ― <rs type="place" xml:id="pl_05621" ref="#place_e11822ca10c3381ffab69f7f6608bad7">Marienlyst</rs>.― Bad.― 4. A. <rs type="work" subtype="self" xml:id="bibl_15111">P. A.</rs> 
-skizzirt.― Mit O. <rs type="place" xml:id="pl_05622" ref="#place_0086e7ca5fa53f8c44b164e7a0f2e9ba">Frederiksborg</rs> Schloss, Wagen <rs type="place" xml:id="pl_05623" ref="#place_41b88b56400a9b6e9cee1e9bee9a23b6">Fredensborg</rs>, der Park, 
+            <p xml:space="preserve"><date when="1906-07-24">24/7</date> Spazierg. Espergaede ― Snekkersten ― <rs type="place" xml:id="pl_05621" ref="#pmb959">Marienlyst</rs>.― Bad.― 4. A. <rs type="work" subtype="self" xml:id="bibl_15111">P. A.</rs> 
+skizzirt.― Mit O. <rs type="place" xml:id="pl_05622" ref="#pmb90649">Frederiksborg</rs> Schloss, Wagen <rs type="place" xml:id="pl_05623" ref="#pmb51762">Fredensborg</rs>, der Park, 
 Nachtm. im Jernbanehotel.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

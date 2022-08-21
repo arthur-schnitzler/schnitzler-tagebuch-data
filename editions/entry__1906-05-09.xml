@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-05-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-05-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-05-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1906-05-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-05-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-05-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F8BB-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2224.tif"/>
@@ -180,10 +184,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1906-05-09">
-            <p xml:space="preserve"><date when="1906-05-09">9/5</date> <rs type="place" xml:id="pl_05539" ref="#place_b333d193dca0791c0cf701b0749dc4ce">Hbr.</rs> Spazierg. <rs type="place" xml:id="pl_05540" ref="#place_97d57367459639154853cbd7c5de0796">Gießhübl</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Nm. <rs type="work" subtype="self" xml:id="bibl_14974">Roman</rs>.― <rs type="person" xml:id="pNt_24903" ref="#person_16293"><forename>Hugo</forename></rs>, <rs type="person" xml:id="pNt_24904" ref="#person_16292"><forename>Gerty</forename></rs> und <rs type="person" xml:id="pNt_24905" ref="#person_13913"><surname>Brahm</surname></rs> aus <rs type="place" xml:id="pl_05541" ref="#place_6cc6cfe893d0065a8007acc6e4074a69">Rodaun</rs> da.―</p>
+            <p xml:space="preserve"><date when="1906-05-09">9/5</date> <rs type="place" xml:id="pl_05539" ref="#pmb75">Hbr.</rs> Spazierg. <rs type="place" xml:id="pl_05540" ref="#pmb90721">Gießhübl</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Nm. <rs type="work" subtype="self" xml:id="bibl_14974">Roman</rs>.― <rs type="person" xml:id="pNt_24903" ref="#person_16293"><forename>Hugo</forename></rs>, <rs type="person" xml:id="pNt_24904" ref="#person_16292"><forename>Gerty</forename></rs> und <rs type="person" xml:id="pNt_24905" ref="#person_13913"><surname>Brahm</surname></rs> aus <rs type="place" xml:id="pl_05541" ref="#pmb173">Rodaun</rs> da.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

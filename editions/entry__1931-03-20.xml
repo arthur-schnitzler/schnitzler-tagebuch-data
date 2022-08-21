@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-03-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-03-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-03-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1931-03-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-03-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-03-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1C0A-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7665.tif"/>
@@ -184,15 +188,14 @@
          <div type="diary-day" xml:id="entry__1931-03-20">
             <p xml:space="preserve"><date when="1931-03-20">20/3</date> Die Telefongespräche. <rs type="person" xml:id="pNt_92417" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>: üble Nachrichten.― <rs type="person" xml:id="pNt_92418" ref="#person_14234"><forename>Suz.</forename></rs>―</p>
             <p xml:space="preserve" rend="indent">Dictirt Briefe.―</p>
-            <p xml:space="preserve" rend="indent">Brief <rs type="person" xml:id="pNt_92419" ref="#person_19822"><forename>Heini</forename></rs>. Urlaub von 20. Mai an; Gastspiel <rs type="place" xml:id="pl_19797" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>, ― <rs type="place" xml:id="pl_19798" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> Vertrag 
+            <p xml:space="preserve" rend="indent">Brief <rs type="person" xml:id="pNt_92419" ref="#person_19822"><forename>Heini</forename></rs>. Urlaub von 20. Mai an; Gastspiel <rs type="place" xml:id="pl_19797" ref="#pmb50">Wien</rs>, ― <rs type="place" xml:id="pl_19798" ref="#pmb168">Berlin</rs> Vertrag 
 erneuert.―</p>
             <p xml:space="preserve" rend="indent">Gegen Abend zu <rs type="person" xml:id="pNt_92420" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>, nach schlechten Nachrichten.―</p>
-            <p xml:space="preserve" rend="indent">Z. N. bei mir <rs type="person" xml:id="pNt_92421" ref="#person_14668"><forename>Walter</forename> <surname>Eidlitz</surname></rs> und Frau, die Sonntag über <rs type="place" xml:id="pl_19799" ref="#place_49fd244b941efdd26e9c624fc15759c0">Chiemsee</rs> (Verwandte), 
-<rs type="place" xml:id="pl_19800" ref="#place_2fc01bde301ce78776bfd009c2edc542">Köln</rs>, (Radio),― <rs type="place" xml:id="pl_19801" ref="#place_59ead8d1e124ccfb79f3ace06f43e703">London</rs> nach <rs type="place" xml:id="pl_19802" ref="#place_e884124295d0c4d07d9bcf5096fd5495">Amerika</rs> reisen. Erzähle allerlei geschäftliche 
+            <p xml:space="preserve" rend="indent">Z. N. bei mir <rs type="person" xml:id="pNt_92421" ref="#person_14668"><forename>Walter</forename> <surname>Eidlitz</surname></rs> und Frau, die Sonntag über <rs type="place" xml:id="pl_19799" ref="#pmb90470">Chiemsee</rs> (Verwandte), 
+<rs type="place" xml:id="pl_19800" ref="#pmb91050">Köln</rs>, (Radio),― <rs type="place" xml:id="pl_19801" ref="#pmb224">London</rs> nach <rs type="place" xml:id="pl_19802" ref="#pmb43406">Amerika</rs> reisen. Erzähle allerlei geschäftliche 
 <rs type="place" xml:id="pl_19803" ref="#place_95ecca0e62ec2768ab1586ca5fd8801f" ana="#exclude">Amerik.</rs> Erlebnisse, zeige allerlei Bibliographisches von meinen Sachen. Gebe 
 ihm Empfehlungen.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

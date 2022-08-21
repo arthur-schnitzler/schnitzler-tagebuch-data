@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1885-08-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-08-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-08-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1885-08-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-08-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-08-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DECF-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0248.tif"/>
@@ -182,10 +186,9 @@
       <body>
          <div type="diary-day" xml:id="entry__1885-08-10">
             <p xml:space="preserve"><date when="1885-08-10">10/8</date> Montag. Ruderfahrt. Clavier mit <rs type="person" xml:id="pNt_02316" ref="#person_17900"><forename>Else</forename></rs>. Segelfahrt nach 
-<rs type="place" xml:id="pl_00438" ref="#place_6200f29d669d049c662de58d281da8f3">Weissenbach</rs>. Besuch beim <rs type="person" xml:id="pNt_02317" ref="#person_18604"><roleName>Grafen</roleName> <surname>O’Sullivan</surname></rs> und der <rs type="person" xml:id="pNt_02318" ref="#person_21463"><surname>Wolter</surname></rs>. Fahrt nach 
-<rs type="place" xml:id="pl_00439" ref="#place_c2ad928214981e457405589604924059">Ischl</rs>.</p>
+<rs type="place" xml:id="pl_00438" ref="#pmb92065">Weissenbach</rs>. Besuch beim <rs type="person" xml:id="pNt_02317" ref="#person_18604"><roleName>Grafen</roleName> <surname>O’Sullivan</surname></rs> und der <rs type="person" xml:id="pNt_02318" ref="#person_21463"><surname>Wolter</surname></rs>. Fahrt nach 
+<rs type="place" xml:id="pl_00439" ref="#pmb213">Ischl</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

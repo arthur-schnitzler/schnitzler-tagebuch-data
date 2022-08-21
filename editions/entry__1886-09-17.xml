@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1886-09-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1886-09-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1886-10-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1886-09-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1886-09-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1886-10-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DF52-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,13 +177,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0300.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0301.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1886-09-17">
             <p xml:space="preserve"><date when="1886-09-17">17/9</date> Freitag Mg.― Ich war Sonntag wieder draußen. <rs type="person" xml:id="pNt_02663"><forename>Dora</forename></rs> empfing 
 mich schon mit der Kunde, sie sei krank. Ich bekam sie nicht zu 
@@ -187,8 +192,8 @@ Gesichte. Sie weinte in ihrem Zimmer. Ich schrieb ihr beim Abschied
 einen wahnsinnigen Zettel.― Auch war <rs type="person" xml:id="pNt_02664" ref="#person_18780"><forename>R.</forename></rs> <rs type="person" xml:id="pNt_02665" ref="#person_18780"><surname>P.</surname></rs> draußen.― Meine 
 Stimmung war furchtbar.― Wir schreiben uns… officielle Briefe.</p>
             <p xml:space="preserve" rend="indent">… Aber auch einmal etwas andres.―</p>
-            <p xml:space="preserve" rend="indent">… Noch über die Zeit in <rs type="place" xml:id="pl_00573" ref="#place_c2ad928214981e457405589604924059">Ischl</rs>. Sie war entsetzlich für mich. 
-Einmal war ich in <rs type="place" xml:id="pl_00574" ref="#place_d533f22e7175d6063cb4c4286fb92c0c">Gmunden</rs>, da war ich ein paar Stunden mit der 
+            <p xml:space="preserve" rend="indent">… Noch über die Zeit in <rs type="place" xml:id="pl_00573" ref="#pmb213">Ischl</rs>. Sie war entsetzlich für mich. 
+Einmal war ich in <rs type="place" xml:id="pl_00574" ref="#pmb874">Gmunden</rs>, da war ich ein paar Stunden mit der 
 Familie <rs type="person" xml:id="pNt_02666"><surname>H.</surname></rs> zusammen; und <rs type="person" xml:id="pNt_02667"><forename>Annys</forename></rs> Gesellschaft regte mich wie 
 gewöhnlich an.―</p>
             <p xml:space="preserve" rend="indent">Vor ein paar Tagen „gewann“ ich ― <rs type="person" xml:id="pNt_02668" ref="#person_17670"><forename>Lolotte</forename></rs>. Sie ist mir eigentlich 
@@ -196,5 +201,6 @@ zuwider.―</p>
             <p xml:space="preserve" rend="indent">― „Was für Rechte hat denn eine <hi xmlns:tei="http://www.tei-c.org/ns/1.0" rend="italicised">Freundin</hi>?!“ klagte <rs type="person" xml:id="pNt_02669" ref="#person_21047"><forename>O.</forename></rs> manchmal.</p>
             <p xml:space="preserve" rend="center">Oktober</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-07-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-07-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-07-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-07-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-07-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-07-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0449-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3857.tif"/>
@@ -182,13 +186,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1914-07-21">
-            <p xml:space="preserve"><date when="1914-07-21">21/7</date> Abreise. In <rs type="place" xml:id="pl_08823" ref="#place_e1cbd5b52b9a586dfba9e55926345d87">Bergün</rs> kommt <rs type="person" xml:id="pNt_43810" ref="#person_15485"><forename>Mizi</forename> <surname>Gl.</surname></rs> zu uns in den Zug, uns bis 
-<rs type="place" xml:id="pl_08824" ref="#place_0a16bce3e470dfab76d6a8c529e2725d">Samaden</rs> begleitend. Erwartet dieser Tage ihren Mann, damit endlich 
+            <p xml:space="preserve"><date when="1914-07-21">21/7</date> Abreise. In <rs type="place" xml:id="pl_08823" ref="#pmb90336">Bergün</rs> kommt <rs type="person" xml:id="pNt_43810" ref="#person_15485"><forename>Mizi</forename> <surname>Gl.</surname></rs> zu uns in den Zug, uns bis 
+<rs type="place" xml:id="pl_08824" ref="#pmb44306">Samaden</rs> begleitend. Erwartet dieser Tage ihren Mann, damit endlich 
 die Scheidungssache in Ordnung kommt.―</p>
-            <p xml:space="preserve" rend="indent">Ankunft <rs type="place" xml:id="pl_08825" ref="#place_ed6893b78d32ca570adf82aa6fe6e5be">Pontresina</rs>. Hotel <rs type="place" xml:id="pl_08826" ref="#place_ed6893b78d32ca570adf82aa6fe6e5be">Pontresina</rs>. Unzufrieden mit den Zimmern. 
+            <p xml:space="preserve" rend="indent">Ankunft <rs type="place" xml:id="pl_08825" ref="#pmb34946">Pontresina</rs>. Hotel <rs type="place" xml:id="pl_08826" ref="#pmb34946">Pontresina</rs>. Unzufrieden mit den Zimmern. 
 Ungeordnet. Herum im Ort. Trubel im Hotel.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

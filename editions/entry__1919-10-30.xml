@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-10-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-10-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-10-31.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-10-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-10-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-10-31.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0BCD-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4954.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1919-10-30">
-            <p xml:space="preserve"><date when="1919-10-30">30/10</date> Vm. <rs type="place" ref="#place_volkstheater">Volksth.</rs> Auf der Bühne, wo Comparserie auf die Probe von 
+            <p xml:space="preserve"><date when="1919-10-30">30/10</date> Vm. <rs type="place" ref="#pmb92202">Volksth.</rs> Auf der Bühne, wo Comparserie auf die Probe von 
 <rs type="work" xml:id="bibl_5106">Messalina</rs> (<rs type="person" xml:id="pNt_57207" ref="#person_16825"><surname>Kesser</surname></rs>) wartet, mit <rs type="person" xml:id="pNt_57208" ref="#person_13663"><surname>Bernau</surname></rs> über Besetzung <rs type="work" subtype="self" xml:id="bibl_5107"><rs type="person" xml:id="pNt_57209"><surname>Casanova</surname></rs></rs>.― 
 Schwierigkeiten.― Die <rs type="person" xml:id="pNt_57210" ref="#person_19331"><surname>Roland</surname></rs>, über die confuse, zuvielwollende 
 Führung.― <rs type="person" xml:id="pNt_57211" ref="#person_17916"><roleName>Frl.</roleName> <surname>Markus</surname></rs>, wegen eines Vortragsabends.― <rs type="person" xml:id="pNt_57212" ref="#person_19392"><surname>Rosenthal</surname></rs> 
@@ -191,6 +195,5 @@ Führung.― <rs type="person" xml:id="pNt_57211" ref="#person_17916"><roleName>
 auch <rs type="person" xml:id="pNt_57215" ref="#person_19822"><forename>Heini</forename></rs> vorgelesen.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

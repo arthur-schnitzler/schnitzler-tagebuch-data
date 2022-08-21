@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-04-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-04-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-04-19.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-04-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-04-17.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-04-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1506-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6654.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1926-04-18">
-            <p xml:space="preserve"><date when="1926-04-18">18/4</date> Früh <rs type="place" xml:id="pl_16592" ref="#place_b7f5020e39714a89048ca66a2e4c7eba">Patras</rs>. Regen. Auf dem Schiff geblieben.</p>
+            <p xml:space="preserve"><date when="1926-04-18">18/4</date> Früh <rs type="place" xml:id="pl_16592" ref="#pmb47911">Patras</rs>. Regen. Auf dem Schiff geblieben.</p>
             <p xml:space="preserve" rend="indent">Mittags Weiterfahrt. Schönes Wetter; bewegte See;― viel mit <rs type="person" xml:id="pNt_77665" ref="#person_14130"><forename>Lili</forename></rs> auf 
 dem Vorderdeck, Wellenspiel.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

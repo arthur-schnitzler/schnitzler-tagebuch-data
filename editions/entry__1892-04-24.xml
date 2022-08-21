@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1892-04-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-04-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-04-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1892-04-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-04-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-04-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E542-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0611.tif"/>
@@ -182,9 +186,8 @@
       <body>
          <div type="diary-day" xml:id="entry__1892-04-24">
             <p xml:space="preserve"><date when="1892-04-24">24/4</date> Sonntag.― <rs type="allusively" xml:id="rst_00142">Papa</rs> hat eine leichte Pleuritis.―</p>
-            <p xml:space="preserve" rend="indent">Nm. mit <rs type="person" xml:id="pNt_06217" ref="#person_15485"><forename>Mz.</forename></rs> Kfh. <rs type="place" xml:id="pl_01261" ref="#place_cbb954ab09f12be8863d4a8bb4cba488">Salesianergasse</rs>; mit ihr bei ihr soup.―</p>
+            <p xml:space="preserve" rend="indent">Nm. mit <rs type="person" xml:id="pNt_06217" ref="#person_15485"><forename>Mz.</forename></rs> Kfh. <rs type="place" xml:id="pl_01261" ref="#pmb76">Salesianergasse</rs>; mit ihr bei ihr soup.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

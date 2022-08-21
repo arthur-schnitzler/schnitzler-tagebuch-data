@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-08-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-08-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-08-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1915-08-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-08-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-08-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-05D5-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4089.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1915-08-22">
-            <p xml:space="preserve"><date when="1915-08-22">22/8</date> S.― Mit O. <rs type="person" xml:id="pNt_46204" ref="#person_19822"><forename>Heini</forename></rs> <rs type="place" xml:id="pl_09536" ref="#place_50fce40d86c3084224109d978bdf526c">St. Gilgen</rs>. Regen. Bei <rs type="person" xml:id="pNt_46205"><surname>Sikoras</surname></rs> (<rs type="person" xml:id="pNt_46206" ref="#person_20523"><surname>Strials</surname></rs>) zu Tisch.―</p>
+            <p xml:space="preserve"><date when="1915-08-22">22/8</date> S.― Mit O. <rs type="person" xml:id="pNt_46204" ref="#person_19822"><forename>Heini</forename></rs> <rs type="place" xml:id="pl_09536" ref="#pmb33">St. Gilgen</rs>. Regen. Bei <rs type="person" xml:id="pNt_46205"><surname>Sikoras</surname></rs> (<rs type="person" xml:id="pNt_46206" ref="#person_20523"><surname>Strials</surname></rs>) zu Tisch.―</p>
             <p xml:space="preserve" rend="indent">Nach dem Nachtm. bei der <rs type="allusively" xml:id="rst_01425">Hofrätin</rs>. <rs type="person" xml:id="pNt_46207" ref="#person_15210"><surname>Friedell</surname></rs> liest allerlei vor, <rs type="person" xml:id="pNt_46208" ref="#person_19694"><surname>Schiller</surname></rs> 
 (<rs type="work" xml:id="bibl_8288"><rs type="person" xml:id="pNt_46209"><surname>Körners</surname></rs> Vormittag</rs>) <rs type="person" xml:id="pNt_46210" ref="#person_16900"><surname>Kleist</surname></rs> (<rs type="work" xml:id="bibl_8289">Anekdote 1806</rs>), <rs type="person" xml:id="pNt_46211" ref="#person_13188"><surname>Andersen</surname></rs> u. a.― 
-Humoristische Gespräche.― Mit Dr. <rs type="person" xml:id="pNt_46212" ref="#person_16777"><forename>Rud.</forename> <surname>Kfm.</surname></rs> über <rs type="place" xml:id="pl_09537" ref="#place_64f607906be7598a02d75dbc1e979662">England</rs>; das er 
+Humoristische Gespräche.― Mit Dr. <rs type="person" xml:id="pNt_46212" ref="#person_16777"><forename>Rud.</forename> <surname>Kfm.</surname></rs> über <rs type="place" xml:id="pl_09537" ref="#pmb90593">England</rs>; das er 
 vertheidigt. Nur aus Gerechtigkeit?― <rs type="person" xml:id="pNt_46213" ref="#person_16572"><roleName>Frau</roleName> <surname>Jonas</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

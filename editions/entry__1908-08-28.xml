@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-08-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-08-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-08-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-08-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-08-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-08-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FBE1-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2545.tif"/>
@@ -180,11 +184,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1908-08-28">
-            <p xml:space="preserve"><date when="1908-08-28">28/8</date> <rs type="place" xml:id="pl_06436" ref="#place_388dd3201219f3deaba5bec7ea751265">Schlernklamm</rs>.―</p>
+            <p xml:space="preserve"><date when="1908-08-28">28/8</date> <rs type="place" xml:id="pl_06436" ref="#pmb39874">Schlernklamm</rs>.―</p>
             <p xml:space="preserve" rend="indent"><rs type="work" subtype="self" xml:id="bibl_13613">W. L.</rs> II. Akt vorläufig abgeschlossen.―</p>
             <p xml:space="preserve" rend="indent">Abds. im Seiserhof die Zauberin <rs type="person" xml:id="pNt_28735" ref="#person_13568"><surname>Belladonna</surname></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

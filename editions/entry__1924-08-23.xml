@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1924-08-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-08-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-08-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1924-08-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-08-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-08-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-12AB-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,16 +177,18 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6328.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1924-08-23">
-            <p xml:space="preserve"><date when="1924-08-23">23/8</date> <rs type="place" xml:id="pl_15618" ref="#place_cceafad713406bc4d8421dbdd142523a">Luzern</rs>. Schlechtes oder unsichres Wetter.―</p>
+            <p xml:space="preserve"><date when="1924-08-23">23/8</date> <rs type="place" xml:id="pl_15618" ref="#pmb967">Luzern</rs>. Schlechtes oder unsichres Wetter.―</p>
             <p xml:space="preserve" rend="indent">Gegen Abd. mit <rs type="person" xml:id="pNt_73008" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Kino (<rs type="work" xml:id="bibl_21228">Die Gefangnen des Meeres</rs>).</p>
             <p xml:space="preserve" rend="indent">Im Hotel die Mahlzeiten.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

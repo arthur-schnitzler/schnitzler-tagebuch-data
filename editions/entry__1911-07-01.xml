@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-07-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-06-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-07-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-07-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-06-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-07-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FFEE-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3188.tif"/>
@@ -183,13 +187,12 @@
          <div type="diary-day" xml:id="entry__1911-07-01">
             <p xml:space="preserve"><date when="1911-07-01">1/7</date> <rs ref="#person_20072" type="person" xml:id="pNt_35670"><roleName>Hr.</roleName> <surname>Seybel</surname></rs> sen. stellt sich vor, für das Interesse dankend, das 
 ich an seinem Sohne <rs type="person" xml:id="pNt_35671" ref="#person_20071"><forename>Georg</forename></rs> nehme.―</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_35672" ref="#person_16572"><roleName>Frau</roleName> <surname>Jonas</surname></rs>, <rs type="person" xml:id="pNt_35673" ref="#person_16573"><forename>Fritz</forename></rs> und <rs type="person" xml:id="pNt_35674" ref="#person_21107"><surname>Wassermann</surname></rs> Spaziergang übern <rs type="place" xml:id="pl_07524" ref="#place_797995abb7274e2eab2059ba02411f0f">Pinkenkogel</rs>. 
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_35672" ref="#person_16572"><roleName>Frau</roleName> <surname>Jonas</surname></rs>, <rs type="person" xml:id="pNt_35673" ref="#person_16573"><forename>Fritz</forename></rs> und <rs type="person" xml:id="pNt_35674" ref="#person_21107"><surname>Wassermann</surname></rs> Spaziergang übern <rs type="place" xml:id="pl_07524" ref="#pmb91482">Pinkenkogel</rs>. 
 Über Jugendversuche, literarische Anfänge, Aeroplane.―</p>
             <p xml:space="preserve" rend="indent">Nach Tisch <rs type="person" xml:id="pNt_35675" ref="#person_16293"><forename>Hugo</forename></rs>, <rs type="person" xml:id="pNt_35676" ref="#person_16292"><forename>Gerty</forename></rs>. Spaziergang mit ihnen und den andern. 
 Mit <rs type="person" xml:id="pNt_35677" ref="#person_16293"><forename>Hugo</forename></rs> über <rs type="person" xml:id="pNt_35678" ref="#person_21034"><surname>Wagner</surname></rs> (<rs type="work" xml:id="bibl_11072">Autobiografie</rs>).</p>
             <p xml:space="preserve" rend="indent">Domino Abend.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

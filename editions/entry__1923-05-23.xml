@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-05-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-05-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-05-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-05-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-05-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-05-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-10E2-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6051.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1923-05-23">
-            <p xml:space="preserve"><date when="1923-05-23">23/5</date> <rs type="place" xml:id="pl_14755" ref="#place_fcfff492e00727b63cf5dff9f59bc2a4">Stockholm</rs>.― Vorm. Stadtbummel.― Mit <rs type="person" xml:id="pNt_69550" ref="#person_20140"><forename>W.</forename> <surname>Singer</surname></rs> allein zu 
+            <p xml:space="preserve"><date when="1923-05-23">23/5</date> <rs type="place" xml:id="pl_14755" ref="#pmb1119">Stockholm</rs>.― Vorm. Stadtbummel.― Mit <rs type="person" xml:id="pNt_69550" ref="#person_20140"><forename>W.</forename> <surname>Singer</surname></rs> allein zu 
 Tisch.― Nm. liest er mir eine Traumnov.-Skizze vor. Währenddem 
 kommt <rs type="person" xml:id="pNt_69551" ref="#person_20657"><roleName>Frl.</roleName> <surname>Teller</surname></rs>. Ich phantasire Walzer.―</p>
             <p xml:space="preserve" rend="indent">Abreise. <rs type="person" xml:id="pNt_69552" ref="#person_20140"><surname>Singer</surname></rs> und <rs type="person" xml:id="pNt_69553" ref="#person_20657"><roleName>Frl.</roleName> <surname>T.</surname></rs> begleiten mich. An der Bahn außerdem 
 <rs type="person" xml:id="pNt_69554" ref="#person_17567"><surname>Linden</surname></rs> und Frau (<rs type="person" xml:id="pNt_69555"><forename>Rose</forename></rs>; Blumen auch von <rs type="person" xml:id="pNt_69556" ref="#person_20657"><roleName>Frl.</roleName> <surname>T.</surname></rs>) <rs type="person" xml:id="pNt_69557" ref="#person_18473"><surname>Nordberger</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

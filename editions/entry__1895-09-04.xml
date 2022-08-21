@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1895-09-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-09-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-09-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1895-09-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-09-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-09-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EA06-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1053.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1895-09-04">
-            <p xml:space="preserve"><date when="1895-09-04">4/9</date> <rs type="person" xml:id="pNt_10963" ref="#person_13196"><forename>Lou</forename></rs>, <rs type="person" xml:id="pNt_10964" ref="#person_15529"><forename>Paul</forename></rs>, <rs type="person" xml:id="pNt_10965" ref="#person_13551"><forename>Richard</forename></rs> ich <rs type="place" xml:id="pl_02128" ref="#place_caf29f5af204a72e3ee8267b1a47cdd4">Starnberger-See</rs>, <rs type="place" xml:id="pl_02129" ref="#place_300a9ca833420adc130ce572f2d757fd">Tutzing</rs>, Kegelspiel, 
-Bad, Abends <rs type="place" xml:id="pl_02130" ref="#place_d6ce6ff10c3376d54aa53ecdc5202504">Leoni</rs>, Spaziergang, Gespräche mit <rs type="person" xml:id="pNt_10966" ref="#person_13196"><forename>Lou</forename></rs>.</p>
+            <p xml:space="preserve"><date when="1895-09-04">4/9</date> <rs type="person" xml:id="pNt_10963" ref="#person_13196"><forename>Lou</forename></rs>, <rs type="person" xml:id="pNt_10964" ref="#person_15529"><forename>Paul</forename></rs>, <rs type="person" xml:id="pNt_10965" ref="#person_13551"><forename>Richard</forename></rs> ich <rs type="place" xml:id="pl_02128" ref="#pmb52262">Starnberger-See</rs>, <rs type="place" xml:id="pl_02129" ref="#pmb44493">Tutzing</rs>, Kegelspiel, 
+Bad, Abends <rs type="place" xml:id="pl_02130" ref="#pmb52323">Leoni</rs>, Spaziergang, Gespräche mit <rs type="person" xml:id="pNt_10966" ref="#person_13196"><forename>Lou</forename></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

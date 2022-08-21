@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-04-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-04-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-04-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-04-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-04-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-04-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FFAC-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3144.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1911-04-26">
-            <p xml:space="preserve"><date when="1911-04-26">26/4</date> <rs type="place" xml:id="pl_07459" ref="#place_d0a6343a081a7335baa965ce4fd0845c">München</rs>.― Holte <rs type="person" xml:id="pNt_35124" ref="#person_20872"><forename>Agnes</forename> <surname>Ulmann-Speyer</surname></rs> ins Hotel.― Mit O. zu 
+            <p xml:space="preserve"><date when="1911-04-26">26/4</date> <rs type="place" xml:id="pl_07459" ref="#pmb45258">München</rs>.― Holte <rs type="person" xml:id="pNt_35124" ref="#person_20872"><forename>Agnes</forename> <surname>Ulmann-Speyer</surname></rs> ins Hotel.― Mit O. zu 
 <rs type="person" xml:id="pNt_35125" ref="#person_15485"><surname>Glümers</surname></rs> mit Blumen, und Büchern für den Buben. Mittagessen. Dazu 
 <pb n="235"/>
 <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header"><fw place="top_center"><date type="range">1911: IV 26 ― V 1</date></fw> <fw n="235" place="top_right" type="pageNum">235</fw></tei:fw>
@@ -201,6 +205,5 @@ Frau, <rs type="person" xml:id="pNt_35140" ref="#person_19047"><surname>Randolf<
 <rs ref="#person_21130" type="person" xml:id="pNt_35144"><forename>Ilona</forename></rs>).― Ich war müd und in nicht heitrer Stimmung.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-11-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-11-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-11-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-11-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-11-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-11-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-04B8-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3920.tif"/>
@@ -182,13 +186,12 @@
       <body>
          <div type="diary-day" xml:id="entry__1914-11-09">
             <p xml:space="preserve"><date when="1914-11-09">9/11</date> Dictirt Briefe.―</p>
-            <p xml:space="preserve" rend="indent">Nm. spazieren, <rs type="person" xml:id="pNt_44372" ref="#person_13359"><forename>Stephi</forename></rs> in die <rs type="place" xml:id="pl_09050" ref="#place_137c1327d5f0a336e916932693da81c9">Silberg.</rs> begleitet ―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_44373" ref="#person_19135"><roleName>Dr.</roleName> <surname>Reik</surname></rs>; der Musterung gewärtig, wieder in <rs type="place" xml:id="pl_09051" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>. Seine Idee ein 
+            <p xml:space="preserve" rend="indent">Nm. spazieren, <rs type="person" xml:id="pNt_44372" ref="#person_13359"><forename>Stephi</forename></rs> in die <rs type="place" xml:id="pl_09050" ref="#pmb92531">Silberg.</rs> begleitet ―</p>
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_44373" ref="#person_19135"><roleName>Dr.</roleName> <surname>Reik</surname></rs>; der Musterung gewärtig, wieder in <rs type="place" xml:id="pl_09051" ref="#pmb50">Wien</rs>. Seine Idee ein 
 Buch über mich „wie <rs type="person" xml:id="pNt_44374" ref="#person_19724"><surname>Schlenther</surname></rs> über <rs type="person" xml:id="pNt_44375"><surname>Hauptmann</surname></rs>“ zu schreiben (nach 
 seinem schon erschienenen psychoanalyt.). Ich warne vor Einseitigkeit 
 seiner Auffassung.― Zeige ihm alte Pläne des <rs type="work" subtype="self" xml:id="bibl_9081">Medardus</rs> u. ä.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1892-05-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-05-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-05-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1892-05-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-05-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-05-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E564-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,16 +177,18 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0617.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1892-05-28">
             <p xml:space="preserve"><date when="1892-05-28">28/5</date> Vm. bei <rs type="person" xml:id="pNt_06325" ref="#person_15485"><forename>Mz.</forename></rs> ― Abd. nach dem Th. mit ihr Jägerhorn soup.― Im 
 Kfh. Poker mit <rs type="person" xml:id="pNt_06326" ref="#person_16363"><surname>Horn</surname></rs>.</p>
             <p xml:space="preserve" rend="indent">Ich sitze jetzt <rs type="person" xml:id="pNt_06327" ref="#person_19542"><surname>Saltens</surname></rs> Bruder zu einer Büste, <rs type="person" xml:id="pNt_06328" ref="#person_20655"><surname>Telcs</surname></rs> zu einem Relief.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

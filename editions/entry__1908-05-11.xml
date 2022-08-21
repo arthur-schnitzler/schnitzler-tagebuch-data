@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-05-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-05-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FB74-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2504.tif"/>
@@ -180,12 +184,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1908-05-11">
-            <p xml:space="preserve"><date when="1908-05-11">11/5</date> Auto <rs type="place" xml:id="pl_06297" ref="#place_d0a6343a081a7335baa965ce4fd0845c">München</rs> ― <rs type="place" xml:id="pl_06298" ref="#place_caf29f5af204a72e3ee8267b1a47cdd4">Starnberger See</rs> ― <rs type="place" xml:id="pl_06299" ref="#place_5cea8f71bfa6f42547adaf63d65eb3ed">Partenkirchen</rs> <rs type="place" xml:id="pl_06300" ref="#place_5cea8f71bfa6f42547adaf63d65eb3ed">Garmisch</rs>. Zuerst 
+            <p xml:space="preserve"><date when="1908-05-11">11/5</date> Auto <rs type="place" xml:id="pl_06297" ref="#pmb45258">München</rs> ― <rs type="place" xml:id="pl_06298" ref="#pmb52262">Starnberger See</rs> ― <rs type="place" xml:id="pl_06299" ref="#pmb667">Partenkirchen</rs> <rs type="place" xml:id="pl_06300" ref="#pmb667">Garmisch</rs>. Zuerst 
 Regen. Dann schönes Wetter. „Post“.―</p>
-            <p xml:space="preserve" rend="indent">Nm. zum <rs type="place" xml:id="pl_06301" ref="#place_cc595b041cbc704e4e256488cf4e35e0">Rissersee</rs> gegangen.</p>
-            <p xml:space="preserve" rend="indent">Abd. Auto <rs type="place" xml:id="pl_06302" ref="#place_c46452f4e5906b175451702365acf582">Badersee</rs> und <rs type="place" xml:id="pl_06303" ref="#place_9644dff2e7f9aeceada8d5bee3e094aa">Eibsee</rs> und zurück.</p>
+            <p xml:space="preserve" rend="indent">Nm. zum <rs type="place" xml:id="pl_06301" ref="#pmb92487">Rissersee</rs> gegangen.</p>
+            <p xml:space="preserve" rend="indent">Abd. Auto <rs type="place" xml:id="pl_06302" ref="#pmb90294">Badersee</rs> und <rs type="place" xml:id="pl_06303" ref="#pmb90567">Eibsee</rs> und zurück.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

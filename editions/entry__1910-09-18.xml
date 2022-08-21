@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-09-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-09-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-09-19.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-09-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-09-17.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-09-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FED0-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2985.tif"/>
@@ -182,9 +186,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1910-09-18">
-            <p xml:space="preserve"><date when="1910-09-18">18/9</date> S. Mit O. <rs type="place" xml:id="pl_07223" ref="#place_a6b1694c64918f9e8fbeabbc16d599a4">Darmstadt</rs>. Spazierfahrt, die Künstlercolonie. Die neue 
+            <p xml:space="preserve"><date when="1910-09-18">18/9</date> S. Mit O. <rs type="place" xml:id="pl_07223" ref="#pmb834">Darmstadt</rs>. Spazierfahrt, die Künstlercolonie. Die neue 
 Kirche.―</p>
-            <p xml:space="preserve" rend="indent">Mittag in <rs type="place" xml:id="pl_07224" ref="#place_d5460b665e26333bdf699f77a2e3cf17">Frankfurt</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Mittag in <rs type="place" xml:id="pl_07224" ref="#pmb146">Frankfurt</rs>.―</p>
             <pb n="177"/>
             <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header">
                <fw place="top_center">
@@ -195,7 +199,7 @@ Kirche.―</p>
             <p xml:space="preserve" rend="indent">Zum Thee Herr <rs type="person" xml:id="pNt_33505" ref="#person_19433"><roleName>Dr.</roleName> <surname>Rottenberg</surname></rs>, der Kapellmeister, den wir Vormittag 
 getroffen, mit Frau. Wir thaten, als kennten wir einander nicht. 
 Aber vielleicht weiß <rs type="person" xml:id="pNt_33506"><surname>R.</surname></rs> doch, daß ich vor 7 Jahren mit <rs type="person" xml:id="pNt_33507" ref="#person_15529"><surname>Goldmann</surname></rs> und 
-ihr in <rs type="place" xml:id="pl_07225" ref="#place_84465f5d4faee0a7e284c0f3878b528a">Riva</rs> und <rs type="place" xml:id="pl_07226" ref="#place_4931d7c474169210fcd0c3889be19f2f">Lavarone</rs> war. Sie wirkte gut; eine Frau, die viel 
+ihr in <rs type="place" xml:id="pl_07225" ref="#pmb91602">Riva</rs> und <rs type="place" xml:id="pl_07226" ref="#pmb461">Lavarone</rs> war. Sie wirkte gut; eine Frau, die viel 
 gelitten und viel Ekel erlebt. Sie gefiel O. sehr gut.― Ich spazierte noch 
 mit <rs type="person" xml:id="pNt_33508"><surname>R.</surname></rs> und Frau in den Anlagen.</p>
             <p xml:space="preserve" rend="indent">Abends Première der Oper <rs type="work" subtype="self" xml:id="bibl_11957">Liebelei</rs>. Sie gefiel mir und O. viel besser 
@@ -207,6 +211,5 @@ jüdisch. „Ich bin nemlich der <rs type="person" xml:id="pNt_33512" ref="#pers
 <rs type="person" xml:id="pNt_33513" ref="#person_15390"><surname>Gentner</surname></rs> (<rs type="person" xml:id="pNt_33514"><forename>Fritz</forename></rs>) erzählt Anekdoten. Toaste. Um 12 aufs Zimmer.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1888-05-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1888-05-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1888-05-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1888-05-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1888-05-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1888-05-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E049-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0347.tif"/>
@@ -181,9 +185,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1888-05-29">
-            <p xml:space="preserve"><date when="1888-05-29">29/5</date> Dinstag. Einzug <rs type="place" xml:id="pl_00678" ref="#place_453a7fed0463ab9e9cff4de71a89fd53">Cromwell Place</rs> 18. Soirée <rs type="person" xml:id="pNt_03273" ref="#person_14303"><surname>Cronbach</surname></rs>.</p>
+            <p xml:space="preserve"><date when="1888-05-29">29/5</date> Dinstag. Einzug <rs type="place" xml:id="pl_00678" ref="#pmb92194">Cromwell Place</rs> 18. Soirée <rs type="person" xml:id="pNt_03273" ref="#person_14303"><surname>Cronbach</surname></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-07-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-07-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-07-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-07-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-07-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-07-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1B09-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7516.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1930-07-06">
-            <p xml:space="preserve"><date when="1930-07-06">6/7</date> S. Tel. mit <rs type="person" xml:id="pNt_90135" ref="#person_18137"><forename>Dora</forename></rs> (<rs type="place" xml:id="pl_19335" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>); mit <rs type="person" xml:id="pNt_90136" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> (<rs type="place" xml:id="pl_19336" ref="#place_84bb7a44667327c91eade4b980a38a6f">Karlsbad</rs>).</p>
+            <p xml:space="preserve"><date when="1930-07-06">6/7</date> S. Tel. mit <rs type="person" xml:id="pNt_90135" ref="#person_18137"><forename>Dora</forename></rs> (<rs type="place" xml:id="pl_19335" ref="#pmb168">Berlin</rs>); mit <rs type="person" xml:id="pNt_90136" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> (<rs type="place" xml:id="pl_19336" ref="#pmb842">Karlsbad</rs>).</p>
             <p xml:space="preserve" rend="indent">― Um 11 <rs type="person" xml:id="pNt_90137" ref="#person_14425"><roleName>Director</roleName> <surname>Deutsch</surname></rs> (Sascha) und Dr. <rs type="person" xml:id="pNt_90138" ref="#person_18291"><forename>Emil</forename> <surname>Müller</surname></rs> (vermittelnd) wegen 
 <rs type="work" subtype="self" xml:id="bibl_1140">Tonfilm Liebelei</rs>. Tel. <rs type="person" xml:id="pNt_90139" ref="#person_16277"><roleName>Dr.</roleName> <surname>Hoffmann</surname></rs> herüber; geschäftl. Unterhandlung.</p>
             <p xml:space="preserve" rend="indent">Zu Tisch mit <rs type="person" xml:id="pNt_90140" ref="#person_19822"><forename>Heini</forename></rs> <rs type="person" xml:id="pNt_90141" ref="#person_17958"><forename>Paul</forename> <surname>Marx</surname></rs>.</p>
@@ -191,6 +195,5 @@
             <p xml:space="preserve" rend="indent">Abd. z. N., <rs type="person" xml:id="pNt_90144" ref="#person_17958"><forename>Paul</forename></rs> und <rs ref="#person_13830" type="person" xml:id="pNt_90145"><forename>Louis</forename> <surname>Böhm</surname></rs> (über <rs type="person" xml:id="pNt_90146" ref="#person_13545"><surname>Beer</surname></rs>). Terrasse. Dann Gewitter.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

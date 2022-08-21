@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-09-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-09-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-09-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-09-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-09-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-09-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FD5D-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2750.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1909-09-12">
-            <p xml:space="preserve"><date when="1909-09-12">12/9</date> S. Vm. mit <rs type="person" xml:id="pNt_30885" ref="#person_19822"><forename>Heini</forename></rs> Dreimarkstein ― <rs type="place" xml:id="pl_06810" ref="#place_3b0cf80ce6f7c6e0340cf31265c8f3f7">Sievring</rs> ―</p>
+            <p xml:space="preserve"><date when="1909-09-12">12/9</date> S. Vm. mit <rs type="person" xml:id="pNt_30885" ref="#person_19822"><forename>Heini</forename></rs> Dreimarkstein ― <rs type="place" xml:id="pl_06810" ref="#pmb64219">Sievring</rs> ―</p>
             <p xml:space="preserve" rend="indent">Zu Tisch <rs type="allusively" xml:id="rst_01048">Mama</rs> da, mit ihr ein <rs type="person" xml:id="pNt_30886" ref="#person_18066"><surname>Mendelssohn</surname></rs> Quartett.―</p>
             <p xml:space="preserve" rend="indent">Mit O. einiges <rs type="person" xml:id="pNt_30887" ref="#person_19902"><surname>Schubert</surname></rs> versucht; auch zum <rs type="place" xml:id="pl_06811" ref="#place_b4406b3c89cf495d4bb27f0cb57424b8" ana="#exclude">Singen</rs> begleitet (<rs type="work" xml:id="bibl_12848">Onegin</rs>, <rs type="work" xml:id="bibl_12849">Pique Dame</rs>).</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_30888" ref="#person_19823"><forename>Helene</forename></rs> zu Besuch.―</p>
@@ -190,6 +194,5 @@
 vielem etwas gröber gearbeitet als meine Sachen sonst sind. Ein paar Dialoge schnarren noch.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

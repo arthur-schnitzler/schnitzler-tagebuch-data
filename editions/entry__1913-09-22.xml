@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-09-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-09-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-09-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-09-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-09-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-09-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-031C-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,12 +177,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3689.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1913-09-22">
             <p xml:space="preserve"><date when="1913-09-22">22/9</date> Mit <rs type="person" xml:id="pNt_41647" ref="#person_19822"><forename>Heini</forename></rs> im Gymnasium. Er machte seine kleine Nachprüfung aus 
 Latein bei <rs type="person" xml:id="pNt_41648" ref="#person_17195"><roleName>Prof.</roleName> <surname>Kunst</surname></rs>. Sprach indess mit dem klugen <rs type="person" xml:id="pNt_41649" ref="#person_17470"><roleName>Dr.</roleName> <surname>Lesowsky</surname></rs>.</p>
@@ -191,5 +196,6 @@ denen kaum was wird. „<rs type="work" subtype="self" xml:id="bibl_9600">Geschw
 Hoffnungen“ berechtigend „<rs type="work" subtype="self" xml:id="bibl_9602">Ein Glas zu viel</rs>“.― Aber den Entschluss 
 wirklich was anzufangen bring ich nicht auf.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

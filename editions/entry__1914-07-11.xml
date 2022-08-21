@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-07-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-07-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-07-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-07-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-07-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-07-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-043F-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3852.tif"/>
@@ -185,12 +189,11 @@
             <p xml:space="preserve"><date when="1914-07-11">11/7</date> Vm. zu <rs type="person" xml:id="pNt_43768" ref="#person_20242"><surname>Speidels</surname></rs>, brachte <rs type="person" xml:id="pNt_43769" ref="#person_20241"><forename>Else</forename></rs> zu ihrer Matura (Auszeichnung) <rs type="person" xml:id="pNt_43770" ref="#person_13820"><surname>Bodes</surname></rs> 
 „<rs type="work" xml:id="bibl_8921">Haus am Stern</rs>“.―</p>
             <p xml:space="preserve" rend="indent">Nm. an „<rs type="work" subtype="self" xml:id="bibl_8922">Heimkehr</rs>“.―</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_43771" ref="#person_19827"><forename>Julius</forename></rs> und <rs type="person" xml:id="pNt_43772" ref="#person_19822"><forename>Heini</forename></rs> Auto über <rs type="place" xml:id="pl_08800" ref="#place_5e86e41371e971e6c8bbcf83490bc36e">Perchtoldsdorf</rs> ― <rs type="place" xml:id="pl_08801" ref="#place_97d57367459639154853cbd7c5de0796">Gießhübl</rs> ― <rs type="place" xml:id="pl_08802" ref="#place_e13ec8c925540228f5e6a053948bf715">Siegenfeld</rs> 
-nach <rs type="place" xml:id="pl_08803" ref="#place_9a43e84f6e1d406076f2372205804f6d">Baden</rs>; Pension <rs type="institution" xml:id="pNt_43773"><surname>Rauhenstein</surname></rs>, mit <rs type="person" xml:id="pNt_43774" ref="#person_19827"><forename>Juliussens</forename></rs> genachtm.; <rs type="person" xml:id="pNt_43775" ref="#person_19822"><forename>Heini</forename></rs> blieb 
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_43771" ref="#person_19827"><forename>Julius</forename></rs> und <rs type="person" xml:id="pNt_43772" ref="#person_19822"><forename>Heini</forename></rs> Auto über <rs type="place" xml:id="pl_08800" ref="#pmb91451">Perchtoldsdorf</rs> ― <rs type="place" xml:id="pl_08801" ref="#pmb90721">Gießhübl</rs> ― <rs type="place" xml:id="pl_08802" ref="#pmb91743">Siegenfeld</rs> 
+nach <rs type="place" xml:id="pl_08803" ref="#pmb662">Baden</rs>; Pension <rs type="institution" xml:id="pNt_43773"><surname>Rauhenstein</surname></rs>, mit <rs type="person" xml:id="pNt_43774" ref="#person_19827"><forename>Juliussens</forename></rs> genachtm.; <rs type="person" xml:id="pNt_43775" ref="#person_19822"><forename>Heini</forename></rs> blieb 
 draußen; ich mit einem <rs type="person" xml:id="pNt_43776" ref="#person_21531"><roleName>Herrn</roleName> <surname>Zelinka</surname></rs> Bahn zurück, der mit dem 
-<rs type="place" xml:id="pl_08804" ref="#place_9792f293e7ea2aaa6250a867cf7f318a" ana="#exclude">Albaniencomité</rs> in <rs type="place" xml:id="pl_08805" ref="#place_16b343b628f3c360818df5cd3a63e5cf">Durazzo</rs> war.</p>
+<rs type="place" xml:id="pl_08804" ref="#place_9792f293e7ea2aaa6250a867cf7f318a" ana="#exclude">Albaniencomité</rs> in <rs type="place" xml:id="pl_08805" ref="#pmb90556">Durazzo</rs> war.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

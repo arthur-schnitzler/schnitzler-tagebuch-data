@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-09-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-09-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-09-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-09-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-09-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-09-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0486-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3887.tif"/>
@@ -185,9 +189,9 @@
             <p xml:space="preserve"><date when="1914-09-20">20/9</date> S. <rs type="person" xml:id="pNt_44087"><forename>Richard</forename></rs> kommt in der Früh; sehr pessimistisch.</p>
             <p xml:space="preserve" rend="indent">Die Dankdepesche <rs type="person" xml:id="pNt_44088" ref="#person_14266"><surname>Hötzendorfs</surname></rs> an den wegen des jungen <rs type="person" xml:id="pNt_44089"><surname>H.</surname></rs> Tod condolirenden 
 Bürgermeister … „übermächtiger Feind … Möge trotzdem ―“!―</p>
-            <p xml:space="preserve" rend="indent">Begleite O. und <rs type="person" xml:id="pNt_44090" ref="#person_13359"><forename>Stephi</forename></rs> <rs type="place" xml:id="pl_08973" ref="#place_137c1327d5f0a336e916932693da81c9">Silbergasse</rs>; ― sie packen Silber ein; ich 
-spaziere <rs type="place" xml:id="pl_08974" ref="#place_24e28ed7e7d74af56d47ff35c697c314">Beethovengang</rs> etc.―</p>
-            <p xml:space="preserve" rend="indent">― Nach Tisch <rs type="person" xml:id="pNt_44091" ref="#person_21107"><surname>Wassermann</surname></rs>, aus <rs type="place" xml:id="pl_08975" ref="#place_661f4200c3f047474d1df224f62f0503">Aussee</rs> zurück ― er verspricht sich von 
+            <p xml:space="preserve" rend="indent">Begleite O. und <rs type="person" xml:id="pNt_44090" ref="#person_13359"><forename>Stephi</forename></rs> <rs type="place" xml:id="pl_08973" ref="#pmb92531">Silbergasse</rs>; ― sie packen Silber ein; ich 
+spaziere <rs type="place" xml:id="pl_08974" ref="#pmb158">Beethovengang</rs> etc.―</p>
+            <p xml:space="preserve" rend="indent">― Nach Tisch <rs type="person" xml:id="pNt_44091" ref="#person_21107"><surname>Wassermann</surname></rs>, aus <rs type="place" xml:id="pl_08975" ref="#pmb415">Aussee</rs> zurück ― er verspricht sich von 
 dem Krieg irgend etwas wie eine Lösung der Judenfrage ― mindestens ein 
 Aufhören des Antisemitismus;― dann könnte man auch aus der Gemeinde 
 austreten u. s. w.―</p>
@@ -196,6 +200,5 @@ er ist einer von den optimistischen.―</p>
             <p xml:space="preserve" rend="indent">Mit O.― nach langer Zeit ― Lieder.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

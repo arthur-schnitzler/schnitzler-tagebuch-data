@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-12-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-12-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-12-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-12-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-12-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-12-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-11AD-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6159.tif"/>
@@ -184,11 +188,10 @@
             <p xml:space="preserve"><date when="1923-12-13">13/12</date> Dictirt Briefe, <rs type="work" subtype="self" xml:id="bibl_2201">Verf.</rs>―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_2202">Verf.</rs>― Eine viertel Stunde bei <rs type="person" xml:id="pNt_70901" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> (Telef. Strike); dann 
 Hotel Ritz; <rs type="person" xml:id="pNt_70902" ref="#person_20886"><surname>Untermeyer</surname></rs> und Frau, sowie ein berühmter <rs type="place" xml:id="pl_15199" ref="#place_923c9d6aaf18f34b857e3d32ee926c57" ana="#exclude">amerik.</rs> Pianist 
-(<rs type="person" xml:id="pNt_70903" ref="#person_14055"><surname>Buhlig</surname></rs>?), <rs type="person" xml:id="pNt_70904" ref="#person_18633"><surname>Paderewski-ähnlich</surname></rs>. Wir soupiren in <rs type="place" ref="#place_meissl">Meissl u. Schadn</rs>; 
+(<rs type="person" xml:id="pNt_70903" ref="#person_14055"><surname>Buhlig</surname></rs>?), <rs type="person" xml:id="pNt_70904" ref="#person_18633"><surname>Paderewski-ähnlich</surname></rs>. Wir soupiren in <rs type="place" ref="#pmb96">Meissl u. Schadn</rs>; 
 dann wieder ins Ritz. <rs type="person" xml:id="pNt_70907"><surname>U.</surname></rs> gibt mir seine <rs type="person" xml:id="pNt_70908"><surname>Heine</surname></rs> Übersetzung;― seine Frau 
 eigne <rs type="work" xml:id="bibl_2203">Gedichte</rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1879-05-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1879-04-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1879-05-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1879-05-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1879-04-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1879-05-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DCD7-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,24 +177,26 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0001.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1879-05-15">
             <p xml:space="preserve"><date when="1879-05-15">Mitte Mai.</date> Der Verkehr mit <rs type="person" xml:id="pNt_00005"><forename>Eugen</forename></rs> krystallisirt sich heraus; er interessirt 
 sich für mein Verhältnis.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_00006"><forename>Richard</forename></rs> als beinahe komische Figur in seiner Schwärmerei für <rs type="person" xml:id="pNt_00007"><forename>Otto</forename></rs>. </p>
             <p xml:space="preserve" rend="indent">Erinnerung an mein erstes Stück „<rs type="work" subtype="self" xml:id="bibl_23508">Aristokrat &amp; Demokrat</rs>“, Einflüsse des <rs type="person" xml:id="pNt_00008"><roleName>Frl.</roleName> <forename>Bertha</forename></rs> (fällt noch in die letzten Sechziger, ersten 
 Siebziger? Jahre).</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_00009"><surname>D.’s</surname></rs> erste Rollen im <rs type="place" xml:id="pl_00001" ref="#place_41f96c9f219c395e8304ac22401c0521">Matzleinsdorfertheater</rs>: Diener in der <rs type="work" xml:id="bibl_23509">Cameliendame</rs> 
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_00009"><surname>D.’s</surname></rs> erste Rollen im <rs type="place" xml:id="pl_00001" ref="#pmb92393">Matzleinsdorfertheater</rs>: Diener in der <rs type="work" xml:id="bibl_23509">Cameliendame</rs> 
 und Irrenarzt in <rs type="work" xml:id="bibl_23510">Marie Anne</rs>.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_00010"><forename>Ida</forename></rs> beginnt sich für mich zu interessiren.</p>
             <p xml:space="preserve" rend="indent">― Manchmal halt’ ich meine Liebe zu <rs type="person" xml:id="pNt_00011"><forename>Fännchen</forename></rs> nur für ein Gegengeschenk. 
 Erinnerung an ein ungefähr 72 geschriebnes Stück, das die <rs type="work" subtype="self" xml:id="bibl_23511">Geschichte 
 eines japanesischen Prinzen</rs> behandelt.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

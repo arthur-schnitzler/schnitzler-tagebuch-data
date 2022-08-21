@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-06-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-06-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-06-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-06-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-06-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-06-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-197A-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7300.tif"/>
@@ -182,16 +186,15 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1929-06-02">
-            <p xml:space="preserve"><date when="1929-06-02">2/6</date> S.― Telef. mit <rs type="person" xml:id="pNt_86932" ref="#person_19832"><forename>O.</forename></rs> <rs type="place" xml:id="pl_18680" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Im Auto mit <rs type="person" xml:id="pNt_86933" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> <rs type="place" xml:id="pl_18681" ref="#place_1d9e3f8c25741f8cee7f9445b137c3bb">Lainzer Tiergarten</rs> (vergeblich, Durchfahrt nicht 
-gestattet);― <rs type="place" xml:id="pl_18682" ref="#place_8d28dba374ae2ec899b64efb21f18dfa">Kalksburg</rs> ― <rs type="place" xml:id="pl_18683" ref="#place_0ad32d3934b7c963bf7225500f7532f1">Laab</rs> ― <rs type="place" xml:id="pl_18684" ref="#place_2bfab596c822f43774e473601de81d21">Hochroterd</rs> ― <rs type="place" xml:id="pl_18685" ref="#place_77c95abeb8d9e667058705d421a03453">Kaltenleutgeben</rs> 
-(kleiner Spazierg., Kirche) ― <rs type="place" xml:id="pl_18686" ref="#place_1c95cf6d9ec9bfc2709bedc313fa820b">Lainz</rs> (Rest. Weide), gegessen; nach 
+            <p xml:space="preserve"><date when="1929-06-02">2/6</date> S.― Telef. mit <rs type="person" xml:id="pNt_86932" ref="#person_19832"><forename>O.</forename></rs> <rs type="place" xml:id="pl_18680" ref="#pmb168">Berlin</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Im Auto mit <rs type="person" xml:id="pNt_86933" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> <rs type="place" xml:id="pl_18681" ref="#pmb91099">Lainzer Tiergarten</rs> (vergeblich, Durchfahrt nicht 
+gestattet);― <rs type="place" xml:id="pl_18682" ref="#pmb90979">Kalksburg</rs> ― <rs type="place" xml:id="pl_18683" ref="#pmb91091">Laab</rs> ― <rs type="place" xml:id="pl_18684" ref="#pmb90889">Hochroterd</rs> ― <rs type="place" xml:id="pl_18685" ref="#pmb44102">Kaltenleutgeben</rs> 
+(kleiner Spazierg., Kirche) ― <rs type="place" xml:id="pl_18686" ref="#pmb49452">Lainz</rs> (Rest. Weide), gegessen; nach 
 Hause.</p>
             <p xml:space="preserve" rend="indent">Den ganzen Nachm. in ziemlich übelm Befinden.</p>
             <p xml:space="preserve" rend="indent">― <rs type="work" subtype="self" xml:id="bibl_405">Spiel der Sommerlüfte</rs> vorgenommen.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_86934" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>,― zum Nachtm. Reisepläne, Nordlandsprospecte.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

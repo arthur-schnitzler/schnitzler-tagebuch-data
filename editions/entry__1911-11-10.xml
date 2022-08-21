@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-11-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-11-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-11-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-11-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-11-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-11-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0072-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3269.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1911-11-10">
-            <p xml:space="preserve"><date when="1911-11-10">10/11</date> <rs type="place" xml:id="pl_07692" ref="#place_35d7df6ed3d93be2927d14acc5f1fc9a">Hamburg</rs>. Ruhig daheim. „Hochzeitsreisetag.“―</p>
-            <p xml:space="preserve" rend="indent">Nm. <rs type="place" xml:id="pl_07693" ref="#place_cdbacbe4ef7a8576ee02398d89533b87">Blankenese</rs>. Sonnenuntergang über der <rs type="place" xml:id="pl_07694" ref="#place_d17fd933f9295721a2e5c1ebd2b08d6a">Elbe</rs>.</p>
+            <p xml:space="preserve"><date when="1911-11-10">10/11</date> <rs type="place" xml:id="pl_07692" ref="#pmb506">Hamburg</rs>. Ruhig daheim. „Hochzeitsreisetag.“―</p>
+            <p xml:space="preserve" rend="indent">Nm. <rs type="place" xml:id="pl_07693" ref="#pmb1226">Blankenese</rs>. Sonnenuntergang über der <rs type="place" xml:id="pl_07694" ref="#pmb90577">Elbe</rs>.</p>
             <p xml:space="preserve" rend="indent">Abreise. <rs type="person" xml:id="pNt_36621" ref="#person_16958"><roleName>Herr</roleName> <surname>Koehne</surname></rs> an der Bahn.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

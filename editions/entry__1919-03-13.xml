@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-03-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-03-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-03-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-03-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-03-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-03-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0AE7-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4813.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1919-03-13">
-            <p xml:space="preserve"><date when="1919-03-13">13/3</date> Vm. <rs type="place" ref="#place_volkstheater">Volksth.</rs>, General Pr.: „<rs type="work" xml:id="bibl_4660">Adam Eva und die Schlange</rs>“ von <rs type="person" xml:id="pNt_55648" ref="#person_14626"><forename>Paul</forename> 
+            <p xml:space="preserve"><date when="1919-03-13">13/3</date> Vm. <rs type="place" ref="#pmb92202">Volksth.</rs>, General Pr.: „<rs type="work" xml:id="bibl_4660">Adam Eva und die Schlange</rs>“ von <rs type="person" xml:id="pNt_55648" ref="#person_14626"><forename>Paul</forename> 
 <surname>Eger</surname></rs>.― Arger Kitsch.― <rs type="person" xml:id="pNt_55649" ref="#person_14626"><surname>Egers</surname></rs> Bruder, gleichfalls dramat. Autor stellt 
 sich vor und wollte mein Urtheil wissen, das ich ausweichend höflich gab.</p>
             <p xml:space="preserve" rend="indent">Nm. am „<rs type="work" subtype="self" xml:id="bibl_4661">Weiher</rs>“.―</p>
             <p xml:space="preserve" rend="indent"><rs type="work" subtype="self" xml:id="bibl_4662">Tgb.</rs> 98 zu Ende.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

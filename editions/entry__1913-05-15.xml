@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-05-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-05-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-05-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-05-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-05-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-05-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-029A-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3619.tif"/>
@@ -195,12 +199,12 @@ von <rs type="person" xml:id="pNt_40774" ref="#person_21600"><forename>Mimi</for
             <p xml:space="preserve" rend="indent">Zu Tisch das <rs type="person" xml:id="pNt_40780" ref="#person_18881"><roleName>Frl.</roleName> <surname>Pollak</surname></rs> (Markenkastl).</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_40781" ref="#person_19822"><forename>Heini</forename></rs> spielt <rs type="person" xml:id="pNt_40782" ref="#person_18282"><surname>Mozart</surname></rs> vor.―</p>
             <p xml:space="preserve" rend="indent">Nm. auf der Terrasse, Zeitungen.</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_40783" ref="#person_21602"><forename>Vicki</forename></rs>, dann <rs type="person" xml:id="pNt_40784" ref="#person_15854"><forename>Gisa</forename></rs>, die bald ging. Regisseur <rs type="person" xml:id="pNt_40785" ref="#person_17567"><surname>Linden</surname></rs> und Frau (<rs type="place" xml:id="pl_08279" ref="#place_fcfff492e00727b63cf5dff9f59bc2a4">Stockholm</rs>), 
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_40783" ref="#person_21602"><forename>Vicki</forename></rs>, dann <rs type="person" xml:id="pNt_40784" ref="#person_15854"><forename>Gisa</forename></rs>, die bald ging. Regisseur <rs type="person" xml:id="pNt_40785" ref="#person_17567"><surname>Linden</surname></rs> und Frau (<rs type="place" xml:id="pl_08279" ref="#pmb1119">Stockholm</rs>), 
 und <rs type="person" xml:id="pNt_40786" ref="#person_21602"><forename>Vicki</forename></rs> zum Thee. Viel über meine Stücke, besonders <rs type="work" subtype="self" xml:id="bibl_9457">Weites Land</rs>. 
-(Ich werde in <rs type="place" xml:id="pl_08280" ref="#place_fcfff492e00727b63cf5dff9f59bc2a4">Stockholm</rs> viel gespielt.)</p>
+(Ich werde in <rs type="place" xml:id="pl_08280" ref="#pmb1119">Stockholm</rs> viel gespielt.)</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_40787" ref="#person_19821"><forename>Hans</forename></rs> und <rs type="person" xml:id="pNt_40788" ref="#person_19828"><forename>Karl</forename></rs> kamen gratuliren; dann auch <rs type="person" xml:id="pNt_40789" ref="#person_21107"><surname>Wassermann</surname></rs>, wir saßen in 
 der Dämmerung auf der Veranda und ich hörte kaum.―</p>
-            <p xml:space="preserve" rend="indent">Ungeschicklichkeit <rs type="person" xml:id="pNt_40790" ref="#person_15009"><surname>Fischer</surname></rs> (<rs type="person" xml:id="pNt_40791" ref="#person_20624"><surname>Tal</surname></rs>),― <rs type="place" xml:id="pl_08281" ref="#place_2f8cfc13edee95175f630a54177679cf">Preßburg</rs> <rs type="work" subtype="self" xml:id="bibl_9458">Bernhardi</rs> Aufführung 
+            <p xml:space="preserve" rend="indent">Ungeschicklichkeit <rs type="person" xml:id="pNt_40790" ref="#person_15009"><surname>Fischer</surname></rs> (<rs type="person" xml:id="pNt_40791" ref="#person_20624"><surname>Tal</surname></rs>),― <rs type="place" xml:id="pl_08281" ref="#pmb39615">Preßburg</rs> <rs type="work" subtype="self" xml:id="bibl_9458">Bernhardi</rs> Aufführung 
 dem dortigen intriganten Direktor irrtümlich überlassen wollend.―</p>
             <p xml:space="preserve" rend="indent">Mit O. allein genachtmahlt; in trüber und müder Stimmung. Olga, 
 von den vielen Menschen müde; rasch zu Bett. „Ich werde wieder 
@@ -208,6 +212,5 @@ einmal durchgehn.“ ― Ich auf meinen Balkon, schöne Luft, allein, in
 bittern Thränen. So ein „Glücklicher“.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

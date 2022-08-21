@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-02-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-02-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-02-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-02-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-02-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-02-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0F11-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5649.tif"/>
@@ -181,16 +185,15 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1922-02-12">
-            <p xml:space="preserve"><date when="1922-02-12">12/2</date> S.― Über <rs type="place" xml:id="pl_13659" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> ― <rs type="place" xml:id="pl_13660" ref="#place_f5af0e4beb99b2ded62ac5ff72643954">Dornbach</rs>; dort mit <rs type="person" xml:id="pNt_65225" ref="#person_17509"><surname>Lichtensterns</surname></rs> (er, 
-sie, <rs type="person" xml:id="pNt_65226"><forename>Franzl</forename></rs>) zusammengetroffen; nach <rs type="place" xml:id="pl_13661" ref="#place_318e051b87a18bd62b48dc49a3318206">Hütteldorf</rs>. Grauer kalter Wintertag.―</p>
+            <p xml:space="preserve"><date when="1922-02-12">12/2</date> S.― Über <rs type="place" xml:id="pl_13659" ref="#pmb169">Pötzleinsdorf</rs> ― <rs type="place" xml:id="pl_13660" ref="#pmb90546">Dornbach</rs>; dort mit <rs type="person" xml:id="pNt_65225" ref="#person_17509"><surname>Lichtensterns</surname></rs> (er, 
+sie, <rs type="person" xml:id="pNt_65226"><forename>Franzl</forename></rs>) zusammengetroffen; nach <rs type="place" xml:id="pl_13661" ref="#pmb90913">Hütteldorf</rs>. Grauer kalter Wintertag.―</p>
             <p xml:space="preserve" rend="indent">Nm. las ich die <rs type="person" xml:id="pNt_65227" ref="#person_16646"><surname>Kainz</surname></rs> <rs type="work" xml:id="bibl_2342">Briefe</rs> zu Ende.―</p>
-            <p xml:space="preserve" rend="indent">Z. N. bei <rs type="person" xml:id="pNt_65228" ref="#person_19755"><surname>Schmidls</surname></rs>, die Dinstag nach <rs type="place" xml:id="pl_13662" ref="#place_c38ad36647aca0261d667c432a4866bd">Salzburg</rs> fahren; gab ihnen eine 
+            <p xml:space="preserve" rend="indent">Z. N. bei <rs type="person" xml:id="pNt_65228" ref="#person_19755"><surname>Schmidls</surname></rs>, die Dinstag nach <rs type="place" xml:id="pl_13662" ref="#pmb91649">Salzburg</rs> fahren; gab ihnen eine 
 Werkstättentasche mit, die wie man mir neulich im Geschäft gesagt, <rs type="person" xml:id="pNt_65229" ref="#person_19832"><forename>O.</forename></rs> 
 gefallen.― ― <rs type="person" xml:id="pNt_65230" ref="#person_20075"><roleName>Frau</roleName> <surname>Sgal</surname></rs>, <rs type="person" xml:id="pNt_65231" ref="#person_16852"><forename>Hansi</forename></rs> und ihr Mann ― Über die Zustände im Hause 
 <rs type="person" xml:id="pNt_65232"><surname>Wassermann</surname></rs>; das unmögliche Haus, <rs type="person" xml:id="pNt_65233"><forename>Juliens</forename></rs> Verrücktheiten;― Herzkrankheiten, 
 <rs type="person" xml:id="pNt_65234" ref="#person_21229"><surname>Wenckebach</surname></rs>, <rs type="person" xml:id="pNt_65235" ref="#person_18584"><surname>Ortner</surname></rs>;― Unsicherheit der Diagnosen (<rs type="person" xml:id="pNt_65236" ref="#person_19755"><forename>Hugo</forename></rs> <rs type="person" xml:id="pNt_65237"><forename>Schm.</forename></rs> leidend).― </p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

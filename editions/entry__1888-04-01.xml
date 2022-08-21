@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1888-04-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1888-03-31.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1888-04-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1888-04-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1888-03-31.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1888-04-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E00F-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0339.tif"/>
@@ -181,9 +185,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1888-04-01">
-            <p xml:space="preserve"><date when="1888-04-01">1/4</date> Ostersonntag. Mit <rs type="person" xml:id="pNt_03117" ref="#person_16022"><forename>Jean.</forename></rs> <rs type="place" xml:id="pl_00643" ref="#place_86a694cf5ce5552ca627cb96b607eccd">Prater</rs>. <rs type="org">Kühfuß</rs>.― 0.</p>
+            <p xml:space="preserve"><date when="1888-04-01">1/4</date> Ostersonntag. Mit <rs type="person" xml:id="pNt_03117" ref="#person_16022"><forename>Jean.</forename></rs> <rs type="place" xml:id="pl_00643" ref="#pmb91530">Prater</rs>. <rs type="org">Kühfuß</rs>.― 0.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

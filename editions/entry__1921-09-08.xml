@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1921-09-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-09-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-09-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1921-09-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-09-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-09-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0E74-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5522.tif"/>
@@ -181,14 +185,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1921-09-08">
-            <p xml:space="preserve"><date when="1921-09-08">8/9</date> Mit <rs type="person" xml:id="pNt_63637" ref="#person_14130"><forename>Lili</forename></rs> früh 8 nach <rs type="place" xml:id="pl_13349" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>. Überfüllter Zug.―</p>
+            <p xml:space="preserve"><date when="1921-09-08">8/9</date> Mit <rs type="person" xml:id="pNt_63637" ref="#person_14130"><forename>Lili</forename></rs> früh 8 nach <rs type="place" xml:id="pl_13349" ref="#pmb50">Wien</rs>. Überfüllter Zug.―</p>
             <p xml:space="preserve" rend="indent">Ich lese (zum 2. Mal) <rs type="person" xml:id="pNt_63638" ref="#person_15108"><surname>France</surname></rs>, <rs type="work" xml:id="bibl_3492">Hist. comique</rs>; <rs type="person" xml:id="pNt_63639" ref="#person_14130"><forename>Lili</forename></rs> <rs type="work" xml:id="bibl_3493"><rs type="person" xml:id="pNt_63640"><surname>Mozart</surname></rs> Novellen</rs> von 
-<rs type="person" xml:id="pNt_63641" ref="#person_17752"><surname>Lyser</surname></rs>.― Ankunft <rs type="place" xml:id="pl_13350" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> 5 Uhr; <rs type="person" xml:id="pNt_63642" ref="#person_18687"><forename>Paula</forename></rs> an der Bahn.― Nach Hause. <rs type="person" xml:id="pNt_63643" ref="#person_19822"><forename>Heini</forename></rs> sieht 
+<rs type="person" xml:id="pNt_63641" ref="#person_17752"><surname>Lyser</surname></rs>.― Ankunft <rs type="place" xml:id="pl_13350" ref="#pmb50">Wien</rs> 5 Uhr; <rs type="person" xml:id="pNt_63642" ref="#person_18687"><forename>Paula</forename></rs> an der Bahn.― Nach Hause. <rs type="person" xml:id="pNt_63643" ref="#person_19822"><forename>Heini</forename></rs> sieht 
 gut aus, ist vergnügt; erzählt von Wanderbühne und Hofbibliothek 
 (<rs type="person" xml:id="pNt_63644" ref="#person_15638"><surname>Gregor</surname></rs>), er arbeitet an einer Insz. von „<rs type="work" xml:id="bibl_3494">Maß für Maß</rs>“ ―</p>
             <p xml:space="preserve" rend="indent">Ordnen etc.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-03-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-03-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-03-31.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-03-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-03-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-03-31.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F726-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2061.tif"/>
@@ -180,14 +184,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1905-03-30">
-            <p xml:space="preserve"><date when="1905-03-30">30/3</date> Vorm. bei <rs type="person" xml:id="pNt_22681" ref="#person_13374"><surname>Bahr</surname></rs>. (Über den Mißerfolg der <rs type="work" xml:id="bibl_15607">Sanna</rs> in <rs type="place" xml:id="pl_05135" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>, über 
+            <p xml:space="preserve"><date when="1905-03-30">30/3</date> Vorm. bei <rs type="person" xml:id="pNt_22681" ref="#person_13374"><surname>Bahr</surname></rs>. (Über den Mißerfolg der <rs type="work" xml:id="bibl_15607">Sanna</rs> in <rs type="place" xml:id="pl_05135" ref="#pmb168">Berlin</rs>, über 
 <rs type="work" xml:id="bibl_15608">Charolais</rs>, über die Krankheit der <rs type="person" xml:id="pNt_22682" ref="#person_13376"><surname>Mildenburg</surname></rs>.) ―</p>
             <p xml:space="preserve" rend="indent">Nm. begann ich das gestern entworfene Stück (vorläufig „<rs type="work" subtype="self" xml:id="bibl_15609">Die 
 Vatermörderin</rs>“).</p>
             <p xml:space="preserve" rend="indent">Abd. bei der „<rs type="person" xml:id="pNt_22683" ref="#person_13410"><surname>Barbi</surname></rs>“. Dann mit O. und <rs type="person" xml:id="pNt_22684" ref="#person_19827"><forename>Jul.</forename></rs>, <rs type="person" xml:id="pNt_22685" ref="#person_19823"><forename>Helene</forename></rs>, <rs type="person" xml:id="pNt_22686" ref="#person_13169"><roleName>Frau</roleName> 
-<surname>Altmann</surname></rs> <rs type="place" ref="#place_meissl">Meissl</rs> soupirt.―</p>
+<surname>Altmann</surname></rs> <rs type="place" ref="#pmb96">Meissl</rs> soupirt.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

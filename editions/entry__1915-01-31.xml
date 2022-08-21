@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-01-31.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-01-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1915-01-31.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-01-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-050A-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3980.tif"/>
@@ -181,16 +185,15 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1915-01-31">
-            <p xml:space="preserve"><date when="1915-01-31">31/1</date> S. früh ich nach <rs type="place" xml:id="pl_09196" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>. Verspätung. Südbahn gegessen. Telephonische 
+            <p xml:space="preserve"><date when="1915-01-31">31/1</date> S. früh ich nach <rs type="place" xml:id="pl_09196" ref="#pmb50">Wien</rs>. Verspätung. Südbahn gegessen. Telephonische 
 Erledigungen.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_44890" ref="#person_19756"><forename>Paula</forename></rs> und <rs type="person" xml:id="pNt_44891" ref="#person_16852"><forename>Hansi</forename> <surname>Schmidl</surname></rs> in den Volksbildungsverein. Ich las 
-(<rs type="place" xml:id="pl_09197" ref="#place_70b50d6b0c80f1e664545cfa6a7dbbfe">Stöbergasse</rs>) <rs type="work" subtype="self" xml:id="bibl_7899">Geronimo</rs> ― und <rs type="work" subtype="self" xml:id="bibl_7900">Kakadu</rs>, mit großem Erfolg.― Frau <rs type="person" xml:id="pNt_44892" ref="#person_13641"><roleName>Prof.</roleName> 
+(<rs type="place" xml:id="pl_09197" ref="#pmb92552">Stöbergasse</rs>) <rs type="work" subtype="self" xml:id="bibl_7899">Geronimo</rs> ― und <rs type="work" subtype="self" xml:id="bibl_7900">Kakadu</rs>, mit großem Erfolg.― Frau <rs type="person" xml:id="pNt_44892" ref="#person_13641"><roleName>Prof.</roleName> 
 <surname>Bergmeister</surname></rs> wegen ihrer projekt. Veranstaltung da, läßt mir einen Brief 
 zurück, ich solle bei ihr „<rs type="work" subtype="self" xml:id="bibl_7901">Geronimo</rs>“ vor kleinem Publikum (Minister 
 etc.) für die im Feld Erblindeten lesen. Gern, aber wo anders.</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_44893" ref="#person_19755"><surname>Schmidls</surname></rs> genachtmahlt.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

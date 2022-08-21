@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-11-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-11-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-11-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-11-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-11-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-11-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F804-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2149.tif"/>
@@ -180,13 +184,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1905-11-07">
-            <p xml:space="preserve"><date when="1905-11-07">7/11</date> Nach Schreckenstein, herumgebummelt, an der <rs type="place" xml:id="pl_05358" ref="#place_d17fd933f9295721a2e5c1ebd2b08d6a">Elbe</rs>; Mittags nach 
-<rs type="place" xml:id="pl_05359" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>. Enervirte Reise. (Lese „<rs type="work" xml:id="bibl_16041">Homme en amour</rs>“.) ― 10 Uhr Abd. zu Haus. 
+            <p xml:space="preserve"><date when="1905-11-07">7/11</date> Nach Schreckenstein, herumgebummelt, an der <rs type="place" xml:id="pl_05358" ref="#pmb90577">Elbe</rs>; Mittags nach 
+<rs type="place" xml:id="pl_05359" ref="#pmb50">Wien</rs>. Enervirte Reise. (Lese „<rs type="work" xml:id="bibl_16041">Homme en amour</rs>“.) ― 10 Uhr Abd. zu Haus. 
 O. kommt von <rs type="person" xml:id="pNt_23803" ref="#person_19351"><surname>Rosé</surname></rs> Quartett. <rs type="work" subtype="newspaper" xml:id="bibl_16042">N. Fr. Pr.</rs> (<rs type="person" xml:id="pNt_23804" ref="#person_20510"><surname>Strauss</surname></rs>) möchte Feuilleton über 
 „<rs type="place" xml:id="pl_05360" ref="#place_799308c246aa55f468eb536f528d1cbb" ana="#exclude">Prager</rs> Eindrücke“.― Gute Stimmung;― gestört vorübergehend durch die 
 beträchtlichen Ausgaben (<rs type="person" xml:id="pNt_23805" ref="#person_20386"><forename>Liesl</forename></rs>).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

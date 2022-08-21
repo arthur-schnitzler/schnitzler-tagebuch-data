@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-03-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-03-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-03-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-03-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-03-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-03-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-10A4-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5994.tif"/>
@@ -213,11 +217,10 @@ ist Ihr Name nicht <rs type="person" xml:id="pNt_68919" ref="#person_17526"><sur
 Ich: Gott sei Dank nein.―</p>
             <p xml:space="preserve" rend="indent">Lese zu Haus <rs type="person" xml:id="pNt_68920" ref="#person_20252"><forename>Wilh.</forename> <surname>Speyers</surname></rs> „<rs type="work" xml:id="bibl_1733">Schwermuth der Jahreszeiten</rs>“ zu Ende. Feines 
 Buch.</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" ref="#place_burgtheater">Burgtheater</rs> telefonirt (<rs type="person" xml:id="pNt_68921" ref="#person_19067"><surname>Ratislav</surname></rs>), ob auf dem Zettel <rs type="work" subtype="self" xml:id="bibl_1734">Schwestern</rs> 
+            <p xml:space="preserve" rend="indent"><rs type="place" ref="#pmb14">Burgtheater</rs> telefonirt (<rs type="person" xml:id="pNt_68921" ref="#person_19067"><surname>Ratislav</surname></rs>), ob auf dem Zettel <rs type="work" subtype="self" xml:id="bibl_1734">Schwestern</rs> 
 Lustspiel ― „in Versen“ wegbleiben könne!― Ich: Oh gern, nennen 
 Sie’s gleich „Schwank von einem <rs type="place" xml:id="pl_14600" ref="#place_ee4c6f2f0df2cd2abf7db20478cad25d" ana="#exclude">Wiener</rs> Kritiker“.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

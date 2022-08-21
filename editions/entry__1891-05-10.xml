@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1891-05-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-05-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-05-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1891-05-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-05-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-05-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E3EB-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0529.tif"/>
@@ -182,12 +186,11 @@
       <body>
          <div type="diary-day" xml:id="entry__1891-05-10">
             <p xml:space="preserve"><date when="1891-05-10">10/5</date> Sonntag. Vorm. <rs type="person" xml:id="pNt_05260" ref="#person_15485"><forename>Mz.</forename></rs> bei mir (3).</p>
-            <p xml:space="preserve" rend="indent">Nachm. bei der Probe des „<rs type="work" subtype="self" xml:id="bibl_23080">Abenteuer</rs>“ in der <rs type="place" xml:id="pl_01069" ref="#place_a9a988302086229505c21f885134919d">Josefstadt</rs>.</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_05261" ref="#person_15485"><forename>Mz.</forename></rs> und ihrer Mutter in den <rs type="place" xml:id="pl_01070" ref="#place_86a694cf5ce5552ca627cb96b607eccd">Prater</rs> (Schießstätte) zum „Fest“ 
+            <p xml:space="preserve" rend="indent">Nachm. bei der Probe des „<rs type="work" subtype="self" xml:id="bibl_23080">Abenteuer</rs>“ in der <rs type="place" xml:id="pl_01069" ref="#pmb58">Josefstadt</rs>.</p>
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_05261" ref="#person_15485"><forename>Mz.</forename></rs> und ihrer Mutter in den <rs type="place" xml:id="pl_01070" ref="#pmb91530">Prater</rs> (Schießstätte) zum „Fest“ 
 der Austria, Ruderclub, bei dem <rs type="person" xml:id="pNt_05262" ref="#person_15485"><forename>Mz.s</forename></rs> Bruder ist. Ich fühlte mich sehr 
 wohl mit ihr, der Rückweg war auch schön.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

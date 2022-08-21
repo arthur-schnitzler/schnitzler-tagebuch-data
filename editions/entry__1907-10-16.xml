@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1907-10-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-10-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-10-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1907-10-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-10-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-10-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FAC8-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,18 +176,20 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2424.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1907-10-16">
             <p xml:space="preserve"><date when="1907-10-16">16/10</date> Vm. Tennis.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_14505">Roman</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Hr. <rs type="person" xml:id="pNt_27431" ref="#person_15691"><forename>Stefan</forename> <surname>Grossmann</surname></rs> holte mich ab; in die <rs type="place" xml:id="pl_06144" ref="#place_3d647a65f30aa5a383d2536850e9ce0e">Königsegg.</rs> wo ich für die 
+            <p xml:space="preserve" rend="indent">Hr. <rs type="person" xml:id="pNt_27431" ref="#person_15691"><forename>Stefan</forename> <surname>Grossmann</surname></rs> holte mich ab; in die <rs type="place" xml:id="pl_06144" ref="#pmb1210">Königsegg.</rs> wo ich für die 
 Mitglieder der fr. Volksbühne (und „Nichtmitglieder“) „<rs type="work" subtype="self" xml:id="bibl_14506">Das neue Lied</rs>“ 
 und „<rs type="work" subtype="self" xml:id="bibl_14507">Gustl</rs>“ vorlas; besonders letztes mit sehr starker Wirkung.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

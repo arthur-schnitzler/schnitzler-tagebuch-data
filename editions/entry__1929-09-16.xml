@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-09-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-09-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-09-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-09-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-09-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-09-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-19E4-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7353.tif"/>
@@ -182,8 +186,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1929-09-16">
-            <p xml:space="preserve"><date when="1929-09-16">16/9</date> <rs type="place" xml:id="pl_18915" ref="#place_07746ef3772ea6e718f5cd3a37681d92">Marienbad</rs>. Frühstück mit <rs type="person" xml:id="pNt_87638" ref="#person_13551"><forename>Rich.</forename></rs> und <rs type="person" xml:id="pNt_87639" ref="#person_13550"><forename>Paula</forename></rs> im Kurgarten.― 
-Nachgesandte Post aus <rs type="place" xml:id="pl_18916" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>; unbeträchtlich.―</p>
+            <p xml:space="preserve"><date when="1929-09-16">16/9</date> <rs type="place" xml:id="pl_18915" ref="#pmb91211">Marienbad</rs>. Frühstück mit <rs type="person" xml:id="pNt_87638" ref="#person_13551"><forename>Rich.</forename></rs> und <rs type="person" xml:id="pNt_87639" ref="#person_13550"><forename>Paula</forename></rs> im Kurgarten.― 
+Nachgesandte Post aus <rs type="place" xml:id="pl_18916" ref="#pmb50">Wien</rs>; unbeträchtlich.―</p>
             <p xml:space="preserve" rend="indent">Spazieren Egerländer.―</p>
             <p xml:space="preserve" rend="indent">Mittag im Hotel.</p>
             <p xml:space="preserve" rend="indent">Nm. Briefe etc.</p>
@@ -192,6 +196,5 @@ Nachgesandte Post aus <rs type="place" xml:id="pl_18916" ref="#place_1b388e3352c
             <p xml:space="preserve" rend="indent">Im Hotel genachtm. mit <rs type="person" xml:id="pNt_87645" ref="#person_13551"><forename>Rich.</forename></rs> und <rs type="person" xml:id="pNt_87646" ref="#person_13550"><forename>Paula</forename></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

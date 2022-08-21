@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-11-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-11-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-11-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-11-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-11-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-11-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-18AB-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7189.tif"/>
@@ -183,10 +187,9 @@
          <div type="diary-day" xml:id="entry__1928-11-07">
             <p xml:space="preserve"><date when="1928-11-07">7/11</date> Dict. <rs type="work" subtype="self" xml:id="bibl_19752">Aph.</rs>;― <rs type="person" xml:id="pNt_85198" ref="#person_14130"><forename>Lili</forename></rs> <rs type="work" xml:id="bibl_19753">Tgb.</rs>―</p>
             <p xml:space="preserve" rend="indent">Nm. Pläne durchgesehn.</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_85199" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Kino (<rs type="place" xml:id="pl_18373" ref="#place_3b0cf80ce6f7c6e0340cf31265c8f3f7">Sievring</rs>, zum 1. Mal) „<rs type="work" xml:id="bibl_19754">Frauen die anders fühlen</rs>“.― 
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_85199" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Kino (<rs type="place" xml:id="pl_18373" ref="#pmb64219">Sievring</rs>, zum 1. Mal) „<rs type="work" xml:id="bibl_19754">Frauen die anders fühlen</rs>“.― 
 Im „Auge Gottes“ genachtm.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-08-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-08-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-018D-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3462.tif"/>
@@ -182,13 +186,12 @@
       <body>
          <div type="diary-day" xml:id="entry__1912-08-19">
             <p xml:space="preserve"><date when="1912-08-19">19/8</date> Vm. Bad.―</p>
-            <p xml:space="preserve" rend="indent">Nm. Motor auf die Insel <rs type="place" xml:id="pl_08001" ref="#place_6ff00faae09f5f8852c28906e34de724">Gronghera</rs>. (<rs type="person" xml:id="pNt_38636" ref="#person_21601"><surname>Zuckerkandls</surname></rs>, <rs type="person" xml:id="pNt_38637" ref="#person_19755"><surname>Schmidls</surname></rs>, 
+            <p xml:space="preserve" rend="indent">Nm. Motor auf die Insel <rs type="place" xml:id="pl_08001" ref="#pmb92260">Gronghera</rs>. (<rs type="person" xml:id="pNt_38636" ref="#person_21601"><surname>Zuckerkandls</surname></rs>, <rs type="person" xml:id="pNt_38637" ref="#person_19755"><surname>Schmidls</surname></rs>, 
 <rs type="person" xml:id="pNt_38638" ref="#person_16656"><surname>Kalcher</surname></rs>, <rs type="person" xml:id="pNt_38639" ref="#person_16316"><surname>Hold</surname></rs>, <rs type="person" xml:id="pNt_38640" ref="#person_17204"><surname>Kupelwieser</surname></rs>, <rs type="person" xml:id="pNt_38641" ref="#person_14259"><surname>Colmers</surname></rs>, <rs type="person" xml:id="pNt_38642" ref="#person_20545"><surname>Stross’</surname></rs>. Auch die Kinder.) 
 Champagnernachtmahl auf den Klippen. <rs type="place" xml:id="pl_08002" ref="#place_020896dedb63b0c237eb15a10169cbcb" ana="#exclude">Istrianische</rs> Hirtenflöten. 
 Mond. Ferne Schiffe.― Meerleuchten auf der Rückfahrt. (<rs type="person" xml:id="pNt_38643" ref="#person_21601"><surname>Zuckerkandls</surname></rs> 
 Gespräche über seine Frau mit O.)</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

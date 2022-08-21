@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1896-01-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-01-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-01-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1896-01-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-01-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-01-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EA7E-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1095.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1896-01-02">
-            <p xml:space="preserve"><date when="1896-01-02">2/1</date> Vorm. mit <rs type="person" xml:id="pNt_11523" ref="#person_19564"><forename>Dilly</forename></rs> im <rs type="place" xml:id="pl_02168" ref="#place_86a694cf5ce5552ca627cb96b607eccd">Prater</rs> spazieren. Schöner Wintertag. Ihre 
+            <p xml:space="preserve"><date when="1896-01-02">2/1</date> Vorm. mit <rs type="person" xml:id="pNt_11523" ref="#person_19564"><forename>Dilly</forename></rs> im <rs type="place" xml:id="pl_02168" ref="#pmb91530">Prater</rs> spazieren. Schöner Wintertag. Ihre 
 Erzählung. Sie traf bei <rs type="person" xml:id="pNt_11524"><roleName>Dr.</roleName> <surname>H.</surname></rs> meinen <rs type="allusively" xml:id="rst_00235">Schwager</rs>. Sie zu ihm: Was 
 macht Ihr Schwager, dieser Haderlump?― Er ist kein Haderlump.― 
 Glauben Sie? Nun, mir hat er mein Lebensglück vernichtet.― Nm. 
@@ -199,6 +203,5 @@ keine Chance. „Sie möcht ich auch nicht“― Anspielungen auf die <rs type="
 aussehend, mir gleichgiltig.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

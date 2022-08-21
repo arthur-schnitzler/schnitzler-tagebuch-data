@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1883-08-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1883-08-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1883-09-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1883-08-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1883-08-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1883-09-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DEA1-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0206.tif"/>
@@ -184,7 +188,7 @@
          <div type="diary-day" xml:id="entry__1883-08-28">
             <p xml:space="preserve"><date when="1883-08-28">28/8</date> Dinstag ―</p>
             <p xml:space="preserve" rend="indent">Am Sonntag war ich mit den Mädchen beim Rennen unten; 
-Abends trafen wir uns in <rs type="place" xml:id="pl_00385" ref="#place_5950fd03d3f74ac53838a9daabc6cf48">Döbling</rs> beim schwarzen Adler. Die 
+Abends trafen wir uns in <rs type="place" xml:id="pl_00385" ref="#pmb69">Döbling</rs> beim schwarzen Adler. Die 
 Gesellschaft bestand aus <rs type="role" xml:id="pNt_02007"><forename>Toni</forename></rs>, <rs type="person" xml:id="pNt_02008" ref="#person_14898"><forename>Minna</forename></rs>, <rs type="person" xml:id="pNt_02009" ref="#person_18600"><forename>Wilhelm</forename></rs>, <rs type="person" xml:id="pNt_02010" ref="#person_20643"><forename>Richard</forename></rs>, meinem <rs type="allusively" xml:id="rst_00038">Bruder</rs>, 
 einem zufälligen <rs type="person" xml:id="pNt_02011" ref="#person_16114"><roleName>Herrn</roleName> <surname>Hernfeld</surname></rs> und mir. Ich trank ungefähr drei 
 Flaschen Wein, war lustig ― aber stets mit dem Bewußtsein 
@@ -201,7 +205,7 @@ von den Mädchen wegging, aber schon in einem spätern Stadium,
                <fw place="top_right" type="pageNum">157</fw>
             </tei:fw>
             <p xml:space="preserve" rend="indent">Mit einem erbärmlichen, mehr seelischen Katzenjammer mit dem Regiment 
-einen langweiligen Marsch nach <rs type="place" xml:id="pl_00386" ref="#place_b432dafcf1fedfa604e765fb6b1b1c84">Aspern</rs> etc. aufs <rs type="place" xml:id="pl_00387" ref="#place_8861492f9561ba52a2aa096a7a9765d8">Marchfeld</rs> gemacht, 
+einen langweiligen Marsch nach <rs type="place" xml:id="pl_00386" ref="#pmb90272">Aspern</rs> etc. aufs <rs type="place" xml:id="pl_00387" ref="#pmb91205">Marchfeld</rs> gemacht, 
 in tiefster Sonnenhitze um ½2 zurückgekehrt. Von ½3 bis 
 Abends ½8 geschlafen.</p>
             <p xml:space="preserve" rend="indent">Abends mit <rs type="person" xml:id="pNt_02013" ref="#person_18600"><forename>Wilhelm</forename></rs> und den Mädchen wie so oft in letzter Zeit im 
@@ -215,6 +219,5 @@ als Episode. Weiter nichts. Objectiv wenigstens.―</p>
             <p xml:space="preserve" rend="center">September</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

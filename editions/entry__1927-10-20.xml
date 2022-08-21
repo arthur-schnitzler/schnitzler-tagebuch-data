@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-10-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-10-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-10-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-10-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-10-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-10-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-172B-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6974.tif"/>
@@ -185,7 +189,7 @@
             <p xml:space="preserve"><date when="1927-10-20">20/10</date> Dictirt aus dem <rs type="work" subtype="self" xml:id="bibl_24738">Tgb.</rs>;― Briefe etc.</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_81949" ref="#person_13551"><forename>Richard</forename></rs>, wegen eines Briefs an <rs type="person" xml:id="pNt_81950" ref="#person_15009"><forename>S.</forename> <surname>Fischer</surname></rs>; er arbeitet am <rs type="work" xml:id="bibl_24739">jungen 
 David</rs> und will mir nächstens vorlesen.</p>
-            <p xml:space="preserve" rend="indent">Auf die Westbahn. <rs type="person" xml:id="pNt_81951" ref="#person_19832"><forename>O.</forename></rs> reist nach <rs type="place" xml:id="pl_17644" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> ab. „Mir ist das Herz so müd 
+            <p xml:space="preserve" rend="indent">Auf die Westbahn. <rs type="person" xml:id="pNt_81951" ref="#person_19832"><forename>O.</forename></rs> reist nach <rs type="place" xml:id="pl_17644" ref="#pmb168">Berlin</rs> ab. „Mir ist das Herz so müd 
 vom vielen Abschiednehmen.“ ― In den letzten Minuten kamen uns beiden 
 die Thränen.―</p>
             <p xml:space="preserve" rend="indent">Ins Kino (<rs type="work" xml:id="bibl_24740">Frauengasse von Algier</rs>). Als ich es verliess kam mir eben 
@@ -195,6 +199,5 @@ unvermuteten Begegnungen.</p>
 <rs type="person" xml:id="pNt_81953" ref="#person_18881"><forename>Kolap</forename></rs>. (<rs type="person" xml:id="pNt_81954" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> war bei ihr gewesen ― „so könne es nicht weiter gehn“.)</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

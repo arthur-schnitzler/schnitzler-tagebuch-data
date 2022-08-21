@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-08-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-08-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-08-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-08-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-08-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-08-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-045D-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,18 +177,20 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3865.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1914-08-10">
             <p xml:space="preserve"><date when="1914-08-10">10/8</date> ― Vm. Ruine Freudenberg.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_8961">Ormin</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_43884" ref="#person_19822"><forename>Heini</forename></rs> <rs type="place" xml:id="pl_08879" ref="#place_4293c5990fed6c6352653a9489c26ab9">Buchs</rs>. Erkundigung wegen der Heimreise Möglichkeiten; ― 
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_43884" ref="#person_19822"><forename>Heini</forename></rs> <rs type="place" xml:id="pl_08879" ref="#pmb859">Buchs</rs>. Erkundigung wegen der Heimreise Möglichkeiten; ― 
 zurück ―</p>
             <p xml:space="preserve" rend="indent">Gespräch nur über den Zustand der Welt.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

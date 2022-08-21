@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-06-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-06-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-06-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-06-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-06-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-06-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F773-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2087.tif"/>
@@ -184,7 +188,7 @@
             <p xml:space="preserve"><date when="1905-06-15">15/6</date> Vm. Besorgungen.―</p>
             <p xml:space="preserve" rend="indent">Nm. Frl. <rs type="person" xml:id="pNt_23022" ref="#person_13620"><forename>Helmi</forename> <surname>Berg</surname></rs> da, eine <rs type="place" xml:id="pl_05209" ref="#place_dd4f62331e9f87c5e2ec3c33536ee1fc" ana="#exclude">Russin</rs>, die mir geschrieben hatte. Sie 
 erzählt mir, wie alle <rs type="place" xml:id="pl_05210" ref="#place_84de3a89c71f49c7e2536891c03f849c" ana="#exclude">Russen</rs>, von meiner schriftst. Beliebtheit in 
-<rs type="place" xml:id="pl_05211" ref="#place_65f7b8e17e93bc2a87843d99e82c08a5">Rußland</rs>; von den vielen Aufführungen (<rs type="work" subtype="self" xml:id="bibl_15760">Märchen</rs> z. B., <rs type="work" subtype="self" xml:id="bibl_15761">Literatur</rs>) 
+<rs type="place" xml:id="pl_05211" ref="#pmb34438">Rußland</rs>; von den vielen Aufführungen (<rs type="work" subtype="self" xml:id="bibl_15760">Märchen</rs> z. B., <rs type="work" subtype="self" xml:id="bibl_15761">Literatur</rs>) 
 den <rs type="work" subtype="self" xml:id="bibl_15762">Gesamtausgaben</rs> ― und schien verwundert, dass hier 100 Leute die 
 sie nach mir gefragt (ohne Ausnahme) gesagt, ah ― „der, der den 
 <rs type="work" subtype="self" xml:id="bibl_15763">Reigen</rs> geschrieben“ … ― Über das niedre geistige Niveau der 
@@ -196,6 +200,5 @@ fortging den „<rs type="work" xml:id="bibl_15764">Juden</rs>“ in <rs type="p
 war da, ich clavierte, dann spielten wir ein bischen Roulette.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

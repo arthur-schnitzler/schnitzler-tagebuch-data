@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-05-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-05-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-05-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-05-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-05-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-05-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1ACA-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7483.tif"/>
@@ -181,21 +185,20 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1930-05-04">
-            <p xml:space="preserve"><date when="1930-05-04">4/5</date> S. Tel. mit <rs type="person" xml:id="pNt_89622" ref="#person_19832"><forename>O.</forename></rs>, <rs type="place" xml:id="pl_19212" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>.―</p>
+            <p xml:space="preserve"><date when="1930-05-04">4/5</date> S. Tel. mit <rs type="person" xml:id="pNt_89622" ref="#person_19832"><forename>O.</forename></rs>, <rs type="place" xml:id="pl_19212" ref="#pmb168">Berlin</rs>.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_89623" ref="#person_14129"><forename>Arnoldo</forename></rs> Auto Cobenzl; zu Fuss über „Haus am Berg“ ― trafen <rs type="person" xml:id="pNt_89624" ref="#person_18881"><forename>Kolap</forename></rs> 
-und <rs type="person" xml:id="pNt_89625" ref="#person_16362"><forename>Lotte</forename> <surname>Horn</surname></rs>, die sich anschlossen ― <rs type="place" xml:id="pl_19213" ref="#place_388686540f35afe7790d134863d92203">Kahlenberg</rs> ― (Verfall, aber 
-Frühling) ― <rs type="place" xml:id="pl_19214" ref="#place_86f90c857ca2c813e066ea7b3502cb7c">Hohe Warte</rs>. Im Auto alle zurück.―</p>
+und <rs type="person" xml:id="pNt_89625" ref="#person_16362"><forename>Lotte</forename> <surname>Horn</surname></rs>, die sich anschlossen ― <rs type="place" xml:id="pl_19213" ref="#pmb574">Kahlenberg</rs> ― (Verfall, aber 
+Frühling) ― <rs type="place" xml:id="pl_19214" ref="#pmb92292">Hohe Warte</rs>. Im Auto alle zurück.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_89626" ref="#person_14129"><forename>Arnoldo</forename></rs> zu Haus allein gemittagt.</p>
             <p xml:space="preserve" rend="indent">Nachm. wenig wohl.</p>
-            <p xml:space="preserve" rend="indent">Um 5 kam <rs type="person" xml:id="pNt_89627" ref="#person_13547"><forename>Bubi</forename></rs> (aus <rs type="place" xml:id="pl_19215" ref="#place_b919ff7aeaaaffa5fdc4f2c794f569ae">Kammer</rs> zurück; über <rs type="person" xml:id="pNt_89628" ref="#person_13643"><forename>Elisab.</forename> <surname>B.</surname></rs>, Tonfilm, <rs type="person" xml:id="pNt_89629" ref="#person_14335"><surname>Czinner</surname></rs> 
+            <p xml:space="preserve" rend="indent">Um 5 kam <rs type="person" xml:id="pNt_89627" ref="#person_13547"><forename>Bubi</forename></rs> (aus <rs type="place" xml:id="pl_19215" ref="#pmb90989">Kammer</rs> zurück; über <rs type="person" xml:id="pNt_89628" ref="#person_13643"><forename>Elisab.</forename> <surname>B.</surname></rs>, Tonfilm, <rs type="person" xml:id="pNt_89629" ref="#person_14335"><surname>Czinner</surname></rs> 
 etc.), dann allmälig <rs type="person" xml:id="pNt_89630" ref="#person_19823"><forename>Helene</forename></rs>, <rs type="person" xml:id="pNt_89631" ref="#person_19827"><forename>Julius</forename></rs>, <rs type="person" xml:id="pNt_89632" ref="#person_15854"><forename>Gisa</forename></rs>, <rs type="person" xml:id="pNt_89633" ref="#person_15855"><surname>Hajek</surname></rs>;― <rs type="person" xml:id="pNt_89634"><forename>Ferry</forename></rs>, Anni;― <rs type="person" xml:id="pNt_89635" ref="#person_13551"><forename>Richard</forename></rs>, 
 <rs type="person" xml:id="pNt_89636" ref="#person_13550"><forename>Paula</forename></rs>;― <rs type="person" xml:id="pNt_89637"><forename>Elli</forename></rs>, <rs type="person" xml:id="pNt_89638" ref="#person_19828"><forename>Karl</forename></rs>. (Noch nie so viel Menschen auf meinem Balkon.) 
 Wunderschöner Frühlingstag.</p>
-            <p xml:space="preserve" rend="indent">― Um 7 alle fort;― kurzer Spazierg. mit <rs type="person" xml:id="pNt_89639" ref="#person_14129"><forename>Arnoldo</forename></rs> <rs type="place" xml:id="pl_19216" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs>;― 
-mit ihm zu Haus genachtm. Polit. Gespräch. (Er hält Krieg mit <rs type="place" xml:id="pl_19217" ref="#place_8d865b652dc83da05aa34b499a9b01be">Frankreich</rs> 
+            <p xml:space="preserve" rend="indent">― Um 7 alle fort;― kurzer Spazierg. mit <rs type="person" xml:id="pNt_89639" ref="#person_14129"><forename>Arnoldo</forename></rs> <rs type="place" xml:id="pl_19216" ref="#pmb113">Türkenschanzpark</rs>;― 
+mit ihm zu Haus genachtm. Polit. Gespräch. (Er hält Krieg mit <rs type="place" xml:id="pl_19217" ref="#pmb166">Frankreich</rs> 
 in absehb. Zeit unvermeidlich.―)</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

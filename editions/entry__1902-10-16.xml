@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1902-10-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-10-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-10-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1902-10-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-10-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-10-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F3AE-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1714.tif"/>
@@ -183,15 +187,14 @@
       <body>
          <div type="diary-day" xml:id="entry__1902-10-16">
             <p xml:space="preserve"><date when="1902-10-16">16/10</date> <rs type="person" xml:id="pNt_19003" ref="#person_15529"><forename>P.</forename> <surname>G.</surname></rs> abgeholt. „<rs type="work" xml:id="bibl_18102">Neue Richtung</rs>“ ist erschienen, seine 
-Feuilletonsammlung.― <rs type="place" xml:id="pl_04134" ref="#place_db4a42a192c3c97a2871005a8ccd6439">Grunewald</rs>, bei <rs type="person" xml:id="pNt_19004" ref="#person_15919"><surname>Harden</surname></rs>.― Über <rs type="person" xml:id="pNt_19005" ref="#person_21578"><surname>Zola</surname></rs>, <rs type="person" xml:id="pNt_19006" ref="#person_14514"><surname>Dreyfus</surname></rs>, 
+Feuilletonsammlung.― <rs type="place" xml:id="pl_04134" ref="#pmb129">Grunewald</rs>, bei <rs type="person" xml:id="pNt_19004" ref="#person_15919"><surname>Harden</surname></rs>.― Über <rs type="person" xml:id="pNt_19005" ref="#person_21578"><surname>Zola</surname></rs>, <rs type="person" xml:id="pNt_19006" ref="#person_14514"><surname>Dreyfus</surname></rs>, 
 <rs type="work" subtype="self" xml:id="bibl_18103">Beatrice</rs>.― <rs type="person" xml:id="pNt_19007" ref="#person_18137"><forename>Dora</forename> <surname>Sp.</surname></rs>, jetzige <rs type="person" xml:id="pNt_19008" ref="#person_18137"><surname>Michaelis</surname></rs> zufällig mit ihrem Baby 
 getroffen. Mit <rs type="person" xml:id="pNt_19009" ref="#person_16819"><surname>Kerr</surname></rs> gegessen. (Über <rs type="person" xml:id="pNt_19010" ref="#person_15529"><forename>Paul</forename> <surname>G.</surname></rs>)― Abd. <rs type="person" xml:id="pNt_19011" ref="#person_15177"><surname>Freudenthal</surname></rs>, 
-<rs type="place" xml:id="pl_04135" ref="#place_1b83df4ba62ebbba0aa5582269a820b1">Thiergarten</rs> ―</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" ref="#place_schillertheater">Schillertheater</rs> N.― <rs type="work" xml:id="bibl_18104">Esther</rs>.― <rs type="work" xml:id="bibl_18105">2 Eisen im Feuer</rs>. <rs type="person" xml:id="pNt_19012" ref="#person_20386"><forename>Liesl</forename></rs> spielte mit. 
+<rs type="place" xml:id="pl_04135" ref="#pmb91893">Thiergarten</rs> ―</p>
+            <p xml:space="preserve" rend="indent"><rs type="place" ref="#pmb334">Schillertheater</rs> N.― <rs type="work" xml:id="bibl_18104">Esther</rs>.― <rs type="work" xml:id="bibl_18105">2 Eisen im Feuer</rs>. <rs type="person" xml:id="pNt_19012" ref="#person_20386"><forename>Liesl</forename></rs> spielte mit. 
 Mit ihr und <rs ref="#person_17958" type="person" xml:id="pNt_19013"><forename>Paul</forename></rs> genachtm.― <rs type="person" xml:id="pNt_19014" ref="#person_18985"><surname>Pserhofer</surname></rs> (der im Verkrachen, „Intimes 
 Theater“) und <rs type="person" xml:id="pNt_19015" ref="#person_16517"><surname>Jarno</surname></rs> getroffen.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

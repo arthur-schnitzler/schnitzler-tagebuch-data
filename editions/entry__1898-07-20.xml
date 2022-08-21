@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1898-07-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-07-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-07-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1898-07-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-07-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-07-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EE14-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1446.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1898-07-20">
-            <p xml:space="preserve"><date when="1898-07-20">20/7</date> <rs type="place" xml:id="pl_02940" ref="#place_dc0c6be2718baf2fee5cd0113f44ceae">Fusch</rs> ― <rs type="place" xml:id="pl_02941" ref="#place_779b1e540c330138a3d643d5f885e870">Bruck</rs> (Wagen) ― <rs type="place" xml:id="pl_02942" ref="#place_a3c7fe0abd84cd0be2c8339f5fb2a969">Lend</rs> (Rad) ― <rs type="place" xml:id="pl_02943" ref="#place_ee73439f8e5bd57e3d0375ed174b4c76">Gastein</rs> (Post). <rs type="allusively" xml:id="rst_00273">Mama</rs>, 
+            <p xml:space="preserve"><date when="1898-07-20">20/7</date> <rs type="place" xml:id="pl_02940" ref="#pmb34194">Fusch</rs> ― <rs type="place" xml:id="pl_02941" ref="#pmb840">Bruck</rs> (Wagen) ― <rs type="place" xml:id="pl_02942" ref="#pmb91131">Lend</rs> (Rad) ― <rs type="place" xml:id="pl_02943" ref="#pmb521">Gastein</rs> (Post). <rs type="allusively" xml:id="rst_00273">Mama</rs>, 
 <rs type="person" xml:id="pNt_15496" ref="#person_15854"><forename>Gisa</forename></rs>.― Schönes Zimmer Villa <rs type="person" xml:id="pNt_15497" ref="#person_21112"><surname>Wassing</surname></rs> alter College.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

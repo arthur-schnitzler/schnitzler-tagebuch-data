@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-11-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-11-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-11-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-11-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-11-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-11-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FF18-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3045.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1910-11-29">
-            <p xml:space="preserve"><date when="1910-11-29">29/11</date> Vm. <rs type="place" ref="#place_volkstheater">Volkstheater</rs>. <rs type="work" subtype="self" xml:id="bibl_12155">Anatol</rs> Probe war abgesagt. Sprach 
+            <p xml:space="preserve"><date when="1910-11-29">29/11</date> Vm. <rs type="place" ref="#pmb92202">Volkstheater</rs>. <rs type="work" subtype="self" xml:id="bibl_12155">Anatol</rs> Probe war abgesagt. Sprach 
 <rs type="person" xml:id="pNt_34061" ref="#person_15483"><surname>Glücksmann</surname></rs> u. a.; lernte Herrn <rs type="person" xml:id="pNt_34062" ref="#person_15211"><roleName>Dr.</roleName> <surname>Friedemann</surname></rs>, Regisseur kennen.</p>
             <pb n="198"/>
             <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header">
@@ -203,6 +207,5 @@ bei Tisch wurde viel gelacht. Man ging in mäßiger Stimmung auseinander.
 Er bekam nichts übles zu hören; doch von Wohlwollen war keine Spur.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1899-06-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-06-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-06-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1899-06-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-06-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-06-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EF45-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1497.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1899-06-16">
-            <p xml:space="preserve"><date when="1899-06-16">16/6</date> Nachm. nach <rs type="place" xml:id="pl_03129" ref="#place_7140b1dc7868cdd3d911da75b9a84e45">Würnitz</rs> ― (<rs type="place" xml:id="pl_03130" ref="#place_474944a56d856ab7095be73d33a6e8f3">Schleinbach</rs>) ― (Rad) Ankunft 6.― <rs type="person" xml:id="pNt_16390" ref="#person_15485"><surname>Gl.</surname></rs> 
+            <p xml:space="preserve"><date when="1899-06-16">16/6</date> Nachm. nach <rs type="place" xml:id="pl_03129" ref="#pmb92111">Würnitz</rs> ― (<rs type="place" xml:id="pl_03130" ref="#pmb91687">Schleinbach</rs>) ― (Rad) Ankunft 6.― <rs type="person" xml:id="pNt_16390" ref="#person_15485"><surname>Gl.</surname></rs> 
 entgegen, auf der Dorfstraße, im Schlafrock; zu <rs type="person" xml:id="pNt_16391" ref="#person_14283"><surname>Coschell</surname></rs> und <rs type="person" xml:id="pNt_16392" ref="#person_14199"><forename>Gusti</forename></rs>, 
 Garten, malend. Dann mit <rs type="person" xml:id="pNt_16393" ref="#person_15485"><surname>Gl.</surname></rs> auf die Kirchhofsmauer gesetzt, alles 
 wieder da ― wie vor 9 Jahren.― Sie erzählt mir, wie die Frau vor allem 
@@ -195,6 +199,5 @@ da sagen: vor 9 Jahren wär’s noch Zeit gewesen!― Nachtmahl,
 Waldspaziergang.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

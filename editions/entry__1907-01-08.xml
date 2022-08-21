@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1907-01-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-01-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-01-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1907-01-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-01-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-01-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F9AF-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2314.tif"/>
@@ -181,12 +185,12 @@
       <body>
          <div type="diary-day" xml:id="entry__1907-01-08">
             <p xml:space="preserve"><date when="1907-01-08">8/1</date> Vm. dictirt <rs type="work" subtype="self" xml:id="bibl_13898">Roman</rs>. Währenddem kam <rs type="person" xml:id="pNt_26097"><roleName>Frau</roleName> <surname>Speidel</surname></rs>, <rs type="person" xml:id="pNt_26098" ref="#person_16647"><roleName>Fr.</roleName> <surname>Kainz</surname></rs>, <rs type="person" xml:id="pNt_26099" ref="#person_16647"><surname>Kainz</surname></rs> 
-möchte, dass ich mit auf den <rs type="place" xml:id="pl_05796" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs> komme; lehnte ab.</p>
+möchte, dass ich mit auf den <rs type="place" xml:id="pl_05796" ref="#pmb91735">Semmering</rs> komme; lehnte ab.</p>
             <p xml:space="preserve" rend="indent">Bei Tisch Besprechung meines <rs type="work" subtype="self" xml:id="bibl_13899">Romans</rs> (mit O. und <rs type="person" xml:id="pNt_26100"><forename>Grethe</forename></rs>) als 
 „Schlüssel“roman; ärgerliches Bedenken meinerseits, dass man über 
 der Sensation das Kunstwerk (absichtlich) vergessen könnte.―</p>
             <p xml:space="preserve" rend="indent">Nm. Briefe dictirt.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_26101" ref="#person_15158"><forename>Fred</forename></rs> kam, aus <rs type="place" xml:id="pl_05797" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>; <rs type="person" xml:id="pNt_26102" ref="#person_20386"><forename>Liesl</forename></rs> gehts viel besser.</p>
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_26101" ref="#person_15158"><forename>Fred</forename></rs> kam, aus <rs type="place" xml:id="pl_05797" ref="#pmb168">Berlin</rs>; <rs type="person" xml:id="pNt_26102" ref="#person_20386"><forename>Liesl</forename></rs> gehts viel besser.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_26103" ref="#person_19822"><forename>Heini</forename></rs>: „<rs type="person" xml:id="pNt_26104" ref="#person_15158"><roleName>Herr</roleName> <forename>Fred</forename></rs> ist so gross wie ein Elephant ― nur oben ist der 
 Elephant höher; aber unten fangen sie gleich an.“</p>
             <p xml:space="preserve" rend="indent">Neulich <rs type="person" xml:id="pNt_26105" ref="#person_19822"><forename>Heini</forename></rs> bei Tisch zu <rs type="person" xml:id="pNt_26106" ref="#person_20796"><surname>Trebitsch</surname></rs>, er wolle nicht Dichter, 
@@ -199,6 +203,5 @@ Selbstgefühl; Überzeugtsein von Mission und Größe; ich brachte einiges
 gegen mich vor, wobei er gern einstimmte.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

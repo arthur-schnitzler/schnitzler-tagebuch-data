@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1894-06-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-06-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-06-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1894-06-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-06-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-06-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E846-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0840.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1894-06-09">
-            <p xml:space="preserve"><date when="1894-06-09">9/6</date> <rs type="place" xml:id="pl_01724" ref="#place_c2ad928214981e457405589604924059">Ischl</rs>. Bei <rs type="person" xml:id="pNt_08805" ref="#person_16706"><forename>Adele</forename> <surname>Kapper</surname></rs>.- Bei <rs type="person" xml:id="pNt_08806" ref="#person_13551"><forename>Richard</forename></rs> gespeist.― Nachmittag 
-nach <rs type="place" xml:id="pl_01725" ref="#place_7d9d5414c5269ec416701a2fdbe2c9b6">Wels</rs>. Dort, im kleinen Städtchen, allein. Keine Sehnsucht, nur 
+            <p xml:space="preserve"><date when="1894-06-09">9/6</date> <rs type="place" xml:id="pl_01724" ref="#pmb213">Ischl</rs>. Bei <rs type="person" xml:id="pNt_08805" ref="#person_16706"><forename>Adele</forename> <surname>Kapper</surname></rs>.- Bei <rs type="person" xml:id="pNt_08806" ref="#person_13551"><forename>Richard</forename></rs> gespeist.― Nachmittag 
+nach <rs type="place" xml:id="pl_01725" ref="#pmb44397">Wels</rs>. Dort, im kleinen Städtchen, allein. Keine Sehnsucht, nur 
 schmerzliche Wehmut; sehe in meinen Gedanken <rs type="person" xml:id="pNt_08807" ref="#person_15485"><forename>Mz.</forename></rs> in ihrem kleinen 
-Garten in <rs type="place" xml:id="pl_01726" ref="#place_9fab3721a539a1ea018ea64ec6a9d122">Celle</rs> sitzen, den ich nicht kenne.―</p>
+Garten in <rs type="place" xml:id="pl_01726" ref="#pmb64173">Celle</rs> sitzen, den ich nicht kenne.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

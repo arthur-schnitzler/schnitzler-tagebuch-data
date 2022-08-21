@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-10-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-10-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-10-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-10-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-10-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-10-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0328-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3695.tif"/>
@@ -186,10 +190,9 @@
             <p xml:space="preserve" rend="indent">― Vm. „<rs type="work" subtype="self" xml:id="bibl_9626">Bahnhof</rs>“ dictirt.―</p>
             <p xml:space="preserve" rend="indent">Nm. las ich den „<rs type="work" xml:id="bibl_9627">Tasso</rs>“.</p>
             <p xml:space="preserve" rend="indent">Hr. <rs type="person" xml:id="pNt_41700" ref="#person_21496"><surname>York Steiner</surname></rs> besucht mich; seine Absage an die <rs type="place" xml:id="pl_08473" ref="#place_ee4c6f2f0df2cd2abf7db20478cad25d" ana="#exclude">Wiener</rs> Zionisten; 
-sein Gut in <rs type="place" xml:id="pl_08474" ref="#place_0440d43880c6c31ea1d5137c5abec2dc">Palaestina</rs>; sein <rs type="place" xml:id="pl_08475" ref="#place_e884124295d0c4d07d9bcf5096fd5495">Amerika</rs> Besuch (<rs type="person" xml:id="pNt_41701" ref="#person_21357"><surname>Wilson</surname></rs>).―</p>
+sein Gut in <rs type="place" xml:id="pl_08474" ref="#pmb815">Palaestina</rs>; sein <rs type="place" xml:id="pl_08475" ref="#pmb43406">Amerika</rs> Besuch (<rs type="person" xml:id="pNt_41701" ref="#person_21357"><surname>Wilson</surname></rs>).―</p>
             <p xml:space="preserve" rend="indent">Begann <rs type="work" xml:id="bibl_9628">Rassplata</rs> zu lesen.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-12-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-12-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-12-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-12-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-12-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-12-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1A4B-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7409.tif"/>
@@ -183,13 +187,13 @@
       <body>
          <div type="diary-day" xml:id="entry__1929-12-28">
             <p xml:space="preserve"><date when="1929-12-28">28/12</date> Nachts Pyramidon wegen Kopfweh.</p>
-            <p xml:space="preserve" rend="indent">Ankunft 9 <rs type="place" xml:id="pl_19009" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>. Quatschwetter. Esplanade, Friseur und Manicure.― Blumen 
+            <p xml:space="preserve" rend="indent">Ankunft 9 <rs type="place" xml:id="pl_19009" ref="#pmb168">Berlin</rs>. Quatschwetter. Esplanade, Friseur und Manicure.― Blumen 
 von <rs type="person" xml:id="pNt_88490" ref="#person_19832"><forename>O.</forename></rs>, <rs type="person" xml:id="pNt_88491" ref="#person_19822"><forename>Heini</forename></rs>, <rs type="person" xml:id="pNt_88492" ref="#person_18137"><forename>Dora</forename></rs>, Obst u. dgl. von <rs type="person" xml:id="pNt_88493" ref="#person_18137"><forename>Dora</forename></rs>.</p>
             <p xml:space="preserve" rend="indent">Zu <rs type="person" xml:id="pNt_88494" ref="#person_19832"><forename>O.</forename></rs>, die bettlägerig; <rs type="person" xml:id="pNt_88495" ref="#person_14129"><forename>Arnoldo</forename></rs>.― Telef. <rs type="person" xml:id="pNt_88496" ref="#person_19832"><forename>O.</forename></rs> mit <rs type="person" xml:id="pNt_88497" ref="#person_19822"><forename>Heini</forename></rs>, der beleidigt, weil 
 <rs type="person" xml:id="pNt_88498" ref="#person_13139"><forename>Ruth</forename></rs> für heut nicht geladen; da <rs type="person" xml:id="pNt_88499" ref="#person_19832"><forename>O.</forename></rs> heut nicht mit „fremden“ Menschen 
 zusammen sein wollte … Überflüssige Mißverständnisse tiefer begründet.</p>
             <p xml:space="preserve" rend="indent">― (Neues) Grammophon <rs type="person" xml:id="pNt_88500" ref="#person_19832"><forename>Olgas</forename></rs>.</p>
-            <p xml:space="preserve" rend="indent">Mittag mit <rs type="person" xml:id="pNt_88501" ref="#person_19832"><forename>O.</forename></rs> und <rs type="person" xml:id="pNt_88502" ref="#person_14129"><forename>Arnoldo</forename></rs>. Dieser von dem aussichtslosen Leben in <rs type="place" xml:id="pl_19010" ref="#place_79a9f60939fee818f6724424c1a1b201">Mortara</rs>. 
+            <p xml:space="preserve" rend="indent">Mittag mit <rs type="person" xml:id="pNt_88501" ref="#person_19832"><forename>O.</forename></rs> und <rs type="person" xml:id="pNt_88502" ref="#person_14129"><forename>Arnoldo</forename></rs>. Dieser von dem aussichtslosen Leben in <rs type="place" xml:id="pl_19010" ref="#pmb91296">Mortara</rs>. 
 Was thun? Keine Möglichkeit eines andern Berufes. Traurig.―</p>
             <p xml:space="preserve" rend="indent">Im Hotel; wenig wohl.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_88503" ref="#person_19822"><forename>Heini</forename></rs> kam; später <rs type="person" xml:id="pNt_88504" ref="#person_13139"><forename>Ruth</forename></rs>. Unerquickliches von Theater und Dasein.</p>
@@ -201,6 +205,5 @@ seid“, rückte alles fast ins tragische …</p>
             <p xml:space="preserve" rend="indent">Das <rs type="person" xml:id="pNt_88511" ref="#person_19902"><surname>Schubert</surname></rs> Trio Grammophon.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

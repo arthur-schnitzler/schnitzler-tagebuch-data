@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-05-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-05-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-05-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-05-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-05-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-05-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FCEC-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2692.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1909-05-22">
-            <p xml:space="preserve"><date when="1909-05-22">22/5</date> Vm. Besorgungen. Panorama: <rs type="place" xml:id="pl_06688" ref="#place_d7031092fc7960183bbacfe228411fb0">Kanada</rs>.―</p>
+            <p xml:space="preserve"><date when="1909-05-22">22/5</date> Vm. Besorgungen. Panorama: <rs type="place" xml:id="pl_06688" ref="#pmb45794">Kanada</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_12648">Medardus</rs>.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_30312" ref="#person_18348"><forename>Georg v.</forename> <surname>Nagy</surname></rs>, junger Dichter, von <rs type="person" xml:id="pNt_30313" ref="#person_13374"><surname>Bahr</surname></rs> empfohlen. Frisch und 
 sympathisch. Die Gedichte, die er gleich mit hatte, in freien Rhythmen, 
@@ -197,6 +201,5 @@ seine Bemerkungen über den <rs type="work" subtype="self" xml:id="bibl_12649">W
             <p xml:space="preserve" rend="indent">Noch bis in die Nacht am <rs type="work" subtype="self" xml:id="bibl_12650">Medardus</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-09-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-09-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-09-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-09-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-09-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-09-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-115A-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6114.tif"/>
@@ -183,17 +187,16 @@
          <div type="diary-day" xml:id="entry__1923-09-21">
             <p xml:space="preserve"><date when="1923-09-21">21/9</date> Vm. in der Schule von <rs type="person" xml:id="pNt_70293" ref="#person_14130"><forename>Lili</forename></rs>; mit Ordinarius <rs type="person" xml:id="pNt_70294" ref="#person_19775"><roleName>Prof.</roleName> <surname>Schmieger</surname></rs> wegen 
 ev. Befreiung von <rs type="place" xml:id="pl_15087" ref="#place_11fdee8f59d1e64558f1752d0eafa2a9" ana="#exclude">Griechisch</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_70295" ref="#person_19986"><forename>Gustav</forename></rs> (der in <rs type="place" xml:id="pl_15088" ref="#place_07cc35c579844177c6dabfc6b99c1f3d">Goisern</rs> war und dort <rs type="person" xml:id="pNt_70296" ref="#person_20698"><forename>Mila</forename> <surname>Theren</surname></rs>, die Frau 
+            <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_70295" ref="#person_19986"><forename>Gustav</forename></rs> (der in <rs type="place" xml:id="pl_15088" ref="#pmb90731">Goisern</rs> war und dort <rs type="person" xml:id="pNt_70296" ref="#person_20698"><forename>Mila</forename> <surname>Theren</surname></rs>, die Frau 
 des Sanat.-Besitzers, <rs type="person" xml:id="pNt_70297"><forename>Hiero</forename> <surname>Stössel</surname></rs>, sprach).―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_70298" ref="#person_16735"><roleName>Dr.</roleName> <surname>Karolyi</surname></rs> (über Jodbehandlung, Schilddrüse und Zahnkrankheiten).</p>
             <p xml:space="preserve" rend="indent">Im Bristol die <rs type="person" xml:id="pNt_70299"><surname>Rotters</surname></rs> gesprochen, die hier gastiren, mir schon 
 telef. hatten und eben, wegen Todesnachricht ihres Vaters abreisten.― 
 Gefrühstückt mit <rs type="person" xml:id="pNt_70300" ref="#person_13372"><surname>Bagger</surname></rs> und <rs type="person" xml:id="pNt_70301" ref="#person_17251"><roleName>Miss</roleName> <surname>La Follette</surname></rs> („<rs type="work" subtype="newspaper" xml:id="bibl_2018">Freeman</rs>“).</p>
             <p xml:space="preserve" rend="indent">Concert <rs type="person" xml:id="pNt_70302" ref="#person_18282"><surname>Mozart</surname></rs> (<rs type="person" xml:id="pNt_70303" ref="#person_21080"><forename>Bruno</forename> <surname>Walter</surname></rs>, <rs type="person" xml:id="pNt_70304" ref="#person_15111"><surname>Franchetti</surname></rs>);― mit <rs type="person" xml:id="pNt_70305" ref="#person_13423"><surname>Barjanski’s</surname></rs>. Mit 
-diesen und <rs type="person" xml:id="pNt_70306" ref="#person_15111"><surname>Franchetti</surname></rs> dem Pianisten <rs type="place" ref="#place_mozarthof">Mozarthof</rs> genachtm.― <rs type="person" xml:id="pNt_70308"><surname>Fr.</surname></rs> über 
+diesen und <rs type="person" xml:id="pNt_70306" ref="#person_15111"><surname>Franchetti</surname></rs> dem Pianisten <rs type="place" ref="#pmb92412">Mozarthof</rs> genachtm.― <rs type="person" xml:id="pNt_70308"><surname>Fr.</surname></rs> über 
 <rs type="person" xml:id="pNt_70309" ref="#person_20509"><forename>Richard</forename> <surname>Strauss</surname></rs>, den er hasst.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

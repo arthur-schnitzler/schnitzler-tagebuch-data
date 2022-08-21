@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1925-09-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-09-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-09-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1925-09-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-09-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-09-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1435-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6546.tif"/>
@@ -182,10 +186,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1925-09-21">
-            <p xml:space="preserve"><date when="1925-09-21">21/9</date> Ankunft <rs type="place" xml:id="pl_16363" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> 8 Uhr.― Meines Hauses froh ―</p>
+            <p xml:space="preserve"><date when="1925-09-21">21/9</date> Ankunft <rs type="place" xml:id="pl_16363" ref="#pmb50">Wien</rs> 8 Uhr.― Meines Hauses froh ―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_75880" ref="#person_18881"><forename>Kolap</forename></rs>;― dictirt „<rs type="work" subtype="self" xml:id="bibl_16636">Weiher</rs>“.― Von <rs type="person" xml:id="pNt_75881" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> allerlei kleine Geschenke; (eine 
 Schuhstütze zum Schnüren, Kirschenmarmelade, Worcestersauce); von <rs type="person" xml:id="pNt_75882" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> schöne Rosen.―</p>
-            <p xml:space="preserve" rend="indent">Nm. allerlei geordnet und gelesen. (Kritiken <rs type="work" subtype="self" xml:id="bibl_16637">W. L.</rs> ― <rs type="place" ref="#place_volkstheater">Volksth.</rs> 4/9 etc.) ―</p>
+            <p xml:space="preserve" rend="indent">Nm. allerlei geordnet und gelesen. (Kritiken <rs type="work" subtype="self" xml:id="bibl_16637">W. L.</rs> ― <rs type="place" ref="#pmb92202">Volksth.</rs> 4/9 etc.) ―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_75883" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> kam; in übelster Stimmung: Wohnungsschwierigkeit, Mißhelligkeiten mit 
 den Söhnen;― und besonders meine Reise mit <rs type="person" xml:id="pNt_75884" ref="#person_19832"><forename>O.</forename></rs> (und <rs type="person" xml:id="pNt_75885" ref="#person_14130"><forename>Lili</forename></rs>). Sie äußert 
 unbeherrschtes über <rs type="person" xml:id="pNt_75886" ref="#person_19832"><forename>O.</forename></rs> besonders (über <rs type="person" xml:id="pNt_75887" ref="#person_17784"><forename>Alma</forename></rs> auch);― macht mir meine 
@@ -194,9 +198,8 @@ Rücksichtslosigkeit, meinen Egoismus etc. zum Vorwurf;― es kommt auf Frau
 dass ich mich in meiner Freiheit absolut nicht beschränken lasse;― sie will 
 keinen Winter mehr wie den vorigen u. s. w.;― es war beinahe das Ende;― eine 
 sehr prekäre Versöhnung folgte;― wir nachtm. in der Restaur. des 
-<rs type="place" xml:id="pl_16364" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzparks</rs>; und ich begleite sie zur Pension.―</p>
+<rs type="place" xml:id="pl_16364" ref="#pmb113">Türkenschanzparks</rs>; und ich begleite sie zur Pension.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

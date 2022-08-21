@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1900-05-31.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-05-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-06-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1900-05-31.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-05-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-06-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F090-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -162,7 +166,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1566.tif"/>
@@ -170,13 +174,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1900-05-31">
-            <p xml:space="preserve"><date when="1900-05-31">31/5</date> In <rs type="place" xml:id="pl_03409" ref="#place_f0ef1fe3f949f690ba52cff060d5229f">M.</rs> mit <rs type="person" xml:id="pNt_17102" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs> und <rs type="person" xml:id="pNt_17103" ref="#person_16448"><forename>I.</forename></rs>― Nett. Stift.― Garten. Regen. Nachm.
-Spaziergang an der <rs type="place" xml:id="pl_03410" ref="#place_ec5faf5c37e55de32672b04a90a59b20">Donau</rs>.― War höchst enervirt durch <rs type="person" xml:id="pNt_17104" ref="#person_16448"><forename>I.</forename></rs>―
-Dampfschiff nach <rs type="place" xml:id="pl_03411" ref="#place_b2f3f42d45ff2c1018a9d3b9e6c37ece">Krems</rs>.</p>
+            <p xml:space="preserve"><date when="1900-05-31">31/5</date> In <rs type="place" xml:id="pl_03409" ref="#pmb91217">M.</rs> mit <rs type="person" xml:id="pNt_17102" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs> und <rs type="person" xml:id="pNt_17103" ref="#person_16448"><forename>I.</forename></rs>― Nett. Stift.― Garten. Regen. Nachm.
+Spaziergang an der <rs type="place" xml:id="pl_03410" ref="#pmb90538">Donau</rs>.― War höchst enervirt durch <rs type="person" xml:id="pNt_17104" ref="#person_16448"><forename>I.</forename></rs>―
+Dampfschiff nach <rs type="place" xml:id="pl_03411" ref="#pmb36545">Krems</rs>.</p>
             <p xml:space="preserve" rend="center">
 Juni</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

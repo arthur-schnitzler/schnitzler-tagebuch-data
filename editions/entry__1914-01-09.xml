@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-01-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-01-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-01-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-01-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-01-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-01-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0389-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,16 +177,17 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3759.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3760.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1914-01-09">
             <p xml:space="preserve"><date when="1914-01-09">9/1</date> Vm. Briefe dictirt.― <rs type="person" xml:id="pNt_42547" ref="#person_20885"><surname>Unruh</surname></rs> kommt, fragt um Rath, ob er den Antrag 
-<rs type="place" ref="#place_burgtheater">Burgtheater</rs>s den <rs type="work" xml:id="bibl_8611">Louis Ferdinand</rs> ohne Sicherheit der Aufführung 
+<rs type="place" ref="#pmb14">Burgtheater</rs>s den <rs type="work" xml:id="bibl_8611">Louis Ferdinand</rs> ohne Sicherheit der Aufführung 
 anzunehmen, acceptiren soll. Ja.― Erzählt den Inhalt seines neuen 
 Stücks; ― lebendig. Von seinen Bildern. Er war Schüler von <rs type="person" xml:id="pNt_42548" ref="#person_18081"><surname>Menzel</surname></rs>.― Ein 
 Gesegneter,― vielleicht ein Begnadeter.―</p>
@@ -199,5 +204,6 @@ Gesegneter,― vielleicht ein Begnadeter.―</p>
 das <rs type="person" xml:id="pNt_42555" ref="#person_19135"><surname>Reik’sche</surname></rs> Buch wurde viel gesprochen (feindselig), über <rs type="person" xml:id="pNt_42556" ref="#person_15172"><surname>Freud</surname></rs> 
 überhaupt, und Psychoanalyse.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

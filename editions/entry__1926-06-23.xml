@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-06-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-06-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-06-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-06-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-06-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-06-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1548-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6683.tif"/>
@@ -183,13 +187,12 @@
       <body>
          <div type="diary-day" xml:id="entry__1926-06-23">
             <p xml:space="preserve"><date when="1926-06-23">23/6</date> Vm. <rs type="person" xml:id="pNt_78117" ref="#person_20177"><roleName>Hr.</roleName> <surname>Snegoff</surname></rs> und <rs type="person" xml:id="pNt_78118" ref="#person_17540"><roleName>Hr.</roleName> <surname>Lifschitz</surname></rs> in Angelegenheit des (eines) jüd. 
-Theaters in <rs type="place" xml:id="pl_16720" ref="#place_87809c954948d8a20507bee3648281b3">New York</rs> (wegen meiner Stücke). Hr. <rs type="person" xml:id="pNt_78119" ref="#person_19955"><forename>Morris</forename> <surname>Schwartz</surname></rs> „der 
+Theaters in <rs type="place" xml:id="pl_16720" ref="#pmb44053">New York</rs> (wegen meiner Stücke). Hr. <rs type="person" xml:id="pNt_78119" ref="#person_19955"><forename>Morris</forename> <surname>Schwartz</surname></rs> „der 
 überhaupt kein Mensch ist“.―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_78120" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs>―</p>
             <p xml:space="preserve" rend="indent">Nm. Kino „<rs type="work" xml:id="bibl_20270">Ind. Grabmal</rs>“ mit <rs type="person" xml:id="pNt_78121" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_78122" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> bei mir, auf dem Balkon.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

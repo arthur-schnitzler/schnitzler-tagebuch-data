@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-09-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-09-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-09-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-09-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-09-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-09-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0FDD-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5821.tif"/>
@@ -190,8 +194,8 @@ erscheint und dessen Sprache ich als papieren empfinde!) ― aber eigentlich
 bezieht er es von <rs type="person" xml:id="pNt_67147" ref="#person_15588"><roleName>Hrn.</roleName> <surname>Gottlieb</surname></rs> (dem Vater meines Gymnas. Collegen <rs type="person" xml:id="pNt_67148" ref="#person_15591"><forename>Otto</forename> 
 <surname>Gottlieb</surname></rs> ― spielen keine Rollen in meinem Leben), also warum wend ich mich 
 nicht direct an ihn.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_14246" ref="#place_10610ec60fcdfbccb325e1eec16a82ad">Berchtesgaden</rs>.― Regen, herbstlich. Briefe, darunter <rs type="person" xml:id="pNt_67149"><forename>Berthe</forename> <surname>Brevée</surname></rs> die mich 
-fragt, ob sie mit mir in die <rs type="place" xml:id="pl_14247" ref="#place_f66b5733f22e8213e2b808307d33c223">Tschechoslowakei</rs> reisen kann. (Bin ich schon so 
+            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_14246" ref="#pmb797">Berchtesgaden</rs>.― Regen, herbstlich. Briefe, darunter <rs type="person" xml:id="pNt_67149"><forename>Berthe</forename> <surname>Brevée</surname></rs> die mich 
+fragt, ob sie mit mir in die <rs type="place" xml:id="pl_14247" ref="#pmb38444">Tschechoslowakei</rs> reisen kann. (Bin ich schon so 
 alt? Oder noch so jung?) ―</p>
             <p xml:space="preserve" rend="indent">Am <rs type="work" subtype="self" xml:id="bibl_2745">Verf.</rs>, Vorm. und Nm.;― Magenverstimmung u. s. w.</p>
             <p xml:space="preserve" rend="indent">Nach dem Nm. in ihrem Zimmer fragt mich <rs type="person" xml:id="pNt_67150" ref="#person_19832"><forename>O.</forename></rs> (gleichfalls magenverstimmt 
@@ -205,6 +209,5 @@ ihrer Heimatlosigkeit leide ―; es bleibt mir unvorstellbar daß wir wieder
 zusammen leben, wohnen könnten.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

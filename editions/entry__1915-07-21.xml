@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-07-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-07-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-07-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1915-07-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-07-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-07-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-05B5-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,26 +177,28 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4077.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4078.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1915-07-21">
-            <p xml:space="preserve"><date when="1915-07-21">21/7</date> Nach <rs type="place" xml:id="pl_09476" ref="#place_0e891dbd1b1814a0cddd64e270c6ffac">Vöslau</rs>; über Jägerhaus nach <rs type="place" xml:id="pl_09477" ref="#place_9a43e84f6e1d406076f2372205804f6d">Baden</rs>, allerlei bedenkend, 
+            <p xml:space="preserve"><date when="1915-07-21">21/7</date> Nach <rs type="place" xml:id="pl_09476" ref="#pmb992">Vöslau</rs>; über Jägerhaus nach <rs type="place" xml:id="pl_09477" ref="#pmb662">Baden</rs>, allerlei bedenkend, 
 persönliches und literarisches. Im übrigen glaub ich gibts keinen 
 weniger blasirten Menschen als mich; jeder Waldweg, auch ein oft begangner 
 bedeutet Vergnügen, fast Spannung für mich. Pens. <rs type="institution" xml:id="pNt_45991"><surname>Rauhenstein</surname></rs> bei 
 <rs type="person" xml:id="pNt_45992" ref="#person_19823"><forename>Helene</forename></rs> gegessen; <rs type="person" xml:id="pNt_45993" ref="#person_19822"><forename>Heini</forename></rs> und <rs type="person" xml:id="pNt_45994" ref="#person_14130"><forename>Lili</forename></rs> waren mit <rs type="person" xml:id="pNt_45995" ref="#person_16480"><forename>Fingi</forename></rs> dorthin voraus 
 gefahren. Allein zurück.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_45996" ref="#person_19755"><surname>Schmidl</surname></rs> bringt Grüße aus <rs type="place" xml:id="pl_09478" ref="#place_bba97efdeb45d301a386ddccd28c3bf3">Lunz</rs>; seine bevorstehende Musterung, er ist 45, 
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_45996" ref="#person_19755"><surname>Schmidl</surname></rs> bringt Grüße aus <rs type="place" xml:id="pl_09478" ref="#pmb941">Lunz</rs>; seine bevorstehende Musterung, er ist 45, 
 politisches und allgemeines.</p>
             <p xml:space="preserve" rend="indent">― Las Abends die <rs type="work" subtype="self" xml:id="bibl_8266">Maieriade</rs>, <rs type="work" subtype="self" xml:id="bibl_8267">Fastnachtsgeschichten</rs> (76,77),― <rs type="work" subtype="self" xml:id="bibl_8268">die 
 feindlichen Hoteliers</rs> (77), alles zum <rs type="work" subtype="self" xml:id="bibl_8269">Nachklang</rs>. Dort wo Humor, sind 
 auch gewisse frühe Begabungszeichen; insbesondre wo ich „nach der 
 Natur“ „zeichne“.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1893-09-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-09-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-09-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1893-09-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-09-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-09-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E733-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0772.tif"/>
@@ -181,9 +185,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1893-09-06">
-            <p xml:space="preserve"><date when="1893-09-06">6/9</date> Sprach nur zwei Worte mit <rs type="person" xml:id="pNt_07794" ref="#person_21047"><forename>Olga</forename></rs>.― Bic. mit <rs type="person" xml:id="pNt_07795" ref="#person_15855"><surname>Hajek</surname></rs> nach <rs type="place" xml:id="pl_01626" ref="#place_0f0b5f02ced8b80e3d3afa7b48b4de39">Wr. Neustadt</rs>.</p>
+            <p xml:space="preserve"><date when="1893-09-06">6/9</date> Sprach nur zwei Worte mit <rs type="person" xml:id="pNt_07794" ref="#person_21047"><forename>Olga</forename></rs>.― Bic. mit <rs type="person" xml:id="pNt_07795" ref="#person_15855"><surname>Hajek</surname></rs> nach <rs type="place" xml:id="pl_01626" ref="#pmb92109">Wr. Neustadt</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

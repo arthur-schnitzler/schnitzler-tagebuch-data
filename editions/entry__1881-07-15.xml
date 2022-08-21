@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1881-07-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1881-07-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1881-07-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1881-07-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1881-07-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1881-07-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DE1E-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0132.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1881-07-15">
-            <p xml:space="preserve"><date when="1881-07-15">Freitag 15.</date> <rs type="place" xml:id="pl_00222" ref="#place_0f7cf39acda1bf32c1aee91e4ce7b3c5">Böckstein</rs> ― <rs type="place" xml:id="pl_00223" ref="#place_160b5b00de22ae4c96a1e90460b8c441">Mallnitz</rs> (<rs type="place" xml:id="pl_00224" ref="#place_545f7ec8bc1325bdac82810a658c0639">Naßfeldtauern</rs>) ― <rs type="place" xml:id="pl_00225" ref="#place_fed0640715fd3a0b37041bc44191bbf0">Obervellach</rs> 
+            <p xml:space="preserve"><date when="1881-07-15">Freitag 15.</date> <rs type="place" xml:id="pl_00222" ref="#pmb54760">Böckstein</rs> ― <rs type="place" xml:id="pl_00223" ref="#pmb53548">Mallnitz</rs> (<rs type="place" xml:id="pl_00224" ref="#pmb91326">Naßfeldtauern</rs>) ― <rs type="place" xml:id="pl_00225" ref="#pmb91383">Obervellach</rs> 
 (Fußtagereise).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

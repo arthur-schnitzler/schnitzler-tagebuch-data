@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-02-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-02-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-02-19.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1931-02-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-02-17.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-02-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1BEC-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7643.tif"/>
@@ -184,7 +188,7 @@
          <div type="diary-day" xml:id="entry__1931-02-18">
             <p xml:space="preserve"><date when="1931-02-18">18/2</date> Früh <rs type="person" xml:id="pNt_92118" ref="#person_18063"><roleName>Dr.</roleName> <surname>Menczel</surname></rs> (von seiner Verhandlung mit <rs type="person" xml:id="pNt_92119"><surname>Rowohlt</surname></rs> und <rs type="person" xml:id="pNt_92120"><surname>Fischer</surname></rs> 
 wegen seiner proj. Bücher;― über <rs type="person" xml:id="pNt_92121" ref="#person_19822"><forename>Heini</forename></rs> und seine unbefriedigende Stellung 
-in <rs type="place" xml:id="pl_19758" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>).</p>
+in <rs type="place" xml:id="pl_19758" ref="#pmb168">Berlin</rs>).</p>
             <p xml:space="preserve" rend="indent">Dictirt.―</p>
             <p xml:space="preserve" rend="indent">Zu Tisch (mit <rs type="person" xml:id="pNt_92122" ref="#person_18881"><forename>Kolap</forename></rs>) <rs type="person" xml:id="pNt_92123" ref="#person_16908"><roleName>Fr.</roleName> <surname>Klimbacher</surname></rs> (deren Bruder im Bth. den <rs type="person" xml:id="pNt_92124"><surname>Dominik</surname></rs> 
 gespielt hatte).―</p>
@@ -192,6 +196,5 @@ gespielt hatte).―</p>
             <p xml:space="preserve" rend="indent">Den Abend allein zu Haus.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

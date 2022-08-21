@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-06-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-06-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-06-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1906-06-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-06-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-06-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F8D8-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,12 +176,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2234.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1906-06-07">
             <p xml:space="preserve"><date when="1906-06-07">7/6</date> Sturm und Regen.― Dictirt.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="allusively" xml:id="rst_00712">Mama</rs> Nm. <rs type="work" xml:id="bibl_15022">A moll Quartett</rs> <rs type="person" xml:id="pNt_25072" ref="#person_19902"><surname>Schubert</surname></rs> und <rs type="person" xml:id="pNt_25073" ref="#person_15464"><surname>Glazounows</surname></rs> <rs type="work" xml:id="bibl_15023">Marche solennelle</rs>.</p>
@@ -186,5 +191,6 @@
             <p xml:space="preserve" rend="indent">Brief <rs type="person" xml:id="pNt_25075" ref="#person_20386"><forename>Liesls</forename></rs>. Sommerpläne. Ärger, dass sie weiter so große Ansprüche 
 stellt, trotz <rs type="person" xml:id="pNt_25076" ref="#person_20383"><forename>Alb.</forename> <surname>Steinrücks</surname></rs> vorzüglicher Verhältnisse.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

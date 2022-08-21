@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-06-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-06-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-06-19.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1915-06-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-06-17.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-06-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0594-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4062.tif"/>
@@ -183,7 +187,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1915-06-18">
             <p xml:space="preserve"><date when="1915-06-18">18/6</date> In schwerer Melancholie erwacht. Spazieren über die besonnten 
-Felder (nun sinds wohl keine mehr) gegen <rs type="place" xml:id="pl_09427" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs>. Dort im Wald 
+Felder (nun sinds wohl keine mehr) gegen <rs type="place" xml:id="pl_09427" ref="#pmb169">Pötzleinsdorf</rs>. Dort im Wald 
 Notizen zum <rs type="work" subtype="self" xml:id="bibl_8195">Weiher</rs>. Auch nur Rettung, solang ichs nicht schreibe!―</p>
             <p xml:space="preserve" rend="indent">Am „<rs type="work" subtype="self" xml:id="bibl_8196">Nachklang</rs>“.― Eine neue Scenen-Skizze zum <rs type="work" subtype="self" xml:id="bibl_8197">Weiher</rs> begonnen.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_45824" ref="#person_14130"><forename>Lili</forename></rs> zu mir auf den Balkon: Sag Vater, wenn die Leute kein Geld 
@@ -192,6 +196,5 @@ darf man nicht überall. Die Bäume gehören dem und dem … <rs type="person" x
 so können sie Gedichtln machen … ―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

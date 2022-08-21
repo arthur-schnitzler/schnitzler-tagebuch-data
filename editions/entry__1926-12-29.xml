@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-12-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-12-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-12-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-12-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-12-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-12-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1604-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6781.tif"/>
@@ -182,8 +186,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1926-12-29">
-            <p xml:space="preserve"><date when="1926-12-29">29/12</date> <rs type="place" xml:id="pl_17057" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>. Telef. mit <rs type="person" xml:id="pNt_79407" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> (wie vorgestern).―</p>
-            <p xml:space="preserve" rend="indent">Brief an <rs type="person" xml:id="pNt_79408" ref="#person_19832"><forename>O.</forename></rs> (auf ihre Nachrichten aus <rs type="place" xml:id="pl_17058" ref="#place_e4d4b19346747823e5636ed1238a7521">Venedig</rs>. Auch von <rs type="person" xml:id="pNt_79409" ref="#person_14130"><forename>Lili</forename></rs> Brief. Nichts 
+            <p xml:space="preserve"><date when="1926-12-29">29/12</date> <rs type="place" xml:id="pl_17057" ref="#pmb168">Berlin</rs>. Telef. mit <rs type="person" xml:id="pNt_79407" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> (wie vorgestern).―</p>
+            <p xml:space="preserve" rend="indent">Brief an <rs type="person" xml:id="pNt_79408" ref="#person_19832"><forename>O.</forename></rs> (auf ihre Nachrichten aus <rs type="place" xml:id="pl_17058" ref="#pmb462">Venedig</rs>. Auch von <rs type="person" xml:id="pNt_79409" ref="#person_14130"><forename>Lili</forename></rs> Brief. Nichts 
 neues ―) ―</p>
             <p xml:space="preserve" rend="indent">Telegr. von <rs type="person" xml:id="pNt_79410" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs></p>
             <p xml:space="preserve" rend="indent">Zu Tisch bei <rs type="person" xml:id="pNt_79411"><surname>Pietrkowskis</surname></rs>. Er von längrer Krankheit genesen. Die Familie und einige Damen. Gute Atmosphäre. Mit der Tochter, Dr. med., 
@@ -194,6 +198,5 @@ zur Charité.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_79416" ref="#person_19822"><forename>Heini</forename></rs> Esplanade Bar genachtm.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

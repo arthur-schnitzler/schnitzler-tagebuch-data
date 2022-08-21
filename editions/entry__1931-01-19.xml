@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-01-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-01-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-01-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1931-01-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-01-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-01-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1BCE-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7629.tif"/>
@@ -182,18 +186,17 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1931-01-19">
-            <p xml:space="preserve"><date when="1931-01-19">19/1</date> 10 Uhr <rs type="place" ref="#place_burgtheater">Burgtheater</rs> erste Probe <rs type="work" subtype="self" xml:id="bibl_23568">Gang</rs>. Erlebt man das also wieder.― Es 
+            <p xml:space="preserve"><date when="1931-01-19">19/1</date> 10 Uhr <rs type="place" ref="#pmb14">Burgtheater</rs> erste Probe <rs type="work" subtype="self" xml:id="bibl_23568">Gang</rs>. Erlebt man das also wieder.― Es 
 ist der alte Zauber.― Die <rs type="person" xml:id="pNt_91904" ref="#person_21423"><surname>Wohlgemuth</surname></rs> (anfangs noch gekränkt) <rs type="person" xml:id="pNt_91905"><forename>Anselma</forename></rs>;― 
 <rs type="person" xml:id="pNt_91906" ref="#person_18556"><surname>Onno</surname></rs> als <rs type="person" xml:id="pNt_91907"><forename>Sylvester</forename></rs>, <rs type="person" xml:id="pNt_91908" ref="#person_13394"><surname>Balser</surname></rs> als Kanzler; <rs type="person" xml:id="pNt_91909" ref="#person_16092"><surname>Hennings</surname></rs> <rs type="person" xml:id="pNt_91910"><forename>Konrad</forename></rs>, die <rs type="person" xml:id="pNt_91911" ref="#person_16561"><surname>Johannsen</surname></rs> als 
 <rs type="person" xml:id="pNt_91912"><forename>Leonilda</forename></rs>.― <rs type="person" xml:id="pNt_91913" ref="#person_16046"><surname>Heine</surname></rs> Secretair und Regisseur. Die Leute von ihren Rollen sehr 
 angethan.― Angenehmer Ton, gute Atmosphäre wie doch nur in diesem Haus. 1. 
 und 2. Akt.―</p>
             <p xml:space="preserve" rend="indent">Dann Blumen an die <rs type="person" xml:id="pNt_91914" ref="#person_21423"><surname>W.</surname></rs> gesandt.</p>
-            <p xml:space="preserve" rend="indent">― Gegen 5 telef. <rs type="person" xml:id="pNt_91915" ref="#person_14234"><forename>Suz.</forename></rs> aus <rs type="place" xml:id="pl_19718" ref="#place_201fd3351b4372387395bdfaa5ee6cbf">Küb</rs>.―</p>
+            <p xml:space="preserve" rend="indent">― Gegen 5 telef. <rs type="person" xml:id="pNt_91915" ref="#person_14234"><forename>Suz.</forename></rs> aus <rs type="place" xml:id="pl_19718" ref="#pmb91083">Küb</rs>.―</p>
             <p xml:space="preserve" rend="indent">Um 7 <rs type="person" xml:id="pNt_91916" ref="#person_18881"><forename>Kolap</forename></rs>. Briefe dictirt, besonders an <rs type="person" xml:id="pNt_91917" ref="#person_15627"><surname>Granville-Barker</surname></rs>.</p>
             <p xml:space="preserve" rend="indent">― <rs type="person" xml:id="pNt_91918" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> (mit <rs type="person" xml:id="pNt_91919" ref="#person_18881"><forename>Kolap</forename></rs>), nachtm. hier.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

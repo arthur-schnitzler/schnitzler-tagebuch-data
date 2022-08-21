@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1895-01-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-12-31.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-01-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1895-01-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-12-31.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-01-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E910-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,16 +177,17 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0933.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1895-01-01">
             <p xml:space="preserve"><date when="1895-01-01">1/1</date> Gratulation von <rs type="person" xml:id="pNt_09730" ref="#person_21214"><forename>Fifi</forename></rs>; Brief von <rs type="person" xml:id="pNt_09731"><forename>Lina</forename> <surname>P.</surname></rs>; ihre „Liebe“ zu mir.</p>
-            <p xml:space="preserve" rend="indent">Nach <rs type="place" xml:id="pl_01883" ref="#place_02031ed2507818d10a37c1a6bf0c9f9d">Mödling</rs> mit <rs type="person" xml:id="pNt_09732" ref="#person_13551"><surname>B.-Hofmann</surname></rs> und <rs type="person" xml:id="pNt_09733" ref="#person_16293"><forename>Hugo</forename></rs>.― <rs type="person" xml:id="pNt_09734"><forename>Tini</forename></rs>.―</p>
-            <p xml:space="preserve" rend="indent">Nach <rs type="place" xml:id="pl_01884" ref="#place_1c24743c9fa25eb3584fe72837b40057">Heiligenkreuz</rs>. Gefühl, leises, des Glücks. „Wir sind viel 
+            <p xml:space="preserve" rend="indent">Nach <rs type="place" xml:id="pl_01883" ref="#pmb968">Mödling</rs> mit <rs type="person" xml:id="pNt_09732" ref="#person_13551"><surname>B.-Hofmann</surname></rs> und <rs type="person" xml:id="pNt_09733" ref="#person_16293"><forename>Hugo</forename></rs>.― <rs type="person" xml:id="pNt_09734"><forename>Tini</forename></rs>.―</p>
+            <p xml:space="preserve" rend="indent">Nach <rs type="place" xml:id="pl_01884" ref="#pmb90845">Heiligenkreuz</rs>. Gefühl, leises, des Glücks. „Wir sind viel 
 gescheidter worden.“ ― Ueber das Gefühl des Alters. Ich z. B. habe 
 mein Alter von 20, 25 etc. begriffen; mein jetziges 32 hat bereits was 
 merkwürdiges für mich. Wenn das in dem Maße steigt, werde ich ein 
@@ -190,8 +195,9 @@ hohes Alter als etwas tief unheimliches empfinden.― Seherische
 Ueberzeugungen. Ich habe z. B. die, dass in einigen hundert Jahren 
 alles Vegetarianer sein wird, dass man das Fleischessen nicht 
 begreifen wird.</p>
-            <p xml:space="preserve" rend="indent">Im <rs type="place" ref="#place_griensteidl">Griensteidl</rs>.― Dann <rs type="person" xml:id="pNt_09736" ref="#person_19564"><forename>Dilly</forename></rs>. Brief an <rs type="person" xml:id="pNt_09737" ref="#person_15529"><surname>Goldmann</surname></rs> dort. Ganz still. 
+            <p xml:space="preserve" rend="indent">Im <rs type="place" ref="#pmb92258">Griensteidl</rs>.― Dann <rs type="person" xml:id="pNt_09736" ref="#person_19564"><forename>Dilly</forename></rs>. Brief an <rs type="person" xml:id="pNt_09737" ref="#person_15529"><surname>Goldmann</surname></rs> dort. Ganz still. 
 Das sechsj. Mädel.― Kfh. <rs type="person" xml:id="pNt_09738" ref="#person_19542"><surname>Salten</surname></rs>.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

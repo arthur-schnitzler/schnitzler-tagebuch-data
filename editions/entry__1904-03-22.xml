@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-03-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-03-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-03-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-03-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-03-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-03-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F5B2-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1904.tif"/>
@@ -181,10 +185,9 @@
       <body>
          <div type="diary-day" xml:id="entry__1904-03-22">
             <p xml:space="preserve"><date when="1904-03-22">22/3</date> Vm. <rs type="person" xml:id="pNt_20932" ref="#person_16289"><roleName>Frau</roleName> <surname>v. Hofmannsthal</surname></rs> im Sanat. besucht.―</p>
-            <p xml:space="preserve" rend="indent">Panorama (<rs type="place" xml:id="pl_04634" ref="#place_5a37c2c58a8f021590f7407492f9c38f">Ampezzo</rs>).―</p>
+            <p xml:space="preserve" rend="indent">Panorama (<rs type="place" xml:id="pl_04634" ref="#pmb34207">Ampezzo</rs>).―</p>
             <p xml:space="preserve" rend="indent">Dictirt <rs type="place" xml:id="pl_04635" ref="#place_119e02a49876d8cb1e7aab2264a75545" ana="#exclude">Novellenpl.</rs>, <rs type="work" subtype="self" xml:id="bibl_17026">Roman</rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

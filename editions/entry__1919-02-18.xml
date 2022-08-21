@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-02-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-02-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-02-19.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-02-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-02-17.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-02-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0AD0-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4804.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1919-02-18">
-            <p xml:space="preserve"><date when="1919-02-18">18/2</date> Vm. am „<rs type="work" subtype="self" xml:id="bibl_4604">Nachklang</rs>“. Mit O. in Vorfrühjahrsonne <rs type="place" xml:id="pl_11523" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs> 
+            <p xml:space="preserve"><date when="1919-02-18">18/2</date> Vm. am „<rs type="work" subtype="self" xml:id="bibl_4604">Nachklang</rs>“. Mit O. in Vorfrühjahrsonne <rs type="place" xml:id="pl_11523" ref="#pmb113">Türkenschanzpark</rs> 
 spazieren. Allerlei Gespräche mit ihr den Tag über. Ihre Lenzstimmung.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_4605">Nachklg.</rs> (B. 3 durchgelesen.) ― 
 Mit dem <rs type="work" subtype="self" xml:id="bibl_4606">Weiher</rs> beschäftigt.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-03-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-03-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-03-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-03-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-03-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-03-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F714-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2052.tif"/>
@@ -180,11 +184,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1905-03-11">
-            <p xml:space="preserve"><date when="1905-03-11">11/3</date> <rs type="place" xml:id="pl_05101" ref="#place_1569f8f32be7ae04898403c550b47b82">Messina</rs>. Mit <rs type="person" xml:id="pNt_22574" ref="#person_20270"><surname>Spiro</surname></rs> herum. Friedhof. Dom. S. Giorgio.― Ab.  
+            <p xml:space="preserve"><date when="1905-03-11">11/3</date> <rs type="place" xml:id="pl_05101" ref="#pmb44129">Messina</rs>. Mit <rs type="person" xml:id="pNt_22574" ref="#person_20270"><surname>Spiro</surname></rs> herum. Friedhof. Dom. S. Giorgio.― Ab.  
 Sonntag 12/3 ― Auf hoher See.― <rs type="work" subtype="self" xml:id="bibl_15583">N. E.</rs> neu skizzirt.― Gelesen.―</p>
-            <p xml:space="preserve" rend="indent">An <rs type="place" xml:id="pl_05102" ref="#place_aba34c267a6518aa31bc39c896117e9e">Korfu</rs> Abend.</p>
+            <p xml:space="preserve" rend="indent">An <rs type="place" xml:id="pl_05102" ref="#pmb41212">Korfu</rs> Abend.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

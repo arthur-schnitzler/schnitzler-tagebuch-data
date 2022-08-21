@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1893-06-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-06-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-06-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1893-06-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-06-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-06-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E6D5-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0731.tif"/>
@@ -181,16 +185,15 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1893-06-04">
-            <p xml:space="preserve"><date when="1893-06-04">4/6</date> Sonntag.― Mit <rs type="person" xml:id="pNt_07445" ref="#person_19986"><surname>Schwarzkopf</surname></rs> in die <rs type="place" xml:id="pl_01490" ref="#place_a25ff6cb521df1cd0272d03eee7efd32">Brühl</rs>.― Wirtstöchterlein. Sie 
+            <p xml:space="preserve"><date when="1893-06-04">4/6</date> Sonntag.― Mit <rs type="person" xml:id="pNt_07445" ref="#person_19986"><surname>Schwarzkopf</surname></rs> in die <rs type="place" xml:id="pl_01490" ref="#pmb44413">Brühl</rs>.― Wirtstöchterlein. Sie 
 dictirt die Speisekarte; <rs type="person" xml:id="pNt_07446" ref="#person_16293"><forename>Loris</forename></rs> kommt eben, schreibt auch.― Bummelei, 
 die drei <rs ref="#person_19988" type="person" xml:id="pNt_07447"><surname>Schw.</surname></rs>, <rs type="person" xml:id="pNt_07448" ref="#person_16293"><forename>Loris</forename></rs> und ich.―</p>
-            <p xml:space="preserve" rend="indent">Gemütlicher Abend.― Spaziergang neben dem Geleise nach <rs type="place" xml:id="pl_01491" ref="#place_fa8a4a0fb753daa46810c572b474ef4f">Brunn</rs>.― 
+            <p xml:space="preserve" rend="indent">Gemütlicher Abend.― Spaziergang neben dem Geleise nach <rs type="place" xml:id="pl_01491" ref="#pmb40202">Brunn</rs>.― 
 Tag, dessen Erinnerung ins größere wächst durch das typische und 
 naive.― <rs type="person" xml:id="pNt_07449" ref="#person_19987"><forename>Max</forename> <surname>Schw.</surname></rs> unangenehm wirkend, als einer derjenigen, die das 
 traurige lautlose im Leben bezeichnen.― Beruf, Pflichterfüllung, 
 Bildung, Entsagung ― und ein paar Wochen nach seinem Tod vergessen.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

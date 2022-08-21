@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-03-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-03-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-03-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-03-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-03-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-03-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FF8E-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3131.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1911-03-27">
-            <p xml:space="preserve"><date when="1911-03-27">27/3</date> Vm. <rs type="place" ref="#place_burgtheater">Burgtheater</rs> bei <rs type="person" xml:id="pNt_35015" ref="#person_19364"><surname>Rosenbaum</surname></rs>. Über Besetzung des <rs type="work" subtype="self" xml:id="bibl_10901">W. L.</rs> Dann 
+            <p xml:space="preserve"><date when="1911-03-27">27/3</date> Vm. <rs type="place" ref="#pmb14">Burgtheater</rs> bei <rs type="person" xml:id="pNt_35015" ref="#person_19364"><surname>Rosenbaum</surname></rs>. Über Besetzung des <rs type="work" subtype="self" xml:id="bibl_10901">W. L.</rs> Dann 
 über das Reengagement der <rs type="person" xml:id="pNt_35016" ref="#person_19564"><surname>Sandrock</surname></rs>, von der ich einen verzweifelten 
 Brief (um 1.000 Kr. flehend ― ich sandte 100) erhalten; wenig 
 Geneigtheit. Es hängt natürlich nur von <rs type="person" xml:id="pNt_35017" ref="#person_13624"><surname>Berger</surname></rs> ab, der nun aber trotz 
@@ -200,6 +204,5 @@ werden kann.―</p>
             <p xml:space="preserve" rend="indent">Mit O. Concert <rs type="person" xml:id="pNt_35018" ref="#person_14318"><surname>Culp</surname></rs>. Sie sang sehr schön.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

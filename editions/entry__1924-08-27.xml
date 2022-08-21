@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1924-08-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-08-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-08-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1924-08-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-08-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-08-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-12AF-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6329.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1924-08-27">
-            <p xml:space="preserve"><date when="1924-08-27">27/8</date> Mit <rs type="person" xml:id="pNt_73020" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> <rs type="place" xml:id="pl_15630" ref="#place_cceafad713406bc4d8421dbdd142523a">Luzern</rs> ― <rs type="place" xml:id="pl_15631" ref="#place_581df48b4c75f9e166eb77e67725cbd3">Lugano</rs>.― Splendide Hotel.―</p>
+            <p xml:space="preserve"><date when="1924-08-27">27/8</date> Mit <rs type="person" xml:id="pNt_73020" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> <rs type="place" xml:id="pl_15630" ref="#pmb967">Luzern</rs> ― <rs type="place" xml:id="pl_15631" ref="#pmb885">Lugano</rs>.― Splendide Hotel.―</p>
             <p xml:space="preserve" rend="indent">Nm. ins Parkhotel, wo <rs type="person" xml:id="pNt_73021" ref="#person_15009"><surname>Fischer’s</surname></rs> wohnen. Nach Regen ein sehr 
 schöner Regenbogen. Mit <rs type="person" xml:id="pNt_73022" ref="#person_15005"><roleName>Fr.</roleName> <surname>Fi.</surname></rs> in das nebengelegene 
 Palasthotel;― das Parkhotel von einst, wo ich 1903 mit <rs type="person" xml:id="pNt_73023" ref="#person_19832"><forename>O.</forename></rs> wohnte; 
@@ -190,12 +194,11 @@ und in dem ich dann das 5. Capitel <rs type="work" subtype="self" xml:id="bibl_2
 Trat in den Garten und sah den Tisch, an dem die Gespräche 
 zwischen <rs type="person" xml:id="pNt_73024"><forename>Georg</forename></rs>, <rs type="person" xml:id="pNt_73025"><forename>Therese</forename></rs> etc. stattfinden;― dies war mir lebendiger, 
 wirklicher, fester umrissen als die Stunden, die ich mit <rs type="person" xml:id="pNt_73026" ref="#person_19832"><forename>O.</forename></rs> in 
-diesem Garten verbracht hatte.― Auch <rs type="work">Sala</rs> war in <rs type="place" xml:id="pl_15632" ref="#place_581df48b4c75f9e166eb77e67725cbd3">Lugano</rs>;― und <rs type="person" xml:id="pNt_73028" ref="#person_15009"><surname>Fi.</surname></rs> 
+diesem Garten verbracht hatte.― Auch <rs type="work">Sala</rs> war in <rs type="place" xml:id="pl_15632" ref="#pmb885">Lugano</rs>;― und <rs type="person" xml:id="pNt_73028" ref="#person_15009"><surname>Fi.</surname></rs> 
 theilt mir mit, dass <rs type="person" xml:id="pNt_73029" ref="#person_13457"><surname>Bassermanns</surname></rs> hier seien.</p>
             <p xml:space="preserve" rend="indent">Später mit <rs type="person" xml:id="pNt_73030" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> herum, und im Rest. <rs type="person" xml:id="pNt_73031"><surname>Walter</surname></rs>; dann im „Café 
 Riviera“.― Stimmung wie gestern.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

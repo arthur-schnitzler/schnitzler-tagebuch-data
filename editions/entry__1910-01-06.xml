@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-01-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-01-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-01-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-01-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-01-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-01-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FDD1-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2824.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1910-01-06">
-            <p xml:space="preserve"><date when="1910-01-06">6/1</date> Spazieren <rs type="place" xml:id="pl_06908" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> ― Dreimarkstein <rs type="place" xml:id="pl_06909" ref="#place_3b0cf80ce6f7c6e0340cf31265c8f3f7">Sievring</rs>.―</p>
+            <p xml:space="preserve"><date when="1910-01-06">6/1</date> Spazieren <rs type="place" xml:id="pl_06908" ref="#pmb169">Pötzleinsdorf</rs> ― Dreimarkstein <rs type="place" xml:id="pl_06909" ref="#pmb64219">Sievring</rs>.―</p>
             <p xml:space="preserve" rend="indent">Auf dem Heimweg, in Hausesnähe <rs type="person" xml:id="pNt_31692" ref="#person_21107"><surname>Wassermann</surname></rs>; verdüstert von dem Politikum, 
 das sich in <rs type="person" xml:id="pNt_31693" ref="#person_15009"><surname>Fischers</surname></rs> Hoffnungen auf den <rs type="work" xml:id="bibl_11441">Emanuel Quint</rs> ausdrückt.― 
 Gestern hat <rs type="person" xml:id="pNt_31694" ref="#person_20872"><forename>Agnes</forename> <surname>Speyer</surname></rs> geheiratet.― <rs type="person" xml:id="pNt_31695" ref="#person_21107"><forename>J.</forename> <surname>Wassermann</surname></rs> 
@@ -195,6 +199,5 @@ gesteigert, von <rs type="work" xml:id="bibl_11443">E. Qu.</rs> (resp. dem Namen
             <p xml:space="preserve" rend="indent">Hr. <rs type="person" xml:id="pNt_31700" ref="#person_15750"><forename>Robert</forename> <surname>Gound</surname></rs>; Besprechung mit O., Correpetition wegen.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

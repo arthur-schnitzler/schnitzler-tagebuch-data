@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1900-08-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-08-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-08-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1900-08-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-08-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-08-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F0CF-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -162,7 +166,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1578.tif"/>
@@ -170,9 +174,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1900-08-13">
-            <p xml:space="preserve"><date when="1900-08-13">13/8</date> Mit <rs type="person" xml:id="pNt_17261" ref="#person_13551"><forename>Richard</forename></rs> und <rs type="person" xml:id="pNt_17262" ref="#person_20925"><forename>Leo</forename></rs> <rs type="place" xml:id="pl_03492" ref="#place_c38ad36647aca0261d667c432a4866bd">Salzburg</rs> ― <rs type="place" xml:id="pl_03493" ref="#place_7779de9e438cad3e20f892079c33d8e2">Zell am See</rs> ― Kesselfall.</p>
+            <p xml:space="preserve"><date when="1900-08-13">13/8</date> Mit <rs type="person" xml:id="pNt_17261" ref="#person_13551"><forename>Richard</forename></rs> und <rs type="person" xml:id="pNt_17262" ref="#person_20925"><forename>Leo</forename></rs> <rs type="place" xml:id="pl_03492" ref="#pmb91649">Salzburg</rs> ― <rs type="place" xml:id="pl_03493" ref="#pmb40336">Zell am See</rs> ― Kesselfall.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1900-05-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-05-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-05-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1900-05-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-05-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-05-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F07A-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -162,7 +166,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1562.tif"/>
@@ -170,10 +174,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1900-05-09">
-            <p xml:space="preserve"><date when="1900-05-09">9/5</date> Mit <rs type="person" xml:id="pNt_17041" ref="#person_14073"><forename>Lola</forename></rs> Künstlerhaus.― <rs type="person" xml:id="pNt_17042" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs> bei mir. <rs type="place" ref="#place_volkstheater">Volksth.</rs> (Dtsch. Theater
+            <p xml:space="preserve"><date when="1900-05-09">9/5</date> Mit <rs type="person" xml:id="pNt_17041" ref="#person_14073"><forename>Lola</forename></rs> Künstlerhaus.― <rs type="person" xml:id="pNt_17042" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs> bei mir. <rs type="place" ref="#pmb92202">Volksth.</rs> (Dtsch. Theater
 Gastspiel).― „<rs type="work" xml:id="bibl_18427">Gespenster</rs>“. Mit <rs type="person" xml:id="pNt_17043" ref="#person_13913"><surname>Brahm</surname></rs> u. a. soup.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1900-05-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-05-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-05-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1900-05-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-05-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-05-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F089-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -162,7 +166,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1565.tif"/>
@@ -170,10 +174,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1900-05-24">
-            <p xml:space="preserve"><date when="1900-05-24">24/5</date> Nach <rs type="place" xml:id="pl_03400" ref="#place_db8281aa42856e54b9e20673cc17fc00">Puchberg a/Sch.</rs>― Dort <rs type="person" xml:id="pNt_17087"><surname>Salten</surname></rs> und <rs type="person" xml:id="pNt_17088"><surname>Metzl</surname></rs>.―</p>
+            <p xml:space="preserve"><date when="1900-05-24">24/5</date> Nach <rs type="place" xml:id="pl_03400" ref="#pmb48761">Puchberg a/Sch.</rs>― Dort <rs type="person" xml:id="pNt_17087"><surname>Salten</surname></rs> und <rs type="person" xml:id="pNt_17088"><surname>Metzl</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Spazierg.― Vorläufig Abschluss des „<rs type="work" subtype="self" xml:id="bibl_18432">ehrgeiz. Sicherheitswachm.</rs>“―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

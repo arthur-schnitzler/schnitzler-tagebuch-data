@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-05-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-05-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-05-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-05-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-05-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-05-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1AD7-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7489.tif"/>
@@ -184,12 +188,11 @@
          <div type="diary-day" xml:id="entry__1930-05-17">
             <p xml:space="preserve"><date when="1930-05-17">17/5</date> Vm. Briefe, an <rs type="person" xml:id="pNt_89753" ref="#person_14129"><forename>Arnoldo</forename></rs> und <rs type="person" xml:id="pNt_89754" ref="#person_19822"><forename>Heini</forename></rs> ( ― <rs type="person" xml:id="pNt_89755" ref="#person_13139"><forename>Ruth</forename></rs>,― Reise).</p>
             <p xml:space="preserve" rend="indent">Dictirt Briefe.―</p>
-            <p xml:space="preserve" rend="indent">Nm. Westbahn; dort <rs type="person" xml:id="pNt_89756" ref="#person_14234"><forename>Suz.</forename></rs>; mit ihr <rs type="place" xml:id="pl_19243" ref="#place_971d9360a377fa82fd2640a5119b1112">Schönbrunn</rs>, <rs type="place" xml:id="pl_19244" ref="#place_e097129ba1f826b95f2ab4f4798759c2" ana="#exclude">Meidlinger</rs> Thor;― Ruine,― 
+            <p xml:space="preserve" rend="indent">Nm. Westbahn; dort <rs type="person" xml:id="pNt_89756" ref="#person_14234"><forename>Suz.</forename></rs>; mit ihr <rs type="place" xml:id="pl_19243" ref="#pmb92518">Schönbrunn</rs>, <rs type="place" xml:id="pl_19244" ref="#place_e097129ba1f826b95f2ab4f4798759c2" ana="#exclude">Meidlinger</rs> Thor;― Ruine,― 
 saßen auf der Bank, Sonnentag, wieder Westb.; Restaur. Garten; um 
-½7 fuhr sie nach <rs type="place" xml:id="pl_19245" ref="#place_ae346a40038f37b848c0d01aaaa37344">Thalheim</rs>.―</p>
+½7 fuhr sie nach <rs type="place" xml:id="pl_19245" ref="#pmb91887">Thalheim</rs>.―</p>
             <p xml:space="preserve" rend="indent">Z. N. <rs type="person" xml:id="pNt_89757" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> (das neue Kleid).―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

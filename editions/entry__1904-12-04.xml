@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-12-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-12-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-12-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-12-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-12-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-12-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F6B3-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2003.tif"/>
@@ -180,7 +184,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1904-12-04">
-            <p xml:space="preserve"><date when="1904-12-04">4/12</date> S.― Vm. allein spazieren, <rs type="place" xml:id="pl_04997" ref="#place_3b0cf80ce6f7c6e0340cf31265c8f3f7">Sievring</rs>, Dreimarkstein, <rs type="place" xml:id="pl_04998" ref="#place_a513bae177c89d12226f343ac5ff1ee3">Salmannsdorf</rs>.―</p>
+            <p xml:space="preserve"><date when="1904-12-04">4/12</date> S.― Vm. allein spazieren, <rs type="place" xml:id="pl_04997" ref="#pmb64219">Sievring</rs>, Dreimarkstein, <rs type="place" xml:id="pl_04998" ref="#pmb91641">Salmannsdorf</rs>.―</p>
             <p xml:space="preserve" rend="indent">― Nm. <rs type="work" xml:id="bibl_17495">Tristan</rs> gespielt. <rs type="person" xml:id="pNt_22059"><forename>Annie</forename> <surname>Sikora</surname></rs>; später ihre Eltern da.― An 
 der <rs type="work" subtype="self" xml:id="bibl_17496">N. E.</rs> weiter.―</p>
             <p xml:space="preserve" rend="indent">Abd. bei <rs type="allusively" xml:id="rst_00492">Mama</rs> mit O.; <rs type="person" xml:id="pNt_22060" ref="#person_19986"><forename>Gustav</forename></rs> dort. Über die Affairen der 
@@ -190,6 +194,5 @@ Nachhausegehn.―</p>
             <p xml:space="preserve" rend="indent">Lese <rs type="work" xml:id="bibl_17497">Martin Salander</rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

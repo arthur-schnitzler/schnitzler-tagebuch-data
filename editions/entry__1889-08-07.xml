@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1889-08-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-08-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-08-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1889-08-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-08-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-08-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E18F-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0398.tif"/>
@@ -181,9 +185,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1889-08-07">
-            <p xml:space="preserve"><date when="1889-08-07">7.</date> <rs type="place" xml:id="pl_00805" ref="#place_c2ad928214981e457405589604924059">Ischl</rs> ― <rs type="place" xml:id="pl_00806" ref="#place_6200f29d669d049c662de58d281da8f3">Weissenbach</rs>.― <rs ref="#person_16709" type="person" xml:id="pNt_03796"><forename>Fritz</forename></rs> ― <rs type="person" xml:id="pNt_03797" ref="#person_16706"><forename>Adele</forename> <surname>C.</surname></rs> ― <rs type="place" xml:id="pl_00807" ref="#place_7af648bdb537c8e802b17da1c2304d2e">Unterach</rs>.</p>
+            <p xml:space="preserve"><date when="1889-08-07">7.</date> <rs type="place" xml:id="pl_00805" ref="#pmb213">Ischl</rs> ― <rs type="place" xml:id="pl_00806" ref="#pmb92065">Weissenbach</rs>.― <rs ref="#person_16709" type="person" xml:id="pNt_03796"><forename>Fritz</forename></rs> ― <rs type="person" xml:id="pNt_03797" ref="#person_16706"><forename>Adele</forename> <surname>C.</surname></rs> ― <rs type="place" xml:id="pl_00807" ref="#pmb91973">Unterach</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

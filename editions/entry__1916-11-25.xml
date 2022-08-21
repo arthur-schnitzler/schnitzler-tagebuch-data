@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1916-11-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-11-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-11-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1916-11-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-11-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-11-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-07A2-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4367.tif"/>
@@ -181,17 +185,17 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1916-11-25">
-            <p xml:space="preserve"><date when="1916-11-25">25/11</date> Vm. Künstlerhaus Ausstellung. <rs type="place" xml:id="pl_10312" ref="#place_8fbb5ad1eece300cc636ce72c126d8e1">Stadtpark</rs> (<rs type="person" xml:id="pNt_49291" ref="#person_18388"><forename>Hansi v.</forename> <surname>L.</surname></rs> über O.s 
+            <p xml:space="preserve"><date when="1916-11-25">25/11</date> Vm. Künstlerhaus Ausstellung. <rs type="place" xml:id="pl_10312" ref="#pmb575">Stadtpark</rs> (<rs type="person" xml:id="pNt_49291" ref="#person_18388"><forename>Hansi v.</forename> <surname>L.</surname></rs> über O.s 
 <pb n="334"/>
 <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header"><fw n="334" place="top_left" type="pageNum">334</fw> <fw place="top_center"><date type="range">1916: XI 25 ― XI 29</date></fw></tei:fw>
-Concert), Panorama (<rs type="place" xml:id="pl_10313" ref="#place_8be4faaae218289562dc0a8c0e2e0ff1">Triest</rs> ― <rs type="place" xml:id="pl_10314" ref="#place_0a5ed43ab1e290a2356aaa745e7d7196">Jerusalem</rs>).</p>
+Concert), Panorama (<rs type="place" xml:id="pl_10313" ref="#pmb91944">Triest</rs> ― <rs type="place" xml:id="pl_10314" ref="#pmb5297">Jerusalem</rs>).</p>
             <p xml:space="preserve" rend="indent">Von <rs type="person" xml:id="pNt_49292" ref="#person_20372"><surname>Steiner</surname></rs> O. abgeholt. Man scheint ihm viel unangenehme Dinge 
 über O. gesagt zu haben. Zusammengefasst: Die Stimme im ganzen, das 
 Können ließen die Leute gelten (soweit ―) aber die Befangenheit, das 
 Unfreie (das die Übelwollenden mit überscharfen Augen sahn) ― 
 deuteten sie in „Affectation und Hochmut“ um. <rs type="person" xml:id="pNt_49293" ref="#person_20372"><surname>St.</surname></rs> räth, sie soll noch oft 
-auswärts singen eh sie wieder in <rs type="place" xml:id="pl_10315" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> auftritt. Ich finde, sie soll im 
-nächsten Jahr wieder in <rs type="place" xml:id="pl_10316" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> singen ― (wenn sie eben die Leiden der 
+auswärts singen eh sie wieder in <rs type="place" xml:id="pl_10315" ref="#pmb50">Wien</rs> auftritt. Ich finde, sie soll im 
+nächsten Jahr wieder in <rs type="place" xml:id="pl_10316" ref="#pmb50">Wien</rs> singen ― (wenn sie eben die Leiden der 
 Oeffentlichkeit auf sich zu nehmen gewillt ist. Doch scheinen mir ihre 
 Nerven immer weniger dem gewachsen).― <rs type="person" xml:id="pNt_49294" ref="#person_19428"><forename>Clo</forename></rs> (die Begleiterin) wohnte 
 dem Gespräch bei. Mit ihr fort.―</p>
@@ -200,6 +204,5 @@ dem Gespräch bei. Mit ihr fort.―</p>
             <p xml:space="preserve" rend="indent">Volkbühne (Colosseum) <rs type="person" xml:id="pNt_49296" ref="#person_19386"><surname>Rosenow</surname></rs>, <rs type="work" xml:id="bibl_7757">Kater Lampe</rs> (I.), mit <rs type="person" xml:id="pNt_49297" ref="#person_19986"><forename>Gustav</forename></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

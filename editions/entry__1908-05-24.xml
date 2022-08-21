@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-05-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-05-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FB81-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2511.tif"/>
@@ -180,13 +184,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1908-05-24">
-            <p xml:space="preserve"><date when="1908-05-24">24/5</date> S. Vm. mit O. <rs type="place" xml:id="pl_06328" ref="#place_388686540f35afe7790d134863d92203">Kahlenberg</rs>; <rs type="person" xml:id="pNt_28341" ref="#person_15194"><forename>Gustav</forename> <surname>Frid</surname></rs>, mit ihm kurzer Besuch in der 
-Villa, <rs type="person" xml:id="pNt_28342" ref="#person_15193"><forename>Gisela</forename> <surname>Frid</surname></rs>.― Spaziergang <rs type="place" xml:id="pl_06329" ref="#place_4eccc29620e7bfd13d3e8f6f024426fe">Leopoldsberg</rs>, Nase, <rs type="place" xml:id="pl_06330" ref="#place_8422ab675d39a4dfeec1f2c35bf74e2d">Kahlenbergerdörfl</rs>.―</p>
+            <p xml:space="preserve"><date when="1908-05-24">24/5</date> S. Vm. mit O. <rs type="place" xml:id="pl_06328" ref="#pmb574">Kahlenberg</rs>; <rs type="person" xml:id="pNt_28341" ref="#person_15194"><forename>Gustav</forename> <surname>Frid</surname></rs>, mit ihm kurzer Besuch in der 
+Villa, <rs type="person" xml:id="pNt_28342" ref="#person_15193"><forename>Gisela</forename> <surname>Frid</surname></rs>.― Spaziergang <rs type="place" xml:id="pl_06329" ref="#pmb59364">Leopoldsberg</rs>, Nase, <rs type="place" xml:id="pl_06330" ref="#pmb90969">Kahlenbergerdörfl</rs>.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="allusively" xml:id="rst_00930">Mama</rs> <rs type="person" xml:id="pNt_28343" ref="#person_20509"><surname>Strauss</surname></rs>, <rs type="work" xml:id="bibl_13420">Tod und Verklärung</rs>; <rs type="person" xml:id="pNt_28344" ref="#person_15530"><surname>Goldmark</surname></rs>, <rs type="work" xml:id="bibl_13421">Italien</rs>.</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_13422">Prof. Bernh.</rs> (wenig).</p>
             <p xml:space="preserve" rend="indent">Abds. mit O. <rs type="work" xml:id="bibl_13423">Bohême</rs>, Oper, <rs type="place" xml:id="pl_06332" ref="#place_d06a4c9ac44f4e202427917bb2fc3ac0" ana="#exclude">ital.</rs> Stagione ( <rs type="person" xml:id="pNt_28345" ref="#person_13857"><surname>Bonci</surname></rs>).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

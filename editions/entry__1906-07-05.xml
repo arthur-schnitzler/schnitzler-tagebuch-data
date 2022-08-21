@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-07-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-07-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-07-06.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1906-07-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-07-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-07-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F8F4-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2244.tif"/>
@@ -180,10 +184,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1906-07-05">
-            <p xml:space="preserve"><date when="1906-07-05">5/7</date> Über <rs type="place" xml:id="pl_05603" ref="#place_cf1c12533a4e3300c939a9eacf3f34ad">Hilleröd</rs> nach <rs type="place" xml:id="pl_05604" ref="#place_bca5a2137dafe1e9eb0e40366d2d8ee0">Gilleleje</rs>.― Der Bernsteinmann.― Wagen nach 
-<rs type="place" xml:id="pl_05605" ref="#place_a60d3fd93584b49c239fa0d53066227b">Hornbaek</rs>.― Bahn <rs type="place" xml:id="pl_05606" ref="#place_e11822ca10c3381ffab69f7f6608bad7">Marienlyst</rs>.</p>
+            <p xml:space="preserve"><date when="1906-07-05">5/7</date> Über <rs type="place" xml:id="pl_05603" ref="#pmb90877">Hilleröd</rs> nach <rs type="place" xml:id="pl_05604" ref="#pmb44252">Gilleleje</rs>.― Der Bernsteinmann.― Wagen nach 
+<rs type="place" xml:id="pl_05605" ref="#pmb44089">Hornbaek</rs>.― Bahn <rs type="place" xml:id="pl_05606" ref="#pmb959">Marienlyst</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

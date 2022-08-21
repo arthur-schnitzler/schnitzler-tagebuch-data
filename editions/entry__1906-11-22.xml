@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-11-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-11-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-11-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1906-11-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-11-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-11-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F980-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,17 +176,18 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2291.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1906-11-22">
             <p xml:space="preserve"><date when="1906-11-22">22/11</date> Vm. bei <rs type="person" xml:id="pNt_25846" ref="#person_15562"><roleName>Dr.</roleName> <surname>Gomperz</surname></rs>, nach langer Zeit. Fand das l. „gute Ohr“ 
 verschlechtert. Das r. noch nicht untersucht.― Soll mich wieder behandeln 
 lassen.―</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_25847" ref="#person_19986"><forename>Gustav</forename></rs> im <rs type="place" xml:id="pl_05734" ref="#place_d7f977f9a16210838a0dd6b32f6fb25d">Volksgarten</rs>; über ev. Aufführung des „<rs type="work" subtype="self" xml:id="bibl_15316">Märchen</rs>“ im Kl. 
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_25847" ref="#person_19986"><forename>Gustav</forename></rs> im <rs type="place" xml:id="pl_05734" ref="#pmb103">Volksgarten</rs>; über ev. Aufführung des „<rs type="work" subtype="self" xml:id="bibl_15316">Märchen</rs>“ im Kl. 
 Schauspielhaus.― Mit ihm Naturhist. Museum.</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="allusively" xml:id="rst_00766">Mama</rs> zu Tisch, mit ihr ein <rs type="person" xml:id="pNt_25848" ref="#person_13344"><surname>Bachsches</surname></rs> <rs type="work" xml:id="bibl_15317">Brandenburger Conc.</rs>―</p>
             <p xml:space="preserve" rend="indent">Im Trauerhaus <rs type="person" xml:id="pNt_25849" ref="#person_14363"><surname>David</surname></rs>, vor dem Begräbnis.―</p>
@@ -191,5 +196,6 @@ Schauspielhaus.― Mit ihm Naturhist. Museum.</p>
 etc. ― Im ganzen schlechter Eindruck. (<rs type="person" xml:id="pNt_25852"><forename>Annie</forename> <surname>Sikora</surname></rs> nett.)</p>
             <p xml:space="preserve" rend="indent">Ein Mscrpt. <rs type="person" xml:id="pNt_25853" ref="#person_13305"><surname>Auernheimers</surname></rs>, „<rs type="work" xml:id="bibl_15321">Der gute König</rs>“, anmutig, gelesen.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

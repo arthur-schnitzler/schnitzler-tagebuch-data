@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-08-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-08-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-08-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-08-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-08-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-08-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1579-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6705.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1926-08-12">
-            <p xml:space="preserve"><date when="1926-08-12">12/8</date> <rs type="place" xml:id="pl_16807" ref="#place_961698fa64951bd6d3437ebc7931a899">Bern</rs>. Beim Optiker <rs type="person" xml:id="pNt_78371" ref="#person_16016"><surname>Heck</surname></rs>, wegen Correctur meiner Gläser.―</p>
+            <p xml:space="preserve"><date when="1926-08-12">12/8</date> <rs type="place" xml:id="pl_16807" ref="#pmb1223">Bern</rs>. Beim Optiker <rs type="person" xml:id="pNt_78371" ref="#person_16016"><surname>Heck</surname></rs>, wegen Correctur meiner Gläser.―</p>
             <p xml:space="preserve" rend="indent">Mäßiges Befinden.―</p>
             <p xml:space="preserve" rend="indent">Abend Spaziergang, Kino, „<rs type="work" xml:id="bibl_20369">Sumpf und Moral</rs>“.</p>
-            <p xml:space="preserve" rend="indent">― Mit <rs type="person" xml:id="pNt_78372" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> (<rs type="place" xml:id="pl_16808" ref="#place_1bc11fc0b2253c7386fef2d7da882016">Arosa</rs>) telef.</p>
+            <p xml:space="preserve" rend="indent">― Mit <rs type="person" xml:id="pNt_78372" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> (<rs type="place" xml:id="pl_16808" ref="#pmb43995">Arosa</rs>) telef.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

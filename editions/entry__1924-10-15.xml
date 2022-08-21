@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1924-10-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-10-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-10-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1924-10-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-10-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-10-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-12E0-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6373.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1924-10-15">
-            <p xml:space="preserve"><date when="1924-10-15">15/10</date> Traum gestern: dass (<rs type="place" xml:id="pl_15735" ref="#place_df4093a15c24d76ec83902dda99ef255">Cottagegasse</rs>) ein Haus für mich 
+            <p xml:space="preserve"><date when="1924-10-15">15/10</date> Traum gestern: dass (<rs type="place" xml:id="pl_15735" ref="#pmb63834">Cottagegasse</rs>) ein Haus für mich 
 gebaut wird; meins hab ich verkauft; eigentlich seh ich nur den 
 eingeplankten Bauplatz;― viel zu klein, wie ein Sarg, denk ich;― 
 neben mir, für <rs type="person" xml:id="pNt_73504" ref="#person_13551"><forename>Richard</forename></rs>, ein nur wenig größrer ―; ich frage mich ― 
@@ -204,6 +208,5 @@ Und … Wie schmerzlich, dass sie wieder fort ist.―</p>
 die, offenbar von <rs type="person" xml:id="pNt_73518" ref="#person_19832"><forename>O.s</forename></rs> Wesen tief aegrirt, gleich ging.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

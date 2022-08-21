@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1899-09-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-09-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-09-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1899-09-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-09-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-09-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EF9F-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1515.tif"/>
@@ -182,10 +186,9 @@
       <body>
          <div type="diary-day" xml:id="entry__1899-09-27">
             <p xml:space="preserve"><date when="1899-09-27">27/9</date> ― Walhalla.</p>
-            <p xml:space="preserve" rend="indent">Vorm. Spaziergang <rs type="place" xml:id="pl_03254" ref="#place_3005407ddd79e0a467ea630d38593913">Biebrich</rs>, <rs type="place" xml:id="pl_03255" ref="#place_da9433ffa7ee11c024ae3f1f9458f77f" ana="#exclude">Rheinfahrt</rs> <rs type="place" xml:id="pl_03256" ref="#place_3496da6c1db0a5223edb1fb4c415a154">Mainz</rs>, Dom.― 
+            <p xml:space="preserve" rend="indent">Vorm. Spaziergang <rs type="place" xml:id="pl_03254" ref="#pmb64277">Biebrich</rs>, <rs type="place" xml:id="pl_03255" ref="#place_da9433ffa7ee11c024ae3f1f9458f77f" ana="#exclude">Rheinfahrt</rs> <rs type="place" xml:id="pl_03256" ref="#pmb44119">Mainz</rs>, Dom.― 
 „<rs type="work" subtype="self" xml:id="bibl_18576">Entrüsteten</rs>“ viel bedacht und eine Empfindung innrer Fülle gehabt.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

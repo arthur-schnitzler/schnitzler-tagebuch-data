@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-08-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-08-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-08-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-08-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-08-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-08-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0455-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3862.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1914-08-02">
-            <p xml:space="preserve"><date when="1914-08-02">2/8</date> S. Nach <rs type="place" xml:id="pl_08854" ref="#place_ed6893b78d32ca570adf82aa6fe6e5be">Pontresina</rs>. Spazierend über den Murailweg zurück ― Frau 
+            <p xml:space="preserve"><date when="1914-08-02">2/8</date> S. Nach <rs type="place" xml:id="pl_08854" ref="#pmb34946">Pontresina</rs>. Spazierend über den Murailweg zurück ― Frau 
 <rs type="person" xml:id="pNt_43855" ref="#person_15900"><surname>Hanel</surname></rs> und ihren Mann begegnet.―</p>
-            <p xml:space="preserve" rend="indent">Kriegserklärung <rs type="place" xml:id="pl_08855" ref="#place_3c2f8b8c8c43538b25a0327ae84c3f65">Deutschland</rs> an <rs type="place" xml:id="pl_08856" ref="#place_65f7b8e17e93bc2a87843d99e82c08a5">Rußland</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Kriegserklärung <rs type="place" xml:id="pl_08855" ref="#pmb151">Deutschland</rs> an <rs type="place" xml:id="pl_08856" ref="#pmb34438">Rußland</rs>.―</p>
             <p xml:space="preserve" rend="indent">Der <rs type="place" xml:id="pl_08857" ref="#place_570aa30e2d2e5089ccd27976bcc44a36" ana="#exclude">russische</rs> Cousin von <rs type="person" xml:id="pNt_43856" ref="#person_21231"><forename>Bella</forename></rs>; ― ein Lehrer.―</p>
-            <p xml:space="preserve" rend="indent">Mit O. <rs type="place" xml:id="pl_08858" ref="#place_51c7c0e8bc877f41a415a8e7efedd068">St. Moritz</rs>. Nachrichten. Erregung.</p>
+            <p xml:space="preserve" rend="indent">Mit O. <rs type="place" xml:id="pl_08858" ref="#pmb44374">St. Moritz</rs>. Nachrichten. Erregung.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

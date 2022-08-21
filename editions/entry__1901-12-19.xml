@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1901-12-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-12-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-12-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1901-12-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-12-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-12-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F29E-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1662.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1901-12-19">
-            <p xml:space="preserve"><date when="1901-12-19">19/12</date> Vm. mit <rs type="person" xml:id="pNt_18297" ref="#person_19986"><forename>Gustav</forename></rs> <rs type="place" xml:id="pl_03829" ref="#place_11632ad428373b511963b4a9253ed942">Auhof</rs>. Abd. <rs type="person" xml:id="pNt_18298" ref="#person_19832"><forename>O.</forename></rs> Später Kfh., wo <rs type="person" xml:id="pNt_18299" ref="#person_16709"><surname>Kappers</surname></rs> und 
+            <p xml:space="preserve"><date when="1901-12-19">19/12</date> Vm. mit <rs type="person" xml:id="pNt_18297" ref="#person_19986"><forename>Gustav</forename></rs> <rs type="place" xml:id="pl_03829" ref="#pmb90284">Auhof</rs>. Abd. <rs type="person" xml:id="pNt_18298" ref="#person_19832"><forename>O.</forename></rs> Später Kfh., wo <rs type="person" xml:id="pNt_18299" ref="#person_16709"><surname>Kappers</surname></rs> und 
 <rs type="person" xml:id="pNt_18300" ref="#person_14472"><surname>Dörmann</surname></rs> mit Frau ― <rs type="person" xml:id="pNt_18301" ref="#person_14472"><surname>D.</surname></rs> sichtlich verstimmt wegen meines Verhaltens 
 zu <rs type="work" xml:id="bibl_18375">Abadessa</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

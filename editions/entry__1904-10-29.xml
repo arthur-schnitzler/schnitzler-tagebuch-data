@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-10-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-10-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-10-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-10-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-10-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-10-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F68F-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1986.tif"/>
@@ -181,13 +185,12 @@
       <body>
          <div type="diary-day" xml:id="entry__1904-10-29">
             <p xml:space="preserve"><date when="1904-10-29">29/10</date> Vm. dictirt <rs type="work" subtype="self" xml:id="bibl_17399">N. E.</rs> und andres.―</p>
-            <p xml:space="preserve" rend="indent">Nm. kam <rs type="person" xml:id="pNt_21789" ref="#person_16293"><forename>Hugo</forename></rs>, der November in <rs type="place" xml:id="pl_04956" ref="#place_a87c18c322f6b2feece9018bcd4027e5">Olmütz</rs> Waffenübung 
+            <p xml:space="preserve" rend="indent">Nm. kam <rs type="person" xml:id="pNt_21789" ref="#person_16293"><forename>Hugo</forename></rs>, der November in <rs type="place" xml:id="pl_04956" ref="#pmb44176">Olmütz</rs> Waffenübung 
 hat.― Sein Besuch bei <rs type="person" xml:id="pNt_21790" ref="#person_19724"><surname>Schlenther</surname></rs> (Annahme des <rs type="work" xml:id="bibl_17400">geretteten Venedig</rs>) 
 der nach seiner Erzählung einen fast gestörten Eindruck macht.― 
-Mit ihm und O. im <rs type="place" xml:id="pl_04957" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs> spazieren.―</p>
+Mit ihm und O. im <rs type="place" xml:id="pl_04957" ref="#pmb113">Türkenschanzpark</rs> spazieren.―</p>
             <p xml:space="preserve" rend="indent">― Abends <rs type="work" subtype="self" xml:id="bibl_17401">N. E.</rs> 2. Fassung leidlich geschlossen.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

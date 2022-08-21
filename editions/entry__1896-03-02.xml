@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1896-03-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-03-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-03-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1896-03-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-03-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-03-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EABA-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1119.tif"/>
@@ -181,9 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1896-03-02">
-            <p xml:space="preserve"><date when="1896-03-02">2/3</date> Brief von <rs type="person" xml:id="pNt_11821" ref="#person_15485"><forename>Mz. I</forename></rs>, <rs type="work" subtype="self" xml:id="bibl_21813">Liebelei</rs> am 7. April in <rs type="place" xml:id="pl_02201" ref="#place_2fc01bde301ce78776bfd009c2edc542">Koeln</rs>.― Abd. mit <rs type="person" xml:id="pNt_11822" ref="#person_19150"><forename>Mz.</forename> <surname>Rh.</surname></rs> 
+            <p xml:space="preserve"><date when="1896-03-02">2/3</date> Brief von <rs type="person" xml:id="pNt_11821" ref="#person_15485"><forename>Mz. I</forename></rs>, <rs type="work" subtype="self" xml:id="bibl_21813">Liebelei</rs> am 7. April in <rs type="place" xml:id="pl_02201" ref="#pmb91050">Koeln</rs>.― Abd. mit <rs type="person" xml:id="pNt_11822" ref="#person_19150"><forename>Mz.</forename> <surname>Rh.</surname></rs> 
 spazieren. Nm. hatte ich gearbeitet, ohne viel zusammenzubringen. 
-Abend lief ich verschiedenen Frz. nach.― Dann <rs type="place" ref="#place_ronacher">Ronacher</rs> mit <rs type="person" xml:id="pNt_11824" ref="#person_20925"><forename>Leo</forename></rs> und 
+Abend lief ich verschiedenen Frz. nach.― Dann <rs type="place" ref="#pmb92490">Ronacher</rs> mit <rs type="person" xml:id="pNt_11824" ref="#person_20925"><forename>Leo</forename></rs> und 
 <rs type="person" xml:id="pNt_11825" ref="#person_19542"><surname>Salten</surname></rs>.― Neue Hypochondrien quälen mich.― Dadurch daß mir nichts 
 rechtes gelingen will, bin ich wieder sehr empfindlich, so daß mich 
 eine leicht geringschätzige Bemerkung mehr niederdrückt als mich 
@@ -193,6 +197,5 @@ zehn enthus. Kritiken freuen, begreiflich ― denn gerade die enthus.
 verstimmen mich ja auch.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

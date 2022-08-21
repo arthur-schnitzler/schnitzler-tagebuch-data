@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-11-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-11-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-11-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-11-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-11-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-11-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-01F0-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3520.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1912-11-26">
-            <p xml:space="preserve"><date when="1912-11-26">26/11</date> <rs type="place" xml:id="pl_08098" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>.― Ins Sanatorium <rs type="person" xml:id="pNt_39397"><surname>Unger</surname></rs>, nach <rs type="person" xml:id="pNt_39398" ref="#person_13913"><surname>Brahms</surname></rs> Befinden gefragt. 
+            <p xml:space="preserve"><date when="1912-11-26">26/11</date> <rs type="place" xml:id="pl_08098" ref="#pmb168">Berlin</rs>.― Ins Sanatorium <rs type="person" xml:id="pNt_39397"><surname>Unger</surname></rs>, nach <rs type="person" xml:id="pNt_39398" ref="#person_13913"><surname>Brahms</surname></rs> Befinden gefragt. 
 Frau <rs type="person" xml:id="pNt_39399" ref="#person_18972"><forename>Eva</forename> <surname>Prinzhorn</surname></rs>. Nicht gut.</p>
             <p xml:space="preserve" rend="indent">Im Hotel die Correspondentin des<rs type="work" subtype="newspaper" xml:id="bibl_10602"> New York Herald</rs>.―</p>
             <p xml:space="preserve" rend="indent">Probe im Kl. Th.― Dazwischen <rs type="person" xml:id="pNt_39400" ref="#person_15004"><roleName>Hr.</roleName> <surname>Fischer</surname></rs> vom <rs type="work" subtype="newspaper" xml:id="bibl_10603">Berl. Tgbl.</rs> ― soll für 
@@ -193,6 +197,5 @@ Frau <rs type="person" xml:id="pNt_39399" ref="#person_18972"><forename>Eva</for
 genachtmahlt.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

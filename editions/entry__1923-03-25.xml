@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-03-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-03-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-03-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-03-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-03-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-03-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-10A7-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5999.tif"/>
@@ -183,7 +187,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1923-03-25">
-            <p xml:space="preserve"><date when="1923-03-25">25/3</date> Palmsonntag. Schöner Frühlingstag.― Mit <rs type="person" xml:id="pNt_68944" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> spazieren <rs type="place" xml:id="pl_14606" ref="#place_9c457f4107132ccb2d87ebf5e13f0b74">Schafberg</rs>. 
+            <p xml:space="preserve"><date when="1923-03-25">25/3</date> Palmsonntag. Schöner Frühlingstag.― Mit <rs type="person" xml:id="pNt_68944" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> spazieren <rs type="place" xml:id="pl_14606" ref="#pmb59367">Schafberg</rs>. 
 Saßen im Freien, auf Baumwurzeln. <rs type="person" xml:id="pNt_68945" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> wünscht sehr als Romanfigur 
 aufzuleben.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_68946" ref="#person_19832"><forename>O.</forename></rs> hatte abgesagt;― in telef. Gespräch mit <rs type="person" xml:id="pNt_68947" ref="#person_19822"><forename>Heini</forename></rs> erklärte sie 
@@ -194,7 +198,7 @@ zurückzuführen). Ich sagte <rs type="person" xml:id="pNt_68949" ref="#person_1
 Situationen (bei uns zu Haus) mir schmerzlich seien; worauf er: „Ich hab 
 mir’s ja auch gedacht.“ Es begegnete mir das erste Mal, dass ich in einem 
 Gespräch mit <rs type="person" xml:id="pNt_68951" ref="#person_19822"><forename>Heini</forename></rs> die Thränen nicht zurückhalten konnte.―</p>
-            <p xml:space="preserve" rend="indent">― Nm war <rs type="person" xml:id="pNt_68952" ref="#person_17083"><roleName>Fr.</roleName> <surname>Krall</surname></rs> (<rs type="place" ref="#place_burgtheater">Burgtheater</rs>) mit ihrer Tochter (auch am B. Th.) 
+            <p xml:space="preserve" rend="indent">― Nm war <rs type="person" xml:id="pNt_68952" ref="#person_17083"><roleName>Fr.</roleName> <surname>Krall</surname></rs> (<rs type="place" ref="#pmb14">Burgtheater</rs>) mit ihrer Tochter (auch am B. Th.) 
 da;― ob ich was dagegen, wenn sie die <rs ref="#person_14130" type="person" xml:id="pNt_68953"><roleName>Frau</roleName> <surname>Binder</surname></rs> spiele. Sagte ihr, 
 daß ich mich um Neubesetzungen nicht kümmre; sie erinnerte mich 
 an ihre Schwester, mit der sie vor 30 Jahren bei mir war, und die 
@@ -209,7 +213,7 @@ mich die ganze Welt verheirate“ … ― Überhaupt sei ich in alle
 möglichen Frauensachen verstrickt daher habe ich sie auch zu 
 Weihnachten nicht hier haben wollen.― Ob ich denn nicht (fragt 
 <rs type="person" xml:id="pNt_68958" ref="#person_17784"><forename>Alma</forename></rs>) spüre, wie all ihr Benehmen Stolz und Trotz sei;― auch in 
-dem neuen Kreis in <rs type="place" xml:id="pl_14608" ref="#place_63714a562352ef3ae472da20ed0384c0">B.-B.</rs> fühle sie sich eigentlich einsam; „und Sie 
+dem neuen Kreis in <rs type="place" xml:id="pl_14608" ref="#pmb228">B.-B.</rs> fühle sie sich eigentlich einsam; „und Sie 
 sind gerade so einsam wie sie“. Und wir gehörten nun einmal 
 zusammen … u. s. w… Dies ist, sage ich eben das tragische ― : wenn 
 Leute, die zusammengehören,― auseinander müssen;― bei denen die 
@@ -223,6 +227,5 @@ lebt, sie ist nach wie vor die einzig wirkliche meines Daseins, trotz
 allem.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

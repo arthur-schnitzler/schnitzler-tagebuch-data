@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1893-07-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-07-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-07-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1893-07-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-07-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-07-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E6F8-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0748.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1893-07-09">
-            <p xml:space="preserve"><date when="1893-07-09">9/7</date> Sonntag.― Wieder ein Brief von <rs type="person" xml:id="pNt_07586" ref="#person_15485"><forename>Mz.</forename></rs>― <rs type="place" xml:id="pl_01533" ref="#place_bf2832cd6e8b630f11c6b091b73e5279">Anzenau</rs> des Morgens.― Bei 
+            <p xml:space="preserve"><date when="1893-07-09">9/7</date> Sonntag.― Wieder ein Brief von <rs type="person" xml:id="pNt_07586" ref="#person_15485"><forename>Mz.</forename></rs>― <rs type="place" xml:id="pl_01533" ref="#pmb90254">Anzenau</rs> des Morgens.― Bei 
 <rs type="person" xml:id="pNt_07587" ref="#person_15030"><surname>Flegmann</surname></rs> gespeist.― Dort <rs type="person" xml:id="pNt_07588" ref="#person_13914"><surname>Brahms</surname></rs>, <rs type="person" xml:id="pNt_07589" ref="#person_13471"><surname>Bauer</surname></rs>, <rs type="person" xml:id="pNt_07590" ref="#person_17617"><surname>Löbl</surname></rs>, <rs type="person" xml:id="pNt_07591" ref="#person_20321"><surname>Stahl</surname></rs>, <rs type="person" xml:id="pNt_07592" ref="#person_13551"><forename>Richard</forename></rs>.―</p>
             <p xml:space="preserve" rend="indent">Soupirt beim <rs type="person" xml:id="pNt_07593" ref="#person_18736"><forename>Leopold</forename></rs> mit <rs type="person" xml:id="pNt_07594" ref="#person_13581"><surname>Benedict’s</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

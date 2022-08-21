@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-01-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-01-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-01-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-01-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-01-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-01-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-038B-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3761.tif"/>
@@ -182,8 +186,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1914-01-11">
-            <p xml:space="preserve"><date when="1914-01-11">11/1</date> S. <rs type="person" xml:id="pNt_42571" ref="#person_20885"><surname>Unruh</surname></rs> holt mich ab, wir fahren bis <rs type="place" xml:id="pl_08597" ref="#place_3b0cf80ce6f7c6e0340cf31265c8f3f7">Sievring</rs>, gehn Himmel, 
-Cobenzl, Wildgrube, <rs type="place" xml:id="pl_08598" ref="#place_0ac7c290a22c4a065c4bc53e46e7524e">Kahlenbergerstraße</rs> ― <rs type="place" xml:id="pl_08599" ref="#place_86f90c857ca2c813e066ea7b3502cb7c">Hohe Warte</rs>; in schöner 
+            <p xml:space="preserve"><date when="1914-01-11">11/1</date> S. <rs type="person" xml:id="pNt_42571" ref="#person_20885"><surname>Unruh</surname></rs> holt mich ab, wir fahren bis <rs type="place" xml:id="pl_08597" ref="#pmb64219">Sievring</rs>, gehn Himmel, 
+Cobenzl, Wildgrube, <rs type="place" xml:id="pl_08598" ref="#pmb92317">Kahlenbergerstraße</rs> ― <rs type="place" xml:id="pl_08599" ref="#pmb92292">Hohe Warte</rs>; in schöner 
 mäßig heller Schneelandschaft.― Über Literaten und Dichter, ― die 
 unüberschreitbare Grenze (<rs type="person" xml:id="pNt_42572" ref="#person_21614"><surname>Zweig</surname></rs>,― <rs type="person" xml:id="pNt_42573" ref="#person_16041"><surname>Heimann</surname></rs>, <rs type="person" xml:id="pNt_42574" ref="#person_13337"><surname>Bab</surname></rs> ―); er erzählt mir 
 seinen Komödienstoff (Gebeine der Prinzessin); ich ihm den „<rs type="work" subtype="self" xml:id="bibl_8614">Fink</rs>“, 
@@ -196,6 +200,5 @@ kennt); und Psychoanalyse überhaupt; <rs type="person" xml:id="pNt_42578" ref="
 Daheim immer übler.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

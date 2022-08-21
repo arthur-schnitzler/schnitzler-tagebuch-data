@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-08-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-08-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0192-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3464.tif"/>
@@ -182,8 +186,8 @@
       <body>
          <div type="diary-day" xml:id="entry__1912-08-24">
             <p xml:space="preserve"><date when="1912-08-24">24/8</date> Abreise. Am Molo der alte <rs type="person" xml:id="pNt_38673" ref="#person_17207"><surname>Kupelwieser</surname></rs> und Schwiegertochter 
-u. a.― Mit uns nach <rs type="place" xml:id="pl_08005" ref="#place_9219ee9e1eb760ce3bd97532b5ca05e1">Pola</rs> <rs type="person" xml:id="pNt_38674" ref="#person_21601"><surname>Zuckerkandls</surname></rs>, <rs type="person" xml:id="pNt_38675" ref="#person_14259"><surname>Colmers</surname></rs>. (Die Herren im Segel 
-nach.) In <rs type="place" xml:id="pl_08006" ref="#place_9219ee9e1eb760ce3bd97532b5ca05e1">Pola</rs> Rundfahrt; das Amphitheater.―</p>
+u. a.― Mit uns nach <rs type="place" xml:id="pl_08005" ref="#pmb851">Pola</rs> <rs type="person" xml:id="pNt_38674" ref="#person_21601"><surname>Zuckerkandls</surname></rs>, <rs type="person" xml:id="pNt_38675" ref="#person_14259"><surname>Colmers</surname></rs>. (Die Herren im Segel 
+nach.) In <rs type="place" xml:id="pl_08006" ref="#pmb851">Pola</rs> Rundfahrt; das Amphitheater.―</p>
             <pb n="350"/>
             <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header">
                <fw n="350" place="top_left" type="pageNum">350</fw>
@@ -191,13 +195,12 @@ nach.) In <rs type="place" xml:id="pl_08006" ref="#place_9219ee9e1eb760ce3bd9753
                   <date type="range">1912: VIII 24 ― VIII 31</date>
                </fw>
             </tei:fw>
-            <p xml:space="preserve" rend="indent">Im „Gautsch“ nach <rs type="place" xml:id="pl_08007" ref="#place_8be4faaae218289562dc0a8c0e2e0ff1">Triest</rs>. Auf dem Schiff <rs type="person" xml:id="pNt_38676" ref="#person_18950"><surname>Prechtler</surname></rs> und <rs type="person" xml:id="pNt_38677" ref="#person_19778"><roleName>Frau</roleName> 
-<surname>Schmittlein</surname></rs>. Reden über <rs type="person" xml:id="pNt_38678" ref="#person_13624"><roleName>Baron</roleName> <surname>Berger</surname></rs>, sein Kranksein.― In <rs type="place" xml:id="pl_08008" ref="#place_8be4faaae218289562dc0a8c0e2e0ff1">Triest</rs>, 
+            <p xml:space="preserve" rend="indent">Im „Gautsch“ nach <rs type="place" xml:id="pl_08007" ref="#pmb91944">Triest</rs>. Auf dem Schiff <rs type="person" xml:id="pNt_38676" ref="#person_18950"><surname>Prechtler</surname></rs> und <rs type="person" xml:id="pNt_38677" ref="#person_19778"><roleName>Frau</roleName> 
+<surname>Schmittlein</surname></rs>. Reden über <rs type="person" xml:id="pNt_38678" ref="#person_13624"><roleName>Baron</roleName> <surname>Berger</surname></rs>, sein Kranksein.― In <rs type="place" xml:id="pl_08008" ref="#pmb91944">Triest</rs>, 
 Hotel Excelsior; eben klebt der Portier die Todesnachricht <rs type="person" xml:id="pNt_38679" ref="#person_13624"><surname>Berger</surname></rs> an.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_38680" ref="#person_19755"><forename>Hugo</forename> <surname>Schmidl</surname></rs> kommt, begleitet uns zur Bahn. Abfahrt nach <rs type="place" xml:id="pl_08009" ref="#place_0d630f309cd8eaead4c6693378f162fb">Villach</rs>. 
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_38680" ref="#person_19755"><forename>Hugo</forename> <surname>Schmidl</surname></rs> kommt, begleitet uns zur Bahn. Abfahrt nach <rs type="place" xml:id="pl_08009" ref="#pmb92011">Villach</rs>. 
 Parkhotel.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1902-08-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-08-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-08-19.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1902-08-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-08-17.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-08-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F376-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1704.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1902-08-18">
-            <p xml:space="preserve"><date when="1902-08-18">18/8</date> Vm. bei <rs type="person" xml:id="pNt_18845" ref="#person_13551"><forename>Rich.</forename></rs> und <rs type="person" xml:id="pNt_18846" ref="#person_16293"><forename>Hugo</forename></rs> <rs type="place" xml:id="pl_04067" ref="#place_6cc6cfe893d0065a8007acc6e4074a69">Rodaun</rs>.―</p>
+            <p xml:space="preserve"><date when="1902-08-18">18/8</date> Vm. bei <rs type="person" xml:id="pNt_18845" ref="#person_13551"><forename>Rich.</forename></rs> und <rs type="person" xml:id="pNt_18846" ref="#person_16293"><forename>Hugo</forename></rs> <rs type="place" xml:id="pl_04067" ref="#pmb173">Rodaun</rs>.―</p>
             <p xml:space="preserve" rend="indent"><rs type="allusively" xml:id="rst_00339">Mama</rs> bei Tisch: „Ich zerbrech mir den Kopf, was ich dem Kind kaufen 
 könnt.“ Und allerlei äußerliches … „ich hab ja gewußt, dass 
 du in keine gute Fam. willst“ etc. ― ich erklärte: Privatsache und 
@@ -189,6 +193,5 @@ verbat mir weitre Einmischung.―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_18847" ref="#person_15581"><roleName>Herr</roleName> <surname>Góth</surname></rs>. Mit ihm und <rs type="person" xml:id="pNt_18848" ref="#person_19542"><surname>Salten’s</surname></rs> Schweizerhaus. Geschossen.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

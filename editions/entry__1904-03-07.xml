@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-03-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-03-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-03-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-03-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-03-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-03-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F5A3-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1900.tif"/>
@@ -180,12 +184,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1904-03-07">
-            <p xml:space="preserve"><date when="1904-03-07">7/3</date> Vm. Panorama <rs type="place" xml:id="pl_04620" ref="#place_998cb15276c5e21f109375bbe4f7cceb">Salzkammergut</rs>.―</p>
+            <p xml:space="preserve"><date when="1904-03-07">7/3</date> Vm. Panorama <rs type="place" xml:id="pl_04620" ref="#pmb91651">Salzkammergut</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_20885" ref="#person_14383"><surname>Dehmel</surname></rs> und Frau sowie <rs type="person" xml:id="pNt_20886" ref="#person_21486"><surname>Wymetal</surname></rs> bei uns.― Über die 
 <rs type="person" xml:id="pNt_20887" ref="#person_20811"><surname>Triesch</surname></rs> u. a.― Musik. (Ich spielte.) Es stellte sich kein rechtes 
 Verhältnis her.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

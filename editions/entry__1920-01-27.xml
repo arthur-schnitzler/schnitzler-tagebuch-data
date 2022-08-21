@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-01-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-01-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-01-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1920-01-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-01-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-01-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0C26-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5015.tif"/>
@@ -185,7 +189,7 @@
             <p xml:space="preserve"><date when="1920-01-27">27/1</date> Vm. bei <rs type="person" xml:id="pNt_57863" ref="#person_19986"><forename>Gustav</forename></rs>, der, wie ich erst bei dieser Gelegenheit 
 erfahre, seit 14 Tagen an Bronchitis krank. „Wozu flickt man 
 noch an mir herum ―“</p>
-            <p xml:space="preserve" rend="indent">Im <rs type="place" ref="#place_burgtheater">Burgtheater</rs>. <rs type="person" xml:id="pNt_57864" ref="#person_16046"><surname>Heine</surname></rs> und <rs type="person" xml:id="pNt_57865" ref="#person_16247"><surname>Hock</surname></rs>.― Besetzung und Termin der „<rs type="work" subtype="self" xml:id="bibl_3862">Schwestern</rs>“.― 
+            <p xml:space="preserve" rend="indent">Im <rs type="place" ref="#pmb14">Burgtheater</rs>. <rs type="person" xml:id="pNt_57864" ref="#person_16046"><surname>Heine</surname></rs> und <rs type="person" xml:id="pNt_57865" ref="#person_16247"><surname>Hock</surname></rs>.― Besetzung und Termin der „<rs type="work" subtype="self" xml:id="bibl_3862">Schwestern</rs>“.― 
 Vertrag. (20. März.)</p>
             <p xml:space="preserve" rend="indent">Mit Frau <rs type="person" xml:id="pNt_57866" ref="#person_19783"><roleName>Prof.</roleName> <surname>Schmutzer</surname></rs> bei <rs type="person" xml:id="pNt_57867" ref="#person_13791"><roleName>Director</roleName> <surname>Bloch</surname></rs> Lyceum. Beheizungsfragen.― 
 Mit der Lehrerin <rs type="person" xml:id="pNt_57868" ref="#person_20160"><roleName>Frau</roleName> <surname>Skutecky</surname></rs> über <rs type="person" xml:id="pNt_57869" ref="#person_14130"><forename>Lili</forename></rs>: 
@@ -199,6 +203,5 @@ ihr Bedürfnis mich ins Unrecht zu setzen; meine Gereiztheit
 gegen sie, die wohl begründet ist.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

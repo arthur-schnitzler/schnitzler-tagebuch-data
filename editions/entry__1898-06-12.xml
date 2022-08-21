@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1898-06-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-06-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-06-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1898-06-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-06-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-06-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EDEF-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1439.tif"/>
@@ -182,12 +186,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1898-06-12">
-            <p xml:space="preserve"><date when="1898-06-12">12/6</date> S. Vorm. mit <rs type="person" xml:id="pNt_15403" ref="#person_19150"><forename>Mz.</forename> <surname>Rh.</surname></rs> und Schwester <rs type="place" xml:id="pl_02902" ref="#place_939f7d0e30877e65d6e6569a84ed28fb">Lang-Enzersdorf</rs>.― Nm. 
+            <p xml:space="preserve"><date when="1898-06-12">12/6</date> S. Vorm. mit <rs type="person" xml:id="pNt_15403" ref="#person_19150"><forename>Mz.</forename> <surname>Rh.</surname></rs> und Schwester <rs type="place" xml:id="pl_02902" ref="#pmb51088">Lang-Enzersdorf</rs>.― Nm. 
 <rs type="person" xml:id="pNt_15404" ref="#person_19150"><forename>Mz.</forename> <surname>Rh.</surname></rs> bei mir.― Mit <rs type="person" xml:id="pNt_15405" ref="#person_16293"><forename>Hugo</forename></rs> genachtm. im silb. Brunnen, wir sprachen 
 viel von <rs type="person" xml:id="pNt_15406" ref="#person_15485"><forename>Mz. I</forename></rs>, er war dann bei mir, ich las ihm aus dem <rs type="work" subtype="self" xml:id="bibl_18713">Tagebuch</rs> 
 erste Zeit mit <rs type="person" xml:id="pNt_15407" ref="#person_15485"><forename>Mz. I</forename></rs> vor.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

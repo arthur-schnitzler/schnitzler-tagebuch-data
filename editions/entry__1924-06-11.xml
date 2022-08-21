@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1924-06-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-06-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-06-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1924-06-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-06-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-06-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1262-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6277.tif"/>
@@ -183,17 +187,16 @@
       <body>
          <div type="diary-day" xml:id="entry__1924-06-11">
             <p xml:space="preserve"><date when="1924-06-11">11/6</date> Früh <rs type="person" xml:id="pNt_72419" ref="#person_16277"><roleName>Dr.</roleName> <surname>Hoffmann</surname></rs>. Allerlei jurist. Affairen.―</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_72420" ref="#person_14130"><forename>Lili</forename></rs> in der <rs type="place" xml:id="pl_15415" ref="#place_3502d75d711c729a905f88bfbcbf40a8">Erdbergerstr.</rs>; ihr einen Hängekoffer gekauft.</p>
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_72420" ref="#person_14130"><forename>Lili</forename></rs> in der <rs type="place" xml:id="pl_15415" ref="#pmb92228">Erdbergerstr.</rs>; ihr einen Hängekoffer gekauft.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_72421" ref="#person_14130"><forename>Lili</forename></rs> ins <rs type="person" xml:id="pNt_72422"><forename>Rudolfspital</forename></rs>; zu <rs type="person" xml:id="pNt_72423" ref="#person_19227"><forename>Gerty</forename> <surname>Rheinhardt</surname></rs>, die noch immer 
-mit Gelenkrheum. liegt. Dann soll sie nach <rs type="place" xml:id="pl_15416" ref="#place_9a43e84f6e1d406076f2372205804f6d">Baden</rs>, dann will sie 
-zu ihrer Mutter nach <rs type="place" xml:id="pl_15417" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>;― aber dann?― Ihre Gesangscarrière 
+mit Gelenkrheum. liegt. Dann soll sie nach <rs type="place" xml:id="pl_15416" ref="#pmb662">Baden</rs>, dann will sie 
+zu ihrer Mutter nach <rs type="place" xml:id="pl_15417" ref="#pmb168">Berlin</rs>;― aber dann?― Ihre Gesangscarrière 
 problematisch;― <rs type="person" xml:id="pNt_72424" ref="#person_19832"><forename>Olga</forename></rs> hat ihr geschrieben, sie solle ihre Seele nicht 
 (für Geld) verkaufen. (Sie hats leicht.) ―</p>
             <p xml:space="preserve" rend="indent">― Nm. an <rs type="work" subtype="self" xml:id="bibl_21107">Bez.</rs></p>
-            <p xml:space="preserve" rend="indent">Abds. mit <rs type="person" xml:id="pNt_72425" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> spazieren, <rs type="place" xml:id="pl_15418" ref="#place_bf303a935ba7bb30e892cb5d0f2ea6ac">Michaelerberg</rs>; in der Dämmerung 
-Blicke auf <rs type="place" xml:id="pl_15419" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>; mit ihr beim <rs type="person" xml:id="pNt_72426"><surname>Strasser</surname></rs> genachtm.―</p>
+            <p xml:space="preserve" rend="indent">Abds. mit <rs type="person" xml:id="pNt_72425" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> spazieren, <rs type="place" xml:id="pl_15418" ref="#pmb91239">Michaelerberg</rs>; in der Dämmerung 
+Blicke auf <rs type="place" xml:id="pl_15419" ref="#pmb50">Wien</rs>; mit ihr beim <rs type="person" xml:id="pNt_72426"><surname>Strasser</surname></rs> genachtm.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

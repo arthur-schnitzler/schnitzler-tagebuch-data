@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1896-04-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-04-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-04-19.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1896-04-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-04-17.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-04-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EAE9-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1146.tif"/>
@@ -182,9 +186,8 @@
       <body>
          <div type="diary-day" xml:id="entry__1896-04-18">
             <p xml:space="preserve"><date when="1896-04-18">18/4</date> <rs type="work" xml:id="bibl_21842">Egmont</rs>, Burg.― <rs type="person" xml:id="pNt_12049" ref="#person_19150"><forename>Mz.</forename> <surname>Rh.</surname></rs> im Th.― 25. Aufführung der <rs type="work" subtype="self" xml:id="bibl_21843">Liebelei</rs> in 
-<rs type="place" xml:id="pl_02220" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>, Telegr. der Schauspieler.―</p>
+<rs type="place" xml:id="pl_02220" ref="#pmb168">Berlin</rs>, Telegr. der Schauspieler.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-01-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-01-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-01-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-01-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-01-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-01-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F6EA-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2031.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1905-01-28">
-            <p xml:space="preserve"><date when="1905-01-28">28/1</date> Vm. Spaziergang <rs type="place" xml:id="pl_05040" ref="#place_c79ad839f84019f53250a4e6365359f9">Neuwaldegg</rs>, <rs type="place" xml:id="pl_05041" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs>.―</p>
+            <p xml:space="preserve"><date when="1905-01-28">28/1</date> Vm. Spaziergang <rs type="place" xml:id="pl_05040" ref="#pmb170">Neuwaldegg</rs>, <rs type="place" xml:id="pl_05041" ref="#pmb169">Pötzleinsdorf</rs>.―</p>
             <p xml:space="preserve" rend="indent">Mittag kam die <rs type="work" subtype="newspaper" xml:id="bibl_15468">D. R.</rs> mit <rs type="person" xml:id="pNt_22351" ref="#person_16819"><surname>Kerr’s</surname></rs> Artikel über <rs type="work" xml:id="bibl_15469">Charolais</rs>. 
 Meine erste Empfindung ― ganz unzweifelhaft: Neid. Dabei stehn lauter 
 Dinge über <rs type="person" xml:id="pNt_22352" ref="#person_13551"><forename>Richard</forename></rs> drin, die ich unterschreibe,― die ich seit Jahren weiss 
@@ -200,7 +204,7 @@ Und da soll ich … die andern Menschen achten, in denen es gewiss noch
 viel wüster aussieht ―?</p>
             <p xml:space="preserve" rend="indent">Eine Stunde drauf die „<rs type="work" subtype="newspaper" xml:id="bibl_15470">Zukunft</rs>“, in der <rs type="person" xml:id="pNt_22356" ref="#person_15919"><surname>Harden</surname></rs> anläßlich 
 des <rs ref="#person_19831" type="person" xml:id="pNt_22357"><surname>Grillparzerpreises</surname></rs> (<rs type="person" xml:id="pNt_22358" ref="#person_15980"><surname>Hauptmann</surname></rs>) auf <rs type="person" xml:id="pNt_22359" ref="#person_16293"><forename>Hugo</forename></rs> mich, und <rs type="person" xml:id="pNt_22360" ref="#person_13551"><forename>Richard</forename></rs> hinweist, 
-von Künstlern spricht, auf die <rs type="place" xml:id="pl_05042" ref="#place_b472f5868425ac2bc44e693fc3267e87">Oesterreich</rs> stolz sein könnte ― und ich 
+von Künstlern spricht, auf die <rs type="place" xml:id="pl_05042" ref="#pmb41240">Oesterreich</rs> stolz sein könnte ― und ich 
 fühle mich „beschämt“ …, habe eine direct unangenehme 
 Empfindung …
  …Wie weit ist man noch vom „reinen Leben“. Oh!―</p>
@@ -217,6 +221,5 @@ und -mädeln.―</p>
             <p xml:space="preserve" rend="indent">Plauderte noch lang zu Haus mit O.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

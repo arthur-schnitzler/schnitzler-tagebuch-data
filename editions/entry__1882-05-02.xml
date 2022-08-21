@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1882-05-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1882-04-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1882-05-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1882-05-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1882-04-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1882-05-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DE55-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0173.tif"/>
@@ -182,11 +186,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1882-05-02">
-            <p xml:space="preserve"><date when="1882-05-02">2/5</date> Dinstag Abend.― Nachmittag mit <rs type="person" xml:id="pNt_01602" ref="#person_16580"><forename>Marie</forename></rs> im <rs type="place" xml:id="pl_00283" ref="#place_d3c577dc993c4cc879206c93d7ccb668">Augarten</rs>. Allerhand 
+            <p xml:space="preserve"><date when="1882-05-02">2/5</date> Dinstag Abend.― Nachmittag mit <rs type="person" xml:id="pNt_01602" ref="#person_16580"><forename>Marie</forename></rs> im <rs type="place" xml:id="pl_00283" ref="#pmb124">Augarten</rs>. Allerhand 
 Zärtlichkeiten. So sehr es auch, nach <rs type="person" xml:id="pNt_01603" ref="#person_15338"><surname>Ludaßy</surname></rs> „erwärmt“, wenn man 
 geliebt wird … eine Nuance von ich weiß nicht was ist doch immer 
 an so nem Mädchen, das in einen rasend verliebt ist, ohne daß man 
-gleich glühend zu erwidern vermöchte.― Dann in den <rs type="place" xml:id="pl_00284" ref="#place_d7f977f9a16210838a0dd6b32f6fb25d">Volksg.</rs> <rs type="person" xml:id="pNt_01604" ref="#person_16963"><forename>Ida</forename></rs>, die 
+gleich glühend zu erwidern vermöchte.― Dann in den <rs type="place" xml:id="pl_00284" ref="#pmb103">Volksg.</rs> <rs type="person" xml:id="pNt_01604" ref="#person_16963"><forename>Ida</forename></rs>, die 
 sehr lieb und liebenswürdig war. <rs type="person" xml:id="pNt_01605" ref="#person_17368"><forename>Fännchen</forename></rs> kam dann … sie war ganz 
 Liebe und Reiz. Ich war gut aufgelegt ― sie ganz entzückend ― und so 
 ging es denn, wie es zwischen uns immer gehen muss, und ein verliebtes 
@@ -226,6 +230,5 @@ Auslegung dieser Antwort durch ein vieldeutiges Lächeln freien
 Spielraum gewährend.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-09-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-09-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0A3F-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,12 +177,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4712.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1918-09-26">
             <p xml:space="preserve"><date when="1918-09-26">26/9</date> Vm. Intendanz bei <rs type="person" xml:id="pNt_54269" ref="#person_21377"><roleName>Dr.</roleName> <surname>Winter</surname></rs>, auf seine Bitte. Er wollte meine 
 Fürsprache bei <rs type="person" xml:id="pNt_54270" ref="#person_13202"><surname>Andrian</surname></rs>, da man ihn versetzen will!― Mein Einfluß!― 
@@ -190,8 +195,9 @@ verreist) keine Entscheidung treffen könne -! Dann einige
 Liebenswürdigkeiten. Afferei!―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_54274" ref="#person_18916"><surname>Popper</surname></rs>. Wir sprachen fast nur über <rs type="person" xml:id="pNt_54275" ref="#person_16900"><surname>Kleist</surname></rs>, <rs type="person" xml:id="pNt_54276" ref="#person_15499"><surname>Goethe</surname></rs>, <rs type="person" xml:id="pNt_54277" ref="#person_19694"><surname>Schiller</surname></rs>.</p>
             <p xml:space="preserve" rend="indent">― Nm. <rs type="work" subtype="self" xml:id="bibl_5846">Nachklg.</rs> weiter gelesen.―</p>
-            <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_54278" ref="#person_13551"><forename>Richard</forename></rs>, der dieser Tage nach <rs type="place" xml:id="pl_11246" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> reist; Proben zu <rs type="work" xml:id="bibl_5847">Jakobs Traum</rs> beginnen 11. October.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_54279" ref="#person_19827"><forename>Jul.</forename></rs> tel. den Niederbruch <rs type="place" xml:id="pl_11247" ref="#place_890e7d6ada065165ebbc77c4b7822c37">Bulgariens</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_54278" ref="#person_13551"><forename>Richard</forename></rs>, der dieser Tage nach <rs type="place" xml:id="pl_11246" ref="#pmb168">Berlin</rs> reist; Proben zu <rs type="work" xml:id="bibl_5847">Jakobs Traum</rs> beginnen 11. October.―</p>
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_54279" ref="#person_19827"><forename>Jul.</forename></rs> tel. den Niederbruch <rs type="place" xml:id="pl_11247" ref="#pmb249">Bulgariens</rs>.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

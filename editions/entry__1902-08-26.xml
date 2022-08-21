@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1902-08-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-08-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-08-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1902-08-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-08-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-08-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F37E-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1705.tif"/>
@@ -182,13 +186,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1902-08-26">
-            <p xml:space="preserve"><date when="1902-08-26">26/8</date> <rs type="place" xml:id="pl_04079" ref="#place_a25ff6cb521df1cd0272d03eee7efd32">Brühl</rs> ― Dressur des Bern.―</p>
+            <p xml:space="preserve"><date when="1902-08-26">26/8</date> <rs type="place" xml:id="pl_04079" ref="#pmb44413">Brühl</rs> ― Dressur des Bern.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_18870" ref="#person_20823"><surname>Tschechow</surname></rs>, „<rs type="work" xml:id="bibl_18073">Schatten des Todes</rs>“.</p>
             <p xml:space="preserve" rend="indent">Im Anschluss daran; mit <rs type="person" xml:id="pNt_18871" ref="#person_19832"><forename>O.</forename></rs> Gespräch. <rs type="person" xml:id="pNt_18872" ref="#person_20823"><surname>Tschechow</surname></rs> hat mehr 
 Sicherheit als ich.― Wahr.― Fehler meines Lebens, in nichts totale Sicherheit zu haben.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_04080" ref="#place_9a43e84f6e1d406076f2372205804f6d">Baden</rs>.― <rs type="person" xml:id="pNt_18873" ref="#person_17822"><surname>Mandls</surname></rs>.― Mit <rs type="person" xml:id="pNt_18874" ref="#person_17901"><forename>Felix</forename></rs> spazieren, bei <rs type="place" ref="#place_sacher">Sacher</rs> mit allen genachtm.―</p>
+            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_04080" ref="#pmb662">Baden</rs>.― <rs type="person" xml:id="pNt_18873" ref="#person_17822"><surname>Mandls</surname></rs>.― Mit <rs type="person" xml:id="pNt_18874" ref="#person_17901"><forename>Felix</forename></rs> spazieren, bei <rs type="place" ref="#pmb92506">Sacher</rs> mit allen genachtm.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

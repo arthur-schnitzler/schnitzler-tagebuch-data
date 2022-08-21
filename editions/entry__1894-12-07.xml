@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1894-12-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-12-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-12-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1894-12-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-12-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-12-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E8F7-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0920.tif"/>
@@ -182,10 +186,9 @@
       <body>
          <div type="diary-day" xml:id="entry__1894-12-07">
             <p xml:space="preserve"><date when="1894-12-07">7/12</date> Abd. bei <rs type="person" xml:id="pNt_09584" ref="#person_19564"><forename>Dilly</forename></rs>, die mich begleitete; beim Thor <rs type="person" xml:id="pNt_09585" ref="#person_21214"><forename>Fifi</forename></rs> begegnet.―</p>
-            <p xml:space="preserve" rend="indent">Zu Haus Famil. Gesellschaft.― <rs type="person" xml:id="pNt_09586" ref="#person_17901"><forename>Felix</forename></rs> (<rs type="place" xml:id="pl_01873" ref="#place_59ead8d1e124ccfb79f3ace06f43e703">London</rs>).― Im Kfh. <rs type="person" xml:id="pNt_09587" ref="#person_14612"><surname>Eckstein</surname></rs>; 
+            <p xml:space="preserve" rend="indent">Zu Haus Famil. Gesellschaft.― <rs type="person" xml:id="pNt_09586" ref="#person_17901"><forename>Felix</forename></rs> (<rs type="place" xml:id="pl_01873" ref="#pmb224">London</rs>).― Im Kfh. <rs type="person" xml:id="pNt_09587" ref="#person_14612"><surname>Eckstein</surname></rs>; 
 Fülle des Wissens, keine Persönlichkeit.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

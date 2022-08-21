@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-07-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-07-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-07-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1906-07-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-07-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-07-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F8F8-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2244.tif"/>
@@ -180,9 +184,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1906-07-09">
-            <p xml:space="preserve"><date when="1906-07-09">9/7</date> <rs type="place" xml:id="pl_05609" ref="#place_07b1790c665bb867d455aa7a3920067e">Helsingör</rs> Strand; Bad ― <rs type="work" subtype="self" xml:id="bibl_15084">P. A.</rs> weiter.― <rs type="person" xml:id="pNt_25215" ref="#person_20386"><forename>Liesl</forename></rs> und <rs type="person" xml:id="pNt_25216" ref="#person_20383"><forename>Alb.</forename></rs> kommen an.</p>
+            <p xml:space="preserve"><date when="1906-07-09">9/7</date> <rs type="place" xml:id="pl_05609" ref="#pmb726">Helsingör</rs> Strand; Bad ― <rs type="work" subtype="self" xml:id="bibl_15084">P. A.</rs> weiter.― <rs type="person" xml:id="pNt_25215" ref="#person_20386"><forename>Liesl</forename></rs> und <rs type="person" xml:id="pNt_25216" ref="#person_20383"><forename>Alb.</forename></rs> kommen an.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-05-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-05-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-05-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-05-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-05-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-05-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0407-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3827.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1914-05-15">
-            <p xml:space="preserve"><date when="1914-05-15">15/5</date> 52. Geburtstag. <rs type="place" xml:id="pl_08713" ref="#place_5fb959f9b3ed86fb47b0f3905d111200">Algier</rs>. Spazierfahrt mit zwei Leuten, <rs type="place" xml:id="pl_08714" ref="#place_19aabd7d78eff22e9e94686b1bc9bca9" ana="#exclude">deutschem</rs> 
+            <p xml:space="preserve"><date when="1914-05-15">15/5</date> 52. Geburtstag. <rs type="place" xml:id="pl_08713" ref="#pmb43991">Algier</rs>. Spazierfahrt mit zwei Leuten, <rs type="place" xml:id="pl_08714" ref="#place_19aabd7d78eff22e9e94686b1bc9bca9" ana="#exclude">deutschem</rs> 
 Ehepaar, widerwärtigen Subjecten, ohne zu reden. Botan. Garten. Museum. 
 Moschee. Alte Araberstadt.― Abfahrt Mittag. Lese „<rs type="work" xml:id="bibl_8836">Triumphgasse</rs>“.― 
-„<rs type="work" subtype="self" xml:id="bibl_8837">Herbot</rs>“ durchgesehen. (Vor 10 Jahren <rs type="place" xml:id="pl_08715" ref="#place_8191692ba6c002b14b07549113e62125">Palermo</rs>.―)</p>
+„<rs type="work" subtype="self" xml:id="bibl_8837">Herbot</rs>“ durchgesehen. (Vor 10 Jahren <rs type="place" xml:id="pl_08715" ref="#pmb901">Palermo</rs>.―)</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

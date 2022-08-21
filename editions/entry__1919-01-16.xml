@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-01-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-01-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-01-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-01-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-01-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-01-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0AAF-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4778.tif"/>
@@ -184,15 +188,15 @@
       <body>
          <div type="diary-day" xml:id="entry__1919-01-16">
             <p xml:space="preserve"><date when="1919-01-16">16/1</date> Träume: <rs type="person" xml:id="pNt_55200" ref="#person_19822"><forename>Heini</forename></rs> hat ein Stück geschrieben, „Kammersonate“ es wird 
-in den Kammerspielen aufgeführt, zugleich im <rs type="place" ref="#place_volkstheater">Volksth.</rs> <rs type="work" subtype="self" xml:id="bibl_4491">Bernhardi</rs>; ich 
-freue mich, und schlage ihm vor, er solle sich <rs type="work" subtype="self" xml:id="bibl_4492">Bernh.</rs> im <rs type="place" ref="#place_volkstheater">Volksth.</rs>, ich 
+in den Kammerspielen aufgeführt, zugleich im <rs type="place" ref="#pmb92202">Volksth.</rs> <rs type="work" subtype="self" xml:id="bibl_4491">Bernhardi</rs>; ich 
+freue mich, und schlage ihm vor, er solle sich <rs type="work" subtype="self" xml:id="bibl_4492">Bernh.</rs> im <rs type="place" ref="#pmb92202">Volksth.</rs>, ich 
 sein Stück in den Kmsp. ansehen … Dann in einem Zimmer, mit O., <rs type="person" xml:id="pNt_55201" ref="#person_19860"><roleName>Herrn</roleName> 
 <surname>Scholz</surname></rs>, seiner Frau (die ich kenne) seiner Mutter (von deren Existenz ich 
 nichts weiß) ― es handelt sich um irgend einen Freimaurerverein, der 
 etwa Spessart heisst, O. ist dafür, was mich ärgert (Ein Gespräch von 
 gestern klang wohl nach, in dem sie von neuen seelischen Errungenschaften 
 sprach, was ich nur als Stimmungssache gelten ließ, womit sie unzufrieden 
-schien); dann wir alle etwa <rs type="place" xml:id="pl_11480" ref="#place_53e75cdbc7449ba89598563b511e672b">Porzellangasse</rs>, ich voraus,― ins <rs type="place" ref="#place_volkstheater">Volkstheater</rs>;― 
+schien); dann wir alle etwa <rs type="place" xml:id="pl_11480" ref="#pmb436">Porzellangasse</rs>, ich voraus,― ins <rs type="place" ref="#pmb92202">Volkstheater</rs>;― 
 um dort einem natürlichen Bedürfnis nachzukommen;― ganz dunkel, ich 
 taste mich durch den Gang, taste den elektr. Schalter, Erleuchtung; gehe 
 ― aus oben angeführtem Grund ― vor das Haus (Wageneinfahrt), wie ich 
@@ -222,6 +226,5 @@ Das Problem <rs type="person" xml:id="pNt_55206" ref="#person_16586"><forename>J
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_55208" ref="#person_19822"><forename>Heini</forename></rs> <rs type="work" xml:id="bibl_4494">Eroica</rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-10-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-10-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-10-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-10-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-10-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-10-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0493-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3898.tif"/>
@@ -185,8 +189,8 @@
             <p xml:space="preserve"><date when="1914-10-03">3/10</date> Früh mit <rs type="person" xml:id="pNt_44170" ref="#person_19822"><forename>Heini</forename></rs> <rs type="place" xml:id="pl_09003" ref="#place_11fdee8f59d1e64558f1752d0eafa2a9" ana="#exclude">Griechisch</rs> (wie öfters).</p>
             <p xml:space="preserve" rend="indent">Stadt Besorgungen.―</p>
             <p xml:space="preserve" rend="indent">Nach Tisch <rs type="person" xml:id="pNt_44171" ref="#person_21107"><surname>Wassermann</surname></rs>; besorgt wegen eines Aufsatzes den <rs type="person" xml:id="pNt_44172" ref="#person_16168"><surname>Herzog</surname></rs> verspätet 
-jetzt veröffentlicht,― da er Angriffe gegen <rs type="place" xml:id="pl_09004" ref="#place_3c2f8b8c8c43538b25a0327ae84c3f65">Deutschland</rs> enthält.―</p>
-            <p xml:space="preserve" rend="indent">Ins <rs type="place" ref="#place_rothschildspital">Rothschildspital</rs>. <rs type="person" xml:id="pNt_44174" ref="#person_13359"><forename>Stephi</forename></rs> als „Schwester“. Lerne etliche andre 
+jetzt veröffentlicht,― da er Angriffe gegen <rs type="place" xml:id="pl_09004" ref="#pmb151">Deutschland</rs> enthält.―</p>
+            <p xml:space="preserve" rend="indent">Ins <rs type="place" ref="#pmb92496">Rothschildspital</rs>. <rs type="person" xml:id="pNt_44174" ref="#person_13359"><forename>Stephi</forename></rs> als „Schwester“. Lerne etliche andre 
 kennen. Mit ihr im Krankenzimmer des verwundeten <rs type="person" xml:id="pNt_44175" ref="#person_14075"><surname>Burger</surname></rs>, eines 
 jungen Dichters, Kaiserjäger, sehr hübscher sympathischer Bursch.― 
 Dann in der Halle mit ihr über ihre Aussichten auf dem „Schwestergebiet“ 
@@ -195,6 +199,5 @@ Rücksichten nicht in Betracht kommen).―</p>
             <p xml:space="preserve" rend="indent"><rs type="work" subtype="self" xml:id="bibl_9022">Hirtenflöte</rs> und <rs type="work" subtype="self" xml:id="bibl_9023">Medardus</rs> Schenkenszene laut gelesen.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

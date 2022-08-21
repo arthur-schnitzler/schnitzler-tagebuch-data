@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-01-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-01-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-01-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-01-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-01-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-01-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-18F5-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7227.tif"/>
@@ -182,9 +186,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1929-01-20">
-            <p xml:space="preserve"><date when="1929-01-20">20/1</date> S.― Vm. kleiner Spazierg. (<rs type="place" xml:id="pl_18484" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs>.―)</p>
+            <p xml:space="preserve"><date when="1929-01-20">20/1</date> S.― Vm. kleiner Spazierg. (<rs type="place" xml:id="pl_18484" ref="#pmb113">Türkenschanzpark</rs>.―)</p>
             <p xml:space="preserve" rend="indent">Zu Tisch war <rs type="person" xml:id="pNt_85801" ref="#person_15854"><forename>Gisa</forename></rs> und <rs type="person" xml:id="pNt_85802" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> bei mir;― <rs type="person" xml:id="pNt_85803" ref="#person_15854"><forename>Gisa</forename></rs> die früher kam, mit einem 
-Brief über den Tod <rs type="person" xml:id="pNt_85804" ref="#person_20915"><surname>Vallo’s</surname></rs>, aus <rs type="place" xml:id="pl_18485" ref="#place_5cfd5837c67e04c1d6f52c1b42c11f10">Rio</rs>.― (Das Luftschiff, zum Empfang 
+Brief über den Tod <rs type="person" xml:id="pNt_85804" ref="#person_20915"><surname>Vallo’s</surname></rs>, aus <rs type="place" xml:id="pl_18485" ref="#pmb50017">Rio</rs>.― (Das Luftschiff, zum Empfang 
 <rs type="person" xml:id="pNt_85805" ref="#person_19572"><surname>Santos-Dumont</surname></rs> ― stürzt mit 14 Insassen ins Meer; <rs type="person" xml:id="pNt_85806" ref="#person_20915"><surname>Vallo</surname></rs> als letzte 
 Leiche geborgen.―)</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_85807" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> blieb noch eine Weile.</p>
@@ -196,6 +200,5 @@ vorwärts ― und binnen weniger Minuten war alles klar. Wir sprachen
 das ganze durch und schieden in gutem Verständnis und Einverständnis.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

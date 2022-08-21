@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1900-11-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-11-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-11-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1900-11-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-11-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-11-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F136-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -162,15 +166,17 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1601.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1900-11-24">
-            <p xml:space="preserve"><date when="1900-11-24">24/11</date> Nach <rs type="place" xml:id="pl_03593" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>.― <rs type="person" xml:id="pNt_17523" ref="#person_15485"><surname>Gl.’s</surname></rs> im Hotel.― Mit ihnen und <rs type="person" xml:id="pNt_17524" ref="#person_14283"><surname>Coschell</surname></rs>
+            <p xml:space="preserve"><date when="1900-11-24">24/11</date> Nach <rs type="place" xml:id="pl_03593" ref="#pmb168">Berlin</rs>.― <rs type="person" xml:id="pNt_17523" ref="#person_15485"><surname>Gl.’s</surname></rs> im Hotel.― Mit ihnen und <rs type="person" xml:id="pNt_17524" ref="#person_14283"><surname>Coschell</surname></rs>
 Residenz Th. (<rs type="work" xml:id="bibl_18475">Maxim</rs>). Kaiserhof dieselben und <rs type="person" xml:id="pNt_17525" ref="#person_17946"><surname>Martin</surname></rs> &amp; <rs type="person" xml:id="pNt_17526" ref="#person_15529"><forename>P.</forename> <surname>G.</surname></rs>―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

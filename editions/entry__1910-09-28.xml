@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-09-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-09-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-09-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-09-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-09-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-09-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FEDA-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,13 +177,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2994.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2995.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1910-09-28">
             <p xml:space="preserve"><date when="1910-09-28">28/9</date> Vm. bei <rs type="person" xml:id="pNt_33583" ref="#person_13624"><roleName>Baron</roleName> <surname>Berger</surname></rs>. Bittet mich Aufschub des <rs type="work" subtype="self" xml:id="bibl_11987">Medardus</rs> nicht 
 für ein „Bühnenmanöver“ zu halten; <rs type="person" xml:id="pNt_33584" ref="#person_16646"><surname>Kainz</surname></rs> „<rs type="work" xml:id="bibl_11988">Saul</rs>“ mit „<rs type="work" xml:id="bibl_11989">Thor und 
@@ -188,7 +193,7 @@ zurückgeben; reist heut ab, um „<rs type="person" xml:id="pNt_33585" ref="#pe
 <rs type="work">Hofreiter</rs> spielen würde.― Über <rs type="person" xml:id="pNt_33587" ref="#person_13457"><surname>Bassermann</surname></rs>, <rs type="person" xml:id="pNt_33588" ref="#person_21059"><surname>Walden</surname></rs>, Burg (!).</p>
             <p xml:space="preserve" rend="indent">― Er war von besondrer Herzlichkeit.―</p>
             <p xml:space="preserve" rend="indent">Dann zu <rs type="person" xml:id="pNt_33589" ref="#person_19364"><surname>Rosenbaum</surname></rs>, der als er mich doch noch schwanken sah 
-(zwischen <rs type="place" ref="#place_volkstheater">Volkstheater</rs> und Burg), mir den Revers zum Unterschreiben 
+(zwischen <rs type="place" ref="#pmb92202">Volkstheater</rs> und Burg), mir den Revers zum Unterschreiben 
 vorlegte; das „<rs type="work" subtype="self" xml:id="bibl_11991">W. L.</rs>“ sei das Stück, nach dem „die deutsche Bühne 
 lechzt“ … er ist von einem großen Erfolg überzeugt. Dagegen ist es 
 interessant, wie er nun innerlich am „<rs type="work" subtype="self" xml:id="bibl_11992">Medardus</rs>“ zu zweifeln beginnt.―</p>
@@ -201,5 +206,6 @@ refusirt würden!―</p>
             <p xml:space="preserve" rend="indent">Las „<rs type="work" xml:id="bibl_11994">O Mensch</rs>“ zu Ende; ein recht abgeschmacktes, gräßlich 
 geschriebnes, greisenhaft geschwätziges Buch.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

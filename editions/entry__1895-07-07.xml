@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1895-07-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-07-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-07-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1895-07-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-07-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-07-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E9CB-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1036.tif"/>
@@ -182,16 +186,15 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1895-07-07">
-            <p xml:space="preserve"><date when="1895-07-07">7/7</date> <rs type="place" xml:id="pl_02048" ref="#place_84bb7a44667327c91eade4b980a38a6f">Karlsbad</rs>.― Sonntag. <rs type="person" xml:id="pNt_10763" ref="#person_20204"><surname>Sonnenthal</surname></rs>, <rs type="person" xml:id="pNt_10764" ref="#person_13988"><surname>Broda</surname></rs>, <rs type="person" xml:id="pNt_10765" ref="#person_19568"><forename>Willy</forename> <surname>Sandrock</surname></rs> (die ich 
+            <p xml:space="preserve"><date when="1895-07-07">7/7</date> <rs type="place" xml:id="pl_02048" ref="#pmb842">Karlsbad</rs>.― Sonntag. <rs type="person" xml:id="pNt_10763" ref="#person_20204"><surname>Sonnenthal</surname></rs>, <rs type="person" xml:id="pNt_10764" ref="#person_13988"><surname>Broda</surname></rs>, <rs type="person" xml:id="pNt_10765" ref="#person_19568"><forename>Willy</forename> <surname>Sandrock</surname></rs> (die ich 
 begtüßte wie sie mit <rs type="person" xml:id="pNt_10766" ref="#person_13988"><surname>Broda</surname></rs> stand und die mir kaum dankte, sich 
 gleich entfernte); <rs type="person" xml:id="pNt_10767" ref="#person_18894"><forename>Theodor</forename> <surname>Pollak</surname></rs> (<rs type="person" xml:id="pNt_10768" ref="#person_14584"><forename>Olga</forename> <surname>Dv.</surname></rs> Geliebter) „<rs type="person" xml:id="pNt_10769" ref="#person_19564"><forename>Dilly</forename></rs> weint 
 nach Ihnen“.― <rs type="person" xml:id="pNt_10770" ref="#person_16371"><forename>Arthur</forename> <surname>Horner</surname></rs>, jetzt Bookmaker von Beruf, legt mir 
 100: 25 gegen 10 „<rs type="work" subtype="self" xml:id="bibl_22184">Liebelei</rs>“ Aufführungen.― Bummelei mit <rs type="person" xml:id="pNt_10771"><forename>Osk.</forename></rs> 
 <rs type="person" xml:id="pNt_10772" ref="#person_17114"><surname>Kraus</surname></rs>, aerztl. Gespräch. Brief an <rs type="person" xml:id="pNt_10773" ref="#person_19150"><forename>Mz.</forename> <surname>Rh.</surname></rs>, und an <rs type="person" xml:id="pNt_10774" ref="#person_15485"><forename>Mz. I</forename></rs>, der erstern 
 mit Laune.― Theater „<rs type="work" xml:id="bibl_22185">Jonathan</rs>“. Gespräch mit einem <rs type="person" xml:id="pNt_10775" ref="#person_17582"><roleName>Hr.</roleName> <surname>Lippmann</surname></rs> 
-aus <rs type="place" xml:id="pl_02049" ref="#place_d5460b665e26333bdf699f77a2e3cf17">Frankfurt</rs>.</p>
+aus <rs type="place" xml:id="pl_02049" ref="#pmb146">Frankfurt</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

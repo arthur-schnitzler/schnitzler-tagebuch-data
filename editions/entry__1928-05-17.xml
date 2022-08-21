@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-05-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-05-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-05-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-05-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-05-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-05-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-17FD-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,14 +177,15 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7090.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1928-05-17">
-            <p xml:space="preserve"><date when="1928-05-17">17/5</date> Gegen Mittag bei <rs type="person" xml:id="pNt_83734" ref="#person_21496"><surname>York-Steiner</surname></rs>, <rs type="place" xml:id="pl_17978" ref="#place_2573fb75deec3b5b6a37c2608eec0e07">Hernalser Hauptstr.</rs>― Eben war 
+            <p xml:space="preserve"><date when="1928-05-17">17/5</date> Gegen Mittag bei <rs type="person" xml:id="pNt_83734" ref="#person_21496"><surname>York-Steiner</surname></rs>, <rs type="place" xml:id="pl_17978" ref="#pmb92280">Hernalser Hauptstr.</rs>― Eben war 
 sein Buch „<rs type="work" xml:id="bibl_19355">Die Kunst als Jude zu leben</rs>“ vom Verlag gekommen.― Sein 
 Referat über <rs type="work" subtype="self" xml:id="bibl_19356">Sprüche und Bedenken</rs> für den <rs type="work" subtype="newspaper" xml:id="bibl_19357">Tag</rs> ― und Benehmen 
 der Redaction;― sein Brief, den er mir vorliest.― Über <rs type="place" xml:id="pl_17979" ref="#place_ee4c6f2f0df2cd2abf7db20478cad25d" ana="#exclude">Wiener</rs> und 
@@ -191,5 +196,6 @@ Rest.-Café Vindobona soupirt.―</p>
             <p xml:space="preserve" rend="indent">Im „<rs type="work" xml:id="bibl_19361">Caliban</rs>“ weiter gelesen, <rs type="person" xml:id="pNt_83737" ref="#person_17535"><roleName>Prof.</roleName> <surname>Liepmanns</surname></rs> <rs type="work" xml:id="bibl_19362">Weltschöpfung und 
 Weltanschauung</rs> begonnen.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

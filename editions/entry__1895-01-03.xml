@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1895-01-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-01-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-01-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1895-01-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-01-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-01-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E912-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,23 +177,25 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0934.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1895-01-03">
             <p xml:space="preserve"><date when="1895-01-03">3/1</date> Rmdth. <rs type="person" xml:id="pNt_09743" ref="#person_20989"><surname>Voss</surname></rs> <rs type="work" xml:id="bibl_22052">Zwischen 2 Herzen</rs>. Bei <rs type="person" xml:id="pNt_09744" ref="#person_14065"><surname>Burckhard</surname></rs>. Er wird nun 
 mit <rs type="person" xml:id="pNt_09745" ref="#person_13707"><surname>Bezecny</surname></rs> sprechen.―</p>
             <p xml:space="preserve" rend="indent">Nm. sandte <rs type="person" xml:id="pNt_09746" ref="#person_19564"><forename>Dilly</forename></rs> ein Rauchtischchen und Blumen.</p>
             <p xml:space="preserve" rend="indent">Nacht fand ich den Brief der kleinen <rs type="person" xml:id="pNt_09747" ref="#person_19143"><forename>Else</forename></rs> mit Bild; sie ist nach 
-<rs type="place" xml:id="pl_01885" ref="#place_19ed5f8ceab486afbee6b3ba5c88884d">Dresden</rs> in ein Pensionat geschickt worden. <rs type="person" xml:id="pNt_09748" ref="#person_19143"><forename>Else’s</forename></rs> Briefe gehören 
+<rs type="place" xml:id="pl_01885" ref="#pmb90550">Dresden</rs> in ein Pensionat geschickt worden. <rs type="person" xml:id="pNt_09748" ref="#person_19143"><forename>Else’s</forename></rs> Briefe gehören 
 eigentlich zu meinen besten Freuden ― vielleicht ist es das schönste 
 aus dieser Zeit.</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_09749" ref="#person_13374"><surname>Bahr</surname></rs> bei mir. Vorgestern <rs type="person" xml:id="pNt_09750" ref="#person_16293"><forename>Hugo</forename></rs>, sehr characteristisch: „Heut 
 hab ich mit <rs type="person" xml:id="pNt_09751" ref="#person_13374"><surname>Bahr</surname></rs> über Sie gesprochen.― Der versteht Sie eigentlich 
 auch nicht recht ― oder mißversteht Sie.“</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

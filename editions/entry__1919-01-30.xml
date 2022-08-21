@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-01-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-01-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-01-31.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-01-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-01-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-01-31.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0ABD-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4787.tif"/>
@@ -184,7 +188,7 @@
          <div type="diary-day" xml:id="entry__1919-01-30">
             <p xml:space="preserve"><date when="1919-01-30">30/1</date> Briefe (K) sortirt.―</p>
             <p xml:space="preserve" rend="indent">Dr. <rs type="person" xml:id="pNt_55312" ref="#person_13767"><forename>Alb.</forename> <surname>Blanco</surname></rs>, von der <rs type="place" xml:id="pl_11495" ref="#place_3673d0f84f5721e2acacc2218f69b81d" ana="#exclude">span.</rs> Botschaft, wegen Übersetzungsrecht 
-„<rs type="work" subtype="self" xml:id="bibl_4542">Liebelei</rs>“; fährt in wenigen Tagen nach <rs type="place" xml:id="pl_11496" ref="#place_6314044c3803213e9fd3f3ecf8c90d65">Madrid</rs>. (In <rs type="place" xml:id="pl_11497" ref="#place_5ea5f4002712b1a9a4e292d3c83736b9">Spanien</rs> existirt 
+„<rs type="work" subtype="self" xml:id="bibl_4542">Liebelei</rs>“; fährt in wenigen Tagen nach <rs type="place" xml:id="pl_11496" ref="#pmb914">Madrid</rs>. (In <rs type="place" xml:id="pl_11497" ref="#pmb388">Spanien</rs> existirt 
 bisher nur <rs type="work" subtype="self" xml:id="bibl_4543">Absch.-souper</rs> übersetzt!) ―</p>
             <p xml:space="preserve" rend="indent"><rs type="work" subtype="self" xml:id="bibl_4544">Tgb.</rs> 93 weiter; wie lebendig wird alles wieder. Seltsam, wenn ich solche 
 Dinge lese, besonders wenn O.― wie heut, überdies mit den Kindern fort 
@@ -198,6 +202,5 @@ auf das 5j. kleine Mädchen;― kein Zweifel daß es <rs type="person" xml:id="p
             <p xml:space="preserve" rend="indent">Sah „<rs type="work" subtype="self" xml:id="bibl_4545">Frau des Richters</rs>“ durch und das Scenar. <rs type="work" subtype="self" xml:id="bibl_4546">Davos</rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

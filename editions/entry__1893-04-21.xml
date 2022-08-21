@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1893-04-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-04-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-04-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1893-04-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-04-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-04-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E6AA-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,20 +177,21 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0702.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0703.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0704.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1893-04-21">
             <p xml:space="preserve"><date when="1893-04-21">21/4</date> In der früh an. Brief ― als Einlage ein Brief von <rs type="person" xml:id="pNt_07275" ref="#person_18791"><surname>P.</surname></rs> an <rs type="person" xml:id="pNt_07276" ref="#person_15485"><forename>Mz.</forename></rs>, der 
 keinen Zweifel drüber läßt, dass sie auch die Geliebte dieses 
-Menschen war, mindestens seit <rs type="place" xml:id="pl_01458" ref="#place_9974545279455eb03bf50b1b1b4d7fea">Wiesbaden</rs>, wahrscheinlich schon in 
-<rs type="place" xml:id="pl_01459" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>!― Zu Hause erhält mein <rs type="allusively" xml:id="rst_00175">Papa</rs> gleichfalls einen an. Brief, mit 
-[Einlage] eines Briefes von <rs type="person" xml:id="pNt_07277" ref="#person_18791"><surname>P.</surname></rs> an <rs type="person" xml:id="pNt_07278" ref="#person_15485"><forename>Mz.</forename></rs> vom 2. November 1892 nach <rs type="place" xml:id="pl_01460" ref="#place_5cad74003f572315b3970b7d86409df5">St. G.</rs>, 
+Menschen war, mindestens seit <rs type="place" xml:id="pl_01458" ref="#pmb883">Wiesbaden</rs>, wahrscheinlich schon in 
+<rs type="place" xml:id="pl_01459" ref="#pmb50">Wien</rs>!― Zu Hause erhält mein <rs type="allusively" xml:id="rst_00175">Papa</rs> gleichfalls einen an. Brief, mit 
+[Einlage] eines Briefes von <rs type="person" xml:id="pNt_07277" ref="#person_18791"><surname>P.</surname></rs> an <rs type="person" xml:id="pNt_07278" ref="#person_15485"><forename>Mz.</forename></rs> vom 2. November 1892 nach <rs type="place" xml:id="pl_01460" ref="#pmb92542">St. G.</rs>, 
 aus dem hervorgeht, dass sie thatsächlich in der zärtlichsten 
 Weise zugleich mit diesem Kerl, der sich in dem Brief mit Vergnügen 
 an ihr Spitzbubengesicht im Polster etc. erinnert, ein intimes 
@@ -208,5 +213,6 @@ mit <rs type="person" xml:id="pNt_07284" ref="#person_18791"><surname>P.</surnam
 Angst, daß er mir die „harmlosen Briefe“ schicke ― seinen 
 Wünschen nachgegeben.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

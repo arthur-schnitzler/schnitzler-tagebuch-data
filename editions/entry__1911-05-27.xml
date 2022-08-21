@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-05-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-05-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-05-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-05-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-05-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-05-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FFCB-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3165.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1911-05-27">
-            <p xml:space="preserve"><date when="1911-05-27">27/5</date> <rs type="place" xml:id="pl_07481" ref="#place_c12b8d9779a8ad2b240a57b31c979290">Prag</rs>. Correctur des „<rs type="work" subtype="self" xml:id="bibl_11012">Mörder</rs>“.―</p>
+            <p xml:space="preserve"><date when="1911-05-27">27/5</date> <rs type="place" xml:id="pl_07481" ref="#pmb91524">Prag</rs>. Correctur des „<rs type="work" subtype="self" xml:id="bibl_11012">Mörder</rs>“.―</p>
             <p xml:space="preserve" rend="indent">Autofahrt; von Frau <rs type="person" xml:id="pNt_35371" ref="#person_21547"><forename>Alice</forename> <surname>Ziegler</surname></rs> abgeholt mit O. und <rs type="person" xml:id="pNt_35372" ref="#person_13359"><forename>Steffi</forename></rs>; 
 <rs type="person" xml:id="pNt_35373"><surname>Baumgarten</surname></rs>, Hradschin, Strahov, Synagoge, Rundfahrt; zu <rs type="person" xml:id="pNt_35374"><surname>Zieglers</surname></rs>; 
 der Bub.―</p>
@@ -195,6 +199,5 @@ Kapellmeister), <rs type="person" xml:id="pNt_35380" ref="#person_16339"><surnam
 Widerspruch. Er gibt mir im Grund recht.―)</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

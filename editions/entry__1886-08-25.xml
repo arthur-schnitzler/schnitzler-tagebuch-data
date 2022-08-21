@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1886-08-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1886-08-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1886-08-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1886-08-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1886-08-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1886-08-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DF4B-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0295.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1886-08-25">
-            <p xml:space="preserve"><date when="1886-08-25">25/8</date> <rs type="place" xml:id="pl_00568" ref="#place_d1bbe5c82af588aa9fd6e5f65d6acab3">R.</rs> Mittw. Vorm.―</p>
+            <p xml:space="preserve"><date when="1886-08-25">25/8</date> <rs type="place" xml:id="pl_00568" ref="#pmb91574">R.</rs> Mittw. Vorm.―</p>
             <pb n="204"/>
             <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header">
                <fw place="top_left" type="pageNum">204</fw>
@@ -208,7 +212,7 @@ ihr; ich hielt ihre Hand, drückte lange ― bebende Küsse auf diese
 süße Hand ― sie sah mich an mit wundersamen Blicken ―</p>
             <p xml:space="preserve" rend="indent">Abend gabs einen Spazierg. im Mondschein, <rs type="person" xml:id="pNt_02638" ref="#person_16995"><forename>D.</forename></rs>, <rs type="person" xml:id="pNt_02639" ref="#person_13918"><forename>Ev.</forename></rs>, <rs type="person" xml:id="pNt_02640" ref="#person_14761"><surname>M.</surname></rs> hinter uns; 
 ich mit ihr ― Sie sagte, sie habe die Liebe zu mir in dem Moment das 
-erste Mal empfunden, wo ich ihr in <rs type="place" xml:id="pl_00569" ref="#place_834e1bca2cb7d2238249e70860ed8ae8">M.</rs> nach der Partie in jenes Thal 
+erste Mal empfunden, wo ich ihr in <rs type="place" xml:id="pl_00569" ref="#pmb43520">M.</rs> nach der Partie in jenes Thal 
 gesagt: ― Die Stätte die ein guter Mensch betrat ― sie ist geweiht für 
 alle Zeit ― das war der elektr. Schlag, der coup de foudre ― Nie hab 
 ich einen Menschen so lieb gehabt wie Sie!… Was sie für jenen andern 
@@ -229,6 +233,5 @@ Geleite.</p>
             <p xml:space="preserve" rend="indent">Am Abend desselben Tags kam ich in ― an.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

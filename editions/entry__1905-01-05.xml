@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-01-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-01-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-01-06.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-01-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-01-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-01-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F6D3-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,23 +176,25 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2021.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1905-01-05">
             <p xml:space="preserve"><date when="1905-01-05">5/1</date> Sturm und Thauwetter.― Dictirt Briefe, darunter an <rs type="person" xml:id="pNt_22241" ref="#person_16819"><surname>Kerr</surname></rs>.― Kopfweh.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="allusively" xml:id="rst_00507">Mama</rs> Nm. Quartett <rs type="person" xml:id="pNt_22242" ref="#person_13555"><surname>Beethoven</surname></rs> <rs type="work" xml:id="bibl_15419">130</rs>.―</p>
             <p xml:space="preserve" rend="indent">Am <rs type="work" subtype="self" xml:id="bibl_15420">3. Akt</rs> erfolglos gearbeitet und in immer schwerere Verstimmung 
 gerathen.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_22243" ref="#person_16477"><surname>Jacobsohn</surname></rs> da. Er befindet sich vortrefflich. Bereitet sich zu 
-einer Reise nach <rs type="place" xml:id="pl_05019" ref="#place_389962c9dec540ab28d04517e82c3996">Italien</rs>, <rs type="place" xml:id="pl_05020" ref="#place_8d865b652dc83da05aa34b499a9b01be">Frankreich</rs>, <rs type="place" xml:id="pl_05021" ref="#place_67eb2b8d0aab60ec69666532ff9527c9">Holland</rs> vor. Es ist wie wenn der 
+einer Reise nach <rs type="place" xml:id="pl_05019" ref="#pmb40306">Italien</rs>, <rs type="place" xml:id="pl_05020" ref="#pmb166">Frankreich</rs>, <rs type="place" xml:id="pl_05021" ref="#pmb44016">Holland</rs> vor. Es ist wie wenn der 
 ganze Plagiatrummel ihm nur zum Vortheil gereichte.― Er rieth ab den 
 <rs type="person" xml:id="pNt_22244" ref="#person_16819"><surname>Kerrbrief</surname></rs> an den <rs type="work" subtype="newspaper" xml:id="bibl_15421">Tag</rs> zu senden ― worein ich gern einstimmte ― damit 
 hab ich nun wieder überflüssig ein paar Tage beinahe vertrödelt.― 
 O. sang <rs type="person" xml:id="pNt_22245" ref="#person_21432"><surname>Wolf</surname></rs>, <rs type="person" xml:id="pNt_22246" ref="#person_19902"><surname>Schubert</surname></rs>, <rs type="person" xml:id="pNt_22247" ref="#person_13914"><surname>Brahms</surname></rs>.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

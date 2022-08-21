@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-11-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-11-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-11-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-11-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-11-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-11-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0A6A-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4740.tif"/>
@@ -189,17 +193,16 @@
                   <date type="range">1918: XI 8 - XI 10</date>
                </fw>
             </tei:fw>
-            <p xml:space="preserve" rend="indent">Oberl. <rs type="person" xml:id="pNt_54721" ref="#person_19562"><surname>Sander</surname></rs>, aus <rs type="place" xml:id="pl_11379" ref="#place_1d3a164e45efdad9a1b68b54bd69260c">Eperies</rs> kommend, hat die Plünderungen mitgemacht; wohnt 
+            <p xml:space="preserve" rend="indent">Oberl. <rs type="person" xml:id="pNt_54721" ref="#person_19562"><surname>Sander</surname></rs>, aus <rs type="place" xml:id="pl_11379" ref="#pmb90597">Eperies</rs> kommend, hat die Plünderungen mitgemacht; wohnt 
 im Cottage; findet die Stimmung zu Unrecht beruhigt; stellt sich zu 
 organis. Abwehrmaßregeln zur Verfügung. Wir besprechen einiges; ich weise 
 ihn an G. D. <rs type="person" xml:id="pNt_54722" ref="#person_16356"><surname>Horch</surname></rs>, <rs type="person" xml:id="pNt_54723" ref="#person_19755"><surname>Schmidl</surname></rs>, <rs type="person" xml:id="pNt_54724" ref="#person_18672"><roleName>Frau</roleName> <surname>Patak</surname></rs>.―</p>
-            <p xml:space="preserve" rend="indent">Revolution in <rs type="place" xml:id="pl_11380" ref="#place_3c2f8b8c8c43538b25a0327ae84c3f65">Deutschland</rs> (<rs type="place" xml:id="pl_11381" ref="#place_1a75b35314be8c19f22c5c5334d78c8f">Kiel</rs>, <rs type="place" xml:id="pl_11382" ref="#place_35d7df6ed3d93be2927d14acc5f1fc9a">Hamburg</rs> u. s. w.).</p>
+            <p xml:space="preserve" rend="indent">Revolution in <rs type="place" xml:id="pl_11380" ref="#pmb151">Deutschland</rs> (<rs type="place" xml:id="pl_11381" ref="#pmb907">Kiel</rs>, <rs type="place" xml:id="pl_11382" ref="#pmb506">Hamburg</rs> u. s. w.).</p>
             <p xml:space="preserve" rend="indent">Heimfahrt von der Front „289 Soldaten todt in den Tunnels geborgen ―“.</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="work" subtype="self" xml:id="bibl_5954">Tgb.</rs> 90.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_54725" ref="#person_19986"><forename>Gustav</forename></rs>, Dr. <rs type="person" xml:id="pNt_54726" ref="#person_18893"><forename>Rob. Ad.</forename> <surname>Pollak</surname></rs> zu Besuch.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_54727" ref="#person_19822"><forename>Heini</forename></rs> <rs type="person" xml:id="pNt_54728" ref="#person_20822"><surname>Tschaikowski</surname></rs> <rs type="work" xml:id="bibl_5955">Fünfte</rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

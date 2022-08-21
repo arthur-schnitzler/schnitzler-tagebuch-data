@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-05-31.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-05-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-06-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-05-31.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-05-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-06-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FE62-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2912.tif"/>
@@ -183,14 +187,13 @@
          <div type="diary-day" xml:id="entry__1910-05-31">
             <p xml:space="preserve"><date when="1910-05-31">31/5</date> Traum: Ich fahre mit <rs type="person" xml:id="pNt_32745" ref="#person_19542"><surname>Salten</surname></rs> im Wagen, ich frage nach <rs type="person" xml:id="pNt_32746" ref="#person_16646"><surname>Kainz</surname></rs>, <rs type="person" xml:id="pNt_32747" ref="#person_19542"><surname>S.</surname></rs> 
 antwortet abwehrend. Dann erzählt er mir, <rs type="person" xml:id="pNt_32748" ref="#person_20643"><surname>Tausenau</surname></rs> sei nicht todt, 
-sondern bewohne ein Schloß mit Park in der <rs type="place" xml:id="pl_07079" ref="#place_7a0be5a1ed9675975e678b517f07573c">Schweiz</rs>. Er wolle mich 
+sondern bewohne ein Schloß mit Park in der <rs type="place" xml:id="pl_07079" ref="#pmb43435">Schweiz</rs>. Er wolle mich 
 zum Universalerben einsetzen. <rs type="person" xml:id="pNt_32749" ref="#person_13624"><roleName>Baron</roleName> <surname>Berger</surname></rs> habe es dem <rs type="person" xml:id="pNt_32750" ref="#person_16222"><forename>Georg</forename> <surname>Hirschfeld</surname></rs> 
 erzählt,― aber ich solle es nicht erfahren, weil er (<rs type="person" xml:id="pNt_32751" ref="#person_13624"><surname>B.</surname></rs>) fürchte, 
 daß ich dann nicht mehr arbeiten werde!―</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_07080" ref="#place_b4a3a80247afc58a8bde4afff2b93e4c">Genf</rs> ― <rs type="place" xml:id="pl_07081" ref="#place_961698fa64951bd6d3437ebc7931a899">Bern</rs> Autofahrt durch die Stadt, Casino; ― <rs type="place" xml:id="pl_07082" ref="#place_103a821a3a6a0b923c9f74a39662bb51">Zürich</rs> (Hotel 
+            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_07080" ref="#pmb562">Genf</rs> ― <rs type="place" xml:id="pl_07081" ref="#pmb1223">Bern</rs> Autofahrt durch die Stadt, Casino; ― <rs type="place" xml:id="pl_07082" ref="#pmb484">Zürich</rs> (Hotel 
 National ―), Restaurant du Nord.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

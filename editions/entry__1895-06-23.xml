@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1895-06-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-06-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-06-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1895-06-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-06-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-06-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E9BD-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,16 +177,18 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1033.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1895-06-23">
-            <p xml:space="preserve"><date when="1895-06-23">23/6</date> Sonntag. Mit <rs type="person" xml:id="pNt_10732" ref="#person_19150"><forename>Mz.</forename> <surname>Rh.</surname></rs> <rs type="place" xml:id="pl_02022" ref="#place_70bde987c42c09240ef3e840fc66a461">Melk</rs>, <rs type="place" xml:id="pl_02023" ref="#place_b2a677fb2730bf552834184278c3511c">Wachau</rs> (Schiff) <rs type="place" xml:id="pl_02024" ref="#place_15132be64d12d34052619003b16df487">Tulln</rs>. Obdach 
-Suche in <rs type="place" xml:id="pl_02025" ref="#place_07e1e69de6ad35be535fe26851d79cc0">Andrä Wördern</rs>, <rs type="place" xml:id="pl_02026" ref="#place_a64ccfe6a153e969eccc0cd5e3d021f0">Greifenstein</rs>; endlich <rs type="place" xml:id="pl_02027" ref="#place_a3c879a4f19e7987aa5aa1f1b929b0da">Klosterneuburg</rs> 
+            <p xml:space="preserve"><date when="1895-06-23">23/6</date> Sonntag. Mit <rs type="person" xml:id="pNt_10732" ref="#person_19150"><forename>Mz.</forename> <surname>Rh.</surname></rs> <rs type="place" xml:id="pl_02022" ref="#pmb91223">Melk</rs>, <rs type="place" xml:id="pl_02023" ref="#pmb531">Wachau</rs> (Schiff) <rs type="place" xml:id="pl_02024" ref="#pmb91959">Tulln</rs>. Obdach 
+Suche in <rs type="place" xml:id="pl_02025" ref="#pmb1246">Andrä Wördern</rs>, <rs type="place" xml:id="pl_02026" ref="#pmb90763">Greifenstein</rs>; endlich <rs type="place" xml:id="pl_02027" ref="#pmb865">Klosterneuburg</rs> 
 schlechte Betten.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

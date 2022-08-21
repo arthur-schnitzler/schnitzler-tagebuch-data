@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-03-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-03-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-03-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1920-03-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-03-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-03-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0C4E-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5047.tif"/>
@@ -182,7 +186,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1920-03-07">
             <p xml:space="preserve"><date when="1920-03-07">7/3</date> S.― Schlechte Nacht; verzweifelte Morgenstunden.</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_58212" ref="#person_14130"><forename>Lili</forename></rs> und Frau <rs type="person" xml:id="pNt_58213" ref="#person_13282"><forename>Hanne</forename> <surname>Askonas</surname></rs> <rs type="place" xml:id="pl_12130" ref="#place_431168489e6885d4e91ebc5edec7dfb4">Grinzing</rs>, gegen Wildgrube; war 
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_58212" ref="#person_14130"><forename>Lili</forename></rs> und Frau <rs type="person" xml:id="pNt_58213" ref="#person_13282"><forename>Hanne</forename> <surname>Askonas</surname></rs> <rs type="place" xml:id="pl_12130" ref="#pmb90771">Grinzing</rs>, gegen Wildgrube; war 
 müd, wir lagen in der Sonne auf einer Wiese;― über Krapfenwaldl 
 zurück.―</p>
             <p xml:space="preserve" rend="indent">Zum Thee <rs type="person" xml:id="pNt_58214" ref="#person_20545"><forename>Walter</forename> <surname>Stross</surname></rs>;― erzählt uns von <rs type="person" xml:id="pNt_58215" ref="#person_14130"><forename>Lilis</forename></rs> letzten 
@@ -195,6 +199,5 @@ bemerkt, wenn <rs type="person" xml:id="pNt_58218"><roleName>Hr.</roleName> <sur
 finden. (Ganz ernsthaft.)</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

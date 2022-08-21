@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-12-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-11-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-12-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-12-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-11-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-12-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-01F5-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3524.tif"/>
@@ -185,7 +189,7 @@
             <p xml:space="preserve"><date when="1912-12-01">1/12</date> Mit O. und <rs type="person" xml:id="pNt_39471" ref="#person_13305"><forename>Raoul</forename> <surname>Auernheimer</surname></rs> in die Urnenhalle. Legte einen 
 <rs type="person" xml:id="pNt_39472"><surname>Kranz</surname></rs> nieder. <rs type="person" xml:id="pNt_39473" ref="#person_15980"><surname>Hauptmann</surname></rs> sprach, dann <rs type="person" xml:id="pNt_39474" ref="#person_16407"><surname>Hülsen</surname></rs>, dann ich (frei, und 
 völlig unbefangen), <rs type="person" xml:id="pNt_39475" ref="#person_19126"><surname>Reicher</surname></rs>, <rs type="person" xml:id="pNt_39476" ref="#person_19724"><surname>Schlenther</surname></rs>.―</p>
-            <p xml:space="preserve" rend="indent">Zum <rs type="place" xml:id="pl_08104" ref="#place_351df1ca55505bb99966f5a4fe71eb6f">Lehrter</rs> Bahnhof, doch verfehlten wir den Trauerzug, der zum 
+            <p xml:space="preserve" rend="indent">Zum <rs type="place" xml:id="pl_08104" ref="#pmb91127">Lehrter</rs> Bahnhof, doch verfehlten wir den Trauerzug, der zum 
 Güterbahnhof dirigirt war.</p>
             <p xml:space="preserve" rend="indent">― <rs type="person" xml:id="pNt_39477" ref="#person_15009"><surname>Fischers</surname></rs> im Hotel.―</p>
             <p xml:space="preserve" rend="indent">Mit O. eine Weile in der <rs type="place" xml:id="pl_08105" ref="#place_f1e08331efaef33e2ad589d629e7615d" ana="#exclude">Ostasiatischen</rs> Ausstellung.</p>
@@ -198,6 +202,5 @@ wo die Leute scharenweise davonmußten, wegen Ausverkauftheit.
 Allerdings Sonntag. Abreise.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-06-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-06-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-06-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1920-06-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-06-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-06-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0CB4-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5124.tif"/>
@@ -183,15 +187,14 @@
          <div type="diary-day" xml:id="entry__1920-06-17">
             <p xml:space="preserve"><date when="1920-06-17">17/6</date> Behandlung.― Die <rs type="place" xml:id="pl_12345" ref="#place_15ad6fc4ebc84faae42939d4598a6478" ana="#exclude">Schwedin</rs> erzählt allerlei.</p>
             <p xml:space="preserve" rend="indent">― Gobelin Ausstellung im Belvedere.―</p>
-            <p xml:space="preserve" rend="indent">Gegen Abd. bei <rs type="person" xml:id="pNt_59157" ref="#person_18916"><surname>Popper</surname></rs> in <rs type="place" xml:id="pl_12346" ref="#place_6fc6f10422bfe80ddcba23b4f7f080dc">Hietzing</rs>. Erzähle allerlei über Mißerfolge 
+            <p xml:space="preserve" rend="indent">Gegen Abd. bei <rs type="person" xml:id="pNt_59157" ref="#person_18916"><surname>Popper</surname></rs> in <rs type="place" xml:id="pl_12346" ref="#pmb63">Hietzing</rs>. Erzähle allerlei über Mißerfolge 
 auf dem Theater u. ä.― Ein <rs type="person" xml:id="pNt_59158" ref="#person_18808"><roleName>Herr</roleName> <surname>Pirker</surname></rs> anwesend.</p>
-            <p xml:space="preserve" rend="indent">Nachher <rs type="place" xml:id="pl_12347" ref="#place_c2e186fca4448a726e594d611bfb4494">Schönbrunner Park</rs>. Längs des <rs type="place" xml:id="pl_12348" ref="#place_15447c025022af4d31e0a6a30682088a">Kammergartens</rs>. „Ein Mann aus 
+            <p xml:space="preserve" rend="indent">Nachher <rs type="place" xml:id="pl_12347" ref="#pmb92519">Schönbrunner Park</rs>. Längs des <rs type="place" xml:id="pl_12348" ref="#pmb92326">Kammergartens</rs>. „Ein Mann aus 
 dem Volk“ … „Da spielen jetzt die Kinder drin … Was die ruiniren! … Ja, 
 ein Herr muß da sein … Herrn … und Diener muß es geben …“ 
 ― Im ganzen kann man sagen, daß es den „<rs type="place" xml:id="pl_12349" ref="#place_ee4c6f2f0df2cd2abf7db20478cad25d" ana="#exclude">Wiener</rs>“,― der nicht von der 
 polit. Umwälzung profitirt vor der „Republik“ „graust“ ―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-10-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-10-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-10-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-10-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-10-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-10-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FEEF-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3007.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1910-10-19">
-            <p xml:space="preserve"><date when="1910-10-19">19/10</date> Spaziergang allein am <rs type="place" xml:id="pl_07263" ref="#place_797995abb7274e2eab2059ba02411f0f">Pinkenkogel</rs>. Über den <rs type="work" subtype="self" xml:id="bibl_12048">Wurstlroman</rs> 
+            <p xml:space="preserve"><date when="1910-10-19">19/10</date> Spaziergang allein am <rs type="place" xml:id="pl_07263" ref="#pmb91482">Pinkenkogel</rs>. Über den <rs type="work" subtype="self" xml:id="bibl_12048">Wurstlroman</rs> 
 nachgedacht.</p>
             <p xml:space="preserve" rend="indent">Mit O. spazieren Thalhofweg. Gründe, warum mir ein Werk allerersten 
 Ranges nicht gelingen wird. Mangelndes Gleichmaß zwischen Objektivität 
@@ -191,12 +195,11 @@ und jedes Werk, jede Gestaltgruppe in sich abzuschließen. Bedauern,
 daß Gespräche solcher Art nicht aufzubewahren sind.</p>
             <p xml:space="preserve" rend="indent">Nach Tisch kamen <rs type="person" xml:id="pNt_33715" ref="#person_19755"><forename>Hugo</forename></rs> und <rs type="person" xml:id="pNt_33716" ref="#person_19756"><forename>Paula</forename> <surname>Schmidl</surname></rs>, die uns zur Bahn 
 begleiteten. Liebe Leute.</p>
-            <p xml:space="preserve" rend="indent">Nach <rs type="place" xml:id="pl_07264" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>. In der Bahn <rs type="place" xml:id="pl_07265" ref="#place_388686540f35afe7790d134863d92203">Kahlenberg</rs> „<rs type="work" xml:id="bibl_12049">Eva Sehring</rs>“ zu lesen begonnen.</p>
+            <p xml:space="preserve" rend="indent">Nach <rs type="place" xml:id="pl_07264" ref="#pmb50">Wien</rs>. In der Bahn <rs type="place" xml:id="pl_07265" ref="#pmb574">Kahlenberg</rs> „<rs type="work" xml:id="bibl_12049">Eva Sehring</rs>“ zu lesen begonnen.</p>
             <p xml:space="preserve" rend="indent">Daheim die <rs type="allusively" xml:id="rst_01147">Kinder</rs>; entzückend.</p>
             <p xml:space="preserve" rend="indent">Brief Einlauf durchgesehn. Von <rs type="person" xml:id="pNt_33717" ref="#person_13581"><roleName>Frau</roleName> <surname>Benedict</surname></rs> ein 
 Eulenspiegel-Tintenfaß.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

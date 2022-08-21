@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1892-11-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-11-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-11-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1892-11-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-11-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-11-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E605-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0653.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1892-11-07">
-            <p xml:space="preserve"><date when="1892-11-07">7. 11.</date> Eine Freundin schrieb meiner Cousine, <rs type="person" xml:id="pNt_06728" ref="#person_18413"><surname>Neumann</surname></rs> in <rs type="place" xml:id="pl_01405" ref="#place_c12b8d9779a8ad2b240a57b31c979290">Prag</rs> warte, 
-bis mein <rs type="work" subtype="self" xml:id="bibl_22967">Stück</rs> in <rs type="place" xml:id="pl_01406" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> gefallen, er strenge seine Schauspieler nicht 
+            <p xml:space="preserve"><date when="1892-11-07">7. 11.</date> Eine Freundin schrieb meiner Cousine, <rs type="person" xml:id="pNt_06728" ref="#person_18413"><surname>Neumann</surname></rs> in <rs type="place" xml:id="pl_01405" ref="#pmb91524">Prag</rs> warte, 
+bis mein <rs type="work" subtype="self" xml:id="bibl_22967">Stück</rs> in <rs type="place" xml:id="pl_01406" ref="#pmb168">Berlin</rs> gefallen, er strenge seine Schauspieler nicht 
 auf ungewisses hin an.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

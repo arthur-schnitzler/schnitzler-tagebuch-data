@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-09-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-09-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-09-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-09-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-09-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-09-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1B43-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7547.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1930-09-02">
-            <p xml:space="preserve"><date when="1930-09-02">2/9</date> <rs type="place" xml:id="pl_19495" ref="#place_07746ef3772ea6e718f5cd3a37681d92">Marienbad</rs>. Mit <rs type="person" xml:id="pNt_90590" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Spazierg. Moorlager, Egerländer.</p>
+            <p xml:space="preserve"><date when="1930-09-02">2/9</date> <rs type="place" xml:id="pl_19495" ref="#pmb91211">Marienbad</rs>. Mit <rs type="person" xml:id="pNt_90590" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Spazierg. Moorlager, Egerländer.</p>
             <p xml:space="preserve" rend="indent">― Nm. <rs type="work" subtype="self" xml:id="bibl_1225">Landsknecht</rs> durchgesehn. Sonderbarer Weise die 4 Mscrpte., die ich 
 (außer „<rs type="work" subtype="self" xml:id="bibl_1226">Zug</rs>“) mithabe ― lauter Kriegsstoff: <rs type="work" subtype="self" xml:id="bibl_1227">Landsknecht</rs>, <rs type="work" subtype="self" xml:id="bibl_1228">Oberstabsarzt</rs>, 
 <rs type="work" subtype="self" xml:id="bibl_1229">Sängerin</rs>, <rs type="work" subtype="self" xml:id="bibl_1230">Abenteurer</rs>.―</p>
@@ -191,6 +195,5 @@
 Kriegs-(Schützengraben-)Roman.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

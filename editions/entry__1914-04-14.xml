@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-04-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-04-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-04-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-04-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-04-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-04-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-03E8-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3813.tif"/>
@@ -182,8 +186,8 @@
       <body>
          <div type="diary-day" xml:id="entry__1914-04-14">
             <p xml:space="preserve"><date when="1914-04-14">14/4</date> Vm. Dictirt <rs type="work" subtype="self" xml:id="bibl_8803">Fink</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Nm. mit O., <rs type="person" xml:id="pNt_43326" ref="#person_13355"><roleName>Frau</roleName> <surname>Bachrach</surname></rs>, Frau <rs type="person" xml:id="pNt_43327" ref="#person_21594"><roleName>Hofr.</roleName> <surname>Zuckerkandl</surname></rs> über <rs type="place" xml:id="pl_08672" ref="#place_b2f3f42d45ff2c1018a9d3b9e6c37ece">Krems</rs> in die 
-<rs type="place" xml:id="pl_08673" ref="#place_b2a677fb2730bf552834184278c3511c">Wachau</rs> (<rs type="place" xml:id="pl_08674" ref="#place_1ac1fe68de4bd77a52097abf6af525c4">Dürnstein</rs>). Hotel Loewenherz.</p>
+            <p xml:space="preserve" rend="indent">Nm. mit O., <rs type="person" xml:id="pNt_43326" ref="#person_13355"><roleName>Frau</roleName> <surname>Bachrach</surname></rs>, Frau <rs type="person" xml:id="pNt_43327" ref="#person_21594"><roleName>Hofr.</roleName> <surname>Zuckerkandl</surname></rs> über <rs type="place" xml:id="pl_08672" ref="#pmb36545">Krems</rs> in die 
+<rs type="place" xml:id="pl_08673" ref="#pmb531">Wachau</rs> (<rs type="place" xml:id="pl_08674" ref="#pmb90558">Dürnstein</rs>). Hotel Loewenherz.</p>
             <pb n="111"/>
             <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header">
                <fw place="top_center">
@@ -193,6 +197,5 @@
             </tei:fw>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1903-05-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-05-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-05-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1903-05-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-05-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-05-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F484-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1810.tif"/>
@@ -180,10 +184,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1903-05-20">
-            <p xml:space="preserve"><date when="1903-05-20">20/5</date> Beim Rabbiner <rs type="person" xml:id="pNt_19836" ref="#person_13419"><roleName>Dr.</roleName> <surname>B.</surname></rs> in <rs type="place" xml:id="pl_04267" ref="#place_02031ed2507818d10a37c1a6bf0c9f9d">Mödling</rs>; Fragen.―</p>
+            <p xml:space="preserve"><date when="1903-05-20">20/5</date> Beim Rabbiner <rs type="person" xml:id="pNt_19836" ref="#person_13419"><roleName>Dr.</roleName> <surname>B.</surname></rs> in <rs type="place" xml:id="pl_04267" ref="#pmb968">Mödling</rs>; Fragen.―</p>
             <p xml:space="preserve" rend="indent">Nachm. (Kopfweh) „<rs type="work" subtype="self" xml:id="bibl_17706">Puppenspieler</rs>“.― Abends bei O.; wo auch <rs ref="#person_20096" type="person" xml:id="pNt_19837"><forename>Ell.</forename> <surname>Sigmund</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

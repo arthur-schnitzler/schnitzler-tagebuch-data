@@ -93,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E3B3-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -177,15 +176,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1891-02-17">
             <p xml:space="preserve"><date when="1891-02-17">17.</date> ― Burg.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_05348" ref="#person_21217"><forename>Adolf</forename></rs>.</p>
          </div>
       </body>
-      
-   
-    </text>
+   </text>
 </TEI>

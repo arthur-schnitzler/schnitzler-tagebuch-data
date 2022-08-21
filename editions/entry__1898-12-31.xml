@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1898-12-31.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-12-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-01-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1898-12-31.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-12-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-01-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EEB8-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1475.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1898-12-31">
-            <p xml:space="preserve"><date when="1898-12-31">31/12</date> Vorm. mit <rs type="person" xml:id="pNt_15995" ref="#person_19150"><forename>Mz.</forename> <surname>Rh.</surname></rs> <rs type="place" xml:id="pl_03073" ref="#place_86a694cf5ce5552ca627cb96b607eccd">Prater</rs>.― Abend bei ihr. Bei uns Familie, 
+            <p xml:space="preserve"><date when="1898-12-31">31/12</date> Vorm. mit <rs type="person" xml:id="pNt_15995" ref="#person_19150"><forename>Mz.</forename> <surname>Rh.</surname></rs> <rs type="place" xml:id="pl_03073" ref="#pmb91530">Prater</rs>.― Abend bei ihr. Bei uns Familie, 
 Roulette und Poker; im Kfh. <rs type="person" xml:id="pNt_15996" ref="#person_13551"><forename>Richard</forename></rs>, <rs type="person" xml:id="pNt_15997" ref="#person_15115"><surname>Franckenstein</surname></rs> und <rs type="person" xml:id="pNt_15998" ref="#person_18021"><surname>Mayer</surname></rs>.</p>
             <p xml:space="preserve" rend="indent">(aus dem Notizbuch abgeschrieben 27. 2. 904)</p>
             <p xml:space="preserve" rend="center">
@@ -190,6 +194,5 @@ Roulette und Poker; im Kfh. <rs type="person" xml:id="pNt_15996" ref="#person_13
 Januar</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

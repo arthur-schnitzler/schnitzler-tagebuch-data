@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-03-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-03-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-03-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1906-03-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-03-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-03-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F890-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2207.tif"/>
@@ -184,7 +188,7 @@
             <p xml:space="preserve"><date when="1906-03-27">27/3</date> Vm. Dampfbad (Gew.: 78.3), Besorgungen, z. Th. mit Olga und <rs type="person" xml:id="pNt_24655" ref="#person_16770"><roleName>Dr.</roleName> 
 <surname>Kaufmann</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_14869">Roman</rs>.―</p>
-            <p xml:space="preserve" rend="indent"><rs ref="#person_13542" type="person" xml:id="pNt_24656"><roleName>Frau Dr.</roleName> <surname>Beer</surname></rs>, <rs type="person" xml:id="pNt_24657" ref="#person_13546"><forename>Theodors</forename></rs> Gemahlin erschießt sich am <rs type="place" xml:id="pl_05482" ref="#place_cc610f9eb29c95079ad238a42870cf2e">Genfersee</rs>.― Warum?― 
+            <p xml:space="preserve" rend="indent"><rs ref="#person_13542" type="person" xml:id="pNt_24656"><roleName>Frau Dr.</roleName> <surname>Beer</surname></rs>, <rs type="person" xml:id="pNt_24657" ref="#person_13546"><forename>Theodors</forename></rs> Gemahlin erschießt sich am <rs type="place" xml:id="pl_05482" ref="#pmb512">Genfersee</rs>.― Warum?― 
 Wirklich, weil sie ihn für schuldlos hält?― Oder aus Verzweiflung 
 über seine Schuld?― Oder um sich an ihm zu rächen, ihn zu strafen?―</p>
             <p xml:space="preserve" rend="indent">Über die <rs type="work" subtype="self" xml:id="bibl_14870">Marionetten</rs> in der „<rs type="work" subtype="newspaper" xml:id="bibl_14871">Zeit</rs>“ von <rs type="person" xml:id="pNt_24658" ref="#person_13473"><forename>L.</forename> <surname>Bauer</surname></rs> eine ziemlich kaum 
@@ -195,6 +199,5 @@ natürlich nicht hindert, dass auch der <rs type="work" subtype="self" xml:id="b
             <p xml:space="preserve" rend="indent">― Las <rs type="work" subtype="self" xml:id="bibl_14876">1901</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

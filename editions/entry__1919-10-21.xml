@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-10-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-10-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-10-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-10-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-10-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-10-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0BC4-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4950.tif"/>
@@ -183,8 +187,8 @@
       <body>
          <div type="diary-day" xml:id="entry__1919-10-21">
             <p xml:space="preserve"><date when="1919-10-21">21/10</date> Café Reichsrath, Besprechung mit <rs type="person" xml:id="pNt_57149" ref="#person_14686"><forename>Otto</forename> <surname>Eisenschitz</surname></rs>; sowie <rs type="person" xml:id="pNt_57150" ref="#person_20612"><roleName>Director</roleName> 
-<surname>Szyfman</surname></rs>, <rs type="place" xml:id="pl_11946" ref="#place_4e471dc21bf455378ad6045ae0a3ab59">Warschau</rs>; wegen <rs type="work" subtype="self" xml:id="bibl_5082">Schwestern</rs>. Der Director, junger Mensch, war in 
-<rs type="place" xml:id="pl_11947" ref="#place_6a04ba950c68304cb108b9ddb2dc5727">Moskau</rs> „gefangen“, aber ziemlich frei, theatralisch beschäftigt; 
+<surname>Szyfman</surname></rs>, <rs type="place" xml:id="pl_11946" ref="#pmb888">Warschau</rs>; wegen <rs type="work" subtype="self" xml:id="bibl_5082">Schwestern</rs>. Der Director, junger Mensch, war in 
+<rs type="place" xml:id="pl_11947" ref="#pmb91304">Moskau</rs> „gefangen“, aber ziemlich frei, theatralisch beschäftigt; 
 erzählte, dass es dem Theater unter dem Bolschewismus nicht schlecht 
 gegangen sei.</p>
             <p xml:space="preserve" rend="indent">― Bank; <rs type="person" xml:id="pNt_57151" ref="#person_15042"><roleName>Hr.</roleName> <surname>Fleminger</surname></rs> theilt mir mit, dass die Papiere seines Schwagers, 
@@ -204,6 +208,5 @@ zerstreut, hörte auch mäßig (1. Reihe). Er las eintönig.</p>
             <p xml:space="preserve" rend="indent">― Las ein Mscrpt. „<rs type="work" xml:id="bibl_5084">Don Quixote</rs>“ von <rs type="person" xml:id="pNt_57157" ref="#person_16871"><surname>Klaren</surname></rs>; nichts.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-11-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-11-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-11-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1915-11-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-11-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-11-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0625-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4139.tif"/>
@@ -182,14 +186,14 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1915-11-10">
-            <p xml:space="preserve"><date when="1915-11-10">10/11</date> Vm. beim Oberbaurat <rs type="person" xml:id="pNt_46760" ref="#person_14937"><surname>Fellner</surname></rs>, Praeses des <rs type="place" ref="#place_volkstheater">Volksth.</rs>-vereins; wegen 
+            <p xml:space="preserve"><date when="1915-11-10">10/11</date> Vm. beim Oberbaurat <rs type="person" xml:id="pNt_46760" ref="#person_14937"><surname>Fellner</surname></rs>, Praeses des <rs type="place" ref="#pmb92202">Volksth.</rs>-vereins; wegen 
 <rs type="person" xml:id="pNt_46761" ref="#person_19364"><surname>Rosenbaum</surname></rs>. Er verhielt sich freundlich unverbindlich.―</p>
             <p xml:space="preserve" rend="indent">Dictirt <rs type="work" subtype="self" xml:id="bibl_8464"><rs type="person" xml:id="pNt_46762"><surname>Cas.</surname></rs> Nov.</rs>―</p>
-            <p xml:space="preserve" rend="indent">Nm. spazieren; <rs type="place" xml:id="pl_09666" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs>; <rs type="person" xml:id="pNt_46763" ref="#person_14130"><forename>Lili</forename></rs> hüpft entgegen.―</p>
+            <p xml:space="preserve" rend="indent">Nm. spazieren; <rs type="place" xml:id="pl_09666" ref="#pmb113">Türkenschanzpark</rs>; <rs type="person" xml:id="pNt_46763" ref="#person_14130"><forename>Lili</forename></rs> hüpft entgegen.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_46764" ref="#person_20892"><surname>U.</surname></rs> 29 verzweifelt, bei O., weil von <rs type="person" xml:id="pNt_46765"><forename>St.</forename></rs> noch immer kein Brief; fährt 
 <pb n="237"/>
 <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header"><fw place="top_center"><date type="range">1915: XI 10 - XI 14</date></fw> <fw n="237" place="top_right" type="pageNum">237</fw></tei:fw>
-(unerlaubter Weise) („als Zeuge“) nach <rs type="place" xml:id="pl_09667" ref="#place_73712d3d0428c81db13497b943ee8dc6">L.</rs>―</p>
+(unerlaubter Weise) („als Zeuge“) nach <rs type="place" xml:id="pl_09667" ref="#pmb46224">L.</rs>―</p>
             <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_09668" ref="#place_9b0c3194edd40bc3de7c58fefb7ee14f" ana="#exclude">Gersthofer</rs> Kino, sah mir <rs type="person" xml:id="pNt_46766" ref="#person_19542"><surname>Salten’s</surname></rs> „<rs type="work" xml:id="bibl_8465">Schuss im Traum</rs>“ an. (Fabelhaft 
 nobel, mit Jagd und Grafen und Schlössern: nur Bad, aber man sieht 
 nichts … und so.)</p>
@@ -197,6 +201,5 @@ nichts … und so.)</p>
 und uns recht anhänglich. Allerlei von <rs type="person" xml:id="pNt_46768" ref="#person_20386"><forename>Liesl</forename></rs>, von <rs type="person" xml:id="pNt_46769" ref="#person_20383"><forename>Albert</forename></rs>; von <rs type="person" xml:id="pNt_46770" ref="#person_15158"><surname>Fred</surname></rs>; u. a.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

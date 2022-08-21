@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-11-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-11-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-11-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-11-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-11-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-11-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1B8A-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7590.tif"/>
@@ -182,9 +186,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1930-11-12">
-            <p xml:space="preserve"><date when="1930-11-12">12/11</date> <rs type="place" xml:id="pl_19621" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>. Nach 5 Stunden Schlaf wieder auf, viel geträumt ― von 
+            <p xml:space="preserve"><date when="1930-11-12">12/11</date> <rs type="place" xml:id="pl_19621" ref="#pmb168">Berlin</rs>. Nach 5 Stunden Schlaf wieder auf, viel geträumt ― von 
 <rs type="person" xml:id="pNt_91226" ref="#person_14129"><forename>Arnoldo</forename></rs>, <rs type="person" xml:id="pNt_91227" ref="#person_18303"><forename>Poldi</forename> <surname>M.</surname></rs>; einer ansteigenden Straße.</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_91228" ref="#person_14234"><forename>Suz.</forename></rs> <rs type="place" xml:id="pl_19622" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> telephonirt.―</p>
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_91228" ref="#person_14234"><forename>Suz.</forename></rs> <rs type="place" xml:id="pl_19622" ref="#pmb50">Wien</rs> telephonirt.―</p>
             <p xml:space="preserve" rend="indent">Allerlei Telefongespräche.―</p>
             <p xml:space="preserve" rend="indent">Zu <rs type="pubHouse"><rs type="person" xml:id="pNt_91229" ref="#person_15009"><forename>S.</forename> <surname>Fischer</surname></rs> Verlag</rs>. Er, <rs type="person" xml:id="pNt_91230" ref="#person_13659"><surname>Bermann</surname></rs>, <rs type="person" xml:id="pNt_91231" ref="#person_16786"><surname>Kayser</surname></rs>.― Die <rs type="work" xml:id="bibl_1411"><rs type="work" subtype="self" xml:id="bibl_1412">Reigen</rs>-history</rs> hat er 
 übersetzen lassen ― will sie aber nicht drucken lassen ― aus Angst, die 
@@ -202,6 +206,5 @@ Fürsten (zum 1. Mal) sehr gut.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_91243" ref="#person_19832"><forename>O.</forename></rs>, <rs type="person" xml:id="pNt_91244" ref="#person_19822"><forename>Heini</forename></rs> <rs type="person" xml:id="pNt_91245" ref="#person_13139"><forename>Ruth</forename></rs>, <rs type="person" xml:id="pNt_91246" ref="#person_16355"><roleName>Dr.</roleName> <surname>Horch</surname></rs> im Esplanade soup.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

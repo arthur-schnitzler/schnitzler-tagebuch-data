@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-09-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-09-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-09-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1906-09-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-09-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-09-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F944-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2264.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1906-09-23">
-            <p xml:space="preserve"><date when="1906-09-23">23/9</date> S. Vm. Spaziergang. <rs type="place" xml:id="pl_05684" ref="#place_75f2e194839d6ba0e5d4080c211a449a">Dornbacher Park</rs>. Herbstwetter.</p>
+            <p xml:space="preserve"><date when="1906-09-23">23/9</date> S. Vm. Spaziergang. <rs type="place" xml:id="pl_05684" ref="#pmb176">Dornbacher Park</rs>. Herbstwetter.</p>
             <p xml:space="preserve" rend="indent">Zweimal in meiner Existenz hab ich wirklich unmoralisch gelebt. Einmal, als 
 ich spielte, nicht schlafen gehen konnte, ohne eine Spielpartie gefunden zu 
 haben (das ist beinah 20 Jahre her) ― und jetzt; da ich völlig in 
@@ -200,6 +204,5 @@ machen ist kläglich. Dies alles ist um einiges zu stark ausgedrückt.―</p>
             <p xml:space="preserve" rend="indent">Abd. war <rs ref="#person_20523" type="person" xml:id="pNt_25465"><forename>Annie</forename> <surname>Sikora</surname></rs> da.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

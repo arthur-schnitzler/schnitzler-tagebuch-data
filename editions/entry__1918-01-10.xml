@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-01-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-01-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-01-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-01-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-01-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-01-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-093C-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4582.tif"/>
@@ -184,8 +188,8 @@
             <p xml:space="preserve"><date when="1918-01-10">10/1</date> Besorgungen Stadt.― Begegnungen: <rs type="person" xml:id="pNt_52327" ref="#person_18298"><roleName>Director</roleName> <surname>Müller</surname></rs> (Bauschwindel, 
 zugrunde gehende Bauherren; gegen <rs type="person" xml:id="pNt_52328" ref="#person_20538"><surname>Strnad</surname></rs>, Sehnsucht, wieder Dome zu bauen 
 wie in seiner Jugend).― <rs type="person" xml:id="pNt_52329" ref="#person_14785"><surname>Ergas</surname></rs> (über seinen Sohn, <rs type="place" xml:id="pl_10832" ref="#place_9912c9330e203d0dc109bf7e74e09e51" ana="#exclude">Schweizer</rs> Zustände, 
-Verkehr etc.);― ins <rs type="place" ref="#place_volkstheater">Volkstheater</rs> (<rs type="person" xml:id="pNt_52330" ref="#person_20690"><surname>Thaller</surname></rs>: will vom <rs type="place" ref="#place_volkstheater">Volksth.</rs> abgehn, 
-von <rs type="place" xml:id="pl_10833" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>; macht kein Hehl zu mir über seine Kränkung, um <rs type="person" xml:id="pNt_52331" ref="#person_15442"><surname>Girardis</surname></rs> Willen 
+Verkehr etc.);― ins <rs type="place" ref="#pmb92202">Volkstheater</rs> (<rs type="person" xml:id="pNt_52330" ref="#person_20690"><surname>Thaller</surname></rs>: will vom <rs type="place" ref="#pmb92202">Volksth.</rs> abgehn, 
+von <rs type="place" xml:id="pl_10833" ref="#pmb50">Wien</rs>; macht kein Hehl zu mir über seine Kränkung, um <rs type="person" xml:id="pNt_52331" ref="#person_15442"><surname>Girardis</surname></rs> Willen 
 zurückgesetzt zu sein).― Mit <rs type="person" xml:id="pNt_52332" ref="#person_21074"><surname>Wallner</surname></rs> über Termin <rs type="work" subtype="self" xml:id="bibl_5239">Weites Land</rs>.― (Der 
 insultirende Brief des wohl etwas größenwahnsinnigen <rs type="person" xml:id="pNt_52333" ref="#person_21328"><surname>Wildgans</surname></rs>;― Kritik, 
 Einnahmen etc.) Mit Regisseur <rs type="person" xml:id="pNt_52334" ref="#person_19392"><surname>Rosenthal</surname></rs> über Besetzung.―</p>
@@ -194,6 +198,5 @@ Einnahmen etc.) Mit Regisseur <rs type="person" xml:id="pNt_52334" ref="#person_
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_52338" ref="#person_19822"><forename>Heini</forename></rs> <rs type="person" xml:id="pNt_52339" ref="#person_20172"><surname>Smetana</surname></rs> Quartett.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

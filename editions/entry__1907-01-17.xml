@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1907-01-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-01-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-01-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1907-01-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-01-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-01-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F9B8-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2319.tif"/>
@@ -187,10 +191,9 @@
             <p xml:space="preserve" rend="indent">Vortrag <rs type="person" xml:id="pNt_26182"><forename>Hugos</forename></rs> „<rs type="work" xml:id="bibl_13919">Der Dichter und diese Zeit</rs>“; bei <rs type="person" xml:id="pNt_26183"><surname>Miethke</surname></rs>, für geladenes 
 und 10 Kr. zahlendes Publikum. Er sprach sehr gut; mein Gehör machte mir 
 Mühe zu folgen.</p>
-            <p xml:space="preserve" rend="indent">Bei <rs type="place" ref="#place_meissl">Meissl</rs> genachtm. mit <rs type="person" xml:id="pNt_26185" ref="#person_19986"><forename>Gustav</forename></rs>, <rs type="person" xml:id="pNt_26186" ref="#person_21107"><surname>Wassermann’s</surname></rs>, <rs type="person" xml:id="pNt_26187" ref="#person_20872"><forename>Agnes</forename> <surname>Sp.</surname></rs>, <rs type="person" xml:id="pNt_26188" ref="#person_16770"><surname>Kaufmann</surname></rs>, 
+            <p xml:space="preserve" rend="indent">Bei <rs type="place" ref="#pmb96">Meissl</rs> genachtm. mit <rs type="person" xml:id="pNt_26185" ref="#person_19986"><forename>Gustav</forename></rs>, <rs type="person" xml:id="pNt_26186" ref="#person_21107"><surname>Wassermann’s</surname></rs>, <rs type="person" xml:id="pNt_26187" ref="#person_20872"><forename>Agnes</forename> <surname>Sp.</surname></rs>, <rs type="person" xml:id="pNt_26188" ref="#person_16770"><surname>Kaufmann</surname></rs>, 
 <rs type="person" xml:id="pNt_26189" ref="#person_19755"><surname>Schmidls</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

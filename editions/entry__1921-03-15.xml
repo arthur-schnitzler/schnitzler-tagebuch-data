@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1921-03-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-03-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-03-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1921-03-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-03-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-03-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0DC3-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5349.tif"/>
@@ -183,8 +187,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1921-03-15">
-            <p xml:space="preserve"><date when="1921-03-15">15/3</date> Vm. bei <rs type="person" xml:id="pNt_61752" ref="#person_20380"><surname>Steininger</surname></rs>; allerlei geschäftliches <rs type="place" xml:id="pl_12825" ref="#place_e884124295d0c4d07d9bcf5096fd5495">Amerika</rs>, <rs type="place" xml:id="pl_12826" ref="#place_5ea5f4002712b1a9a4e292d3c83736b9">Spanien</rs>, ev. 
-<rs type="place" xml:id="pl_12827" ref="#place_389962c9dec540ab28d04517e82c3996">Italien</rs>.</p>
+            <p xml:space="preserve"><date when="1921-03-15">15/3</date> Vm. bei <rs type="person" xml:id="pNt_61752" ref="#person_20380"><surname>Steininger</surname></rs>; allerlei geschäftliches <rs type="place" xml:id="pl_12825" ref="#pmb43406">Amerika</rs>, <rs type="place" xml:id="pl_12826" ref="#pmb388">Spanien</rs>, ev. 
+<rs type="place" xml:id="pl_12827" ref="#pmb40306">Italien</rs>.</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_61753" ref="#person_16736"><surname>Karpath</surname></rs>, der sehr krank (Herz, Nieren) zu Bett liegt, mit 
 Herzschlauch. Über seine Tagebücher, Briefe, testam. Verfügungen; 
 meinen <rs type="allusively" xml:id="rst_01794">Vater</rs>; allerlei Vergangnes (keine Fragen nach <rs type="person" xml:id="pNt_61754" ref="#person_19832"><forename>O.</forename></rs> Schweigen 
@@ -203,11 +207,10 @@ Vortrag über <rs type="work" subtype="self" xml:id="bibl_3214">Reigen</rs> geha
 thatsächlich in persönl. Gefahr geschwebt;― man wollte sogar eine Garde 
 zu meinem Schutz bilden; <rs type="person" xml:id="pNt_61765"><surname>S.</surname></rs> selbst wohnte einer Versammlung in unserm 
 Bezirk bei, in der gegen <rs type="work" subtype="self" xml:id="bibl_3215">Reigen</rs> und mich gehetzt und betont wurde, daß 
-ich „ganz in der Nähe, <rs type="place" xml:id="pl_12828" ref="#place_61f407ddde813da2482868b31eab013d">Sternwartestr.</rs> 71 wohne …“ ― Wahrscheinlich 
+ich „ganz in der Nähe, <rs type="place" xml:id="pl_12828" ref="#pmb150">Sternwartestr.</rs> 71 wohne …“ ― Wahrscheinlich 
 war es von Vortheil für mich, dass man bergauf hätte „stürmen“ 
 müssen.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

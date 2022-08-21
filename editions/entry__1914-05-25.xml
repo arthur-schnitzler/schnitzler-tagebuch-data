@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-05-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-05-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-05-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-05-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-05-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-05-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0411-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3829.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1914-05-25">
-            <p xml:space="preserve"><date when="1914-05-25">25/5</date> <rs type="place" xml:id="pl_08725" ref="#place_1d4660e0a445b02912a96b0ac4fe036a">Haag</rs>. Gallerie.― <rs type="place" xml:id="pl_08726" ref="#place_caf95baad510b0516f11e7ef4c6a555c">Scheveningen</rs>. (1879!)</p>
+            <p xml:space="preserve"><date when="1914-05-25">25/5</date> <rs type="place" xml:id="pl_08725" ref="#pmb58810">Haag</rs>. Gallerie.― <rs type="place" xml:id="pl_08726" ref="#pmb44313">Scheveningen</rs>. (1879!)</p>
             <p xml:space="preserve" rend="indent">Mittag Hotel des Indes.― Mesdag Museum.― Haager Busch. Zurück 
 <pb n="117"/>
 <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header"><fw place="top_center"><date type="range">1914: V 25 - VI 2</date></fw> <fw n="117" place="top_right" type="pageNum">117</fw></tei:fw>
-<rs type="place" xml:id="pl_08727" ref="#place_3eb8670d999ac077dd0e2c345cb7c905">Amsterdam</rs>. Spazieren, Einkäufe ― „Americain“.―</p>
+<rs type="place" xml:id="pl_08727" ref="#pmb40709">Amsterdam</rs>. Spazieren, Einkäufe ― „Americain“.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

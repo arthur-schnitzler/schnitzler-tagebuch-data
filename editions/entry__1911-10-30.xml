@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-10-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-10-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-10-31.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-10-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-10-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-10-31.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0067-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3258.tif"/>
@@ -183,8 +187,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1911-10-30">
-            <p xml:space="preserve"><date when="1911-10-30">30/10</date> Ankunft <rs type="place" xml:id="pl_07667" ref="#place_c12b8d9779a8ad2b240a57b31c979290">Prag</rs> (vor 6). Palast Hotel. Spazieren innerste Stadt. 
-Kalt. Um 10 kommt <rs type="person" xml:id="pNt_36461" ref="#person_20682"><surname>Teweles</surname></rs>. Über <rs type="work" subtype="self" xml:id="bibl_11251">Medardus</rs> für <rs type="place" xml:id="pl_07668" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>, über <rs type="person" xml:id="pNt_36462" ref="#person_13374"><surname>Bahr</surname></rs>, 
+            <p xml:space="preserve"><date when="1911-10-30">30/10</date> Ankunft <rs type="place" xml:id="pl_07667" ref="#pmb91524">Prag</rs> (vor 6). Palast Hotel. Spazieren innerste Stadt. 
+Kalt. Um 10 kommt <rs type="person" xml:id="pNt_36461" ref="#person_20682"><surname>Teweles</surname></rs>. Über <rs type="work" subtype="self" xml:id="bibl_11251">Medardus</rs> für <rs type="place" xml:id="pl_07668" ref="#pmb168">Berlin</rs>, über <rs type="person" xml:id="pNt_36462" ref="#person_13374"><surname>Bahr</surname></rs>, 
 über den Aufschwung des hiesigen Theaters (er hat seine Direktion mit 
 „<rs type="work" subtype="self" xml:id="bibl_11252">W. L.</rs>“ eingeleitet).―</p>
             <p xml:space="preserve" rend="indent">Ins <rs type="place" xml:id="pl_07669" ref="#place_847b48587ea593e1e40a4f9708bb3153" ana="#exclude">czechische</rs> National Theater. <rs type="person" xml:id="pNt_36463" ref="#person_19782"><roleName>Direktor</roleName> <surname>Schmoranz</surname></rs>. Mit ihm 
@@ -208,6 +212,5 @@ ein <rs type="place" xml:id="pl_07670" ref="#place_be7f11f190986254826063420695d
 den <rs type="person" xml:id="pNt_36476" ref="#person_20682"><surname>Teweles</surname></rs> und <rs type="person" xml:id="pNt_36477" ref="#person_14626"><surname>Eger</surname></rs> spielen wollen.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

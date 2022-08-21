@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-06-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-06-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-06-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-06-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-06-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-06-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0F83-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5733.tif"/>
@@ -185,7 +189,7 @@
             <p xml:space="preserve"><date when="1922-06-06">6/6</date> Besorgungen in der Stadt; gerathe in eine Kaufmanie ― vielleicht 
 gerechtfertigt durch die rapid fortschreitende Geldentwertung.</p>
             <p xml:space="preserve" rend="indent">Eine seit Jahren bestehende leichte Schwellung Zeigefinger Mittelgelenk 
-rechts nimmt seit <rs type="place" xml:id="pl_13951" ref="#place_67eb2b8d0aab60ec69666532ff9527c9">Holland</rs> (Champagner) zu und verursacht mäßige 
+rechts nimmt seit <rs type="place" xml:id="pl_13951" ref="#pmb44016">Holland</rs> (Champagner) zu und verursacht mäßige 
 Beschwerden.―</p>
             <p xml:space="preserve" rend="indent">Im „Hagenbund“ (<rs type="person" xml:id="pNt_66332"><surname>Laske</surname></rs> u. a.).</p>
             <p xml:space="preserve" rend="indent">Gegen Abend <rs type="person" xml:id="pNt_66333" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> die wegen „<rs type="person" xml:id="pNt_66334" ref="#person_18748"><forename>Walter</forename></rs>“ weint.―</p>
@@ -195,6 +199,5 @@ Patriotismus u. dergl. denkt sie einfach und scharf.) ― Wir treffen
 <rs type="person" xml:id="pNt_66336" ref="#person_19783"><roleName>Frau</roleName> <surname>Schmutzer</surname></rs> mit ihren Kindern, begleiten sie in ihren Garten.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

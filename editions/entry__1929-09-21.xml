@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-09-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-09-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-09-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-09-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-09-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-09-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-19E9-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7355.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1929-09-21">
-            <p xml:space="preserve"><date when="1929-09-21">21/9</date> <rs type="place" xml:id="pl_18924" ref="#place_07746ef3772ea6e718f5cd3a37681d92">Marienbad</rs>. Frühstück mit <rs type="person" xml:id="pNt_87661" ref="#person_13551"><forename>R.</forename></rs> und <rs ref="#person_13550" type="person" xml:id="pNt_87662"><forename>P.</forename></rs> Winterling.</p>
+            <p xml:space="preserve"><date when="1929-09-21">21/9</date> <rs type="place" xml:id="pl_18924" ref="#pmb91211">Marienbad</rs>. Frühstück mit <rs type="person" xml:id="pNt_87661" ref="#person_13551"><forename>R.</forename></rs> und <rs ref="#person_13550" type="person" xml:id="pNt_87662"><forename>P.</forename></rs> Winterling.</p>
             <p xml:space="preserve" rend="indent">Mittag Bahn Franzensbad. Königsvilla. Mit <rs type="person" xml:id="pNt_87663" ref="#person_19832"><forename>O.</forename></rs> gegessen. Nm. Gespräch 
 an ihrem Bett.― Ihr Bedürfnis öfter, auf Tage mit mir zu sein … 
 Von da aus ihre Verstimmung ― über <rs type="person" xml:id="pNt_87664" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>.. Nichts neues in der 
@@ -192,6 +196,5 @@ Vollendung sie räth.</p>
             <p xml:space="preserve" rend="indent">Nachtm. im Hotel mit <rs type="person" xml:id="pNt_87665" ref="#person_19832"><forename>O.</forename></rs> und <rs type="person" xml:id="pNt_87666" ref="#person_17614"><roleName>Dr.</roleName> <surname>Löbel</surname></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

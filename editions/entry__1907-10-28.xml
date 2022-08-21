@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1907-10-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-10-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-10-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1907-10-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-10-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-10-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FAD4-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,22 +176,24 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2428.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2429.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1907-10-28">
-            <p xml:space="preserve"><date when="1907-10-28">28/10</date> Nach <rs type="place" xml:id="pl_06151" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.―</p>
+            <p xml:space="preserve"><date when="1907-10-28">28/10</date> Nach <rs type="place" xml:id="pl_06151" ref="#pmb50">Wien</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. dictirt. <rs type="work" subtype="self" xml:id="bibl_14529">Roman</rs>. Am „<rs type="work" subtype="self" xml:id="bibl_14530">Familientag</rs>“.―</p>
             <p xml:space="preserve" rend="indent">Abds. <rs type="person" xml:id="pNt_27470" ref="#person_13551"><forename>Richard</forename></rs> und <rs type="person" xml:id="pNt_27471" ref="#person_13550"><forename>Paula</forename></rs> bei uns; dann <rs type="person" xml:id="pNt_27472" ref="#person_19542"><surname>Salten’s</surname></rs>, die <rs type="person" xml:id="pNt_27473" ref="#person_19360"><forename>Lia</forename> <surname>Rosen</surname></rs> mitbrachten, 
-die neue <rs type="place" ref="#place_burgtheater">Burgtheater</rs>schauspielerin. Sie sieht aus wie ein zwerghaftes, 
-überdies mißhandeltes Judenmädel aus <rs type="place" xml:id="pl_06152" ref="#place_b04bc29271f89f9c41fad046a5244baa">Kischenew</rs>. Sie schwieg beinahe 
+die neue <rs type="place" ref="#pmb14">Burgtheater</rs>schauspielerin. Sie sieht aus wie ein zwerghaftes, 
+überdies mißhandeltes Judenmädel aus <rs type="place" xml:id="pl_06152" ref="#pmb45904">Kischenew</rs>. Sie schwieg beinahe 
 ununterbrochen und drückte die ohnedies schlechte Stimmung des Abends.</p>
             <p xml:space="preserve" rend="indent">― Insbesondre zu <rs type="person" xml:id="pNt_27474" ref="#person_19542"><surname>Salten</surname></rs> kann ich wieder in kein Verhältnis kommen. Mein 
 schlechtes Hören düstert mich ganz zusammen.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

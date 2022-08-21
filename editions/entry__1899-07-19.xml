@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1899-07-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-07-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-07-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1899-07-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-07-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-07-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EF66-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1505.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1899-07-19">
-            <p xml:space="preserve"><date when="1899-07-19">19/7</date> Mit <rs type="person" xml:id="pNt_16460" ref="#person_14073"><forename>Lola</forename></rs> <rs type="person" xml:id="pNt_16461"><forename>Rudi</forename></rs>: <rs type="place" xml:id="pl_03163" ref="#place_87d258d18726755096428d33b6d64ba6">Velden</rs> Rad ― <rs type="place" xml:id="pl_03164" ref="#place_29127f55eac950180f60c3b4497355ee">Rosegg</rs> ― <rs type="place" xml:id="pl_03165" ref="#place_471bb68e3395f1f29a91fef5010145e6">Faaker See</rs> ― überfuhr 
-― <rs type="place" xml:id="pl_03166" ref="#place_0d630f309cd8eaead4c6693378f162fb">Villach</rs>.―</p>
+            <p xml:space="preserve"><date when="1899-07-19">19/7</date> Mit <rs type="person" xml:id="pNt_16460" ref="#person_14073"><forename>Lola</forename></rs> <rs type="person" xml:id="pNt_16461"><forename>Rudi</forename></rs>: <rs type="place" xml:id="pl_03163" ref="#pmb92001">Velden</rs> Rad ― <rs type="place" xml:id="pl_03164" ref="#pmb91614">Rosegg</rs> ― <rs type="place" xml:id="pl_03165" ref="#pmb605">Faaker See</rs> ― überfuhr 
+― <rs type="place" xml:id="pl_03166" ref="#pmb92011">Villach</rs>.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_16462" ref="#person_14073"><forename>Lola</forename></rs> und <rs type="person" xml:id="pNt_16463"><forename>Rudi</forename></rs> lernten <rs type="allusively" xml:id="rst_00297">Mama</rs> kennen; Bad.―</p>
             <p xml:space="preserve" rend="indent">Jause.― <rs type="person" xml:id="pNt_16464" ref="#person_16321"><forename>Annie</forename> <surname>H.</surname></rs> und <rs type="person" xml:id="pNt_16465" ref="#person_15854"><forename>Gisela</forename></rs> Kahnfahrt.―</p>
             <p xml:space="preserve" rend="indent">Mandolinenconcert.― Schreckl. Einsamkeitsgefühl.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

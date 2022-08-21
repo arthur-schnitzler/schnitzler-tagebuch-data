@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-02-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-02-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-02-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-02-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-02-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-02-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FE04-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2858.tif"/>
@@ -181,14 +185,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1910-02-26">
-            <p xml:space="preserve"><date when="1910-02-26">26/2</date> Vm. bei <rs type="person" xml:id="pNt_32127" ref="#person_16166"><surname>Herzmansky</surname></rs>. Panorama (<rs type="place" xml:id="pl_06960" ref="#place_01b58a0c7069af368c339c3ced0da019">Turkestan</rs>), Ausstellung <rs type="person" xml:id="pNt_32128" ref="#person_19198"><forename>Paul</forename> 
+            <p xml:space="preserve"><date when="1910-02-26">26/2</date> Vm. bei <rs type="person" xml:id="pNt_32127" ref="#person_16166"><surname>Herzmansky</surname></rs>. Panorama (<rs type="place" xml:id="pl_06960" ref="#pmb92573">Turkestan</rs>), Ausstellung <rs type="person" xml:id="pNt_32128" ref="#person_19198"><forename>Paul</forename> 
 <surname>Ress</surname></rs> (sprach ihn), ein paar gute Meerlandschaften ―</p>
             <p xml:space="preserve" rend="indent">― Nm. an <rs type="work" subtype="self" xml:id="bibl_11573">M. u. S.</rs></p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_32129" ref="#person_18884"><roleName>Dr.</roleName> <surname>Pollak</surname></rs> zur Begutachtung der Kleinen.</p>
-            <p xml:space="preserve" rend="indent">Mit O. <rs type="place" ref="#place_meissl">Meissl und Schadn</rs>. <rs type="person" xml:id="pNt_32132" ref="#person_13913"><surname>Brahm</surname></rs> dort, vor Abreise nach <rs type="place" xml:id="pl_06961" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>. 
+            <p xml:space="preserve" rend="indent">Mit O. <rs type="place" ref="#pmb96">Meissl und Schadn</rs>. <rs type="person" xml:id="pNt_32132" ref="#person_13913"><surname>Brahm</surname></rs> dort, vor Abreise nach <rs type="place" xml:id="pl_06961" ref="#pmb168">Berlin</rs>. 
 <rs type="person" xml:id="pNt_32133"><surname>Wassermann</surname></rs> und <rs type="person" xml:id="pNt_32134" ref="#person_21109"><forename>Julie</forename></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

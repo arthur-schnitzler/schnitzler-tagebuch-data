@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1900-02-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-02-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-03-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1900-02-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-02-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-03-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F034-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -162,7 +166,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1541.tif"/>
@@ -175,7 +179,7 @@
 <rs type="person" xml:id="pNt_16898" ref="#person_13551"><forename>Richard</forename></rs> eigensinnig wie ein Kind, ich wehleidig.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_16899" ref="#person_16911"><roleName>Herr</roleName> <surname>Klinenberger</surname></rs> (<rs type="work" subtype="newspaper" xml:id="bibl_18410">N. Fr. Pr.</rs>) bei mir. Die <rs type="work" subtype="newspaper" xml:id="bibl_18411">N. Fr.</rs> bemüht sich
 sehr, seit ich ein bekannter Name bin.</p>
-            <p xml:space="preserve" rend="indent">Nach <rs type="place" xml:id="pl_03332" ref="#place_6f4e3516ea738ef16c51614925de4154">Edlach</rs>.― Traf gleich <rs type="person" xml:id="pNt_16900" ref="#person_18137"><forename>Dora</forename> <surname>Sp.</surname></rs>, mit der ich spazieren ging.</p>
+            <p xml:space="preserve" rend="indent">Nach <rs type="place" xml:id="pl_03332" ref="#pmb470">Edlach</rs>.― Traf gleich <rs type="person" xml:id="pNt_16900" ref="#person_18137"><forename>Dora</forename> <surname>Sp.</surname></rs>, mit der ich spazieren ging.</p>
             <pb n="323"/>
             <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header">
                <fw place="top_center">
@@ -185,6 +189,5 @@ sehr, seit ich ein bekannter Name bin.</p>
             </tei:fw>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

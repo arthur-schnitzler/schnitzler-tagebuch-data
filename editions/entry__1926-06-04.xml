@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-06-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-06-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-06-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-06-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-06-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-06-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1535-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6673.tif"/>
@@ -183,7 +187,7 @@
          <div type="diary-day" xml:id="entry__1926-06-04">
             <p xml:space="preserve"><date when="1926-06-04">4/6</date> Vm. Sanatorium.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_78000"><forename>B.</forename> <surname>B.</surname></rs>;― speist bei mir. Abschied; fährt am 6. mit dem „<rs type="person" xml:id="pNt_78001"><surname>Tiepolo</surname></rs>“ nach 
-<rs type="place" xml:id="pl_16685" ref="#place_8377de0f1845174610bd8b815b9a285e">Marseille</rs>;― <rs type="place" xml:id="pl_16686" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs>; <rs type="place" xml:id="pl_16687" ref="#place_67eb2b8d0aab60ec69666532ff9527c9">Holland</rs>;― dann <rs type="place" xml:id="pl_16688" ref="#place_7ae19c5e221387a2ff21ec53b80a5910">Bretagne</rs>; vielleicht nach <rs type="place" xml:id="pl_16689" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs> 
+<rs type="place" xml:id="pl_16685" ref="#pmb44565">Marseille</rs>;― <rs type="place" xml:id="pl_16686" ref="#pmb182">Paris</rs>; <rs type="place" xml:id="pl_16687" ref="#pmb44016">Holland</rs>;― dann <rs type="place" xml:id="pl_16688" ref="#pmb90394">Bretagne</rs>; vielleicht nach <rs type="place" xml:id="pl_16689" ref="#pmb182">Paris</rs> 
 übersiedelnd;― <rs type="place" xml:id="pl_16690" ref="#place_55c76de3045e4a0a1e0b4506c5e2d403" ana="#exclude">französ.</rs> Theater.</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="work" subtype="self" xml:id="bibl_20223">Bdn. Nov.</rs>―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_78002" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Kino <rs type="work" xml:id="bibl_20224">Bonjour Paris</rs> (Revue).― <rs type="person" xml:id="pNt_78003" ref="#person_13471"><forename>Julius</forename> <surname>Bauer</surname></rs>; von <rs type="person" xml:id="pNt_78004" ref="#person_19154"><surname>Reinhardt</surname></rs> ― 
@@ -191,6 +195,5 @@ und Urheberrecht etc.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_78005" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> „<rs type="person" xml:id="pNt_78006" ref="#person_18846"><surname>Pohl</surname></rs>“ genachtm.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

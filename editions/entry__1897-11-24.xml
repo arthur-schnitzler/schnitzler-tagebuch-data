@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1897-11-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-11-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-11-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1897-11-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-11-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-11-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-ED27-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1395.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1897-11-24">
-            <p xml:space="preserve"><date when="1897-11-24">24/11</date> Nach <rs type="place" xml:id="pl_02786" ref="#place_c12b8d9779a8ad2b240a57b31c979290">Prag</rs>. <rs type="person" xml:id="pNt_14709" ref="#person_20682"><surname>Teweles</surname></rs> und <rs type="person" xml:id="pNt_14710" ref="#person_13860"><roleName>Frau</roleName> <surname>Bondy</surname></rs> an der Bahn.―</p>
+            <p xml:space="preserve"><date when="1897-11-24">24/11</date> Nach <rs type="place" xml:id="pl_02786" ref="#pmb91524">Prag</rs>. <rs type="person" xml:id="pNt_14709" ref="#person_20682"><surname>Teweles</surname></rs> und <rs type="person" xml:id="pNt_14710" ref="#person_13860"><roleName>Frau</roleName> <surname>Bondy</surname></rs> an der Bahn.―</p>
             <p xml:space="preserve" rend="indent">Spazieren mit <rs type="person" xml:id="pNt_14711" ref="#person_20682"><surname>Teweles</surname></rs>; bei <rs type="person" xml:id="pNt_14712" ref="#person_13860"><roleName>Frau</roleName> <surname>Bondy</surname></rs>;― mit <rs type="person" xml:id="pNt_14713" ref="#person_20682"><surname>Teweles</surname></rs> ein Akt 
 „<rs type="work" xml:id="bibl_21742">Huckebein</rs>“, dann ins Neue Theater zur <rs type="work" xml:id="bibl_21743">Cavalleria</rs>, Loge <rs type="person" xml:id="pNt_14714" ref="#person_18413"><surname>Neumann</surname></rs>, 
 samt <rs type="person" xml:id="pNt_14715" ref="#person_14090"><surname>Buska</surname></rs>.― Im Dtsch. Casino, <rs type="person" xml:id="pNt_14716" ref="#person_19208"><surname>Reucker</surname></rs>, Regisseur; <rs type="person" xml:id="pNt_14717" ref="#person_20682"><surname>Teweles</surname></rs>, 
 <rs ref="#person_13863" type="person" xml:id="pNt_14718"><surname>Bondys</surname></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

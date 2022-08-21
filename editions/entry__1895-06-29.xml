@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1895-06-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-06-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-06-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1895-06-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-06-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-06-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E9C3-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1034.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1895-06-29">
-            <p xml:space="preserve"><date when="1895-06-29">29/6</date> Bic. <rs type="place" xml:id="pl_02033" ref="#place_6d6ea959abcf25aab44fe2ad231d386b">Absdorf</rs> <rs type="place" xml:id="pl_02034" ref="#place_b2f3f42d45ff2c1018a9d3b9e6c37ece">Krems</rs>. Schiff <rs type="place" xml:id="pl_02035" ref="#place_70bde987c42c09240ef3e840fc66a461">Melk</rs>.― Bahn <rs type="place" xml:id="pl_02036" ref="#place_57c9180eee4fb88db953c8d2f64d8a0e">Rekawinkel</rs>.― Bic. ― 
-<rs type="place" xml:id="pl_02037" ref="#place_f5b61ab40d3efa6b67d874a0fd70d3bd">Purkersdorf</rs> <rs type="person" xml:id="pNt_10740" ref="#person_16888"><surname>Kleins</surname></rs>. Nach Haus.</p>
+            <p xml:space="preserve"><date when="1895-06-29">29/6</date> Bic. <rs type="place" xml:id="pl_02033" ref="#pmb90182">Absdorf</rs> <rs type="place" xml:id="pl_02034" ref="#pmb36545">Krems</rs>. Schiff <rs type="place" xml:id="pl_02035" ref="#pmb91223">Melk</rs>.― Bahn <rs type="place" xml:id="pl_02036" ref="#pmb54767">Rekawinkel</rs>.― Bic. ― 
+<rs type="place" xml:id="pl_02037" ref="#pmb91552">Purkersdorf</rs> <rs type="person" xml:id="pNt_10740" ref="#person_16888"><surname>Kleins</surname></rs>. Nach Haus.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

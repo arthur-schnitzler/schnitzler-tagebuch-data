@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-08-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-08-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-08-31.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1931-08-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-08-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-08-31.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1CAC-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7770.tif"/>
@@ -181,9 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1931-08-30">
-            <p xml:space="preserve"><date when="1931-08-30">30/8</date> S.― Tel. mit <rs type="person" xml:id="pNt_93793" ref="#person_19832"><forename>O.</forename></rs>, <rs type="place" xml:id="pl_20134" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>.― <rs type="person" xml:id="pNt_93794" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> ruft mich vor der Abreise an.</p>
+            <p xml:space="preserve"><date when="1931-08-30">30/8</date> S.― Tel. mit <rs type="person" xml:id="pNt_93793" ref="#person_19832"><forename>O.</forename></rs>, <rs type="place" xml:id="pl_20134" ref="#pmb168">Berlin</rs>.― <rs type="person" xml:id="pNt_93794" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> ruft mich vor der Abreise an.</p>
             <p xml:space="preserve" rend="indent">Kurze Weile bei <rs type="person" xml:id="pNt_93795" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>― Begegne dann <rs type="person" xml:id="pNt_93796"><forename>Ferry</forename></rs>, den ich zur Herzstation begleite. 
-Fahre nach <rs type="place" xml:id="pl_20135" ref="#place_86f90c857ca2c813e066ea7b3502cb7c">Hohe Warte</rs>, ermüde nach kurzem Spazierg. in <rs type="place" xml:id="pl_20136" ref="#place_3b4be58d3eeaccec91467f3e6b0d06c1" ana="#exclude">Grinzinger</rs> Straßen; 
+Fahre nach <rs type="place" xml:id="pl_20135" ref="#pmb92292">Hohe Warte</rs>, ermüde nach kurzem Spazierg. in <rs type="place" xml:id="pl_20136" ref="#place_3b4be58d3eeaccec91467f3e6b0d06c1" ana="#exclude">Grinzinger</rs> Straßen; 
 heim; speise allein.―</p>
             <p xml:space="preserve" rend="indent">Später Nachm.;― „<rs type="work" subtype="self" xml:id="bibl_23912">Ruf des Lebens</rs>“, „<rs type="work" subtype="self" xml:id="bibl_23913">Heimkehr</rs>“;― <rs type="person" xml:id="pNt_93797"><forename>Ferry</forename></rs> kommt; hatte 
 langes Gespräch mit <rs type="person" xml:id="pNt_93798" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>; die auf meinen Vorschlag von Freundschaft und 
@@ -194,6 +198,5 @@ die Hand reiche, die ihre brüsk zurückzieht.― Die Stimmung hielt vor.― Ich
 gab <rs type="person" xml:id="pNt_93801"><forename>Ferry</forename></rs> die <rs type="work" subtype="newspaper" xml:id="bibl_23914">Voss.</rs> Ausschnitte der <rs type="work" subtype="self" xml:id="bibl_23915">Novelle</rs> mit.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

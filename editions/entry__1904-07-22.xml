@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-07-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-07-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-07-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-07-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-07-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-07-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F62C-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1941.tif"/>
@@ -181,15 +185,14 @@
       <body>
          <div type="diary-day" xml:id="entry__1904-07-22">
             <p xml:space="preserve"><date when="1904-07-22">22/7</date> Vm. Spaziergang allein.―</p>
-            <p xml:space="preserve" rend="indent">Dachte oft an <rs type="place" xml:id="pl_04812" ref="#place_d1bbe5c82af588aa9fd6e5f65d6acab3">Reichenau</rs> zu früherer Zeit, besonders da ich 
+            <p xml:space="preserve" rend="indent">Dachte oft an <rs type="place" xml:id="pl_04812" ref="#pmb91574">Reichenau</rs> zu früherer Zeit, besonders da ich 
 <rs type="person" xml:id="pNt_21347" ref="#person_21047"><forename>Olga</forename> <surname>W.</surname></rs> liebte. Kümmerte mich um die Natur gar nicht. Wußte kaum, wo 
-<rs type="place" xml:id="pl_04813" ref="#place_cda60edf1cfb4e0ef4e22a0c06e8b3eb">Rax</rs> und <rs type="place" xml:id="pl_04814" ref="#place_966ba8e3d9ef28c5abf6e069b8ee2b21">Schneeberg</rs> war.―</p>
+<rs type="place" xml:id="pl_04813" ref="#pmb91572">Rax</rs> und <rs type="place" xml:id="pl_04814" ref="#pmb91691">Schneeberg</rs> war.―</p>
             <p xml:space="preserve" rend="indent"><rs type="work" subtype="self" xml:id="bibl_17170">Roman</rs> Nachm.― Es ist seltsam, wie lebendig mir <rs type="allusively" xml:id="rst_00440">die Todte</rs> 
 wird, wie ich ihren Ton treffe, und wie eigentlich alle Schauer ihres 
 Entschwundenseins entwichen sind.―</p>
             <p xml:space="preserve" rend="indent">Abd. mit <rs type="allusively" xml:id="rst_00441">Mama</rs> O. und <rs type="person" xml:id="pNt_21348"><forename>Fery</forename></rs> Hotel Preinerwand soup.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

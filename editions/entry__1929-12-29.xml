@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-12-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-12-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-12-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-12-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-12-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-12-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1A4C-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7410.tif"/>
@@ -183,7 +187,7 @@
          <div type="diary-day" xml:id="entry__1929-12-29">
             <p xml:space="preserve"><date when="1929-12-29">29/12</date> S.― Vm. <rs type="person" xml:id="pNt_88512" ref="#person_18137"><forename>Dora</forename></rs> im Hotel, der ich die Veränderung meiner Existenz 
 berichtete.―</p>
-            <p xml:space="preserve" rend="indent">Tel. mit <rs type="person" xml:id="pNt_88513" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> und <rs type="person" xml:id="pNt_88514" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> nach <rs type="place" xml:id="pl_19011" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.</p>
+            <p xml:space="preserve" rend="indent">Tel. mit <rs type="person" xml:id="pNt_88513" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> und <rs type="person" xml:id="pNt_88514" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> nach <rs type="place" xml:id="pl_19011" ref="#pmb50">Wien</rs>.</p>
             <p xml:space="preserve" rend="indent">Zu Tisch bei <rs type="person" xml:id="pNt_88515" ref="#person_19832"><forename>O.</forename></rs> <rs type="person" xml:id="pNt_88516" ref="#person_14129"><forename>Arnoldo</forename></rs>, <rs type="person" xml:id="pNt_88517" ref="#person_17958"><forename>Paul</forename> <surname>Marx</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. „zu Haus“.―</p>
             <p xml:space="preserve" rend="indent">Abds. <rs type="person" xml:id="pNt_88518" ref="#person_19832"><forename>O.</forename></rs> und <rs type="person" xml:id="pNt_88519" ref="#person_14129"><forename>Arn.</forename></rs> abgeholt, zu <rs ref="#person_18140" type="person" xml:id="pNt_88520"><surname>Michaelis</surname></rs>.― <rs type="person" xml:id="pNt_88521" ref="#person_19822"><forename>Heini</forename></rs>, <rs type="person" xml:id="pNt_88522" ref="#person_13139"><forename>Ruth</forename></rs>, <rs type="person" xml:id="pNt_88523" ref="#person_16469"><forename>Lucy v.</forename> <surname>J.</surname></rs>,― 
@@ -191,6 +195,5 @@ berichtete.―</p>
             <p xml:space="preserve" rend="indent">Grammophon.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

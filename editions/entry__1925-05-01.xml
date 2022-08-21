@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1925-05-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-04-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-05-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1925-05-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-04-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-05-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-13A6-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,16 +177,18 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6486.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1925-05-01">
-            <p xml:space="preserve"><date when="1925-05-01">1/5</date> Spaziergang mit <rs type="person" xml:id="pNt_75056" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> Kreuzeichenwiese, über Steinhof, nach <rs type="place" xml:id="pl_16042" ref="#place_ae27b00fe645446cec370e16f3d1a671">Ottakring</rs>.―</p>
+            <p xml:space="preserve"><date when="1925-05-01">1/5</date> Spaziergang mit <rs type="person" xml:id="pNt_75056" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> Kreuzeichenwiese, über Steinhof, nach <rs type="place" xml:id="pl_16042" ref="#pmb66">Ottakring</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_16425">Weiher</rs>.</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_75057" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> im Regina, mit ihr unten soup.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

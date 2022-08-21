@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-05-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-05-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-05-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-05-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-05-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-05-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F5E8-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,22 +176,24 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1918.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1919.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1904-05-15">
             <p xml:space="preserve"><date when="1904-05-15">15/5</date> 42. Geburtstag. Früh 5 auf Deck. Schöner Morgen. Melancholisch, 
 bis zum Weinen. Ein <rs type="place" xml:id="pl_04723" ref="#place_196345e3618c54b2f4fdba400d606768" ana="#exclude">deutscher</rs> Herr spricht mit mir, dann kommt O. 
-Ankunft in <rs type="place" xml:id="pl_04724" ref="#place_8191692ba6c002b14b07549113e62125">Palermo</rs>.― Sterbende Saison. Hotel des palmes. Der <rs type="place" xml:id="pl_04725" ref="#place_29edfc109f5a668e40ee5525a2f6c059" ana="#exclude">deutsche</rs> 
+Ankunft in <rs type="place" xml:id="pl_04724" ref="#pmb901">Palermo</rs>.― Sterbende Saison. Hotel des palmes. Der <rs type="place" xml:id="pl_04725" ref="#place_29edfc109f5a668e40ee5525a2f6c059" ana="#exclude">deutsche</rs> 
 Herr: <rs type="person" xml:id="pNt_21064" ref="#person_20821"><roleName>Dr. med.</roleName> <surname>Trütschler</surname></rs>.― Ruhe. Garten. Affen im Käfig.― Mit O. 
 Wagen. Palazzo reale; Blicke, die uns entzücken.― Lunch im Hotel, mit 
 <rs type="person" xml:id="pNt_21065" ref="#person_20821"><roleName>Dr.</roleName> <surname>T.</surname></rs></p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_21066" ref="#person_16009"><surname>Hebbel</surname></rs> <rs type="work" xml:id="bibl_17088">Tagebuch</rs>.― Gefahren nach der Favorita.― Diner im 
 Hotel mit <rs type="person" xml:id="pNt_21067" ref="#person_20821"><roleName>Hrn.</roleName> <surname>T.</surname></rs>―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1917-07-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-07-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-07-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1917-07-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-07-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-07-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0894-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4509.tif"/>
@@ -182,13 +186,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1917-07-25">
-            <p xml:space="preserve"><date when="1917-07-25">25/7</date> Spazieren <rs type="place" xml:id="pl_10624" ref="#place_bf303a935ba7bb30e892cb5d0f2ea6ac">Michaelerberg</rs>. Mit dem <rs type="work" subtype="self" xml:id="bibl_6637">Landsknechtstoff</rs> beschäftigt.― <rs type="work" subtype="self" xml:id="bibl_6638"><rs type="person" xml:id="pNt_51158"><surname>Cas.</surname></rs> Nov.</rs></p>
+            <p xml:space="preserve"><date when="1917-07-25">25/7</date> Spazieren <rs type="place" xml:id="pl_10624" ref="#pmb91239">Michaelerberg</rs>. Mit dem <rs type="work" subtype="self" xml:id="bibl_6637">Landsknechtstoff</rs> beschäftigt.― <rs type="work" subtype="self" xml:id="bibl_6638"><rs type="person" xml:id="pNt_51158"><surname>Cas.</surname></rs> Nov.</rs></p>
             <p xml:space="preserve" rend="indent">Nm. am „<rs type="work" subtype="self" xml:id="bibl_6639">Nachklang</rs>“.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_51159" ref="#person_19822"><forename>Heini</forename></rs> im neuen Dianabad „Wellenbad“. Durch die Stadt zurück 
 <pb n="67"/>
 <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header"><fw place="top_center"><date type="range">1917: VII 25 - VII 29</date></fw> <fw n="67" place="top_right" type="pageNum">67</fw></tei:fw>
-― ein sonderbarer Anblick ― kein Wagen zu sehn. <rs type="place" xml:id="pl_10625" ref="#place_c8369178c0d715f504a72813045a5cd0">Graben</rs>, 
-<rs type="place" xml:id="pl_10626" ref="#place_d27d3b2f350d0b313506c77a540e2f3e">Kärntnerstraße</rs>. „Stadt nach der Eroberung“ sagte <rs type="person" xml:id="pNt_51160" ref="#person_19822"><forename>Heini</forename></rs>.</p>
+― ein sonderbarer Anblick ― kein Wagen zu sehn. <rs type="place" xml:id="pl_10625" ref="#pmb90753">Graben</rs>, 
+<rs type="place" xml:id="pl_10626" ref="#pmb92330">Kärntnerstraße</rs>. „Stadt nach der Eroberung“ sagte <rs type="person" xml:id="pNt_51160" ref="#person_19822"><forename>Heini</forename></rs>.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_51161" ref="#person_19822"><forename>Heini</forename></rs> <rs type="person" xml:id="pNt_51162" ref="#person_13555"><surname>Beethoven</surname></rs> <rs type="work" xml:id="bibl_6640">Qu. Op. 18,5</rs>.―</p>
             <p xml:space="preserve" rend="indent">Mit O. über ev. Entlassung <rs type="person" xml:id="pNt_51163" ref="#person_20112"><forename>Wuckis</forename></rs> (deren Urlaub unsern Nerven wohlthut); 
 Vorsatz O.’s <rs type="person" xml:id="pNt_51164" ref="#person_14130"><forename>Lili</forename></rs> auch weiterhin in ihrem Zimmer schlafen zu lassen, 
@@ -206,6 +210,5 @@ einmal <rs type="place" xml:id="pl_10628" ref="#place_55c76de3045e4a0a1e0b4506c5
 Notizen zum „<rs type="work" subtype="self" xml:id="bibl_6644">Weg ins freie</rs>“.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

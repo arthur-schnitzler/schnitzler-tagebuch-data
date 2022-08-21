@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-05-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-04-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-05-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-05-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-04-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-05-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0F5F-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5706.tif"/>
@@ -182,11 +186,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1922-05-01">
-            <p xml:space="preserve"><date when="1922-05-01">1/5</date> Vm. in <rs type="place" xml:id="pl_13845" ref="#place_caf95baad510b0516f11e7ef4c6a555c">Scheveningen</rs> bei <rs type="person" xml:id="pNt_65913" ref="#person_17031"><roleName>Dr.</roleName> <surname>Koos</surname></rs>. Abrechnung (sehr günstig) und 
+            <p xml:space="preserve"><date when="1922-05-01">1/5</date> Vm. in <rs type="place" xml:id="pl_13845" ref="#pmb44313">Scheveningen</rs> bei <rs type="person" xml:id="pNt_65913" ref="#person_17031"><roleName>Dr.</roleName> <surname>Koos</surname></rs>. Abrechnung (sehr günstig) und 
 Bezahlung.― Vergeblicher Besuch bei dem blinden Dichter van <rs type="person" xml:id="pNt_65914" ref="#person_15386"><surname>Genderen-Stort</surname></rs>, 
 der mir seinen Roman gesandt.</p>
             <p xml:space="preserve" rend="indent">Lunch bei <rs type="person" xml:id="pNt_65915"><surname>Tels’</surname></rs>. Ihre Schwester;― Interpellation wegen <rs type="work" subtype="self" xml:id="bibl_2518">Hirtenflöte</rs>.</p>
-            <p xml:space="preserve" rend="indent">Nm. nach <rs type="place" xml:id="pl_13846" ref="#place_11fd35f080dbf9757f9eaae899027a91">Leiden</rs>. Rector <rs type="person" xml:id="pNt_65916" ref="#person_13701"><surname>Beversen</surname></rs> holt mich ab, zeigt mir Stadt, Universität, 
+            <p xml:space="preserve" rend="indent">Nm. nach <rs type="place" xml:id="pl_13846" ref="#pmb91129">Leiden</rs>. Rector <rs type="person" xml:id="pNt_65916" ref="#person_13701"><surname>Beversen</surname></rs> holt mich ab, zeigt mir Stadt, Universität, 
 Prüfungsäle,― botan. Garten, die Burg, den Studentenclub. Der <rs type="place" xml:id="pl_13847" ref="#place_3e59557b630aba415b2b473b86a70e73" ana="#exclude">russ.</rs> 
 jüd. Buchhändler <rs type="person" xml:id="pNt_65917" ref="#person_15434"><surname>Ginsberg</surname></rs>.― Wir diniren im „Türken“,― mit einem 
 jungen Gymn.-<rs type="person" xml:id="pNt_65918" ref="#person_16917"><roleName>Professor</roleName> <surname>Kloeke</surname></rs> und einer <rs type="place" xml:id="pl_13848" ref="#place_e8624db2d10ca0d2def71b80119da78b" ana="#exclude">holl.</rs> Aerztin <rs type="person" xml:id="pNt_65919" ref="#person_13852"><forename>Lauri</forename> <surname>Bolle</surname></rs>, die wie 
@@ -194,6 +198,5 @@ eine <rs type="place" xml:id="pl_13849" ref="#place_940c216cefe80dcf3a8a3e3bc0d7
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_65920"><roleName>Dr.</roleName> <surname>Tels</surname></rs> geplaudert, der gern wissen möchte, wie man ein Stück schreibt.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

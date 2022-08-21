@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-01-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-12-31.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-01-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-01-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-12-31.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-01-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0214-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3545.tif"/>
@@ -188,7 +192,7 @@ versöhnt. (Ich träume oft von Hunden.―)</p>
             <p xml:space="preserve" rend="indent">Blumen für Olga, die mit heftigem Schnupfen zu Bett bleibt.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_39737" ref="#person_18884"><roleName>Dr.</roleName> <surname>Pollak</surname></rs>; der Bub recht wohl. 
 <rs type="person" xml:id="pNt_39738" ref="#person_16852"><forename>Hansi</forename> <surname>Schmidl</surname></rs> mit Cyclamen.―</p>
-            <p xml:space="preserve" rend="indent">Früh Sonne, dann brauner Nebel; Spaziergang gegen <rs type="place" xml:id="pl_08138" ref="#place_86f90c857ca2c813e066ea7b3502cb7c">Hohe Warte</rs> etc.</p>
+            <p xml:space="preserve" rend="indent">Früh Sonne, dann brauner Nebel; Spaziergang gegen <rs type="place" xml:id="pl_08138" ref="#pmb92292">Hohe Warte</rs> etc.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_39739"><forename>Else</forename> <surname>Speidel</surname></rs> bei O.―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_39740"><forename>Richard</forename></rs>, erzählt vom gestrigen Essen bei <rs type="person" xml:id="pNt_39741" ref="#person_18568"><roleName>Brn.</roleName> <surname>Oppenheimer</surname></rs>;― 
 (<rs type="person" xml:id="pNt_39742" ref="#person_21107"><surname>Wassermann</surname></rs>, <rs type="person" xml:id="pNt_39743" ref="#person_14092"><surname>Busoni</surname></rs>, <rs type="person" xml:id="pNt_39744" ref="#person_18057"><surname>Mell</surname></rs>; letztrer verbittert und etwas jesuitisch 
@@ -202,6 +206,5 @@ finde), <rs type="work" xml:id="bibl_9192">1812</rs> von <rs type="person" xml:i
             <p xml:space="preserve" rend="indent">(Nm. gerechnet.―)</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

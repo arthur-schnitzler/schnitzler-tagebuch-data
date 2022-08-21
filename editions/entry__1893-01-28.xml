@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1893-01-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-01-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-01-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1893-01-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-01-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-01-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E657-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0671.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1893-01-28">
-            <p xml:space="preserve"><date when="1893-01-28">28/1</date> Anonyme Postkarte aus <rs type="place" xml:id="pl_01423" ref="#place_5cad74003f572315b3970b7d86409df5">St. G.</rs>, offenbar <rs type="person" xml:id="pNt_07023" ref="#person_15485"><forename>Mz.’s</forename></rs> Untreue andeuten 
+            <p xml:space="preserve"><date when="1893-01-28">28/1</date> Anonyme Postkarte aus <rs type="place" xml:id="pl_01423" ref="#pmb92542">St. G.</rs>, offenbar <rs type="person" xml:id="pNt_07023" ref="#person_15485"><forename>Mz.’s</forename></rs> Untreue andeuten 
 sollend.― Liess mich, in jedem Sinne, kalt.―</p>
             <p xml:space="preserve" rend="indent">Schrieb, nach 1½ Jahren „<rs type="work" subtype="self" xml:id="bibl_22640">Verwandlungen</rs>“ weiter.― „<rs type="work" subtype="self" xml:id="bibl_22641">Freiwild</rs>“ 
 drängt sich auf, wohl durch die Karte,― ev. <rs type="person" xml:id="pNt_07024" ref="#person_20078"><surname>shakesp.</surname></rs> zu behandeln.―</p>
@@ -194,6 +198,5 @@ hausmütterlich beim Nachtmahl, und feurig im Bett.― <hi xmlns:tei="http://www
 hausmütterlich und <hi xmlns:tei="http://www.tei-c.org/ns/1.0" rend="italicised">zu</hi> feurig ― denn ich liebe sie nicht.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

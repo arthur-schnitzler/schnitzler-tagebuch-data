@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-10-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-10-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-10-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-10-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-10-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-10-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-189C-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,14 +177,15 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7183.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1928-10-23">
-            <p xml:space="preserve"><date when="1928-10-23">23/10</date> Vm. <rs type="person" xml:id="pNt_85110" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> bei mir, die Wohnung <rs type="place" xml:id="pl_18350" ref="#place_0742e4e105267a42ce98c784e500406b">Hasenauer Str.</rs> zu zeigen. Es kam 
+            <p xml:space="preserve"><date when="1928-10-23">23/10</date> Vm. <rs type="person" xml:id="pNt_85110" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> bei mir, die Wohnung <rs type="place" xml:id="pl_18350" ref="#pmb383">Hasenauer Str.</rs> zu zeigen. Es kam 
 nicht dazu;― denn sie hatte wieder ihren Anfall wegen <rs type="person" xml:id="pNt_85111" ref="#person_19832"><forename>O.</forename></rs> Ich erklärte 
 decidirt so ginge es absolut nicht weiter. Entweder hinnehmen, was ihr 
 keinen Abbruch thut;― das geschmacklose Schimpfen aufgeben, den 
@@ -189,5 +194,6 @@ Hetzern Thüre weisen;― oder Schluss.―</p>
             <p xml:space="preserve" rend="indent">Der Nachm. wieder ziemlich übel.―</p>
             <p xml:space="preserve" rend="indent">Z. N. <rs type="person" xml:id="pNt_85114" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>, der das heutige Ultimatum sichtlich gut gethan.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

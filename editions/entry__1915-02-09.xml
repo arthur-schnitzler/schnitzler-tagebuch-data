@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-02-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1915-02-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0513-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3983.tif"/>
@@ -182,13 +186,12 @@
       <body>
          <div type="diary-day" xml:id="entry__1915-02-09">
             <p xml:space="preserve"><date when="1915-02-09">9/2</date> Besorgungen. Bei Frau <rs type="person" xml:id="pNt_44928" ref="#person_21594"><roleName>Hofr.</roleName> <surname>Z.</surname></rs>, die krank war. Politisches. Bessres 
-Verhältnis zu <rs type="place" xml:id="pl_09201" ref="#place_e5e72ce64abf0b0be68d544840ab0cbf">Rumänien</rs>, und die angeblichen erot. Gründe.― <rs type="place" xml:id="pl_09202" ref="#place_389962c9dec540ab28d04517e82c3996">Italien</rs>. 
-<rs type="person" xml:id="pNt_44929" ref="#person_20829"><surname>Tschirschky</surname></rs>: Ihr Apostolicus ist doch der gescheidteste. (<rs type="place" xml:id="pl_09203" ref="#place_34f36b9454115e3b99acdf7913509e12">Trient</rs> ― 
-<rs type="place" xml:id="pl_09204" ref="#place_8be4faaae218289562dc0a8c0e2e0ff1">Triest</rs>.) ―</p>
+Verhältnis zu <rs type="place" xml:id="pl_09201" ref="#pmb378">Rumänien</rs>, und die angeblichen erot. Gründe.― <rs type="place" xml:id="pl_09202" ref="#pmb40306">Italien</rs>. 
+<rs type="person" xml:id="pNt_44929" ref="#person_20829"><surname>Tschirschky</surname></rs>: Ihr Apostolicus ist doch der gescheidteste. (<rs type="place" xml:id="pl_09203" ref="#pmb954">Trient</rs> ― 
+<rs type="place" xml:id="pl_09204" ref="#pmb91944">Triest</rs>.) ―</p>
             <p xml:space="preserve" rend="indent">Mit O. Concert <rs type="person" xml:id="pNt_44930" ref="#person_20372"><forename>Franz</forename> <surname>Steiner</surname></rs> (<rs type="person" xml:id="pNt_44931" ref="#person_19902"><surname>Schubert</surname></rs>). <rs type="person" xml:id="pNt_44932" ref="#person_16293"><forename>Hugo</forename></rs> sprach ich dort, der 
 in recht pessimistischer etwas kriegspsychotischer Stimmung scheint.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

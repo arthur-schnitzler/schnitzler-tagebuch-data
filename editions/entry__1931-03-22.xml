@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-03-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-03-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-03-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1931-03-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-03-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-03-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1C0C-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7666.tif"/>
@@ -182,11 +186,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1931-03-22">
-            <p xml:space="preserve"><date when="1931-03-22">22/3</date> S.― Tel. mit <rs type="person" xml:id="pNt_92426" ref="#person_19832"><forename>O.</forename></rs> (<rs type="place" xml:id="pl_19804" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>.) (<rs type="person" xml:id="pNt_92427" ref="#person_13428"><surname>Barnowsky</surname></rs>, der <rs type="work" subtype="self" xml:id="bibl_23664">G. z. W.</rs> von ihr erbittet, 
+            <p xml:space="preserve"><date when="1931-03-22">22/3</date> S.― Tel. mit <rs type="person" xml:id="pNt_92426" ref="#person_19832"><forename>O.</forename></rs> (<rs type="place" xml:id="pl_19804" ref="#pmb168">Berlin</rs>.) (<rs type="person" xml:id="pNt_92427" ref="#person_13428"><surname>Barnowsky</surname></rs>, der <rs type="work" subtype="self" xml:id="bibl_23664">G. z. W.</rs> von ihr erbittet, 
 nach Mahnung zurückschickt.― Staatsth. bittet das Stück bis Mittwoch 
 reserviren … Aber entschließen kann sich keiner.― Ihre Bekanntschaft mit 
 <rs type="person" xml:id="pNt_92428" ref="#person_19180"><surname>Remarque</surname></rs> bei <rs type="person" xml:id="pNt_92429" ref="#person_15009"><surname>Fischer</surname></rs> „unglücklicher Mensch“.) ―</p>
-            <p xml:space="preserve" rend="indent">Nach den üblichen Tel.; mit <rs type="person" xml:id="pNt_92430" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Spazierg. <rs type="place" xml:id="pl_19805" ref="#place_81a076afd4011a7a1f259f710a002134">Hartäckerpark</rs> ― ihre düstre 
+            <p xml:space="preserve" rend="indent">Nach den üblichen Tel.; mit <rs type="person" xml:id="pNt_92430" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Spazierg. <rs type="place" xml:id="pl_19805" ref="#pmb92273">Hartäckerpark</rs> ― ihre düstre 
 Stimmung. Taktlosigkeiten der Auskunftwünsche. (Z. B. <rs type="person" xml:id="pNt_92431" ref="#person_18923"><forename>Herm.</forename> <surname>Porges</surname></rs>, die 
 „hofft“, dass <rs type="person" xml:id="pNt_92432" ref="#person_18866"><forename>Karl</forename></rs> durchkommen werde;― ihr Sohn sei sehr pessimistisch … 
 Wie viel Bosheit steckt auch im Mitgefühl!) ―</p>
@@ -200,6 +204,5 @@ Er spricht vom Wein fürs Genesungsdiner.―</p>
             <p xml:space="preserve" rend="indent">Lese <rs ref="#person_20818" type="person" xml:id="pNt_92441"><surname>Trotzky</surname></rs> und <rs type="person" xml:id="pNt_92442" ref="#person_13774"><surname>Blei</surname></rs> <rs type="work" xml:id="bibl_23666">Selbstbiogr.</rs> weiter.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

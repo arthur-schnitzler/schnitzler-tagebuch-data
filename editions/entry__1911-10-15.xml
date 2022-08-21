@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-10-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-10-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-10-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-10-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-10-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-10-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0058-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3250.tif"/>
@@ -182,12 +186,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1911-10-15">
-            <p xml:space="preserve"><date when="1911-10-15">15/10</date> S. Aus den andern Städten gute Nachrichten; nur <rs type="place" xml:id="pl_07650" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> scheint 
+            <p xml:space="preserve"><date when="1911-10-15">15/10</date> S. Aus den andern Städten gute Nachrichten; nur <rs type="place" xml:id="pl_07650" ref="#pmb168">Berlin</rs> scheint 
 schwach gewesen zu sein. Die Kritiker: Gerade die fernsten, wie 
 <rs type="person" xml:id="pNt_36335" ref="#person_16653"><surname>Kalbeck</surname></rs> und <rs type="person" xml:id="pNt_36336" ref="#person_21412"><surname>Wittmann</surname></rs> sehr freundlich; <rs type="person" xml:id="pNt_36337" ref="#person_13374"><surname>Bahr</surname></rs> und <rs type="person" xml:id="pNt_36338" ref="#person_19542"><surname>Salten</surname></rs> bei aller 
 Anerkennung von schlecht verhehltem Mißmut erfüllt.―</p>
             <p xml:space="preserve" rend="indent">Spazieren, <rs type="place" xml:id="pl_07651" ref="#place_aced77fcb653c3216ac883df10617126" ana="#exclude">Pötzleinsdorfer</rs> Wald. Auf dem Rückweg <rs type="person" xml:id="pNt_36339" ref="#person_16046"><surname>Heine</surname></rs> mit 
-Frau (<rs type="person" xml:id="pNt_36340" ref="#person_19019"><surname>Rabitow</surname></rs>), die eben proviantirt nach <rs type="place" xml:id="pl_07652" ref="#place_f31da60292f235984a0cb55466b84b5f">Weidlingbach</rs> wanderten. 
+Frau (<rs type="person" xml:id="pNt_36340" ref="#person_19019"><surname>Rabitow</surname></rs>), die eben proviantirt nach <rs type="place" xml:id="pl_07652" ref="#pmb44394">Weidlingbach</rs> wanderten. 
 (Er hat gestern den <rs type="role" xml:id="pNt_36341"><surname>Natter</surname></rs> glänzend gespielt.) Über den gestrigen 
 Abend und andres. Später treff ich die <rs type="person" xml:id="pNt_36342" ref="#person_13776"><surname>Bleibtreu</surname></rs> („<rs type="figur">Fr. Aigner</rs>“) und 
 <rs type="person" xml:id="pNt_36344" ref="#person_18691"><surname>Paulsen</surname></rs> (<rs type="role" xml:id="pNt_36345"><surname>Mauer</surname></rs>); wir plaudern über <rs type="person" xml:id="pNt_36346" ref="#person_13624"><surname>Berger</surname></rs> u. a. Die <rs type="person" xml:id="pNt_36347" ref="#person_21345"><surname>Wilke</surname></rs> (<rs type="role" xml:id="pNt_36348"><roleName>Frau</roleName> <surname>Natter</surname></rs>) 
@@ -209,6 +213,5 @@ Sprach <rs type="person" xml:id="pNt_36359" ref="#person_13624"><surname>Berger<
 dem Erfolg sehr zufrieden waren.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

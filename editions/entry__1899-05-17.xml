@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1899-05-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-05-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-05-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1899-05-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-05-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-05-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EF27-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1492.tif"/>
@@ -182,10 +186,9 @@
       <body>
          <div type="diary-day" xml:id="entry__1899-05-17">
             <p xml:space="preserve"><date when="1899-05-17">17/5</date> Nm. <rs type="person" xml:id="pNt_16307" ref="#person_15485"><surname>Gl.</surname></rs> bei mir. Abd. <rs type="work" xml:id="bibl_18541">Kabale und Liebe</rs> Burg (<rs type="person" xml:id="pNt_16308" ref="#person_17492"><forename>Else</forename> <surname>L.</surname></rs>).― Mit 
-<rs type="person" xml:id="pNt_16309" ref="#person_16293"><forename>Hugo</forename></rs> und <rs type="person" xml:id="pNt_16310" ref="#person_13551"><forename>Rich.</forename></rs> <rs type="place" xml:id="pl_03101" ref="#place_d7f977f9a16210838a0dd6b32f6fb25d">Volksgarten</rs>.―</p>
+<rs type="person" xml:id="pNt_16309" ref="#person_16293"><forename>Hugo</forename></rs> und <rs type="person" xml:id="pNt_16310" ref="#person_13551"><forename>Rich.</forename></rs> <rs type="place" xml:id="pl_03101" ref="#pmb103">Volksgarten</rs>.―</p>
             <p xml:space="preserve" rend="indent">Vorm. <rs type="work" subtype="self" xml:id="bibl_18542">Kakaduprobe</rs>, <rs type="person" xml:id="pNt_16311" ref="#person_21403"><surname>Witt</surname></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

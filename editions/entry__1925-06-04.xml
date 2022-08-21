@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1925-06-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-06-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-06-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1925-06-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-06-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-06-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-13C8-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6498.tif"/>
@@ -182,15 +186,14 @@
       <body>
          <div type="diary-day" xml:id="entry__1925-06-04">
             <p xml:space="preserve"><date when="1925-06-04">4/6</date> Dictirt Briefe, „<rs type="work" subtype="self" xml:id="bibl_16494">Therese</rs>“.―</p>
-            <p xml:space="preserve" rend="indent">Nm. Frl. <rs type="person" xml:id="pNt_75247" ref="#person_13852"><forename>Laurie</forename> <surname>Bolle</surname></rs> aus <rs type="place" xml:id="pl_16083" ref="#place_11fd35f080dbf9757f9eaae899027a91">Leyden</rs> (hatte vor 3 Jahren in <rs type="place" xml:id="pl_16084" ref="#place_ca0b0549db85f718a48e0505ac9273a2">L.</rs> durch <rs type="person" xml:id="pNt_75248" ref="#person_13701"><roleName>Dir.</roleName> <surname>Beversen</surname></rs> 
+            <p xml:space="preserve" rend="indent">Nm. Frl. <rs type="person" xml:id="pNt_75247" ref="#person_13852"><forename>Laurie</forename> <surname>Bolle</surname></rs> aus <rs type="place" xml:id="pl_16083" ref="#pmb91129">Leyden</rs> (hatte vor 3 Jahren in <rs type="place" xml:id="pl_16084" ref="#pmb92354">L.</rs> durch <rs type="person" xml:id="pNt_75248" ref="#person_13701"><roleName>Dir.</roleName> <surname>Beversen</surname></rs> 
 ihre Bekanntschaft gemacht) ― das Haus entzückt sie.― Ist eben Doctor 
-geworden. Leben in <rs type="place" xml:id="pl_16085" ref="#place_11fd35f080dbf9757f9eaae899027a91">Leyden</rs>. Jugend in <rs type="place" xml:id="pl_16086" ref="#place_4ced2ba4894c7892eb4243fd9af2bf71">Seeland</rs>. Hatte den Eindruck,― sie sieht 
+geworden. Leben in <rs type="place" xml:id="pl_16085" ref="#pmb91129">Leyden</rs>. Jugend in <rs type="place" xml:id="pl_16086" ref="#pmb91721">Seeland</rs>. Hatte den Eindruck,― sie sieht 
 mannweiblich aus ― besondrer Güte.</p>
             <p xml:space="preserve" rend="indent">― Mit <rs type="person" xml:id="pNt_75249" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Akademie Th. „<rs type="work" xml:id="bibl_16495">Soll man es sagen</rs>“ <rs type="person" xml:id="pNt_75250" ref="#person_17242"><surname>Labiche</surname></rs> in einer allzu 
 parodistischen Inszenirung <rs type="person" xml:id="pNt_75251" ref="#person_13911"><surname>Brahms</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_75252" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Imperial genachtm.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

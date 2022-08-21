@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-09-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-09-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-09-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-09-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-09-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-09-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-158E-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6715.tif"/>
@@ -182,13 +186,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1926-09-02">
-            <p xml:space="preserve"><date when="1926-09-02">2/9</date> <rs type="place" xml:id="pl_16877" ref="#place_906e621d0a453fe7be4c326293881c73">Interlaken</rs>. Regen.―</p>
+            <p xml:space="preserve"><date when="1926-09-02">2/9</date> <rs type="place" xml:id="pl_16877" ref="#pmb916">Interlaken</rs>. Regen.―</p>
             <p xml:space="preserve" rend="indent">Nm. den <rs type="work" subtype="self" xml:id="bibl_20392">Roman</rs> bis zum Schluss durchgesehn. Bin eigentlich nicht ganz klar, 
 inwieweit er gelungen. Ich finde ihn im ganzen gut erzählt; vieles 
 interessant, vielleicht ergreifend;― der letzte Antheil des Autors fehlt eben doch.―</p>
             <p xml:space="preserve" rend="indent">Im Restaurant an der Wiese.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

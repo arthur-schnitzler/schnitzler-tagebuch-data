@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-07-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-07-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-07-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-07-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-07-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-07-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-09F7-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4671.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1918-07-16">
-            <p xml:space="preserve"><date when="1918-07-16">16/7</date> Brief von <rs type="person" xml:id="pNt_53725"><surname>Kfm.</surname></rs> aus <rs type="place" xml:id="pl_11114" ref="#place_22c1334b53dfa475b12a296e9d2ae838">Mariazell</rs>, u. a. über eine Predigt <rs type="person" xml:id="pNt_53726" ref="#person_13078"><surname>Abels</surname></rs> 
+            <p xml:space="preserve"><date when="1918-07-16">16/7</date> Brief von <rs type="person" xml:id="pNt_53725"><surname>Kfm.</surname></rs> aus <rs type="place" xml:id="pl_11114" ref="#pmb431">Mariazell</rs>, u. a. über eine Predigt <rs type="person" xml:id="pNt_53726" ref="#person_13078"><surname>Abels</surname></rs> 
 (Jesuitenpater) der erklärt, nur die Juden hätten im Weltkrieg ihre 
 Pflicht nicht gethan, sie seien an den Gerüchten über das <rs type="allusively" xml:id="rst_01565">Kaiserpaar</rs> 
 und an allem Elend schuld; man müsse sie ausrotten.― Ich telef. mit 
@@ -199,6 +203,5 @@ Unterzeichner bedenken. Laxheit und Renegatentum der Juden.―</p>
             <p xml:space="preserve" rend="indent">Lese <rs type="person" xml:id="pNt_53732" ref="#person_19354"><surname>Rosegger</surname></rs>, mit Vergnügen und Bewunderung.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

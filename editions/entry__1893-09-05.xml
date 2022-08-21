@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1893-09-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-09-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-09-06.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1893-09-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-09-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-09-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E732-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0772.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1893-09-05">
-            <p xml:space="preserve"><date when="1893-09-05">5/9</date> Nach <rs type="place" xml:id="pl_01624" ref="#place_d1bbe5c82af588aa9fd6e5f65d6acab3">Reichenau</rs>.― <rs type="person" xml:id="pNt_07793" ref="#person_21047"><forename>Olga</forename></rs>, von <rs type="place" xml:id="pl_01625" ref="#place_0e4ecf1f131de2878b46a722416d151f">Lackerboden</rs>, liess mich rufen. Sieht 
+            <p xml:space="preserve"><date when="1893-09-05">5/9</date> Nach <rs type="place" xml:id="pl_01624" ref="#pmb91574">Reichenau</rs>.― <rs type="person" xml:id="pNt_07793" ref="#person_21047"><forename>Olga</forename></rs>, von <rs type="place" xml:id="pl_01625" ref="#pmb91101">Lackerboden</rs>, liess mich rufen. Sieht 
 unverändert, fast mädchenhafter aus. Gespräch leicht im Gang; als 
 <pb n="51"/>
 <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header"><fw place="top_center"><date type="range">1893: IX 5 - IX 10</date></fw> <fw place="top_right" type="pn">51</fw></tei:fw>
@@ -189,6 +193,5 @@ wär’s gestern gewesen. Abends eine Ahnung aller jener alten
 Stimmungen; aber auch nur eine Ahnung!―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

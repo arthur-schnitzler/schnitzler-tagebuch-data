@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1925-12-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-12-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-12-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1925-12-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-12-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-12-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1493-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,12 +177,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6604.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1925-12-24">
             <p xml:space="preserve"><date when="1925-12-24">24/12</date> Dict. Briefe.―</p>
             <p xml:space="preserve" rend="indent">Mäßiges Befinden. Zur Bescherung <rs type="person" xml:id="pNt_76771" ref="#person_18881"><forename>Kolap</forename></rs> und <rs type="person" xml:id="pNt_76772" ref="#person_19986"><forename>Gustav</forename></rs>.</p>
@@ -187,5 +192,6 @@
             <p xml:space="preserve" rend="indent">Z. N. mit <rs type="person" xml:id="pNt_76776" ref="#person_14130"><forename>Lili</forename></rs> und <rs type="person" xml:id="pNt_76777" ref="#person_20191"><roleName>Frl.</roleName> <surname>Soltau</surname></rs> bei <rs type="person" xml:id="pNt_76778" ref="#person_19827"><forename>Julius’</forename></rs>.― Familie.― Radio und Grammophon; 
 überdies spielte <rs type="person" xml:id="pNt_76779" ref="#person_19821"><forename>Hans</forename></rs> Clavier.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

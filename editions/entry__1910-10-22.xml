@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-10-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-10-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-10-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-10-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-10-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-10-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FEF2-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3009.tif"/>
@@ -182,11 +186,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1910-10-22">
-            <p xml:space="preserve"><date when="1910-10-22">22/10</date> Mit O. <rs type="place" ref="#place_burgtheater">Burgtheater</rs>. Probe. „<rs type="work" xml:id="bibl_12055">Thor und Tod</rs>.“ Hörte so gut wie 
+            <p xml:space="preserve"><date when="1910-10-22">22/10</date> Mit O. <rs type="place" ref="#pmb14">Burgtheater</rs>. Probe. „<rs type="work" xml:id="bibl_12055">Thor und Tod</rs>.“ Hörte so gut wie 
 kein Wort.― „<rs type="work" xml:id="bibl_12056">Saul</rs>“ von <rs type="person" xml:id="pNt_33727" ref="#person_16646"><surname>Kainz</surname></rs>; wurde tüchtig geschrien, gings mir 
 besser. Niveau eines talentirten Gymnasiasten. <rs type="person" xml:id="pNt_33728" ref="#person_16646"><surname>Kainzens</surname></rs> Dichterberuf 
 eine Legende.― <rs type="work" xml:id="bibl_12057">Natürliche Tochter</rs> 3. Akt.― Schauspieltradition doch 
-nur am <rs type="place" ref="#place_burgtheater">Burgtheater</rs>.― Sprach <rs type="person" xml:id="pNt_33729"><forename>Hugo</forename></rs>, seine Schwiegermutter, seinen 
+nur am <rs type="place" ref="#pmb14">Burgtheater</rs>.― Sprach <rs type="person" xml:id="pNt_33729"><forename>Hugo</forename></rs>, seine Schwiegermutter, seinen 
 <pb n="186"/>
 <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header"><fw n="186" place="top_left" type="pageNum">186</fw> <fw place="top_center"><date type="range">1910: X 22 ― X 25</date></fw></tei:fw>
 Schwager <rs type="person" xml:id="pNt_33730"><forename>Hans</forename></rs>, <rs type="person" xml:id="pNt_33731" ref="#person_13624"><surname>Berger</surname></rs>, <rs type="person" xml:id="pNt_33732" ref="#person_19364"><surname>Rosenbaum</surname></rs> etc. <rs type="person" xml:id="pNt_33733" ref="#person_20714"><surname>Thimig</surname></rs>, von <rs type="person" xml:id="pNt_33734"><surname>B.</surname></rs> als „beisitzender“ 
@@ -199,6 +203,5 @@ Regisseur für „<rs type="work" subtype="self" xml:id="bibl_12058">Medardus</r
             <p xml:space="preserve" rend="indent">Allerlei Angstzustände; nicht nur auf mich bezüglich.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

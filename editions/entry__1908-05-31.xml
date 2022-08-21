@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-05-31.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-06-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-05-31.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-06-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FB88-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2514.tif"/>
@@ -180,12 +184,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1908-05-31">
-            <p xml:space="preserve"><date when="1908-05-31">31/5</date> S. Vm. mit O. und <rs type="person" xml:id="pNt_28387" ref="#person_19822"><forename>Heini</forename></rs> <rs type="place" xml:id="pl_06339" ref="#place_75f2e194839d6ba0e5d4080c211a449a">Dornbacher Park</rs> ― Bieglerhütte.</p>
+            <p xml:space="preserve"><date when="1908-05-31">31/5</date> S. Vm. mit O. und <rs type="person" xml:id="pNt_28387" ref="#person_19822"><forename>Heini</forename></rs> <rs type="place" xml:id="pl_06339" ref="#pmb176">Dornbacher Park</rs> ― Bieglerhütte.</p>
             <p xml:space="preserve" rend="indent">― Nm. <rs type="work" subtype="self" xml:id="bibl_13442">Eintragungen von Aufführungen</rs>.</p>
-            <p xml:space="preserve" rend="indent">Nach dem Nachtmahl in den <rs type="place" xml:id="pl_06340" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs>; wo <rs type="person" xml:id="pNt_28388" ref="#person_21107"><surname>Wassermann’s</surname></rs>, <rs type="person" xml:id="pNt_28389" ref="#person_20872"><forename>Agnes</forename></rs>, 
+            <p xml:space="preserve" rend="indent">Nach dem Nachtmahl in den <rs type="place" xml:id="pl_06340" ref="#pmb113">Türkenschanzpark</rs>; wo <rs type="person" xml:id="pNt_28388" ref="#person_21107"><surname>Wassermann’s</surname></rs>, <rs type="person" xml:id="pNt_28389" ref="#person_20872"><forename>Agnes</forename></rs>, 
 <rs type="person" xml:id="pNt_28390" ref="#person_13551"><forename>Richard’s</forename></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

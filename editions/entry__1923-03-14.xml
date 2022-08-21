@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-03-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-03-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-03-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-03-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-03-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-03-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-109C-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5989.tif"/>
@@ -183,7 +187,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1923-03-14">
             <p xml:space="preserve"><date when="1923-03-14">14/3</date> Vm. bei <rs type="person" xml:id="pNt_68815" ref="#person_18863"><forename>Cl.</forename> <surname>P.</surname></rs> Begleitete sie zum Singen; sie ist nicht unbegabt.―</p>
-            <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_68816" ref="#person_17046"><surname>Korff</surname></rs> mit <rs type="person" xml:id="pNt_68817" ref="#person_16283"><roleName>Dr.</roleName> <surname>Hofmann</surname></rs> aus <rs type="place" xml:id="pl_14594" ref="#place_87809c954948d8a20507bee3648281b3">New York</rs>. <rs type="person" xml:id="pNt_68818"><roleName>Dr.</roleName> <surname>H.</surname></rs> Sohn eines (von mir 
+            <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_68816" ref="#person_17046"><surname>Korff</surname></rs> mit <rs type="person" xml:id="pNt_68817" ref="#person_16283"><roleName>Dr.</roleName> <surname>Hofmann</surname></rs> aus <rs type="place" xml:id="pl_14594" ref="#pmb44053">New York</rs>. <rs type="person" xml:id="pNt_68818"><roleName>Dr.</roleName> <surname>H.</surname></rs> Sohn eines (von mir 
 vergessenen) Collegen; gleichfalls Arzt; mit einem Pat. hier. Seine Frau 
 Schauspielerin. Will, mit <rs type="person" xml:id="pNt_68819" ref="#person_17046"><surname>Korff</surname></rs>, <rs type="work" subtype="self" xml:id="bibl_1713">W. L.</rs> spielen. Erzählt mir, wie alle 
 <rs type="place" xml:id="pl_14595" ref="#place_e019ad6453c82723bc20f13c924ea8b0" ana="#exclude">Amerikaner</rs> von meiner Stellung dort. Solle hinüber; schlägt eine Manier 
@@ -195,6 +199,5 @@ Frau.― <rs type="person" xml:id="pNt_68827" ref="#person_20986"><forename>V.</
 auf <rs type="person" xml:id="pNt_68831" ref="#person_20509"><forename>Richard</forename></rs> <rs type="person" xml:id="pNt_68832"><forename>Str.</forename></rs> freie Luft.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

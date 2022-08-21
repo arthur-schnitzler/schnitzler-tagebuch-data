@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1901-08-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-08-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-08-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1901-08-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-08-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-08-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F22A-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1644.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1901-08-15">
-            <p xml:space="preserve"><date when="1901-08-15">15/8</date> <rs type="place" xml:id="pl_03761" ref="#place_34f36b9454115e3b99acdf7913509e12">Trient</rs>.― <rs type="person" xml:id="pNt_18016" ref="#person_20068"><surname>Servaes</surname></rs>. Castell.― Nm. mit <rs type="person" xml:id="pNt_18018" ref="#person_19832"><forename>Olga</forename></rs> <rs type="person" xml:id="pNt_18019" ref="#person_20386"><forename>Liesl</forename></rs>, <rs type="person" xml:id="pNt_18020" ref="#person_20068"><surname>Servaes</surname></rs> nach 
-<rs type="place" xml:id="pl_03762" ref="#place_1fe7212a360eee1e78551d8e2e997fd0">Welsberg</rs>.―</p>
+            <p xml:space="preserve"><date when="1901-08-15">15/8</date> <rs type="place" xml:id="pl_03761" ref="#pmb954">Trient</rs>.― <rs type="person" xml:id="pNt_18016" ref="#person_20068"><surname>Servaes</surname></rs>. Castell.― Nm. mit <rs type="person" xml:id="pNt_18018" ref="#person_19832"><forename>Olga</forename></rs> <rs type="person" xml:id="pNt_18019" ref="#person_20386"><forename>Liesl</forename></rs>, <rs type="person" xml:id="pNt_18020" ref="#person_20068"><surname>Servaes</surname></rs> nach 
+<rs type="place" xml:id="pl_03762" ref="#pmb428">Welsberg</rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

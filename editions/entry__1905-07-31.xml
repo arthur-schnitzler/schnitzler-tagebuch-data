@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-07-31.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-07-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-08-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-07-31.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-07-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-08-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F7A1-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2106.tif"/>
@@ -183,7 +187,7 @@
             <p xml:space="preserve"><date when="1905-07-31">31/7</date> Vm. Besorgungen. <rs type="person" xml:id="pNt_23212" ref="#person_15369"><surname>Geiringer</surname></rs> getroffen, der mir mittheilte, <rs type="person" xml:id="pNt_23213" ref="#person_13102"><surname>Adler</surname></rs> hetze 
 <rs type="person" xml:id="pNt_23214" ref="#person_17260"><surname>Lambri</surname></rs> doch mich zu klagen! ― mit <rs type="person" xml:id="pNt_23215" ref="#person_20386"><forename>Liesl</forename></rs> bei <rs type="person" xml:id="pNt_23216" ref="#person_15886"><surname>Hammerschlag</surname></rs>; er findet 
 keine Besserung.― <rs type="person" xml:id="pNt_23217" ref="#person_20386"><forename>Liesl</forename></rs> und <rs type="person" xml:id="pNt_23218" ref="#person_20383"><surname>Steinrück</surname></rs> aßen bei uns.― Tennis in 
-<rs type="place" xml:id="pl_05252" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> mit <rs type="person" xml:id="pNt_23219" ref="#person_19542"><surname>Salten’s</surname></rs> (er aus <rs type="place" xml:id="pl_05253" ref="#place_22c1334b53dfa475b12a296e9d2ae838">Mariazell</rs>, angeekelt) und <rs type="person" xml:id="pNt_23220" ref="#person_16758"><forename>[Kathi]</forename></rs>.― 
+<rs type="place" xml:id="pl_05252" ref="#pmb169">Pötzleinsdorf</rs> mit <rs type="person" xml:id="pNt_23219" ref="#person_19542"><surname>Salten’s</surname></rs> (er aus <rs type="place" xml:id="pl_05253" ref="#pmb431">Mariazell</rs>, angeekelt) und <rs type="person" xml:id="pNt_23220" ref="#person_16758"><forename>[Kathi]</forename></rs>.― 
 Als ich nach Haus kam, sass ― <rs type="person" xml:id="pNt_23221" ref="#person_15529"><forename>Paul</forename> <surname>Goldmann</surname></rs> mit O. bei Tisch. Auf Urlaub 
 gehend, weiss nicht wohin, hat eben wieder von der <rs type="place" xml:id="pl_05254" ref="#place_b2cddcd5652e0e64c0fcda821eb96d37" ana="#exclude">Frankfurterin</rs> einen 
 Abschiedsbrief bekommen, war gedrückt, innerlich entfernt und that mir im 
@@ -191,6 +195,5 @@ Grunde, nicht unschmerzlich, leid.―</p>
             <p xml:space="preserve" rend="center">August</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

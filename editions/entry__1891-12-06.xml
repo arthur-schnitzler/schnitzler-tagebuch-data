@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1891-12-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-12-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-12-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1891-12-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-12-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-12-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E4B6-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,16 +177,18 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0571.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1891-12-06">
             <p xml:space="preserve"><date when="1891-12-06">6. 12.</date> Sonntag. <rs type="person" xml:id="pNt_05757" ref="#person_15485"><forename>Mz.</forename></rs> früh bei mir. Nm. bei <rs type="person" xml:id="pNt_05758" ref="#person_13374"><surname>Bahr</surname></rs>, der krank, mit <rs type="person" xml:id="pNt_05759" ref="#person_16293"><forename>Loris</forename></rs>
 ― Abd. mit <rs type="person" xml:id="pNt_05760" ref="#person_15485"><forename>Mz.</forename></rs> und Mutter bei <rs type="person" xml:id="pNt_05761" ref="#person_20905"><surname>Valenais</surname></rs>, die thut, als begünstige 
 sie unsre Liebe, da sie uns offenbar legitim zusammenkuppeln will.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-04-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-04-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-04-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-04-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-04-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-04-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-03EA-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3813.tif"/>
@@ -184,11 +188,10 @@
          <div type="diary-day" xml:id="entry__1914-04-16">
             <p xml:space="preserve"><date when="1914-04-16">16/4</date> Früh ist <rs type="person" xml:id="pNt_43332" ref="#person_18373"><roleName>Herr</roleName> <surname>N.</surname></rs> schon da, begleitet mich auf die Veste Dürnstein; 
 verabschiedet sich an der Landungsbrücke.― Bei kühlem Wetter zu 
-Schiff nach <rs type="place" xml:id="pl_08678" ref="#place_70bde987c42c09240ef3e840fc66a461">Melk</rs>. Mittag im Melkerhof; zu Bahn nach <rs type="place" xml:id="pl_08679" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>. O.s gelbe 
+Schiff nach <rs type="place" xml:id="pl_08678" ref="#pmb91223">Melk</rs>. Mittag im Melkerhof; zu Bahn nach <rs type="place" xml:id="pl_08679" ref="#pmb50">Wien</rs>. O.s gelbe 
 Tasche ist, wohl nicht ganz ohne Absicht, verwechselt, mir (offenbar auf 
 dem Schiff) gestibitzt mein silbernes Ein-Cigarren Etui.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

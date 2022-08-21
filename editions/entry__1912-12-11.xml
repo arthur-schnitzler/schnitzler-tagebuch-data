@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-12-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-12-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-12-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-12-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-12-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-12-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-01FF-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3531.tif"/>
@@ -182,11 +186,10 @@
       <body>
          <div type="diary-day" xml:id="entry__1912-12-11">
             <p xml:space="preserve"><date when="1912-12-11">11/12</date> Mit O. bei <rs type="person" xml:id="pNt_39551" ref="#person_13631"><surname>Berger</surname></rs>, Einkäufe.―</p>
-            <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_39552" ref="#person_19827"><forename>Julius</forename></rs> und <rs type="person" xml:id="pNt_39553" ref="#person_19823"><forename>Helene</forename></rs> gespeist; Nm. kam <rs type="person" xml:id="pNt_39554" ref="#person_13202"><surname>Andrian</surname></rs> (aus <rs type="place" xml:id="pl_08118" ref="#place_4e471dc21bf455378ad6045ae0a3ab59">Warschau</rs>), 
+            <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_39552" ref="#person_19827"><forename>Julius</forename></rs> und <rs type="person" xml:id="pNt_39553" ref="#person_19823"><forename>Helene</forename></rs> gespeist; Nm. kam <rs type="person" xml:id="pNt_39554" ref="#person_13202"><surname>Andrian</surname></rs> (aus <rs type="place" xml:id="pl_08118" ref="#pmb888">Warschau</rs>), 
 Consiliums halber. Hauptsächlich Hypochondrien.―</p>
             <p xml:space="preserve" rend="indent">Mit O. Abends Concert <rs type="person" xml:id="pNt_39555" ref="#person_13416"><forename>Willy</forename></rs> und <rs type="person" xml:id="pNt_39556" ref="#person_13417"><forename>Therese</forename> <surname>Bardas</surname></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

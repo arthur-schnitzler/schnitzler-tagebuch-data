@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1898-09-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-09-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-09-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1898-09-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-09-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-09-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EE55-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1458.tif"/>
@@ -182,10 +186,9 @@
       <body>
          <div type="diary-day" xml:id="entry__1898-09-23">
             <p xml:space="preserve"><date when="1898-09-23">23/9</date> Vorm. bei <rs type="person" xml:id="pNt_15624" ref="#person_15485"><forename>Mz. I</forename></rs>; wir waren verliebt.― Dann kam <rs type="person" xml:id="pNt_15625" ref="#person_15314"><roleName>Frau</roleName> <surname>G.</surname></rs>― 
-Freundin <rs type="person" xml:id="pNt_15626"><surname>Y.s</surname></rs>, die <rs type="person" xml:id="pNt_15627" ref="#person_15485"><forename>Mz. I</forename></rs> in <rs type="place" xml:id="pl_03041" ref="#place_57fbc7ee0cc06365d39eabde4079c0ef">K.</rs> kennen gelernt. Fäden. Abd. bei <rs type="person" xml:id="pNt_15628" ref="#person_15485"><forename>Mz.</forename></rs> 
+Freundin <rs type="person" xml:id="pNt_15626"><surname>Y.s</surname></rs>, die <rs type="person" xml:id="pNt_15627" ref="#person_15485"><forename>Mz. I</forename></rs> in <rs type="place" xml:id="pl_03041" ref="#pmb92315">K.</rs> kennen gelernt. Fäden. Abd. bei <rs type="person" xml:id="pNt_15628" ref="#person_15485"><forename>Mz.</forename></rs> 
 <rs type="person" xml:id="pNt_15629"><forename>Rh.</forename></rs> „<rs type="work" xml:id="bibl_18756">Siegfried</rs>“.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

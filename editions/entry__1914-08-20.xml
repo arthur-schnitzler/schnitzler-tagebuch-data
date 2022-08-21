@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-08-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-08-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-08-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-08-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-08-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-08-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0467-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3867.tif"/>
@@ -183,8 +187,8 @@
       <body>
          <div type="diary-day" xml:id="entry__1914-08-20">
             <p xml:space="preserve"><date when="1914-08-20">20/8</date> Treffe früh <rs type="person" xml:id="pNt_43905" ref="#person_20123"><forename>Rainer</forename> <surname>Simons</surname></rs>, der ein patriotisches Stück von mir 
-haben möchte. <rs type="person" xml:id="pNt_43906" ref="#person_19850"><surname>Schönherr</surname></rs> sitzt in <rs type="place" xml:id="pl_08898" ref="#place_5e48514898acecd4066132935766e940">Telfs</rs>, ganz vernichtet vom Krieg.―</p>
-            <p xml:space="preserve" rend="indent">Mit O., <rs type="person" xml:id="pNt_43907" ref="#person_19822"><forename>Heini</forename></rs> <rs type="person" xml:id="pNt_43908" ref="#person_14130"><forename>Lili</forename></rs> <rs type="person" xml:id="pNt_43909" ref="#person_16480"><forename>Fingi</forename></rs> <rs type="place" xml:id="pl_08899" ref="#place_627965721d5dd1de8d834b5f7e49e05a">Hellbrunn</rs>. Schön wie noch nie. Wasserkünste. 
+haben möchte. <rs type="person" xml:id="pNt_43906" ref="#person_19850"><surname>Schönherr</surname></rs> sitzt in <rs type="place" xml:id="pl_08898" ref="#pmb91879">Telfs</rs>, ganz vernichtet vom Krieg.―</p>
+            <p xml:space="preserve" rend="indent">Mit O., <rs type="person" xml:id="pNt_43907" ref="#person_19822"><forename>Heini</forename></rs> <rs type="person" xml:id="pNt_43908" ref="#person_14130"><forename>Lili</forename></rs> <rs type="person" xml:id="pNt_43909" ref="#person_16480"><forename>Fingi</forename></rs> <rs type="place" xml:id="pl_08899" ref="#pmb31">Hellbrunn</rs>. Schön wie noch nie. Wasserkünste. 
 Die Fichtenallee, wo O. einst visionär sich und 3 Kinder gesehn ― 
 Nun sind die zwei mit uns da.― Steinernes Theater. <rs type="person" xml:id="pNt_43910" ref="#person_14130"><forename>Lili</forename></rs> versteckt sich 
 in den Höhlen.―</p>
@@ -192,6 +196,5 @@ in den Höhlen.―</p>
 Mirabellgarten.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

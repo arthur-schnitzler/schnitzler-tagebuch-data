@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-11-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-11-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-11-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-11-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-11-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-11-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FC30-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,12 +176,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2581.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1908-11-15">
             <p xml:space="preserve"><date when="1908-11-15">15/11</date> S. Vm. spazieren, später mit O.; auch bei <rs type="person" xml:id="pNt_29134" ref="#person_20872"><forename>Agnes</forename> <surname>Sp.</surname></rs>, wo <rs type="person" xml:id="pNt_29135" ref="#person_19755"><surname>Schmidl</surname></rs> 
 und <rs type="person" xml:id="pNt_29136"><surname>Wassermann</surname></rs>.―</p>
@@ -189,5 +194,6 @@ Dann <rs type="person" xml:id="pNt_29141"><surname>Wassermann</surname></rs>, <r
 <rs type="person" xml:id="pNt_29148"><forename>Hugo’s</forename></rs> Weggehn Domino.― Die Verschlimmerung meines Gehörs schreitet 
 weiter; das Sausen immer unerträglicher.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

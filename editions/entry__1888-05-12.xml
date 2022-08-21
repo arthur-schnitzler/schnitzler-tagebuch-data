@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1888-05-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1888-05-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1888-05-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1888-05-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1888-05-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1888-05-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E038-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0345.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1888-05-12">
-            <p xml:space="preserve"><date when="1888-05-12">12/5</date> Samstag. Fahrt nach <rs type="place" xml:id="pl_00663" ref="#place_19ed5f8ceab486afbee6b3ba5c88884d">Dresden</rs>. Gallerie, Brühlsche Terrasse. 
-<rs type="place" xml:id="pl_00664" ref="#place_2d166196ca9df2b68fe986e2b66f9ba8">Blasewitz</rs>. Neustädtisches Theater. <rs type="person" xml:id="pNt_03238" ref="#person_18264"><surname>Moser</surname></rs>, <rs type="work" xml:id="bibl_18923">Bureaukrat</rs>. Restaurant 
+            <p xml:space="preserve"><date when="1888-05-12">12/5</date> Samstag. Fahrt nach <rs type="place" xml:id="pl_00663" ref="#pmb90550">Dresden</rs>. Gallerie, Brühlsche Terrasse. 
+<rs type="place" xml:id="pl_00664" ref="#pmb90358">Blasewitz</rs>. Neustädtisches Theater. <rs type="person" xml:id="pNt_03238" ref="#person_18264"><surname>Moser</surname></rs>, <rs type="work" xml:id="bibl_18923">Bureaukrat</rs>. Restaurant 
 Helbig; zwei Mädeln, die plötzlich nach Café Central verschwanden.― 
 <rs type="person" xml:id="pNt_03239" ref="#person_17759"><forename>Br.</forename> <surname>M.</surname></rs>, „<rs type="person" xml:id="pNt_03240" ref="#person_14737"><forename>Elvira</forename></rs>“ 2.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

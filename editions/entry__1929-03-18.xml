@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-03-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-03-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-03-19.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-03-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-03-17.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-03-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-192E-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7255.tif"/>
@@ -181,16 +185,15 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1929-03-18">
-            <p xml:space="preserve"><date when="1929-03-18">18/3</date> <rs type="place" xml:id="pl_18550" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>. Vm. bei <rs type="person" xml:id="pNt_86204" ref="#person_15009"><surname>Fischers</surname></rs>. Discussion in der <rs type="person" xml:id="pNt_86205" ref="#person_14558"><surname>Dunin</surname></rs> Sache. Ewiges 
+            <p xml:space="preserve"><date when="1929-03-18">18/3</date> <rs type="place" xml:id="pl_18550" ref="#pmb168">Berlin</rs>. Vm. bei <rs type="person" xml:id="pNt_86204" ref="#person_15009"><surname>Fischers</surname></rs>. Discussion in der <rs type="person" xml:id="pNt_86205" ref="#person_14558"><surname>Dunin</surname></rs> Sache. Ewiges 
 Schwanken <rs type="person" xml:id="pNt_86206"><surname>F.s</surname></rs>.</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_86207" ref="#person_18137"><forename>Dora</forename></rs>; spazieren mit ihr; mit <rs type="person" xml:id="pNt_86208"><surname>Michaelis</surname></rs> gegessen; <rs type="person" xml:id="pNt_86209" ref="#person_18141"><forename>Lor</forename></rs> zeigt mir mikroskop. 
 Knochenschnitte.</p>
             <p xml:space="preserve" rend="indent">― <rs type="person" xml:id="pNt_86210" ref="#person_19832"><forename>Olga</forename></rs> zu mir ins Hotel mit Maiglöckchen.</p>
-            <p xml:space="preserve" rend="indent">Abd. mit <rs type="person" xml:id="pNt_86211" ref="#person_19832"><forename>O.</forename></rs> Kino „<rs type="work" xml:id="bibl_210">Pori</rs>“ (<rs type="place" xml:id="pl_18551" ref="#place_e2beaebbb707494ef8742001c7911e66">Südafrika</rs>); bei <rs type="institution" xml:id="pNt_86212"><surname>Lanzsch</surname></rs> mit <rs type="person" xml:id="pNt_86213" ref="#person_19832"><forename>O.</forename></rs> <rs type="person" xml:id="pNt_86214" ref="#person_19822"><forename>Heini</forename></rs> <rs type="person" xml:id="pNt_86215" ref="#person_13139"><forename>Ruth</forename></rs> 
+            <p xml:space="preserve" rend="indent">Abd. mit <rs type="person" xml:id="pNt_86211" ref="#person_19832"><forename>O.</forename></rs> Kino „<rs type="work" xml:id="bibl_210">Pori</rs>“ (<rs type="place" xml:id="pl_18551" ref="#pmb64447">Südafrika</rs>); bei <rs type="institution" xml:id="pNt_86212"><surname>Lanzsch</surname></rs> mit <rs type="person" xml:id="pNt_86213" ref="#person_19832"><forename>O.</forename></rs> <rs type="person" xml:id="pNt_86214" ref="#person_19822"><forename>Heini</forename></rs> <rs type="person" xml:id="pNt_86215" ref="#person_13139"><forename>Ruth</forename></rs> 
 soup.</p>
             <p xml:space="preserve" rend="indent">30. Todestag <rs type="person" xml:id="pNt_86216" ref="#person_19150"><forename>M.</forename> <surname>R.</surname></rs> Schrieb an <rs type="person" xml:id="pNt_86217" ref="#person_14073"><forename>Lola</forename></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

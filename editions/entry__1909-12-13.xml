@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-12-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-12-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-12-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-12-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-12-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-12-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FDB9-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2802.tif"/>
@@ -182,7 +186,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1909-12-13">
             <p xml:space="preserve"><date when="1909-12-13">13/12</date> Vm. bei <rs type="person" xml:id="pNt_31434" ref="#person_13305"><surname>Auernheimer</surname></rs>, nur seine Gattin daheim, mit ihr durch den 
-<rs type="place" xml:id="pl_06891" ref="#place_8fbb5ad1eece300cc636ce72c126d8e1">Stadtpark</rs>.―</p>
+<rs type="place" xml:id="pl_06891" ref="#pmb575">Stadtpark</rs>.―</p>
             <p xml:space="preserve" rend="indent">Abends zum Nachtmahl bei uns <rs type="person" xml:id="pNt_31435" ref="#person_13551"><forename>Richard</forename></rs> <rs type="person" xml:id="pNt_31436" ref="#person_13550"><forename>Paula</forename></rs>, <rs type="person" xml:id="pNt_31437" ref="#person_16770"><surname>Kaufmann</surname></rs> und 
 Schwester, <rs type="person" xml:id="pNt_31438" ref="#person_20925"><forename>Leo</forename></rs>. <rs type="person" xml:id="pNt_31439" ref="#person_13551"><forename>Richard</forename></rs> las (zweimal) die parodistische Scene „<rs type="work" subtype="self" xml:id="bibl_13071">Echo 
 des Lebens</rs>“ vor, die nach der Generalprobe spielt und sehr lustig ist ―</p>
@@ -190,6 +194,5 @@ des Lebens</rs>“ vor, die nach der Generalprobe spielt und sehr lustig ist ―
 freute mich insofern als ich <rs type="person" xml:id="pNt_31441"><surname>P.</surname></rs> unter meinen Gegnern eigentlich als den einzig ernst zu nehmenden empfand.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

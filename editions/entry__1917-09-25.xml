@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1917-09-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-09-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-09-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1917-09-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-09-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-09-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-08D2-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4535.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1917-09-25">
-            <p xml:space="preserve"><date when="1917-09-25">25/9</date> Spazieren Dreimarkstein. Auf dem Rückweg <rs type="place" xml:id="pl_10730" ref="#place_3b0cf80ce6f7c6e0340cf31265c8f3f7">Sievring</rs> eine komische 
+            <p xml:space="preserve"><date when="1917-09-25">25/9</date> Spazieren Dreimarkstein. Auf dem Rückweg <rs type="place" xml:id="pl_10730" ref="#pmb64219">Sievring</rs> eine komische 
 Filmaufnahme, mit <rs type="person" xml:id="pNt_51593" ref="#person_14677"><surname>Eisenbach</surname></rs>, den ich sprach.―</p>
-            <p xml:space="preserve" rend="indent">Nm. vertrödelt; Abends (in Loge mit <rs type="person" xml:id="pNt_51594" ref="#person_16770"><forename>Arthur</forename></rs> und <rs type="person" xml:id="pNt_51595" ref="#person_16776"><forename>Malvine</forename> <surname>Kaufmann</surname></rs>) <rs type="place" ref="#place_volkstheater">Volksth.</rs> 
+            <p xml:space="preserve" rend="indent">Nm. vertrödelt; Abends (in Loge mit <rs type="person" xml:id="pNt_51594" ref="#person_16770"><forename>Arthur</forename></rs> und <rs type="person" xml:id="pNt_51595" ref="#person_16776"><forename>Malvine</forename> <surname>Kaufmann</surname></rs>) <rs type="place" ref="#pmb92202">Volksth.</rs> 
 <rs type="person" xml:id="pNt_51596" ref="#person_21515"><surname>Zapolska</surname></rs>, <rs type="work" xml:id="bibl_6763">Der Zarewitsch</rs>. Ein Kitsch.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

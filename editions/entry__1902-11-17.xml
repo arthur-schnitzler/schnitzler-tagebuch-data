@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1902-11-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-11-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-11-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1902-11-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-11-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-11-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F3CD-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1724.tif"/>
@@ -182,9 +186,8 @@
       <body>
          <div type="diary-day" xml:id="entry__1902-11-17">
             <p xml:space="preserve"><date when="1902-11-17">17/11</date> Vm. bei <rs type="person" xml:id="pNt_19163" ref="#person_19832"><forename>O.</forename></rs> <rs type="person" xml:id="pNt_19164" ref="#person_17324"><surname>Lantz</surname></rs>. Nm. ein <rs type="work" subtype="self" xml:id="bibl_18144">Judenstück</rs> entworfen. Bei <rs type="person" xml:id="pNt_19165" ref="#person_15715"><surname>Grünwald</surname></rs> 
-(<rs type="place" xml:id="pl_04156" ref="#place_45a98bfcf1a34f652576bfd660988102">Kolingasse</rs>) dictirt.― <rs type="person" xml:id="pNt_19166" ref="#person_19832"><forename>O.</forename></rs></p>
+(<rs type="place" xml:id="pl_04156" ref="#pmb394">Kolingasse</rs>) dictirt.― <rs type="person" xml:id="pNt_19166" ref="#person_19832"><forename>O.</forename></rs></p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

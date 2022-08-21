@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1893-09-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-09-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-09-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1893-09-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-09-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-09-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E734-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0772.tif"/>
@@ -185,7 +189,7 @@
             <p xml:space="preserve"><date when="1893-09-07">7/9</date> Traum: Bin in einer Gesellschaft mit <rs type="person" xml:id="pNt_07796" ref="#person_15499"><surname>Goethe</surname></rs>, der klein, 
 unansehnlich, dem <rs type="person" xml:id="pNt_07797" ref="#person_15911"><surname>Hanslick</surname></rs> ähnlich ist. Ich, im <rs type="person" xml:id="pNt_07798" ref="#person_19694"><surname>Schillermantel</surname></rs>, küsse 
 ihm die Hand.</p>
-            <p xml:space="preserve" rend="indent">― Nm. <rs type="person" xml:id="pNt_07799" ref="#person_14199"><forename>Gusti</forename></rs> bei mir. <rs type="person" xml:id="pNt_07800" ref="#person_15485"><forename>Mz.</forename></rs> könne ohne meinen Segen von <rs type="place" xml:id="pl_01627" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> nicht 
+            <p xml:space="preserve" rend="indent">― Nm. <rs type="person" xml:id="pNt_07799" ref="#person_14199"><forename>Gusti</forename></rs> bei mir. <rs type="person" xml:id="pNt_07800" ref="#person_15485"><forename>Mz.</forename></rs> könne ohne meinen Segen von <rs type="place" xml:id="pl_01627" ref="#pmb50">Wien</rs> nicht 
 fort.― Ich schrieb ihr:</p>
             <p xml:space="preserve" rend="indent">Dir meinen Segen zu schicken, bin ich nicht großartig genug angelegt; 
 eine Komödie spielen hab ich keine Lust. Lass dirs genügen, 
@@ -205,6 +209,5 @@ ging weiter, ohne mich umzuwenden.―</p>
             <p xml:space="preserve" rend="indent">Abd. Café <rs type="org">Auböck</rs>.― <rs type="person" xml:id="pNt_07807" ref="#person_19986"><forename>Gustav</forename> <surname>Schw.</surname></rs>―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

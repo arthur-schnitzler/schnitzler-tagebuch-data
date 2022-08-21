@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-04-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-04-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-04-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-04-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-04-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-04-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0B0C-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4829.tif"/>
@@ -183,17 +187,16 @@
          <div type="diary-day" xml:id="entry__1919-04-19">
             <p xml:space="preserve"><date when="1919-04-19">19/4</date> Vm. bei <rs type="person" xml:id="pNt_55842" ref="#person_19986"><forename>Gustav</forename></rs>.― Über „<rs type="work" subtype="self" xml:id="bibl_4744">Reigen</rs>“aufführung. Bedenken und 
 Gegengründe.―</p>
-            <p xml:space="preserve" rend="indent">Im <rs type="place" ref="#place_volkstheater">Volksth.</rs> Wies <rs type="person" xml:id="pNt_55843" ref="#person_13663"><surname>Bernau</surname></rs> auf die Schwierigkeiten hin; und besonders 
+            <p xml:space="preserve" rend="indent">Im <rs type="place" ref="#pmb92202">Volksth.</rs> Wies <rs type="person" xml:id="pNt_55843" ref="#person_13663"><surname>Bernau</surname></rs> auf die Schwierigkeiten hin; und besonders 
 auf die voraussichtlich schlechte Haltung der Presse. Schimpferei der 
 Antisemiten ― und Lauheit der andern ― Skandale, die schädigen 
 könnten, ja ev. selbst Censurverbot nach der Aufführung. Rieth doch auf 
-<rs type="place" xml:id="pl_11593" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> <rs type="person" xml:id="pNt_55844" ref="#person_19154"><surname>Reinhardt</surname></rs> zu warten; ev. zugleich zu spielen.― <rs type="person" xml:id="pNt_55845"><surname>B.</surname></rs> sah ein;― und 
+<rs type="place" xml:id="pl_11593" ref="#pmb168">Berlin</rs> <rs type="person" xml:id="pNt_55844" ref="#person_19154"><surname>Reinhardt</surname></rs> zu warten; ev. zugleich zu spielen.― <rs type="person" xml:id="pNt_55845"><surname>B.</surname></rs> sah ein;― und 
 in gleichem Sinn äußerten wir uns gegen <rs type="person" xml:id="pNt_55846" ref="#person_17876"><surname>Marholm</surname></rs> (der in Comp. mit 
 <rs type="person" xml:id="pNt_55847" ref="#person_13663"><surname>Bernau</surname></rs> von 15. Mai an die Scenen im Konzerthaussaal ―  neues Theater 
 ― hatte spielen wollen).―</p>
             <p xml:space="preserve" rend="indent">Abends Concert <rs type="person" xml:id="pNt_55848" ref="#person_20372"><surname>Steiner</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

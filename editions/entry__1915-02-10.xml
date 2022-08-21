@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-02-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1915-02-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0514-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,20 +177,21 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3983.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3984.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1915-02-10">
             <p xml:space="preserve"><date when="1915-02-10">10/2</date> Dictirt „<rs type="work" subtype="self" xml:id="bibl_7914">Wahnsinn</rs>“,Briefe.―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_44933" ref="#person_18072"><forename>Heinrich</forename> <surname>Mendl</surname></rs>; über seinen Actionsplan: Schriftsteller (u. a. 
-prominente Leute) der kriegführenden Staaten sollen in der <rs type="place" xml:id="pl_09205" ref="#place_7a0be5a1ed9675975e678b517f07573c">Schweiz</rs> 
+prominente Leute) der kriegführenden Staaten sollen in der <rs type="place" xml:id="pl_09205" ref="#pmb43435">Schweiz</rs> 
 sich versammeln, einen Aufruf erlassen gegen die Verhetzung der Völker, 
 darauf hinweisen, dass die Völker einander nicht hassen, nur die 
-Regierungen etc. Wer ev. dazu zu gewinnen sei, wen ich in <rs type="place" xml:id="pl_09206" ref="#place_b472f5868425ac2bc44e693fc3267e87">Oesterreich</rs> 
+Regierungen etc. Wer ev. dazu zu gewinnen sei, wen ich in <rs type="place" xml:id="pl_09206" ref="#pmb41240">Oesterreich</rs> 
 vorschlage. ― Ich verhalte mich, den jetzigen Weltzustand betrachtend 
 zu der Idee sehr skeptisch. Was gesagt werden könnte, ist Phrase, 
 Selbstverständlichkeiten;― kommt man aufs concrete, so ist das 
@@ -197,5 +202,6 @@ Discussionsmöglichkeit zwischen Angehörigen feindlicher Mächte nicht
 vorhanden.―</p>
             <p xml:space="preserve" rend="indent">Hr. <rs type="person" xml:id="pNt_44934" ref="#person_14966"><forename>Arnold</forename> <surname>Feuer</surname></rs>, mit dem ich die Steuerfassion entwerfe.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

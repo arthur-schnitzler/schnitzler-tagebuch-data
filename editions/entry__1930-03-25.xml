@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-03-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-03-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-03-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-03-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-03-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-03-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1AA2-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7455.tif"/>
@@ -181,15 +185,14 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1930-03-25">
-            <p xml:space="preserve"><date when="1930-03-25">25/3</date> Vm. u. a. <rs type="person" xml:id="pNt_89249" ref="#person_13643"><forename>Elis.</forename> <surname>Bergner</surname></rs> geschrieben, von der Brief aus <rs type="place" xml:id="pl_19136" ref="#place_ee73439f8e5bd57e3d0375ed174b4c76">Gastein</rs>, auch 
+            <p xml:space="preserve"><date when="1930-03-25">25/3</date> Vm. u. a. <rs type="person" xml:id="pNt_89249" ref="#person_13643"><forename>Elis.</forename> <surname>Bergner</surname></rs> geschrieben, von der Brief aus <rs type="place" xml:id="pl_19136" ref="#pmb521">Gastein</rs>, auch 
 wegen <rs type="work" subtype="self" xml:id="bibl_945">Else</rs>.―</p>
             <p xml:space="preserve" rend="indent">Kurzer Spazierg., z. Th. mit <rs type="person" xml:id="pNt_89250" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>―</p>
             <p xml:space="preserve" rend="indent">Zu Tisch <rs type="person" xml:id="pNt_89251" ref="#person_14912"><roleName>Direktor</roleName> <surname>Feilchenfeld</surname></rs> mit seiner Frau, die ich erst kennen 
 lernte.―</p>
             <p xml:space="preserve" rend="indent">Abends mit <rs type="person" xml:id="pNt_89252" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Kino Tonfilm <rs type="person" xml:id="pNt_89253" ref="#person_14191"><forename>Maurice</forename> <surname>Chevalier</surname></rs>.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" ref="#place_meissl">Meissl</rs> soupirt.―</p>
+            <p xml:space="preserve" rend="indent"><rs type="place" ref="#pmb96">Meissl</rs> soupirt.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

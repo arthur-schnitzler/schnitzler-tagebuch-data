@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-04-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-04-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-04-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-04-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-04-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-04-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FFA5-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3143.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1911-04-19">
-            <p xml:space="preserve"><date when="1911-04-19">19/4</date> <rs type="place" xml:id="pl_07434" ref="#place_fd90af29b9843498b46c03408c979372">Mentone</rs>.― Nach <rs type="place" xml:id="pl_07435" ref="#place_b4d5600c385a6db5d7bdd413be57579b">Nizza</rs>. Tekla Perlen für O.</p>
+            <p xml:space="preserve"><date when="1911-04-19">19/4</date> <rs type="place" xml:id="pl_07434" ref="#pmb36456">Mentone</rs>.― Nach <rs type="place" xml:id="pl_07435" ref="#pmb926">Nizza</rs>. Tekla Perlen für O.</p>
             <p xml:space="preserve" rend="indent">Mittag in „Regence“.―</p>
-            <p xml:space="preserve" rend="indent">Nm. Fahrt <rs type="place" xml:id="pl_07436" ref="#place_aff73e3d7b55a65aa3275b1372b18565">Cimiez</rs>; zurück nach <rs type="place" xml:id="pl_07437" ref="#place_fd90af29b9843498b46c03408c979372">Mentone</rs> (<rs type="person" xml:id="pNt_35118" ref="#person_18103"><roleName>Herr</roleName> <surname>Metzl</surname></rs> in der Bahn).</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_07438" ref="#place_fd90af29b9843498b46c03408c979372">Mentone</rs>; Casino, kleines Spiel.</p>
+            <p xml:space="preserve" rend="indent">Nm. Fahrt <rs type="place" xml:id="pl_07436" ref="#pmb90482">Cimiez</rs>; zurück nach <rs type="place" xml:id="pl_07437" ref="#pmb36456">Mentone</rs> (<rs type="person" xml:id="pNt_35118" ref="#person_18103"><roleName>Herr</roleName> <surname>Metzl</surname></rs> in der Bahn).</p>
+            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_07438" ref="#pmb36456">Mentone</rs>; Casino, kleines Spiel.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

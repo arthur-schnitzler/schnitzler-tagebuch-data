@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1887-06-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1887-03-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1887-08-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1887-06-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1887-03-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1887-08-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DF57-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0315.tif"/>
@@ -193,8 +197,8 @@
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_02763" ref="#person_15946"><roleName>Frau</roleName> <surname>Hartmann</surname></rs> <rs type="person" xml:id="pNt_02764" ref="#person_16245"><forename>Rosa</forename> <surname>St.</surname></rs></p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_02765" ref="#person_17493"><surname>Lewinsky</surname></rs> <rs type="person" xml:id="pNt_02766" ref="#person_16363"><forename>Paul</forename> <surname>Horn</surname></rs>.</p>
             <p xml:space="preserve" rend="indent">Proben oben; gemütlich, <rs type="person" xml:id="pNt_02767" ref="#person_16245"><forename>Rosa</forename> <surname>St.</surname></rs> attachirt sich. Häufig auf Bällen 
-mit ihr geplauscht. Gern gesehener Gast oben, Partien in den <rs type="place" xml:id="pl_00593" ref="#place_86a694cf5ce5552ca627cb96b607eccd">Prater</rs>, 
-auf den <rs type="place" xml:id="pl_00594" ref="#place_388686540f35afe7790d134863d92203">Kahlenberg</rs> ― Tanz bei ihr oben; wir zwei nur; ihre Schwestern 
+mit ihr geplauscht. Gern gesehener Gast oben, Partien in den <rs type="place" xml:id="pl_00593" ref="#pmb91530">Prater</rs>, 
+auf den <rs type="place" xml:id="pl_00594" ref="#pmb574">Kahlenberg</rs> ― Tanz bei ihr oben; wir zwei nur; ihre Schwestern 
 spielten ― flüchtiger Kuss auf die Stirne; wir wissen beide sozusagen 
 nichts davon. Sind „gute Freunde“. Ich machte sie immerhin auf die 
 Gefahr aufmerksam.</p>
@@ -208,7 +212,7 @@ Bahn Adieu. War froh.</p>
 Wohnung ― Abend kam ich 12 Uhr ahnungslos nach Hause. Im 
 Krankenhausgarten ruft mich der Nachtwächter an.(Seit zwei 
 Stunden wartet <rs type="person" xml:id="pNt_02772"><forename>Helene</forename></rs> im Dunkel der Nacht auf mich.) Sie war mir so 
-zuwider ― liess sie immerhin über Nacht bei mir. Ja richtig aus <rs type="place" xml:id="pl_00595" ref="#place_b69137a4d7f1bc5b9fa27e655151af34">P.</rs> 
+zuwider ― liess sie immerhin über Nacht bei mir. Ja richtig aus <rs type="place" xml:id="pl_00595" ref="#pmb92433">P.</rs> 
 hatte sie mir dumme Briefe geschrieben, die ich kaum beantwortete. 
 Am nächsten Tag suchte sie mich vergebens, weinte <rs type="person" xml:id="pNt_02773"><forename>Fritz</forename></rs> an.―</p>
             <p xml:space="preserve" rend="indent">In der nächsten Frühe, ich lag noch im Bette, war sie schon wieder 
@@ -263,6 +267,5 @@ merkwürdig hineinlebe.</p>
             </tei:fw>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

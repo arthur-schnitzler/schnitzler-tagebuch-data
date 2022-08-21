@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1924-04-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-04-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-04-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1924-04-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-04-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-04-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1220-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6244.tif"/>
@@ -181,14 +185,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1924-04-06">
-            <p xml:space="preserve"><date when="1924-04-06">6/4</date> S. Vm. (in kaltem Wind) Spaziergang mit <rs type="person" xml:id="pNt_72003" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> <rs type="place" xml:id="pl_15309" ref="#place_3b0cf80ce6f7c6e0340cf31265c8f3f7">Sievring</rs>, 
-<rs type="place" xml:id="pl_15310" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs>.―</p>
+            <p xml:space="preserve"><date when="1924-04-06">6/4</date> S. Vm. (in kaltem Wind) Spaziergang mit <rs type="person" xml:id="pNt_72003" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> <rs type="place" xml:id="pl_15309" ref="#pmb64219">Sievring</rs>, 
+<rs type="place" xml:id="pl_15310" ref="#pmb169">Pötzleinsdorf</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_20933">Verf.</rs> (3. Akt; Umstellungen.)</p>
-            <p xml:space="preserve" rend="indent">Z. N. bei <rs type="person" xml:id="pNt_72004" ref="#person_18063"><surname>Menczel</surname></rs>. <rs type="person" xml:id="pNt_72005" ref="#person_14853"><roleName>Prof.</roleName> <surname>Faesi</surname></rs> (<rs type="place" xml:id="pl_15311" ref="#place_103a821a3a6a0b923c9f74a39662bb51">Zürich</rs>) und Frau; <rs type="person" xml:id="pNt_72006" ref="#person_13551"><forename>Richard</forename></rs>,― <rs type="person" xml:id="pNt_72007" ref="#person_17784"><forename>Alma</forename></rs> 
+            <p xml:space="preserve" rend="indent">Z. N. bei <rs type="person" xml:id="pNt_72004" ref="#person_18063"><surname>Menczel</surname></rs>. <rs type="person" xml:id="pNt_72005" ref="#person_14853"><roleName>Prof.</roleName> <surname>Faesi</surname></rs> (<rs type="place" xml:id="pl_15311" ref="#pmb484">Zürich</rs>) und Frau; <rs type="person" xml:id="pNt_72006" ref="#person_13551"><forename>Richard</forename></rs>,― <rs type="person" xml:id="pNt_72007" ref="#person_17784"><forename>Alma</forename></rs> 
 und <rs type="person" xml:id="pNt_72008" ref="#person_21243"><surname>Werfel</surname></rs>. Mit <rs type="person" xml:id="pNt_72009" ref="#person_17784"><forename>Alma</forename></rs> eine Stunde lang über <rs type="person" xml:id="pNt_72010" ref="#person_19832"><forename>O.</forename></rs>―</p>
             <p xml:space="preserve" rend="indent">― Lese <rs type="person" xml:id="pNt_72011" ref="#person_21243"><surname>Werfels</surname></rs> <rs type="work" xml:id="bibl_20934"><rs type="person" xml:id="pNt_72012"><surname>Verdi</surname></rs></rs> ―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

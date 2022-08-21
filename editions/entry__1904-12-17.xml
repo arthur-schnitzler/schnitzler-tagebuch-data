@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-12-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-12-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-12-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-12-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-12-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-12-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F6C0-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2011.tif"/>
@@ -192,12 +196,11 @@ könnten auf dieser Basis wieder einmal in ein anständiges
 Verhältnis kommen.―</p>
             <p xml:space="preserve" rend="indent">Gestern beim Rahmenmacher <rs type="person" xml:id="pNt_22151" ref="#person_19568"><forename>Willy</forename> <surname>Sandrock</surname></rs> getroffen; sie 
 liess eben einen <rs type="allusively" xml:id="rst_00500">Papst</rs> einrahmen. Sie unternimmt eine 
-Vorlesetournée. Wohin, fragte ich. „Nun, überall … <rs type="place" xml:id="pl_05002" ref="#place_443befbacdaa99c161dd11495b82b99b">Linz</rs>, 
-<rs type="place" xml:id="pl_05003" ref="#place_9411cbb4eebe5b8e9deb98dcebbc3b9d">Klagenfurt</rs>, kurz <rs type="place" xml:id="pl_05004" ref="#place_a801d1317b92d6e29528013812d390f7">Niederoesterreich</rs>.“ ―</p>
+Vorlesetournée. Wohin, fragte ich. „Nun, überall … <rs type="place" xml:id="pl_05002" ref="#pmb91153">Linz</rs>, 
+<rs type="place" xml:id="pl_05003" ref="#pmb91030">Klagenfurt</rs>, kurz <rs type="place" xml:id="pl_05004" ref="#pmb1003">Niederoesterreich</rs>.“ ―</p>
             <p xml:space="preserve" rend="indent">In der <rs type="work" subtype="newspaper" xml:id="bibl_17546">Zukunft</rs> ist mein Brief an <rs type="person" xml:id="pNt_22152" ref="#person_15919"><surname>Harden</surname></rs> als Artikel 
 gedruckt. „<rs type="work" subtype="self" xml:id="bibl_17547">Der Fall <rs type="person" xml:id="pNt_22153" ref="#person_16477"><surname>Jacobsohn</surname></rs></rs>“.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

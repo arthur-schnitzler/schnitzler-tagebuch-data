@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1921-07-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-07-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-07-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1921-07-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-07-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-07-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0E3C-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5468.tif"/>
@@ -181,12 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1921-07-14">
-            <p xml:space="preserve"><date when="1921-07-14">14/7</date> Dictirt Briefe.― <rs type="person" xml:id="pNt_62975" ref="#person_18881"><forename>Kolap</forename></rs> zu Tisch, fährt nach <rs type="place" xml:id="pl_13176" ref="#place_661f4200c3f047474d1df224f62f0503">Aussee</rs>.―</p>
+            <p xml:space="preserve"><date when="1921-07-14">14/7</date> Dictirt Briefe.― <rs type="person" xml:id="pNt_62975" ref="#person_18881"><forename>Kolap</forename></rs> zu Tisch, fährt nach <rs type="place" xml:id="pl_13176" ref="#pmb415">Aussee</rs>.―</p>
             <p xml:space="preserve" rend="indent">― Ferne <rs type="person" xml:id="pNt_62976" ref="#person_19832"><forename>O.s</forename></rs>.― Gestern ihre Briefe in weiße Leinencouverts …― Das 
 „Geschehn“ als solches wird nie gefasst,― nur Hoffnung und Angst;― und 
 Erinnerung ist wahr.</p>
-            <p xml:space="preserve" rend="indent">― Zum Thee <rs type="person" xml:id="pNt_62977" ref="#person_17562"><forename>Ruth</forename> <surname>Lindberg</surname></rs> (aus <rs type="place" xml:id="pl_13177" ref="#place_71280dd0bbd3d7062e7578ab240d199a">Grado</rs> zurück) mit ihrer Freundin, einer 
-sympath. <rs type="place" xml:id="pl_13178" ref="#place_15ad6fc4ebc84faae42939d4598a6478" ana="#exclude">Schwedin</rs>. Wir gingen ins <rs type="place" xml:id="pl_13179" ref="#place_a9a988302086229505c21f885134919d">Josefst.</rs> Th. <rs type="person" xml:id="pNt_62978" ref="#person_15415"><surname>Geyer’s</surname></rs> <rs type="work" xml:id="bibl_3419">Mary</rs>, mit der 
+            <p xml:space="preserve" rend="indent">― Zum Thee <rs type="person" xml:id="pNt_62977" ref="#person_17562"><forename>Ruth</forename> <surname>Lindberg</surname></rs> (aus <rs type="place" xml:id="pl_13177" ref="#pmb53379">Grado</rs> zurück) mit ihrer Freundin, einer 
+sympath. <rs type="place" xml:id="pl_13178" ref="#place_15ad6fc4ebc84faae42939d4598a6478" ana="#exclude">Schwedin</rs>. Wir gingen ins <rs type="place" xml:id="pl_13179" ref="#pmb58">Josefst.</rs> Th. <rs type="person" xml:id="pNt_62978" ref="#person_15415"><surname>Geyer’s</surname></rs> <rs type="work" xml:id="bibl_3419">Mary</rs>, mit der 
 begabten <rs type="person" xml:id="pNt_62979" ref="#person_15455"><forename>Erika</forename> <surname>Glässner</surname></rs>. Die Einakter so begabt, als man als Jude eben 
 sein muß, im übrigen von tiefer seelischer Ordinärheit. Allerlei mir 
 nachgeäfft.― In das Rest. Hahn.― Die Freundin sagte mir sie sei froh, dass 
@@ -194,6 +198,5 @@ nachgeäfft.― In das Rest. Hahn.― Die Freundin sagte mir sie sei froh, dass
 den zahlreichen schwankenden Linien zu reden.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-09-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-09-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0A31-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4698.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1918-09-12">
-            <p xml:space="preserve"><date when="1918-09-12">12/9</date> in <rs type="place" xml:id="pl_11214" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> an.― <rs type="person" xml:id="pNt_54112" ref="#person_19822"><forename>Heini</forename></rs> und <rs type="person" xml:id="pNt_54113" ref="#person_14130"><forename>Lili</forename></rs> wohl; alles ― abgesehn von 
+            <p xml:space="preserve"><date when="1918-09-12">12/9</date> in <rs type="place" xml:id="pl_11214" ref="#pmb50">Wien</rs> an.― <rs type="person" xml:id="pNt_54112" ref="#person_19822"><forename>Heini</forename></rs> und <rs type="person" xml:id="pNt_54113" ref="#person_14130"><forename>Lili</forename></rs> wohl; alles ― abgesehn von 
 Dienstbotenschwierigkeiten und Theuerung in Ordnung. Auspacken; Ordnen. 
 Zeitung lesen.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_54114" ref="#person_17953"><roleName>Frl.</roleName> <surname>Marton</surname></rs>, erzählt mir, daß sie bei <rs type="person" xml:id="pNt_54115" ref="#person_13663"><surname>Bernau</surname></rs> engagirt ist und in der 
@@ -191,6 +195,5 @@ Zeitung lesen.―</p>
 Aufzeichnungen ein.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

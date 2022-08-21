@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-10-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-10-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-10-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1920-10-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-10-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-10-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0D3A-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5214.tif"/>
@@ -185,11 +189,11 @@
             <p xml:space="preserve"><date when="1920-10-29">29/10</date> Vm. bei <rs type="person" xml:id="pNt_60283" ref="#person_19986"><forename>Gustav</forename></rs>. Das übliche Gespräch über die wirthschaftl. 
 Zustände.―</p>
             <p xml:space="preserve" rend="indent">Bei der <rs type="allusively" xml:id="rst_01762">Hofrätin</rs>, die meinen Rath in Verlagsangelegenheiten u. dergl. 
-wünschte, nach <rs type="place" xml:id="pl_12611" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs> reist und auch für mich allerlei thun will.―</p>
+wünschte, nach <rs type="place" xml:id="pl_12611" ref="#pmb182">Paris</rs> reist und auch für mich allerlei thun will.―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_60284" ref="#person_13657"><forename>R. A.</forename> <surname>Bermann</surname></rs>; er erbat meine gelegentliche Verwendung für Frau <rs type="person" xml:id="pNt_60285" ref="#person_18546"><forename>Mädi</forename> 
-<surname>Fournier Olden</surname></rs>, wegen <rs type="place" ref="#place_burgtheater">Burgtheater</rs>s;― <rs type="person" xml:id="pNt_60286" ref="#person_16046"><surname>Heine</surname></rs> hatte ihr angeblich schon 
+<surname>Fournier Olden</surname></rs>, wegen <rs type="place" ref="#pmb14">Burgtheater</rs>s;― <rs type="person" xml:id="pNt_60286" ref="#person_16046"><surname>Heine</surname></rs> hatte ihr angeblich schon 
 versprochen etc.;― ich verhehlte meine Zweifel an ihrem Talent nicht.― 
-<rs type="person" xml:id="pNt_60287"><surname>B.</surname></rs> erzählt von seiner Reise ins <rs type="place" xml:id="pl_12612" ref="#place_1f176b2e686f66a1ab62c35a98dc4e79">Kärntner</rs> Abstimmungsgebiet, und den 
+<rs type="person" xml:id="pNt_60287"><surname>B.</surname></rs> erzählt von seiner Reise ins <rs type="place" xml:id="pl_12612" ref="#pmb651">Kärntner</rs> Abstimmungsgebiet, und den 
 Zeitungslügen über Terror dortselbst ―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_60288" ref="#person_13286"><roleName>Hr.</roleName> <surname>Aslan</surname></rs>;― wegen seiner ev. Rolle im <rs type="work" subtype="self" xml:id="bibl_4337">Reigen</rs> (Dichter);― ich rathe ihm 
 selbst, nur zu acceptiren, wenn er von <rs type="person" xml:id="pNt_60289" ref="#person_16326"><surname>Holländer</surname></rs> auch eine andre, große 
@@ -203,6 +207,5 @@ Tempo, aber ohne Seele.</p>
 Aufsätze („<rs type="work" xml:id="bibl_4341">die doppelköpfige Nymphe</rs>“).―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1907-01-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-01-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-01-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1907-01-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-01-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-01-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F9BD-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2321.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1907-01-22">
-            <p xml:space="preserve"><date when="1907-01-22">22/1</date> Vm. (Kälte 15 Grad) Schneider; Panorama (<rs type="place" xml:id="pl_05818" ref="#place_5fb959f9b3ed86fb47b0f3905d111200">Algier</rs>); bei Dr. <rs type="person" xml:id="pNt_26214" ref="#person_21264"><forename>Paul</forename> 
+            <p xml:space="preserve"><date when="1907-01-22">22/1</date> Vm. (Kälte 15 Grad) Schneider; Panorama (<rs type="place" xml:id="pl_05818" ref="#pmb43991">Algier</rs>); bei Dr. <rs type="person" xml:id="pNt_26214" ref="#person_21264"><forename>Paul</forename> 
 <surname>Wertheimer</surname></rs> in Sachen <rs type="person" xml:id="pNt_26215" ref="#person_15183"><surname>Freund</surname></rs> ― <rs type="work" subtype="self" xml:id="bibl_13932">Reigen</rs>. Über <rs type="place" xml:id="pl_05819" ref="#place_50e7fee43672ab5849a6d99f48c6ad7c" ana="#exclude">oesterr.</rs> Rechtsverhältnisse.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="allusively" xml:id="rst_00795">Mama</rs> Nm. ein <rs type="person" xml:id="pNt_26216" ref="#person_13344"><surname>Bach</surname></rs> Concert.―</p>
             <p xml:space="preserve" rend="indent">― <rs type="work" subtype="self" xml:id="bibl_13933">Roman-Notizen</rs> geordnet.―</p>
@@ -190,6 +194,5 @@
 Unklarheit der Linie.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

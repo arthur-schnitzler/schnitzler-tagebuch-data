@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-05-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-05-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-05-31.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1915-05-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-05-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-05-31.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0581-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,15 +177,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4054.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1915-05-30">
-            <p xml:space="preserve"><date when="1915-05-30">30/5</date> S. Mit <rs type="person" xml:id="pNt_45716" ref="#person_16770"><forename>Arthur</forename> <surname>Kaufmann</surname></rs> Spazierg. <rs type="place" xml:id="pl_09398" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> ― <rs type="place" xml:id="pl_09399" ref="#place_c79ad839f84019f53250a4e6365359f9">Neuwaldegg</rs> ― 
-Knödelhütte ― <rs type="place" xml:id="pl_09400" ref="#place_14868a84e5f21dcb5b7a964884d2708e">Weidlingau</rs> ― <rs type="place" xml:id="pl_09401" ref="#place_318e051b87a18bd62b48dc49a3318206">Hütteldorf</rs>.― Begegnet <rs type="person" xml:id="pNt_45717" ref="#person_20683"><roleName>Hofrat</roleName> <surname>Tezner</surname></rs> 
+            <p xml:space="preserve"><date when="1915-05-30">30/5</date> S. Mit <rs type="person" xml:id="pNt_45716" ref="#person_16770"><forename>Arthur</forename> <surname>Kaufmann</surname></rs> Spazierg. <rs type="place" xml:id="pl_09398" ref="#pmb169">Pötzleinsdorf</rs> ― <rs type="place" xml:id="pl_09399" ref="#pmb170">Neuwaldegg</rs> ― 
+Knödelhütte ― <rs type="place" xml:id="pl_09400" ref="#pmb92059">Weidlingau</rs> ― <rs type="place" xml:id="pl_09401" ref="#pmb90913">Hütteldorf</rs>.― Begegnet <rs type="person" xml:id="pNt_45717" ref="#person_20683"><roleName>Hofrat</roleName> <surname>Tezner</surname></rs> 
 (meinen alten Lehrer <rs type="person" xml:id="pNt_45718"><surname>Tänzeles</surname></rs>). Gespräch über Politik, die 
 Rechtfertigungen ex post.― <rs type="person" xml:id="pNt_45719"><surname>K.</surname></rs> empfand sofort das „Sachliche“ <rs type="person" xml:id="pNt_45720" ref="#person_20683"><surname>T.s</surname></rs> als 
 wohlthuend;― über das eigentümliche der „Persönlichkeit“, die, 
@@ -197,5 +202,6 @@ Ringcafé (Heinrichshof) ― Kriegssonntagstreiben.―</p>
             <p xml:space="preserve" rend="indent">O. von der Oper (<rs type="work" xml:id="bibl_8157">Saba</rs>) geholt; mit ihr, <rs type="person" xml:id="pNt_45723" ref="#person_15374"><roleName>Frl.</roleName> <surname>Gelbard</surname></rs>, <rs type="person" xml:id="pNt_45724" ref="#person_21601"><forename>Otto</forename> <surname>Zuckerkandl</surname></rs> 
 im Imperial.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-11-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-10-31.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-11-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1915-11-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-10-31.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-11-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-061C-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4135.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1915-11-01">
-            <p xml:space="preserve"><date when="1915-11-01">1/11</date> Vm. <rs type="place" xml:id="pl_09653" ref="#place_318e051b87a18bd62b48dc49a3318206">Hütteldorf</rs>; über <rs type="place" xml:id="pl_09654" ref="#place_3962fe91966640892c61d1838300ed1a">St. Veit</rs> nach <rs type="place" xml:id="pl_09655" ref="#place_6fc6f10422bfe80ddcba23b4f7f080dc">Hietzing</rs> zu <rs type="person" xml:id="pNt_46698" ref="#person_18916"><surname>Popper</surname></rs>. Bei ihm 
+            <p xml:space="preserve"><date when="1915-11-01">1/11</date> Vm. <rs type="place" xml:id="pl_09653" ref="#pmb90913">Hütteldorf</rs>; über <rs type="place" xml:id="pl_09654" ref="#pmb91377">St. Veit</rs> nach <rs type="place" xml:id="pl_09655" ref="#pmb63">Hietzing</rs> zu <rs type="person" xml:id="pNt_46698" ref="#person_18916"><surname>Popper</surname></rs>. Bei ihm 
 Dr. <rs type="person" xml:id="pNt_46699" ref="#person_15375"><forename>A.</forename> <surname>Gelber</surname></rs>. Über einige meiner Sachen, die <rs type="person" xml:id="pNt_46700" ref="#person_18916"><surname>P.</surname></rs> in der letzten Zeit 
 gelesen; <rs type="work" subtype="self" xml:id="bibl_8444">Bernhardi</rs> hatt ich ihm geschickt,― über <rs type="work" subtype="self" xml:id="bibl_8445">Wurstl</rs>, <rs type="work" subtype="self" xml:id="bibl_8446">Liebelei</rs>, mit 
 Sympathie. Bald kam’s auf den Krieg. Wehr- und Nährpflicht. Demokratie. 
@@ -191,6 +195,5 @@ Zukunftsmöglichkeiten.―</p>
             <p xml:space="preserve" rend="indent">Am Scen. <rs type="work" subtype="self" xml:id="bibl_8447">Verf.</rs>, 3. Akt.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

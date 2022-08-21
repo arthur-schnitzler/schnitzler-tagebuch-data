@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-11-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-11-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-11-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-11-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-11-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-11-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0A7B-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4748.tif"/>
@@ -184,11 +188,10 @@
             <p xml:space="preserve"><date when="1918-11-25">25/11</date> Probe <rs type="work" subtype="self" xml:id="bibl_6002">Bernhardi</rs> 1. Akt.―</p>
             <p xml:space="preserve" rend="indent">Mit O. Nm. spazieren im Schnee.―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_54819" ref="#person_19755"><forename>Hugo</forename> <surname>Schmidl</surname></rs> und Ob. <rs type="person" xml:id="pNt_54820" ref="#person_19562"><surname>Sander</surname></rs>; wegen Unterschrift unter den Aufruf zur 
-Bürgerwehr <rs type="place" xml:id="pl_11396" ref="#place_dd264a4bfc9858a490d260f2cc8abb10">Währing</rs>.―</p>
+Bürgerwehr <rs type="place" xml:id="pl_11396" ref="#pmb68">Währing</rs>.―</p>
             <p xml:space="preserve" rend="indent">Z. N. <rs type="person" xml:id="pNt_54821" ref="#person_19431"><surname>Rothschild</surname></rs>, <rs type="person" xml:id="pNt_54822" ref="#person_19821"><forename>Hans</forename></rs>, <rs type="person" xml:id="pNt_54823" ref="#person_17958"><forename>Paul</forename></rs>.― <rs type="person" xml:id="pNt_54824" ref="#person_19431"><surname>R.</surname></rs>, von <rs type="person" xml:id="pNt_54825" ref="#person_19821"><forename>Hans</forename></rs> begleitet, spielte classisches, 
 <rs type="place" xml:id="pl_11397" ref="#place_9cef184fd761654aca1525d6dd522b0e" ana="#exclude">altitalienisches</rs> u. a.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

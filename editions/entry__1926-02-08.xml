@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-02-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-02-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-02-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-02-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-02-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-02-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-14C1-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6624.tif"/>
@@ -185,7 +189,7 @@
             <p xml:space="preserve"><date when="1926-02-08">8/2</date> Vm. bei <rs type="pubHouse"><rs type="person" xml:id="pNt_77147"><surname>Fischer</surname></rs> Verlag</rs>.― Über die <rs type="work" subtype="self" xml:id="bibl_20001">Traumnov.</rs> (er möchte 
 einen andern Titel) u. a.― <rs type="person" xml:id="pNt_77148" ref="#person_17888"><roleName>Dr.</roleName> <surname>Maril</surname></rs>, <rs type="person" xml:id="pNt_77149" ref="#person_14672"><forename>Paul</forename> <surname>Eipper</surname></rs>, <rs type="person" xml:id="pNt_77150" ref="#person_13659"><roleName>Dr.</roleName> <surname>Bermann</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Zu <rs type="person" xml:id="pNt_77151" ref="#person_19822"><forename>Heini</forename></rs> (der wegen Heiserkeit absagte), wo <rs type="person" xml:id="pNt_77152" ref="#person_14130"><forename>Lili</forename></rs> und <rs type="person" xml:id="pNt_77153"><forename>Lucy</forename> <surname>M.</surname></rs> (sie 
-wohnt im gleichen Hause mit <rs type="person" xml:id="pNt_77154" ref="#person_19822"><forename>Heini</forename></rs>).― Mit <rs type="person" xml:id="pNt_77155" ref="#person_14130"><forename>Lili</forename></rs> <rs type="place" xml:id="pl_16505" ref="#place_ced237bdf35a4eb3b2f36fb277cfc1ea">Olivaerplatz</rs>. Zu 
+wohnt im gleichen Hause mit <rs type="person" xml:id="pNt_77154" ref="#person_19822"><forename>Heini</forename></rs>).― Mit <rs type="person" xml:id="pNt_77155" ref="#person_14130"><forename>Lili</forename></rs> <rs type="place" xml:id="pl_16505" ref="#pmb92429">Olivaerplatz</rs>. Zu 
 <rs type="person" xml:id="pNt_77156" ref="#person_19832"><forename>Olga</forename></rs>. Dort Mittagessen.―</p>
             <p xml:space="preserve" rend="indent">Im Hotel. <rs type="person" xml:id="pNt_77157" ref="#person_17324"><forename>Adolf</forename> <surname>Lantz</surname></rs>, jetzt Filmmensch. Über Filmfragen, auch geschäftlich.</p>
             <p xml:space="preserve" rend="indent">Zu <rs type="person" xml:id="pNt_77158" ref="#person_19822"><forename>Heini</forename></rs>.― Später <rs type="person" xml:id="pNt_77159"><forename>Lucy</forename> <surname>M.</surname></rs></p>
@@ -194,6 +198,5 @@ seinem <rs type="person" xml:id="pNt_77162" ref="#person_20080"><surname>Shawvor
 <surname>Bermann</surname></rs>, <rs type="person" xml:id="pNt_77166" ref="#person_18543"><roleName>Frl.</roleName> <surname>Olden</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

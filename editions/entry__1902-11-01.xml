@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1902-11-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-10-31.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-11-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1902-11-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-10-31.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-11-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F3BE-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1719.tif"/>
@@ -182,7 +186,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1902-11-01">
             <p xml:space="preserve"><date when="1902-11-01">1/11</date> Vm. bei <rs type="person" xml:id="pNt_19087" ref="#person_16289"><roleName>Frau</roleName> <surname>v. Hofmannsthal</surname></rs> (Sanatorium); beim Kind; bei <rs type="person" xml:id="pNt_19088" ref="#person_15776"><surname>Gutmanns</surname></rs> 
-(<rs type="place" xml:id="pl_04145" ref="#place_4517a047e13adec4582756d99c72841c">Gauermanng.</rs>) gespeist. U. a. <rs type="person" xml:id="pNt_19089" ref="#person_15754"><forename>Paul</forename> <surname>Althof</surname></rs>; meine Tischnachbarin; über 
+(<rs type="place" xml:id="pl_04145" ref="#pmb92251">Gauermanng.</rs>) gespeist. U. a. <rs type="person" xml:id="pNt_19089" ref="#person_15754"><forename>Paul</forename> <surname>Althof</surname></rs>; meine Tischnachbarin; über 
 die „<rs type="work" subtype="self" xml:id="bibl_18124">griechische Tänzerin</rs>“.― „Es hat mich sehr interessirt … 
 Haben Sie den Stoff erfunden? Hat Ihnen wer erzählt ―?“ ― Ja. 
 „Wer“― Sie! ― Ach so … aber alles kann ich Ihnen nicht gesagt 
@@ -192,6 +196,5 @@ mich so wenig als die andern mich überzeugt haben.― Dictirt der <rs type="per
 <surname>Gr.</surname></rs>― Bei <rs type="person" xml:id="pNt_19092" ref="#person_19832"><forename>O.</forename></rs> Herabgestimmt.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

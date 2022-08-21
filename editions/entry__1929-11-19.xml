@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-11-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-11-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-11-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-11-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-11-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-11-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1A24-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7386.tif"/>
@@ -184,11 +188,10 @@
             <p xml:space="preserve"><date when="1929-11-19">19/11</date> <rs type="person" xml:id="pNt_88156" ref="#person_14234"><forename>Suz.</forename> <surname>Cl.</surname></rs> bei mir.―</p>
             <p xml:space="preserve" rend="indent">Zu Tisch bei <rs type="person" xml:id="pNt_88157" ref="#person_15855"><surname>Hajeks</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Nachher <rs type="place" xml:id="pl_18980" ref="#place_923c9d6aaf18f34b857e3d32ee926c57" ana="#exclude">amerik.</rs> Consulat wegen Filmcontracts und Unterschrifts-Beglaubigung.―</p>
-            <p xml:space="preserve" rend="indent">Gegen Abend <rs type="place" ref="#place_volkstheater">Volksth.</rs> Maler <rs type="person" xml:id="pNt_88158" ref="#person_17198"><surname>Kunz</surname></rs> und <rs type="person" xml:id="pNt_88159" ref="#person_13545"><roleName>Dr.</roleName> <surname>Beer</surname></rs>, Besprechung <rs type="work" subtype="self" xml:id="bibl_724">Decoration</rs>.</p>
+            <p xml:space="preserve" rend="indent">Gegen Abend <rs type="place" ref="#pmb92202">Volksth.</rs> Maler <rs type="person" xml:id="pNt_88158" ref="#person_17198"><surname>Kunz</surname></rs> und <rs type="person" xml:id="pNt_88159" ref="#person_13545"><roleName>Dr.</roleName> <surname>Beer</surname></rs>, Besprechung <rs type="work" subtype="self" xml:id="bibl_724">Decoration</rs>.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_88160" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Kino <rs type="work" xml:id="bibl_725">Bruder von St. Bernhard</rs>.</p>
             <p xml:space="preserve" rend="indent">Weingartl genachtm.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

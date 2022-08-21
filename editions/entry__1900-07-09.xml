@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1900-07-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-07-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-07-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1900-07-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-07-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-07-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F0B7-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -162,7 +166,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1574.tif"/>
@@ -170,12 +174,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1900-07-09">
-            <p xml:space="preserve"><date when="1900-07-09">9/7</date> Vorm. <rs type="person" xml:id="pNt_17211" ref="#person_19832"><forename>D.</forename> <surname>M.</surname></rs> <rs type="place" xml:id="pl_03466" ref="#place_5884bac5272bf94a2487941d33f4ddc1">Payerbach</rs> ― <rs type="place" xml:id="pl_03467" ref="#place_201fd3351b4372387395bdfaa5ee6cbf">Küb</rs>.― Ihre Lebensgeschichte.― Sturm
+            <p xml:space="preserve"><date when="1900-07-09">9/7</date> Vorm. <rs type="person" xml:id="pNt_17211" ref="#person_19832"><forename>D.</forename> <surname>M.</surname></rs> <rs type="place" xml:id="pl_03466" ref="#pmb948">Payerbach</rs> ― <rs type="place" xml:id="pl_03467" ref="#pmb91083">Küb</rs>.― Ihre Lebensgeschichte.― Sturm
 und Wetter.</p>
             <p xml:space="preserve" rend="indent">Die nächsten 8 Tage: Spaziergänge mit <rs type="person" xml:id="pNt_17212" ref="#person_19832"><forename>D.</forename> <surname>M.</surname></rs> und Schwester, auch
 <rs type="person" xml:id="pNt_17213" ref="#person_19699"><forename>Bertha</forename></rs>, die Freundin.― Arbeit Nachmittag.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

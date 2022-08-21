@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-05-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-05-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-05-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-05-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-05-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-05-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0F6C-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5713.tif"/>
@@ -182,7 +186,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1922-05-14">
             <p xml:space="preserve"><date when="1922-05-14">14/5</date> S. Mühsal des Packens.―</p>
-            <p xml:space="preserve" rend="indent">Nach <rs type="place" xml:id="pl_13889" ref="#place_2c0c47486f993bda7caceff2a233cea6">Podbielski Allee</rs>, mit <rs type="person" xml:id="pNt_66061" ref="#person_18137"><forename>Dora</forename></rs> <rs type="place" xml:id="pl_13890" ref="#place_db4a42a192c3c97a2871005a8ccd6439">Grunewald</rs> spazieren. Ausführlich über <rs type="person" xml:id="pNt_66062" ref="#person_19832"><forename>O.</forename></rs>, 
+            <p xml:space="preserve" rend="indent">Nach <rs type="place" xml:id="pl_13889" ref="#pmb92451">Podbielski Allee</rs>, mit <rs type="person" xml:id="pNt_66061" ref="#person_18137"><forename>Dora</forename></rs> <rs type="place" xml:id="pl_13890" ref="#pmb129">Grunewald</rs> spazieren. Ausführlich über <rs type="person" xml:id="pNt_66062" ref="#person_19832"><forename>O.</forename></rs>, 
 mit letzten Briefen.― Ich erfahre daß <rs type="person" xml:id="pNt_66063" ref="#person_19832"><forename>O.</forename></rs> ― sich auch bei <rs type="person" xml:id="pNt_66064" ref="#person_18137"><forename>D.</forename></rs> immer wieder 
 über mich beklagt hat.― Mittagessen bei <rs ref="#person_18140" type="person" xml:id="pNt_66065"><surname>M.’s</surname></rs>. <rs type="person" xml:id="pNt_66066" ref="#person_18468"><roleName>Dr.</roleName> <surname>Noeggerath</surname></rs>. Politisches. 
 Schuldfrage anlässlich <rs type="person" xml:id="pNt_66067" ref="#person_14699"><surname>Eisnerprozesses</surname></rs>.― <rs type="person" xml:id="pNt_66068" ref="#person_18141"><forename>Lor</forename></rs> kommt von der Vorstellung 
@@ -194,6 +198,5 @@ zurückließ; <rs type="person" xml:id="pNt_66071" ref="#person_16462"><forename
 „<rs type="work" xml:id="bibl_2536">Esels Schatten</rs>“ zu lesen.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

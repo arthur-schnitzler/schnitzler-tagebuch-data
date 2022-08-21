@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-01-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-01-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-01-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-01-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-01-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-01-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1A56-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7418.tif"/>
@@ -181,8 +185,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1930-01-08">
-            <p xml:space="preserve"><date when="1930-01-08">8/1</date> <rs type="place" xml:id="pl_19039" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>.― Schönes Wetter in diesen Tagen. Brief aus <rs type="place" xml:id="pl_19040" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs>.―</p>
-            <p xml:space="preserve" rend="indent">In den <rs type="place" xml:id="pl_19041" ref="#place_db4a42a192c3c97a2871005a8ccd6439">Grunewald</rs>. Spazierg. mit <rs type="person" xml:id="pNt_88665" ref="#person_18137"><forename>Dora</forename></rs> und Gespräch.― Über die 
+            <p xml:space="preserve"><date when="1930-01-08">8/1</date> <rs type="place" xml:id="pl_19039" ref="#pmb168">Berlin</rs>.― Schönes Wetter in diesen Tagen. Brief aus <rs type="place" xml:id="pl_19040" ref="#pmb182">Paris</rs>.―</p>
+            <p xml:space="preserve" rend="indent">In den <rs type="place" xml:id="pl_19041" ref="#pmb129">Grunewald</rs>. Spazierg. mit <rs type="person" xml:id="pNt_88665" ref="#person_18137"><forename>Dora</forename></rs> und Gespräch.― Über die 
 Complicationen (und positiven Werthe) meiner Existenz. Ahnunglose 
 Befriedigung <rs type="person" xml:id="pNt_88666" ref="#person_19832"><forename>O.s</forename></rs> ―</p>
             <p xml:space="preserve" rend="indent">Speiste bei <rs ref="#person_18140" type="person" xml:id="pNt_88667"><surname>M.s</surname></rs>. Der junge Violinspieler <rs type="person" xml:id="pNt_88668" ref="#person_17534"><surname>Liepmann</surname></rs>.</p>
@@ -193,6 +197,5 @@ hat <rs type="person" xml:id="pNt_88674" ref="#person_19832"><forename>O.</foren
 über Humor.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1894-09-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-09-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-09-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1894-09-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-09-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-09-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E89F-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,15 +177,17 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0867.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1894-09-06">
-            <p xml:space="preserve"><date when="1894-09-06">6/9</date> Bei <rs type="work" xml:id="bibl_22503">Maria Stuart</rs> im <rs type="place" ref="#place_volkstheater">Volksth.</rs>― <rs ref="#person_19564" type="person" xml:id="pNt_09171"><forename>D.</forename></rs> gross. <rs type="person" xml:id="pNt_09172" ref="#person_21151"><roleName>Frl.</roleName> <surname>Weigel</surname></rs>, die 
-Debutantin schlecht.― Schöner Brief von <rs type="person" xml:id="pNt_09173" ref="#person_15485"><forename>Mz.</forename></rs>; Erfolg in <rs type="place" xml:id="pl_01823" ref="#place_4a887b8a68acf9b04d9d027bddedb06b">Leipzig</rs>.</p>
+            <p xml:space="preserve"><date when="1894-09-06">6/9</date> Bei <rs type="work" xml:id="bibl_22503">Maria Stuart</rs> im <rs type="place" ref="#pmb92202">Volksth.</rs>― <rs ref="#person_19564" type="person" xml:id="pNt_09171"><forename>D.</forename></rs> gross. <rs type="person" xml:id="pNt_09172" ref="#person_21151"><roleName>Frl.</roleName> <surname>Weigel</surname></rs>, die 
+Debutantin schlecht.― Schöner Brief von <rs type="person" xml:id="pNt_09173" ref="#person_15485"><forename>Mz.</forename></rs>; Erfolg in <rs type="place" xml:id="pl_01823" ref="#pmb864">Leipzig</rs>.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

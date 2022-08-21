@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1925-10-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-10-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-10-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1925-10-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-10-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-10-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1452-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,15 +177,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6565.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6566.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1925-10-20">
-            <p xml:space="preserve"><date when="1925-10-20">20/10</date> <rs type="place" xml:id="pl_16409" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>.― Gepackt.―</p>
+            <p xml:space="preserve"><date when="1925-10-20">20/10</date> <rs type="place" xml:id="pl_16409" ref="#pmb168">Berlin</rs>.― Gepackt.―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_76184" ref="#person_15529"><forename>Paul</forename> <surname>Goldmann</surname></rs>. Gespräch nach Jahren. Er klagt über sein geplagtes 
 Leben, schlechte Bezahlung (1000 M. monatlich). ― Später kommt seine 14j. Tochter, eine <rs type="place" xml:id="pl_16410" ref="#place_be7f11f190986254826063420695db61" ana="#exclude">Berliner</rs> Range.―</p>
             <p xml:space="preserve" rend="indent">Zu Tisch Esplanade mit <rs type="person" xml:id="pNt_76185" ref="#person_19822"><forename>Heini</forename></rs>. Improvisirt dazu <rs type="person" xml:id="pNt_76186" ref="#person_14908"><forename>Jürgen</forename> <surname>Fehling</surname></rs> und <rs type="person" xml:id="pNt_76187" ref="#person_19504"><roleName>Frau</roleName> <surname>Sachs</surname></rs> 
@@ -190,5 +195,6 @@ Leben, schlechte Bezahlung (1000 M. monatlich). ― Später kommt seine 14j. Toc
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_76190" ref="#person_15306"><surname>Fulda</surname></rs> im gleichen Waggon.― Sprechen u. a. von seiner ersten Frau. Das 
 Glück seiner jetzigen Ehe.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

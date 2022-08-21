@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1901-04-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-04-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-04-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1901-04-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-04-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-04-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F1C2-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1627.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1901-04-14">
-            <p xml:space="preserve"><date when="1901-04-14">14/4</date> <rs type="place" xml:id="pl_03648" ref="#place_241030ffac0efb4f7cb1f0bbee3cba66">Florenz</rs>. Croce, Bargello. Novella. Nm. „<rs type="work" subtype="self" xml:id="bibl_18264">Junggesell</rs>“ 
-überdacht.― <rs type="place" xml:id="pl_03649" ref="#place_17b1b0d6e6c120d35d56dcbdbf72b93e">Viale dei colli</rs>. S. Miniato.― <rs type="person" xml:id="pNt_17891" ref="#person_19606"><forename>E.</forename> <surname>Schaeffer</surname></rs>.―</p>
+            <p xml:space="preserve"><date when="1901-04-14">14/4</date> <rs type="place" xml:id="pl_03648" ref="#pmb263">Florenz</rs>. Croce, Bargello. Novella. Nm. „<rs type="work" subtype="self" xml:id="bibl_18264">Junggesell</rs>“ 
+überdacht.― <rs type="place" xml:id="pl_03649" ref="#pmb92582">Viale dei colli</rs>. S. Miniato.― <rs type="person" xml:id="pNt_17891" ref="#person_19606"><forename>E.</forename> <surname>Schaeffer</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

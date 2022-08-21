@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-04-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-04-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-04-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-04-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-04-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-04-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-03E9-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3813.tif"/>
@@ -181,14 +185,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1914-04-15">
-            <p xml:space="preserve"><date when="1914-04-15">15/4</date> Regen, kühl. Zu Schiff nach <rs type="place" xml:id="pl_08675" ref="#place_b2f3f42d45ff2c1018a9d3b9e6c37ece">Krems</rs>. Auf einem Platz stellt sich ein 
+            <p xml:space="preserve"><date when="1914-04-15">15/4</date> Regen, kühl. Zu Schiff nach <rs type="place" xml:id="pl_08675" ref="#pmb36545">Krems</rs>. Auf einem Platz stellt sich ein 
 junger Maler und Kunsthistoriker, <rs type="person" xml:id="pNt_43328" ref="#person_18373"><surname>Neckheim</surname></rs> vor, und macht etwas 
-weitschweifig den Cicerone. Im Wagen alle nach <rs type="place" xml:id="pl_08676" ref="#place_1ac1fe68de4bd77a52097abf6af525c4">Dürnstein</rs>; <rs type="person" xml:id="pNt_43329" ref="#person_18373"><roleName>Herr</roleName> <surname>N.</surname></rs> ißt 
-mit uns.― Nachm. nach <rs type="place" xml:id="pl_08677" ref="#place_dacbd4a51e2f1a4ca01b2fd641311b02">Weißenkirchen</rs>; mit <rs type="person" xml:id="pNt_43330" ref="#person_18373"><roleName>Herrn</roleName> <surname>N.</surname></rs> ich zu Fuss; ― 
+weitschweifig den Cicerone. Im Wagen alle nach <rs type="place" xml:id="pl_08676" ref="#pmb90558">Dürnstein</rs>; <rs type="person" xml:id="pNt_43329" ref="#person_18373"><roleName>Herr</roleName> <surname>N.</surname></rs> ißt 
+mit uns.― Nachm. nach <rs type="place" xml:id="pl_08677" ref="#pmb92069">Weißenkirchen</rs>; mit <rs type="person" xml:id="pNt_43330" ref="#person_18373"><roleName>Herrn</roleName> <surname>N.</surname></rs> ich zu Fuss; ― 
 retour alle per Wagen. Es wird schöner. Der Stiftshof. <rs type="person" xml:id="pNt_43331" ref="#person_17620"><forename>Berthold</forename> <surname>Löffler</surname></rs>, 
 der Maler, hat uns schon Nm. seine Wachauer Bilder gezeigt.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

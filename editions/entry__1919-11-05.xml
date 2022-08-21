@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-11-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-11-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-11-06.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-11-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-11-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-11-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0BD3-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4959.tif"/>
@@ -183,11 +187,10 @@
          <div type="diary-day" xml:id="entry__1919-11-05">
             <p xml:space="preserve"><date when="1919-11-05">5/11</date> Vm. bei <rs type="person" xml:id="pNt_57245" ref="#person_18881"><forename>Kolap</forename></rs>, dann der <rs type="allusively" xml:id="rst_01667">Hofr.</rs>; wir entwarfen das Antworttelegr. 
 an O.; Verpflichtung O.s zu absoluter Klarstellung.― Zugseinstellung in 
-<rs type="place" xml:id="pl_11975" ref="#place_3c2f8b8c8c43538b25a0327ae84c3f65">Deutschland</rs>; O. kann nun keineswegs zurück.―</p>
+<rs type="place" xml:id="pl_11975" ref="#pmb151">Deutschland</rs>; O. kann nun keineswegs zurück.―</p>
             <p xml:space="preserve" rend="indent">Gegen Abend mit <rs type="person" xml:id="pNt_57246" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> in den nassen nebelumwallten Cottagestraßen 
 spazieren.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

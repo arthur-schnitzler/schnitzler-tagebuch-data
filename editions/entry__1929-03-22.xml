@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-03-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-03-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-03-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-03-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-03-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-03-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1932-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7257.tif"/>
@@ -182,13 +186,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1929-03-22">
-            <p xml:space="preserve"><date when="1929-03-22">22/3</date> <rs type="place" xml:id="pl_18561" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>. Früh Opernglas gekauft.―</p>
+            <p xml:space="preserve"><date when="1929-03-22">22/3</date> <rs type="place" xml:id="pl_18561" ref="#pmb168">Berlin</rs>. Früh Opernglas gekauft.―</p>
             <p xml:space="preserve" rend="indent">Mittag kam <rs type="person" xml:id="pNt_86270" ref="#person_16098"><surname>Herald</surname></rs> (vom Deutschen Theater, von schwerer Krankheit 
 genesen), sympathisch, aber unpersönlich wirkend; und <rs type="person" xml:id="pNt_86271" ref="#person_13643"><forename>Elisabeth</forename> <surname>B.</surname></rs>― 
 Möglichkeit der „<rs type="work" subtype="self" xml:id="bibl_217">Else</rs>“ an der Komoedie.― Dann mit <rs type="person" xml:id="pNt_86272" ref="#person_13643"><forename>Elisab.</forename> <surname>B.</surname></rs> im 
-<rs type="place" xml:id="pl_18562" ref="#place_1b83df4ba62ebbba0aa5582269a820b1">Thiergarten</rs> spazieren;― allerlei autobiografisches, aß mit ihr in der 
+<rs type="place" xml:id="pl_18562" ref="#pmb91893">Thiergarten</rs> spazieren;― allerlei autobiografisches, aß mit ihr in der 
 Esplanade-Bar. Freundschaftliche Unterhaltung.―</p>
-            <p xml:space="preserve" rend="indent">Gegen Abend fuhr ich <rs type="place" xml:id="pl_18563" ref="#place_e968dc5bb69215ff17b5de04db395670">Dahlem</rs> zu <rs type="person" xml:id="pNt_86273" ref="#person_13643"><forename>Elis.</forename> <surname>B.</surname></rs> (erstes Mal). <rs type="place" xml:id="pl_18564" ref="#place_bfa71ebf2d1455126ff2e62cb04f5a2b">Faraday Weg</rs>. (<rs type="person" xml:id="pNt_86274" ref="#person_19832"><forename>O.</forename></rs> 
+            <p xml:space="preserve" rend="indent">Gegen Abend fuhr ich <rs type="place" xml:id="pl_18563" ref="#pmb90508">Dahlem</rs> zu <rs type="person" xml:id="pNt_86273" ref="#person_13643"><forename>Elis.</forename> <surname>B.</surname></rs> (erstes Mal). <rs type="place" xml:id="pl_18564" ref="#pmb92232">Faraday Weg</rs>. (<rs type="person" xml:id="pNt_86274" ref="#person_19832"><forename>O.</forename></rs> 
 telef. an, dass <rs type="person" xml:id="pNt_86275" ref="#person_20938"><forename>Conny</forename> <surname>Veidt</surname></rs> mich morgen besucht (wegen „<rs type="work" subtype="self" xml:id="bibl_218"><rs type="person" xml:id="pNt_86276"><surname>Casanovas</surname></rs> 
 Heimfahrt</rs>“).―) <rs type="person" xml:id="pNt_86277" ref="#person_16897"><roleName>Dr.</roleName> <surname>Klein</surname></rs> dort; möchte <rs type="work" subtype="self" xml:id="bibl_219">Else</rs> erst als zweite Novität. 
 Dilatorisch. <rs type="person" xml:id="pNt_86278" ref="#person_18391"><surname>Neppach</surname></rs> kam. Mit <rs type="person" xml:id="pNt_86279" ref="#person_13643"><forename>El.</forename> <surname>B.</surname></rs> und <rs type="person" xml:id="pNt_86280" ref="#person_18391"><surname>Neppach</surname></rs> [über die verschiedenen 
@@ -200,6 +204,5 @@ neues Opernglas. Hörte wenig.― Nachher mit ihnen Austernmeyer; <rs type="pers
 kam noch.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

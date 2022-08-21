@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-09-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-09-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-09-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1920-09-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-09-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-09-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0D19-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,20 +177,22 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5190.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1920-09-26">
-            <p xml:space="preserve"><date when="1920-09-26">26/9</date> S. Spaziergang <rs type="place" xml:id="pl_12548" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> ― Rohrerhütte ― <rs type="place" xml:id="pl_12549" ref="#place_75f2e194839d6ba0e5d4080c211a449a">Dornbacher Park</rs> ― 
-<rs type="place" xml:id="pl_12550" ref="#place_a513bae177c89d12226f343ac5ff1ee3">Salmannsdorf</rs> ― <rs type="place" xml:id="pl_12551" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs>. Auf manchen Bänken geruht ― vergeblich 
+            <p xml:space="preserve"><date when="1920-09-26">26/9</date> S. Spaziergang <rs type="place" xml:id="pl_12548" ref="#pmb169">Pötzleinsdorf</rs> ― Rohrerhütte ― <rs type="place" xml:id="pl_12549" ref="#pmb176">Dornbacher Park</rs> ― 
+<rs type="place" xml:id="pl_12550" ref="#pmb91641">Salmannsdorf</rs> ― <rs type="place" xml:id="pl_12551" ref="#pmb169">Pötzleinsdorf</rs>. Auf manchen Bänken geruht ― vergeblich 
 meine Gedanken auf den „<rs type="work" subtype="self" xml:id="bibl_4269">Weiher</rs>“ zu concentriren versucht;― einsam 
 gefühlt,― verbittert und erbittert.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_4270">Weiher</rs>,― unter Mühen und fast vergeblich.―</p>
             <p xml:space="preserve" rend="indent">Später an der <rs type="place" xml:id="pl_12552" ref="#place_43280691b9847558159766c056de8484" ana="#exclude">Japan.</rs> Geschichte im <rs type="person" xml:id="pNt_59975"><surname>Ullstein</surname></rs> weiter gelesen.―</p>
             <p xml:space="preserve" rend="indent">― N. d. N. mit <rs type="person" xml:id="pNt_59976" ref="#person_19822"><forename>Heini</forename></rs> <rs type="person" xml:id="pNt_59977" ref="#person_13914"><surname>Brahms</surname></rs> <rs type="work" xml:id="bibl_4271">Clarinetten Quintett</rs>.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

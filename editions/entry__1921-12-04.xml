@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1921-12-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-12-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-12-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1921-12-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-12-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-12-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0ECB-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5587.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1921-12-04">
-            <p xml:space="preserve"><date when="1921-12-04">4/12</date> S. Schöner Wintertag. Spaziergang mit <rs type="person" xml:id="pNt_64474" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> <rs type="place" xml:id="pl_13548" ref="#place_9c457f4107132ccb2d87ebf5e13f0b74">Schafberg</rs>, <rs type="place" xml:id="pl_13549" ref="#place_c79ad839f84019f53250a4e6365359f9">Neuwaldegg</rs>, 
-<rs type="place" xml:id="pl_13550" ref="#place_cc6eda773537f8cb4db5cb1b862d0e0d">Sommerhaidenweg</rs>.</p>
+            <p xml:space="preserve"><date when="1921-12-04">4/12</date> S. Schöner Wintertag. Spaziergang mit <rs type="person" xml:id="pNt_64474" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> <rs type="place" xml:id="pl_13548" ref="#pmb59367">Schafberg</rs>, <rs type="place" xml:id="pl_13549" ref="#pmb170">Neuwaldegg</rs>, 
+<rs type="place" xml:id="pl_13550" ref="#pmb243">Sommerhaidenweg</rs>.</p>
             <p xml:space="preserve" rend="indent">Nm. am „<rs type="work" subtype="self" xml:id="bibl_3715">Verführer</rs>“.</p>
             <p xml:space="preserve" rend="indent">Z. N. bei <rs type="person" xml:id="pNt_64475" ref="#person_13285"><surname>Askonas’</surname></rs>; u. a. <rs type="person" xml:id="pNt_64476" ref="#person_21171"><forename>Paul</forename> <surname>Weingarten</surname></rs>, <rs type="person" xml:id="pNt_64477" ref="#person_20234"><forename>Ernst</forename> <surname>Specht</surname></rs> (Musik), <rs type="person" xml:id="pNt_64478" ref="#person_21024"><forename>Erika 
 v.</forename> <surname>Wagner</surname></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

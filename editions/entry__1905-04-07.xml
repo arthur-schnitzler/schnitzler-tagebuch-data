@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-04-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-04-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-04-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-04-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-04-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-04-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F72E-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2065.tif"/>
@@ -182,11 +186,10 @@
          <div type="diary-day" xml:id="entry__1905-04-07">
             <p xml:space="preserve"><date when="1905-04-07">7/4</date> Vm. mit O. bei <rs type="person" xml:id="pNt_22724" ref="#person_19542"><surname>Saltens</surname></rs> (<rs type="person" xml:id="pNt_22725"><roleName>Frau</roleName> <surname>S.</surname></rs> zu Hause).― Bei <rs type="institution" xml:id="pNt_22726"><surname>Brooke</surname></rs> mit O.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_15625">Stück</rs> herumgedacht.―</p>
-            <p xml:space="preserve" rend="indent">Mit O. bei <rs type="person" xml:id="pNt_22727" ref="#person_16829"><forename>Ellen</forename> <surname>Key</surname></rs>, <rs type="place" xml:id="pl_05140" ref="#place_86f90c857ca2c813e066ea7b3502cb7c">Hohe Warte</rs>; sie wohnt bei Brnin. <rs type="person" xml:id="pNt_22728" ref="#person_15878"><surname>Hamar</surname></rs>. <rs type="person" xml:id="pNt_22729" ref="#person_21107"><surname>Wassermann</surname></rs>, 
+            <p xml:space="preserve" rend="indent">Mit O. bei <rs type="person" xml:id="pNt_22727" ref="#person_16829"><forename>Ellen</forename> <surname>Key</surname></rs>, <rs type="place" xml:id="pl_05140" ref="#pmb92292">Hohe Warte</rs>; sie wohnt bei Brnin. <rs type="person" xml:id="pNt_22728" ref="#person_15878"><surname>Hamar</surname></rs>. <rs type="person" xml:id="pNt_22729" ref="#person_21107"><surname>Wassermann</surname></rs>, 
 <rs type="person" xml:id="pNt_22730" ref="#person_13472"><roleName>Architekt</roleName> <surname>Bauer</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Abd. bei <rs type="allusively" xml:id="rst_00553">Mama</rs>, Familie.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

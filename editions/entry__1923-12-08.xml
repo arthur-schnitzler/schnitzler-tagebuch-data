@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-12-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-12-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-12-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-12-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-12-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-12-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-11A8-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,13 +177,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6156.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6157.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1923-12-08">
             <p xml:space="preserve"><date when="1923-12-08">8/12</date> (Feiertag) Dictirt <rs type="work" subtype="self" xml:id="bibl_2190">Verf.</rs></p>
             <p xml:space="preserve" rend="indent">Am Nachm. wenig am <rs type="work" subtype="self" xml:id="bibl_2191">Verf.</rs></p>
@@ -199,5 +204,6 @@ ab, bis man mir „Glauben“ definirt haben würde.― Den Ausfall der
 <rs type="place" xml:id="pl_15189" ref="#place_f42606b57350750a83d247dd1d275f69" ana="#exclude">engl.</rs> Wahlen hält man für höchst bedeutungsvoll (gegen <rs type="person" xml:id="pNt_70868" ref="#person_18852"><surname>Poincaré</surname></rs>).</p>
             <p xml:space="preserve" rend="indent">― <rs type="person" xml:id="pNt_70869" ref="#person_13589"><roleName>Dr.</roleName> <surname>Benedikt</surname></rs> führt mich mit Exc. <rs type="person" xml:id="pNt_70870" ref="#person_19096"><surname>Redlich</surname></rs> im Auto nach Haus.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-05-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-05-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-05-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-05-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-05-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-05-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-09B5-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4636.tif"/>
@@ -181,9 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1918-05-11">
-            <p xml:space="preserve"><date when="1918-05-11">11/5</date> Vm. bei <rs type="person" xml:id="pNt_53187" ref="#person_18916"><surname>Popper</surname></rs> in <rs type="place" xml:id="pl_10997" ref="#place_6fc6f10422bfe80ddcba23b4f7f080dc">Hietzing</rs>. Über die Papiernot, geistiges 
+            <p xml:space="preserve"><date when="1918-05-11">11/5</date> Vm. bei <rs type="person" xml:id="pNt_53187" ref="#person_18916"><surname>Popper</surname></rs> in <rs type="place" xml:id="pl_10997" ref="#pmb63">Hietzing</rs>. Über die Papiernot, geistiges 
 Eigentum, mangelndes Rechtsbewußtsein, <rs type="person" xml:id="pNt_53188" ref="#person_19333"><forename>Romain</forename> <surname>Rolland</surname></rs> und vieles andre.</p>
-            <p xml:space="preserve" rend="indent">― In <rs type="place" xml:id="pl_10998" ref="#place_971d9360a377fa82fd2640a5119b1112">Schönbrunn</rs> spazieren, im Palmenhaus.</p>
+            <p xml:space="preserve" rend="indent">― In <rs type="place" xml:id="pl_10998" ref="#pmb92518">Schönbrunn</rs> spazieren, im Palmenhaus.</p>
             <p xml:space="preserve" rend="indent">Nm. kam <rs type="person" xml:id="pNt_53189" ref="#person_21107"><forename>Jacob</forename></rs>, sich aussprechen; wegen der Haltung seiner Freunde gegen 
 <rs type="person" xml:id="pNt_53190" ref="#person_21110"><forename>Martha</forename></rs>. Ich erklärte, daß mir ihr Wesen in seiner steten Bewußtheit 
 und Gespanntheit, ihr socialer Ehrgeiz nicht sympathisch sei, daß ein 
@@ -197,6 +201,5 @@ Toilettensorgen.― Die <rs type="person" xml:id="pNt_53197" ref="#person_15374"
 <rs type="person" xml:id="pNt_53198" ref="#person_13152"><surname>Allers</surname></rs>.― Über <rs type="person" xml:id="pNt_53199" ref="#person_17786"><surname>Mahler</surname></rs>, <rs type="person" xml:id="pNt_53200" ref="#person_13555"><surname>Beethoven</surname></rs> ― autobiographische Musik.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

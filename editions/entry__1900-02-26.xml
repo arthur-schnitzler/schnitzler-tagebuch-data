@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1900-02-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-02-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-02-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1900-02-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-02-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-02-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F032-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -162,7 +166,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1541.tif"/>
@@ -170,9 +174,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1900-02-26">
-            <p xml:space="preserve"><date when="1900-02-26">26/2</date> Vorm. mit <rs type="person" xml:id="pNt_16893" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs> <rs type="place" xml:id="pl_03331" ref="#place_d3c577dc993c4cc879206c93d7ccb668">Augarten</rs>.― <rs type="person" xml:id="pNt_16894" ref="#person_16540"><surname>Jentsch</surname></rs> Concert.</p>
+            <p xml:space="preserve"><date when="1900-02-26">26/2</date> Vorm. mit <rs type="person" xml:id="pNt_16893" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs> <rs type="place" xml:id="pl_03331" ref="#pmb124">Augarten</rs>.― <rs type="person" xml:id="pNt_16894" ref="#person_16540"><surname>Jentsch</surname></rs> Concert.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

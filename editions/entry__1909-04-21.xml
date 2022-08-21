@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-04-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-04-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-04-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-04-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-04-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-04-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FCCD-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2679.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1909-04-21">
-            <p xml:space="preserve"><date when="1909-04-21">21/4</date> Vm. bei <rs type="person" xml:id="pNt_30141" ref="#person_21211"><surname>Weisse</surname></rs> <rs type="place" ref="#place_volkstheater">Volkstheater</rs>, ihn <rs type="place" xml:id="pl_06657" ref="#place_c12b8d9779a8ad2b240a57b31c979290">Prag</rs> einladen (<rs type="work" subtype="self" xml:id="bibl_12588">Ruf</rs>) er will 
-kommen.― Panorama (<rs type="place" xml:id="pl_06658" ref="#place_d3d8d213fb1fbd178f1c9c4aea35cbc6">Tirol</rs>).</p>
+            <p xml:space="preserve"><date when="1909-04-21">21/4</date> Vm. bei <rs type="person" xml:id="pNt_30141" ref="#person_21211"><surname>Weisse</surname></rs> <rs type="place" ref="#pmb92202">Volkstheater</rs>, ihn <rs type="place" xml:id="pl_06657" ref="#pmb91524">Prag</rs> einladen (<rs type="work" subtype="self" xml:id="bibl_12588">Ruf</rs>) er will 
+kommen.― Panorama (<rs type="place" xml:id="pl_06658" ref="#pmb423">Tirol</rs>).</p>
             <p xml:space="preserve" rend="indent">Nm. wenig am <rs type="work" subtype="self" xml:id="bibl_12589">Medardus</rs>.</p>
             <p xml:space="preserve" rend="indent">Zum Thee <rs type="person" xml:id="pNt_30142" ref="#person_20242"><surname>Speidels</surname></rs> und <rs type="person" xml:id="pNt_30143" ref="#person_20295"><roleName>Frl.</roleName> <surname>Springer</surname></rs>, die sehr schön <rs type="person" xml:id="pNt_30144" ref="#person_14203"><surname>Chopin</surname></rs>, <rs type="person" xml:id="pNt_30145" ref="#person_13344"><surname>Bach</surname></rs>, 
 <rs type="person" xml:id="pNt_30146" ref="#person_13555"><surname>Beethoven</surname></rs>, <rs type="person" xml:id="pNt_30147" ref="#person_18066"><surname>Mendelssohn</surname></rs> spielt. <rs type="person" xml:id="pNt_30148" ref="#person_20242"><surname>Speidels</surname></rs> auch zum Nachtmahl.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

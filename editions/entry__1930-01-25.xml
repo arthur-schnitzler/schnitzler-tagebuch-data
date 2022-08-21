@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-01-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-01-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-01-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-01-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-01-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-01-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1A67-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7428.tif"/>
@@ -182,7 +186,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1930-01-25">
             <p xml:space="preserve"><date when="1930-01-25">25/1</date> Dict. Briefe, <rs type="work" subtype="self" xml:id="bibl_837">Tgb.</rs>―</p>
-            <p xml:space="preserve" rend="indent">― <rs type="person" xml:id="pNt_88836" ref="#person_14234"><forename>Suz.</forename></rs> ruft aus <rs type="place" xml:id="pl_19083" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs> an.―</p>
+            <p xml:space="preserve" rend="indent">― <rs type="person" xml:id="pNt_88836" ref="#person_14234"><forename>Suz.</forename></rs> ruft aus <rs type="place" xml:id="pl_19083" ref="#pmb182">Paris</rs> an.―</p>
             <p xml:space="preserve" rend="indent"><rs ref="#person_14482" type="person" xml:id="pNt_88837"><forename>Ferry</forename></rs> bei mir um 5. <rs type="person" xml:id="pNt_88838" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> hatte ihn gebeten, sie zu besuchen, um über mich 
 zu reden. Er holte sich Directiven von mir.</p>
             <p xml:space="preserve" rend="indent">― <rs type="person" xml:id="pNt_88839" ref="#person_19832"><forename>O.</forename></rs> sendet Kritiken über <rs type="work" subtype="self" xml:id="bibl_838">Bernhardi</rs>. Scheint ungewöhnlicher Erfolg.― 
@@ -194,6 +198,5 @@ letzte Bild.― <rs ref="#person_14482" type="person" xml:id="pNt_88845"><forena
 wieder.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

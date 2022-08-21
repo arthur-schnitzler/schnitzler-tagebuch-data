@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-06-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-06-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-06-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-06-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-06-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-06-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FFE5-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3184.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1911-06-22">
-            <p xml:space="preserve"><date when="1911-06-22">22/6</date> Vm. <rs type="place" ref="#place_burgtheater">Burgtheater</rs>; Decorationsplan-Probe zum <rs type="work" subtype="self" xml:id="bibl_11064">W. L.</rs> Mit <rs type="person" xml:id="pNt_35604" ref="#person_13624"><surname>Berger</surname></rs> 
+            <p xml:space="preserve"><date when="1911-06-22">22/6</date> Vm. <rs type="place" ref="#pmb14">Burgtheater</rs>; Decorationsplan-Probe zum <rs type="work" subtype="self" xml:id="bibl_11064">W. L.</rs> Mit <rs type="person" xml:id="pNt_35604" ref="#person_13624"><surname>Berger</surname></rs> 
 und <rs type="person" xml:id="pNt_35605" ref="#person_17409"><surname>Lehner</surname></rs>. <rs type="person" xml:id="pNt_35606" ref="#person_13624"><surname>B.</surname></rs> über 1848, über seine melancholischen Depressionen (er 
 hat früher manchmal absichtlich den Revolver verlegt) etc.</p>
             <p xml:space="preserve" rend="indent">― Nm. mit Kopfweh meist im Garten.</p>
@@ -192,6 +196,5 @@ bei den ersten Proben zur <rs type="person" xml:id="pNt_35610"><forename>Helene<
 Qualitäten in ihr und sie ist eine gute Proberin.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

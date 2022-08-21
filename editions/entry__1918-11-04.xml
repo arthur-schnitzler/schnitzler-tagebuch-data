@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-11-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-11-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-11-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-11-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-11-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-11-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0A66-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4738.tif"/>
@@ -182,9 +186,9 @@
       <body>
          <div type="diary-day" xml:id="entry__1918-11-04">
             <p xml:space="preserve"><date when="1918-11-04">4/11</date> Vm. dictirt etc.―</p>
-            <p xml:space="preserve" rend="indent">Waffenstillstand. Ungeheuerliche Bedingungen <rs type="place" xml:id="pl_11364" ref="#place_389962c9dec540ab28d04517e82c3996">Italiens</rs>. <rs type="place" xml:id="pl_11365" ref="#place_b472f5868425ac2bc44e693fc3267e87">Oesterreich</rs> 
-Aufmarschgebiet gegen <rs type="place" xml:id="pl_11366" ref="#place_3c2f8b8c8c43538b25a0327ae84c3f65">Deutschland</rs>. <rs type="place" xml:id="pl_11367" ref="#place_d3d8d213fb1fbd178f1c9c4aea35cbc6">Tirol</rs> bis <rs type="place" xml:id="pl_11368" ref="#place_e794bd47a0c2b16ef03ce0f8891ad76a">Brenner</rs> an <rs type="place" xml:id="pl_11369" ref="#place_389962c9dec540ab28d04517e82c3996">Italien</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Mit O. Nm. bei <rs type="person" xml:id="pNt_54685" ref="#person_13551"><forename>Richard</forename></rs>. Seine Rückreise nach <rs type="place" xml:id="pl_11370" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>; die Zustände 
+            <p xml:space="preserve" rend="indent">Waffenstillstand. Ungeheuerliche Bedingungen <rs type="place" xml:id="pl_11364" ref="#pmb40306">Italiens</rs>. <rs type="place" xml:id="pl_11365" ref="#pmb41240">Oesterreich</rs> 
+Aufmarschgebiet gegen <rs type="place" xml:id="pl_11366" ref="#pmb151">Deutschland</rs>. <rs type="place" xml:id="pl_11367" ref="#pmb423">Tirol</rs> bis <rs type="place" xml:id="pl_11368" ref="#pmb608">Brenner</rs> an <rs type="place" xml:id="pl_11369" ref="#pmb40306">Italien</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Mit O. Nm. bei <rs type="person" xml:id="pNt_54685" ref="#person_13551"><forename>Richard</forename></rs>. Seine Rückreise nach <rs type="place" xml:id="pl_11370" ref="#pmb50">Wien</rs>; die Zustände 
 auf der Bahn. <rs type="place" xml:id="pl_11371" ref="#place_be7f11f190986254826063420695db61" ana="#exclude">Berliner</rs> Stimmungen. „Mausefalle“ hier.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_54686" ref="#person_21550"><roleName>Director</roleName> <surname>Ziegler</surname></rs>, Volksbühne ― wünscht gleichfalls den <rs type="work" subtype="self" xml:id="bibl_5937">Bernhardi</rs>!―</p>
             <p xml:space="preserve" rend="indent">― Nm. mit O. spazierend begegnen wir <rs type="person" xml:id="pNt_54687" ref="#person_20207"><forename>Hermine von</forename> <surname>Sonnenthal</surname></rs> die 
@@ -201,6 +205,5 @@ beute schon „bitterlich geweint“ hat.―</p>
 Alluren.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-08-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-08-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-08-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-08-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-08-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-08-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FBD0-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2540.tif"/>
@@ -181,12 +185,11 @@
       <body>
          <div type="diary-day" xml:id="entry__1908-08-11">
             <p xml:space="preserve"><date when="1908-08-11">11/8</date> Wald. „<rs type="work" subtype="self" xml:id="bibl_13583">W. Land</rs>“.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_28676" ref="#person_19827"><forename>Julius</forename></rs> und Familie besuchen uns, von <rs type="place" xml:id="pl_06423" ref="#place_c6f3801b0f7078f39cc75b8690301853">Gossensass</rs>, speisen da; Nm. 
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_28676" ref="#person_19827"><forename>Julius</forename></rs> und Familie besuchen uns, von <rs type="place" xml:id="pl_06423" ref="#pmb40474">Gossensass</rs>, speisen da; Nm. 
 „Roulette“.―</p>
-            <p xml:space="preserve" rend="indent">Abd. mit <rs type="person" xml:id="pNt_28677" ref="#person_13305"><surname>Auernheimer’s</surname></rs> gegen <rs type="place" xml:id="pl_06424" ref="#place_5452055e8577cd9fc11dc0a36db25147">Ratzes</rs> spazieren.</p>
+            <p xml:space="preserve" rend="indent">Abd. mit <rs type="person" xml:id="pNt_28677" ref="#person_13305"><surname>Auernheimer’s</surname></rs> gegen <rs type="place" xml:id="pl_06424" ref="#pmb92476">Ratzes</rs> spazieren.</p>
             <p xml:space="preserve" rend="indent"><rs ref="#person_19500" type="person" xml:id="pNt_28678"><surname>Sachsens</surname></rs>.― Domino.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

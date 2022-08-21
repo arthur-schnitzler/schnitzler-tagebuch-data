@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-11-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-11-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-11-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-11-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-11-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-11-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FF16-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3043.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1910-11-27">
-            <p xml:space="preserve"><date when="1910-11-27">27/11</date> ― S. Vm. spazieren im Schnee; <rs type="place" xml:id="pl_07295" ref="#place_bf303a935ba7bb30e892cb5d0f2ea6ac">Michaelerberg</rs>.</p>
+            <p xml:space="preserve"><date when="1910-11-27">27/11</date> ― S. Vm. spazieren im Schnee; <rs type="place" xml:id="pl_07295" ref="#pmb91239">Michaelerberg</rs>.</p>
             <p xml:space="preserve" rend="indent">Nm. kamen <rs type="person" xml:id="pNt_34036" ref="#person_15854"><forename>Gisa</forename></rs> und <rs type="person" xml:id="pNt_34037" ref="#person_15855"><surname>Hajek</surname></rs>, dann <rs type="person" xml:id="pNt_34038" ref="#person_19827"><forename>Julius</forename></rs>, <rs type="person" xml:id="pNt_34039" ref="#person_19823"><forename>Helene</forename></rs>; endlich 
 <rs type="person" xml:id="pNt_34040" ref="#person_16770"><surname>Kaufmann</surname></rs>.</p>
             <p xml:space="preserve" rend="indent">In die Burg, Loge, mit uns <rs type="person" xml:id="pNt_34041" ref="#person_19827"><forename>Julius</forename></rs>, <rs type="person" xml:id="pNt_34042" ref="#person_19823"><forename>Helene</forename></rs>, <rs type="person" xml:id="pNt_34043" ref="#person_20523"><forename>Annie</forename> <surname>Strial</surname></rs>. Ich war 
@@ -195,6 +199,5 @@ gratulirte und dankte (fürs Trinkgeld).―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_34049" ref="#person_16770"><surname>Kaufmann</surname></rs> nachtmahlte bei uns.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-10-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-10-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-10-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-10-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-10-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-10-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0059-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3251.tif"/>
@@ -184,12 +188,11 @@
          <div type="diary-day" xml:id="entry__1911-10-16">
             <p xml:space="preserve"><date when="1911-10-16">16/10</date> Vm. Briefe dictirt.―</p>
             <p xml:space="preserve" rend="indent">Nm. Dankbriefe etc. geschrieben.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_07653" ref="#place_be7f11f190986254826063420695db61" ana="#exclude">Berliner</rs>, <rs type="place" xml:id="pl_07654" ref="#place_7aa99f13e44dd25f7de294bc71abe4ff" ana="#exclude">Hamburger</rs>, <rs type="place" xml:id="pl_07655" ref="#place_60960432acfa4972c8f13dd89a872920">Breslauer</rs> Kritiken.― Die Mehrzahl übertrifft 
-an Idiotie das erwartete. Für <rs type="place" xml:id="pl_07656" ref="#place_3c2f8b8c8c43538b25a0327ae84c3f65">Deutschland</rs> scheint das <rs type="work" subtype="self" xml:id="bibl_11232">Stück</rs> im großen 
-und ganzen (vielleicht von <rs type="place" xml:id="pl_07657" ref="#place_35d7df6ed3d93be2927d14acc5f1fc9a">Hamburg</rs> abgesehn) ziemlich erledigt. Eine 
+            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_07653" ref="#place_be7f11f190986254826063420695db61" ana="#exclude">Berliner</rs>, <rs type="place" xml:id="pl_07654" ref="#place_7aa99f13e44dd25f7de294bc71abe4ff" ana="#exclude">Hamburger</rs>, <rs type="place" xml:id="pl_07655" ref="#pmb90392">Breslauer</rs> Kritiken.― Die Mehrzahl übertrifft 
+an Idiotie das erwartete. Für <rs type="place" xml:id="pl_07656" ref="#pmb151">Deutschland</rs> scheint das <rs type="work" subtype="self" xml:id="bibl_11232">Stück</rs> im großen 
+und ganzen (vielleicht von <rs type="place" xml:id="pl_07657" ref="#pmb506">Hamburg</rs> abgesehn) ziemlich erledigt. Eine 
 Geldhoffnung ins Wasser gefallen. Ärgerlich.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

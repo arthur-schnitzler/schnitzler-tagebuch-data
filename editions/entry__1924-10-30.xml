@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1924-10-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-10-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-10-31.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1924-10-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-10-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-10-31.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-12EF-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6383.tif"/>
@@ -181,16 +185,15 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1924-10-30">
-            <p xml:space="preserve"><date when="1924-10-30">30/10</date> Vm. <rs type="person" xml:id="pNt_73644" ref="#person_13607"><roleName>Hr.</roleName> <surname>Benvenisti</surname></rs> (<rs type="place" xml:id="pl_15759" ref="#place_59ead8d1e124ccfb79f3ace06f43e703">London</rs>) der indess zum Katholizismus 
-übergetreten ist, an die Dogmen glaubt, auch an <rs type="place" xml:id="pl_15760" ref="#place_14c5b43d5ef28ecbd3832782ed57f968">Lourdes</rs> (nachdem 
+            <p xml:space="preserve"><date when="1924-10-30">30/10</date> Vm. <rs type="person" xml:id="pNt_73644" ref="#person_13607"><roleName>Hr.</roleName> <surname>Benvenisti</surname></rs> (<rs type="place" xml:id="pl_15759" ref="#pmb224">London</rs>) der indess zum Katholizismus 
+übergetreten ist, an die Dogmen glaubt, auch an <rs type="place" xml:id="pl_15760" ref="#pmb49133">Lourdes</rs> (nachdem 
 kürzlich sein Interview mit mir über den Zionismus im <rs type="work" subtype="newspaper" xml:id="bibl_21368">Amer. Hebrew</rs> 
 erschienen ist). Wir spazierten eine Weile auch im Freien.―</p>
             <p xml:space="preserve" rend="indent">Dictirt Briefe, <rs type="work" subtype="self" xml:id="bibl_21369">aphoristisches</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Zu Tisch <rs type="person" xml:id="pNt_73645" ref="#person_13355"><forename>Ama</forename></rs> (sie war in <rs type="place" xml:id="pl_15761" ref="#place_834e1bca2cb7d2238249e70860ed8ae8">Meran</rs>).</p>
+            <p xml:space="preserve" rend="indent">Zu Tisch <rs type="person" xml:id="pNt_73645" ref="#person_13355"><forename>Ama</forename></rs> (sie war in <rs type="place" xml:id="pl_15761" ref="#pmb43520">Meran</rs>).</p>
             <p xml:space="preserve" rend="indent">Nm. an <rs type="work" subtype="self" xml:id="bibl_21370">aphoristischem</rs>.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_73646" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> im Kino („<rs type="work" xml:id="bibl_21371"><rs type="person" xml:id="pNt_73647" ref="#person_17604"><forename>Harold</forename> <surname>Lloyds</surname></rs> höchste Leistung</rs>“).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1916-04-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-04-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-04-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1916-04-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-04-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-04-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-06CA-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4249.tif"/>
@@ -181,13 +185,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1916-04-23">
-            <p xml:space="preserve"><date when="1916-04-23">23/4</date> Ostersonntag.― Spaziergang in kühlem trübem Wetter: <rs type="place" xml:id="pl_09890" ref="#place_3b0cf80ce6f7c6e0340cf31265c8f3f7">Sievring</rs> ― 
-― Agneswiese ― <rs type="place" xml:id="pl_09891" ref="#place_388686540f35afe7790d134863d92203">Kahlenberg</rs> (<rs type="work" subtype="self" xml:id="bibl_7355">Fldb.</rs> nachgedacht; sowie über die 
+            <p xml:space="preserve"><date when="1916-04-23">23/4</date> Ostersonntag.― Spaziergang in kühlem trübem Wetter: <rs type="place" xml:id="pl_09890" ref="#pmb64219">Sievring</rs> ― 
+― Agneswiese ― <rs type="place" xml:id="pl_09891" ref="#pmb574">Kahlenberg</rs> (<rs type="work" subtype="self" xml:id="bibl_7355">Fldb.</rs> nachgedacht; sowie über die 
 <rs type="place" xml:id="pl_09892" ref="#place_5315a714fa6e30028771b64a39ee667c" ana="#exclude">amerikanische</rs> Note von <rs type="person" xml:id="pNt_47851" ref="#person_21357"><surname>Wilson</surname></rs>; hierüber im Hinuntergehn mit <rs type="person" xml:id="pNt_47852" ref="#person_16767"><roleName>Dr.</roleName> <surname>Kauders</surname></rs> 
 <pb n="282"/>
 <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header"><fw n="282" place="top_left" type="pageNum">282</fw> <fw place="top_center"><date type="range">1916: IV 23 - IV 28</date></fw></tei:fw>
-und Frau gesprochen) ― <rs type="place" xml:id="pl_09893" ref="#place_137c1327d5f0a336e916932693da81c9">Silbergasse</rs>; <rs type="person" xml:id="pNt_47853" ref="#person_13359"><forename>Stephi</forename></rs> begegnet, mit ihr hinauf, 
-<rs type="person" xml:id="pNt_47854" ref="#person_13355"><forename>Ama</forename></rs>. (Über <rs type="place" xml:id="pl_09894" ref="#place_e884124295d0c4d07d9bcf5096fd5495">Amerika</rs>, über <rs type="person" xml:id="pNt_47855" ref="#person_19333"><surname>Rolland</surname></rs>.) ―</p>
+und Frau gesprochen) ― <rs type="place" xml:id="pl_09893" ref="#pmb92531">Silbergasse</rs>; <rs type="person" xml:id="pNt_47853" ref="#person_13359"><forename>Stephi</forename></rs> begegnet, mit ihr hinauf, 
+<rs type="person" xml:id="pNt_47854" ref="#person_13355"><forename>Ama</forename></rs>. (Über <rs type="place" xml:id="pl_09894" ref="#pmb43406">Amerika</rs>, über <rs type="person" xml:id="pNt_47855" ref="#person_19333"><surname>Rolland</surname></rs>.) ―</p>
             <p xml:space="preserve" rend="indent">― Nahm Nm. die <rs type="work" subtype="self" xml:id="bibl_7356">autobiogr. Anfänge</rs> hervor.―</p>
             <p xml:space="preserve" rend="indent">Las O. die <rs type="work" subtype="self" xml:id="bibl_7357">Wahnsinnsnov.</rs> vor; die einen sehr starken Eindruck auf 
 sie machte. Läßt man den Stoff gelten, so ist sie wohl gelungen (einige 
@@ -195,6 +199,5 @@ Weitläufigkeiten und Umständlichkeiten in der 2. Hälfte leicht zu
 tilgen).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

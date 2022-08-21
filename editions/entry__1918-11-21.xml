@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-11-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-11-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-11-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-11-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-11-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-11-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0A77-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4746.tif"/>
@@ -182,13 +186,12 @@
       <body>
          <div type="diary-day" xml:id="entry__1918-11-21">
             <p xml:space="preserve"><date when="1918-11-21">21/11</date> Probe <rs type="work" subtype="self" xml:id="bibl_5993">Bernhardi</rs> 2. und 3. Akt.―</p>
-            <p xml:space="preserve" rend="indent">Nach Tisch <rs type="person" xml:id="pNt_54800" ref="#person_13925"><forename>P.</forename> <surname>Brann</surname></rs>;― aus <rs type="place" xml:id="pl_11393" ref="#place_adc716be3364cf88f191f84a65a92e4e">Nisch</rs>, vorher Westen; nun fährt er nach 
-<rs type="place" xml:id="pl_11394" ref="#place_d0a6343a081a7335baa965ce4fd0845c">München</rs> zu den Seinen und zu seinem Puppentheater ― 
+            <p xml:space="preserve" rend="indent">Nach Tisch <rs type="person" xml:id="pNt_54800" ref="#person_13925"><forename>P.</forename> <surname>Brann</surname></rs>;― aus <rs type="place" xml:id="pl_11393" ref="#pmb91354">Nisch</rs>, vorher Westen; nun fährt er nach 
+<rs type="place" xml:id="pl_11394" ref="#pmb45258">München</rs> zu den Seinen und zu seinem Puppentheater ― 
 Rückzugsgeschichten. Grauenvolle Welt.</p>
             <p xml:space="preserve" rend="indent">Zum Thee <rs type="person" xml:id="pNt_54801" ref="#person_17958"><forename>Paul</forename> <surname>Marx</surname></rs> und <rs type="person" xml:id="pNt_54802" ref="#person_19986"><forename>Gustav</forename></rs>.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_54803" ref="#person_19822"><forename>Heini</forename></rs> <rs type="person" xml:id="pNt_54804" ref="#person_19902"><surname>Schubert</surname></rs> <rs type="work" xml:id="bibl_5994">D moll Qu.</rs>―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

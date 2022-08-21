@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1917-09-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-09-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-09-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1917-09-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-09-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-09-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-08CC-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4532.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1917-09-19">
-            <p xml:space="preserve"><date when="1917-09-19">19/9</date> Spazierfahrt mit O. <rs type="place" xml:id="pl_10719" ref="#place_5d0770456fbd6f86ec07eec5318b6d78">Engl. Garten</rs>. Nach Tisch bei <rs type="person" xml:id="pNt_51553" ref="#person_15485"><surname>Glümers</surname></rs>.― <rs type="person" xml:id="pNt_51554" ref="#person_17958"><forename>Paul</forename> 
+            <p xml:space="preserve"><date when="1917-09-19">19/9</date> Spazierfahrt mit O. <rs type="place" xml:id="pl_10719" ref="#pmb90589">Engl. Garten</rs>. Nach Tisch bei <rs type="person" xml:id="pNt_51553" ref="#person_15485"><surname>Glümers</surname></rs>.― <rs type="person" xml:id="pNt_51554" ref="#person_17958"><forename>Paul</forename> 
 <surname>Marx</surname></rs> und <rs type="person" xml:id="pNt_51555" ref="#person_19978"><forename>Mela</forename> <surname>Schwarz</surname></rs>. <rs type="person" xml:id="pNt_51556" ref="#person_17943"><forename>Hans</forename></rs> ein großer Bub von 14.</p>
             <p xml:space="preserve" rend="indent">Abends Prinz Reg.―Th. bei „<rs type="work" xml:id="bibl_6753">Palestrina</rs>“.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

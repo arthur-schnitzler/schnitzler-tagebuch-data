@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-07-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-07-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-07-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-07-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-07-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-07-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0B63-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4884.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1919-07-15">
-            <p xml:space="preserve"><date when="1919-07-15">15/7</date> Mit <rs type="person" xml:id="pNt_56530" ref="#person_21602"><forename>Vicki</forename></rs> (der heut Abend <rs type="place" xml:id="pl_11757" ref="#place_8ac85cc83788186b74cc9ca468d300c5">Brioni</rs> fährt) Hameau ― <rs type="place" xml:id="pl_11758" ref="#place_f31da60292f235984a0cb55466b84b5f">Weidlingbach</rs> ― 
-<rs type="place" xml:id="pl_11759" ref="#place_3b0cf80ce6f7c6e0340cf31265c8f3f7">Sievring</rs>.― Sein Vater „zwischen zwei Feuern“.― Über <rs type="person" xml:id="pNt_56531" ref="#person_15204"><surname>Fried</surname></rs>; Politik,― 
+            <p xml:space="preserve"><date when="1919-07-15">15/7</date> Mit <rs type="person" xml:id="pNt_56530" ref="#person_21602"><forename>Vicki</forename></rs> (der heut Abend <rs type="place" xml:id="pl_11757" ref="#pmb45260">Brioni</rs> fährt) Hameau ― <rs type="place" xml:id="pl_11758" ref="#pmb44394">Weidlingbach</rs> ― 
+<rs type="place" xml:id="pl_11759" ref="#pmb64219">Sievring</rs>.― Sein Vater „zwischen zwei Feuern“.― Über <rs type="person" xml:id="pNt_56531" ref="#person_15204"><surname>Fried</surname></rs>; Politik,― 
 <rs type="place" xml:id="pl_11760" ref="#place_ee4c6f2f0df2cd2abf7db20478cad25d" ana="#exclude">Wiener</rs> Wald.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_4944">Weiher</rs>, vergeblich.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_56532" ref="#person_19822"><forename>Heini</forename></rs> <rs type="person" xml:id="pNt_56533" ref="#person_20509"><forename>Rich.</forename> <surname>Strauss</surname></rs>, <rs type="work" xml:id="bibl_4945">Milit. Märsche</rs>, und Quartett.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

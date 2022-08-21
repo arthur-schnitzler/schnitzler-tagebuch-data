@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1925-02-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-02-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-02-06.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1925-02-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-02-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-02-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1351-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6445.tif"/>
@@ -183,12 +187,11 @@
       <body>
          <div type="diary-day" xml:id="entry__1925-02-05">
             <p xml:space="preserve"><date when="1925-02-05">5/2</date> Dict. Briefe, <rs type="work" subtype="self" xml:id="bibl_16234">Fr. d. R.</rs>―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_74391" ref="#person_16247"><surname>Hock</surname></rs> und <rs type="person" xml:id="pNt_74392" ref="#person_21050"><surname>Waldau</surname></rs> erscheinen; <rs type="person" xml:id="pNt_74393" ref="#person_21050"><surname>W.</surname></rs> möchte <rs type="work" subtype="self" xml:id="bibl_16235">Anatol</rs> im <rs type="place" xml:id="pl_15939" ref="#place_a9a988302086229505c21f885134919d">Josefst.</rs> Th. spielen (womit 
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_74391" ref="#person_16247"><surname>Hock</surname></rs> und <rs type="person" xml:id="pNt_74392" ref="#person_21050"><surname>Waldau</surname></rs> erscheinen; <rs type="person" xml:id="pNt_74393" ref="#person_21050"><surname>W.</surname></rs> möchte <rs type="work" subtype="self" xml:id="bibl_16235">Anatol</rs> im <rs type="place" xml:id="pl_15939" ref="#pmb58">Josefst.</rs> Th. spielen (womit 
 <rs type="person" xml:id="pNt_74394" ref="#person_19154"><surname>Reinhardt</surname></rs> so billig wie möglich einige Fliegen auf einen Schlag zu treffen vermeint); gab ohne Begeisterung meine Zustimmung.</p>
             <p xml:space="preserve" rend="indent">Nm. an <rs type="work" subtype="self" xml:id="bibl_16236">Fr. d. R.</rs>―</p>
             <p xml:space="preserve" rend="indent">Abends im Regina bei <rs type="person" xml:id="pNt_74395" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

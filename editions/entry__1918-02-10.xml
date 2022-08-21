@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-02-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-02-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-02-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-02-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-02-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-02-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-095B-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,18 +177,20 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4596.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1918-02-10">
             <p xml:space="preserve"><date when="1918-02-10">10/2</date> S.― In Frühlingwärme und -Himmel;― bei Glatteis und Koth 
-Hameau <rs type="place" xml:id="pl_10861" ref="#place_b900112ce988d972bc2d561413e84979">Sophien Alpe</rs> ― <rs type="place" xml:id="pl_10862" ref="#place_75f2e194839d6ba0e5d4080c211a449a">Dornbacher Park</rs> (<rs type="person" xml:id="pNt_52564" ref="#person_13285"><surname>Askonas</surname></rs> u. a.) ―</p>
+Hameau <rs type="place" xml:id="pl_10861" ref="#pmb92533">Sophien Alpe</rs> ― <rs type="place" xml:id="pl_10862" ref="#pmb176">Dornbacher Park</rs> (<rs type="person" xml:id="pNt_52564" ref="#person_13285"><surname>Askonas</surname></rs> u. a.) ―</p>
             <p xml:space="preserve" rend="indent">Zum Thee Frau <rs type="person" xml:id="pNt_52565" ref="#person_18786"><forename>Helene</forename> <surname>Piekarski</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Am „<rs type="work" subtype="self" xml:id="bibl_5340">Weiher</rs>“.―</p>
             <p xml:space="preserve" rend="indent">Zum N. <rs type="person" xml:id="pNt_52566" ref="#person_19986"><forename>Gustav</forename></rs> und <rs type="person" xml:id="pNt_52567" ref="#person_20925"><forename>Leo</forename></rs>; später <rs type="person" xml:id="pNt_52568" ref="#person_16770"><forename>Arthur</forename> <surname>Kfm.</surname></rs>―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

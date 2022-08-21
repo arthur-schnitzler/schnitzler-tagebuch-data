@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1902-01-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-12-31.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-01-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1902-01-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-12-31.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-01-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F2A9-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1665.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1902-01-01">
-            <p xml:space="preserve"><date when="1902-01-01">1/1</date> (<rs type="place" xml:id="pl_03834" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>.) Bei <rs type="person" xml:id="pNt_18336" ref="#person_15919"><surname>Harden</surname></rs>. Über <rs type="place" xml:id="pl_03835" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>. (<rs type="person" xml:id="pNt_18337" ref="#person_17108"><forename>Karl</forename> <surname>Kraus</surname></rs>.) „Da geh ich 
+            <p xml:space="preserve"><date when="1902-01-01">1/1</date> (<rs type="place" xml:id="pl_03834" ref="#pmb168">Berlin</rs>.) Bei <rs type="person" xml:id="pNt_18336" ref="#person_15919"><surname>Harden</surname></rs>. Über <rs type="place" xml:id="pl_03835" ref="#pmb50">Wien</rs>. (<rs type="person" xml:id="pNt_18337" ref="#person_17108"><forename>Karl</forename> <surname>Kraus</surname></rs>.) „Da geh ich 
 nicht mehr mit!“― Über die <rs type="work" subtype="self" xml:id="bibl_17952">Beatrice</rs>.― <rs type="person" xml:id="pNt_18338" ref="#person_17938"><surname>Martersteig</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_18339" ref="#person_13913"><surname>Brahm</surname></rs> gespeist: <rs type="person" xml:id="pNt_18340" ref="#person_14513"><surname>Dreyer</surname></rs>, <rs type="person" xml:id="pNt_18341" ref="#person_16036"><surname>Heilbut</surname></rs>, <rs type="person" xml:id="pNt_18342" ref="#person_19154"><surname>Reinhardt</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Abds. <rs type="person" xml:id="pNt_18343" ref="#person_21465"><surname>Wolzogen</surname></rs> Theater. Nett. <rs type="person" xml:id="pNt_18344" ref="#person_21465"><surname>W.</surname></rs> gesprochen.―</p>
             <p xml:space="preserve" rend="indent">Allein im Café Passage.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

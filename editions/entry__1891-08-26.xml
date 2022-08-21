@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1891-08-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-08-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-08-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1891-08-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-08-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-08-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E450-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0555.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1891-08-26">
-            <p xml:space="preserve"><date when="1891-08-26">26. 8.</date> ― In <rs type="place" xml:id="pl_01190" ref="#place_9a43e84f6e1d406076f2372205804f6d">B.</rs>― Sie spielte die <rs type="person" xml:id="pNt_05533"><forename>Alma</forename></rs>.― Ich litt besonders im 3. Akt, wo 
+            <p xml:space="preserve"><date when="1891-08-26">26. 8.</date> ― In <rs type="place" xml:id="pl_01190" ref="#pmb662">B.</rs>― Sie spielte die <rs type="person" xml:id="pNt_05533"><forename>Alma</forename></rs>.― Ich litt besonders im 3. Akt, wo 
 sie im Unterrock erscheint. Ich log ihr vor, eine Dame hätte gesagt: 
 Das ist schon unverschämt.― War riesig nervös, sie weinte.― Mit ihr 
 und Mutter genachtm.―</p>
@@ -192,6 +196,5 @@ und Mutter genachtm.―</p>
 entschuldigen, daß sie von meiner Beziehung zu <rs type="person" xml:id="pNt_05536" ref="#person_15485"><forename>Mz.</forename></rs> gesprochen.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

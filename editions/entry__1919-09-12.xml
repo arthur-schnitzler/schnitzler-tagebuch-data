@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-09-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-09-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-09-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-09-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-09-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-09-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0B9D-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4923.tif"/>
@@ -181,14 +185,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1919-09-12">
-            <p xml:space="preserve"><date when="1919-09-12">12/9</date> Nach <rs type="place" xml:id="pl_11870" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> zurück.</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_56864" ref="#person_17361"><surname>Laukhards</surname></rs> <rs type="work" xml:id="bibl_5023">Erinnerungen</rs> (zum 2. Mal) gelesen. In <rs type="place" xml:id="pl_11871" ref="#place_d1bbe5c82af588aa9fd6e5f65d6acab3">Reichenau</rs> auch <rs type="person" xml:id="pNt_56865" ref="#person_18087"><surname>Merimée</surname></rs> 
+            <p xml:space="preserve"><date when="1919-09-12">12/9</date> Nach <rs type="place" xml:id="pl_11870" ref="#pmb50">Wien</rs> zurück.</p>
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_56864" ref="#person_17361"><surname>Laukhards</surname></rs> <rs type="work" xml:id="bibl_5023">Erinnerungen</rs> (zum 2. Mal) gelesen. In <rs type="place" xml:id="pl_11871" ref="#pmb91574">Reichenau</rs> auch <rs type="person" xml:id="pNt_56865" ref="#person_18087"><surname>Merimée</surname></rs> 
 <rs type="work" xml:id="bibl_5024">Carmen</rs>.</p>
             <p xml:space="preserve" rend="indent">Getrödelt; geordnet.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_56866" ref="#person_14626"><surname>Eger</surname></rs> (<rs type="place" xml:id="pl_11872" ref="#place_35d7df6ed3d93be2927d14acc5f1fc9a">Hamburg</rs>) lehnt „<rs type="work" subtype="self" xml:id="bibl_5025">Schwestern</rs>“ ab,― was ein Fingerzeig für die 
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_56866" ref="#person_14626"><surname>Eger</surname></rs> (<rs type="place" xml:id="pl_11872" ref="#pmb506">Hamburg</rs>) lehnt „<rs type="work" subtype="self" xml:id="bibl_5025">Schwestern</rs>“ ab,― was ein Fingerzeig für die 
 bevorstehenden Schicksale des Stücks sein dürfte.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

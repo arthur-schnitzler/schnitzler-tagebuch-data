@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1921-02-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-02-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-02-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1921-02-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-02-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-02-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0D9F-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5303.tif"/>
@@ -183,7 +187,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1921-02-07">
             <p xml:space="preserve"><date when="1921-02-07">7/2</date> Dictirt Briefe ― <rs type="person" xml:id="pNt_61288" ref="#person_18881"><forename>Kolap</forename></rs> zu Tisch.</p>
-            <p xml:space="preserve" rend="indent">Zum Thee Syndicus <rs type="person" xml:id="pNt_61289" ref="#person_15673"><roleName>Dr.</roleName> <surname>Gronemann</surname></rs> <rs type="place" xml:id="pl_12766" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>, hatte mir seinen 
+            <p xml:space="preserve" rend="indent">Zum Thee Syndicus <rs type="person" xml:id="pNt_61289" ref="#person_15673"><roleName>Dr.</roleName> <surname>Gronemann</surname></rs> <rs type="place" xml:id="pl_12766" ref="#pmb168">Berlin</rs>, hatte mir seinen 
 Judenroman <rs type="work" xml:id="bibl_3119">Tohuwabohu</rs> gesandt; führt meinen <rs type="work" subtype="self" xml:id="bibl_3120">Reigen</rs> Prozess (Beschlagnahme). 
 Sehr zionistisch eingestellt; klug und guten Willens.―</p>
             <p xml:space="preserve" rend="indent"><rs ref="#person_15833" type="person" xml:id="pNt_61290"><forename>Else</forename> <surname>Speidel</surname></rs>; spricht sich über ihre „Anfälle“ aus (petit mal, mit 
@@ -198,6 +202,5 @@ lang mit mir über „Religion“.</p>
 machten.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

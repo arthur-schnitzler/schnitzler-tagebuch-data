@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1907-05-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-05-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-05-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1907-05-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-05-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-05-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FA30-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2379.tif"/>
@@ -182,11 +186,11 @@
          <div type="diary-day" xml:id="entry__1907-05-17">
             <p xml:space="preserve"><date when="1907-05-17">17/5</date> Vm. Tennis.―</p>
             <p xml:space="preserve" rend="indent">Nm. 4. und 5. Akt <rs type="work" subtype="self" xml:id="bibl_14254">Trgk.</rs> durchgesehen. Glaube nicht an das Stück. Regisseur 
-<rs type="person" xml:id="pNt_26898" ref="#person_17567"><surname>Linden</surname></rs> <rs type="place" xml:id="pl_05965" ref="#place_fcfff492e00727b63cf5dff9f59bc2a4">Stockholm</rs> besucht mich.</p>
+<rs type="person" xml:id="pNt_26898" ref="#person_17567"><surname>Linden</surname></rs> <rs type="place" xml:id="pl_05965" ref="#pmb1119">Stockholm</rs> besucht mich.</p>
             <p xml:space="preserve" rend="indent">Frl. <rs type="person" xml:id="pNt_26899" ref="#person_15508"><forename>Honora</forename> <surname>Götzl</surname></rs>, die mich neulich darum gebeten, bei mir, 38j. Mädchen, 
 erzählt mir eine langweilige Geschichte, mit Vorlesung von Briefen; ihre 
 Correspondenz, Verlobung, Verlassenwerden; Held der Geschichte: Dr. <rs type="person" xml:id="pNt_26900" ref="#person_13543"><forename>Ludwig</forename> 
-<surname>Beer</surname></rs>, den ich in <rs type="place" xml:id="pl_05966" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs> kennen lernte; Höhepunkt: ein Kuss; Peripetie: ein 
+<surname>Beer</surname></rs>, den ich in <rs type="place" xml:id="pl_05966" ref="#pmb182">Paris</rs> kennen lernte; Höhepunkt: ein Kuss; Peripetie: ein 
 Schildkrötenvergleich. Jetzt ist sie nahezu irrsinnig und findet in <rs type="person" xml:id="pNt_26901" ref="#person_15529"><forename>Paul</forename> 
 <surname>Goldmanns</surname></rs> Feuilletons (Freund von <rs type="person" xml:id="pNt_26902" ref="#person_13543"><surname>Beer</surname></rs>) Anspielungen, beabsichtigte.</p>
             <p xml:space="preserve" rend="indent">― Frl. <rs type="person" xml:id="pNt_26903" ref="#person_14535"><forename>Martha</forename> <surname>D.</surname></rs> und ihre Tochter <rs type="person" xml:id="pNt_26904" ref="#person_14534"><forename>Hansi</forename></rs> bei uns, in welche sich <rs type="person" xml:id="pNt_26905" ref="#person_19822"><forename>Heini</forename></rs> 
@@ -194,6 +198,5 @@ verliebte.―</p>
             <p xml:space="preserve" rend="indent">Mit O. und <rs type="person" xml:id="pNt_26906" ref="#person_20386"><forename>Liesl</forename></rs> zu <rs type="allusively" xml:id="rst_00840">Mama</rs>. Familie.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

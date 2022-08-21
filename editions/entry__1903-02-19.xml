@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1903-02-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-02-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-02-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1903-02-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-02-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-02-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F42A-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1774.tif"/>
@@ -195,7 +199,7 @@ des allgemeinen Urtheils mit der kleinlichsten Empfindlichkeit ― so einer
 ist dazu geboren, <hi xmlns:tei="http://www.tei-c.org/ns/1.0" rend="italicised">alles</hi> zu bereuen, was er angefangen ― denn er setzt 
 nie sich selber ein, und es gibt kein Glücksgefühl ohne diese 
 Entschlossenheit.</p>
-            <p xml:space="preserve" rend="indent">― War in der <rs type="place" xml:id="pl_04200" ref="#place_97af703f48200e54a8cc106005251faf">Gentzgasse</rs>, traf O. nicht mehr. Ging dann zu meiner 
+            <p xml:space="preserve" rend="indent">― War in der <rs type="place" xml:id="pl_04200" ref="#pmb40694">Gentzgasse</rs>, traf O. nicht mehr. Ging dann zu meiner 
 <rs type="allusively" xml:id="rst_00357">Schwester</rs>. Auf dem Weg traf ich, wie im Roman, <rs type="person" xml:id="pNt_19533" ref="#person_15473"><roleName>Frau</roleName> <surname>Gl.</surname></rs>, sie hatte 
 gehört, ich würde heiraten; sie war dagegen; ein Gespräch über die 
 großen Unsicherheiten alles Erotischen erhob sich in der Frühlingsluft. 
@@ -209,6 +213,5 @@ eigentlich ziemlich erlöst, nachdem es vorbei war.―</p>
             <p xml:space="preserve" rend="indent">In der Red. bei <rs type="person" xml:id="pNt_19538" ref="#person_19542"><surname>Salten</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

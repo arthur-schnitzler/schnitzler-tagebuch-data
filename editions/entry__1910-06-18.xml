@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-06-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-06-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-06-19.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-06-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-06-17.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-06-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FE74-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2922.tif"/>
@@ -182,15 +186,15 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1910-06-18">
-            <p xml:space="preserve"><date when="1910-06-18">18/6</date> Vm. bei <rs type="person" xml:id="pNt_32871" ref="#person_13551"><forename>Richard</forename></rs>, der zurück, in <rs type="place" xml:id="pl_07107" ref="#place_c2ad928214981e457405589604924059">Ischl</rs> gemiethet. Dictirt. (<rs type="work" subtype="self" xml:id="bibl_11797">Weiher</rs> 
+            <p xml:space="preserve"><date when="1910-06-18">18/6</date> Vm. bei <rs type="person" xml:id="pNt_32871" ref="#person_13551"><forename>Richard</forename></rs>, der zurück, in <rs type="place" xml:id="pl_07107" ref="#pmb213">Ischl</rs> gemiethet. Dictirt. (<rs type="work" subtype="self" xml:id="bibl_11797">Weiher</rs> 
 Skizze, 1. Akt u. a.) ―</p>
-            <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_32872" ref="#person_16019"><forename>Ivan</forename> <surname>Hedquist</surname></rs> aus <rs type="place" xml:id="pl_07108" ref="#place_fcfff492e00727b63cf5dff9f59bc2a4">Stockholm</rs> (hat den <rs type="person" xml:id="pNt_32873"><forename>Henri</forename></rs> im <rs type="work" subtype="self" xml:id="bibl_11798">Kakadu</rs> 
+            <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_32872" ref="#person_16019"><forename>Ivan</forename> <surname>Hedquist</surname></rs> aus <rs type="place" xml:id="pl_07108" ref="#pmb1119">Stockholm</rs> (hat den <rs type="person" xml:id="pNt_32873"><forename>Henri</forename></rs> im <rs type="work" subtype="self" xml:id="bibl_11798">Kakadu</rs> 
 gespielt) mit Grüßen von <rs type="person" xml:id="pNt_32874" ref="#person_17567"><surname>Linden</surname></rs>.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_32875" ref="#person_15475"><roleName>Reg. Rath</roleName> <surname>Glossy</surname></rs>, für die <rs type="work" subtype="newspaper" xml:id="bibl_11799">Österreichische Rundschau</rs>. Er blieb über 
 eine Stunde; über <rs type="person" xml:id="pNt_32876" ref="#person_19724"><surname>Schlenther</surname></rs> (<rs type="work" subtype="self" xml:id="bibl_11800">Kakadu</rs> ― <rs type="work" subtype="self" xml:id="bibl_11801">Beatrice</rs> ― <rs type="work" subtype="self" xml:id="bibl_11802">Medardus</rs>) ― 
 <rs type="person" xml:id="pNt_32877" ref="#person_13624"><surname>Berger</surname></rs>, <rs type="person" xml:id="pNt_32878" ref="#person_16646"><surname>Kainz</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Mit O. spazieren. Veränderungen des Stadtbilds in der <rs type="place" xml:id="pl_07109" ref="#place_e880ca481efc4dadf11451d7e3a29d18" ana="#exclude">Gegend</rs> des 
-neuen <rs type="place" xml:id="pl_07110" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzparks</rs>.―</p>
+neuen <rs type="place" xml:id="pl_07110" ref="#pmb113">Türkenschanzparks</rs>.―</p>
             <pb n="155"/>
             <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header">
                <fw place="top_center">
@@ -201,6 +205,5 @@ neuen <rs type="place" xml:id="pl_07110" ref="#place_70badd7ef7036249b2048516efb
             <p xml:space="preserve" rend="indent">Brief <rs type="person" xml:id="pNt_32879" ref="#person_19546"><surname>Salters</surname></rs>, auf Anfrage, mit Arrangements Concert-Bedingungen.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

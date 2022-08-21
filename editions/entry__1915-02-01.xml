@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-02-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-01-31.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1915-02-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-01-31.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-050B-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3980.tif"/>
@@ -182,13 +186,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1915-02-01">
-            <p xml:space="preserve"><date when="1915-02-01">1/2</date> Auf den <rs type="place" xml:id="pl_09198" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs>. O. mir entgegen, erzählt von dem 
+            <p xml:space="preserve"><date when="1915-02-01">1/2</date> Auf den <rs type="place" xml:id="pl_09198" ref="#pmb91735">Semmering</rs>. O. mir entgegen, erzählt von dem 
 Versöhnungsgespräch mit <rs ref="#person_16647" type="person" xml:id="pNt_44894"><forename>Grethl</forename></rs>, die ihr nun sehr leid thut, in Thränen.― 
 <rs type="person" xml:id="pNt_44895" ref="#person_19986"><forename>Gustav</forename></rs> schon recht wohl.―</p>
             <p xml:space="preserve" rend="indent">Spaziergänge.― Nm. an „<rs type="work" subtype="self" xml:id="bibl_7902">Wahnsinn</rs>“.</p>
             <p xml:space="preserve" rend="indent">Nach dem Nachtm. mit <rs type="person" xml:id="pNt_44896" ref="#person_20796"><surname>Trebitsch</surname></rs> Billard.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

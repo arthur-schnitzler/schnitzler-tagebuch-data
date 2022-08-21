@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-11-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-11-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-11-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-11-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-11-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-11-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FC31-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,19 +176,21 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2581.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1908-11-16">
             <p xml:space="preserve"><date when="1908-11-16">16/11</date> Vm. nach zweij. Pause bei <rs type="person" xml:id="pNt_29149" ref="#person_15562"><roleName>Prof.</roleName> <surname>Gomperz</surname></rs>. R. Ohr angeblich stationär, 
 l. erheblich schlechter. Beginn einer leichten Behandlung (u. a. f. v.).―</p>
             <p xml:space="preserve" rend="indent">Nm. gelesen. Dictirt (<rs type="work" subtype="self" xml:id="bibl_13768">Medardus</rs>).</p>
-            <p xml:space="preserve" rend="indent">Mit O. <rs type="place" ref="#place_volkstheater">Volkstheater</rs> „<rs type="work" xml:id="bibl_13769">Vater</rs>“.</p>
-            <p xml:space="preserve" rend="indent">Dann im <rs type="place" ref="#place_meissl">Meissl</rs>, wo wir <rs type="person" xml:id="pNt_29151" ref="#person_20986"><surname>Vollmoeller</surname></rs> vergebl. erwarteten.</p>
+            <p xml:space="preserve" rend="indent">Mit O. <rs type="place" ref="#pmb92202">Volkstheater</rs> „<rs type="work" xml:id="bibl_13769">Vater</rs>“.</p>
+            <p xml:space="preserve" rend="indent">Dann im <rs type="place" ref="#pmb96">Meissl</rs>, wo wir <rs type="person" xml:id="pNt_29151" ref="#person_20986"><surname>Vollmoeller</surname></rs> vergebl. erwarteten.</p>
             <p xml:space="preserve" rend="indent">O.’s Nervenzustand, rückwirkend auf mich.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

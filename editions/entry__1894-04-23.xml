@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1894-04-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-04-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-04-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1894-04-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-04-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-04-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E817-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0831.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1894-04-23">
-            <p xml:space="preserve"><date when="1894-04-23">23/4</date> Am <rs type="place" xml:id="pl_01681" ref="#place_9dfc9b35777cae0df69e6863e1c4e482">Schüttel</rs> spazieren.― Expressbrief Nachts von <rs type="person" xml:id="pNt_08693" ref="#person_15485"><forename>Mz.</forename></rs></p>
+            <p xml:space="preserve"><date when="1894-04-23">23/4</date> Am <rs type="place" xml:id="pl_01681" ref="#pmb92523">Schüttel</rs> spazieren.― Expressbrief Nachts von <rs type="person" xml:id="pNt_08693" ref="#person_15485"><forename>Mz.</forename></rs></p>
             <p xml:space="preserve" rend="indent">Abds. bei <rs type="person" xml:id="pNt_08694" ref="#person_19564"><forename>Dilly</forename></rs> bis 3. Beschimpften uns gegenseitig.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

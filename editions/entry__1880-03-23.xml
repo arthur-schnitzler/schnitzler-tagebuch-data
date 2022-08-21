@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1880-03-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-03-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-03-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1880-03-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-03-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-03-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DD2F-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0034.tif"/>
@@ -187,9 +191,8 @@ Tag verrückt. Ich liebe dich bis zur Raserei.― </p>
             <p xml:space="preserve" rend="indent">(und in dem Tone weiter ―) </p>
             <p xml:space="preserve" rend="indent">Oh ich hab, dich lieb, daß ich ein Narr werden könnte.“ <rs type="person" xml:id="pNt_00298"><forename>Arth.</forename></rs> </p>
             <p xml:space="preserve" rend="indent">Abend.― Gestern Vorm. <rs type="person" xml:id="pNt_00299" ref="#person_17368"><forename>Fanny</forename></rs>.― </p>
-            <p xml:space="preserve" rend="indent">Heute in der <rs type="place" xml:id="pl_00066" ref="#place_f631af0928a7361f4420df1bc5fe6661">Rotenturmstraße</rs>.― Tief verstimmt.</p>
+            <p xml:space="preserve" rend="indent">Heute in der <rs type="place" xml:id="pl_00066" ref="#pmb709">Rotenturmstraße</rs>.― Tief verstimmt.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

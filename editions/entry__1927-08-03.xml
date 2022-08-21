@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-08-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-08-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-08-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-08-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-08-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-08-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-16DD-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,14 +177,15 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6917.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1927-08-03">
-            <p xml:space="preserve"><date when="1927-08-03">3/8</date> Briefe aus <rs type="place" xml:id="pl_17432" ref="#place_e4d4b19346747823e5636ed1238a7521">Venedig</rs>; von <rs type="person" xml:id="pNt_81352" ref="#person_19822"><forename>Heini</forename></rs> Karte aus <rs type="place" xml:id="pl_17433" ref="#place_75b06df88a6338e51a73fabf2f11c672">Campiglio</rs> ― mein 
+            <p xml:space="preserve"><date when="1927-08-03">3/8</date> Briefe aus <rs type="place" xml:id="pl_17432" ref="#pmb462">Venedig</rs>; von <rs type="person" xml:id="pNt_81352" ref="#person_19822"><forename>Heini</forename></rs> Karte aus <rs type="place" xml:id="pl_17433" ref="#pmb427">Campiglio</rs> ― mein 
 <rs type="place" xml:id="pl_17434" ref="#place_62aef3b2ba83787a2048d0a52158f275" ana="#exclude">Altausseerplan</rs> dadurch hinfällig geworden.―</p>
             <p xml:space="preserve" rend="indent">Roman (<rs type="work" subtype="self" xml:id="bibl_24590">Therese</rs>) an <rs type="person" xml:id="pNt_81353"><surname>Fischer</surname></rs> abgesandt.―</p>
             <p xml:space="preserve" rend="indent">Dictirt <rs type="work" subtype="self" xml:id="bibl_24591">aphoristisches</rs>.―</p>
@@ -191,5 +196,6 @@
 („<rs type="work" xml:id="bibl_24594">der junge David</rs>“), und so gab es nach langer Zeit ein Gespräch über 
 Arbeit ― von meiner Seite über den Josef-Stoff. Es war ein angenehmer Abend.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

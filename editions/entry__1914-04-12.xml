@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-04-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-04-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-04-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-04-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-04-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-04-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-03E6-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,17 +177,18 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3810.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3811.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3812.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1914-04-12">
-            <p xml:space="preserve"><date when="1914-04-12">12/4</date> Ostersonntag. Im Auto mit O. und <rs type="person" xml:id="pNt_43307" ref="#person_19822"><forename>Heini</forename></rs> <rs type="place" xml:id="pl_08664" ref="#place_b900112ce988d972bc2d561413e84979">Sophienalpe</rs>, dann in 
-herrlichstem Frühlingswetter zu Fuß über <rs type="place" xml:id="pl_08665" ref="#place_456956129851adb8efce513e9565f9da">Hainbach</rs> nach <rs type="place" xml:id="pl_08666" ref="#place_14868a84e5f21dcb5b7a964884d2708e">Weidlingau</rs>.―</p>
+            <p xml:space="preserve"><date when="1914-04-12">12/4</date> Ostersonntag. Im Auto mit O. und <rs type="person" xml:id="pNt_43307" ref="#person_19822"><forename>Heini</forename></rs> <rs type="place" xml:id="pl_08664" ref="#pmb92533">Sophienalpe</rs>, dann in 
+herrlichstem Frühlingswetter zu Fuß über <rs type="place" xml:id="pl_08665" ref="#pmb90821">Hainbach</rs> nach <rs type="place" xml:id="pl_08666" ref="#pmb92059">Weidlingau</rs>.―</p>
             <p xml:space="preserve" rend="indent">Vor Tisch erschienen noch <rs type="person" xml:id="pNt_43308" ref="#person_19542"><surname>Salten</surname></rs> und Frau; er schon ganz wohl und 
 guter Stimmung, hat einen Roman vollendet.― Wir preisen den Frühling, 
 auf der sonnigen Terrasse sitzend.―</p>
@@ -205,5 +210,6 @@ mitbrachte, und die ihm auch ein Kind geboren.―</p>
 Zank zwischen O. und mir.</p>
             <p xml:space="preserve" rend="indent">Las <rs type="work" xml:id="bibl_8800">Othello</rs>, nach langer Zeit.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

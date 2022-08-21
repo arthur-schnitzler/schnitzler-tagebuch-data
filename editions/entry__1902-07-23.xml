@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1902-07-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-07-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-07-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1902-07-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-07-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-07-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F35D-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1697.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1902-07-23">
-            <p xml:space="preserve"><date when="1902-07-23">23/7</date> Rad <rs type="place" xml:id="pl_04029" ref="#place_1c25b7ddfa66b762b6b5c3b15c11411b">Gainfarn</rs>, woselbst <rs type="person" xml:id="pNt_18775"><roleName>Frau</roleName> <surname>v. Hofmannsthal</surname></rs> (Phlebitis) <rs type="person" xml:id="pNt_18776"><roleName>Herr</roleName> <surname>v. H.</surname></rs>, <rs type="person" xml:id="pNt_18777" ref="#person_15237"><forename>Theodor</forename> <surname>Friedmann</surname></rs> etc.―</p>
+            <p xml:space="preserve"><date when="1902-07-23">23/7</date> Rad <rs type="place" xml:id="pl_04029" ref="#pmb41007">Gainfarn</rs>, woselbst <rs type="person" xml:id="pNt_18775"><roleName>Frau</roleName> <surname>v. Hofmannsthal</surname></rs> (Phlebitis) <rs type="person" xml:id="pNt_18776"><roleName>Herr</roleName> <surname>v. H.</surname></rs>, <rs type="person" xml:id="pNt_18777" ref="#person_15237"><forename>Theodor</forename> <surname>Friedmann</surname></rs> etc.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_18778" ref="#person_18356"><forename>Napoleon</forename></rs> lese ich (<rs type="person" xml:id="pNt_18779" ref="#person_15598"><surname>[Gouperaux]</surname></rs>).― Vorboten bei <rs type="person" xml:id="pNt_18780" ref="#person_19832"><forename>Olga</forename></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

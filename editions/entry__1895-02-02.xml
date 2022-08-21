@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1895-02-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-02-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-02-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1895-02-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-02-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-02-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E930-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0967.tif"/>
@@ -183,7 +187,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1895-02-02">
             <p xml:space="preserve"><date when="1895-02-02">2/2</date> Vormittag in der Vorstadt spazieren, was wie Brom auf mich 
-wirkt.― Nm. <rs type="person" xml:id="pNt_10005"><surname>Wärndorfers</surname></rs>. <rs type="place" xml:id="pl_01901" ref="#place_53a577bb3bc587b0c28ab808390f1c9b">Japan</rs>. Pantomime <rs type="person" xml:id="pNt_10006" ref="#person_19508"><forename>Lisa</forename></rs> und ihre Brüder.― 
+wirkt.― Nm. <rs type="person" xml:id="pNt_10005"><surname>Wärndorfers</surname></rs>. <rs type="place" xml:id="pl_01901" ref="#pmb318">Japan</rs>. Pantomime <rs type="person" xml:id="pNt_10006" ref="#person_19508"><forename>Lisa</forename></rs> und ihre Brüder.― 
 <rs type="person" xml:id="pNt_10007"><forename>Minnie</forename> <surname>B.</surname></rs> Sie sprach u. a. vom Costume der <rs type="person" xml:id="pNt_10008" ref="#person_19564"><surname>S.</surname></rs> in den <rs type="work" xml:id="bibl_22089">Kameraden</rs> und 
 sagte endlich: „Sie trägt auch so ein kleines Armband mit einem 
 Kleeblatt, das ist sehr hübsch ―“ sah mich dabei an, ich sie auch mit 
@@ -200,6 +204,5 @@ welchem die erste <rs type="person" xml:id="pNt_10018" ref="#person_16228"><role
 Bemerkungen von neulich ein.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-10-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-10-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-10-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-10-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-10-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-10-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FEF9-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3014.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1910-10-29">
-            <p xml:space="preserve"><date when="1910-10-29">29/10</date> Besorgungen Stadt. Panorama (<rs type="place" xml:id="pl_07269" ref="#place_986f51a7ad3bed298456ad48d484ebc2">Mantua</rs>, <rs type="place" xml:id="pl_07270" ref="#place_9a677a8fef077d847cc1d6d558b8630f">Cremona</rs> etc.).―</p>
+            <p xml:space="preserve"><date when="1910-10-29">29/10</date> Besorgungen Stadt. Panorama (<rs type="place" xml:id="pl_07269" ref="#pmb48637">Mantua</rs>, <rs type="place" xml:id="pl_07270" ref="#pmb90500">Cremona</rs> etc.).―</p>
             <p xml:space="preserve" rend="indent">An der <rs type="work" subtype="self" xml:id="bibl_12076">Parabel</rs> gefeilt. 
 <rs type="person" xml:id="pNt_33801" ref="#person_19804"><forename>Fanny</forename> <surname>Schneider</surname></rs>, der ich neulich darum geschrieben, kam mit 
 meinen Briefen an <rs type="person" xml:id="pNt_33802" ref="#person_21047"><forename>Olga</forename> <surname>Waissnix</surname></rs>, die sie aufbewahrt und die ich 
@@ -194,6 +198,5 @@ Erinnerung Sie ihr bewahren! Daß ich ihr das nicht erzählen kann …“
 Über das <rs type="place" xml:id="pl_07271" ref="#place_c36b7142b0db843145d23f041b30af1d" ana="#exclude">Vöslauer</rs> Haus mit dem „Salon Wuchtl“.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

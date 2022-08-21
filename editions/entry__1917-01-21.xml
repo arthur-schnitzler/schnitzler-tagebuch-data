@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1917-01-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-01-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-01-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1917-01-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-01-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-01-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-07DB-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4393.tif"/>
@@ -182,8 +186,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1917-01-21">
-            <p xml:space="preserve"><date when="1917-01-21">21/1</date> S. Schöner Wintertag. Himmel, Cobenzl.― <rs type="person" xml:id="pNt_49701" ref="#person_15375"><roleName>Dr.</roleName> <surname>Gelber</surname></rs> (Krieg, <rs type="place" xml:id="pl_10371" ref="#place_64f607906be7598a02d75dbc1e979662">England</rs>, 
-Antisem. in <rs type="place" xml:id="pl_10372" ref="#place_ec846208a2a38eace9d773acdfe33f97">Galizien</rs>) <rs type="person" xml:id="pNt_49702" ref="#person_21264"><forename>Paul</forename> <surname>Wertheimer</surname></rs>, <rs type="person" xml:id="pNt_49703" ref="#person_20277"><roleName>Dr.</roleName> <surname>Spitzer</surname></rs> (über neuere Literatur).</p>
+            <p xml:space="preserve"><date when="1917-01-21">21/1</date> S. Schöner Wintertag. Himmel, Cobenzl.― <rs type="person" xml:id="pNt_49701" ref="#person_15375"><roleName>Dr.</roleName> <surname>Gelber</surname></rs> (Krieg, <rs type="place" xml:id="pl_10371" ref="#pmb90593">England</rs>, 
+Antisem. in <rs type="place" xml:id="pl_10372" ref="#pmb644">Galizien</rs>) <rs type="person" xml:id="pNt_49702" ref="#person_21264"><forename>Paul</forename> <surname>Wertheimer</surname></rs>, <rs type="person" xml:id="pNt_49703" ref="#person_20277"><roleName>Dr.</roleName> <surname>Spitzer</surname></rs> (über neuere Literatur).</p>
             <p xml:space="preserve" rend="indent">― Nm. vertrödelt.― <rs type="person" xml:id="pNt_49704" ref="#person_19115"><roleName>Prof.</roleName> <surname>Reich</surname></rs> holt mich ab, ich fahre mit <rs type="person" xml:id="pNt_49705" ref="#person_16852"><forename>Hansi</forename></rs> <rs type="person" xml:id="pNt_49706" ref="#person_16852"><forename>Schm.</forename></rs> 
 und <rs type="person" xml:id="pNt_49707"><forename>Vicki</forename> <surname>Z.</surname></rs> ins Volkheim. (O. mit Catarrh zu Bett.) Lese vor 
 überfülltem Saal <rs type="work" subtype="self" xml:id="bibl_6170">Kakadu</rs> (besser als je, doch verstandens die Leute 
@@ -202,6 +206,5 @@ die <rs type="person" xml:id="pNt_49713" ref="#person_14602"><surname>Eschenbach
 O. hatte indess <rs type="work" subtype="self" xml:id="bibl_6173">Redegonda</rs> und andres gelesen und sagte kluges drüber.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

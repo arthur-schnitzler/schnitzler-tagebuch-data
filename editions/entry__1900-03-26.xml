@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1900-03-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-03-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-03-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1900-03-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-03-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-03-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F04E-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -162,19 +166,21 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1549.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1550.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1900-03-26">
             <p xml:space="preserve"><date when="1900-03-26">26/3</date> Traum, daß ich in Uniform mit Civilhosen (wie im <rs type="work" xml:id="bibl_18415">Traumdeutungs
 Buch</rs> von <rs type="person" xml:id="pNt_16950" ref="#person_15172"><surname>Freud</surname></rs> gelesen) aber doch unentdeckt von <rs type="person" xml:id="pNt_16951" ref="#person_21338"><roleName>Kaiser</roleName> <forename>Wilhelm II.</forename></rs>
-(dem ich begegne) von einem Thor (<rs type="place" xml:id="pl_03353" ref="#place_46bebbb34a0464036f16a73ab72e5026">unter den Linden</rs>) ins andre gehe.―</p>
+(dem ich begegne) von einem Thor (<rs type="place" xml:id="pl_03353" ref="#pmb91975">unter den Linden</rs>) ins andre gehe.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_16952" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs>― Heirat ernster, soll zur Tante ziehn.―</p>
             <p xml:space="preserve" rend="indent">Abd. <rs type="person" xml:id="pNt_16953" ref="#person_13920"><surname>Brandes</surname></rs> und <rs type="person" xml:id="pNt_16954" ref="#person_13551"><forename>Richard</forename></rs> im Club.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

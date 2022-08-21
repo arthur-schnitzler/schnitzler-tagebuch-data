@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1889-08-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-08-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-08-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1889-08-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-08-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-08-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E19C-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0406.tif"/>
@@ -181,9 +185,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1889-08-20">
-            <p xml:space="preserve"><date when="1889-08-20">20.</date> <rs type="place" xml:id="pl_00843" ref="#place_d1bbe5c82af588aa9fd6e5f65d6acab3">Reichenau</rs> ― <rs type="place" xml:id="pl_00844" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> ― <rs type="place" xml:id="pl_00845" ref="#place_908933d2ee8da1864993a5ad1d533780">Nlgb.</rs>― Vergeblich Warten. <rs type="place" xml:id="pl_00846" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.― Dirne.</p>
+            <p xml:space="preserve"><date when="1889-08-20">20.</date> <rs type="place" xml:id="pl_00843" ref="#pmb91574">Reichenau</rs> ― <rs type="place" xml:id="pl_00844" ref="#pmb50">Wien</rs> ― <rs type="place" xml:id="pl_00845" ref="#pmb55279">Nlgb.</rs>― Vergeblich Warten. <rs type="place" xml:id="pl_00846" ref="#pmb50">Wien</rs>.― Dirne.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

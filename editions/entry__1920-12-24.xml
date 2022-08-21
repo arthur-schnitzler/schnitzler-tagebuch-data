@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-12-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-12-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-12-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1920-12-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-12-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-12-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0D72-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5253.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1920-12-24">
-            <p xml:space="preserve"><date when="1920-12-24">24/12</date> Ztgs.telegramme aus <rs type="place" xml:id="pl_12683" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>. <rs type="work" subtype="self" xml:id="bibl_4452">Reigenpremiere</rs> ― trotz in letzter 
+            <p xml:space="preserve"><date when="1920-12-24">24/12</date> Ztgs.telegramme aus <rs type="place" xml:id="pl_12683" ref="#pmb168">Berlin</rs>. <rs type="work" subtype="self" xml:id="bibl_4452">Reigenpremiere</rs> ― trotz in letzter 
 Stunde erlassenen gerichtl. Verbotes. Rede der <rs type="person" xml:id="pNt_60808" ref="#person_14840"><surname>Eysoldt</surname></rs>;― ihr und <rs type="person" xml:id="pNt_60809" ref="#person_20161"><surname>Sladek</surname></rs> 6 
 Wochen Haft angedroht. Publicum demonstrirt für mich. Aufführung scheint 
 recht mäßig gewesen, insbesondre <rs type="person" xml:id="pNt_60810" ref="#person_14816"><surname>Ettlinger</surname></rs> als Dichter versagte. 
@@ -196,7 +200,7 @@ aus meiner lit. Vergangenheit.― Er theilt mir mit, wir schwimmen in Kohle
 u. a.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_60815" ref="#person_18424"><roleName>Reg. R.</roleName> <surname>Neumann</surname></rs> begleitet mich eine Weile.</p>
             <p xml:space="preserve" rend="indent">― Zur Bescherung Nm. <rs type="person" xml:id="pNt_60816" ref="#person_19986"><forename>Gustav</forename></rs>, <rs type="person" xml:id="pNt_60817" ref="#person_21406"><surname>Wittels</surname></rs> und Frau; <rs type="person" xml:id="pNt_60818" ref="#person_13547"><forename>Bubi</forename> <surname>B.-H.</surname></rs> und <rs type="person" xml:id="pNt_60819" ref="#person_18881"><forename>Kolap</forename></rs>.― 
-Ich <rs type="person" xml:id="pNt_60820" ref="#person_19832"><forename>O.</forename></rs>: Bonbons, Seife, 10.000; sie mir allerlei aus <rs type="place" xml:id="pl_12684" ref="#place_d0a6343a081a7335baa965ce4fd0845c">München</rs> (zum Essen, 
+Ich <rs type="person" xml:id="pNt_60820" ref="#person_19832"><forename>O.</forename></rs>: Bonbons, Seife, 10.000; sie mir allerlei aus <rs type="place" xml:id="pl_12684" ref="#pmb45258">München</rs> (zum Essen, 
 Cravate etc.).― Stimmung recht gedrückt.― Eh ich, mit <rs type="person" xml:id="pNt_60821" ref="#person_19822"><forename>Heini</forename></rs> fortging; 
 steh ich mit <rs type="person" xml:id="pNt_60822" ref="#person_19832"><forename>O.</forename></rs> und <rs type="person" xml:id="pNt_60823" ref="#person_19986"><forename>Gustav</forename></rs>;― er spricht von dem Dahinrasen der Zeit ― <rs type="person" xml:id="pNt_60824" ref="#person_19832"><forename>O.</forename></rs>: 
 „Es ist gut so … Was möchte man denn festhalten ―?“ ― Meine schmerzliche 
@@ -206,6 +210,5 @@ heim kam, lag <rs type="person" xml:id="pNt_60827" ref="#person_19832"><forename
 in meinem Zimmer in die Nacht hinein</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1902-06-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-06-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-06-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1902-06-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-06-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-06-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F342-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1693.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1902-06-26">
-            <p xml:space="preserve"><date when="1902-06-26">26/6</date> <rs type="place" xml:id="pl_03979" ref="#place_a25ff6cb521df1cd0272d03eee7efd32">Brühl</rs> ― <rs type="place" xml:id="pl_03980" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.― Abd. <rs type="person" xml:id="pNt_18743" ref="#person_15854"><forename>Gisa</forename></rs>.― Vergessne Karte <rs type="person" xml:id="pNt_18744" ref="#person_15529"><forename>Paul</forename> <surname>G.’s</surname></rs> in einem 
+            <p xml:space="preserve"><date when="1902-06-26">26/6</date> <rs type="place" xml:id="pl_03979" ref="#pmb44413">Brühl</rs> ― <rs type="place" xml:id="pl_03980" ref="#pmb50">Wien</rs>.― Abd. <rs type="person" xml:id="pNt_18743" ref="#person_15854"><forename>Gisa</forename></rs>.― Vergessne Karte <rs type="person" xml:id="pNt_18744" ref="#person_15529"><forename>Paul</forename> <surname>G.’s</surname></rs> in einem 
 Ztgs.blatt (<rs type="work" subtype="self" xml:id="bibl_18037">Gustl-Übersetzung</rs>) mit <rs type="person" xml:id="pNt_18745" ref="#person_19832"><forename>O.s</forename></rs> Adresse; wodurch <rs type="allusively" xml:id="rst_00335">Mama</rs> es 
 erfährt. Sie sagt zu <rs type="person" xml:id="pNt_18746" ref="#person_15854"><forename>Gisa</forename></rs>: „Wenn er nur reden würde.“ ―</p>
-            <p xml:space="preserve" rend="indent">Tante <rs type="person" xml:id="pNt_18747" ref="#person_17905"><forename>Marie</forename> <surname>Markbreiter</surname></rs>, die wieder nach <rs type="place" xml:id="pl_03981" ref="#place_e884124295d0c4d07d9bcf5096fd5495">Amerika</rs> reist.</p>
+            <p xml:space="preserve" rend="indent">Tante <rs type="person" xml:id="pNt_18747" ref="#person_17905"><forename>Marie</forename> <surname>Markbreiter</surname></rs>, die wieder nach <rs type="place" xml:id="pl_03981" ref="#pmb43406">Amerika</rs> reist.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

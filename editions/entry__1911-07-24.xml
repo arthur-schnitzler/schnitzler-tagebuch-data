@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-07-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-07-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-07-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-07-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-07-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-07-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0005-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3198.tif"/>
@@ -181,14 +185,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1911-07-24">
-            <p xml:space="preserve"><date when="1911-07-24">24/7</date> Ankunft <rs type="place" xml:id="pl_07544" ref="#place_c38ad36647aca0261d667c432a4866bd">Salzburg</rs>. Weiter nach <rs type="place" xml:id="pl_07545" ref="#place_10610ec60fcdfbccb325e1eec16a82ad">Berchtesgaden</rs>. Wagen auf den 
-<rs type="place" xml:id="pl_07546" ref="#place_3e80f45bee3a482033de0b76d721fa96">Ober Salzberg</rs>. Pension Antenberg. Dort gegessen. Freundliche 
+            <p xml:space="preserve"><date when="1911-07-24">24/7</date> Ankunft <rs type="place" xml:id="pl_07544" ref="#pmb91649">Salzburg</rs>. Weiter nach <rs type="place" xml:id="pl_07545" ref="#pmb797">Berchtesgaden</rs>. Wagen auf den 
+<rs type="place" xml:id="pl_07546" ref="#pmb91375">Ober Salzberg</rs>. Pension Antenberg. Dort gegessen. Freundliche 
 Wirthin. Miethgedanken.</p>
-            <p xml:space="preserve" rend="indent">Zurück. Nach <rs type="place" xml:id="pl_07547" ref="#place_50fce40d86c3084224109d978bdf526c">Gilgen</rs>. In <rs type="place" xml:id="pl_07548" ref="#place_93dc255e180026f5b7c3bdb1f13cf130">Plomberg</rs> stieg <rs type="person" xml:id="pNt_35810" ref="#person_20523"><forename>Annie</forename> <surname>Strial</surname></rs> mit Gemahl 
-und ein <rs type="person" xml:id="pNt_35811" ref="#person_14566"><roleName>Frl.</roleName> <surname>[Duren]</surname></rs>, Malerin aus <rs type="place" xml:id="pl_07549" ref="#place_d0af1daaf551d7122bca625ff338e705">Kassel</rs> zu uns ein.― Wohnen 
-See-Hotel. <rs ref="#person_20098" type="person" xml:id="pNt_35812"><surname>Sikoras</surname></rs>. Nachtmahlen alle in <rs type="place" xml:id="pl_07550" ref="#place_1f8c82592620c6015573491c32824424">Lueg</rs>.</p>
+            <p xml:space="preserve" rend="indent">Zurück. Nach <rs type="place" xml:id="pl_07547" ref="#pmb33">Gilgen</rs>. In <rs type="place" xml:id="pl_07548" ref="#pmb91494">Plomberg</rs> stieg <rs type="person" xml:id="pNt_35810" ref="#person_20523"><forename>Annie</forename> <surname>Strial</surname></rs> mit Gemahl 
+und ein <rs type="person" xml:id="pNt_35811" ref="#person_14566"><roleName>Frl.</roleName> <surname>[Duren]</surname></rs>, Malerin aus <rs type="place" xml:id="pl_07549" ref="#pmb39640">Kassel</rs> zu uns ein.― Wohnen 
+See-Hotel. <rs ref="#person_20098" type="person" xml:id="pNt_35812"><surname>Sikoras</surname></rs>. Nachtmahlen alle in <rs type="place" xml:id="pl_07550" ref="#pmb91173">Lueg</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

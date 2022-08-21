@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1900-04-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-04-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-04-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1900-04-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-04-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-04-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F063-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -162,7 +166,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1555.tif"/>
@@ -171,11 +175,10 @@
       <body>
          <div type="diary-day" xml:id="entry__1900-04-16">
             <p xml:space="preserve"><date when="1900-04-16">16/4</date> Ostermontag.― Brief von <rs type="person" xml:id="pNt_16993" ref="#person_17368"><forename>Fännchen</forename></rs> nach langer Zeit ― sie wird
-nach <rs type="place" xml:id="pl_03376" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> übersiedeln, ganz entsprechend dem Brief in der <rs type="work" subtype="self" xml:id="bibl_18421">Novelle</rs>.
+nach <rs type="place" xml:id="pl_03376" ref="#pmb50">Wien</rs> übersiedeln, ganz entsprechend dem Brief in der <rs type="work" subtype="self" xml:id="bibl_18421">Novelle</rs>.
 Diese Novelle (begonnen 1/1) schloss ich heute Nachm. ab.― Vorm.
-erste Radfahrt heuer, <rs type="place" xml:id="pl_03377" ref="#place_86a694cf5ce5552ca627cb96b607eccd">Prater</rs>. Sehne mich nach Zärtlichkeit.―</p>
+erste Radfahrt heuer, <rs type="place" xml:id="pl_03377" ref="#pmb91530">Prater</rs>. Sehne mich nach Zärtlichkeit.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

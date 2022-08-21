@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-07-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-07-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-07-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-07-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-07-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-07-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-19AF-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7329.tif"/>
@@ -182,7 +186,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1929-07-25">
             <p xml:space="preserve"><date when="1929-07-25">25/7</date> Dictirt „<rs type="work" subtype="self" xml:id="bibl_491">Spiel</rs>“ ― Briefe.―</p>
-            <p xml:space="preserve" rend="indent">Dr. <rs type="person" xml:id="pNt_87336" ref="#person_17586"><forename>Sol</forename> <surname>Liptzin</surname></rs>, junger Docent <rs type="place" xml:id="pl_18785" ref="#place_87809c954948d8a20507bee3648281b3">New York</rs> College, erzählt mir von dem 
+            <p xml:space="preserve" rend="indent">Dr. <rs type="person" xml:id="pNt_87336" ref="#person_17586"><forename>Sol</forename> <surname>Liptzin</surname></rs>, junger Docent <rs type="place" xml:id="pl_18785" ref="#pmb44053">New York</rs> College, erzählt mir von dem 
 Interesse seiner Schüler besonders für mich; können nicht genug von 
 mir und über mich lesen.―</p>
             <p xml:space="preserve" rend="indent">Eine besonders herzliche Kritik über <rs type="work" subtype="self" xml:id="bibl_492">Therese</rs> von <rs type="person" xml:id="pNt_87337" ref="#person_15430"><surname>Gillet</surname></rs> in der <rs type="work" subtype="newspaper" xml:id="bibl_493">Revue des 
@@ -192,6 +196,5 @@ die Leute auch, „enthusiastisch“ zu sein.―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_87339" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> genachtm. Im Radio „<rs type="work" xml:id="bibl_494">Verkaufte Braut</rs>“.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

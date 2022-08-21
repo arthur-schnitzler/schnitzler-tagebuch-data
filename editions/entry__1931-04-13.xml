@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-04-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-04-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-04-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1931-04-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-04-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-04-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1C22-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7680.tif"/>
@@ -184,12 +188,11 @@
          <div type="diary-day" xml:id="entry__1931-04-13">
             <p xml:space="preserve"><date when="1931-04-13">13/4</date> Früh <rs type="person" xml:id="pNt_92617" ref="#person_17562"><forename>R.</forename> <surname>L.</surname></rs>― (Behandlung.) ―</p>
             <p xml:space="preserve" rend="indent">Dict. Briefe, <rs type="work" subtype="self" xml:id="bibl_23698">Tgb.</rs> 1886 und Anfang 87.</p>
-            <p xml:space="preserve" rend="indent">Nm. (von Westb. aus) mit <rs type="person" xml:id="pNt_92618" ref="#person_14234"><forename>Suz.</forename></rs> <rs type="place" xml:id="pl_19839" ref="#place_971d9360a377fa82fd2640a5119b1112">Schönbrunn</rs>. Obelisk und Ruine.― Nachher im 
+            <p xml:space="preserve" rend="indent">Nm. (von Westb. aus) mit <rs type="person" xml:id="pNt_92618" ref="#person_14234"><forename>Suz.</forename></rs> <rs type="place" xml:id="pl_19839" ref="#pmb92518">Schönbrunn</rs>. Obelisk und Ruine.― Nachher im 
 (Xaire) Café;― (woselbst <rs type="person" xml:id="pNt_92619" ref="#person_15412"><roleName>Director</roleName> <surname>Geyer</surname></rs> und <rs type="person" xml:id="pNt_92620" ref="#person_16654"><surname>Kalbeck</surname></rs>).</p>
             <p xml:space="preserve" rend="indent">Zu Haus der Lampenmann <rs type="person" xml:id="pNt_92621" ref="#person_13157"><surname>Alt</surname></rs>; <rs type="person" xml:id="pNt_92622" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>;― probirt einige Zimmer und einen neuen 
 Luster …― <rs type="person" xml:id="pNt_92623" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> nachtm. bei mir, Stimmung übel.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

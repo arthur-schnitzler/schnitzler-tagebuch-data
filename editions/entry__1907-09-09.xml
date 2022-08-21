@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1907-09-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-09-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-09-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1907-09-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-09-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-09-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FAA3-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,15 +176,17 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2407.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1907-09-09">
-            <p xml:space="preserve"><date when="1907-09-09">9/9</date> Nach <rs type="place" xml:id="pl_06093" ref="#place_3859ff9074d497ed0cb3c08be85996ad">Bozen</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_27270" ref="#person_13682"><surname>Bernstein</surname></rs> nach <rs type="place" xml:id="pl_06094" ref="#place_7580f5f486c19fc6b5b0dec742ca1949">Gries</rs>, Hotel Austria, der Hotelier <rs type="person" xml:id="pNt_27271" ref="#person_18513"><surname>Obermüllner</surname></rs>.―</p>
+            <p xml:space="preserve"><date when="1907-09-09">9/9</date> Nach <rs type="place" xml:id="pl_06093" ref="#pmb40260">Bozen</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_27270" ref="#person_13682"><surname>Bernstein</surname></rs> nach <rs type="place" xml:id="pl_06094" ref="#pmb45092">Gries</rs>, Hotel Austria, der Hotelier <rs type="person" xml:id="pNt_27271" ref="#person_18513"><surname>Obermüllner</surname></rs>.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

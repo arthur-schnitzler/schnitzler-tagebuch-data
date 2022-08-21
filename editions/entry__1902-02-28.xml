@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1902-02-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-02-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-03-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1902-02-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-02-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-03-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F2D6-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1671.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1902-02-28">
-            <p xml:space="preserve"><date when="1902-02-28">28/2</date> Speising, <rs type="place" xml:id="pl_03871" ref="#place_3962fe91966640892c61d1838300ed1a">St. Veit</rs>.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_03872" ref="#place_02031ed2507818d10a37c1a6bf0c9f9d">Mödling</rs>, <rs ref="#person_19843" type="person" xml:id="pNt_18494"><surname>Schoenberger</surname></rs>, mit <rs type="person" xml:id="pNt_18495" ref="#person_19986"><forename>Gustav</forename></rs>.―</p>
+            <p xml:space="preserve"><date when="1902-02-28">28/2</date> Speising, <rs type="place" xml:id="pl_03871" ref="#pmb91377">St. Veit</rs>.―</p>
+            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_03872" ref="#pmb968">Mödling</rs>, <rs ref="#person_19843" type="person" xml:id="pNt_18494"><surname>Schoenberger</surname></rs>, mit <rs type="person" xml:id="pNt_18495" ref="#person_19986"><forename>Gustav</forename></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

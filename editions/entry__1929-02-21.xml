@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-02-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-02-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-02-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-02-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-02-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-02-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1915-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7243.tif"/>
@@ -181,14 +185,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1929-02-21">
-            <p xml:space="preserve"><date when="1929-02-21">21/2</date> Vm. <rs type="person" xml:id="pNt_86002" ref="#person_14234"><forename>Suz.</forename> <surname>Clauser</surname></rs>; <rs type="place" xml:id="pl_18519" ref="#place_55c76de3045e4a0a1e0b4506c5e2d403" ana="#exclude">französ.</rs> Verlagssachen (sie war in <rs type="place" xml:id="pl_18520" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs>). Allerlei 
+            <p xml:space="preserve"><date when="1929-02-21">21/2</date> Vm. <rs type="person" xml:id="pNt_86002" ref="#person_14234"><forename>Suz.</forename> <surname>Clauser</surname></rs>; <rs type="place" xml:id="pl_18519" ref="#place_55c76de3045e4a0a1e0b4506c5e2d403" ana="#exclude">französ.</rs> Verlagssachen (sie war in <rs type="place" xml:id="pl_18520" ref="#pmb182">Paris</rs>). Allerlei 
 persönliches. Ihr christl. Mann.―</p>
             <p xml:space="preserve" rend="indent">Dictirt Briefe; <rs type="work" subtype="self" xml:id="bibl_133">Aphor.</rs>―</p>
             <p xml:space="preserve" rend="indent">Nm. „<rs type="work" subtype="self" xml:id="bibl_134">Zug der Sch.</rs>“ ― 3. Scene ― erwogen.</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_86003" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> „Komoedie“ (<rs type="place" xml:id="pl_18521" ref="#place_a9a988302086229505c21f885134919d">Josefst.</rs> Theater) <rs type="person" xml:id="pNt_86004" ref="#person_14295"><surname>Coward</surname></rs>: <rs type="work" xml:id="bibl_135">Ehe von Welt</rs> (die <rs type="person" xml:id="pNt_86005" ref="#person_13413"><surname>Bard</surname></rs>); 
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_86003" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> „Komoedie“ (<rs type="place" xml:id="pl_18521" ref="#pmb58">Josefst.</rs> Theater) <rs type="person" xml:id="pNt_86004" ref="#person_14295"><surname>Coward</surname></rs>: <rs type="work" xml:id="bibl_135">Ehe von Welt</rs> (die <rs type="person" xml:id="pNt_86005" ref="#person_13413"><surname>Bard</surname></rs>); 
 nachher mit ihr Linde.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

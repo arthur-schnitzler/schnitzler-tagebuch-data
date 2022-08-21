@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-05-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-05-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-05-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-05-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-05-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-05-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FCD9-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,22 +177,23 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2685.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2686.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1909-05-03">
-            <p xml:space="preserve"><date when="1909-05-03">3/5</date> Vm. Stadt, Panorama (<rs type="place" xml:id="pl_06669" ref="#place_89e0e4f0f8e79b49034b1e356e79090e">Dolomiten</rs>).</p>
+            <p xml:space="preserve"><date when="1909-05-03">3/5</date> Vm. Stadt, Panorama (<rs type="place" xml:id="pl_06669" ref="#pmb90533">Dolomiten</rs>).</p>
             <p xml:space="preserve" rend="indent">Nachricht, <rs type="person" xml:id="pNt_30237" ref="#person_17825"><forename>Louis</forename> <surname>Mandl</surname></rs> neulich von <rs type="person" xml:id="pNt_30238" ref="#person_19827"><forename>Julius</forename></rs> Blinddarm operirt, viel 
 schlechtes, nach gestern neuer Operation. Erschüttert, Nachmittag 
 gleich hin; treffe <rs type="person" xml:id="pNt_30239" ref="#person_17821"><forename>Irene</forename></rs>, <rs type="person" xml:id="pNt_30240" ref="#person_17825"><forename>Louis’</forename></rs> Frau, andre in Verzweiflung; <rs type="person" xml:id="pNt_30241" ref="#person_17825"><forename>Louis</forename></rs> 
 erfährt, ich hier, wünscht mich zu sehn; ich sitze an seinem Bett, seine 
 Hand in meiner, mache ihm Hoffnung als wären die Ärzte zufrieden … 
 was ihn sichtlich beruhigt; er spricht von unsrer alten Freundschaft, 
-gratulirt mir zu <rs type="place" xml:id="pl_06670" ref="#place_c12b8d9779a8ad2b240a57b31c979290">Prag</rs>! ― ist unzufrieden, daß auch Olga von seiner 
+gratulirt mir zu <rs type="place" xml:id="pl_06670" ref="#pmb91524">Prag</rs>! ― ist unzufrieden, daß auch Olga von seiner 
 Erkrankung wisse ― „grüß mir deine Frau“.― Ich verlaß ihn in der 
 Überzeugung, ihn nicht wiederzusehn.― <rs type="person" xml:id="pNt_30242" ref="#person_19827"><forename>Julius</forename></rs>, <rs type="person" xml:id="pNt_30243" ref="#person_16241"><surname>Hochenegg</surname></rs> kommen, 
 neue Operation beschlossen.―</p>
@@ -200,5 +205,6 @@ neue Hoffnung; sprach <rs type="person" xml:id="pNt_30244" ref="#person_19827"><
 Existenz die meines Bruders!―</p>
             <p xml:space="preserve" rend="indent">Noch in die Nacht hinein gearbeitet. Was kann man andres?―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

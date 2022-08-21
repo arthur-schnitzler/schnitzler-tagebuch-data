@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-08-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-08-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0190-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3463.tif"/>
@@ -183,10 +187,9 @@
          <div type="diary-day" xml:id="entry__1912-08-22">
             <p xml:space="preserve"><date when="1912-08-22">22/8</date> Bei <rs type="person" xml:id="pNt_38661" ref="#person_17444"><roleName>Dr.</roleName> <surname>Lenz</surname></rs>.― Bad.― Gepackt.</p>
             <p xml:space="preserve" rend="indent">Die Kinder im Motor, begleitet von <rs type="person" xml:id="pNt_38662" ref="#person_21601"><surname>Zuckerkandls</surname></rs> und <rs type="person" xml:id="pNt_38663" ref="#person_14259"><surname>Colmers</surname></rs> und 
-<rs type="person" xml:id="pNt_38664" ref="#person_17204"><surname>Kupelwieser</surname></rs> (Segel), nach <rs type="place" xml:id="pl_08004" ref="#place_9219ee9e1eb760ce3bd97532b5ca05e1">Pola</rs> gebracht; <rs type="person" xml:id="pNt_38665" ref="#person_19822"><forename>Heini</forename></rs> weint im Coupé.―</p>
+<rs type="person" xml:id="pNt_38664" ref="#person_17204"><surname>Kupelwieser</surname></rs> (Segel), nach <rs type="place" xml:id="pl_08004" ref="#pmb851">Pola</rs> gebracht; <rs type="person" xml:id="pNt_38665" ref="#person_19822"><forename>Heini</forename></rs> weint im Coupé.―</p>
             <p xml:space="preserve" rend="indent">Nach dem Nachtmahl Poker.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

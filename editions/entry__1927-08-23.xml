@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-08-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-08-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-08-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-08-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-08-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-08-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-16F1-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6933.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1927-08-23">
-            <p xml:space="preserve"><date when="1927-08-23">23/8</date> <rs type="place" xml:id="pl_17505" ref="#place_3859ff9074d497ed0cb3c08be85996ad">Bozen</rs>. Herum, mit <rs type="person" xml:id="pNt_81552" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Mittags Aussprache mit ihr. Mittagessen Greif.―</p>
+            <p xml:space="preserve"><date when="1927-08-23">23/8</date> <rs type="place" xml:id="pl_17505" ref="#pmb40260">Bozen</rs>. Herum, mit <rs type="person" xml:id="pNt_81552" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Mittags Aussprache mit ihr. Mittagessen Greif.―</p>
             <p xml:space="preserve" rend="indent">Nm. Briefe.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_81553" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Kino (<rs type="work" xml:id="bibl_24625">mio Papa</rs>); vor Schluss weg, Stadtcafé genachtm.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

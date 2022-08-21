@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-12-31.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-12-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-01-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1906-12-31.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-12-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-01-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F9A7-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2308.tif"/>
@@ -181,8 +185,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1906-12-31">
-            <p xml:space="preserve"><date when="1906-12-31">31/12</date> Vm. mit <rs type="person" xml:id="pNt_26053" ref="#person_20242"><surname>Speidel</surname></rs> Spaziergang <rs type="place" xml:id="pl_05779" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> ― <rs type="place" xml:id="pl_05780" ref="#place_f5af0e4beb99b2ded62ac5ff72643954">Dornbach</rs> <rs type="place" xml:id="pl_05781" ref="#place_a513bae177c89d12226f343ac5ff1ee3">Salmannsdorf</rs>, 
-tiefer Schnee auf dem <rs type="place" xml:id="pl_05782" ref="#place_cc6eda773537f8cb4db5cb1b862d0e0d">Sommerhaidenweg</rs> und an den Wäldern.</p>
+            <p xml:space="preserve"><date when="1906-12-31">31/12</date> Vm. mit <rs type="person" xml:id="pNt_26053" ref="#person_20242"><surname>Speidel</surname></rs> Spaziergang <rs type="place" xml:id="pl_05779" ref="#pmb169">Pötzleinsdorf</rs> ― <rs type="place" xml:id="pl_05780" ref="#pmb90546">Dornbach</rs> <rs type="place" xml:id="pl_05781" ref="#pmb91641">Salmannsdorf</rs>, 
+tiefer Schnee auf dem <rs type="place" xml:id="pl_05782" ref="#pmb243">Sommerhaidenweg</rs> und an den Wäldern.</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_15404">Roman</rs>.―</p>
             <p xml:space="preserve" rend="indent">Hatten an <rs type="person" xml:id="pNt_26054" ref="#person_16646"><surname>Kainz</surname></rs> und Frau Blumen, die <rs type="work" subtype="self" xml:id="bibl_15405">Bertha Garlan</rs> an seine Frau, geschickt, 
 und ich hatte ihm dazu einen netten Brief geschrieben. Darauf kam gegen 
@@ -197,6 +201,5 @@ Roulette; ganz lustig; ich verlor 14 Kronen.</p>
 1907</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

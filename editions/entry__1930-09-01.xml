@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-09-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-08-31.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-09-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-09-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-08-31.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-09-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1B42-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7546.tif"/>
@@ -183,7 +187,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1930-09-01">
             <p xml:space="preserve"><date when="1930-09-01">1/9</date> Vorm. tel. mit <rs type="person" xml:id="pNt_90583" ref="#person_14234"><forename>Suz.</forename></rs>; aufgeathmet.</p>
-            <p xml:space="preserve" rend="indent">Traum heut Nacht. Übern <rs type="place" xml:id="pl_19494" ref="#place_9ae90ea21d3e063c02809f046183f123">Ring</rs> mit <rs type="person" xml:id="pNt_90584" ref="#person_19986"><forename>Gustav</forename></rs>; in die Gartenbaugesellschaft 
+            <p xml:space="preserve" rend="indent">Traum heut Nacht. Übern <rs type="place" xml:id="pl_19494" ref="#pmb91600">Ring</rs> mit <rs type="person" xml:id="pNt_90584" ref="#person_19986"><forename>Gustav</forename></rs>; in die Gartenbaugesellschaft 
 (jetzt Kino), eine Art Menagerie im Traum;― riesige ausschlagende 
 Fabelpferde veranlassen mich durch eine angelehnte Bretterwand ins Freie;― 
 schmaler Längsgang;― ein phantastisches (fuchsartiges) Thier kratzt, 
@@ -200,6 +204,5 @@ zugleich über den Namen.―</p>
 ― in der Maske des alten <rs type="allusively" xml:id="rst_02194">Kaisers</rs> als Trottel).― Bei <rs type="org">Klinger</rs> genachtm.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

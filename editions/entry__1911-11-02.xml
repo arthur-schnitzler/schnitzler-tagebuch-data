@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-11-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-11-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-11-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-11-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-11-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-11-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-006A-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,15 +177,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3262.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3263.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1911-11-02">
-            <p xml:space="preserve"><date when="1911-11-02">2/11</date> Vm. nach <rs type="place" xml:id="pl_07673" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>. Esplanade Hotel. Gegessen.</p>
+            <p xml:space="preserve"><date when="1911-11-02">2/11</date> Vm. nach <rs type="place" xml:id="pl_07673" ref="#pmb168">Berlin</rs>. Esplanade Hotel. Gegessen.</p>
             <p xml:space="preserve" rend="indent">Zu <rs type="person" xml:id="pNt_36502" ref="#person_17834"><forename>Heinrich</forename> <surname>Mann</surname></rs> ins Hotel, von dem eine Einladung zur Samstag 
 Generalprobe <rs type="work" xml:id="bibl_11267">Schauspielerin</rs> da war. Mit ihm bei <rs type="org">Josty</rs>. Er schreibt 
 einen Roman „<rs type="work" xml:id="bibl_11268">Der Unterthan</rs>“.</p>
@@ -196,5 +201,6 @@ bedanken mußte. 12.Vorstellung. Es wird nicht lang gehn.</p>
 <rs type="work" xml:id="bibl_11270">Rosenkavalierwalzer</rs>, während dessen (zufällig) <rs type="person" xml:id="pNt_36516" ref="#person_21036"><forename>Siegfried</forename> <surname>Wagner</surname></rs> den Saal 
 verläßt. Karte an <rs type="person" xml:id="pNt_36517" ref="#person_16293"><forename>Hugo</forename></rs>.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

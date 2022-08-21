@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-12-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-12-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-12-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-12-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-12-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-12-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0A86-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4753.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1918-12-06">
-            <p xml:space="preserve"><date when="1918-12-06">6/12</date> Regelmäßige Überschrift in den Ztg. seit ein paar Tagen „<rs type="place" xml:id="pl_11407" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> vor 
+            <p xml:space="preserve"><date when="1918-12-06">6/12</date> Regelmäßige Überschrift in den Ztg. seit ein paar Tagen „<rs type="place" xml:id="pl_11407" ref="#pmb50">Wien</rs> vor 
 der Katastrophe“. Stimmung danach.―</p>
             <p xml:space="preserve" rend="indent">Begegnung mit <rs type="person" xml:id="pNt_54876" ref="#person_15338"><forename>Jul.</forename></rs> und O. <rs type="person" xml:id="pNt_54877" ref="#person_15338"><surname>Ludaßy</surname></rs>;― nette Plauderei über die 
 Möglichkeiten der nächsten Zeit;― ein heimkehrender Soldat, gewiegter 
@@ -201,6 +205,5 @@ Geschmacklosigkeiten, besonders gegen Schluss kein Mangel, und die
 nazarenische Anbiederung am Schluss widerlich. Amüsant und schmissig.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

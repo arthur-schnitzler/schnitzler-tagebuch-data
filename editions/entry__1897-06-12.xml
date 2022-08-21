@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1897-06-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-06-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-06-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1897-06-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-06-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-06-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EC83-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1335.tif"/>
@@ -184,10 +188,9 @@
             <p xml:space="preserve"><date when="1897-06-12">12/6</date> Nm. erscheint <rs type="person" xml:id="pNt_14078" ref="#person_21214"><forename>Fifi</forename></rs>. Der kl. <rs type="person" xml:id="pNt_14079" ref="#person_17108"><surname>Kraus</surname></rs> lernte sie neulich kennen, der 
 ihr gleich die 2. Aufl. s. <rs type="work" xml:id="bibl_21647">demol. Literatur</rs> schickte.―</p>
             <p xml:space="preserve" rend="indent">― Abds. mit <rs type="person" xml:id="pNt_14080" ref="#person_16293"><forename>Hugo</forename></rs>, statt Bic., Spaziergang Kellerwiese ― 
-<rs type="place" xml:id="pl_02618" ref="#place_14868a84e5f21dcb5b7a964884d2708e">Weidlingau</rs>; unter angenehmen Gesprächen; über frühere Perioden von 
+<rs type="place" xml:id="pl_02618" ref="#pmb92059">Weidlingau</rs>; unter angenehmen Gesprächen; über frühere Perioden von 
 mir, Snobzeit; <rs type="person" xml:id="pNt_14081" ref="#person_20643"><surname>Tausenau</surname></rs>, <rs type="person" xml:id="pNt_14082" ref="#person_15229"><surname>Friedmann</surname></rs>, Rennen, etc.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

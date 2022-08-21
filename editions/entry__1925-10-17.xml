@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1925-10-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-10-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-10-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1925-10-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-10-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-10-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-144F-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6562.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1925-10-17">
-            <p xml:space="preserve"><date when="1925-10-17">17/10</date> <rs type="place" xml:id="pl_16404" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>.― Zu <rs type="person" xml:id="pNt_76139" ref="#person_16462"><forename>Hans</forename> <surname>Jacob</surname></rs>. Er hats nicht leicht. Sein gestriger 
+            <p xml:space="preserve"><date when="1925-10-17">17/10</date> <rs type="place" xml:id="pl_16404" ref="#pmb168">Berlin</rs>.― Zu <rs type="person" xml:id="pNt_76139" ref="#person_16462"><forename>Hans</forename> <surname>Jacob</surname></rs>. Er hats nicht leicht. Sein gestriger 
 Zusammenstoss mit einem antisemitischen Lümmel, den er ohrfeigte.― Seine 
 Arbeiten; Übersetzungen etc.― Seine Frau (wird zur Operette gehn).― </p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_76140" ref="#person_19822"><forename>Heini</forename></rs> Esplanade.― Er hatte <rs type="work" subtype="self" xml:id="bibl_16702">Weiher</rs> 2mal gelesen;― wir besprachen 
@@ -191,12 +195,11 @@ und meine Pläne.―</p>
             <p xml:space="preserve" rend="indent">Nm. „<rs type="work" subtype="self" xml:id="bibl_16703">Schwestern</rs>“ gelesen, wegen <rs type="person" xml:id="pNt_76144" ref="#person_13428"><surname>Barnowsky</surname></rs> ―</p>
             <p xml:space="preserve" rend="indent">Schauspielhaus. <rs type="work" xml:id="bibl_16704">Hannibal</rs> Première. In <rs type="person" xml:id="pNt_76145" ref="#person_16550"><surname>Jessners</surname></rs> Loge mit seiner Frau. Er sehr 
 liebenswürdig.― Großer Inszenirungserfolg und <rs type="person" xml:id="pNt_76146" ref="#person_17120"><surname>Krauss-Erfolg</surname></rs>. Eigentlich 
-altes <rs type="place" ref="#place_burgtheater">Burgtheater</rs>; Pathos, Geschrei und Ausstattung. Und wozu das Stück!―</p>
+altes <rs type="place" ref="#pmb14">Burgtheater</rs>; Pathos, Geschrei und Ausstattung. Und wozu das Stück!―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_76147" ref="#person_15529"><forename>Paul</forename> <surname>Goldmann</surname></rs> und Tochter (will zur Bühne), <rs type="person" xml:id="pNt_76148" ref="#person_16819"><surname>Kerr</surname></rs> und Frau.― Dr. <rs type="person" xml:id="pNt_76149" ref="#person_21438"><forename>Arthur</forename> <surname>Wolff</surname></rs> 
 etc.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_76150" ref="#person_19822"><forename>Heini</forename></rs> Espl. genachtm.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1903-11-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-11-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-11-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1903-11-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-11-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-11-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F52E-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,17 +176,19 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1863.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1903-11-11">
             <p xml:space="preserve"><date when="1903-11-11">11/11</date> Vm. langweilige Briefe dictirt.― Abend <rs type="person" xml:id="pNt_20403" ref="#person_15306"><surname>Fulda</surname></rs> da.― Über das Elend 
 der Kritik. <rs type="person" xml:id="pNt_20404" ref="#person_15529"><surname>Goldmann</surname></rs>.― <rs type="person" xml:id="pNt_20405"><surname>F.s</surname></rs> Scheidung. „Ohne <rs type="person" xml:id="pNt_20406" ref="#person_14847"><surname>Faber</surname></rs> wär ich heute nicht 
 mehr am Leben.“ ― ― Ob er mit <rs type="person" xml:id="pNt_20407" ref="#person_19724"><surname>Schlenther</surname></rs> sprechen solle, wegen meines 
 <rs type="work" subtype="self" xml:id="bibl_17871">neuen Stückes</rs>.― Nein.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

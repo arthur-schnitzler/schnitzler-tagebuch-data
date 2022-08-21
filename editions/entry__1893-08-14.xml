@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1893-08-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-08-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-08-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1893-08-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-08-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-08-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E71C-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0762.tif"/>
@@ -182,10 +186,9 @@
       <body>
          <div type="diary-day" xml:id="entry__1893-08-14">
             <p xml:space="preserve"><date when="1893-08-14">14/8</date> Mittag <rs type="person" xml:id="pNt_07711" ref="#person_15485"><forename>Mz.</forename></rs> bei mir. Die bekannte Scene.― Armes Geschöpf.</p>
-            <p xml:space="preserve" rend="indent">Bic. <rs type="place" xml:id="pl_01576" ref="#place_a3c879a4f19e7987aa5aa1f1b929b0da">Klosterneuburg</rs>.― Bei <rs type="person" xml:id="pNt_07712" ref="#person_14453"><surname>Diglas</surname></rs> genachtm. <rs type="person" xml:id="pNt_07713" ref="#person_18791"><surname>P.</surname></rs> an mir vorüber 
+            <p xml:space="preserve" rend="indent">Bic. <rs type="place" xml:id="pl_01576" ref="#pmb865">Klosterneuburg</rs>.― Bei <rs type="person" xml:id="pNt_07712" ref="#person_14453"><surname>Diglas</surname></rs> genachtm. <rs type="person" xml:id="pNt_07713" ref="#person_18791"><surname>P.</surname></rs> an mir vorüber 
 (dessen Geliebte die <rs type="person" xml:id="pNt_07714" ref="#person_14453"><surname>Diglas</surname></rs> ist); touchirte mich wenig.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

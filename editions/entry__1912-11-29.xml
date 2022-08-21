@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-11-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-11-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-11-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-11-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-11-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-11-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-01F3-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3522.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1912-11-29">
-            <p xml:space="preserve"><date when="1912-11-29">29/11</date> <rs type="place" xml:id="pl_08102" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>. Die Kritik im ganzen gut; <rs type="work" subtype="newspaper" xml:id="bibl_10606">Berl. Tgbl.</rs> (<rs type="person" xml:id="pNt_39441" ref="#person_14753"><surname>Engel</surname></rs>) am 
+            <p xml:space="preserve"><date when="1912-11-29">29/11</date> <rs type="place" xml:id="pl_08102" ref="#pmb168">Berlin</rs>. Die Kritik im ganzen gut; <rs type="work" subtype="newspaper" xml:id="bibl_10606">Berl. Tgbl.</rs> (<rs type="person" xml:id="pNt_39441" ref="#person_14753"><surname>Engel</surname></rs>) am 
 schwächsten.―</p>
             <p xml:space="preserve" rend="indent">Mit O. zu <rs type="person" xml:id="pNt_39442" ref="#person_13428"><surname>Barnowsky</surname></rs>, der sehr zufrieden.―</p>
             <p xml:space="preserve" rend="indent">Im Kaiserhof mit <rs type="person" xml:id="pNt_39443" ref="#person_19827"><forename>Julius</forename></rs> und <rs type="person" xml:id="pNt_39444" ref="#person_19823"><forename>Helene</forename></rs> gegessen.</p>
@@ -196,11 +200,10 @@ denn thränenfeuchte Augen.“ ― „Er war ja mein ganzes Leben …“ ―
 <rs type="person" xml:id="pNt_39449" ref="#person_14428"><roleName>Frau</roleName> <surname>Deutsch</surname></rs>, die Schwester der <rs type="person" xml:id="pNt_39450" ref="#person_16572"><roleName>Frau</roleName> <surname>Jonas</surname></rs>. Bittre Bemerkungen über 
 <rs type="person" xml:id="pNt_39451" ref="#person_15980"><surname>Hauptmann</surname></rs>; vielleicht nicht durchaus gerecht. Immerhin … „Der 
 Dichter des Mitleids …“</p>
-            <p xml:space="preserve" rend="indent">O. ins Concert <rs type="person" xml:id="pNt_39452" ref="#person_18094"><surname>Messchaert</surname></rs>; ich allein durch den <rs type="place" xml:id="pl_08103" ref="#place_1b83df4ba62ebbba0aa5582269a820b1">Thiergarten</rs> ins 
+            <p xml:space="preserve" rend="indent">O. ins Concert <rs type="person" xml:id="pNt_39452" ref="#person_18094"><surname>Messchaert</surname></rs>; ich allein durch den <rs type="place" xml:id="pl_08103" ref="#pmb91893">Thiergarten</rs> ins 
 Hotel, Worte für <rs type="person" xml:id="pNt_39453" ref="#person_13913"><surname>Brahms</surname></rs> Trauerfeier bedenkend.―</p>
             <p xml:space="preserve" rend="indent">Im Esplanade soupirt mit O., und <rs type="person" xml:id="pNt_39454" ref="#person_21447"><roleName>Frau</roleName> <surname>Wolff</surname></rs> sammt Verwandten.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

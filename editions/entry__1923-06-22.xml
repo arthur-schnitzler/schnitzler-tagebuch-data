@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-06-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-06-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-06-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-06-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-06-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-06-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1100-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6066.tif"/>
@@ -182,10 +186,10 @@
       <body>
          <div type="diary-day" xml:id="entry__1923-06-22">
             <p xml:space="preserve"><date when="1923-06-22">22/6</date> Vm. bei <rs type="person" xml:id="pNt_69767" ref="#person_16735"><surname>Karolyi</surname></rs>.― Besorgungen.</p>
-            <p xml:space="preserve" rend="indent">Panorama (<rs type="place" xml:id="pl_14806" ref="#place_ff49db8917f8bd0804ede8d513dc85ff">Aegypten</rs>).―</p>
+            <p xml:space="preserve" rend="indent">Panorama (<rs type="place" xml:id="pl_14806" ref="#pmb211">Aegypten</rs>).―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_69768" ref="#person_13733"><roleName>Frau</roleName> <surname>Binder</surname></rs> bei der Oper Begegnung; sie fragt mich um Rath 
 wegen ihres weitern Verhaltens zu <rs type="person" xml:id="pNt_69769" ref="#person_20392"><surname>Stekel</surname></rs> etc.</p>
-            <p xml:space="preserve" rend="indent">― Bei <rs type="place" ref="#place_sacher">Sacher</rs> gegessen mit <rs type="person" xml:id="pNt_69771" ref="#person_18907"><surname>Pond</surname></rs> und <rs type="person" xml:id="pNt_69772" ref="#person_13372"><surname>Bagger</surname></rs>; wegen der Vortragsreise. 
+            <p xml:space="preserve" rend="indent">― Bei <rs type="place" ref="#pmb92506">Sacher</rs> gegessen mit <rs type="person" xml:id="pNt_69771" ref="#person_18907"><surname>Pond</surname></rs> und <rs type="person" xml:id="pNt_69772" ref="#person_13372"><surname>Bagger</surname></rs>; wegen der Vortragsreise. 
 Vorläufig ganz dilatorisch.―</p>
             <p xml:space="preserve" rend="indent">Den Nachm. ziemlich vertrödelt.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_69773" ref="#person_18863"><forename>Cl.</forename> <surname>P.</surname></rs> im Rest. Münchnerhof (C. part.). Es ist kaum etwas gegen 
@@ -195,6 +199,5 @@ ich mich gegen sie (<rs type="person" xml:id="pNt_69775" ref="#person_19832"><fo
 mißbehagt.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

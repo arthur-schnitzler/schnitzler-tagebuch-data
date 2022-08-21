@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1893-03-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-03-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-03-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1893-03-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-03-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-03-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E679-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,14 +177,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0676.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1893-03-03">
-            <p xml:space="preserve"><date when="1893-03-03">3/3</date> Nach <rs type="place" xml:id="pl_01428" ref="#place_b27957881f51b93da7490ac5d92192f4">Volosca</rs>, <rs type="place" xml:id="pl_01429" ref="#place_bd9702884961e1845fbe2f6762fae17e">Lovrana</rs>.― <rs type="person" xml:id="pNt_07105" ref="#person_17574"><forename>Sophie</forename> <surname>L.</surname></rs> im Musikzimmer Lieder singend.</p>
+            <p xml:space="preserve"><date when="1893-03-03">3/3</date> Nach <rs type="place" xml:id="pl_01428" ref="#pmb40091">Volosca</rs>, <rs type="place" xml:id="pl_01429" ref="#pmb40087">Lovrana</rs>.― <rs type="person" xml:id="pNt_07105" ref="#person_17574"><forename>Sophie</forename> <surname>L.</surname></rs> im Musikzimmer Lieder singend.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

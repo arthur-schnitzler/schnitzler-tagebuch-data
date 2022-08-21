@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-05-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-05-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-05-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1931-05-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-05-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-05-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1C4A-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7705.tif"/>
@@ -182,8 +186,8 @@
       <body>
          <div type="diary-day" xml:id="entry__1931-05-24">
             <p xml:space="preserve"><date when="1931-05-24">24/5</date> Pfingstsonntag.―</p>
-            <p xml:space="preserve" rend="indent">Zu <rs type="person" xml:id="pNt_92925" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>, mit ihr Auto <rs type="place" xml:id="pl_19914" ref="#place_3b0cf80ce6f7c6e0340cf31265c8f3f7">Sievring</rs> ― <rs type="place" xml:id="pl_19915" ref="#place_361000b73d3947c615f058769b32865c">Steinriegl</rs> ― <rs type="place" xml:id="pl_19916" ref="#place_a2d96b5d9ef20498b3504ec5ae55b27c">Königstetten</rs> ― <rs type="place" xml:id="pl_19917" ref="#place_4fb30c09f27c2c3619c0bdc0343aca98">Hintersdorf</rs> ― 
-<rs type="place" xml:id="pl_19918" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Zu <rs type="person" xml:id="pNt_92925" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>, mit ihr Auto <rs type="place" xml:id="pl_19914" ref="#pmb64219">Sievring</rs> ― <rs type="place" xml:id="pl_19915" ref="#pmb49210">Steinriegl</rs> ― <rs type="place" xml:id="pl_19916" ref="#pmb34354">Königstetten</rs> ― <rs type="place" xml:id="pl_19917" ref="#pmb90881">Hintersdorf</rs> ― 
+<rs type="place" xml:id="pl_19918" ref="#pmb50">Wien</rs>.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_92926" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> speist mit mir und <rs type="person" xml:id="pNt_92927" ref="#person_19822"><forename>Heini</forename></rs>. Dann im Garten.―</p>
             <p xml:space="preserve" rend="indent">Nm. seh ich wieder einmal das „<rs type="work" subtype="self" xml:id="bibl_23775">Wort</rs>“ durch (wegen <rs type="person" xml:id="pNt_92928" ref="#person_14234"><forename>Suz.</forename></rs>) das, insbesondre 
 die letzten 2 Acte unmöglich scheint.―</p>
@@ -193,6 +197,5 @@ Creditanstalt etc. Anlass. (Dr. <rs type="person" xml:id="pNt_92935" ref="#perso
 Selbstmordversuch.) ― Die Hörschwäche und die Geräusche immer schlimmer.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

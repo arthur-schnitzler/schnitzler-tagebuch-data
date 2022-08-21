@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-09-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-09-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-09-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-09-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-09-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-09-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1594-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,21 +177,23 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6720.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1926-09-08">
-            <p xml:space="preserve"><date when="1926-09-08">8/9</date> <rs type="place" xml:id="pl_16899" ref="#place_cceafad713406bc4d8421dbdd142523a">Luzern</rs>. Auf dem <rs type="place" xml:id="pl_16900" ref="#place_80207e7b2842056cbc2c2e61e91d040d">Gütsch</rs>. Waldspaziergang. Mein Befinden, insbesondre 
+            <p xml:space="preserve"><date when="1926-09-08">8/9</date> <rs type="place" xml:id="pl_16899" ref="#pmb967">Luzern</rs>. Auf dem <rs type="place" xml:id="pl_16900" ref="#pmb90811">Gütsch</rs>. Waldspaziergang. Mein Befinden, insbesondre 
 Magen, sehr mäßig.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_78483" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> in <rs type="place" xml:id="pl_16901" ref="#place_2384804448a53e420c3707bdfb9fb295">Altaussee</rs>. Denke gut an sie ― und bin froh allein zu sein.</p>
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_78483" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> in <rs type="place" xml:id="pl_16901" ref="#pmb90229">Altaussee</rs>. Denke gut an sie ― und bin froh allein zu sein.</p>
             <p xml:space="preserve" rend="indent"><rs type="work" subtype="self" xml:id="bibl_20402">Badner Novelle</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Brief von <rs type="person" xml:id="pNt_78484" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs> aus <rs type="place" xml:id="pl_16902" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_78485" ref="#person_14130"><forename>Lili</forename></rs> Brief ― bittet ― mit <rs type="allusively" xml:id="rst_02115">Mutter</rs> ― bis Ende October am <rs type="place" xml:id="pl_16903" ref="#place_9b5c2555a01778bd31e0cd1c675164b2">Lido</rs> bleiben zu 
+            <p xml:space="preserve" rend="indent">Brief von <rs type="person" xml:id="pNt_78484" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs> aus <rs type="place" xml:id="pl_16902" ref="#pmb50">Wien</rs>.</p>
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_78485" ref="#person_14130"><forename>Lili</forename></rs> Brief ― bittet ― mit <rs type="allusively" xml:id="rst_02115">Mutter</rs> ― bis Ende October am <rs type="place" xml:id="pl_16903" ref="#pmb91143">Lido</rs> bleiben zu 
 dürfen.― Überlegte, ob an <rs type="person" xml:id="pNt_78486" ref="#person_19832"><forename>O.</forename></rs> oder <rs type="person" xml:id="pNt_78487" ref="#person_14130"><forename>Lili</forename></rs> zu schreiben, begann einiges, kam, 
 in tiefer Verstimmung und mit Kopfweh nicht zu Ende.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

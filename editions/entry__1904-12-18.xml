@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-12-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-12-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-12-19.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-12-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-12-17.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-12-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F6C1-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,16 +176,18 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2012.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1904-12-18">
-            <p xml:space="preserve"><date when="1904-12-18">18/12</date> S. Früh am <rs type="work" subtype="self" xml:id="bibl_17548">Stück</rs>; dann mit O. spazieren, gegen <rs type="place" xml:id="pl_05005" ref="#place_431168489e6885d4e91ebc5edec7dfb4">Grinzing</rs>, zum 
+            <p xml:space="preserve"><date when="1904-12-18">18/12</date> S. Früh am <rs type="work" subtype="self" xml:id="bibl_17548">Stück</rs>; dann mit O. spazieren, gegen <rs type="place" xml:id="pl_05005" ref="#pmb90771">Grinzing</rs>, zum 
 Gärtner <rs type="person" xml:id="pNt_22154" ref="#person_16311"><surname>Hohm</surname></rs> (wegen Lorbeerbaum für <rs type="person" xml:id="pNt_22155" ref="#person_20204"><surname>Sonnenthal</surname></rs>).―</p>
             <p xml:space="preserve" rend="indent">― Nm. wieder am <rs type="work" subtype="self" xml:id="bibl_17549">Stück</rs>.― Klavier phantasirt.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

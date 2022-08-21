@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-06-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-06-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-06-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-06-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-06-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-06-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FB9C-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2524.tif"/>
@@ -180,11 +184,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1908-06-20">
-            <p xml:space="preserve"><date when="1908-06-20">20/6</date> <rs type="place" xml:id="pl_06364" ref="#place_096fe15a391b374b49743494cd0f762d">Grundlsee</rs> ― Toplitzsee ― <rs type="place" xml:id="pl_06365" ref="#place_d1b731e4e033578faac57b4763efe53d">Kammersee</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Nm. <rs type="place" xml:id="pl_06366" ref="#place_6c77351074b8699987e7f04e7856b3ab">Hallstatt</rs>.―               (mit O.)</p>
-            <p xml:space="preserve" rend="indent">Abd. <rs type="place" xml:id="pl_06367" ref="#place_2b0a70392efc0b8a8cfabc05206afa76">Tauscherin</rs>. Blick.</p>
+            <p xml:space="preserve"><date when="1908-06-20">20/6</date> <rs type="place" xml:id="pl_06364" ref="#pmb90787">Grundlsee</rs> ― Toplitzsee ― <rs type="place" xml:id="pl_06365" ref="#pmb92327">Kammersee</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Nm. <rs type="place" xml:id="pl_06366" ref="#pmb39671">Hallstatt</rs>.―               (mit O.)</p>
+            <p xml:space="preserve" rend="indent">Abd. <rs type="place" xml:id="pl_06367" ref="#pmb52088">Tauscherin</rs>. Blick.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

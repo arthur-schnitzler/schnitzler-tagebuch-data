@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-06-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-05-31.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-06-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-06-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-05-31.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-06-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FFD0-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3168.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1911-06-01">
-            <p xml:space="preserve"><date when="1911-06-01">1/6</date> <rs type="place" xml:id="pl_07492" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>. Vm. dictirt (Briefe, <rs type="work" subtype="self" xml:id="bibl_11015">Graesler</rs>).</p>
+            <p xml:space="preserve"><date when="1911-06-01">1/6</date> <rs type="place" xml:id="pl_07492" ref="#pmb50">Wien</rs>. Vm. dictirt (Briefe, <rs type="work" subtype="self" xml:id="bibl_11015">Graesler</rs>).</p>
             <p xml:space="preserve" rend="indent">Nm. ein bißchen am <rs type="work" subtype="self" xml:id="bibl_11016">Graesler</rs>.―</p>
             <p xml:space="preserve" rend="indent">Mit O. zu <rs type="person" xml:id="pNt_35406" ref="#person_19542"><surname>Salten</surname></rs>. Dort <rs type="person" xml:id="pNt_35407" ref="#person_21107"><surname>Wassermann</surname></rs>, der mit uns kam und bei uns 
 (nach gemeinsamem Besuch bei <rs type="person" xml:id="pNt_35408" ref="#person_19755"><surname>Schmidls</surname></rs>) nachtmahlte. Nachher kam 
 auch <rs type="person" xml:id="pNt_35409" ref="#person_13359"><forename>Steffi</forename></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

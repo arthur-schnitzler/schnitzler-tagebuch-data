@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1900-05-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-05-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-05-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1900-05-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-05-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-05-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F077-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -162,7 +166,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1561.tif"/>
@@ -170,9 +174,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1900-05-06">
-            <p xml:space="preserve"><date when="1900-05-06">6/5</date> S.― Vorm. mit <rs type="person" xml:id="pNt_17034" ref="#person_20247"><surname>Sp.s</surname></rs> <rs type="place" xml:id="pl_03388" ref="#place_b900112ce988d972bc2d561413e84979">Sophienalpe</rs>.― Abd. <rs type="place" xml:id="pl_03389" ref="#place_f5af0e4beb99b2ded62ac5ff72643954">Dornbach</rs> mit <rs type="person" xml:id="pNt_17035" ref="#person_13913"><surname>Brahm</surname></rs>.</p>
+            <p xml:space="preserve"><date when="1900-05-06">6/5</date> S.― Vorm. mit <rs type="person" xml:id="pNt_17034" ref="#person_20247"><surname>Sp.s</surname></rs> <rs type="place" xml:id="pl_03388" ref="#pmb92533">Sophienalpe</rs>.― Abd. <rs type="place" xml:id="pl_03389" ref="#pmb90546">Dornbach</rs> mit <rs type="person" xml:id="pNt_17035" ref="#person_13913"><surname>Brahm</surname></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

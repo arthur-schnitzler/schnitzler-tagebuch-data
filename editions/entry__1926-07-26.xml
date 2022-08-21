@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-07-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-07-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-07-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-07-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-07-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-07-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1568-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,16 +177,17 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6696.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6697.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1926-07-26">
             <p xml:space="preserve"><date when="1926-07-26">26/7</date> <rs type="person" xml:id="pNt_78287" ref="#person_14682"><roleName>Hofr.</roleName> <surname>Eisenmenger</surname></rs> telefonirt mir, dass es <rs type="person" xml:id="pNt_78288" ref="#person_18291"><roleName>Dr.</roleName> <surname>Müller</surname></rs> nicht gelingt 
-einen meiner Stoffe für <rs type="place" xml:id="pl_16760" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> (Film) zu placiren.― Bald darauf erhalt 
+einen meiner Stoffe für <rs type="place" xml:id="pl_16760" ref="#pmb168">Berlin</rs> (Film) zu placiren.― Bald darauf erhalt 
 ich mit einer Karte des Verlegers <rs type="person" xml:id="pNt_78289" ref="#person_14167"><surname>Cerf</surname></rs>, der neulich bei mir, die neuen 
 <rs type="place" xml:id="pl_16761" ref="#place_f42606b57350750a83d247dd1d275f69" ana="#exclude">engl.</rs> Ausgaben von <rs type="work" subtype="self" xml:id="bibl_20344">Garlan</rs>, und <rs type="work" subtype="self" xml:id="bibl_20345">Anatol</rs>; mit andern Einaktern (ohne 
 Honorirungsversuch), zum <rs type="work" subtype="self" xml:id="bibl_20346">Anatol</rs>, als Vorrede, die besonders alberne Kritik 
@@ -199,5 +204,6 @@ wissen, welcher zunächst. Die Angelegenheit wird getrübt; weil ich
 die event. Rentabilität in Berechnung ziehen muss. Niemals noch ist 
 wenigstens in dieser Hinsicht die Zukunft so problematisch vor mir gelegen.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

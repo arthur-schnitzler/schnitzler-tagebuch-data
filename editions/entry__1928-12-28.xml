@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-12-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-12-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-12-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-12-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-12-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-12-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-18DE-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7214.tif"/>
@@ -182,12 +186,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1928-12-28">
-            <p xml:space="preserve"><date when="1928-12-28">28/12</date> <rs type="place" xml:id="pl_18444" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>. Traum, dass im „<rs type="work" subtype="self" xml:id="bibl_19893">Zug der Sch.</rs>“ eine Person vorkommt, die 
+            <p xml:space="preserve"><date when="1928-12-28">28/12</date> <rs type="place" xml:id="pl_18444" ref="#pmb168">Berlin</rs>. Traum, dass im „<rs type="work" subtype="self" xml:id="bibl_19893">Zug der Sch.</rs>“ eine Person vorkommt, die 
 ich den „Vermeider“ nenne, was <rs type="person" xml:id="pNt_85557" ref="#person_16709"><surname>Kapper</surname></rs> mißverständlich zu meinem 
 Aerger für sehr gut hält.</p>
             <p xml:space="preserve" rend="indent">Telef. mit <rs type="person" xml:id="pNt_85558" ref="#person_18137"><forename>Dora</forename></rs>, etc.―</p>
             <p xml:space="preserve" rend="indent">In der Bank. <rs type="person" xml:id="pNt_85559" ref="#person_18917"><roleName>Dir.</roleName> <surname>Popper</surname></rs>.</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_85560" ref="#person_19832"><forename>O.</forename></rs> und <rs type="person" xml:id="pNt_85561" ref="#person_14129"><forename>Arn.</forename></rs> zu <rs type="person" xml:id="pNt_85562" ref="#person_21602"><forename>Vicki</forename></rs> und <rs type="person" xml:id="pNt_85563" ref="#person_21600"><forename>Mimi</forename></rs> <rs type="place" xml:id="pl_18445" ref="#place_716fe6173c8e9e86aee02f4b8abb24b7">Haendelstr.</rs>; gegessen.</p>
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_85560" ref="#person_19832"><forename>O.</forename></rs> und <rs type="person" xml:id="pNt_85561" ref="#person_14129"><forename>Arn.</forename></rs> zu <rs type="person" xml:id="pNt_85562" ref="#person_21602"><forename>Vicki</forename></rs> und <rs type="person" xml:id="pNt_85563" ref="#person_21600"><forename>Mimi</forename></rs> <rs type="place" xml:id="pl_18445" ref="#pmb92267">Haendelstr.</rs>; gegessen.</p>
             <p xml:space="preserve" rend="indent">― Abend mit <rs type="person" xml:id="pNt_85564" ref="#person_14129"><forename>Arn.</forename></rs> Staatsth. <rs type="person" xml:id="pNt_85565" ref="#person_14964"><surname>Feuchtwanger</surname></rs>, <rs type="work" xml:id="bibl_19894">Petroleuminseln</rs>; nicht 
 uninteressant, auch Regie; <rs type="person" xml:id="pNt_85566" ref="#person_19822"><forename>Heini</forename></rs> in 2 kleinen Rollen (<rs type="person" xml:id="pNt_85567"><forename>Patrick</forename></rs>, 
 Viscount) angenehm und nobel.</p>
@@ -195,6 +199,5 @@ Viscount) angenehm und nobel.</p>
 spielt.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

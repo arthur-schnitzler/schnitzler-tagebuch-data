@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-09-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-09-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-09-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-09-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-09-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-09-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F7D7-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2127.tif"/>
@@ -180,11 +184,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1905-09-23">
-            <p xml:space="preserve"><date when="1905-09-23">23/9</date> <rs type="person" xml:id="pNt_23460" ref="#person_20386"><forename>Liesl</forename></rs> da, Nm. mit allen <rs type="place" xml:id="pl_05319" ref="#place_2aecac3a5fc580392bdd5187e0e6a2fc">Breitenstein</rs> (ohne Mutter <rs type="person" xml:id="pNt_23461" ref="#person_14790"><surname>Erl</surname></rs>).― Im Hotel Frl. 
+            <p xml:space="preserve"><date when="1905-09-23">23/9</date> <rs type="person" xml:id="pNt_23460" ref="#person_20386"><forename>Liesl</forename></rs> da, Nm. mit allen <rs type="place" xml:id="pl_05319" ref="#pmb36503">Breitenstein</rs> (ohne Mutter <rs type="person" xml:id="pNt_23461" ref="#person_14790"><surname>Erl</surname></rs>).― Im Hotel Frl. 
 <rs type="person" xml:id="pNt_23462" ref="#person_19275"><forename>Bertha</forename> <surname>Bauer</surname></rs>, jüngst verlobt mit <rs type="person" xml:id="pNt_23463" ref="#person_19277"><roleName>Brn.</roleName> <surname>Rinaldini</surname></rs> und in ihrer getauften 
 Würde ziemlich komisch.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

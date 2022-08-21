@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1893-11-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-11-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-11-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1893-11-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-11-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-11-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E772-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -140,7 +144,7 @@
                      <date when="1989">1989</date>
                   </imprint>
                   <biblScope unit="volume">1893-1902</biblScope>
-                  <biblScope unit="page">057</biblScope> 
+                  <biblScope unit="page">057</biblScope>
                   <extent>
                      <measure type="pages">504</measure>
                   </extent>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0788.tif"/>
@@ -182,10 +186,9 @@
       <body>
          <div type="diary-day" xml:id="entry__1893-11-08">
             <p xml:space="preserve"><date when="1893-11-08">8/11</date> Brief von <rs type="person" xml:id="pNt_08035" ref="#person_19143"><forename>Else</forename> <surname>S.</surname></rs>― Bei <rs type="person" xml:id="pNt_08036" ref="#person_19586"><surname>Saubermanns</surname></rs> „<rs type="work" xml:id="bibl_22768">Schulmoasterisch</rs>“ in 
-<rs type="place" xml:id="pl_01650" ref="#place_9bb22d10ddb7b8bf50eee0a23648e1fe">Rudolfsheim</rs>.― Ein komischer Liebhaber, Naivetät des Autors.―</p>
+<rs type="place" xml:id="pl_01650" ref="#pmb65">Rudolfsheim</rs>.― Ein komischer Liebhaber, Naivetät des Autors.―</p>
             <p xml:space="preserve" rend="indent">Kfh. <rs type="person" xml:id="pNt_08037" ref="#person_16293"><forename>Loris</forename></rs>, <rs type="person" xml:id="pNt_08038" ref="#person_19542"><surname>Salten</surname></rs>, <rs type="person" xml:id="pNt_08039" ref="#person_13551"><forename>Richard</forename></rs>, <rs type="person" xml:id="pNt_08040" ref="#person_16730"><surname>Karlweis</surname></rs>, <rs type="person" xml:id="pNt_08041" ref="#person_13374"><surname>Bahr</surname></rs>, <rs type="person" xml:id="pNt_08042" ref="#person_17108"><surname>Kraus</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

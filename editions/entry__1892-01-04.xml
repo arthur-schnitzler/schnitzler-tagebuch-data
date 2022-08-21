@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1892-01-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-01-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-01-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1892-01-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-01-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-01-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E4D3-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0575.tif"/>
@@ -183,13 +187,12 @@
       <body>
          <div type="diary-day" xml:id="entry__1892-01-04">
             <p xml:space="preserve"><date when="1892-01-04">4/1</date> Vm. <rs type="person" xml:id="pNt_05862" ref="#person_15485"><forename>Mz.</forename></rs> Abd. bei ihr.―</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_05863" ref="#person_13374"><surname>Bahr</surname></rs>, <rs type="person" xml:id="pNt_05864" ref="#person_13611"><surname>Bératon</surname></rs>, <rs type="person" xml:id="pNt_05865" ref="#person_13318"><surname>Auspitzer</surname></rs> (<rs type="place" ref="#place_leidinger">Leidinger</rs>).</p>
-            <p xml:space="preserve" rend="indent">Von <rs type="place" xml:id="pl_01248" ref="#place_c12b8d9779a8ad2b240a57b31c979290">Prag</rs> Telegr. an <rs type="allusively" xml:id="rst_00134">Papa</rs>: „Mit Freuden acceptire das <rs type="work" subtype="self" xml:id="bibl_22802">Märchen</rs>, 
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_05863" ref="#person_13374"><surname>Bahr</surname></rs>, <rs type="person" xml:id="pNt_05864" ref="#person_13611"><surname>Bératon</surname></rs>, <rs type="person" xml:id="pNt_05865" ref="#person_13318"><surname>Auspitzer</surname></rs> (<rs type="place" ref="#pmb42">Leidinger</rs>).</p>
+            <p xml:space="preserve" rend="indent">Von <rs type="place" xml:id="pl_01248" ref="#pmb91524">Prag</rs> Telegr. an <rs type="allusively" xml:id="rst_00134">Papa</rs>: „Mit Freuden acceptire das <rs type="work" subtype="self" xml:id="bibl_22802">Märchen</rs>, 
 beglückwünsche Sie zu ihrem Sohne.“</p>
             <p xml:space="preserve" rend="indent">Von <rs type="person" xml:id="pNt_05867" ref="#person_18792"><surname>Pierson</surname></rs> <rs type="work" subtype="self" xml:id="bibl_22803">A. Cyclus</rs> zurück; Angst vor Confiscation (wie <rs type="work" xml:id="bibl_22804">russ. Reise</rs> 
 von <rs type="person" xml:id="pNt_05868" ref="#person_13374"><surname>Bahr</surname></rs>).―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

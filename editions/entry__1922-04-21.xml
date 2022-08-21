@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-04-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-04-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-04-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-04-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-04-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-04-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0F55-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5699.tif"/>
@@ -181,9 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1922-04-21">
-            <p xml:space="preserve"><date when="1922-04-21">21/4</date> <rs type="place" xml:id="pl_13807" ref="#place_d0a6343a081a7335baa965ce4fd0845c">München</rs>.― Bank etc.― Zu <rs type="person" xml:id="pNt_65792" ref="#person_19832"><forename>O.</forename></rs> Mit ihr in die Stadt, Einkäufe;― sie 
+            <p xml:space="preserve"><date when="1922-04-21">21/4</date> <rs type="place" xml:id="pl_13807" ref="#pmb45258">München</rs>.― Bank etc.― Zu <rs type="person" xml:id="pNt_65792" ref="#person_19832"><forename>O.</forename></rs> Mit ihr in die Stadt, Einkäufe;― sie 
 kauft mir ein Necessaire.―</p>
-            <p xml:space="preserve" rend="indent">Mittagmahl allein <rs type="place" ref="#place_pschorrbraeu">Pschorrbräu</rs>.</p>
+            <p xml:space="preserve" rend="indent">Mittagmahl allein <rs type="place" ref="#pmb92467">Pschorrbräu</rs>.</p>
             <p xml:space="preserve" rend="indent">Nachm. üb ich in meinem Hotelzimmer halblaut „<rs type="work" subtype="self" xml:id="bibl_2496">Leb. Stunden</rs>“, 
 <rs type="work" subtype="self" xml:id="bibl_2497">Weihnachtseink.</rs>, <rs type="work" subtype="self" xml:id="bibl_2498">Excentric</rs>.</p>
             <p xml:space="preserve" rend="indent">Zu <rs type="person" xml:id="pNt_65794" ref="#person_19832"><forename>O.</forename></rs> Dort <rs type="person" xml:id="pNt_65795" ref="#person_17044"><roleName>Frau</roleName> <surname>Korff</surname></rs>. Ich seh ihnen nachtmahlen zu. <rs type="person" xml:id="pNt_65796" ref="#person_19832"><forename>O.</forename></rs> erzählt vom 
@@ -195,9 +199,8 @@ verbittert. Ich müde und wenig wohl empfehle mich bald.―</p>
             <p xml:space="preserve" rend="indent">― Eh ich zu <rs type="person" xml:id="pNt_65803" ref="#person_19832"><forename>O.</forename></rs> ging, war ich bei <rs type="person" xml:id="pNt_65804" ref="#person_15485"><surname>Gl.’s</surname></rs> gewesen.― <rs type="person" xml:id="pNt_65805" ref="#person_15485"><forename>M.</forename> <surname>G.</surname></rs> sehr schlecht 
 aussehend im Bett;― debutirt morgen am Nationalth. in den „<rs type="work" xml:id="bibl_2499">Müttern</rs>“; 
 <rs type="person" xml:id="pNt_65806" ref="#person_14199"><forename>Gusti</forename></rs> ganz alte Dame.― <rs type="person" xml:id="pNt_65807" ref="#person_21057"><forename>Tilly</forename> <surname>Waldegg</surname></rs> eben zu Besuch, in Wohnungsnöthen, 
-hat zu früh ihr Schloss am <rs type="place" xml:id="pl_13811" ref="#place_cc595b041cbc704e4e256488cf4e35e0">Rissersee</rs> verkauft. ― <rs type="person" xml:id="pNt_65808"><forename>Franzl</forename></rs> hat maturirt.―</p>
+hat zu früh ihr Schloss am <rs type="place" xml:id="pl_13811" ref="#pmb92487">Rissersee</rs> verkauft. ― <rs type="person" xml:id="pNt_65808"><forename>Franzl</forename></rs> hat maturirt.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

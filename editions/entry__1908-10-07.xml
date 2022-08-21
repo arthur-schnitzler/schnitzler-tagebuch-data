@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-10-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-10-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-10-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-10-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-10-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-10-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FC09-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2560.tif"/>
@@ -181,16 +185,15 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1908-10-07">
-            <p xml:space="preserve"><date when="1908-10-07">7/10</date> Spazierfahrt mit O. durch den wundervollen Herbstwald, <rs type="place" xml:id="pl_06473" ref="#place_128fc44c6a9b0a5130a5c429d9e5a2e3">Höllenthal</rs>, 
+            <p xml:space="preserve"><date when="1908-10-07">7/10</date> Spazierfahrt mit O. durch den wundervollen Herbstwald, <rs type="place" xml:id="pl_06473" ref="#pmb90901">Höllenthal</rs>, 
 Naßwald; zu Fuß <rs type="person" xml:id="pNt_28929"><surname>Binder</surname></rs> (wo ich vor 3 oder 4 Jahren mit <rs type="person" xml:id="pNt_28930" ref="#person_20383"><forename>Albert</forename></rs> und <rs type="person" xml:id="pNt_28931" ref="#person_20386"><forename>Liesl</forename></rs> 
-war) und zu „<rs type="person" xml:id="pNt_28932"><surname>Wallner</surname></rs>“ zurück, wo wir schlecht aßen.― Zurück <rs type="place" xml:id="pl_06474" ref="#place_6f4e3516ea738ef16c51614925de4154">Edlach</rs>.― 
+war) und zu „<rs type="person" xml:id="pNt_28932"><surname>Wallner</surname></rs>“ zurück, wo wir schlecht aßen.― Zurück <rs type="place" xml:id="pl_06474" ref="#pmb470">Edlach</rs>.― 
 Erinnerungsgespräche über <rs type="person" xml:id="pNt_28933" ref="#person_21047"><forename>Olga</forename> <surname>W.</surname></rs>―</p>
             <p xml:space="preserve" rend="indent">Im Edlacherhof stellte sich vor der Abfahrt ein <rs type="place" xml:id="pl_06475" ref="#place_e037c8e8329469076b28e0ebbe25d7b9" ana="#exclude">Triestiner</rs> cav. <rs type="person" xml:id="pNt_28934" ref="#person_13454"><surname>Basevi</surname></rs> vor 
 und Frau.―</p>
-            <p xml:space="preserve" rend="indent">Nach <rs type="place" xml:id="pl_06476" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>. An der Südbahn <rs type="person" xml:id="pNt_28935" ref="#person_14065"><surname>Burckhard</surname></rs>; anfangs beängstigend in Sprechen und 
+            <p xml:space="preserve" rend="indent">Nach <rs type="place" xml:id="pl_06476" ref="#pmb50">Wien</rs>. An der Südbahn <rs type="person" xml:id="pNt_28935" ref="#person_14065"><surname>Burckhard</surname></rs>; anfangs beängstigend in Sprechen und 
 Benehmen, dann, als wir im Restaurant saßen, allmälig der alte.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

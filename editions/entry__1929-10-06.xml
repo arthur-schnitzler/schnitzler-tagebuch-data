@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-10-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-10-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-10-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-10-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-10-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-10-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-19F8-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7362.tif"/>
@@ -181,8 +185,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1929-10-06">
-            <p xml:space="preserve"><date when="1929-10-06">6/10</date> S.― Schöner Herbsttag. Mit <rs type="person" xml:id="pNt_87754" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Auto. <rs type="place" xml:id="pl_18938" ref="#place_3b0cf80ce6f7c6e0340cf31265c8f3f7">Sievring</rs> ― <rs type="place" xml:id="pl_18939" ref="#place_361000b73d3947c615f058769b32865c">Steinriegl</rs> ― 
-<rs type="place" xml:id="pl_18940" ref="#place_a664e77ab0680f60712edfb712500d85">Mauerbach</rs> ― <rs type="place" xml:id="pl_18941" ref="#place_318e051b87a18bd62b48dc49a3318206">Hütteldorf</rs> ― <rs type="place" xml:id="pl_18942" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> ― <rs type="place" xml:id="pl_18943" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.―</p>
+            <p xml:space="preserve"><date when="1929-10-06">6/10</date> S.― Schöner Herbsttag. Mit <rs type="person" xml:id="pNt_87754" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Auto. <rs type="place" xml:id="pl_18938" ref="#pmb64219">Sievring</rs> ― <rs type="place" xml:id="pl_18939" ref="#pmb49210">Steinriegl</rs> ― 
+<rs type="place" xml:id="pl_18940" ref="#pmb942">Mauerbach</rs> ― <rs type="place" xml:id="pl_18941" ref="#pmb90913">Hütteldorf</rs> ― <rs type="place" xml:id="pl_18942" ref="#pmb169">Pötzleinsdorf</rs> ― <rs type="place" xml:id="pl_18943" ref="#pmb50">Wien</rs>.―</p>
             <p xml:space="preserve" rend="indent">― Zu Tisch <rs type="person" xml:id="pNt_87755" ref="#person_19542"><forename>F.</forename> <surname>S.</surname></rs>; nach langer Zeit. Auffallend nervös.― (Sein 60. 
 Geburtstag, Feuill. <rs type="person" xml:id="pNt_87756" ref="#person_13374"><surname>Bahrs</surname></rs> „Was hat er gegen Sie“ ― ― Verlobung 
 seiner Tochter <rs type="person" xml:id="pNt_87757"><forename>Annie</forename></rs>.― Über <rs type="person" xml:id="pNt_87758" ref="#person_13547"><forename>Bubi</forename> <surname>B.-H.</surname></rs>, von dem <rs type="person" xml:id="pNt_87759" ref="#person_16504"><surname>Jannings</surname></rs> 
@@ -199,6 +203,5 @@ Aufführungsrecht.―</p>
 wenn allein.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

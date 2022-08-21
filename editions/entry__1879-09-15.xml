@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1879-09-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1879-09-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1879-10-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1879-09-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1879-09-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1879-10-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DD23-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,14 +177,15 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0004.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1879-09-15">
-            <p xml:space="preserve"><date when="1879-09-15">15/9</date> <rs type="place" xml:id="pl_00023" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs></p>
+            <p xml:space="preserve"><date when="1879-09-15">15/9</date> <rs type="place" xml:id="pl_00023" ref="#pmb50">Wien</rs></p>
             <p xml:space="preserve" rend="indent">Rückkunft. Backfischlichkeit <rs type="person" xml:id="pNt_00061" ref="#person_17368"><forename>Fännchens</forename></rs>. <rs type="person" xml:id="pNt_00062"><forename>Diotima</forename></rs> aus dem <rs type="person" xml:id="pNt_00063" ref="#person_16257"><surname>Hölderlinschen</surname></rs> 
 <rs type="work" xml:id="bibl_23526">Hyperion</rs> und sie!―</p>
             <p xml:space="preserve" rend="indent">Der „Liebesblick“.―</p>
@@ -188,5 +193,6 @@
             <p xml:space="preserve" rend="indent">Beginn der Universitätsstudien.</p>
             <p xml:space="preserve" rend="indent">Rendezvous mit <rs type="person" xml:id="pNt_00065" ref="#person_17368"><forename>Fännchen</forename></rs>, verliebter. Sehr verliebt.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

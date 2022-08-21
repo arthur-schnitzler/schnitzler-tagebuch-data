@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1892-07-31.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-07-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-08-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1892-07-31.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-07-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-08-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E5A4-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0626.tif"/>
@@ -181,8 +185,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1892-07-31">
-            <p xml:space="preserve"><date when="1892-07-31">31. 7.</date> ― Nach <rs type="place" xml:id="pl_01299" ref="#place_041f694af7bf89263b2fbc7fe238ccec">Scheiblingkirchen</rs>.― <rs type="person" xml:id="pNt_06447" ref="#person_15485"><forename>Mz.</forename></rs> mit Bruder etc. an der Bahn.― 
-<rs type="place" xml:id="pl_01300" ref="#place_8666797d953e4afe8790963b4f177f9f">Kirchau</rs>. Ruine.― Nach Tisch Regen.― Bauernhochzeit mit den 
+            <p xml:space="preserve"><date when="1892-07-31">31. 7.</date> ― Nach <rs type="place" xml:id="pl_01299" ref="#pmb91675">Scheiblingkirchen</rs>.― <rs type="person" xml:id="pNt_06447" ref="#person_15485"><forename>Mz.</forename></rs> mit Bruder etc. an der Bahn.― 
+<rs type="place" xml:id="pl_01300" ref="#pmb44725">Kirchau</rs>. Ruine.― Nach Tisch Regen.― Bauernhochzeit mit den 
 Kindern des Brautpaars.― Unterm Thor des Wirtshauses.</p>
             <p xml:space="preserve" rend="right">11</p>
             <p xml:space="preserve" rend="indent"><hi xmlns:tei="http://www.tei-c.org/ns/1.0" rend="underlined">375</hi><lb/>
@@ -190,6 +194,5 @@ Kindern des Brautpaars.― Unterm Thor des Wirtshauses.</p>
             <p xml:space="preserve" rend="center">August</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

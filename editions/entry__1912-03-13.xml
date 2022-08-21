@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-03-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-03-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-03-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-03-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-03-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-03-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-00EE-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3350.tif"/>
@@ -185,7 +189,7 @@
          <div type="diary-day" xml:id="entry__1912-03-13">
             <p xml:space="preserve"><date when="1912-03-13">13/3</date> Wach gelegen bis gegen 7 früh! Kaum 1-2 Stunden geschlafen. 
 Schwere Gedanken und nichtiges das schwer wurde.</p>
-            <p xml:space="preserve" rend="indent">Frühlingsspaziergang gegen <rs type="place" xml:id="pl_07786" ref="#place_431168489e6885d4e91ebc5edec7dfb4">Grinzing</rs>, Hohe Warte. Im Anschluß an 
+            <p xml:space="preserve" rend="indent">Frühlingsspaziergang gegen <rs type="place" xml:id="pl_07786" ref="#pmb90771">Grinzing</rs>, Hohe Warte. Im Anschluß an 
 ein Gespräch mit O. über das eben erschienene <rs type="person" xml:id="pNt_37466" ref="#person_17786"><surname>Mahler</surname></rs> Heft (<rs type="work" subtype="newspaper" xml:id="bibl_10042">Merker</rs>) 
 (las es noch nicht) betrübendes Nachsinnen über mich. Im gewissen 
 Sinn das oberflächliche Wort meines <rs type="allusively" xml:id="rst_01288">Vaters</rs> über mich: „Du hast 
@@ -208,10 +212,9 @@ lassen S mich nur weiter da wohnen ― der Antisemitismus ist ja nur
 eine vorübergehende Erscheinung ―“</p>
             <p xml:space="preserve" rend="indent">Nm. versucht dem <rs type="work" subtype="self" xml:id="bibl_10046">Sommerstück</rs> nachzusinnen. Durchgehende tiefe 
 Unzufriedenheit.</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_37476" ref="#person_15781"><forename>Leonie</forename> <surname>Guttmann</surname></rs> zum Thee. (<rs type="place" xml:id="pl_07787" ref="#place_ff49db8917f8bd0804ede8d513dc85ff">Egypten</rs>.)</p>
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_37476" ref="#person_15781"><forename>Leonie</forename> <surname>Guttmann</surname></rs> zum Thee. (<rs type="place" xml:id="pl_07787" ref="#pmb211">Egypten</rs>.)</p>
             <p xml:space="preserve" rend="indent">Zum Nachtmahl Familie, <rs type="person" xml:id="pNt_37477" ref="#person_20915"><surname>Vallo</surname></rs>, <rs type="person" xml:id="pNt_37478" ref="#person_19986"><forename>Gustav</forename></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1907-02-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-02-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-02-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1907-02-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-02-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-02-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F9C9-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,14 +176,15 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2326.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1907-02-03">
-            <p xml:space="preserve"><date when="1907-02-03">3/2</date> S. Vm. mit O. und Frau <rs type="person" xml:id="pNt_26281" ref="#person_15526"><forename>Eva</forename> <surname>Kobler</surname></rs> spazieren <rs type="place" xml:id="pl_05829" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> etc. Sie 
+            <p xml:space="preserve"><date when="1907-02-03">3/2</date> S. Vm. mit O. und Frau <rs type="person" xml:id="pNt_26281" ref="#person_15526"><forename>Eva</forename> <surname>Kobler</surname></rs> spazieren <rs type="place" xml:id="pl_05829" ref="#pmb169">Pötzleinsdorf</rs> etc. Sie 
 speiste bei uns.― Hauptsächlich medisirt, über <rs ref="#person_15529" type="person" xml:id="pNt_26282"><surname>Goldmann</surname></rs> und <rs type="person" xml:id="pNt_26283" ref="#person_13131"><roleName>Frau</roleName> <surname>Fulda</surname></rs>.</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_26284" ref="#person_19755"><surname>Schmidls</surname></rs>; Conferenz mit <rs type="person" xml:id="pNt_26285" ref="#person_13551"><forename>Richard</forename></rs>, <rs type="person" xml:id="pNt_26286" ref="#person_19542"><surname>Salten</surname></rs>, <rs type="person" xml:id="pNt_26287" ref="#person_21107"><surname>Wassermann</surname></rs> und Comitédamen 
 über den Vortragsabend.</p>
@@ -190,5 +195,6 @@ wenigstens relative Sicherheit hinsichtlich der Familienzukunft.―</p>
             <p xml:space="preserve" rend="indent">Begann heute mich im Notenschreiben zu üben (<rs type="work" xml:id="bibl_13961">Tristan</rs>).</p>
             <p xml:space="preserve" rend="indent">An der <rs type="work" subtype="self" xml:id="bibl_13962">Tragikomoedie</rs>.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

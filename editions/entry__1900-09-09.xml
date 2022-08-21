@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1900-09-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-09-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-09-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1900-09-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-09-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-09-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F0EA-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -162,7 +166,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1582.tif"/>
@@ -173,10 +177,9 @@
             <p xml:space="preserve"><date when="1900-09-09">9/9</date> S. Vorm. mit <rs type="person" xml:id="pNt_17306" ref="#person_19832"><forename>D.</forename> <surname>M.</surname></rs>, <rs type="person" xml:id="pNt_17307" ref="#person_20386"><forename>Liesl</forename></rs> (Schwester), <rs type="person" xml:id="pNt_17308" ref="#person_17958"><forename>Paul</forename> <surname>M.</surname></rs> und <rs type="person" xml:id="pNt_17309" ref="#person_15529"><forename>P.</forename> <surname>G.</surname></rs>
 <pb n="336"/>
 <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header"><fw place="top_left" type="pn">336</fw> <fw place="top_center"><date type="range">1900: IX 9 - IX 20</date></fw></tei:fw>
-<rs type="place" xml:id="pl_03530" ref="#place_388686540f35afe7790d134863d92203">Kahlenberg</rs> ― Kobenzl.― Abd. mit <rs type="person" xml:id="pNt_17310" ref="#person_19542"><surname>Salten</surname></rs>, <rs type="person" xml:id="pNt_17311" ref="#person_16228"><forename>Robert</forename> <surname>Hirschfeld</surname></rs> Besprechung
+<rs type="place" xml:id="pl_03530" ref="#pmb574">Kahlenberg</rs> ― Kobenzl.― Abd. mit <rs type="person" xml:id="pNt_17310" ref="#person_19542"><surname>Salten</surname></rs>, <rs type="person" xml:id="pNt_17311" ref="#person_16228"><forename>Robert</forename> <surname>Hirschfeld</surname></rs> Besprechung
 wegen Protestes gegen <rs type="person" xml:id="pNt_17312" ref="#person_19724"><surname>Schlenther</surname></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

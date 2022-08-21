@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-05-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-05-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-05-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-05-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-05-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-05-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0F64-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5709.tif"/>
@@ -181,14 +185,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1922-05-06">
-            <p xml:space="preserve"><date when="1922-05-06">6/5</date> Abreise von <rs type="place" xml:id="pl_13868" ref="#place_1d4660e0a445b02912a96b0ac4fe036a">Haag</rs>. <rs type="person" xml:id="pNt_65963" ref="#person_20661"><surname>Tels</surname></rs> und Sohn an der Bahn.―</p>
-            <p xml:space="preserve" rend="indent">Ankunft <rs type="place" xml:id="pl_13869" ref="#place_1ffa0fd8025bd71d4785d3920dbc976e">Arnheim</rs>. Mit <rs type="person" xml:id="pNt_65964" ref="#person_13969"><roleName>Fr.</roleName> <surname>Brevée</surname></rs> und ihrer kleinen Tochter <rs type="person" xml:id="pNt_65965" ref="#person_13968"><forename>Betty</forename> 
+            <p xml:space="preserve"><date when="1922-05-06">6/5</date> Abreise von <rs type="place" xml:id="pl_13868" ref="#pmb58810">Haag</rs>. <rs type="person" xml:id="pNt_65963" ref="#person_20661"><surname>Tels</surname></rs> und Sohn an der Bahn.―</p>
+            <p xml:space="preserve" rend="indent">Ankunft <rs type="place" xml:id="pl_13869" ref="#pmb64585">Arnheim</rs>. Mit <rs type="person" xml:id="pNt_65964" ref="#person_13969"><roleName>Fr.</roleName> <surname>Brevée</surname></rs> und ihrer kleinen Tochter <rs type="person" xml:id="pNt_65965" ref="#person_13968"><forename>Betty</forename> 
 <surname>Oosterbeek</surname></rs>.― Beekhof. Das ländlich behagliche Haus. <rs type="person" xml:id="pNt_65966" ref="#person_13971"><roleName>Dr.</roleName> <surname>Brevée</surname></rs> 
 und die anderen Töchter.― Gleich nach Tisch mit <rs type="person" xml:id="pNt_65967"><roleName>Frau</roleName> <surname>Br.</surname></rs> und <rs type="person" xml:id="pNt_65968" ref="#person_13968"><forename>Betty</forename></rs> 
 im Ort spazieren, später schöner Waldspaziergang mit ihr und <rs type="person" xml:id="pNt_65969"><forename>Dora</forename></rs> 
 der aeltesten. Abendessen. Thee.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

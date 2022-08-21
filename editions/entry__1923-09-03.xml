@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-09-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-09-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-09-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-09-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-09-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-09-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1148-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6103.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1923-09-03">
-            <p xml:space="preserve"><date when="1923-09-03">3/9</date> Vm. mit <rs type="person" xml:id="pNt_70173" ref="#person_18863"><forename>C.</forename></rs> von <rs type="place" xml:id="pl_15023" ref="#place_63da02947d9e51e4ddd4504712bc71c0">Celerina</rs> ― <rs type="place" xml:id="pl_15024" ref="#place_1e331117f201d60cab03d500e1f1b310">Schuls Tarasp</rs>. Engadiner Hof.― Nm. 
+            <p xml:space="preserve"><date when="1923-09-03">3/9</date> Vm. mit <rs type="person" xml:id="pNt_70173" ref="#person_18863"><forename>C.</forename></rs> von <rs type="place" xml:id="pl_15023" ref="#pmb12589">Celerina</rs> ― <rs type="place" xml:id="pl_15024" ref="#pmb91699">Schuls Tarasp</rs>. Engadiner Hof.― Nm. 
 am <rs type="work" subtype="self" xml:id="bibl_1988">Verf.</rs>― Abd. Spaziergang.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

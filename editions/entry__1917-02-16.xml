@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1917-02-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-02-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-02-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1917-02-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-02-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-02-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-07F5-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4407.tif"/>
@@ -182,16 +186,15 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1917-02-16">
-            <p xml:space="preserve"><date when="1917-02-16">16/2</date> Traum: ich verabrede mit <rs type="person" xml:id="pNt_49921" ref="#person_19822"><forename>Heini</forename></rs> einen Nachmittagsausflug <rs type="place" xml:id="pl_10399" ref="#place_b2a677fb2730bf552834184278c3511c">Wachau</rs> ― 
-<rs type="place" xml:id="pl_10400" ref="#place_5fb959f9b3ed86fb47b0f3905d111200">Algier</rs> ― <rs type="place" xml:id="pl_10401" ref="#place_7fc3dbc3496d4ac1533526f7b163ceab">Genua</rs>; aber er drückt sich. Dann ein Badewannentraum, in 
+            <p xml:space="preserve"><date when="1917-02-16">16/2</date> Traum: ich verabrede mit <rs type="person" xml:id="pNt_49921" ref="#person_19822"><forename>Heini</forename></rs> einen Nachmittagsausflug <rs type="place" xml:id="pl_10399" ref="#pmb531">Wachau</rs> ― 
+<rs type="place" xml:id="pl_10400" ref="#pmb43991">Algier</rs> ― <rs type="place" xml:id="pl_10401" ref="#pmb994">Genua</rs>; aber er drückt sich. Dann ein Badewannentraum, in 
 den <rs type="person" xml:id="pNt_49922" ref="#person_15452"><roleName>Frau</roleName> <surname>Gl.</surname></rs> hinein spielt.―</p>
-            <p xml:space="preserve" rend="indent">Neulich träumt ich wieder sehr lebhaft von der <rs type="place" xml:id="pl_10402" ref="#place_cfa835a4df2f287f2b999521ebe66bee">Burgring</rs> Wohnung, die 
+            <p xml:space="preserve" rend="indent">Neulich träumt ich wieder sehr lebhaft von der <rs type="place" xml:id="pl_10402" ref="#pmb274">Burgring</rs> Wohnung, die 
 ich Zimmer für Zimmer durchmass; im Salon standen <rs type="person" xml:id="pNt_49923" ref="#person_20372"><surname>Steiners</surname></rs> und sprachen 
 mit O.―</p>
             <p xml:space="preserve" rend="indent">Dictirt „<rs type="work" subtype="self" xml:id="bibl_6242">Sohn</rs>“.― „<rs type="work" subtype="self" xml:id="bibl_6243">Fr. d. R.</rs>“―</p>
             <p xml:space="preserve" rend="indent">Nm. am „<rs type="work" subtype="self" xml:id="bibl_6244">Nachklang</rs>“.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

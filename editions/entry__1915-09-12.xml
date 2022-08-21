@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-09-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-09-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-09-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1915-09-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-09-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-09-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-05EA-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4099.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1915-09-12">
-            <p xml:space="preserve"><date when="1915-09-12">12/9</date> S. Vm. Spazierg. <rs type="place" xml:id="pl_09569" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs>― <rs type="place" xml:id="pl_09570" ref="#place_c79ad839f84019f53250a4e6365359f9">Neuwaldegg</rs> ― Knödelhütte. Kopf 
+            <p xml:space="preserve"><date when="1915-09-12">12/9</date> S. Vm. Spazierg. <rs type="place" xml:id="pl_09569" ref="#pmb169">Pötzleinsdorf</rs>― <rs type="place" xml:id="pl_09570" ref="#pmb170">Neuwaldegg</rs> ― Knödelhütte. Kopf 
 wie gestern und schwerste Verstimmung.―</p>
             <p xml:space="preserve" rend="indent">Zum Thee <rs type="person" xml:id="pNt_46299" ref="#person_19596"><roleName>Fr.</roleName> <surname>Scala</surname></rs>; <rs type="person" xml:id="pNt_46300" ref="#person_20374"><roleName>Frau</roleName> <surname>Steiner</surname></rs>, <rs type="person" xml:id="pNt_46301" ref="#person_17425"><forename>Max</forename> <surname>Leitner</surname></rs>. Dieser zum 
 Nachtm., etwas Poker.―</p>
@@ -192,6 +196,5 @@ Zuwenig der Worte.―</p>
             <p xml:space="preserve" rend="indent"><rs type="work" xml:id="bibl_8309">Pendennis</rs> ausgelesen, leider in einer schlechten Übersetzung.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

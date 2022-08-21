@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-12-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-12-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-12-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-12-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-12-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-12-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F834-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2170.tif"/>
@@ -180,11 +184,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1905-12-25">
-            <p xml:space="preserve"><date when="1905-12-25">25/12</date> Vm. mit O. <rs type="place" xml:id="pl_05388" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs>, <rs type="place" xml:id="pl_05389" ref="#place_c79ad839f84019f53250a4e6365359f9">Neuwaldegg</rs>.</p>
+            <p xml:space="preserve"><date when="1905-12-25">25/12</date> Vm. mit O. <rs type="place" xml:id="pl_05388" ref="#pmb169">Pötzleinsdorf</rs>, <rs type="place" xml:id="pl_05389" ref="#pmb170">Neuwaldegg</rs>.</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_16145">Roman</rs>; und einige verdammte Stellen im <rs type="work" subtype="self" xml:id="bibl_16146">R. d. L.</rs> 
 festzustellen versucht.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

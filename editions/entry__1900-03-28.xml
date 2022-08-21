@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1900-03-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-03-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-03-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1900-03-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-03-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-03-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F050-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -162,7 +166,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1550.tif"/>
@@ -170,10 +174,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1900-03-28">
-            <p xml:space="preserve"><date when="1900-03-28">28/3</date> Ankunft <rs type="place" xml:id="pl_03354" ref="#place_8be4faaae218289562dc0a8c0e2e0ff1">Triest</rs>. Regen. <rs type="person" xml:id="pNt_16955" ref="#person_14061"><roleName>Dr.</roleName> <surname>Bum</surname></rs>. Mit ihm Miramare. Erzählt
+            <p xml:space="preserve"><date when="1900-03-28">28/3</date> Ankunft <rs type="place" xml:id="pl_03354" ref="#pmb91944">Triest</rs>. Regen. <rs type="person" xml:id="pNt_16955" ref="#person_14061"><roleName>Dr.</roleName> <surname>Bum</surname></rs>. Mit ihm Miramare. Erzählt
 mir seine Liebesgeschichte. Mit <rs type="person" xml:id="pNt_16956" ref="#person_20888"><surname>Urbans</surname></rs> und <rs type="person" xml:id="pNt_16957" ref="#person_20475"><surname>Strassers</surname></rs> genachtm.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

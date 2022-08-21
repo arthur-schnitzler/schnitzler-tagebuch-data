@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-02-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-02-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-03-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-02-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-02-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-03-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F709-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2050.tif"/>
@@ -180,7 +184,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1905-02-28">
-            <p xml:space="preserve"><date when="1905-02-28">28/2</date> Vm. Café <rs type="person" xml:id="pNt_22537"><surname>Liebmann</surname></rs>, mit <rs type="person" xml:id="pNt_22538" ref="#person_20986"><surname>Vollmoeller</surname></rs>;― dann im <rs type="place" ref="#place_volkstheater">Volksth.</rs>; sie wollten 
+            <p xml:space="preserve"><date when="1905-02-28">28/2</date> Vm. Café <rs type="person" xml:id="pNt_22537"><surname>Liebmann</surname></rs>, mit <rs type="person" xml:id="pNt_22538" ref="#person_20986"><surname>Vollmoeller</surname></rs>;― dann im <rs type="place" ref="#pmb92202">Volksth.</rs>; sie wollten 
 <rs type="work" subtype="self" xml:id="bibl_15573">Kakadu</rs> mit „<rs type="work" xml:id="bibl_15574">Gastmahl der Kardinäle</rs>“ und einem neuen <rs type="place" xml:id="pl_05080" ref="#place_8b8ce697991b9cb2c90683f6c6c6c358" ana="#exclude">dtsch.</rs> Schwank 
 „<rs type="work" xml:id="bibl_15575">Der Wöchner</rs>“ geben, ich liess auf bessere Gelegenheit verschieben.― 
 Bei <rs type="person" xml:id="pNt_22539" ref="#person_16245"><roleName>Frau</roleName> <surname>Hochsinger</surname></rs>.―</p>
@@ -193,6 +197,5 @@ und <rs type="person" xml:id="pNt_22548" ref="#person_20383"><surname>Steinrück
             <p xml:space="preserve" rend="center">März</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

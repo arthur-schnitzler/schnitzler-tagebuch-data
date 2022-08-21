@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1925-11-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-11-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-11-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1925-11-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-11-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-11-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1465-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6575.tif"/>
@@ -181,11 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1925-11-08">
-            <p xml:space="preserve"><date when="1925-11-08">8/11</date> S. Mit <rs type="person" xml:id="pNt_76359" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> <rs type="place" xml:id="pl_16421" ref="#place_9c457f4107132ccb2d87ebf5e13f0b74">Schafberg</rs>, <rs type="place" xml:id="pl_16422" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> (im Regen).―</p>
+            <p xml:space="preserve"><date when="1925-11-08">8/11</date> S. Mit <rs type="person" xml:id="pNt_76359" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> <rs type="place" xml:id="pl_16421" ref="#pmb59367">Schafberg</rs>, <rs type="place" xml:id="pl_16422" ref="#pmb169">Pötzleinsdorf</rs> (im Regen).―</p>
             <p xml:space="preserve" rend="indent">Zu <rs type="person" xml:id="pNt_76360" ref="#person_19756"><forename>Paula</forename> <surname>Schmidl</surname></rs> (über <rs type="person" xml:id="pNt_76361" ref="#person_21109"><forename>Julie</forename></rs>, die mir morgens telef. hatte). <rs type="person" xml:id="pNt_76362" ref="#person_19832"><forename>Olga</forename></rs> kam, die 
 bei <rs type="person" xml:id="pNt_76363" ref="#person_19756"><forename>Paula</forename></rs> ass.</p>
             <p xml:space="preserve" rend="indent">― Nm. in recht mäßigem Befinden an „<rs type="work" subtype="self" xml:id="bibl_16769">Therese</rs>“.</p>
-            <p xml:space="preserve" rend="indent">Sanatorium; mit <rs type="person" xml:id="pNt_76364" ref="#person_19832"><forename>O.</forename></rs> und <rs type="person" xml:id="pNt_76365" ref="#person_14130"><forename>Lili</forename></rs> genachtm. <rs type="person" xml:id="pNt_76366" ref="#person_20411"><forename>Franzi</forename> <surname>Stern</surname></rs> (aus <rs type="place" xml:id="pl_16423" ref="#place_e884124295d0c4d07d9bcf5096fd5495">Amerika</rs> zurück) 
+            <p xml:space="preserve" rend="indent">Sanatorium; mit <rs type="person" xml:id="pNt_76364" ref="#person_19832"><forename>O.</forename></rs> und <rs type="person" xml:id="pNt_76365" ref="#person_14130"><forename>Lili</forename></rs> genachtm. <rs type="person" xml:id="pNt_76366" ref="#person_20411"><forename>Franzi</forename> <surname>Stern</surname></rs> (aus <rs type="place" xml:id="pl_16423" ref="#pmb43406">Amerika</rs> zurück) 
 gesellt sich nachher zu uns.―</p>
             <p xml:space="preserve" rend="indent">Astern von <rs type="person" xml:id="pNt_76367" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs>―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_76368" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs> telefonirt in tiefster vielfach begründeter Depression. (Hoffnungslose 
@@ -194,6 +198,5 @@ eigne Ehe;― <rs type="person" xml:id="pNt_76370" ref="#person_19402"><surname>
             <p xml:space="preserve" rend="indent">― Lese <rs type="work" xml:id="bibl_16770">Laudin</rs> weiter.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

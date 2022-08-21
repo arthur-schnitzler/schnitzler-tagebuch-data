@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1903-08-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-08-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-08-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1903-08-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-08-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-08-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F4D0-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1837.tif"/>
@@ -180,14 +184,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1903-08-04">
-            <p xml:space="preserve"><date when="1903-08-04">4/8</date> Bahn <rs type="place" xml:id="pl_04404" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs>. Rad <rs type="place" xml:id="pl_04405" ref="#place_8c013d27c25b2d109cfc000dee9900bf">Maria Schutz</rs>, <rs type="place" xml:id="pl_04406" ref="#place_d99da12034c2eb74e8d79c158c06a704">Raach</rs> (steil, steinig). (<rs type="person" xml:id="pNt_20106" ref="#person_17092"><forename>Josef</forename> <surname>Kranz</surname></rs>, 
+            <p xml:space="preserve"><date when="1903-08-04">4/8</date> Bahn <rs type="place" xml:id="pl_04404" ref="#pmb91735">Semmering</rs>. Rad <rs type="place" xml:id="pl_04405" ref="#pmb45277">Maria Schutz</rs>, <rs type="place" xml:id="pl_04406" ref="#pmb91556">Raach</rs> (steil, steinig). (<rs type="person" xml:id="pNt_20106" ref="#person_17092"><forename>Josef</forename> <surname>Kranz</surname></rs>, 
 der dort ein Häusl hat.) ―</p>
-            <p xml:space="preserve" rend="indent">Rad weiter über <rs type="place" xml:id="pl_04407" ref="#place_424436ab307fa1129254d4c76e822f4c">Rams</rs> <rs type="place" xml:id="pl_04408" ref="#place_e88f9f6c8602b41f75e9b2df182ff569">Kranichberg</rs> <rs type="place" xml:id="pl_04409" ref="#place_c9fe2ce48d12e0308505cd0da82e9273">Gloggnitz</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Bahn <rs type="place" xml:id="pl_04410" ref="#place_dac9f8d2001040ee8f6e352348bc148b">Meidling</rs>.― Rad zu O.― <rs type="person" xml:id="pNt_20107" ref="#person_20386"><forename>Liesl</forename></rs>. <rs type="person" xml:id="pNt_20108" ref="#person_21546"><forename>Mirjam</forename></rs>.―</p>
+            <p xml:space="preserve" rend="indent">Rad weiter über <rs type="place" xml:id="pl_04407" ref="#pmb91560">Rams</rs> <rs type="place" xml:id="pl_04408" ref="#pmb91065">Kranichberg</rs> <rs type="place" xml:id="pl_04409" ref="#pmb90727">Gloggnitz</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Bahn <rs type="place" xml:id="pl_04410" ref="#pmb62">Meidling</rs>.― Rad zu O.― <rs type="person" xml:id="pNt_20107" ref="#person_20386"><forename>Liesl</forename></rs>. <rs type="person" xml:id="pNt_20108" ref="#person_21546"><forename>Mirjam</forename></rs>.―</p>
             <p xml:space="preserve" rend="indent">Kopfweh, womit ich leider beinah jedesmal meine schönen Touren 
 bezahlen muss.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-03-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-03-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-03-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-03-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-03-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-03-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-165E-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6838.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1927-03-29">
-            <p xml:space="preserve"><date when="1927-03-29">29/3</date> Vm. <rs type="person" xml:id="pNt_80164" ref="#person_13985"><roleName>Hr.</roleName> <surname>Brod</surname></rs> aus <rs type="place" xml:id="pl_17182" ref="#place_9cfa1e69f507d007a516eb3e9f5074e2">Chicago</rs>, beim Verleger <rs type="person" xml:id="pNt_80165"><surname>Brentano</surname></rs>. Über dortige 
+            <p xml:space="preserve"><date when="1927-03-29">29/3</date> Vm. <rs type="person" xml:id="pNt_80164" ref="#person_13985"><roleName>Hr.</roleName> <surname>Brod</surname></rs> aus <rs type="place" xml:id="pl_17182" ref="#pmb880">Chicago</rs>, beim Verleger <rs type="person" xml:id="pNt_80165"><surname>Brentano</surname></rs>. Über dortige 
 Verleger Verhältnisse u. dgl.―</p>
             <p xml:space="preserve" rend="indent">Zur <rs type="person" xml:id="pNt_80166" ref="#person_21594"><roleName>Hofr.</roleName> <surname>Zuckerkandl</surname></rs>;― (<rs type="person" xml:id="pNt_80167" ref="#person_15384"><surname>Gémier</surname></rs> der neuerlich seine bestimmte Absicht 
 ausdrückt, <rs type="work" subtype="self" xml:id="bibl_24298">Weites Land</rs> zu spielen.― <rs type="person" xml:id="pNt_80168" ref="#person_18863"><forename>Cl.</forename> <surname>P.</surname></rs> Übersetzung der <rs type="person" xml:id="pNt_80169" ref="#person_15395"><surname>Géraldy</surname></rs> 
@@ -197,6 +201,5 @@ Eifersucht auf sie beide; „und sie hat auch Recht was mich anbelangt, und wahr
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_80180" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> bei mir, in hysterisch-selbstmörderischer Stimmung; die sich besserte.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

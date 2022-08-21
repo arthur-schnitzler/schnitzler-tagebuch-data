@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-05-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-05-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-05-19.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-05-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-05-17.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-05-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1AD8-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7490.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1930-05-18">
-            <p xml:space="preserve"><date when="1930-05-18">18/5</date> S.― Mit <rs type="person" xml:id="pNt_89758" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Auto Cobenzl;― Spazierg.: ― <rs type="place" xml:id="pl_19246" ref="#place_388686540f35afe7790d134863d92203">Kahlenberg</rs> ― <rs type="place" xml:id="pl_19247" ref="#place_431168489e6885d4e91ebc5edec7dfb4">Grinzing</rs>.― 
+            <p xml:space="preserve"><date when="1930-05-18">18/5</date> S.― Mit <rs type="person" xml:id="pNt_89758" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Auto Cobenzl;― Spazierg.: ― <rs type="place" xml:id="pl_19246" ref="#pmb574">Kahlenberg</rs> ― <rs type="place" xml:id="pl_19247" ref="#pmb90771">Grinzing</rs>.― 
 Sie ißt bei mir.</p>
             <p xml:space="preserve" rend="indent">Nm. wenig wohl, zu Bett. Nachher erst recht müd.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_89759" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Raimundth. <rs type="person" xml:id="pNt_89760"><surname>Götz</surname></rs>, <rs type="work" xml:id="bibl_1048">der Lügner und die Nonne</rs>;― hübsch, besonders 
@@ -194,6 +198,5 @@ Zusammenhang sofort erfassend blieb zurück ― und nahm die Brille für
 mich in Empfang.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-11-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-11-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-11-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-11-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-11-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-11-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1A2E-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,13 +177,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7390.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7391.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1929-11-29">
             <p xml:space="preserve"><date when="1929-11-29">29/11</date> Vm. <rs type="work" subtype="self" xml:id="bibl_743">Probe</rs>.―</p>
             <p xml:space="preserve" rend="indent">Im Grd. Hotel zu Mittag; dann Besorgungen in der Stadt.</p>
@@ -187,5 +192,6 @@
             <p xml:space="preserve" rend="indent">Allein zu Haus genachtm. Dann kam <rs type="person" xml:id="pNt_88230" ref="#person_21107"><forename>Jacob</forename> <surname>W.</surname></rs>― (Über seine schöne <rs type="work" xml:id="bibl_744">Rede 
 auf <rs type="person" xml:id="pNt_88231"><forename>Hugo</forename></rs></rs>.― <rs type="person" xml:id="pNt_88232" ref="#person_21109"><forename>Julie</forename></rs> Prozess gegen ihn.― Gesundheit etc.―)</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

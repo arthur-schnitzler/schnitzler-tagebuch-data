@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-07-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-07-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-07-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-07-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-07-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-07-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FE86-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2938.tif"/>
@@ -181,14 +185,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1910-07-06">
-            <p xml:space="preserve"><date when="1910-07-06">6/7</date> Mit <rs type="person" xml:id="pNt_33039" ref="#person_19822"><forename>Heini</forename></rs> auf den <rs type="place" xml:id="pl_07129" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs>. Dort <rs type="allusively" xml:id="rst_01129">Mama</rs>, <rs type="person" xml:id="pNt_33040" ref="#person_15854"><forename>Gisa</forename></rs>, <rs type="person" xml:id="pNt_33041" ref="#person_16894"><forename>Margot</forename></rs>.― Nm. ins 
+            <p xml:space="preserve"><date when="1910-07-06">6/7</date> Mit <rs type="person" xml:id="pNt_33039" ref="#person_19822"><forename>Heini</forename></rs> auf den <rs type="place" xml:id="pl_07129" ref="#pmb91735">Semmering</rs>. Dort <rs type="allusively" xml:id="rst_01129">Mama</rs>, <rs type="person" xml:id="pNt_33040" ref="#person_15854"><forename>Gisa</forename></rs>, <rs type="person" xml:id="pNt_33041" ref="#person_16894"><forename>Margot</forename></rs>.― Nm. ins 
 Sanatorium zu <rs type="person" xml:id="pNt_33042" ref="#person_13913"><surname>Brahm</surname></rs>, dann zu <rs type="person" xml:id="pNt_33043" ref="#person_16646"><surname>Kainz</surname></rs>. Mit <rs type="person" xml:id="pNt_33044" ref="#person_13913"><surname>Brahm</surname></rs> viel über <rs type="work" subtype="self" xml:id="bibl_11844">das Stück</rs>, 
 kleine Änderungen etc.―</p>
             <p xml:space="preserve" rend="indent">Abd. <rs type="person" xml:id="pNt_33045" ref="#person_19742"><surname>Schliessmann</surname></rs>, nach vielen Jahren, der sich kürzlich 
 verheiratet; und <rs type="person" xml:id="pNt_33046" ref="#person_17046"><surname>Korff</surname></rs> gesprochen, der den Sommer auf einer Jagdhütte in den 
-<rs type="place" xml:id="pl_07130" ref="#place_cee3d3ca3f7f91d212c119cd48873fd9">Karpathen</rs> verbringen will.―</p>
+<rs type="place" xml:id="pl_07130" ref="#pmb91009">Karpathen</rs> verbringen will.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

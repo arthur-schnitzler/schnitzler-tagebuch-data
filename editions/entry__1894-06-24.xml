@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1894-06-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-06-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-06-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1894-06-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-06-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-06-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E855-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0843.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1894-06-24">
-            <p xml:space="preserve"><date when="1894-06-24">24/6</date> Sonntag. Bic.tour <rs type="place" xml:id="pl_01736" ref="#place_5884bac5272bf94a2487941d33f4ddc1">Payerbach</rs> ― Singerin ― <rs type="place" xml:id="pl_01737" ref="#place_017f791d01c1d14c3ec7a1209e28b020">Gutenstein</rs> (mit 
+            <p xml:space="preserve"><date when="1894-06-24">24/6</date> Sonntag. Bic.tour <rs type="place" xml:id="pl_01736" ref="#pmb948">Payerbach</rs> ― Singerin ― <rs type="place" xml:id="pl_01737" ref="#pmb1036">Gutenstein</rs> (mit 
 <rs type="person" xml:id="pNt_08864" ref="#person_15855"><surname>Hajek</surname></rs>); dort <rs type="person" xml:id="pNt_08865" ref="#person_13491"><forename>Theo</forename></rs>; weitergefahren mit <rs type="person" xml:id="pNt_08866" ref="#person_18597"><roleName>Dr.</roleName> <surname>Ostersetzer</surname></rs>, <rs type="person" xml:id="pNt_08867" ref="#person_15855"><surname>Hajek</surname></rs>, <rs type="person" xml:id="pNt_08868" ref="#person_21143"><surname>Weichs</surname></rs> 
-und Frau ― <rs type="place" xml:id="pl_01738" ref="#place_f9eeafbaa1cdb9cad7b211858d509a1d">Sollenau</rs>; ohne die letzten bis <rs type="place" xml:id="pl_01739" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>. Sehr müd angekommen.―</p>
+und Frau ― <rs type="place" xml:id="pl_01738" ref="#pmb91770">Sollenau</rs>; ohne die letzten bis <rs type="place" xml:id="pl_01739" ref="#pmb50">Wien</rs>. Sehr müd angekommen.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

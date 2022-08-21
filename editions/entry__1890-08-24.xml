@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1890-08-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-08-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-08-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1890-08-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-08-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-08-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E30D-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0473.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1890-08-24">
-            <p xml:space="preserve"><date when="1890-08-24">24.</date> mit <rs type="person" xml:id="pNt_04734" ref="#person_15485"><forename>Mz.</forename></rs> und Bruder <rs type="place" xml:id="pl_00974" ref="#place_15132be64d12d34052619003b16df487">Tulln</rs> ― <rs type="place" xml:id="pl_00975" ref="#place_50f418010c929affa3d96703c550cc71">Kronau</rs> ― <rs type="place" xml:id="pl_00976" ref="#place_a64ccfe6a153e969eccc0cd5e3d021f0">Greifenstein</rs>, 
-<rs type="place" xml:id="pl_00977" ref="#place_a3c879a4f19e7987aa5aa1f1b929b0da">Klosterneuburg</rs>.</p>
+            <p xml:space="preserve"><date when="1890-08-24">24.</date> mit <rs type="person" xml:id="pNt_04734" ref="#person_15485"><forename>Mz.</forename></rs> und Bruder <rs type="place" xml:id="pl_00974" ref="#pmb91959">Tulln</rs> ― <rs type="place" xml:id="pl_00975" ref="#pmb91079">Kronau</rs> ― <rs type="place" xml:id="pl_00976" ref="#pmb90763">Greifenstein</rs>, 
+<rs type="place" xml:id="pl_00977" ref="#pmb865">Klosterneuburg</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

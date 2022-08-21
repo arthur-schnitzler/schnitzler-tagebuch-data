@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1903-08-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-08-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-08-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1903-08-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-08-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-08-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F4E1-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1842.tif"/>
@@ -180,9 +184,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1903-08-21">
-            <p xml:space="preserve"><date when="1903-08-21">21/8</date> <rs type="place" xml:id="pl_04447" ref="#place_4931d7c474169210fcd0c3889be19f2f">Lavarone</rs> ― <rs type="place" xml:id="pl_04448" ref="#place_ff4a5d476b969dd6c19b3a99084d3364">Caldonazzo</rs> ― <rs type="place" xml:id="pl_04449" ref="#place_34f36b9454115e3b99acdf7913509e12">Trient</rs> ―</p>
+            <p xml:space="preserve"><date when="1903-08-21">21/8</date> <rs type="place" xml:id="pl_04447" ref="#pmb461">Lavarone</rs> ― <rs type="place" xml:id="pl_04448" ref="#pmb90428">Caldonazzo</rs> ― <rs type="place" xml:id="pl_04449" ref="#pmb954">Trient</rs> ―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

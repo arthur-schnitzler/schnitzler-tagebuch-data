@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-03-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-03-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-03-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-03-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-03-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-03-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FE1B-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2871.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1910-03-21">
-            <p xml:space="preserve"><date when="1910-03-21">21/3</date> Vm. mit O. Stadt. Panorama (<rs type="place" xml:id="pl_06988" ref="#place_2b0f6af168f3c980d7be0e02053b1576">Sicilien</rs>).</p>
+            <p xml:space="preserve"><date when="1910-03-21">21/3</date> Vm. mit O. Stadt. Panorama (<rs type="place" xml:id="pl_06988" ref="#pmb451">Sicilien</rs>).</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_32310" ref="#person_19827"><forename>Julius</forename></rs> zu Tisch. <rs type="person" xml:id="pNt_32311" ref="#person_13202"><forename>Poldi</forename> <surname>Andrian</surname></rs> (Consultation Hypochondrie).―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_32312" ref="#person_13202"><surname>Andrian</surname></rs> später bei mir, mußte ihn selbst untersuchen und beruhigen.</p>
             <p xml:space="preserve" rend="indent">An der <rs type="work" subtype="self" xml:id="bibl_11622">Novelle</rs> weiter.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

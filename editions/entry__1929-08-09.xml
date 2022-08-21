@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-08-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-08-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-08-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-08-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-08-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-08-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-19BE-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,13 +177,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7337.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7338.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1929-08-09">
             <p xml:space="preserve"><date when="1929-08-09">9/8</date> ― <rs type="person" xml:id="pNt_87466" ref="#person_19822"><forename>Heinis</forename></rs> 27. Geburtstag.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_87467" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> in die Stadt.― Kleine Besorgungen.―</p>
@@ -188,9 +193,10 @@
 nicht unzufrieden.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_87469" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Freiluftkino („<rs type="work" xml:id="bibl_544">Scharlatan</rs>“) die Albernheit dieses Kinostücks 
 ist beinahe unfassbar.― Mit <rs type="person" xml:id="pNt_87470"><forename>Liesl</forename> <surname>Schmutzer</surname></rs> und <rs type="person" xml:id="pNt_87471"><forename>Susi</forename></rs> zurück;― wir nachtm. 
-zu viert im <rs type="place" xml:id="pl_18809" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs>.</p>
+zu viert im <rs type="place" xml:id="pl_18809" ref="#pmb113">Türkenschanzpark</rs>.</p>
             <p xml:space="preserve" rend="indent">Begann <rs type="work" subtype="self" xml:id="bibl_545">meine Briefe</rs> an <rs type="person" xml:id="pNt_87472" ref="#person_16293"><forename>Hugo</forename></rs> (bis 900) zu lesen. Wie gezwungen und 
 viele wie platt!―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

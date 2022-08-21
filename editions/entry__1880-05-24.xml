@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1880-05-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-05-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-05-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1880-05-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-05-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-05-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DD61-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0064.tif"/>
@@ -216,7 +220,7 @@ vierte Akt geworden, über den sich folgende Inhaltsangabe findet:</p>
             <p xml:space="preserve" rend="indent">Der Tod des dritten.</p>
             <p xml:space="preserve" rend="indent">Die pure Leichenkammer!</p>
             <p xml:space="preserve" rend="indent">Im durchblättern des verblaßten Büchleins find’ ich auch die Stelle: 
-Hier ― d. i. in <rs type="place" xml:id="pl_00092" ref="#place_0e891dbd1b1814a0cddd64e270c6ffac">Vöslau</rs> ist mein bester Freund mein College <rs type="person" xml:id="pNt_00489" ref="#person_17825"><forename>Ludw.</forename> <surname>M.</surname></rs> ―</p>
+Hier ― d. i. in <rs type="place" xml:id="pl_00092" ref="#pmb992">Vöslau</rs> ist mein bester Freund mein College <rs type="person" xml:id="pNt_00489" ref="#person_17825"><forename>Ludw.</forename> <surname>M.</surname></rs> ―</p>
             <p xml:space="preserve" rend="indent">Wo ist die Zeit hin, da „mein liebster Stoff das Wasser“ ― war?</p>
             <p xml:space="preserve" rend="indent">Folgende dramat. „Werke“ hab’ ich bis jetzt vertilgt: (+ = Fragment)</p>
             <p xml:space="preserve" rend="indent">+ <rs type="work" subtype="self" xml:id="bibl_23451">Aristokrat und Demokrat</rs> 73? (Vorspiel)</p>
@@ -240,6 +244,5 @@ Hier ― d. i. in <rs type="place" xml:id="pl_00092" ref="#place_0e891dbd1b1814a
 denen höchstens 4 sich über das Niveau ausgemachten Schundes erheben.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

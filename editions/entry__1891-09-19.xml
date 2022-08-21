@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1891-09-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-09-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-09-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1891-09-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-09-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-09-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E468-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0560.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1891-09-19">
-            <p xml:space="preserve"><date when="1891-09-19">19. 9.</date> <rs type="person" xml:id="pNt_05579" ref="#person_15485"><forename>Mz.</forename></rs> bei <rs ref="#person_14507" type="person" xml:id="pNt_05580"><roleName>Dr.</roleName> <surname>Oben</surname></rs> [Krkhtszg].― In einem Café <rs type="place" xml:id="pl_01219" ref="#place_11bee1a74804384f561020baa6e6fd7a">Landstraße</rs>,― fuhr 
-Abends nach <rs type="place" xml:id="pl_01220" ref="#place_d72261a58f8777c2da6598d43adbbf2b">Halle</rs>.―</p>
+            <p xml:space="preserve"><date when="1891-09-19">19. 9.</date> <rs type="person" xml:id="pNt_05579" ref="#person_15485"><forename>Mz.</forename></rs> bei <rs ref="#person_14507" type="person" xml:id="pNt_05580"><roleName>Dr.</roleName> <surname>Oben</surname></rs> [Krkhtszg].― In einem Café <rs type="place" xml:id="pl_01219" ref="#pmb53">Landstraße</rs>,― fuhr 
+Abends nach <rs type="place" xml:id="pl_01220" ref="#pmb140">Halle</rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

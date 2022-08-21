@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-11-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-11-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-11-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-11-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-11-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-11-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1745-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6990.tif"/>
@@ -183,7 +187,7 @@
          <div type="diary-day" xml:id="entry__1927-11-15">
             <p xml:space="preserve"><date when="1927-11-15">15/11</date> Von gestern nachzutragen, dass <rs type="person" xml:id="pNt_82212" ref="#person_19227"><forename>Gerty</forename> <surname>Rheinhardt</surname></rs> zu Tisch da war. 
 Versucht nun durch Übersetzungen sich fortzubringen. Bald wieder nach 
-<rs type="place" xml:id="pl_17698" ref="#place_389962c9dec540ab28d04517e82c3996">Italien</rs>. Recht armes Wesen.―</p>
+<rs type="place" xml:id="pl_17698" ref="#pmb40306">Italien</rs>. Recht armes Wesen.―</p>
             <p xml:space="preserve" rend="indent">Vm. bei <rs type="person" xml:id="pNt_82213" ref="#person_19986"><forename>Gustav</forename></rs>.― Sein manchmal bizarrer „Skeptizismus“, der oft in 
 Manier erstarrt. (Z. B. ― kein Beweis, dass <rs type="person" xml:id="pNt_82214" ref="#person_15499"><surname>Goethe</surname></rs> wirklich den <rs type="work" xml:id="bibl_24826">Werther</rs> 
 geschrieben u. s. w.) ― Sein Bruder der Advokat, als dummer August des 
@@ -194,6 +198,5 @@ Skeptizismus, während <rs type="person" xml:id="pNt_82215" ref="#person_19986">
 heutigen Aufnahmen bei „<rs type="person" xml:id="pNt_82220"><forename>Adèle</forename></rs>“.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-08-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-08-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-08-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-08-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-08-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-08-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1135-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6093.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1923-08-14">
-            <p xml:space="preserve"><date when="1923-08-14">14/8</date> Abreise von <rs type="place" xml:id="pl_14935" ref="#place_63714a562352ef3ae472da20ed0384c0">Baden-Baden</rs>;― im Coupé am <rs type="work" subtype="self" xml:id="bibl_1958">Verf.</rs> und <rs type="work" xml:id="bibl_1959">Ulrike Woytich</rs> 
-von <rs type="person" xml:id="pNt_70079" ref="#person_21107"><forename>Jacob</forename></rs> zu lesen begonnen.― <rs type="place" xml:id="pl_14936" ref="#place_70bc242a14c37ebf22a19d11c3b61015">Ulm</rs>.― Um 6 in <rs type="place" xml:id="pl_14937" ref="#place_a6ce5b8e120e1913d0f03fd165e61139">Friedrichshafen</rs>. 
+            <p xml:space="preserve"><date when="1923-08-14">14/8</date> Abreise von <rs type="place" xml:id="pl_14935" ref="#pmb228">Baden-Baden</rs>;― im Coupé am <rs type="work" subtype="self" xml:id="bibl_1958">Verf.</rs> und <rs type="work" xml:id="bibl_1959">Ulrike Woytich</rs> 
+von <rs type="person" xml:id="pNt_70079" ref="#person_21107"><forename>Jacob</forename></rs> zu lesen begonnen.― <rs type="place" xml:id="pl_14936" ref="#pmb39966">Ulm</rs>.― Um 6 in <rs type="place" xml:id="pl_14937" ref="#pmb58779">Friedrichshafen</rs>. 
 Kurgartenhotel. <rs type="person" xml:id="pNt_70080" ref="#person_18863"><forename>C.</forename></rs>― Spaziergang am Strand;― im „Buchhorn“ (nach 
 vergebl. Versuch um Seehotel) genachtm.― Angenehmer Abend.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

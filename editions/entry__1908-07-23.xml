@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-07-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-07-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-07-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-07-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-07-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-07-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FBBD-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2534.tif"/>
@@ -180,11 +184,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1908-07-23">
-            <p xml:space="preserve"><date when="1908-07-23">23/7</date> Mit <rs type="person" xml:id="pNt_28607" ref="#person_19822"><forename>Heini</forename></rs> und <rs type="person" xml:id="pNt_28608" ref="#person_15032"><surname>Fleischer</surname></rs> Hauenstein, Marienquelle, Wasserfall, <rs type="place" xml:id="pl_06407" ref="#place_c2678e6fb300c179dca580e4baf4f3dc">Salegg</rs>.―</p>
+            <p xml:space="preserve"><date when="1908-07-23">23/7</date> Mit <rs type="person" xml:id="pNt_28607" ref="#person_19822"><forename>Heini</forename></rs> und <rs type="person" xml:id="pNt_28608" ref="#person_15032"><surname>Fleischer</surname></rs> Hauenstein, Marienquelle, Wasserfall, <rs type="place" xml:id="pl_06407" ref="#pmb41156">Salegg</rs>.―</p>
             <p xml:space="preserve" rend="indent">An der „<rs type="work" subtype="self" xml:id="bibl_13548">Prinzessin von W.</rs>“ und am <rs type="work" subtype="self" xml:id="bibl_13549">Frieberg</rs> meditirt.</p>
             <p xml:space="preserve" rend="indent">Mit O. und <rs type="person" xml:id="pNt_28609" ref="#person_13913"><surname>Brahm</surname></rs> spazieren. Zitherconcert.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

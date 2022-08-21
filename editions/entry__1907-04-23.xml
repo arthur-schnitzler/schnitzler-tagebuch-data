@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1907-04-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-04-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-04-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1907-04-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-04-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-04-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FA18-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2368.tif"/>
@@ -180,7 +184,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1907-04-23">
-            <p xml:space="preserve"><date when="1907-04-23">23/4</date> Vm. bei Dr. <rs type="person" xml:id="pNt_26747" ref="#person_13473"><forename>L.</forename> <surname>Bauer</surname></rs>, der mir über <rs type="place" xml:id="pl_05938" ref="#place_c9e5dcbfb1a24f3ac0288b1511460678">Kairo</rs> erzählte.</p>
+            <p xml:space="preserve"><date when="1907-04-23">23/4</date> Vm. bei Dr. <rs type="person" xml:id="pNt_26747" ref="#person_13473"><forename>L.</forename> <surname>Bauer</surname></rs>, der mir über <rs type="place" xml:id="pl_05938" ref="#pmb839">Kairo</rs> erzählte.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_26748" ref="#person_18827"><surname>Platens</surname></rs> <rs type="work" xml:id="bibl_14211">Tagebücher</rs> zu Ende gelesen.―</p>
             <p xml:space="preserve" rend="indent">Neulich von <rs type="person" xml:id="pNt_26749" ref="#person_18049"><forename>Grethe</forename> <surname>Meisel-Hess</surname></rs> ein nicht unbegabtes aber widerliches Buch 
 „<rs type="work" xml:id="bibl_14212">Die Stimme</rs>“.―</p>
@@ -189,6 +193,5 @@
 Tragoedin in der Loge.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

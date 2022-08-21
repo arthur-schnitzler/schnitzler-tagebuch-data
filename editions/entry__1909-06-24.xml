@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-06-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-06-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-06-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-06-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-06-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-06-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FD0D-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2711.tif"/>
@@ -184,9 +188,9 @@
          <div type="diary-day" xml:id="entry__1909-06-24">
             <p xml:space="preserve"><date when="1909-06-24">24/6</date> Früh bei <rs type="allusively" xml:id="rst_01039">Mama</rs> und Besorgungen.―</p>
             <p xml:space="preserve" rend="indent">Dictirt. (Exposition <rs type="work" subtype="self" xml:id="bibl_12716">W. L.</rs> und Briefe.)</p>
-            <p xml:space="preserve" rend="indent">Zu Tisch <rs type="person" xml:id="pNt_30516"><forename>Grethe</forename></rs> und <rs type="person" xml:id="pNt_30517" ref="#person_21546"><forename>Mirjam</forename> <surname>Ziegel-Horwitz</surname></rs> (aus <rs type="place" xml:id="pl_06725" ref="#place_60960432acfa4972c8f13dd89a872920">Breslau</rs>).</p>
+            <p xml:space="preserve" rend="indent">Zu Tisch <rs type="person" xml:id="pNt_30516"><forename>Grethe</forename></rs> und <rs type="person" xml:id="pNt_30517" ref="#person_21546"><forename>Mirjam</forename> <surname>Ziegel-Horwitz</surname></rs> (aus <rs type="place" xml:id="pl_06725" ref="#pmb90392">Breslau</rs>).</p>
             <p xml:space="preserve" rend="indent">Las Nm. <rs type="person" xml:id="pNt_30518" ref="#person_13374"><surname>Bahrs</surname></rs> <rs type="work" xml:id="bibl_12717">Tagebuch</rs> mit Vergnügen und Interesse; obzwar 
-beinah jeder Satz ein Unsinn ist. <rs type="place" xml:id="pl_06726" ref="#place_b472f5868425ac2bc44e693fc3267e87">Österreich</rs>, Menschen, Gestalten, 
+beinah jeder Satz ein Unsinn ist. <rs type="place" xml:id="pl_06726" ref="#pmb41240">Österreich</rs>, Menschen, Gestalten, 
 Werke, ― fast alles sieht er falsch; dieser wahrhaft freie Mensch ist der 
 Knecht seiner vorgefaßten Meinungen, und jede seiner Meinungen ist 
 „vor“gefaßt, da sie Zufälligkeiten ihre Entstehung verdankt und sich 
@@ -200,6 +204,5 @@ Türkenschanzrestaurant genachtmahlt.―</p>
 und philosophisches studirt; offenbar begabt und klug über seine Jahre.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

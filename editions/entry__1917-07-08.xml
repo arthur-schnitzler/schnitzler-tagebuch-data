@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1917-07-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-07-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-07-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1917-07-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-07-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-07-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0883-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4500.tif"/>
@@ -181,18 +185,17 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1917-07-08">
-            <p xml:space="preserve"><date when="1917-07-08">8/7</date> S. <rs type="place" xml:id="pl_10588" ref="#place_a513bae177c89d12226f343ac5ff1ee3">Salmannsdorf</rs> ― Hameau ― <rs type="place" xml:id="pl_10589" ref="#place_b900112ce988d972bc2d561413e84979">Sophien Alpe</rs> ― <rs type="place" xml:id="pl_10590" ref="#place_361000b73d3947c615f058769b32865c">Steinriegel</rs> ― <rs type="place" xml:id="pl_10591" ref="#place_1464064212622b740a09ad602921d506">Hainbuch</rs> 
-― <rs type="place" xml:id="pl_10592" ref="#place_8f8f037216b050ff73b88ef022ba5500">Tulbinger Kogel</rs> (zum ersten Mal!) ― <rs type="place" xml:id="pl_10593" ref="#place_a664e77ab0680f60712edfb712500d85">Mauerbach</rs> <rs type="place" xml:id="pl_10594" ref="#place_14868a84e5f21dcb5b7a964884d2708e">Weidlingau</rs>;― machte 
+            <p xml:space="preserve"><date when="1917-07-08">8/7</date> S. <rs type="place" xml:id="pl_10588" ref="#pmb91641">Salmannsdorf</rs> ― Hameau ― <rs type="place" xml:id="pl_10589" ref="#pmb92533">Sophien Alpe</rs> ― <rs type="place" xml:id="pl_10590" ref="#pmb49210">Steinriegel</rs> ― <rs type="place" xml:id="pl_10591" ref="#pmb92268">Hainbuch</rs> 
+― <rs type="place" xml:id="pl_10592" ref="#pmb91957">Tulbinger Kogel</rs> (zum ersten Mal!) ― <rs type="place" xml:id="pl_10593" ref="#pmb942">Mauerbach</rs> <rs type="place" xml:id="pl_10594" ref="#pmb92059">Weidlingau</rs>;― machte 
 das ganze in Eiltempo, manchmal, auf der sonnigen Bergabstraße Laufschritt 
 in etwas mehr als fünf Stunden.</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_6596">Fldb.</rs>―</p>
             <p xml:space="preserve" rend="indent">Eine Einladung von <rs type="person" xml:id="pNt_51034" ref="#person_17278"><surname>Landesberger</surname></rs> gab O. wieder <rs type="place" xml:id="pl_10595" ref="#place_eabb32a995c98b7d73492012c15e555c" ana="#exclude">Ausseer</rs> Pläne für sich 
 und die <rs type="allusively" xml:id="rst_01518">Kinder</rs> ein ― nachdem wir aus allgemeinen und speciellen Gründen 
 längst (noch gestern) einig waren, daß wir alle hier bleiben und 
-keineswegs nach <rs type="place" xml:id="pl_10596" ref="#place_661f4200c3f047474d1df224f62f0503">A.</rs> gehn.― Ihre Launenhaftigkeit, Beeinflußbarkeit, 
+keineswegs nach <rs type="place" xml:id="pl_10596" ref="#pmb415">A.</rs> gehn.― Ihre Launenhaftigkeit, Beeinflußbarkeit, 
 Unverläßlichkeit erbitterte mich.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

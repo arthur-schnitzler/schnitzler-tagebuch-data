@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1925-08-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-08-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-08-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1925-08-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-08-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-08-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1404-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6521.tif"/>
@@ -199,7 +203,7 @@ Meer“;― dann will ich mit meinem <rs type="allusively" xml:id="rst_02096">Va
             <p xml:space="preserve" rend="indent">Neulich Traum, ich erhalte eine Photographie; ich in ganzer Figur, etwa 
 20jährig, auf dem gleichen Bild mit mir Kopf von Onkel <persName xml:id="pNt_75557"><forename>Karl</forename></persName> (gestorben 89), 
 und <persName xml:id="pNt_75558"><roleName>Onkel</roleName> <forename>Anton</forename></persName> (zur selben Zeit), nur <persName xml:id="pNt_75559"><forename>Karl</forename></persName> deutlich zu sehn;― eine junge 
-Dame schickt mir das Bild, sie hat mich im <rs type="place" ref="#place_burgtheater">Burgtheater</rs> gesehn, gleich erkannt 
+Dame schickt mir das Bild, sie hat mich im <rs type="place" ref="#pmb14">Burgtheater</rs> gesehn, gleich erkannt 
 und dieses Bild in ihrem Album gefunden (<persName xml:id="pNt_75560"><forename>Arthur</forename> <surname>Klein</surname></persName> erzählte mir neulich, 
 dass er in einem alten Album allerlei Bilder von mir und der Familie, „lauter 
 Sch.s“ gefunden) ― ich fahre wegen dieses Bildes in die <placeName type="street" xml:id="pl_16208">Cirkusgasse</placeName>,― zu 
@@ -210,6 +214,5 @@ auf den Sitz, verletzt sich dabei und schreit ―</p>
             <p xml:space="preserve" rend="indent">Z. N. <rs type="person" xml:id="pNt_75562" ref="#person_20925"><forename>Leo</forename></rs>; <rs type="person" xml:id="pNt_75563" ref="#person_13551"><forename>Richard</forename></rs> <rs type="person" xml:id="pNt_75564" ref="#person_13550"><forename>Paula</forename></rs> <rs type="person" xml:id="pNt_75565" ref="#person_13547"><forename>Bubi</forename></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

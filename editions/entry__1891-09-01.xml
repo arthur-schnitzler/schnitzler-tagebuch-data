@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1891-09-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-08-31.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-09-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1891-09-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-08-31.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-09-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E456-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0556.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1891-09-01">
-            <p xml:space="preserve"><date when="1891-09-01">1. 9.</date> War Abds. vergebl. in <rs type="place" xml:id="pl_01203" ref="#place_02031ed2507818d10a37c1a6bf0c9f9d">Mödling</rs>, fuhr nach <rs type="place" xml:id="pl_01204" ref="#place_9a43e84f6e1d406076f2372205804f6d">B.</rs> wo ich <rs type="person" xml:id="pNt_05544" ref="#person_15485"><forename>Mz.</forename></rs> krank 
+            <p xml:space="preserve"><date when="1891-09-01">1. 9.</date> War Abds. vergebl. in <rs type="place" xml:id="pl_01203" ref="#pmb968">Mödling</rs>, fuhr nach <rs type="place" xml:id="pl_01204" ref="#pmb662">B.</rs> wo ich <rs type="person" xml:id="pNt_05544" ref="#person_15485"><forename>Mz.</forename></rs> krank 
 und allein fand. Ich bekam einen Vergangenheitsanfall heftigsten 
 Grades, weinte und war fassungslos. Die Hilflosigkeit wurde mir so 
 schrecklich klar. Wochenlang gebessert ― und plötzlich kommen die 
@@ -191,6 +195,5 @@ schmerzlich bewegt, daß ich nicht glücklich bin und versucht an
 meinen Schmerz heranzureichen.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-03-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-03-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-03-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-03-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-03-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-03-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FB33-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2479.tif"/>
@@ -180,13 +184,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1908-03-07">
-            <p xml:space="preserve"><date when="1908-03-07">7/3</date> Vm. zu <rs type="person" xml:id="pNt_27979" ref="#person_20242"><surname>Speidels</surname></rs>. Mit ihm über die Felder nach <rs type="place" xml:id="pl_06217" ref="#place_a513bae177c89d12226f343ac5ff1ee3">Salmannsdorf</rs>. Er klagte 
+            <p xml:space="preserve"><date when="1908-03-07">7/3</date> Vm. zu <rs type="person" xml:id="pNt_27979" ref="#person_20242"><surname>Speidels</surname></rs>. Mit ihm über die Felder nach <rs type="place" xml:id="pl_06217" ref="#pmb91641">Salmannsdorf</rs>. Er klagte 
 über seine liter. Erfolglosigkeiten und Aergerlichkeiten. Im Wald trafen wir 
 mit O. zusammen. Aussprache über ihr gestörtes Verhältnis zu <rs ref="#person_15833" type="person" xml:id="pNt_27980"><forename>Else</forename> <surname>Sp.</surname></rs>―</p>
             <p xml:space="preserve" rend="indent">Nm. gelesen; und die neue Schlussszene des 2. Akts (<rs type="work" subtype="self" xml:id="bibl_13261">Ruf</rs>).</p>
             <p xml:space="preserve" rend="indent">― Burg, <rs type="work" xml:id="bibl_13262">Julius Caesar</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

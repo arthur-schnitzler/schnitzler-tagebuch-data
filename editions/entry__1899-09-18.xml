@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1899-09-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-09-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-09-19.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1899-09-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-09-17.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-09-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EF97-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1514.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1899-09-18">
-            <p xml:space="preserve"><date when="1899-09-18">18/9</date> <rs type="place" xml:id="pl_03244" ref="#place_0d02faf704bd0c9d27ef4e5dc7980b02">Nürnberg</rs>.― Germ. Museum mit <rs type="person" xml:id="pNt_16545" ref="#person_14734"><forename>M.</forename> <surname>E.</surname></rs>― Ohne sie im geringsten 
+            <p xml:space="preserve"><date when="1899-09-18">18/9</date> <rs type="place" xml:id="pl_03244" ref="#pmb44172">Nürnberg</rs>.― Germ. Museum mit <rs type="person" xml:id="pNt_16545" ref="#person_14734"><forename>M.</forename> <surname>E.</surname></rs>― Ohne sie im geringsten 
 zu lieben, hab ich sie gern, sie macht gar nicht nervös, ist hübsch, 
 gutmütig ― Las ihr <rs type="work" subtype="self" xml:id="bibl_18573">Beatrice</rs> ― Nachm. Scenen daraus vor ― Dessen 
 Unvollendetsein verstimmte mich.― <rs type="person" xml:id="pNt_16546" ref="#person_14734"><forename>M.</forename> <surname>E.</surname></rs> ist mir bei der <rs type="work" subtype="self" xml:id="bibl_18574">Bea.</rs> sehr zu 
 statten gekommen.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

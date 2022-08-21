@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-04-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-04-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-04-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-04-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-04-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-04-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0B0E-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4830.tif"/>
@@ -181,9 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1919-04-21">
-            <p xml:space="preserve"><date when="1919-04-21">21/4</date> Ostermontag. Kalt, stürmisch. <rs type="place" xml:id="pl_11598" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> ― <rs type="place" xml:id="pl_11599" ref="#place_c79ad839f84019f53250a4e6365359f9">Neuwaldegg</rs> ― 
-<rs type="place" xml:id="pl_11600" ref="#place_a513bae177c89d12226f343ac5ff1ee3">Salmannsdorf</rs> ― Dreimarkstein (Sonne und leichter Schneefall) ― 
-<rs type="place" xml:id="pl_11601" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs>.― Überlegt, was ich für das Album zu <rs type="person" xml:id="pNt_55856" ref="#person_21484"><roleName>Gfn.</roleName> <surname>Wydenbrucks</surname></rs> 
+            <p xml:space="preserve"><date when="1919-04-21">21/4</date> Ostermontag. Kalt, stürmisch. <rs type="place" xml:id="pl_11598" ref="#pmb169">Pötzleinsdorf</rs> ― <rs type="place" xml:id="pl_11599" ref="#pmb170">Neuwaldegg</rs> ― 
+<rs type="place" xml:id="pl_11600" ref="#pmb91641">Salmannsdorf</rs> ― Dreimarkstein (Sonne und leichter Schneefall) ― 
+<rs type="place" xml:id="pl_11601" ref="#pmb169">Pötzleinsdorf</rs>.― Überlegt, was ich für das Album zu <rs type="person" xml:id="pNt_55856" ref="#person_21484"><roleName>Gfn.</roleName> <surname>Wydenbrucks</surname></rs> 
 60. Geburtstag schreiben soll.―</p>
             <p xml:space="preserve" rend="indent">Zum Thee <rs type="person" xml:id="pNt_55857" ref="#person_21594"><roleName>Hofrätin</roleName> <surname>Zuckerkandl</surname></rs>, mit <rs type="person" xml:id="pNt_55858" ref="#person_21597"><forename>Fritz</forename></rs> und <rs type="person" xml:id="pNt_55859"><forename>Trude</forename></rs>;― <rs type="person" xml:id="pNt_55860" ref="#person_13285"><roleName>Hr.</roleName> und <roleName>Fr.</roleName> 
 <surname>Askonas</surname></rs>, <rs type="person" xml:id="pNt_55861" ref="#person_18881"><forename>Kolap</forename></rs>, <rs type="person" xml:id="pNt_55862" ref="#person_20925"><forename>Leo</forename></rs>;― O. sang <rs type="person" xml:id="pNt_55863" ref="#person_14371"><surname>Debussy</surname></rs>, <rs type="person" xml:id="pNt_55864" ref="#person_21432"><surname>Wolf</surname></rs> und <rs type="person" xml:id="pNt_55865"><surname>Grosz</surname></rs>, von <rs type="person" xml:id="pNt_55866"><surname>Grosz</surname></rs> 
@@ -191,6 +195,5 @@ begleitet; sehr gut.</p>
             <p xml:space="preserve" rend="indent">Las <rs type="person" xml:id="pNt_55867" ref="#person_13162"><forename>P.</forename> <surname>A.s</surname></rs> letztes Buch zu Ende.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

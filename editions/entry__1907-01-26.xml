@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1907-01-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-01-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-01-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1907-01-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-01-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-01-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F9C1-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2323.tif"/>
@@ -180,7 +184,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1907-01-26">
-            <p xml:space="preserve"><date when="1907-01-26">26/1</date> Vm. bei <rs type="person" xml:id="pNt_26228" ref="#person_19412"><roleName>Fr.</roleName> <surname>Rotenstern</surname></rs> (die nach <rs type="place" xml:id="pl_05821" ref="#place_b4d5600c385a6db5d7bdd413be57579b">Nizza</rs> zu Gatten fährt, mit Tochter, 
+            <p xml:space="preserve"><date when="1907-01-26">26/1</date> Vm. bei <rs type="person" xml:id="pNt_26228" ref="#person_19412"><roleName>Fr.</roleName> <surname>Rotenstern</surname></rs> (die nach <rs type="place" xml:id="pl_05821" ref="#pmb926">Nizza</rs> zu Gatten fährt, mit Tochter, 
 die concertiren wird).</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_26229" ref="#person_15369"><roleName>Dr.</roleName> <surname>Geiringer</surname></rs>. Sache <rs type="person" xml:id="pNt_26230" ref="#person_15183"><surname>Freund</surname></rs>. Rechtsverhältnisse.</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_13941">P. A. Stück</rs>, 4. und 5. Akt. Notizen. Über die wesentliche Scene 
@@ -188,6 +192,5 @@ die concertiren wird).</p>
             <p xml:space="preserve" rend="indent">Las <rs type="person" xml:id="pNt_26233" ref="#person_13337"><surname>Bab</surname></rs> „<rs type="work" xml:id="bibl_13942">Der Andre</rs>“ das mir der Autor übersandt hatte, fand es unangenehm.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-07-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-07-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-07-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-07-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-07-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-07-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-16C2-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6900.tif"/>
@@ -182,7 +186,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1927-07-07">
             <p xml:space="preserve"><date when="1927-07-07">7/7</date> Dictirt Briefe, <rs type="work" subtype="self" xml:id="bibl_24510">aphor.</rs>―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_81179" ref="#person_16908"><roleName>Fr.</roleName> <surname>Klimbacher</surname></rs> auf Urlaub, nach <rs type="place" xml:id="pl_17387" ref="#place_b2f3f42d45ff2c1018a9d3b9e6c37ece">Krems</rs>.―</p>
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_81179" ref="#person_16908"><roleName>Fr.</roleName> <surname>Klimbacher</surname></rs> auf Urlaub, nach <rs type="place" xml:id="pl_17387" ref="#pmb36545">Krems</rs>.―</p>
             <p xml:space="preserve" rend="indent">Las Nm. uralte Novellen („<rs type="work" subtype="self" xml:id="bibl_24511">Erfolg</rs>“, „<rs type="work" subtype="self" xml:id="bibl_24512">Braut</rs>“, „<rs type="work" subtype="self" xml:id="bibl_24513">Wohlthaten</rs> …“). 
 ― Begann letzte (?) <rs type="work" subtype="self" xml:id="bibl_24514">Romanfeile</rs>.</p>
             <p xml:space="preserve" rend="indent">Abd. auf den Cobenzl gefahren zu <rs type="person" xml:id="pNt_81180" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>, die seit heut hier wohnt. Oben 
@@ -190,6 +194,5 @@ zufällig <rs type="person" xml:id="pNt_81181" ref="#person_21594"><roleName>Hof
 Unzählige Leute.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

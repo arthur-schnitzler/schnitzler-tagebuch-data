@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-05-31.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-05-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-06-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-05-31.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-05-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-06-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0417-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3830.tif"/>
@@ -181,8 +185,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1914-05-31">
-            <p xml:space="preserve"><date when="1914-05-31">31/5</date> S. <rs type="place" xml:id="pl_08740" ref="#place_300a9ca833420adc130ce572f2d757fd">Tutzing</rs>. Hotel <rs type="person" xml:id="pNt_43508"><surname>Simson</surname></rs>. In die Villa Carola. <rs type="person" xml:id="pNt_43509" ref="#person_20383"><forename>Albert</forename></rs> im Garten 
-malend. <rs type="person" xml:id="pNt_43510" ref="#person_20386"><forename>Liesl</forename></rs> noch zu Bett. Hat sich in <rs type="place" xml:id="pl_08741" ref="#place_aa91a9fbe032ecd8738607f09ea24f0d">Davos</rs> leidlich erholt. Ihre 
+            <p xml:space="preserve"><date when="1914-05-31">31/5</date> S. <rs type="place" xml:id="pl_08740" ref="#pmb44493">Tutzing</rs>. Hotel <rs type="person" xml:id="pNt_43508"><surname>Simson</surname></rs>. In die Villa Carola. <rs type="person" xml:id="pNt_43509" ref="#person_20383"><forename>Albert</forename></rs> im Garten 
+malend. <rs type="person" xml:id="pNt_43510" ref="#person_20386"><forename>Liesl</forename></rs> noch zu Bett. Hat sich in <rs type="place" xml:id="pl_08741" ref="#pmb892">Davos</rs> leidlich erholt. Ihre 
 altklug-klugen Prophezeiungen: die Zeit der Angriffe gegen mich stehe 
 bevor, ich solle mich ja nicht verbittern lassen, in 5-10 Jahren stünd 
 ich dann wieder unantastbar vielmehr unangetastet da …</p>
@@ -192,6 +196,5 @@ vulgäre <rs type="place" xml:id="pl_08742" ref="#place_799308c246aa55f468eb536f
 „<rs type="person" xml:id="pNt_43513"><surname>Simson</surname></rs>“.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

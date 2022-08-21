@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-02-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-02-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-02-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-02-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-02-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-02-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-023E-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3570.tif"/>
@@ -184,12 +188,11 @@
             <p xml:space="preserve"><date when="1913-02-12">12/2</date> Dictirt: <rs type="work" subtype="self" xml:id="bibl_9286">Herbot</rs> neu begonnen.</p>
             <p xml:space="preserve" rend="indent">Mit O. eine Wohnung für <rs type="person" xml:id="pNt_40099" ref="#person_13355"><surname>Bachrachs</surname></rs> angesehn.</p>
             <p xml:space="preserve" rend="indent">― Nm. <rs type="person" xml:id="pNt_40100" ref="#person_13733"><forename>Helene</forename> <surname>Binder</surname></rs> (― früher <rs type="person" xml:id="pNt_40101" ref="#person_13733"><surname>Herz</surname></rs>), wegen ihrer Tochter, angehende 
-Schauspielerin in <rs type="place" xml:id="pl_08164" ref="#place_bd2b145b873049a539012fea08bfa71a">Mannheim</rs>.―</p>
+Schauspielerin in <rs type="place" xml:id="pl_08164" ref="#pmb881">Mannheim</rs>.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_40102" ref="#person_13202"><surname>Andrian</surname></rs> und <rs type="person" xml:id="pNt_40103" ref="#person_18147"><surname>Michel</surname></rs> zum Thee.</p>
             <p xml:space="preserve" rend="indent">Mit O. bei <rs type="person" xml:id="pNt_40104"><surname>Bachr.s</surname></rs> zum Nachtmahl.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_40105" ref="#person_13359"><forename>Stephi</forename></rs> Violine.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-12-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-12-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-12-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-12-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-12-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-12-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1A42-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7402.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1929-12-19">
-            <p xml:space="preserve"><date when="1929-12-19">19/12</date> Vm. zu <rs type="person" xml:id="pNt_88407" ref="#person_14234"><forename>Suz.</forename> <surname>Cl.</surname></rs>, die ich ins <rs type="place" ref="#place_volkstheater">Volksth.</rs> zur <rs type="work" subtype="self" xml:id="bibl_775">Probe</rs> mitnahm. Besonders 
+            <p xml:space="preserve"><date when="1929-12-19">19/12</date> Vm. zu <rs type="person" xml:id="pNt_88407" ref="#person_14234"><forename>Suz.</forename> <surname>Cl.</surname></rs>, die ich ins <rs type="place" ref="#pmb92202">Volksth.</rs> zur <rs type="work" subtype="self" xml:id="bibl_775">Probe</rs> mitnahm. Besonders 
 die <rs type="person" xml:id="pNt_88408" ref="#person_20671"><surname>Terwin</surname></rs> mißfiel ihr sehr.</p>
             <p xml:space="preserve" rend="indent">― Wir saßen die ganze Zeit nebeneinander, sonst war niemand da.― Ich 
 stell sie <rs type="person" xml:id="pNt_88409" ref="#person_18209"><surname>Moissi</surname></rs> und Frau (<rs type="person" xml:id="pNt_88410" ref="#person_20671"><surname>T.</surname></rs>) vor.― Führe sie zurück, und esse wieder 
@@ -195,6 +199,5 @@ Höchst nervös.</p>
             <p xml:space="preserve" rend="indent">Z. N. außer <rs type="person" xml:id="pNt_88415" ref="#person_18881"><forename>Kolap</forename></rs> auch <rs type="person" xml:id="pNt_88416" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Entsprechende Stimmung.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

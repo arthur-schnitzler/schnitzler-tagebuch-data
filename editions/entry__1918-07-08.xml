@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-07-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-07-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-07-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-07-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-07-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-07-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-09EF-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,15 +177,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4668.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4669.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1918-07-08">
-            <p xml:space="preserve"><date when="1918-07-08">8/7</date> Traum: Meine alte erste Arztenswohnung <rs type="place" xml:id="pl_11103" ref="#place_cfa835a4df2f287f2b999521ebe66bee">Burgring</rs>; ein zweibettiges 
+            <p xml:space="preserve"><date when="1918-07-08">8/7</date> Traum: Meine alte erste Arztenswohnung <rs type="place" xml:id="pl_11103" ref="#pmb274">Burgring</rs>; ein zweibettiges 
 Zimmer ― ich schlafe aber nie da;― untersuche das Bett; es ist hart;― 
 ich bin dann in der andern, großen <rs type="place" xml:id="pl_11104" ref="#place_1b881122193d8b5a3fe95b21bf9572b4" ana="#exclude">Burgringwohnung</rs>;― dann in einem 
 Hotelzimmer; im Bett mit einem (schwarzgekleideten) jungen Mädchen, die 
@@ -189,10 +194,11 @@ um acht in die Schule gehen muß (jede erotische Betonung fehlte)
 („<rs type="work" subtype="self" xml:id="bibl_5690">Nachklang</rs>“ ― <rs type="person" xml:id="pNt_53679" ref="#person_17670"><forename>Lolotte</forename></rs>!).</p>
             <p xml:space="preserve" rend="indent">Vm. dictirt „<rs type="work" subtype="self" xml:id="bibl_5691">Sohn</rs>“.</p>
             <p xml:space="preserve" rend="indent">Nm. am „<rs type="work" subtype="self" xml:id="bibl_5692">Nachklang</rs>“.</p>
-            <p xml:space="preserve" rend="indent">Besuchte <rs type="person" xml:id="pNt_53680" ref="#person_13730"><roleName>Dr.</roleName> <surname>Billiter</surname></rs>, <rs type="place" xml:id="pl_11105" ref="#place_4241ea59e7a87a653c3bd9400633e973">Reithlegasse</rs>. Besichtigung seiner Holzfiguren etc.</p>
+            <p xml:space="preserve" rend="indent">Besuchte <rs type="person" xml:id="pNt_53680" ref="#person_13730"><roleName>Dr.</roleName> <surname>Billiter</surname></rs>, <rs type="place" xml:id="pl_11105" ref="#pmb92480">Reithlegasse</rs>. Besichtigung seiner Holzfiguren etc.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_53681" ref="#person_19822"><forename>Heini</forename></rs> <rs type="person" xml:id="pNt_53682" ref="#person_13555"><surname>Beethoven</surname></rs> <rs type="work" xml:id="bibl_5693">Quintett</rs>.―</p>
             <p xml:space="preserve" rend="indent">Äußerlich besseres Verhältnis zu Hause. Innerlich will es sich 
 meinerseits nicht recht herstellen;― auch ihrerseits kaum viel mehr.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

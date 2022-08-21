@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-08-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-08-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-08-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-08-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-08-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-08-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0464-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3867.tif"/>
@@ -183,9 +187,8 @@
          <div type="diary-day" xml:id="entry__1914-08-17">
             <p xml:space="preserve"><date when="1914-08-17">17/8</date> Regen. Spazieren. Mit O. und <rs type="person" xml:id="pNt_43900" ref="#person_19822"><forename>Heini</forename></rs> Hofkirche.</p>
             <p xml:space="preserve" rend="indent">Nm. gelesen <rs type="person" xml:id="pNt_43901" ref="#person_16093"><surname>Henningsen</surname></rs>, <rs type="work" xml:id="bibl_8967">Die vielgeliebte Eva</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Spazieren mit O. und <rs type="person" xml:id="pNt_43902" ref="#person_19822"><forename>Heini</forename></rs> am <rs type="place" xml:id="pl_08892" ref="#place_9cadca48a4a61220ec1ebeb2418d50f4">Inn</rs> etc. Bahnhofleben, Militär; etc.―</p>
+            <p xml:space="preserve" rend="indent">Spazieren mit O. und <rs type="person" xml:id="pNt_43902" ref="#person_19822"><forename>Heini</forename></rs> am <rs type="place" xml:id="pl_08892" ref="#pmb63153">Inn</rs> etc. Bahnhofleben, Militär; etc.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

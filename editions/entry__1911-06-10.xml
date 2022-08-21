@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-06-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-06-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-06-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-06-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-06-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-06-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FFD9-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3176.tif"/>
@@ -184,13 +188,12 @@
          <div type="diary-day" xml:id="entry__1911-06-10">
             <p xml:space="preserve"><date when="1911-06-10">10/6</date> Vm. Stadt, Reisebureaus.―</p>
             <p xml:space="preserve" rend="indent">Dictirt. Briefe ― 
-Hr. <rs type="person" xml:id="pNt_35508" ref="#person_17639"><forename>Artur</forename> <surname>Loewe</surname></rs>; aus <rs type="place" xml:id="pl_07502" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>, in Sachen „<rs type="work" subtype="self" xml:id="bibl_11035">Reigen</rs>“. Übergab ihm 
+Hr. <rs type="person" xml:id="pNt_35508" ref="#person_17639"><forename>Artur</forename> <surname>Loewe</surname></rs>; aus <rs type="place" xml:id="pl_07502" ref="#pmb168">Berlin</rs>, in Sachen „<rs type="work" subtype="self" xml:id="bibl_11035">Reigen</rs>“. Übergab ihm 
 41.-43. Auflage.</p>
             <p xml:space="preserve" rend="indent">Nachmittag wie so oft in Müdigkeit und Verstimmung. Notizen zum <rs type="work" subtype="self" xml:id="bibl_11036">Graesler</rs>.</p>
             <p xml:space="preserve" rend="indent">Zum Nachtmahl <rs type="person" xml:id="pNt_35509" ref="#person_16485"><forename>Grethe</forename> <surname>Samuely</surname></rs> mit <rs type="person" xml:id="pNt_35510" ref="#person_16486"><forename>Norbert</forename> <surname>Jacques</surname></rs>, Geschichten 
 von <rs type="person" xml:id="pNt_35511" ref="#person_18542"><forename>Balder</forename> <surname>Olden</surname></rs> etc.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

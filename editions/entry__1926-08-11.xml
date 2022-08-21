@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-08-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-08-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-08-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-08-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-08-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-08-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1578-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6705.tif"/>
@@ -181,15 +185,14 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1926-08-11">
-            <p xml:space="preserve"><date when="1926-08-11">11/8</date> <rs type="place" xml:id="pl_16797" ref="#place_3d3059b170704e8e6b7a1035fb67806b">Adelboden</rs>. Abreise. <rs type="place" xml:id="pl_16798" ref="#place_35b98e5a83a238cf3dff4b0ea2192d1e">Frutigen</rs>. <rs type="person" xml:id="pNt_78364" ref="#person_19832"><forename>O.</forename></rs> mit <rs type="person" xml:id="pNt_78365" ref="#person_14130"><forename>Lili</forename></rs> nach <rs type="place" xml:id="pl_16799" ref="#place_e4d4b19346747823e5636ed1238a7521">Venedig</rs> (<rs type="place" xml:id="pl_16800" ref="#place_9b5c2555a01778bd31e0cd1c675164b2">Lido</rs>). Ich 
-eine Stunde später mit <rs type="person" xml:id="pNt_78366" ref="#person_19822"><forename>Heini</forename></rs> nach <rs type="place" xml:id="pl_16801" ref="#place_961698fa64951bd6d3437ebc7931a899">Bern</rs>. Schweizerhof. Mit <rs type="person" xml:id="pNt_78367" ref="#person_19822"><forename>Heini</forename></rs> 
-gegessen, Bahnhof;― <rs type="person" xml:id="pNt_78368" ref="#person_19822"><forename>Heini</forename></rs> fährt über <rs type="place" xml:id="pl_16802" ref="#place_aea93afdf4bee7f4b52526ee5f040cea">Basel</rs> nach <rs type="place" xml:id="pl_16803" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_16804" ref="#place_961698fa64951bd6d3437ebc7931a899">Bern</rs>. Briefe von Haus über den Fortschritt der Arbeiten.―</p>
-            <p xml:space="preserve" rend="indent">Brief von <rs type="person" xml:id="pNt_78369" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> aus <rs type="place" xml:id="pl_16805" ref="#place_103a821a3a6a0b923c9f74a39662bb51">Zürich</rs>.― Telegr. aus <rs type="place" xml:id="pl_16806" ref="#place_ffd76a62497d0efbffc21e4b36238174">Viareggio</rs> von <rs type="person" xml:id="pNt_78370" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs>―</p>
+            <p xml:space="preserve"><date when="1926-08-11">11/8</date> <rs type="place" xml:id="pl_16797" ref="#pmb90188">Adelboden</rs>. Abreise. <rs type="place" xml:id="pl_16798" ref="#pmb90669">Frutigen</rs>. <rs type="person" xml:id="pNt_78364" ref="#person_19832"><forename>O.</forename></rs> mit <rs type="person" xml:id="pNt_78365" ref="#person_14130"><forename>Lili</forename></rs> nach <rs type="place" xml:id="pl_16799" ref="#pmb462">Venedig</rs> (<rs type="place" xml:id="pl_16800" ref="#pmb91143">Lido</rs>). Ich 
+eine Stunde später mit <rs type="person" xml:id="pNt_78366" ref="#person_19822"><forename>Heini</forename></rs> nach <rs type="place" xml:id="pl_16801" ref="#pmb1223">Bern</rs>. Schweizerhof. Mit <rs type="person" xml:id="pNt_78367" ref="#person_19822"><forename>Heini</forename></rs> 
+gegessen, Bahnhof;― <rs type="person" xml:id="pNt_78368" ref="#person_19822"><forename>Heini</forename></rs> fährt über <rs type="place" xml:id="pl_16802" ref="#pmb854">Basel</rs> nach <rs type="place" xml:id="pl_16803" ref="#pmb168">Berlin</rs>.―</p>
+            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_16804" ref="#pmb1223">Bern</rs>. Briefe von Haus über den Fortschritt der Arbeiten.―</p>
+            <p xml:space="preserve" rend="indent">Brief von <rs type="person" xml:id="pNt_78369" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> aus <rs type="place" xml:id="pl_16805" ref="#pmb484">Zürich</rs>.― Telegr. aus <rs type="place" xml:id="pl_16806" ref="#pmb1174">Viareggio</rs> von <rs type="person" xml:id="pNt_78370" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs>―</p>
             <p xml:space="preserve" rend="indent">Regen. Im Hotelzimmer die <rs type="work" subtype="self" xml:id="bibl_20367">Tagebuchnotizen</rs>; einige Sammlung.</p>
             <p xml:space="preserve" rend="indent">In einem Kino („<rs type="work" xml:id="bibl_20368">Monte Carlo</rs>“).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-08-31.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-08-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-08-31.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-08-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0A25-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4694.tif"/>
@@ -181,15 +185,14 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1918-08-31">
-            <p xml:space="preserve"><date when="1918-08-31">31/8</date> Spaziergang <rs type="place" xml:id="pl_11189" ref="#place_91b4c1f5ce9a5b0e382e0588e0a1c982">Kramerweg</rs>,― <rs type="place" xml:id="pl_11190" ref="#place_1ab5a6ae1baa1c61dbb5a6ebf641d076">Kellerleitenweg</rs> ― <rs type="place" xml:id="pl_11191" ref="#place_83e76e0a1791f23436edccdeaa651949">Pflegersee</rs> ― 
+            <p xml:space="preserve"><date when="1918-08-31">31/8</date> Spaziergang <rs type="place" xml:id="pl_11189" ref="#pmb92344">Kramerweg</rs>,― <rs type="place" xml:id="pl_11190" ref="#pmb92332">Kellerleitenweg</rs> ― <rs type="place" xml:id="pl_11191" ref="#pmb91472">Pflegersee</rs> ― 
 <pb n="175"/>
 <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header"><fw place="top_center"><date type="range">1918: VIII 31 - IX 5</date></fw> <fw n="175" place="top_right" type="pageNum">175</fw></tei:fw>
-<rs type="place" xml:id="pl_11192" ref="#place_50bbea00faea2740db2c28050342106f">Oertelpromenade</rs>.―</p>
+<rs type="place" xml:id="pl_11192" ref="#pmb92427">Oertelpromenade</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. bei <rs type="person" xml:id="pNt_54038" ref="#person_20386"><forename>Liesl</forename></rs>.― Ahnengeschichte.</p>
             <p xml:space="preserve" rend="indent">Spazierg. Faukenschlucht.</p>
             <p xml:space="preserve" rend="indent">Lese <rs type="person" xml:id="pNt_54039" ref="#person_17165"><surname>Kühn</surname></rs>, <rs type="work" xml:id="bibl_5793">Frauen um <rs type="person" xml:id="pNt_54040"><surname>Goethe</surname></rs></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

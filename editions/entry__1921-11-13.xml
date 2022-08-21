@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1921-11-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-11-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-11-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1921-11-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-11-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-11-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0EB6-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5573.tif"/>
@@ -182,10 +186,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1921-11-13">
-            <p xml:space="preserve"><date when="1921-11-13">13/11</date> S. Mit <rs type="person" xml:id="pNt_64278" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> <rs type="place" xml:id="pl_13511" ref="#place_9c457f4107132ccb2d87ebf5e13f0b74">Schafberg</rs> ― <rs type="place" xml:id="pl_13512" ref="#place_75f2e194839d6ba0e5d4080c211a449a">Dornbacher Park</rs>.― Der <rs type="place" xml:id="pl_13513" ref="#place_9912c9330e203d0dc109bf7e74e09e51" ana="#exclude">Schweizer</rs>, der Pelz und 
+            <p xml:space="preserve"><date when="1921-11-13">13/11</date> S. Mit <rs type="person" xml:id="pNt_64278" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> <rs type="place" xml:id="pl_13511" ref="#pmb59367">Schafberg</rs> ― <rs type="place" xml:id="pl_13512" ref="#pmb176">Dornbacher Park</rs>.― Der <rs type="place" xml:id="pl_13513" ref="#place_9912c9330e203d0dc109bf7e74e09e51" ana="#exclude">Schweizer</rs>, der Pelz und 
 ihre „Tüchtigkeit“.―</p>
             <p xml:space="preserve" rend="indent">Nm. Empfang beim Bundespraesidenten <rs type="person" xml:id="pNt_64279" ref="#person_15853"><surname>Hainisch</surname></rs> zu Ehren <rs type="person" xml:id="pNt_64280" ref="#person_15980"><forename>Gerh.</forename> <surname>Hauptmanns</surname></rs>.― 
-Sprach ihn, seine Frau (<rs type="place" xml:id="pl_13514" ref="#place_7f11215374c0b793c00f894ca52cbef9">Agnetendorf</rs> 1903) <rs type="person" xml:id="pNt_64281" ref="#person_13589"><surname>Benedikt</surname></rs> (<rs type="work" subtype="newspaper" xml:id="bibl_3650">N. Fr. Pr.</rs>;― Politik,― 
+Sprach ihn, seine Frau (<rs type="place" xml:id="pl_13514" ref="#pmb735">Agnetendorf</rs> 1903) <rs type="person" xml:id="pNt_64281" ref="#person_13589"><surname>Benedikt</surname></rs> (<rs type="work" subtype="newspaper" xml:id="bibl_3650">N. Fr. Pr.</rs>;― Politik,― 
 Schuld am Weltkrieg); <rs type="person" xml:id="pNt_64282"><roleName>Hofr.</roleName> <surname>Loebl</surname></rs> (<rs type="person" xml:id="pNt_64283" ref="#person_15529"><forename>Paul</forename> <surname>Goldmann</surname></rs>; er über mangelnde 
 „verecundia“ der Juden; Erwidrung meinerseits ― sie sei vor Christen im 
 allgemeinen zu groß), <rs type="person" xml:id="pNt_64284" ref="#person_21328"><surname>Wildgans</surname></rs> (über „<rs type="work" subtype="self" xml:id="bibl_3651">Beatrice</rs>“, ob ich die <rs type="person" xml:id="pNt_64285" ref="#person_20029"><surname>Seidler</surname></rs> 
@@ -197,6 +201,5 @@ Vorstellung; <rs type="person" xml:id="pNt_64291" ref="#person_19822"><forename>
 seinem Kindergesicht, dem gemalten Räuberbart und den Stulpenstiefeln.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-08-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-08-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-08-19.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-08-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-08-17.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-08-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F7B3-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2113.tif"/>
@@ -180,11 +184,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1905-08-18">
-            <p xml:space="preserve"><date when="1905-08-18">18/8</date> <rs type="place" xml:id="pl_05278" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs>.― Allein <rs type="place" xml:id="pl_05279" ref="#place_797995abb7274e2eab2059ba02411f0f">Pinkenkogel</rs>, Nebel.―</p>
-            <p xml:space="preserve" rend="indent">Nm. mit O. in <rs type="place" xml:id="pl_05280" ref="#place_2aecac3a5fc580392bdd5187e0e6a2fc">Breitenstein</rs>, wo <rs type="person" xml:id="pNt_23293" ref="#person_20386"><forename>Liesl</forename></rs> noch nicht eingetroffen war.― 
+            <p xml:space="preserve"><date when="1905-08-18">18/8</date> <rs type="place" xml:id="pl_05278" ref="#pmb91735">Semmering</rs>.― Allein <rs type="place" xml:id="pl_05279" ref="#pmb91482">Pinkenkogel</rs>, Nebel.―</p>
+            <p xml:space="preserve" rend="indent">Nm. mit O. in <rs type="place" xml:id="pl_05280" ref="#pmb36503">Breitenstein</rs>, wo <rs type="person" xml:id="pNt_23293" ref="#person_20386"><forename>Liesl</forename></rs> noch nicht eingetroffen war.― 
 <rs type="person" xml:id="pNt_23294" ref="#person_18863"><forename>Clara</forename> <surname>Pollaczek-Loeb</surname></rs> und ihre 2 Kinder.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

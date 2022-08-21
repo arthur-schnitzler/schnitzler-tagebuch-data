@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-04-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-04-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-04-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-04-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-04-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-04-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0B03-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4825.tif"/>
@@ -181,14 +185,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1919-04-10">
-            <p xml:space="preserve"><date when="1919-04-10">10/4</date> Vm. <rs type="place" xml:id="pl_11582" ref="#place_02031ed2507818d10a37c1a6bf0c9f9d">Mödling</rs>, übern <rs type="place" xml:id="pl_11583" ref="#place_da4e3775bd2de6c37fadd9b0188f7a4e">Liechtenstein</rs> Hotel <rs type="place" ref="#place_radetzky">Radetzky</rs>, Erkundigungen bei 
-dem neuen Besitzer wegen ev. Wohnens. Über <rs type="place" xml:id="pl_11584" ref="#place_813f3673f164f2a061d556321dc823f6">Wällischhof</rs>. <rs type="place" xml:id="pl_11585" ref="#place_fa8a4a0fb753daa46810c572b474ef4f">Brunn</rs>.― Der 
+            <p xml:space="preserve"><date when="1919-04-10">10/4</date> Vm. <rs type="place" xml:id="pl_11582" ref="#pmb968">Mödling</rs>, übern <rs type="place" xml:id="pl_11583" ref="#pmb91145">Liechtenstein</rs> Hotel <rs type="place" ref="#pmb92471">Radetzky</rs>, Erkundigungen bei 
+dem neuen Besitzer wegen ev. Wohnens. Über <rs type="place" xml:id="pl_11584" ref="#pmb92041">Wällischhof</rs>. <rs type="place" xml:id="pl_11585" ref="#pmb40202">Brunn</rs>.― Der 
 ganze Ausflug etwas enttäuschend; das Fahren, die Menschen, alles so 
 umständlich, widerlich.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_4723">Weiher</rs>, nutzlos.―</p>
             <p xml:space="preserve" rend="indent">N. d. N. <rs type="person" xml:id="pNt_55799" ref="#person_14959"><surname>Feuchtwang’s</surname></rs> und <rs type="person" xml:id="pNt_55800" ref="#person_13551"><forename>Richard</forename></rs>. Politisches und Bibelfragen.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

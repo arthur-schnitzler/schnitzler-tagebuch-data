@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-10-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-10-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-10-06.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1906-10-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-10-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-10-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F950-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2271.tif"/>
@@ -183,11 +187,10 @@
             <p xml:space="preserve"><date when="1906-10-05">5/10</date> Vm. Tennis. <rs type="person" xml:id="pNt_25536"><roleName>Fr.</roleName> <surname>Speidel</surname></rs>. <rs type="person" xml:id="pNt_25537" ref="#person_16770"><surname>Kaufmann</surname></rs>. <rs type="person" xml:id="pNt_25538" ref="#person_19615"><forename>Alice</forename> <surname>Schalek</surname></rs>. <rs type="person" xml:id="pNt_25539" ref="#person_20872"><forename>Agn.</forename> <surname>Speyer</surname></rs>. 
 <rs type="person" xml:id="pNt_25540" ref="#person_21107"><surname>Wassermann</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">― Nm. am <rs type="work" subtype="self" xml:id="bibl_15199">Roman</rs>.</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_25541" ref="#person_21311"><roleName>Frl.</roleName> <surname>Wiesenhofer</surname></rs>, Abschied nehmend, nach <rs type="place" xml:id="pl_05692" ref="#place_241030ffac0efb4f7cb1f0bbee3cba66">Florenz</rs>.</p>
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_25541" ref="#person_21311"><roleName>Frl.</roleName> <surname>Wiesenhofer</surname></rs>, Abschied nehmend, nach <rs type="place" xml:id="pl_05692" ref="#pmb263">Florenz</rs>.</p>
             <p xml:space="preserve" rend="indent">Beim Schneider.</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="allusively" xml:id="rst_00742">Mama</rs>. Familie. <rs type="person" xml:id="pNt_25542" ref="#person_19986"><forename>Gustav</forename> <surname>Schwarzkopf</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1921-03-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-03-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-03-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1921-03-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-03-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-03-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0DBA-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5340.tif"/>
@@ -182,8 +186,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1921-03-06">
-            <p xml:space="preserve"><date when="1921-03-06">6/3</date> S.― Frühlingstag.― <rs type="place" xml:id="pl_12809" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> ― Hameau ― <rs type="place" xml:id="pl_12810" ref="#place_a513bae177c89d12226f343ac5ff1ee3">Salmannsdorf</rs> ― 
-<rs type="place" xml:id="pl_12811" ref="#place_cc6eda773537f8cb4db5cb1b862d0e0d">Sommerhaidenweg</rs> ― Windmühlhöhe. Ein paar Verse zum <rs type="work" subtype="self" xml:id="bibl_3202">Weiher</rs>;― ohne die 
+            <p xml:space="preserve"><date when="1921-03-06">6/3</date> S.― Frühlingstag.― <rs type="place" xml:id="pl_12809" ref="#pmb169">Pötzleinsdorf</rs> ― Hameau ― <rs type="place" xml:id="pl_12810" ref="#pmb91641">Salmannsdorf</rs> ― 
+<rs type="place" xml:id="pl_12811" ref="#pmb243">Sommerhaidenweg</rs> ― Windmühlhöhe. Ein paar Verse zum <rs type="work" subtype="self" xml:id="bibl_3202">Weiher</rs>;― ohne die 
 bösen Gedanken verdrängen zu können. Nichts mildert sich;― eher 
 wächst meine Erbitterung ― weil in der Entfernung mir all die ― von 
 mir doch immer durchschauten kleinen und großen Lügen zu Bewußtsein 
@@ -191,7 +195,7 @@ kommen, mit denen sie ihre Stellung zu halten suchte. In gewissen
 Lebenslagen gibt es keinen Unterschied mehr zwischen den geistig hohen 
 und den ganz banalen Weibern.</p>
             <p xml:space="preserve" rend="indent">― An der Windmühlhöhe, wie verabredet <rs type="person" xml:id="pNt_61631" ref="#person_13305"><surname>Auernheimer</surname></rs>, mit dem ich 
-noch eine Weile im <rs type="place" xml:id="pl_12812" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs> in der Sonne saß. Über <rs type="place" xml:id="pl_12813" ref="#place_e884124295d0c4d07d9bcf5096fd5495">Amerika</rs>, 
+noch eine Weile im <rs type="place" xml:id="pl_12812" ref="#pmb113">Türkenschanzpark</rs> in der Sonne saß. Über <rs type="place" xml:id="pl_12813" ref="#pmb43406">Amerika</rs>, 
 Urheberrecht,― die „Almosen“ statt der Honorare, u. s. w.</p>
             <p xml:space="preserve" rend="indent">Mittag allein mit <rs type="person" xml:id="pNt_61632" ref="#person_20112"><forename>Wucki</forename></rs>;― <rs type="person" xml:id="pNt_61633" ref="#person_19822"><forename>Heini</forename></rs> eingeladen bei <rs type="person" xml:id="pNt_61634" ref="#person_19095"><surname>Redlich</surname></rs>, <rs type="person" xml:id="pNt_61635" ref="#person_14130"><forename>Lili</forename></rs> bei 
 <rs type="person" xml:id="pNt_61636" ref="#person_19827"><forename>Julius’</forename></rs>.― Sah spätere Zeiten voraus …</p>
@@ -205,6 +209,5 @@ wird sie doch an dem Selbstbetrug festhalten, daß ich sie gehindert,
 eine große Sängerin zu werden.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

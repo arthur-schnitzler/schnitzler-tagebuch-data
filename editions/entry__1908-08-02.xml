@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-08-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-08-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-08-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-08-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-08-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-08-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FBC7-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2537.tif"/>
@@ -181,11 +185,10 @@
       <body>
          <div type="diary-day" xml:id="entry__1908-08-02">
             <p xml:space="preserve"><date when="1908-08-02">2/8</date> S. Mit O., <rs type="person" xml:id="pNt_28644" ref="#person_21107"><surname>Wassermann</surname></rs>, <rs type="person" xml:id="pNt_28645" ref="#person_16770"><surname>Kaufmann</surname></rs> Frommerhaus ― Proßlinerschwaige 
-― zurück <rs type="place" xml:id="pl_06413" ref="#place_e9d21cebee039359b7d431d3ac49fc3e">Seis</rs>.―</p>
+― zurück <rs type="place" xml:id="pl_06413" ref="#pmb988">Seis</rs>.―</p>
             <p xml:space="preserve" rend="indent">Am „<rs type="work" subtype="self" xml:id="bibl_13569">W. L.</rs>“.</p>
-            <p xml:space="preserve" rend="indent">Abds. besuchen uns <rs type="person" xml:id="pNt_28646" ref="#person_15134"><surname>Frankfurter’s</surname></rs>, die wir nach <rs type="place" xml:id="pl_06414" ref="#place_c2678e6fb300c179dca580e4baf4f3dc">Salegg</rs> zurückbegleiten.</p>
+            <p xml:space="preserve" rend="indent">Abds. besuchen uns <rs type="person" xml:id="pNt_28646" ref="#person_15134"><surname>Frankfurter’s</surname></rs>, die wir nach <rs type="place" xml:id="pl_06414" ref="#pmb41156">Salegg</rs> zurückbegleiten.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

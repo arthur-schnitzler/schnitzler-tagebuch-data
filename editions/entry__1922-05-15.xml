@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-05-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-05-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-05-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-05-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-05-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-05-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0F6D-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5714.tif"/>
@@ -183,7 +187,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1922-05-15">
             <p xml:space="preserve"><date when="1922-05-15">15/5</date> Leidlich geschlafen, mit viel Träumen, deren ich mich absolut nicht 
-entsinnen kann. Vor <rs type="place" xml:id="pl_13892" ref="#place_956d95aecb78c3375a7f60c305774d9d">Bayreuth</rs> aufgestanden. Schöner Tag. Ankunft <rs type="place" xml:id="pl_13893" ref="#place_0d02faf704bd0c9d27ef4e5dc7980b02">Nürnberg</rs>. 
+entsinnen kann. Vor <rs type="place" xml:id="pl_13892" ref="#pmb734">Bayreuth</rs> aufgestanden. Schöner Tag. Ankunft <rs type="place" xml:id="pl_13893" ref="#pmb44172">Nürnberg</rs>. 
 Württemberger Hof.―</p>
             <p xml:space="preserve" rend="indent"><rs type="work" subtype="newspaper" xml:id="bibl_2537">Neue Fr. Pr.</rs> und <rs type="work" subtype="newspaper" xml:id="bibl_2538">N. W. Journal</rs> mit Artikeln über mich, <rs type="person" xml:id="pNt_66073" ref="#person_13305"><forename>Raoul</forename> <surname>Auernheimer</surname></rs>, 
 <rs type="person" xml:id="pNt_66074" ref="#person_18297"><forename>Hans</forename> <surname>Müller</surname></rs>, <rs type="person" xml:id="pNt_66075" ref="#person_20238"><surname>Specht</surname></rs>;― <rs type="person" xml:id="pNt_66076" ref="#person_17666"><forename>Siegfr.</forename> <surname>Loewy</surname></rs> (lauter Unwahrheiten beinah).― Durch 
@@ -203,6 +207,5 @@ Menschen sehr boche;― der tätowirte mit dem offnen Hemd.― Im Hotel
 genachtm.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-11-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-11-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-11-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-11-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-11-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-11-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-15CC-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6749.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1926-11-03">
-            <p xml:space="preserve"><date when="1926-11-03">3/11</date> Vm. <rs type="place" xml:id="pl_16990" ref="#place_86a694cf5ce5552ca627cb96b607eccd">Prater</rs> mit <rs type="person" xml:id="pNt_78936" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>; Heustadelwasser;― sie immer verletzt und 
+            <p xml:space="preserve"><date when="1926-11-03">3/11</date> Vm. <rs type="place" xml:id="pl_16990" ref="#pmb91530">Prater</rs> mit <rs type="person" xml:id="pNt_78936" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>; Heustadelwasser;― sie immer verletzt und 
 eifersüchtig.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_20532">Diagr.</rs>―</p>
             <p xml:space="preserve" rend="indent">Z. N. bei <rs type="person" xml:id="pNt_78937" ref="#person_17509"><surname>Lichtensterns</surname></rs>;― <rs type="person" xml:id="pNt_78938" ref="#person_19584"><surname>Satori</surname></rs> und Frau Dir. <rs type="person" xml:id="pNt_78939" ref="#person_18886"><forename>Juno</forename> <surname>Pollak</surname></rs>; <rs type="person" xml:id="pNt_78940" ref="#person_17389"><surname>Lederers</surname></rs> 
@@ -193,6 +197,5 @@ mit <rs type="person" xml:id="pNt_78945" ref="#person_19584"><surname>Satori</su
 <rs type="person" xml:id="pNt_78947" ref="#person_16047"><surname>Heinestrophen</surname></rs> vor.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

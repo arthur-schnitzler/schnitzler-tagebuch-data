@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-08-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-08-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-08-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-08-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-08-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-08-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1137-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6094.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1923-08-16">
-            <p xml:space="preserve"><date when="1923-08-16">16/8</date> Mit <rs type="person" xml:id="pNt_70084" ref="#person_18863"><forename>C.</forename></rs> von <rs type="place" xml:id="pl_14943" ref="#place_05e302e5aab8a6fdaa8f3d9a573b8c1b">Chur</rs> nach <rs type="place" xml:id="pl_14944" ref="#place_e1cbd5b52b9a586dfba9e55926345d87">Bergün</rs>. Weißes Kreuz.― Mittagessen, 
+            <p xml:space="preserve"><date when="1923-08-16">16/8</date> Mit <rs type="person" xml:id="pNt_70084" ref="#person_18863"><forename>C.</forename></rs> von <rs type="place" xml:id="pl_14943" ref="#pmb2448">Chur</rs> nach <rs type="place" xml:id="pl_14944" ref="#pmb90336">Bergün</rs>. Weißes Kreuz.― Mittagessen, 
 Spazierg. nachher.</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_1960">Verf.</rs> ― Abends mit <rs type="person" xml:id="pNt_70085" ref="#person_18863"><forename>C.</forename></rs> gegen Belvedere-Villa.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-12-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-12-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-12-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-12-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-12-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-12-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1A37-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7396.tif"/>
@@ -182,10 +186,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1929-12-08">
-            <p xml:space="preserve"><date when="1929-12-08">8/12</date> S.― Telef. mit <rs type="person" xml:id="pNt_88329" ref="#person_19832"><forename>O.</forename></rs> <rs type="place" xml:id="pl_18987" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>, in finanz. Dingen.―</p>
-            <p xml:space="preserve" rend="indent">― Spaziere in <rs type="place" xml:id="pl_18988" ref="#place_d8e4af920d6804a648e0b854af15df65">Gersthof</rs> mit <rs type="person" xml:id="pNt_88330" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs>―</p>
+            <p xml:space="preserve"><date when="1929-12-08">8/12</date> S.― Telef. mit <rs type="person" xml:id="pNt_88329" ref="#person_19832"><forename>O.</forename></rs> <rs type="place" xml:id="pl_18987" ref="#pmb168">Berlin</rs>, in finanz. Dingen.―</p>
+            <p xml:space="preserve" rend="indent">― Spaziere in <rs type="place" xml:id="pl_18988" ref="#pmb90705">Gersthof</rs> mit <rs type="person" xml:id="pNt_88330" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs>―</p>
             <p xml:space="preserve" rend="indent">― Zu Tisch Dir. Dr. <rs type="person" xml:id="pNt_88331" ref="#person_16897"><forename>Rob.</forename> <surname>Klein</surname></rs> (<rs type="person" xml:id="pNt_88332" ref="#person_13643"><forename>Elisab.</forename> <surname>Bergners</surname></rs> gestriges Telegr.;― 
-wie erwartet;― „Differenzen“ mit <rs type="person" xml:id="pNt_88333" ref="#person_16897"><surname>Klein</surname></rs>;― sie will in <rs type="place" xml:id="pl_18989" ref="#place_59ead8d1e124ccfb79f3ace06f43e703">London</rs> tonfilmen, 
+wie erwartet;― „Differenzen“ mit <rs type="person" xml:id="pNt_88333" ref="#person_16897"><surname>Klein</surname></rs>;― sie will in <rs type="place" xml:id="pl_18989" ref="#pmb224">London</rs> tonfilmen, 
 daher jetzt nicht <rs type="work" subtype="self" xml:id="bibl_754">Else</rs>);― <rs type="person" xml:id="pNt_88334" ref="#person_16897"><surname>Klein</surname></rs> berichtet mir über ihr ganzes Verhalten.― 
 Wir sprechen gut miteinander; über <rs type="person" xml:id="pNt_88335" ref="#person_13643"><forename>Elis.</forename> <surname>B.s</surname></rs> Wesen;― weitre Absichten, 
 ev. Aufführungen.―</p>
@@ -195,6 +199,5 @@ ev. Aufführungen.―</p>
 weiter.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

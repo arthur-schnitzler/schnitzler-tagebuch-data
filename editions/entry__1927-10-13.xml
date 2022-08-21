@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-10-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-10-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-10-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-10-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-10-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-10-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1724-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6969.tif"/>
@@ -182,12 +186,11 @@
       <body>
          <div type="diary-day" xml:id="entry__1927-10-13">
             <p xml:space="preserve"><date when="1927-10-13">13/10</date> Dictirt „<rs type="work" subtype="self" xml:id="bibl_24718">Louisenhof</rs>“, Briefe, andres.</p>
-            <p xml:space="preserve" rend="indent">Zu Tisch <rs type="person" xml:id="pNt_81891" ref="#person_13355"><forename>Ama</forename></rs> (über <rs type="place" xml:id="pl_17636" ref="#place_dde8340eddd15130ea21b08179f85aa4">Mönichkirchen</rs>, <rs type="person" xml:id="pNt_81892" ref="#person_21328"><surname>Wildgans</surname></rs> etc.), und <rs type="person" xml:id="pNt_81893" ref="#person_19832"><forename>Olga</forename></rs>.</p>
+            <p xml:space="preserve" rend="indent">Zu Tisch <rs type="person" xml:id="pNt_81891" ref="#person_13355"><forename>Ama</forename></rs> (über <rs type="place" xml:id="pl_17636" ref="#pmb91274">Mönichkirchen</rs>, <rs type="person" xml:id="pNt_81892" ref="#person_21328"><surname>Wildgans</surname></rs> etc.), und <rs type="person" xml:id="pNt_81893" ref="#person_19832"><forename>Olga</forename></rs>.</p>
             <p xml:space="preserve" rend="indent">― Nm. ziemlich vertrödelt, wenn auch literarisch.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_81894" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Kammerspiele. „<rs type="work" xml:id="bibl_24719">Broadway</rs>“ (<rs type="person" xml:id="pNt_81895" ref="#person_18689"><forename>Harald</forename> <surname>Paulsen</surname></rs>),</p>
             <p xml:space="preserve" rend="indent">im Opernrest. mit ihr genachtm.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

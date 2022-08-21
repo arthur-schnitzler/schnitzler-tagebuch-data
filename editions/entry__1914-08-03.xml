@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-08-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-08-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-08-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-08-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-08-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-08-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0456-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3862.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1914-08-03">
-            <p xml:space="preserve"><date when="1914-08-03">3/8</date> Mit <rs type="person" xml:id="pNt_43857" ref="#person_19822"><forename>Heini</forename></rs> Alp Laret; nach <rs type="place" xml:id="pl_08859" ref="#place_51c7c0e8bc877f41a415a8e7efedd068">St. Moritz</rs>.</p>
+            <p xml:space="preserve"><date when="1914-08-03">3/8</date> Mit <rs type="person" xml:id="pNt_43857" ref="#person_19822"><forename>Heini</forename></rs> Alp Laret; nach <rs type="place" xml:id="pl_08859" ref="#pmb44374">St. Moritz</rs>.</p>
             <p xml:space="preserve" rend="indent">Brief an <rs type="person" xml:id="pNt_43858" ref="#person_13920"><forename>Georg</forename> <surname>Brandes</surname></rs>, von wegen Nobelpreis.</p>
-            <p xml:space="preserve" rend="indent">― Mit O. Nm. <rs type="place" xml:id="pl_08860" ref="#place_0a16bce3e470dfab76d6a8c529e2725d">Samaden</rs>. Kriegsnachrichten.</p>
+            <p xml:space="preserve" rend="indent">― Mit O. Nm. <rs type="place" xml:id="pl_08860" ref="#pmb44306">Samaden</rs>. Kriegsnachrichten.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

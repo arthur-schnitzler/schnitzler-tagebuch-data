@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-09-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-09-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-09-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-09-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-09-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-09-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FD6B-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2759.tif"/>
@@ -184,7 +188,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1909-09-26">
             <p xml:space="preserve"><date when="1909-09-26">26/9</date> S. Mit <rs type="person" xml:id="pNt_30978" ref="#person_19822"><forename>Heini</forename></rs> Cobenzl, Himmel.― Gespräch über Ausgrabungen, 
-Thermen Caracalla, Diocletian-Palast ― <rs type="place" xml:id="pl_06823" ref="#place_630f4207d58878c666151beb35016fc0">Pompeji</rs> ― nichts interessirt 
+Thermen Caracalla, Diocletian-Palast ― <rs type="place" xml:id="pl_06823" ref="#pmb1283">Pompeji</rs> ― nichts interessirt 
 ihn mehr …. „Wenn man hier graben würde, möchte man noch Pistolen 
 oder Helme aus der <rs type="place" xml:id="pl_06824" ref="#place_0ddfa46be709550f3a97ebc9999fcaa4" ana="#exclude">Türkenzeit</rs> finden ―?“ ― „Aber doch aus der 
 <rs type="place" xml:id="pl_06825" ref="#place_4682c37da6bf271ed3a1e9d9a8638ce5" ana="#exclude">Franzosenbelagerung</rs>.“ Wie wir, im Herbstglanz in der Meierei Cobenzl 
@@ -206,7 +210,7 @@ sitzt und durch die Straßen fährt.“ ― Das geht nicht gut auf der Bühne.
                </fw>
                <fw n="93" place="top_right" type="pageNum">93</fw>
             </tei:fw>
-            <p xml:space="preserve" rend="indent">Vm. war, während meiner Abwesenheit, <rs type="person" xml:id="pNt_30981" ref="#person_21107"><surname>Wassermann</surname></rs> (aus <rs type="place" xml:id="pl_06826" ref="#place_661f4200c3f047474d1df224f62f0503">Aussee</rs> 
+            <p xml:space="preserve" rend="indent">Vm. war, während meiner Abwesenheit, <rs type="person" xml:id="pNt_30981" ref="#person_21107"><surname>Wassermann</surname></rs> (aus <rs type="place" xml:id="pl_06826" ref="#pmb415">Aussee</rs> 
 zurück) dagewesen, hatte O. von <rs type="person" xml:id="pNt_30982" ref="#person_16293"><forename>Hugo</forename></rs> und <rs type="person" xml:id="pNt_30983" ref="#person_16041"><surname>Heimann</surname></rs> erzählt;― wir 
 mußten uns aus der Luft retten, die er zurückgelassen. O Menschen.―</p>
             <p xml:space="preserve" rend="indent">Mit O. abends, nachdem ich <rs type="person" xml:id="pNt_30984" ref="#person_14130"><forename>Lili</forename></rs> auf dem Arm gehalten, mit 
@@ -220,6 +224,5 @@ Vergangenheit noch tiefer als die Zukunft.―</p>
 Nachtmahl „<rs type="work" subtype="self" xml:id="bibl_12873">Der Vorige</rs>“ zu schreiben.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

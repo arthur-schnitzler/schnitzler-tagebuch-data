@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-09-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-09-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-09-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-09-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-09-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-09-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-115E-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6117.tif"/>
@@ -184,12 +188,11 @@
          <div type="diary-day" xml:id="entry__1923-09-25">
             <p xml:space="preserve"><date when="1923-09-25">25/9</date> Vm. bei <rs type="person" xml:id="pNt_70340" ref="#person_19986"><forename>Gustav</forename></rs>.― Bei <rs type="person" xml:id="pNt_70341" ref="#person_19828"><forename>Karl</forename></rs>.― Bei <rs type="person" xml:id="pNt_70342" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs></p>
             <p xml:space="preserve" rend="indent">Nm. sah ich die Nov. „<rs type="work" subtype="self" xml:id="bibl_2023">Else</rs>“ durch, die recht gelungen ist ―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_70343" ref="#person_14225"><forename>Barrett H.</forename> <surname>Clark</surname></rs> aus <rs type="place" xml:id="pl_15100" ref="#place_87809c954948d8a20507bee3648281b3">New York</rs>, Schriftsteller, hat 2 Jahre in 
-<rs type="place" xml:id="pl_15101" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> gelebt;― über Krieg- und Friedensfragen,― die hoffnungslose 
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_70343" ref="#person_14225"><forename>Barrett H.</forename> <surname>Clark</surname></rs> aus <rs type="place" xml:id="pl_15100" ref="#pmb44053">New York</rs>, Schriftsteller, hat 2 Jahre in 
+<rs type="place" xml:id="pl_15101" ref="#pmb168">Berlin</rs> gelebt;― über Krieg- und Friedensfragen,― die hoffnungslose 
 Dummheit der Menschen.―</p>
             <p xml:space="preserve" rend="indent">Im Kino.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

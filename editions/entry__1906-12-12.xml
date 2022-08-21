@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-12-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-12-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-12-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1906-12-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-12-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-12-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F994-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2301.tif"/>
@@ -180,7 +184,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1906-12-12">
-            <p xml:space="preserve"><date when="1906-12-12">12/12</date> Vm. mit <rs type="person" xml:id="pNt_25955" ref="#person_20242"><surname>Speidel</surname></rs> Spaziergang im Schnee <rs type="place" xml:id="pl_05754" ref="#place_187ad9aa5bf46727d6f6cd8ad17cad55">Galitzinberg</rs> ― <rs type="place" xml:id="pl_05755" ref="#place_d8e4af920d6804a648e0b854af15df65">Gersthof</rs>.―</p>
+            <p xml:space="preserve"><date when="1906-12-12">12/12</date> Vm. mit <rs type="person" xml:id="pNt_25955" ref="#person_20242"><surname>Speidel</surname></rs> Spaziergang im Schnee <rs type="place" xml:id="pl_05754" ref="#pmb90687">Galitzinberg</rs> ― <rs type="place" xml:id="pl_05755" ref="#pmb90705">Gersthof</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. dictirt <rs type="work" subtype="self" xml:id="bibl_15365">Roman</rs>; Briefe.―</p>
             <p xml:space="preserve" rend="indent">Abd. mit O. Symph. Concert.―</p>
             <p xml:space="preserve" rend="indent">Kopfweh, Reizbarkeit, Hypochondrien, Arbeitsunlust.</p>
@@ -188,6 +192,5 @@
 mehr schicken könnte.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

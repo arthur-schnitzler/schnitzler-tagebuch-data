@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1924-08-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-08-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-08-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1924-08-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-08-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-08-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-12AE-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6329.tif"/>
@@ -181,8 +185,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1924-08-26">
-            <p xml:space="preserve"><date when="1924-08-26">26/8</date> <rs type="place" xml:id="pl_15627" ref="#place_cceafad713406bc4d8421dbdd142523a">Luzern</rs>. Mit <rs type="person" xml:id="pNt_73016" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Schiff <rs type="place" xml:id="pl_15628" ref="#place_e85ec233735f6989d0e9f1da259174da">Alpnachstad</rs> zurück.―</p>
-            <p xml:space="preserve" rend="indent">Brief von <rs type="person" xml:id="pNt_73017" ref="#person_19832"><forename>O.</forename></rs>, wegen <rs type="person" xml:id="pNt_73018" ref="#person_14130"><forename>Lili</forename></rs>, ob sie ev. auf einige Tage nach <rs type="place" xml:id="pl_15629" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>. 
+            <p xml:space="preserve"><date when="1924-08-26">26/8</date> <rs type="place" xml:id="pl_15627" ref="#pmb967">Luzern</rs>. Mit <rs type="person" xml:id="pNt_73016" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Schiff <rs type="place" xml:id="pl_15628" ref="#pmb36232">Alpnachstad</rs> zurück.―</p>
+            <p xml:space="preserve" rend="indent">Brief von <rs type="person" xml:id="pNt_73017" ref="#person_19832"><forename>O.</forename></rs>, wegen <rs type="person" xml:id="pNt_73018" ref="#person_14130"><forename>Lili</forename></rs>, ob sie ev. auf einige Tage nach <rs type="place" xml:id="pl_15629" ref="#pmb50">Wien</rs>. 
 Confuse, unvereinbare Vorschläge.―</p>
             <p xml:space="preserve" rend="indent">Verstimmung von <rs type="person" xml:id="pNt_73019" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>; weil all diese Dinge mich praeoccupiren, 
 mir wichtiger seien als sie, weil sie mir nichts bedeute etc.―</p>
@@ -190,6 +194,5 @@ mir wichtiger seien als sie, weil sie mir nichts bedeute etc.―</p>
 Gekränktheit mich ausschließlich langweilt und ungeduldig macht.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

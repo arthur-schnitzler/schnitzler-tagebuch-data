@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-08-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-08-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-08-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-08-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-08-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-08-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1B26-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7533.tif"/>
@@ -181,10 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1930-08-04">
-            <p xml:space="preserve"><date when="1930-08-04">4/8</date> <rs type="place" xml:id="pl_19419" ref="#place_51c7c0e8bc877f41a415a8e7efedd068">St. Moritz</rs>. Brief von <rs type="person" xml:id="pNt_90400" ref="#person_14234"><forename>Suz.</forename></rs>―</p>
+            <p xml:space="preserve"><date when="1930-08-04">4/8</date> <rs type="place" xml:id="pl_19419" ref="#pmb44374">St. Moritz</rs>. Brief von <rs type="person" xml:id="pNt_90400" ref="#person_14234"><forename>Suz.</forename></rs>―</p>
             <p xml:space="preserve" rend="indent">Ins Dorf, Besorgungen.―</p>
             <p xml:space="preserve" rend="indent">Tram zurück, Begegnung (nach Jahren) <rs type="person" xml:id="pNt_90401" ref="#person_16471"><forename>Monty</forename> <surname>Jacobs</surname></rs>.―</p>
-            <p xml:space="preserve" rend="indent">Nm. der Bürosecretärin Briefe dictirt (an <rs type="person" xml:id="pNt_90402"><surname>Sperling</surname></rs> <rs type="org">Kupfer</rs> <rs type="place" xml:id="pl_19420" ref="#place_ab21db0a2aa2e84be73932be6063b033">Mailand</rs>, <rs type="person" xml:id="pNt_90404" ref="#person_16277"><roleName>Dr.</roleName> 
+            <p xml:space="preserve" rend="indent">Nm. der Bürosecretärin Briefe dictirt (an <rs type="person" xml:id="pNt_90402"><surname>Sperling</surname></rs> <rs type="org">Kupfer</rs> <rs type="place" xml:id="pl_19420" ref="#pmb886">Mailand</rs>, <rs type="person" xml:id="pNt_90404" ref="#person_16277"><roleName>Dr.</roleName> 
 <surname>Hoffmann</surname></rs> etc.) ―</p>
             <p xml:space="preserve" rend="indent">Brief an <rs type="person" xml:id="pNt_90405" ref="#person_14234"><forename>Suz.</forename></rs> Währenddem kommen <rs type="person" xml:id="pNt_90406" ref="#person_19822"><forename>Heini</forename></rs> und <rs type="person" xml:id="pNt_90407" ref="#person_13139"><forename>Ruth</forename></rs>;― von der 
 <rs type="place" xml:id="pl_19421" ref="#place_413f6ad861bba5f8944af04906070381" ana="#exclude">Diavolezzatour</rs>.―</p>
@@ -192,6 +196,5 @@
             <p xml:space="preserve" rend="indent">Billard mit <rs type="person" xml:id="pNt_90411" ref="#person_19827"><forename>Julius</forename></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

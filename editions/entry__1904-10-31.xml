@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-10-31.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-10-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-11-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-10-31.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-10-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-11-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F691-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1987.tif"/>
@@ -181,13 +185,13 @@
       <body>
          <div type="diary-day" xml:id="entry__1904-10-31">
             <p xml:space="preserve"><date when="1904-10-31">31/10</date> Vm. mit O. bei <rs type="person" xml:id="pNt_21795" ref="#person_15369"><roleName>Dr.</roleName> <surname>Geiringer</surname></rs>, von wegen einer Gebührensache.</p>
-            <p xml:space="preserve" rend="indent">― Bei <rs type="person" xml:id="pNt_21796" ref="#person_19411"><surname>Rotenstern</surname></rs>. <rs type="work" subtype="self" xml:id="bibl_17404">Eins. Weg</rs> in <rs type="place" xml:id="pl_04961" ref="#place_6a04ba950c68304cb108b9ddb2dc5727">Moskau</rs> abgefallen; Kritik anerkennend.―</p>
+            <p xml:space="preserve" rend="indent">― Bei <rs type="person" xml:id="pNt_21796" ref="#person_19411"><surname>Rotenstern</surname></rs>. <rs type="work" subtype="self" xml:id="bibl_17404">Eins. Weg</rs> in <rs type="place" xml:id="pl_04961" ref="#pmb91304">Moskau</rs> abgefallen; Kritik anerkennend.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="allusively" xml:id="rst_00479">Mama</rs> Nm. <rs type="work" xml:id="bibl_17405">Op. 18 Nr. 5</rs> Quartett <rs type="person" xml:id="pNt_21797" ref="#person_13555"><surname>Beethoven</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Las neulich <rs type="person" xml:id="pNt_21798" ref="#person_20805"><surname>Treu</surname></rs>, „<rs type="work" xml:id="bibl_17406">Bankerott des Strafvollzugs</rs>“ ― anregend 
 ― Schwache Kleinigkeiten von <rs type="person" xml:id="pNt_21799" ref="#person_13661"><forename>Tristan</forename> <surname>Bernard</surname></rs> und <rs type="person" xml:id="pNt_21800"><forename>A.</forename> <surname>Capus</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">― An der Novelle von der <rs type="work" subtype="self" xml:id="bibl_17407">Volkssängerin</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Abd. <rs type="place" xml:id="pl_04962" ref="#place_6fc6f10422bfe80ddcba23b4f7f080dc">Hietzing</rs>, wo <rs type="person" xml:id="pNt_21801" ref="#person_13375"><roleName>Frau</roleName> <surname>Bahr</surname></rs>, <rs type="person" xml:id="pNt_21802" ref="#person_13374"><surname>Herm.</surname></rs> <rs type="person" xml:id="pNt_21803" ref="#person_13374"><surname>Bahr</surname></rs>, <rs type="person" xml:id="pNt_21804" ref="#person_16292"><forename>Gerty</forename></rs>, <rs type="person" xml:id="pNt_21805" ref="#person_13550"><forename>Paula</forename></rs>, 
-<rs type="person" xml:id="pNt_21806"><forename>Richard</forename></rs> (aus <rs type="place" xml:id="pl_04963" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> zurück), über <rs type="person" xml:id="pNt_21807" ref="#person_19154"><surname>Reinhardts</surname></rs> Theater etc.―</p>
+            <p xml:space="preserve" rend="indent">Abd. <rs type="place" xml:id="pl_04962" ref="#pmb63">Hietzing</rs>, wo <rs type="person" xml:id="pNt_21801" ref="#person_13375"><roleName>Frau</roleName> <surname>Bahr</surname></rs>, <rs type="person" xml:id="pNt_21802" ref="#person_13374"><surname>Herm.</surname></rs> <rs type="person" xml:id="pNt_21803" ref="#person_13374"><surname>Bahr</surname></rs>, <rs type="person" xml:id="pNt_21804" ref="#person_16292"><forename>Gerty</forename></rs>, <rs type="person" xml:id="pNt_21805" ref="#person_13550"><forename>Paula</forename></rs>, 
+<rs type="person" xml:id="pNt_21806"><forename>Richard</forename></rs> (aus <rs type="place" xml:id="pl_04963" ref="#pmb168">Berlin</rs> zurück), über <rs type="person" xml:id="pNt_21807" ref="#person_19154"><surname>Reinhardts</surname></rs> Theater etc.―</p>
             <p xml:space="preserve" rend="indent">Bekam neulich gesandt „<rs type="work" xml:id="bibl_17408">Circe</rs>“ von „<rs type="person" xml:id="pNt_21808" ref="#person_19332"><forename>Rolf</forename></rs>“, mir gewidmet.― Ohne dass 
 ich gefragt wurde. Ein Dreck. Konnte nicht einmal danken.― Heute gesandt 
 erhalten vom Autor mit einem unsäglich albernen Brief ein unglaubliches 
@@ -195,6 +199,5 @@ Stück, <rs type="work" xml:id="bibl_17409">Der moderne Gott</rs>, von <rs type=
             <p xml:space="preserve" rend="center">November</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

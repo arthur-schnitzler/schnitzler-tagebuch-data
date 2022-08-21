@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1921-01-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-01-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-01-19.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1921-01-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-01-17.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-01-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0D8B-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5285.tif"/>
@@ -182,12 +186,11 @@
       <body>
          <div type="diary-day" xml:id="entry__1921-01-18">
             <p xml:space="preserve"><date when="1921-01-18">18/1</date> Probe.― Nm. mit der „Berichtigung“ gegen <rs type="person" xml:id="pNt_61100" ref="#person_15919"><surname>Harden</surname></rs> beschäftigt.</p>
-            <p xml:space="preserve" rend="indent">― <rs type="person" xml:id="pNt_61101" ref="#person_17562"><surname>R.</surname></rs>― Begleitung zum <rs type="place" ref="#place_volkstheater">Volksth.</rs>―</p>
+            <p xml:space="preserve" rend="indent">― <rs type="person" xml:id="pNt_61101" ref="#person_17562"><surname>R.</surname></rs>― Begleitung zum <rs type="place" ref="#pmb92202">Volksth.</rs>―</p>
             <p xml:space="preserve" rend="indent">Besprechung mit <rs type="person" xml:id="pNt_61102" ref="#person_13663"><surname>Bernau</surname></rs> und <rs type="person" xml:id="pNt_61103" ref="#person_19925"><surname>Schulbaur</surname></rs>. <rs type="person" xml:id="pNt_61104" ref="#person_21425"><surname>Woiwode</surname></rs>, der ich das 
 „Stubenmädchen“ übertrage. <rs type="person" xml:id="pNt_61105" ref="#person_13663"><surname>Bernau</surname></rs>: „Das ist die Art mit Hexen 
 umzugehn.“</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

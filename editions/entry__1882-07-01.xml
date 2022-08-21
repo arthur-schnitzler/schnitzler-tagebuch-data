@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1882-07-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1882-06-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1882-07-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1882-07-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1882-06-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1882-07-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DE62-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0180.tif"/>
@@ -184,13 +188,12 @@
             <p xml:space="preserve"><date when="1882-07-01">1/7</date> Samstag nachts.― Eigentlich merkwürdig, wie man halb blöd wird 
 durch das ewige Studieren. In zehn Tagen ungefähr dürft’ ich vor den 
 Gestrengen sitzen. „Is mer gor net angenehm.“ ―</p>
-            <p xml:space="preserve" rend="indent">Heute bei <rs type="person" xml:id="pNt_01653" ref="#person_18321"><surname>M.s</surname></rs> gewesen. <rs type="person" xml:id="pNt_01654" ref="#person_17368"><forename>Fännchen</forename></rs> auch; sie reist morgen nach <rs type="place" xml:id="pl_00292" ref="#place_d533f22e7175d6063cb4c4286fb92c0c">Gmunden</rs>. 
+            <p xml:space="preserve" rend="indent">Heute bei <rs type="person" xml:id="pNt_01653" ref="#person_18321"><surname>M.s</surname></rs> gewesen. <rs type="person" xml:id="pNt_01654" ref="#person_17368"><forename>Fännchen</forename></rs> auch; sie reist morgen nach <rs type="place" xml:id="pl_00292" ref="#pmb874">Gmunden</rs>. 
 Sie bittet dringend um Correspondenz. Zum Schluß (es waren vielleicht 
 zwanzig Personen da) waren wir zwei Sekunden im Stiegenhaus allein und 
 nahmen mit einem Kuss Abschied von einander ―</p>
             <p xml:space="preserve" rend="indent">Es ist alles in mir wie verhängt mit grauen Schleiern.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

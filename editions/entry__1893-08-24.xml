@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1893-08-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-08-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-08-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1893-08-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-08-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-08-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E726-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0769.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1893-08-24">
-            <p xml:space="preserve"><date when="1893-08-24">24/8</date> <rs type="place" xml:id="pl_01593" ref="#place_75241beccf4ee2461aac8b48c394922f">Toblach</rs> ― <rs type="place" xml:id="pl_01594" ref="#place_46a5899a904d63842cf2eb3627a2ed25">Cortina</rs> ― <rs type="place" xml:id="pl_01595" ref="#place_f6a41cdb272d1b44bf4edca9c6631baa">Pieve di Cadore</rs> (Bicycle). <rs type="person" xml:id="pNt_07760" ref="#person_20759"><surname>Tizians</surname></rs> 
+            <p xml:space="preserve"><date when="1893-08-24">24/8</date> <rs type="place" xml:id="pl_01593" ref="#pmb91907">Toblach</rs> ― <rs type="place" xml:id="pl_01594" ref="#pmb34199">Cortina</rs> ― <rs type="place" xml:id="pl_01595" ref="#pmb91478">Pieve di Cadore</rs> (Bicycle). <rs type="person" xml:id="pNt_07760" ref="#person_20759"><surname>Tizians</surname></rs> 
 Geburtszimmer.― Kleine Kinder Musikbande, prügelnder Kapellmeister.― 
 Schmutznest.― Hotel Angelo.― Weib, von Haus zu Haus, Kinder küssend.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-04-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-04-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-04-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-04-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-04-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-04-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FE3F-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2896.tif"/>
@@ -183,7 +187,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1910-04-26">
             <p xml:space="preserve"><date when="1910-04-26">26/4</date> Mit O. Probe <rs type="work" xml:id="bibl_11697">Feldherrnhügel</rs> Neue Wiener Bühne (hier verboten). 
-Fand es köstlich. Sprach <rs type="person" xml:id="pNt_32614" ref="#person_15640"><surname>Gregori</surname></rs> (den für <rs type="place" xml:id="pl_07013" ref="#place_bd2b145b873049a539012fea08bfa71a">Mannheim</rs> ernannten). <rs type="person" xml:id="pNt_32615" ref="#person_19309"><surname>Roda 
+Fand es köstlich. Sprach <rs type="person" xml:id="pNt_32614" ref="#person_15640"><surname>Gregori</surname></rs> (den für <rs type="place" xml:id="pl_07013" ref="#pmb881">Mannheim</rs> ernannten). <rs type="person" xml:id="pNt_32615" ref="#person_19309"><surname>Roda 
 Roda</surname></rs> (Mitverfasser des <rs type="work" xml:id="bibl_11698">Feldherrnhügels</rs> mit <rs type="person" xml:id="pNt_32616" ref="#person_19326"><surname>Rössler</surname></rs>) stellte sich mir 
 vor und gefiel mir.― <rs type="person" xml:id="pNt_32617" ref="#person_14183"><surname>Charlé</surname></rs>, im Costume des Prinzen kam zu uns ins 
 Parquet.― <rs type="person" xml:id="pNt_32618" ref="#person_14923"><forename>Leo</forename> <surname>Feld</surname></rs>. <rs type="person" xml:id="pNt_32619" ref="#person_15566"><roleName>Hofrath</roleName> <surname>Gomperz</surname></rs>.―</p>
@@ -195,6 +199,5 @@ Parquet.― <rs type="person" xml:id="pNt_32618" ref="#person_14923"><forename>L
 Stück gut ― ja möglicherweise zu gut für einen Theatererfolg.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

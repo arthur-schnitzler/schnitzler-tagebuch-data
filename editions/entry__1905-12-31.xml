@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-12-31.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-12-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-01-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-12-31.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-12-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-01-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F83A-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2172.tif"/>
@@ -180,11 +184,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1905-12-31">
-            <p xml:space="preserve"><date when="1905-12-31">31/12</date> S. Vm. Grd. Hotel bei <rs type="person" xml:id="pNt_24130" ref="#person_15181"><forename>Erich</forename> <surname>Freund</surname></rs> (<rs type="place" xml:id="pl_05396" ref="#place_60960432acfa4972c8f13dd89a872920">Breslau</rs>) meiner Vorlesung 
+            <p xml:space="preserve"><date when="1905-12-31">31/12</date> S. Vm. Grd. Hotel bei <rs type="person" xml:id="pNt_24130" ref="#person_15181"><forename>Erich</forename> <surname>Freund</surname></rs> (<rs type="place" xml:id="pl_05396" ref="#pmb90392">Breslau</rs>) meiner Vorlesung 
 wegen.</p>
             <p xml:space="preserve" rend="indent">Dann bei <rs type="person" xml:id="pNt_24131" ref="#person_16517"><surname>Jarno</surname></rs>, über den „<rs type="work" subtype="self" xml:id="bibl_16164">großen Wurstl</rs>“. Er forderte 
 mich auf, an einem Abend zwischen 2 meiner Stücke etwas von mir zu 
-lesen. (Ich thät es überall, nur nicht in <rs type="place" xml:id="pl_05397" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.) ―</p>
+lesen. (Ich thät es überall, nur nicht in <rs type="place" xml:id="pl_05397" ref="#pmb50">Wien</rs>.) ―</p>
             <p xml:space="preserve" rend="indent">Mittag Frl. <rs type="person" xml:id="pNt_24132"><forename>Fery</forename> <surname>Lubelsky</surname></rs> bei uns.</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_16165">Roman</rs>.</p>
             <p xml:space="preserve" rend="indent">Abd. bei <rs type="allusively" xml:id="rst_00646">Mama</rs>, Familie, <rs type="person" xml:id="pNt_24133" ref="#person_15194"><forename>Gustav</forename></rs> und <rs type="person" xml:id="pNt_24134" ref="#person_15193"><forename>Gisela</forename> <surname>Frid</surname></rs>.</p>
@@ -196,6 +200,5 @@ gewann auf die 1. Nummer (7.) sofort.</p>
 Januar</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

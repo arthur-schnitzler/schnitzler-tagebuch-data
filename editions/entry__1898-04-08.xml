@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1898-04-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-04-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-04-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1898-04-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-04-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-04-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EDAE-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1426.tif"/>
@@ -182,9 +186,8 @@
       <body>
          <div type="diary-day" xml:id="entry__1898-04-08">
             <p xml:space="preserve"><date when="1898-04-08">8/4</date> Charfreitag. Bei <rs type="person" xml:id="pNt_15205" ref="#person_19150"><forename>Mz.</forename> <surname>Rh.</surname></rs> Abd. Arge Verstimmung. <rs type="person" xml:id="pNt_15206" ref="#person_15529"><forename>Paul</forename> <surname>G.</surname></rs> hat 
-sich am 5. d. von <rs type="place" xml:id="pl_02831" ref="#place_7fc3dbc3496d4ac1533526f7b163ceab">Genua</rs> nach <rs type="place" xml:id="pl_02832" ref="#place_ae54a5c026f31ada088992587d92cb3a">China</rs> eingeschifft.</p>
+sich am 5. d. von <rs type="place" xml:id="pl_02831" ref="#pmb994">Genua</rs> nach <rs type="place" xml:id="pl_02832" ref="#pmb1108">China</rs> eingeschifft.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

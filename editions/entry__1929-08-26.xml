@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-08-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-08-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-08-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-08-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-08-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-08-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-19CF-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7344.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1929-08-26">
-            <p xml:space="preserve"><date when="1929-08-26">26/8</date> <rs type="place" xml:id="pl_18846" ref="#place_b69e39d38efc442d4f3faa0970eaf441">Caux</rs>.― Zahnradbahn <rs type="place" xml:id="pl_18847" ref="#place_5d29e0bde6fa973b4873f8c093e254c4">Rochers Naye</rs>; mit <rs type="person" xml:id="pNt_87557" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> oben gegessen. Zwei 
+            <p xml:space="preserve"><date when="1929-08-26">26/8</date> <rs type="place" xml:id="pl_18846" ref="#pmb90460">Caux</rs>.― Zahnradbahn <rs type="place" xml:id="pl_18847" ref="#pmb91604">Rochers Naye</rs>; mit <rs type="person" xml:id="pNt_87557" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> oben gegessen. Zwei 
 <rs type="place" xml:id="pl_18848" ref="#place_ee4c6f2f0df2cd2abf7db20478cad25d" ana="#exclude">Wiener</rs> Herren senden mir vom andern Tisch einen Gruss (ein früherer 
 Assistent von <rs type="person" xml:id="pNt_87558" ref="#person_19827"><forename>Julius</forename></rs>). Persönlicher Dank.</p>
             <p xml:space="preserve" rend="indent">Höhe und vernebelter Blick. Die Steinumfassung, auf der ich 1898 Karten 
@@ -189,6 +193,5 @@ schrieb.</p>
             <p xml:space="preserve" rend="indent">Nm. Brief an <rs type="person" xml:id="pNt_87559" ref="#person_17888"><surname>Maril</surname></rs> (wegen Provision).―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

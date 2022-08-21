@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-05-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-05-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FB73-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2504.tif"/>
@@ -180,11 +184,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1908-05-10">
-            <p xml:space="preserve"><date when="1908-05-10">10/5</date> S. Vm. (allein) <rs type="place" xml:id="pl_06295" ref="#place_0738ba6f958afc0571341ad4cabd0114">Gasteig</rs> Anlagen.―</p>
-            <p xml:space="preserve" rend="indent">Nm. (mit O. und) <rs type="person" xml:id="pNt_28241" ref="#person_13925"><surname>Brann</surname></rs> Auto ins <rs type="place" xml:id="pl_06296" ref="#place_fbb9488d92ec0117fd5e3a27fc0e875a">Isarthal</rs>.</p>
+            <p xml:space="preserve"><date when="1908-05-10">10/5</date> S. Vm. (allein) <rs type="place" xml:id="pl_06295" ref="#pmb92250">Gasteig</rs> Anlagen.―</p>
+            <p xml:space="preserve" rend="indent">Nm. (mit O. und) <rs type="person" xml:id="pNt_28241" ref="#person_13925"><surname>Brann</surname></rs> Auto ins <rs type="place" xml:id="pl_06296" ref="#pmb90936">Isarthal</rs>.</p>
             <p xml:space="preserve" rend="indent">Im Künstlerhaus genachtm.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

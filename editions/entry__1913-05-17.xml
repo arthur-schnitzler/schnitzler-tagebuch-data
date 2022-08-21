@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-05-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-05-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-05-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-05-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-05-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-05-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-029C-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3621.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1913-05-17">
-            <p xml:space="preserve"><date when="1913-05-17">17/5</date> Discussion mit O. wegen <rs type="place" xml:id="pl_08282" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>, <rs type="person" xml:id="pNt_40796" ref="#person_21447"><roleName>Fr.</roleName> <surname>Wolff</surname></rs> etc.―</p>
+            <p xml:space="preserve"><date when="1913-05-17">17/5</date> Discussion mit O. wegen <rs type="place" xml:id="pl_08282" ref="#pmb168">Berlin</rs>, <rs type="person" xml:id="pNt_40796" ref="#person_21447"><roleName>Fr.</roleName> <surname>Wolff</surname></rs> etc.―</p>
             <p xml:space="preserve" rend="indent">Tennis. <rs type="person" xml:id="pNt_40797" ref="#person_19846"><surname>Schönbrunn</surname></rs> über den <rs type="place" xml:id="pl_08283" ref="#place_0c52d1273bd671489162a5027e47aab0" ana="#exclude">Rannersdorfer</rs> Mord; Übelstände des 
 Gerichtsverfahrens.</p>
             <pb n="39"/>
@@ -193,14 +197,13 @@ Gerichtsverfahrens.</p>
                <fw n="39" place="top_right" type="pageNum">39</fw>
             </tei:fw>
             <p xml:space="preserve" rend="indent">Vernünftiges Gespräch mit O.; nordische Reise in Betracht ziehend.</p>
-            <p xml:space="preserve" rend="indent">Zum Thee Baronesse <rs type="person" xml:id="pNt_40798" ref="#person_13693"><forename>Edith</forename> <surname>Beschi</surname></rs> (<rs type="place" xml:id="pl_08284" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs> 1911, Blumen, Briefe; 
+            <p xml:space="preserve" rend="indent">Zum Thee Baronesse <rs type="person" xml:id="pNt_40798" ref="#person_13693"><forename>Edith</forename> <surname>Beschi</surname></rs> (<rs type="place" xml:id="pl_08284" ref="#pmb91735">Semmering</rs> 1911, Blumen, Briefe; 
 gestern Telegramm zum Geburtstag); Tochter des Feldmarschallltnts; 
-die kranke Schwester; Garnisonen <rs type="place" xml:id="pl_08285" ref="#place_e13e1ad86e5054761ee14a5fd099996c">Komorn</rs>, <rs type="place" xml:id="pl_08286" ref="#place_9219ee9e1eb760ce3bd97532b5ca05e1">Pola</rs>; ― Kunstbegeisterung, 
+die kranke Schwester; Garnisonen <rs type="place" xml:id="pl_08285" ref="#pmb91052">Komorn</rs>, <rs type="place" xml:id="pl_08286" ref="#pmb851">Pola</rs>; ― Kunstbegeisterung, 
 Einsamkeit. Wir saßen auf meiner Veranda, sie besah das Haus; das 
 Gespräch ging etwas mühselig hin. Blumen aus dem Garten.</p>
             <p xml:space="preserve" rend="indent">Nach dem Nachtm. <rs type="person" xml:id="pNt_40799" ref="#person_19755"><surname>Schmidl</surname></rs> und <rs type="person" xml:id="pNt_40800" ref="#person_19542"><surname>Saltens</surname></rs>. Poker.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-03-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-03-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-03-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-03-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-03-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-03-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FB47-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2489.tif"/>
@@ -180,7 +184,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1908-03-27">
-            <p xml:space="preserve"><date when="1908-03-27">27/3</date> Vm. Besorgungen Stadt; Panorama (<rs type="place" xml:id="pl_06242" ref="#place_c9e5dcbfb1a24f3ac0288b1511460678">Caïro</rs> etc.).</p>
+            <p xml:space="preserve"><date when="1908-03-27">27/3</date> Vm. Besorgungen Stadt; Panorama (<rs type="place" xml:id="pl_06242" ref="#pmb839">Caïro</rs> etc.).</p>
             <p xml:space="preserve" rend="indent">Nm., während ich eben <rs type="work" subtype="self" xml:id="bibl_13317">Romancorrecturen</rs> mache, <rs type="person" xml:id="pNt_28073" ref="#person_20803"><surname>Treßler</surname></rs>, den ich Vorm. 
 nicht getroffen; ich wollte ihm für Sonntag (er liest privat Fledermaus, 
 u. a. „<rs type="work" subtype="self" xml:id="bibl_13318">Abschied</rs>“) absagen.― Er bat mich sehr doch zu kommen; erzählte 
@@ -193,6 +197,5 @@ wünschenswerth. Wäre nur mein Talent stark genug, um diese schweren
 Mißstimmungen zu überbrausen.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

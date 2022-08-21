@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1893-08-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-08-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-08-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1893-08-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-08-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-08-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E716-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,22 +177,24 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0760.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1893-08-08">
-            <p xml:space="preserve"><date when="1893-08-08">8/8</date> früh bei <rs type="person" xml:id="pNt_07683" ref="#person_14673"><surname>Eirich</surname></rs>. <rs type="work" subtype="self" xml:id="bibl_22707">Märchen</rs> soll im Dtsch. <rs type="place" ref="#place_volkstheater">Volksth.</rs> kommen. 
+            <p xml:space="preserve"><date when="1893-08-08">8/8</date> früh bei <rs type="person" xml:id="pNt_07683" ref="#person_14673"><surname>Eirich</surname></rs>. <rs type="work" subtype="self" xml:id="bibl_22707">Märchen</rs> soll im Dtsch. <rs type="place" ref="#pmb92202">Volksth.</rs> kommen. 
 „<rs type="person" xml:id="pNt_07684" ref="#person_18302"><surname>Müller</surname></rs> sagte mir: Machen Sie mit dem Dr. S. einen Contract.“ Ich 
 erwähne, daß ich mit <rs type="person" xml:id="pNt_07685" ref="#person_14766"><surname>Entsch</surname></rs> einen habe.― Trotzdem soll ich dem <rs type="person" xml:id="pNt_07686"><surname>M.</surname></rs> 
-Prozente zahlen. <rs type="person" xml:id="pNt_07687" ref="#person_14673"><surname>Eirich</surname></rs>: So schamlos wie im <rs type="place" ref="#place_volkstheater">Volksth.</rs> gehts nirgends 
+Prozente zahlen. <rs type="person" xml:id="pNt_07687" ref="#person_14673"><surname>Eirich</surname></rs>: So schamlos wie im <rs type="place" ref="#pmb92202">Volksth.</rs> gehts nirgends 
 zu; alle müssen zahlen; Autoren, Schauspieler; die Schauspielerinnen 
 sich hingeben oder zahlen. <rs type="person" xml:id="pNt_07688" ref="#person_14056"><surname>Bukovics</surname></rs> versteht Cognac, aber nichts 
 vom Theater.―</p>
-            <p xml:space="preserve" rend="indent">Nach <rs type="place" xml:id="pl_01570" ref="#place_f5b61ab40d3efa6b67d874a0fd70d3bd">Purkersdorf</rs> mit Bicycle.― Mit <rs type="person" xml:id="pNt_07689" ref="#person_19542"><surname>Salten</surname></rs> bei <rs type="person" xml:id="pNt_07690" ref="#person_21214"><forename>Fifi</forename></rs> soupirt; ganz nett.―</p>
+            <p xml:space="preserve" rend="indent">Nach <rs type="place" xml:id="pl_01570" ref="#pmb91552">Purkersdorf</rs> mit Bicycle.― Mit <rs type="person" xml:id="pNt_07689" ref="#person_19542"><surname>Salten</surname></rs> bei <rs type="person" xml:id="pNt_07690" ref="#person_21214"><forename>Fifi</forename></rs> soupirt; ganz nett.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_07691" ref="#person_15485"><forename>Mz.</forename></rs> Mittag bei mir ― wie immer.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

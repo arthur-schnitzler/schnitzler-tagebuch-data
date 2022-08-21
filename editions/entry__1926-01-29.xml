@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-01-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-01-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-01-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-01-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-01-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-01-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-14B7-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6619.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1926-01-29">
-            <p xml:space="preserve"><date when="1926-01-29">29/1</date> Vm. ins <rs type="place" ref="#place_hammerand">Hammerand</rs> <rs ref="#person_13969" type="person" xml:id="pNt_77047"><forename>B.</forename> <surname>B.</surname></rs>―</p>
+            <p xml:space="preserve"><date when="1926-01-29">29/1</date> Vm. ins <rs type="place" ref="#pmb92270">Hammerand</rs> <rs ref="#person_13969" type="person" xml:id="pNt_77047"><forename>B.</forename> <surname>B.</surname></rs>―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_77048" ref="#person_19986"><forename>Gustav</forename></rs>.― Sein Bruder will nicht ins Spital, und er gibt nach. Ich prophezeie, dass es in absehbarer Zeit 
 notwendig sein, unvermeidbar sein wird ― aber wird <rs type="person" xml:id="pNt_77049" ref="#person_19986"><forename>Gustav</forename></rs> es so lang aushalten.</p>
             <p xml:space="preserve" rend="indent">― Bei <rs type="person" xml:id="pNt_77050" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs>―</p>
@@ -194,6 +198,5 @@ Trauermärsche und vor Walzer die Flucht ergreifend.― Auch <rs type="person" x
             <p xml:space="preserve" rend="indent">Zu Haus ein telef. Gespräch mit <rs type="person" xml:id="pNt_77057" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>, im Stil von gestern,― das ich in äußerster Ungeduld abbrach.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

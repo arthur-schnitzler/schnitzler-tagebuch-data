@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1924-03-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-03-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-03-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1924-03-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-03-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-03-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-11FD-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,15 +177,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6219.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6220.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1924-03-02">
-            <p xml:space="preserve"><date when="1924-03-02">2/3</date> S. Mit <rs type="person" xml:id="pNt_71679" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> spazieren <rs type="place" xml:id="pl_15284" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> etc.―</p>
+            <p xml:space="preserve"><date when="1924-03-02">2/3</date> S. Mit <rs type="person" xml:id="pNt_71679" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> spazieren <rs type="place" xml:id="pl_15284" ref="#pmb169">Pötzleinsdorf</rs> etc.―</p>
             <p xml:space="preserve" rend="indent">Nm. vertrödelt.― <rs type="person" xml:id="pNt_71680" ref="#person_17562"><forename>Ruth</forename> <surname>Lindberg</surname></rs> (nach langer Zeit) eine Weile da.―</p>
             <p xml:space="preserve" rend="indent">Abends „Diner“ P. E. N. Club zu Ehren <rs type="person" xml:id="pNt_71681" ref="#person_15395"><surname>Géraldy’s</surname></rs>. Ich saß 
 zwischen <rs type="person" xml:id="pNt_71682" ref="#person_17710"><roleName>Mme.</roleName> <surname>Géraldy-Lubin</surname></rs>, und <rs type="person" xml:id="pNt_71683" ref="#person_13304"><forename>Irene</forename> <surname>Auernheimer</surname></rs>. <rs type="person" xml:id="pNt_71684" ref="#person_13305"><surname>Auernh.</surname></rs> 
@@ -204,5 +209,6 @@ resp. in Untersuchungshaft gesteckt hatte, einfach aus Angst vor
 demagogischem Journalistengesindel (die auch alle frei gesprochen 
 wurden)). Welch ungleicher Kampf zwischen Staat resp. Behörde und Individuum.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

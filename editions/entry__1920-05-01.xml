@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-05-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-04-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-05-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1920-05-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-04-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-05-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0C85-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5087.tif"/>
@@ -187,7 +191,7 @@ Kinderzimmer. Niemand bei mir ausser einer Wärterin. Sie wäscht
 mir die Hände, ich weiss, es ist das letzte Mal, sage es auch. 
 Erwarte das Aufhören des Herzschlages mit mässiger Angst. Dann 
 in einem Wagen mit <rs type="person" xml:id="pNt_58712" ref="#person_19784"><roleName>Prof.</roleName> <surname>Schmutzer</surname></rs>, nicht in gleicher Stimmung, 
-durch die <rs type="place" xml:id="pl_12233" ref="#place_1e830a83db4e26d90ad278b635139882">Herrengasse</rs>, war im <rs type="place" ref="#place_burgtheater">Burgtheater</rs>, denke: Also, das 
+durch die <rs type="place" xml:id="pl_12233" ref="#pmb90869">Herrengasse</rs>, war im <rs type="place" ref="#pmb14">Burgtheater</rs>, denke: Also, das 
 letzte Stück, das ich gesehen, ist <rs type="work" xml:id="bibl_4053">Heinrich IV.</rs> Plötzlich bei 
 <rs type="person" xml:id="pNt_58713" ref="#person_19784"><roleName>Prof.</roleName> <surname>Schmutzer</surname></rs> im Billardzimmer, spreche den Wunsch aus noch 
 eine Partie Billard zu spielen, fühle mich aber doch zu schwach 
@@ -203,6 +207,5 @@ Gegenwart Theatererinnerungen eines alten <rs type="place" xml:id="pl_12234" ref
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_58719" ref="#person_15204"><surname>Fried</surname></rs> und <rs type="person" xml:id="pNt_58720" ref="#person_19822"><forename>Heini</forename></rs> spazieren Windmühlhöhe.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

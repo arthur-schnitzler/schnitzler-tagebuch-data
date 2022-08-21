@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-11-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-11-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-11-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-11-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-11-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-11-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FF11-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3035.tif"/>
@@ -186,7 +190,7 @@
             <p xml:space="preserve"><date when="1910-11-22">22/11</date> Probe. Thränen des <rs type="person" xml:id="pNt_33963" ref="#person_16261"><roleName>Frl.</roleName> <surname>Hönigswald</surname></rs>, weil ich die Herzogsscene 
 gestrichen; neue Besprechung mit <rs type="person" xml:id="pNt_33964" ref="#person_13624"><surname>Berger</surname></rs>. Er begann schwach zu werden, 
 sagte sehr geistreiches über Längen, Kürzungen im allgemeinen;― 
-hätte <hi xmlns:tei="http://www.tei-c.org/ns/1.0" rend="italicised">er</hi> allein die Verantwortung, wie in <rs type="place" xml:id="pl_07291" ref="#place_35d7df6ed3d93be2927d14acc5f1fc9a">Hamburg</rs> z. B. ― er 
+hätte <hi xmlns:tei="http://www.tei-c.org/ns/1.0" rend="italicised">er</hi> allein die Verantwortung, wie in <rs type="place" xml:id="pl_07291" ref="#pmb506">Hamburg</rs> z. B. ― er 
 ließe die Scene unbedingt stehn; fürchtete auch Geschichten der <rs ref="#person_19831" type="person" xml:id="pNt_33965"><surname>H.</surname></rs> 
 (mit der er in Beziehungen steht) ― auch <rs type="person" xml:id="pNt_33966" ref="#person_15944"><surname>Hartmann</surname></rs> remonstrirte ein 
 wenig gegen den Strich. Ich drang endlich mit der Ansicht durch, daß 
@@ -207,6 +211,5 @@ selbst habe nur einen Theil der bestellten von der Direktion bekommen.</p>
             <p xml:space="preserve" rend="indent">― <rs type="allusively" xml:id="rst_01159">Mama</rs> zum Nachtmahl.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

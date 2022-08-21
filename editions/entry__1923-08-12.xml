@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-08-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-08-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-08-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-08-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-08-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-08-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1133-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6091.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1923-08-12">
-            <p xml:space="preserve"><date when="1923-08-12">12/8</date> S. <rs type="place" xml:id="pl_14931" ref="#place_63714a562352ef3ae472da20ed0384c0">B.-B.</rs>― Früh hinauf. Ein Expressbrief von <rs type="person" xml:id="pNt_70068" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> (aus <rs type="place" xml:id="pl_14932" ref="#place_103a821a3a6a0b923c9f74a39662bb51">Zürich</rs>) 
+            <p xml:space="preserve"><date when="1923-08-12">12/8</date> S. <rs type="place" xml:id="pl_14931" ref="#pmb228">B.-B.</rs>― Früh hinauf. Ein Expressbrief von <rs type="person" xml:id="pNt_70068" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> (aus <rs type="place" xml:id="pl_14932" ref="#pmb484">Zürich</rs>) 
 der auf mich wartete, irritirte <rs type="person" xml:id="pNt_70069" ref="#person_19832"><forename>O.</forename></rs> Sie kann sich in das von ihr 
 geschaffene nicht finden (und ich auch nicht). Von wie viel Eifersucht 
 und wie wenig Liebe ist man umgeben.―</p>
@@ -191,9 +195,8 @@ und wie wenig Liebe ist man umgeben.―</p>
 schlechtes müdes Aussehn that mir weh.</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_1955">Verf.</rs>―</p>
             <p xml:space="preserve" rend="indent">Abends oben; gemeins. Nachtm. <rs type="person" xml:id="pNt_70071" ref="#person_19832"><forename>O.</forename></rs> sang, auch <rs type="work" xml:id="bibl_1956">Lied von der Erde</rs>; 
-von <rs type="person" xml:id="pNt_70072" ref="#person_19822"><forename>Heini</forename></rs> begleitet; er mit mir zum Hotel, reist morgen nach <rs type="place" xml:id="pl_14933" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.</p>
+von <rs type="person" xml:id="pNt_70072" ref="#person_19822"><forename>Heini</forename></rs> begleitet; er mit mir zum Hotel, reist morgen nach <rs type="place" xml:id="pl_14933" ref="#pmb50">Wien</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

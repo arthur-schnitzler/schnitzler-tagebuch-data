@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1921-07-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-07-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-07-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1921-07-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-07-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-07-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0E42-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5473.tif"/>
@@ -198,11 +202,11 @@ es stehe im Abend, ihr Gatte hielt eine Rede an die Menge. Sie hat ihn vor
 sprach von ihrer jahrelangen Liebe zu mir; nicht einmal ein Kuss. ― Ihr 
 Mann, Schriftsteller, durch Annonce.― Sie überreicht mir eine Nummer der 
 <rs type="work" subtype="newspaper" xml:id="bibl_3436">Reform</rs>, zeigt mir ihr und sein Bild, das ihrer verheirateten Schwester 
-<rs type="person" xml:id="pNt_63023" ref="#person_13391"><forename>Jenny</forename></rs>, <rs type="place" xml:id="pl_13190" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs>, in die ich vor 25 Jahren etwas verliebt war.― Sie möchte 
+<rs type="person" xml:id="pNt_63023" ref="#person_13391"><forename>Jenny</forename></rs>, <rs type="place" xml:id="pl_13190" ref="#pmb182">Paris</rs>, in die ich vor 25 Jahren etwas verliebt war.― Sie möchte 
 Protection, Verbindung; ist in ärmlichen Verhältnissen.―</p>
-            <p xml:space="preserve" rend="indent">― Consulat;― die Einreisebewilligungen aus <rs type="place" xml:id="pl_13191" ref="#place_4ad64d19ac27bccd873a0b5eca04c71e">Pöcking</rs> für die <rs type="allusively" xml:id="rst_01822">Kinder</rs> ― 
-ungiltig, sie müssen aus <rs type="place" xml:id="pl_13192" ref="#place_ad97c658d22741af2e1c67a721a28d93">Starnberg</rs> sein. Wütend.―</p>
-            <p xml:space="preserve" rend="indent">Zu <rs type="person" xml:id="pNt_63024" ref="#person_13733"><forename>Helene</forename> <surname>B.</surname></rs>;― von ihrem unglücklichen Sohn in <rs type="place" xml:id="pl_13193" ref="#place_e884124295d0c4d07d9bcf5096fd5495">Amerika</rs> und anderm 
+            <p xml:space="preserve" rend="indent">― Consulat;― die Einreisebewilligungen aus <rs type="place" xml:id="pl_13191" ref="#pmb91498">Pöcking</rs> für die <rs type="allusively" xml:id="rst_01822">Kinder</rs> ― 
+ungiltig, sie müssen aus <rs type="place" xml:id="pl_13192" ref="#pmb40951">Starnberg</rs> sein. Wütend.―</p>
+            <p xml:space="preserve" rend="indent">Zu <rs type="person" xml:id="pNt_63024" ref="#person_13733"><forename>Helene</forename> <surname>B.</surname></rs>;― von ihrem unglücklichen Sohn in <rs type="place" xml:id="pl_13193" ref="#pmb43406">Amerika</rs> und anderm 
 Familienleid; sie hat nun einen neuen Trost gefunden, strickt Westen.― 
 Wünscht, ich solle mich unterhalten, nehmen, was sich bietet;― es gebe 
 eben Männer die auch alternd u. s. w.― Erzählt von einem Geiger, der 
@@ -214,6 +218,5 @@ unter gegenseitiger Beobachtung; später spielte sie (ganz hübsch) Clavier,
 <rs type="institution" xml:id="pNt_63028"><surname>Kratzer</surname></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1891-05-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-05-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-05-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1891-05-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-05-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-05-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E3F8-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,19 +177,20 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0534.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0535.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1891-05-23">
             <p xml:space="preserve"><date when="1891-05-23">23. 5.</date> War mit <rs type="person" xml:id="pNt_05308" ref="#person_19542"><surname>Salten</surname></rs> beisammen, der seine <rs type="person" xml:id="pNt_05309" ref="#person_13688"><forename>Bertha</forename></rs> ertappt hat, 
 <pb n="333"/>
 <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header"><fw place="top_center"><date type="range">1891: V 23 - VI 1</date></fw> <fw place="top_right" type="pageNum">333</fw></tei:fw>
 Nachts Tram mit einem andern.― <rs type="person" xml:id="pNt_05310" ref="#person_15485"><forename>Mz.</forename></rs> Abds. Südbahn abgeholt ― sie 
-war in <rs type="place" xml:id="pl_01080" ref="#place_9a43e84f6e1d406076f2372205804f6d">Baden</rs>, die Arena „stierts“ ihr, ich sage nichts, will absolut 
+war in <rs type="place" xml:id="pl_01080" ref="#pmb662">Baden</rs>, die Arena „stierts“ ihr, ich sage nichts, will absolut 
 kein Opfer. <hi xmlns:tei="http://www.tei-c.org/ns/1.0" rend="italicised">Kann</hi> sie weiter weg, so soll sie’s auch. Manchmal die 
 letzten Tage kam’s mir vor, als liebt ich sie weniger tief. Dagegen leid 
 ich in den letzten Tagen wieder enorm unter der Eifersucht auf die 
@@ -193,5 +198,6 @@ Vergangenheit, welche sich mir fast stets unter einem und demselben
 Bilde darstellt: <rs type="person" xml:id="pNt_05311" ref="#person_15237"><forename>Th.</forename></rs> sich auf <rs type="person" xml:id="pNt_05312" ref="#person_15485"><forename>Mz.</forename></rs> stürzend, in ihrem Zimmer, während 
 sie ihn zur Vorsicht mahnt, weil die Mutter daneben in der Küche.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

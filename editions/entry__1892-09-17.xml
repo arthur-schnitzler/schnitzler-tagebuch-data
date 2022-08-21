@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1892-09-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-09-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-09-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1892-09-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-09-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-09-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E5D2-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,15 +177,17 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0638.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1892-09-17">
-            <p xml:space="preserve"><date when="1892-09-17">17. 9.</date> <rs type="place" xml:id="pl_01368" ref="#place_34f36b9454115e3b99acdf7913509e12">Trient</rs>.― Castello. Die blonde Madonna als Kellnerin in der 
-Rest.― Nach <rs type="place" xml:id="pl_01369" ref="#place_e4d4b19346747823e5636ed1238a7521">Venedig</rs>. Abd. Ankunft. <rs type="place" xml:id="pl_01370" ref="#place_5daafd9ad08609ff9ff5204b4ca5bf01">Markusplatz</rs>.</p>
+            <p xml:space="preserve"><date when="1892-09-17">17. 9.</date> <rs type="place" xml:id="pl_01368" ref="#pmb954">Trient</rs>.― Castello. Die blonde Madonna als Kellnerin in der 
+Rest.― Nach <rs type="place" xml:id="pl_01369" ref="#pmb462">Venedig</rs>. Abd. Ankunft. <rs type="place" xml:id="pl_01370" ref="#pmb92388">Markusplatz</rs>.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

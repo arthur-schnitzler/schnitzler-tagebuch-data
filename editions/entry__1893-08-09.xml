@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1893-08-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-08-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-08-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1893-08-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-08-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-08-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E717-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,19 +177,21 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0761.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1893-08-09">
             <p xml:space="preserve"><date when="1893-08-09">9/8</date> Ich bin froh, daß mir <rs type="person" xml:id="pNt_07692" ref="#person_21214"><forename>Fifi</forename></rs> gleichgiltig ist;― wie mir aber heute 
 <rs type="person" xml:id="pNt_07693" ref="#person_19542"><surname>Salten</surname></rs> sagte, er könnte mich mit ihr betrügen (was sicher wahr ist), 
 ärgerte ich mich doch.</p>
-            <p xml:space="preserve" rend="indent">In der früh Brief <rs type="person" xml:id="pNt_07694" ref="#person_15485"><forename>Mz.s</forename></rs>.― Abds. Bic. nach <rs type="place" xml:id="pl_01571" ref="#place_3962fe91966640892c61d1838300ed1a">St. Veit</rs> zu 
+            <p xml:space="preserve" rend="indent">In der früh Brief <rs type="person" xml:id="pNt_07694" ref="#person_15485"><forename>Mz.s</forename></rs>.― Abds. Bic. nach <rs type="place" xml:id="pl_01571" ref="#pmb91377">St. Veit</rs> zu 
 <rs ref="#person_19372" type="person" xml:id="pNt_07695"><surname>Rosenberg-Spitzer’s</surname></rs>.― Poker. Verlor, wie immer, gegen 100 fl. und 
 hatte mich gelangweilt.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1924-08-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-08-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-08-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1924-08-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-08-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-08-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-12B1-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6331.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1924-08-29">
-            <p xml:space="preserve"><date when="1924-08-29">29/8</date> <rs type="place" xml:id="pl_15639" ref="#place_581df48b4c75f9e166eb77e67725cbd3">Lugano</rs>. Mit <rs type="person" xml:id="pNt_73042" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Bahn <rs type="place" xml:id="pl_15640" ref="#place_cee818e4161f849ae1190eb9ae071bc8">Ponte Tresa</rs>; Schiff <rs type="place" xml:id="pl_15641" ref="#place_b2b63e0ca85f8b6eb5d35ae8497d559a">Stresa</rs>;― aßen 
+            <p xml:space="preserve"><date when="1924-08-29">29/8</date> <rs type="place" xml:id="pl_15639" ref="#pmb885">Lugano</rs>. Mit <rs type="person" xml:id="pNt_73042" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Bahn <rs type="place" xml:id="pl_15640" ref="#pmb91502">Ponte Tresa</rs>; Schiff <rs type="place" xml:id="pl_15641" ref="#pmb91850">Stresa</rs>;― aßen 
 im Hotel zu den Borrom. Inseln. Später auf den Dampfer wartend 
 sprachen wir Herrn <rs type="person" xml:id="pNt_73043" ref="#person_13316"><forename>Stef.</forename> <surname>Auspitz</surname></rs>.― Zurück den gleichen Weg.―</p>
             <p xml:space="preserve" rend="indent">Nachtm. <rs type="institution" xml:id="pNt_73044"><surname>Biaggi</surname></rs>, wo <rs type="person" xml:id="pNt_73045" ref="#person_15009"><surname>Fischers</surname></rs>, <rs type="person" xml:id="pNt_73046" ref="#person_15253"><surname>Frisch’</surname></rs> etc.;― <rs type="person" xml:id="pNt_73047" ref="#person_16171"><forename>Hermann</forename> <surname>Hesse</surname></rs> mit 
@@ -189,6 +193,5 @@ seiner jungen Frau lernt ich kennen. Schrieb <rs ref="#person_13658" type="perso
 Stammbuch. <rs type="person" xml:id="pNt_73049" ref="#person_16171"><surname>Hesse</surname></rs> wanderte dann eine Stunde in die Berge, wo er wohnt.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

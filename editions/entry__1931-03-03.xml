@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-03-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-03-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-03-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1931-03-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-03-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-03-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1BF9-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7651.tif"/>
@@ -182,16 +186,15 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1931-03-03">
-            <p xml:space="preserve"><date when="1931-03-03">3/3</date> Vm. (nach Besorgungen) ― mit <rs type="person" xml:id="pNt_92249" ref="#person_14234"><forename>Suz.</forename></rs> Auto Lusthaus <rs type="place" xml:id="pl_19771" ref="#place_86a694cf5ce5552ca627cb96b607eccd">Prater</rs>; spazieren 
-gegen die <rs type="place" xml:id="pl_19772" ref="#place_66216bc9738305718ef6d43d81f829f8">Freudenau</rs>. Leiser Frühlinganfang.―</p>
+            <p xml:space="preserve"><date when="1931-03-03">3/3</date> Vm. (nach Besorgungen) ― mit <rs type="person" xml:id="pNt_92249" ref="#person_14234"><forename>Suz.</forename></rs> Auto Lusthaus <rs type="place" xml:id="pl_19771" ref="#pmb91530">Prater</rs>; spazieren 
+gegen die <rs type="place" xml:id="pl_19772" ref="#pmb90655">Freudenau</rs>. Leiser Frühlinganfang.―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_92250" ref="#person_19827"><forename>Jul.’</forename></rs> zu Mittag ―</p>
-            <p xml:space="preserve" rend="indent">In der Frühe hatte <rs type="person" xml:id="pNt_92251" ref="#person_18137"><forename>Dora</forename></rs>, von der <rs type="place" xml:id="pl_19773" ref="#place_48e85f254225625df8a560aa4cb48808">Riviera</rs> nach <rs type="place" xml:id="pl_19774" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> zurück, telefonirt.</p>
+            <p xml:space="preserve" rend="indent">In der Frühe hatte <rs type="person" xml:id="pNt_92251" ref="#person_18137"><forename>Dora</forename></rs>, von der <rs type="place" xml:id="pl_19773" ref="#pmb90942">Riviera</rs> nach <rs type="place" xml:id="pl_19774" ref="#pmb168">Berlin</rs> zurück, telefonirt.</p>
             <p xml:space="preserve" rend="indent">Oper, <rs type="person" xml:id="pNt_92252" ref="#person_16177"><surname>Heuberger</surname></rs>, <rs type="work" xml:id="bibl_23643">Opernball</rs>, mit <rs type="person" xml:id="pNt_92253" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>; ich schlief mehr als ich zuhörte. 
-Dann im <rs type="place" ref="#place_meissl">Meissl</rs> genachtm.― Immer unhaltbarer. Ich frage mich, was stört 
+Dann im <rs type="place" ref="#pmb96">Meissl</rs> genachtm.― Immer unhaltbarer. Ich frage mich, was stört 
 mich am meisten ― dass es ihr schlecht geht. Richtiger: dass es mir schlecht 
 geht, weil es ihr schlecht geht.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

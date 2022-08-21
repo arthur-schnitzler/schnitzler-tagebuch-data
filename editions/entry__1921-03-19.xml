@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1921-03-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-03-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-03-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1921-03-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-03-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-03-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0DC7-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,15 +177,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5355.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5356.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1921-03-19">
-            <p xml:space="preserve"><date when="1921-03-19">19/3</date> Mit <rs type="person" xml:id="pNt_61802" ref="#person_14130"><forename>Lili</forename></rs> Schule <rs type="place" xml:id="pl_12836" ref="#place_6b7ed5712369e1964071c5d9966da1ec">Klostergasse</rs>; Gespräch mit <rs type="person" xml:id="pNt_61803" ref="#person_20595"><roleName>Direktor</roleName> <surname>Swoboda</surname></rs>; wegen 
+            <p xml:space="preserve"><date when="1921-03-19">19/3</date> Mit <rs type="person" xml:id="pNt_61802" ref="#person_14130"><forename>Lili</forename></rs> Schule <rs type="place" xml:id="pl_12836" ref="#pmb92338">Klostergasse</rs>; Gespräch mit <rs type="person" xml:id="pNt_61803" ref="#person_20595"><roleName>Direktor</roleName> <surname>Swoboda</surname></rs>; wegen 
 ev. Aufnahme.</p>
             <p xml:space="preserve" rend="indent">― <rs type="work" subtype="self" xml:id="bibl_3222">Testament</rs> entworfen; Aenderungen gegenüber 20. 3. 1914 ―</p>
             <p xml:space="preserve" rend="indent">― Zu Tisch <rs type="person" xml:id="pNt_61804" ref="#person_17562"><forename>Ruth</forename> <surname>Lindberg</surname></rs>.―</p>
@@ -194,5 +199,6 @@ recht düster; wie immer, sagt man mir, wenn er in einer Arbeit.―</p>
             <p xml:space="preserve" rend="indent">N. d. N. <rs type="person" xml:id="pNt_61818" ref="#person_21107"><forename>Jacob</forename> <surname>Wassermann</surname></rs>, <rs type="person" xml:id="pNt_61819" ref="#person_19755"><forename>Hugo</forename> <surname>Schmidl</surname></rs>. <rs type="person" xml:id="pNt_61820" ref="#person_21107"><forename>Jacob</forename></rs> erzählt von seiner 
 Corresp. mit <rs type="person" xml:id="pNt_61821" ref="#person_15009"><surname>Fischer</surname></rs>;― allerlei über Steuer und sonstiges finanzielles.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

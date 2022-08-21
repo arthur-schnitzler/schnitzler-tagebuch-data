@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-04-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-04-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-04-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-04-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-04-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-04-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-03EE-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3816.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1914-04-20">
-            <p xml:space="preserve"><date when="1914-04-20">20/4</date> Besorgungen in der Stadt. Im <rs type="place" xml:id="pl_08688" ref="#place_ee9528184f21142f7b0fa9993048d9d0">Bristol</rs> bei Direktor <rs ref="#person_19893" type="person" xml:id="pNt_43367"><forename>C. L.</forename> <surname>Schroeder</surname></rs>, 
+            <p xml:space="preserve"><date when="1914-04-20">20/4</date> Besorgungen in der Stadt. Im <rs type="place" xml:id="pl_08688" ref="#pmb205">Bristol</rs> bei Direktor <rs ref="#person_19893" type="person" xml:id="pNt_43367"><forename>C. L.</forename> <surname>Schroeder</surname></rs>, 
 wegen der Verrechnung der Nord. Film Comp.―</p>
             <p xml:space="preserve" rend="indent">Dictirt Briefe u. dergl.</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="work" subtype="newspaper" xml:id="bibl_8811">Forum</rs> 1. Nummer gelesen, das neue Blatt von <rs type="person" xml:id="pNt_43368" ref="#person_16168"><forename>Wilh.</forename> <surname>Herzog</surname></rs>. Auch kein 
@@ -191,6 +195,5 @@ sympathischer Herr.― Eine Brochure von <rs type="person" xml:id="pNt_43369" re
             <p xml:space="preserve" rend="indent">An der <rs type="work" subtype="self" xml:id="bibl_8812">Novelle</rs> beschäftigt.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

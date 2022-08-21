@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-12-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-12-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-12-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-12-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-12-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-12-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FC5A-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2606.tif"/>
@@ -180,14 +184,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1908-12-27">
-            <p xml:space="preserve"><date when="1908-12-27">27/12</date> S.― Vm. ein Onkel Olgas, <rs type="person" xml:id="pNt_29443" ref="#person_14249"><roleName>Hr.</roleName> <surname>Cohen</surname></rs>, zu Besuch, erzählt von <rs type="place" xml:id="pl_06544" ref="#place_53a577bb3bc587b0c28ab808390f1c9b">Japan</rs>.</p>
-            <p xml:space="preserve" rend="indent">Mit O. spazieren <rs type="place" xml:id="pl_06545" ref="#place_86f90c857ca2c813e066ea7b3502cb7c">Hohe Warte</rs>; über die Freunde, besonders 
+            <p xml:space="preserve"><date when="1908-12-27">27/12</date> S.― Vm. ein Onkel Olgas, <rs type="person" xml:id="pNt_29443" ref="#person_14249"><roleName>Hr.</roleName> <surname>Cohen</surname></rs>, zu Besuch, erzählt von <rs type="place" xml:id="pl_06544" ref="#pmb318">Japan</rs>.</p>
+            <p xml:space="preserve" rend="indent">Mit O. spazieren <rs type="place" xml:id="pl_06545" ref="#pmb92292">Hohe Warte</rs>; über die Freunde, besonders 
 <rs type="person" xml:id="pNt_29444" ref="#person_19542"><surname>Salten</surname></rs>. Als wir nach Haus kamen, war er eben da gewesen.―</p>
             <p xml:space="preserve" rend="indent">Am <rs type="work" subtype="self" xml:id="bibl_13860">Medardus</rs>, die Straßenscene, <rs type="figur" xml:id="pNt_29445"><surname>Eschenbacher’s</surname></rs> Tod. 
 Notizen. Es verliert sich mir wieder.</p>
             <p xml:space="preserve" rend="indent">Las <rs type="person" xml:id="pNt_29446" ref="#person_17417"><surname>Leisching</surname></rs> „<rs type="work" xml:id="bibl_13861">aus dem Tagebuch eines alten Wieners</rs>“.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-06-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-06-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-06-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1906-06-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-06-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-06-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F8EB-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2243.tif"/>
@@ -180,10 +184,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1906-06-26">
-            <p xml:space="preserve"><date when="1906-06-26">26/6</date> <rs type="place" xml:id="pl_05589" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>. Continental.― <rs type="person" xml:id="pNt_25188" ref="#person_20386"><forename>Liesl</forename></rs>. <rs type="person" xml:id="pNt_25189" ref="#person_20383"><forename>Albert</forename></rs>.―</p>
-            <p xml:space="preserve" rend="indent">Abds. mit O. und <rs type="person" xml:id="pNt_25190" ref="#person_20386"><forename>Liesl</forename></rs> <rs type="place" xml:id="pl_05590" ref="#place_bbd408ee8f3ae7989e74dd808b6a9e98">Wannsee</rs>.</p>
+            <p xml:space="preserve"><date when="1906-06-26">26/6</date> <rs type="place" xml:id="pl_05589" ref="#pmb168">Berlin</rs>. Continental.― <rs type="person" xml:id="pNt_25188" ref="#person_20386"><forename>Liesl</forename></rs>. <rs type="person" xml:id="pNt_25189" ref="#person_20383"><forename>Albert</forename></rs>.―</p>
+            <p xml:space="preserve" rend="indent">Abds. mit O. und <rs type="person" xml:id="pNt_25190" ref="#person_20386"><forename>Liesl</forename></rs> <rs type="place" xml:id="pl_05590" ref="#pmb61076">Wannsee</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

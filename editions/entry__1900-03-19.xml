@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1900-03-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-03-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-03-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1900-03-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-03-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-03-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F047-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -162,17 +166,19 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1548.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1900-03-19">
             <p xml:space="preserve"><date when="1900-03-19">19/3</date> Las Abends für den Volksbildungsverein „<rs type="work" subtype="self" xml:id="bibl_18414">Ehrentag</rs>“ mit einigem
 Erfolg; <rs type="person" xml:id="pNt_16926" ref="#person_17314"><surname>Langmann</surname></rs> nach mir. Abd. Riedhof; Toaste; <rs type="person" xml:id="pNt_16927" ref="#person_20683"><surname>Tezner</surname></rs> auch, auf mich.
 <rs type="person" xml:id="pNt_16928" ref="#person_13920"><surname>Brandes</surname></rs> auch dort; mit ihm u. a. Kaffeehaus. <rs type="person" xml:id="pNt_16929" ref="#person_17314"><surname>Langmann</surname></rs> redete dummes
 Zeug mit großem Pathos.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

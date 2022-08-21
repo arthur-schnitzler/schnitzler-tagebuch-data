@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1916-06-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-06-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-06-06.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1916-06-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-06-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-06-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-06F5-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4276.tif"/>
@@ -182,13 +186,12 @@
       <body>
          <div type="diary-day" xml:id="entry__1916-06-05">
             <p xml:space="preserve"><date when="1916-06-05">5/6</date> Wegen des übeln Wetters statt Schiff ― Bahn. <rs type="person" xml:id="pNt_48117" ref="#person_17696"><forename>Rud.</forename> <surname>Lothar</surname></rs> kommt 
-eben aus <rs type="place" xml:id="pl_09980" ref="#place_103a821a3a6a0b923c9f74a39662bb51">Zürich</rs>. Fährt alle 4 Wochen hin und her. Schwatzhaft, etwas 
+eben aus <rs type="place" xml:id="pl_09980" ref="#pmb484">Zürich</rs>. Fährt alle 4 Wochen hin und her. Schwatzhaft, etwas 
 aufschneiderisch,― kindisch, gutmütig; ― erzählt allerlei gemeinsame 
 Jugenderinnerungen. Vom Krieg; <rs type="place" xml:id="pl_09981" ref="#place_9912c9330e203d0dc109bf7e74e09e51" ana="#exclude">Schweizer</rs> Stimmungen etc.</p>
-            <p xml:space="preserve" rend="indent">Zu Mittag <rs type="place" xml:id="pl_09982" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>. Westbahn gegessen. Zu Hause alles in Ordnung. 
+            <p xml:space="preserve" rend="indent">Zu Mittag <rs type="place" xml:id="pl_09982" ref="#pmb50">Wien</rs>. Westbahn gegessen. Zu Hause alles in Ordnung. 
 Die <rs type="allusively" xml:id="rst_01459">Kinder</rs> wohl.― Den Nm. vertrödelt, ordnend, Zeitung lesend, u. s. w.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

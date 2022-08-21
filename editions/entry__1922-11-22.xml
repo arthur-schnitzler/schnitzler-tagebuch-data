@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-11-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-11-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-11-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-11-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-11-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-11-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-102C-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5902.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1922-11-22">
-            <p xml:space="preserve"><date when="1922-11-22">22/11</date> Vm. Besorgungen.― Panorama (<rs type="place" xml:id="pl_14412" ref="#place_51150b7b6309d23b7d292c0be9fd3f21">Bayern</rs>).―</p>
+            <p xml:space="preserve"><date when="1922-11-22">22/11</date> Vm. Besorgungen.― Panorama (<rs type="place" xml:id="pl_14412" ref="#pmb314">Bayern</rs>).―</p>
             <p xml:space="preserve" rend="indent">Grand Hotel, mit <rs type="person" xml:id="pNt_67885" ref="#person_21527"><surname>Zeislers</surname></rs> gegessen. Hauptsächlich meine Erfahrungen mit 
 <rs type="place" xml:id="pl_14413" ref="#place_923c9d6aaf18f34b857e3d32ee926c57" ana="#exclude">amerik.</rs> Verlegern und Agenten zum besten gegeben.</p>
             <p xml:space="preserve" rend="indent">Nm. mit <rs type="work" subtype="self" xml:id="bibl_2919">Tgb.</rs> 1915 beschäftigt ― zu nichts anderm Lust. Wie nah das 
 alles!―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-08-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-08-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-08-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-08-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-08-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-08-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-157D-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6706.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1926-08-16">
-            <p xml:space="preserve"><date when="1926-08-16">16/8</date> <rs type="place" xml:id="pl_16820" ref="#place_961698fa64951bd6d3437ebc7931a899">Bern</rs>. Abreise (mit <rs type="person" xml:id="pNt_78381" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>) ― <rs type="place" xml:id="pl_16821" ref="#place_621cc3ab25e03b3674595222a0d30b1c">Siders</rs>. Drahtseilbahn <rs type="place" xml:id="pl_16822" ref="#place_db3c9d88d2b9494a50d11a87e0f05c05">Montana Vermala</rs>. 
+            <p xml:space="preserve"><date when="1926-08-16">16/8</date> <rs type="place" xml:id="pl_16820" ref="#pmb1223">Bern</rs>. Abreise (mit <rs type="person" xml:id="pNt_78381" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>) ― <rs type="place" xml:id="pl_16821" ref="#pmb55331">Siders</rs>. Drahtseilbahn <rs type="place" xml:id="pl_16822" ref="#pmb91278">Montana Vermala</rs>. 
 Parkhotel, schäbig.― Zum Golfhotel, kein Zimmer. (Wären ohnedies kaum 
-geblieben.) Gegend schön. Viele Kranke.― Hinab. Nach <rs type="place" xml:id="pl_16823" ref="#place_6259fd0991cb80ffe4336e0ca169eae3">Brig</rs>. Hotel Krone. Der merkwürdige Platz. (Bar.)</p>
+geblieben.) Gegend schön. Viele Kranke.― Hinab. Nach <rs type="place" xml:id="pl_16823" ref="#pmb90400">Brig</rs>. Hotel Krone. Der merkwürdige Platz. (Bar.)</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

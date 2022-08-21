@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1902-04-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-04-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-04-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1902-04-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-04-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-04-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F30A-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1681.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1902-04-28">
-            <p xml:space="preserve"><date when="1902-04-28">28/4</date> Mit <rs type="person" xml:id="pNt_18593" ref="#person_16293"><forename>Hugo</forename></rs> Rad <rs type="place" xml:id="pl_03922" ref="#place_6cc6cfe893d0065a8007acc6e4074a69">Rodaun</rs> ― <rs type="place" xml:id="pl_03923" ref="#place_0ad32d3934b7c963bf7225500f7532f1">Laab</rs> ― <rs type="place" xml:id="pl_03924" ref="#place_f5b61ab40d3efa6b67d874a0fd70d3bd">Purkersdorf</rs> ― <rs type="place" xml:id="pl_03925" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.― Conc. 
+            <p xml:space="preserve"><date when="1902-04-28">28/4</date> Mit <rs type="person" xml:id="pNt_18593" ref="#person_16293"><forename>Hugo</forename></rs> Rad <rs type="place" xml:id="pl_03922" ref="#pmb173">Rodaun</rs> ― <rs type="place" xml:id="pl_03923" ref="#pmb91091">Laab</rs> ― <rs type="place" xml:id="pl_03924" ref="#pmb91552">Purkersdorf</rs> ― <rs type="place" xml:id="pl_03925" ref="#pmb50">Wien</rs>.― Conc. 
 <rs type="person" xml:id="pNt_18594" ref="#person_13410"><surname>Barbi</surname></rs>. Mit <rs type="person" xml:id="pNt_18595" ref="#person_18320"><forename>F.</forename> <surname>M.</surname></rs> <rs type="person" xml:id="pNt_18596" ref="#person_19423"><surname>Rothenstein</surname></rs>, <rs type="person" xml:id="pNt_18597" ref="#person_18358"><forename>Ella</forename> <surname>Naschauer</surname></rs>, <rs type="person" xml:id="pNt_18598" ref="#person_20925"><forename>Leo</forename> <surname>Vanjung</surname></rs> soup.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

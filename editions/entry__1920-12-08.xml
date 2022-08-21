@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-12-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-12-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-12-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1920-12-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-12-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-12-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0D62-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5243.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1920-12-08">
-            <p xml:space="preserve"><date when="1920-12-08">8/12</date> <rs type="place" ref="#place_volkstheater">Volksth.</rs> Generalprobe <rs type="person" xml:id="pNt_60644" ref="#person_18297"><surname>Müller’s</surname></rs> „<rs type="work" xml:id="bibl_4414">Flamme</rs>“. Kitsch; unbedenklich, 
+            <p xml:space="preserve"><date when="1920-12-08">8/12</date> <rs type="place" ref="#pmb92202">Volksth.</rs> Generalprobe <rs type="person" xml:id="pNt_60644" ref="#person_18297"><surname>Müller’s</surname></rs> „<rs type="work" xml:id="bibl_4414">Flamme</rs>“. Kitsch; unbedenklich, 
 dürftig, theatralisch nicht ungeschickt, geschmacklos.―</p>
             <p xml:space="preserve" rend="indent">― Nm. <rs type="person" xml:id="pNt_60645" ref="#person_16743"><roleName>Dr.</roleName> <surname>Kartono</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_60646" ref="#person_15376"><roleName>Dr.</roleName> <surname>Gelber</surname></rs>, <rs type="person" xml:id="pNt_60647" ref="#person_21406"><roleName>Dr.</roleName> <surname>Wittels</surname></rs>, <rs type="person" xml:id="pNt_60648" ref="#person_14337"><surname>Czuczka</surname></rs>;― in der Verlagsangelegenheit <rs type="person" xml:id="pNt_60649" ref="#person_18916"><surname>Popper</surname></rs>.―</p>
@@ -189,11 +193,10 @@ dürftig, theatralisch nicht ungeschickt, geschmacklos.―</p>
 trifft ein.―</p>
             <p xml:space="preserve" rend="indent">Am <rs type="work" subtype="self" xml:id="bibl_4416">Weiher</rs> mühselig ein paar Verse.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_60651" ref="#person_19822"><forename>Heini</forename></rs> ein <rs type="person" xml:id="pNt_60652" ref="#person_19942"><surname>Schumann</surname></rs> Quartett.</p>
-            <p xml:space="preserve" rend="indent">Las „<rs type="work" xml:id="bibl_4417">Das Erbe</rs>“ (Mscrpt.), von <rs type="person" xml:id="pNt_60653" ref="#person_13552"><roleName>Dr.</roleName> <surname>Beerli</surname></rs>, <rs type="place" xml:id="pl_12662" ref="#place_27cf3f0959b6f18616d876219b63488a">St. Gallen</rs> (von <rs type="person" xml:id="pNt_60654" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> mitgebracht); 
+            <p xml:space="preserve" rend="indent">Las „<rs type="work" xml:id="bibl_4417">Das Erbe</rs>“ (Mscrpt.), von <rs type="person" xml:id="pNt_60653" ref="#person_13552"><roleName>Dr.</roleName> <surname>Beerli</surname></rs>, <rs type="place" xml:id="pl_12662" ref="#pmb40655">St. Gallen</rs> (von <rs type="person" xml:id="pNt_60654" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> mitgebracht); 
 kluges, gar nicht übles Stück ―</p>
             <p xml:space="preserve" rend="indent">― Mit <rs type="person" xml:id="pNt_60655" ref="#person_19832"><forename>O.</forename></rs> Abends nur noch ein paar Worte.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

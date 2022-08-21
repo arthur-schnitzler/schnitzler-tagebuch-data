@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-09-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-09-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-09-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1931-09-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-09-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-09-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1CC9-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,13 +177,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7784.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7785.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1931-09-28">
             <p xml:space="preserve"><date when="1931-09-28">28/9</date> Dictirt <rs type="work" subtype="self" xml:id="bibl_23995">Tgb.</rs> 94 (Schluss) ― <rs type="work" subtype="self" xml:id="bibl_23996">Crim.-Film</rs>;― <rs type="work" subtype="self" xml:id="bibl_23997">Ruf</rs>.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_94003" ref="#person_14234"><forename>Suz.</forename></rs> auf 1 Minute da.―</p>
@@ -187,10 +192,10 @@
             <p xml:space="preserve" rend="indent">― Gegen 7 zu <rs type="person" xml:id="pNt_94004" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs>, die etwas verkühlt.</p>
             <p xml:space="preserve" rend="indent">Zu Haus allein genachtm.</p>
             <p xml:space="preserve" rend="indent">Auf dem Fauteuil eingeschlafen;― ein angstvoller Traum: auf einer Art 
-Markt- Hafenplatz etwa <rs type="place" xml:id="pl_20177" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs>;― ich bin mit <rs type="person" xml:id="pNt_94005" ref="#person_14234"><forename>Suz.</forename></rs>; sie reist von „Le 
-Contrai“, ein Hafen, ab, u. zw. die [Nord] Küste,― nach <rs type="place" xml:id="pl_20178" ref="#place_7eae4e7c5f444294d02f17f98633af8e">Konstantinopel</rs> 
+Markt- Hafenplatz etwa <rs type="place" xml:id="pl_20177" ref="#pmb182">Paris</rs>;― ich bin mit <rs type="person" xml:id="pNt_94005" ref="#person_14234"><forename>Suz.</forename></rs>; sie reist von „Le 
+Contrai“, ein Hafen, ab, u. zw. die [Nord] Küste,― nach <rs type="place" xml:id="pl_20178" ref="#pmb966">Konstantinopel</rs> 
 (Deutung: sie besucht gerade heut Nachm. eine Bekannte, die zu <rs type="person" xml:id="pNt_94006" ref="#person_20086"><forename>Gladys</forename></rs> nach 
-<rs type="place" xml:id="pl_20179" ref="#place_7eae4e7c5f444294d02f17f98633af8e">K.</rs> fährt) ― ich will, im großen Fahrplan nachsehn, wann das Schiff geht; 
+<rs type="place" xml:id="pl_20179" ref="#pmb966">K.</rs> fährt) ― ich will, im großen Fahrplan nachsehn, wann das Schiff geht; 
 find es nicht recht, bin mißtrauisch berührt von <rs type="person" xml:id="pNt_94007" ref="#person_14234"><forename>Suz.s</forename></rs> relat. 
 Interesselosigkeit ― wann fährt sie? wann kommt sie wieder;― wir sitzen 
 an einem Tischchen im freien; gegen rückwärts ein Hotel, in dem sie 
@@ -202,5 +207,6 @@ Abends, Schluss des dummen Romans von <rs type="person" xml:id="pNt_94011" ref="
 und <rs type="person" xml:id="pNt_94012" ref="#person_14234"><forename>Suz.</forename></rs> stürzt davon;― ich glaube das ganze nicht ― es ist nur Flucht vor 
 mir … und wache, wie nach einem düstern Erlebnis auf.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

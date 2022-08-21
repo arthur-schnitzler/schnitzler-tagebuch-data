@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-08-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-07-31.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-08-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-08-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-07-31.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-08-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FBC6-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2537.tif"/>
@@ -183,10 +187,9 @@
             <p xml:space="preserve"><date when="1908-08-01">1/8</date> Allein im Wald. „<rs type="work" subtype="self" xml:id="bibl_13566">Weites Land</rs>“ und <rs type="work" subtype="self" xml:id="bibl_13567">Geschwisterstoff</rs> meditirt. Gute 
 Stunden. Wie wohlthätig wirkt Einsamkeit.</p>
             <p xml:space="preserve" rend="indent">― Bei Tisch über <rs type="person" xml:id="pNt_28641" ref="#person_17834"><forename>Heinrich</forename> <surname>Mann</surname></rs>, mit dem absprecherischen <rs type="person" xml:id="pNt_28642" ref="#person_21107"><surname>Wassermann</surname></rs>.</p>
-            <p xml:space="preserve" rend="indent">„<rs type="work" subtype="self" xml:id="bibl_13568">Weites Land</rs>“.― Allein <rs type="place" xml:id="pl_06412" ref="#place_7a13bfbacca4dc3266ef3551fdaf8dab">St. Vigil</rs>.</p>
+            <p xml:space="preserve" rend="indent">„<rs type="work" subtype="self" xml:id="bibl_13568">Weites Land</rs>“.― Allein <rs type="place" xml:id="pl_06412" ref="#pmb91814">St. Vigil</rs>.</p>
             <p xml:space="preserve" rend="indent">Abds. über <rs type="person" xml:id="pNt_28643" ref="#person_16749"><surname>Kassner</surname></rs>, den ich einen praetent. Schwätzer nenne.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1902-03-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-03-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-03-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1902-03-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-03-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-03-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F2ED-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1675.tif"/>
@@ -182,13 +186,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1902-03-24">
-            <p xml:space="preserve"><date when="1902-03-24">24/3</date> Nach <rs type="place" xml:id="pl_03896" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.― „<rs type="work" xml:id="bibl_17987">Viertes Gebot</rs>“. Ungeheure Wirkung. Mit <rs ref="#person_19542" type="person" xml:id="pNt_18527"><surname>Salten</surname></rs> 
+            <p xml:space="preserve"><date when="1902-03-24">24/3</date> Nach <rs type="place" xml:id="pl_03896" ref="#pmb50">Wien</rs>.― „<rs type="work" xml:id="bibl_17987">Viertes Gebot</rs>“. Ungeheure Wirkung. Mit <rs ref="#person_19542" type="person" xml:id="pNt_18527"><surname>Salten</surname></rs> 
 und <rs type="person" xml:id="pNt_18528" ref="#person_19543"><forename>Otti</forename> <surname>M.</surname></rs> genachtm.― <rs ref="#person_19542" type="person" xml:id="pNt_18529"><surname>Salten</surname></rs> bei mir, las mir „<rs type="work" xml:id="bibl_17988">Empfängnis</rs>“ vor.― 
 Gespräch über „Schaffen“. Früher (bei mir) der Einfall, das fait 
 divers das primäre; jetzt die Gestalt.―</p>
             <p xml:space="preserve" rend="indent">Aenderte Scheinduellscene in <rs type="work" subtype="self" xml:id="bibl_17989">Freiwild</rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

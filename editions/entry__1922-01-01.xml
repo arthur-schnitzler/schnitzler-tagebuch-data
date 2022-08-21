@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-01-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-12-31.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-01-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-01-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-12-31.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-01-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0EE7-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,22 +177,23 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5610.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1922-01-01">
             <p xml:space="preserve"><date when="1922-01-01">1/1</date> Um ½8 nach ununterbrochenem Schlaf (wie jetzt meist) 
 erwacht;― an die Träume keine Erinnerung; gleich auf. Ein 
 Cyclamenstock von <rs type="person" xml:id="pNt_64773" ref="#person_19822"><forename>Heini</forename></rs>, ein paar Blüthen von <rs type="person" xml:id="pNt_64774" ref="#person_20112"><forename>Wucki</forename></rs> (die in 
-<rs type="place" xml:id="pl_13594" ref="#place_07e2e84e3cfd8e6d8476b1f331b0dd20">Oberhollabrunn</rs>). Trübe Stimmung, Herznagen, bitteres Denken an <rs type="person" xml:id="pNt_64775" ref="#person_19832"><forename>O.</forename></rs> 
+<rs type="place" xml:id="pl_13594" ref="#pmb92727">Oberhollabrunn</rs>). Trübe Stimmung, Herznagen, bitteres Denken an <rs type="person" xml:id="pNt_64775" ref="#person_19832"><forename>O.</forename></rs> 
 Endlich heiße Thränen.― Las ein „Collektivdrama“ von <rs type="person" xml:id="pNt_64776" ref="#person_14126"><surname>Čapek</surname></rs> 
 <rs type="work" xml:id="bibl_2246">W. U. R.</rs>; ein bizarrer Einfall, der weitläufig ausgeführt ins triviale, 
 absurde und sentimentale geräth.―</p>
-            <p xml:space="preserve" rend="indent">Spazierg. mit <rs type="person" xml:id="pNt_64777" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> und <rs type="person" xml:id="pNt_64778" ref="#person_18748"><roleName>Dr.</roleName> <surname>Pfund</surname></rs> <rs type="place" xml:id="pl_13595" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> ― <rs type="place" xml:id="pl_13596" ref="#place_a513bae177c89d12226f343ac5ff1ee3">Salmannsdorf</rs> ― 
-<rs type="place" xml:id="pl_13597" ref="#place_cc6eda773537f8cb4db5cb1b862d0e0d">Sommerhaidenweg</rs> ― <rs type="place" xml:id="pl_13598" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs>. (Lit. geschäftl. Erlebnisse; über 
+            <p xml:space="preserve" rend="indent">Spazierg. mit <rs type="person" xml:id="pNt_64777" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> und <rs type="person" xml:id="pNt_64778" ref="#person_18748"><roleName>Dr.</roleName> <surname>Pfund</surname></rs> <rs type="place" xml:id="pl_13595" ref="#pmb169">Pötzleinsdorf</rs> ― <rs type="place" xml:id="pl_13596" ref="#pmb91641">Salmannsdorf</rs> ― 
+<rs type="place" xml:id="pl_13597" ref="#pmb243">Sommerhaidenweg</rs> ― <rs type="place" xml:id="pl_13598" ref="#pmb113">Türkenschanzpark</rs>. (Lit. geschäftl. Erlebnisse; über 
 <rs type="work" subtype="self" xml:id="bibl_2247">Leb. Std.</rs> (die er gestern sah).) ― Kalter Wind, wechselnde Sonne.</p>
             <p xml:space="preserve" rend="indent">Zu Tisch bei <rs type="person" xml:id="pNt_64779" ref="#person_18063"><surname>Menczels</surname></rs>. <rs type="person" xml:id="pNt_64780" ref="#person_19850"><surname>Schönherr</surname></rs>. Später <rs type="person" xml:id="pNt_64781" ref="#person_19542"><surname>Salten</surname></rs>. Die polit. und 
 finanz. Zustände, das bolschewistische Gehaben unsrer Regierung; Ekel.</p>
@@ -196,5 +201,6 @@ finanz. Zustände, das bolschewistische Gehaben unsrer Regierung; Ekel.</p>
 und zerstreut. Kann ich überhaupt noch arbeiten? Eintragungen. 
 Klavier n. d. N.― <rs type="work" xml:id="bibl_2249"><rs type="person" xml:id="pNt_64782"><surname>Goethe</surname></rs></rs> von <rs type="person" xml:id="pNt_64783" ref="#person_13920"><surname>Brandes</surname></rs> weiter gelesen.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-06-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-06-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-06-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-06-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-06-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-06-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-014B-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3419.tif"/>
@@ -183,7 +187,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1912-06-14">
-            <p xml:space="preserve"><date when="1912-06-14">14/6</date> Ankunft <rs type="place" xml:id="pl_07900" ref="#place_c12b8d9779a8ad2b240a57b31c979290">Prag</rs>. Palasthotel.―</p>
+            <p xml:space="preserve"><date when="1912-06-14">14/6</date> Ankunft <rs type="place" xml:id="pl_07900" ref="#pmb91524">Prag</rs>. Palasthotel.―</p>
             <pb n="335"/>
             <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header">
                <fw place="top_center">
@@ -216,6 +220,5 @@ dramatischen Helden vorgebracht.―</p>
 hat das <rs type="work" subtype="self" xml:id="bibl_10299">Märchen</rs> inszenirt); auf die Bahn. Abfahrt.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

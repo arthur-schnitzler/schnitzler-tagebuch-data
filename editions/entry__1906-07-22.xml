@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-07-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-07-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-07-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1906-07-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-07-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-07-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F905-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2247.tif"/>
@@ -180,11 +184,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1906-07-22">
-            <p xml:space="preserve"><date when="1906-07-22">22/7</date> S. Wald.― <rs type="work" subtype="self" xml:id="bibl_15106">P. A.</rs> ― Spazierg. mit O. <rs type="place" xml:id="pl_05620" ref="#place_6e080c40e2fdaeb92da4b8386d060d40">Hellebaek</rs>. (Über <rs type="person" xml:id="pNt_25257" ref="#person_13131"><roleName>Fr.</roleName> <surname>Fulda</surname></rs>.)</p>
+            <p xml:space="preserve"><date when="1906-07-22">22/7</date> S. Wald.― <rs type="work" subtype="self" xml:id="bibl_15106">P. A.</rs> ― Spazierg. mit O. <rs type="place" xml:id="pl_05620" ref="#pmb90855">Hellebaek</rs>. (Über <rs type="person" xml:id="pNt_25257" ref="#person_13131"><roleName>Fr.</roleName> <surname>Fulda</surname></rs>.)</p>
             <p xml:space="preserve" rend="indent">Lese <rs type="person" xml:id="pNt_25258" ref="#person_14052"><surname>Bülow</surname></rs> <rs type="work" xml:id="bibl_15107">Briefe</rs>, <rs type="person" xml:id="pNt_25259" ref="#person_18839"><surname>Poe</surname></rs> (ohne Freude), <rs ref="#person_13162" type="person" xml:id="pNt_25260"><surname>Freytag</surname></rs> (<rs type="work" xml:id="bibl_15108">30j. Krieg</rs>) höchst angeregt. 
 <rs type="person" xml:id="pNt_25261" ref="#person_17547"><surname>Liliencron</surname></rs> <rs type="work" xml:id="bibl_15109">Gedichte</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

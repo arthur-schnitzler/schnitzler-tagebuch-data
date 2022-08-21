@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1907-06-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-06-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-06-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1907-06-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-06-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-06-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FA41-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2388.tif"/>
@@ -180,7 +184,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1907-06-03">
-            <p xml:space="preserve"><date when="1907-06-03">3/6</date> Vm. <rs type="place" xml:id="pl_05993" ref="#place_97d57367459639154853cbd7c5de0796">Giesshübl</rs>. Aus Sport Wohnungen angesehen; die <rs type="person" xml:id="pNt_27015" ref="#person_14385"><surname>Deigner’sche</surname></rs> 
+            <p xml:space="preserve"><date when="1907-06-03">3/6</date> Vm. <rs type="place" xml:id="pl_05993" ref="#pmb90721">Giesshübl</rs>. Aus Sport Wohnungen angesehen; die <rs type="person" xml:id="pNt_27015" ref="#person_14385"><surname>Deigner’sche</surname></rs> 
 (früher <rs type="person" xml:id="pNt_27016" ref="#person_15293"><surname>Fürstenberg</surname></rs>) Villa.</p>
             <p xml:space="preserve" rend="indent">O. von <rs type="person" xml:id="pNt_27017" ref="#person_19559"><surname>Samuelys</surname></rs> abgeholt, wo auch <rs type="person" xml:id="pNt_27018" ref="#person_15032"><surname>Fleischer</surname></rs> und <rs type="person" xml:id="pNt_27019" ref="#person_17324"><surname>Lantz</surname></rs>; die uns nach Hause 
 begleiten. <rs type="person" xml:id="pNt_27020" ref="#person_17324"><surname>Lantzen’s</surname></rs> <rs type="person" xml:id="pNt_27021" ref="#person_14147"><surname>Casanovastoffe</surname></rs>.</p>
@@ -191,6 +195,5 @@ begleiten. <rs type="person" xml:id="pNt_27020" ref="#person_17324"><surname>Lan
             <p xml:space="preserve" rend="indent">Nachtmahl; <rs type="person" xml:id="pNt_27029" ref="#person_16647"><forename>Grethe</forename> <surname>Kainz</surname></rs>, <rs type="person" xml:id="pNt_27030" ref="#person_15032"><surname>Fleischer</surname></rs>, <rs type="person" xml:id="pNt_27031" ref="#person_17324"><surname>Lantz</surname></rs>, <rs type="person" xml:id="pNt_27032" ref="#person_20386"><forename>Liesl</forename></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

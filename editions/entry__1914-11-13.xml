@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-11-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-11-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-11-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-11-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-11-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-11-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-04BC-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3924.tif"/>
@@ -190,7 +194,7 @@ Kriegsanleihe berathen.</p>
                   <date type="range">1914: XI 13 - XI 11</date>
                </fw>
             </tei:fw>
-            <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_44397" ref="#person_19986"><forename>Gustav</forename></rs>. Kriegsgespräche. Ungünstige Nachrichten aus <rs type="place" xml:id="pl_09063" ref="#place_ec846208a2a38eace9d773acdfe33f97">Galizien</rs>. 
+            <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_44397" ref="#person_19986"><forename>Gustav</forename></rs>. Kriegsgespräche. Ungünstige Nachrichten aus <rs type="place" xml:id="pl_09063" ref="#pmb644">Galizien</rs>. 
 Begeisterung, Heroismus, sowie allerlei schöner Selbstbetrug.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_44398" ref="#person_13305"><surname>Auernheimer</surname></rs> begegnet. Über <rs type="person" xml:id="pNt_44399" ref="#person_16293"><forename>Hugo</forename></rs>, dessen Feudalismus sich nun wieder zu 
 entwickeln scheint (Artikel in der <rs type="work" subtype="newspaper" xml:id="bibl_9089">Oe. R.</rs>).</p>
@@ -199,6 +203,5 @@ Krieg,― <rs type="person" xml:id="pNt_44401" ref="#person_20530"><surname>Stri
             <p xml:space="preserve" rend="indent">Mit dem „<rs type="work" subtype="self" xml:id="bibl_9090">Verführer</rs>“ beschäftigt.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

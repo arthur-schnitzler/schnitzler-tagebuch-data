@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1891-10-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-10-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-10-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1891-10-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-10-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-10-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E476-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,13 +177,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0563.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0564.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1891-10-03">
             <p xml:space="preserve"><date when="1891-10-03">3. 10.</date> ― Ziemlich viele Ideen in den letzten Monaten. Dadurch, daß 
 aber jede einzelne nach verschiedenen Richtungen auseinanderläuft, 
@@ -194,9 +199,10 @@ schwindender Liebe schmeckt. Und dabei: so unerhört nervös, krank
 geradezu mich zuweilen ein Wort, eine Bewegung, ein Nichts von ihr 
 macht ― das auseinandergehn ― insbesondre nach solchen 
 vernichtenden Abenden ― das unleidlichste.―</p>
-            <p xml:space="preserve" rend="indent">― Vormittag begleitete ich sie nach <rs type="place" xml:id="pl_01233" ref="#place_e08f67e87755f34f857023df12e0fde1">Mariahilf</rs>, wo wir zärtlich und 
+            <p xml:space="preserve" rend="indent">― Vormittag begleitete ich sie nach <rs type="place" xml:id="pl_01233" ref="#pmb56">Mariahilf</rs>, wo wir zärtlich und 
 wohl waren.―</p>
             <p xml:space="preserve" rend="indent">― Beide sind wir entsetzlich nervös ―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

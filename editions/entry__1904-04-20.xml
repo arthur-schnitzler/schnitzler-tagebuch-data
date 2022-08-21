@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-04-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-04-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-04-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-04-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-04-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-04-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F5CF-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1912.tif"/>
@@ -181,14 +185,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1904-04-20">
-            <p xml:space="preserve"><date when="1904-04-20">20/4</date> Vm. mit O. <rs type="place" xml:id="pl_04670" ref="#place_c79ad839f84019f53250a4e6365359f9">Neuwaldegg</rs>. Wald, Frühling.―</p>
-            <p xml:space="preserve" rend="indent">Nm. Dr. <rs type="person" xml:id="pNt_21020" ref="#person_14779"><forename>St.</forename> <surname>Epstein</surname></rs> <rs type="place" xml:id="pl_04671" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs>, früher Assistent von <rs type="person" xml:id="pNt_21021" ref="#person_14526"><surname>Dubois</surname></rs>, 
+            <p xml:space="preserve"><date when="1904-04-20">20/4</date> Vm. mit O. <rs type="place" xml:id="pl_04670" ref="#pmb170">Neuwaldegg</rs>. Wald, Frühling.―</p>
+            <p xml:space="preserve" rend="indent">Nm. Dr. <rs type="person" xml:id="pNt_21020" ref="#person_14779"><forename>St.</forename> <surname>Epstein</surname></rs> <rs type="place" xml:id="pl_04671" ref="#pmb182">Paris</rs>, früher Assistent von <rs type="person" xml:id="pNt_21021" ref="#person_14526"><surname>Dubois</surname></rs>, 
 polyhist., jetzt Dramaturg bei <rs type="person" xml:id="pNt_21022" ref="#person_13228"><surname>Antoine</surname></rs>, dessen Vielgereistheit, 
 Vielseitigkeit und Fleiss mir imponirt. Es ist doch recht 
 wahrscheinlich dass ich mehr bin ― und doch fühl ich mich gerade 
 solchen Geschäftigen gegenüber oft als der Geringere.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

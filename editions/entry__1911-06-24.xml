@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-06-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-06-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-06-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-06-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-06-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-06-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FFE7-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,13 +177,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3185.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3186.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1911-06-24">
             <p xml:space="preserve"><date when="1911-06-24">24/6</date> Vormittag dictirt. Briefe.―</p>
             <p xml:space="preserve" rend="indent">In der Burg bei <rs type="person" xml:id="pNt_35614" ref="#person_13624"><surname>Berger</surname></rs>. Im Zuschauerraum (Probe <rs type="work" xml:id="bibl_11067">Schmetterlingsschlacht</rs>). 
@@ -195,7 +200,8 @@ lang im Garten, später auch mit O.</p>
             <p xml:space="preserve" rend="indent">Zum Nachtmahl bei <rs type="person" xml:id="pNt_35625" ref="#person_16770"><surname>Kaufmanns</surname></rs>. <rs type="person" xml:id="pNt_35626" ref="#person_20925"><forename>Leo</forename></rs>, <rs type="person" xml:id="pNt_35627" ref="#person_21231"><forename>Bella</forename></rs>, <rs type="person" xml:id="pNt_35628"><surname>Wassermann</surname></rs>. <rs type="person" xml:id="pNt_35629" ref="#person_21109"><forename>Julie</forename></rs> 
 ganz spät. Kauf der Wiese die an die Schule grenzt. <rs type="person" xml:id="pNt_35630" ref="#person_13396"><surname>Balzacsches</surname></rs> 
 Wesen und Treiben.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_35631" ref="#person_21231"><forename>Bella</forename></rs> über ihre Schwester, über „<rs type="work" subtype="self" xml:id="bibl_11069">Pierrette</rs>“ (in <rs type="place" xml:id="pl_07516" ref="#place_1296d84a0939bd6108c9ff885bd4db5e">Petersburg</rs>).</p>
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_35631" ref="#person_21231"><forename>Bella</forename></rs> über ihre Schwester, über „<rs type="work" subtype="self" xml:id="bibl_11069">Pierrette</rs>“ (in <rs type="place" xml:id="pl_07516" ref="#pmb433">Petersburg</rs>).</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

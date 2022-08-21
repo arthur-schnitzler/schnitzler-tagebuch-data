@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1894-06-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-06-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-06-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1894-06-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-06-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-06-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E847-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0840.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1894-06-10">
-            <p xml:space="preserve"><date when="1894-06-10">10/6</date> <rs type="place" xml:id="pl_01727" ref="#place_7d9d5414c5269ec416701a2fdbe2c9b6">Wels</rs> ― <rs type="place" xml:id="pl_01728" ref="#place_75002fe48442a02a55971f48cebbe3e4">Hall</rs>.― Mama, <rs type="person" xml:id="pNt_08808" ref="#person_15854"><forename>Gisa</forename></rs>.― <rs type="person" xml:id="pNt_08809" ref="#person_21047"><forename>Olga</forename></rs> läßt mich durch eine Karte zu 
+            <p xml:space="preserve"><date when="1894-06-10">10/6</date> <rs type="place" xml:id="pl_01727" ref="#pmb44397">Wels</rs> ― <rs type="place" xml:id="pl_01728" ref="#pmb46447">Hall</rs>.― Mama, <rs type="person" xml:id="pNt_08808" ref="#person_15854"><forename>Gisa</forename></rs>.― <rs type="person" xml:id="pNt_08809" ref="#person_21047"><forename>Olga</forename></rs> läßt mich durch eine Karte zu 
 sich bitten. Soupirte mit uns.</p>
             <p xml:space="preserve" rend="indent">― Schatten der Frauen. Die verblassende <rs type="person" xml:id="pNt_08810" ref="#person_21047"><forename>Olga</forename></rs>, banal;― der traurig 
 blasse Schatten <rs type="person" xml:id="pNt_08811" ref="#person_15485"><forename>Mizis</forename></rs>,― die blasse und geschminkte Gegenwart ― 
 <rs type="person" xml:id="pNt_08812" ref="#person_19564"><forename>Dilly</forename></rs>,― doch das blässeste und fernste.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

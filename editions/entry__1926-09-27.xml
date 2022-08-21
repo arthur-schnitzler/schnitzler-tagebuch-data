@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-09-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-09-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-09-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-09-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-09-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-09-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-15A7-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6729.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1926-09-27">
-            <p xml:space="preserve"><date when="1926-09-27">27/9</date> Brief von <rs type="person" xml:id="pNt_78606"><forename>Lili</forename></rs> über <rs type="person" xml:id="pNt_78607"><forename>C.</forename></rs>;― „es wäre Unrecht, jetzt von <rs type="place" xml:id="pl_16934" ref="#place_e4d4b19346747823e5636ed1238a7521">Venedig</rs> 
+            <p xml:space="preserve"><date when="1926-09-27">27/9</date> Brief von <rs type="person" xml:id="pNt_78606"><forename>Lili</forename></rs> über <rs type="person" xml:id="pNt_78607"><forename>C.</forename></rs>;― „es wäre Unrecht, jetzt von <rs type="place" xml:id="pl_16934" ref="#pmb462">Venedig</rs> 
 abzureisen“. Brief von <rs type="person" xml:id="pNt_78608" ref="#person_19832"><forename>O.</forename></rs>; „beruhigend“.―</p>
             <p xml:space="preserve" rend="indent">Brief an <rs type="person" xml:id="pNt_78609" ref="#person_19832"><forename>O.</forename></rs> (von dem ich Abschrift behielt).―</p>
             <p xml:space="preserve" rend="indent">Dict. Briefe, <rs type="work" subtype="self" xml:id="bibl_20445">aphor.</rs>, etc.―</p>
@@ -193,6 +197,5 @@ näherer Durchführung, zu der mir jetzt Zeit und Ruhe fehlt. Nun, ich nenne es 
 viel Talent, sehr viel Tempo; und doch nicht wahrhaft dichterisch ― sondern künstlich.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1890-08-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-08-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-08-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1890-08-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-08-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-08-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E2FD-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0465.tif"/>
@@ -182,9 +186,8 @@
       <body>
          <div type="diary-day" xml:id="entry__1890-08-08">
             <p xml:space="preserve"><date when="1890-08-08">8.</date> <rs type="person" xml:id="pNt_04708" ref="#person_15485"><forename>Mz.</forename></rs> in der früh bei mir.</p>
-            <p xml:space="preserve" rend="indent">Abds. mit <rs type="person" xml:id="pNt_04709" ref="#person_15485"><forename>Mz.</forename></rs> in <rs type="place" xml:id="pl_00965" ref="#place_c7c68cfce47325e06342f79363155093">Himberg</rs> soup.</p>
+            <p xml:space="preserve" rend="indent">Abds. mit <rs type="person" xml:id="pNt_04709" ref="#person_15485"><forename>Mz.</forename></rs> in <rs type="place" xml:id="pl_00965" ref="#pmb90879">Himberg</rs> soup.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

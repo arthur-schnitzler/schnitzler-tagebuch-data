@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1893-09-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-09-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-09-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1893-09-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-09-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-09-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E73E-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0776.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1893-09-17">
-            <p xml:space="preserve"><date when="1893-09-17">17/9</date> <rs type="place" xml:id="pl_01633" ref="#place_c38ad36647aca0261d667c432a4866bd">Salzburg</rs>.― <rs type="person" xml:id="pNt_07837" ref="#person_15529"><forename>Paul</forename> <surname>G.</surname></rs> an der Bahn.― Ganz der alte.― Gemütlicher 
-Plaudertag.― Abd. in <rs type="place" xml:id="pl_01634" ref="#place_627965721d5dd1de8d834b5f7e49e05a">Hellbrunn</rs>.― <rs type="person" xml:id="pNt_07838" ref="#person_17801"><roleName>Dr.</roleName> <surname>Mamroth</surname></rs>. <rs type="person" xml:id="pNt_07839" ref="#person_15529"><forename>Paul</forename></rs> vermied jede 
+            <p xml:space="preserve"><date when="1893-09-17">17/9</date> <rs type="place" xml:id="pl_01633" ref="#pmb91649">Salzburg</rs>.― <rs type="person" xml:id="pNt_07837" ref="#person_15529"><forename>Paul</forename> <surname>G.</surname></rs> an der Bahn.― Ganz der alte.― Gemütlicher 
+Plaudertag.― Abd. in <rs type="place" xml:id="pl_01634" ref="#pmb31">Hellbrunn</rs>.― <rs type="person" xml:id="pNt_07838" ref="#person_17801"><roleName>Dr.</roleName> <surname>Mamroth</surname></rs>. <rs type="person" xml:id="pNt_07839" ref="#person_15529"><forename>Paul</forename></rs> vermied jede 
 Anspielung auf <rs type="person" xml:id="pNt_07840" ref="#person_15485"><forename>Mz.</forename></rs>― Das erste Bild, das ich sah, war ihres in einer 
 photogr. Auslage.― War verhältnismäßig wenig durch alte 
 Erinnerungen berührt.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

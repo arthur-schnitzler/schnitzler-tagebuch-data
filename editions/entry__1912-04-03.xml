@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-04-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-04-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-04-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-04-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-04-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-04-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0103-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,18 +177,20 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3369.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1912-04-03">
             <p xml:space="preserve"><date when="1912-04-03">3/4</date> Schnee.― Spazieren mit <rs type="person" xml:id="pNt_37654" ref="#person_20383"><forename>Albert</forename></rs> und <rs type="person" xml:id="pNt_37655" ref="#person_19953"><surname>Schwanneke</surname></rs>.― Im Mirabell mit 
 <rs type="person" xml:id="pNt_37656" ref="#person_16465"><surname>Jacobis</surname></rs> und <rs type="person" xml:id="pNt_37657" ref="#person_20383"><forename>Albert</forename></rs> und <rs type="person" xml:id="pNt_37658" ref="#person_20386"><forename>Liesl</forename></rs> gegessen.―</p>
-            <p xml:space="preserve" rend="indent">Spazieren an der <rs type="place" xml:id="pl_07807" ref="#place_187d562f68b355a3434576d3f6a41a82">Salzach</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Spazieren an der <rs type="place" xml:id="pl_07807" ref="#pmb91647">Salzach</rs>.―</p>
             <p xml:space="preserve" rend="indent"><rs type="work" subtype="self" xml:id="bibl_10107">Bernhardi</rs> 3. Akt durchgesehn.</p>
             <p xml:space="preserve" rend="indent">Kinematograf. Mirabell.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

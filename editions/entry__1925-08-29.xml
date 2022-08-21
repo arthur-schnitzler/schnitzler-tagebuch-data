@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1925-08-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-08-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-08-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1925-08-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-08-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-08-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-141E-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6535.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1925-08-29">
-            <p xml:space="preserve"><date when="1925-08-29">29/8</date> <rs type="place" xml:id="pl_16291" ref="#place_cd6d4220663b7d6c67ef78667e8310db">Schuls</rs>.― Abschied von <rs type="person" xml:id="pNt_75732" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs>, die Mittag nach <rs type="place" xml:id="pl_16292" ref="#place_6f6906b6bef37e7431c413c2ec657155">Landeck</rs> (<rs type="place" xml:id="pl_16293" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>) fährt.</p>
+            <p xml:space="preserve"><date when="1925-08-29">29/8</date> <rs type="place" xml:id="pl_16291" ref="#pmb63808">Schuls</rs>.― Abschied von <rs type="person" xml:id="pNt_75732" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs>, die Mittag nach <rs type="place" xml:id="pl_16292" ref="#pmb91111">Landeck</rs> (<rs type="place" xml:id="pl_16293" ref="#pmb50">Wien</rs>) fährt.</p>
             <p xml:space="preserve" rend="indent">Abreise. Im Zug wieder das Wohlgefühl allein zu sein (so hübsch es war) ― 
-Ankunft <rs type="place" xml:id="pl_16294" ref="#place_63da02947d9e51e4ddd4504712bc71c0">Celerina</rs>. Köstliches Wetter. Eine Art von Heimatsgefühl.</p>
+Ankunft <rs type="place" xml:id="pl_16294" ref="#pmb12589">Celerina</rs>. Köstliches Wetter. Eine Art von Heimatsgefühl.</p>
             <p xml:space="preserve" rend="indent">Nm. Briefe.</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_75733" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Spazierg. <rs type="place" xml:id="pl_16295" ref="#place_0a16bce3e470dfab76d6a8c529e2725d">Samaden</rs>.</p>
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_75733" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Spazierg. <rs type="place" xml:id="pl_16295" ref="#pmb44306">Samaden</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

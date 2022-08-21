@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-05-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-05-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-05-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-05-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-05-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-05-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FE58-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2910.tif"/>
@@ -181,8 +185,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1910-05-21">
-            <p xml:space="preserve"><date when="1910-05-21">21/5</date> <rs type="place" xml:id="pl_07046" ref="#place_cceafad713406bc4d8421dbdd142523a">Luzern</rs>. <rs type="place" xml:id="pl_07047" ref="#place_4e3fc4260263aef1be39cb2f851ce28e">Brunnen</rs> ― Axenfels.― <rs type="place" xml:id="pl_07048" ref="#place_d26bbbb4c332918a5959dc980ef4b3b9">Axenstein</rs> gegessen. Wagen nach 
-<rs type="place" xml:id="pl_07049" ref="#place_fa03bdb79d723c1c5be1d05349c7574d">Flüelen</rs>. Schiff <rs type="place" xml:id="pl_07050" ref="#place_cceafad713406bc4d8421dbdd142523a">Luzern</rs>.</p>
+            <p xml:space="preserve"><date when="1910-05-21">21/5</date> <rs type="place" xml:id="pl_07046" ref="#pmb967">Luzern</rs>. <rs type="place" xml:id="pl_07047" ref="#pmb53632">Brunnen</rs> ― Axenfels.― <rs type="place" xml:id="pl_07048" ref="#pmb90290">Axenstein</rs> gegessen. Wagen nach 
+<rs type="place" xml:id="pl_07049" ref="#pmb53229">Flüelen</rs>. Schiff <rs type="place" xml:id="pl_07050" ref="#pmb967">Luzern</rs>.</p>
             <pb n="150"/>
             <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header">
                <fw n="150" place="top_left" type="pageNum">150</fw>
@@ -194,6 +198,5 @@
             <p xml:space="preserve" rend="indent">Gewitter.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

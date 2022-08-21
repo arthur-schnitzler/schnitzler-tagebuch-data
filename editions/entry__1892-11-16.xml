@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1892-11-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-11-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-11-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1892-11-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-11-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-11-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E60E-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0655.tif"/>
@@ -182,9 +186,8 @@
       <body>
          <div type="diary-day" xml:id="entry__1892-11-16">
             <p xml:space="preserve"><date when="1892-11-16">16. 11.</date> Qu. <rs type="person" xml:id="pNt_06759" ref="#person_19351"><forename>Rosé</forename></rs>.― Nachrichten über <rs type="person" xml:id="pNt_06760" ref="#person_20643"><surname>Tausenau</surname></rs> (durch seinen 
-Schwager). Von <rs type="place" xml:id="pl_01409" ref="#place_895ba338b56e260e4e69d78c916d6433">Aix les bains</rs> aus mit einem Weib nach <rs type="place" xml:id="pl_01410" ref="#place_debecab907ccabee0bc672b9fa1cab8a">Lyon</rs>.―</p>
+Schwager). Von <rs type="place" xml:id="pl_01409" ref="#pmb90202">Aix les bains</rs> aus mit einem Weib nach <rs type="place" xml:id="pl_01410" ref="#pmb63779">Lyon</rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

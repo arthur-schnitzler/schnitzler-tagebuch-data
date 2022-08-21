@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-02-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-02-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-02-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-02-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-02-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-02-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FF59-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3096.tif"/>
@@ -183,7 +187,7 @@
          <div type="diary-day" xml:id="entry__1911-02-02">
             <p xml:space="preserve"><date when="1911-02-02">2/2</date> Vm. bei <rs type="person" xml:id="pNt_34594" ref="#person_13551"><forename>Richard</forename></rs>; mit ihm spazieren Park; wo auch <rs type="person" xml:id="pNt_34595" ref="#person_20242"><surname>Speidels</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_34596" ref="#person_19542"><surname>Saltens</surname></rs> vor Tisch bei uns.</p>
-            <p xml:space="preserve" rend="indent">Verrechnung <rs type="place" ref="#place_burgtheater">Burgtheater</rs>. Wußte gar nicht, daß dort solche 
+            <p xml:space="preserve" rend="indent">Verrechnung <rs type="place" ref="#pmb14">Burgtheater</rs>. Wußte gar nicht, daß dort solche 
 Einnahmen möglich. Die 12 ersten <rs type="work" subtype="self" xml:id="bibl_10764">Med.</rs> Aufführungen ― mindestens 7.200, 
 ― höchstens 7.960!―</p>
             <p xml:space="preserve" rend="indent">― <rs type="allusively" xml:id="rst_01180">Mama</rs> zu Tisch. Mit ihr <rs type="person" xml:id="pNt_34597" ref="#person_13555"><surname>Beethoven</surname></rs> <rs type="work" xml:id="bibl_10765">Op. 59; 1</rs>.</p>
@@ -192,6 +196,5 @@ Einnahmen möglich. Die 12 ersten <rs type="work" subtype="self" xml:id="bibl_10
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_34598" ref="#person_13925"><forename>P.</forename> <surname>Brann</surname></rs> zum Nachtmahl. Hörschwierigkeit, Ermüdung.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

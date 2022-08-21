@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-10-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-10-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-10-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-10-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-10-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-10-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-15B3-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6737.tif"/>
@@ -184,7 +188,7 @@
          <div type="diary-day" xml:id="entry__1926-10-09">
             <p xml:space="preserve"><date when="1926-10-09">9/10</date> Brief von <rs type="person" xml:id="pNt_78717" ref="#person_14130"><forename>Lili</forename></rs> ― es scheint ihr unmöglich, jetzt zu kommen … 
 (nachdem ihre Ankunft von <rs type="person" xml:id="pNt_78718" ref="#person_19832"><forename>O.</forename></rs> („Sie sieht selbst ein, dass sie jetzt nach 
-<rs type="place" xml:id="pl_16950" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> fahren soll“) für Montag schon angekündigt war).―</p>
+<rs type="place" xml:id="pl_16950" ref="#pmb50">Wien</rs> fahren soll“) für Montag schon angekündigt war).―</p>
             <p xml:space="preserve" rend="indent">Zu <rs type="person" xml:id="pNt_78719"><roleName>Frau</roleName> <surname>M.</surname></rs>, die einen Brief von <rs type="person" xml:id="pNt_78720" ref="#person_19832"><forename>O.</forename></rs> erhalten hatte;― ich hätte einen 
 „mattherzigen“ Brief an <rs type="person" xml:id="pNt_78721" ref="#person_14130"><forename>Lili</forename></rs> geschrieben,― sie stehe machtlos den 
 „verkleinernden“ Einflüssen gegenüber, denen ich unterworfen sei. 
@@ -200,12 +204,11 @@ unerläßlich und unaufschiebbar. Bitte depeschire Ankunftstag. In Liebe dein Va
             <p xml:space="preserve" rend="indent">Nm. wieder Brief <rs type="person" xml:id="pNt_78723" ref="#person_19832"><forename>O.</forename></rs> an <rs type="person" xml:id="pNt_78724" ref="#person_18064"><roleName>Frau Dr.</roleName> <surname>M.</surname></rs> ― <rs type="person" xml:id="pNt_78725" ref="#person_14130"><forename>Lili</forename></rs> komme Montag. Sie, <rs type="person" xml:id="pNt_78726" ref="#person_19832"><forename>O.</forename></rs>, käme 
 nicht mit;― „tief verletzt“ dass ich nicht das Bedürfnis empfinde, mit 
 ihr zu sprechen. Eine schöne weise väterliche Geste wäre es gewesen, 
-wenn ich selbst nach <rs type="place" xml:id="pl_16951" ref="#place_e4d4b19346747823e5636ed1238a7521">Venedig</rs> gekommen wäre.―</p>
-            <p xml:space="preserve" rend="indent">― Z. N. <rs type="person" xml:id="pNt_78727" ref="#person_21243"><forename>Franz</forename> <surname>Werfel</surname></rs>, der morgen nach <rs type="place" xml:id="pl_16952" ref="#place_e4d4b19346747823e5636ed1238a7521">Venedig</rs> zu <rs type="person" xml:id="pNt_78728" ref="#person_17784"><forename>Alma</forename></rs> fährt und den 
+wenn ich selbst nach <rs type="place" xml:id="pl_16951" ref="#pmb462">Venedig</rs> gekommen wäre.―</p>
+            <p xml:space="preserve" rend="indent">― Z. N. <rs type="person" xml:id="pNt_78727" ref="#person_21243"><forename>Franz</forename> <surname>Werfel</surname></rs>, der morgen nach <rs type="place" xml:id="pl_16952" ref="#pmb462">Venedig</rs> zu <rs type="person" xml:id="pNt_78728" ref="#person_17784"><forename>Alma</forename></rs> fährt und den 
 ich mit der ganzen Angelegenheit vertraut machte.― Langes Gespräch über 
 <rs type="person" xml:id="pNt_78729" ref="#person_19832"><forename>O.</forename></rs>― Dann über das <rs type="work" subtype="self" xml:id="bibl_20480">Diagramm</rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

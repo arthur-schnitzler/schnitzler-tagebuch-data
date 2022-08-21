@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1916-10-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-10-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-10-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1916-10-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-10-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-10-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0784-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,20 +177,21 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4344.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1916-10-26">
             <p xml:space="preserve"><date when="1916-10-26">26/10</date> Generalprobe <rs type="person" xml:id="pNt_49029" ref="#person_19290"><surname>Rittner</surname></rs>, <rs type="work" xml:id="bibl_7666">Wölfe in der Nacht</rs>. Hörte (in der 6. Reihe) 
 so gut wie nichts, immerhin stärkre Wirkung als aus dem Buch. 
 Mißverhältnis zwischen dem bizarren Einfall und der nüchtern 
 stimmungslosen Durchführung.―</p>
             <p xml:space="preserve" rend="indent">Nm. an „<rs type="work" subtype="self" xml:id="bibl_7667">Wiederkehr</rs>“.</p>
-            <p xml:space="preserve" rend="indent">Hr. <rs type="person" xml:id="pNt_49030" ref="#person_17726"><forename>Emil</forename> <surname>Ludwig</surname></rs>, erzählt etliches von seinen Kriegsfahrten (<rs type="place" xml:id="pl_10254" ref="#place_2c094f7afcff96e3381df9a8d595ef39">Saloniki</rs> etc.); 
-über <rs type="person" xml:id="pNt_49031" ref="#person_18297"><surname>Müller</surname></rs> (<rs type="work" xml:id="bibl_7668">Könige</rs>), <rs type="place" xml:id="pl_10255" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> ― (Er ist für die <rs type="work" subtype="newspaper" xml:id="bibl_7669">Vossische</rs> hier.) ―</p>
+            <p xml:space="preserve" rend="indent">Hr. <rs type="person" xml:id="pNt_49030" ref="#person_17726"><forename>Emil</forename> <surname>Ludwig</surname></rs>, erzählt etliches von seinen Kriegsfahrten (<rs type="place" xml:id="pl_10254" ref="#pmb49254">Saloniki</rs> etc.); 
+über <rs type="person" xml:id="pNt_49031" ref="#person_18297"><surname>Müller</surname></rs> (<rs type="work" xml:id="bibl_7668">Könige</rs>), <rs type="place" xml:id="pl_10255" ref="#pmb50">Wien</rs> ― (Er ist für die <rs type="work" subtype="newspaper" xml:id="bibl_7669">Vossische</rs> hier.) ―</p>
             <p xml:space="preserve" rend="indent">Las den „<rs type="work" xml:id="bibl_7670">Rubin</rs>“ von <rs type="person" xml:id="pNt_49032" ref="#person_16009"><surname>Hebbel</surname></rs>. Begann „<rs type="work" xml:id="bibl_7671">Vierzig Jahr aus dem Leben 
 eines Todten</rs>“.</p>
             <pb n="324"/>
@@ -197,5 +202,6 @@ eines Todten</rs>“.</p>
                </fw>
             </tei:fw>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-01-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-01-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-01-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-01-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-01-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-01-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-105D-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5948.tif"/>
@@ -182,12 +186,12 @@
       <body>
          <div type="diary-day" xml:id="entry__1923-01-10">
             <p xml:space="preserve"><date when="1923-01-10">10/1</date> Vm. bei <rs type="person" xml:id="pNt_68317" ref="#person_15854"><forename>Gisa</forename></rs>;― Bank (Begegnung Prof. <rs type="person" xml:id="pNt_68318" ref="#person_19096"><surname>Redlich</surname></rs> ― politisches und 
-finanzielles, Besetzung <rs type="place" xml:id="pl_14498" ref="#place_b15d75d32d14bc93f02564224cc4fc1b">Ruhrgebiet</rs>, Ratschläge für <rs type="place" xml:id="pl_14499" ref="#place_e884124295d0c4d07d9bcf5096fd5495">Amerika</rs>); bei <rs type="person" xml:id="pNt_68319" ref="#person_20692"><forename>Scofield</forename> 
+finanzielles, Besetzung <rs type="place" xml:id="pl_14498" ref="#pmb1244">Ruhrgebiet</rs>, Ratschläge für <rs type="place" xml:id="pl_14499" ref="#pmb43406">Amerika</rs>); bei <rs type="person" xml:id="pNt_68319" ref="#person_20692"><forename>Scofield</forename> 
 <surname>Thayer</surname></rs> (in <rs type="place" xml:id="pl_14500" ref="#place_923c9d6aaf18f34b857e3d32ee926c57" ana="#exclude">amerik.</rs> Angelegenheit um Rath fragen, da Verleger <rs type="person" xml:id="pNt_68320" ref="#person_16944"><surname>Knopf</surname></rs> 
 unberechtigt „<rs type="work" subtype="self" xml:id="bibl_1561">Weg ins freie</rs>“ ankündigt, worüber <rs type="person" xml:id="pNt_68321" ref="#person_20054"><surname>Seltzer</surname></rs>, ebenso 
 unberechtigt, sich irritirt, als wenn er Rechte hätte).―</p>
-            <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_68322" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs>,― dann bei <rs type="person" xml:id="pNt_68323" ref="#person_19827"><forename>Julius’</forename></rs> zu Tisch.― Ob er das <rs type="place" ref="#place_rothschildspital">Rothschildspital</rs> 
-übernehmen und <rs type="place" xml:id="pl_14501" ref="#place_2de2cbfcf4f6f7265397fff154638c9e">Wieden</rs> aufgeben solle. Ja ― ―</p>
+            <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_68322" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs>,― dann bei <rs type="person" xml:id="pNt_68323" ref="#person_19827"><forename>Julius’</forename></rs> zu Tisch.― Ob er das <rs type="place" ref="#pmb92496">Rothschildspital</rs> 
+übernehmen und <rs type="place" xml:id="pl_14501" ref="#pmb54">Wieden</rs> aufgeben solle. Ja ― ―</p>
             <p xml:space="preserve" rend="indent">― Träumte heute Nacht (zum ersten Mal glaub ich) von <rs type="person" xml:id="pNt_68325" ref="#person_15685"><forename>W.</forename> <surname>Gr.</surname></rs>, er saß, oder 
 ich? am Klavier (bei uns im Salon) ― es handelte sich darum, an welche Stelle 
 in einem Concert seine Composition zu stellen sei, die ich vortheilhaft 
@@ -198,6 +202,5 @@ sprach mit niemandem,― er war vielleicht gar nicht da).―</p>
 meiner jetzigen Production und Erotik.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

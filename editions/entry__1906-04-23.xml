@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-04-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-04-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-04-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1906-04-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-04-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-04-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F8AB-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2218.tif"/>
@@ -184,10 +188,9 @@
             <p xml:space="preserve"><date when="1906-04-23">23/4</date> Vm. Tennis.―</p>
             <p xml:space="preserve" rend="indent">Nm. wieder mühselig und erfolglos am <rs type="work" subtype="self" xml:id="bibl_14942">Roman</rs>. (Die Stelle, wo <rs type="person" xml:id="pNt_24808"><forename>Georg</forename></rs> Wohnung 
 sucht.)</p>
-            <p xml:space="preserve" rend="indent">Abends war <rs type="person" xml:id="pNt_24809" ref="#person_15158"><forename>Fred</forename></rs> da; sehr nett. Über <rs type="place" xml:id="pl_05518" ref="#place_ad541f7b37e76a13301951a0c8c0a102">Indien</rs>. Gab ihm „<rs type="work" subtype="self" xml:id="bibl_14943">Ruf</rs>“ und 
+            <p xml:space="preserve" rend="indent">Abends war <rs type="person" xml:id="pNt_24809" ref="#person_15158"><forename>Fred</forename></rs> da; sehr nett. Über <rs type="place" xml:id="pl_05518" ref="#pmb55724">Indien</rs>. Gab ihm „<rs type="work" subtype="self" xml:id="bibl_14943">Ruf</rs>“ und 
 „<rs type="work" subtype="self" xml:id="bibl_14944">Zwischenspiel</rs>“.― Über Physiologie des Schaffens.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

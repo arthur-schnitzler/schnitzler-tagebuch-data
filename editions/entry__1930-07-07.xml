@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-07-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-07-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-07-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-07-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-07-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-07-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1B0A-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7517.tif"/>
@@ -182,7 +186,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1930-07-07">
             <p xml:space="preserve"><date when="1930-07-07">7/7</date> Dictirt Briefe etc.―</p>
-            <p xml:space="preserve" rend="indent">Mr. <rs type="person" xml:id="pNt_90147" ref="#person_19949"><forename>L.</forename> <surname>Schuster</surname></rs> (<rs type="place" xml:id="pl_19337" ref="#place_87809c954948d8a20507bee3648281b3">New York</rs>) geschäftl. Unterredung;― auch persönl., 
+            <p xml:space="preserve" rend="indent">Mr. <rs type="person" xml:id="pNt_90147" ref="#person_19949"><forename>L.</forename> <surname>Schuster</surname></rs> (<rs type="place" xml:id="pl_19337" ref="#pmb44053">New York</rs>) geschäftl. Unterredung;― auch persönl., 
 politisches u. dgl.; in bestem Einvernehmen.</p>
             <p xml:space="preserve" rend="indent">― Nm. wie meist ― so gut wie nichts.―</p>
             <p xml:space="preserve" rend="indent">― Z. N. (mit <rs type="person" xml:id="pNt_90148" ref="#person_19822"><forename>Heini</forename></rs>) ― <rs type="person" xml:id="pNt_90149" ref="#person_14234"><forename>Suz.</forename></rs> und ihr Mann; zuerst ganz gute Stimmung;― dann, 
@@ -194,6 +198,5 @@ früher gekommen.) ― (Mit ihr über „<rs type="work" subtype="self" xml:id="
 übel gebaut, und in der Traumscene dichterisches.)</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

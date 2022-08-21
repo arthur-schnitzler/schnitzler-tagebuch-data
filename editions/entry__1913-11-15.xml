@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-11-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-11-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-11-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-11-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-11-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-11-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0352-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3718.tif"/>
@@ -183,7 +187,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1913-11-15">
             <p xml:space="preserve"><date when="1913-11-15">15/11</date> Vorm., in ziemlich plötzlichem Entschluss mit O. im Auto nach 
-der <rs type="place" xml:id="pl_08518" ref="#place_a25ff6cb521df1cd0272d03eee7efd32">Brühl</rs>,― Hotel <rs type="place" ref="#place_radetzky">Radetzky</rs> (wo wir zuletzt 1907, mit <rs type="person" xml:id="pNt_42034" ref="#person_16646"><surname>Kainz</surname></rs> und ihr, 
+der <rs type="place" xml:id="pl_08518" ref="#pmb44413">Brühl</rs>,― Hotel <rs type="place" ref="#pmb92471">Radetzky</rs> (wo wir zuletzt 1907, mit <rs type="person" xml:id="pNt_42034" ref="#person_16646"><surname>Kainz</surname></rs> und ihr, 
 gewohnt). Nach Tisch mit O. spazieren; auch zum Haus, wo <rs type="person" xml:id="pNt_42035" ref="#person_19822"><forename>Heini</forename></rs> auf 
 die Welt kam.―</p>
             <p xml:space="preserve" rend="indent">Den Einakter „<rs type="work" subtype="self" xml:id="bibl_9739">Treulos</rs>“ angesehn, und Notizen zu Umarbeitung.―</p>
@@ -192,6 +196,5 @@ geschwätzig, touristisch, erzählt allerlei vom <rs type="allusively" xml:id="r
 <rs type="place" xml:id="pl_08519" ref="#place_a2d683239eca5fbd841edd8aa82e43c9" ana="#exclude">Schönbrunner</rs> Wohnungszuständen.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

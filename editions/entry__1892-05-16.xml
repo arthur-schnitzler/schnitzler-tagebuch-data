@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1892-05-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-05-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-05-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1892-05-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-05-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-05-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E558-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,16 +177,18 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0615.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1892-05-16">
             <p xml:space="preserve"><date when="1892-05-16">16/5</date> <rs type="person" xml:id="pNt_06280" ref="#person_15485"><forename>Mz.</forename></rs> Nm. bei mir.― Nach dem Th. beim Haus.―</p>
             <p xml:space="preserve" rend="indent">In der Tabakspfeife: <rs type="person" xml:id="pNt_06281" ref="#person_19542"><surname>Salten</surname></rs>, <rs type="person" xml:id="pNt_06282" ref="#person_13551"><forename>Rich.</forename> <surname>B.-H.</surname></rs>, die <rs type="person" xml:id="pNt_06283" ref="#person_17336"><surname>Laska</surname></rs>, die <rs type="person" xml:id="pNt_06284" ref="#person_18370"><surname>Nebauer</surname></rs>, 
 <rs type="person" xml:id="pNt_06285" ref="#person_16697"><surname>Kapellmeister</surname></rs>.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

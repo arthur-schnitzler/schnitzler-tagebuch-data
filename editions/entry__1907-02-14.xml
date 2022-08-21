@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1907-02-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-02-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-02-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1907-02-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-02-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-02-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F9D4-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,18 +176,20 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2331.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1907-02-14">
-            <p xml:space="preserve"><date when="1907-02-14">14/2</date> Vm. Dampfbad.― Panorama (<rs type="place" xml:id="pl_05845" ref="#place_3d93c766d980f58a8e989a616a0c72e6">Dalmatien</rs>).</p>
+            <p xml:space="preserve"><date when="1907-02-14">14/2</date> Vm. Dampfbad.― Panorama (<rs type="place" xml:id="pl_05845" ref="#pmb90511">Dalmatien</rs>).</p>
             <p xml:space="preserve" rend="indent">Mittag Herr <rs type="person" xml:id="pNt_26342" ref="#person_19935"><forename>Marc.</forename> <surname>Schulz</surname></rs> bei uns.―</p>
             <p xml:space="preserve" rend="indent">Später <rs ref="#person_15833" type="person" xml:id="pNt_26343"><forename>Else</forename> <surname>Speidel</surname></rs>.</p>
             <p xml:space="preserve" rend="indent">Mit O. zu <rs type="person" xml:id="pNt_26344" ref="#person_15158"><forename>Fred</forename></rs>, wo wir nachtmahlten.―</p>
             <p xml:space="preserve" rend="indent">O. wie gestern ― bis es sich Abends endlich löste.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

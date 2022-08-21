@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-04-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-04-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-05-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-04-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-04-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-05-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FCD6-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2685.tif"/>
@@ -183,10 +187,9 @@
          <div type="diary-day" xml:id="entry__1909-04-30">
             <p xml:space="preserve"><date when="1909-04-30">30/4</date> Vm. Tennis.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_12613">Medardus</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Abends Familie bei <rs type="allusively" xml:id="rst_01024">Mama</rs>. Auch <rs type="person" xml:id="pNt_30227" ref="#person_17103"><roleName>Dr.</roleName> <surname>Kraus</surname></rs> mit Frau aus <rs type="place" xml:id="pl_06667" ref="#place_9cfa1e69f507d007a516eb3e9f5074e2">Chicago</rs>, 
+            <p xml:space="preserve" rend="indent">Abends Familie bei <rs type="allusively" xml:id="rst_01024">Mama</rs>. Auch <rs type="person" xml:id="pNt_30227" ref="#person_17103"><roleName>Dr.</roleName> <surname>Kraus</surname></rs> mit Frau aus <rs type="place" xml:id="pl_06667" ref="#pmb880">Chicago</rs>, 
 Freund meines vor wenig Wochen dort verstorbnen <rs type="person" xml:id="pNt_30228" ref="#person_17899"><roleName>Onkels</roleName> <forename>Edmund</forename></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

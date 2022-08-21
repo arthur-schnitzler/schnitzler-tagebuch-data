@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-06-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-06-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-06-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-06-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-06-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-06-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F615-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1934.tif"/>
@@ -180,11 +184,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1904-06-29">
-            <p xml:space="preserve"><date when="1904-06-29">29/6</date> Meist zu Bett.― <rs type="person" xml:id="pNt_21209" ref="#person_15194"><forename>Gustav</forename> <surname>Frid</surname></rs>, <rs type="person" xml:id="pNt_21210" ref="#person_20925"><forename>Leo</forename></rs>, <rs type="person" xml:id="pNt_21211" ref="#person_19542"><surname>Salten</surname></rs>, <rs type="person" xml:id="pNt_21212" ref="#person_20096"><forename>Ellyn</forename></rs> (in <rs type="place" xml:id="pl_04787" ref="#place_c38ad36647aca0261d667c432a4866bd">Salzburg</rs> 
+            <p xml:space="preserve"><date when="1904-06-29">29/6</date> Meist zu Bett.― <rs type="person" xml:id="pNt_21209" ref="#person_15194"><forename>Gustav</forename> <surname>Frid</surname></rs>, <rs type="person" xml:id="pNt_21210" ref="#person_20925"><forename>Leo</forename></rs>, <rs type="person" xml:id="pNt_21211" ref="#person_19542"><surname>Salten</surname></rs>, <rs type="person" xml:id="pNt_21212" ref="#person_20096"><forename>Ellyn</forename></rs> (in <rs type="place" xml:id="pl_04787" ref="#pmb91649">Salzburg</rs> 
 engagirt) ― Nm. <rs type="person" xml:id="pNt_21213" ref="#person_17909"><forename>Raoul</forename></rs> (Clavier mit ihm), O. sang.― <rs type="person" xml:id="pNt_21214" ref="#person_17324"><surname>Lantz</surname></rs>, <rs type="person" xml:id="pNt_21215" ref="#person_15854"><forename>Gisa</forename> <surname>Hajek</surname></rs>, 
 <rs type="person" xml:id="pNt_21216" ref="#person_20096"><forename>Ellyn</forename></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1885-07-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-07-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-07-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1885-07-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-07-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-07-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DECB-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0246.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1885-07-14">
-            <p xml:space="preserve"><date when="1885-07-14">14/7</date> <rs type="place" xml:id="pl_00433" ref="#place_d1bbe5c82af588aa9fd6e5f65d6acab3">Reichenau</rs>. Dinstag Nachmittag ―</p>
+            <p xml:space="preserve"><date when="1885-07-14">14/7</date> <rs type="place" xml:id="pl_00433" ref="#pmb91574">Reichenau</rs>. Dinstag Nachmittag ―</p>
             <p xml:space="preserve" rend="indent">Inmitten einer reizenden Landschaft verbring ich hier meine Zeit. 
 Seit Sonntag den 5. d. bin ich en fam. hier. Zwei Tage nachdem ich 
 angekommen war ― diagnosticirte ich eine Cystitis an mir. Wohl bin 
@@ -197,6 +201,5 @@ zählt zu meinen hiesigen neuen Bekanntschaften; mit ihr plauderts
 sich angenehm, und sie ist so sympathisch, wie ihr Bruder zuwider.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

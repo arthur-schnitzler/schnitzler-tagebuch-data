@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-10-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-10-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-10-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-10-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-10-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-10-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FD78-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,17 +177,19 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2765.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1909-10-09">
             <p xml:space="preserve"><date when="1909-10-09">9/10</date> Vm. dictirt Briefe „<rs type="work" subtype="self" xml:id="bibl_12895">Vorige</rs>“, „<rs type="work" subtype="self" xml:id="bibl_12896">Hirtenflöte</rs>“.</p>
             <p xml:space="preserve" rend="indent">― Nm. am „<rs type="work" subtype="self" xml:id="bibl_12897">Vorigen</rs>“.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_31033" ref="#person_16245"><roleName>Frau</roleName> <surname>Hochsinger</surname></rs> zum Thee, will zu einer Wohlthätigkeitssache was 
 von mir aufführen oder lesen lassen; zeigt sich etwas schwachsinnig.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

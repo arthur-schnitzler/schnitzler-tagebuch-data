@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-12-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-12-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-12-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-12-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-12-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-12-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F836-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2170.tif"/>
@@ -182,8 +186,8 @@
       <body>
          <div type="diary-day" xml:id="entry__1905-12-27">
             <p xml:space="preserve"><date when="1905-12-27">27/12</date> Vm. spazieren, mit den zufällig begegneten <rs type="person" xml:id="pNt_24096" ref="#person_18950"><surname>Prechtler</surname></rs> (Burg), <rs type="person" xml:id="pNt_24097" ref="#person_20482"><surname>Strassni</surname></rs> 
-(<rs type="place" xml:id="pl_05393" ref="#place_a9a988302086229505c21f885134919d">Josefstadt</rs>).</p>
-            <p xml:space="preserve" rend="indent">Nm. nach <rs type="place" xml:id="pl_05394" ref="#place_6fc6f10422bfe80ddcba23b4f7f080dc">Hietzing</rs> zu <rs type="person" xml:id="pNt_24098" ref="#person_21107"><surname>Wassermann</surname></rs>. Anwesend <rs type="person" xml:id="pNt_24099" ref="#person_20925"><forename>Leo</forename></rs>, <rs type="person" xml:id="pNt_24100" ref="#person_16770"><surname>Kaufmann</surname></rs>, 
+(<rs type="place" xml:id="pl_05393" ref="#pmb58">Josefstadt</rs>).</p>
+            <p xml:space="preserve" rend="indent">Nm. nach <rs type="place" xml:id="pl_05394" ref="#pmb63">Hietzing</rs> zu <rs type="person" xml:id="pNt_24098" ref="#person_21107"><surname>Wassermann</surname></rs>. Anwesend <rs type="person" xml:id="pNt_24099" ref="#person_20925"><forename>Leo</forename></rs>, <rs type="person" xml:id="pNt_24100" ref="#person_16770"><surname>Kaufmann</surname></rs>, 
 <rs type="person" xml:id="pNt_24101" ref="#person_13551"><forename>Richard</forename></rs>, <rs type="person" xml:id="pNt_24102" ref="#person_16293"><forename>Hugo</forename></rs>. Er las eine außerordentliche Novelle „<rs type="work" xml:id="bibl_16151">Clarisse 
 Mirabelle</rs>“.</p>
             <p xml:space="preserve" rend="indent">Über „<rs type="work" subtype="self" xml:id="bibl_16152">Weissagung</rs>“ (die in der <rs type="work" subtype="newspaper" xml:id="bibl_16153">N. Fr. Pr.</rs> gedruckt war) 
@@ -197,6 +201,5 @@ nicht, glaub ich. Das charakteristische der Epoche ist die Fülle
 der Eigenarten.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

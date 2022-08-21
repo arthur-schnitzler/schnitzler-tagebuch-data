@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-06-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-06-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-06-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-06-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-06-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-06-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1828-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7116.tif"/>
@@ -182,9 +186,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1928-06-29">
-            <p xml:space="preserve"><date when="1928-06-29">29/6</date> ― Mit <rs type="person" xml:id="pNt_84081" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Auto <rs type="place" xml:id="pl_18078" ref="#place_b900112ce988d972bc2d561413e84979">Sofienalpe</rs> ― <rs type="place" xml:id="pl_18079" ref="#place_361000b73d3947c615f058769b32865c">Steinriegl</rs> ― <rs type="place" xml:id="pl_18080" ref="#place_8044440316a4a151bb15db07764eeebe">Tulbing</rs> (das Haus, 
+            <p xml:space="preserve"><date when="1928-06-29">29/6</date> ― Mit <rs type="person" xml:id="pNt_84081" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Auto <rs type="place" xml:id="pl_18078" ref="#pmb92533">Sofienalpe</rs> ― <rs type="place" xml:id="pl_18079" ref="#pmb49210">Steinriegl</rs> ― <rs type="place" xml:id="pl_18080" ref="#pmb91955">Tulbing</rs> (das Haus, 
 das <rs type="person" xml:id="pNt_84082" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> kurz nach dem Krieg kaufen wollte und leider unterliess ― 
-um statt dessen Kriegsanleihe zu kaufen) ― <rs type="place" xml:id="pl_18081" ref="#place_48aaa5acfc6e1fb1917a5cb16e87aa1f">Kierling</rs> ― <rs type="place" xml:id="pl_18082" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.―</p>
+um statt dessen Kriegsanleihe zu kaufen) ― <rs type="place" xml:id="pl_18081" ref="#pmb46976">Kierling</rs> ― <rs type="place" xml:id="pl_18082" ref="#pmb50">Wien</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm., in sehr alten Papieren, auf <rs type="person" xml:id="pNt_84083" ref="#person_15485"><forename>M.</forename> <surname>G.</surname></rs> bezüglich,― die anonymen 
 Briefe, u. dgl.― Wie nah, wie fern.</p>
             <p xml:space="preserve" rend="indent"><rs type="work" subtype="self" xml:id="bibl_19498">Aphoristisches</rs> gefeilt.―</p>
@@ -193,6 +197,5 @@ Gespräch etwas mühselig. Medizinisches, und Tennis (worin <rs ref="#person_175
 excellirt).―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

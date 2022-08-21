@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1897-05-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-04-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-05-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1897-05-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-04-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-05-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EC5A-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1323.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1897-05-01">
-            <p xml:space="preserve"><date when="1897-05-01">1/5</date> Vorm. Louvre.― <rs type="place" xml:id="pl_02569" ref="#place_eb0ea033595e1cca8b072c93124307a0">Jardin d’acclimatation</rs>.― Die letzten Tage oft 
+            <p xml:space="preserve"><date when="1897-05-01">1/5</date> Vorm. Louvre.― <rs type="place" xml:id="pl_02569" ref="#pmb92308">Jardin d’acclimatation</rs>.― Die letzten Tage oft 
 Kopfweh; zu beträchtl. Höhe kann Stimmung nicht kommen wegen 
 Ohr. In Hinsicht <rs ref="#person_19150" type="person" xml:id="pNt_13884"><forename>Mz.</forename></rs> wechselnd. Sie ist sanft und lieb und so wenig 
 störend als jemand nur sein kann mit dem man zusammen lebt. Und 
@@ -192,6 +196,5 @@ sogar wohlthätiges, während ich mich andre Male ganz direct nach
 der Zeit sehne, in der wir von einander getrennt sein werden.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

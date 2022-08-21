@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-03-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-03-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-03-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-03-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-03-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-03-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F719-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,19 +176,21 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2054.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1905-03-17">
-            <p xml:space="preserve"><date when="1905-03-17">17/3</date> Ankunft <rs type="place" xml:id="pl_05110" ref="#place_36660b0099a8fb7694b57edcbb304e09">Abbazia</rs>.― Der Tisch des Schiffes, an dem ich speiste</p>
-            <p xml:space="preserve" rend="indent">leer <rs type="person" xml:id="pNt_22586" ref="#person_20270"><surname>Spiro</surname></rs> ich Frau <rs type="person" xml:id="pNt_22587"><forename>Kr.</forename> <surname>Kreglinger</surname></rs> (<rs type="place" xml:id="pl_05111" ref="#place_a330ac6c48198545d4d2f9ff2cb0fc05">Stuttgart</rs>) </p>
-            <p xml:space="preserve" rend="indent">(<rs type="place" xml:id="pl_05112" ref="#place_59aceadf846f772736c4b40eee7b155d">Magdeburg</rs>) Justizr. <rs type="person" xml:id="pNt_22588"><surname>Salomon</surname></rs> <rs type="person" xml:id="pNt_22589"><roleName>Frau</roleName> <surname>Salomon Szigeti</surname></rs> Frau <rs type="person" xml:id="pNt_22590" ref="#person_21098"><forename>W.</forename> <surname>Wasels</surname></rs> (<rs type="place" xml:id="pl_05113" ref="#place_d5460b665e26333bdf699f77a2e3cf17">Frankfurt</rs>)</p>
+            <p xml:space="preserve"><date when="1905-03-17">17/3</date> Ankunft <rs type="place" xml:id="pl_05110" ref="#pmb38096">Abbazia</rs>.― Der Tisch des Schiffes, an dem ich speiste</p>
+            <p xml:space="preserve" rend="indent">leer <rs type="person" xml:id="pNt_22586" ref="#person_20270"><surname>Spiro</surname></rs> ich Frau <rs type="person" xml:id="pNt_22587"><forename>Kr.</forename> <surname>Kreglinger</surname></rs> (<rs type="place" xml:id="pl_05111" ref="#pmb872">Stuttgart</rs>) </p>
+            <p xml:space="preserve" rend="indent">(<rs type="place" xml:id="pl_05112" ref="#pmb91187">Magdeburg</rs>) Justizr. <rs type="person" xml:id="pNt_22588"><surname>Salomon</surname></rs> <rs type="person" xml:id="pNt_22589"><roleName>Frau</roleName> <surname>Salomon Szigeti</surname></rs> Frau <rs type="person" xml:id="pNt_22590" ref="#person_21098"><forename>W.</forename> <surname>Wasels</surname></rs> (<rs type="place" xml:id="pl_05113" ref="#pmb146">Frankfurt</rs>)</p>
             <p xml:space="preserve" rend="indent">― Capitain <rs type="person" xml:id="pNt_22591" ref="#person_14029"><surname>Brunswig</surname></rs>, netter, etwas reclamebedürftiger Mensch.―</p>
-            <p xml:space="preserve" rend="indent">Nach <rs type="place" xml:id="pl_05114" ref="#place_05e29ff4895800e505d2e40807f90ca8">Fiume</rs>. Briefe.― Auf dem Schiff gefrühstückt.―</p>
-            <p xml:space="preserve" rend="indent">Nm. Abschied genommen etc.― <rs type="place" xml:id="pl_05115" ref="#place_05e29ff4895800e505d2e40807f90ca8">Fiume</rs>.― „Deak“.― Ab.</p>
+            <p xml:space="preserve" rend="indent">Nach <rs type="place" xml:id="pl_05114" ref="#pmb44246">Fiume</rs>. Briefe.― Auf dem Schiff gefrühstückt.―</p>
+            <p xml:space="preserve" rend="indent">Nm. Abschied genommen etc.― <rs type="place" xml:id="pl_05115" ref="#pmb44246">Fiume</rs>.― „Deak“.― Ab.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

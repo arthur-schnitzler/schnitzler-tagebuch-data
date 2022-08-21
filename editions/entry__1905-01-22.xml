@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-01-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-01-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-01-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-01-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-01-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-01-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F6E4-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2028.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1905-01-22">
-            <p xml:space="preserve"><date when="1905-01-22">22/1</date> Vm. mit O. spazieren <rs type="place" xml:id="pl_05037" ref="#place_431168489e6885d4e91ebc5edec7dfb4">Grinzing</rs>, <rs type="place" xml:id="pl_05038" ref="#place_13e0d56607e09fd9ecc36830a7036add">Heiligenstadt</rs>, Haus (einstiges <rs type="person" xml:id="pNt_22320" ref="#person_18021"><forename>Osk.</forename></rs> 
-<rs type="person" xml:id="pNt_22321" ref="#person_18021"><surname>Mayer’s</surname></rs>) besichtigt, <rs type="place" xml:id="pl_05039" ref="#place_86f90c857ca2c813e066ea7b3502cb7c">Hohe Warte</rs> (<rs type="person" xml:id="pNt_22322" ref="#person_18218"><surname>Moll</surname></rs> Haus etc.).</p>
+            <p xml:space="preserve"><date when="1905-01-22">22/1</date> Vm. mit O. spazieren <rs type="place" xml:id="pl_05037" ref="#pmb90771">Grinzing</rs>, <rs type="place" xml:id="pl_05038" ref="#pmb90847">Heiligenstadt</rs>, Haus (einstiges <rs type="person" xml:id="pNt_22320" ref="#person_18021"><forename>Osk.</forename></rs> 
+<rs type="person" xml:id="pNt_22321" ref="#person_18021"><surname>Mayer’s</surname></rs>) besichtigt, <rs type="place" xml:id="pl_05039" ref="#pmb92292">Hohe Warte</rs> (<rs type="person" xml:id="pNt_22322" ref="#person_18218"><surname>Moll</surname></rs> Haus etc.).</p>
             <p xml:space="preserve" rend="indent">Nm. Briefe; einiges durchgesehen („<rs type="work" subtype="self" xml:id="bibl_15452">Erfolg</rs>“, „<rs type="work" subtype="self" xml:id="bibl_15453">Wurstl</rs>“).</p>
             <p xml:space="preserve" rend="indent">Abds. mit O. <rs type="work" xml:id="bibl_15454">Fidelio</rs> (<rs type="person" xml:id="pNt_22323" ref="#person_17405"><surname>Lehmann</surname></rs>) ich hörte schlecht und hatte Kopfweh.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

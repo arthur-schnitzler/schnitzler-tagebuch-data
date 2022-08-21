@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1916-11-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-11-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-11-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1916-11-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-11-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-11-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-07A6-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4368.tif"/>
@@ -183,7 +187,7 @@
          <div type="diary-day" xml:id="entry__1916-11-29">
             <p xml:space="preserve"><date when="1916-11-29">29/11</date> Träume; ich rede davon, dass <rs type="person" xml:id="pNt_49327" ref="#person_14130"><forename>Lili</forename></rs> auch ein Opfer des Krieges, 
 gefallen, an einer (musikalischen) Terz,― stehe vor oder in einer Trafik 
-<rs type="place" xml:id="pl_10318" ref="#place_aa057d1fe28f22ac52216c361b607345">Prinz Eugenstraße</rs>. Dann in einem tiefgelegenen üppiggrünen Garten, 
+<rs type="place" xml:id="pl_10318" ref="#pmb92463">Prinz Eugenstraße</rs>. Dann in einem tiefgelegenen üppiggrünen Garten, 
 Cottage, der <rs type="person" xml:id="pNt_49328" ref="#person_20242"><surname>Speidels</surname></rs> gehört, sage zu ihnen: Das traurige ist, daß man 
 sich den Frühling im Winter nicht vorstellen kann ― und im Frühling 
 erst recht nicht.</p>
@@ -199,6 +203,5 @@ erst recht nicht.</p>
             <p xml:space="preserve" rend="indent"><rs type="work" xml:id="bibl_7765">November</rs> von <rs type="person" xml:id="pNt_49329" ref="#person_15025"><surname>Flaubert</surname></rs> zu Ende.― Mit <rs type="person" xml:id="pNt_49330" ref="#person_19822"><forename>Heini</forename></rs> <rs type="person" xml:id="pNt_49331" ref="#person_18282"><surname>Mozart</surname></rs> Quintett.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

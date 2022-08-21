@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-11-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-11-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-11-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-11-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-11-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-11-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F69E-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1995.tif"/>
@@ -181,10 +185,10 @@
       <body>
          <div type="diary-day" xml:id="entry__1904-11-13">
             <p xml:space="preserve"><date when="1904-11-13">13/11</date> Zeitungen. Repertoire: <rs type="work" subtype="self" xml:id="bibl_17445">Kassian</rs>, <rs type="work" subtype="self" xml:id="bibl_17446">Kakadu</rs> ― <rs type="work" subtype="self" xml:id="bibl_17447">Delorme</rs> fehlt.― 
-Aerger.― <rs type="place" xml:id="pl_04980" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>. Bristol.―</p>
+Aerger.― <rs type="place" xml:id="pl_04980" ref="#pmb168">Berlin</rs>. Bristol.―</p>
             <p xml:space="preserve" rend="indent">Ins N. Theater. Finde niemanden. Hinter der Scene (es wird 
 eben „<rs type="work" xml:id="bibl_17448">Jux</rs>“ gespielt) hör ich unter andern <rs type="person" xml:id="pNt_21898" ref="#person_15485"><forename>M.</forename> <surname>Gl.s</surname></rs> Stimme.― 
-Erinnerung an <rs type="place" xml:id="pl_04981" ref="#place_9a43e84f6e1d406076f2372205804f6d">Baden</rs>, da hört ich sie vom Park oben, während sie 
+Erinnerung an <rs type="place" xml:id="pl_04981" ref="#pmb662">Baden</rs>, da hört ich sie vom Park oben, während sie 
 unten in der Arena spielte.― Seltsam. Sie kam, im <rs type="place" xml:id="pl_04982" ref="#place_624fbef972fe4f9adbecca2025fb75c6" ana="#exclude">Altwienercostume</rs>, 
 wir redeten ―</p>
             <p xml:space="preserve" rend="indent">― <rs type="person" xml:id="pNt_21899" ref="#person_20386"><forename>Liesl</forename></rs> im Hotel.― Bei <rs type="person" xml:id="pNt_21900" ref="#person_13913"><surname>Brahm</surname></rs>. Ins N. Th.― Zwei Akte 
@@ -194,6 +198,5 @@ wollen, und dass in der Scene <rs type="person" xml:id="pNt_21902"><forename>A.<
 gezeichnet sei.― War wüthend.― Mit <rs type="person" xml:id="pNt_21904" ref="#person_20386"><forename>Liesl</forename></rs> und <rs type="person" xml:id="pNt_21905" ref="#person_20383"><surname>Steinrück</surname></rs> soupirt ―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

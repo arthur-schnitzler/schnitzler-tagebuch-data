@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-03-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-03-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-03-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1931-03-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-03-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-03-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1C0D-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7668.tif"/>
@@ -186,11 +190,11 @@
 in meine Hand;― Schmerzen im Daumenballen links (wo ich eine kleine Erosion 
 hatte ―) ― ich wimmre und flehe.―</p>
             <p xml:space="preserve" rend="indent">Heute Traum;― bin mit <rs type="person" xml:id="pNt_92444" ref="#person_14234"><forename>Suz.</forename></rs> (auf Reisen ― ?) ― zeige ihr den Punkt auf 
-Landkarte; es ist <rs type="place" xml:id="pl_19806" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs>, aber doch nicht <rs type="place" xml:id="pl_19807" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs>, eher in der <rs type="place" xml:id="pl_19808" ref="#place_7a0be5a1ed9675975e678b517f07573c">Schweiz</rs>;― wir 
-haben offenbar über die Route nach Haus (<rs type="place" xml:id="pl_19809" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> ―) oder ? nach <rs type="place" xml:id="pl_19810" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs> 
+Landkarte; es ist <rs type="place" xml:id="pl_19806" ref="#pmb182">Paris</rs>, aber doch nicht <rs type="place" xml:id="pl_19807" ref="#pmb182">Paris</rs>, eher in der <rs type="place" xml:id="pl_19808" ref="#pmb43435">Schweiz</rs>;― wir 
+haben offenbar über die Route nach Haus (<rs type="place" xml:id="pl_19809" ref="#pmb50">Wien</rs> ―) oder ? nach <rs type="place" xml:id="pl_19810" ref="#pmb182">Paris</rs> 
 Differenzen; ich sage ihr: bedenke doch was es für mich bedeutet mit dir 
-in <rs type="place" xml:id="pl_19811" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs> zu sein, und habe fast Thränen in den Augen, bin selbst beschämt 
-über meine Sentimentalität;― zeige ihr die Linie: wenn wir nach <rs type="place" xml:id="pl_19812" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> 
+in <rs type="place" xml:id="pl_19811" ref="#pmb182">Paris</rs> zu sein, und habe fast Thränen in den Augen, bin selbst beschämt 
+über meine Sentimentalität;― zeige ihr die Linie: wenn wir nach <rs type="place" xml:id="pl_19812" ref="#pmb50">Wien</rs> 
 wollen, müssen wir ja nach Osten;― <rs type="person" xml:id="pNt_92445" ref="#person_14234"><forename>Suz.</forename></rs> bleibt starr.―</p>
             <p xml:space="preserve" rend="indent">Vm. dict. ich Briefe, und <rs type="work" subtype="self" xml:id="bibl_23667">Tgb.</rs> 86.― <rs type="person" xml:id="pNt_92446" ref="#person_14234"><forename>Suz.</forename></rs> kommt unangesagt, mit dem Brief 
 von <rs type="person" xml:id="pNt_92447" ref="#person_17986"><surname>Mauprey</surname></rs>, über den sie mir schon am Morgen telefonirt hatte;― wir 
@@ -200,6 +204,5 @@ ist. Heut Nachm. legt sie sich für 10 Tage ins Bett.</p>
             <p xml:space="preserve" rend="indent">Abd. mit <rs type="person" xml:id="pNt_92451" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Kino „<rs type="work" xml:id="bibl_23669">Afrika spricht</rs>“;― dann allein zu Haus genachtm.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

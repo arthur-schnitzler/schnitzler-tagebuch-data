@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-03-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-03-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-03-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-03-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-03-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-03-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-00F2-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3355.tif"/>
@@ -183,16 +187,15 @@
          <div type="diary-day" xml:id="entry__1912-03-17">
             <p xml:space="preserve"><date when="1912-03-17">17/3</date> Die letzte Kritik die <rs type="person" xml:id="pNt_37517" ref="#person_14065"><surname>Burckhard</surname></rs> geschrieben erscheint heut im 
 <rs type="work" subtype="newspaper" xml:id="bibl_10064">Fremdenblatt</rs> ― über <rs type="person" xml:id="pNt_37518" ref="#person_19542"><surname>Salten</surname></rs>.―</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_37519" ref="#person_19822"><forename>Heini</forename></rs> <rs type="place" xml:id="pl_07789" ref="#place_f5af0e4beb99b2ded62ac5ff72643954">Dornbach</rs> <rs type="place" xml:id="pl_07790" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs>; später O. begegnet.―</p>
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_37519" ref="#person_19822"><forename>Heini</forename></rs> <rs type="place" xml:id="pl_07789" ref="#pmb90546">Dornbach</rs> <rs type="place" xml:id="pl_07790" ref="#pmb169">Pötzleinsdorf</rs>; später O. begegnet.―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_37520" ref="#person_21107"><surname>Wassermann</surname></rs>; über <rs type="person" xml:id="pNt_37521" ref="#person_17786"><surname>Mahler</surname></rs>, über den er absprechend urtheilt; 
 O. und ich spielten ihm einiges aus den Symphonien vor.―</p>
             <p xml:space="preserve" rend="indent">Correcturen der <rs type="work" subtype="self" xml:id="bibl_10065">G. W.</rs>, Zeitungen über <rs type="person" xml:id="pNt_37522" ref="#person_14065"><surname>Burckhard</surname></rs>.</p>
             <p xml:space="preserve" rend="indent">Abends bei uns <rs type="person" xml:id="pNt_37523" ref="#person_14473"><surname>Dohnanyi</surname></rs>, <rs type="person" xml:id="pNt_37524" ref="#person_13305"><surname>Auernheimers</surname></rs>, <rs type="person" xml:id="pNt_37525" ref="#person_15782"><roleName>Fr.</roleName> <surname>Guttmann</surname></rs> und 
 <rs type="person" xml:id="pNt_37526" ref="#person_15781"><forename>Leonie</forename></rs>, <rs type="person" xml:id="pNt_37527" ref="#person_13355"><roleName>Frau</roleName> <surname>Bachrach</surname></rs>, <rs type="person" xml:id="pNt_37528" ref="#person_21600"><forename>Mimi</forename></rs>, <rs type="person" xml:id="pNt_37529" ref="#person_13359"><forename>Stephi</forename></rs>, <rs type="person" xml:id="pNt_37530" ref="#person_21387"><surname>Winterstein</surname></rs>, Dr. <rs type="person" xml:id="pNt_37531" ref="#person_16770"><forename>Arthur</forename> <surname>Kaufmann</surname></rs>. 
 „Errathen.“ (Ich: Höhle.― <rs type="person" xml:id="pNt_37532" ref="#person_16770"><surname>Kaufmann</surname></rs>: Das Echo des ersten Schusses 
-heuer auf dem <rs type="place" xml:id="pl_07791" ref="#place_7ed4496167f8edc24d094798be1c9cc8">Königssee</rs>.)</p>
+heuer auf dem <rs type="place" xml:id="pl_07791" ref="#pmb91054">Königssee</rs>.)</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

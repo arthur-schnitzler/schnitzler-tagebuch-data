@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-02-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-01-31.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-02-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-02-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-01-31.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-02-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-03A0-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3772.tif"/>
@@ -182,16 +186,15 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1914-02-01">
-            <p xml:space="preserve"><date when="1914-02-01">1/2</date> Vm. <rs type="person" xml:id="pNt_42768" ref="#person_17958"><forename>Paul</forename></rs> im Hotel; aus <rs type="place" xml:id="pl_08616" ref="#place_67eb2b8d0aab60ec69666532ff9527c9">Holland</rs> (mit <rs type="person" xml:id="pNt_42769" ref="#person_21545"><surname>Ziegel</surname></rs>) zurück; unzufrieden 
+            <p xml:space="preserve"><date when="1914-02-01">1/2</date> Vm. <rs type="person" xml:id="pNt_42768" ref="#person_17958"><forename>Paul</forename></rs> im Hotel; aus <rs type="place" xml:id="pl_08616" ref="#pmb44016">Holland</rs> (mit <rs type="person" xml:id="pNt_42769" ref="#person_21545"><surname>Ziegel</surname></rs>) zurück; unzufrieden 
 wie immer; will weg von hier (im Grunde vom Theater überhaupt); 
 später <rs type="person" xml:id="pNt_42770" ref="#person_20383"><forename>Albert</forename></rs>.</p>
             <p xml:space="preserve" rend="indent">Wir essen im Hotel, fahren zur Bahn (mit <rs type="person" xml:id="pNt_42771" ref="#person_17958"><forename>Paul</forename></rs> und <rs type="person" xml:id="pNt_42772" ref="#person_20383"><forename>Albert</forename></rs>; letztrer 
 hat sich sehr gemacht). Abreise. Um vier in</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_08617" ref="#place_c38ad36647aca0261d667c432a4866bd">Salzburg</rs>. Oesterr. Hof.― Spazieren. <rs type="person" xml:id="pNt_42773" ref="#person_20604"><forename>Jul.</forename> <surname>Szeps</surname></rs> und Frau. Café 
+            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_08617" ref="#pmb91649">Salzburg</rs>. Oesterr. Hof.― Spazieren. <rs type="person" xml:id="pNt_42773" ref="#person_20604"><forename>Jul.</forename> <surname>Szeps</surname></rs> und Frau. Café 
 Bristol. <rs type="person" xml:id="pNt_42774" ref="#person_20604"><surname>Szeps</surname></rs> erzählt von <rs type="allusively" xml:id="rst_01339">Kaiser</rs>, <rs type="allusively" xml:id="rst_01340">Thronfolger</rs>, <rs type="person" xml:id="pNt_42775" ref="#person_13115"><surname>Aehrenthal</surname></rs> und seinem 
 heldenhaften Tod.― Im Hotel genachtm.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

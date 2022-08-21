@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-01-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-01-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-01-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-01-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-01-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-01-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0948-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4589.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1918-01-22">
-            <p xml:space="preserve"><date when="1918-01-22">22/1</date> Vm. bei <rs type="person" xml:id="pNt_52458" ref="#person_19986"><forename>Gustav</forename></rs>. (<rs type="person" xml:id="pNt_52459" ref="#person_19231"><roleName>Fähnrich</roleName> <surname>Ribic</surname></rs>, von der <rs type="place" xml:id="pl_10849" ref="#place_506f6d1356a8f25f440f8364875c4f00">Piave</rs> kommend; über 
+            <p xml:space="preserve"><date when="1918-01-22">22/1</date> Vm. bei <rs type="person" xml:id="pNt_52458" ref="#person_19986"><forename>Gustav</forename></rs>. (<rs type="person" xml:id="pNt_52459" ref="#person_19231"><roleName>Fähnrich</roleName> <surname>Ribic</surname></rs>, von der <rs type="place" xml:id="pl_10849" ref="#pmb91476">Piave</rs> kommend; über 
 die entsetzlichen Zustände unten. Der Hass zwischen den <rs type="place" xml:id="pl_10850" ref="#place_50e7fee43672ab5849a6d99f48c6ad7c" ana="#exclude">oesterr.</rs> und 
 <rs type="place" xml:id="pl_10851" ref="#place_c5ec7227e68b921a63348b101c573914" ana="#exclude">deutschen</rs> Militärs. Das Benehmen der <rs type="place" xml:id="pl_10852" ref="#place_c5ec7227e68b921a63348b101c573914" ana="#exclude">deutschen</rs>.)―</p>
             <p xml:space="preserve" rend="indent">Besorgungen.― Bei <rs type="person" xml:id="pNt_52460" ref="#person_19827"><forename>Julius</forename></rs>, <rs type="person" xml:id="pNt_52461"><forename>Annie</forename></rs> zum Geburtstag gratuliren.</p>
@@ -192,6 +196,5 @@ entgegen.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_52464" ref="#person_19822"><forename>Heini</forename></rs> <rs type="person" xml:id="pNt_52465" ref="#person_18282"><surname>Mozart</surname></rs> <rs type="work" xml:id="bibl_5283">Quartett 1</rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

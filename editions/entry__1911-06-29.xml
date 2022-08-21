@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-06-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-06-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-06-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-06-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-06-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-06-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FFEC-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3187.tif"/>
@@ -182,14 +186,13 @@
       <body>
          <div type="diary-day" xml:id="entry__1911-06-29">
             <p xml:space="preserve"><date when="1911-06-29">29/6</date> Mit O. und <rs type="person" xml:id="pNt_35655" ref="#person_21107"><surname>Wassermann</surname></rs> spazieren neuer Weg Thalhof (Gespräch 
-über <rs type="person" xml:id="pNt_35656" ref="#person_13359"><forename>Steffi</forename></rs>, Familienverhältnisse und dergl.) ― <rs type="place" xml:id="pl_07519" ref="#place_62abecfac3ba329cf2d2736a2d24dd89">Prein</rs>; beim Eggl zu 
+über <rs type="person" xml:id="pNt_35656" ref="#person_13359"><forename>Steffi</forename></rs>, Familienverhältnisse und dergl.) ― <rs type="place" xml:id="pl_07519" ref="#pmb49072">Prein</rs>; beim Eggl zu 
 Mittag ― auf dem Balkon drüben einsam perorirend der Philosoph 
 <rs type="person" xml:id="pNt_35657" ref="#person_16337"><surname>Holzapfel</surname></rs>; <rs type="person" xml:id="pNt_35658" ref="#person_21269"><roleName>Herr</roleName> <surname>Werthner</surname></rs> begrüßt mich („Saubermann“) ― Wagen 
-<rs type="place" xml:id="pl_07520" ref="#place_5884bac5272bf94a2487941d33f4ddc1">Payerbach</rs>, Bahn <rs type="place" xml:id="pl_07521" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs>.―</p>
+<rs type="place" xml:id="pl_07520" ref="#pmb948">Payerbach</rs>, Bahn <rs type="place" xml:id="pl_07521" ref="#pmb91735">Semmering</rs>.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_35659" ref="#person_13913"><surname>Brahm</surname></rs> und <rs type="person" xml:id="pNt_35660" ref="#person_21107"><surname>Wassermann</surname></rs> spazieren. Geburtstagssouper für 
 <rs type="person" xml:id="pNt_35661" ref="#person_16572"><roleName>Frau</roleName> <surname>Jonas</surname></rs> im Kurhaus.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

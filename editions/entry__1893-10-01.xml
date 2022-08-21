@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1893-10-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-09-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-10-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1893-10-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-09-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-10-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E74C-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0779.tif"/>
@@ -183,7 +187,7 @@
          <div type="diary-day" xml:id="entry__1893-10-01">
             <p xml:space="preserve"><date when="1893-10-01">1/10</date> Von <rs type="person" xml:id="pNt_07884"><forename>L.</forename></rs> guter Brief. Von <rs type="person" xml:id="pNt_07885" ref="#person_21214"><forename>Fifi</forename></rs> gereizter, den ich mit einer Art 
 Abschiedsbr. beantwortete ―</p>
-            <p xml:space="preserve" rend="indent">Bic.-partie <rs type="place" xml:id="pl_01638" ref="#place_07e1e69de6ad35be535fe26851d79cc0">Andrä Wördern</rs> mit <rs type="person" xml:id="pNt_07886" ref="#person_15194"><forename>Gustav</forename></rs> und Clubmitgliedern.</p>
+            <p xml:space="preserve" rend="indent">Bic.-partie <rs type="place" xml:id="pl_01638" ref="#pmb1246">Andrä Wördern</rs> mit <rs type="person" xml:id="pNt_07886" ref="#person_15194"><forename>Gustav</forename></rs> und Clubmitgliedern.</p>
             <pb n="54"/>
             <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header">
                <fw place="top_left" type="pn">54</fw>
@@ -197,6 +201,5 @@ Gespräch mit Cousine <rs type="person" xml:id="pNt_07888"><forename>Elsa</foren
 einen Sicherheitswachmann arretirte ―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

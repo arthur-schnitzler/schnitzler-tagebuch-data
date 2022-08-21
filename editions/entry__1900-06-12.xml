@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1900-06-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-06-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-06-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1900-06-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-06-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-06-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F09C-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -162,7 +166,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1569.tif"/>
@@ -170,15 +174,14 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1900-06-12">
-            <p xml:space="preserve"><date when="1900-06-12">12/6</date> Nm. nach <rs type="place" xml:id="pl_03431" ref="#place_b68ddab74dcd7fe281b6bdd680d40680">Waidhofen</rs>. <rs type="person" xml:id="pNt_17148" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs> Bahnhof.― Anfangs war sie mir eher
+            <p xml:space="preserve"><date when="1900-06-12">12/6</date> Nm. nach <rs type="place" xml:id="pl_03431" ref="#pmb49181">Waidhofen</rs>. <rs type="person" xml:id="pNt_17148" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs> Bahnhof.― Anfangs war sie mir eher
 zuwider.</p>
-            <p xml:space="preserve" rend="indent">― In <rs type="place" xml:id="pl_03432" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> auf dem Bahnhof <rs type="person" xml:id="pNt_17149" ref="#person_19564"><forename>Dilly</forename></rs> getroffen.― Sie hat die Scene aus
+            <p xml:space="preserve" rend="indent">― In <rs type="place" xml:id="pl_03432" ref="#pmb50">Wien</rs> auf dem Bahnhof <rs type="person" xml:id="pNt_17149" ref="#person_19564"><forename>Dilly</forename></rs> getroffen.― Sie hat die Scene aus
 <rs type="work" subtype="self" xml:id="bibl_18437">Reigen</rs> „Schauspielerin“ „Dichter“ mit ihrem jetzigen Liebhaber
 <rs type="person" xml:id="pNt_17150" ref="#person_14837"><forename>Robert</forename> <surname>E.</surname></rs> (einem albernen Burschen, Bruder <rs type="person" xml:id="pNt_17151" ref="#person_13641"><forename>Joh.</forename> <surname>Fr.</surname></rs>) zusammen
 gelesen ― er sagte: „Nein, so gemein bist du nicht!“ Dann haute
 er das Buch um die Erde.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

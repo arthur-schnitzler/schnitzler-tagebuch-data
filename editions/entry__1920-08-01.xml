@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-08-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-07-31.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-08-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1920-08-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-07-31.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-08-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0CE1-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5149.tif"/>
@@ -182,10 +186,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1920-08-01">
-            <p xml:space="preserve"><date when="1920-08-01">1/8</date> S. Spazierg. <rs type="place" xml:id="pl_12429" ref="#place_c79ad839f84019f53250a4e6365359f9">Neuwaldegg</rs> ― Park. Verse zum <rs type="work" subtype="self" xml:id="bibl_4209">Weiher</rs>.</p>
+            <p xml:space="preserve"><date when="1920-08-01">1/8</date> S. Spazierg. <rs type="place" xml:id="pl_12429" ref="#pmb170">Neuwaldegg</rs> ― Park. Verse zum <rs type="work" subtype="self" xml:id="bibl_4209">Weiher</rs>.</p>
             <p xml:space="preserve" rend="indent">Nm. bei <rs type="person" xml:id="pNt_59471" ref="#person_18672"><roleName>Frau</roleName> <surname>Patak</surname></rs>, im Garten. <rs type="place" xml:id="pl_12430" ref="#place_3a6c1f5e020800151a0faa84185ac160" ana="#exclude">Amerikanische</rs> Journalisten, die mich 
 kennen lernen wollten, Zionisten und Zionistinnen, und Dr. <rs type="person" xml:id="pNt_59472" ref="#person_16254"><forename>Eugen</forename> <surname>Höflich</surname></rs>, 
-der interessantes von der Kriegscorruption in <rs type="place" xml:id="pl_12431" ref="#place_0440d43880c6c31ea1d5137c5abec2dc">Palaestina</rs> u. a. Gegenden 
+der interessantes von der Kriegscorruption in <rs type="place" xml:id="pl_12431" ref="#pmb815">Palaestina</rs> u. a. Gegenden 
 erzählte, Schiebereien insbesondre der <rs type="place" xml:id="pl_12432" ref="#place_c5ec7227e68b921a63348b101c573914" ana="#exclude">deutschen</rs> Offiziere, auch 
 <rs type="place" xml:id="pl_12433" ref="#place_dde9c30a53b206afc8327727d55e6b58" ana="#exclude">Engländer</rs>.― </p>
             <p xml:space="preserve" rend="indent">Am „<rs type="work" subtype="self" xml:id="bibl_4210">Weiher</rs>“, in schwerer Stimmung.―</p>
@@ -193,6 +197,5 @@ erzählte, Schiebereien insbesondre der <rs type="place" xml:id="pl_12432" ref="
 er zusammen mit <rs type="person" xml:id="pNt_59476" ref="#person_19822"><forename>Heini</forename></rs> zu machen gedenkt (<rs type="person" xml:id="pNt_59477" ref="#person_20885"><surname>Unruhs</surname></rs> Wunsch).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

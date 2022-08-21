@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-08-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-08-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-08-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-08-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-08-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-08-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0FC8-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5805.tif"/>
@@ -181,14 +185,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1922-08-14">
-            <p xml:space="preserve"><date when="1922-08-14">14/8</date> <rs type="place" xml:id="pl_14158" ref="#place_10610ec60fcdfbccb325e1eec16a82ad">Berchtesgaden</rs>.― Mein Finger verschlimmert sich zusehends.―</p>
+            <p xml:space="preserve"><date when="1922-08-14">14/8</date> <rs type="place" xml:id="pl_14158" ref="#pmb797">Berchtesgaden</rs>.― Mein Finger verschlimmert sich zusehends.―</p>
             <p xml:space="preserve" rend="indent">Bahn; Abreise von <rs type="person" xml:id="pNt_67004" ref="#person_19827"><forename>Julius</forename></rs> etc.―</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_67005" ref="#person_21602"><forename>Vicki</forename></rs> auf die <rs type="place" xml:id="pl_14159" ref="#place_37272245e07e692575efc5ff353a2000">Scharitzkehlalpe</rs> und zurück.― Über Psychoanalyse und 
-ihre Gefahren.― Bellevue gegessen; <rs type="person" xml:id="pNt_67006" ref="#person_21602"><forename>Vicki</forename></rs> reist nach <rs type="place" xml:id="pl_14160" ref="#place_73dd5f9b23452ba147560b921ef73c25">Barmen</rs>.</p>
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_67005" ref="#person_21602"><forename>Vicki</forename></rs> auf die <rs type="place" xml:id="pl_14159" ref="#pmb92512">Scharitzkehlalpe</rs> und zurück.― Über Psychoanalyse und 
+ihre Gefahren.― Bellevue gegessen; <rs type="person" xml:id="pNt_67006" ref="#person_21602"><forename>Vicki</forename></rs> reist nach <rs type="place" xml:id="pl_14160" ref="#pmb49974">Barmen</rs>.</p>
             <p xml:space="preserve" rend="indent">Am „<rs type="work" subtype="self" xml:id="bibl_2715">Verf.</rs>“ ― der dritte Akt sieht hoffnungslos aus.</p>
             <p xml:space="preserve" rend="indent">Bellevue mit <rs type="person" xml:id="pNt_67007" ref="#person_20796"><surname>Trebitsch’s</surname></rs> gen.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

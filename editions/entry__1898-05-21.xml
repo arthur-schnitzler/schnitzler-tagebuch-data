@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1898-05-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-05-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-05-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1898-05-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-05-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-05-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EDD9-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1435.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1898-05-21">
-            <p xml:space="preserve"><date when="1898-05-21">21/5</date> <rs type="person" xml:id="pNt_15336" ref="#person_19564"><forename>Dilly</forename></rs> hatte in <rs type="place" xml:id="pl_02870" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> in der <rs type="work" subtype="self" xml:id="bibl_18704">Liebelei</rs> und <rs type="work" subtype="self" xml:id="bibl_18705">Absch.</rs> den größten 
+            <p xml:space="preserve"><date when="1898-05-21">21/5</date> <rs type="person" xml:id="pNt_15336" ref="#person_19564"><forename>Dilly</forename></rs> hatte in <rs type="place" xml:id="pl_02870" ref="#pmb168">Berlin</rs> in der <rs type="work" subtype="self" xml:id="bibl_18704">Liebelei</rs> und <rs type="work" subtype="self" xml:id="bibl_18705">Absch.</rs> den größten 
 Erfolg; angenehmes Zusammentreffen mit dem großen Erfolg der 
-<rs type="person" xml:id="pNt_15337" ref="#person_18035"><surname>Medelsky</surname></rs> hier.― Vorm. <rs type="place" xml:id="pl_02871" ref="#place_86a694cf5ce5552ca627cb96b607eccd">Prater</rs> Bic.; ein fremder bekannter <rs type="person" xml:id="pNt_15338" ref="#person_15594"><surname>Gottscho</surname></rs> (?). 
-Bei <rs type="person" xml:id="pNt_15339" ref="#person_15485"><forename>Mz. I</forename></rs>; dann <rs type="person" xml:id="pNt_15340" ref="#person_19150"><forename>Mz.</forename> <surname>Rh.</surname></rs>; „<rs type="work" xml:id="bibl_18706">Mütter</rs>“ im <rs type="place" ref="#place_volkstheater">Volksth.</rs>, (<rs type="person" xml:id="pNt_15341" ref="#person_19150"><forename>Mz.</forename> <surname>Rh.</surname></rs> und <rs type="person" xml:id="pNt_15342" ref="#person_16366"><forename>Risa</forename></rs>), 
+<rs type="person" xml:id="pNt_15337" ref="#person_18035"><surname>Medelsky</surname></rs> hier.― Vorm. <rs type="place" xml:id="pl_02871" ref="#pmb91530">Prater</rs> Bic.; ein fremder bekannter <rs type="person" xml:id="pNt_15338" ref="#person_15594"><surname>Gottscho</surname></rs> (?). 
+Bei <rs type="person" xml:id="pNt_15339" ref="#person_15485"><forename>Mz. I</forename></rs>; dann <rs type="person" xml:id="pNt_15340" ref="#person_19150"><forename>Mz.</forename> <surname>Rh.</surname></rs>; „<rs type="work" xml:id="bibl_18706">Mütter</rs>“ im <rs type="place" ref="#pmb92202">Volksth.</rs>, (<rs type="person" xml:id="pNt_15341" ref="#person_19150"><forename>Mz.</forename> <surname>Rh.</surname></rs> und <rs type="person" xml:id="pNt_15342" ref="#person_16366"><forename>Risa</forename></rs>), 
 mit <rs type="person" xml:id="pNt_15343" ref="#person_16222"><forename>G.</forename> <surname>H.</surname></rs></p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

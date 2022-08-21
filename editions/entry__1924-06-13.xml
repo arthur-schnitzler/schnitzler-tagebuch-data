@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1924-06-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-06-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-06-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1924-06-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-06-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-06-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1264-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6278.tif"/>
@@ -183,16 +187,15 @@
       <body>
          <div type="diary-day" xml:id="entry__1924-06-13">
             <p xml:space="preserve"><date when="1924-06-13">13/6</date> Nach Monaten Brief von <rs ref="#person_13969" type="person" xml:id="pNt_72432"><forename>B.</forename> <surname>B.</surname></rs>, die im nächsten Winter 
-<rs type="place" xml:id="pl_15422" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs> sein will.―</p>
+<rs type="place" xml:id="pl_15422" ref="#pmb91735">Semmering</rs> sein will.―</p>
             <p xml:space="preserve" rend="indent">In <rs type="person" xml:id="pNt_72433" ref="#person_14130"><forename>Lilis</forename></rs> Schule. Mit <rs type="person" xml:id="pNt_72434" ref="#person_19108"><roleName>Prof.</roleName> <surname>Reh</surname></rs> und dem Ordinarius <rs type="person" xml:id="pNt_72435" ref="#person_19775"><roleName>Prof.</roleName> 
 <surname>Schmieger</surname></rs>;― vielleicht wird sie doch durchkommen. Trotz ihrer 
 erheblichen Faulheit scheint sie zum Theil sehr beliebt. Mit 
-<rs type="person" xml:id="pNt_72436" ref="#person_19775"><surname>Schmieger</surname></rs> übers <rs type="place" ref="#place_burgtheater">Burgtheater</rs>, <rs type="work" subtype="self" xml:id="bibl_21111">Medardus</rs> etc.</p>
+<rs type="person" xml:id="pNt_72436" ref="#person_19775"><surname>Schmieger</surname></rs> übers <rs type="place" ref="#pmb14">Burgtheater</rs>, <rs type="work" subtype="self" xml:id="bibl_21111">Medardus</rs> etc.</p>
             <p xml:space="preserve" rend="indent">Nm. an „<rs type="work" subtype="self" xml:id="bibl_21112">Bezahlt</rs>“.―</p>
             <p xml:space="preserve" rend="indent">Früh war auch <rs type="person" xml:id="pNt_72437" ref="#person_16277"><roleName>Dr.</roleName> <surname>Hoffmann</surname></rs> bei mir. Juridisches.―</p>
             <p xml:space="preserve" rend="indent">― Mit <rs type="person" xml:id="pNt_72438" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Kino („<rs type="work" xml:id="bibl_21113">Im Rausch der Leidenschaft</rs>“), bei ihr genachtm.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

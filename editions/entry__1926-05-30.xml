@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-05-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-05-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-05-31.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-05-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-05-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-05-31.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1530-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6671.tif"/>
@@ -183,13 +187,12 @@
       <body>
          <div type="diary-day" xml:id="entry__1926-05-30">
             <p xml:space="preserve"><date when="1926-05-30">30/5</date> S. Vm. Cottagesanat.―</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_77976" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Autofahrt <rs type="place" xml:id="pl_16676" ref="#place_86a694cf5ce5552ca627cb96b607eccd">Prater</rs> Lusthaus. Spaziergang bis gegen den 
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_77976" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Autofahrt <rs type="place" xml:id="pl_16676" ref="#pmb91530">Prater</rs> Lusthaus. Spaziergang bis gegen den 
 „Spitz“ hin. Wie selten genießt man die <rs type="place" xml:id="pl_16677" ref="#place_6d6bcc5222c8e9281f7dc8e5215f35e4" ana="#exclude">Donaulandschaft</rs>.</p>
             <p xml:space="preserve" rend="indent">Zu Tisch <rs type="person" xml:id="pNt_77977" ref="#person_13355"><forename>Ama</forename></rs>, nach langer Zeit.―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="work" subtype="self" xml:id="bibl_20217">Badner Nov.</rs> mit Sorgfalt zu lesen begonnen.</p>
             <p xml:space="preserve" rend="indent">Kurzer Spaziergang Abends. Die Schmerzen haben beträchtlich nachgelassen; Müdigkeit im Bein und allgemeine (leichte) Mattigkeit.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

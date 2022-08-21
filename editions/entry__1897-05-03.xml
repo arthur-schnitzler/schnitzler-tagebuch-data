@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1897-05-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-05-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-05-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1897-05-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-05-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-05-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EC5C-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1323.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1897-05-03">
-            <p xml:space="preserve"><date when="1897-05-03">3/5</date> Vorm. Salon <rs type="place" xml:id="pl_02572" ref="#place_8c3b8e867df22d56736e67a1bf1eba61">Ch. elys.</rs>― Nm. <rs type="person" xml:id="pNt_13886" ref="#person_15529"><forename>Paul</forename></rs> da; Abd. Komische Oper mit 
+            <p xml:space="preserve"><date when="1897-05-03">3/5</date> Vorm. Salon <rs type="place" xml:id="pl_02572" ref="#pmb90464">Ch. elys.</rs>― Nm. <rs type="person" xml:id="pNt_13886" ref="#person_15529"><forename>Paul</forename></rs> da; Abd. Komische Oper mit 
 <rs ref="#person_19150" type="person" xml:id="pNt_13887"><forename>Mz.</forename></rs> <rs type="work" xml:id="bibl_21632">Jeanettes Hochzeit</rs> und <rs type="work" xml:id="bibl_21633">Orpheus</rs> (<rs type="person" xml:id="pNt_13888" ref="#person_14405"><surname>Delna</surname></rs>).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

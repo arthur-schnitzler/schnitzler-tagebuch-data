@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1896-08-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-08-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-08-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1896-08-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-08-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-08-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EB58-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,15 +177,17 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1218.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1896-08-13">
-            <p xml:space="preserve"><date when="1896-08-13">13/8</date> In <rs type="place" xml:id="pl_02424" ref="#place_226e71f7dbaedcb5e25a3998ca43db21">Kop.</rs>, wo ich für <rs type="person" xml:id="pNt_12513" ref="#person_13551"><forename>Richard</forename> <surname>B.-H.</surname></rs> eine milit. Angelegenheit beim 
+            <p xml:space="preserve"><date when="1896-08-13">13/8</date> In <rs type="place" xml:id="pl_02424" ref="#pmb36300">Kop.</rs>, wo ich für <rs type="person" xml:id="pNt_12513" ref="#person_13551"><forename>Richard</forename> <surname>B.-H.</surname></rs> eine milit. Angelegenheit beim 
 Consulat ordnete.― Museum.― <rs type="person" xml:id="pNt_12514" ref="#person_18355"><surname>Nansen</surname></rs> und der junge Mann <rs type="person" xml:id="pNt_12515" ref="#person_15695"><surname>Gr.</surname></rs> im Rest.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1899-09-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-09-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-09-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1899-09-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-09-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-09-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EF93-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1513.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1899-09-14">
-            <p xml:space="preserve"><date when="1899-09-14">14/9</date> Vorm. mit <rs type="person" xml:id="pNt_16536" ref="#person_14734"><forename>M.</forename> <surname>E.</surname></rs> nach der überschwemmten <rs type="place" xml:id="pl_03239" ref="#place_fbb9488d92ec0117fd5e3a27fc0e875a">Isar</rs>; Anlagen, 
+            <p xml:space="preserve"><date when="1899-09-14">14/9</date> Vorm. mit <rs type="person" xml:id="pNt_16536" ref="#person_14734"><forename>M.</forename> <surname>E.</surname></rs> nach der überschwemmten <rs type="place" xml:id="pl_03239" ref="#pmb90936">Isar</rs>; Anlagen, 
 erzähle ihr „<rs type="work" subtype="self" xml:id="bibl_18569">Beatrice</rs>“.― Abd. <rs type="work" subtype="self" xml:id="bibl_18570">3 Einakter</rs> im Residenztheater, mit <rs type="person" xml:id="pNt_16537" ref="#person_14734"><forename>M.</forename> 
 <surname>E.</surname></rs>― <rs type="work" subtype="self" xml:id="bibl_18571">Gefährtin</rs> wirkte am stärksten auf mich.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

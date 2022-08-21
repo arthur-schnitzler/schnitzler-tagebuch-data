@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-08-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-08-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-08-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-08-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-08-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-08-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F63D-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1956.tif"/>
@@ -181,11 +185,10 @@
       <body>
          <div type="diary-day" xml:id="entry__1904-08-08">
             <p xml:space="preserve"><date when="1904-08-08">8/8</date> Nm. am 2. Akt.― <rs type="person" xml:id="pNt_21423"><surname>Vehse</surname></rs> (<rs type="work" xml:id="bibl_17199">Geschichte der Höfe</rs>).―</p>
-            <p xml:space="preserve" rend="indent">Abd. (Regen) mit O. <rs type="place" xml:id="pl_04844" ref="#place_f5af0e4beb99b2ded62ac5ff72643954">Dornbach</rs>, Rohrerhütte.―</p>
+            <p xml:space="preserve" rend="indent">Abd. (Regen) mit O. <rs type="place" xml:id="pl_04844" ref="#pmb90546">Dornbach</rs>, Rohrerhütte.―</p>
             <p xml:space="preserve" rend="indent">An <rs type="person" xml:id="pNt_21424" ref="#person_13913"><surname>Brahm</surname></rs>, wegen der 3 Stücke, die ich vielleicht <rs type="person" xml:id="pNt_21425" ref="#person_19154"><surname>Reinhardt</surname></rs> 
 gebe (<rs type="work" subtype="self" xml:id="bibl_17200">Cassian</rs>, <rs type="work" subtype="self" xml:id="bibl_17201">Delorme</rs>, <rs type="work" subtype="self" xml:id="bibl_17202">Marionetten</rs>).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

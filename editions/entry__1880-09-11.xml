@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1880-09-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-09-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-09-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1880-09-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-09-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-09-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DDB4-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,12 +177,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0098.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1880-09-11">
             <p xml:space="preserve"><date when="1880-09-11">11/9</date> Samstag.― Im Café Central mir einen dramat. Plan zurechtgelegt; 
 dann geschichtliches (Zoologie) aus <rs type="person" xml:id="pNt_00844" ref="#person_14228"><surname>Claus</surname></rs> studirt. Bei <rs type="person" xml:id="pNt_00845" ref="#person_19811"><forename>Sigmund</forename> <surname>Schneider</surname></rs> 
@@ -189,5 +194,6 @@ meine Augen ließen nicht viel zu; <rs type="person" xml:id="pNt_00851" ref="#pe
 sah ich mir den <rs type="work" xml:id="bibl_23496">Königslieutenant</rs> in der Burg an; eine prachtvolle 
 Leistung <rs type="person" xml:id="pNt_00852" ref="#person_20204"><surname>Sonnenthals</surname></rs>. Nach ihm am besten die <rs type="person" xml:id="pNt_00853" ref="#person_15946"><surname>Hartmann</surname></rs>.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1897-10-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-10-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-10-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1897-10-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-10-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-10-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-ECF8-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1381.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1897-10-08">
-            <p xml:space="preserve"><date when="1897-10-08">8/10</date> Vorm. <rs type="place" xml:id="pl_02762" ref="#place_f0ef1fe3f949f690ba52cff060d5229f">M.</rs> Bei <rs ref="#person_15485" type="person" xml:id="pNt_14486"><forename>M. I.</forename></rs> Erzähle ihr, dass ich keinen Grund habe, jene 
+            <p xml:space="preserve"><date when="1897-10-08">8/10</date> Vorm. <rs type="place" xml:id="pl_02762" ref="#pmb91217">M.</rs> Bei <rs ref="#person_15485" type="person" xml:id="pNt_14486"><forename>M. I.</forename></rs> Erzähle ihr, dass ich keinen Grund habe, jene 
 andre zu verlassen; zu theilen aber wäre sie sowohl als jene zu gut.― 
 Sie weinte. Das unvermeidliche geschah doch.― Ich hatte weniger 
 Genuss, als mir jedes andre beliebige weibl. Wesen gewährt hätte.― 
-Im <rs type="place" ref="#place_volkstheater">Volksth.</rs> bei <rs type="person" xml:id="pNt_14487" ref="#person_15941"><surname>Hartlebens</surname></rs> „<rs type="work" xml:id="bibl_21701">Erziehung zur Ehe</rs>“ und <rs type="work" xml:id="bibl_21702">Lore</rs>.</p>
+Im <rs type="place" ref="#pmb92202">Volksth.</rs> bei <rs type="person" xml:id="pNt_14487" ref="#person_15941"><surname>Hartlebens</surname></rs> „<rs type="work" xml:id="bibl_21701">Erziehung zur Ehe</rs>“ und <rs type="work" xml:id="bibl_21702">Lore</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

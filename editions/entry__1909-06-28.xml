@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-06-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-06-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-06-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-06-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-06-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-06-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FD11-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2714.tif"/>
@@ -183,10 +187,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1909-06-28">
-            <p xml:space="preserve"><date when="1909-06-28">28/6</date> Vm. ins <rs type="place" ref="#place_burgtheater">Burgtheater</rs>, werde zu <rs type="person" xml:id="pNt_30541" ref="#person_19724"><surname>Schlenther</surname></rs>, in seine Privatkanzlei 
+            <p xml:space="preserve"><date when="1909-06-28">28/6</date> Vm. ins <rs type="place" ref="#pmb14">Burgtheater</rs>, werde zu <rs type="person" xml:id="pNt_30541" ref="#person_19724"><surname>Schlenther</surname></rs>, in seine Privatkanzlei 
 gebeten. Er hat <rs type="work" subtype="self" xml:id="bibl_12720">Medardus</rs> gelesen, „mit wärmerer Antheilnahme als 
 irgendeines Ihrer Werke“, kommt eben vom Fürsten <rs type="person" xml:id="pNt_30542" ref="#person_18237"><surname>Montenuovo</surname></rs>, der 
-drei Bedenken hat: 1) <rs type="role" xml:id="pNt_30543"><roleName>Herzog</roleName> <surname>Berry</surname></rs> … 2) Schloß <rs type="place" xml:id="pl_06728" ref="#place_971d9360a377fa82fd2640a5119b1112">Schönbrunn</rs> 3) daß 
+drei Bedenken hat: 1) <rs type="role" xml:id="pNt_30543"><roleName>Herzog</roleName> <surname>Berry</surname></rs> … 2) Schloß <rs type="place" xml:id="pl_06728" ref="#pmb92518">Schönbrunn</rs> 3) daß 
 die <rs type="place" xml:id="pl_06729" ref="#place_ee4c6f2f0df2cd2abf7db20478cad25d" ana="#exclude">Wiener</rs> schlecht drin wegkommen. Erwidre auf 1) daß der Name 
 ohne weiters geändert werden könnte, auf 2) kaum zu ändern 3) daß 
 sehr brave <rs type="place" xml:id="pl_06730" ref="#place_ee4c6f2f0df2cd2abf7db20478cad25d" ana="#exclude">Wiener</rs> vorkommen, <rs type="figur">Frau Klaehr</rs>, <rs type="figur" xml:id="pNt_30545"><surname>Eschenbacher</surname></rs> ― und daß 
@@ -218,9 +222,8 @@ Operation gemacht. (Sprach auch seine Frau im Garten.) Medizinisches.―</p>
             <p xml:space="preserve" rend="indent"><rs type="work" subtype="self" xml:id="bibl_12724">Med.</rs> ist das erste Stück, das ich eingereicht, ohne daß es ein andrer 
 kennt. Auch O. kennt nur die frühere Fassung.</p>
             <p xml:space="preserve" rend="indent">Will noch nicht an die Realität glauben; es wäre eine große Freude ―</p>
-            <p xml:space="preserve" rend="indent">Mit O. Abends spazieren, im <rs type="place" xml:id="pl_06732" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs> genachtmahlt.―</p>
+            <p xml:space="preserve" rend="indent">Mit O. Abends spazieren, im <rs type="place" xml:id="pl_06732" ref="#pmb113">Türkenschanzpark</rs> genachtmahlt.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

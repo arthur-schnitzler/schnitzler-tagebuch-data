@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1925-01-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-01-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-01-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1925-01-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-01-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-01-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1336-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6427.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1925-01-09">
-            <p xml:space="preserve"><date when="1925-01-09">9/1</date> Mit <rs type="person" xml:id="pNt_74175" ref="#person_14130"><forename>Lili</forename></rs> 8 <rs type="place" xml:id="pl_15853" ref="#place_a330ac6c48198545d4d2f9ff2cb0fc05">Stuttgart</rs>. Bahnhof <rs type="person" xml:id="pNt_74176" ref="#person_15784"><forename>Walter</forename> <surname>Guttmann</surname></rs> (Buchhdlg. <rs type="institution" xml:id="pNt_74177"><forename>Paul</forename> <surname>Neff</surname></rs>). Hotel 
+            <p xml:space="preserve"><date when="1925-01-09">9/1</date> Mit <rs type="person" xml:id="pNt_74175" ref="#person_14130"><forename>Lili</forename></rs> 8 <rs type="place" xml:id="pl_15853" ref="#pmb872">Stuttgart</rs>. Bahnhof <rs type="person" xml:id="pNt_74176" ref="#person_15784"><forename>Walter</forename> <surname>Guttmann</surname></rs> (Buchhdlg. <rs type="institution" xml:id="pNt_74177"><forename>Paul</forename> <surname>Neff</surname></rs>). Hotel 
 <rs type="institution" xml:id="pNt_74178"><surname>Marquardt</surname></rs>, wo er mit uns speist. Nm. Bummel; in seine Buchhandlung, wo <rs type="person" xml:id="pNt_74179" ref="#person_14130"><forename>Lili</forename></rs> 
 noch eine Weile bleibt.― Zu Hause einiges durchgelesen.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_74180" ref="#person_15784"><roleName>Hr.</roleName> <surname>Guttm.</surname></rs> holt uns zur Vorlesung. Überfüllter schlechter Saal ― Ich lese 
@@ -194,6 +198,5 @@ Cultusminister <rs type="person" xml:id="pNt_74184" ref="#person_16182"><surname
 <rs type="person" xml:id="pNt_74185" ref="#person_14130"><forename>Lili</forename></rs> nach Hause.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

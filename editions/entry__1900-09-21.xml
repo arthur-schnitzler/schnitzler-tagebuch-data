@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1900-09-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-09-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-09-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1900-09-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-09-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-09-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F0F6-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -162,7 +166,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1587.tif"/>
@@ -171,7 +175,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1900-09-21">
-            <p xml:space="preserve"><date when="1900-09-21">21/9</date> <rs type="place" xml:id="pl_03546" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs>, Spazierg. mit <rs type="person" xml:id="pNt_17366" ref="#person_14073"><forename>Lola</forename></rs>. Zu einer Bank, wo sie vor 2
+            <p xml:space="preserve"><date when="1900-09-21">21/9</date> <rs type="place" xml:id="pl_03546" ref="#pmb169">Pötzleinsdorf</rs>, Spazierg. mit <rs type="person" xml:id="pNt_17366" ref="#person_14073"><forename>Lola</forename></rs>. Zu einer Bank, wo sie vor 2
 Jahren mit der <rs type="allusively" xml:id="rst_00323">Entschwundnen</rs> sass.―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_17367" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs> da.― Später bei <rs type="person" xml:id="pNt_17368" ref="#person_19832"><forename>D.</forename> <surname>M.</surname></rs> Nachher, als unverbesserlicher
 Crétin doch noch in den Thiergarten, zu sehen, ob nicht am Ende <rs type="person" xml:id="pNt_17369" ref="#person_18303"><forename>P.</forename>
@@ -179,12 +183,11 @@ Crétin doch noch in den Thiergarten, zu sehen, ob nicht am Ende <rs type="perso
 <rs type="person" xml:id="pNt_17372" ref="#person_21465"><surname>Wolzogen</surname></rs> sympathisch, frei, lebendig, strebend, wenn auch ohne
 Kritik und Größe. <rs type="person" xml:id="pNt_17373" ref="#person_13996"><surname>Adamus</surname></rs> recht unwahrer Mensch. Ich vertrag aber
 keine Leute mehr.―</p>
-            <p xml:space="preserve" rend="indent">Wie mir <rs type="person" xml:id="pNt_17374" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs> sagt, dass sie gestern mit <rs type="person" xml:id="pNt_17375" ref="#person_14102"><surname>C.</surname></rs> im <rs type="place" xml:id="pl_03547" ref="#place_86a694cf5ce5552ca627cb96b607eccd">Prater</rs>, in der
-<rs type="place" xml:id="pl_03548" ref="#place_8590235972359d542ece913e986d29c7">Hauptallee</rs> spazieren gegangen, Abends gegen 8. „Wir waren sicher
+            <p xml:space="preserve" rend="indent">Wie mir <rs type="person" xml:id="pNt_17374" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs> sagt, dass sie gestern mit <rs type="person" xml:id="pNt_17375" ref="#person_14102"><surname>C.</surname></rs> im <rs type="place" xml:id="pl_03547" ref="#pmb91530">Prater</rs>, in der
+<rs type="place" xml:id="pl_03548" ref="#pmb92458">Hauptallee</rs> spazieren gegangen, Abends gegen 8. „Wir waren sicher
 die einzigen.“― Und gerade um dieselbe Zeit ging ich mit <rs type="person" xml:id="pNt_17376" ref="#person_19832"><forename>D.</forename> <surname>M.</surname></rs> dort
 spazieren.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

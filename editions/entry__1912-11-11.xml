@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-11-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-11-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-11-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-11-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-11-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-11-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-01E1-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3513.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1912-11-11">
-            <p xml:space="preserve"><date when="1912-11-11">11/11</date> Nach nicht guter Nacht Ankunft <rs type="place" xml:id="pl_08080" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>. Hotel Esplanade. 
+            <p xml:space="preserve"><date when="1912-11-11">11/11</date> Nach nicht guter Nacht Ankunft <rs type="place" xml:id="pl_08080" ref="#pmb168">Berlin</rs>. Hotel Esplanade. 
 Frühstück. Bad. <rs type="person" xml:id="pNt_39266" ref="#person_13428"><surname>Barnowsky</surname></rs> holt mich ab. Ich lese den versammelten 
 Schauspielern im Foyer des Kl. Th., mit Kopfweh und schlecht 
 disponirt den <rs type="work" subtype="self" xml:id="bibl_10587">Bernhardi</rs> vor, anfangs schlecht, dann besser.―</p>
@@ -199,13 +203,12 @@ möglich. Er spricht von seinen weitern Plänen (Einakter, die er haben
 will etc.), trotz wahrscheinlicher Operation. <rs type="person" xml:id="pNt_39270" ref="#person_16572"><roleName>Frau</roleName> <surname>Jonas</surname></rs> (wie fast 
 immer) bei ihm.―</p>
             <p xml:space="preserve" rend="indent">Zu <rs type="person" xml:id="pNt_39271"><surname>Ziegels</surname></rs>. Er spielt im verkrachten <rs type="person" xml:id="pNt_39272" ref="#person_17696"><surname>Lothar</surname></rs> Theater; sie hat in 
-<rs type="place" xml:id="pl_08081" ref="#place_67eb2b8d0aab60ec69666532ff9527c9">Holland</rs> gastirt, 32mal hintereinander in andern Städten jede Nacht 
+<rs type="place" xml:id="pl_08081" ref="#pmb44016">Holland</rs> gastirt, 32mal hintereinander in andern Städten jede Nacht 
 geschlafen. Den <rs type="figur">Ebenwald</rs> bei <rs type="person" xml:id="pNt_39274" ref="#person_13428"><surname>Barnowsky</surname></rs>, und auch den Helden im 
 neuen <rs type="person" xml:id="pNt_39275" ref="#person_17834"><forename>Heinrich</forename> <surname>Mann</surname></rs> will er nicht spielen. Begleite ihn ins Theater, 
 <rs type="person" xml:id="pNt_39276" ref="#person_21546"><forename>Mirjam</forename></rs> mich bis nach Hause.―</p>
             <p xml:space="preserve" rend="indent">Allein im Hotel genachtmahlt.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

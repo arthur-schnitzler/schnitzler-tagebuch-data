@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1924-01-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-01-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-01-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1924-01-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-01-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-01-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-11C3-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,13 +177,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6178.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6179.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1924-01-04">
             <p xml:space="preserve"><date when="1924-01-04">4/1</date> Früh zu <rs type="person" xml:id="pNt_71155" ref="#person_16370"><roleName>Dr.</roleName> <surname>Hornegg</surname></rs>, von wo ich mir <rs type="person" xml:id="pNt_71156" ref="#person_14130"><forename>Lilis</forename></rs> Zopf holte. Die 
 Indicien dafür, dass <rs type="person" xml:id="pNt_71157" ref="#person_14130"><forename>Lili</forename></rs> selbst die „Thäterin“ war, sind in seinem 
@@ -199,5 +204,6 @@ unerträglich ― ― </p>
 „Wie kannst du nur glauben.―“</p>
             <p xml:space="preserve" rend="indent">Lese das <rs type="person" xml:id="pNt_71166"><surname>Wittelsbuch</surname></rs> <rs type="work" xml:id="bibl_20714">über <rs type="person" xml:id="pNt_71167"><surname>Freud</surname></rs></rs>  zu Ende.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

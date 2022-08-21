@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1896-05-31.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-05-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-06-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1896-05-31.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-05-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-06-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EB14-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1174.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1896-05-31">
-            <p xml:space="preserve"><date when="1896-05-31">31/5</date> Bic. mit <rs type="person" xml:id="pNt_12276" ref="#person_19542"><surname>Salten</surname></rs> <rs type="place" xml:id="pl_02267" ref="#place_02031ed2507818d10a37c1a6bf0c9f9d">Mödling</rs> ― <rs type="place" xml:id="pl_02268" ref="#place_1c24743c9fa25eb3584fe72837b40057">Heiligenkreuz</rs> ― <rs type="place" xml:id="pl_02269" ref="#place_d7baee5f6ed67d7e9e336e1877ebe349">Mayerling</rs> ― <rs type="place" xml:id="pl_02270" ref="#place_4aee0ba8deb6ed0f68f1345844d493fb">Neuhaus</rs> 
-(dort <rs type="person" xml:id="pNt_12277" ref="#person_13551"><forename>Rich.</forename></rs> und <rs type="person" xml:id="pNt_12278" ref="#person_13550"><forename>Paula</forename></rs>) ― <rs type="place" xml:id="pl_02271" ref="#place_0e891dbd1b1814a0cddd64e270c6ffac">Vöslau</rs>.―</p>
+            <p xml:space="preserve"><date when="1896-05-31">31/5</date> Bic. mit <rs type="person" xml:id="pNt_12276" ref="#person_19542"><surname>Salten</surname></rs> <rs type="place" xml:id="pl_02267" ref="#pmb968">Mödling</rs> ― <rs type="place" xml:id="pl_02268" ref="#pmb90845">Heiligenkreuz</rs> ― <rs type="place" xml:id="pl_02269" ref="#pmb49690">Mayerling</rs> ― <rs type="place" xml:id="pl_02270" ref="#pmb47414">Neuhaus</rs> 
+(dort <rs type="person" xml:id="pNt_12277" ref="#person_13551"><forename>Rich.</forename></rs> und <rs type="person" xml:id="pNt_12278" ref="#person_13550"><forename>Paula</forename></rs>) ― <rs type="place" xml:id="pl_02271" ref="#pmb992">Vöslau</rs>.―</p>
             <p xml:space="preserve" rend="center">Juni</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

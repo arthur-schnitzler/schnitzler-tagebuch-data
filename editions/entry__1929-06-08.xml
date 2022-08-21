@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-06-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-06-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-06-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-06-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-06-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-06-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1980-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7302.tif"/>
@@ -186,7 +190,7 @@
             <p xml:space="preserve" rend="indent">Dictirt „<rs type="work" subtype="self" xml:id="bibl_414">Spiel Sommerluft</rs>“.―</p>
             <p xml:space="preserve" rend="indent">Nm. „geordnet“ ― Briefe u. dgl. ― von <rs type="person" xml:id="pNt_86955" ref="#person_14130"><forename>Lili</forename></rs>.―</p>
             <p xml:space="preserve" rend="indent">― Heut Nachts hatt ich geträumt; ein kleiner Hof an andre grenzend, 
-etwa <rs type="place" xml:id="pl_18692" ref="#place_811c7ad30c4e603795ef80e0c113ad9e">Frankgasse</rs>, wo ich gewohnt;― ich stehe am Fenster parterre, als 
+etwa <rs type="place" xml:id="pl_18692" ref="#pmb397">Frankgasse</rs>, wo ich gewohnt;― ich stehe am Fenster parterre, als 
 wohnt ich dort; im Hof, auf Karren (?) sechs Packete, drei gelbe Mappen, 
 drei andre;― wie zur Übersiedlung hergerichtet;― doch seh ich Polizei 
 damit beschäftigt ― die saisiren will, weil herrenlos … ich schreie 
@@ -201,6 +205,5 @@ pathetisch. „Und dieses Wesen hat sterben müssen“,― was den
             <p xml:space="preserve" rend="indent">― Abds. bei <rs type="person" xml:id="pNt_86957" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> genachtm. Radio <rs type="person" xml:id="pNt_86958"><surname>Schubertbund</surname></rs> (<rs type="person" xml:id="pNt_86959" ref="#person_13290"><surname>Ast</surname></rs>, <rs type="person" xml:id="pNt_86960" ref="#person_21172"><surname>Weingartner</surname></rs>).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

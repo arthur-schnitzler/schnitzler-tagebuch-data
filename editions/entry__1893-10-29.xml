@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1893-10-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-10-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-10-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1893-10-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-10-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-10-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E768-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0786.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1893-10-29">
-            <p xml:space="preserve"><date when="1893-10-29">29/10</date> Sonntag.― Bic.club-partie. <rs type="place" xml:id="pl_01646" ref="#place_c9fe2ce48d12e0308505cd0da82e9273">Gloggnitz</rs> ― <rs type="place" xml:id="pl_01647" ref="#place_08410b353e472d0e33f2ee2bd19d4c6f">Seebenstein</rs> ― 
-<rs type="place" xml:id="pl_01648" ref="#place_0f0b5f02ced8b80e3d3afa7b48b4de39">Neustadt</rs>.― Wieder schöner Herbsttag.― Hatte Sehnsucht nach der <rs type="person" xml:id="pNt_08015" ref="#person_15485"><forename>Mz.</forename></rs>, 
+            <p xml:space="preserve"><date when="1893-10-29">29/10</date> Sonntag.― Bic.club-partie. <rs type="place" xml:id="pl_01646" ref="#pmb90727">Gloggnitz</rs> ― <rs type="place" xml:id="pl_01647" ref="#pmb91715">Seebenstein</rs> ― 
+<rs type="place" xml:id="pl_01648" ref="#pmb92109">Neustadt</rs>.― Wieder schöner Herbsttag.― Hatte Sehnsucht nach der <rs type="person" xml:id="pNt_08015" ref="#person_15485"><forename>Mz.</forename></rs>, 
 die ich geliebt habe.― Plötzlich merk ich wieder, daß mir Zärtlichkeit 
 abgeht.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

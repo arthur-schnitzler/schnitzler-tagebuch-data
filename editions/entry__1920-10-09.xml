@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-10-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-10-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-10-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1920-10-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-10-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-10-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0D26-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5198.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1920-10-09">
-            <p xml:space="preserve"><date when="1920-10-09">9/10</date> Vm. im Central <rs type="person" xml:id="pNt_60083" ref="#person_14754"><forename>Georg</forename> <surname>Engel</surname></rs> (<rs type="place" xml:id="pl_12571" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>), <rs type="person" xml:id="pNt_60084" ref="#person_13305"><surname>Auernheimer</surname></rs>, <rs type="person" xml:id="pNt_60085" ref="#person_19542"><surname>Salten</surname></rs>,― über 
+            <p xml:space="preserve"><date when="1920-10-09">9/10</date> Vm. im Central <rs type="person" xml:id="pNt_60083" ref="#person_14754"><forename>Georg</forename> <surname>Engel</surname></rs> (<rs type="place" xml:id="pl_12571" ref="#pmb168">Berlin</rs>), <rs type="person" xml:id="pNt_60084" ref="#person_13305"><surname>Auernheimer</surname></rs>, <rs type="person" xml:id="pNt_60085" ref="#person_19542"><surname>Salten</surname></rs>,― über 
 den „Bund <rs type="place" xml:id="pl_12572" ref="#place_196345e3618c54b2f4fdba400d606768" ana="#exclude">deutscher</rs> Erzähler“;― Verlags-, Urheberrechtsfragen.</p>
             <p xml:space="preserve" rend="indent">Beim Antiqu. Händler <rs type="person" xml:id="pNt_60086" ref="#person_19584"><surname>Satori</surname></rs>, mit <rs type="person" xml:id="pNt_60087" ref="#person_19832"><forename>O.</forename></rs> und <rs type="person" xml:id="pNt_60088" ref="#person_19822"><forename>Heini</forename></rs>, sowie Auernh., von 
 <rs type="person" xml:id="pNt_60089" ref="#person_14786"><roleName>Dr.</roleName> <surname>Ergas</surname></rs> dort eingeführt. Er zeigte uns einen Theil seiner 
@@ -189,10 +193,9 @@ außerordentlichen Sammlung. Allerlei komische Händlergeschichten.
 Originelle Figur.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_4303">Weiher</rs>.</p>
             <p xml:space="preserve" rend="indent">N. d. N. mit <rs type="person" xml:id="pNt_60090" ref="#person_19832"><forename>O.</forename></rs> bei <rs type="person" xml:id="pNt_60091" ref="#person_19227"><forename>Gerty</forename> <surname>Rheinhardt</surname></rs>. Das junge Ehepaar verabschiedete 
-sich vor seiner Übersiedlung nach <rs type="place" xml:id="pl_12573" ref="#place_d0a6343a081a7335baa965ce4fd0845c">München</rs>. Sprach Frau <rs type="person" xml:id="pNt_60092" ref="#person_20019"><forename>Nolly</forename> <surname>Seemann</surname></rs>, 
+sich vor seiner Übersiedlung nach <rs type="place" xml:id="pl_12573" ref="#pmb45258">München</rs>. Sprach Frau <rs type="person" xml:id="pNt_60092" ref="#person_20019"><forename>Nolly</forename> <surname>Seemann</surname></rs>, 
 <rs type="person" xml:id="pNt_60093" ref="#person_21224"><roleName>Fr.</roleName> <surname>Wellesz</surname></rs> u. a.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

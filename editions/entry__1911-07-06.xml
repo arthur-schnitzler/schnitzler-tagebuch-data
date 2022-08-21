@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-07-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-07-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-07-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-07-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-07-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-07-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FFF3-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3190.tif"/>
@@ -184,12 +188,11 @@
          <div type="diary-day" xml:id="entry__1911-07-06">
             <p xml:space="preserve"><date when="1911-07-06">6/7</date> Im Garten gelesen. <rs type="person" xml:id="pNt_35712" ref="#person_20192"><surname>Sombart</surname></rs> (<rs type="work" xml:id="bibl_11080">Judentum und Wirtschaftsleben</rs>), 
 <rs type="work" xml:id="bibl_11081"><rs type="person" xml:id="pNt_35713"><surname>Heine</surname></rs></rs> (<rs type="person" xml:id="pNt_35714" ref="#person_17108"><surname>Kraus</surname></rs>), <rs type="work" xml:id="bibl_11082">Orpheus</rs> (von <rs type="person" xml:id="pNt_35715" ref="#person_19142"><surname>Reinach</surname></rs>) etc.― Auch im 
-<rs type="place" xml:id="pl_07529" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs> spazieren, in düsterster Stimmung.</p>
+<rs type="place" xml:id="pl_07529" ref="#pmb113">Türkenschanzpark</rs> spazieren, in düsterster Stimmung.</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_35716" ref="#person_18884"><roleName>Dr.</roleName> <surname>Pollak</surname></rs> da. Ratschläge für den Sommer. Prächtiger 
 Mensch.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_35717" ref="#person_17958"><forename>Paul</forename> <surname>M.</surname></rs> zum Nachtmahl. <rs type="person" xml:id="pNt_35718" ref="#person_13359"><forename>Steffi</forename></rs> und <rs type="person" xml:id="pNt_35719" ref="#person_13355"><roleName>Frau</roleName> <surname>Bachrach</surname></rs> Abschied nehmend.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

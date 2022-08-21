@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-04-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-04-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-04-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-04-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-04-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-04-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0B12-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4832.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1919-04-25">
-            <p xml:space="preserve"><date when="1919-04-25">25/4</date> Vm. Probe zur Neustudirung <rs type="work" subtype="self" xml:id="bibl_4756">Ruf des Lebens</rs> im <rs type="place" ref="#place_volkstheater">Volksth.</rs> Bald in 
+            <p xml:space="preserve"><date when="1919-04-25">25/4</date> Vm. Probe zur Neustudirung <rs type="work" subtype="self" xml:id="bibl_4756">Ruf des Lebens</rs> im <rs type="place" ref="#pmb92202">Volksth.</rs> Bald in 
 einem Garderobezimmer, bald Foyer, bald Bühne. Schlampig, unfertig. 
 In acht Tagen, sagt ich dem Regisseur <rs type="person" xml:id="pNt_55884" ref="#person_19113"><roleName>Dr.</roleName> <surname>Reich</surname></rs>, könnt es eine gute 
 Vorstellung sein.― Seltsames Stück ― mit einem unheilbaren Bruch. 
@@ -194,6 +198,5 @@ Anhören …―</p>
             <p xml:space="preserve" rend="indent">Abd. Concert <rs type="person" xml:id="pNt_55885" ref="#person_21171"><forename>Paul</forename> <surname>Weingarten</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

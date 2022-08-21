@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1903-04-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-04-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-04-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1903-04-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-04-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-04-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F463-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1801.tif"/>
@@ -182,10 +186,9 @@
          <div type="diary-day" xml:id="entry__1903-04-17">
             <p xml:space="preserve"><date when="1903-04-17">17/4</date> Vm. O.― Nm. ein Doctor <rs type="person" xml:id="pNt_19760" ref="#person_15880"><surname>Hamburger</surname></rs> (schnorrend) ― <rs type="person" xml:id="pNt_19761" ref="#person_21486"><surname>Wymetal</surname></rs> mit 
 <rs type="person" xml:id="pNt_19762" ref="#person_20540"><forename>K. H.</forename> <surname>Strobl</surname></rs>. Dann <rs type="person" xml:id="pNt_19763" ref="#person_15529"><forename>Paul</forename> <surname>Goldmann</surname></rs>.― <rs type="person" xml:id="pNt_19764" ref="#person_20066"><roleName>Herr</roleName> <surname>Servadio</surname></rs> Geigenvirtuos mit 
-schauspielernder Tochter (<rs type="place" xml:id="pl_04234" ref="#place_a330ac6c48198545d4d2f9ff2cb0fc05">Stuttgart</rs> <rs type="place" xml:id="pl_04235" ref="#place_19ed5f8ceab486afbee6b3ba5c88884d">Dresden</rs>, <rs type="work" subtype="self" xml:id="bibl_17676">Liebelei</rs>, Rathschläge holen, 
+schauspielernder Tochter (<rs type="place" xml:id="pl_04234" ref="#pmb872">Stuttgart</rs> <rs type="place" xml:id="pl_04235" ref="#pmb90550">Dresden</rs>, <rs type="work" subtype="self" xml:id="bibl_17676">Liebelei</rs>, Rathschläge holen, 
 <rs type="person" xml:id="pNt_19765"><forename>Gretchen</forename></rs>, <rs type="place" xml:id="pl_04236" ref="#place_e409f98b893fb1090112768a7458422d" ana="#exclude">poln.</rs> Juden).―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

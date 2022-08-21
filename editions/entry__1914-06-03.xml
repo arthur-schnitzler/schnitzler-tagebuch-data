@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-06-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-06-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-06-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-06-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-06-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-06-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-041A-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,17 +177,19 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3833.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1914-06-03">
-            <p xml:space="preserve"><date when="1914-06-03">3/6</date> Regen. Mit O. und <rs type="person" xml:id="pNt_43544" ref="#person_20383"><forename>Albert</forename></rs> <rs type="place" xml:id="pl_08745" ref="#place_272452b157972659bec75e0679b79282">Feldafing</rs>; in der „Kaiserin Elisabeth“ 
-gegessen, <rs type="person" xml:id="pNt_43545" ref="#person_20386"><forename>Liesl</forename></rs> kam nach im Auto, so zurück nach <rs type="place" xml:id="pl_08746" ref="#place_300a9ca833420adc130ce572f2d757fd">Tutzing</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Abend mit O. gegen <rs type="place" xml:id="pl_08747" ref="#place_636bd885506dd0979cc0e4b9e76f5e23">Bernried</rs>.</p>
+            <p xml:space="preserve"><date when="1914-06-03">3/6</date> Regen. Mit O. und <rs type="person" xml:id="pNt_43544" ref="#person_20383"><forename>Albert</forename></rs> <rs type="place" xml:id="pl_08745" ref="#pmb53150">Feldafing</rs>; in der „Kaiserin Elisabeth“ 
+gegessen, <rs type="person" xml:id="pNt_43545" ref="#person_20386"><forename>Liesl</forename></rs> kam nach im Auto, so zurück nach <rs type="place" xml:id="pl_08746" ref="#pmb44493">Tutzing</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Abend mit O. gegen <rs type="place" xml:id="pl_08747" ref="#pmb47503">Bernried</rs>.</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_43546" ref="#person_20386"><forename>Liesl</forename></rs> mit <rs type="person" xml:id="pNt_43547" ref="#person_16465"><surname>Jacobis</surname></rs> gegessen zu Nacht.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

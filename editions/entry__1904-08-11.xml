@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-08-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-08-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-08-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-08-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-08-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-08-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F640-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1957.tif"/>
@@ -181,15 +185,14 @@
       <body>
          <div type="diary-day" xml:id="entry__1904-08-11">
             <p xml:space="preserve"><date when="1904-08-11">11/8</date> Vm. an der <rs type="work" subtype="self" xml:id="bibl_17203">Neuen Ehe</rs> (vorläufiger Titel des neuen Stücks).―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_21437" ref="#person_15101"><forename>Jonas</forename> <surname>Fraenkel</surname></rs>, auf der Durchreise, von <rs type="place" xml:id="pl_04849" ref="#place_103a821a3a6a0b923c9f74a39662bb51">Zürich</rs> in die 
-<rs type="place" xml:id="pl_04850" ref="#place_cee3d3ca3f7f91d212c119cd48873fd9">Karpathen</rs>. Ein braver, kluger, leider sehr schwerhöriger und armselig 
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_21437" ref="#person_15101"><forename>Jonas</forename> <surname>Fraenkel</surname></rs>, auf der Durchreise, von <rs type="place" xml:id="pl_04849" ref="#pmb484">Zürich</rs> in die 
+<rs type="place" xml:id="pl_04850" ref="#pmb91009">Karpathen</rs>. Ein braver, kluger, leider sehr schwerhöriger und armselig 
 aussehender Mensch.</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_21438" ref="#person_15529"><forename>Paul</forename> <surname>Goldmann</surname></rs>, auf der Durchreise nach <rs type="place" xml:id="pl_04851" ref="#place_d3d8d213fb1fbd178f1c9c4aea35cbc6">Tirol</rs>, speist bei uns; ganz 
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_21438" ref="#person_15529"><forename>Paul</forename> <surname>Goldmann</surname></rs>, auf der Durchreise nach <rs type="place" xml:id="pl_04851" ref="#pmb423">Tirol</rs>, speist bei uns; ganz 
 gemütl. Plaudern.―</p>
-            <p xml:space="preserve" rend="indent">Mit O. <rs type="place" xml:id="pl_04852" ref="#place_456956129851adb8efce513e9565f9da">Hainbach</rs>. Trauriges oder mehr schmieriges 
+            <p xml:space="preserve" rend="indent">Mit O. <rs type="place" xml:id="pl_04852" ref="#pmb90821">Hainbach</rs>. Trauriges oder mehr schmieriges 
 Wirtshaus.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-02-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-02-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-02-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-02-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-02-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-02-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1085-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,16 +177,17 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5977.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1923-02-19">
             <p xml:space="preserve"><date when="1923-02-19">19/2</date> Traum von <rs type="person" xml:id="pNt_68641" ref="#person_19832"><forename>O.</forename></rs>;― daß sie irgendwie durch mich sich gekränkt 
 fühlt.― Dann, oder früher? von <rs type="person" xml:id="pNt_68642" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs>, sie macht mir Vorwürfe wegen 
-Untreue;― plötzlich sind wir im <rs type="place" xml:id="pl_14557" ref="#place_86a694cf5ce5552ca627cb96b607eccd">Prater</rs> zwischen Buden,― sie noch 
+Untreue;― plötzlich sind wir im <rs type="place" xml:id="pl_14557" ref="#pmb91530">Prater</rs> zwischen Buden,― sie noch 
 verstimmt, ich erhebe mich, fliege, im Schlafrock, über ihr, ziehe sie 
 zu mir herauf, worauf der Traum einen erotischen Charakter annimmt. 
 (<rs type="work" xml:id="bibl_1657">Gott und die Bajadere</rs>;― Lecture von <rs type="work" xml:id="bibl_1658">Nana</rs> ―) ―</p>
@@ -191,8 +196,9 @@ zu mir herauf, worauf der Traum einen erotischen Charakter annimmt.
 <rs type="person" xml:id="pNt_68646" ref="#person_18881"><forename>Kolap</forename></rs> vorgespielt.―</p>
             <p xml:space="preserve" rend="indent">Las die Novelle „<rs type="work" subtype="self" xml:id="bibl_1661">letzter Brief eines Literaten</rs>“ nach Jahren 
 wieder durch; könnte doch wohl veröffentlicht werden.―</p>
-            <p xml:space="preserve" rend="indent">Da ich morgen auf 2 Tage nach <rs type="place" xml:id="pl_14558" ref="#place_6f4e3516ea738ef16c51614925de4154">Edlach</rs> fahren will, verbrachte ich 
+            <p xml:space="preserve" rend="indent">Da ich morgen auf 2 Tage nach <rs type="place" xml:id="pl_14558" ref="#pmb470">Edlach</rs> fahren will, verbrachte ich 
 zwangshaft ein paar Stunden mit Vorbereitungen und Packen!―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

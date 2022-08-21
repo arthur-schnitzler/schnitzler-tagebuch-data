@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-06-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-06-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-06-06.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-06-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-06-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-06-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-197D-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7301.tif"/>
@@ -184,11 +188,10 @@
             <p xml:space="preserve"><date when="1929-06-05">5/6</date> Früh <rs type="person" xml:id="pNt_86941" ref="#person_17562"><forename>R.</forename> <surname>L.</surname></rs>― Behandlung.―</p>
             <p xml:space="preserve" rend="indent">Dictirt „<rs type="work" subtype="self" xml:id="bibl_409">Spiel Sommerl.</rs>“;― <rs type="work" xml:id="bibl_410">Tgb.</rs> <rs type="person" xml:id="pNt_86942" ref="#person_14130"><forename>Lili</forename></rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. vertrödelt wie meist.</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_86943" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> bei mir, adieu für <rs type="place" xml:id="pl_18688" ref="#place_c2ad928214981e457405589604924059">Ischl</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Z. N. ― bei <rs type="person" xml:id="pNt_86944" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Radio (<rs type="person" xml:id="pNt_86945" ref="#person_15032"><forename>Arthur</forename> <surname>Fleischer</surname></rs> und Serenade <rs type="place" xml:id="pl_18689" ref="#place_30b72d1d63fa424c75b648fb46c3065f">Josefsplatz</rs> 
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_86943" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> bei mir, adieu für <rs type="place" xml:id="pl_18688" ref="#pmb213">Ischl</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Z. N. ― bei <rs type="person" xml:id="pNt_86944" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Radio (<rs type="person" xml:id="pNt_86945" ref="#person_15032"><forename>Arthur</forename> <surname>Fleischer</surname></rs> und Serenade <rs type="place" xml:id="pl_18689" ref="#pmb92310">Josefsplatz</rs> 
 (Philharmoniker)).―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

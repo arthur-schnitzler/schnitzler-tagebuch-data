@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1917-02-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-02-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-02-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1917-02-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-02-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-02-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-07E7-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4400.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1917-02-02">
-            <p xml:space="preserve"><date when="1917-02-02">2/2</date> Schnee und Sonne; <rs type="place" xml:id="pl_10383" ref="#place_0c7f9957cbe5e1035c2f621b5a06cea8">Heuberg</rs>, <rs type="place" xml:id="pl_10384" ref="#place_187ad9aa5bf46727d6f6cd8ad17cad55">Gallitzinberg</rs>.―</p>
+            <p xml:space="preserve"><date when="1917-02-02">2/2</date> Schnee und Sonne; <rs type="place" xml:id="pl_10383" ref="#pmb90873">Heuberg</rs>, <rs type="place" xml:id="pl_10384" ref="#pmb90687">Gallitzinberg</rs>.―</p>
             <p xml:space="preserve" rend="indent">Zum Thee <rs ref="#person_19227" type="person" xml:id="pNt_49814"><forename>Gerty</forename></rs> (sang ein wenig) und <rs type="person" xml:id="pNt_49815" ref="#person_20543"><forename>Lili v.</forename> <surname>Landesberger</surname></rs>, <rs type="person" xml:id="pNt_49816" ref="#person_21602"><forename>Vicki</forename></rs> 
 (Spital <rs type="person" xml:id="pNt_49817" ref="#person_19093"><surname>Redlich</surname></rs> aufgenommen).―</p>
             <p xml:space="preserve" rend="indent">Am „<rs type="work" subtype="self" xml:id="bibl_6205">Nachklang</rs>“.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_49818" ref="#person_19822"><forename>Heini</forename></rs> <rs type="work" xml:id="bibl_6206"><rs type="person" xml:id="pNt_49819" ref="#person_14579"><surname>Dvorak-Sextett</surname></rs></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

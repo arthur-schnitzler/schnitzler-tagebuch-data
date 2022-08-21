@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1888-09-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1888-09-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1888-09-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1888-09-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1888-09-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1888-09-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E0B4-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0350.tif"/>
@@ -185,13 +189,14 @@
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0356.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0357.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1888-09-20">
             <p xml:space="preserve"><date when="1888-09-20">20/9</date> Donnerstag.</p>
             <p xml:space="preserve" rend="indent">Seither tagtäglich mit <rs type="person" xml:id="pNt_03333" ref="#person_16022"><forename>Jean.</forename></rs> zusammengewesen. Krank. Ein paar Tage 
 sehr; jetzt neuerdings eine Complication, die mich ungeheuer verstimmt ―</p>
-            <p xml:space="preserve" rend="indent">Die ganze Reise zu keiner rechten Freude gekommen. In <rs type="place" xml:id="pl_00735" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs> nur 
-einen Tag. In <rs type="place" xml:id="pl_00736" ref="#place_59ead8d1e124ccfb79f3ace06f43e703">London</rs> meist die Abende bei <rs type="person" xml:id="pNt_03334" ref="#person_17901"><roleName>Onkel</roleName> <forename>Felix</forename></rs> verbracht. Er 
+            <p xml:space="preserve" rend="indent">Die ganze Reise zu keiner rechten Freude gekommen. In <rs type="place" xml:id="pl_00735" ref="#pmb182">Paris</rs> nur 
+einen Tag. In <rs type="place" xml:id="pl_00736" ref="#pmb224">London</rs> meist die Abende bei <rs type="person" xml:id="pNt_03334" ref="#person_17901"><roleName>Onkel</roleName> <forename>Felix</forename></rs> verbracht. Er 
 etwas nervös, im ganzen liebenswürdig, starker Egoist. <rs type="person" xml:id="pNt_03335" ref="#person_17904"><forename>Julie</forename></rs>, seine 
 Frau treffliche Person. <rs type="person" xml:id="pNt_03336" ref="#person_17898"><forename>Gustav</forename></rs>, 2 <rs type="person" xml:id="pNt_03337"><forename>J.</forename></rs>, <rs type="person" xml:id="pNt_03338" ref="#person_17895"><forename>Sissy</forename></rs>, 1 <rs type="person" xml:id="pNt_03339"><forename>J.</forename></rs>, die Kinder. 
 <rs type="person" xml:id="pNt_03340" ref="#person_17906"><forename>Otto</forename></rs>, mein Cousin, ein bischen Militärnarr, aber gewisses Verständnis 
@@ -205,8 +210,8 @@ Berather, starke Intelligenz, leidenschaftlich in seinem Hass.― Keinen
 freundschaftl. Verkehr gepflogen. Mich doch ziemlich vereinsamt 
 gefühlt ― so im ganzen! ― Im Boarding House gewohnt; 
 unausstehliches Essen. Viele alte Jungfern; ein deutscher <rs type="person" xml:id="pNt_03345"><roleName>Hauptmann</roleName> <surname>v. Roeder</surname></rs>, 
-<rs type="person" xml:id="pNt_03346" ref="#person_15925"><roleName>Mr.</roleName> <surname>Hardy</surname></rs> aus <rs type="place" xml:id="pl_00737" ref="#place_e884124295d0c4d07d9bcf5096fd5495">Amerika</rs> (Schach)</p>
-            <p xml:space="preserve" rend="indent">Die Reise nach der <rs type="place" xml:id="pl_00738" ref="#place_1362b98bd2e1d02ae64a0d72368b3819">Isle of Wight</rs> mit einem jungen Deutschen 
+<rs type="person" xml:id="pNt_03346" ref="#person_15925"><roleName>Mr.</roleName> <surname>Hardy</surname></rs> aus <rs type="place" xml:id="pl_00737" ref="#pmb43406">Amerika</rs> (Schach)</p>
+            <p xml:space="preserve" rend="indent">Die Reise nach der <rs type="place" xml:id="pl_00738" ref="#pmb90938">Isle of Wight</rs> mit einem jungen Deutschen 
 in Drappanzug, <rs type="person" xml:id="pNt_03347" ref="#person_21301"><surname>Wien</surname></rs> gemacht; gescheidter und sympathischer Mensch.―</p>
             <p xml:space="preserve" rend="indent">Ein Mädl, namens <rs type="person" xml:id="pNt_03348" ref="#person_14222"><forename>Claire</forename></rs>; aber ohne in train zu kommen.―</p>
             <p xml:space="preserve" rend="indent">Literar. eine kurze Zeit lang angeregt gewesen; ein 1akt. Lustspiel 
@@ -218,10 +223,10 @@ geschrieben, die „<rs type="work" subtype="self" xml:id="bibl_18933">Erinnerun
 Briefe schrieb. <rs type="person" xml:id="pNt_03350" ref="#person_21047"><forename>Olga</forename></rs> verschwand schier völlig aus meinem Herzen, 
 habe ihre letzten Zeilen seit 6 Wochen nicht beantwortet.―</p>
             <p xml:space="preserve" rend="indent">Litt natürlich an ewiger schrecklicher Eifersucht.―</p>
-            <p xml:space="preserve" rend="indent">War froh, aus <rs type="place" xml:id="pl_00739" ref="#place_59ead8d1e124ccfb79f3ace06f43e703">London</rs> wegzukommen. Fuhr nach <rs type="place" xml:id="pl_00740" ref="#place_92ba21707d36e25feac6284cbd79724d">Ostende</rs>, nahm 
+            <p xml:space="preserve" rend="indent">War froh, aus <rs type="place" xml:id="pl_00739" ref="#pmb224">London</rs> wegzukommen. Fuhr nach <rs type="place" xml:id="pl_00740" ref="#pmb91417">Ostende</rs>, nahm 
 21 Seebäder. Eine dubiose Person, verheiratet allerdings, zog mich an 
 sich, bis der Höhepunkt kam. War mir dann schrecklich zuwider, 
-konnte mich ihrer schwer erwehren. Eine mir aus <rs type="place" xml:id="pl_00741" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> seit lang vom 
+konnte mich ihrer schwer erwehren. Eine mir aus <rs type="place" xml:id="pl_00741" ref="#pmb50">Wien</rs> seit lang vom 
 Sehen bekannte Frau, namens <rs type="person" xml:id="pNt_03351" ref="#person_20274"><forename>Adele</forename> <surname>W. Sp.</surname></rs> sammt Mann erschien 
 dann auf der Bildfläche, that mich in ihren Bann, umschlang mich 
 mit ihren Augen, und wir sprachen von der grande passion. Sie kam 
@@ -281,5 +286,6 @@ ein elendes Leben ist es, und nur lächerlich kann ich erscheinen, nicht
 anders!</p>
             <p xml:space="preserve" rend="indent">Chronik, Fortsetzung. (10/12 88)</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

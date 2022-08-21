@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-06-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-06-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-06-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-06-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-06-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-06-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-16AA-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,12 +177,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6884.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1927-06-13">
             <p xml:space="preserve"><date when="1927-06-13">13/6</date> Vm. <rs type="person" xml:id="pNt_80892" ref="#person_13141"><roleName>Miss</roleName> <surname>Alden</surname></rs> und Frau <rs type="person" xml:id="pNt_80893" ref="#person_19740"><roleName>Prof.</roleName> <surname>Schlick</surname></rs>; die mich bat, nächstens 
 ihren Gatten, den Nachfolger <rs type="person" xml:id="pNt_80894" ref="#person_17768"><surname>Machs</surname></rs> und Freund <rs type="person" xml:id="pNt_80895" ref="#person_14669"><surname>Einsteins</surname></rs> mitbringen zu 
@@ -187,5 +192,6 @@ dürfen. <rs type="person" xml:id="pNt_80896" ref="#person_13141"><roleName>Miss
             <p xml:space="preserve" rend="indent">Nm. <rs type="work" subtype="self" xml:id="bibl_24463">aphoristisches</rs>.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_80897" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> Kino (<rs type="work" xml:id="bibl_24464">Schwester Veronika</rs>).</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

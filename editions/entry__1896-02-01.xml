@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1896-02-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-01-31.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-02-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1896-02-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-01-31.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-02-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EA9C-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1109.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1896-02-01">
-            <p xml:space="preserve"><date when="1896-02-01">1/2</date> <rs type="place" xml:id="pl_02193" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>. Probe.― Mit <rs type="person" xml:id="pNt_11662" ref="#person_16517"><surname>Jarno</surname></rs> <rs type="place" xml:id="pl_02194" ref="#place_c9281b3282be2a3cfb1d849d5b9f1ad3">Westminster</rs> dinirt, <rs type="person" xml:id="pNt_11663" ref="#person_20681"><surname>Tewele’s</surname></rs>.― Von 
+            <p xml:space="preserve"><date when="1896-02-01">1/2</date> <rs type="place" xml:id="pl_02193" ref="#pmb168">Berlin</rs>. Probe.― Mit <rs type="person" xml:id="pNt_11662" ref="#person_16517"><surname>Jarno</surname></rs> <rs type="place" xml:id="pl_02194" ref="#pmb92601">Westminster</rs> dinirt, <rs type="person" xml:id="pNt_11663" ref="#person_20681"><surname>Tewele’s</surname></rs>.― Von 
 <rs type="person" xml:id="pNt_11664" ref="#person_19150"><forename>Mz.</forename> <surname>Rh.</surname></rs> liebe Karte. Bei <rs type="person" xml:id="pNt_11665" ref="#person_17771"><surname>Mackay</surname></rs>. Lessingth. (Ein Akt <rs type="work" xml:id="bibl_21789">Untreu</rs>.) 
 Wintergarten mit <rs type="person" xml:id="pNt_11666" ref="#person_16517"><surname>Jarno</surname></rs> und <rs type="person" xml:id="pNt_11667" ref="#person_16856"><surname>Kirstein</surname></rs>. Im Rest. <rs type="org">Krziwanek</rs>, wo 
 unangenehm wirkende Leute, Witzemacher, falsche <rs type="place" xml:id="pl_02195" ref="#place_ee4c6f2f0df2cd2abf7db20478cad25d" ana="#exclude">Wiener</rs> etc. <rs type="person" xml:id="pNt_11669" ref="#person_14537"><forename>Emil</forename></rs> 
@@ -189,6 +193,5 @@ unangenehm wirkende Leute, Witzemacher, falsche <rs type="place" xml:id="pl_0219
 <rs type="person" xml:id="pNt_11673" ref="#person_13913"><surname>Brahm</surname></rs> nett und sympathisch. Später <rs type="person" xml:id="pNt_11674" ref="#person_15703"><surname>Grünfeld’s</surname></rs>, <rs type="person" xml:id="pNt_11675" ref="#person_21465"><surname>Wolzogen</surname></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

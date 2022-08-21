@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1903-07-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-07-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-07-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1903-07-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-07-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-07-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F4C9-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1834.tif"/>
@@ -180,12 +184,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1903-07-28">
-            <p xml:space="preserve"><date when="1903-07-28">28/7</date> <rs type="place" xml:id="pl_04389" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> ― <rs type="place" xml:id="pl_04390" ref="#place_966ba8e3d9ef28c5abf6e069b8ee2b21">Schneeberg</rs> (Bahn). <rs type="place" xml:id="pl_04391" ref="#place_aecede6fe446940b47e603895525d06e">Kaiserstein</rs> und <rs type="place" xml:id="pl_04392" ref="#place_5b6b3ab74ef6552d94227588d4b21ea9">Klosterwappen</rs>.― Las 
+            <p xml:space="preserve"><date when="1903-07-28">28/7</date> <rs type="place" xml:id="pl_04389" ref="#pmb50">Wien</rs> ― <rs type="place" xml:id="pl_04390" ref="#pmb91691">Schneeberg</rs> (Bahn). <rs type="place" xml:id="pl_04391" ref="#pmb90977">Kaiserstein</rs> und <rs type="place" xml:id="pl_04392" ref="#pmb91042">Klosterwappen</rs>.― Las 
 <rs type="person" xml:id="pNt_20066" ref="#person_15108"><surname>France</surname></rs>, <rs type="work" xml:id="bibl_17784">histoire comique</rs>.― <rs type="person" xml:id="pNt_20067" ref="#person_13551"><forename>Richard</forename></rs> <rs type="person" xml:id="pNt_20068" ref="#person_13550"><forename>Paula</forename></rs> <rs type="person" xml:id="pNt_20069" ref="#person_13548"><forename>Mirjam</forename></rs> erscheinen.― Spaziergang. 
 Heftige Kopfweh.― <rs type="person" xml:id="pNt_20070" ref="#person_13551"><forename>Richard</forename></rs> erzählt prächtige Pläne. Besonders einer (mir 
 von früher bekannt) für mich zu dem tiefsinnigsten, das existirt.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

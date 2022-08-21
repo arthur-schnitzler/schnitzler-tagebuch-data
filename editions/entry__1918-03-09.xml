@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-03-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-03-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-03-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-03-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-03-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-03-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0976-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4605.tif"/>
@@ -182,11 +186,10 @@
       <body>
          <div type="diary-day" xml:id="entry__1918-03-09">
             <p xml:space="preserve"><date when="1918-03-09">9/3</date> Vm. Besorgungen.―</p>
-            <p xml:space="preserve" rend="indent">Zu Tisch <rs type="person" xml:id="pNt_52717" ref="#person_18560"><roleName>Frl.</roleName> <surname>Oppelt</surname></rs>, zum Thee <rs type="person" xml:id="pNt_52718" ref="#person_19227"><forename>Gerty v.</forename> <surname>L.</surname></rs> (aus <rs type="place" xml:id="pl_10889" ref="#place_601df943a89d2ac73e0e43a5d37fc228">Ungarn</rs> <rs type="place" xml:id="pl_10890" ref="#place_8d86f34f1e2d2dea2b48793b2734fae8">Arad</rs> zurück).―</p>
-            <p xml:space="preserve" rend="indent">Regisseur <rs type="person" xml:id="pNt_52719" ref="#person_19392"><surname>Rosenthal</surname></rs>; mit Anträgen von <rs type="person" xml:id="pNt_52720" ref="#person_13663"><surname>Bernau</surname></rs>, neuem <rs type="place" ref="#place_volkstheater">Volkstheater</rs>director 
+            <p xml:space="preserve" rend="indent">Zu Tisch <rs type="person" xml:id="pNt_52717" ref="#person_18560"><roleName>Frl.</roleName> <surname>Oppelt</surname></rs>, zum Thee <rs type="person" xml:id="pNt_52718" ref="#person_19227"><forename>Gerty v.</forename> <surname>L.</surname></rs> (aus <rs type="place" xml:id="pl_10889" ref="#pmb35512">Ungarn</rs> <rs type="place" xml:id="pl_10890" ref="#pmb45359">Arad</rs> zurück).―</p>
+            <p xml:space="preserve" rend="indent">Regisseur <rs type="person" xml:id="pNt_52719" ref="#person_19392"><surname>Rosenthal</surname></rs>; mit Anträgen von <rs type="person" xml:id="pNt_52720" ref="#person_13663"><surname>Bernau</surname></rs>, neuem <rs type="place" ref="#pmb92202">Volkstheater</rs>director 
 von August an; zugleich sehr guter Bekannter von ihm. Gute Aussichten.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

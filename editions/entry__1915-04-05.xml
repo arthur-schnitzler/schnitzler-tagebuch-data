@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-04-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-04-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-04-06.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1915-04-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-04-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-04-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-054A-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4018.tif"/>
@@ -182,15 +186,14 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1915-04-05">
-            <p xml:space="preserve"><date when="1915-04-05">5/4</date> Ostermontag. Trüberes Wetter. Spaziergang <rs type="place" xml:id="pl_09299" ref="#place_a4e19dfb23f1a34df28b229075997643">Liebhartsthal</rs>, <rs type="place" xml:id="pl_09300" ref="#place_187ad9aa5bf46727d6f6cd8ad17cad55">Galitzinberg</rs> 
-― <rs type="place" xml:id="pl_09301" ref="#place_9c457f4107132ccb2d87ebf5e13f0b74">Schafberg</rs>;― in einer merkwürdig ruhigen Stimmung, wie sie mir selten 
+            <p xml:space="preserve"><date when="1915-04-05">5/4</date> Ostermontag. Trüberes Wetter. Spaziergang <rs type="place" xml:id="pl_09299" ref="#pmb92374">Liebhartsthal</rs>, <rs type="place" xml:id="pl_09300" ref="#pmb90687">Galitzinberg</rs> 
+― <rs type="place" xml:id="pl_09301" ref="#pmb59367">Schafberg</rs>;― in einer merkwürdig ruhigen Stimmung, wie sie mir selten 
 zutheil wird.― Zur <rs type="person" xml:id="pNt_45287" ref="#person_21594"><roleName>Hofrätin</roleName> <surname>Z.</surname></rs> ins Sanatorium, politisches wie gewöhnlich.―</p>
-            <p xml:space="preserve" rend="indent">Zum Thee <rs type="person" xml:id="pNt_45288" ref="#person_14786"><surname>Ergas</surname></rs> und Frau; sie fahren vorläufig nicht nach <rs type="place" xml:id="pl_09302" ref="#place_241030ffac0efb4f7cb1f0bbee3cba66">Florenz</rs> zurück, 
-sondern <rs type="place" xml:id="pl_09303" ref="#place_103a821a3a6a0b923c9f74a39662bb51">Zürich</rs>.― <rs type="place" xml:id="pl_09304" ref="#place_8cf7cf26e2a1f54ebfa48f5fe238b811" ana="#exclude">Italienische</rs> Erpressungen, Unsicherheiten.―</p>
+            <p xml:space="preserve" rend="indent">Zum Thee <rs type="person" xml:id="pNt_45288" ref="#person_14786"><surname>Ergas</surname></rs> und Frau; sie fahren vorläufig nicht nach <rs type="place" xml:id="pl_09302" ref="#pmb263">Florenz</rs> zurück, 
+sondern <rs type="place" xml:id="pl_09303" ref="#pmb484">Zürich</rs>.― <rs type="place" xml:id="pl_09304" ref="#place_8cf7cf26e2a1f54ebfa48f5fe238b811" ana="#exclude">Italienische</rs> Erpressungen, Unsicherheiten.―</p>
             <p xml:space="preserve" rend="indent">Nach dem Nachtm. zu <rs type="person" xml:id="pNt_45289" ref="#person_19784"><surname>Schmutzers</surname></rs>, auf seinem neuen Billard mit ihm und seiner 
 Gattin einige Partien.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

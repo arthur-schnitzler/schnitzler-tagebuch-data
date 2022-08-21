@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-08-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-08-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-08-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1931-08-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-08-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-08-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1C99-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7757.tif"/>
@@ -182,9 +186,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1931-08-11">
-            <p xml:space="preserve"><date when="1931-08-11">11/8</date> <rs type="place" xml:id="pl_20080" ref="#place_d533f22e7175d6063cb4c4286fb92c0c">Gmunden</rs>.― Brief von <rs type="person" xml:id="pNt_93634" ref="#person_14234"><forename>Suz.</forename></rs> aus <rs type="place" xml:id="pl_20081" ref="#place_661f4200c3f047474d1df224f62f0503">Aussee</rs>;― von <rs type="person" xml:id="pNt_93635" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> aus <rs type="place" xml:id="pl_20082" ref="#place_ee73439f8e5bd57e3d0375ed174b4c76">Gastein</rs>, wegen 
+            <p xml:space="preserve"><date when="1931-08-11">11/8</date> <rs type="place" xml:id="pl_20080" ref="#pmb874">Gmunden</rs>.― Brief von <rs type="person" xml:id="pNt_93634" ref="#person_14234"><forename>Suz.</forename></rs> aus <rs type="place" xml:id="pl_20081" ref="#pmb415">Aussee</rs>;― von <rs type="person" xml:id="pNt_93635" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> aus <rs type="place" xml:id="pl_20082" ref="#pmb521">Gastein</rs>, wegen 
 ev. Zusammentreffens. Enervirt mich auch.</p>
-            <p xml:space="preserve" rend="indent">― <rs type="person" xml:id="pNt_93636" ref="#person_19822"><forename>Heini</forename></rs> über Mittag nach <rs type="place" xml:id="pl_20083" ref="#place_c2ad928214981e457405589604924059">Ischl</rs>.―</p>
+            <p xml:space="preserve" rend="indent">― <rs type="person" xml:id="pNt_93636" ref="#person_19822"><forename>Heini</forename></rs> über Mittag nach <rs type="place" xml:id="pl_20083" ref="#pmb213">Ischl</rs>.―</p>
             <p xml:space="preserve" rend="indent">Spaziergang mit <rs type="person" xml:id="pNt_93637" ref="#person_19832"><forename>O.</forename></rs> <rs type="place" xml:id="pl_20084" ref="#place_52d39f40a07145e05e44079e85e54415" ana="#exclude">Traunufer</rs>. Allgemein wirtschaftlich-politisches 
 Gespräch.― Kurze Ruhe an einer Hütte; der Besitzer stellt uns Sessel 
 hin.―</p>
@@ -194,6 +198,5 @@ mit ihm zurück, er hat kurzen Urlaub. Wir sehn ihm essen zu.―</p>
             <p xml:space="preserve" rend="indent">Später Spaziergang zu dritt. Nachtm. im Hotel zu viert.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

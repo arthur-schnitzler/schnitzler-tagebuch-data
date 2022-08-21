@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-12-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-12-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-12-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-12-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-12-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-12-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-18CC-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7206.tif"/>
@@ -182,13 +186,12 @@
       <body>
          <div type="diary-day" xml:id="entry__1928-12-10">
             <p xml:space="preserve"><date when="1928-12-10">10/12</date> Vm. dict.: <rs type="work" subtype="self" xml:id="bibl_19845">Aphor.</rs>; Briefe; <rs type="work" subtype="self" xml:id="bibl_19846">Th. Roman</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Zu Tisch <rs type="person" xml:id="pNt_85428" ref="#person_21594"><roleName>Hofrätin</roleName> <surname>Z.</surname></rs> und M. <rs type="person" xml:id="pNt_85429" ref="#person_13183"><forename>Denys</forename> <surname>Amiel</surname></rs> (<rs type="place" xml:id="pl_18424" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs>, Secretair der soc. 
+            <p xml:space="preserve" rend="indent">Zu Tisch <rs type="person" xml:id="pNt_85428" ref="#person_21594"><roleName>Hofrätin</roleName> <surname>Z.</surname></rs> und M. <rs type="person" xml:id="pNt_85429" ref="#person_13183"><forename>Denys</forename> <surname>Amiel</surname></rs> (<rs type="place" xml:id="pl_18424" ref="#pmb182">Paris</rs>, Secretair der soc. 
 intern. etc., Schriftsteller). Hauptsächlich wegen <rs type="work" subtype="self" xml:id="bibl_19847">Ronde</rs> die <rs type="person" xml:id="pNt_85430" ref="#person_13228"><surname>Antoine</surname></rs> 
 spielen will. Urheberrechtsfragen, <rs type="work" subtype="self" xml:id="bibl_19848">Frl. Else</rs> u. a. ― Anregend.―</p>
             <p xml:space="preserve" rend="indent">Nm. an <rs type="work" subtype="self" xml:id="bibl_19849">aphor.</rs>―</p>
             <p xml:space="preserve" rend="indent">Z. N. <rs type="person" xml:id="pNt_85431" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> bei mir.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

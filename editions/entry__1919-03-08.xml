@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-03-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-03-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-03-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-03-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-03-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-03-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0AE2-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4812.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1919-03-08">
-            <p xml:space="preserve"><date when="1919-03-08">8/3</date> Vm. <rs type="place" xml:id="pl_11545" ref="#place_bf303a935ba7bb30e892cb5d0f2ea6ac">Michaelerberg</rs>; in mäßigem Befinden und melancholischer Stimmung.―</p>
+            <p xml:space="preserve"><date when="1919-03-08">8/3</date> Vm. <rs type="place" xml:id="pl_11545" ref="#pmb91239">Michaelerberg</rs>; in mäßigem Befinden und melancholischer Stimmung.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_4647">Weiher</rs> gemüht.―</p>
             <p xml:space="preserve" rend="indent">Mit O. und <rs type="person" xml:id="pNt_55615" ref="#person_19822"><forename>Heini</forename></rs> bei der <rs type="allusively" xml:id="rst_01616">Hofrätin</rs>. Polterabend <rs type="person" xml:id="pNt_55616" ref="#person_21597"><forename>Fritz</forename></rs>. Gegen 50 Menschen. 
 <rs type="person" xml:id="pNt_55617" ref="#person_15210"><surname>Friedell</surname></rs> machte seine Späße, ohne Laune.― Geplauder mit ihm (über 
@@ -189,9 +193,8 @@
 im „<rs type="work" subtype="self" xml:id="bibl_4649">Wort</rs>“ nicht eben „verewigt“).―</p>
             <p xml:space="preserve" rend="indent">Im ganzen wars langweilig und überflüssig. <rs type="person" xml:id="pNt_55622"><roleName>Dr.</roleName> <surname>Szeps</surname></rs> brachte trübes aus 
 der <rs type="place" xml:id="pl_11546" ref="#place_c5ec7227e68b921a63348b101c573914" ana="#exclude">deutschen</rs> Botschaft. <rs type="person" xml:id="pNt_55623" ref="#person_21132"><surname>Wedel</surname></rs> „gebrochen“ hält Bolschewismus für 
-unaufhaltsam.― Aufhebung der Blockade für <rs type="place" xml:id="pl_11547" ref="#place_b472f5868425ac2bc44e693fc3267e87">Oesterreich</rs>.―</p>
+unaufhaltsam.― Aufhebung der Blockade für <rs type="place" xml:id="pl_11547" ref="#pmb41240">Oesterreich</rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

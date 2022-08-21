@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1917-11-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-11-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-11-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1917-11-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-11-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-11-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0906-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4553.tif"/>
@@ -183,7 +187,7 @@
          <div type="diary-day" xml:id="entry__1917-11-16">
             <p xml:space="preserve"><date when="1917-11-16">16/11</date> Vm. dictirt „<rs type="work" subtype="self" xml:id="bibl_6913">Sohn</rs>“ weiter.―</p>
             <p xml:space="preserve" rend="indent">Nm. „<rs type="work" subtype="self" xml:id="bibl_6914">Schwestern</rs>“ Abschrift durchzusehn begonnen.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" ref="#place_volkstheater">Volksth.</rs> „<rs type="work" xml:id="bibl_6915">Leidenschaft</rs>“ von <rs type="person" xml:id="pNt_51884" ref="#person_14821"><surname>Eulenberg</surname></rs>; mit <rs type="person" xml:id="pNt_51885" ref="#person_16770"><forename>Arthur</forename> <surname>Kfm.</surname></rs> und <rs type="person" xml:id="pNt_51886" ref="#person_19986"><forename>Gustav</forename></rs>.―</p>
+            <p xml:space="preserve" rend="indent"><rs type="place" ref="#pmb92202">Volksth.</rs> „<rs type="work" xml:id="bibl_6915">Leidenschaft</rs>“ von <rs type="person" xml:id="pNt_51884" ref="#person_14821"><surname>Eulenberg</surname></rs>; mit <rs type="person" xml:id="pNt_51885" ref="#person_16770"><forename>Arthur</forename> <surname>Kfm.</surname></rs> und <rs type="person" xml:id="pNt_51886" ref="#person_19986"><forename>Gustav</forename></rs>.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_51887" ref="#person_21074"><surname>Wallner</surname></rs> kam; über die <rs type="work" subtype="self" xml:id="bibl_6916">Fldb.</rs> Kritiken. (Heute natürlich noch ärgere;― 
 ich bin so gut wie unberührt.) ― In der Concordia war (vor der Premiere) 
 eine Berathung, wie man sich zu verhalten habe. (<rs type="person" xml:id="pNt_51888" ref="#person_13305"><surname>Auernheimer</surname></rs> war nicht 
@@ -194,6 +198,5 @@ menschlich gut gehaltnes Telegramm (aus dem man freilich merkt, daß er
 das Stück nicht mag). Ich that ihm diesmal Unrecht.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

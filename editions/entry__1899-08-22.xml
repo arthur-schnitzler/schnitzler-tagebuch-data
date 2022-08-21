@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1899-08-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-08-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-08-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1899-08-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-08-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-08-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EF83-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1510.tif"/>
@@ -183,12 +187,11 @@
          <div type="diary-day" xml:id="entry__1899-08-22">
             <p xml:space="preserve"><date when="1899-08-22">22/8</date> Tante <rs type="person" xml:id="pNt_16502" ref="#person_19664"><forename>Marie</forename> <surname>Schey</surname></rs> starb heute.―</p>
             <p xml:space="preserve" rend="indent">Bosheiten und Albernheiten der Dienstleute.―</p>
-            <p xml:space="preserve" rend="indent">Hatte die Ahnung, dass sie heuer im Sommer sterben werde, weil <rs type="person" xml:id="pNt_16503" ref="#person_15485"><surname>Gl.s</surname></rs> nach <rs type="place" xml:id="pl_03226" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>.</p>
-            <p xml:space="preserve" rend="indent">― <rs type="person" xml:id="pNt_16504" ref="#person_14734"><forename>M.</forename> <surname>E.</surname></rs> in <rs type="place" xml:id="pl_03227" ref="#place_5cea8f71bfa6f42547adaf63d65eb3ed">Partenkirchen</rs>.― <rs type="person" xml:id="pNt_16505" ref="#person_15485"><surname>Gl.</surname></rs> in <rs type="place" xml:id="pl_03228" ref="#place_36660b0099a8fb7694b57edcbb304e09">Abbazia</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Hatte die Ahnung, dass sie heuer im Sommer sterben werde, weil <rs type="person" xml:id="pNt_16503" ref="#person_15485"><surname>Gl.s</surname></rs> nach <rs type="place" xml:id="pl_03226" ref="#pmb168">Berlin</rs>.</p>
+            <p xml:space="preserve" rend="indent">― <rs type="person" xml:id="pNt_16504" ref="#person_14734"><forename>M.</forename> <surname>E.</surname></rs> in <rs type="place" xml:id="pl_03227" ref="#pmb667">Partenkirchen</rs>.― <rs type="person" xml:id="pNt_16505" ref="#person_15485"><surname>Gl.</surname></rs> in <rs type="place" xml:id="pl_03228" ref="#pmb38096">Abbazia</rs>.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_16506" ref="#person_16293"><forename>Hugo</forename></rs> kam an.― Abd. <rs type="person" xml:id="pNt_16507" ref="#person_19542"><surname>Salten</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Erzählte <rs type="person" xml:id="pNt_16508" ref="#person_16293"><forename>Hugo</forename></rs> „<rs type="person" xml:id="pNt_16509"><forename>Beatrice</forename></rs>“.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

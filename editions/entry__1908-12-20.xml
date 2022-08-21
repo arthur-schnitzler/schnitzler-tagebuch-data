@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-12-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-12-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-12-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-12-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-12-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-12-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FC53-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2602.tif"/>
@@ -180,14 +184,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1908-12-20">
-            <p xml:space="preserve"><date when="1908-12-20">20/12</date> S. Abreise von <rs type="place" xml:id="pl_06537" ref="#place_9fed5dae86e3030d9be3740efa198659">Budapest</rs>. Begann im Waggon zu lesen <rs type="person" xml:id="pNt_29387" ref="#person_15972"><surname>Hatvany’s</surname></rs> 
+            <p xml:space="preserve"><date when="1908-12-20">20/12</date> S. Abreise von <rs type="place" xml:id="pl_06537" ref="#pmb43471">Budapest</rs>. Begann im Waggon zu lesen <rs type="person" xml:id="pNt_29387" ref="#person_15972"><surname>Hatvany’s</surname></rs> 
 „<rs type="work" xml:id="bibl_13842">Die Wissenschaft des nicht Wissenswerthen</rs>“ (vom Autor) ― las (wieder) 
 in den <rs type="person" xml:id="pNt_29388" ref="#person_18767"><surname>Pichler’schen</surname></rs> <rs type="work" xml:id="bibl_13843">Memoiren</rs> (für den <rs type="work" subtype="self" xml:id="bibl_13844">Medardus</rs>).―</p>
             <p xml:space="preserve" rend="indent">― <rs type="person" xml:id="pNt_29389" ref="#person_15972"><surname>Hatvany</surname></rs> ist der Geliebte der frühern Geliebten des 
 verstorbnen <rs type="person" xml:id="pNt_29390" ref="#person_16717"><forename>Edgar</forename> <surname>Karg</surname></rs>. Kleine Welt!― (Der Bildhauerin <rs ref="#person_16671" type="person" xml:id="pNt_29391"><surname>Kalmar</surname></rs>.)</p>
-            <p xml:space="preserve" rend="indent">Ankunft in <rs type="place" xml:id="pl_06538" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>. Nachmittag geordnet und getrendelt.</p>
+            <p xml:space="preserve" rend="indent">Ankunft in <rs type="place" xml:id="pl_06538" ref="#pmb50">Wien</rs>. Nachmittag geordnet und getrendelt.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

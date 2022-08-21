@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-08-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-08-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-08-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-08-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-08-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-08-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-16F2-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6933.tif"/>
@@ -182,13 +186,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1927-08-24">
-            <p xml:space="preserve"><date when="1927-08-24">24/8</date> <rs type="place" xml:id="pl_17506" ref="#place_3859ff9074d497ed0cb3c08be85996ad">Bozen</rs>. Mit <rs type="person" xml:id="pNt_81554" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Auto <rs type="person" xml:id="pNt_81555" ref="#person_20340"><surname>Stefenelli</surname></rs> über <rs type="place" xml:id="pl_17507" ref="#place_834e1bca2cb7d2238249e70860ed8ae8">Meran</rs> nach <rs type="place" xml:id="pl_17508" ref="#place_5b642db95877afd968bcba092634a254">Sulden</rs> zum ersten 
-Mal; schöne Fahrt. <rs type="place" xml:id="pl_17509" ref="#place_5b642db95877afd968bcba092634a254">Sulden</rs> gegessen. <rs type="person" xml:id="pNt_81556" ref="#person_13727"><roleName>Fr.</roleName> <surname>Biermann</surname></rs> (<rs type="place" xml:id="pl_17510" ref="#place_d0dd8ec0c54bfc44e84edbb133bc249a">Zermatt</rs>), <rs type="person" xml:id="pNt_81557" ref="#person_19730"><forename>Fritz</forename></rs> 
+            <p xml:space="preserve"><date when="1927-08-24">24/8</date> <rs type="place" xml:id="pl_17506" ref="#pmb40260">Bozen</rs>. Mit <rs type="person" xml:id="pNt_81554" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Auto <rs type="person" xml:id="pNt_81555" ref="#person_20340"><surname>Stefenelli</surname></rs> über <rs type="place" xml:id="pl_17507" ref="#pmb43520">Meran</rs> nach <rs type="place" xml:id="pl_17508" ref="#pmb91855">Sulden</rs> zum ersten 
+Mal; schöne Fahrt. <rs type="place" xml:id="pl_17509" ref="#pmb91855">Sulden</rs> gegessen. <rs type="person" xml:id="pNt_81556" ref="#person_13727"><roleName>Fr.</roleName> <surname>Biermann</surname></rs> (<rs type="place" xml:id="pl_17510" ref="#pmb34007">Zermatt</rs>), <rs type="person" xml:id="pNt_81557" ref="#person_19730"><forename>Fritz</forename></rs> 
 <rs type="person" xml:id="pNt_81558" ref="#person_19730"><surname>Schlesinger</surname></rs> (<rs type="person" xml:id="pNt_81559" ref="#person_16293"><forename>Hugos</forename></rs> Schwager) gesprochen.</p>
-            <p xml:space="preserve" rend="indent">Nm. zurück, <rs type="place" xml:id="pl_17511" ref="#place_834e1bca2cb7d2238249e70860ed8ae8">Meran</rs> Aufenthalt. Kurterrasse. <rs type="person" xml:id="pNt_81560" ref="#person_19768"><roleName>Dr.</roleName> <surname>Schmidt</surname></rs>, alter 
-geschwätziger College aus der Studentenzeit.― Weiter <rs type="place" xml:id="pl_17512" ref="#place_3859ff9074d497ed0cb3c08be85996ad">Bozen</rs>; Greif genachtm.</p>
+            <p xml:space="preserve" rend="indent">Nm. zurück, <rs type="place" xml:id="pl_17511" ref="#pmb43520">Meran</rs> Aufenthalt. Kurterrasse. <rs type="person" xml:id="pNt_81560" ref="#person_19768"><roleName>Dr.</roleName> <surname>Schmidt</surname></rs>, alter 
+geschwätziger College aus der Studentenzeit.― Weiter <rs type="place" xml:id="pl_17512" ref="#pmb40260">Bozen</rs>; Greif genachtm.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

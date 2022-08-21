@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1921-11-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-11-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-11-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1921-11-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-11-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-11-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0EAF-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5569.tif"/>
@@ -182,15 +186,15 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1921-11-06">
-            <p xml:space="preserve"><date when="1921-11-06">6/11</date> S. Mit <rs type="person" xml:id="pNt_64220" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> Spazierg. <rs type="place" xml:id="pl_13502" ref="#place_9c457f4107132ccb2d87ebf5e13f0b74">Schafberg</rs>. Regen. Saßen im Wirtshaus zur 
+            <p xml:space="preserve"><date when="1921-11-06">6/11</date> S. Mit <rs type="person" xml:id="pNt_64220" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> Spazierg. <rs type="place" xml:id="pl_13502" ref="#pmb59367">Schafberg</rs>. Regen. Saßen im Wirtshaus zur 
 „Himmelsmutter“ ― Sie erzählt mir von ihrer <rs type="place" xml:id="pl_13503" ref="#place_d06a4c9ac44f4e202427917bb2fc3ac0" ana="#exclude">ital.</rs>-<rs type="place" xml:id="pl_13504" ref="#place_f111c3618633fc82e4a7d3e00ef8791a" ana="#exclude">schweizer</rs> Reise; 
 <rs type="person" xml:id="pNt_64221" ref="#person_18748"><forename>Walter</forename></rs>; ihren Plänen zur Geldbeschaffung,― dem <rs type="place" xml:id="pl_13505" ref="#place_1127dd43a3092707ba7bb9d7baa741ca" ana="#exclude">Winterthurer</rs> Millionär <rs type="person" xml:id="pNt_64222" ref="#person_19155"><surname>R.</surname></rs>; 
 dem sie Berühmtheit vorspiegeln will (Operetteneinfall), dem verliebten 
-Gondoliere in <rs type="place" xml:id="pl_13506" ref="#place_e4d4b19346747823e5636ed1238a7521">Venedig</rs>, der sie umsonst führt, wenn sie allein, und das 
+Gondoliere in <rs type="place" xml:id="pl_13506" ref="#pmb462">Venedig</rs>, der sie umsonst führt, wenn sie allein, und das 
 doppelte rechnet, wenn sie mit <rs type="person" xml:id="pNt_64223" ref="#person_18748"><forename>Walter</forename></rs> fährt; den neuen <rs type="place" xml:id="pl_13507" ref="#place_9912c9330e203d0dc109bf7e74e09e51" ana="#exclude">Schweizer</rs> 
-Bekanntschaften, der Reißzeugspekulation (hier 25 frcs., in der <rs type="place" xml:id="pl_13508" ref="#place_7a0be5a1ed9675975e678b517f07573c">Schweiz</rs> 
+Bekanntschaften, der Reißzeugspekulation (hier 25 frcs., in der <rs type="place" xml:id="pl_13508" ref="#pmb43435">Schweiz</rs> 
 um 300), ihrem Kinostück; ihrem Bruder, dem sie eine Stellung in der 
-<rs type="place" xml:id="pl_13509" ref="#place_7a0be5a1ed9675975e678b517f07573c">Schweiz</rs> verschaffen will. Amüsant.―</p>
+<rs type="place" xml:id="pl_13509" ref="#pmb43435">Schweiz</rs> verschaffen will. Amüsant.―</p>
             <p xml:space="preserve" rend="indent">Nm. allein, sage <rs type="person" xml:id="pNt_64224" ref="#person_18063"><surname>Menczels</surname></rs> und <rs type="person" xml:id="pNt_64225" ref="#person_21377"><roleName>Hofr.</roleName> <surname>Winter</surname></rs> ab.― Denke ohne Groll, aber 
 traurig <rs type="person" xml:id="pNt_64226" ref="#person_19832"><forename>O.s</forename></rs> und leide unter ihrer Situation mehr als sie selbst.―</p>
             <p xml:space="preserve" rend="indent">An der <rs type="work" subtype="self" xml:id="bibl_3631">Nov.</rs> mühselig weiter.</p>
@@ -201,6 +205,5 @@ Atmosphäre geniedurchwittert;― doch von einer fast unerträglichen
 Weitschweifigkeit.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

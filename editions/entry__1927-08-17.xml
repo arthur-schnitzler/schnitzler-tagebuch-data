@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-08-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-08-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-08-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-08-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-08-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-08-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-16EB-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,18 +177,20 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6930.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1927-08-17">
-            <p xml:space="preserve"><date when="1927-08-17">17/8</date> <rs type="place" xml:id="pl_17489" ref="#place_3859ff9074d497ed0cb3c08be85996ad">Bozen</rs>. Nach <rs type="place" xml:id="pl_17490" ref="#place_e93a52859ebc48118c4864b1add4d856">Klobenstein (Collalbo)</rs>. <rs type="person" xml:id="pNt_81482" ref="#person_15009"><surname>Fischer</surname></rs> und Frau an der Bahn. 
+            <p xml:space="preserve"><date when="1927-08-17">17/8</date> <rs type="place" xml:id="pl_17489" ref="#pmb40260">Bozen</rs>. Nach <rs type="place" xml:id="pl_17490" ref="#pmb50822">Klobenstein (Collalbo)</rs>. <rs type="person" xml:id="pNt_81482" ref="#person_15009"><surname>Fischer</surname></rs> und Frau an der Bahn. 
 Zimmer in der Villa Hochegg. Mit <rs type="person" xml:id="pNt_81483" ref="#person_15009"><surname>Fi.s</surname></rs> in Hotel, gegessen. Spaziergang 
-gegen Abend mit <rs type="person" xml:id="pNt_81484" ref="#person_15009"><surname>Fi.s</surname></rs> nach <rs type="place" xml:id="pl_17491" ref="#place_26c0227fa7caf1535e0b8224fe53db65">Rappersbichl</rs> in den Zug, wo eben ankommend 
+gegen Abend mit <rs type="person" xml:id="pNt_81484" ref="#person_15009"><surname>Fi.s</surname></rs> nach <rs type="place" xml:id="pl_17491" ref="#pmb92474">Rappersbichl</rs> in den Zug, wo eben ankommend 
 <rs type="person" xml:id="pNt_81485" ref="#person_15023"><surname>Flake</surname></rs> und Frau.― Nachtm. mit <rs type="person" xml:id="pNt_81486" ref="#person_15009"><surname>Fi.s</surname></rs> im Hotel, in der Conditorei mit ihnen, 
 <rs type="person" xml:id="pNt_81487" ref="#person_15023"><surname>Flake’s</surname></rs>, <rs type="person" xml:id="pNt_81488" ref="#person_16031"><roleName>Frau</roleName> <surname>Heider</surname></rs>.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

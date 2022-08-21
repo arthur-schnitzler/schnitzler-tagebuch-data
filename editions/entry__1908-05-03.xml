@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-05-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-05-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FB6C-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2502.tif"/>
@@ -180,11 +184,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1908-05-03">
-            <p xml:space="preserve"><date when="1908-05-03">3/5</date> S. Spaziergang <rs type="place" xml:id="pl_06287" ref="#place_5d0770456fbd6f86ec07eec5318b6d78">Engl. Garten</rs>, <rs type="place" xml:id="pl_06288" ref="#place_fbb9488d92ec0117fd5e3a27fc0e875a">Isar</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Abends Auto <rs type="place" xml:id="pl_06289" ref="#place_7fffac901919754631a1fbb20dce208c">Nymphenburg</rs>.― Parkhotel.</p>
+            <p xml:space="preserve"><date when="1908-05-03">3/5</date> S. Spaziergang <rs type="place" xml:id="pl_06287" ref="#pmb90589">Engl. Garten</rs>, <rs type="place" xml:id="pl_06288" ref="#pmb90936">Isar</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Abends Auto <rs type="place" xml:id="pl_06289" ref="#pmb91369">Nymphenburg</rs>.― Parkhotel.</p>
             <p xml:space="preserve" rend="indent">― Lese <rs type="person" xml:id="pNt_28225" ref="#person_15829"><surname>Hackländer</surname></rs>, <rs type="work" xml:id="bibl_13395">Soldatenleben im Frieden</rs>, <rs type="person" xml:id="pNt_28226" ref="#person_15108"><surname>France</surname></rs>, <rs type="work" xml:id="bibl_13396">livre de mon ami</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

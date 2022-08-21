@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1897-06-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-06-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-06-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1897-06-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-06-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-06-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EC7E-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1333.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1897-06-06">
-            <p xml:space="preserve"><date when="1897-06-06">6/6</date> Mit Dr. <rs type="person" xml:id="pNt_14051" ref="#person_19987"><forename>M.</forename> <surname>Schwarzkopf</surname></rs> und <rs type="person" xml:id="pNt_14052" ref="#person_15855"><surname>Hajek</surname></rs>, auch z. Th. <rs type="person" xml:id="pNt_14053" ref="#person_15854"><forename>Gisela</forename></rs> Bic. <rs type="place" xml:id="pl_02613" ref="#place_c751e0a19ec1902a71bc1e9ce40014c2">St. 
-Pölten</rs> ― <rs type="place" xml:id="pl_02614" ref="#place_a90ffc112097df7f976e4228f6052994">Pöchlarn</rs> ― <rs type="place" xml:id="pl_02615" ref="#place_9eed85ad420e3a3c986cdc6d7e77854d">Gaming</rs>.― Nacht. (Auch <rs type="allusively" xml:id="rst_00254">Mama</rs> dort.) ―</p>
+            <p xml:space="preserve"><date when="1897-06-06">6/6</date> Mit Dr. <rs type="person" xml:id="pNt_14051" ref="#person_19987"><forename>M.</forename> <surname>Schwarzkopf</surname></rs> und <rs type="person" xml:id="pNt_14052" ref="#person_15855"><surname>Hajek</surname></rs>, auch z. Th. <rs type="person" xml:id="pNt_14053" ref="#person_15854"><forename>Gisela</forename></rs> Bic. <rs type="place" xml:id="pl_02613" ref="#pmb49880">St. 
+Pölten</rs> ― <rs type="place" xml:id="pl_02614" ref="#pmb91496">Pöchlarn</rs> ― <rs type="place" xml:id="pl_02615" ref="#pmb90689">Gaming</rs>.― Nacht. (Auch <rs type="allusively" xml:id="rst_00254">Mama</rs> dort.) ―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-09-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-09-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-09-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-09-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-09-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-09-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1598-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6721.tif"/>
@@ -181,15 +185,14 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1926-09-12">
-            <p xml:space="preserve"><date when="1926-09-12">12/9</date> Ankunft <rs type="place" xml:id="pl_16913" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>. Die Veränderungen im Haus. Der ausgebaute Erker sehr 
+            <p xml:space="preserve"><date when="1926-09-12">12/9</date> Ankunft <rs type="place" xml:id="pl_16913" ref="#pmb50">Wien</rs>. Die Veränderungen im Haus. Der ausgebaute Erker sehr 
 schön. Das automatisirte Badezimmer.―</p>
             <p xml:space="preserve" rend="indent">Ordnen. Zeitungen, Correspondenz etc.―</p>
-            <p xml:space="preserve" rend="indent">Abds. <rs type="person" xml:id="pNt_78493" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>, auch zum Nachtm. Von ihrem Besuch in <rs type="place" xml:id="pl_16914" ref="#place_661f4200c3f047474d1df224f62f0503">Aussee</rs>. Einmal zu Gast 
+            <p xml:space="preserve" rend="indent">Abds. <rs type="person" xml:id="pNt_78493" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>, auch zum Nachtm. Von ihrem Besuch in <rs type="place" xml:id="pl_16914" ref="#pmb415">Aussee</rs>. Einmal zu Gast 
 bei <rs type="person" xml:id="pNt_78494" ref="#person_21107"><forename>Jacob</forename></rs> und <rs type="person" xml:id="pNt_78495" ref="#person_21110"><forename>Martha</forename></rs>.― Ihr Sohn (verlobt, bei <rs type="person" xml:id="pNt_78496" ref="#person_18867"><forename>Magda</forename> <surname>Wellesz</surname></rs>).― Ihr Roman 
 „<rs type="work" xml:id="bibl_20405">das Kind</rs>“ im <rs type="work" subtype="newspaper" xml:id="bibl_20406">N. Wr. Tgbl.</rs> (mit Ankündigung in Flammenschrift auf dem 
 First des Dianabads).― <rs type="person" xml:id="pNt_78497" ref="#person_16908"><roleName>Fr.</roleName> <surname>v. Klimbacher</surname></rs> kam aus dem „<rs type="work" subtype="self" xml:id="bibl_20407">Medardus</rs>“.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

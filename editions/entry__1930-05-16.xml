@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-05-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-05-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-05-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-05-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-05-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-05-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1AD6-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7489.tif"/>
@@ -183,16 +187,15 @@
          <div type="diary-day" xml:id="entry__1930-05-16">
             <p xml:space="preserve"><date when="1930-05-16">16/5</date> Besorgungen Stadt.― (Blumen zu <rs type="person" xml:id="pNt_89744" ref="#person_14234"><forename>Suz.</forename></rs> Geburtstag.)</p>
             <p xml:space="preserve" rend="indent">Begegnung (vor der Blumenhandlung) mit <rs type="person" xml:id="pNt_89745" ref="#person_15529"><forename>Paul</forename> <surname>Goldmann</surname></rs>. Vorwurf, ihn nicht 
-in <rs type="place" xml:id="pl_19242" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> zu besuchen „offenbar Einfluss <rs type="person" xml:id="pNt_89746" ref="#person_19832"><forename>O.</forename></rs>“ … „ihre Antipathie ― 
+in <rs type="place" xml:id="pl_19242" ref="#pmb168">Berlin</rs> zu besuchen „offenbar Einfluss <rs type="person" xml:id="pNt_89746" ref="#person_19832"><forename>O.</forename></rs>“ … „ihre Antipathie ― 
 übrigens Gegenseitigkeit“. Auch dass <rs type="person" xml:id="pNt_89747" ref="#person_19822"><forename>Heini</forename></rs> nicht käme!― U. s. w. 
 Ich nannte ihn einen „Anrechner“.― Im übrigen seine üblichen 
 Klagen.―</p>
             <p xml:space="preserve" rend="indent">Zu Tisch <rs type="person" xml:id="pNt_89748" ref="#person_14234"><forename>Suz.</forename></rs> bei mir; und bleibt bis sechs.― U. a. les ich ihr das erste 
 Bild „<rs type="work" subtype="self" xml:id="bibl_1046">Zug</rs>“ vor.― Bericht über die „Feindseligkeiten“ gegen mich.―</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_89749" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Kino „<rs type="work" xml:id="bibl_1047">Diane</rs>“ (<rs type="person" xml:id="pNt_89750" ref="#person_20826"><roleName>Frau</roleName> <surname>Tschechow</surname></rs>).― Mit <rs type="person" xml:id="pNt_89751" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> <rs type="place" ref="#place_meissl">Meissl</rs> genachtm.― 
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_89749" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Kino „<rs type="work" xml:id="bibl_1047">Diane</rs>“ (<rs type="person" xml:id="pNt_89750" ref="#person_20826"><roleName>Frau</roleName> <surname>Tschechow</surname></rs>).― Mit <rs type="person" xml:id="pNt_89751" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> <rs type="place" ref="#pmb96">Meissl</rs> genachtm.― 
 Ihre betonte Inoffensivität.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

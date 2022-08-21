@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1880-06-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-06-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-06-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1880-06-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-06-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-06-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DD79-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0077.tif"/>
@@ -183,7 +187,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1880-06-25">
             <p xml:space="preserve"><date when="1880-06-25">25/6</date> Freitag Abd.― „Wer ist diese schöne große Blondine?“ fragte 
-gestern meine <rs type="allusively" xml:id="rst_00008">Mama</rs> im <rs type="place" ref="#place_boesendorfer">Bösendorfer-Saal</rs> <rs type="person" xml:id="pNt_00601" ref="#person_16963"><forename>Ida</forename></rs> und <rs type="person" xml:id="pNt_00602" ref="#person_16968"><forename>Laura</forename></rs>, welch beide 
+gestern meine <rs type="allusively" xml:id="rst_00008">Mama</rs> im <rs type="place" ref="#pmb4">Bösendorfer-Saal</rs> <rs type="person" xml:id="pNt_00601" ref="#person_16963"><forename>Ida</forename></rs> und <rs type="person" xml:id="pNt_00602" ref="#person_16968"><forename>Laura</forename></rs>, welch beide 
 Mädchen ich ihr vorgestellt hatte.</p>
             <p xml:space="preserve" rend="indent">„Das ist die <rs type="person" xml:id="pNt_00603" ref="#person_17368"><forename>Fanny</forename> <surname>R.</surname></rs>“ erwiderte ich. Ich brachte sie zu meiner 
 <rs type="allusively" xml:id="rst_00009">Mama</rs>, in deren Gegenwart ich ganz auf die gewohnte Weise mit den 
@@ -196,7 +200,7 @@ Melancholie; jedoch die Fensterscheiben des Humors sind angelaufen
 mit dem Reif des Mißvergnügens.― Ich muss aber nun ernstlich an 
 was denken.</p>
             <p xml:space="preserve" rend="indent">Abends.― <rs type="person" xml:id="pNt_00611" ref="#person_17368"><forename>Fany</forename></rs> und ich erinnerten uns, so gut es ging an den 
-<rs type="place" xml:id="pl_00116" ref="#place_273c6fe7cd0300c46e98e05cc3414e33">Quaipark</rs>. Oh dieser Winter voll Frühling und Liebe! Der Frühling ist 
+<rs type="place" xml:id="pl_00116" ref="#pmb92469">Quaipark</rs>. Oh dieser Winter voll Frühling und Liebe! Der Frühling ist 
 hin, die Liebe ist geblieben.―</p>
             <p xml:space="preserve" rend="indent">Neugierig bin ich, was das nächste „besondre“ sein wird, das mir 
 passirt. Der heurige Sommer hat eine geradezu beleidigende 
@@ -214,6 +218,5 @@ vielleicht schreib’ ich wirklich, wenn ich mit fünfzig Jahren noch lebe
 eine „Naturphilosophie“.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-06-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-06-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-07-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-06-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-06-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-07-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1996-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,21 +177,23 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7313.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1929-06-30">
-            <p xml:space="preserve"><date when="1929-06-30">30/6</date> S. <rs type="place" xml:id="pl_18740" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs>.― Vm. am „<rs type="work" subtype="self" xml:id="bibl_451">Zug</rs>“.― Auf der Terrasse mit <rs type="person" xml:id="pNt_87082" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> in 
+            <p xml:space="preserve"><date when="1929-06-30">30/6</date> S. <rs type="place" xml:id="pl_18740" ref="#pmb91735">Semmering</rs>.― Vm. am „<rs type="work" subtype="self" xml:id="bibl_451">Zug</rs>“.― Auf der Terrasse mit <rs type="person" xml:id="pNt_87082" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> in 
 mäßiger Sonne.―</p>
             <p xml:space="preserve" rend="indent">Kleiner Spaziergang allein.</p>
             <p xml:space="preserve" rend="indent">Früh stellt sich mir der <rs type="place" xml:id="pl_18741" ref="#place_f42606b57350750a83d247dd1d275f69" ana="#exclude">engl.</rs> Psychoanalytiker <rs type="person" xml:id="pNt_87083" ref="#person_21499"><surname>Young</surname></rs> (?) mit Frau 
-(<rs type="place" xml:id="pl_18742" ref="#place_33db35e9e94468b8aa7e3338e990f8ad" ana="#exclude">Wienerin</rs>) vor, der <rs type="place" xml:id="pl_18743" ref="#place_b472f5868425ac2bc44e693fc3267e87">Oesterreich</rs> im Auto durchreist.</p>
+(<rs type="place" xml:id="pl_18742" ref="#place_33db35e9e94468b8aa7e3338e990f8ad" ana="#exclude">Wienerin</rs>) vor, der <rs type="place" xml:id="pl_18743" ref="#pmb41240">Oesterreich</rs> im Auto durchreist.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_87084" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> im Hotel gegessen.</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="work" subtype="self" xml:id="bibl_452">Spiel der Sommerlüfte</rs>, durchgelesen und sehr wesentlich gefeilt.―</p>
             <p xml:space="preserve" rend="indent">Im Stübl allein genachtm.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

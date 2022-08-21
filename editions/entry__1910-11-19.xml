@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-11-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-11-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-11-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-11-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-11-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-11-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FF0E-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3034.tif"/>
@@ -182,12 +186,11 @@
       <body>
          <div type="diary-day" xml:id="entry__1910-11-19">
             <p xml:space="preserve"><date when="1910-11-19">19/11</date> Probe.― (Costume, 4. und 5.) ―</p>
-            <p xml:space="preserve" rend="indent">Nm. mit O. <rs type="place" xml:id="pl_07286" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs> ―</p>
+            <p xml:space="preserve" rend="indent">Nm. mit O. <rs type="place" xml:id="pl_07286" ref="#pmb113">Türkenschanzpark</rs> ―</p>
             <p xml:space="preserve" rend="indent">Dictirt.</p>
             <p xml:space="preserve" rend="indent">Mit O. Concert <rs type="person" xml:id="pNt_33957" ref="#person_14473"><surname>Dohnanyi</surname></rs>. Nachher im Künstlerzimmer mit ihm und 
 seiner Frau ein paar Worte. Persönlich charmirt er immer.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

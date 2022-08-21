@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1925-06-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-06-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-06-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1925-06-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-06-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-06-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-13D9-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6504.tif"/>
@@ -181,11 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1925-06-21">
-            <p xml:space="preserve"><date when="1925-06-21">21/6</date> S. <rs type="place" xml:id="pl_16106" ref="#place_63714a562352ef3ae472da20ed0384c0">Bd.-Bd.</rs>― Mit <rs type="person" xml:id="pNt_75336" ref="#person_19832"><forename>O.</forename></rs> „Stadt“ … Fahren über <rs type="place" xml:id="pl_16107" ref="#place_593b87f998c03acb4cf8a7d4d3f0c59d">Fremersberg</rs> etc. nach 
+            <p xml:space="preserve"><date when="1925-06-21">21/6</date> S. <rs type="place" xml:id="pl_16106" ref="#pmb228">Bd.-Bd.</rs>― Mit <rs type="person" xml:id="pNt_75336" ref="#person_19832"><forename>O.</forename></rs> „Stadt“ … Fahren über <rs type="place" xml:id="pl_16107" ref="#pmb90651">Fremersberg</rs> etc. nach 
 Hause. <rs type="person" xml:id="pNt_75337" ref="#person_19832"><forename>O.s</forename></rs> Fragen nach <rs type="person" xml:id="pNt_75338" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Sie erzählt von <rs type="person" xml:id="pNt_75339"><surname>G.</surname></rs>; (von dem jener Brief);― 
 fertig mit ihm etc.―</p>
-            <p xml:space="preserve" rend="indent">Nm. Pianist <rs type="person" xml:id="pNt_75340" ref="#person_15207"><surname>Friedberg</surname></rs> (<rs type="place" xml:id="pl_16108" ref="#place_87809c954948d8a20507bee3648281b3">New York</rs>) mit Frau. Er will eine Art Akademie und 
-Festspielhaus in <rs type="place" xml:id="pl_16109" ref="#place_63714a562352ef3ae472da20ed0384c0">Bd.-Bd.</rs> gründen, ich lehne Comitéaufforderung ab. Er ist übrigens sympathisch.</p>
+            <p xml:space="preserve" rend="indent">Nm. Pianist <rs type="person" xml:id="pNt_75340" ref="#person_15207"><surname>Friedberg</surname></rs> (<rs type="place" xml:id="pl_16108" ref="#pmb44053">New York</rs>) mit Frau. Er will eine Art Akademie und 
+Festspielhaus in <rs type="place" xml:id="pl_16109" ref="#pmb228">Bd.-Bd.</rs> gründen, ich lehne Comitéaufforderung ab. Er ist übrigens sympathisch.</p>
             <p xml:space="preserve" rend="indent">Der Sänger <rs type="person" xml:id="pNt_75341" ref="#person_19974"><forename>Joseph</forename> <surname>Schwarz</surname></rs> mit Frau, Besitzer von Maria Halden; am Haus vorbei, Vorstellung.</p>
             <p xml:space="preserve" rend="indent">N. d. N. Gespräch mit <rs type="person" xml:id="pNt_75342" ref="#person_19832"><forename>O.</forename></rs> über meine Stoffe. (Ich rede von <rs type="person" xml:id="pNt_75343"><forename>Josef II.</forename></rs>) ― 
 Sie: „Alles war notwendig … diese Krise mußte kommen …“ Ich: „Gewiss 
@@ -198,6 +202,5 @@ beste von mir … Endlich sagt sie ― „Wir sollen keine Todsünde begehn …�
 Hält sie wirklich eine Wiedervereinigung für möglich?― Ich nicht.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

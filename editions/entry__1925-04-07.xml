@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1925-04-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-04-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-04-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1925-04-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-04-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-04-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-138E-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6475.tif"/>
@@ -183,18 +187,17 @@
       <body>
          <div type="diary-day" xml:id="entry__1925-04-07">
             <p xml:space="preserve"><date when="1925-04-07">7/4</date> Vm. bei <rs type="person" xml:id="pNt_74894" ref="#person_14682"><roleName>Hofr.</roleName> <surname>Eisenmenger</surname></rs>. <rs type="place" xml:id="pl_16023" ref="#place_fc0ece5a4b5419bc9f6c4efec0bccd90" ana="#exclude">Amerikanisches</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Allerlei Begegnungen in der Stadt. <rs type="person" xml:id="pNt_74895" ref="#person_20170"><surname>Smekal</surname></rs> (<rs type="place" xml:id="pl_16024" ref="#place_017f791d01c1d14c3ec7a1209e28b020">Gutenstein</rs> etc.) <rs type="person" xml:id="pNt_74896" ref="#person_16489"><roleName>Fr.</roleName> <surname>Jaeger</surname></rs> (soll 
-nächstens mit ihr bei <rs type="person" xml:id="pNt_74897" ref="#person_15229"><forename>Louis</forename> <surname>Friedmann</surname></rs> der in der <rs type="place" xml:id="pl_16025" ref="#place_777b3e9c1448a29ffd640e11c48ed476">Blaasstr.</rs> baut essen).―</p>
+            <p xml:space="preserve" rend="indent">Allerlei Begegnungen in der Stadt. <rs type="person" xml:id="pNt_74895" ref="#person_20170"><surname>Smekal</surname></rs> (<rs type="place" xml:id="pl_16024" ref="#pmb1036">Gutenstein</rs> etc.) <rs type="person" xml:id="pNt_74896" ref="#person_16489"><roleName>Fr.</roleName> <surname>Jaeger</surname></rs> (soll 
+nächstens mit ihr bei <rs type="person" xml:id="pNt_74897" ref="#person_15229"><forename>Louis</forename> <surname>Friedmann</surname></rs> der in der <rs type="place" xml:id="pl_16025" ref="#pmb92168">Blaasstr.</rs> baut essen).―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_74898" ref="#person_21264"><forename>Paul</forename> <surname>Wertheimer</surname></rs> (über <rs type="person" xml:id="pNt_74899" ref="#person_13589"><surname>Benedikt</surname></rs>; <rs type="person" xml:id="pNt_74900" ref="#person_21264"><surname>W.s</surname></rs> Stellung dort, Leisetreterei der <rs type="work" subtype="newspaper" xml:id="bibl_16371">N. Fr. 
 Pr.</rs>; Absicht <rs type="person" xml:id="pNt_74901" ref="#person_21264"><forename>P.</forename> <surname>W.s</surname></rs> ein Buch über mich bei <rs type="person" xml:id="pNt_74902" ref="#person_16967"><surname>König</surname></rs> herauszugeben, was dieser 
 vorläufig ablehnt), etc. ―</p>
             <p xml:space="preserve" rend="indent">bei <rs type="person" xml:id="pNt_74903" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> im Regina (sie wieder gekränkt, weil ich nicht mit ihr sondern mit 
 <rs type="person" xml:id="pNt_74904" ref="#person_14130"><forename>Lili</forename></rs> in den <rs type="person" xml:id="pNt_74905" ref="#person_13920"><surname>Brandes</surname></rs> Vortrag gehe).―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_16372">Weiher</rs>.―</p>
-            <p xml:space="preserve" rend="indent">In’s <rs type="place" ref="#place_sacher">Sacher</rs>, wo aber <rs type="person" xml:id="pNt_74907" ref="#person_13920"><surname>Brandes</surname></rs> noch unsprechbar.</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_74908" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> spazieren (<rs type="place" xml:id="pl_16026" ref="#place_8ce19f0f1bd6882ec7de0b1194af8cad">Elisabethpromenade</rs> etc.) und Kino, dann Regina gegessen.―</p>
+            <p xml:space="preserve" rend="indent">In’s <rs type="place" ref="#pmb92506">Sacher</rs>, wo aber <rs type="person" xml:id="pNt_74907" ref="#person_13920"><surname>Brandes</surname></rs> noch unsprechbar.</p>
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_74908" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> spazieren (<rs type="place" xml:id="pl_16026" ref="#pmb92225">Elisabethpromenade</rs> etc.) und Kino, dann Regina gegessen.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

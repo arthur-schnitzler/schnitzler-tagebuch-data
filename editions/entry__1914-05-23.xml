@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-05-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-05-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-05-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-05-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-05-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-05-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-040F-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3829.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1914-05-23">
-            <p xml:space="preserve"><date when="1914-05-23">23/5</date> <rs type="place" xml:id="pl_08723" ref="#place_3eb8670d999ac077dd0e2c345cb7c905">Amsterdam</rs>.― Amstelhotel. Autofahrt (Vondelpark etc.) ― Nm. 
-spazieren; Judenviertel; <rs type="place" xml:id="pl_08724" ref="#place_0cb821a90d80f5691526825799d482f5">Kalverstraat</rs>; Rest. Americain.―</p>
+            <p xml:space="preserve"><date when="1914-05-23">23/5</date> <rs type="place" xml:id="pl_08723" ref="#pmb40709">Amsterdam</rs>.― Amstelhotel. Autofahrt (Vondelpark etc.) ― Nm. 
+spazieren; Judenviertel; <rs type="place" xml:id="pl_08724" ref="#pmb92325">Kalverstraat</rs>; Rest. Americain.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1898-06-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-06-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-06-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1898-06-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-06-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-06-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EDEB-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,14 +177,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1439.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1898-06-08">
-            <p xml:space="preserve"><date when="1898-06-08">8/6</date> <rs type="place" xml:id="pl_02894" ref="#place_10b5f4deda663cdef2e900a4da09f452">Steindorf</rs> ― <rs type="place" xml:id="pl_02895" ref="#place_a2a6092be42e57c25383d24da1b2de50">Annenheim</rs>; <rs type="person" xml:id="pNt_15391" ref="#person_17087"><surname>Kramers</surname></rs> geplatzter Pneum., Arbeit.</p>
+            <p xml:space="preserve"><date when="1898-06-08">8/6</date> <rs type="place" xml:id="pl_02894" ref="#pmb91836">Steindorf</rs> ― <rs type="place" xml:id="pl_02895" ref="#pmb40380">Annenheim</rs>; <rs type="person" xml:id="pNt_15391" ref="#person_17087"><surname>Kramers</surname></rs> geplatzter Pneum., Arbeit.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

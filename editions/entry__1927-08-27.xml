@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-08-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-08-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-08-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-08-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-08-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-08-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-16F5-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6934.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1927-08-27">
-            <p xml:space="preserve"><date when="1927-08-27">27/8</date> <rs type="place" xml:id="pl_17519" ref="#place_560b556ecfbe1372b5c4d8417c570cf4">Gardone</rs>. Spazieren <rs type="place" xml:id="pl_17520" ref="#place_6d8b3c06979d551efdfe4be4b8fb8725">G.</rs> sopra.― <rs type="person" xml:id="pNt_81562" ref="#person_13222"><surname>D’Annunzio</surname></rs> Villa (einstige <rs type="person" xml:id="pNt_81563" ref="#person_20715"><surname>Thode</surname></rs>, 
+            <p xml:space="preserve"><date when="1927-08-27">27/8</date> <rs type="place" xml:id="pl_17519" ref="#pmb90693">Gardone</rs>. Spazieren <rs type="place" xml:id="pl_17520" ref="#pmb92248">G.</rs> sopra.― <rs type="person" xml:id="pNt_81562" ref="#person_13222"><surname>D’Annunzio</surname></rs> Villa (einstige <rs type="person" xml:id="pNt_81563" ref="#person_20715"><surname>Thode</surname></rs>, 
 „requirirt“), Arbeiter, Umbau.―</p>
             <p xml:space="preserve" rend="indent">Bad im See vom Hotel aus.</p>
             <p xml:space="preserve" rend="indent">Der Director, plötzlich sich zerwuzelnd. („Ob ich meine Werke mit habe.“)</p>
@@ -189,6 +193,5 @@
             <p xml:space="preserve" rend="indent">Genachtm. Goldfisch. (Immer mit <rs type="person" xml:id="pNt_81564" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>)</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1921-06-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-05-31.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-06-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1921-06-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-05-31.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-06-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0E11-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,12 +177,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5421.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1921-06-01">
             <p xml:space="preserve"><date when="1921-06-01">1/6</date> Vm. bei <rs type="person" xml:id="pNt_62542" ref="#person_19986"><forename>Gustav</forename></rs>.― ―</p>
             <p xml:space="preserve" rend="indent">Nm. Briefe von <rs type="person" xml:id="pNt_62543" ref="#person_19832"><forename>O.</forename></rs> und <rs type="person" xml:id="pNt_62544" ref="#person_16469"><forename>Lucy</forename></rs>; beide enervirten mich unverhältnismäßig; 
@@ -186,5 +191,6 @@ auch <rs type="person" xml:id="pNt_62545" ref="#person_16469"><forename>Lucy</fo
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_62546" ref="#person_19822"><forename>Heini</forename></rs> Oper, die drei <rs type="person" xml:id="pNt_62547" ref="#person_18988"><surname>Puccini</surname></rs> <rs type="work" xml:id="bibl_3340">Einakter</rs>;</p>
             <p xml:space="preserve" rend="indent">mit <rs type="person" xml:id="pNt_62548" ref="#person_19822"><forename>Heini</forename></rs> in der <rs type="person" xml:id="pNt_62549"><surname>Dreher</surname></rs> Schwemme genachtm.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

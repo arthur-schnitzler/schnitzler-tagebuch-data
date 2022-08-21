@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-06-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-06-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-06-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-06-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-06-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-06-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FE7D-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2928.tif"/>
@@ -185,7 +189,7 @@
             <p xml:space="preserve"><date when="1910-06-27">27/6</date> Vm. mit O. „Schulausstellung“; in der Villa.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="allusively" xml:id="rst_01127">Mama</rs> nach Tisch ein <rs type="person" xml:id="pNt_32949" ref="#person_18282"><surname>Mozart</surname></rs> Quintett. <rs type="person" xml:id="pNt_32950" ref="#person_15854"><forename>Gisela</forename></rs> zu Besuch; sehr 
 nervös; über <rs type="allusively" xml:id="rst_01128">Mamas</rs> psychische Zustände.― In Plänen herum.</p>
-            <p xml:space="preserve" rend="indent">Spazieren, <rs type="place" xml:id="pl_07118" ref="#place_85a3f5cbb52d9104b22a5a6702354836">Rathauspark</rs>; <rs type="place" xml:id="pl_07119" ref="#place_d7f977f9a16210838a0dd6b32f6fb25d">Volksgarten</rs>; <rs type="person" xml:id="pNt_32951" ref="#person_15855"><surname>Hajek</surname></rs> und der <rs type="place" xml:id="pl_07120" ref="#place_439e7479b5b7e6f94aa165e9bc7328cc" ana="#exclude">brasilianische</rs> 
+            <p xml:space="preserve" rend="indent">Spazieren, <rs type="place" xml:id="pl_07118" ref="#pmb91568">Rathauspark</rs>; <rs type="place" xml:id="pl_07119" ref="#pmb103">Volksgarten</rs>; <rs type="person" xml:id="pNt_32951" ref="#person_15855"><surname>Hajek</surname></rs> und der <rs type="place" xml:id="pl_07120" ref="#place_439e7479b5b7e6f94aa165e9bc7328cc" ana="#exclude">brasilianische</rs> 
 Gesandte.―</p>
             <pb n="157"/>
             <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header">
@@ -205,6 +209,5 @@ Geisteszustand; gewiß ein Ineinanderspielen von aufrichtigen und
 lügenhaften Elementen.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

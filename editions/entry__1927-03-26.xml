@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-03-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-03-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-03-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-03-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-03-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-03-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-165B-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6837.tif"/>
@@ -182,15 +186,14 @@
       <body>
          <div type="diary-day" xml:id="entry__1927-03-26">
             <p xml:space="preserve"><date when="1927-03-26">26/3</date> Vm. <rs type="person" xml:id="pNt_80139" ref="#person_16277"><roleName>Dr.</roleName> <surname>Hoffmann</surname></rs>; Steuerangelegenheiten; religiöses und philosophisches.―</p>
-            <p xml:space="preserve" rend="indent">Miss <rs type="person" xml:id="pNt_80140" ref="#person_16484"><forename>Agnes</forename> <surname>Jacques</surname></rs> aus <rs type="place" xml:id="pl_17174" ref="#place_9cfa1e69f507d007a516eb3e9f5074e2">Chicago</rs>; hat „<rs type="work" subtype="self" xml:id="bibl_24285">Beate</rs>“ übersetzt („<rs type="work" subtype="self" xml:id="bibl_24286">Beatrice</rs>“) 
-arbeitet jetzt in <rs type="place" xml:id="pl_17175" ref="#place_961698fa64951bd6d3437ebc7931a899">Bern</rs> (<rs type="person" xml:id="pNt_80141" ref="#person_16337"><surname>Holzapfel</surname></rs>);― verlegerisches und betrügerisches 
-aus <rs type="place" xml:id="pl_17176" ref="#place_e884124295d0c4d07d9bcf5096fd5495">Amerika</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Miss <rs type="person" xml:id="pNt_80140" ref="#person_16484"><forename>Agnes</forename> <surname>Jacques</surname></rs> aus <rs type="place" xml:id="pl_17174" ref="#pmb880">Chicago</rs>; hat „<rs type="work" subtype="self" xml:id="bibl_24285">Beate</rs>“ übersetzt („<rs type="work" subtype="self" xml:id="bibl_24286">Beatrice</rs>“) 
+arbeitet jetzt in <rs type="place" xml:id="pl_17175" ref="#pmb1223">Bern</rs> (<rs type="person" xml:id="pNt_80141" ref="#person_16337"><surname>Holzapfel</surname></rs>);― verlegerisches und betrügerisches 
+aus <rs type="place" xml:id="pl_17176" ref="#pmb43406">Amerika</rs>.―</p>
             <p xml:space="preserve" rend="indent">Dictirt Briefe, <rs type="work" subtype="self" xml:id="bibl_24287">aphoristisches</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_80142" ref="#person_17562"><forename>R.</forename> <surname>L.</surname></rs> Behandlung.</p>
             <p xml:space="preserve" rend="indent">Vorher <rs type="person" xml:id="pNt_80143" ref="#person_20839"><roleName>Director</roleName> <surname>Turnauer</surname></rs>, neuer Nachbar; wegen Zauns u. dgl.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_80144" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> Kino („<rs type="work" xml:id="bibl_24288">Soldat der Marie</rs>“) ―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

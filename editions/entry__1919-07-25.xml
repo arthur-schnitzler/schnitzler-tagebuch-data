@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-07-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-07-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-07-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-07-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-07-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-07-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0B6C-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4888.tif"/>
@@ -182,13 +186,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1919-07-25">
-            <p xml:space="preserve"><date when="1919-07-25">25/7</date> Früh fuhr <rs type="person" xml:id="pNt_56570" ref="#person_14130"><forename>Lili</forename></rs> mit <rs type="person" xml:id="pNt_56571" ref="#person_20112"><forename>Wucki</forename></rs> nach <rs type="place" xml:id="pl_11776" ref="#place_5884bac5272bf94a2487941d33f4ddc1">Payerbach</rs>.―</p>
+            <p xml:space="preserve"><date when="1919-07-25">25/7</date> Früh fuhr <rs type="person" xml:id="pNt_56570" ref="#person_14130"><forename>Lili</forename></rs> mit <rs type="person" xml:id="pNt_56571" ref="#person_20112"><forename>Wucki</forename></rs> nach <rs type="place" xml:id="pl_11776" ref="#pmb948">Payerbach</rs>.―</p>
             <p xml:space="preserve" rend="indent">O., verweint, ruft mich zu sich. Sieht ein ― zusammenleben undenkbar. 
-Läßt sich aber nicht „verbannen“ (ich hatte <rs type="place" xml:id="pl_11777" ref="#place_d0a6343a081a7335baa965ce4fd0845c">München</rs> vorgeschlagen), 
+Läßt sich aber nicht „verbannen“ (ich hatte <rs type="place" xml:id="pl_11777" ref="#pmb45258">München</rs> vorgeschlagen), 
 von den <rs type="allusively" xml:id="rst_01634">Kindern</rs> trennen; will sich eine Wohnung in der Nähe nehmen; 
 täglich die <rs type="allusively" xml:id="rst_01635">Kinder</rs> sehen u. s. w.― Die unter den heutigen Umständen 
 ganz besondern Kosten, Schwierigkeiten kommen zur Sprache; ich wünsche 
-Entscheidung zum mindesten bis über <rs type="place" xml:id="pl_11778" ref="#place_d1bbe5c82af588aa9fd6e5f65d6acab3">Reichenau</rs> zu verschieben.</p>
+Entscheidung zum mindesten bis über <rs type="place" xml:id="pl_11778" ref="#pmb91574">Reichenau</rs> zu verschieben.</p>
             <p xml:space="preserve" rend="indent">Mit constanten Herzschmerzen <rs type="person" xml:id="pNt_56572" ref="#person_18881"><forename>Kolap</forename></rs> entgegen; mit ihr in der schwülen 
 Luft spazieren und die Angelegenheit besprochen. Ihre Ansicht: es müsse 
 doch irgend was concretes, zum mindesten in der Möglichkeit oder im 
@@ -215,6 +219,5 @@ nicht ertragen könne.)</p>
 telefoniren.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

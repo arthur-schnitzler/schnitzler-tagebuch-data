@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-08-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-08-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-08-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-08-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-08-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-08-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1140-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6098.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1923-08-25">
-            <p xml:space="preserve"><date when="1923-08-25">25/8</date> <rs type="place" xml:id="pl_14983" ref="#place_63da02947d9e51e4ddd4504712bc71c0">Celerina</rs>. Vm. in <rs type="place" xml:id="pl_14984" ref="#place_ed6893b78d32ca570adf82aa6fe6e5be">Pontresina</rs>; mit <rs type="person" xml:id="pNt_70142" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> gegen <rs type="place" xml:id="pl_14985" ref="#place_94501be4d3784aa4805664e854bb19af">Muottas</rs> <rs type="place" xml:id="pl_14985x" ref="#place_ed6893b78d32ca570adf82aa6fe6e5be">Pontr.</rs>―</p>
+            <p xml:space="preserve"><date when="1923-08-25">25/8</date> <rs type="place" xml:id="pl_14983" ref="#pmb12589">Celerina</rs>. Vm. in <rs type="place" xml:id="pl_14984" ref="#pmb34946">Pontresina</rs>; mit <rs type="person" xml:id="pNt_70142" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> gegen <rs type="place" xml:id="pl_14985" ref="#pmb91312">Muottas</rs> <rs type="place" xml:id="pl_14985x" ref="#pmb34946">Pontr.</rs>―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_1972">Verf.</rs>―</p>
-            <p xml:space="preserve" rend="indent">Abd. mit <rs type="person" xml:id="pNt_70143" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> Spaziergang <rs type="place" xml:id="pl_14986" ref="#place_0a16bce3e470dfab76d6a8c529e2725d">Samaden</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Abd. mit <rs type="person" xml:id="pNt_70143" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> Spaziergang <rs type="place" xml:id="pl_14986" ref="#pmb44306">Samaden</rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

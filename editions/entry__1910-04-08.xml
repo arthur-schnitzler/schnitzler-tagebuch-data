@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-04-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-04-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-04-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-04-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-04-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-04-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FE2D-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2884.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1910-04-08">
-            <p xml:space="preserve"><date when="1910-04-08">8/4</date> Vm. Probe <rs type="place" xml:id="pl_07000" ref="#place_a9a988302086229505c21f885134919d">Josefstadt</rs>.― <rs type="person" xml:id="pNt_32455" ref="#person_17046"><surname>Korff</surname></rs>, gestern bei dem „Circusfest“ durch 
+            <p xml:space="preserve"><date when="1910-04-08">8/4</date> Vm. Probe <rs type="place" xml:id="pl_07000" ref="#pmb58">Josefstadt</rs>.― <rs type="person" xml:id="pNt_32455" ref="#person_17046"><surname>Korff</surname></rs>, gestern bei dem „Circusfest“ durch 
 einen Hufschlag verletzt (er war „Schulreiter“) fehlte.― <rs type="person" xml:id="pNt_32456" ref="#person_13383"><surname>Balajthy</surname></rs> 
 spielte den Vater zum ersten Mal.―</p>
             <p xml:space="preserve" rend="indent">In die Burg mit <rs type="person" xml:id="pNt_32457" ref="#person_14434"><surname>Devrient</surname></rs> und <rs type="person" xml:id="pNt_32458" ref="#person_21543"><surname>Zeska</surname></rs>; Erkundigung wegen <rs type="person" xml:id="pNt_32459" ref="#person_17046"><surname>Korff</surname></rs>; 
@@ -190,6 +194,5 @@ Generalprobe „<rs type="work" xml:id="bibl_11652">Schule der Frauen</rs>“.�
             <p xml:space="preserve" rend="indent">Von <rs type="person" xml:id="pNt_32460" ref="#person_13551"><forename>Richards</forename></rs> Olga abgeholt.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

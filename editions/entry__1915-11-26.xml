@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-11-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-11-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-11-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1915-11-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-11-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-11-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0635-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4150.tif"/>
@@ -183,7 +187,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1915-11-26">
-            <p xml:space="preserve"><date when="1915-11-26">26/11</date> Sonniger Wintertag. Mit O. <rs type="place" xml:id="pl_09688" ref="#place_6fc6f10422bfe80ddcba23b4f7f080dc">Hietzing</rs> zu <rs type="person" xml:id="pNt_46911" ref="#person_18916"><surname>Popper</surname></rs>. Über seine 
+            <p xml:space="preserve"><date when="1915-11-26">26/11</date> Sonniger Wintertag. Mit O. <rs type="place" xml:id="pl_09688" ref="#pmb63">Hietzing</rs> zu <rs type="person" xml:id="pNt_46911" ref="#person_18916"><surname>Popper</surname></rs>. Über seine 
 Bücher „Individuum …“, Selbstbiografie, Nährpflicht etc.; über 
 Renegatentum (<rs type="person" xml:id="pNt_46912" ref="#person_16228"><forename>Robert</forename> <surname>Hirschfeld</surname></rs>), Kritik etc. Er war 
 jüdisch-warm-wohlthuend-klug-gut. Sehr hübsch, dass wir alle lachen 
@@ -211,6 +215,5 @@ irgendwie; im einzelnen viel witziges und auch spaßiges. Will nun [ans]
 feilen.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

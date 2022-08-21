@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1924-05-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-05-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-05-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1924-05-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-05-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-05-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1241-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6263.tif"/>
@@ -185,11 +189,10 @@
             <p xml:space="preserve"><date when="1924-05-09">9/5</date> Besorgungen.― Bei <rs type="person" xml:id="pNt_72227" ref="#person_18722"><roleName>Dr.</roleName> <surname>Peter</surname></rs>.― Bei <rs type="person" xml:id="pNt_72228" ref="#person_19506"><roleName>Dr.</roleName> <surname>Sachs</surname></rs> ― der mir neue Gläser 
 verschrieb, da die Weitsichtigkeit besonders rechts erheblich fortschritt.―</p>
             <p xml:space="preserve" rend="indent">Zur <rs type="allusively" xml:id="rst_02050">Hofr.</rs> (man hatte mir nicht bestellt, dass das Mittagessen 
-mit der <rs type="person" xml:id="pNt_72229" ref="#person_13643"><surname>Bergner</surname></rs> abgesagt war), sie fährt morgen nach <rs type="place" xml:id="pl_15365" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs>.</p>
+mit der <rs type="person" xml:id="pNt_72229" ref="#person_13643"><surname>Bergner</surname></rs> abgesagt war), sie fährt morgen nach <rs type="place" xml:id="pl_15365" ref="#pmb182">Paris</rs>.</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="work" subtype="self" xml:id="bibl_21035">Tgb.</rs> 16 weiter.― <rs type="work" subtype="self" xml:id="bibl_21036">Verf.</rs> III. weitercorrigirt.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_72230" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Kino („<rs type="work" xml:id="bibl_21037">geheimnisvolle Nacht</rs>“).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

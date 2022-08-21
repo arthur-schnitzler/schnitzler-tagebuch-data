@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-03-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-03-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-03-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-03-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-03-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-03-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FE12-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2866.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1910-03-12">
-            <p xml:space="preserve"><date when="1910-03-12">12/3</date> Früh nach <rs type="place" xml:id="pl_06981" ref="#place_a87c18c322f6b2feece9018bcd4027e5">Olmütz</rs> gefahren. Auf der Bahn: <rs type="person" xml:id="pNt_32249" ref="#person_18010"><roleName>Hr.</roleName> <surname>Mayer</surname></rs> 
+            <p xml:space="preserve"><date when="1910-03-12">12/3</date> Früh nach <rs type="place" xml:id="pl_06981" ref="#pmb44176">Olmütz</rs> gefahren. Auf der Bahn: <rs type="person" xml:id="pNt_32249" ref="#person_18010"><roleName>Hr.</roleName> <surname>Mayer</surname></rs> 
 (Kohlenhändler); im Hotel Hr. <rs type="person" xml:id="pNt_32250" ref="#person_21612"><forename>Felix</forename> <surname>Zweig</surname></rs>; Rabbiner <rs type="person" xml:id="pNt_32251" ref="#person_18563"><surname>Oppenheim</surname></rs>. Spazieren 
 mit den Herren, Park; zu Dr. <rs type="person" xml:id="pNt_32252" ref="#person_18563"><surname>O.</surname></rs> speisen. Seine Frau. Seine Mutter. 
 Kaltes Zimmer. Die Mutter über ihr Leben, was man alles überlebt; 
@@ -197,6 +201,5 @@ nichts aßen) <rs type="person" xml:id="pNt_32257" ref="#person_18010"><surname>
 körperlich schlecht befunden.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1921-01-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-01-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-01-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1921-01-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-01-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-01-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0D93-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5292.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1921-01-26">
-            <p xml:space="preserve"><date when="1921-01-26">26/1</date> Vm. Bankverein, wegen Dollarsendung aus <rs type="place" xml:id="pl_12756" ref="#place_e884124295d0c4d07d9bcf5096fd5495">Amerika</rs>; dann in die Boden 
+            <p xml:space="preserve"><date when="1921-01-26">26/1</date> Vm. Bankverein, wegen Dollarsendung aus <rs type="place" xml:id="pl_12756" ref="#pmb43406">Amerika</rs>; dann in die Boden 
 Credit, zu <rs type="person" xml:id="pNt_61182" ref="#person_17175"><roleName>Herrn</roleName> <surname>Kugel</surname></rs>, Rats erholen. Ich erhielt bare Dollars im 
 Bankverein, verkaufte sie in der B. Cr. und wurde ein wenig bemogelt.―</p>
             <p xml:space="preserve" rend="indent">Probe.―</p>
@@ -191,6 +195,5 @@ Bankverein, verkaufte sie in der B. Cr. und wurde ein wenig bemogelt.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_61186" ref="#person_19832"><forename>O.</forename></rs> immer, als wäre an ihr ein Unrecht geschehn, was erbitternd wirkt.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

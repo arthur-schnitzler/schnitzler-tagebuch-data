@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-01-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-01-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-01-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1906-01-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-01-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-01-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F84B-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2181.tif"/>
@@ -180,7 +184,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1906-01-17">
-            <p xml:space="preserve"><date when="1906-01-17">17/1</date> Olgas 24. Geburtstag.― Vm. im <rs type="place" xml:id="pl_05421" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs>; mit <rs type="person" xml:id="pNt_24251" ref="#person_20030"><roleName>Prof.</roleName> <surname>Seidler</surname></rs>, 
+            <p xml:space="preserve"><date when="1906-01-17">17/1</date> Olgas 24. Geburtstag.― Vm. im <rs type="place" xml:id="pl_05421" ref="#pmb113">Türkenschanzpark</rs>; mit <rs type="person" xml:id="pNt_24251" ref="#person_20030"><roleName>Prof.</roleName> <surname>Seidler</surname></rs>, 
 ein rechter selbstzufriedener Schwätzer.―</p>
             <p xml:space="preserve" rend="indent">Dictirt. <rs type="work" subtype="self" xml:id="bibl_14690">Roman</rs>. Briefe. (<rs type="person" xml:id="pNt_24252"><forename>Grethl</forename></rs>.)</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_24253" ref="#person_16925"><roleName>Dr. jur.</roleName> <surname>Knapitsch</surname></rs>, von <rs type="person" xml:id="pNt_24254" ref="#person_17696"><surname>Lothar</surname></rs> empfohlen, behufs Unterzeichnung eines 
@@ -192,6 +196,5 @@ goischer Frische.―</p>
             <p xml:space="preserve" rend="indent">Am <rs type="work" subtype="self" xml:id="bibl_14692">Roman</rs>.― Lieder von <rs type="person" xml:id="pNt_24257"><surname>Wolf</surname></rs> mit Olga.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

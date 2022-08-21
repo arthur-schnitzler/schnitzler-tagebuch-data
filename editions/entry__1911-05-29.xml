@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-05-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-05-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-05-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-05-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-05-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-05-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FFCD-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3166.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1911-05-29">
-            <p xml:space="preserve"><date when="1911-05-29">29/5</date> <rs type="place" xml:id="pl_07485" ref="#place_84bb7a44667327c91eade4b980a38a6f">Karlsbad</rs>.― Spaziergang gegen Kaiserpark mit den Damen und 
+            <p xml:space="preserve"><date when="1911-05-29">29/5</date> <rs type="place" xml:id="pl_07485" ref="#pmb842">Karlsbad</rs>.― Spaziergang gegen Kaiserpark mit den Damen und 
 <rs type="person" xml:id="pNt_35389" ref="#person_13592"><forename>Isidor</forename> <surname>Benedikt</surname></rs>.</p>
             <pb n="243"/>
             <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header">
@@ -197,6 +201,5 @@ Heiling.―</p>
             <p xml:space="preserve" rend="indent">Dr. <rs type="person" xml:id="pNt_35394" ref="#person_17114"><forename>Oskar</forename> <surname>Kraus</surname></rs> (Vormittag) und <rs type="person" xml:id="pNt_35395" ref="#person_15404"><roleName>Dr.</roleName> <surname>Gerstl</surname></rs> (Abend).―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

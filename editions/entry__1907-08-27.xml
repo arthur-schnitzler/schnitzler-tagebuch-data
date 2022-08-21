@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1907-08-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-08-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-08-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1907-08-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-08-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-08-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FA96-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2406.tif"/>
@@ -180,10 +184,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1907-08-27">
-            <p xml:space="preserve"><date when="1907-08-27">27/8</date> <rs type="place" xml:id="pl_06068" ref="#place_5a2315c53148f860229a3a7597c81b2e">Waidbruck</rs> ― <rs type="place" xml:id="pl_06069" ref="#place_a10b1b08ba18dbd926eec809e2d0a470">Ulrich</rs> ― <rs type="place" xml:id="pl_06070" ref="#place_3be81fe073503981a14e93e85322080c">Wolkenstein</rs> (Wagen).</p>
+            <p xml:space="preserve"><date when="1907-08-27">27/8</date> <rs type="place" xml:id="pl_06068" ref="#pmb92031">Waidbruck</rs> ― <rs type="place" xml:id="pl_06069" ref="#pmb91969">Ulrich</rs> ― <rs type="place" xml:id="pl_06070" ref="#pmb92101">Wolkenstein</rs> (Wagen).</p>
             <p xml:space="preserve" rend="indent">Prof. <rs type="person" xml:id="pNt_27253" ref="#person_19115"><surname>Reich</surname></rs>, <rs type="person" xml:id="pNt_27254" ref="#person_20536"><roleName>Prof.</roleName> <surname>Strisower</surname></rs>.― <rs type="work" subtype="self" xml:id="bibl_14416">Roman</rs> 1.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

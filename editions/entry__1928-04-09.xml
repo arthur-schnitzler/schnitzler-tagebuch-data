@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-04-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-04-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-04-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-04-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-04-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-04-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-17D7-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7067.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1928-04-09">
-            <p xml:space="preserve"><date when="1928-04-09">9/4</date> Ostermontag.― Nach <rs type="place" xml:id="pl_17873" ref="#place_f5b61ab40d3efa6b67d874a0fd70d3bd">Purkersdorf</rs> (Auto) Sanatorium (war glaub ich 
+            <p xml:space="preserve"><date when="1928-04-09">9/4</date> Ostermontag.― Nach <rs type="place" xml:id="pl_17873" ref="#pmb91552">Purkersdorf</rs> (Auto) Sanatorium (war glaub ich 
 seit 1917 (<rs type="person" xml:id="pNt_83435" ref="#person_16770"><forename>Arthur</forename> <surname>Kaufmann</surname></rs>) nicht dort gewesen) ― besuchte <rs type="person" xml:id="pNt_83436" ref="#person_13355"><forename>Ama</forename></rs>. Das San. 
 ist ein Theil der Erbschaft <rs ref="#person_21603" type="person" xml:id="pNt_83437"><forename>Viktor</forename> <surname>Zuckerkandl</surname></rs> (<rs type="person" xml:id="pNt_83438" ref="#person_21601"><forename>Otto’s</forename></rs> Bruder), 
 durch die u. a. <rs type="person" xml:id="pNt_83439" ref="#person_21597"><forename>Fritz</forename></rs> und <rs type="person" xml:id="pNt_83440" ref="#person_21602"><forename>Vicki</forename></rs> in gesicherte Verhältnisse gekommen 
@@ -193,6 +197,5 @@ Gespräch ― viel zur Naturgeschichte des Literaten ― vor allem Material
 <rs type="person" xml:id="pNt_83448" ref="#person_20796"><forename>Siegfried</forename> <surname>Tr.</surname></rs>―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

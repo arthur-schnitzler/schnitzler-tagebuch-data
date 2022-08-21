@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-12-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-12-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-12-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-12-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-12-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-12-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-18C9-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7204.tif"/>
@@ -184,7 +188,7 @@
             <p xml:space="preserve"><date when="1928-12-07">7/12</date> Vm. Brief an <rs type="person" xml:id="pNt_85399" ref="#person_19822"><forename>Heini</forename></rs> (wegen Weihnachten ― Urlaub etc.).</p>
             <p xml:space="preserve" rend="indent">― <rs type="person" xml:id="pNt_85400" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> abgeholt, die mich begleitet.―</p>
             <p xml:space="preserve" rend="indent">Besorgungen.―</p>
-            <p xml:space="preserve" rend="indent">Hotel Imperial gegessen mit <rs type="person" xml:id="pNt_85401" ref="#person_20175"><roleName>Mr.</roleName> <surname>Smyser</surname></rs> (<rs type="place" xml:id="pl_18420" ref="#place_87809c954948d8a20507bee3648281b3">New York</rs>) und seiner 
+            <p xml:space="preserve" rend="indent">Hotel Imperial gegessen mit <rs type="person" xml:id="pNt_85401" ref="#person_20175"><roleName>Mr.</roleName> <surname>Smyser</surname></rs> (<rs type="place" xml:id="pl_18420" ref="#pmb44053">New York</rs>) und seiner 
 Frau (<rs type="place" xml:id="pl_18421" ref="#place_33db35e9e94468b8aa7e3338e990f8ad" ana="#exclude">Wienerin</rs> geb. <rs type="person" xml:id="pNt_85402" ref="#person_20174"><surname>Kund</surname></rs>), sowie <rs type="person" xml:id="pNt_85403" ref="#person_18402"><roleName>Mrs.</roleName> ― <surname>Neugass</surname></rs> ― <rs type="person" xml:id="pNt_85404" ref="#person_18402"><surname>Newman</surname></rs> ― 
 Schriftstellerin und Malerin. (<rs type="person" xml:id="pNt_85405" ref="#person_20175"><surname>Sm.</surname></rs> schreibt mit ihr ein Stück.―)</p>
             <p xml:space="preserve" rend="indent">Nm. an <rs type="work" subtype="self" xml:id="bibl_19836">aphoristischem</rs>.</p>
@@ -192,6 +196,5 @@ Schriftstellerin und Malerin. (<rs type="person" xml:id="pNt_85405" ref="#person
 ganz gut intendirtes Vorspiel geschrieben.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

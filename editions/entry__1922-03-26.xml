@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-03-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-03-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-03-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-03-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-03-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-03-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0F3B-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5682.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1922-03-26">
-            <p xml:space="preserve"><date when="1922-03-26">26/3</date> S. Mit <rs type="person" xml:id="pNt_65591" ref="#person_14130"><forename>Lili</forename></rs> Dreimarkstein <rs type="place" xml:id="pl_13746" ref="#place_3b0cf80ce6f7c6e0340cf31265c8f3f7">Sievring</rs>. Freute mich an ihrer Klugheit und 
+            <p xml:space="preserve"><date when="1922-03-26">26/3</date> S. Mit <rs type="person" xml:id="pNt_65591" ref="#person_14130"><forename>Lili</forename></rs> Dreimarkstein <rs type="place" xml:id="pl_13746" ref="#pmb64219">Sievring</rs>. Freute mich an ihrer Klugheit und 
 Klarheit.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_65592" ref="#person_19822"><forename>Heini</forename></rs> spielt mir aus <rs type="work" xml:id="bibl_2434">Pfeifertag</rs> (<rs type="person" xml:id="pNt_65593" ref="#person_19698"><surname>Schillings</surname></rs>), <rs type="work" xml:id="bibl_2435">Ilsebill</rs> (<rs type="person" xml:id="pNt_65594" ref="#person_16921"><surname>Klose</surname></rs>), <rs type="work" xml:id="bibl_2436">Ariane</rs> 
 (<rs type="person" xml:id="pNt_65595" ref="#person_14543"><surname>Dukas</surname></rs>) vor.―</p>
@@ -193,6 +197,5 @@ es war einigermaßen melancholisch.― Und doch ― es ist besser, als es vor
 zwei und drei Jahren und vielleicht auch schon in den Jahren vorher war.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

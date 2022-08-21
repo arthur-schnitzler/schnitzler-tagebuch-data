@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1902-09-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-09-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-09-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1902-09-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-09-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-09-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F39B-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1711.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1902-09-26">
-            <p xml:space="preserve"><date when="1902-09-26">26/9</date> Frau <rs type="person" xml:id="pNt_18929" ref="#person_15900"><forename>M.</forename> <surname>Hanel</surname></rs> teleph. („<rs type="work" subtype="self" xml:id="bibl_18091">Freiwild</rs>“ Aufführung im <rs type="place" ref="#place_volkstheater">Volksth.</rs> von 
+            <p xml:space="preserve"><date when="1902-09-26">26/9</date> Frau <rs type="person" xml:id="pNt_18929" ref="#person_15900"><forename>M.</forename> <surname>Hanel</surname></rs> teleph. („<rs type="work" subtype="self" xml:id="bibl_18091">Freiwild</rs>“ Aufführung im <rs type="place" ref="#pmb92202">Volksth.</rs> von 
 der Antiduelliga gewünscht.) ―</p>
-            <p xml:space="preserve" rend="indent">Nm. mit <rs type="person" xml:id="pNt_18930" ref="#person_19832"><forename>O.</forename></rs> und Frau <rs type="person" xml:id="pNt_18931"><forename>Ell.</forename> <surname>S.</surname></rs> <rs type="person" xml:id="pNt_18932"><surname>Jaray</surname></rs>;― <rs type="place" xml:id="pl_04128" ref="#place_a25ff6cb521df1cd0272d03eee7efd32">Brühl</rs>. (Mit <rs type="person" xml:id="pNt_18933" ref="#person_13551"><forename>Rich.</forename></rs> und <rs type="person" xml:id="pNt_18934" ref="#person_13550"><forename>Paula</forename></rs>.)</p>
+            <p xml:space="preserve" rend="indent">Nm. mit <rs type="person" xml:id="pNt_18930" ref="#person_19832"><forename>O.</forename></rs> und Frau <rs type="person" xml:id="pNt_18931"><forename>Ell.</forename> <surname>S.</surname></rs> <rs type="person" xml:id="pNt_18932"><surname>Jaray</surname></rs>;― <rs type="place" xml:id="pl_04128" ref="#pmb44413">Brühl</rs>. (Mit <rs type="person" xml:id="pNt_18933" ref="#person_13551"><forename>Rich.</forename></rs> und <rs type="person" xml:id="pNt_18934" ref="#person_13550"><forename>Paula</forename></rs>.)</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

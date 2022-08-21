@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-09-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-09-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-09-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-09-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-09-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-09-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-187A-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7166.tif"/>
@@ -184,7 +188,7 @@
          <div type="diary-day" xml:id="entry__1928-09-19">
             <p xml:space="preserve"><date when="1928-09-19">19/9</date> Dictirt „<rs type="work" subtype="self" xml:id="bibl_19656">Zug der Sch.</rs>“.―</p>
             <p xml:space="preserve" rend="indent">Nm. am „<rs type="work" subtype="self" xml:id="bibl_19657">Zug</rs>“.―</p>
-            <p xml:space="preserve" rend="indent">Gegen Abend und z. N. <rs type="person" xml:id="pNt_84794" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Ich sagte, dass ich bald nach <rs type="place" xml:id="pl_18294" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> fahren 
+            <p xml:space="preserve" rend="indent">Gegen Abend und z. N. <rs type="person" xml:id="pNt_84794" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Ich sagte, dass ich bald nach <rs type="place" xml:id="pl_18294" ref="#pmb168">Berlin</rs> fahren 
 wolle …― Sie verlor, trotz Versuch sich zu beherrschen, sofort die 
 Contenance; ja den Verstand; <rs type="person" xml:id="pNt_84795" ref="#person_18881"><forename>Kolap</forename></rs> kam später dazu und war ziemlich 
 fassunglos über diese Monomanie, in der sie (<rs type="person" xml:id="pNt_84796" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>) auch alle Güte, 
@@ -194,6 +198,5 @@ haranguirend wirken.― Ich führte beide im Auto heim.― Der Zustand
 meines Herzens liess zu wünschen übrig.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

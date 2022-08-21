@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1916-11-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-11-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-11-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1916-11-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-11-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-11-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0793-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4354.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1916-11-10">
-            <p xml:space="preserve"><date when="1916-11-10">10/11</date> Dictirt. Vorher mit <rs type="person" xml:id="pNt_49173" ref="#person_14130"><forename>Lili</forename></rs> spazieren <rs type="place" xml:id="pl_10292" ref="#place_9c457f4107132ccb2d87ebf5e13f0b74">Schafberg</rs>, erzählte ihr die 
+            <p xml:space="preserve"><date when="1916-11-10">10/11</date> Dictirt. Vorher mit <rs type="person" xml:id="pNt_49173" ref="#person_14130"><forename>Lili</forename></rs> spazieren <rs type="place" xml:id="pl_10292" ref="#pmb59367">Schafberg</rs>, erzählte ihr die 
 Geschichte vom Ritter Friedrich und der Nixe weiter.</p>
             <p xml:space="preserve" rend="indent">― Nm. mit O. bei <rs type="person" xml:id="pNt_49174" ref="#person_17825"><forename>Louis</forename> <surname>M.</surname></rs> Da er mich geheim bat wiederzukommen, 
 heftige Angst um O. Gleich wieder hin; auf dem Weg die Empfindung, 
@@ -193,10 +197,9 @@ fort; und konnte auch O. beruhigen, die daheim schon „Briefe ordnete“
 ― sie vor allem an der Absage des Concerts hindern.―</p>
             <p xml:space="preserve" rend="indent">Schrieb dann, in gelöster Spannung an „<rs type="work" subtype="self" xml:id="bibl_7704">Wiederkehr</rs>“.</p>
             <p xml:space="preserve" rend="indent">― Nach dem Nachtm. bei <rs type="person" xml:id="pNt_49176" ref="#person_19784"><surname>Schmutzers</surname></rs>. Billard. Er zeigt uns köstliche 
-kleinere und größere Handzeichnungen aus der <rs type="place" xml:id="pl_10293" ref="#place_b2a677fb2730bf552834184278c3511c">Wachau</rs>, heuriger 
+kleinere und größere Handzeichnungen aus der <rs type="place" xml:id="pl_10293" ref="#pmb531">Wachau</rs>, heuriger 
 Sommer. Ein treuer fleißiger Meister!―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

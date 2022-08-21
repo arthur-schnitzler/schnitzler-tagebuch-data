@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-12-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-12-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-12-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-12-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-12-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-12-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F828-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2164.tif"/>
@@ -180,7 +184,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1905-12-13">
-            <p xml:space="preserve"><date when="1905-12-13">13/12</date> Vm. im Sturm mit <rs type="person" xml:id="pNt_24031" ref="#person_20242"><forename>F.</forename> <surname>Speidel</surname></rs> spazieren <rs type="place" xml:id="pl_05380" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs>, <rs type="place" xml:id="pl_05381" ref="#place_c79ad839f84019f53250a4e6365359f9">Neuwaldegg</rs> 
+            <p xml:space="preserve"><date when="1905-12-13">13/12</date> Vm. im Sturm mit <rs type="person" xml:id="pNt_24031" ref="#person_20242"><forename>F.</forename> <surname>Speidel</surname></rs> spazieren <rs type="place" xml:id="pl_05380" ref="#pmb169">Pötzleinsdorf</rs>, <rs type="place" xml:id="pl_05381" ref="#pmb170">Neuwaldegg</rs> 
 etc.―</p>
             <p xml:space="preserve" rend="indent">Nm. zur Versendung „<rs type="work" subtype="self" xml:id="bibl_16121">Abendspazierg</rs>.“ (Dialog) fertig gemacht ― und 
 nicht weggeschickt.</p>
@@ -188,6 +192,5 @@ nicht weggeschickt.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_24034"><forename>Olga</forename></rs> sang.― Über die <rs type="person" xml:id="pNt_24035" ref="#person_14840"><surname>Eysoldt</surname></rs> (einstige Collegin der <rs type="person" xml:id="pNt_24036" ref="#person_15833"><surname>H.</surname></rs>) u. a.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-05-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-05-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-05-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-05-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-05-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-05-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-17F0-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7083.tif"/>
@@ -181,19 +185,18 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1928-05-04">
-            <p xml:space="preserve"><date when="1928-05-04">4/5</date> <rs type="place" xml:id="pl_17940" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.― Besorgungen. Bei <rs type="person" xml:id="pNt_83622" ref="#person_19986"><forename>Gustav</forename></rs>; sein Bruder <rs type="person" xml:id="pNt_83623" ref="#person_19987"><forename>Max</forename></rs> ist vor 14 
+            <p xml:space="preserve"><date when="1928-05-04">4/5</date> <rs type="place" xml:id="pl_17940" ref="#pmb50">Wien</rs>.― Besorgungen. Bei <rs type="person" xml:id="pNt_83622" ref="#person_19986"><forename>Gustav</forename></rs>; sein Bruder <rs type="person" xml:id="pNt_83623" ref="#person_19987"><forename>Max</forename></rs> ist vor 14 
 Tagen gestorben (man hatte es mir nicht mitgetheilt);― er war 
 nicht zu Hause, ich liess ein paar Worte zurück.―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_83624" ref="#person_15854"><forename>Gisa</forename></rs>. Familiensachen;― nicht günstige Zustände im Hause <rs type="person" xml:id="pNt_83625" ref="#person_16894"><forename>Margot</forename></rs>.</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_83626" ref="#person_19827"><forename>Julius’</forename></rs> zu Tisch.―</p>
             <p xml:space="preserve" rend="indent">Zu Hause geordnet etc.</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_83627" ref="#person_18152"><roleName>Mr.</roleName> <surname>Middleton</surname></rs>, Praeses der authors society <rs type="place" xml:id="pl_17941" ref="#place_87809c954948d8a20507bee3648281b3">New York</rs> (der vom 
-Urheberrechtscongress <rs type="place" xml:id="pl_17942" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> kam). Im Anfang etwas mühselig (nur 
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_83627" ref="#person_18152"><roleName>Mr.</roleName> <surname>Middleton</surname></rs>, Praeses der authors society <rs type="place" xml:id="pl_17941" ref="#pmb44053">New York</rs> (der vom 
+Urheberrechtscongress <rs type="place" xml:id="pl_17942" ref="#pmb168">Berlin</rs> kam). Im Anfang etwas mühselig (nur 
 <rs type="place" xml:id="pl_17943" ref="#place_d18e5d5a09c7b6e8b45b799066d5ac33" ana="#exclude">englische</rs> Conversation); bald ging es gut, wir wurden einander sehr 
 sympathisch.― Allgemeines und persönliches über Urheberrechtsfragen.</p>
             <p xml:space="preserve" rend="indent">― Mit <rs type="person" xml:id="pNt_83628" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Kino („<rs type="work" xml:id="bibl_19321">Ausgestoßene</rs>“), dann silb. Brunnen soup.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-11-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-11-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-11-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-11-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-11-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-11-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-15CF-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6750.tif"/>
@@ -185,10 +189,9 @@
             <p xml:space="preserve" rend="indent">Dict. <rs type="work" subtype="self" xml:id="bibl_20539">Diagr.</rs>, <rs type="work" subtype="self" xml:id="bibl_20540">Therese</rs>, Briefe.―</p>
             <p xml:space="preserve" rend="indent">Zu Tisch <rs type="person" xml:id="pNt_78958" ref="#person_19832"><forename>O.</forename></rs>―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_20541">Diagramm</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_78959" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> <rs type="place" xml:id="pl_16991" ref="#place_14160509c5ae29f69d034f5f347f5923">Michelbeuern</rs> Kino „<rs type="work" xml:id="bibl_20542">Bärenhochzeit</rs>“.</p>
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_78959" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> <rs type="place" xml:id="pl_16991" ref="#pmb92401">Michelbeuern</rs> Kino „<rs type="work" xml:id="bibl_20542">Bärenhochzeit</rs>“.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_78960" ref="#person_19832"><forename>O.</forename></rs> zum N.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

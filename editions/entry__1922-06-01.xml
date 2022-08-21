@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-06-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-05-31.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-06-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-06-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-05-31.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-06-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0F7E-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5729.tif"/>
@@ -182,7 +186,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1922-06-01">
             <p xml:space="preserve"><date when="1922-06-01">1/6</date> Dictirt Briefe.―</p>
-            <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_66274" ref="#person_20724"><roleName>Dr.</roleName> <surname>Thomsen</surname></rs> (<rs type="place" xml:id="pl_13931" ref="#place_226e71f7dbaedcb5e25a3998ca43db21">Kopenhagen</rs>) dann <rs type="person" xml:id="pNt_66275" ref="#person_19358"><roleName>Director</roleName> <surname>Rosen</surname></rs> (Deutsches Theater).―</p>
+            <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_66274" ref="#person_20724"><roleName>Dr.</roleName> <surname>Thomsen</surname></rs> (<rs type="place" xml:id="pl_13931" ref="#pmb36300">Kopenhagen</rs>) dann <rs type="person" xml:id="pNt_66275" ref="#person_19358"><roleName>Director</roleName> <surname>Rosen</surname></rs> (Deutsches Theater).―</p>
             <p xml:space="preserve" rend="indent">Z. N. <rs type="person" xml:id="pNt_66276" ref="#person_18958"><roleName>Direktor</roleName> <surname>Preßburger</surname></rs>, Dramaturg <rs type="person" xml:id="pNt_66277" ref="#person_20900"><surname>Vajda</surname></rs>, Regisseur <rs type="person" xml:id="pNt_66278" ref="#person_16824"><surname>Kertész</surname></rs>, 
 <rs type="person" xml:id="pNt_66279" ref="#person_16911"><surname>Klinenberger</surname></rs>. Besprechung des <rs type="work" subtype="self" xml:id="bibl_2573">Med. Film</rs>. Gute Vorschläge <rs type="person" xml:id="pNt_66280" ref="#person_20900"><surname>Vajdas</surname></rs>. 
 Besetzungsfragen.― Wir saßen bis nach Mitternacht unten auf der 
@@ -192,6 +196,5 @@ auch eine kleine Rolle kriegt).</p>
 viel unrichtige Daten. Habe keine reine Freude davon.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

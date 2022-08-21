@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1891-09-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-09-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-09-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1891-09-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-09-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-09-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E466-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0560.tif"/>
@@ -181,11 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1891-09-17">
-            <p xml:space="preserve"><date when="1891-09-17">17. 9.</date>― In der früh 8 <rs type="person" xml:id="pNt_05576" ref="#person_15485"><forename>Mz.</forename></rs> zur Bahn begleitet. Sie fuhr nach <rs type="place" xml:id="pl_01214" ref="#place_9a43e84f6e1d406076f2372205804f6d">B.</rs> ― 
-Wartete 2 Stunden in <rs type="place" xml:id="pl_01215" ref="#place_dac9f8d2001040ee8f6e352348bc148b">Meidling</rs>, fuhr nach Hause, war abgespannt 
+            <p xml:space="preserve"><date when="1891-09-17">17. 9.</date>― In der früh 8 <rs type="person" xml:id="pNt_05576" ref="#person_15485"><forename>Mz.</forename></rs> zur Bahn begleitet. Sie fuhr nach <rs type="place" xml:id="pl_01214" ref="#pmb662">B.</rs> ― 
+Wartete 2 Stunden in <rs type="place" xml:id="pl_01215" ref="#pmb62">Meidling</rs>, fuhr nach Hause, war abgespannt 
 und gleichgiltig. Sie kam, gleich nach mir, in Angst, war recht 
 enttäuscht, als ich ganz ruhig war. Die <rs type="person" xml:id="pNt_05577" ref="#person_15994"><surname>Hausner</surname></rs> hat ihr ein Engagement 
-am <rs type="place" ref="#place_volkstheater">Volksth.</rs> zugesagt. Sie geht nicht nach <rs type="place" xml:id="pl_01216" ref="#place_0e5965aa6363b878ccbac634a51170b1">Troppau</rs>, bleibt hier.― 
+am <rs type="place" ref="#pmb92202">Volksth.</rs> zugesagt. Sie geht nicht nach <rs type="place" xml:id="pl_01216" ref="#pmb36539">Troppau</rs>, bleibt hier.― 
 Statt erfreut, glückselig zu sein, empfand ich eine gelinde 
 Enttäuschung. Ich hatte mich nemlich, ganz entschieden, ein wenig, 
 nebst meinem Schmerz, auf die Trennung gefreut, die ewige Aufregung und 
@@ -193,6 +197,5 @@ das ewige Nichtsarbeiten hatten mich deprimirt ― nun, fürcht, ich ists
 wieder aus mit der Ruh und dem Arbeiten.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

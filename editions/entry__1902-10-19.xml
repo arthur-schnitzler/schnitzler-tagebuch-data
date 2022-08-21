@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1902-10-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-10-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-10-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1902-10-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-10-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-10-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F3B1-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1715.tif"/>
@@ -182,8 +186,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1902-10-19">
-            <p xml:space="preserve"><date when="1902-10-19">19/10</date> <rs type="place" xml:id="pl_04137" ref="#place_60960432acfa4972c8f13dd89a872920">Breslau</rs> ― <rs type="place" xml:id="pl_04138" ref="#place_38c22abcc3698cbd304394d6c8954a43">Hermsdorf</rs>.― <rs type="person" xml:id="pNt_19028" ref="#person_13913"><surname>Brahm</surname></rs>. Mein abfälliges Urtheil über die 
-Darstellung der <rs type="work" xml:id="bibl_18109">M. Vanna</rs> am dtsch. Theater.― <rs type="place" xml:id="pl_04139" ref="#place_7f11215374c0b793c00f894ca52cbef9">Agnetendorf</rs>.― 
+            <p xml:space="preserve"><date when="1902-10-19">19/10</date> <rs type="place" xml:id="pl_04137" ref="#pmb90392">Breslau</rs> ― <rs type="place" xml:id="pl_04138" ref="#pmb348">Hermsdorf</rs>.― <rs type="person" xml:id="pNt_19028" ref="#person_13913"><surname>Brahm</surname></rs>. Mein abfälliges Urtheil über die 
+Darstellung der <rs type="work" xml:id="bibl_18109">M. Vanna</rs> am dtsch. Theater.― <rs type="place" xml:id="pl_04139" ref="#pmb735">Agnetendorf</rs>.― 
 Wiesenstein.― Spazierg. mit <rs type="person" xml:id="pNt_19029" ref="#person_13913"><surname>Brahm</surname></rs> und <rs type="person" xml:id="pNt_19030" ref="#person_15981"><surname>Hauptmann</surname></rs>.― Mittag.― <rs type="person" xml:id="pNt_19031" ref="#person_15981"><forename>Grethe</forename> 
 <surname>Marschalk</surname></rs>. „Meine Freundin“. Musik Nachmittag, spielte mit <rs type="person" xml:id="pNt_19032"><forename>Grethe</forename> <surname>M.</surname></rs> <rs type="person" xml:id="pNt_19033" ref="#person_13555"><surname>Beethoven</surname></rs> <rs type="work" xml:id="bibl_18110">2. Violin Sonate</rs> und <rs type="person" xml:id="pNt_19034" ref="#person_13344"><surname>Bach</surname></rs>.― Fantasirte.― Auf der Post 
 mit <rs type="person" xml:id="pNt_19035" ref="#person_13913"><surname>Brahm</surname></rs>.</p>
@@ -192,6 +196,5 @@ mit <rs type="person" xml:id="pNt_19035" ref="#person_13913"><surname>Brahm</sur
 Gleichgiltigkeit gegen Inscenirung und Stil vor.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

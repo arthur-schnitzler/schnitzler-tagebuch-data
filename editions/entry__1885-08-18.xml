@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1885-08-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-08-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-08-19.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1885-08-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-08-17.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-08-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DED7-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0249.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1885-08-18">
-            <p xml:space="preserve"><date when="1885-08-18">18/8</date> Dinstag. <rs type="place" xml:id="pl_00453" ref="#place_7c990f7897fdcfd1713040a4971d6572">Rigi Kulm</rs> ― <rs type="place" xml:id="pl_00454" ref="#place_f31e6830aa4d9733dc014d9a6f190476">Vitznau</rs> (Bahn) ― <rs type="place" xml:id="pl_00455" ref="#place_fa03bdb79d723c1c5be1d05349c7574d">Flüelen</rs> (Schiff) ― 
-<rs type="place" xml:id="pl_00456" ref="#place_4e1b8cf71c3c08d5a2ce099dd2bf970d">Axenstraße</rs> <rs type="place" xml:id="pl_00457" ref="#place_4e3fc4260263aef1be39cb2f851ce28e">Brunnen</rs> (Fußweg) ― <rs type="place" xml:id="pl_00458" ref="#place_d26bbbb4c332918a5959dc980ef4b3b9">Axenstein</rs> ― <rs type="place" xml:id="pl_00459" ref="#place_4e3fc4260263aef1be39cb2f851ce28e">Brunnen</rs> (Wagen) ― <rs type="place" xml:id="pl_00460" ref="#place_cceafad713406bc4d8421dbdd142523a">Luzern</rs> 
+            <p xml:space="preserve"><date when="1885-08-18">18/8</date> Dinstag. <rs type="place" xml:id="pl_00453" ref="#pmb91598">Rigi Kulm</rs> ― <rs type="place" xml:id="pl_00454" ref="#pmb92021">Vitznau</rs> (Bahn) ― <rs type="place" xml:id="pl_00455" ref="#pmb53229">Flüelen</rs> (Schiff) ― 
+<rs type="place" xml:id="pl_00456" ref="#pmb53630">Axenstraße</rs> <rs type="place" xml:id="pl_00457" ref="#pmb53632">Brunnen</rs> (Fußweg) ― <rs type="place" xml:id="pl_00458" ref="#pmb90290">Axenstein</rs> ― <rs type="place" xml:id="pl_00459" ref="#pmb53632">Brunnen</rs> (Wagen) ― <rs type="place" xml:id="pl_00460" ref="#pmb967">Luzern</rs> 
 (Schiff). Französ. Theater. <rs type="work" xml:id="bibl_23328">Princesse des Canaries</rs>. Casino. Petits jeux 
 d’agrément, petits chevaux, jeu de baraques. Malheur.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-10-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-10-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-10-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1915-10-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-10-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-10-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0602-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,21 +177,22 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4111.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4112.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4113.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1915-10-06">
             <p xml:space="preserve"><date when="1915-10-06">6/10</date> <rs type="work" subtype="self" xml:id="bibl_8360">Probe</rs>; das ganze durch.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_46461" ref="#person_16770"><forename>Arthur</forename> <surname>Kaufmann</surname></rs> zu Tisch.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_8361">Verführer</rs> Scen.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_46462" ref="#person_21332"><forename>Arthur</forename> <surname>Wilheim</surname></rs> Frau und Söhnchen besuchen mich. (O. bettlägerig ―)</p>
             <p xml:space="preserve" rend="indent">Abends mit O. bei <rs type="person" xml:id="pNt_46463" ref="#person_19755"><surname>Schmidls</surname></rs>. U. a. <rs type="person" xml:id="pNt_46464" ref="#person_19020"><surname>Rabic</surname></rs>, jetzt Hauptmann Luftschiffer, 
-war in <rs type="place" xml:id="pl_09612" ref="#place_57441f5036e3278df0a7cf7f317c5805">Serbien</rs>, geht jetzt nach <rs type="place" xml:id="pl_09613" ref="#place_35d7df6ed3d93be2927d14acc5f1fc9a">Hamburg</rs>. Geschichten aus dem Krieg, 
+war in <rs type="place" xml:id="pl_09612" ref="#pmb264">Serbien</rs>, geht jetzt nach <rs type="place" xml:id="pl_09613" ref="#pmb506">Hamburg</rs>. Geschichten aus dem Krieg, 
 unvergeßlich in ihrer äußern, innern Wahrheit.― Nur Schlagworte: Die 
 Erschießung der Geiseln (weil zu viel).― Der Oberstltnt., der ein 
 Tragthier mit Schnaps und Wein mithat, vor den Gefechten sich Muth 
@@ -195,7 +200,7 @@ ansauft.― Zu <rs type="person" xml:id="pNt_46465" ref="#person_19020"><surname
 sendet <rs type="person" xml:id="pNt_46466" ref="#person_19020"><surname>R.</surname></rs> allein in das <rs type="place" xml:id="pl_09614" ref="#place_8f6964cb95229a40a9ff1b955448c600" ana="#exclude">montenegr.</rs> Dorf ― er kommt heil zurück: „Es 
 ist nicht gelungen.“― Zum <rs type="place" xml:id="pl_09615" ref="#place_a49659c608e642babf7c56af29e6dd43" ana="#exclude">Montenegr.</rs> Gefangnen: Bring mir ein Weib 
 ― sonst laß ich dich erschießen.― „Vorwärts, jetzt gehn wir“ ― 
-Verwundung ― Lazareth, <rs type="place" xml:id="pl_09616" ref="#place_ca7668a05b2a3dbf29ca3d768c0febe8">Graz</rs>.― ― Der Hauptmann der Flieger, der auf Befehl 
+Verwundung ― Lazareth, <rs type="place" xml:id="pl_09616" ref="#pmb90759">Graz</rs>.― ― Der Hauptmann der Flieger, der auf Befehl 
 des Stabs (obwohl er Einwendungen erheben könnte) 3 oder 4 Flieger 
 in Nebel und Sturm, in den sichern Untergang aufsteigen läßt, ― und 
 das Eiserne Kreuz bekommt.― Photographien, darunter die Deserteure, 
@@ -212,5 +217,6 @@ Unrecht über Unrecht; Wahnsinn über Wahnsinn! ―</p>
                </fw>
             </tei:fw>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

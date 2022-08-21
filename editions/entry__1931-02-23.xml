@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-02-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-02-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-02-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1931-02-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-02-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-02-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1BF1-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,13 +177,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7646.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7647.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1931-02-23">
             <p xml:space="preserve"><date when="1931-02-23">23/2</date> Vm. <rs type="person" xml:id="pNt_92166" ref="#person_19738"><forename>Viola Gabr.</forename> <surname>Schlesinger</surname></rs> (bringt mir das Programmheft „<rs type="work" subtype="self" xml:id="bibl_23628">Gang</rs>“ mit 
 dem Artikel von <rs type="person" xml:id="pNt_92167" ref="#person_21264"><forename>Paul</forename> <surname>Wertheimer</surname></rs>).</p>
@@ -187,5 +192,6 @@ dem Artikel von <rs type="person" xml:id="pNt_92167" ref="#person_21264"><forena
             <p xml:space="preserve" rend="indent">― Nm. einigermaßen mit dem <rs type="work" subtype="self" xml:id="bibl_23630">Roman</rs> beschäftigt.</p>
             <p xml:space="preserve" rend="indent">Z. N. war <rs type="person" xml:id="pNt_92168" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> bei mir.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

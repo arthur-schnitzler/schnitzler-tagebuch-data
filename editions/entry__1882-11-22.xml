@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1882-11-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1882-11-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1882-12-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1882-11-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1882-11-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1882-12-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DE84-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0191.tif"/>
@@ -184,7 +188,7 @@
             <p xml:space="preserve"><date when="1882-11-22">22/11</date> Mittwoch Abend.― Gestern vor acht Tagen ging das „Stück“ 
 mit viel Erfolg in Scene.- <rs type="person" xml:id="pNt_01757" ref="#person_17368"><forename>Fännchen</forename></rs>, die kürzlich durch <rs type="person" xml:id="pNt_01758" ref="#person_18320"><forename>Fany</forename> <surname>M.</surname></rs> 
 erfahren hat (als ob ichs ihr nicht gesagt hätte) daß ich mich nicht mit 
-der Absicht trage, sie zu heiraten, traf ich neulich auf dem <rs type="place" xml:id="pl_00344" ref="#place_9ae90ea21d3e063c02809f046183f123">Ring</rs> ― sie 
+der Absicht trage, sie zu heiraten, traf ich neulich auf dem <rs type="place" xml:id="pl_00344" ref="#pmb91600">Ring</rs> ― sie 
 schien tief gekränkt…</p>
             <pb n="144"/>
             <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header">
@@ -198,6 +202,5 @@ schien tief gekränkt…</p>
             <p xml:space="preserve" rend="center">December</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

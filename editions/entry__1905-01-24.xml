@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-01-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-01-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-01-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-01-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-01-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-01-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F6E6-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2029.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1905-01-24">
-            <p xml:space="preserve"><date when="1905-01-24">24/1</date> Vm. Probe. <rs type="place" ref="#place_volkstheater">Volksth.</rs> <rs type="work" subtype="self" xml:id="bibl_15459">Freiwild</rs>. Das Stück mißfiel mir recht; schämte 
+            <p xml:space="preserve"><date when="1905-01-24">24/1</date> Vm. Probe. <rs type="place" ref="#pmb92202">Volksth.</rs> <rs type="work" subtype="self" xml:id="bibl_15459">Freiwild</rs>. Das Stück mißfiel mir recht; schämte 
 mich zuweilen. Erinnerung an die Zeit, in der ich’s schrieb: 1896, Sommer, 
 Nordland. Es war, nach dem <rs type="work" subtype="self" xml:id="bibl_15460">Liebelei</rs> Erfolg, in dem ruhigen, fast 
 pflichtlosen Verhältnis mit <rs type="person" xml:id="pNt_22329" ref="#person_19150"><forename>M.</forename> <surname>Rh.</surname></rs>, noch knapp vor der Epoche des 
@@ -195,6 +199,5 @@ kennen gelernt. („<rs type="figur"><forename>Anna</forename> <surname>Riedel</
 Entfremdung.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

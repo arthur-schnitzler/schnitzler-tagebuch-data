@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1900-10-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-10-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-10-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1900-10-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-10-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-10-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F10D-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -162,7 +166,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1593.tif"/>
@@ -170,10 +174,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1900-10-14">
-            <p xml:space="preserve"><date when="1900-10-14">14/10</date> Mit <rs type="person" xml:id="pNt_17429" ref="#person_18137"><forename>Dor.</forename> <surname>Sp.</surname></rs> <rs type="place" xml:id="pl_03577" ref="#place_9a43e84f6e1d406076f2372205804f6d">Baden</rs> ― <rs type="place" xml:id="pl_03578" ref="#place_d7baee5f6ed67d7e9e336e1877ebe349">Mayerling</rs> ― <rs type="place" xml:id="pl_03579" ref="#place_9a43e84f6e1d406076f2372205804f6d">Baden</rs> (Rad), <rs type="person" xml:id="pNt_17430" ref="#person_18137"><forename>D.</forename></rs>, <rs type="person" xml:id="pNt_17431" ref="#person_21109"><forename>Jul.</forename></rs>,
+            <p xml:space="preserve"><date when="1900-10-14">14/10</date> Mit <rs type="person" xml:id="pNt_17429" ref="#person_18137"><forename>Dor.</forename> <surname>Sp.</surname></rs> <rs type="place" xml:id="pl_03577" ref="#pmb662">Baden</rs> ― <rs type="place" xml:id="pl_03578" ref="#pmb49690">Mayerling</rs> ― <rs type="place" xml:id="pl_03579" ref="#pmb662">Baden</rs> (Rad), <rs type="person" xml:id="pNt_17430" ref="#person_18137"><forename>D.</forename></rs>, <rs type="person" xml:id="pNt_17431" ref="#person_21109"><forename>Jul.</forename></rs>,
 <rs ref="#person_21107" type="person" xml:id="pNt_17432"><surname>Wassermann</surname></rs> bei mir gespeist.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

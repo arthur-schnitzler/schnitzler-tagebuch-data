@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-04-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-04-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-04-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-04-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-04-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-04-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-193E-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7265.tif"/>
@@ -182,7 +186,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1929-04-03">
             <p xml:space="preserve"><date when="1929-04-03">3/4</date> Vm. <rs type="person" xml:id="pNt_86415" ref="#person_17562"><forename>R.</forename> <surname>L.</surname></rs> (Behandlung).</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_86416" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> abgeholt, Auto <rs type="place" xml:id="pl_18591" ref="#place_f049cba9de759c3281e03390b86aa64a">Praterstr.</rs> (Schwester);― ich Besorgungen.―</p>
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_86416" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> abgeholt, Auto <rs type="place" xml:id="pl_18591" ref="#pmb92460">Praterstr.</rs> (Schwester);― ich Besorgungen.―</p>
             <p xml:space="preserve" rend="indent">Zu Tisch <rs type="person" xml:id="pNt_86417" ref="#person_19756"><forename>Paula</forename> <surname>Schm.</surname></rs> mit (ihrer Schwester) <rs type="person" xml:id="pNt_86418" ref="#person_20872"><forename>Agnes</forename> <surname>Ulmann</surname></rs> bei mir (seit 
 Jahren nicht gesehn).</p>
             <p xml:space="preserve" rend="indent">Nm. begann ich <rs type="work" subtype="self" xml:id="bibl_248">Tgb.</rs> 21 zu lesen.―</p>
@@ -190,6 +194,5 @@ Jahren nicht gesehn).</p>
 Mir war wenig wohl (körperlich).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

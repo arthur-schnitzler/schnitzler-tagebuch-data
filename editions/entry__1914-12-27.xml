@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-12-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-12-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-12-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-12-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-12-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-12-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-04E8-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3952.tif"/>
@@ -183,7 +187,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1914-12-27">
             <p xml:space="preserve"><date when="1914-12-27">27/12</date> S.― Spazierg. mit <rs type="person" xml:id="pNt_44661" ref="#person_20242"><forename>Felix</forename> <surname>Speidel</surname></rs> <rs type="place" xml:id="pl_09137" ref="#place_9c5e8048d86594a3fe03b6e984f232c3" ana="#exclude">Kahlenbergwärts</rs> etc. Über <rs type="person" xml:id="pNt_44662" ref="#person_16900"><surname>Kleist</surname></rs> 
-(<rs type="work" xml:id="bibl_9180">Hermannschlacht</rs>, <rs type="place" xml:id="pl_09138" ref="#place_601bafc20a5d3420adc2b5f9344324c2">Homburg</rs>) ― u. a.―</p>
+(<rs type="work" xml:id="bibl_9180">Hermannschlacht</rs>, <rs type="place" xml:id="pl_09138" ref="#pmb54155">Homburg</rs>) ― u. a.―</p>
             <p xml:space="preserve" rend="indent">Abd. mit O. Koflerpark, wo ich eine Vorlesung fürs Volksheim hielt. 
 <rs type="work" subtype="self" xml:id="bibl_9181">Neues Lied</rs>, <rs type="work" subtype="self" xml:id="bibl_9182">Ruf des L.</rs> 2. Akt Anfang; ― <rs type="work" subtype="self" xml:id="bibl_9183">Medardus</rs> Schenkenszene; als 
 „Zugabe“ letzte Verse <rs type="work" subtype="self" xml:id="bibl_9184">Beatrice</rs> (von „Geschäh ein Wunder …“). Ich 
@@ -195,6 +199,5 @@ uns.― Er liess mir, da er es persönlich nicht kann, durch O. sagen,
 wie er mich liebe.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

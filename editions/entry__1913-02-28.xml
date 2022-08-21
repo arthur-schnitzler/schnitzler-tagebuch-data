@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-02-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-02-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-03-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-02-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-02-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-03-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-024E-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,19 +177,20 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3576.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1913-02-28">
             <p xml:space="preserve"><date when="1913-02-28">28/2</date> Dictirt <rs type="work" subtype="self" xml:id="bibl_9335">Herbot</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_9336">Herbot</rs>. <rs type="person" xml:id="pNt_40202" ref="#person_19827"><forename>Julius</forename></rs> aerztlich bei mir.―</p>
             <p xml:space="preserve" rend="indent">Am „<rs type="work" subtype="self" xml:id="bibl_9337">Bahnhof</rs>“.―</p>
             <p xml:space="preserve" rend="indent">Träumte heut Nacht: Waldweg, aufwärts, mit <rs type="person" xml:id="pNt_40203" ref="#person_14065"><surname>Burckhard</surname></rs>, in Kniehosen, 
 und noch wem in seinem Alter und von seinem Schicksal. <rs type="person" xml:id="pNt_40204" ref="#person_14065"><surname>B.</surname></rs> animirt mich: 
-<rs type="place" xml:id="pl_08170" ref="#place_1bd600416c43930fecfb15f561de105f">Ortler</rs> hinauf, ich lehne ab ― er uzt mich; ich: Sie sehen ja, dass Sie 
+<rs type="place" xml:id="pl_08170" ref="#pmb91409">Ortler</rs> hinauf, ich lehne ab ― er uzt mich; ich: Sie sehen ja, dass Sie 
 auch (Beide) (durch die forcirten Touren) vor 60 gestorben sind … Ah … 
 Sie denken, das kann mir auch noch passiren (… „wenn wir uns im Jenseits 
 treffen …“ kam humoristisch vor).</p>
@@ -197,5 +202,6 @@ treffen …“ kam humoristisch vor).</p>
                </fw>
             </tei:fw>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-11-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-11-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-11-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-11-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-11-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-11-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-18B9-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7196.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1928-11-21">
-            <p xml:space="preserve"><date when="1928-11-21">21/11</date> Vm. <rs type="person" xml:id="pNt_85284" ref="#person_18851"><roleName>Mrs.</roleName> <surname>Pohli-MacLeod</surname></rs> (zum 2. Mal). Über <rs type="place" xml:id="pl_18399" ref="#place_9fed5dae86e3030d9be3740efa198659">Budapest</rs>, 
+            <p xml:space="preserve"><date when="1928-11-21">21/11</date> Vm. <rs type="person" xml:id="pNt_85284" ref="#person_18851"><roleName>Mrs.</roleName> <surname>Pohli-MacLeod</surname></rs> (zum 2. Mal). Über <rs type="place" xml:id="pl_18399" ref="#pmb43471">Budapest</rs>, 
 Antisemitismus, Partei; religiöses.―</p>
             <p xml:space="preserve" rend="indent">Dictirt Briefe, <rs type="work" subtype="self" xml:id="bibl_19781">Aphor.</rs>, <rs type="work" subtype="self" xml:id="bibl_19782">Roman</rs>, <rs type="person" xml:id="pNt_85285" ref="#person_14130"><forename>Lili</forename></rs> <rs type="work" xml:id="bibl_19783">Tgb.</rs>―</p>
             <p xml:space="preserve" rend="indent">Nach Tisch kurz bei <rs type="person" xml:id="pNt_85286" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>―</p>
@@ -189,6 +193,5 @@ Antisemitismus, Partei; religiöses.―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_85287" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> genachtm. in der neuen Wohnung. Klavierspiel.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

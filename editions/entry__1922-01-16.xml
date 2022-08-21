@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-01-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-01-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-01-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-01-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-01-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-01-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0EF6-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,15 +177,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5624.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1922-01-16">
             <p xml:space="preserve"><date when="1922-01-16">16/1</date> Früh das Telegr. an <rs type="person" xml:id="pNt_64903" ref="#person_20523"><forename>Annie</forename> <surname>Strial</surname></rs> aufgeben: Blumen für <rs type="person" xml:id="pNt_64904" ref="#person_19832"><forename>O.</forename></rs>, falls 
-sie noch in <rs type="place" xml:id="pl_13617" ref="#place_c38ad36647aca0261d667c432a4866bd">Salzburg</rs>. Schmerzlich bewegt in Gedanken an ihren 
+sie noch in <rs type="place" xml:id="pl_13617" ref="#pmb91649">Salzburg</rs>. Schmerzlich bewegt in Gedanken an ihren 
 morgigen 40. Geburtstag. Innere Frage, ob ich nicht doch ihrem Ruf 
 hätte folgen sollen? Zerwühlt.―</p>
             <p xml:space="preserve" rend="indent">Dictirt Briefe.―</p>
@@ -189,5 +194,6 @@ hätte folgen sollen? Zerwühlt.―</p>
             <p xml:space="preserve" rend="indent">Als Gast <rs type="person" xml:id="pNt_64907" ref="#person_20692"><surname>Thayer’s</surname></rs> N. W. B. <rs type="person" xml:id="pNt_64908" ref="#person_20530"><surname>Strindbergs</surname></rs> <rs type="work" xml:id="bibl_2283">Todtentanz</rs> mit <rs type="person" xml:id="pNt_64909" ref="#person_21135"><surname>Wegener</surname></rs>; 
 besondere schauspielerische Leistung. Verstand kaum ein Wort.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-02-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1915-02-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0517-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,20 +177,21 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3985.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3986.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1915-02-13">
             <p xml:space="preserve"><date when="1915-02-13">13/2</date> Dictirt <rs type="work" subtype="self" xml:id="bibl_7919">aphoristisches</rs> etc.―</p>
             <p xml:space="preserve" rend="indent">Zu Tisch <rs ref="#person_16293" type="person" xml:id="pNt_44942"><forename>Hugo</forename></rs>, der seinen Pessimismus von neulich mildert. Über die 
-journalistischen Verläumder <rs type="place" xml:id="pl_09208" ref="#place_b472f5868425ac2bc44e693fc3267e87">Oesterreichs</rs> und <rs type="place" xml:id="pl_09209" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wiens</rs> (<rs type="person" xml:id="pNt_44943" ref="#person_15345"><surname>Ganz</surname></rs> z. B., der nun 
+journalistischen Verläumder <rs type="place" xml:id="pl_09208" ref="#pmb41240">Oesterreichs</rs> und <rs type="place" xml:id="pl_09209" ref="#pmb50">Wiens</rs> (<rs type="person" xml:id="pNt_44943" ref="#person_15345"><surname>Ganz</surname></rs> z. B., der nun 
 politisch ähnlich vorgeht, wie jahrelang literarisch).― <rs ref="#person_16293" type="person" xml:id="pNt_44944"><forename>Hugo</forename></rs> spricht von 
 dem wahrscheinlich verderblichen Einfluss, den <rs type="person" xml:id="pNt_44945" ref="#person_15149"><forename>F. F.</forename></rs> auf die weitern 
-(innern) Geschicke <rs type="place" xml:id="pl_09210" ref="#place_b472f5868425ac2bc44e693fc3267e87">Oesterreichs</rs> genommen hätte. Ich sage: Warum haben Sie 
+(innern) Geschicke <rs type="place" xml:id="pl_09210" ref="#pmb41240">Oesterreichs</rs> genommen hätte. Ich sage: Warum haben Sie 
 neulich in Ihrem Artikel nicht <hi xmlns:tei="http://www.tei-c.org/ns/1.0" rend="italicised">das</hi> gesagt ―? Er entschuldigt es 
 damit, dass er nur die spezielle (bannerhaltende) Seite seines Wesens 
 behandelt hatte.― Wer in Zeitungen schreibt ― ist ein Feuilletonist ― 
@@ -197,5 +202,6 @@ Tonkünstlerverein angebotene Spende (<rs type="person" xml:id="pNt_44947" ref="
 lehnte er als „Unterstützung, die er nicht brauche“ vornehm bescheiden ab.―</p>
             <p xml:space="preserve" rend="indent">Lese die nicht übeln <rs type="work" xml:id="bibl_7920">Kriegsaufsätze</rs> <rs type="person" xml:id="pNt_44948" ref="#person_14173"><surname>Chamberlains</surname></rs>.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

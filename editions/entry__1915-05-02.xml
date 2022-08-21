@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-05-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-05-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-05-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1915-05-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-05-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-05-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0565-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4034.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1915-05-02">
-            <p xml:space="preserve"><date when="1915-05-02">2/5</date> S. Mit <rs type="person" xml:id="pNt_45461" ref="#person_16770"><forename>A.</forename> <surname>Kaufmann</surname></rs> Spazierg. <rs type="place" xml:id="pl_09345" ref="#place_b900112ce988d972bc2d561413e84979">Sophienalpe</rs>.― Drahtverhaue, Militär.― 
+            <p xml:space="preserve"><date when="1915-05-02">2/5</date> S. Mit <rs type="person" xml:id="pNt_45461" ref="#person_16770"><forename>A.</forename> <surname>Kaufmann</surname></rs> Spazierg. <rs type="place" xml:id="pl_09345" ref="#pmb92533">Sophienalpe</rs>.― Drahtverhaue, Militär.― 
 Von überallher komm ich mit ihm auf die Verantwortungsfrage und Gott.― 
 Wenn er die Philosophen citirt, ist mir immer, als hätt ich auch jede 
 Philosophie irgendwie aus eignem entdecken müssen ― oder hätte jede 
@@ -199,6 +203,5 @@ angenehmer Mensch.―</p>
 dem <rs type="person" xml:id="pNt_45470"><surname>Zeiss</surname></rs>. Sommernacht. Melancholie.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-06-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-06-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-06-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-06-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-06-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-06-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-09CF-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4651.tif"/>
@@ -182,7 +186,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1918-06-06">
             <p xml:space="preserve"><date when="1918-06-06">6/6</date> Früh wiederholte sich das Gespräch ungefähr.―</p>
-            <p xml:space="preserve" rend="indent">Ich ging <rs type="place" xml:id="pl_11043" ref="#place_bf303a935ba7bb30e892cb5d0f2ea6ac">Michaelerberg</rs>, <rs type="place" xml:id="pl_11044" ref="#place_75f2e194839d6ba0e5d4080c211a449a">Dornbacher Park</rs>; schwül, und kühle Winde.―</p>
+            <p xml:space="preserve" rend="indent">Ich ging <rs type="place" xml:id="pl_11043" ref="#pmb91239">Michaelerberg</rs>, <rs type="place" xml:id="pl_11044" ref="#pmb176">Dornbacher Park</rs>; schwül, und kühle Winde.―</p>
             <p xml:space="preserve" rend="indent">Nm. vor dem Weggehn in die Stunde zu <rs type="person" xml:id="pNt_53403" ref="#person_20372"><surname>St.</surname></rs> kommt O. zu mir, streichelt 
 mein Haar „darf ich?“ küsst mich. „Ich beschwöre dich;― arbeite! 
 das ist ja wichtiger als ich ―“</p>
@@ -193,6 +197,5 @@ das ist ja wichtiger als ich ―“</p>
             <p xml:space="preserve" rend="indent">Las „<rs type="work" xml:id="bibl_5625">Tempesta</rs>“ von <rs type="person" xml:id="pNt_53409" ref="#person_19493"><surname>Saar</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

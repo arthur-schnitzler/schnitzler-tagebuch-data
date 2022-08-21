@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-05-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-05-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-05-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-05-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-05-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-05-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1520-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6662.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1926-05-14">
-            <p xml:space="preserve"><date when="1926-05-14">14/5</date> <rs type="place" xml:id="pl_16649" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>. Träume; von <rs type="person" xml:id="pNt_77772" ref="#person_18856"><surname>Polgar</surname></rs>, Eisenbahnzug; freue mich, ihn persönlich 
+            <p xml:space="preserve"><date when="1926-05-14">14/5</date> <rs type="place" xml:id="pl_16649" ref="#pmb168">Berlin</rs>. Träume; von <rs type="person" xml:id="pNt_77772" ref="#person_18856"><surname>Polgar</surname></rs>, Eisenbahnzug; freue mich, ihn persönlich 
 kennen zu lernen, sage ihm, dass <rs type="person" xml:id="pNt_77773" ref="#person_14130"><forename>Lili</forename></rs> seine Sachen liebt (Deutung: dass 
 ich gestern <rs type="person" xml:id="pNt_77774" ref="#person_16403"><surname>Hubermann</surname></rs> sprach, ihm sagte, <rs type="person" xml:id="pNt_77775" ref="#person_14130"><forename>Lili</forename></rs> wäre bei allen seinen 
 Concerten gewesen;― ferner wirkliche Sympathie <rs type="person" xml:id="pNt_77776" ref="#person_14130"><forename>Lilis</forename></rs> für <rs type="person" xml:id="pNt_77777" ref="#person_18856"><surname>Polgars</surname></rs> 
@@ -191,7 +195,7 @@ sich die Hände waschend;― äußere mich mit Unbehagen über meine
 complicirten Beziehungen;― <rs type="person" xml:id="pNt_77778" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs> am Tisch (mit andern?) schweigt absichtlich.</p>
             <p xml:space="preserve" rend="indent">Im <rs type="pubHouse">Verlag <rs type="person" xml:id="pNt_77779"><surname>Fischer</surname></rs></rs>: er, sein Schwiegersohn <rs type="person" xml:id="pNt_77780" ref="#person_13659"><roleName>Dr.</roleName> <surname>Bermann</surname></rs>; <rs type="person" xml:id="pNt_77781" ref="#person_17888"><surname>Maril</surname></rs>, <rs type="person" xml:id="pNt_77782" ref="#person_14672"><surname>Eipper</surname></rs>. 
 <rs type="work" subtype="self" xml:id="bibl_20191">Traumnovelle</rs> erschienen; erfolgreicher Einsatz.― Über meine Reise.― Theaterverhältnisse.―</p>
-            <p xml:space="preserve" rend="indent">― Zu <rs type="person" xml:id="pNt_77783" ref="#person_18137"><forename>Dora</forename></rs>. Mit ihr spazieren; das Haus besichtigt, <rs type="place" xml:id="pl_16650" ref="#place_6a1f1935677db0eba1ae67aa99d0212d">Hubertusallee</rs>, das 
+            <p xml:space="preserve" rend="indent">― Zu <rs type="person" xml:id="pNt_77783" ref="#person_18137"><forename>Dora</forename></rs>. Mit ihr spazieren; das Haus besichtigt, <rs type="place" xml:id="pl_16650" ref="#pmb92296">Hubertusallee</rs>, das 
 sie demnächst beziehen; von Arbeitern erfüllt. Schön gelegen und praktisch.―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_77784"><surname>M.s</surname></rs> gegessen. Mit <rs type="person" xml:id="pNt_77785" ref="#person_18137"><forename>Dora</forename></rs> über meine Angelegenheiten.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_77786" ref="#person_19822"><forename>Heini</forename></rs> bei mir im Hotel.―</p>
@@ -201,6 +205,5 @@ sie demnächst beziehen; von Arbeitern erfüllt. Schön gelegen und praktisch.�
 <surname>Michaelis</surname></rs> kamen auch. Ermüdet nach Haus.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

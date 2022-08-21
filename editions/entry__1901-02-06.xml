@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1901-02-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-02-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-02-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1901-02-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-02-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-02-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F180-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,15 +177,17 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1615.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1901-02-06">
-            <p xml:space="preserve"><date when="1901-02-06">6/2</date> Vm. bei <rs type="person" xml:id="pNt_17749" ref="#person_19832"><forename>D.</forename> <surname>M.</surname></rs> <rs type="place" xml:id="pl_03602" ref="#place_86a694cf5ce5552ca627cb96b607eccd">Prater</rs>.― Gespräch über <rs type="person" xml:id="pNt_17750" ref="#person_15485"><surname>Gl.</surname></rs>―</p>
+            <p xml:space="preserve"><date when="1901-02-06">6/2</date> Vm. bei <rs type="person" xml:id="pNt_17749" ref="#person_19832"><forename>D.</forename> <surname>M.</surname></rs> <rs type="place" xml:id="pl_03602" ref="#pmb91530">Prater</rs>.― Gespräch über <rs type="person" xml:id="pNt_17750" ref="#person_15485"><surname>Gl.</surname></rs>―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_17751" ref="#person_18821"><surname>P.j.</surname></rs>― <rs type="work" xml:id="bibl_18248">Coralie</rs>. Mit <rs type="person" xml:id="pNt_17752" ref="#person_19832"><forename>D.</forename> <surname>M.</surname></rs> u. a.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

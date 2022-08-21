@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1924-03-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-03-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-03-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1924-03-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-03-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-03-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1212-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6237.tif"/>
@@ -181,8 +185,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1924-03-23">
-            <p xml:space="preserve"><date when="1924-03-23">23/3</date> S. Mit <rs type="person" xml:id="pNt_71882" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> alte Straßen und <rs type="place" xml:id="pl_15298" ref="#place_8fbb5ad1eece300cc636ce72c126d8e1">Stadtpark</rs>; ein Frühlingstag.―</p>
-            <p xml:space="preserve" rend="indent">Ins Atelier <rs type="person" xml:id="pNt_71883" ref="#person_17122"><surname>Krausz</surname></rs> <rs type="place" xml:id="pl_15299" ref="#place_4edb57e873e7409fcf5c3b7009ace1c4">Wohllebengasse</rs>, wo <rs type="person" xml:id="pNt_71884" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs> zu einem Portrait sitzt. 
+            <p xml:space="preserve"><date when="1924-03-23">23/3</date> S. Mit <rs type="person" xml:id="pNt_71882" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> alte Straßen und <rs type="place" xml:id="pl_15298" ref="#pmb575">Stadtpark</rs>; ein Frühlingstag.―</p>
+            <p xml:space="preserve" rend="indent">Ins Atelier <rs type="person" xml:id="pNt_71883" ref="#person_17122"><surname>Krausz</surname></rs> <rs type="place" xml:id="pl_15299" ref="#pmb382">Wohllebengasse</rs>, wo <rs type="person" xml:id="pNt_71884" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs> zu einem Portrait sitzt. 
 Er malte noch eine Weile weiter, ich sah zu;― viele schöne Portraits;― 
 das von <rs type="person" xml:id="pNt_71885" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs> gefiel mir nicht so sehr.―</p>
             <p xml:space="preserve" rend="indent">― Sie bringt mich im Auto nach Haus.</p>
@@ -192,6 +196,5 @@ das von <rs type="person" xml:id="pNt_71885" ref="#person_17510"><forename>V.</f
             <p xml:space="preserve" rend="indent">Gegen Abend waren <rs type="person" xml:id="pNt_71891" ref="#person_14076"><forename>Rud.</forename></rs> und <rs type="person" xml:id="pNt_71892" ref="#person_14073"><forename>Lola</forename> <surname>Burger</surname></rs> (zum ersten Mal) bei mir.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

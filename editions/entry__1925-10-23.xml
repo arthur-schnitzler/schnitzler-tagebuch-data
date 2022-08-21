@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1925-10-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-10-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-10-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1925-10-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-10-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-10-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1455-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,13 +177,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6566.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6567.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1925-10-23">
             <p xml:space="preserve"><date when="1925-10-23">23/10</date> Akademieth.― <rs type="person" xml:id="pNt_76206" ref="#person_15306"><surname>Fulda</surname></rs> „<rs type="work" xml:id="bibl_16719">Vulkan</rs>“. Eine recht kindliche Angelegenheit. 
 Wunderte mich dass der kluge <rs type="person" xml:id="pNt_76207"><surname>F.</surname></rs> selbst sie ernst nahm,― und dachte wieder, 
@@ -192,5 +197,6 @@ bei aller Dissimulation, ihre Einsichtlosigkeit.―</p>
 noch lange über <rs type="person" xml:id="pNt_76216"><surname>R.</surname></rs> (der hier war);― von <rs type="person" xml:id="pNt_76217" ref="#person_19832"><forename>O.</forename></rs> (die <rs type="person" xml:id="pNt_76218" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>, offenbar unbemerkt 
 von ihr gesehen und sagte … „Ja da soll Väterchen nur sehn, wie er herauskommt …“) ―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

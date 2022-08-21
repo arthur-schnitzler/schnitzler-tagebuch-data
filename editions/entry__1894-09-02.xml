@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1894-09-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-09-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-09-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1894-09-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-09-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-09-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E89B-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0866.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1894-09-02">
-            <p xml:space="preserve"><date when="1894-09-02">2/9</date> Vorm. mit <rs type="person" xml:id="pNt_09158" ref="#person_15529"><forename>Paul</forename></rs> und <rs type="person" xml:id="pNt_09159" ref="#person_13551"><forename>Richard</forename></rs> <rs type="place" xml:id="pl_01813" ref="#place_4a39a52c5ae76a53c0d835562a957a5f">Rettenbach Wildnis</rs> ― Nm. <rs type="place" xml:id="pl_01814" ref="#place_1e16be54e7a0530f7f6994e967daacb1">Strobl</rs>. 
-Flüchtig <rs type="person" xml:id="pNt_09160" ref="#person_16293"><forename>Hugo</forename></rs>.― Bad. Kahn. <rs type="place" xml:id="pl_01815" ref="#place_8d39ba5a7ce316c832ce717d4c26b95f">Wolfgang</rs>. Kirche „Theater“ <rs type="work" xml:id="bibl_22498">Don Juan</rs> 
+            <p xml:space="preserve"><date when="1894-09-02">2/9</date> Vorm. mit <rs type="person" xml:id="pNt_09158" ref="#person_15529"><forename>Paul</forename></rs> und <rs type="person" xml:id="pNt_09159" ref="#person_13551"><forename>Richard</forename></rs> <rs type="place" xml:id="pl_01813" ref="#pmb92482">Rettenbach Wildnis</rs> ― Nm. <rs type="place" xml:id="pl_01814" ref="#pmb91852">Strobl</rs>. 
+Flüchtig <rs type="person" xml:id="pNt_09160" ref="#person_16293"><forename>Hugo</forename></rs>.― Bad. Kahn. <rs type="place" xml:id="pl_01815" ref="#pmb61000">Wolfgang</rs>. Kirche „Theater“ <rs type="work" xml:id="bibl_22498">Don Juan</rs> 
 von einer fahrenden Truppe; auf dem Marktplatz, Fackeln.― Das 
 schöne Kind auf dem Balkon.― <rs type="person" xml:id="pNt_09161" ref="#person_13477"><roleName>Dr.</roleName> <surname>Bauer</surname></rs> (Docent) erzählt von 
-<rs type="place" xml:id="pl_01816" ref="#place_90944204e455f98f29257159aa94d4c3">Cambridge</rs> und <rs type="place" xml:id="pl_01817" ref="#place_f0dddde0d04dc3b9ec79302c612a3fae">Oxford</rs>.― Im Wagen zurück. Gespenstergeschichten.</p>
+<rs type="place" xml:id="pl_01816" ref="#pmb893">Cambridge</rs> und <rs type="place" xml:id="pl_01817" ref="#pmb44197">Oxford</rs>.― Im Wagen zurück. Gespenstergeschichten.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

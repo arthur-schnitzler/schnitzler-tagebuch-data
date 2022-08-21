@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-07-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-07-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-07-31.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-07-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-07-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-07-31.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FBC4-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2536.tif"/>
@@ -181,12 +185,11 @@
       <body>
          <div type="diary-day" xml:id="entry__1908-07-30">
             <p xml:space="preserve"><date when="1908-07-30">30/7</date> <rs type="person" xml:id="pNt_28633" ref="#person_13913"><surname>Brahm</surname></rs> reist früh morgens ab.―</p>
-            <p xml:space="preserve" rend="indent">Mit den andern <rs type="place" xml:id="pl_06410" ref="#place_222fa48dd17b576b3a5972e6f0e79a26">Völser Weiher</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Mit den andern <rs type="place" xml:id="pl_06410" ref="#pmb44669">Völser Weiher</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. am „<rs type="work" subtype="self" xml:id="bibl_13563">weiten Land</rs>“.―</p>
             <p xml:space="preserve" rend="indent">Dominospiel.―</p>
             <p xml:space="preserve" rend="indent">Karte von <rs type="person" xml:id="pNt_28634" ref="#person_15529"><forename>Paul</forename> <surname>Goldmann</surname></rs>; er heiratet <rs type="person" xml:id="pNt_28635" ref="#person_15526"><forename>Eva Maria</forename> <surname>Kobler</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

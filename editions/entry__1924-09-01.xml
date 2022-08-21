@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1924-09-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-08-31.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-09-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1924-09-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-08-31.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-09-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-12B4-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6332.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1924-09-01">
-            <p xml:space="preserve"><date when="1924-09-01">1/9</date> <rs type="place" xml:id="pl_15656" ref="#place_581df48b4c75f9e166eb77e67725cbd3">Lugano</rs>. Traum: Ich bin irgendwo mit <rs type="person" xml:id="pNt_73060" ref="#person_19832"><forename>O.</forename></rs>, in der Fremde?― Neben 
+            <p xml:space="preserve"><date when="1924-09-01">1/9</date> <rs type="place" xml:id="pl_15656" ref="#pmb885">Lugano</rs>. Traum: Ich bin irgendwo mit <rs type="person" xml:id="pNt_73060" ref="#person_19832"><forename>O.</forename></rs>, in der Fremde?― Neben 
 uns stehn <rs type="person" xml:id="pNt_73061" ref="#person_13551"><forename>Richard</forename></rs>, und <rs type="person" xml:id="pNt_73062" ref="#person_15781"><forename>Leonie</forename> <surname>Guttmann</surname></rs>?― <rs type="person" xml:id="pNt_73063" ref="#person_19832"><forename>O.</forename></rs> spricht mit mir 
 in einer Weise, dass <rs type="person" xml:id="pNt_73064" ref="#person_13551"><forename>Richard</forename></rs> mich frägt, ob wir denn wieder 
 zusammen leben werden? Ich: Keine Ahnung;― aber Sie kennen 
@@ -199,11 +203,10 @@ angestellt …“ Und fort ist sie, irgend eine Straße (an einem See,
 aber zwischen Häusern) verschwunden ― ich rufe ihr nach!, <rs type="person" xml:id="pNt_73065" ref="#person_19832"><forename>Olga</forename></rs> ― 
 im Gefühl dass sie mir nun für ewig verschwunden ist ― will, dass 
 <rs type="person" xml:id="pNt_73066" ref="#person_15781"><forename>Leonie</forename></rs> ihr folge; bin so erschüttert, dass ich schluchzend erwache.―</p>
-            <p xml:space="preserve" rend="indent">Allerlei besorgt.― Mit <rs type="person" xml:id="pNt_73067" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Mittag Abreise von <rs type="place" xml:id="pl_15657" ref="#place_581df48b4c75f9e166eb77e67725cbd3">Lugano</rs>, Ankunft 
-<rs type="place" xml:id="pl_15658" ref="#place_103a821a3a6a0b923c9f74a39662bb51">Zürich</rs> gegen 6. „Baur en ville“.― Spaziergang.</p>
+            <p xml:space="preserve" rend="indent">Allerlei besorgt.― Mit <rs type="person" xml:id="pNt_73067" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Mittag Abreise von <rs type="place" xml:id="pl_15657" ref="#pmb885">Lugano</rs>, Ankunft 
+<rs type="place" xml:id="pl_15658" ref="#pmb484">Zürich</rs> gegen 6. „Baur en ville“.― Spaziergang.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_73068" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> im Hotel gen.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

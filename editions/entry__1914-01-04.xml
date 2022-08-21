@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-01-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-01-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-01-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-01-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-01-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-01-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0384-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3756.tif"/>
@@ -183,7 +187,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1914-01-04">
             <p xml:space="preserve"><date when="1914-01-04">4/1</date> Vm. in Sturm spazieren. <rs type="person" xml:id="pNt_42509" ref="#person_13355"><roleName>Frau</roleName> <surname>Bachrach</surname></rs> besucht (<rs type="person" xml:id="pNt_42510" ref="#person_13359"><forename>Stephi</forename></rs> gestern 
-nach <rs type="place" xml:id="pl_08588" ref="#place_51c7c0e8bc877f41a415a8e7efedd068">St. Moritz</rs>).―</p>
+nach <rs type="place" xml:id="pl_08588" ref="#pmb44374">St. Moritz</rs>).―</p>
             <p xml:space="preserve" rend="indent">Zum Thee <rs type="person" xml:id="pNt_42511" ref="#person_15855"><surname>Hajeks</surname></rs>. Sie dankten für unser Geschenk zum 25j. 
 Hochzeitsfest ― (alter Kasten von <rs type="person" xml:id="pNt_42512" ref="#person_13631"><surname>Berger</surname></rs>). <rs type="person" xml:id="pNt_42513" ref="#person_14130"><forename>Lili</forename></rs> sang ihre Lieder vor. 
 „<rs type="work" xml:id="bibl_8599">Straßburg auf der Schanz</rs>“ ihr Lieblingslied. Sie hat das Bild in dem 
@@ -192,10 +196,9 @@ sich liegen. (Der Gefesselte gefällt ihr so gut. Warum? frag ich sie …
 „Weil er schön und arm ist!“―) Dann <rs type="person" xml:id="pNt_42515" ref="#person_17786"><surname>Mahler</surname></rs> Lieder den <rs type="allusively" xml:id="rst_01338">Kindern</rs> 
 vorgespielt und (Olga) gesungen.―</p>
             <p xml:space="preserve" rend="indent">Weiter am „<rs type="work" subtype="self" xml:id="bibl_8600">Bahnhof</rs>“― Notizen.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_42516" ref="#person_21602"><forename>Vicki</forename></rs> (aus <rs type="place" xml:id="pl_08590" ref="#place_51c7c0e8bc877f41a415a8e7efedd068">St. Moritz</rs> zurück) zum Nachtmahl.― Spiele mit ihm ein 
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_42516" ref="#person_21602"><forename>Vicki</forename></rs> (aus <rs type="place" xml:id="pl_08590" ref="#pmb44374">St. Moritz</rs> zurück) zum Nachtmahl.― Spiele mit ihm ein 
 Quartett von <rs type="person" xml:id="pNt_42517" ref="#person_13882"><surname>Borodin</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-10-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-10-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-10-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1920-10-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-10-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-10-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0D27-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,20 +177,22 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5198.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5199.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1920-10-10">
-            <p xml:space="preserve"><date when="1920-10-10">10/10</date> S. Vm. nach <rs type="place" xml:id="pl_12574" ref="#place_9a43e84f6e1d406076f2372205804f6d">Baden</rs>. <rs type="place" xml:id="pl_12575" ref="#place_51b8a1e064b9ddf3f887361c3c9abc3e">Helenenthal</rs>; Spazierg. Krainerhütte, dort Mittag, 
+            <p xml:space="preserve"><date when="1920-10-10">10/10</date> S. Vm. nach <rs type="place" xml:id="pl_12574" ref="#pmb662">Baden</rs>. <rs type="place" xml:id="pl_12575" ref="#pmb90849">Helenenthal</rs>; Spazierg. Krainerhütte, dort Mittag, 
 über die Weilburg zurück; Begegnung mit Sect.rath <rs type="person" xml:id="pNt_60094" ref="#person_21377"><surname>Winter</surname></rs>, am Bahnhof 
 <rs type="person" xml:id="pNt_60095" ref="#person_15414"><roleName>Director</roleName> <surname>Geyer</surname></rs> (Geologe),― heim.</p>
-            <p xml:space="preserve" rend="indent">Z. N. <rs type="person" xml:id="pNt_60096" ref="#person_16770"><forename>Arthur</forename> <surname>Kaufmann</surname></rs> (aus <rs type="place" xml:id="pl_12576" ref="#place_2384804448a53e420c3707bdfb9fb295">Altaussee</rs> für einige Tage) <rs type="person" xml:id="pNt_60097" ref="#person_20925"><forename>Leo</forename> <surname>Vanjung</surname></rs>.― 
+            <p xml:space="preserve" rend="indent">Z. N. <rs type="person" xml:id="pNt_60096" ref="#person_16770"><forename>Arthur</forename> <surname>Kaufmann</surname></rs> (aus <rs type="place" xml:id="pl_12576" ref="#pmb90229">Altaussee</rs> für einige Tage) <rs type="person" xml:id="pNt_60097" ref="#person_20925"><forename>Leo</forename> <surname>Vanjung</surname></rs>.― 
 <rs type="person" xml:id="pNt_60098" ref="#person_16770"><forename>Arth.</forename> <surname>Kfm.</surname></rs> erzählt mir neues aus seinem philosophischen Märchen, 
 tiefsinnig, überspitzt;― wird er je zu Ende kommen?―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

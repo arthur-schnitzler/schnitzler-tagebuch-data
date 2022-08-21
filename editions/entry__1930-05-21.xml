@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-05-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-05-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-05-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-05-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-05-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-05-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1ADB-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7491.tif"/>
@@ -185,9 +189,8 @@
             <p xml:space="preserve"><date when="1930-05-21">21/5</date> Dictirt <rs type="work" subtype="self" xml:id="bibl_1055">Zug</rs>, 3. Bild.</p>
             <p xml:space="preserve" rend="indent">Zu Tisch (mit <rs type="person" xml:id="pNt_89780" ref="#person_18881"><forename>Kolap</forename></rs>) <rs type="person" xml:id="pNt_89781" ref="#person_17562"><forename>R.</forename> <surname>L.</surname></rs> Behandlung.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_89782" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Abds. Kino (<rs type="work" xml:id="bibl_1056">Erzh. Otto und Wäschermädl</rs>) (<rs type="person" xml:id="pNt_89783" ref="#person_20322"><forename>Lilian</forename> <surname>Ellis</surname></rs>).―</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_89784" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> bei <rs type="place" ref="#place_meissl">Meissl</rs> genachtm.―</p>
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_89784" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> bei <rs type="place" ref="#pmb96">Meissl</rs> genachtm.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

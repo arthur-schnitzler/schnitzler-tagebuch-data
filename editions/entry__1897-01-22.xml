@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1897-01-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-01-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-01-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1897-01-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-01-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-01-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EBF7-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1291.tif"/>
@@ -183,7 +187,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1897-01-22">
             <p xml:space="preserve"><date when="1897-01-22">22/1</date> Traum wird Leben, Leben Traum.― Nachts träumt mir, ich 
-treffe <rs type="person" xml:id="pNt_13508" ref="#person_15485"><forename>Mz. I</forename></rs> in der <rs type="place" xml:id="pl_02531" ref="#place_1ad1e617832d206ad09aa14ff7e8c4b3">Giselastraße</rs>; blauer Cheviot; sie an mir vorbei.― 
+treffe <rs type="person" xml:id="pNt_13508" ref="#person_15485"><forename>Mz. I</forename></rs> in der <rs type="place" xml:id="pl_02531" ref="#pmb92256">Giselastraße</rs>; blauer Cheviot; sie an mir vorbei.― 
 Ich halte sie auf: Ja wie ist das möglich ― du bist nun doch in einen 
 andern verliebt ― ?― Sie: Ja, ich muss gestehn … Unendlich traurig. 
 Nachmittag schrieb ich an <rs type="person" xml:id="pNt_13509" ref="#person_14199"><forename>Gusti</forename></rs>, weinte entsetzlich, und liebte <rs type="person" xml:id="pNt_13510" ref="#person_15485"><forename>Mz. I</forename></rs>.― 
@@ -201,6 +205,5 @@ doch das schönste in meinem Leben. So ging sie.</p>
 darein; nächstens muss ich mit ihrer Mutter sprechen.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

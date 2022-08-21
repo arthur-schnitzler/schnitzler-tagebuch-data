@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1900-08-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-08-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-08-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1900-08-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-08-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-08-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F0D1-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -162,7 +166,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1578.tif"/>
@@ -171,7 +175,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1900-08-15">
-            <p xml:space="preserve"><date when="1900-08-15">15/8</date> <rs type="place" xml:id="pl_03495" ref="#place_94e21bbbc8a762b8c4b354f1b0fc1dbf">Krimml</rs>. Schlechtes Wetter. Bahn <rs type="place" xml:id="pl_03496" ref="#place_7779de9e438cad3e20f892079c33d8e2">Zell am See</rs>. <rs type="place" xml:id="pl_03497" ref="#place_1ff97f22292e3d91119e867aadcf511b">Innsbruck</rs>.―
+            <p xml:space="preserve"><date when="1900-08-15">15/8</date> <rs type="place" xml:id="pl_03495" ref="#pmb91073">Krimml</rs>. Schlechtes Wetter. Bahn <rs type="place" xml:id="pl_03496" ref="#pmb40336">Zell am See</rs>. <rs type="place" xml:id="pl_03497" ref="#pmb90931">Innsbruck</rs>.―
 Ohr. Verstimmung.</p>
             <p xml:space="preserve" rend="indent">Physik.-mechan. Gespräche mit <rs type="person" xml:id="pNt_17263" ref="#person_20925"><forename>Leo</forename></rs>. Sein ungeheures Verstehn der
 Natur- und mechan. Gesetze. Seine Gabe des Erklärens. Eindruck
@@ -180,6 +184,5 @@ erfinden ― (aber doch nichts neues?) ― <rs type="person" xml:id="pNt_17264" 
 Bahn schönen Dramenstoff (Ballade).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

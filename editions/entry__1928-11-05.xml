@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-11-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-11-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-11-06.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-11-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-11-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-11-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-18A9-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7188.tif"/>
@@ -183,17 +187,16 @@
       <body>
          <div type="diary-day" xml:id="entry__1928-11-05">
             <p xml:space="preserve"><date when="1928-11-05">5/11</date> Vm. <rs type="person" xml:id="pNt_85185" ref="#person_17407"><roleName>Frl.</roleName> <surname>Lehmann-Haupt</surname></rs>;― ihre Aehnlichkeit mit <rs type="person" xml:id="pNt_85186" ref="#person_14130"><forename>Lili</forename></rs> ― sie 
-war mir in <rs type="place" xml:id="pl_18370" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> nicht aufgefallen. Sie war in <rs type="place" xml:id="pl_18371" ref="#place_84bb7a44667327c91eade4b980a38a6f">Karlsbad</rs>; vor 
+war mir in <rs type="place" xml:id="pl_18370" ref="#pmb168">Berlin</rs> nicht aufgefallen. Sie war in <rs type="place" xml:id="pl_18371" ref="#pmb842">Karlsbad</rs>; vor 
 <rs type="person" xml:id="pNt_85187" ref="#person_14130"><forename>Lilis</forename></rs> Hochzeit, ein paar Mal mit ihr zusammengewesen; <rs type="person" xml:id="pNt_85188" ref="#person_14130"><forename>Lili</forename></rs> hatte 
 ihr mancherlei erzählt, schon am 1. Tag vertraut. Sie (<rs type="person" xml:id="pNt_85189" ref="#person_17407"><roleName>Frl.</roleName> <surname>L.-H.</surname></rs>) 
 findet eine erstaunliche Aehnlichkeit zwischen mir und ihrem Vater.―</p>
             <p xml:space="preserve" rend="indent">― Dictirt <rs type="person" xml:id="pNt_85190" ref="#person_14130"><forename>Lili</forename></rs> <rs type="work" xml:id="bibl_19749">Tagebuch</rs>.― Briefe.―</p>
-            <p xml:space="preserve" rend="indent">Zu Tisch (mit <rs type="person" xml:id="pNt_85191" ref="#person_18881"><forename>Kolap</forename></rs>) <rs type="person" xml:id="pNt_85192" ref="#person_16362"><forename>Lotte</forename> <surname>Horn</surname></rs>.― Photographien (von <rs type="person" xml:id="pNt_85193" ref="#person_19822"><forename>Heini</forename></rs> aus <rs type="place" xml:id="pl_18372" ref="#place_e4d4b19346747823e5636ed1238a7521">Venedig</rs>, 
+            <p xml:space="preserve" rend="indent">Zu Tisch (mit <rs type="person" xml:id="pNt_85191" ref="#person_18881"><forename>Kolap</forename></rs>) <rs type="person" xml:id="pNt_85192" ref="#person_16362"><forename>Lotte</forename> <surname>Horn</surname></rs>.― Photographien (von <rs type="person" xml:id="pNt_85193" ref="#person_19822"><forename>Heini</forename></rs> aus <rs type="place" xml:id="pl_18372" ref="#pmb462">Venedig</rs>, 
 etc.).</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="work" subtype="self" xml:id="bibl_19750">Roman</rs> vorgenommen.―</p>
             <p xml:space="preserve" rend="indent">Z. N. <rs type="person" xml:id="pNt_85194" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> bei mir (im Arbeitszimmer genachtm.).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

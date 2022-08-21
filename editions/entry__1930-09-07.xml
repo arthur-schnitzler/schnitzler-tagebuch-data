@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-09-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-09-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-09-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-09-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-09-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-09-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1B48-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7549.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1930-09-07">
-            <p xml:space="preserve"><date when="1930-09-07">7/9</date> S. <rs type="place" xml:id="pl_19507" ref="#place_07746ef3772ea6e718f5cd3a37681d92">Marienbad</rs>. Regen, später besser. Spaziergang allein Jägerhaus. 
+            <p xml:space="preserve"><date when="1930-09-07">7/9</date> S. <rs type="place" xml:id="pl_19507" ref="#pmb91211">Marienbad</rs>. Regen, später besser. Spaziergang allein Jägerhaus. 
 Waldmühle.―</p>
-            <p xml:space="preserve" rend="indent">Nm. ruft <rs type="person" xml:id="pNt_90622" ref="#person_19832"><forename>O.</forename></rs> aus <rs type="place" xml:id="pl_19508" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> an, weil keine Nachricht.</p>
+            <p xml:space="preserve" rend="indent">Nm. ruft <rs type="person" xml:id="pNt_90622" ref="#person_19832"><forename>O.</forename></rs> aus <rs type="place" xml:id="pl_19508" ref="#pmb168">Berlin</rs> an, weil keine Nachricht.</p>
             <p xml:space="preserve" rend="indent">Abds. mit <rs type="person" xml:id="pNt_90623" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Kino „<rs type="work" xml:id="bibl_1239">Drei Leidenschaften</rs>“ (<rs type="person" xml:id="pNt_90624" ref="#person_18734"><surname>Petrovich</surname></rs>).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

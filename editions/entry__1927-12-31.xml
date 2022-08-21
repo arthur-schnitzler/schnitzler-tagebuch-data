@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-12-31.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-12-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-01-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-12-31.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-12-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-01-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1773-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7013.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1927-12-31">
-            <p xml:space="preserve"><date when="1927-12-31">31/12</date> Vm. <rs type="person" xml:id="pNt_82625" ref="#person_15551"><roleName>Dr.</roleName> <surname>Goldstein</surname></rs> aus <rs type="place" xml:id="pl_17745" ref="#place_e1670542bb7ed50789c1dd3135ab5d6f">Kattowitz</rs>, Herausgeber der <rs type="work" subtype="newspaper" xml:id="bibl_24955">Kattowitzer 
+            <p xml:space="preserve"><date when="1927-12-31">31/12</date> Vm. <rs type="person" xml:id="pNt_82625" ref="#person_15551"><roleName>Dr.</roleName> <surname>Goldstein</surname></rs> aus <rs type="place" xml:id="pl_17745" ref="#pmb49137">Kattowitz</rs>, Herausgeber der <rs type="work" subtype="newspaper" xml:id="bibl_24955">Kattowitzer 
 Zeitung</rs>; literar. beflissener und respektvoll herzlicher junger Mann.</p>
             <p xml:space="preserve" rend="indent">Dictirt (in der <rs type="work" subtype="newspaper" xml:id="bibl_24956">Plain talk-Sache</rs>); an <rs type="person" xml:id="pNt_82626" ref="#person_13545"><roleName>Dir.</roleName> <surname>Beer</surname></rs> (wegen <rs type="person" xml:id="pNt_82627" ref="#person_14483"><surname>Donath</surname></rs> Stück) 
 u. a.;― weiter „<rs type="work" subtype="self" xml:id="bibl_24957">Zug der Schatten</rs>“.―</p>
@@ -197,6 +201,5 @@ Seele war mir doch flau.―</p>
             <p xml:space="preserve" rend="center">1928</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1925-01-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-01-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-01-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1925-01-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-01-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-01-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1344-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6437.tif"/>
@@ -182,14 +186,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1925-01-23">
-            <p xml:space="preserve"><date when="1925-01-23">23/1</date> <rs type="place" xml:id="pl_15896" ref="#place_51c7c0e8bc877f41a415a8e7efedd068">St. Moritz</rs>. Mit <rs type="person" xml:id="pNt_74304" ref="#person_19832"><forename>O.</forename></rs>, die mich abholt, zum Eislaufplatz.― <rs type="person" xml:id="pNt_74305" ref="#person_15571"><roleName>Hr.</roleName> <surname>Gonzala</surname></rs> 
+            <p xml:space="preserve"><date when="1925-01-23">23/1</date> <rs type="place" xml:id="pl_15896" ref="#pmb44374">St. Moritz</rs>. Mit <rs type="person" xml:id="pNt_74304" ref="#person_19832"><forename>O.</forename></rs>, die mich abholt, zum Eislaufplatz.― <rs type="person" xml:id="pNt_74305" ref="#person_15571"><roleName>Hr.</roleName> <surname>Gonzala</surname></rs> 
 fragt mich wegen seines Herzleidens (kommt eben vom Arzt).― <rs type="person" xml:id="pNt_74306" ref="#person_14130"><forename>Lili</forename></rs> etc.―</p>
             <p xml:space="preserve" rend="indent">Nm. in der Kulmgegend spazieren. Nach Hause. Gemessen. Leichte 
 Temperatursteigerung. Mattigkeit. Kieferhöhle ist afficirt. War doch eine 
 kleine Grippe (oder ists noch).</p>
-            <p xml:space="preserve" rend="indent">Post aus <rs type="place" xml:id="pl_15897" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>;― nachgesandtes.</p>
+            <p xml:space="preserve" rend="indent">Post aus <rs type="place" xml:id="pl_15897" ref="#pmb50">Wien</rs>;― nachgesandtes.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1902-07-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-07-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-07-31.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1902-07-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-07-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-07-31.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F364-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1699.tif"/>
@@ -181,10 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1902-07-30">
-            <p xml:space="preserve"><date when="1902-07-30">30/7</date> Rad <rs type="place" xml:id="pl_04040" ref="#place_97d57367459639154853cbd7c5de0796">Giesshübl</rs> und weiter.―</p>
+            <p xml:space="preserve"><date when="1902-07-30">30/7</date> Rad <rs type="place" xml:id="pl_04040" ref="#pmb90721">Giesshübl</rs> und weiter.―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="work" subtype="self" xml:id="bibl_18055">Roman</rs> vorgenommen.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_18797" ref="#person_17958"><forename>Paul</forename> <surname>M.</surname></rs>, war bei dem „Vater“, wegen der für <rs type="person" xml:id="pNt_18798" ref="#person_20386"><forename>Liesls</forename></rs> Contract 
-(<rs type="place" ref="#place_schillertheater">Schillertheater</rs>) notwendigen Unterschrift. „Was macht der Fratz?“ 
+(<rs type="place" ref="#pmb334">Schillertheater</rs>) notwendigen Unterschrift. „Was macht der Fratz?“ 
 <rs type="person" xml:id="pNt_18799" ref="#person_17958"><forename>Paul</forename></rs>: Interessirt Sie wohl nicht, da Sie nicht einmal auf die Briefe 
 geantwortet. „Auf so an unverschamten Brief soll ich antworten … 
 Und was ist mit <rs type="person" xml:id="pNt_18800" ref="#person_19832"><forename>O.</forename></rs> ― Man erzählt sich in der ganzen Stadt, dass sie 
@@ -192,6 +196,5 @@ die Maitress vom Dr. ist ― dass ma sich schämen muss.“―
 Unterschrift. Offenbar gut situirt, Goldkette etc.― Riegel vor.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1895-04-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-04-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-04-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1895-04-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-04-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-04-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E985-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1016.tif"/>
@@ -182,9 +186,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1895-04-28">
-            <p xml:space="preserve"><date when="1895-04-28">28/4</date> S.― Mit <rs type="person" xml:id="pNt_10518" ref="#person_15485"><forename>Mz. I</forename></rs> in <rs type="place" xml:id="pl_01959" ref="#place_c7c68cfce47325e06342f79363155093">Himberg</rs> draußen zu Mittag gegessen. Regentag. 
+            <p xml:space="preserve"><date when="1895-04-28">28/4</date> S.― Mit <rs type="person" xml:id="pNt_10518" ref="#person_15485"><forename>Mz. I</forename></rs> in <rs type="place" xml:id="pl_01959" ref="#pmb90879">Himberg</rs> draußen zu Mittag gegessen. Regentag. 
 Im Wagen sie nach Haus begleitet. Heut Abd. reist sie ab.― Ich 
-versprach bald zu kommen, event. sie in <rs type="place" xml:id="pl_01960" ref="#place_443befbacdaa99c161dd11495b82b99b">Linz</rs> zu treffen. Sie weinte 
+versprach bald zu kommen, event. sie in <rs type="place" xml:id="pl_01960" ref="#pmb91153">Linz</rs> zu treffen. Sie weinte 
 viel. „Ich kanns nicht glauben, daß ich wieder wegmuss … Nicht 
 wahr ich bin gebunden!“ (Ich: Nur, die Wahrheit zu sagen.) ― „Ich 
 darf nicht thun, was ich will, nicht wahr?“ Sie flehte drum. Ich hatte 
@@ -196,6 +200,5 @@ Abd. war ich mit <rs type="person" xml:id="pNt_10519" ref="#person_19150"><foren
 und mein Schmerz um die andre war gelindert.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

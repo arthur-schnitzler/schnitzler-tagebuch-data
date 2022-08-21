@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-11-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-11-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-11-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-11-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-11-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-11-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-18B4-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7193.tif"/>
@@ -182,15 +186,14 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1928-11-16">
-            <p xml:space="preserve"><date when="1928-11-16">16/11</date> Früh in die <rs type="place" xml:id="pl_18390" ref="#place_0742e4e105267a42ce98c784e500406b">Hasenauer-Str.</rs> zu <rs type="person" xml:id="pNt_85245" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> ― 
+            <p xml:space="preserve"><date when="1928-11-16">16/11</date> Früh in die <rs type="place" xml:id="pl_18390" ref="#pmb383">Hasenauer-Str.</rs> zu <rs type="person" xml:id="pNt_85245" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> ― 
 Übersiedlungs-Zustand-Durcheinander.―</p>
-            <p xml:space="preserve" rend="indent">Früh gegessen,― auf den <rs type="place" xml:id="pl_18391" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs> gefahren, 4 Uhr, Südbahn-Hotel. 
+            <p xml:space="preserve" rend="indent">Früh gegessen,― auf den <rs type="place" xml:id="pl_18391" ref="#pmb91735">Semmering</rs> gefahren, 4 Uhr, Südbahn-Hotel. 
 Spazierg. Höhenweg; von Erinnerungen aller Art bedrängt. Alles 
 rückt nah und fern. Verstörung und tiefster Schmerz.―</p>
             <p xml:space="preserve" rend="indent">Lese im Hotelzimmer <rs type="person" xml:id="pNt_85246" ref="#person_15691"><surname>Großmann</surname></rs>, <rs type="work" xml:id="bibl_19770">Chefr. Roth</rs> (nicht übel), <rs type="person" xml:id="pNt_85247" ref="#person_20397"><surname>Stendhal</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Das Hotel recht leer;― einsames Nachtm.; beruhigend.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

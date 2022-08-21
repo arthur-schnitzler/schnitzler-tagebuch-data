@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-11-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-11-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-11-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-11-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-11-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-11-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-01F1-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3521.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1912-11-27">
-            <p xml:space="preserve"><date when="1912-11-27">27/11</date> <rs type="place" xml:id="pl_08100" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>. Generalprobe. O., <rs type="person" xml:id="pNt_39409" ref="#person_16041"><surname>Heimann</surname></rs>, <rs type="person" xml:id="pNt_39410" ref="#person_18137"><forename>Dora</forename></rs>.―</p>
+            <p xml:space="preserve"><date when="1912-11-27">27/11</date> <rs type="place" xml:id="pl_08100" ref="#pmb168">Berlin</rs>. Generalprobe. O., <rs type="person" xml:id="pNt_39409" ref="#person_16041"><surname>Heimann</surname></rs>, <rs type="person" xml:id="pNt_39410" ref="#person_18137"><forename>Dora</forename></rs>.―</p>
             <p xml:space="preserve" rend="indent">Regierungsrath <rs type="person" xml:id="pNt_39411" ref="#person_16922"><surname>Klotz</surname></rs>, der Censor unterhält sich mit mir über 
 Physiologie des Schaffens. Will am Schluß einen kleinen Strich („Wenn 
 er gewußt hätte, um was es sich handelt ―“) gibt aber nach.―</p>
@@ -190,6 +194,5 @@ er gewußt hätte, um was es sich handelt ―“) gibt aber nach.―</p>
 <rs type="person" xml:id="pNt_39418" ref="#person_14730"><surname>Eloesser</surname></rs> über <rs type="person" xml:id="pNt_39419" ref="#person_14821"><surname>Eulenberg</surname></rs>; etc.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1921-11-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-11-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-12-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1921-11-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-11-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-12-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0EC7-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,23 +177,25 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5586.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1921-11-30">
             <p xml:space="preserve"><date when="1921-11-30">30/11</date> Burgth. Gen. Pr. <rs type="work" xml:id="bibl_3703">Mme. Legros</rs> von <rs type="person" xml:id="pNt_64454" ref="#person_17834"><forename>Heinrich</forename> <surname>Mann</surname></rs>. Das Stück wirkte 
 zum Theil sehr auf mich; durchaus besondres Niveau, wenn auch 
 einigermaßen pointirt und auch affectirt.― Im Auto mit <rs type="person" xml:id="pNt_64455" ref="#person_20892"><surname>Urbantschitsch</surname></rs> und 
 Frau (<rs type="person" xml:id="pNt_64456" ref="#person_18008"><surname>Mayen</surname></rs>) nach Haus.―</p>
-            <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_64457" ref="#person_15142"><roleName>Prof.</roleName> <surname>Frankl</surname></rs> mit Frau, <rs type="place" xml:id="pl_13537" ref="#place_c12b8d9779a8ad2b240a57b31c979290">Prag</rs>, wegen Uraniavorlesungen <rs type="place" xml:id="pl_13538" ref="#place_c12b8d9779a8ad2b240a57b31c979290">Prag</rs>, <rs type="place" xml:id="pl_13539" ref="#place_e33aa4ba5c56cc07714ea6d6520cf548">Brünn</rs> 
+            <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_64457" ref="#person_15142"><roleName>Prof.</roleName> <surname>Frankl</surname></rs> mit Frau, <rs type="place" xml:id="pl_13537" ref="#pmb91524">Prag</rs>, wegen Uraniavorlesungen <rs type="place" xml:id="pl_13538" ref="#pmb91524">Prag</rs>, <rs type="place" xml:id="pl_13539" ref="#pmb833">Brünn</rs> 
 etc. Vielleicht Jänner.</p>
             <p xml:space="preserve" rend="indent">Am „<rs type="work" subtype="self" xml:id="bibl_3704">Verführer</rs>“.―</p>
-            <p xml:space="preserve" rend="indent">Z. N. <rs type="person" xml:id="pNt_64458" ref="#person_20238"><forename>Richard</forename> <surname>Specht</surname></rs> (mit Frau). War in <rs type="place" xml:id="pl_13540" ref="#place_9974545279455eb03bf50b1b1b4d7fea">Wiesbaden</rs>, <rs type="place" xml:id="pl_13541" ref="#place_35d7df6ed3d93be2927d14acc5f1fc9a">Hamburg</rs> (Vorlesungen);― 
+            <p xml:space="preserve" rend="indent">Z. N. <rs type="person" xml:id="pNt_64458" ref="#person_20238"><forename>Richard</forename> <surname>Specht</surname></rs> (mit Frau). War in <rs type="place" xml:id="pl_13540" ref="#pmb883">Wiesbaden</rs>, <rs type="place" xml:id="pl_13541" ref="#pmb506">Hamburg</rs> (Vorlesungen);― 
 hat mit <rs type="person" xml:id="pNt_64459" ref="#person_15009"><surname>Fischer</surname></rs> wegen des <rs type="work" xml:id="bibl_3705">Buchs über mich</rs> abgeschlossen. Ein <rs type="place" xml:id="pl_13542" ref="#place_9912c9330e203d0dc109bf7e74e09e51" ana="#exclude">Schweizer</rs> 
 Freund hat ihm ein Geschenk von 1800 Fr. (jetzt etwa 3 Millionen) gemacht.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-01-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-01-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-01-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-01-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-01-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-01-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FC6C-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2623.tif"/>
@@ -184,12 +188,11 @@
          <div type="diary-day" xml:id="entry__1909-01-14">
             <p xml:space="preserve"><date when="1909-01-14">14/1</date> Vm. bei <rs type="person" xml:id="pNt_29604" ref="#person_13305"><surname>Auernheimer</surname></rs> (der neulich charmant über <rs type="work" subtype="self" xml:id="bibl_12342">L.</rs> und <rs type="work" subtype="self" xml:id="bibl_12343">C. M.</rs> 
 geschrieben); über die Aufführungen seines letzten Stücks („<rs type="work" xml:id="bibl_12344">Die 
-glücklichste Zeit</rs>“, in <rs type="place" xml:id="pl_06564" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> u. s. w.) u. a.―</p>
+glücklichste Zeit</rs>“, in <rs type="place" xml:id="pl_06564" ref="#pmb168">Berlin</rs> u. s. w.) u. a.―</p>
             <p xml:space="preserve" rend="indent">Nm. wieder in Plänen und Skizzen.</p>
             <p xml:space="preserve" rend="indent">Abends ein mir als Mscrpt. zugesandtes Stück gelesen: „<rs type="work" xml:id="bibl_12345">Die 
 Dreizehn</rs>“ von <rs ref="#person_20748" type="person" xml:id="pNt_29605"><surname>Timar</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

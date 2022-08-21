@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1924-02-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-02-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-02-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1924-02-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-02-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-02-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-11E7-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6205.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1924-02-09">
-            <p xml:space="preserve"><date when="1924-02-09">9/2</date> Vm. Journalist <rs type="person" xml:id="pNt_71512" ref="#person_18339"><forename>Finn</forename> <surname>Myklegard</surname></rs>, <rs type="place" xml:id="pl_15259" ref="#place_5ff826b5b16c6ba9227e2018b980f68a">Christiania</rs>; junger Mensch 
+            <p xml:space="preserve"><date when="1924-02-09">9/2</date> Vm. Journalist <rs type="person" xml:id="pNt_71512" ref="#person_18339"><forename>Finn</forename> <surname>Myklegard</surname></rs>, <rs type="place" xml:id="pl_15259" ref="#pmb90476">Christiania</rs>; junger Mensch 
 von 23 Jahren. Über ev. Burgth. Gastspiel im Norden.</p>
             <p xml:space="preserve" rend="indent">― Dict. <rs type="work" subtype="self" xml:id="bibl_20791">Verf.</rs>― <rs type="person" xml:id="pNt_71513" ref="#person_18881"><forename>Kolap</forename></rs> machte einige sehr kluge Ausstellungen.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_20792">Verf.</rs> und an <rs type="work" subtype="self" xml:id="bibl_20793">aphor.</rs>―</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" ref="#place_volkstheater">Volksth.</rs> <rs type="person" xml:id="pNt_71514" ref="#person_21264"><surname>Wertheimer</surname></rs>, <rs type="work" xml:id="bibl_20794">Menschen von heute</rs> I;― manches gute im 2. Akt.―</p>
+            <p xml:space="preserve" rend="indent"><rs type="place" ref="#pmb92202">Volksth.</rs> <rs type="person" xml:id="pNt_71514" ref="#person_21264"><surname>Wertheimer</surname></rs>, <rs type="work" xml:id="bibl_20794">Menschen von heute</rs> I;― manches gute im 2. Akt.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

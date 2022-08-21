@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-02-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-02-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-02-19.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-02-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-02-17.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-02-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1084-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,12 +177,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5976.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1923-02-18">
             <p xml:space="preserve"><date when="1923-02-18">18/2</date> S.― General Vers. Autorengenossenschaft.</p>
             <p xml:space="preserve" rend="indent">Nm. (mit <rs type="person" xml:id="pNt_68629" ref="#person_19822"><forename>Heini</forename></rs>) <rs type="person" xml:id="pNt_68630" ref="#person_17784"><forename>Alma</forename></rs>. <rs type="person" xml:id="pNt_68631" ref="#person_19840"><surname>Schönberg</surname></rs> dirigirt seinen <rs type="work" xml:id="bibl_1656">Pierrot lunaire</rs>, 
@@ -186,8 +191,9 @@
 Geist, Witz, Bizarrerie ― aber Seele nicht.― Viele Leute.― Lernte 
 kennen <rs type="person" xml:id="pNt_68633" ref="#person_20430"><surname>Steuermann</surname></rs> (den Klavierspieler),― <rs type="person" xml:id="pNt_68634" ref="#person_21124"><forename>Anton v.</forename> <surname>Webern</surname></rs>, eine 
 <rs type="place" xml:id="pl_14555" ref="#place_2b25a044731d28feb0db1931b4becfb6" ana="#exclude">Holländerin</rs> (Freundin <rs type="person" xml:id="pNt_68635" ref="#person_18885"><roleName>Dr.</roleName> <surname>P.</surname></rs>), <rs type="person" xml:id="pNt_68636" ref="#person_15335"><roleName>Gräfin</roleName> <surname>[Gandolfi]</surname></rs>, sprach ein paar 
-Dutzend Menschen. (<rs type="person" xml:id="pNt_68637" ref="#person_15210"><surname>Friedell</surname></rs>, <rs type="person" xml:id="pNt_68638" ref="#person_13272"><surname>Asch</surname></rs>, <rs type="person" xml:id="pNt_68639" ref="#person_15225"><surname>Friedman</surname></rs> (<rs type="place" xml:id="pl_14556" ref="#place_e884124295d0c4d07d9bcf5096fd5495">Amerika</rs>), <rs type="person" xml:id="pNt_68640" ref="#person_20238"><surname>Spechts</surname></rs>, 
+Dutzend Menschen. (<rs type="person" xml:id="pNt_68637" ref="#person_15210"><surname>Friedell</surname></rs>, <rs type="person" xml:id="pNt_68638" ref="#person_13272"><surname>Asch</surname></rs>, <rs type="person" xml:id="pNt_68639" ref="#person_15225"><surname>Friedman</surname></rs> (<rs type="place" xml:id="pl_14556" ref="#pmb43406">Amerika</rs>), <rs type="person" xml:id="pNt_68640" ref="#person_20238"><surname>Spechts</surname></rs>, 
 <rs type="allusively" xml:id="rst_01987">Hofrätin</rs> etc.)</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

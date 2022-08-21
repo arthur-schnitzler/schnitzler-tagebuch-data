@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-08-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-08-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0193-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3464.tif"/>
@@ -182,13 +186,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1912-08-25">
-            <p xml:space="preserve"><date when="1912-08-25">25/8</date> S. <rs type="place" xml:id="pl_08010" ref="#place_0d630f309cd8eaead4c6693378f162fb">Villach</rs>. Spazieren; allein; dann mit O. im Wagen an den 
-<rs type="place" xml:id="pl_08011" ref="#place_6325c1ead3929aa5f7eecf268ea3d9a3">Ossiachersee</rs>, zum <rs type="place" xml:id="pl_08012" ref="#place_a2a6092be42e57c25383d24da1b2de50">Annenheim</rs> (wo 1894 oder 95? <rs type="person" xml:id="pNt_38681" ref="#person_19150"><forename>M.</forename> <surname>R.</surname></rs> wohnte).</p>
-            <p xml:space="preserve" rend="indent">Nm. Abreise. Telegramm in <rs type="place" xml:id="pl_08013" ref="#place_37c1019d59a18e340ff8820b88b3d6e7">Spittal</rs>, von der <rs type="work" subtype="newspaper" xml:id="bibl_10445">N. Fr. Pr.</rs>, ― <rs type="person" xml:id="pNt_38682" ref="#person_13624"><surname>Berger</surname></rs>!― 
-Ich schreibe im Speisewagen ein paar Zeilen. Ankunft <rs type="place" xml:id="pl_08014" ref="#place_c6f3801b0f7078f39cc75b8690301853">Gossensass</rs>. 
+            <p xml:space="preserve"><date when="1912-08-25">25/8</date> S. <rs type="place" xml:id="pl_08010" ref="#pmb92011">Villach</rs>. Spazieren; allein; dann mit O. im Wagen an den 
+<rs type="place" xml:id="pl_08011" ref="#pmb91415">Ossiachersee</rs>, zum <rs type="place" xml:id="pl_08012" ref="#pmb40380">Annenheim</rs> (wo 1894 oder 95? <rs type="person" xml:id="pNt_38681" ref="#person_19150"><forename>M.</forename> <surname>R.</surname></rs> wohnte).</p>
+            <p xml:space="preserve" rend="indent">Nm. Abreise. Telegramm in <rs type="place" xml:id="pl_08013" ref="#pmb41052">Spittal</rs>, von der <rs type="work" subtype="newspaper" xml:id="bibl_10445">N. Fr. Pr.</rs>, ― <rs type="person" xml:id="pNt_38682" ref="#person_13624"><surname>Berger</surname></rs>!― 
+Ich schreibe im Speisewagen ein paar Zeilen. Ankunft <rs type="place" xml:id="pl_08014" ref="#pmb40474">Gossensass</rs>. 
 <rs type="person" xml:id="pNt_38683" ref="#person_19827"><forename>Julius</forename></rs> und Familie. <rs type="person" xml:id="pNt_38684" ref="#person_15855"><surname>Hajeks</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

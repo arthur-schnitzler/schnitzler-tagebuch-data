@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-01-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-01-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-01-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-01-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-01-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-01-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F577-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1886.tif"/>
@@ -180,14 +184,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1904-01-23">
-            <p xml:space="preserve"><date when="1904-01-23">23/1</date> Traum: Ich fliege nackt über die <rs type="place" xml:id="pl_04590" ref="#place_9ae90ea21d3e063c02809f046183f123">Ringstraße</rs>, in der Gegend des 
-<rs type="place" ref="#place_burgtheater">Burgtheater</rs>s ― sehr peinlich ― und denke, um das Peinliche zu paralysiren, 
+            <p xml:space="preserve"><date when="1904-01-23">23/1</date> Traum: Ich fliege nackt über die <rs type="place" xml:id="pl_04590" ref="#pmb91600">Ringstraße</rs>, in der Gegend des 
+<rs type="place" ref="#pmb14">Burgtheater</rs>s ― sehr peinlich ― und denke, um das Peinliche zu paralysiren, 
 werd ich mir vorstellen ― es ist ein Traum.―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_20649" ref="#person_14480"><surname>Donath</surname></rs>, <rs type="person" xml:id="pNt_20650" ref="#person_13473"><forename>Ludw.</forename> <surname>Bauer</surname></rs> (über den <rs type="work" subtype="self" xml:id="bibl_16962">Eins. Weg</rs>) ―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_20651" ref="#person_20931"><surname>Vaucaire</surname></rs> Vorwort.― Abds. <rs type="person" xml:id="pNt_20652" ref="#person_19986"><surname>Schwarzkopfs</surname></rs> da, über die <rs type="person" xml:id="pNt_20653" ref="#person_14553"><surname>Duncan</surname></rs> sehr 
 entrüstet als Schwindlerin.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

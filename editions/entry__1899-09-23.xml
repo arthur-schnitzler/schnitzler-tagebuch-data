@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1899-09-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-09-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-09-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1899-09-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-09-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-09-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EF9C-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1515.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1899-09-23">
-            <p xml:space="preserve"><date when="1899-09-23">23/9</date> <rs type="place" xml:id="pl_03250" ref="#place_d5460b665e26333bdf699f77a2e3cf17">Frankfurt</rs>. Abds. wieder mit <rs type="person" xml:id="pNt_16559" ref="#person_15529"><forename>Paul</forename></rs> und <rs type="person" xml:id="pNt_16560" ref="#person_19434"><roleName>Frau</roleName> <surname>R.</surname></rs></p>
+            <p xml:space="preserve"><date when="1899-09-23">23/9</date> <rs type="place" xml:id="pl_03250" ref="#pmb146">Frankfurt</rs>. Abds. wieder mit <rs type="person" xml:id="pNt_16559" ref="#person_15529"><forename>Paul</forename></rs> und <rs type="person" xml:id="pNt_16560" ref="#person_19434"><roleName>Frau</roleName> <surname>R.</surname></rs></p>
             <pb n="314"/>
             <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header">
                <fw place="top_left" type="pn">314</fw>
@@ -191,6 +195,5 @@
             </tei:fw>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

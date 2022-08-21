@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-07-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1931-07-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1C84-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7742.tif"/>
@@ -182,8 +186,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1931-07-21">
-            <p xml:space="preserve"><date when="1931-07-21">21/7</date> <rs type="place" xml:id="pl_20019" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs>.― Träume viel: Heut wieder Verlust der Manuscriptentasche 
-als Abschluss eines Traums, dass ich mit <rs type="person" xml:id="pNt_93455" ref="#person_19822"><forename>Heini</forename></rs> im Hotel Esplanade <rs type="place" xml:id="pl_20020" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>, 
+            <p xml:space="preserve"><date when="1931-07-21">21/7</date> <rs type="place" xml:id="pl_20019" ref="#pmb91735">Semmering</rs>.― Träume viel: Heut wieder Verlust der Manuscriptentasche 
+als Abschluss eines Traums, dass ich mit <rs type="person" xml:id="pNt_93455" ref="#person_19822"><forename>Heini</forename></rs> im Hotel Esplanade <rs type="place" xml:id="pl_20020" ref="#pmb168">Berlin</rs>, 
 das im Traum Bristol heißt und ganz anders aussieht Zimmer bestellt habe; 
 man weist mir ein ganz kleines düstres an, an das 3 ebenso kleine Badezimmer 
 stoßen; ich conferire mit einem Direktor;― Leute angestellt; er wie ein 
@@ -194,11 +198,10 @@ ich erwäge, ob ich ihn bestechen soll ― wo ist Handtasche und Mscrpt.tasche
 Lebensverhältnisse meine Arbeitskraft völlig lähmt.―</p>
             <p xml:space="preserve" rend="indent">Spaziergang mit <rs type="person" xml:id="pNt_93456" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> und <rs type="person" xml:id="pNt_93457" ref="#person_19704"><surname>Schinnerer</surname></rs> Hochweg, Johann etc.</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="work" subtype="self" xml:id="bibl_23874">Sekundant</rs>, neu zu schreiben begonnen.―</p>
-            <p xml:space="preserve" rend="indent">Brief aus <rs type="place" xml:id="pl_20021" ref="#place_8b32ee9ceed3cd308ec9e80f541bfa55">Zöptau</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Brief aus <rs type="place" xml:id="pl_20021" ref="#pmb92129">Zöptau</rs>.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_93458" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> liest mir <rs type="work" xml:id="bibl_23875">Selbstbiogr.</rs> vor.―</p>
             <p xml:space="preserve" rend="indent">Nach dem Nachtm. immer Hall.― Jazz, Tanz, ich lese.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-09-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-09-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0A3D-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,15 +177,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4710.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4711.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1918-09-24">
-            <p xml:space="preserve"><date when="1918-09-24">24/9</date> Vm. Panorama (<rs type="place" xml:id="pl_11243" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs>).―</p>
+            <p xml:space="preserve"><date when="1918-09-24">24/9</date> Vm. Panorama (<rs type="place" xml:id="pl_11243" ref="#pmb182">Paris</rs>).―</p>
             <p xml:space="preserve" rend="indent">Überbrachte <rs type="person" xml:id="pNt_54253" ref="#person_13663"><surname>Bernau</surname></rs> die „<rs type="work" subtype="self" xml:id="bibl_5837">Schwestern</rs>“.―</p>
             <p xml:space="preserve" rend="indent">Zu <rs type="person" xml:id="pNt_54254" ref="#person_19827"><forename>Julius’</forename></rs>; brachte ihnen die Correcturbogen der „<rs type="work" subtype="self" xml:id="bibl_5838">Schwestern</rs>“ und 
 der „<rs type="work" subtype="self" xml:id="bibl_5839">Heimfahrt</rs>“;― erzählte ihm meine Gespräche mit <rs type="person" xml:id="pNt_54255" ref="#person_13374"><surname>Bahr</surname></rs>.</p>
@@ -190,7 +195,7 @@ der „<rs type="work" subtype="self" xml:id="bibl_5839">Heimfahrt</rs>“;― e
 Er nennt <rs type="person" xml:id="pNt_54258" ref="#person_21357"><surname>Wilson</surname></rs> den größten Massenmörder der Geschichte und sieht 
 der Zukunft mit Graun entgegen.―</p>
             <p xml:space="preserve" rend="indent">Träumte heut Nacht allerlei: Bergpartie mit meinem <rs type="allusively" xml:id="rst_01588">Bruder</rs> oder <rs type="allusively" xml:id="rst_01589">Sohn</rs> (die 
-im Traum selten zu unterscheiden sind), <rs type="place" xml:id="pl_11244" ref="#place_9c457f4107132ccb2d87ebf5e13f0b74">Schafberg</rs> (welchen?) Hütte;― 
+im Traum selten zu unterscheiden sind), <rs type="place" xml:id="pl_11244" ref="#pmb59367">Schafberg</rs> (welchen?) Hütte;― 
 draußen eine Wiese, ein Bauernmädchen, bei der ich mich betreffs <rs type="person" xml:id="pNt_54259" ref="#person_19354"><surname>Roseggers</surname></rs> 
 Tod erkundige;― ich schreibe (in jener Hütte?) einen Brief an <rs type="person" xml:id="pNt_54260" ref="#person_19150"><forename>M.</forename> <surname>R.</surname></rs>―?, 
 die ich in einem Monat heiraten soll,― daß die Heirat nicht stattfinden 
@@ -201,5 +206,6 @@ drei Mörder <rs type="person" xml:id="pNt_54261" ref="#person_14367"><surname>D
 <rs type="person" xml:id="pNt_54265" ref="#person_20876"><surname>Ulmer</surname></rs> ist der Name eines schlechten <rs type="place" xml:id="pl_11245" ref="#place_b831c3aed38a22564ae26fcadf9e38d3" ana="#exclude">Münchner</rs> Schauspielers.).</p>
             <p xml:space="preserve" rend="indent">― Wie lange schrieb ich schon keine Träume ein!</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

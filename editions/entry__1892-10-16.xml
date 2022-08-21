@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1892-10-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-10-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-10-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1892-10-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-10-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-10-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E5EF-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0647.tif"/>
@@ -184,7 +188,7 @@
          <div type="diary-day" xml:id="entry__1892-10-16">
             <p xml:space="preserve"><date when="1892-10-16">16.</date> <rs type="person" xml:id="pNt_06638"><surname>S.</surname></rs> Undeutliche Träume der ersten Nacht: ― Mein <rs type="allusively" xml:id="rst_00167">Vater</rs> sagt, ich 
 hätte kein Talent; ich berufe mich auf <rs type="person" xml:id="pNt_06639" ref="#person_16293"><forename>Loris</forename></rs>.― Undeutliche 
-Landschaften. Gegenden von <rs type="place" xml:id="pl_01399" ref="#place_0e891dbd1b1814a0cddd64e270c6ffac">Vöslau</rs> und <rs type="place" xml:id="pl_01400" ref="#place_9a43e84f6e1d406076f2372205804f6d">Baden</rs>.― Coupé. <rs type="person" xml:id="pNt_06640" ref="#person_17900"><forename>Else</forename></rs>.― Alles 
+Landschaften. Gegenden von <rs type="place" xml:id="pl_01399" ref="#pmb992">Vöslau</rs> und <rs type="place" xml:id="pl_01400" ref="#pmb662">Baden</rs>.― Coupé. <rs type="person" xml:id="pNt_06640" ref="#person_17900"><forename>Else</forename></rs>.― Alles 
 verschwimmt.</p>
             <pb n="390"/>
             <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header">
@@ -201,9 +205,8 @@ schweren Nöthen nach was greifen, ist’s <rs type="person" xml:id="pNt_06649" 
 nicht unsre Werke; wir sind dem Leben ferner. (Unwahr.) ―</p>
             <p xml:space="preserve" rend="indent">Abs. <rs type="person" xml:id="pNt_06651" ref="#person_21508"><surname>Z.</surname></rs> 3.― In der Lpst.― Ich mußte weinen, wie ich dalag und an 
 <rs type="person" xml:id="pNt_06652" ref="#person_15485"><forename>Mz.</forename></rs> dachte und meine Sehnsucht wurde unerträglich ―</p>
-            <p xml:space="preserve" rend="indent">Im <rs type="place" ref="#place_pfob">Pfob</rs>: <rs type="person" xml:id="pNt_06654" ref="#person_19685"><surname>Schik</surname></rs>, <rs type="person" xml:id="pNt_06655" ref="#person_13551"><surname>Beer-Hofmann</surname></rs>, Vanjung.</p>
+            <p xml:space="preserve" rend="indent">Im <rs type="place" ref="#pmb92444">Pfob</rs>: <rs type="person" xml:id="pNt_06654" ref="#person_19685"><surname>Schik</surname></rs>, <rs type="person" xml:id="pNt_06655" ref="#person_13551"><surname>Beer-Hofmann</surname></rs>, Vanjung.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

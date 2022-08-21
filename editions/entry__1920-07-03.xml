@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-07-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-07-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-07-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1920-07-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-07-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-07-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0CC4-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5132.tif"/>
@@ -185,11 +189,10 @@
             <p xml:space="preserve"><date when="1920-07-03">3/7</date> Entwarf Vm. Brief an <rs type="person" xml:id="pNt_59283" ref="#person_15009"><surname>Fischer</surname></rs>, der mir wieder aergerlich (in doppeltem 
 Sinn) schrieb.</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_4170">Weiher</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Abd. mit <rs type="person" xml:id="pNt_59284" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> spazieren <rs type="place" xml:id="pl_12382" ref="#place_75f2e194839d6ba0e5d4080c211a449a">Dornbacher Park</rs>, <rs type="place" xml:id="pl_12383" ref="#place_a513bae177c89d12226f343ac5ff1ee3">Salmannsdorf</rs>.― Sie war drei 
-Monate in <rs type="place" xml:id="pl_12384" ref="#place_f6346980305f4b739eebd437507db9d0">Altmünster</rs>, dürfte, wegen Spitzencatarrhs in wenigen Tagen 
+            <p xml:space="preserve" rend="indent">Abd. mit <rs type="person" xml:id="pNt_59284" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> spazieren <rs type="place" xml:id="pl_12382" ref="#pmb176">Dornbacher Park</rs>, <rs type="place" xml:id="pl_12383" ref="#pmb91641">Salmannsdorf</rs>.― Sie war drei 
+Monate in <rs type="place" xml:id="pl_12384" ref="#pmb90237">Altmünster</rs>, dürfte, wegen Spitzencatarrhs in wenigen Tagen 
 wieder fort. Sie war mir ziemlich uninteressant.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

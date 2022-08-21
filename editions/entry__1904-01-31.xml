@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-01-31.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-01-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-02-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-01-31.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-01-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-02-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F57F-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1888.tif"/>
@@ -180,7 +184,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1904-01-31">
-            <p xml:space="preserve"><date when="1904-01-31">31/1</date> S. Allein spazieren, <rs type="place" xml:id="pl_04591" ref="#place_c79ad839f84019f53250a4e6365359f9">Neuwaldegg</rs>, <rs type="place" xml:id="pl_04592" ref="#place_a513bae177c89d12226f343ac5ff1ee3">Salmannsdorf</rs>, <rs type="place" xml:id="pl_04593" ref="#place_3b0cf80ce6f7c6e0340cf31265c8f3f7">Sievring</rs>. Ein wenig 
+            <p xml:space="preserve"><date when="1904-01-31">31/1</date> S. Allein spazieren, <rs type="place" xml:id="pl_04591" ref="#pmb170">Neuwaldegg</rs>, <rs type="place" xml:id="pl_04592" ref="#pmb91641">Salmannsdorf</rs>, <rs type="place" xml:id="pl_04593" ref="#pmb64219">Sievring</rs>. Ein wenig 
 im Nebel auf unbekanntem Weg zwischen Weinbergen verirrt, und Angst 
 bekommen.</p>
             <p xml:space="preserve" rend="indent">Nm. bei <rs type="person" xml:id="pNt_20671" ref="#person_18320"><forename>Fanny</forename> <surname>Mütter</surname></rs>.― <rs type="person" xml:id="pNt_20672" ref="#person_20925"><forename>Leo</forename></rs> und <rs type="person" xml:id="pNt_20673" ref="#person_20924"><forename>Ida</forename> <surname>Vanjung</surname></rs>, <rs type="person" xml:id="pNt_20674" ref="#person_14976"><roleName>Frl.</roleName> <surname>Fichtengoltz</surname></rs>, 
@@ -188,6 +192,5 @@ bekommen.</p>
             <p xml:space="preserve" rend="center">Feber</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

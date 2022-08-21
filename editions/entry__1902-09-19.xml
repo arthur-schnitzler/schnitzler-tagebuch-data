@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1902-09-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-09-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-09-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1902-09-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-09-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-09-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F394-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1710.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1902-09-19">
-            <p xml:space="preserve"><date when="1902-09-19">19/9</date> <rs type="place" xml:id="pl_04120" ref="#place_6cc6cfe893d0065a8007acc6e4074a69">Rodaun</rs>, <rs type="person" xml:id="pNt_18902" ref="#person_16293"><forename>Hugo</forename></rs>.― <rs type="place" xml:id="pl_04121" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>. 
+            <p xml:space="preserve"><date when="1902-09-19">19/9</date> <rs type="place" xml:id="pl_04120" ref="#pmb173">Rodaun</rs>, <rs type="person" xml:id="pNt_18902" ref="#person_16293"><forename>Hugo</forename></rs>.― <rs type="place" xml:id="pl_04121" ref="#pmb50">Wien</rs>. 
 Dr. <rs type="person" xml:id="pNt_18903" ref="#person_15947"><forename>Ludo</forename> <surname>Hartmann</surname></rs> (Vortrag), <rs type="person" xml:id="pNt_18904" ref="#person_20693"><forename>Camilla</forename> <surname>Theimer</surname></rs> mit 4 Einaktern.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

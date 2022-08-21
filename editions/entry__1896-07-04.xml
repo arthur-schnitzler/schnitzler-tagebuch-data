@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1896-07-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-07-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-07-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1896-07-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-07-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-07-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EB36-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1192.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1896-07-04">
-            <p xml:space="preserve"><date when="1896-07-04">4/7</date> Im Coupé schlecht geschlafen.― In <rs type="place" xml:id="pl_02306" ref="#place_d72261a58f8777c2da6598d43adbbf2b">Halle</rs> Conducteur, der aufs 
-Trinkgeld sagt: „Sehr liebenswürdig.“ ― Abend Ankunft in <rs type="place" xml:id="pl_02307" ref="#place_35d7df6ed3d93be2927d14acc5f1fc9a">Hamburg</rs>.― 
+            <p xml:space="preserve"><date when="1896-07-04">4/7</date> Im Coupé schlecht geschlafen.― In <rs type="place" xml:id="pl_02306" ref="#pmb140">Halle</rs> Conducteur, der aufs 
+Trinkgeld sagt: „Sehr liebenswürdig.“ ― Abend Ankunft in <rs type="place" xml:id="pl_02307" ref="#pmb506">Hamburg</rs>.― 
 Spazieren.― <rs type="institution" xml:id="pNt_12399"><surname>Pfordte</surname></rs> (Rest.) ― Sehr übel; nach Haus.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

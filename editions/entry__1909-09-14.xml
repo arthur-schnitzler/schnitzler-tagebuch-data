@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-09-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-09-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-09-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-09-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-09-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-09-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FD5F-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,18 +177,20 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2752.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1909-09-14">
-            <p xml:space="preserve"><date when="1909-09-14">14/9</date> Vm. <rs type="person" xml:id="pNt_30906" ref="#person_13551"><forename>Richard</forename></rs> da (vom <rs type="place" xml:id="pl_06812" ref="#place_9b5c2555a01778bd31e0cd1c675164b2">Lido</rs>).― <rs type="allusively" xml:id="rst_01050">Mama</rs>, <rs type="person" xml:id="pNt_30907" ref="#person_17825"><roleName>Prof.</roleName> <surname>Mandl</surname></rs>, <rs type="person" xml:id="pNt_30908" ref="#person_18884"><roleName>Dr.</roleName> <surname>Pollak</surname></rs>.―</p>
+            <p xml:space="preserve"><date when="1909-09-14">14/9</date> Vm. <rs type="person" xml:id="pNt_30906" ref="#person_13551"><forename>Richard</forename></rs> da (vom <rs type="place" xml:id="pl_06812" ref="#pmb91143">Lido</rs>).― <rs type="allusively" xml:id="rst_01050">Mama</rs>, <rs type="person" xml:id="pNt_30907" ref="#person_17825"><roleName>Prof.</roleName> <surname>Mandl</surname></rs>, <rs type="person" xml:id="pNt_30908" ref="#person_18884"><roleName>Dr.</roleName> <surname>Pollak</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">In die Stadt, Mscrpt. aus der Bank holen. <rs type="person" xml:id="pNt_30909" ref="#person_14588"><forename>Ossip</forename> <surname>Dymow</surname></rs> erscheint, 
 mit Anträgen wegen <rs type="work" subtype="self" xml:id="bibl_12857">Reigen</rs> Übersetzung, Inszenirung etc.</p>
             <p xml:space="preserve" rend="indent">Nm. gelesen, dictirt, Briefe.―</p>
             <p xml:space="preserve" rend="indent">Später in alten Sachen.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

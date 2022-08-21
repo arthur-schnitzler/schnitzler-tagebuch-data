@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-06-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-06-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-06-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-06-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-06-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-06-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FD08-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2708.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1909-06-19">
-            <p xml:space="preserve"><date when="1909-06-19">19/6</date> Mit O. Schiff <rs type="place" xml:id="pl_06715" ref="#place_1e16be54e7a0530f7f6994e967daacb1">Strobl</rs>, Bahn zurück. Nm. Wagenpartie Kreuzstein (Hotel) und zurück.</p>
-            <p xml:space="preserve" rend="indent">Auf der Hotelterrasse in Lueg mit <rs type="person" xml:id="pNt_30492" ref="#person_20523"><forename>Annie</forename> <surname>Strial</surname></rs> (heut aus <rs type="place" xml:id="pl_06716" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>) und 
+            <p xml:space="preserve"><date when="1909-06-19">19/6</date> Mit O. Schiff <rs type="place" xml:id="pl_06715" ref="#pmb91852">Strobl</rs>, Bahn zurück. Nm. Wagenpartie Kreuzstein (Hotel) und zurück.</p>
+            <p xml:space="preserve" rend="indent">Auf der Hotelterrasse in Lueg mit <rs type="person" xml:id="pNt_30492" ref="#person_20523"><forename>Annie</forename> <surname>Strial</surname></rs> (heut aus <rs type="place" xml:id="pl_06716" ref="#pmb50">Wien</rs>) und 
 <rs type="person" xml:id="pNt_30493" ref="#person_14065"><surname>Burckhard</surname></rs> ― der heut ganz der alte, jugendlich, lustig.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

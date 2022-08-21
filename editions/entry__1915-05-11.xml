@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-05-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-05-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-05-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1915-05-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-05-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-05-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-056E-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4039.tif"/>
@@ -185,13 +189,12 @@
             <p xml:space="preserve"><date when="1915-05-11">11/5</date> Früh zeigt mir O. <rs type="person" xml:id="pNt_45548" ref="#person_16910"><surname>Klimtzeichnungen</surname></rs>, die sie mit der <rs type="allusively" xml:id="rst_01410">Hofrätin</rs> und 
 <rs type="person" xml:id="pNt_45549" ref="#person_13359"><forename>Stephi</forename></rs> gestern im Atelier geholt, ich solle mir (zum Geburtstag) eine 
 aussuchen.―</p>
-            <p xml:space="preserve" rend="indent">― Südbahn, mit <rs type="person" xml:id="pNt_45550" ref="#person_13551"><forename>Richard</forename> <surname>B.-H.</surname></rs> und <rs type="person" xml:id="pNt_45551" ref="#person_16770"><forename>Arth.</forename> <surname>Kaufmann</surname></rs> <rs type="place" xml:id="pl_09357" ref="#place_9a43e84f6e1d406076f2372205804f6d">Baden</rs>; über Anningerhaus 
-zum <rs type="place" ref="#place_radetzky">Radetzky</rs>; dort gegessen, übern <rs type="place" xml:id="pl_09358" ref="#place_da4e3775bd2de6c37fadd9b0188f7a4e">Liechtenstein</rs> ― <rs type="place" xml:id="pl_09359" ref="#place_691156ca4a6956734bbcf3c24f286f8c">Maria Enzersdorf</rs>, 
-Tram nach <rs type="place" xml:id="pl_09360" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.― Hauptgespräch <rs type="place" xml:id="pl_09361" ref="#place_389962c9dec540ab28d04517e82c3996">Italien</rs>.―</p>
+            <p xml:space="preserve" rend="indent">― Südbahn, mit <rs type="person" xml:id="pNt_45550" ref="#person_13551"><forename>Richard</forename> <surname>B.-H.</surname></rs> und <rs type="person" xml:id="pNt_45551" ref="#person_16770"><forename>Arth.</forename> <surname>Kaufmann</surname></rs> <rs type="place" xml:id="pl_09357" ref="#pmb662">Baden</rs>; über Anningerhaus 
+zum <rs type="place" ref="#pmb92471">Radetzky</rs>; dort gegessen, übern <rs type="place" xml:id="pl_09358" ref="#pmb91145">Liechtenstein</rs> ― <rs type="place" xml:id="pl_09359" ref="#pmb55974">Maria Enzersdorf</rs>, 
+Tram nach <rs type="place" xml:id="pl_09360" ref="#pmb50">Wien</rs>.― Hauptgespräch <rs type="place" xml:id="pl_09361" ref="#pmb40306">Italien</rs>.―</p>
             <p xml:space="preserve" rend="indent">― Allerlei Eintragungen.―</p>
             <p xml:space="preserve" rend="indent">Häusliches Verhältnis in der letzten Zeit etwas unleidlich.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

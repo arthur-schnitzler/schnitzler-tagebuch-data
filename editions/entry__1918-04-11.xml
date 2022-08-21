@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-04-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-04-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-04-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-04-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-04-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-04-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0997-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4621.tif"/>
@@ -181,8 +185,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1918-04-11">
-            <p xml:space="preserve"><date when="1918-04-11">11/4</date> Besorgungen. Panorama (<rs type="place" xml:id="pl_10947" ref="#place_8d865b652dc83da05aa34b499a9b01be">Frankreich</rs>).― Begegne <rs type="person" xml:id="pNt_52925" ref="#person_21243"><surname>Werfel</surname></rs>, begleitet 
-mich <rs type="place" xml:id="pl_10948" ref="#place_2de2cbfcf4f6f7265397fff154638c9e">Wieden</rs>. Über seine <rs type="place" xml:id="pl_10949" ref="#place_9912c9330e203d0dc109bf7e74e09e51" ana="#exclude">Schweizer</rs> Reise, die schlechten Eindrücke 
+            <p xml:space="preserve"><date when="1918-04-11">11/4</date> Besorgungen. Panorama (<rs type="place" xml:id="pl_10947" ref="#pmb166">Frankreich</rs>).― Begegne <rs type="person" xml:id="pNt_52925" ref="#person_21243"><surname>Werfel</surname></rs>, begleitet 
+mich <rs type="place" xml:id="pl_10948" ref="#pmb54">Wieden</rs>. Über seine <rs type="place" xml:id="pl_10949" ref="#place_9912c9330e203d0dc109bf7e74e09e51" ana="#exclude">Schweizer</rs> Reise, die schlechten Eindrücke 
 überwogen,― nie so „herabgekommen“ gefühlt wie nach Rückkehr. 
 Vorträge. Geschäftliches. Knickerei der <rs type="place" xml:id="pl_10950" ref="#place_9912c9330e203d0dc109bf7e74e09e51" ana="#exclude">Schweizer</rs>.― Expressionismus.― 
 Das Element des Hasses in der neuen Kunst.―</p>
@@ -198,6 +202,5 @@ Das Element des Hasses in der neuen Kunst.―</p>
             </tei:fw>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1891-03-31.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-03-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-04-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1891-03-31.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-03-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-04-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E3C3-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0513.tif"/>
@@ -182,11 +186,10 @@
       <body>
          <div type="diary-day" xml:id="entry__1891-03-31">
             <p xml:space="preserve"><date when="1891-03-31">31. 3.</date> ― Ankunft <rs type="person" xml:id="pNt_05136" ref="#person_15485"><forename>Mz.s</forename></rs>.―</p>
-            <p xml:space="preserve" rend="indent">Nach <rs type="place" xml:id="pl_01045" ref="#place_c2ad928214981e457405589604924059">Ischl</rs> mit der Familie. Natürlich freudlos.</p>
+            <p xml:space="preserve" rend="indent">Nach <rs type="place" xml:id="pl_01045" ref="#pmb213">Ischl</rs> mit der Familie. Natürlich freudlos.</p>
             <p xml:space="preserve" rend="indent">Jung Wien.―</p>
             <p xml:space="preserve" rend="center">April</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

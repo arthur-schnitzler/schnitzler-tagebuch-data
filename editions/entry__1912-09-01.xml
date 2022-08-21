@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-09-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-31.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-09-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-09-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-31.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-09-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-019A-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3467.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1912-09-01">
-            <p xml:space="preserve"><date when="1912-09-01">1/9</date> S. Mit O. Vm. nach <rs type="place" xml:id="pl_08023" ref="#place_272452b157972659bec75e0679b79282">Feldafing</rs>, Regen; am See, Landstraße, <rs type="person" xml:id="pNt_38713"><surname>Walters</surname></rs> 
-Haus gesucht; er war eben nach <rs type="place" xml:id="pl_08024" ref="#place_d0a6343a081a7335baa965ce4fd0845c">München</rs>.―</p>
+            <p xml:space="preserve"><date when="1912-09-01">1/9</date> S. Mit O. Vm. nach <rs type="place" xml:id="pl_08023" ref="#pmb53150">Feldafing</rs>, Regen; am See, Landstraße, <rs type="person" xml:id="pNt_38713"><surname>Walters</surname></rs> 
+Haus gesucht; er war eben nach <rs type="place" xml:id="pl_08024" ref="#pmb45258">München</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. im <rs type="person" xml:id="pNt_38714" ref="#person_18991"><surname>Pückler</surname></rs> weitergelesen.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_38715" ref="#person_15158"><surname>Fred</surname></rs>, <rs type="person" xml:id="pNt_38716" ref="#person_17834"><surname>Mann</surname></rs>, <rs type="person" xml:id="pNt_38717" ref="#person_20386"><forename>Liesl</forename></rs>; Thee; <rs type="person" xml:id="pNt_38718"><forename>Albert</forename></rs> kommt aus <rs type="place" xml:id="pl_08025" ref="#place_d0a6343a081a7335baa965ce4fd0845c">München</rs>, bringt 
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_38715" ref="#person_15158"><surname>Fred</surname></rs>, <rs type="person" xml:id="pNt_38716" ref="#person_17834"><surname>Mann</surname></rs>, <rs type="person" xml:id="pNt_38717" ref="#person_20386"><forename>Liesl</forename></rs>; Thee; <rs type="person" xml:id="pNt_38718"><forename>Albert</forename></rs> kommt aus <rs type="place" xml:id="pl_08025" ref="#pmb45258">München</rs>, bringt 
 Kunde von Intendanten <rs type="person" xml:id="pNt_38719" ref="#person_20240"><surname>Speidels</surname></rs> Tod.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

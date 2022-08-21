@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-09-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-09-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-09-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-09-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-09-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-09-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FD67-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2756.tif"/>
@@ -185,7 +189,7 @@
             <p xml:space="preserve"><date when="1909-09-22">22/9</date> Vm. Tennis.―</p>
             <p xml:space="preserve" rend="indent">Nm. kleine Bemerkungen zum <rs type="work" subtype="self" xml:id="bibl_12864">Schauspielerstück</rs> (Einakter ev.) ―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_30953" ref="#person_16845"><forename>Nina</forename> <surname>Kipiany</surname></rs> und <rs type="person" xml:id="pNt_30954" ref="#person_19986"><forename>Gustav</forename> <surname>Schwarzkopf</surname></rs> zum Thee. <rs type="person" xml:id="pNt_30955" ref="#person_16845"><forename>N.</forename> <surname>K.</surname></rs> im Kloster 
-<rs type="place" xml:id="pl_06820" ref="#place_cb8f1af71676d0df17b8e436b2e49da5">Seegasse</rs> wohnend, jetzt für Klavier sich ausbildend.</p>
+<rs type="place" xml:id="pl_06820" ref="#pmb92526">Seegasse</rs> wohnend, jetzt für Klavier sich ausbildend.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_30956" ref="#person_19986"><forename>Gustav</forename></rs> blieb übers Nachtmahl. Über die verschiedenen Ärgerlichkeiten, 
 die ich nun mit den Theatern habe. <rs type="person" xml:id="pNt_30957" ref="#person_19724"><surname>Schlenther</surname></rs>, der sich nicht meldet 
 (gestern schrieb ich ihm) ― <rs type="person" xml:id="pNt_30958" ref="#person_19154"><surname>Reinhardt</surname></rs>, der seine (gewiß negative) 
@@ -197,6 +201,5 @@ Der ganze Unterschied, sagt <rs type="person" xml:id="pNt_30960" ref="#person_19
 hinausgezögert wird.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

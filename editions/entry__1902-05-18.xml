@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1902-05-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-05-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-05-19.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1902-05-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-05-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-05-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F31B-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1685.tif"/>
@@ -182,10 +186,9 @@
       <body>
          <div type="diary-day" xml:id="entry__1902-05-18">
             <p xml:space="preserve"><date when="1902-05-18">18/5</date> Pfingstsonntag.― <rs type="person" xml:id="pNt_18631" ref="#person_15529"><forename>Paul</forename> <surname>G.</surname></rs> kam an.― Bei <rs type="person" xml:id="pNt_18632" ref="#person_14076"><surname>Burgers</surname></rs>. Nachm. 
-<rs type="place" xml:id="pl_03941" ref="#place_6cc6cfe893d0065a8007acc6e4074a69">Rodaun</rs> ― <rs type="person" xml:id="pNt_18633" ref="#person_16293"><forename>Hugo</forename></rs>. Tochter: <rs type="person" xml:id="pNt_18634" ref="#person_21564"><forename>Christiane</forename></rs>. Bei <rs type="person" xml:id="pNt_18635" ref="#person_13551"><forename>Richard</forename></rs> soupirt.― 
+<rs type="place" xml:id="pl_03941" ref="#pmb173">Rodaun</rs> ― <rs type="person" xml:id="pNt_18633" ref="#person_16293"><forename>Hugo</forename></rs>. Tochter: <rs type="person" xml:id="pNt_18634" ref="#person_21564"><forename>Christiane</forename></rs>. Bei <rs type="person" xml:id="pNt_18635" ref="#person_13551"><forename>Richard</forename></rs> soupirt.― 
 „<rs type="work" subtype="self" xml:id="bibl_18013">Dämmerseele</rs>“ (früher <rs type="work" subtype="self" xml:id="bibl_18014">Theoderich</rs>) in der Pfingstnummer der <rs type="work" subtype="newspaper" xml:id="bibl_18015">N. Fr. Pr.</rs></p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

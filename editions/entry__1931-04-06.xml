@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-04-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-04-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-04-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1931-04-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-04-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-04-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1C1B-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7677.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1931-04-06">
-            <p xml:space="preserve"><date when="1931-04-06">6/4</date> Ostermontag.― <rs type="person" xml:id="pNt_92561" ref="#person_14234"><forename>Suz.</forename></rs> tel., fährt heut <rs type="place" xml:id="pl_19833" ref="#place_77c95abeb8d9e667058705d421a03453">Kaltenleutgeben</rs>.―</p>
+            <p xml:space="preserve"><date when="1931-04-06">6/4</date> Ostermontag.― <rs type="person" xml:id="pNt_92561" ref="#person_14234"><forename>Suz.</forename></rs> tel., fährt heut <rs type="place" xml:id="pl_19833" ref="#pmb44102">Kaltenleutgeben</rs>.―</p>
             <p xml:space="preserve" rend="indent">Zu <rs type="person" xml:id="pNt_92562" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>; einiges Radio.―</p>
             <p xml:space="preserve" rend="indent">Zu Tisch bei mir <rs type="person" xml:id="pNt_92563" ref="#person_19986"><forename>Gustav</forename></rs>, <rs type="person" xml:id="pNt_92564" ref="#person_18881"><forename>Kolap</forename></rs> und ihr Bruder.―</p>
             <p xml:space="preserve" rend="indent">― Nachm. am <rs type="work" subtype="self" xml:id="bibl_23690">Roman</rs> weiter.</p>
@@ -193,6 +197,5 @@ nicht ohne Mühe und Geduld beruhige ich sie leidlich, so dass das Adieu
 in besserm Tone vor sich geht …―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-04-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-04-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-04-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-04-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-04-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-04-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FCCF-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2679.tif"/>
@@ -182,14 +186,14 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1909-04-23">
-            <p xml:space="preserve"><date when="1909-04-23">23/4</date> Früh ½6 <rs type="place" xml:id="pl_06659" ref="#place_c12b8d9779a8ad2b240a57b31c979290">Prag</rs>. Morgenspaziergang Belvedère Hradschin.―</p>
+            <p xml:space="preserve"><date when="1909-04-23">23/4</date> Früh ½6 <rs type="place" xml:id="pl_06659" ref="#pmb91524">Prag</rs>. Morgenspaziergang Belvedère Hradschin.―</p>
             <p xml:space="preserve" rend="indent">Probe „<rs type="work" subtype="self" xml:id="bibl_12592">Ruf</rs>“. <rs type="person" xml:id="pNt_30149" ref="#person_18556"><surname>Onno</surname></rs> als <rs type="figur">Max</rs> Eindruck eines zukunftsreichen Schauspielers. 
 <rs type="person" xml:id="pNt_30151" ref="#person_18034"><surname>Medelsky</surname></rs> <rs type="person" xml:id="pNt_30152"><forename>Marie</forename></rs>.― <rs type="person" xml:id="pNt_30153" ref="#person_14626"><roleName>Dr.</roleName> <surname>Eger</surname></rs> hatte inszenirt.― Manches gute, totales doch 
 ein wenig schmierenhaft.―</p>
             <p xml:space="preserve" rend="indent">Bei der Probe Dr. <rs type="person" xml:id="pNt_30154" ref="#person_21298"><forename>Paul</forename> <surname>Wiegler</surname></rs> und Frau, <rs type="person" xml:id="pNt_30155" ref="#person_17318"><roleName>Frau</roleName> <surname>Langsteiner</surname></rs> kennen 
 gelernt.―</p>
             <p xml:space="preserve" rend="indent">Mittagessen mit <rs type="person" xml:id="pNt_30156" ref="#person_20682"><surname>Teweles</surname></rs> und <rs type="person" xml:id="pNt_30157" ref="#person_14626"><surname>Eger</surname></rs>; dann erschien <rs type="person" xml:id="pNt_30158" ref="#person_21211"><roleName>Direktor</roleName> <surname>Weisse</surname></rs> 
-aus <rs type="place" xml:id="pl_06660" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.</p>
+aus <rs type="place" xml:id="pl_06660" ref="#pmb50">Wien</rs>.</p>
             <p xml:space="preserve" rend="indent">Zum Thee bei <rs type="person" xml:id="pNt_30159" ref="#person_21547"><forename>Alice</forename> <surname>Ziegler</surname></rs>. Ihre drei Kinder. <rs type="person" xml:id="pNt_30160" ref="#person_20682"><surname>Teweles</surname></rs>. <rs type="person" xml:id="pNt_30161" ref="#person_13860"><roleName>Frau</roleName> <surname>Bondy</surname></rs>.</p>
             <p xml:space="preserve" rend="indent">Von <rs type="person" xml:id="pNt_30162" ref="#person_20682"><surname>Teweles</surname></rs> begleitet zu <rs type="person" xml:id="pNt_30163" ref="#person_18413"><forename>Angelo</forename> <surname>Neumann</surname></rs>. Seine emaillirte Frau 
 (<rs type="person" xml:id="pNt_30164" ref="#person_14090"><surname>Buska</surname></rs>), die Einrichtung von 1870, der Papagei.―</p>
@@ -202,6 +206,5 @@ kam nach 2. und 3. Akt.</p>
 <rs type="person" xml:id="pNt_30170" ref="#person_21211"><surname>Weisse</surname></rs>, dann <rs type="person" xml:id="pNt_30171" ref="#person_20682"><surname>Teweles</surname></rs>, <rs type="person" xml:id="pNt_30172"><roleName>Herr</roleName> <roleName>Fr.</roleName> <surname>Ziegler</surname></rs>, der junge <rs type="person" xml:id="pNt_30173" ref="#person_13860"><surname>Bondy</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

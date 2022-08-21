@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-08-31.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-08-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-09-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-08-31.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-08-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-09-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-16F9-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6935.tif"/>
@@ -184,7 +188,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1927-08-31">
-            <p xml:space="preserve"><date when="1927-08-31">31/8</date> <rs type="place" xml:id="pl_17525" ref="#place_560b556ecfbe1372b5c4d8417c570cf4">Gardone</rs>. Traum: Ich fahre allein Auto aufs Land, etwa <rs type="place" xml:id="pl_17526" ref="#place_e24417a1399fea0beeb66b55695be7ba" ana="#exclude">Mödlinger</rs> 
+            <p xml:space="preserve"><date when="1927-08-31">31/8</date> <rs type="place" xml:id="pl_17525" ref="#pmb90693">Gardone</rs>. Traum: Ich fahre allein Auto aufs Land, etwa <rs type="place" xml:id="pl_17526" ref="#place_e24417a1399fea0beeb66b55695be7ba" ana="#exclude">Mödlinger</rs> 
 Gegend; dann auf dem Rad,― das Auto vor mir, weiter; eine Art Restaurant 
 bauernhofartig; in einem Hof merk ich: die Lenkstange ist irgendwie 
 auseinander, ich steige ab;― das Auto wird schon zurückkommen, wenn der 
@@ -231,9 +235,8 @@ höherm Sinn sinn-los ― und fragmentarisch.― <rs type="work" xml:id="bibl_24
             <p xml:space="preserve" rend="indent">Nm. versuchte Vernunft beizubringen … „ich hoffe, du begreifst dass deine 
 Monomanie unsinnig“. Sie: „Du kommst doch nicht von ihr los.“ ― Ihre 
 Empörung, dass ich nun zu <rs type="person" xml:id="pNt_81579" ref="#person_19832"><forename>O.</forename></rs> freundschaftlicher stehe als früher;― u. s. w.―</p>
-            <p xml:space="preserve" rend="indent">Abends allein gegen <rs type="place" xml:id="pl_17527" ref="#place_386c1fc4ae89499e8ef0a0199cf09a12">Salò</rs>.― Hotel du lac.―</p>
+            <p xml:space="preserve" rend="indent">Abends allein gegen <rs type="place" xml:id="pl_17527" ref="#pmb39611">Salò</rs>.― Hotel du lac.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

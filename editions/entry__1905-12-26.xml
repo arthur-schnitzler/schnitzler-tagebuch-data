@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-12-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-12-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-12-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-12-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-12-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-12-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F835-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2170.tif"/>
@@ -180,7 +184,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1905-12-26">
-            <p xml:space="preserve"><date when="1905-12-26">26/12</date> Vm. spazieren; <rs type="place" xml:id="pl_05390" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs>, <rs type="place" xml:id="pl_05391" ref="#place_c79ad839f84019f53250a4e6365359f9">Neuwaldegg</rs>, <rs type="person" xml:id="pNt_24088" ref="#person_14195"><surname>Chiavacci</surname></rs> und Sohn 
+            <p xml:space="preserve"><date when="1905-12-26">26/12</date> Vm. spazieren; <rs type="place" xml:id="pl_05390" ref="#pmb169">Pötzleinsdorf</rs>, <rs type="place" xml:id="pl_05391" ref="#pmb170">Neuwaldegg</rs>, <rs type="person" xml:id="pNt_24088" ref="#person_14195"><surname>Chiavacci</surname></rs> und Sohn 
 begegnet, in der Tram nach Hause stieg <rs type="person" xml:id="pNt_24089" ref="#person_19724"><surname>Schlenther</surname></rs> ein; der 
 kühl-verlegen-mäßig entgegenkommend war. Erkundigte sich nach 
 <rs type="place" xml:id="pl_05392" ref="#place_be7f11f190986254826063420695db61" ana="#exclude">Berliner</rs> <rs type="work" subtype="self" xml:id="bibl_16147">Zwischenspiel</rs> und dann nach <rs type="work" subtype="self" xml:id="bibl_16148">R. d. L.</rs>, bat ihn zu 
@@ -192,6 +196,5 @@ verständigen, wenn die Pr. festgesetzt.―</p>
 <surname>Bachrach</surname></rs> etc. Musik. <rs type="person" xml:id="pNt_24094" ref="#person_15033"><forename>Erna</forename></rs> spielte was von <rs type="person" xml:id="pNt_24095" ref="#person_15491"><surname>Godard</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

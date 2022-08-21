@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1903-05-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-05-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-05-31.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1903-05-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-05-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-05-31.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F48E-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1816.tif"/>
@@ -180,11 +184,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1903-05-30">
-            <p xml:space="preserve"><date when="1903-05-30">30/5</date> <rs type="place" xml:id="pl_04288" ref="#place_e4d4b19346747823e5636ed1238a7521">Venedig</rs>. <rs type="place" xml:id="pl_04289" ref="#place_5daafd9ad08609ff9ff5204b4ca5bf01">Marcusplatz</rs>. Taubenfüttern. <rs type="person" xml:id="pNt_19877" ref="#person_19731"><forename>Hans</forename> <surname>Schlesinger</surname></rs>. Mit ihm 
-Academie und eine Kirche.― <rs type="place" xml:id="pl_04290" ref="#place_9b5c2555a01778bd31e0cd1c675164b2">Lido</rs> San Lazzaro <rs type="place" xml:id="pl_04291" ref="#place_12e574577a3124ccdf89ba3ab71ae562" ana="#exclude">Armen.</rs> Kloster.― Pilsner 
+            <p xml:space="preserve"><date when="1903-05-30">30/5</date> <rs type="place" xml:id="pl_04288" ref="#pmb462">Venedig</rs>. <rs type="place" xml:id="pl_04289" ref="#pmb92388">Marcusplatz</rs>. Taubenfüttern. <rs type="person" xml:id="pNt_19877" ref="#person_19731"><forename>Hans</forename> <surname>Schlesinger</surname></rs>. Mit ihm 
+Academie und eine Kirche.― <rs type="place" xml:id="pl_04290" ref="#pmb91143">Lido</rs> San Lazzaro <rs type="place" xml:id="pl_04291" ref="#place_12e574577a3124ccdf89ba3ab71ae562" ana="#exclude">Armen.</rs> Kloster.― Pilsner 
 Birreria.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-06-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-06-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-06-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1931-06-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-06-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-06-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1C58-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7714.jpg"/>
@@ -181,9 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1931-06-07">
-            <p xml:space="preserve"><date when="1931-06-07">7/6</date> S.― Tel. mit <rs type="person" xml:id="pNt_93069" ref="#person_19832"><forename>O.</forename></rs> <rs type="place" xml:id="pl_19940" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>; wieder Geld- und Steuerschwierigkeiten.―</p>
+            <p xml:space="preserve"><date when="1931-06-07">7/6</date> S.― Tel. mit <rs type="person" xml:id="pNt_93069" ref="#person_19832"><forename>O.</forename></rs> <rs type="place" xml:id="pl_19940" ref="#pmb168">Berlin</rs>; wieder Geld- und Steuerschwierigkeiten.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_93070" ref="#person_14234"><forename>Suz.</forename></rs> tel. sehr gut über <rs type="person" xml:id="pNt_93071" ref="#person_19822"><forename>Heinis</forename></rs> gestrige Leistung.―</p>
-            <p xml:space="preserve" rend="indent">― Spazierg. mit <rs type="person" xml:id="pNt_93072" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> <rs type="place" xml:id="pl_19941" ref="#place_d8e4af920d6804a648e0b854af15df65">Gersthof</rs>; Park unterm Friedhof.</p>
+            <p xml:space="preserve" rend="indent">― Spazierg. mit <rs type="person" xml:id="pNt_93072" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> <rs type="place" xml:id="pl_19941" ref="#pmb90705">Gersthof</rs>; Park unterm Friedhof.</p>
             <p xml:space="preserve" rend="indent">― Zu Tisch (mit <rs type="person" xml:id="pNt_93073" ref="#person_19822"><forename>Heini</forename></rs>) <rs type="person" xml:id="pNt_93074" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> und <rs type="person" xml:id="pNt_93075" ref="#person_19986"><forename>Gustav</forename></rs>.―</p>
             <p xml:space="preserve" rend="indent">― Übles Befinden, wohl z. Th. durch das „neue“ Medicament (Theobromin 
 etc.) begründet.―</p>
@@ -192,6 +196,5 @@ Haus genachtm. (im Freien) dann Metrophon (Schallplatten). Heimfahrt wie
 gewöhnlich; Thränen <rs type="person" xml:id="pNt_93078" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> </p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

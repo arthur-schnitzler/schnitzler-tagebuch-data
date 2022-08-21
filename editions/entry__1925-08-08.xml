@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1925-08-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-08-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-08-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1925-08-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-08-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-08-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1409-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6524.tif"/>
@@ -181,9 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1925-08-08">
-            <p xml:space="preserve"><date when="1925-08-08">8/8</date> <rs type="place" xml:id="pl_16216" ref="#place_2cd52c543cccf2f4a3ca79b44fae50c6">Karerpass</rs>. Brief von <rs type="person" xml:id="pNt_75597" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>;― voll Wärme;― in mir Kälte.―</p>
+            <p xml:space="preserve"><date when="1925-08-08">8/8</date> <rs type="place" xml:id="pl_16216" ref="#pmb91001">Karerpass</rs>. Brief von <rs type="person" xml:id="pNt_75597" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>;― voll Wärme;― in mir Kälte.―</p>
             <p xml:space="preserve" rend="indent">― <rs type="person" xml:id="pNt_75598" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs> von <rs type="person" xml:id="pNt_75599" ref="#person_19832"><forename>Olga</forename></rs>; die von ihrer Zufriedenheit mit sich, ihrer „Identität“ 
-spricht und ihr <rs type="person" xml:id="pNt_75600"><forename>Gerhard</forename> <surname>H.’s</surname></rs> Bemerkung (<rs type="place" xml:id="pl_16217" ref="#place_08a8fd8a5ad4dc5373f45050eaf712a5">Rapallo</rs>) mittheilt,― „die sie mir 
+spricht und ihr <rs type="person" xml:id="pNt_75600"><forename>Gerhard</forename> <surname>H.’s</surname></rs> Bemerkung (<rs type="place" xml:id="pl_16217" ref="#pmb91564">Rapallo</rs>) mittheilt,― „die sie mir 
 gar nicht erzählen könne“.― „Ich hätte sie an Arth.s Stelle nicht 
 ‚fortgelassen‘.“ (Dabei hat sie mir das gleich geschrieben ― und vergisst 
 wieder einmal, dass <hi xmlns:tei="http://www.tei-c.org/ns/1.0" rend="italicised">sie</hi> gegangen ist.) ― <rs type="person" xml:id="pNt_75601" ref="#person_19822"><forename>Heini</forename></rs> <rs type="person" xml:id="pNt_75602" ref="#person_14130"><forename>Lili</forename></rs>, <rs type="person" xml:id="pNt_75603"><roleName>Frau</roleName> <surname>K.</surname></rs> und <rs type="person" xml:id="pNt_75604" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs> 
@@ -191,9 +195,8 @@ spielen Tennis, ich auf der Wiese liegend, schaue zu. Dann spaziere ich eine Wei
             <p xml:space="preserve" rend="indent">Nm. an <rs type="work" subtype="self" xml:id="bibl_16596">Weiher</rs>.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_75605"><surname>L.s</surname></rs> zum Karerseehotel und zurück.―</p>
             <p xml:space="preserve" rend="indent">Nach d. <rs type="person" xml:id="pNt_75606"><surname>N.</surname></rs> mit <rs type="person" xml:id="pNt_75607" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs> lang auf und ab.― Weitre Reisepläne. Ich soll mit ihnen 
-in die <rs type="place" xml:id="pl_16218" ref="#place_7a0be5a1ed9675975e678b517f07573c">Schweiz</rs>.―</p>
+in die <rs type="place" xml:id="pl_16218" ref="#pmb43435">Schweiz</rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

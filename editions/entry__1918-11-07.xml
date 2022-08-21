@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-11-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-11-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-11-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-11-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-11-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-11-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0A69-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4739.tif"/>
@@ -182,12 +186,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1918-11-07">
-            <p xml:space="preserve"><date when="1918-11-07">7/11</date> Vm. <rs type="place" ref="#place_volkstheater">Volksth.</rs> Generalprobe <rs type="work" xml:id="bibl_5950">Armer Heinrich</rs>: Sah 2 Acte, um 
+            <p xml:space="preserve"><date when="1918-11-07">7/11</date> Vm. <rs type="place" ref="#pmb92202">Volksth.</rs> Generalprobe <rs type="work" xml:id="bibl_5950">Armer Heinrich</rs>: Sah 2 Acte, um 
 <rs type="person" xml:id="pNt_54710" ref="#person_13663"><surname>Bernau’s</surname></rs> willen, der ein ganz tüchtiger Schauspieler wenn auch ohne 
 jede Persönlichkeit scheint. Sprach <rs type="person" xml:id="pNt_54711"><surname>Trebitsch</surname></rs>, <rs type="person" xml:id="pNt_54712" ref="#person_19542"><surname>Salten</surname></rs> (der in die Stadt 
 gezogen ist und etwas beleidigt scheint, daß im Cottage noch immer 
 nicht geplündert wird), Frl. <rs type="person" xml:id="pNt_54713" ref="#person_20795"><forename>Martha</forename> <surname>Trebitsch</surname></rs>, <rs type="person" xml:id="pNt_54714" ref="#person_19392"><surname>Rosenthal</surname></rs> u. a…</p>
-            <p xml:space="preserve" rend="indent">Einmarsch der <rs type="place" xml:id="pl_11377" ref="#place_51150b7b6309d23b7d292c0be9fd3f21">Bayern</rs> in <rs type="place" xml:id="pl_11378" ref="#place_d3d8d213fb1fbd178f1c9c4aea35cbc6">Tirol</rs>.― Wahrscheinliche Packelein des <rs type="allusively" xml:id="rst_01604">Kaisers</rs> mit 
+            <p xml:space="preserve" rend="indent">Einmarsch der <rs type="place" xml:id="pl_11377" ref="#pmb314">Bayern</rs> in <rs type="place" xml:id="pl_11378" ref="#pmb423">Tirol</rs>.― Wahrscheinliche Packelein des <rs type="allusively" xml:id="rst_01604">Kaisers</rs> mit 
 der Entente.―</p>
             <p xml:space="preserve" rend="indent">Nm. am „<rs type="work" subtype="self" xml:id="bibl_5951">Weiher</rs>“.―</p>
             <p xml:space="preserve" rend="indent">Dr. <rs type="person" xml:id="pNt_54715" ref="#person_20201"><forename>Kurt</forename> <surname>Sonnenfeld</surname></rs> (seine Dissertation „Antifeminismus“). Erzählt mir 
@@ -197,6 +201,5 @@ von dem Anarchisten <rs type="person" xml:id="pNt_54716" ref="#person_15690"><fo
 außerordentliches Niveau.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

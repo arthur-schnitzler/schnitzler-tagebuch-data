@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-12-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-12-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-12-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-12-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-12-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-12-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FF28-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3057.tif"/>
@@ -183,7 +187,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1910-12-15">
             <p xml:space="preserve"><date when="1910-12-15">15/12</date> Vm. dictirt, Briefe etc.</p>
-            <p xml:space="preserve" rend="indent">Nm. mit O. im <rs type="place" xml:id="pl_07312" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs>.</p>
+            <p xml:space="preserve" rend="indent">Nm. mit O. im <rs type="place" xml:id="pl_07312" ref="#pmb113">Türkenschanzpark</rs>.</p>
             <p xml:space="preserve" rend="indent">― Die schreckliche Nachmittagsnervosität.―</p>
             <p xml:space="preserve" rend="indent">Mit O. die Briefe an <rs type="person" xml:id="pNt_34212" ref="#person_21047"><forename>O.</forename> <surname>W.</surname></rs> weitergelesen; nicht ohne Bewegung.―</p>
             <p xml:space="preserve" rend="indent">Mit O. neue Lieder (von <rs type="person" xml:id="pNt_34213" ref="#person_19902"><surname>Schubert</surname></rs>) ―</p>
@@ -191,6 +195,5 @@
 der Anfang noch recht gezwungen, später hoffnungsvoll, und gut.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

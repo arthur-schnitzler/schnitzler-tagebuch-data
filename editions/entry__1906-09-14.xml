@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-09-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-09-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-09-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1906-09-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-09-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-09-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F93B-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2262.tif"/>
@@ -180,11 +184,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1906-09-14">
-            <p xml:space="preserve"><date when="1906-09-14">14/9</date> Rad <rs type="place" xml:id="pl_05679" ref="#place_6193df85bc3c052a79293849f3d641b1">Schottwien</rs>, Klamm, <rs type="place" xml:id="pl_05680" ref="#place_2aecac3a5fc580392bdd5187e0e6a2fc">Breitenstein</rs>.</p>
+            <p xml:space="preserve"><date when="1906-09-14">14/9</date> Rad <rs type="place" xml:id="pl_05679" ref="#pmb91695">Schottwien</rs>, Klamm, <rs type="place" xml:id="pl_05680" ref="#pmb36503">Breitenstein</rs>.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="allusively" xml:id="rst_00730">Mama</rs> <rs type="person" xml:id="pNt_25425" ref="#person_20172"><surname>Smetana</surname></rs> Trio.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_25426" ref="#person_20071"><surname>Seybel</surname></rs> übersendet Mscrpt. <rs type="person" xml:id="pNt_25427" ref="#person_21387"><surname>Winterstein</surname></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

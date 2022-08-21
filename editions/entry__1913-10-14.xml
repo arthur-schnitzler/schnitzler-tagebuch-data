@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-10-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-10-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-10-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-10-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-10-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-10-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0332-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,15 +177,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3701.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1913-10-14">
             <p xml:space="preserve"><date when="1913-10-14">14/10</date> Vm. dictirt. Briefe. Bahnhof.―</p>
-            <p xml:space="preserve" rend="indent">Nm. alte Briefe (<rs type="place" xml:id="pl_08482" ref="#place_9974545279455eb03bf50b1b1b4d7fea">Wiesbaden</rs>). „<rs type="work" subtype="self" xml:id="bibl_9647">Bahnhof</rs>“ Notizen.―</p>
+            <p xml:space="preserve" rend="indent">Nm. alte Briefe (<rs type="place" xml:id="pl_08482" ref="#pmb883">Wiesbaden</rs>). „<rs type="work" subtype="self" xml:id="bibl_9647">Bahnhof</rs>“ Notizen.―</p>
             <p xml:space="preserve" rend="indent">Volksoper. Première <rs type="work" subtype="self" xml:id="bibl_9648">Liebelei</rs>. In der Loge mit O., <rs type="person" xml:id="pNt_41776" ref="#person_19827"><forename>Julius</forename></rs>, <rs type="person" xml:id="pNt_41777" ref="#person_19823"><forename>Helene</forename></rs>. 
 Starker Erfolg. Am Schluss mußte ich auch auf die Bühne. <rs type="person" xml:id="pNt_41778" ref="#person_18416"><surname>Neumann</surname></rs> 
 freute sich sehr. U. a. besucht uns <rs type="person" xml:id="pNt_41779" ref="#person_20608"><surname>Szika</surname></rs> in der Loge, der s. z. in der 
@@ -194,5 +199,6 @@ Aufführung ― von <rs type="person" xml:id="pNt_41782" ref="#person_14065"><su
             <p xml:space="preserve" rend="indent">Mit einem starken Schnupfen legt ich mich zu Bett und las 
 „<rs type="work" xml:id="bibl_9649">Gertrud</rs>“, das mir <rs type="person" xml:id="pNt_41784" ref="#person_13238"><forename>Paul</forename> <surname>Apel</surname></rs> übersandt.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

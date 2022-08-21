@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1900-08-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-08-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-08-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1900-08-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-08-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-08-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F0DB-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -162,7 +166,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1580.tif"/>
@@ -170,13 +174,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1900-08-25">
-            <p xml:space="preserve"><date when="1900-08-25">25/8</date> Mit <rs type="person" xml:id="pNt_17276" ref="#person_15529"><forename>Paul</forename> <surname>G.</surname></rs> <rs type="place" xml:id="pl_03515" ref="#place_654511c3a7b4e258298916a86214e3bf">Bernina</rs> ― <rs type="place" xml:id="pl_03516" ref="#place_cf04b47735f07b600354c1af26c88c1b">Le Prese</rs> ― Nm. <rs type="work" subtype="self" xml:id="bibl_18446">Novellette</rs> und Stück
+            <p xml:space="preserve"><date when="1900-08-25">25/8</date> Mit <rs type="person" xml:id="pNt_17276" ref="#person_15529"><forename>Paul</forename> <surname>G.</surname></rs> <rs type="place" xml:id="pl_03515" ref="#pmb90342">Bernina</rs> ― <rs type="place" xml:id="pl_03516" ref="#pmb49135">Le Prese</rs> ― Nm. <rs type="work" subtype="self" xml:id="bibl_18446">Novellette</rs> und Stück
 (<rs type="work" subtype="self" xml:id="bibl_18447">Junggesell</rs>) entworfen. Spaziergang.― Schreibe Ansichtskarten an
 <rs type="person" xml:id="pNt_17277" ref="#person_19832"><forename>Olg.</forename> <surname>G.</surname></rs> (<rs type="person" xml:id="pNt_17278" ref="#person_18137"><forename>D.</forename> <surname>M.</surname></rs>),― <rs type="person" xml:id="pNt_17279" ref="#person_18137"><forename>Dor.</forename> <surname>Sp.</surname></rs>, <rs type="person" xml:id="pNt_17280" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs>, <rs type="person" xml:id="pNt_17281" ref="#person_15485"><forename>M.</forename> <surname>G.</surname></rs>, auch Frau <rs type="person" xml:id="pNt_17282" ref="#person_14073"><forename>Lola</forename> <surname>B.</surname></rs>,
 <rs type="person" xml:id="pNt_17283" ref="#person_15178"><surname>Freudenthal</surname></rs>, <rs ref="#person_15900" type="person" xml:id="pNt_17284"><forename>M.</forename> <surname>St. H.</surname></rs>
 </p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

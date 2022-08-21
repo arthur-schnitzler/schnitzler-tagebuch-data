@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-05-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-05-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-05-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-05-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-05-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-05-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1527-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,13 +177,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6667.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6668.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1926-05-21">
             <p xml:space="preserve"><date when="1926-05-21">21/5</date> Vm. bei <rs type="person" xml:id="pNt_77901" ref="#person_15854"><forename>Gisa</forename></rs> (schweres Panaritium, in langsamer Heilung).</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_77902" ref="#person_14178"><surname>Chapiro</surname></rs> und Frau zum Thee; er wird angeblich stellvertretender 
@@ -194,5 +199,6 @@ Verliebtheit in den eignen (seinen) Sohn;― deren sie sich schuldig
 fühlt (auf seinen Wunsch) ― und möchte sie zu ihrer Mutter 
 abschieben.― Ich warne <rs type="person" xml:id="pNt_77910" ref="#person_13733"><forename>Hel.</forename> <surname>B.</surname></rs> und rathe ihr einen Gegenzug.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

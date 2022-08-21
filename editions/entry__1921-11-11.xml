@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1921-11-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-11-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-11-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1921-11-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-11-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-11-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0EB4-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5572.tif"/>
@@ -184,7 +188,7 @@
          <div type="diary-day" xml:id="entry__1921-11-11">
             <p xml:space="preserve"><date when="1921-11-11">11/11</date> Vm. Bei <rs type="person" xml:id="pNt_64257" ref="#person_15854"><forename>Gisa</forename></rs> (über <rs type="person" xml:id="pNt_64258" ref="#person_19832"><forename>O.’s</forename></rs> Brief; Aussichtslosigkeit der Correspondenz).― 
 ― Besorgungen.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" ref="#place_volkstheater">Volksth.</rs> Mit <rs type="person" xml:id="pNt_64259" ref="#person_19925"><surname>Schulbaur</surname></rs> und <rs type="person" xml:id="pNt_64260" ref="#person_19620"><surname>Schallud</surname></rs> Besetzungs- und Insc. Fragen <rs type="work" subtype="self" xml:id="bibl_3643">Leb. Std.</rs>―</p>
+            <p xml:space="preserve" rend="indent"><rs type="place" ref="#pmb92202">Volksth.</rs> Mit <rs type="person" xml:id="pNt_64259" ref="#person_19925"><surname>Schulbaur</surname></rs> und <rs type="person" xml:id="pNt_64260" ref="#person_19620"><surname>Schallud</surname></rs> Besetzungs- und Insc. Fragen <rs type="work" subtype="self" xml:id="bibl_3643">Leb. Std.</rs>―</p>
             <p xml:space="preserve" rend="indent">Begegne <rs type="person" xml:id="pNt_64261" ref="#person_20604"><roleName>Dr.</roleName> <surname>Szeps</surname></rs>. Er erinnert mich an unser Gespräch 1917, wo ich beim 
 <rs type="allusively" xml:id="rst_01850">Kaiser</rs> in der Judenfrage vorsprechen wollte und er mir die Schwierigkeit 
 und Nutzlosigkeit vorstellte, mir ein Charakterbild <rs type="person" xml:id="pNt_64262" ref="#person_16723"><forename>Karls</forename></rs> entwarf und ich 
@@ -195,6 +199,5 @@ und Dichtergestalten einzuführen, die nie gelebt haben.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_64264" ref="#person_19822"><forename>Heini</forename></rs> Rmdth.,― <rs type="work" xml:id="bibl_3645">Eingebildeter Kranker</rs> (<rs type="person" xml:id="pNt_64265" ref="#person_18643"><surname>Pallenberg</surname></rs>).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

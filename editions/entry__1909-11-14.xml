@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-11-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-11-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-11-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-11-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-11-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-11-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FD9C-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2784.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1909-11-14">
-            <p xml:space="preserve"><date when="1909-11-14">14/11</date> S. Nach <rs type="place" xml:id="pl_06862" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>. Lese im Coupé <rs type="person" xml:id="pNt_31214" ref="#person_16394"><surname>Houssaye</surname></rs>; und <rs type="person" xml:id="pNt_31215" ref="#person_20653"><forename>Sepp</forename> <surname>Schluiferer</surname></rs> 
+            <p xml:space="preserve"><date when="1909-11-14">14/11</date> S. Nach <rs type="place" xml:id="pl_06862" ref="#pmb50">Wien</rs>. Lese im Coupé <rs type="person" xml:id="pNt_31214" ref="#person_16394"><surname>Houssaye</surname></rs>; und <rs type="person" xml:id="pNt_31215" ref="#person_20653"><forename>Sepp</forename> <surname>Schluiferer</surname></rs> 
 <rs type="work" xml:id="bibl_12995">Tarrolerbuch</rs> (<rs type="person" xml:id="pNt_31216" ref="#person_20653"><surname>Techet</surname></rs>; sehr gut) zu Ende.―</p>
             <p xml:space="preserve" rend="indent">Ankunft. Olga und die <rs type="allusively" xml:id="rst_01060">Kinder</rs>.</p>
             <p xml:space="preserve" rend="indent">Indisponirt. Kopfweh. Ordnerei.</p>
             <p xml:space="preserve" rend="indent">Lieder mit Olga.― Phantasire auf dem Piano, mit viel Einfällen.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

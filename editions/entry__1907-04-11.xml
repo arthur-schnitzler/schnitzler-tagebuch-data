@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1907-04-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-04-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-04-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1907-04-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-04-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-04-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FA0C-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2359.tif"/>
@@ -180,11 +184,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1907-04-11">
-            <p xml:space="preserve"><date when="1907-04-11">11/4</date> Bekam eine Annonce <rs type="place" xml:id="pl_05916" ref="#place_87809c954948d8a20507bee3648281b3">New York</rs> gesandt mit Reclame des Theaters für 
+            <p xml:space="preserve"><date when="1907-04-11">11/4</date> Bekam eine Annonce <rs type="place" xml:id="pl_05916" ref="#pmb44053">New York</rs> gesandt mit Reclame des Theaters für 
 „<rs type="work" subtype="self" xml:id="bibl_14176">Reckoning</rs>“ (<rs type="work" subtype="self" xml:id="bibl_14177">Liebelei</rs>) das seit bald 3 Monaten ununterbrochen geht … 
 Vorläufig sind mir schon ― 25 Dollars ― angekündigt, was ich immerhin 
 noch als Gnade der Übersetzerin ― und Direktors hinnehmen muss.</p>
-            <p xml:space="preserve" rend="indent">― In <rs type="place" xml:id="pl_05917" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> und <rs type="place" xml:id="pl_05918" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> ist während dieser ganzen Saison <hi xmlns:tei="http://www.tei-c.org/ns/1.0" rend="italicised">nichts</hi> von mir 
+            <p xml:space="preserve" rend="indent">― In <rs type="place" xml:id="pl_05917" ref="#pmb50">Wien</rs> und <rs type="place" xml:id="pl_05918" ref="#pmb168">Berlin</rs> ist während dieser ganzen Saison <hi xmlns:tei="http://www.tei-c.org/ns/1.0" rend="italicised">nichts</hi> von mir 
 gewesen, außer 1mal <rs type="work" subtype="self" xml:id="bibl_14178">Zwischenspiel</rs> Burg.</p>
             <p xml:space="preserve" rend="indent">― Dictire Vm. und Nm.: Briefe, <rs type="work" subtype="self" xml:id="bibl_14179">Tragik.</rs>, <rs type="work" subtype="self" xml:id="bibl_14180">Aphorismen</rs> etc.―</p>
             <p xml:space="preserve" rend="indent">― Gelesen <rs type="work" xml:id="bibl_14181">Wanderjahre</rs>, <rs type="person" xml:id="pNt_26680" ref="#person_18827"><surname>Platens</surname></rs> <rs type="work" xml:id="bibl_14182">Tagebücher</rs>.―</p>
@@ -193,6 +197,5 @@ gewesen, außer 1mal <rs type="work" subtype="self" xml:id="bibl_14178">Zwischen
 anfleht, ihr das Zimmer zu überlassen; der Besuch, die Verhaftung.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

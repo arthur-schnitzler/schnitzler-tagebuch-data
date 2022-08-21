@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-12-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-12-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-12-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1906-12-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-12-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-12-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F993-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2300.tif"/>
@@ -181,11 +185,10 @@
       <body>
          <div type="diary-day" xml:id="entry__1906-12-11">
             <p xml:space="preserve"><date when="1906-12-11">11/12</date> Vm. <rs type="person" xml:id="pNt_25950" ref="#person_15562"><surname>Gomperz</surname></rs>.― <rs type="person" xml:id="pNt_25951"><forename>Minnie</forename> <surname>Benedict</surname></rs> begegnet, wie sie zu <rs type="person" xml:id="pNt_25952"><surname>Reß</surname></rs> ging; 
-alternd, erzählt ihr von <rs type="person" xml:id="pNt_25953" ref="#person_19822"><forename>Heini</forename></rs>.― Panorama (<rs type="place" xml:id="pl_05753" ref="#place_e4d4b19346747823e5636ed1238a7521">Venedig</rs>).―</p>
+alternd, erzählt ihr von <rs type="person" xml:id="pNt_25953" ref="#person_19822"><forename>Heini</forename></rs>.― Panorama (<rs type="place" xml:id="pl_05753" ref="#pmb462">Venedig</rs>).―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="allusively" xml:id="rst_00778">Mama</rs> Nm. <rs type="work" xml:id="bibl_15363">4.</rs> <rs type="person" xml:id="pNt_25954" ref="#person_13555"><surname>Beethoven</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Am <rs type="work" subtype="self" xml:id="bibl_15364">Roman</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

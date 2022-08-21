@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1898-02-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-02-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-02-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1898-02-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-02-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-02-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-ED82-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1417.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1898-02-23">
-            <p xml:space="preserve"><date when="1898-02-23">23/2</date> Auf den <rs type="place" xml:id="pl_02811" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs>.― Es ist traurig, dass ich fast ausschließlich 
+            <p xml:space="preserve"><date when="1898-02-23">23/2</date> Auf den <rs type="place" xml:id="pl_02811" ref="#pmb91735">Semmering</rs>.― Es ist traurig, dass ich fast ausschließlich 
 durch unangenehme Gedanken beschäftigt bin. Spazierg. mit <rs type="person" xml:id="pNt_15073" ref="#person_15854"><forename>Gisa</forename></rs>.― 
 Setzte den <rs type="work" subtype="self" xml:id="bibl_18656">phantast. Einakter</rs> auf.</p>
             <p xml:space="preserve" rend="indent">― Die antisemit. Blätter.― Wollen Boycott der jüd. Autoren 
 („<rs type="work" subtype="newspaper" xml:id="bibl_18657">Echo</rs>“, <rs type="person" xml:id="pNt_15074" ref="#person_14363"><surname>David</surname></rs>, ich).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-09-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-09-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0A32-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4699.tif"/>
@@ -182,8 +186,8 @@
       <body>
          <div type="diary-day" xml:id="entry__1918-09-13">
             <p xml:space="preserve"><date when="1918-09-13">13/9</date> <rs type="person" xml:id="pNt_54116" ref="#person_14130"><forename>Lilis</forename></rs> 9. Geburtstag.― Vm. <rs type="person" xml:id="pNt_54117" ref="#person_18881"><forename>Kolap</forename></rs>.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_54118" ref="#person_16770"><forename>Arthur</forename> <surname>Kfm.</surname></rs>, aus <rs type="place" xml:id="pl_11216" ref="#place_22c1334b53dfa475b12a296e9d2ae838">Mariazell</rs> zurück, will wenn möglich in 3 Wochen 
-nach <rs type="place" xml:id="pl_11217" ref="#place_75b5054bbde3f5254dbd14d67c3f3d75">Kiew</rs> zu seinem Bruder. Sieht nicht gut aus; verstimmt und in 
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_54118" ref="#person_16770"><forename>Arthur</forename> <surname>Kfm.</surname></rs>, aus <rs type="place" xml:id="pl_11216" ref="#pmb431">Mariazell</rs> zurück, will wenn möglich in 3 Wochen 
+nach <rs type="place" xml:id="pl_11217" ref="#pmb45594">Kiew</rs> zu seinem Bruder. Sieht nicht gut aus; verstimmt und in 
 hinsicht seiner Arbeit fast hoffnungslos. Hat etwa die Hälfte der 
 Einleitung geschrieben.―</p>
             <p xml:space="preserve" rend="indent">Las Nm. die Abschriften der Briefe von <rs type="person" xml:id="pNt_54119" ref="#person_19493"><surname>Saar</surname></rs>, <rs type="person" xml:id="pNt_54120" ref="#person_20204"><surname>Sonnenthal</surname></rs> und <rs type="person" xml:id="pNt_54121" ref="#person_16165"><surname>Herzl</surname></rs> durch.―.</p>
@@ -191,6 +195,5 @@ Einleitung geschrieben.―</p>
 <rs type="person" xml:id="pNt_54126" ref="#person_17423"><forename>Kara</forename></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

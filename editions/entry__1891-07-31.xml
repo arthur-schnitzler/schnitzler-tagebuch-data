@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1891-07-31.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-07-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-08-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1891-07-31.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-07-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-08-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E436-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0552.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1891-07-31">
-            <p xml:space="preserve"><date when="1891-07-31">31.</date> Mit <rs type="person" xml:id="pNt_05477" ref="#person_15485"><forename>Mz</forename></rs> in <rs type="place" xml:id="pl_01153" ref="#place_02031ed2507818d10a37c1a6bf0c9f9d">Mödling</rs> zusammengetroffen.― Der schwarze Punkt… 
+            <p xml:space="preserve"><date when="1891-07-31">31.</date> Mit <rs type="person" xml:id="pNt_05477" ref="#person_15485"><forename>Mz</forename></rs> in <rs type="place" xml:id="pl_01153" ref="#pmb968">Mödling</rs> zusammengetroffen.― Der schwarze Punkt… 
 „Und fern am Horizont, ein wilder Strahl ― Aufleuchtet manchmal 
 noch die alte Qual!“ (<rs type="person" xml:id="pNt_05478" ref="#person_14472"><surname>Dörmann</surname></rs>.) ― Mit <rs ref="#person_19542" type="person" xml:id="pNt_05479"><surname>Salten</surname></rs> soup.</p>
             <p xml:space="preserve" rend="right">18. </p>
@@ -191,6 +195,5 @@ noch die alte Qual!“ (<rs type="person" xml:id="pNt_05478" ref="#person_14472"
 August</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

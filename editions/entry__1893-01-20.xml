@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1893-01-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-01-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-01-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1893-01-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-01-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-01-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E64F-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0670.tif"/>
@@ -183,7 +187,7 @@
          <div type="diary-day" xml:id="entry__1893-01-20">
             <p xml:space="preserve"><date when="1893-01-20">20/1</date> Abds. <rs type="person" xml:id="pNt_07002" ref="#person_21214"><forename>Fifi</forename></rs>.― War riesig nervös, was mich verstimmte.― Ich liebe 
 sie doch viel zu wenig, um die Unannehmlichkeit, in der Nacht in der 
-größten Kälte von <rs type="place" xml:id="pl_01421" ref="#place_dd264a4bfc9858a490d260f2cc8abb10">Währing</rs> nach Hause zu gehen, mit Vergnügen zu 
+größten Kälte von <rs type="place" xml:id="pl_01421" ref="#pmb68">Währing</rs> nach Hause zu gehen, mit Vergnügen zu 
 tragen.― Oder ― ich werde alt!―</p>
             <p xml:space="preserve" rend="indent"><rs type="work" subtype="newspaper" xml:id="bibl_22635">Dtsch. Ztg.</rs>; der Burg von <rs type="person" xml:id="pNt_07003" ref="#person_13374"><surname>Bahr</surname></rs> „empfohlen“: <rs type="person" xml:id="pNt_07004" ref="#person_18462"><surname>Nissel</surname></rs>, <rs type="person" xml:id="pNt_07005" ref="#person_19493"><surname>Saar</surname></rs>, 
 <pb n="11"/>
@@ -191,6 +195,5 @@ tragen.― Oder ― ich werde alt!―</p>
 <rs type="person" xml:id="pNt_07006" ref="#person_16730"><surname>Karlweis</surname></rs>, <rs type="person" xml:id="pNt_07007" ref="#person_19986"><surname>Schwarzkopf</surname></rs>, <rs type="person" xml:id="pNt_07008" ref="#person_14363"><surname>David</surname></rs>, ich.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

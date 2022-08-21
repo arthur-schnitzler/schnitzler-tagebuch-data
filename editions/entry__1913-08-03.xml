@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-08-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-08-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-08-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-08-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-08-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-08-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-02EA-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3667.tif"/>
@@ -182,15 +186,14 @@
       <body>
          <div type="diary-day" xml:id="entry__1913-08-03">
             <p xml:space="preserve"><date when="1913-08-03">3/8</date> Bad.―</p>
-            <p xml:space="preserve" rend="indent">Nm. im Auto Spazierfahrt; nach <rs type="place" xml:id="pl_08373" ref="#place_64ea0c393f0cb81a43f242e2e43cd45f">Peneda</rs> (mit Hofrath, <rs type="person" xml:id="pNt_41298" ref="#person_21602"><forename>Vicki</forename></rs>).―</p>
+            <p xml:space="preserve" rend="indent">Nm. im Auto Spazierfahrt; nach <rs type="place" xml:id="pl_08373" ref="#pmb91445">Peneda</rs> (mit Hofrath, <rs type="person" xml:id="pNt_41298" ref="#person_21602"><forename>Vicki</forename></rs>).―</p>
             <p xml:space="preserve" rend="indent">Abends mit <rs type="person" xml:id="pNt_41299"><surname>Z.s</surname></rs> und <rs type="person" xml:id="pNt_41300" ref="#person_16316"><surname>Hold</surname></rs> an einem Tisch.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_41301"><forename>Lili</forename> <surname>B.</surname></rs>: „Ist das richtig, dass die Dichter in Menschenseelen lesen 
 können ―?“</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_41302" ref="#person_21602"><forename>Vicki’s</forename></rs> Bemerkungen über die Marineure; Verhalten der Frau Professor; 
 <rs type="person" xml:id="pNt_41303" ref="#person_21601"><forename>Otto’s</forename></rs>.―</p>
-            <p xml:space="preserve" rend="indent">Schwüle Luft.― „<rs type="place" xml:id="pl_08374" ref="#place_8ac85cc83788186b74cc9ca468d300c5">Brioni</rs> Krankheit.“―</p>
+            <p xml:space="preserve" rend="indent">Schwüle Luft.― „<rs type="place" xml:id="pl_08374" ref="#pmb45260">Brioni</rs> Krankheit.“―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

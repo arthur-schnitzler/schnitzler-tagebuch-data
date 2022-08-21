@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-04-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-04-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-04-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-04-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-04-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-04-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1508-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6654.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1926-04-20">
-            <p xml:space="preserve"><date when="1926-04-20">20/4</date> Früh <rs type="place" xml:id="pl_16594" ref="#place_8b6f0975edbb61684a14fc0b1891e1b1">Neapel</rs>. Kälte und Regen. Mit <rs type="person" xml:id="pNt_77669" ref="#person_14130"><forename>Lili</forename></rs> Spazierfahrt; Aquarium. 
+            <p xml:space="preserve"><date when="1926-04-20">20/4</date> Früh <rs type="place" xml:id="pl_16594" ref="#pmb91330">Neapel</rs>. Kälte und Regen. Mit <rs type="person" xml:id="pNt_77669" ref="#person_14130"><forename>Lili</forename></rs> Spazierfahrt; Aquarium. 
 Lunch Schiff.― Nm. wieder eine Weile Spazierfahrt, Galleria <rs type="person" xml:id="pNt_77670"><forename>Umberto</forename></rs> 
 „Gelato“.― Auf das Schiff. Vernehmungen wegen eines Diamantenschmuggels 
-(?) etc. ― <rs type="person" xml:id="pNt_77671" ref="#person_16375"><roleName>Dr.</roleName> <surname>Hornung</surname></rs> aus <rs type="place" xml:id="pl_16595" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.― Bewegte See.― <rs type="person" xml:id="pNt_77672" ref="#person_14130"><forename>Lili</forename></rs> tanzt.―</p>
+(?) etc. ― <rs type="person" xml:id="pNt_77671" ref="#person_16375"><roleName>Dr.</roleName> <surname>Hornung</surname></rs> aus <rs type="place" xml:id="pl_16595" ref="#pmb50">Wien</rs>.― Bewegte See.― <rs type="person" xml:id="pNt_77672" ref="#person_14130"><forename>Lili</forename></rs> tanzt.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-02-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-02-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-02-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1931-02-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-02-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-02-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1BEE-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,16 +177,17 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7645.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1931-02-20">
             <p xml:space="preserve"><date when="1931-02-20">20/2</date> Vm. Besorgungen Stadt.―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_92143" ref="#person_14234"><forename>Suz.</forename></rs>, die bettlägerig.― Ihre Schwiegermutter bei ihr.―</p>
-            <p xml:space="preserve" rend="indent">― Die Kurreise, ev. <rs type="place" xml:id="pl_19762" ref="#place_07746ef3772ea6e718f5cd3a37681d92">Marienbad</rs>, wo ich sie begleiten soll.―</p>
+            <p xml:space="preserve" rend="indent">― Die Kurreise, ev. <rs type="place" xml:id="pl_19762" ref="#pmb91211">Marienbad</rs>, wo ich sie begleiten soll.―</p>
             <p xml:space="preserve" rend="indent">― Zu Tisch bei <rs type="person" xml:id="pNt_92144" ref="#person_15855"><surname>Hajeks</surname></rs>.― Er noch recht leidend.―</p>
             <p xml:space="preserve" rend="indent">― Allerlei Notizen „<rs type="work" subtype="self" xml:id="bibl_23620">Zug</rs>“, und in den <rs type="work" subtype="self" xml:id="bibl_23621">Roman</rs> hineingeblickt ― ― Werd’ 
 ich jemals wieder arbeiten können?―</p>
@@ -190,5 +195,6 @@ ich jemals wieder arbeiten können?―</p>
 genachtm.― Ihre Stimmung, vor allem durch die Sonntagsloge tief 
 herunter.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

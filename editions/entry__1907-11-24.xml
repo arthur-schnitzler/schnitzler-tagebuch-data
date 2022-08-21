@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1907-11-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-11-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-11-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1907-11-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-11-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-11-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FAEF-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2442.tif"/>
@@ -182,7 +186,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1907-11-24">
             <p xml:space="preserve"><date when="1907-11-24">24/11</date> S.― Mit O. zu <rs type="person" xml:id="pNt_27651" ref="#person_15855"><surname>Hajeks</surname></rs> Geburtstag, nicht zu Haus; mit <rs type="person" xml:id="pNt_27652" ref="#person_16647"><forename>Grethe</forename> <surname>Kainz</surname></rs> 
-im offnen Wagen über <rs type="place" xml:id="pl_06166" ref="#place_3b0cf80ce6f7c6e0340cf31265c8f3f7">Sievring</rs> in den winterlichen Wald.</p>
+im offnen Wagen über <rs type="place" xml:id="pl_06166" ref="#pmb64219">Sievring</rs> in den winterlichen Wald.</p>
             <p xml:space="preserve" rend="indent">Nm. alte von <rs ref="#person_16485" type="person" xml:id="pNt_27653"><forename>Grethe</forename></rs> im Sommer abgeschriebne Novelletten (1882-95) 
 durchgesehen; in jeder eine Art Einfall, die meisten recht dilettantisch in 
 der Ausführung.―</p>
@@ -190,6 +194,5 @@ der Ausführung.―</p>
             <p xml:space="preserve" rend="indent">Dann <rs type="work" subtype="self" xml:id="bibl_14610">Wonnen</rs>, <rs type="work" subtype="self" xml:id="bibl_14611">Tod des Junggesellen</rs> und Pläne durchgesehen.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

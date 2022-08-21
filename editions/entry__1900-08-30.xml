@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1900-08-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-08-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-08-31.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1900-08-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-08-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-08-31.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F0E0-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -162,7 +166,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1581.tif"/>
@@ -170,9 +174,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1900-08-30">
-            <p xml:space="preserve"><date when="1900-08-30">30/8</date> <rs type="place" xml:id="pl_03525" ref="#place_834e1bca2cb7d2238249e70860ed8ae8">Meran</rs> ― <rs type="place" xml:id="pl_03526" ref="#place_3859ff9074d497ed0cb3c08be85996ad">Bozen</rs>.― <rs type="place" xml:id="pl_03527" ref="#place_6cca8ff9da092d2c120e97889721b17b">Sigmundskron</rs>.</p>
+            <p xml:space="preserve"><date when="1900-08-30">30/8</date> <rs type="place" xml:id="pl_03525" ref="#pmb43520">Meran</rs> ― <rs type="place" xml:id="pl_03526" ref="#pmb40260">Bozen</rs>.― <rs type="place" xml:id="pl_03527" ref="#pmb91751">Sigmundskron</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

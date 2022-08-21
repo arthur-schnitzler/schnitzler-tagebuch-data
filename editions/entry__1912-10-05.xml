@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-10-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-10-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-10-06.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-10-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-10-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-10-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-01BC-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3490.tif"/>
@@ -183,14 +187,13 @@
          <div type="diary-day" xml:id="entry__1912-10-05">
             <p xml:space="preserve"><date when="1912-10-05">5/10</date> Mit Hilfe von <rs type="person" xml:id="pNt_38982" ref="#person_18881"><roleName>Frl.</roleName> <surname>Pollak</surname></rs> Bücher eingeräumt.</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_38983" ref="#person_20986"><surname>Vollmoeller</surname></rs> („<rs type="work" xml:id="bibl_10513">Mirakel</rs>“ in der Rotunde). Er schien etwas 
-gehetzt und nicht zufrieden. Nach der neuen Pantomime (<rs type="place" xml:id="pl_08055" ref="#place_59ead8d1e124ccfb79f3ace06f43e703">London</rs>) will 
+gehetzt und nicht zufrieden. Nach der neuen Pantomime (<rs type="place" xml:id="pl_08055" ref="#pmb224">London</rs>) will 
 er nichts.mehr mit <rs type="person" xml:id="pNt_38984" ref="#person_19154"><surname>Reinhardt</surname></rs> machen. Unruhe seiner Existenz durch 
 seine Frau (Madonna im <rs type="work" xml:id="bibl_10514">Mirakel</rs>).― Gegen <rs type="person" xml:id="pNt_38985" ref="#person_16293"><forename>Hugo</forename></rs>, für <rs type="person" xml:id="pNt_38986" ref="#person_13222"><surname>d’Annunzio</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">― Zum Thee <rs type="person" xml:id="pNt_38987" ref="#person_15854"><forename>Gisa</forename></rs>, mit <rs type="person" xml:id="pNt_38988" ref="#person_16894"><forename>Margot</forename></rs> und deren Gemahl <rs type="person" xml:id="pNt_38989" ref="#person_20915"><surname>Vallo</surname></rs>. <rs type="person" xml:id="pNt_38990" ref="#person_13787"><roleName>Frau</roleName> <surname>Bloch</surname></rs> 
-mit Nichte (<rs type="person" xml:id="pNt_38991" ref="#person_17544"><forename>Lili</forename></rs>, als kleines Mädl <rs type="place" xml:id="pl_08056" ref="#place_b333d193dca0791c0cf701b0749dc4ce">Hinterbrühl</rs>).</p>
+mit Nichte (<rs type="person" xml:id="pNt_38991" ref="#person_17544"><forename>Lili</forename></rs>, als kleines Mädl <rs type="place" xml:id="pl_08056" ref="#pmb75">Hinterbrühl</rs>).</p>
             <p xml:space="preserve" rend="indent">Abends weiter Bücher geräumt.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

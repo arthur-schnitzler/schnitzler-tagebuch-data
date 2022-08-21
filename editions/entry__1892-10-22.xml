@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1892-10-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-10-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-10-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1892-10-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-10-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-10-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E5F5-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,19 +177,21 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0648.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1892-10-22">
             <p xml:space="preserve"><date when="1892-10-22">22.</date>― Es ist unmöglich, echtere Briefe zu schreiben als ich an <rs type="person" xml:id="pNt_06666" ref="#person_15485"><forename>Mz.</forename></rs> ― 
 Sicher glaubt sie felsenfest.― Und ich doch auch.― Woher Gewißheit? ―</p>
-            <p xml:space="preserve" rend="indent">Gestern <rs type="person" xml:id="pNt_06667" ref="#person_20698"><forename>Camilla</forename> <surname>G.</surname></rs> bei mir, die nach <rs type="place" xml:id="pl_01403" ref="#place_7492c6d9128ba8eb418230d46e257d92">Constanz</rs> geht und den 
+            <p xml:space="preserve" rend="indent">Gestern <rs type="person" xml:id="pNt_06667" ref="#person_20698"><forename>Camilla</forename> <surname>G.</surname></rs> bei mir, die nach <rs type="place" xml:id="pl_01403" ref="#pmb849">Constanz</rs> geht und den 
 Namen „<rs type="person" xml:id="pNt_06668" ref="#person_20698"><surname>Theren</surname></rs>“ angenommen hat.― Heute mit <rs type="person" xml:id="pNt_06669" ref="#person_21508"><surname>Z.</surname></rs> 3.― Ich versuchte 
 mir <rs type="person" xml:id="pNt_06670" ref="#person_15485"><forename>Mz.</forename></rs> zu suggeriren.― Nein, nein, es ist nicht „dasselbe“.― Das kalte 
 Hotelzimmer.― Hypochondrie.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

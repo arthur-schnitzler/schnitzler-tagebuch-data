@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-12-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-12-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-12-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-12-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-12-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-12-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1603-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6780.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1926-12-28">
-            <p xml:space="preserve"><date when="1926-12-28">28/12</date> <rs type="place" xml:id="pl_17056" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>.― <rs type="pubHouse"><rs type="person" xml:id="pNt_79395"><surname>Ullstein</surname></rs> Verlag</rs>: ― <rs type="person" xml:id="pNt_79396" ref="#person_17129"><forename>Max</forename> <surname>Krell</surname></rs>; <rs type="person" xml:id="pNt_79397" ref="#person_17048"><roleName>Hr.</roleName> <surname>Korff</surname></rs> (kennen gelernt) 
+            <p xml:space="preserve"><date when="1926-12-28">28/12</date> <rs type="place" xml:id="pl_17056" ref="#pmb168">Berlin</rs>.― <rs type="pubHouse"><rs type="person" xml:id="pNt_79395"><surname>Ullstein</surname></rs> Verlag</rs>: ― <rs type="person" xml:id="pNt_79396" ref="#person_17129"><forename>Max</forename> <surname>Krell</surname></rs>; <rs type="person" xml:id="pNt_79397" ref="#person_17048"><roleName>Hr.</roleName> <surname>Korff</surname></rs> (kennen gelernt) 
 Erfolg der <rs type="work" subtype="self" xml:id="bibl_20683">Novelle</rs> beim Publikum.―</p>
             <p xml:space="preserve" rend="indent">― Bei <rs type="person" xml:id="pNt_79398" ref="#person_18613"><roleName>Dr.</roleName> <surname>v. Otto</surname></rs> Filmmanuscripte;― geschäftl. Vorbesprechung.―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_79399" ref="#person_18140"><surname>Michaelis</surname></rs> zu Mittag.―</p>
@@ -198,6 +202,5 @@ unsern Tisch ― ich erinnerte mich, ihn als Baron in <rs type="work" xml:id="bi
 Jahren gesehn zu haben. Er: Das war <rs type="person" xml:id="pNt_79405" ref="#person_21114"><surname>Waßmann</surname></rs>.― (Parallelismus mit <rs type="person" xml:id="pNt_79406" ref="#person_21440"><surname>Wolff</surname></rs>.) ―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

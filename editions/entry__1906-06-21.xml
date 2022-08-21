@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-06-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-06-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-06-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1906-06-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-06-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-06-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F8E6-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2241.tif"/>
@@ -183,11 +187,10 @@
             <p xml:space="preserve"><date when="1906-06-21">21/6</date> Vm. Besorgungen.― Dampfbad (79.4) ―</p>
             <p xml:space="preserve" rend="indent">Dictirt.― Briefe, kleineres.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_25151"><forename>Grethl</forename></rs> Nm. eine <rs type="person" xml:id="pNt_25152" ref="#person_15999"><surname>Haydn</surname></rs> Symph. und ein <rs type="person" xml:id="pNt_25153" ref="#person_15835"><surname>Haendel</surname></rs> Concert.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_25154" ref="#person_14640"><surname>Ehrens</surname></rs> (jetzt <rs type="place" xml:id="pl_05585" ref="#place_103a821a3a6a0b923c9f74a39662bb51">Zürich</rs> engagirt) besucht uns; mit <rs type="person" xml:id="pNt_25155"><forename>Grethl</forename></rs> ab.</p>
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_25154" ref="#person_14640"><surname>Ehrens</surname></rs> (jetzt <rs type="place" xml:id="pl_05585" ref="#pmb484">Zürich</rs> engagirt) besucht uns; mit <rs type="person" xml:id="pNt_25155"><forename>Grethl</forename></rs> ab.</p>
             <p xml:space="preserve" rend="indent">Abds. <rs type="person" xml:id="pNt_25156" ref="#person_20925"><forename>Leo</forename> <surname>V.</surname></rs>, <rs type="person" xml:id="pNt_25157" ref="#person_21231"><forename>Bella</forename> <surname>Wengerow</surname></rs>, <rs type="person" xml:id="pNt_25158" ref="#person_16770"><surname>Kaufmann</surname></rs>, <rs type="person" xml:id="pNt_25159" ref="#person_18021"><forename>Oskar</forename> <surname>Mayer</surname></rs> da. Photographien 
-von <rs type="person" xml:id="pNt_25160" ref="#person_18021"><surname>Mayers</surname></rs> <rs type="place" xml:id="pl_05586" ref="#place_1e53f56d1091f4808630808dc8024b60">Afrika</rs> Reise.― <rs type="person" xml:id="pNt_25161"><forename>Bella</forename> <surname>W.</surname></rs> spielt <rs type="person" xml:id="pNt_25162" ref="#person_13245"><surname>Arensky</surname></rs> und <rs type="person" xml:id="pNt_25163" ref="#person_15464"><surname>Glazounow</surname></rs>.―</p>
+von <rs type="person" xml:id="pNt_25160" ref="#person_18021"><surname>Mayers</surname></rs> <rs type="place" xml:id="pl_05586" ref="#pmb49098">Afrika</rs> Reise.― <rs type="person" xml:id="pNt_25161"><forename>Bella</forename> <surname>W.</surname></rs> spielt <rs type="person" xml:id="pNt_25162" ref="#person_13245"><surname>Arensky</surname></rs> und <rs type="person" xml:id="pNt_25163" ref="#person_15464"><surname>Glazounow</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

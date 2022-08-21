@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1925-10-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-10-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-10-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1925-10-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-10-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-10-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1451-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6564.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1925-10-19">
-            <p xml:space="preserve"><date when="1925-10-19">19/10</date> <rs type="place" xml:id="pl_16408" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>.― Brief von <rs type="person" xml:id="pNt_76168" ref="#person_19832"><forename>O.</forename></rs> (etwas zu herzlich), von <rs type="person" xml:id="pNt_76169" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>, von <rs type="person" xml:id="pNt_76170" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs>, 
+            <p xml:space="preserve"><date when="1925-10-19">19/10</date> <rs type="place" xml:id="pl_16408" ref="#pmb168">Berlin</rs>.― Brief von <rs type="person" xml:id="pNt_76168" ref="#person_19832"><forename>O.</forename></rs> (etwas zu herzlich), von <rs type="person" xml:id="pNt_76169" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>, von <rs type="person" xml:id="pNt_76170" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs>, 
 von <rs type="person" xml:id="pNt_76171" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs>;― für alle so charakteristisch!―</p>
             <p xml:space="preserve" rend="indent">― Ins Staatstheater. <rs type="person" xml:id="pNt_76172" ref="#person_16550"><surname>Jessner</surname></rs> über den probl. Erfolg des <rs type="work" xml:id="bibl_16711">Hannibal</rs> etwas 
 deprimirt; im ganzen unsicher; höchst entgegenkommend. Werde ihm <rs type="work" subtype="self" xml:id="bibl_16712">Weiher</rs> zur 
@@ -200,6 +204,5 @@ Urheberrechtliches. <rs type="person" xml:id="pNt_76176" ref="#person_20563"><su
             <p xml:space="preserve" rend="indent">Beim Austernmeyer mit <rs type="person" xml:id="pNt_76181" ref="#person_18140"><surname>Mich.</surname></rs>’; <rs type="person" xml:id="pNt_76182" ref="#person_19822"><forename>Heini</forename></rs> und <rs type="person" xml:id="pNt_76183" ref="#person_17841"><forename>Lucie</forename> <surname>Mannheim</surname></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

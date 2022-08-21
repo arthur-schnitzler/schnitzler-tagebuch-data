@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-12-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-12-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-12-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-12-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-12-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-12-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1756-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7000.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1927-12-02">
-            <p xml:space="preserve"><date when="1927-12-02">2/12</date> <rs type="place" xml:id="pl_17717" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>. Vm. bei <rs type="pubHouse"><rs ref="#person_15009" type="person" xml:id="pNt_82381"><surname>Fischer</surname></rs> Verlag</rs>; geschäftl. Gespräch mit <rs ref="#person_15009" type="person" xml:id="pNt_82382"><surname>Fischer</surname></rs>. 
+            <p xml:space="preserve"><date when="1927-12-02">2/12</date> <rs type="place" xml:id="pl_17717" ref="#pmb168">Berlin</rs>. Vm. bei <rs type="pubHouse"><rs ref="#person_15009" type="person" xml:id="pNt_82381"><surname>Fischer</surname></rs> Verlag</rs>; geschäftl. Gespräch mit <rs ref="#person_15009" type="person" xml:id="pNt_82382"><surname>Fischer</surname></rs>. 
 <rs type="person" xml:id="pNt_82383" ref="#person_17888"><surname>Maril</surname></rs> (auch <rs type="person" xml:id="pNt_82384" ref="#person_13659"><surname>Bermann</surname></rs>).</p>
             <p xml:space="preserve" rend="indent">Bristol gegessen mit <rs type="person" xml:id="pNt_82385" ref="#person_19832"><forename>O.</forename></rs>, <rs type="person" xml:id="pNt_82386" ref="#person_19822"><forename>Heini</forename></rs>, <rs type="person" xml:id="pNt_82387" ref="#person_17958"><forename>Paul</forename> <surname>Marx</surname></rs> (der vor der Engagementslosigkeit 
 steht).― Lustige Theatergeschichten.</p>
@@ -194,6 +198,5 @@ sonderliche Wirkung).</p>
 Boxkampf aufgehalten!</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1907-02-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-02-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-02-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1907-02-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-02-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-02-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F9D6-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2331.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1907-02-16">
-            <p xml:space="preserve"><date when="1907-02-16">16/2</date> Vm. spazieren <rs type="place" xml:id="pl_05847" ref="#place_f5af0e4beb99b2ded62ac5ff72643954">Dornbach</rs>, <rs type="place" xml:id="pl_05848" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs>; dort mit O. und <rs type="person" xml:id="pNt_26351" ref="#person_19822"><forename>Heini</forename></rs> 
+            <p xml:space="preserve"><date when="1907-02-16">16/2</date> Vm. spazieren <rs type="place" xml:id="pl_05847" ref="#pmb90546">Dornbach</rs>, <rs type="place" xml:id="pl_05848" ref="#pmb169">Pötzleinsdorf</rs>; dort mit O. und <rs type="person" xml:id="pNt_26351" ref="#person_19822"><forename>Heini</forename></rs> 
 zusammengetroffen.― O. hatte über meine Vergangenheit nachgedacht, 
 über die in den letzten Tagen viel gesprochen wurde. Über Neigungen im 
 Verlaufe unsrer Beziehungen. Meine Empfindung: „Keine Götter neben 
@@ -202,6 +206,5 @@ verängstete Stimmung. Wohl auch Geldsachen.</p>
 und mein „Phantasir“talent ist entschieden im Steigen. Einfluss von <rs type="person" xml:id="pNt_26355" ref="#person_17786"><surname>Mahler</surname></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

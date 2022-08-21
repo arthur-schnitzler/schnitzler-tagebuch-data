@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-12-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-12-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-12-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-12-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-12-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-12-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-04DE-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3944.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1914-12-17">
-            <p xml:space="preserve"><date when="1914-12-17">17/12</date> Mit <rs type="person" xml:id="pNt_44597" ref="#person_19822"><forename>Heini</forename></rs> Besorgungen, Zahnarzt; Panorama (<rs type="place" xml:id="pl_09118" ref="#place_ff49db8917f8bd0804ede8d513dc85ff">Aegypten</rs>). Bei <rs type="org">Filz</rs> ― 
+            <p xml:space="preserve"><date when="1914-12-17">17/12</date> Mit <rs type="person" xml:id="pNt_44597" ref="#person_19822"><forename>Heini</forename></rs> Besorgungen, Zahnarzt; Panorama (<rs type="place" xml:id="pl_09118" ref="#pmb211">Aegypten</rs>). Bei <rs type="org">Filz</rs> ― 
 <rs type="person" xml:id="pNt_44599" ref="#person_16647"><forename>Grethe</forename> <surname>Kainz</surname></rs>, die seit unsrer Brouille nicht gesprochen ― ganz jung 
 aussehend ―</p>
             <p xml:space="preserve" rend="indent">Nm. mit O. spazieren, beim Antiqu. <rs type="person" xml:id="pNt_44600" ref="#person_16890"><surname>Klein</surname></rs>.―</p>
@@ -189,6 +193,5 @@ aussehend ―</p>
             <p xml:space="preserve" rend="indent">Die <rs type="person" xml:id="pNt_44601" ref="#person_15605"><surname>Grabbe’sche</surname></rs> <rs type="work" xml:id="bibl_9157">Hermannschlacht</rs> wieder gelesen.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

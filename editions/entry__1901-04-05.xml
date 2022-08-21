@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1901-04-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-04-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-04-06.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1901-04-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-04-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-04-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F1B9-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1625.tif"/>
@@ -181,14 +185,14 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1901-04-05">
-            <p xml:space="preserve"><date when="1901-04-05">5/4</date> <rs type="place" xml:id="pl_03635" ref="#place_0bcbcfedf2ef1f96542597b9279fb141">Rom</rs>. Charfreitag.― Merke beim Aufstehn, dass ich in der Nacht 
+            <p xml:space="preserve"><date when="1901-04-05">5/4</date> <rs type="place" xml:id="pl_03635" ref="#pmb445">Rom</rs>. Charfreitag.― Merke beim Aufstehn, dass ich in der Nacht 
 stets große Sorgen um Zukunft wegen <rs type="person" xml:id="pNt_17873" ref="#person_19832"><forename>D.</forename> <surname>M.</surname></rs> habe. Traum. Mit <rs type="person" xml:id="pNt_17874" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs>; 
 sehr liebenswürdig 2 ital. Offiziere, nach, Tabak, sie bleibt draußen; 
 ich: bitte, wähle.― Sie bleibt bei mir, aber ich fühle: sie möchte fort. 
 Plötzlich jenseits <rs type="person" xml:id="pNt_17875" ref="#person_19832"><forename>D.</forename> <surname>M.</surname></rs> und Schwester, ich froh, <rs type="person" xml:id="pNt_17876" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs> zu den 
 Offizieren, <rs type="person" xml:id="pNt_17877" ref="#person_19832"><forename>D.</forename> <surname>M.</surname></rs> lobt mich.―</p>
             <p xml:space="preserve" rend="indent">Galleria Doria, Catacombe Callisto.― Abend spazieren 
-<rs type="place" xml:id="pl_03636" ref="#place_d0f3b0b7b0a003b7499895d4742e8f93">Petersplatz</rs>.― Bei <rs type="person" xml:id="pNt_17878" ref="#person_21107"><surname>W.s</surname></rs> <rs type="person" xml:id="pNt_17879" ref="#person_16829"><forename>Ellen</forename> <surname>Key</surname></rs>.</p>
+<rs type="place" xml:id="pl_03636" ref="#pmb91459">Petersplatz</rs>.― Bei <rs type="person" xml:id="pNt_17878" ref="#person_21107"><surname>W.s</surname></rs> <rs type="person" xml:id="pNt_17879" ref="#person_16829"><forename>Ellen</forename> <surname>Key</surname></rs>.</p>
             <pb n="350"/>
             <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header">
                <fw place="top_left" type="pn">350</fw>
@@ -198,6 +202,5 @@ Offizieren, <rs type="person" xml:id="pNt_17877" ref="#person_19832"><forename>D
             </tei:fw>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

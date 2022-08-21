@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-12-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-12-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-12-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-12-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-12-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-12-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-04E1-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3946.tif"/>
@@ -183,7 +187,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1914-12-20">
             <p xml:space="preserve"><date when="1914-12-20">20/12</date> S.― In Nebel und Reif spazieren <rs type="place" xml:id="pl_09126" ref="#place_aced77fcb653c3216ac883df10617126" ana="#exclude">Pötzleinsdorfer</rs> Wald und 
-<rs type="place" xml:id="pl_09127" ref="#place_75f2e194839d6ba0e5d4080c211a449a">Dornbacher Park</rs>. Meist geht mir der „<rs type="work" subtype="self" xml:id="bibl_9162">Weiher</rs>“ im Kopf herum. Aber wann 
+<rs type="place" xml:id="pl_09127" ref="#pmb176">Dornbacher Park</rs>. Meist geht mir der „<rs type="work" subtype="self" xml:id="bibl_9162">Weiher</rs>“ im Kopf herum. Aber wann 
 werd ich ihn anfangen. Die Lecture des „<rs type="work" subtype="self" xml:id="bibl_9163">neuen Lieds</rs>“ war mir lehrreich. 
 Um wie viel tiefer fühl ich die Schwächen meines Talents im ganzen, 
 so wie im einzelnen. Wie wenig ist mir jemals wirklich gelungen. 
@@ -204,6 +208,5 @@ vorgespielt hatte.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_44616" ref="#person_13359"><forename>Stephi</forename></rs> zum Nachtm.; nach „Wiedergutsein“ mit O.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

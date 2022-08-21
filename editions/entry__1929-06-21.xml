@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-06-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-06-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-06-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-06-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-06-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-06-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-198D-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7310.tif"/>
@@ -182,18 +186,17 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1929-06-21">
-            <p xml:space="preserve"><date when="1929-06-21">21/6</date> <rs type="place" xml:id="pl_18720" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs>.― Mit <rs type="person" xml:id="pNt_87039" ref="#person_19934"><surname>Schulz</surname></rs> gefrühstückt.― Ablehnende telef. Antwort 
-aus <rs type="place" xml:id="pl_18721" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>, wie erwartet (schon gestern Abend).―</p>
+            <p xml:space="preserve"><date when="1929-06-21">21/6</date> <rs type="place" xml:id="pl_18720" ref="#pmb91735">Semmering</rs>.― Mit <rs type="person" xml:id="pNt_87039" ref="#person_19934"><surname>Schulz</surname></rs> gefrühstückt.― Ablehnende telef. Antwort 
+aus <rs type="place" xml:id="pl_18721" ref="#pmb168">Berlin</rs>, wie erwartet (schon gestern Abend).―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_87040" ref="#person_14745"><roleName>Dr.</roleName> <surname>Ender</surname></rs>.― <rs type="person" xml:id="pNt_87041" ref="#person_19934"><surname>Schulz</surname></rs> reist ab (und wird für die Filmleute ― <rs type="work" xml:id="bibl_438">die 
 Herzogin von Chicago</rs> machen).</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_87042" ref="#person_13305"><surname>Auernheimer</surname></rs> im Hotel gespeist;― Nachm. reist er ab.―</p>
             <p xml:space="preserve" rend="indent">Nm. wie gestern, am „<rs type="work" subtype="self" xml:id="bibl_439">Wort</rs>“.― <rs type="person" xml:id="pNt_87043" ref="#person_14745"><roleName>Dr.</roleName> <surname>Ender</surname></rs>.</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_87044" ref="#person_19704"><roleName>Dr.</roleName> <surname>Schinnerer</surname></rs> (<rs type="place" xml:id="pl_18722" ref="#place_87809c954948d8a20507bee3648281b3">New York</rs>) kommt an. Wir nachtmahlen im Stübl.― Er will 
-in <rs type="place" xml:id="pl_18723" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> weiter an dem <rs type="work" xml:id="bibl_440">Buch über mich</rs> arbeiten.― Sein hübscher Artikel 
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_87044" ref="#person_19704"><roleName>Dr.</roleName> <surname>Schinnerer</surname></rs> (<rs type="place" xml:id="pl_18722" ref="#pmb44053">New York</rs>) kommt an. Wir nachtmahlen im Stübl.― Er will 
+in <rs type="place" xml:id="pl_18723" ref="#pmb50">Wien</rs> weiter an dem <rs type="work" xml:id="bibl_440">Buch über mich</rs> arbeiten.― Sein hübscher Artikel 
 (in der <rs type="work" subtype="newspaper" xml:id="bibl_441">Germ. Rev.</rs>) <rs type="work" xml:id="bibl_442">über meine z. Th. ungedruckten Jugendarbeiten</rs>.</p>
             <p xml:space="preserve" rend="indent">― Lese mit Vergnügen „<rs type="work" xml:id="bibl_443">Ginster</rs>“ weiter.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

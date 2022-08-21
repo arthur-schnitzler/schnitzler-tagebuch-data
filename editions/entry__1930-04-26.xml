@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-04-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-04-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-04-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-04-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-04-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-04-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1AC2-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7474.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1930-04-26">
-            <p xml:space="preserve"><date when="1930-04-26">26/4</date> Mit <rs type="person" xml:id="pNt_89531" ref="#person_19822"><forename>Heini</forename></rs> <rs type="place" xml:id="pl_19188" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> tel.; wegen ev. Urlaubs, <rs type="person" xml:id="pNt_89532" ref="#person_19832"><forename>O.</forename></rs> etc.―</p>
+            <p xml:space="preserve"><date when="1930-04-26">26/4</date> Mit <rs type="person" xml:id="pNt_89531" ref="#person_19822"><forename>Heini</forename></rs> <rs type="place" xml:id="pl_19188" ref="#pmb168">Berlin</rs> tel.; wegen ev. Urlaubs, <rs type="person" xml:id="pNt_89532" ref="#person_19832"><forename>O.</forename></rs> etc.―</p>
             <p xml:space="preserve" rend="indent">Dictirt 2. Bild <rs type="work" subtype="self" xml:id="bibl_1011">Zug</rs>.</p>
             <p xml:space="preserve" rend="indent">Nm. ältere Pläne durchgesehn (<rs type="work" subtype="self" xml:id="bibl_1012">Geschwister</rs> u. ä.).</p>
             <p xml:space="preserve" rend="indent">Z. N. <rs type="person" xml:id="pNt_89533" ref="#person_14234"><forename>Suz.</forename></rs>; sie Mitternachts heimgebracht.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1907-05-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-05-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-05-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1907-05-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-05-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-05-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FA3C-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2386.tif"/>
@@ -180,12 +184,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1907-05-29">
-            <p xml:space="preserve"><date when="1907-05-29">29/5</date> Am <rs type="place" xml:id="pl_05982" ref="#place_da4e3775bd2de6c37fadd9b0188f7a4e">Liechtenstein</rs> spazieren, allein, dann mit O.</p>
+            <p xml:space="preserve"><date when="1907-05-29">29/5</date> Am <rs type="place" xml:id="pl_05982" ref="#pmb91145">Liechtenstein</rs> spazieren, allein, dann mit O.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_26980" ref="#person_19822"><forename>Heini</forename></rs> und Fräulein zu Besuch. <rs type="person" xml:id="pNt_26981" ref="#person_16647"><surname>Kainz</surname></rs>.</p>
             <p xml:space="preserve" rend="indent">Am <rs type="work" subtype="self" xml:id="bibl_14294">Roman</rs>.</p>
             <p xml:space="preserve" rend="indent">Spazierg. mit <rs type="person" xml:id="pNt_26982" ref="#person_16647"><forename>Grethe</forename> <surname>Kainz</surname></rs>, O., <rs type="person" xml:id="pNt_26983" ref="#person_20386"><forename>Liesl</forename></rs>; <rs type="person" xml:id="pNt_26984" ref="#person_19822"><forename>Heinis</forename></rs> Geburtshaus.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

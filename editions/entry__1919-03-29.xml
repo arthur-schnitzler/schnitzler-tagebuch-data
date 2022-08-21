@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-03-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-03-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-03-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-03-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-03-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-03-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0AF7-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4820.tif"/>
@@ -183,13 +187,13 @@
       <body>
          <div type="diary-day" xml:id="entry__1919-03-29">
             <p xml:space="preserve"><date when="1919-03-29">29/3</date> Vm. Besorgungen.― Begegnungen u. a. <rs type="person" xml:id="pNt_55723" ref="#person_19542"><surname>Salten</surname></rs>; Nachrichten aus 
-<rs type="place" xml:id="pl_11569" ref="#place_9fed5dae86e3030d9be3740efa198659">Budapest</rs>; schlimm. Die Zeitungen dürfen natürlich nicht die Wahrheit 
+<rs type="place" xml:id="pl_11569" ref="#pmb43471">Budapest</rs>; schlimm. Die Zeitungen dürfen natürlich nicht die Wahrheit 
 schreiben.―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_55724" ref="#person_19827"><forename>Julius’</forename></rs>. Politisches.― Grauenvolle Zeit. Las gestern das Büchlein 
 von <rs type="person" xml:id="pNt_55725" ref="#person_14036"><surname>Bucharin</surname></rs> <rs type="work" xml:id="bibl_4700">über Bolschewismus</rs> ― sozusagen das officielle Brevier. 
 Völlig indiscutabel. Was Idee war (wenn es je eine war) in thierischer 
 Bosheit und Mangel an Logik zur blutrünstigen Phrase geworden.―</p>
-            <p xml:space="preserve" rend="indent">Vorher bei <rs type="person" xml:id="pNt_55726" ref="#person_13663"><surname>Bernau</surname></rs> <rs type="place" ref="#place_volkstheater">Volksth.</rs>― Besprechung einer <rs type="work" subtype="self" xml:id="bibl_4701">Reigen</rs> 
+            <p xml:space="preserve" rend="indent">Vorher bei <rs type="person" xml:id="pNt_55726" ref="#person_13663"><surname>Bernau</surname></rs> <rs type="place" ref="#pmb92202">Volksth.</rs>― Besprechung einer <rs type="work" subtype="self" xml:id="bibl_4701">Reigen</rs> 
 Aufführung nächstes Jahr.― Über die Zustände.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_4702">Weiher</rs>.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_55727" ref="#person_15250"><roleName>Dir.</roleName> <surname>Friese</surname></rs>, in der Filmsache (vor 15 Jahren bei mir gewesen wegen 
@@ -200,6 +204,5 @@ Eindruck. Werde mit aller Vorsicht ― wenn überhaupt abschließen.―</p>
             <p xml:space="preserve" rend="indent">Briefe N, O durchgeflogen.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

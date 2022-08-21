@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-01-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-01-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-01-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-01-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-01-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-01-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F569-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1880.tif"/>
@@ -181,9 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1904-01-09">
-            <p xml:space="preserve"><date when="1904-01-09">9/1</date> Früh mit O. <rs type="place" xml:id="pl_04575" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs>. Spaziergang.―</p>
+            <p xml:space="preserve"><date when="1904-01-09">9/1</date> Früh mit O. <rs type="place" xml:id="pl_04575" ref="#pmb91735">Semmering</rs>. Spaziergang.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_20601" ref="#person_16646"><surname>Kainz</surname></rs>, <rs type="person" xml:id="pNt_20602" ref="#person_20120"><surname>Simon</surname></rs> bei Tisch. Über <rs type="person" xml:id="pNt_20603" ref="#person_13374"><surname>Bahrs</surname></rs> Krankheit. Er ist, mit ungünstiger 
-Diagnose, nach <rs type="place" xml:id="pl_04576" ref="#place_cdd811063e5d4929920d03c5574692d3">Marbach</rs> geschickt worden.― <rs type="person" xml:id="pNt_20604" ref="#person_14065"><surname>Burckhards</surname></rs> Veränderung.―</p>
+Diagnose, nach <rs type="place" xml:id="pl_04576" ref="#pmb91203">Marbach</rs> geschickt worden.― <rs type="person" xml:id="pNt_20604" ref="#person_14065"><surname>Burckhards</surname></rs> Veränderung.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_20605" ref="#person_17666"><forename>Siegfr.</forename></rs> <rs type="person" xml:id="pNt_20606" ref="#person_17666"><surname>Loewy</surname></rs>; über die Krankheit der <rs type="person" xml:id="pNt_20607" ref="#person_18518"><surname>Odilon</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Meierei Spaziergang.―</p>
             <p xml:space="preserve" rend="indent">O. reimt: Die Augen thun mir weh vom Weinen und vom Schnee. Sie 
@@ -192,6 +196,5 @@ findet das Dichten leicht. Ich nenne sie Herzogin von Anticipazi.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_20611" ref="#person_16009"><surname>Hebbels</surname></rs> <rs type="work" xml:id="bibl_16939">Tagebücher</rs> (zum 2. Mal) als Lecture.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

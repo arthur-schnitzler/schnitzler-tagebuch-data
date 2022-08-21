@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-08-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-08-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-08-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-08-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-08-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-08-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0A0A-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4682.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1918-08-04">
-            <p xml:space="preserve"><date when="1918-08-04">4/8</date> S.― Spazierg. <rs type="place" xml:id="pl_11147" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> ― Rieglerhütte ― <rs type="place" xml:id="pl_11148" ref="#place_318e051b87a18bd62b48dc49a3318206">Hütteldorf</rs>.―</p>
+            <p xml:space="preserve"><date when="1918-08-04">4/8</date> S.― Spazierg. <rs type="place" xml:id="pl_11147" ref="#pmb169">Pötzleinsdorf</rs> ― Rieglerhütte ― <rs type="place" xml:id="pl_11148" ref="#pmb90913">Hütteldorf</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_5745">Nachklang</rs> (<rs type="person" xml:id="pNt_53897" ref="#person_20056"><surname>Semon</surname></rs>).―</p>
             <p xml:space="preserve" rend="indent">Z. N. <rs type="person" xml:id="pNt_53898" ref="#person_19986"><forename>Gustav</forename></rs> und Regisseur <rs type="person" xml:id="pNt_53899" ref="#person_19392"><surname>Rosenthal</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Lese <rs type="person" xml:id="pNt_53900" ref="#person_20685"><surname>Thackeray</surname></rs>, <rs type="work" xml:id="bibl_5746">Jahrmarkt</rs>;― <rs type="person" xml:id="pNt_53901" ref="#person_21034"><surname>Wagner</surname></rs>-<rs type="person" xml:id="pNt_53902" ref="#person_17593"><surname>Liszt</surname></rs>,― u. a.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

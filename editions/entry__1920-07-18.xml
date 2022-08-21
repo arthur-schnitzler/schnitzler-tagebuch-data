@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-07-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-07-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-07-19.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1920-07-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-07-17.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-07-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0CD3-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5140.tif"/>
@@ -182,9 +186,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1920-07-18">
-            <p xml:space="preserve"><date when="1920-07-18">18/7</date> S. <rs type="place" xml:id="pl_12407" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> ― <rs type="place" xml:id="pl_12408" ref="#place_c79ad839f84019f53250a4e6365359f9">Neuwaldegg</rs> ― <rs type="place" xml:id="pl_12409" ref="#place_b900112ce988d972bc2d561413e84979">Sofienalpe</rs> ― Aspernleiten, auf 
+            <p xml:space="preserve"><date when="1920-07-18">18/7</date> S. <rs type="place" xml:id="pl_12407" ref="#pmb169">Pötzleinsdorf</rs> ― <rs type="place" xml:id="pl_12408" ref="#pmb170">Neuwaldegg</rs> ― <rs type="place" xml:id="pl_12409" ref="#pmb92533">Sofienalpe</rs> ― Aspernleiten, auf 
 der Wiese gelegen ― Dreimarkstein ― Wiese,― Gesicht ins Gras vergraben, 
-tiefer Erdenduft ― <rs type="place" xml:id="pl_12410" ref="#place_a513bae177c89d12226f343ac5ff1ee3">Salmannsdorf</rs>.</p>
+tiefer Erdenduft ― <rs type="place" xml:id="pl_12410" ref="#pmb91641">Salmannsdorf</rs>.</p>
             <p xml:space="preserve" rend="indent"> 
 ― Einiges zum <rs type="work" subtype="self" xml:id="bibl_4191">Weiher</rs> 3. Akt notirt, die meiste Zeit aber in fruchtlosen 
 innern Auseinandersetzungen verthan.―</p>
@@ -193,6 +197,5 @@ innern Auseinandersetzungen verthan.―</p>
             <p xml:space="preserve" rend="indent">Z. N. blieb <rs type="person" xml:id="pNt_59391" ref="#person_19986"><forename>Gustav</forename></rs>, <rs type="person" xml:id="pNt_59392" ref="#person_19707"><forename>Jessie</forename></rs>, <rs type="person" xml:id="pNt_59393" ref="#person_16743"><surname>Kartono</surname></rs>, <rs type="person" xml:id="pNt_59394" ref="#person_20022"><roleName>Fr.</roleName> <surname>Sehring</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

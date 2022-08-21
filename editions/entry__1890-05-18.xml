@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1890-05-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-05-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-05-19.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1890-05-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-05-17.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-05-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E2AB-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0457.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1890-05-18">
-            <p xml:space="preserve"><date when="1890-05-18">18.</date> Vorm. mit <rs type="person" xml:id="pNt_04581" ref="#person_15485"><forename>Mz.</forename></rs> und <rs type="person" xml:id="pNt_04582" ref="#person_14199"><forename>Gusti</forename></rs> <rs type="place" xml:id="pl_00907" ref="#place_3658d64b6cd532a78a7e4f8dbad06f8e">Zollergasse</rs>.</p>
-            <p xml:space="preserve" rend="indent">Nm. mit <rs type="person" xml:id="pNt_04583" ref="#person_15485"><forename>Mz.</forename></rs> in <rs type="place" xml:id="pl_00908" ref="#place_a3c879a4f19e7987aa5aa1f1b929b0da">Klosterneuburg</rs>, Ruderfahrt ― (1).</p>
+            <p xml:space="preserve"><date when="1890-05-18">18.</date> Vorm. mit <rs type="person" xml:id="pNt_04581" ref="#person_15485"><forename>Mz.</forename></rs> und <rs type="person" xml:id="pNt_04582" ref="#person_14199"><forename>Gusti</forename></rs> <rs type="place" xml:id="pl_00907" ref="#pmb52485">Zollergasse</rs>.</p>
+            <p xml:space="preserve" rend="indent">Nm. mit <rs type="person" xml:id="pNt_04583" ref="#person_15485"><forename>Mz.</forename></rs> in <rs type="place" xml:id="pl_00908" ref="#pmb865">Klosterneuburg</rs>, Ruderfahrt ― (1).</p>
             <p xml:space="preserve" rend="indent">Kf. Parsifal Poker.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

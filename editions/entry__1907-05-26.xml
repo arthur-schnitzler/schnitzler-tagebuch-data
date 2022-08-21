@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1907-05-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-05-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-05-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1907-05-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-05-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-05-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FA39-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2385.tif"/>
@@ -180,13 +184,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1907-05-26">
-            <p xml:space="preserve"><date when="1907-05-26">26/5</date> S.― Vm. mit <rs type="person" xml:id="pNt_26961" ref="#person_19822"><forename>Heini</forename></rs> über die Felder nach <rs type="place" xml:id="pl_05977" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs>.―</p>
+            <p xml:space="preserve"><date when="1907-05-26">26/5</date> S.― Vm. mit <rs type="person" xml:id="pNt_26961" ref="#person_19822"><forename>Heini</forename></rs> über die Felder nach <rs type="place" xml:id="pl_05977" ref="#pmb169">Pötzleinsdorf</rs>.―</p>
             <p xml:space="preserve" rend="indent">Gepackt.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_14286">Roman</rs>.―</p>
             <p xml:space="preserve" rend="indent">Beginn des <rs type="work" subtype="self" xml:id="bibl_14287">Schauspielerstücks</rs> bedacht.―</p>
             <p xml:space="preserve" rend="indent">― Lese an <rs type="person" xml:id="pNt_26962" ref="#person_14052"><surname>Bülow</surname></rs> <rs type="work" xml:id="bibl_14288">Briefen</rs>, <rs type="person" xml:id="pNt_26963" ref="#person_15661"><surname>Grillparzer</surname></rs> <rs type="work" xml:id="bibl_14289">Gesprächen</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

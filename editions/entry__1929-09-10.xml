@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-09-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-09-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-09-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-09-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-09-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-09-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-19DE-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7348.tif"/>
@@ -183,16 +187,15 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1929-09-10">
-            <p xml:space="preserve"><date when="1929-09-10">10/9</date> <rs type="place" xml:id="pl_18890" ref="#place_f197524aef7e6b2ee8b3196b6ca91c61">Territet</rs>.― Abreise ― mit <rs type="person" xml:id="pNt_87599" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> und <rs type="person" xml:id="pNt_87600" ref="#person_19704"><surname>Schinnerer</surname></rs>. Der trennt sich 
-in <rs type="place" xml:id="pl_18891" ref="#place_00fde580903c6d2f3676639814fdff0a">Olten</rs> (für <rs type="place" xml:id="pl_18892" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> ― <rs type="place" xml:id="pl_18893" ref="#place_ae8ec2afb05cd357bdb4b05ec9993ff0">Goeteborg</rs> ― <rs type="place" xml:id="pl_18894" ref="#place_e884124295d0c4d07d9bcf5096fd5495">Amerika</rs>).―</p>
-            <p xml:space="preserve" rend="indent">Ankunft mit <rs type="person" xml:id="pNt_87601" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> <rs type="place" xml:id="pl_18895" ref="#place_103a821a3a6a0b923c9f74a39662bb51">Zürich</rs>. Zimmer nur National. Dritten Rangs mit 
+            <p xml:space="preserve"><date when="1929-09-10">10/9</date> <rs type="place" xml:id="pl_18890" ref="#pmb52051">Territet</rs>.― Abreise ― mit <rs type="person" xml:id="pNt_87599" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> und <rs type="person" xml:id="pNt_87600" ref="#person_19704"><surname>Schinnerer</surname></rs>. Der trennt sich 
+in <rs type="place" xml:id="pl_18891" ref="#pmb44181">Olten</rs> (für <rs type="place" xml:id="pl_18892" ref="#pmb168">Berlin</rs> ― <rs type="place" xml:id="pl_18893" ref="#pmb40700">Goeteborg</rs> ― <rs type="place" xml:id="pl_18894" ref="#pmb43406">Amerika</rs>).―</p>
+            <p xml:space="preserve" rend="indent">Ankunft mit <rs type="person" xml:id="pNt_87601" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> <rs type="place" xml:id="pl_18895" ref="#pmb484">Zürich</rs>. Zimmer nur National. Dritten Rangs mit 
 erstrangigen Preisen.―</p>
-            <p xml:space="preserve" rend="indent">Herum in <rs type="place" xml:id="pl_18896" ref="#place_103a821a3a6a0b923c9f74a39662bb51">Zürich</rs> ― Telegr. von <rs type="person" xml:id="pNt_87602" ref="#person_19822"><forename>Heini</forename></rs> (dass <rs type="person" xml:id="pNt_87603" ref="#person_19832"><forename>O.</forename></rs> über meine Absicht 
-<rs type="place" xml:id="pl_18897" ref="#place_ff6b92568f199b01f10dd417db89f87d">Franzensbad</rs> sehr erfreut), von <rs type="person" xml:id="pNt_87604" ref="#person_18137"><forename>Dora</forename></rs> (Rath, nach <rs type="place" xml:id="pl_18898" ref="#place_ff6b92568f199b01f10dd417db89f87d">Frz.bad</rs> zu kommen).―</p>
+            <p xml:space="preserve" rend="indent">Herum in <rs type="place" xml:id="pl_18896" ref="#pmb484">Zürich</rs> ― Telegr. von <rs type="person" xml:id="pNt_87602" ref="#person_19822"><forename>Heini</forename></rs> (dass <rs type="person" xml:id="pNt_87603" ref="#person_19832"><forename>O.</forename></rs> über meine Absicht 
+<rs type="place" xml:id="pl_18897" ref="#pmb390">Franzensbad</rs> sehr erfreut), von <rs type="person" xml:id="pNt_87604" ref="#person_18137"><forename>Dora</forename></rs> (Rath, nach <rs type="place" xml:id="pl_18898" ref="#pmb390">Frz.bad</rs> zu kommen).―</p>
             <p xml:space="preserve" rend="indent">Verstimmung <rs type="person" xml:id="pNt_87605" ref="#person_18863"><forename>C.</forename> <surname>P.s</surname></rs>, die auf mich abfärbt.</p>
             <p xml:space="preserve" rend="indent">Gotthard genachtm.; <rs type="person" xml:id="pNt_87606" ref="#person_18863"><forename>C.</forename> <surname>P.s</surname></rs> Migraine.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

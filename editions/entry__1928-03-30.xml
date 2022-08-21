@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-03-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-03-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-03-31.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-03-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-03-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-03-31.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-17CD-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7062.tif"/>
@@ -185,7 +189,7 @@
             <p xml:space="preserve" rend="indent">Bei „<rs type="org">Cosulich</rs>“ ― Schiffe.― Boden Credit Anstalt; zufällige 
 Begegnung mit <rs type="person" xml:id="pNt_83394" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>, die ich nach Hause führte.</p>
             <p xml:space="preserve" rend="indent">Zu Tisch bei <rs type="person" xml:id="pNt_83395" ref="#person_19827"><forename>Julius’</forename></rs>, wo eine Freundin <rs ref="#person_14481" type="person" xml:id="pNt_83396"><forename>Annie’s</forename></rs>, <rs type="person" xml:id="pNt_83397" ref="#person_15046"><roleName>Frau</roleName> <surname>Flersheim</surname></rs> (?) 
-aus <rs type="place" xml:id="pl_17861" ref="#place_d5460b665e26333bdf699f77a2e3cf17">Frankfurt a. M.</rs>―</p>
+aus <rs type="place" xml:id="pl_17861" ref="#pmb146">Frankfurt a. M.</rs>―</p>
             <p xml:space="preserve" rend="indent">Nm. am „<rs type="work" subtype="self" xml:id="bibl_19276">Abenteurer</rs>“.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_83398" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Carlth. „<rs type="work" xml:id="bibl_19277">Eine einzige Nacht</rs>“ (Operette von <rs type="person" xml:id="pNt_83399" ref="#person_20459"><surname>Stolz</surname></rs>) mäßig, 
 mit ihr Opernrest. Ihre Depression wegen Aussichtslosigkeit 
@@ -196,6 +200,5 @@ ging bis zu ausgesprochnen Selbstmordgedanken. Wie hilflos ist man.</p>
 Wunsch drei Monate Rente vorher gezahlt („mein Hort und Schutz“).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

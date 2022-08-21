@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-08-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-08-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-08-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-08-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-08-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-08-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FEBB-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2972.tif"/>
@@ -182,12 +186,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1910-08-28">
-            <p xml:space="preserve"><date when="1910-08-28">28/8</date> Vm. nach <rs type="place" xml:id="pl_07195" ref="#place_c38ad36647aca0261d667c432a4866bd">Salzburg</rs>. Hotel Europe (seit 1871 das erste Mal wieder).―</p>
-            <p xml:space="preserve" rend="indent">Nm. im Café <rs type="institution" xml:id="pNt_33356"><surname>Tomaselli</surname></rs>, Fahrt <rs type="place" xml:id="pl_07196" ref="#place_627965721d5dd1de8d834b5f7e49e05a">Hellbrunn</rs>; dort Spaziergang; der 
+            <p xml:space="preserve"><date when="1910-08-28">28/8</date> Vm. nach <rs type="place" xml:id="pl_07195" ref="#pmb91649">Salzburg</rs>. Hotel Europe (seit 1871 das erste Mal wieder).―</p>
+            <p xml:space="preserve" rend="indent">Nm. im Café <rs type="institution" xml:id="pNt_33356"><surname>Tomaselli</surname></rs>, Fahrt <rs type="place" xml:id="pl_07196" ref="#pmb31">Hellbrunn</rs>; dort Spaziergang; der 
 Baum, bei dem O. vor 9 Jahren die Vision der drei Kinder hatte;― 
-Weiterfahrt über <rs type="place" xml:id="pl_07197" ref="#place_639a777f1daa60e404eb39d85953aa42">Aigen</rs>. Souper im neuen Bahnhofrestaurant.</p>
+Weiterfahrt über <rs type="place" xml:id="pl_07197" ref="#pmb90200">Aigen</rs>. Souper im neuen Bahnhofrestaurant.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

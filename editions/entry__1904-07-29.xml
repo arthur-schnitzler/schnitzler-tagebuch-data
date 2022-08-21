@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-07-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-07-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-07-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-07-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-07-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-07-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F633-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1943.tif"/>
@@ -181,11 +185,10 @@
       <body>
          <div type="diary-day" xml:id="entry__1904-07-29">
             <p xml:space="preserve"><date when="1904-07-29">29/7</date> Vm. mit O. und <rs type="person" xml:id="pNt_21363" ref="#person_17958"><forename>Paul</forename> <surname>M.</surname></rs> spazieren.―</p>
-            <p xml:space="preserve" rend="indent">Nm. „<rs type="work" subtype="self" xml:id="bibl_17175">Ritterlich</rs>“ (<rs type="place" xml:id="pl_04821" ref="#place_e01585f07dba8bd0e6a1e3c2e14bf208">Taormina</rs>) wieder vorgenommen, von dem 
-3 Akte in <rs type="place" xml:id="pl_04822" ref="#place_e01585f07dba8bd0e6a1e3c2e14bf208">T.</rs> hingeschmissen wurden. Abends der O. erzählt und dadurch 
+            <p xml:space="preserve" rend="indent">Nm. „<rs type="work" subtype="self" xml:id="bibl_17175">Ritterlich</rs>“ (<rs type="place" xml:id="pl_04821" ref="#pmb906">Taormina</rs>) wieder vorgenommen, von dem 
+3 Akte in <rs type="place" xml:id="pl_04822" ref="#pmb906">T.</rs> hingeschmissen wurden. Abends der O. erzählt und dadurch 
 auf gute Einfälle gekommen.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

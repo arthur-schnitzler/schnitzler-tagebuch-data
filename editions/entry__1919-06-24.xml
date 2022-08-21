@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-06-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-06-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-06-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-06-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-06-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-06-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0B4E-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4870.tif"/>
@@ -182,10 +186,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1919-06-24">
-            <p xml:space="preserve"><date when="1919-06-24">24/6</date> Dict. <rs type="work" subtype="self" xml:id="bibl_4884">Autob.</rs> (<rs type="place" xml:id="pl_11719" ref="#place_d1bbe5c82af588aa9fd6e5f65d6acab3">Reichenau</rs> 86).―</p>
+            <p xml:space="preserve"><date when="1919-06-24">24/6</date> Dict. <rs type="work" subtype="self" xml:id="bibl_4884">Autob.</rs> (<rs type="place" xml:id="pl_11719" ref="#pmb91574">Reichenau</rs> 86).―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_4885">Weiher</rs>.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_56364" ref="#person_15412"><roleName>Director</roleName> <surname>Geyer</surname></rs>, wieder wegen <rs type="work" subtype="self" xml:id="bibl_4886">Reigen</rs>, mit glänzenden Bedingungen. Schwanke, 
-wegen <rs type="place" ref="#place_volkstheater">Volksth.</rs>―</p>
+wegen <rs type="place" ref="#pmb92202">Volksth.</rs>―</p>
             <p xml:space="preserve" rend="indent">O. trat zu mir ein;― erklärte, daß sie bereits eine Wohnung angesehn. 
 Da ihre Anwesenheit mich im arbeiten hindere u. s. w.― Das übliche 
 Gespräch, sich steigernd. Ich: Unter diesen Umständen Eventualität 
@@ -199,6 +203,5 @@ Hochmut, ihr schlechter Ton für mich unerträglich; Rücksichten
 verlangen, ohne zu nehmen u. s. w.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1907-09-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-09-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-09-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1907-09-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-09-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-09-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FAB5-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2415.tif"/>
@@ -188,7 +192,7 @@ hat lang gedauert, bis ich drauf gekommen bin, dass ein Offizier gar nichts
 so besondres ist.“</p>
             <p xml:space="preserve" rend="indent">― Nm. am <rs type="work" subtype="self" xml:id="bibl_14457">Roman</rs>.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_27349" ref="#person_13200"><roleName>Miss</roleName> <forename>Andrews</forename></rs>, Vertreterin <rs type="person" xml:id="pNt_27350" ref="#person_17853"><surname>Marbury</surname></rs>.</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_27351" ref="#person_13551"><forename>Richard</forename></rs>, vom <rs type="place" xml:id="pl_06124" ref="#place_9b5c2555a01778bd31e0cd1c675164b2">Lido</rs> zurück; trägt mir ein Gedicht vor, an mich, anläßlich 
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_27351" ref="#person_13551"><forename>Richard</forename></rs>, vom <rs type="place" xml:id="pl_06124" ref="#pmb91143">Lido</rs> zurück; trägt mir ein Gedicht vor, an mich, anläßlich 
 des <rs type="person" xml:id="pNt_27352" ref="#person_13624"><surname>Berger’schen</surname></rs> Feuill. gemacht. Über Kritik. „Es wird sich nicht 
 bessern, solang die Esoikritiker bestehen.―“</p>
             <p xml:space="preserve" rend="indent"><rs type="work" subtype="self" xml:id="bibl_14458">Märchenpremière</rs>. Ich erschien erst nach dem Schluss, sehr lebhaft gerufen 
@@ -205,6 +209,5 @@ heftig.―</p>
 die Carrièresache.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

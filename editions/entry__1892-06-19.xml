@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1892-06-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-06-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-06-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1892-06-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-06-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-06-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E57A-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0620.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1892-06-19">
-            <p xml:space="preserve"><date when="1892-06-19">19/6</date> Sonntag.― Vm. <rs type="person" xml:id="pNt_06368" ref="#person_15485"><forename>Mz.</forename></rs> im Kfh.― Abs. mit ihr <rs type="place" xml:id="pl_01274" ref="#place_1c95cf6d9ec9bfc2709bedc313fa820b">Lainz</rs>, <rs type="place" xml:id="pl_01275" ref="#place_6fc6f10422bfe80ddcba23b4f7f080dc">Hietzing</rs>.― Wir 
+            <p xml:space="preserve"><date when="1892-06-19">19/6</date> Sonntag.― Vm. <rs type="person" xml:id="pNt_06368" ref="#person_15485"><forename>Mz.</forename></rs> im Kfh.― Abs. mit ihr <rs type="place" xml:id="pl_01274" ref="#pmb49452">Lainz</rs>, <rs type="place" xml:id="pl_01275" ref="#pmb63">Hietzing</rs>.― Wir 
 sprachen über den nahen Abschied ― und plötzlich kam wieder die 
 ganze Traurigkeit des Scheidens über mich… Plötzlich verstand ich 
 sie wieder, verstand vielmehr, wie ich ihn die ganze Zeit über nicht 
 verstanden hatte.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-07-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1931-07-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1C82-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7742.tif"/>
@@ -183,13 +187,12 @@
          <div type="diary-day" xml:id="entry__1931-07-19">
             <p xml:space="preserve"><date when="1931-07-19">19/7</date> S. Vm. allein spazieren; auf einer Bank Notizen für Aenderung der 
 <rs type="work" subtype="self" xml:id="bibl_23870">Sekundanten Novelle</rs>.</p>
-            <p xml:space="preserve" rend="indent">Briefe nachgeschickt aus <rs type="place" xml:id="pl_20015" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> (Nachricht aus <rs type="place" xml:id="pl_20016" ref="#place_8b32ee9ceed3cd308ec9e80f541bfa55">Zöptau</rs>).</p>
+            <p xml:space="preserve" rend="indent">Briefe nachgeschickt aus <rs type="place" xml:id="pl_20015" ref="#pmb50">Wien</rs> (Nachricht aus <rs type="place" xml:id="pl_20016" ref="#pmb92129">Zöptau</rs>).</p>
             <p xml:space="preserve" rend="indent">― In meinem Zimmer liest mir <rs type="person" xml:id="pNt_93449" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Anfang ihrer <rs type="work" xml:id="bibl_23871">Selbstbiographie</rs> vor; sehr 
 hübsch.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_93450" ref="#person_19704"><surname>Schinnerer</surname></rs> kommt aus <rs type="place" xml:id="pl_20017" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> an.―</p>
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_93450" ref="#person_19704"><surname>Schinnerer</surname></rs> kommt aus <rs type="place" xml:id="pl_20017" ref="#pmb50">Wien</rs> an.―</p>
             <p xml:space="preserve" rend="indent">Nm. Gewitter.― Lecture.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

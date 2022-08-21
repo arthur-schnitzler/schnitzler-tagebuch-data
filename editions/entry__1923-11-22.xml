@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-11-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-11-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-11-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-11-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-11-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-11-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1198-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6146.tif"/>
@@ -183,11 +187,10 @@
          <div type="diary-day" xml:id="entry__1923-11-22">
             <p xml:space="preserve"><date when="1923-11-22">22/11</date> Dict. Briefe.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_2142">Verf.</rs></p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_70748" ref="#person_20886"><forename>Louis</forename> <surname>Untermeyer</surname></rs> und Frau aus <rs type="place" xml:id="pl_15165" ref="#place_87809c954948d8a20507bee3648281b3">New York</rs>; bringt mir seine <rs type="work" xml:id="bibl_2143">Gedichte</rs>. Ist 
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_70748" ref="#person_20886"><forename>Louis</forename> <surname>Untermeyer</surname></rs> und Frau aus <rs type="place" xml:id="pl_15165" ref="#pmb44053">New York</rs>; bringt mir seine <rs type="work" xml:id="bibl_2143">Gedichte</rs>. Ist 
 <rs type="person" xml:id="pNt_70749" ref="#person_16047"><surname>Heine</surname></rs> Übersetzer. Angeregte Unterhaltung zwei Stunden lang. Währenddem 
 kam eine prächtige Ledermappe mit etwa 100 famosen <rs type="work" subtype="self" xml:id="bibl_2144">Medardus</rs> Aufnahmen, von der Sascha.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1891-06-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-06-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-06-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1891-06-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-06-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-06-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E406-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0538.tif"/>
@@ -181,8 +185,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1891-06-07">
-            <p xml:space="preserve"><date when="1891-06-07">7. 6.</date> Sonntag.― Schöner Tag. Mit <rs type="person" xml:id="pNt_05332" ref="#person_15485"><forename>Mz.</forename></rs> und frère <rs type="place" xml:id="pl_01095" ref="#place_fa8a4a0fb753daa46810c572b474ef4f">Brunn</rs> ― 
-<rs type="place" xml:id="pl_01096" ref="#place_5e86e41371e971e6c8bbcf83490bc36e">Perchtoldsdorf</rs> ― <rs type="place" xml:id="pl_01097" ref="#place_fa8a4a0fb753daa46810c572b474ef4f">Br.</rs> ― Spaziergang ― <rs type="place" xml:id="pl_01098" ref="#place_691156ca4a6956734bbcf3c24f286f8c">Enzersdorf</rs> ― Mit einander 
+            <p xml:space="preserve"><date when="1891-06-07">7. 6.</date> Sonntag.― Schöner Tag. Mit <rs type="person" xml:id="pNt_05332" ref="#person_15485"><forename>Mz.</forename></rs> und frère <rs type="place" xml:id="pl_01095" ref="#pmb40202">Brunn</rs> ― 
+<rs type="place" xml:id="pl_01096" ref="#pmb91451">Perchtoldsdorf</rs> ― <rs type="place" xml:id="pl_01097" ref="#pmb40202">Br.</rs> ― Spaziergang ― <rs type="place" xml:id="pl_01098" ref="#pmb55974">Enzersdorf</rs> ― Mit einander 
 gegessen und geplauscht. Fast glücklich. Natürlich plagte mich eine 
 Zeit lang wieder meine Sucht, ihr die obscönsten Details ihrer 
 Vergangenheit ins Gedächtnis zu rufen und sie zu interpelliren. Sie 
@@ -196,6 +200,5 @@ ist wieder
 ein gut Theil des Zaubers verflogen.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

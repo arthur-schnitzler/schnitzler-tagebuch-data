@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1907-06-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-05-31.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-06-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1907-06-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-05-31.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-06-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FA3F-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2387.tif"/>
@@ -180,7 +184,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1907-06-01">
-            <p xml:space="preserve"><date when="1907-06-01">1/6</date> Mit O. und <rs type="person" xml:id="pNt_26997" ref="#person_16646"><surname>Kainzens</surname></rs> <rs type="place" xml:id="pl_05990" ref="#place_1c24743c9fa25eb3584fe72837b40057">Heiligenkreuz</rs>, Stift.―</p>
+            <p xml:space="preserve"><date when="1907-06-01">1/6</date> Mit O. und <rs type="person" xml:id="pNt_26997" ref="#person_16646"><surname>Kainzens</surname></rs> <rs type="place" xml:id="pl_05990" ref="#pmb90845">Heiligenkreuz</rs>, Stift.―</p>
             <p xml:space="preserve" rend="indent">Am <rs type="work" subtype="self" xml:id="bibl_14297">Roman</rs>.―</p>
             <p xml:space="preserve" rend="indent"><rs type="allusively" xml:id="rst_00845">Mama</rs> zu Besuch. Mit <rs type="person" xml:id="pNt_26998" ref="#person_16646"><surname>Kainzens</surname></rs>, O. und <rs type="person" xml:id="pNt_26999" ref="#person_20386"><forename>Liesl</forename></rs> zur Klausen begleitet.―</p>
             <p xml:space="preserve" rend="indent">Mit O. und <rs type="person" xml:id="pNt_27000" ref="#person_20386"><forename>Liesl</forename></rs> zurück. Bowle mit <rs type="person" xml:id="pNt_27001" ref="#person_16646"><surname>Kainzens</surname></rs>.― Gewitter.</p>
@@ -188,6 +192,5 @@
 <rs type="work" xml:id="bibl_14300">Madame d’Ora</rs> ― <rs type="person" xml:id="pNt_27007" ref="#person_13927"><surname>Brantôme</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

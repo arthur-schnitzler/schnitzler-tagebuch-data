@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-05-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-05-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-05-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1915-05-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-05-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-05-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0573-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4044.tif"/>
@@ -181,19 +185,18 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1915-05-16">
-            <p xml:space="preserve"><date when="1915-05-16">16/5</date> S. Spaziergang <rs type="place" xml:id="pl_09368" ref="#place_b5c7c445b215ab96656160154d04635c">Beethovenweg</rs>; Plauderei mit dem begegneten Dr. 
+            <p xml:space="preserve"><date when="1915-05-16">16/5</date> S. Spaziergang <rs type="place" xml:id="pl_09368" ref="#pmb92162">Beethovenweg</rs>; Plauderei mit dem begegneten Dr. 
 <rs type="person" xml:id="pNt_45613" ref="#person_19987"><forename>Max</forename> <surname>Schwarzkopf</surname></rs> über <rs type="person" xml:id="pNt_45614" ref="#person_19986"><forename>Gustavs</forename></rs> Wesen und Treiben.― Dem „<rs type="work" subtype="self" xml:id="bibl_8136">Weiher</rs>“ 
 nachgedacht.― Die <rs type="person" xml:id="pNt_45615"><roleName>Hofr.</roleName> <surname>Zuckerkandl</surname></rs> in der Villa besucht die sie nun 
-wieder bezogen: <rs type="person" xml:id="pNt_45616" ref="#person_21597"><forename>Fritz</forename></rs> bringt Kunde aus <rs type="place" xml:id="pl_09369" ref="#place_3c2f8b8c8c43538b25a0327ae84c3f65">Deutschland</rs>; Frau <rs type="person" xml:id="pNt_45617" ref="#person_14683"><forename>Rosa</forename></rs> 
+wieder bezogen: <rs type="person" xml:id="pNt_45616" ref="#person_21597"><forename>Fritz</forename></rs> bringt Kunde aus <rs type="place" xml:id="pl_09369" ref="#pmb151">Deutschland</rs>; Frau <rs type="person" xml:id="pNt_45617" ref="#person_14683"><forename>Rosa</forename></rs> 
 <rs type="person" xml:id="pNt_45618" ref="#person_14683"><surname>Eisenmenger</surname></rs> (der <rs type="person" xml:id="pNt_45619"><roleName>Prof.</roleName> <surname>Z.</surname></rs> Schwester, die Freundin der <rs type="person" xml:id="pNt_45620" ref="#person_19877"><surname>Schratt</surname></rs>) anwesend 
 mit Töchtern. Die Gründe der <rs type="person" xml:id="pNt_45621" ref="#person_13307"><surname>Auffenbergschen</surname></rs> Verhaftung (angeblich 
-eine Verschwörung, vor 2 oder 3 Jahren ― mit <rs type="person" xml:id="pNt_45622" ref="#person_15149"><forename>F. F.</forename></rs>). <rs type="place" xml:id="pl_09370" ref="#place_389962c9dec540ab28d04517e82c3996">Italien</rs>.―</p>
+eine Verschwörung, vor 2 oder 3 Jahren ― mit <rs type="person" xml:id="pNt_45622" ref="#person_15149"><forename>F. F.</forename></rs>). <rs type="place" xml:id="pl_09370" ref="#pmb40306">Italien</rs>.―</p>
             <p xml:space="preserve" rend="indent">― Nm. im Garten <rs type="person" xml:id="pNt_45623" ref="#person_18621"><surname>Ovid</surname></rs> gelesen.―</p>
             <p xml:space="preserve" rend="indent"><rs type="work" subtype="self" xml:id="bibl_8137">Weiher</rs>, Gespräch mit O. in einer guten Stunde, über die Ausführung, 
 mit mehr Sehnsucht als Vertrauen.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_45624" ref="#person_13359"><forename>Stephi</forename></rs>, <rs type="person" xml:id="pNt_45625" ref="#person_21600"><forename>Mimi</forename></rs> und <rs type="person" xml:id="pNt_45626" ref="#person_21602"><forename>Vicki</forename></rs> zum Nachtm.; O. sang sehr gut.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

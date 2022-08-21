@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-12-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-12-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-12-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1915-12-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-12-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-12-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0640-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4158.tif"/>
@@ -182,12 +186,11 @@
       <body>
          <div type="diary-day" xml:id="entry__1915-12-07">
             <p xml:space="preserve"><date when="1915-12-07">7/12</date> Vm. Besorgungen.― Bei <rs type="person" xml:id="pNt_46985" ref="#person_15369"><roleName>Dr.</roleName> <surname>Geiringer</surname></rs>, der wünscht, ich möge Hr. 
-<rs type="person" xml:id="pNt_46986" ref="#person_13545"><roleName>Dr.</roleName> <surname>Beer</surname></rs> beim <rs type="place" ref="#place_volkstheater">Volksth.</rs>-Ausschuss protegiren ― da dieser <rs type="person" xml:id="pNt_46987" ref="#person_15368"><forename>Anton</forename> <surname>G.</surname></rs> (<rs type="person" xml:id="pNt_46988"><roleName>Dr.</roleName> <surname>G.’s</surname></rs> Bruder) bestimmt in seiner Stellung beließe. Mußte, wegen früherer 
+<rs type="person" xml:id="pNt_46986" ref="#person_13545"><roleName>Dr.</roleName> <surname>Beer</surname></rs> beim <rs type="place" ref="#pmb92202">Volksth.</rs>-Ausschuss protegiren ― da dieser <rs type="person" xml:id="pNt_46987" ref="#person_15368"><forename>Anton</forename> <surname>G.</surname></rs> (<rs type="person" xml:id="pNt_46988"><roleName>Dr.</roleName> <surname>G.’s</surname></rs> Bruder) bestimmt in seiner Stellung beließe. Mußte, wegen früherer 
 Verpflichtung gegen <rs type="person" xml:id="pNt_46989" ref="#person_19364"><roleName>Dr.</roleName> <surname>Rosenbaum</surname></rs> ablehnen.</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_8537">Flb.</rs>―</p>
             <p xml:space="preserve" rend="indent">Concert <rs type="person" xml:id="pNt_46990" ref="#person_20509"><surname>Strauss</surname></rs> ― <rs type="person" xml:id="pNt_46991" ref="#person_20372"><surname>Steiner</surname></rs>, mit O.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

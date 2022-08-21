@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1925-07-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-07-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-07-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1925-07-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-07-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-07-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-13F5-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6515.tif"/>
@@ -181,9 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1925-07-19">
-            <p xml:space="preserve"><date when="1925-07-19">19/7</date> S. Mit <rs type="person" xml:id="pNt_75479" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Autopartie ― <rs type="place" xml:id="pl_16185" ref="#place_b900112ce988d972bc2d561413e84979">Sofienalpe</rs> (zur schönen Aussicht, im Wald 
-geruht) ― <rs type="place" xml:id="pl_16186" ref="#place_a664e77ab0680f60712edfb712500d85">Mauerbach</rs> (der philos. Pfründner) ― <rs type="place" xml:id="pl_16187" ref="#place_456956129851adb8efce513e9565f9da">Hainbach</rs> (an dem Gasthaus 
-vorbei, wo ich 1904 August mit <rs type="person" xml:id="pNt_75480" ref="#person_19832"><forename>O.</forename></rs> den <rs type="work" subtype="self" xml:id="bibl_16559">Zwischenspiel</rs> Stoff besprach) ― <rs type="place" xml:id="pl_16188" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> ―</p>
+            <p xml:space="preserve"><date when="1925-07-19">19/7</date> S. Mit <rs type="person" xml:id="pNt_75479" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Autopartie ― <rs type="place" xml:id="pl_16185" ref="#pmb92533">Sofienalpe</rs> (zur schönen Aussicht, im Wald 
+geruht) ― <rs type="place" xml:id="pl_16186" ref="#pmb942">Mauerbach</rs> (der philos. Pfründner) ― <rs type="place" xml:id="pl_16187" ref="#pmb90821">Hainbach</rs> (an dem Gasthaus 
+vorbei, wo ich 1904 August mit <rs type="person" xml:id="pNt_75480" ref="#person_19832"><forename>O.</forename></rs> den <rs type="work" subtype="self" xml:id="bibl_16559">Zwischenspiel</rs> Stoff besprach) ― <rs type="place" xml:id="pl_16188" ref="#pmb50">Wien</rs> ―</p>
             <p xml:space="preserve" rend="indent">Nm. mit <rs type="work" subtype="self" xml:id="bibl_16560">aphoristischem</rs> beschäftigt (für das <rs type="work" xml:id="bibl_16561"><rs type="person" xml:id="pNt_75481"><surname>Rolland</surname></rs> Buch</rs>) ― dergleichen 
 nimmt mir ungebührlich viel Zeit.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_75482" ref="#person_16355"><roleName>Dr.</roleName> <surname>Horch</surname></rs>,― wegen einer Theaterverlagsache.</p>
@@ -192,6 +196,5 @@ nimmt mir ungebührlich viel Zeit.</p>
 übersetzt.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1891-12-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-12-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-12-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1891-12-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-12-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-12-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E4B3-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0571.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1891-12-03">
-            <p xml:space="preserve"><date when="1891-12-03">3. 12.</date> Mit <rs type="person" xml:id="pNt_05752" ref="#person_15485"><forename>Mz.</forename></rs> Abd.― Trübe Stimmung. <rs type="place" ref="#place_volkstheater">Volksth.</rs>project ins Wasser 
+            <p xml:space="preserve"><date when="1891-12-03">3. 12.</date> Mit <rs type="person" xml:id="pNt_05752" ref="#person_15485"><forename>Mz.</forename></rs> Abd.― Trübe Stimmung. <rs type="place" ref="#pmb92202">Volksth.</rs>project ins Wasser 
 gefallen ― Aussicht auf eine Wanderschaft durch die Provinztheater.― 
 Ihre sister, die nun offenbar von unserm Verh. weiss: Hüte dich vor 
 <pb n="357"/>
@@ -191,6 +195,5 @@ wohl auch noch für den Verf. gehalten.― Wir soup. bei der Glocke, was
 die Stimmung wieder ein bischen heraufbrachte.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

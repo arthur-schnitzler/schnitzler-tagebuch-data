@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1891-07-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-07-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-07-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1891-07-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-07-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-07-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E42F-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,15 +177,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0551.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0552.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1891-07-24">
-            <p xml:space="preserve"><date when="1891-07-24">24. 7.</date> Mit <rs type="person" xml:id="pNt_05458" ref="#person_19542"><surname>Salten</surname></rs> nach <rs type="place" xml:id="pl_01144" ref="#place_9a43e84f6e1d406076f2372205804f6d">B.</rs> ― Zu <rs type="person" xml:id="pNt_05459" ref="#person_15485"><forename>Mz.</forename></rs> ― Abends spielte sie eine sentimentale 
+            <p xml:space="preserve"><date when="1891-07-24">24. 7.</date> Mit <rs type="person" xml:id="pNt_05458" ref="#person_19542"><surname>Salten</surname></rs> nach <rs type="place" xml:id="pl_01144" ref="#pmb662">B.</rs> ― Zu <rs type="person" xml:id="pNt_05459" ref="#person_15485"><forename>Mz.</forename></rs> ― Abends spielte sie eine sentimentale 
 Rolle, <rs type="person" xml:id="pNt_05460"><forename>Thekla</forename></rs> in <rs type="person" xml:id="pNt_05461" ref="#person_18395"><surname>Nestroy’s</surname></rs> <rs type="work" xml:id="bibl_23129">Mädl aus der Vorstadt</rs> ― schlecht!― 
 Regen, Wind. Mit ihr und Mutter herum.― Ich sagte ihr: Nun, man 
 kann Ihnen nicht lauter <rs type="person" xml:id="pNt_05462"><forename>Alma’s</forename></rs> schreiben. (Darauf anspielend daß sie 
@@ -193,5 +198,6 @@ sie sich schon erschießen möchte.</p>
 gemein, es ist wahr, und nach allem, was ich weiss, sehe, höre, ist sie 
 so absolut brav jetzt ―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

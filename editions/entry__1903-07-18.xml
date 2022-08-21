@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1903-07-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-07-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-07-19.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1903-07-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-07-17.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-07-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F4BF-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1830.tif"/>
@@ -181,9 +185,8 @@
       <body>
          <div type="diary-day" xml:id="entry__1903-07-18">
             <p xml:space="preserve"><date when="1903-07-18">18/7</date> Vm. dictirt.― (<rs type="work" subtype="self" xml:id="bibl_17761">Abenteurerstoff</rs>.―)</p>
-            <p xml:space="preserve" rend="indent">Abends <rs type="place" xml:id="pl_04372" ref="#place_971d9360a377fa82fd2640a5119b1112">Schönbrunn</rs>, mit O. <rs type="person" xml:id="pNt_20016" ref="#person_13551"><forename>Richard</forename></rs> <rs type="person" xml:id="pNt_20017" ref="#person_13550"><forename>Paula</forename></rs>, <rs type="person" xml:id="pNt_20018" ref="#person_16293"><forename>Hugo</forename></rs> ― Menagerie, Restaur.</p>
+            <p xml:space="preserve" rend="indent">Abends <rs type="place" xml:id="pl_04372" ref="#pmb92518">Schönbrunn</rs>, mit O. <rs type="person" xml:id="pNt_20016" ref="#person_13551"><forename>Richard</forename></rs> <rs type="person" xml:id="pNt_20017" ref="#person_13550"><forename>Paula</forename></rs>, <rs type="person" xml:id="pNt_20018" ref="#person_16293"><forename>Hugo</forename></rs> ― Menagerie, Restaur.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

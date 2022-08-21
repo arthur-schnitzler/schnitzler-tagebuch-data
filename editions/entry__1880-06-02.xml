@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1880-06-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-06-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-06-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1880-06-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-06-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-06-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DD6A-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0069.tif"/>
@@ -210,7 +214,7 @@ Es ist unlogisch aus dem Gefühl der Vaterlandsliebe das des
 Nationalitätenhasses zu entwickeln. Ich gestehe aufrichtig, dass 
 es einzelne Nationen gibt, die mir höchst unsympathisch sind ― aber 
 ich hasse keine.―</p>
-            <p xml:space="preserve" rend="indent">Abds.― Ich sprach heute <rs type="person" xml:id="pNt_00522" ref="#person_17368"><forename>Fany</forename></rs> im <rs type="place" xml:id="pl_00097" ref="#place_d7f977f9a16210838a0dd6b32f6fb25d">Volkg.</rs>, zuerst mit ihrer Mutter, 
+            <p xml:space="preserve" rend="indent">Abds.― Ich sprach heute <rs type="person" xml:id="pNt_00522" ref="#person_17368"><forename>Fany</forename></rs> im <rs type="place" xml:id="pl_00097" ref="#pmb103">Volkg.</rs>, zuerst mit ihrer Mutter, 
 dann flüsterte sie mir leise zu, als mit einer Bekannten herumging: 
 „Ich habe an dich geschrieben.“ Dann redete ich sie an, als sie mit 
 <rs type="person" xml:id="pNt_00523" ref="#person_18320"><forename>Fanny</forename> <surname>M.</surname></rs>, einem lieben wunderschönen Wesen gegen den Teich zu 
@@ -221,6 +225,5 @@ dass wir uns in unaufhörlicher Berührung hielten ― sie ist ein süßes
 Wesen; ich liebe sie mehr als ichs sagen kann.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

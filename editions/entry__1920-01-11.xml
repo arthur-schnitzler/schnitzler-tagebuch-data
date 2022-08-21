@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-01-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-01-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-01-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1920-01-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-01-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-01-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0C16-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5008.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1920-01-11">
-            <p xml:space="preserve"><date when="1920-01-11">11/1</date> S.― Spazierg. <rs type="place" xml:id="pl_12060" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs>, <rs type="place" xml:id="pl_12061" ref="#place_a513bae177c89d12226f343ac5ff1ee3">Salmannsdorf</rs>, zufällig mit Dr. <rs type="person" xml:id="pNt_57752" ref="#person_21264"><forename>Paul</forename> 
+            <p xml:space="preserve"><date when="1920-01-11">11/1</date> S.― Spazierg. <rs type="place" xml:id="pl_12060" ref="#pmb169">Pötzleinsdorf</rs>, <rs type="place" xml:id="pl_12061" ref="#pmb91641">Salmannsdorf</rs>, zufällig mit Dr. <rs type="person" xml:id="pNt_57752" ref="#person_21264"><forename>Paul</forename> 
 <surname>Wertheimer</surname></rs> und Frau.― Urheberrechts-, Valuta-, Steuerfragen. 
 Reizende Geschichte von <rs type="person" xml:id="pNt_57753" ref="#person_20796"><forename>Siegfried</forename> <surname>Trebitsch</surname></rs>. Als er während des 
 Krieges im <rs type="place" xml:id="pl_12062" ref="#place_e097129ba1f826b95f2ab4f4798759c2" ana="#exclude">Meidlinger</rs> Spital als Offizier diente, klagt er, daß 
@@ -209,12 +213,11 @@ für den vorläufig einzigen (und dürfte es wohl auch sein) der seine
 Philosophie mit ihren Voraussetzungen vollkommen zu verstehen vermag.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_57770" ref="#person_19542"><surname>Salten</surname></rs> allerlei politisches. Er erzählt mir von dem 
 letzten Brief <rs type="person" xml:id="pNt_57771"><forename>Leopold</forename> <surname>Wölflings</surname></rs> (des ehemal. Erzherzogs) aus 
-<rs type="place" xml:id="pl_12063" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>, wo er als Agent lebt. Er wäre jetzt der erste Anwärter 
+<rs type="place" xml:id="pl_12063" ref="#pmb168">Berlin</rs>, wo er als Agent lebt. Er wäre jetzt der erste Anwärter 
 auf den Thron; und <rs type="person" xml:id="pNt_57772"><surname>S.</surname></rs> hielte ihn sogar ― für den rechten Mann, 
 sieht sich auch schon ― halb humoristisch als seinen Rathgeber, 
 freilich nicht auf lange, aber dann wieder zurückgeholt.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-09-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-09-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-09-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-09-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-09-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-09-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-030F-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,18 +177,19 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3682.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3683.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1913-09-09">
             <p xml:space="preserve"><date when="1913-09-09">9/9</date> ― Zweiter Todestag von <rs type="allusively" xml:id="rst_01325">Mama</rs>.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_41564" ref="#person_19283"><roleName>Frl.</roleName> <surname>Ritscher</surname></rs> holt uns ab. <rs type="place" xml:id="pl_08439" ref="#place_dd15fb8499201fabf5ebf569a7ad1fe2" ana="#exclude">Nymphenburger</rs> Porzellanfabrik Einkäufe.―</p>
             <p xml:space="preserve" rend="indent">Mit O. im freien, Reginarest., gegessen ―</p>
-            <p xml:space="preserve" rend="indent">Mit ihr nach <rs type="place" xml:id="pl_08440" ref="#place_300a9ca833420adc130ce572f2d757fd">Tutzing</rs>. <rs type="person" xml:id="pNt_41565" ref="#person_20386"><forename>Liesl</forename></rs> in der Villa Carola. <rs type="person" xml:id="pNt_41566" ref="#person_20383"><forename>Albert</forename></rs>.―</p>
+            <p xml:space="preserve" rend="indent">Mit ihr nach <rs type="place" xml:id="pl_08440" ref="#pmb44493">Tutzing</rs>. <rs type="person" xml:id="pNt_41565" ref="#person_20386"><forename>Liesl</forename></rs> in der Villa Carola. <rs type="person" xml:id="pNt_41566" ref="#person_20383"><forename>Albert</forename></rs>.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_41567" ref="#person_20386"><forename>Liesl</forename></rs> geleitet uns zu <rs type="person" xml:id="pNt_41568" ref="#person_17834"><forename>Heinrich</forename> <surname>Mann</surname></rs>, der mit seiner Geliebten, einer 
 <rs type="place" xml:id="pl_08441" ref="#place_799308c246aa55f468eb536f528d1cbb" ana="#exclude">Prager</rs> Jüdin hier wohnt. Er stellt sie als seine Frau vor und besteht 
 sehr darauf dass sie so angesprochen und behandelt wird. <rs type="person" xml:id="pNt_41569" ref="#person_16168"><surname>Herzog</surname></rs> und 
@@ -195,5 +200,6 @@ dargestellt wurde.―</p>
             <p xml:space="preserve" rend="indent">Nachtm. bei <rs type="person" xml:id="pNt_41574" ref="#person_20386"><forename>Liesl</forename></rs> mit <rs type="person" xml:id="pNt_41575" ref="#person_20383"><forename>Albert</forename></rs>, und <rs type="person" xml:id="pNt_41576" ref="#person_18011"><surname>Mayer</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">In der Bahn mit uns <rs type="person" xml:id="pNt_41577" ref="#person_20039"><roleName>Frl.</roleName> <surname>Seipp</surname></rs>, vom Hoftheater.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

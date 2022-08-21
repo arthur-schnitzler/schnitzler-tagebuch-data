@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-09-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-09-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-09-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-09-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-09-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-09-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-19E5-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7353.tif"/>
@@ -183,7 +187,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1929-09-17">
-            <p xml:space="preserve"><date when="1929-09-17">17/9</date> <rs type="place" xml:id="pl_18917" ref="#place_07746ef3772ea6e718f5cd3a37681d92">Marienbad</rs>. Nach <rs type="place" xml:id="pl_18918" ref="#place_ff6b92568f199b01f10dd417db89f87d">Franzensbad</rs> (Bahn). Königsvilla. <rs type="person" xml:id="pNt_87647" ref="#person_19832"><forename>Olga</forename></rs>, mit ihr 
+            <p xml:space="preserve"><date when="1929-09-17">17/9</date> <rs type="place" xml:id="pl_18917" ref="#pmb91211">Marienbad</rs>. Nach <rs type="place" xml:id="pl_18918" ref="#pmb390">Franzensbad</rs> (Bahn). Königsvilla. <rs type="person" xml:id="pNt_87647" ref="#person_19832"><forename>Olga</forename></rs>, mit ihr 
 im Park spazieren, Hotel gegessen. Nachher Garten. Da ich nur noch 
 besuchweise wiederkommen wollte, ist sie tief verstimmt, weint und 
 macht mich ungeduldig. Dann wird es besser;― wir spazieren wieder und 
@@ -194,6 +198,5 @@ Seele ist kein <rs type="work" subtype="self" xml:id="bibl_581">weites Land</rs>
             <p xml:space="preserve" rend="indent">5 Uhr Bahn zurück.― Mit <rs type="person" xml:id="pNt_87648" ref="#person_13551"><forename>Rich.</forename></rs> und <rs type="person" xml:id="pNt_87649" ref="#person_13550"><forename>Paula</forename></rs> Winterling genachtm.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

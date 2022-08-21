@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-09-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-09-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-09-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-09-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-09-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-09-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-19E8-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7355.tif"/>
@@ -182,13 +186,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1929-09-20">
-            <p xml:space="preserve"><date when="1929-09-20">20/9</date> <rs type="place" xml:id="pl_18923" ref="#place_07746ef3772ea6e718f5cd3a37681d92">Marienbad</rs>.― Regen.― Brunnen,</p>
+            <p xml:space="preserve"><date when="1929-09-20">20/9</date> <rs type="place" xml:id="pl_18923" ref="#pmb91211">Marienbad</rs>.― Regen.― Brunnen,</p>
             <p xml:space="preserve" rend="indent">tel. mit <rs type="person" xml:id="pNt_87656" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> (verlorener Brief).</p>
             <p xml:space="preserve" rend="indent">Winterling Mittag mit <rs type="person" xml:id="pNt_87657" ref="#person_13551"><forename>R.</forename></rs> und <rs ref="#person_13550" type="person" xml:id="pNt_87658"><forename>P.</forename></rs></p>
             <p xml:space="preserve" rend="indent">Packen.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_87659" ref="#person_13551"><forename>R.</forename></rs> und <rs ref="#person_13550" type="person" xml:id="pNt_87660"><forename>P.</forename></rs> Kino „<rs type="work" xml:id="bibl_584">Hotelratten</rs>“, Winterling.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

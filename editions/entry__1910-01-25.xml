@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-01-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-01-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-01-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-01-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-01-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-01-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FDE4-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2836.tif"/>
@@ -184,8 +188,8 @@
          <div type="diary-day" xml:id="entry__1910-01-25">
             <p xml:space="preserve"><date when="1910-01-25">25/1</date> Dictirt Briefe. Bücher an <rs type="person" xml:id="pNt_31862" ref="#person_20011"><surname>Seebach</surname></rs> und <rs type="person" xml:id="pNt_31863" ref="#person_19906"><surname>Schuch</surname></rs>.― <rs type="work" subtype="self" xml:id="bibl_11484">Medardus</rs> an die 
 <rs type="person" xml:id="pNt_31864" ref="#person_21232"><surname>Wengerow</surname></rs>.</p>
-            <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_31865" ref="#person_13551"><forename>Richard</forename></rs> und <rs type="person" xml:id="pNt_31866" ref="#person_13550"><forename>Paula</forename></rs>, mit (später) Olga und <rs type="person" xml:id="pNt_31867" ref="#person_19822"><forename>Heini</forename></rs>. Über <rs type="place" xml:id="pl_06929" ref="#place_19ed5f8ceab486afbee6b3ba5c88884d">Dresden</rs>. 
-<rs type="person" xml:id="pNt_31868" ref="#person_13551"><forename>Richard</forename></rs> erinnerte sich eines Gesprächs im Café <rs type="place" ref="#place_pfob">Pfob</rs> vor vielen (12) 
+            <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_31865" ref="#person_13551"><forename>Richard</forename></rs> und <rs type="person" xml:id="pNt_31866" ref="#person_13550"><forename>Paula</forename></rs>, mit (später) Olga und <rs type="person" xml:id="pNt_31867" ref="#person_19822"><forename>Heini</forename></rs>. Über <rs type="place" xml:id="pl_06929" ref="#pmb90550">Dresden</rs>. 
+<rs type="person" xml:id="pNt_31868" ref="#person_13551"><forename>Richard</forename></rs> erinnerte sich eines Gesprächs im Café <rs type="place" ref="#pmb92444">Pfob</rs> vor vielen (12) 
 Jahren ― in dem ich <rs type="person" xml:id="pNt_31870" ref="#person_16293"><forename>Hugo</forename></rs> gegenüber, der durchaus auch die 
 <rs type="work" subtype="self" xml:id="bibl_11485">Pantomime</rs> schreiben wollte, mein Recht vertheidigte. Irrtum <rs type="person" xml:id="pNt_31871" ref="#person_13551"><forename>Richards</forename></rs>. Es 
 handelte sich um die „<rs type="work" subtype="self" xml:id="bibl_11486">Beatrice</rs>“.―</p>
@@ -198,6 +202,5 @@ Proben erzählte.</p>
             <p xml:space="preserve" rend="indent">Auf dem Heimweg <rs type="person" xml:id="pNt_31877" ref="#person_15338"><surname>Ludaßy</surname></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1902-07-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-07-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-07-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1902-07-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-07-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-07-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F362-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,16 +177,18 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1698.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1902-07-28">
-            <p xml:space="preserve"><date when="1902-07-28">28/7</date> <rs type="place" xml:id="pl_04038" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>. <rs type="person" xml:id="pNt_18788" ref="#person_21270"><roleName>Frl.</roleName> <surname>Wesel</surname></rs>, wegen <rs type="work" subtype="self" xml:id="bibl_18052">Bea.</rs> da.―</p>
+            <p xml:space="preserve"><date when="1902-07-28">28/7</date> <rs type="place" xml:id="pl_04038" ref="#pmb50">Wien</rs>. <rs type="person" xml:id="pNt_18788" ref="#person_21270"><roleName>Frl.</roleName> <surname>Wesel</surname></rs>, wegen <rs type="work" subtype="self" xml:id="bibl_18052">Bea.</rs> da.―</p>
             <p xml:space="preserve" rend="indent">Abends mit <rs type="person" xml:id="pNt_18789" ref="#person_19542"><surname>Salten</surname></rs> (<rs type="person" xml:id="pNt_18790" ref="#person_20135"><surname>Singer</surname></rs>, <rs type="person" xml:id="pNt_18791" ref="#person_15004"><forename>Kurt</forename> <surname>Aram</surname></rs>, <rs type="person" xml:id="pNt_18792" ref="#person_19827"><forename>Julius</forename></rs>, <rs ref="#person_15253" type="person" xml:id="pNt_18793"><forename>Ephr.</forename> <surname>Frisch</surname></rs>) im 
 Café.― „<rs type="work" subtype="self" xml:id="bibl_18053">Thameyer</rs>“ neulich <rs type="work" subtype="newspaper" xml:id="bibl_18054">Zeit</rs>.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

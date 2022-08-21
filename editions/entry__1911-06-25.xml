@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-06-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-06-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-06-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-06-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-06-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-06-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FFE8-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3186.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1911-06-25">
-            <p xml:space="preserve"><date when="1911-06-25">25/6</date> S. Mit <rs type="person" xml:id="pNt_35632" ref="#person_19822"><forename>Heini</forename></rs> Hameau, <rs type="place" xml:id="pl_07517" ref="#place_75f2e194839d6ba0e5d4080c211a449a">Dornbacher Park</rs>.―</p>
+            <p xml:space="preserve"><date when="1911-06-25">25/6</date> S. Mit <rs type="person" xml:id="pNt_35632" ref="#person_19822"><forename>Heini</forename></rs> Hameau, <rs type="place" xml:id="pl_07517" ref="#pmb176">Dornbacher Park</rs>.―</p>
             <p xml:space="preserve" rend="indent"><rs type="allusively" xml:id="rst_01219">Mama</rs> zu Tisch.</p>
             <p xml:space="preserve" rend="indent">Nachmittag im Garten las ich <rs type="person" xml:id="pNt_35633" ref="#person_21614"><surname>Zweigs</surname></rs> Manuscript „<rs type="work" xml:id="bibl_11070">Haus am Meer</rs>“. 1. 
 und 2. Akt spannend ― begabt,― der dritte balladesk ― und es kommt 
@@ -194,6 +198,5 @@ Bruder, vom Sehn seit Jahrzehnten mir bekannt). Nach dem
 Nachtmahl im Garten. Bowle.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

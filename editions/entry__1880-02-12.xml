@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1880-02-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-02-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-02-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1880-02-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-02-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-02-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DCEC-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0023.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1880-02-12">
-            <p xml:space="preserve"><date when="1880-02-12">12/2</date> Donnerstag Mg.― Gestern Abend <rs type="person" xml:id="pNt_00204" ref="#person_17368"><forename>Fany</forename></rs>, <rs type="place" xml:id="pl_00047" ref="#place_273c6fe7cd0300c46e98e05cc3414e33">Quaipark</rs>, Küsse. <rs type="person" xml:id="pNt_00205" ref="#person_17368"><forename>Fanny</forename></rs> 
+            <p xml:space="preserve"><date when="1880-02-12">12/2</date> Donnerstag Mg.― Gestern Abend <rs type="person" xml:id="pNt_00204" ref="#person_17368"><forename>Fany</forename></rs>, <rs type="place" xml:id="pl_00047" ref="#pmb92469">Quaipark</rs>, Küsse. <rs type="person" xml:id="pNt_00205" ref="#person_17368"><forename>Fanny</forename></rs> 
 hat <rs type="person" xml:id="pNt_00206" ref="#person_16963"><forename>Ida</forename></rs> Montag besucht. <rs type="person" xml:id="pNt_00207" ref="#person_16963"><forename>Ida</forename></rs> begann wieder: ich liebe <rs type="person" xml:id="pNt_00208" ref="#person_17368"><forename>Fany</forename></rs> nicht, wir 
 passten nicht zu einander ― sie solle mich doch ihr überlassen u. ä. Das 
 Geschwisterpaar <rs type="person" xml:id="pNt_00209" ref="#person_16972"><forename>Wilhelm</forename></rs> und <rs type="person" xml:id="pNt_00210" ref="#person_16963"><forename>Ida</forename></rs> stellt die „unglücklich liebenden“ vor.</p>
@@ -194,6 +198,5 @@ Geschwisterpaar <rs type="person" xml:id="pNt_00209" ref="#person_16972"><forena
             </tei:fw>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

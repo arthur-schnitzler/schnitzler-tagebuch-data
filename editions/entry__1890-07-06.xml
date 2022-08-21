@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1890-07-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-07-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-07-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1890-07-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-07-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-07-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E2DC-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0462.tif"/>
@@ -183,10 +187,9 @@
          <div type="diary-day" xml:id="entry__1890-07-06">
             <p xml:space="preserve"><date when="1890-07-06">6.</date> Bei <rs type="person" xml:id="pNt_04652" ref="#person_20204"><surname>Sonnenthal</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">„<rs type="work" subtype="self" xml:id="bibl_23247">Alkandi</rs>“ soll zur Aufführung geändert werden.― (Dumm.)</p>
-            <p xml:space="preserve" rend="indent">Nach <rs type="place" xml:id="pl_00926" ref="#place_7140b1dc7868cdd3d911da75b9a84e45">Wü.</rs>― Speisen mit <rs type="person" xml:id="pNt_04653" ref="#person_15485"><forename>Mz.</forename></rs>, Bruder und Schwester. Spazierg., 
+            <p xml:space="preserve" rend="indent">Nach <rs type="place" xml:id="pl_00926" ref="#pmb92111">Wü.</rs>― Speisen mit <rs type="person" xml:id="pNt_04653" ref="#person_15485"><forename>Mz.</forename></rs>, Bruder und Schwester. Spazierg., 
 Wirtstube, Schlafzimmer.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-07-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-07-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-07-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-07-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-07-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-07-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0FA5-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5758.tif"/>
@@ -183,16 +187,15 @@
          <div type="diary-day" xml:id="entry__1922-07-10">
             <p xml:space="preserve"><date when="1922-07-10">10/7</date> Dictirt <rs type="work" subtype="self" xml:id="bibl_2660">Verf.</rs>, Briefe.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_2661">Verf.</rs>―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_66585" ref="#person_20523"><forename>Annie</forename> <surname>Strial</surname></rs> mit Töchterchen. Directorsgattin in <rs type="place" xml:id="pl_14011" ref="#place_c38ad36647aca0261d667c432a4866bd">Salzburg</rs>. Selbstmord des 
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_66585" ref="#person_20523"><forename>Annie</forename> <surname>Strial</surname></rs> mit Töchterchen. Directorsgattin in <rs type="place" xml:id="pl_14011" ref="#pmb91649">Salzburg</rs>. Selbstmord des 
 Vaters, vorzeitiger Verkauf des <rs type="place" xml:id="pl_14012" ref="#place_007ed098fbbb92c86e893eac28ce3391" ana="#exclude">St. Gilgner</rs> Hauses.― Das Theater (wie die 
 meisten) vor der Pleite.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_66586" ref="#person_20242"><forename>Felix</forename> <surname>Speidel</surname></rs>; erzählt von dem neusten Anfall <rs type="person" xml:id="pNt_66587" ref="#person_15833"><forename>Else’s</forename></rs>.―</p>
             <p xml:space="preserve" rend="indent">― Dr. <rs type="person" xml:id="pNt_66588" ref="#person_15412"><forename>Emil</forename> <surname>Geyer</surname></rs> holt mich ab; er hat das Theater abgegeben, wird 
 Oberregisseur bei <rs type="person" xml:id="pNt_66589" ref="#person_19294"><surname>Robert</surname></rs> (dem Großunternehmer) wir nachtmahlen im 
-<rs type="place" xml:id="pl_14013" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs>; reden über die Zeitläufte, <rs type="person" xml:id="pNt_66590" ref="#person_15499"><surname>Goethe</surname></rs>, <rs type="person" xml:id="pNt_66591" ref="#person_15751"><surname>Gundolf</surname></rs>, <rs type="person" xml:id="pNt_66592" ref="#person_13920"><surname>Brandes</surname></rs> u. a. 
+<rs type="place" xml:id="pl_14013" ref="#pmb113">Türkenschanzpark</rs>; reden über die Zeitläufte, <rs type="person" xml:id="pNt_66590" ref="#person_15499"><surname>Goethe</surname></rs>, <rs type="person" xml:id="pNt_66591" ref="#person_15751"><surname>Gundolf</surname></rs>, <rs type="person" xml:id="pNt_66592" ref="#person_13920"><surname>Brandes</surname></rs> u. a. 
 Netter kluger Mensch.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

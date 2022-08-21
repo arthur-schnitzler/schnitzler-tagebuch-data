@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-06-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-06-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-06-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-06-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-06-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-06-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0B39-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,13 +177,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4851.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4852.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1919-06-03">
             <p xml:space="preserve"><date when="1919-06-03">3/6</date> Die Friedensbedingungen der Entente für uns.― Worte sind nichtig.― 
 Nicht was hier geschieht, empfind ich als das ungeheuerliche ― Triumphe 
@@ -192,13 +197,14 @@ auch für den Blindesten als Lüge demaskirt ― Lüge ohne Zweck,―
 Lüge, die nicht einmal mehr Hohn ist,― kaum mehr Phrase;― kurz die 
 „Lüge an sich“ ― ohne Zweck, ohne Witz, ohne Sinn, ohne Größe;― 
 die erleben wir zum ersten Mal.―</p>
-            <p xml:space="preserve" rend="indent">Vm. in <rs type="place" xml:id="pl_11672" ref="#place_9a43e84f6e1d406076f2372205804f6d">Baden</rs>, Pens. Melanie; bei <rs type="person" xml:id="pNt_56176" ref="#person_13355"><roleName>Frau</roleName> <surname>Bachrach</surname></rs> gespeist.― Vorher <rs type="place" xml:id="pl_11673" ref="#place_9e2ee34fcaffc949ef9ba97bb40e6969">Curpark</rs>; 
-alter College <rs type="person" xml:id="pNt_56177" ref="#person_15662"><roleName>Dr.</roleName> <surname>Grimm</surname></rs>, Sanat.director <rs type="place" xml:id="pl_11674" ref="#place_0489f283a2b35f0dd58710dd90ac9cba">Sauerbrunn</rs>, der mir erbauliches 
+            <p xml:space="preserve" rend="indent">Vm. in <rs type="place" xml:id="pl_11672" ref="#pmb662">Baden</rs>, Pens. Melanie; bei <rs type="person" xml:id="pNt_56176" ref="#person_13355"><roleName>Frau</roleName> <surname>Bachrach</surname></rs> gespeist.― Vorher <rs type="place" xml:id="pl_11673" ref="#pmb92195">Curpark</rs>; 
+alter College <rs type="person" xml:id="pNt_56177" ref="#person_15662"><roleName>Dr.</roleName> <surname>Grimm</surname></rs>, Sanat.director <rs type="place" xml:id="pl_11674" ref="#pmb91665">Sauerbrunn</rs>, der mir erbauliches 
 von der Rätheregierung erzählt.</p>
-            <p xml:space="preserve" rend="indent">Gegen Abend Lehrer <rs type="person" xml:id="pNt_56178" ref="#person_20426"><surname>Sterneder</surname></rs>, <rs type="place" xml:id="pl_11675" ref="#place_98e3905d8881000f9e2a35e1ac8461ea">Favoriten</rs>, <rs type="place" xml:id="pl_11676" ref="#place_c9fe2ce48d12e0308505cd0da82e9273">Gloggnitz</rs>; erzählt mir von den 
+            <p xml:space="preserve" rend="indent">Gegen Abend Lehrer <rs type="person" xml:id="pNt_56178" ref="#person_20426"><surname>Sterneder</surname></rs>, <rs type="place" xml:id="pl_11675" ref="#pmb60">Favoriten</rs>, <rs type="place" xml:id="pl_11676" ref="#pmb90727">Gloggnitz</rs>; erzählt mir von den 
 officiellen Bahngaunereien während des Krieges, Schulverhältnissen, 
 Politik u. dgl.</p>
-            <p xml:space="preserve" rend="indent">O. kam an, gebräunt; aus <rs type="place" xml:id="pl_11677" ref="#place_dde8340eddd15130ea21b08179f85aa4">Mönichkirchen</rs>;― mit Fleisch und Butter.―</p>
+            <p xml:space="preserve" rend="indent">O. kam an, gebräunt; aus <rs type="place" xml:id="pl_11677" ref="#pmb91274">Mönichkirchen</rs>;― mit Fleisch und Butter.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

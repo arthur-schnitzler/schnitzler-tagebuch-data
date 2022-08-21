@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-04-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-04-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-04-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-04-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-04-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-04-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-011B-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3386.tif"/>
@@ -184,7 +188,7 @@
             <p xml:space="preserve"><date when="1912-04-27">27/4</date> Tennis; dann mit O. und <rs type="person" xml:id="pNt_37840" ref="#person_16770"><surname>Kaufmann</surname></rs> <rs type="person" xml:id="pNt_37841" ref="#person_20872"><forename>Agnes</forename></rs> besucht, Sonnenbalkon.</p>
             <p xml:space="preserve" rend="indent">Nm. im Garten <rs type="work" subtype="self" xml:id="bibl_10184">Bernhardi</rs> 4 Akte durchgelesen, am 4. noch etwas 
 gefeilt. Werden sehen.―</p>
-            <p xml:space="preserve" rend="indent">Mit O. Oper (<rs type="work" xml:id="bibl_10185">Carmen</rs>; <rs type="person" xml:id="pNt_37842" ref="#person_15766"><surname>Schoder</surname></rs>, <rs type="person" xml:id="pNt_37843" ref="#person_13381"><surname>Baklanoff</surname></rs>), nachher <rs type="place" ref="#place_meissl">Meissl</rs> mit 
+            <p xml:space="preserve" rend="indent">Mit O. Oper (<rs type="work" xml:id="bibl_10185">Carmen</rs>; <rs type="person" xml:id="pNt_37842" ref="#person_15766"><surname>Schoder</surname></rs>, <rs type="person" xml:id="pNt_37843" ref="#person_13381"><surname>Baklanoff</surname></rs>), nachher <rs type="place" ref="#pmb96">Meissl</rs> mit 
 <rs type="person" xml:id="pNt_37845" ref="#person_13551"><forename>Richards</forename></rs>, <rs type="person" xml:id="pNt_37846" ref="#person_19542"><surname>Saltens</surname></rs>, <rs type="person" xml:id="pNt_37847" ref="#person_16770"><surname>Kaufmann</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Daheim die <rs type="work" subtype="newspaper" xml:id="bibl_10186">N. R.</rs> wieder vorgefunden, mit dem ersten „Jubiläums“ 
 Artikel von <rs type="person" xml:id="pNt_37848" ref="#person_19542"><surname>Salten</surname></rs>. Natürlich voll Preis ― und sehr hübsch geschrieben 
@@ -194,6 +198,5 @@ Widerstand und Vorsicht. (Lauter unbeweisbare Dinge ― und doch
 unwidersprechlich!) ―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

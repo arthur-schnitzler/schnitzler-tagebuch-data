@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-04-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-04-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-04-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-04-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-04-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-04-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0F5B-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,15 +177,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5703.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5704.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1922-04-27">
-            <p xml:space="preserve"><date when="1922-04-27">27/4</date> <rs type="place" xml:id="pl_13828" ref="#place_1d4660e0a445b02912a96b0ac4fe036a">Haag</rs>.―  <rs type="person" xml:id="pNt_65860" ref="#person_15982"><roleName>Hr.</roleName> <surname>Haus</surname></rs>, mir schon von Briefen her bekannt, will übersetzen.― 
+            <p xml:space="preserve"><date when="1922-04-27">27/4</date> <rs type="place" xml:id="pl_13828" ref="#pmb58810">Haag</rs>.―  <rs type="person" xml:id="pNt_65860" ref="#person_15982"><roleName>Hr.</roleName> <surname>Haus</surname></rs>, mir schon von Briefen her bekannt, will übersetzen.― 
 Ins Mauritshuis, wo <rs type="person" xml:id="pNt_65861" ref="#person_17947"><roleName>Director</roleName> <surname>Martin</surname></rs> meinen Führer macht;― klug und angenehm. 
 Sein Assistent <rs type="person" xml:id="pNt_65862" ref="#person_19806"><roleName>Dr.</roleName> <surname>Schneider</surname></rs>. Später auch seine Frau.― Tiefste Ergriffenheit 
 vor <rs type="person" xml:id="pNt_65863" ref="#person_19181"><surname>Rembrandts</surname></rs> <rs type="work" xml:id="bibl_2507">Saul und David</rs>.―</p>
@@ -198,5 +203,6 @@ an ― offenbar ― mir zu Ehren. Alles erhob sich; <rs type="person" xml:id="pN
 dann <rs type="place" xml:id="pl_13831" ref="#place_29edfc109f5a668e40ee5525a2f6c059" ana="#exclude">deutsche</rs> Hymne, „<rs type="work" xml:id="bibl_2510">Heil dir</rs>“ ― auch allgemeines Erheben. Unsre 
 Republiken!</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

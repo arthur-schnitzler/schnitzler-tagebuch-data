@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-07-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-07-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-07-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-07-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-07-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-07-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-155C-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6690.tif"/>
@@ -183,12 +187,11 @@
          <div type="diary-day" xml:id="entry__1926-07-13">
             <p xml:space="preserve"><date when="1926-07-13">13/7</date> Vm. bei <rs type="person" xml:id="pNt_78217" ref="#person_19986"><forename>Gustav</forename></rs>. Er hatte die <rs type="work" subtype="self" xml:id="bibl_20313">Badner Nov.</rs> (ohne Schluss) gelesen, gab 
 einige recht gute Directiven.―</p>
-            <p xml:space="preserve" rend="indent">Im Histor. Museum Stadt <rs type="place" xml:id="pl_16740" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>, Autografenausstellung; <rs type="person" xml:id="pNt_78218" ref="#person_13711"><roleName>Dr.</roleName> <surname>Biberhofer</surname></rs> (?) 
+            <p xml:space="preserve" rend="indent">Im Histor. Museum Stadt <rs type="place" xml:id="pl_16740" ref="#pmb50">Wien</rs>, Autografenausstellung; <rs type="person" xml:id="pNt_78218" ref="#person_13711"><roleName>Dr.</roleName> <surname>Biberhofer</surname></rs> (?) 
 führte mich herum;― sah etliches von mir unter Glas liegen.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_20314">Diagr.</rs>, an „<rs type="work" subtype="self" xml:id="bibl_20315">Therese</rs>“.―</p>
             <p xml:space="preserve" rend="indent">Z. N. <rs type="person" xml:id="pNt_78219" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>, sowie <rs type="person" xml:id="pNt_78220" ref="#person_18881"><forename>Kolap</forename></rs> und Hofrath <rs type="person" xml:id="pNt_78221" ref="#person_18863"><surname>P.</surname></rs> bei mir; es war ganz animirt.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

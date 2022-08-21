@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-01-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-01-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-01-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-01-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-01-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-01-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0AB2-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4782.tif"/>
@@ -183,7 +187,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1919-01-19">
             <p xml:space="preserve"><date when="1919-01-19">19/1</date> S. Vm. bei <rs type="person" xml:id="pNt_55230" ref="#person_18691"><surname>Paulsen</surname></rs>; brachte ihm Cigarren. (Feuill. <rs type="person" xml:id="pNt_55231" ref="#person_19850"><surname>Schönherrs</surname></rs> gegen 
-<rs type="person" xml:id="pNt_55232" ref="#person_13374"><surname>Bahr</surname></rs>;― ev. <rs type="work" subtype="self" xml:id="bibl_4500">Medardus</rs> Aufführungsmöglichkeiten,― <rs type="place" ref="#place_burgtheater">Burgtheater</rs>zustände, 
+<rs type="person" xml:id="pNt_55232" ref="#person_13374"><surname>Bahr</surname></rs>;― ev. <rs type="work" subtype="self" xml:id="bibl_4500">Medardus</rs> Aufführungsmöglichkeiten,― <rs type="place" ref="#pmb14">Burgtheater</rs>zustände, 
 die sich vorläufig unter der Republik nicht geändert haben.) Frau 
 <rs type="person" xml:id="pNt_55233" ref="#person_13776"><surname>Bleibtreu</surname></rs> kam später dazu.</p>
             <p xml:space="preserve" rend="indent">Indes O. in der Kinderkrankenanstalt, wegen einer <rs type="person" xml:id="pNt_55234"><roleName>Fr.</roleName> <surname>Roßmann</surname></rs>, 
@@ -198,6 +202,5 @@ vergebens gemüht, nun in 9 Bildern leicht von der Hand ging.</p>
 aber nicht ganz ohne Talent scheint.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-06-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-06-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-06-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-06-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-06-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-06-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FE64-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2912.tif"/>
@@ -183,7 +187,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1910-06-02">
-            <p xml:space="preserve"><date when="1910-06-02">2/6</date> Ankunft <rs type="place" xml:id="pl_07084" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>. Die Kinder wohl und entzückend.―</p>
+            <p xml:space="preserve"><date when="1910-06-02">2/6</date> Ankunft <rs type="place" xml:id="pl_07084" ref="#pmb50">Wien</rs>. Die Kinder wohl und entzückend.―</p>
             <p xml:space="preserve" rend="indent">Briefe, darunter eine Anfrage <rs type="person" xml:id="pNt_32754" ref="#person_15009"><forename>S.</forename> <surname>Fischers</surname></rs>, zu meinem 
 50. Geburtstag eine Auswahl meiner Werke herauszugeben, in 3 Bänden etwa.― 
 Dagegen.― <rs type="person" xml:id="pNt_32755" ref="#person_21076"><surname>Walsersches</surname></rs> Titelblatt zum <rs type="work" subtype="self" xml:id="bibl_11761">Medardus</rs>, hübsch.―</p>
@@ -210,6 +214,5 @@ lustig“ …―</p>
             <p xml:space="preserve" rend="indent">Die Reise eingetragen.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

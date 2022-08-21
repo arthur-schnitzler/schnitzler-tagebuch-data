@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-10-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-10-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-10-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-10-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-10-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-10-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FD8A-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2773.tif"/>
@@ -183,7 +187,7 @@
          <div type="diary-day" xml:id="entry__1909-10-27">
             <p xml:space="preserve"><date when="1909-10-27">27/10</date> Vm. bei <rs type="person" xml:id="pNt_31103" ref="#person_19542"><surname>Salten</surname></rs> (wegen der <rs type="work" subtype="self" xml:id="bibl_12941">Med.-Vorlesung</rs>). Er las mir einige 
 Verse aus seiner <rs type="work" xml:id="bibl_12942">Dagobert</rs> Übersetzung. (Hübsch.) <rs type="person" xml:id="pNt_31104" ref="#person_13740"><roleName>Hr.</roleName> <surname>Birjukow</surname></rs>, Schriftsteller, deutsch und russisch.―</p>
-            <p xml:space="preserve" rend="indent">Bei Herrn <rs type="person" xml:id="pNt_31105" ref="#person_19751"><forename>Franz Otto</forename> <surname>Schmid</surname></rs> aus <rs type="place" xml:id="pl_06845" ref="#place_961698fa64951bd6d3437ebc7931a899">Bern</rs>, Gegenbesuch. Bei <rs type="person" xml:id="pNt_31106" ref="#person_19827"><forename>Julius</forename></rs> 
+            <p xml:space="preserve" rend="indent">Bei Herrn <rs type="person" xml:id="pNt_31105" ref="#person_19751"><forename>Franz Otto</forename> <surname>Schmid</surname></rs> aus <rs type="place" xml:id="pl_06845" ref="#pmb1223">Bern</rs>, Gegenbesuch. Bei <rs type="person" xml:id="pNt_31106" ref="#person_19827"><forename>Julius</forename></rs> 
 mir eine Kleinigkeit am Finger „operiren“ lassen.―</p>
             <p xml:space="preserve" rend="indent">Nachmittag schlecht am <rs type="work" subtype="self" xml:id="bibl_12943">Bernhardi</rs>.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_31107" ref="#person_13551"><forename>Richard</forename></rs> und <rs type="person" xml:id="pNt_31108" ref="#person_13550"><forename>Paula</forename></rs> zu Besuch; er krittelte an der „<rs type="work" xml:id="bibl_12944">Königlichen 
@@ -191,6 +195,5 @@ Hoheit</rs>“ und an den <rs type="person" xml:id="pNt_31109" ref="#person_1918
             <p xml:space="preserve" rend="indent">― Las <rs type="person" xml:id="pNt_31110" ref="#person_13227"><surname>Anthes</surname></rs>, <rs type="work" xml:id="bibl_12945">Don Juans Ende</rs>, neulich mit Erfolg an der neuen Bühne aufgeführt. Interessant.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

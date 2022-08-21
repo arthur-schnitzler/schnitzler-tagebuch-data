@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-07-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-07-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-07-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-07-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-07-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-07-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1B20-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7530.tif"/>
@@ -181,8 +185,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1930-07-29">
-            <p xml:space="preserve"><date when="1930-07-29">29/7</date> <rs type="place" xml:id="pl_19397" ref="#place_51c7c0e8bc877f41a415a8e7efedd068">St. Moritz</rs>. Bahn <rs type="place" xml:id="pl_19398" ref="#place_3d72bdaa15b780b7bbc4b68c1f7fe5d3">Chantarella</rs> ― <rs type="place" xml:id="pl_19399" ref="#place_3094b6dc7c8c628fe826f788015c9349">Corviglia</rs>; zur Hütte; zurück Bahn 
-<rs type="place" xml:id="pl_19400" ref="#place_3d72bdaa15b780b7bbc4b68c1f7fe5d3">Chantarella</rs>;― über <rs type="place" xml:id="pl_19401" ref="#place_b02d6c4e9a9d063d8b644e1a04187705">Ober Alpina</rs> (Bankrast mit Karten) ― <rs type="place" xml:id="pl_19402" ref="#place_51c7c0e8bc877f41a415a8e7efedd068">St. Moritz</rs>.―</p>
+            <p xml:space="preserve"><date when="1930-07-29">29/7</date> <rs type="place" xml:id="pl_19397" ref="#pmb44374">St. Moritz</rs>. Bahn <rs type="place" xml:id="pl_19398" ref="#pmb92186">Chantarella</rs> ― <rs type="place" xml:id="pl_19399" ref="#pmb90496">Corviglia</rs>; zur Hütte; zurück Bahn 
+<rs type="place" xml:id="pl_19400" ref="#pmb92186">Chantarella</rs>;― über <rs type="place" xml:id="pl_19401" ref="#pmb91373">Ober Alpina</rs> (Bankrast mit Karten) ― <rs type="place" xml:id="pl_19402" ref="#pmb44374">St. Moritz</rs>.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_90343" ref="#person_19827"><forename>Julius</forename></rs> und <rs type="person" xml:id="pNt_90344" ref="#person_19823"><forename>Helene</forename></rs> kommen an.</p>
             <p xml:space="preserve" rend="indent">Tel. von <rs type="person" xml:id="pNt_90345" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs></p>
             <p xml:space="preserve" rend="indent">Der Brief von <rs type="person" xml:id="pNt_90346" ref="#person_17110"><forename>Lili</forename> <surname>Kr.</surname></rs> an <rs ref="#person_14481" type="person" xml:id="pNt_90347"><forename>Annie</forename></rs> (ihr Kind, Scheinehe) ―</p>
@@ -190,6 +194,5 @@
             <p xml:space="preserve" rend="indent">Sehr wenig wohl.― Schlechtwetter.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

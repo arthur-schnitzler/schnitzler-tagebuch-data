@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-09-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-08-31.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-09-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-09-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-08-31.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-09-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-002C-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3212.tif"/>
@@ -189,13 +193,12 @@
                   <date type="range">1911: IX 1 ― IX 4</date>
                </fw>
             </tei:fw>
-            <p xml:space="preserve" rend="indent">War Vm. im <rs type="place" ref="#place_burgtheater">Burgtheater</rs> bei <rs type="person" xml:id="pNt_35940" ref="#person_19364"><surname>Rosenbaum</surname></rs>. Über die Affaire „<rs type="work" subtype="newspaper" xml:id="bibl_11144">Temps</rs>“.</p>
+            <p xml:space="preserve" rend="indent">War Vm. im <rs type="place" ref="#pmb14">Burgtheater</rs> bei <rs type="person" xml:id="pNt_35940" ref="#person_19364"><surname>Rosenbaum</surname></rs>. Über die Affaire „<rs type="work" subtype="newspaper" xml:id="bibl_11144">Temps</rs>“.</p>
             <p xml:space="preserve" rend="indent">Nm. geordnet, Briefe etc.―</p>
             <p xml:space="preserve" rend="indent">Im Sanatorium genachtmahlt.―</p>
             <p xml:space="preserve" rend="indent">Nachher bei uns <rs type="person" xml:id="pNt_35941" ref="#person_19755"><surname>Schmidl</surname></rs> und <rs type="person" xml:id="pNt_35942" ref="#person_20872"><forename>Agnes</forename></rs>. Über <rs type="person" xml:id="pNt_35943" ref="#person_21107"><forename>Jacob</forename></rs> und <rs type="person" xml:id="pNt_35944" ref="#person_13359"><forename>Steffi</forename></rs>. <rs type="person" xml:id="pNt_35945" ref="#person_20872"><forename>Agnes</forename></rs> 
 weinte.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

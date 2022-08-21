@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1917-10-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-10-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-10-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1917-10-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-10-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-10-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-08E4-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4540.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1917-10-13">
-            <p xml:space="preserve"><date when="1917-10-13">13/10</date> Vm. bei <rs type="person" xml:id="pNt_51681" ref="#person_19986"><forename>Gustav</forename></rs>. (<rs type="place" ref="#place_burgtheater">Burgtheater</rs>zustände; neue Stücke etc. 
+            <p xml:space="preserve"><date when="1917-10-13">13/10</date> Vm. bei <rs type="person" xml:id="pNt_51681" ref="#person_19986"><forename>Gustav</forename></rs>. (<rs type="place" ref="#pmb14">Burgtheater</rs>zustände; neue Stücke etc. 
 Kriegsmisslichkeiten. Endlosigkeit. Kohlenmangel. Behördliche Verordnungen 
 etc.―) ― Bei <rs type="person" xml:id="pNt_51682" ref="#person_17822"><roleName>Tante</roleName> <forename>Irene</forename></rs> (Sanat. <rs ref="#person_19831" type="person" xml:id="pNt_51683"><surname>Loew</surname></rs>; das Zimmer über dem wo <rs type="allusively" xml:id="rst_01529">Mama</rs> 
 starb).― <rs type="person" xml:id="pNt_51684" ref="#person_19986"><forename>Gustav</forename></rs> möchte eine „Geschichte seiner Dummheit“ schreiben.</p>
@@ -189,6 +193,5 @@ starb).― <rs type="person" xml:id="pNt_51684" ref="#person_19986"><forename>Gu
             <p xml:space="preserve" rend="indent">Conc. <rs type="person" xml:id="pNt_51685" ref="#person_14473"><surname>Dohnanyi</surname></rs> (<rs type="person" xml:id="pNt_51686" ref="#person_13555"><surname>Beethoven</surname></rs> Clavierconcert).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

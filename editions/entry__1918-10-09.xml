@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-10-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-10-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-10-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-10-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-10-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-10-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0A4C-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4717.tif"/>
@@ -183,7 +187,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1918-10-09">
             <p xml:space="preserve"><date when="1918-10-09">9/10</date> Traum: Bei einem Cravatenhändler, etwa <rs type="institution" xml:id="pNt_54362"><surname>Malowan</surname></rs>, oder <rs type="institution" xml:id="pNt_54363"><surname>Berecz</surname></rs> ― 
-aber <rs type="place" xml:id="pl_11271" ref="#place_be1dc48f073582ad5b48b31ca7265c9b">Opernring</rs> ― (neben <rs type="place" xml:id="pl_11272" ref="#place_cfa835a4df2f287f2b999521ebe66bee">Burgring</rs>), Olga räth mir Cravaten, fertig 
+aber <rs type="place" xml:id="pl_11271" ref="#pmb717">Opernring</rs> ― (neben <rs type="place" xml:id="pl_11272" ref="#pmb274">Burgring</rs>), Olga räth mir Cravaten, fertig 
 gebundne,― ich wundre mich über ihren Ungeschmack; frage nach dem Preis 
 einer braunen ― 400 Kronen;― eine schwarze würde 200 kosten; ich kaufe 
 nichts, im Café daneben wartet Olga, bei Eis in Blechtassen; alter Herr 
@@ -208,6 +212,5 @@ Logengängen ― häufiger Traum.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_54371" ref="#person_19822"><forename>Heini</forename></rs> <rs type="person" xml:id="pNt_54372" ref="#person_18282"><surname>Mozart</surname></rs> <rs type="work" xml:id="bibl_5878">Clavier Conc. VI</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

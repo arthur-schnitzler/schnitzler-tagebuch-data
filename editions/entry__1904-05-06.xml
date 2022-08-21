@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-05-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-05-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-05-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-05-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-05-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-05-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F5DF-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1916.tif"/>
@@ -180,12 +184,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1904-05-06">
-            <p xml:space="preserve"><date when="1904-05-06">6/5</date> <rs type="place" xml:id="pl_04689" ref="#place_0bcbcfedf2ef1f96542597b9279fb141">Rom</rs>. Bahn <rs type="place" xml:id="pl_04690" ref="#place_0ce0fdbc738d4690cf3f0826a268e311">Frascati</rs>. Wagen <rs type="place" xml:id="pl_04691" ref="#place_32fcf5bddee503276d7cf2702f9ee56a">Grottaferrata</rs>, <rs type="place" xml:id="pl_04692" ref="#place_292e8f777b5f5527186f7bf3327fc0f3">Marino</rs>, <rs type="place" xml:id="pl_04693" ref="#place_547d417a217cab9e5453b8c0a1faef5d">Castel Gandolfo</rs> 
-<rs type="place" xml:id="pl_04694" ref="#place_7ae173f12dc9faed162906144cc20d43">Albano</rs>.― <rs type="place" xml:id="pl_04695" ref="#place_b204b2eb018698f172f28a482ffda3fb">Genzano</rs>: Villa Cesarini, der sommerl. Park, die Stille, <rs type="place" xml:id="pl_04696" ref="#place_5047381852f5439067c2f149db774e8a">Nemisee</rs> 
-und <rs type="place" xml:id="pl_04697" ref="#place_598c1d2f88a1ba4c4c638f543c915292">Nemi</rs> drüben.― Auf der <rs type="place" xml:id="pl_04698" ref="#place_12a0d0d609c9015457709c4458abdb20">Appia nuova</rs> zu Wagen zurück ― Im Grd. 
+            <p xml:space="preserve"><date when="1904-05-06">6/5</date> <rs type="place" xml:id="pl_04689" ref="#pmb445">Rom</rs>. Bahn <rs type="place" xml:id="pl_04690" ref="#pmb40272">Frascati</rs>. Wagen <rs type="place" xml:id="pl_04691" ref="#pmb90781">Grottaferrata</rs>, <rs type="place" xml:id="pl_04692" ref="#pmb91215">Marino</rs>, <rs type="place" xml:id="pl_04693" ref="#pmb90454">Castel Gandolfo</rs> 
+<rs type="place" xml:id="pl_04694" ref="#pmb55780">Albano</rs>.― <rs type="place" xml:id="pl_04695" ref="#pmb90699">Genzano</rs>: Villa Cesarini, der sommerl. Park, die Stille, <rs type="place" xml:id="pl_04696" ref="#pmb91334">Nemisee</rs> 
+und <rs type="place" xml:id="pl_04697" ref="#pmb91332">Nemi</rs> drüben.― Auf der <rs type="place" xml:id="pl_04698" ref="#pmb92147">Appia nuova</rs> zu Wagen zurück ― Im Grd. 
 Hotel <rs type="person" xml:id="pNt_21056" ref="#person_15775"><forename>Arth. v.</forename> <surname>Gutmann-Gelse</surname></rs> und Frau.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

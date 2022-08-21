@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-12-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-12-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-12-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-12-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-12-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-12-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FDC5-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,18 +177,19 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2812.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2813.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1909-12-25">
             <p xml:space="preserve"><date when="1909-12-25">25/12</date> Von beinah gleichgiltigen Briefen aus in meiner Labilität 
 Kopfweh. Nebelwetter. <rs type="person" xml:id="pNt_31552" ref="#person_19822"><forename>Heini</forename></rs> zu <rs type="allusively" xml:id="rst_01076">Mama</rs> begleitet, mit O. zu <rs type="person" xml:id="pNt_31553" ref="#person_17803"><surname>Manassewitsch</surname></rs> 
 und <rs type="person" xml:id="pNt_31554"><forename>Grethe</forename></rs> (<rs type="person" xml:id="pNt_31555"><surname>M.</surname></rs> neulich von <rs type="person" xml:id="pNt_31556" ref="#person_19827"><forename>Julius</forename></rs> operirt); mit O. zu <rs type="allusively" xml:id="rst_01077">Mama</rs>; O. und 
-<rs type="person" xml:id="pNt_31557" ref="#person_19822"><forename>Heini</forename></rs> ins <rs type="place" ref="#place_volkstheater">Volkstheater</rs> zu <rs type="work" xml:id="bibl_13110">Hansl</rs>; ich allein nach Haus. Nach Tisch 
+<rs type="person" xml:id="pNt_31557" ref="#person_19822"><forename>Heini</forename></rs> ins <rs type="place" ref="#pmb92202">Volkstheater</rs> zu <rs type="work" xml:id="bibl_13110">Hansl</rs>; ich allein nach Haus. Nach Tisch 
 kam <rs type="person" xml:id="pNt_31558" ref="#person_13551"><forename>Richard</forename></rs>, wir plauderten 2 Stunden, von einer Schmucknotiz 
 <rs type="person" xml:id="pNt_31559" ref="#person_20423"><surname>Sternbergs</surname></rs> in der <rs type="work" subtype="newspaper" xml:id="bibl_13111">N. Fr. Pr.</rs> ausgehend, der urchristliche Gefühle im 
 Stefansdom zu spüren vorgibt ― darüber daß die Juden der Juden 
@@ -198,5 +203,6 @@ gestern in den Blättern gelesen, habe er eigentlich gezögert ―
 nun wage er die Verantwortung nicht seinem präsumptiven Nachfolger die 
 ungeheure Arbeit aufzubürden etc … Letzter Versuch, der ihm nicht gelingen soll.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

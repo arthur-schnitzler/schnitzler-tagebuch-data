@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-08-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-08-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-08-31.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-08-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-08-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-08-31.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1866-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7156.tif"/>
@@ -182,8 +186,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1928-08-30">
-            <p xml:space="preserve"><date when="1928-08-30">30/8</date> <rs type="place" xml:id="pl_18237" ref="#place_fe4fde4a3e95b58db441851a81a1e349">Hohenschwangau</rs>.― Regen. Nach <rs type="place" xml:id="pl_18238" ref="#place_8095dac2112058772e6aefb197bd3e11">Füssen</rs> wir alle, <rs type="person" xml:id="pNt_84642" ref="#person_19822"><forename>Heini</forename></rs> und <rs type="person" xml:id="pNt_84643" ref="#person_13139"><forename>Ruth</forename></rs> 
-reisen nach <rs type="place" xml:id="pl_18239" ref="#place_d0a6343a081a7335baa965ce4fd0845c">München</rs> ( ― <rs type="place" xml:id="pl_18240" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>).</p>
+            <p xml:space="preserve"><date when="1928-08-30">30/8</date> <rs type="place" xml:id="pl_18237" ref="#pmb90895">Hohenschwangau</rs>.― Regen. Nach <rs type="place" xml:id="pl_18238" ref="#pmb596">Füssen</rs> wir alle, <rs type="person" xml:id="pNt_84642" ref="#person_19822"><forename>Heini</forename></rs> und <rs type="person" xml:id="pNt_84643" ref="#person_13139"><forename>Ruth</forename></rs> 
+reisen nach <rs type="place" xml:id="pl_18239" ref="#pmb45258">München</rs> ( ― <rs type="place" xml:id="pl_18240" ref="#pmb168">Berlin</rs>).</p>
             <p xml:space="preserve" rend="indent">Nm. sah ich „<rs type="work" subtype="self" xml:id="bibl_19619">Spiel der Sommerlüfte</rs>“ durch. In der Führung nicht 
 übel. Um es möglich zu machen, brauchte es freie, ach, heitre Stimmung.</p>
             <p xml:space="preserve" rend="indent">Abends ein Spaziergang mit <rs type="person" xml:id="pNt_84644" ref="#person_14129"><forename>Arnoldo</forename></rs> und <rs type="person" xml:id="pNt_84645" ref="#person_19832"><forename>Olga</forename></rs> (am Schwanseehotel vorbei).</p>
@@ -191,6 +195,5 @@ reisen nach <rs type="place" xml:id="pl_18239" ref="#place_d0a6343a081a7335baa96
             <p xml:space="preserve" rend="indent">Beginne <rs type="person" xml:id="pNt_84646" ref="#person_15894"><surname>Hamsuns</surname></rs> <rs type="work" xml:id="bibl_19621">Landstreicher</rs> zu lesen. (Es gehörte <rs type="person" xml:id="pNt_84647" ref="#person_14130"><forename>Lili</forename></rs>.)</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

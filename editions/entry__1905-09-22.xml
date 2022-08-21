@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-09-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-09-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-09-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-09-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-09-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-09-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F7D6-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2127.tif"/>
@@ -180,10 +184,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1905-09-22">
-            <p xml:space="preserve"><date when="1905-09-22">22/9</date> Vm. mit O. <rs type="place" xml:id="pl_05317" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs>. <rs type="person" xml:id="pNt_23457" ref="#person_14792"><roleName>Frl.</roleName> <surname>Erl</surname></rs> und Mutter mit uns.</p>
-            <p xml:space="preserve" rend="indent">Nm. <rs type="institution" xml:id="pNt_23458"><surname>Ortbauer</surname></rs> <rs type="place" xml:id="pl_05318" ref="#place_2aecac3a5fc580392bdd5187e0e6a2fc">Breitenstein</rs>, wo <rs type="person" xml:id="pNt_23459" ref="#person_20386"><forename>Liesl</forename></rs>, die gut aussieht.―</p>
+            <p xml:space="preserve"><date when="1905-09-22">22/9</date> Vm. mit O. <rs type="place" xml:id="pl_05317" ref="#pmb91735">Semmering</rs>. <rs type="person" xml:id="pNt_23457" ref="#person_14792"><roleName>Frl.</roleName> <surname>Erl</surname></rs> und Mutter mit uns.</p>
+            <p xml:space="preserve" rend="indent">Nm. <rs type="institution" xml:id="pNt_23458"><surname>Ortbauer</surname></rs> <rs type="place" xml:id="pl_05318" ref="#pmb36503">Breitenstein</rs>, wo <rs type="person" xml:id="pNt_23459" ref="#person_20386"><forename>Liesl</forename></rs>, die gut aussieht.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

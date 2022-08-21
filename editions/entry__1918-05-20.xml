@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-05-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-05-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-05-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-05-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-05-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-05-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-09BE-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4641.tif"/>
@@ -181,14 +185,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1918-05-20">
-            <p xml:space="preserve"><date when="1918-05-20">20/5</date> Pfingstmontag. <rs type="place" xml:id="pl_11015" ref="#place_3b0cf80ce6f7c6e0340cf31265c8f3f7">Sievring</rs> ― <rs type="place" xml:id="pl_11016" ref="#place_f31da60292f235984a0cb55466b84b5f">Weidlingbach</rs>, unbekannter Weg aufs Hameau 
-― <rs type="place" xml:id="pl_11017" ref="#place_a513bae177c89d12226f343ac5ff1ee3">Salmannsdorf</rs>.― Daheim ― die bekannte Stimmung vorgefunden.</p>
+            <p xml:space="preserve"><date when="1918-05-20">20/5</date> Pfingstmontag. <rs type="place" xml:id="pl_11015" ref="#pmb64219">Sievring</rs> ― <rs type="place" xml:id="pl_11016" ref="#pmb44394">Weidlingbach</rs>, unbekannter Weg aufs Hameau 
+― <rs type="place" xml:id="pl_11017" ref="#pmb91641">Salmannsdorf</rs>.― Daheim ― die bekannte Stimmung vorgefunden.</p>
             <p xml:space="preserve" rend="indent">Nm. am „<rs type="work" subtype="self" xml:id="bibl_5597">Weiher</rs>“.―</p>
             <p xml:space="preserve" rend="indent">Zum Thee <rs type="person" xml:id="pNt_53273" ref="#person_21600"><forename>Mimi</forename></rs> und <rs type="person" xml:id="pNt_53274" ref="#person_21602"><forename>Vicki</forename></rs>.―</p>
             <p xml:space="preserve" rend="indent">N. d. N. gingen wir mit <rs type="person" xml:id="pNt_53275" ref="#person_16852"><forename>Hansi</forename></rs> und ihrem Vater spazieren. Er erzählt 
-von seiner Frontreise (<rs type="place" xml:id="pl_11018" ref="#place_5a37c2c58a8f021590f7407492f9c38f">Ampezzothal</rs> etc.).</p>
+von seiner Frontreise (<rs type="place" xml:id="pl_11018" ref="#pmb34207">Ampezzothal</rs> etc.).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

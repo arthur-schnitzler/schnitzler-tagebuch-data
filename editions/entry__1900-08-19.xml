@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1900-08-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-08-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-08-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1900-08-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-08-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-08-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F0D5-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -162,7 +166,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1579.tif"/>
@@ -170,10 +174,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1900-08-19">
-            <p xml:space="preserve"><date when="1900-08-19">19/8</date> <rs type="place" xml:id="pl_03504" ref="#place_da8c62c36c0ec0edc0ab259a34a15aa2">Gargellen</rs> ― Schlappinerjoch nach <rs type="place" xml:id="pl_03505" ref="#place_b4a7b3f0378f4bf8ae5abf914e5efcca">Klosters</rs>. Bahn nach <rs type="place" xml:id="pl_03506" ref="#place_05e302e5aab8a6fdaa8f3d9a573b8c1b">Chur</rs>,
-Abends nach <rs type="place" xml:id="pl_03507" ref="#place_6b4ef94bb8c607223645e58ae43b57c7">Thusis</rs>. Einzelne und gemeinschaftl. Nervositäten.</p>
+            <p xml:space="preserve"><date when="1900-08-19">19/8</date> <rs type="place" xml:id="pl_03504" ref="#pmb90695">Gargellen</rs> ― Schlappinerjoch nach <rs type="place" xml:id="pl_03505" ref="#pmb38518">Klosters</rs>. Bahn nach <rs type="place" xml:id="pl_03506" ref="#pmb2448">Chur</rs>,
+Abends nach <rs type="place" xml:id="pl_03507" ref="#pmb91899">Thusis</rs>. Einzelne und gemeinschaftl. Nervositäten.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

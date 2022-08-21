@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-03-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-03-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-03-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-03-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-03-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-03-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FC9B-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2653.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1909-03-02">
-            <p xml:space="preserve"><date when="1909-03-02">2/3</date> Vm. besuchte ich <rs type="person" xml:id="pNt_29862" ref="#person_20872"><forename>Agnes</forename></rs>, die Abends nach <rs type="place" xml:id="pl_06615" ref="#place_d0a6343a081a7335baa965ce4fd0845c">München</rs> ― <rs type="place" xml:id="pl_06616" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs> fährt.</p>
+            <p xml:space="preserve"><date when="1909-03-02">2/3</date> Vm. besuchte ich <rs type="person" xml:id="pNt_29862" ref="#person_20872"><forename>Agnes</forename></rs>, die Abends nach <rs type="place" xml:id="pl_06615" ref="#pmb45258">München</rs> ― <rs type="place" xml:id="pl_06616" ref="#pmb182">Paris</rs> fährt.</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_29863" ref="#person_20242"><surname>Speidels</surname></rs>. Über seine Novelle. Er zweifelt, verzweifelt an seiner 
 Carrière; ich ermutige ihn.― Er hält Vorträge, Urania, Volksbildungsverein.</p>
             <p xml:space="preserve" rend="indent">― Nm. kommt <rs type="person" xml:id="pNt_29864" ref="#person_19542"><surname>Salten</surname></rs>, an dessen Thür ich Vm. vergeblich geläutet, 
@@ -197,13 +201,12 @@ Hut in die Stirn, um ihn nie wieder abzunehmen, ab.―</p>
 <rs type="person" xml:id="pNt_29877" ref="#person_17786"><surname>Mahler</surname></rs> <rs type="work" xml:id="bibl_12452">5.</rs> die stärker als je auf mich wirkte. Scherzo besonders. Er tritt 
 in die Gefilde der Heiterkeit als vornehmer Fremder.― Hinter mir, sich 
 widerlich benehmend Frau <rs type="person" xml:id="pNt_29878" ref="#person_21594"><forename>Bertha</forename> <surname>Zuckerkandl</surname></rs>. „Gut gehts dem 
-<rs type="person" xml:id="pNt_29879" ref="#person_17786"><surname>Mahler</surname></rs> ― in <rs type="place" xml:id="pl_06617" ref="#place_e884124295d0c4d07d9bcf5096fd5495">Amerika</rs> …“ Zu <rs type="person" xml:id="pNt_29880" ref="#person_16910"><surname>Klimt</surname></rs>, den sie mitgeschleppt hatte … 
+<rs type="person" xml:id="pNt_29879" ref="#person_17786"><surname>Mahler</surname></rs> ― in <rs type="place" xml:id="pl_06617" ref="#pmb43406">Amerika</rs> …“ Zu <rs type="person" xml:id="pNt_29880" ref="#person_16910"><surname>Klimt</surname></rs>, den sie mitgeschleppt hatte … 
 „Kennen Sie <rs type="person" xml:id="pNt_29881" ref="#person_14473"><surname>Dohnanyi</surname></rs> … ich krieg die Fraisen, wenn er spielt … ein 
 Genie … wie <rs type="person" xml:id="pNt_29882" ref="#person_17593"><surname>Liszt</surname></rs> …“ Beim Applaus nach Scherzo <rs type="person" xml:id="pNt_29883" ref="#person_17786"><surname>Mahler</surname></rs> … „ich 
 muß doch der <rs type="person" xml:id="pNt_29884" ref="#person_17784"><forename>Alma</forename></rs> (<rs type="person" xml:id="pNt_29885" ref="#person_17786"><surname>Mahler</surname></rs>) schreiben, wie oft er (<rs type="person" xml:id="pNt_29886"><surname>Loewe</surname></rs>) gerufen 
 worden ist“ …― Oh Clique!― „Freunde“ sind das traurigste Gewölk vor der Sonne eines Genies.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

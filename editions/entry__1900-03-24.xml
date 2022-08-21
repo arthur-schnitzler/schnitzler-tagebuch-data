@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1900-03-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-03-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-03-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1900-03-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-03-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-03-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F04C-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -162,15 +166,17 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1549.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1900-03-24">
-            <p xml:space="preserve"><date when="1900-03-24">24/3</date> Nachm. <rs type="person" xml:id="pNt_16943" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs> <rs type="place" xml:id="pl_03352" ref="#place_e2126a092a86733f5da8d4adc169adcd">H.g.</rs>― Die Vergangenheit.― Bei <rs type="person" xml:id="pNt_16944"><forename>Richard</forename> <surname>Brandes</surname></rs>
+            <p xml:space="preserve"><date when="1900-03-24">24/3</date> Nachm. <rs type="person" xml:id="pNt_16943" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs> <rs type="place" xml:id="pl_03352" ref="#pmb92266">H.g.</rs>― Die Vergangenheit.― Bei <rs type="person" xml:id="pNt_16944"><forename>Richard</forename> <surname>Brandes</surname></rs>
 u. a.― Vorm. bei <rs type="person" xml:id="pNt_16945" ref="#person_16363"><forename>Paul</forename></rs> und <rs type="person" xml:id="pNt_16946"><forename>Risa</forename> <surname>H.</surname></rs></p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

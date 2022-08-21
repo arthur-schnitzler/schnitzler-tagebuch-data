@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1900-03-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-03-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-03-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1900-03-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-03-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-03-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F043-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -162,7 +166,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1547.tif"/>
@@ -172,7 +176,7 @@
          <div type="diary-day" xml:id="entry__1900-03-15">
             <p xml:space="preserve"><date when="1900-03-15">15/3</date> In der früh Asc. ― sehr verstimmt.― Begegnete zufällig
 Schottenhof <rs type="person" xml:id="pNt_16921" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs> ― (war eigentlich glücklich darüber). Nm. in der
-<rs type="place" xml:id="pl_03346" ref="#place_e2126a092a86733f5da8d4adc169adcd">H.g.</rs> ― sie war wieder ganz lieb und quasi verliebt. Was hilfts. Im
+<rs type="place" xml:id="pl_03346" ref="#pmb92266">H.g.</rs> ― sie war wieder ganz lieb und quasi verliebt. Was hilfts. Im
 wesentlichen steht es doch beschämender Weise so, dass ich sie viel
 notwendiger brauche als sie mich und sie mehr für mich ist als ich
 für sie.―</p>
@@ -181,6 +185,5 @@ für sie.―</p>
 „dem herrlichen <rs type="place" xml:id="pl_03347" ref="#place_50e894142ac33c7995ffbbe910a79f77" ana="#exclude">Oesterreicher</rs>“!</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

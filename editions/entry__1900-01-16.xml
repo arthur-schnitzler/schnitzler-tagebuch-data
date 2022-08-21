@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1900-01-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-01-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-01-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1900-01-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-01-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-01-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F009-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -162,7 +166,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1532.tif"/>
@@ -170,10 +174,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1900-01-16">
-            <p xml:space="preserve"><date when="1900-01-16">16/1</date> <rs type="place" xml:id="pl_03309" ref="#place_a6323892ff6bb3b42d9ed4dcfbfd47a5">Wiednerth.</rs>― „<rs type="work" xml:id="bibl_18389">Sklave</rs>“.― <rs type="person" xml:id="pNt_16805" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs> und <rs type="person" xml:id="pNt_16806" ref="#person_20293"><surname>Spr.</surname></rs>― Im <rs type="person" xml:id="pNt_16807"><surname>Lehmann</surname></rs> steht
-meine <rs type="place" xml:id="pl_03310" ref="#place_d875eb393c66e72bae202421dff945d3">Tchl.</rs> Wohnung; war darüber beispiellos irritirt.</p>
+            <p xml:space="preserve"><date when="1900-01-16">16/1</date> <rs type="place" xml:id="pl_03309" ref="#pmb92603">Wiednerth.</rs>― „<rs type="work" xml:id="bibl_18389">Sklave</rs>“.― <rs type="person" xml:id="pNt_16805" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs> und <rs type="person" xml:id="pNt_16806" ref="#person_20293"><surname>Spr.</surname></rs>― Im <rs type="person" xml:id="pNt_16807"><surname>Lehmann</surname></rs> steht
+meine <rs type="place" xml:id="pl_03310" ref="#pmb790">Tchl.</rs> Wohnung; war darüber beispiellos irritirt.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

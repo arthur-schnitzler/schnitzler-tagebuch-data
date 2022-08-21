@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-05-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-05-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-05-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-05-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-05-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-05-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0138-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3405.tif"/>
@@ -183,7 +187,7 @@
          <div type="diary-day" xml:id="entry__1912-05-26">
             <p xml:space="preserve"><date when="1912-05-26">26/5</date> Pfingstsonntag.― Regen.―</p>
             <p xml:space="preserve" rend="indent">Früh am „<rs type="work" subtype="self" xml:id="bibl_10243">Bernhardi</rs>“.―</p>
-            <p xml:space="preserve" rend="indent">Zu <rs type="person" xml:id="pNt_38068" ref="#person_21157"><surname>Weilen</surname></rs>, <rs type="place" xml:id="pl_07882" ref="#place_1b8a1f9d1e532e238803665aab9c9195">Hechtengasse</rs>. (Reconnaissance-Besuch; überdies sendet er 
+            <p xml:space="preserve" rend="indent">Zu <rs type="person" xml:id="pNt_38068" ref="#person_21157"><surname>Weilen</surname></rs>, <rs type="place" xml:id="pl_07882" ref="#pmb92275">Hechtengasse</rs>. (Reconnaissance-Besuch; überdies sendet er 
 mir immer seine Artikel; auch die letzten über mich.) Dufreund 
 aus den Jugendtagen. Über <rs type="person" xml:id="pNt_38069" ref="#person_19850"><surname>Schönherr</surname></rs>, <rs type="person" xml:id="pNt_38070" ref="#person_18182"><surname>Minor</surname></rs> (jetzt krank), <rs type="person" xml:id="pNt_38071" ref="#person_19542"><surname>Salten</surname></rs> 
 u. a.― Seine Frau und 2 Töchter erscheinen.―</p>
@@ -200,6 +204,5 @@ tadeln“ mahnt der Professor.―</p>
 <rs type="work" subtype="self" xml:id="bibl_10246">meine Walzer</rs>, <rs type="work" subtype="self" xml:id="bibl_10247">Pierrette</rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

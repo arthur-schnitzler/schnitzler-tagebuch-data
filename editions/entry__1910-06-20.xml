@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-06-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-06-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-06-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-06-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-06-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-06-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FE76-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2923.tif"/>
@@ -191,12 +195,11 @@ später mich und O. bis zu <rs type="person" xml:id="pNt_32888" ref="#person_135
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_32889" ref="#person_13551"><forename>Richard</forename></rs>. <rs type="person" xml:id="pNt_32890" ref="#person_19731"><forename>Hans</forename> <surname>Schlesinger</surname></rs> und später <rs type="person" xml:id="pNt_32891" ref="#person_19986"><forename>Gustav</forename></rs>.</p>
             <p xml:space="preserve" rend="indent">Las von <rs type="person" xml:id="pNt_32892" ref="#person_21130"><surname>Wedekind</surname></rs> seine neueste „Tragödie“ „<rs type="work" xml:id="bibl_11803">In allen Wassern 
 gewaschen</rs>“, die er mir, mit enthusiastisch übertriebnem Dank für 
-<rs type="work" subtype="self" xml:id="bibl_11804">Comt. Mizzi</rs> (<rs type="place" xml:id="pl_07112" ref="#place_d0a6343a081a7335baa965ce4fd0845c">München</rs> Schauspielhaus) gesandt; unerträglich, wie aus 
+<rs type="work" subtype="self" xml:id="bibl_11804">Comt. Mizzi</rs> (<rs type="place" xml:id="pl_07112" ref="#pmb45258">München</rs> Schauspielhaus) gesandt; unerträglich, wie aus 
 pathologischen Zuständen.―</p>
             <p xml:space="preserve" rend="indent">Ein Mscrpt. von <rs type="person" xml:id="pNt_32893" ref="#person_16005"><roleName>Fr.</roleName> <surname>Hayn</surname></rs>, zugesandt; „<rs type="work" xml:id="bibl_11805">Charis</rs>“, skizzig-dilettantisch, 
 aber vielleicht nicht ganz ohne Talent.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

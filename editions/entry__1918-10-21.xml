@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-10-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-10-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-10-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-10-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-10-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-10-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0A58-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4725.tif"/>
@@ -181,15 +185,14 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1918-10-21">
-            <p xml:space="preserve"><date when="1918-10-21">21/10</date> <rs type="person" xml:id="pNt_54492" ref="#person_21357"><surname>Wilson’s</surname></rs> Antwort an <rs type="place" xml:id="pl_11312" ref="#place_b2187ea4efc1a64ee725eefe599aa649">Oesterreich Ungarn</rs>; dilatorisch-hinterhältig.― 
+            <p xml:space="preserve"><date when="1918-10-21">21/10</date> <rs type="person" xml:id="pNt_54492" ref="#person_21357"><surname>Wilson’s</surname></rs> Antwort an <rs type="place" xml:id="pl_11312" ref="#pmb92428">Oesterreich Ungarn</rs>; dilatorisch-hinterhältig.― 
 Es ist klar, er will die Revolution.―</p>
             <p xml:space="preserve" rend="indent">Dict. Briefe etc.―</p>
-            <p xml:space="preserve" rend="indent">Mit O. bei <rs type="person" xml:id="pNt_54493" ref="#person_17825"><surname>Mandl</surname></rs>.― Furchtbare Stimmung in <rs type="place" xml:id="pl_11313" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>; schlimmste Erwartungen.―</p>
+            <p xml:space="preserve" rend="indent">Mit O. bei <rs type="person" xml:id="pNt_54493" ref="#person_17825"><surname>Mandl</surname></rs>.― Furchtbare Stimmung in <rs type="place" xml:id="pl_11313" ref="#pmb50">Wien</rs>; schlimmste Erwartungen.―</p>
             <p xml:space="preserve" rend="indent">Nm. getrödelt, gerechnet.―</p>
             <p xml:space="preserve" rend="indent">Las <rs type="person" xml:id="pNt_54494" ref="#person_13699"><surname>Bettelheim’s</surname></rs> <rs type="work" xml:id="bibl_5909"><rs type="person" xml:id="pNt_54495"><surname>Saarbiografie</surname></rs></rs>.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_54496" ref="#person_19822"><forename>Heini</forename></rs> <rs type="person" xml:id="pNt_54497" ref="#person_13555"><surname>Beethoven</surname></rs> <rs type="work" xml:id="bibl_5910">op. 130</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

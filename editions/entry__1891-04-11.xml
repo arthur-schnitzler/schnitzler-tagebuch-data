@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1891-04-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-04-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-04-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1891-04-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-04-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-04-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E3CE-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0516.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1891-04-11">
-            <p xml:space="preserve"><date when="1891-04-11">11. 4.</date> Abds. in <rs type="place" xml:id="pl_01050" ref="#place_9bb22d10ddb7b8bf50eee0a23648e1fe">Rudolfsheim</rs>. Schüler <rs type="person" xml:id="pNt_05157" ref="#person_15246"><surname>Friedrichs</surname></rs>. Aufführung des 
+            <p xml:space="preserve"><date when="1891-04-11">11. 4.</date> Abds. in <rs type="place" xml:id="pl_01050" ref="#pmb65">Rudolfsheim</rs>. Schüler <rs type="person" xml:id="pNt_05157" ref="#person_15246"><surname>Friedrichs</surname></rs>. Aufführung des 
 <rs type="work" subtype="self" xml:id="bibl_23052">Abenteuer</rs>. Hatte kaum die Spur einer Erregung.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_05158" ref="#person_15485"><forename>Mz.</forename></rs> mit ihrer Mutter 2 Reihen hinter mir; ich hatte sie abgeholt ― 
 Das Zimmer mit den Kisten etc. machte einen trüben Eindruck auf mich.―</p>
@@ -200,6 +204,5 @@ das blödeste gefiel.</p>
 aufgeführt; er hatte es unter vielen bei <rs type="person" xml:id="pNt_05173" ref="#person_14673"><surname>Eirich</surname></rs> herausgesucht.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

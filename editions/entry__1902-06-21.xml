@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1902-06-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-06-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-06-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1902-06-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-06-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-06-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F33D-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1692.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1902-06-21">
-            <p xml:space="preserve"><date when="1902-06-21">21/6</date> Sturm.― <rs type="place" xml:id="pl_03975" ref="#place_6cc6cfe893d0065a8007acc6e4074a69">Rodaun</rs>.― Bei <rs type="person" xml:id="pNt_18727" ref="#person_16293"><forename>Hugo</forename></rs> und <rs type="person" xml:id="pNt_18728" ref="#person_13551"><forename>Richard</forename></rs>.―</p>
+            <p xml:space="preserve"><date when="1902-06-21">21/6</date> Sturm.― <rs type="place" xml:id="pl_03975" ref="#pmb173">Rodaun</rs>.― Bei <rs type="person" xml:id="pNt_18727" ref="#person_16293"><forename>Hugo</forename></rs> und <rs type="person" xml:id="pNt_18728" ref="#person_13551"><forename>Richard</forename></rs>.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_18729" ref="#person_13551"><forename>Richard</forename></rs> und <rs type="person" xml:id="pNt_18730" ref="#person_13550"><forename>Paula</forename></rs>, sowie <rs type="person" xml:id="pNt_18731" ref="#person_19986"><forename>Gustav</forename></rs>, Nm. bei uns.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-03-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-03-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-03-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-03-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-03-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-03-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1A8B-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,15 +177,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7446.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7447.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1930-03-02">
-            <p xml:space="preserve"><date when="1930-03-02">2/3</date> S.― Gespräch mit <rs type="place" xml:id="pl_19121" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>, <rs type="person" xml:id="pNt_89110" ref="#person_19832"><forename>O.</forename></rs>― Mittheilung dass <rs type="person" xml:id="pNt_89111" ref="#person_13428"><surname>Barnowsky</surname></rs> die Tant. 
+            <p xml:space="preserve"><date when="1930-03-02">2/3</date> S.― Gespräch mit <rs type="place" xml:id="pl_19121" ref="#pmb168">Berlin</rs>, <rs type="person" xml:id="pNt_89110" ref="#person_19832"><forename>O.</forename></rs>― Mittheilung dass <rs type="person" xml:id="pNt_89111" ref="#person_13428"><surname>Barnowsky</surname></rs> die Tant. 
 schuldig bleibt.― <rs type="person" xml:id="pNt_89112" ref="#person_19822"><forename>Heinis</forename></rs> üble Stimmung; keine Rollen etc.;― er 
 inszenirt jetzt in der Schule (<rs type="person" xml:id="pNt_89113" ref="#person_19154"><surname>Reinhardt</surname></rs>) <rs type="work" subtype="self" xml:id="bibl_914">der tapfere Cassian</rs>.―</p>
             <p xml:space="preserve" rend="indent">― Nebel und Regenwetter. Fuhr Pens. Schönbrunn zu <rs type="person" xml:id="pNt_89114" ref="#person_13355"><forename>Ama</forename></rs> (der es in den 
@@ -195,5 +200,6 @@ letzten Tagen schlecht ging, nun wieder besser).― <rs type="person" xml:id="pN
 sehr netten sonst nicht erträglich, hinüber ins „Weingartl“.― 
 Dort genachtm.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

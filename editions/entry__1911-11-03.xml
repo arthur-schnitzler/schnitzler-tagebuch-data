@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-11-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-11-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-11-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-11-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-11-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-11-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-006B-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,13 +177,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3263.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3264.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1911-11-03">
             <p xml:space="preserve"><date when="1911-11-03">3/11</date> Nicht sehr wohl. Bis Mittag in dem entzückenden Hotelzimmer. 
 Zu <rs type="person" xml:id="pNt_36518" ref="#person_19759"><forename>Erich</forename> <surname>Schmidt</surname></rs>, sprach nur seine Tochter ― Zu <rs type="person" xml:id="pNt_36519" ref="#person_18122"><forename>Richard M.</forename> <surname>Meyer</surname></rs>. 
@@ -199,7 +204,7 @@ beide zu <rs type="person" xml:id="pNt_36531" ref="#person_20552"><surname>Stuck
                <fw n="279" place="top_right" type="pageNum">279</fw>
             </tei:fw>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_36532"><forename>Erich</forename></rs> und <rs type="person" xml:id="pNt_36533" ref="#person_21546"><forename>Mirjam</forename> <surname>Ziegel</surname></rs>. <rs type="person" xml:id="pNt_36534" ref="#person_21546"><forename>Mirjams</forename></rs> Erlebnisse mit dem zudringlichen 
-Direktor <rs type="person" xml:id="pNt_36535" ref="#person_21211"><surname>Weisse</surname></rs> auf der Reise <rs type="place" xml:id="pl_07674" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>―<rs type="place" xml:id="pl_07675" ref="#place_c38ad36647aca0261d667c432a4866bd">Salzburg</rs>, wo sie die <rs type="work" xml:id="bibl_11271">Nora</rs> spielte. 
+Direktor <rs type="person" xml:id="pNt_36535" ref="#person_21211"><surname>Weisse</surname></rs> auf der Reise <rs type="place" xml:id="pl_07674" ref="#pmb50">Wien</rs>―<rs type="place" xml:id="pl_07675" ref="#pmb91649">Salzburg</rs>, wo sie die <rs type="work" xml:id="bibl_11271">Nora</rs> spielte. 
 Pläne und Zweifel.―</p>
             <p xml:space="preserve" rend="indent">Zu <rs type="person" xml:id="pNt_36536" ref="#person_20552"><surname>Stuckens</surname></rs>; wo <rs type="person" xml:id="pNt_36537" ref="#person_21107"><surname>Wassermann</surname></rs> und <rs type="person" xml:id="pNt_36538" ref="#person_16041"><surname>Heimann</surname></rs>. Gespräch über politisches 
 und Weltgefühl; Unheimlichkeit des Staatsgedankens.―</p>
@@ -210,5 +215,6 @@ und Weltgefühl; Unheimlichkeit des Staatsgedankens.―</p>
 Mühe; mein Gehör verschlechtert sich von Tag zu Tag. Düster nach 
 Haus. Warum mir das!</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

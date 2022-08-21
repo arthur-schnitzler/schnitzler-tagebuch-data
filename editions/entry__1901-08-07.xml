@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1901-08-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-08-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-08-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1901-08-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-08-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-08-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F224-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1642.tif"/>
@@ -182,13 +186,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1901-08-07">
-            <p xml:space="preserve"><date when="1901-08-07">7/8</date> ― <rs type="place" xml:id="pl_03753" ref="#place_1fe7212a360eee1e78551d8e2e997fd0">Welsberg</rs>; mit den Mädeln, woselbst <rs type="person" xml:id="pNt_18013" ref="#person_15529"><forename>Paul</forename> <surname>G.</surname></rs> Mit dem Rad 
+            <p xml:space="preserve"><date when="1901-08-07">7/8</date> ― <rs type="place" xml:id="pl_03753" ref="#pmb428">Welsberg</rs>; mit den Mädeln, woselbst <rs type="person" xml:id="pNt_18013" ref="#person_15529"><forename>Paul</forename> <surname>G.</surname></rs> Mit dem Rad 
 zurück. Auf dem Rad immer mit der Militär Affaire beschäftigt ― 
 „<rs type="work" subtype="self" xml:id="bibl_18300">Grüne Cravate</rs>“ ― Durch „<rs type="work" subtype="self" xml:id="bibl_18301">Frau mit dem Dolch</rs>“ in letzter Linie 
 (Rolle) neue Ambitionen <rs type="person" xml:id="pNt_18014" ref="#person_19832"><forename>Olgas</forename></rs>, daraus resultiren sehr tiefgehende 
 Verstimmungen, wie immer wenn beide recht haben.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

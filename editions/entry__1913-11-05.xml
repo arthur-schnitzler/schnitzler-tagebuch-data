@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-11-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-11-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-11-06.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-11-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-11-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-11-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0348-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3713.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1913-11-05">
-            <p xml:space="preserve"><date when="1913-11-05">5/11</date> Im <rs type="place" ref="#place_volkstheater">Volkstheater</rs>. Besprechung mit <rs type="person" xml:id="pNt_41936" ref="#person_21211"><surname>Weisse</surname></rs> und <rs type="person" xml:id="pNt_41937" ref="#person_16100"><surname>Herbst</surname></rs> (Monistenbund) 
+            <p xml:space="preserve"><date when="1913-11-05">5/11</date> Im <rs type="place" ref="#pmb92202">Volkstheater</rs>. Besprechung mit <rs type="person" xml:id="pNt_41936" ref="#person_21211"><surname>Weisse</surname></rs> und <rs type="person" xml:id="pNt_41937" ref="#person_16100"><surname>Herbst</surname></rs> (Monistenbund) 
 über ev. Aufführung des <rs type="work" subtype="self" xml:id="bibl_9707">Bernhardi</rs>. <rs type="person" xml:id="pNt_41938" ref="#person_16100"><surname>Herbst</surname></rs>: „Wir dürfen die Leute nicht 
 zur Ruhe kommen lassen …“ „Der Kampf an sich ist mir eine Freude …“― 
 (Gespräche über die Affaire <rs type="work" subtype="self" xml:id="bibl_9708">Bernhardi</rs> können immer nur mit Benützung 
@@ -190,6 +194,5 @@ der schon vorhandenen gedruckten Stellen geführt werden.) ―</p>
 Films).―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

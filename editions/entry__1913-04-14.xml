@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-04-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-04-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-04-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-04-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-04-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-04-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-027B-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3600.tif"/>
@@ -181,17 +185,16 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1913-04-14">
-            <p xml:space="preserve"><date when="1913-04-14">14/4</date> Vm. Besorgungen.― Bei <rs type="person" xml:id="pNt_40522" ref="#person_16069"><surname>Heller</surname></rs>, wegen <rs type="place" xml:id="pl_08209" ref="#place_2f8cfc13edee95175f630a54177679cf">Preßburg</rs>.</p>
+            <p xml:space="preserve"><date when="1913-04-14">14/4</date> Vm. Besorgungen.― Bei <rs type="person" xml:id="pNt_40522" ref="#person_16069"><surname>Heller</surname></rs>, wegen <rs type="place" xml:id="pl_08209" ref="#pmb39615">Preßburg</rs>.</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_40523" ref="#person_19542"><surname>Salten</surname></rs> und Frau; <rs type="person" xml:id="pNt_40524" ref="#person_20796"><surname>Trebitsch</surname></rs> hat das ihm vor Jahren geliehene 
 Geld durch Advokaten eingefordert; <rs type="person" xml:id="pNt_40525"><surname>S.</surname></rs> sieht darin den Beginn einer 
 Campagne, scheint beunruhigt, will selbst was unternehmen, ich 
 widerrate dringend. Während er da ist, Erwidrung von <rs type="person" xml:id="pNt_40526" ref="#person_20796"><surname>Trebitsch</surname></rs> (Brief); 
 desequilibrirt.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_40527" ref="#person_21447"><roleName>Frau</roleName> <surname>Wolff</surname></rs> (<rs type="place" xml:id="pl_08210" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>, Concertagentur) zum Thee. Über <rs type="person" xml:id="pNt_40528" ref="#person_17786"><surname>Mahler</surname></rs> etc.―</p>
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_40527" ref="#person_21447"><roleName>Frau</roleName> <surname>Wolff</surname></rs> (<rs type="place" xml:id="pl_08210" ref="#pmb168">Berlin</rs>, Concertagentur) zum Thee. Über <rs type="person" xml:id="pNt_40528" ref="#person_17786"><surname>Mahler</surname></rs> etc.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_40529" ref="#person_18884"><roleName>Dr.</roleName> <surname>Pollak</surname></rs>, wegen <rs type="person" xml:id="pNt_40530" ref="#person_14130"><forename>Lili</forename></rs>.</p>
             <p xml:space="preserve" rend="indent"><rs type="work" subtype="self" xml:id="bibl_9415">Beate</rs> 3. Capitel Buchcorrectur. Irgend was stimmt nicht.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

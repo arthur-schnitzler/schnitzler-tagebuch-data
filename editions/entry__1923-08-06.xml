@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-08-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-08-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-08-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-08-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-08-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-08-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-112D-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6088.tif"/>
@@ -181,8 +185,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1923-08-06">
-            <p xml:space="preserve"><date when="1923-08-06">6/8</date> <rs type="place" xml:id="pl_14918" ref="#place_a330ac6c48198545d4d2f9ff2cb0fc05">Stuttgart</rs> ― <rs type="place" xml:id="pl_14919" ref="#place_63714a562352ef3ae472da20ed0384c0">Baden-Baden</rs>. Weiter in <rs type="person" xml:id="pNt_70033" ref="#person_13374"><surname>Bahr’s</surname></rs> „<rs type="work" xml:id="bibl_1946">Selbstbildnis</rs>“; mit 
-viel Vergnügen. Ankunft in <rs type="place" xml:id="pl_14920" ref="#place_63714a562352ef3ae472da20ed0384c0">B.-B.</rs> um 2 Stunden früher als ich 
+            <p xml:space="preserve"><date when="1923-08-06">6/8</date> <rs type="place" xml:id="pl_14918" ref="#pmb872">Stuttgart</rs> ― <rs type="place" xml:id="pl_14919" ref="#pmb228">Baden-Baden</rs>. Weiter in <rs type="person" xml:id="pNt_70033" ref="#person_13374"><surname>Bahr’s</surname></rs> „<rs type="work" xml:id="bibl_1946">Selbstbildnis</rs>“; mit 
+viel Vergnügen. Ankunft in <rs type="place" xml:id="pl_14920" ref="#pmb228">B.-B.</rs> um 2 Stunden früher als ich 
 gedacht. Treffe <rs type="person" xml:id="pNt_70034" ref="#person_19832"><forename>O.</forename></rs> und <rs type="person" xml:id="pNt_70035" ref="#person_14130"><forename>Lili</forename></rs>, die zur Bahn gehn wollen. Im Bad <rs type="person" xml:id="pNt_70036" ref="#person_19822"><forename>Heini</forename></rs>. 
 Mit <rs type="person" xml:id="pNt_70037" ref="#person_14130"><forename>Lili</forename></rs> Hotel Gunzenbach.― Hübsches Zimmer.― Wir essen zu viert 
 im Hotel; zahlen etwa 1½ Millionen Mark. Finanzgespräch. 
@@ -190,9 +194,8 @@ im Hotel; zahlen etwa 1½ Millionen Mark. Finanzgespräch.
 Tagen (durch <rs type="person" xml:id="pNt_70039" ref="#person_18063"><roleName>Dr.</roleName> <surname>Menczels</surname></rs> allerdings auffallend schlechte Intervention) 
 um 32 M. für <rs type="person" xml:id="pNt_70040" ref="#person_19832"><forename>O.</forename></rs> verkauft, während es heute über 100 wären.</p>
             <p xml:space="preserve" rend="indent">― Nm. am „<rs type="work" subtype="self" xml:id="bibl_1947">Verf.</rs>“ ―</p>
-            <p xml:space="preserve" rend="indent">Auf der Terrasse <rs type="place" xml:id="pl_14921" ref="#place_d7bee3eb8574593a80f8e1f71d305330">Herchenbachstr.</rs> en fam. genachtm.</p>
+            <p xml:space="preserve" rend="indent">Auf der Terrasse <rs type="place" xml:id="pl_14921" ref="#pmb92278">Herchenbachstr.</rs> en fam. genachtm.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-05-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-05-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FB77-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2505.tif"/>
@@ -180,13 +184,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1908-05-14">
-            <p xml:space="preserve"><date when="1908-05-14">14/5</date> Ankunft <rs type="place" xml:id="pl_06311" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.―</p>
+            <p xml:space="preserve"><date when="1908-05-14">14/5</date> Ankunft <rs type="place" xml:id="pl_06311" ref="#pmb50">Wien</rs>.―</p>
             <p xml:space="preserve" rend="indent">Die neue Veranda. Noch Unordnung.―</p>
             <p xml:space="preserve" rend="indent">Ordnen etc.―</p>
             <p xml:space="preserve" rend="indent">Nm. dictirt Briefe.― <rs type="allusively" xml:id="rst_00926">Mama</rs>, und <rs type="person" xml:id="pNt_28249" ref="#person_15854"><forename>Gisa</forename></rs> da.―</p>
-            <p xml:space="preserve" rend="indent">Abd. zu <rs type="person" xml:id="pNt_28250" ref="#person_13551"><forename>Richard</forename></rs> mit O. Mit ihm <rs type="person" xml:id="pNt_28251" ref="#person_13550"><forename>Paula</forename></rs> im <rs type="place" xml:id="pl_06312" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs> genachtmahlt.―</p>
+            <p xml:space="preserve" rend="indent">Abd. zu <rs type="person" xml:id="pNt_28250" ref="#person_13551"><forename>Richard</forename></rs> mit O. Mit ihm <rs type="person" xml:id="pNt_28251" ref="#person_13550"><forename>Paula</forename></rs> im <rs type="place" xml:id="pl_06312" ref="#pmb113">Türkenschanzpark</rs> genachtmahlt.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-01-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-01-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-01-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-01-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-01-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-01-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FC7A-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2632.tif"/>
@@ -182,12 +186,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1909-01-28">
-            <p xml:space="preserve"><date when="1909-01-28">28/1</date> Mit <rs type="person" xml:id="pNt_29701" ref="#person_21107"><surname>W.</surname></rs> durch die Adlitzgräben nach <rs type="place" xml:id="pl_06589" ref="#place_c9fe2ce48d12e0308505cd0da82e9273">Gloggnitz</rs>. Bahn zurück. Im 
+            <p xml:space="preserve"><date when="1909-01-28">28/1</date> Mit <rs type="person" xml:id="pNt_29701" ref="#person_21107"><surname>W.</surname></rs> durch die Adlitzgräben nach <rs type="place" xml:id="pl_06589" ref="#pmb90727">Gloggnitz</rs>. Bahn zurück. Im 
 Waggon <rs type="person" xml:id="pNt_29702" ref="#person_20796"><forename>S.</forename> <surname>Trebitsch</surname></rs>, der zu uns herauffuhr.</p>
             <p xml:space="preserve" rend="indent">Pläne durchgesehn.</p>
             <p xml:space="preserve" rend="indent">Billard mit <rs type="person" xml:id="pNt_29703" ref="#person_21107"><surname>Wassermann</surname></rs> und <rs type="person" xml:id="pNt_29704" ref="#person_20796"><surname>Trebitsch</surname></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

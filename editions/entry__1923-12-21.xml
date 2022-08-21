@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-12-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-12-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-12-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-12-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-12-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-12-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-11B5-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,14 +177,15 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6163.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6164.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6165.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1923-12-21">
             <p xml:space="preserve"><date when="1923-12-21">21/12</date> Träume: eine Art Theaterstück, das zugleich Wirklichkeit ― ; eine 
 Frau, in einem kleinen Zimmer; ein (unsichtbarer) Mann; irgend was 
@@ -188,7 +193,7 @@ mörderisches ist vorgefallen, Dolchstich er oder sie?,― sie hat plötzlich
 den Rücken nackt durch zerrissenes Kleid, es ist etwa die <rs type="person" xml:id="pNt_70979" ref="#person_21345"><surname>Wilke</surname></rs> (Deutung: 
 <rs type="person" xml:id="pNt_70980" ref="#person_19822"><forename>Heini</forename></rs> sagte gestern, daß man ihr vielleicht die <rs type="figur">Irene Herms</rs> geben würde) 
 ― irgendwie steht <rs type="person" xml:id="pNt_70982" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> mit dem Vorfall in Zusammenhang, sie darf aber nichts 
-wissen, ich gehe mit ihr in trübem Wetter eine Straße, Vorort <rs type="place" xml:id="pl_15207" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wiens</rs>, 
+wissen, ich gehe mit ihr in trübem Wetter eine Straße, Vorort <rs type="place" xml:id="pl_15207" ref="#pmb50">Wiens</rs>, 
 hügelig,― uns zugewendet, reliefartig zwei Häuser, das eine ein Gasthof, 
 zum braunen Hirschen, rother Ziegelbau, ich sage zu <rs type="person" xml:id="pNt_70983" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>, wie sehr sich 
 der Gasthof verändert (gestern Restaur. brauner Hirsch!),― in der 
@@ -204,5 +209,6 @@ in gleicher Angelegenheit mit <rs type="person" xml:id="pNt_70985" ref="#person_
             <p xml:space="preserve" rend="indent">in den Kammerspielen mit ihm; <rs type="person" xml:id="pNt_70992" ref="#person_15741"><forename>Yvette</forename> <surname>Guilbert</surname></rs> und ihre kleine Truppe.― 
 Mit <rs type="person" xml:id="pNt_70993" ref="#person_16462"><forename>Hans</forename> <surname>Jacob</surname></rs> über seine Angelegenheiten.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-05-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-05-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-05-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-05-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-05-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-05-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-028F-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3614.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1913-05-04">
-            <p xml:space="preserve"><date when="1913-05-04">4/5</date> S. Vm. nach <rs type="place" xml:id="pl_08265" ref="#place_431168489e6885d4e91ebc5edec7dfb4">Grinzing</rs>; <rs type="person" xml:id="pNt_40681" ref="#person_21107"><surname>Wassermanns</surname></rs>, er las seiner Frau eben ein 
+            <p xml:space="preserve"><date when="1913-05-04">4/5</date> S. Vm. nach <rs type="place" xml:id="pl_08265" ref="#pmb90771">Grinzing</rs>; <rs type="person" xml:id="pNt_40681" ref="#person_21107"><surname>Wassermanns</surname></rs>, er las seiner Frau eben ein 
 Capitel seines Romans vor; allein spazieren, dann mit ihm ins Cottage.</p>
             <p xml:space="preserve" rend="indent">― Zu Tisch <rs type="person" xml:id="pNt_40682" ref="#person_13428"><surname>Barnowsky</surname></rs>, <rs type="person" xml:id="pNt_40683" ref="#person_20383"><forename>Albert</forename></rs>.―</p>
             <p xml:space="preserve" rend="indent">Später <rs type="person" xml:id="pNt_40684" ref="#person_21602"><forename>Vicki</forename></rs>, mit ihm <rs type="person" xml:id="pNt_40685" ref="#person_20172"><surname>Smetana</surname></rs> Trio.</p>
@@ -190,6 +194,5 @@ Capitel seines Romans vor; allein spazieren, dann mit ihm ins Cottage.</p>
 <surname>Szeps</surname></rs> und Frau, <rs type="person" xml:id="pNt_40689" ref="#person_21597"><forename>Fritz</forename> <surname>Zuckerk.</surname></rs>; ― Poker.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

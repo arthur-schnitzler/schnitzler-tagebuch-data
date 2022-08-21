@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1921-06-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-06-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-06-19.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1921-06-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-06-17.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-06-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0E22-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5433.tif"/>
@@ -182,14 +186,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1921-06-18">
-            <p xml:space="preserve"><date when="1921-06-18">18/6</date> Über den Sattel an den <rs type="place" xml:id="pl_13079" ref="#place_096fe15a391b374b49743494cd0f762d">Grundlsee</rs>. Schöner Tag. Notizen zu der 
+            <p xml:space="preserve"><date when="1921-06-18">18/6</date> Über den Sattel an den <rs type="place" xml:id="pl_13079" ref="#pmb90787">Grundlsee</rs>. Schöner Tag. Notizen zu der 
 „<rs type="work" subtype="self" xml:id="bibl_3381">Doppelnovelle</rs>“.― Auf einer Bank nahe dem „<rs type="person" xml:id="pNt_62682"><surname>Schraml</surname></rs>“.― Über 
-<rs type="place" xml:id="pl_13080" ref="#place_634034f40830a21f435e8481128932c8">Kramerprom.</rs> zurück.</p>
+<rs type="place" xml:id="pl_13080" ref="#pmb92192">Kramerprom.</rs> zurück.</p>
             <p xml:space="preserve" rend="indent">Nm. bei <rs type="person" xml:id="pNt_62683"><surname>Kfm.</surname></rs>; Regen; auf seinem Balkon liest er mir neues aus dem „Märchen“ 
 vor; tiefsinnig, aber doch nicht (als „Märchen“) klar genug.―</p>
             <p xml:space="preserve" rend="indent">Z. N. mit <rs type="person" xml:id="pNt_62684"><surname>Kfm.</surname></rs> bei <rs type="person" xml:id="pNt_62685" ref="#person_21602"><surname>Zuckerkandl’s</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-08-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-08-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-08-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-08-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-08-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-08-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0B7E-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,13 +177,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4897.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4898.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1919-08-12">
             <p xml:space="preserve"><date when="1919-08-12">12/8</date> O. über <rs type="person" xml:id="pNt_56684" ref="#person_17784"><forename>Almas</forename></rs> Haus „Das ist um sie gebaut“ …</p>
             <p xml:space="preserve" rend="indent">Spazieren Hofbrandhütte, Scheiterplatz.―</p>
@@ -187,14 +192,15 @@
 wer das Wort erfunden, ich, <rs type="person" xml:id="pNt_56686" ref="#person_19542"><surname>Salten</surname></rs> oder <rs type="person" xml:id="pNt_56687" ref="#person_14472"><surname>Dörmann</surname></rs>?;― seine Verliebtheit 
 in die <rs type="person" xml:id="pNt_56688" ref="#person_17226"><forename>Leop.</forename> <surname>Kutzel</surname></rs>, die er nie sprach ― und erst vor kurzem als alte 
 Frau besuchte.) ―</p>
-            <p xml:space="preserve" rend="indent">Zu Mittag Agentengespräche u. dergl. O. verhandelt mit <rs type="place" xml:id="pl_11803" ref="#place_d0a6343a081a7335baa965ce4fd0845c">München</rs>, <rs type="place" xml:id="pl_11804" ref="#place_d5460b665e26333bdf699f77a2e3cf17">Frankfurt</rs>, 
-<rs type="place" xml:id="pl_11805" ref="#place_35d7df6ed3d93be2927d14acc5f1fc9a">Hamburg</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Zu Mittag Agentengespräche u. dergl. O. verhandelt mit <rs type="place" xml:id="pl_11803" ref="#pmb45258">München</rs>, <rs type="place" xml:id="pl_11804" ref="#pmb146">Frankfurt</rs>, 
+<rs type="place" xml:id="pl_11805" ref="#pmb506">Hamburg</rs>.―</p>
             <p xml:space="preserve" rend="indent">O. erzählt mir <rs type="person" xml:id="pNt_56689" ref="#person_14130"><forename>Lilis</forename></rs> Ausspruch. „Eltern dürfen sich nicht scheiden 
 lassen. Was sollen die Kinder thun, die ja beide liebhaben: Ein Vater 
 der sich scheiden läßt, soll sich einen Galgen kaufen und sich 
 aufhängen.―“</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_56690" ref="#person_18773"><surname>Pick</surname></rs> Spazierg. gegen <rs type="place" xml:id="pl_11806" ref="#place_9ea5f4d14106b60b55dda6b6c7981877">Hirschwang</rs>.</p>
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_56690" ref="#person_18773"><surname>Pick</surname></rs> Spazierg. gegen <rs type="place" xml:id="pl_11806" ref="#pmb90885">Hirschwang</rs>.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_56691" ref="#person_20238"><surname>Specht</surname></rs> über Zionismus.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

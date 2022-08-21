@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1891-05-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-05-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-05-06.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1891-05-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-05-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-05-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E3E6-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0527.tif"/>
@@ -186,11 +190,10 @@ Neulich den <rs type="work" subtype="self" xml:id="bibl_23077">Alkandi</rs> an <
             <p xml:space="preserve" rend="indent">Man räth mir, die <rs type="work" subtype="self" xml:id="bibl_23078">Anatolsachen</rs> gesammelt herauszugeben.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_05242" ref="#person_15485"><forename>Mz.</forename></rs> war nur kurze Zeit bei mir, ging ins Theater, es gab leichten 
 Streit, der sich herzlich löste.</p>
-            <p xml:space="preserve" rend="indent">Im <rs type="place" xml:id="pl_01065" ref="#place_d7f977f9a16210838a0dd6b32f6fb25d">Volksgarten</rs> mit 
+            <p xml:space="preserve" rend="indent">Im <rs type="place" xml:id="pl_01065" ref="#pmb103">Volksgarten</rs> mit 
 <rs type="person" xml:id="pNt_05243" ref="#person_19945"><surname>Schupp</surname></rs>, <rs type="person" xml:id="pNt_05244" ref="#person_14942"><surname>Fels</surname></rs>, <rs type="person" xml:id="pNt_05245" ref="#person_16629"><surname>Kafka</surname></rs>, <rs type="person" xml:id="pNt_05246" ref="#person_16554"><surname>Joachim</surname></rs>, <rs type="person" xml:id="pNt_05247" ref="#person_17189"><surname>Kulka</surname></rs>.</p>
             <p xml:space="preserve" rend="indent">Dann ein langweiliger Dinstagabend.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1880-02-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-02-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-02-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1880-02-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-02-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-02-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DCEB-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0023.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1880-02-13">
-            <p xml:space="preserve"><date when="1880-02-13">13/2</date> Freitag Abend. <rs type="place" xml:id="pl_00048" ref="#place_273c6fe7cd0300c46e98e05cc3414e33">Quaipark</rs>, Küsse.</p>
+            <p xml:space="preserve"><date when="1880-02-13">13/2</date> Freitag Abend. <rs type="place" xml:id="pl_00048" ref="#pmb92469">Quaipark</rs>, Küsse.</p>
             <p xml:space="preserve" rend="indent">Einiges über das äußere Leben dieser Tage: Lässig im Studium, sehr 
 häufiger Verkehr mit <rs type="person" xml:id="pNt_00211" ref="#person_14386"><forename>Eugen</forename></rs> und <rs type="person" xml:id="pNt_00212" ref="#person_18766"><forename>Jacques</forename></rs>, verliebt mit <rs type="person" xml:id="pNt_00213" ref="#person_17368"><forename>Fany</forename></rs>, gern im 
 Café Central u. s. w.</p>
@@ -198,8 +202,8 @@ weiterschrieb; schließlich meinen Bruder auf dem Clavier zu einer
 die <rs type="person" xml:id="pNt_00217" ref="#person_21034"><surname>Wagner’sche</surname></rs> <rs type="work" xml:id="bibl_23404">Faustouverture</rs>, dann ging ich mit <rs type="person" xml:id="pNt_00218" ref="#person_14386"><forename>Eugen</forename></rs> ins C. C., wo 
 wir drei Partien Schach spielten (die erste gewann ich, die zweite er, 
 die 3. remis). Als <rs type="person" xml:id="pNt_00219" ref="#person_14454"><surname>Dillmann</surname></rs> dazukam, mußt’ ich schon weg und begab mich 
-in die <rs type="place" xml:id="pl_00049" ref="#place_dd136f854dba108d091068321d9ad289">Maria-Theresienstraße</rs>, auf den gewohnten Ort des Stelldicheins. 
-Sie kam, wir begaben uns in den <rs type="place" xml:id="pl_00050" ref="#place_273c6fe7cd0300c46e98e05cc3414e33">Quaipark</rs>, der Frühling kündigte sich 
+in die <rs type="place" xml:id="pl_00049" ref="#pmb40992">Maria-Theresienstraße</rs>, auf den gewohnten Ort des Stelldicheins. 
+Sie kam, wir begaben uns in den <rs type="place" xml:id="pl_00050" ref="#pmb92469">Quaipark</rs>, der Frühling kündigte sich 
 durch gar erfreuliches Gequatsche an, &amp; wir beide waren sehr gut 
 aufgelegt. Sie hing sich in meinen Arm, und es ward immer dunkler, 
 während wir das heitre Gespräch recht oft durch zärtliche Küsse 
@@ -210,6 +214,5 @@ meinem Bruder, den ich vergebens zu magnetisiren versucht, halb zwölf
 und Schach.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

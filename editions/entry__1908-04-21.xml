@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-04-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-04-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-04-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-04-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-04-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-04-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FB60-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,13 +176,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2499.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2500.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1908-04-21">
             <p xml:space="preserve"><date when="1908-04-21">21/4</date> Vm. Besorgungen Stadt. Überall Elogen über die <rs type="work" subtype="self" xml:id="bibl_13379">Comt. Mizzi</rs> (<rs type="person" xml:id="pNt_28196" ref="#person_18420"><surname>Neumann</surname></rs> 
 in der Boden Credit Anstalt … „ein echter Schn. …
@@ -187,9 +192,10 @@ in der Boden Credit Anstalt … „ein echter Schn. …
 das! … Es ist eigentlich beschämend.― </p>
             <p xml:space="preserve" rend="indent">Dictirt Briefe, <rs type="work" subtype="self" xml:id="bibl_13380">alte Gedichte</rs>.―</p>
             <p xml:space="preserve" rend="indent">Am „<rs type="work" subtype="self" xml:id="bibl_13381">Verführer</rs>“ herumgedacht.―</p>
-            <p xml:space="preserve" rend="indent">Regisseur <rs type="person" xml:id="pNt_28199" ref="#person_16159"><surname>Herzka</surname></rs>, vom <rs type="place" ref="#place_volkstheater">Volkstheater</rs> (nachdem schon Ostermontag früh ein 
+            <p xml:space="preserve" rend="indent">Regisseur <rs type="person" xml:id="pNt_28199" ref="#person_16159"><surname>Herzka</surname></rs>, vom <rs type="place" ref="#pmb92202">Volkstheater</rs> (nachdem schon Ostermontag früh ein 
 Brief von <rs type="person" xml:id="pNt_28200" ref="#person_14939"><surname>Fellner</surname></rs> kam) wegen der <rs type="work" subtype="self" xml:id="bibl_13382">Comt. Mizzi</rs>.― Sagte nicht gleich ja, 
 weil ich das Burgth. noch in Erwägung zog.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

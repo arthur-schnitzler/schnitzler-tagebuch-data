@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1901-08-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-08-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-08-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1901-08-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-08-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-08-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F236-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1645.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1901-08-27">
-            <p xml:space="preserve"><date when="1901-08-27">27/8</date> <rs type="place" xml:id="pl_03777" ref="#place_0d630f309cd8eaead4c6693378f162fb">Villach</rs>. <rs type="person" xml:id="pNt_18025" ref="#person_19832"><forename>Olga</forename></rs> und <rs type="person" xml:id="pNt_18026" ref="#person_20386"><forename>Liesl</forename></rs> nach <rs type="place" xml:id="pl_03778" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>,― ich nach <rs type="place" xml:id="pl_03779" ref="#place_b4e224f0caf47c0f57802484c88cb858">Pörtschach</rs>.― 
-<rs type="person" xml:id="pNt_18027" ref="#person_13551"><forename>Richard</forename></rs>, <rs type="person" xml:id="pNt_18028" ref="#person_17958"><forename>Paul</forename></rs> an der Bahn.― <rs type="place" xml:id="pl_03780" ref="#place_04351b803a7ccf71ad7ea21709eba327">Sekirn</rs>, <rs type="person" xml:id="pNt_18029" ref="#person_16228"><forename>R.</forename> <surname>Hirschfelds</surname></rs> und <rs type="person" xml:id="pNt_18030" ref="#person_14195"><surname>Chiavaccis</surname></rs>.―</p>
+            <p xml:space="preserve"><date when="1901-08-27">27/8</date> <rs type="place" xml:id="pl_03777" ref="#pmb92011">Villach</rs>. <rs type="person" xml:id="pNt_18025" ref="#person_19832"><forename>Olga</forename></rs> und <rs type="person" xml:id="pNt_18026" ref="#person_20386"><forename>Liesl</forename></rs> nach <rs type="place" xml:id="pl_03778" ref="#pmb50">Wien</rs>,― ich nach <rs type="place" xml:id="pl_03779" ref="#pmb44278">Pörtschach</rs>.― 
+<rs type="person" xml:id="pNt_18027" ref="#person_13551"><forename>Richard</forename></rs>, <rs type="person" xml:id="pNt_18028" ref="#person_17958"><forename>Paul</forename></rs> an der Bahn.― <rs type="place" xml:id="pl_03780" ref="#pmb91729">Sekirn</rs>, <rs type="person" xml:id="pNt_18029" ref="#person_16228"><forename>R.</forename> <surname>Hirschfelds</surname></rs> und <rs type="person" xml:id="pNt_18030" ref="#person_14195"><surname>Chiavaccis</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

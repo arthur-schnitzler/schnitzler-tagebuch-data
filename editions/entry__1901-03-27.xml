@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1901-03-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-03-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-03-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1901-03-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-03-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-03-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F1B0-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1622.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1901-03-27">
-            <p xml:space="preserve"><date when="1901-03-27">27/3</date> <rs type="place" xml:id="pl_03613" ref="#place_b4d5600c385a6db5d7bdd413be57579b">Nizza</rs>. <rs type="place" xml:id="pl_03614" ref="#place_aff73e3d7b55a65aa3275b1372b18565">Cimiez</rs>.― <rs type="place" xml:id="pl_03615" ref="#place_ac85909cc2f96e6ad93e26add940f597">Cannes</rs> (<rs type="person" xml:id="pNt_17859" ref="#person_19316"><surname>Roeder</surname></rs>) <rs type="place" xml:id="pl_03616" ref="#place_bd252a07287728930fd4a0849c16f60b">Monte Carlo</rs>. <rs type="place" xml:id="pl_03617" ref="#place_e21ca1f796ce2b661f3bc2097f6d1491">Turbie</rs>, Casino 
+            <p xml:space="preserve"><date when="1901-03-27">27/3</date> <rs type="place" xml:id="pl_03613" ref="#pmb926">Nizza</rs>. <rs type="place" xml:id="pl_03614" ref="#pmb90482">Cimiez</rs>.― <rs type="place" xml:id="pl_03615" ref="#pmb56147">Cannes</rs> (<rs type="person" xml:id="pNt_17859" ref="#person_19316"><surname>Roeder</surname></rs>) <rs type="place" xml:id="pl_03616" ref="#pmb5862">Monte Carlo</rs>. <rs type="place" xml:id="pl_03617" ref="#pmb91961">Turbie</rs>, Casino 
 (10 francs verloren). <rs type="person" xml:id="pNt_17860" ref="#person_13684"><surname>Berolzheimer</surname></rs>; <rs type="person" xml:id="pNt_17861" ref="#person_21505"><surname>Zabel</surname></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

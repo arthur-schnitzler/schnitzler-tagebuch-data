@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-06-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-06-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-07-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-06-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-06-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-07-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1108-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6069.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1923-06-30">
-            <p xml:space="preserve"><date when="1923-06-30">30/6</date> <rs type="place" xml:id="pl_14816" ref="#place_63714a562352ef3ae472da20ed0384c0">B.-B.</rs> Mit <rs type="person" xml:id="pNt_69824" ref="#person_14130"><forename>Lili</forename></rs> in der Stadt, wegen Tennis etc.―</p>
+            <p xml:space="preserve"><date when="1923-06-30">30/6</date> <rs type="place" xml:id="pl_14816" ref="#pmb228">B.-B.</rs> Mit <rs type="person" xml:id="pNt_69824" ref="#person_14130"><forename>Lili</forename></rs> in der Stadt, wegen Tennis etc.―</p>
             <p xml:space="preserve" rend="indent">Mittagessen auf der Terrasse „zu Haus“.</p>
-            <p xml:space="preserve" rend="indent">Nm. (Bahn) „<rs type="place" xml:id="pl_14817" ref="#place_2c5545b326c663b9815bbead3690ab22">Merkur</rs>“, über <rs type="place" xml:id="pl_14818" ref="#place_2fe55fe12e39fa02eaebb19ce8380a99">Lichtental</rs> zurück.―</p>
+            <p xml:space="preserve" rend="indent">Nm. (Bahn) „<rs type="place" xml:id="pl_14817" ref="#pmb91233">Merkur</rs>“, über <rs type="place" xml:id="pl_14818" ref="#pmb61100">Lichtental</rs> zurück.―</p>
             <p xml:space="preserve" rend="indent">Nachtm. im „kleinen Salon“. Die untern Räume nun auch ziemlich 
 eingerichtet; mit Glück und Geschmack.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

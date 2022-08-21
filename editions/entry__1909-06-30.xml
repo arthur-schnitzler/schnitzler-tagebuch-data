@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-06-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-06-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-07-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-06-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-06-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-07-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FD13-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2717.tif"/>
@@ -182,8 +186,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1909-06-30">
-            <p xml:space="preserve"><date when="1909-06-30">30/6</date> Vm. im <rs type="place" ref="#place_burgtheater">Burgtheater</rs>. Besprechung mit <rs type="person" xml:id="pNt_30567" ref="#person_17397"><surname>Lefler</surname></rs>, <rs type="person" xml:id="pNt_30568" ref="#person_15130"><surname>Frank</surname></rs>, <rs type="person" xml:id="pNt_30569" ref="#person_17409"><surname>Lehner</surname></rs>; dann 
-wurde auf der Bühne Basteiendecoration und <rs type="place" xml:id="pl_06733" ref="#place_971d9360a377fa82fd2640a5119b1112">Schönbrunn</rs> ausprobirt. 
+            <p xml:space="preserve"><date when="1909-06-30">30/6</date> Vm. im <rs type="place" ref="#pmb14">Burgtheater</rs>. Besprechung mit <rs type="person" xml:id="pNt_30567" ref="#person_17397"><surname>Lefler</surname></rs>, <rs type="person" xml:id="pNt_30568" ref="#person_15130"><surname>Frank</surname></rs>, <rs type="person" xml:id="pNt_30569" ref="#person_17409"><surname>Lehner</surname></rs>; dann 
+wurde auf der Bühne Basteiendecoration und <rs type="place" xml:id="pl_06733" ref="#pmb92518">Schönbrunn</rs> ausprobirt. 
 Es wird (mit gewissen Veränderungen in der decorativen Anlage der 
 Basteienscene) gehn. Sprach dann in der Kanzlei <rs type="person" xml:id="pNt_30570" ref="#person_19364"><surname>Rosenbaum</surname></rs>, der sagt, 
 es hänge nur mehr davon ab, ob <rs type="person" xml:id="pNt_30571" ref="#person_18237"><surname>Montenuovo</surname></rs> die nötigen 70.000 Kr. 
@@ -191,10 +195,9 @@ bewillige. Aber die Direktion wird die Eingabe machen und dafür
 einstehen, daß das Geld hereinkommt ― es sei übrigens noch nie 
 abgeschlagen worden.</p>
             <p xml:space="preserve" rend="indent">Sprach in der Kanzlei die <rs type="person" xml:id="pNt_30572" ref="#person_19283"><surname>Ritscher</surname></rs>, unten den sie erwartenden <rs type="person" xml:id="pNt_30573" ref="#person_17324"><surname>Lantz</surname></rs>.</p>
-            <p xml:space="preserve" rend="indent">Nm. mit O. Abreise nach <rs type="place" xml:id="pl_06734" ref="#place_6f4e3516ea738ef16c51614925de4154">Edlach</rs>. Auf der Fahrt <rs type="person" xml:id="pNt_30574" ref="#person_20929"><surname>Varnhagen</surname></rs> (über 
+            <p xml:space="preserve" rend="indent">Nm. mit O. Abreise nach <rs type="place" xml:id="pl_06734" ref="#pmb470">Edlach</rs>. Auf der Fahrt <rs type="person" xml:id="pNt_30574" ref="#person_20929"><surname>Varnhagen</surname></rs> (über 
 <rs type="person" xml:id="pNt_30575"><surname>Bollmann</surname></rs>) gelesen.― Ankunft im Regen.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

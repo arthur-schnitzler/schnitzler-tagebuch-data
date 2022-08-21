@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-08-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-08-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-08-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-08-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-08-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-08-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FD4C-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2740.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1909-08-26">
-            <p xml:space="preserve"><date when="1909-08-26">26/8</date> <rs type="place" xml:id="pl_06794" ref="#place_53a577bb3bc587b0c28ab808390f1c9b">Japan</rs> Ausstellung.</p>
+            <p xml:space="preserve"><date when="1909-08-26">26/8</date> <rs type="place" xml:id="pl_06794" ref="#pmb318">Japan</rs> Ausstellung.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_30788" ref="#person_18623"><surname>Owsley</surname></rs> und Frau gegessen.―</p>
             <p xml:space="preserve" rend="indent">In die Villa mit <rs type="person" xml:id="pNt_30789" ref="#person_16326"><surname>Hollaender</surname></rs> und <rs type="person" xml:id="pNt_30790" ref="#person_20386"><forename>Liesl</forename></rs>, Ludwigshöhe, wo <rs type="person" xml:id="pNt_30791" ref="#person_19154"><surname>Reinhardt</surname></rs> 
 mit der <rs type="person" xml:id="pNt_30792" ref="#person_16042"><surname>Heims</surname></rs>, dem 10m. Kind, <rs ref="#person_17648" type="person" xml:id="pNt_30793"><roleName>Frau</roleName> <surname>Löwenfeld</surname></rs> wohnt. Regenwetter. 
@@ -197,6 +201,5 @@ empfunden wurden. Über die Besetzung wurde schon viel gesprochen.
 Deutlicher innrer Widerstand (persönlich) der Dramaturgen.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

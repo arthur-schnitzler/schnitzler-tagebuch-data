@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1907-05-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-05-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-05-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1907-05-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-05-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-05-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FA29-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2375.tif"/>
@@ -182,10 +186,9 @@
          <div type="diary-day" xml:id="entry__1907-05-10">
             <p xml:space="preserve"><date when="1907-05-10">10/5</date> Vm. Tennis.―</p>
             <p xml:space="preserve" rend="indent">Nm. an der <rs type="work" subtype="self" xml:id="bibl_14240">Trgk.</rs> gefeilt.</p>
-            <p xml:space="preserve" rend="indent">Mit O. <rs type="place" xml:id="pl_05955" ref="#place_a6323892ff6bb3b42d9ed4dcfbfd47a5">Wiednerth.</rs> <rs type="person" xml:id="pNt_26844" ref="#person_15306"><surname>Fulda</surname></rs> „<rs type="work" xml:id="bibl_14241">Heiml. König</rs>“.―</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_26845" ref="#person_13913"><surname>Brahm</surname></rs>, und <rs type="person" xml:id="pNt_26846" ref="#person_16646"><surname>Kainzens</surname></rs> bei <rs type="place" ref="#place_sacher">Sacher</rs> soupirt.</p>
+            <p xml:space="preserve" rend="indent">Mit O. <rs type="place" xml:id="pl_05955" ref="#pmb92603">Wiednerth.</rs> <rs type="person" xml:id="pNt_26844" ref="#person_15306"><surname>Fulda</surname></rs> „<rs type="work" xml:id="bibl_14241">Heiml. König</rs>“.―</p>
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_26845" ref="#person_13913"><surname>Brahm</surname></rs>, und <rs type="person" xml:id="pNt_26846" ref="#person_16646"><surname>Kainzens</surname></rs> bei <rs type="place" ref="#pmb92506">Sacher</rs> soupirt.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

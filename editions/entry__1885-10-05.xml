@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1885-10-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-08-31.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-11-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1885-10-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-08-31.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-11-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DEE5-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0250.tif"/>
@@ -184,16 +188,16 @@
       <body>
          <div type="diary-day" xml:id="entry__1885-10-05">
             <p xml:space="preserve"><date when="1885-10-05">5/10</date> Montag Nachmittag.</p>
-            <p xml:space="preserve" rend="indent">Seit jenem Abend in <rs type="place" xml:id="pl_00496" ref="#place_d1bbe5c82af588aa9fd6e5f65d6acab3">Reichenau</rs> hab, ich in <rs type="work" subtype="self" xml:id="bibl_23330">diese Blätter</rs> nichts 
+            <p xml:space="preserve" rend="indent">Seit jenem Abend in <rs type="place" xml:id="pl_00496" ref="#pmb91574">Reichenau</rs> hab, ich in <rs type="work" subtype="self" xml:id="bibl_23330">diese Blätter</rs> nichts 
 eingetragen. Auch jetzt fühl, ich mehr das Bedürfnis, Chronik zu 
 schreiben als mich auszusprechen, auszuduseln, auszulamentiren. 
 Chronikhaft sei also hier dies und jenes verzeichnet.―</p>
             <p xml:space="preserve" rend="indent">Jene <rs type="place" xml:id="pl_00497" ref="#place_a6d56193655a00d8adedcd420f61ba0e" ana="#exclude">Reichenauer</rs> Gefühle hatt, ich, wie selbstverständlich und 
 wie ich mir bereits damals klar war, bald verschmerzt, bald vergessen. 
-Nachdem wir uns drei Wochen in <rs type="person" xml:id="pNt_02330"><surname>R.</surname></rs> aufgehalten, ging es nach <rs type="place" xml:id="pl_00498" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>, 
+Nachdem wir uns drei Wochen in <rs type="person" xml:id="pNt_02330"><surname>R.</surname></rs> aufgehalten, ging es nach <rs type="place" xml:id="pl_00498" ref="#pmb50">Wien</rs>, 
 weil mein <rs type="allusively" xml:id="rst_00054">Schwesterlein</rs> an einer Gottseilob nur mäßigen, bald 
 abgelaufnen Pleuritis erkrankte.</p>
-            <p xml:space="preserve" rend="indent">Eine kurze, unausstehliche Zeit verbracht ich in <rs type="place" xml:id="pl_00499" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>, um dann 
+            <p xml:space="preserve" rend="indent">Eine kurze, unausstehliche Zeit verbracht ich in <rs type="place" xml:id="pl_00499" ref="#pmb50">Wien</rs>, um dann 
 die oben skizzirte Reise anzutreten, auf der ich mich verhältnismäßig 
 <pb n="184"/>
 <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header"><fw place="top_left" type="pageNum">184</fw> <fw place="top_center"><date type="range">1885: X 5 - XI 9</date></fw></tei:fw>
@@ -226,6 +230,5 @@ verstimmte.</p>
             <p xml:space="preserve" rend="center">Chronik der Abende:</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

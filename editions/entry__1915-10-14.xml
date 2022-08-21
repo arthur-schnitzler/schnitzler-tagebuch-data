@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-10-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-10-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-10-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1915-10-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-10-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-10-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-060A-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4120.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1915-10-14">
-            <p xml:space="preserve"><date when="1915-10-14">14/10</date> Vm. Besorgungen. Panorama (<rs type="place" xml:id="pl_09634" ref="#place_3d93c766d980f58a8e989a616a0c72e6">Dalmatien</rs>).― In der Burg (<rs type="work" xml:id="bibl_8389">Götz</rs> 
+            <p xml:space="preserve"><date when="1915-10-14">14/10</date> Vm. Besorgungen. Panorama (<rs type="place" xml:id="pl_09634" ref="#pmb90511">Dalmatien</rs>).― In der Burg (<rs type="work" xml:id="bibl_8389">Götz</rs> 
 Probe), <rs type="person" xml:id="pNt_46529" ref="#person_20714"><surname>Thimig</surname></rs> danken.―</p>
             <p xml:space="preserve" rend="indent">Gegen Mittag <rs type="person" xml:id="pNt_46530" ref="#person_16770"><forename>Arthur</forename> <surname>Kaufmann</surname></rs>; er findet (nach Lecture der diesmal doch 
 immerhin anständigen <rs type="work" subtype="self" xml:id="bibl_8390">Kritiken</rs>) dass man als Mensch der Oeffentlichkeit 
@@ -194,6 +198,5 @@ den Kern einer Sache einzugehn. (Auch ins politische
             <p xml:space="preserve" rend="indent">Concert <rs type="person" xml:id="pNt_46532" ref="#person_14318"><forename>Julia</forename> <surname>Culp</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

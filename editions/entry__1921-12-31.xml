@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1921-12-31.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-12-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-01-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1921-12-31.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-12-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-01-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0EE6-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5608.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1921-12-31">
-            <p xml:space="preserve"><date when="1921-12-31">31/12</date> <rs type="person" xml:id="pNt_64750" ref="#person_19822"><forename>Heini</forename></rs> reist früh morgens nach <rs type="place" xml:id="pl_13593" ref="#place_c38ad36647aca0261d667c432a4866bd">Salzburg</rs>.― Trübselige Stimmung mit 
+            <p xml:space="preserve"><date when="1921-12-31">31/12</date> <rs type="person" xml:id="pNt_64750" ref="#person_19822"><forename>Heini</forename></rs> reist früh morgens nach <rs type="place" xml:id="pl_13593" ref="#pmb91649">Salzburg</rs>.― Trübselige Stimmung mit 
 constanter Bitterkeit ja Erbitterung gegen <rs type="person" xml:id="pNt_64751" ref="#person_19832"><forename>O.</forename></rs> (die durch die Briefe an <rs type="person" xml:id="pNt_64752" ref="#person_17784"><forename>Alma</forename></rs> 
 gesteigert und gerechtfertigt ist).</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_64753" ref="#person_15957"><surname>Harz</surname></rs> (<rs type="pubHouse">Kosmos</rs>) wegen <rs type="work" subtype="self" xml:id="bibl_3798">Reigen</rs>. Er will ihn noch bis zur 100. Auflage 
@@ -195,7 +199,7 @@ Schwester und <rs type="person" xml:id="pNt_64758" ref="#person_14018"><roleName
             <p xml:space="preserve" rend="indent">Brief an <rs type="person" xml:id="pNt_64759" ref="#person_14434"><surname>Devrient</surname></rs> zu seinem Jubilaeum.</p>
             <p xml:space="preserve" rend="indent">Zu <rs type="person" xml:id="pNt_64760" ref="#person_19542"><surname>Salten</surname></rs>. Dort genachtm.― Nachher kamen <rs type="person" xml:id="pNt_64761" ref="#person_18063"><surname>Menczels</surname></rs>, <rs type="person" xml:id="pNt_64762" ref="#person_19850"><surname>Schönherr</surname></rs>, 
 <rs type="person" xml:id="pNt_64763" ref="#person_20469"><surname>Strakosch’</surname></rs>, <rs type="person" xml:id="pNt_64764" ref="#person_20238"><surname>Specht</surname></rs> und Frau.― Mit <rs type="person" xml:id="pNt_64765" ref="#person_20238"><surname>Specht</surname></rs> (und <rs type="person" xml:id="pNt_64766" ref="#person_19542"><surname>Salten</surname></rs>) Erinnerungen ans 
-<rs type="place" ref="#place_griensteidl">Griensteidl</rs> (er schreibt eben über die Zeit);― an vergessene und halb 
+<rs type="place" ref="#pmb92258">Griensteidl</rs> (er schreibt eben über die Zeit);― an vergessene und halb 
 vergessene.― Mit <rs type="person" xml:id="pNt_64768" ref="#person_19850"><surname>Schönherr</surname></rs> Valuta- und Steuer Gespräche. Sagte ihm gutes 
 über „<rs type="work" xml:id="bibl_3801">Maientanz</rs>“ (<rs type="work" subtype="newspaper" xml:id="bibl_3802">Neue Fr. Pr.</rs>). <rs type="person" xml:id="pNt_64769" ref="#person_20238"><surname>Specht</surname></rs> spielte (aus Noten) <rs type="work" xml:id="bibl_3803">Carmen</rs>. Das 
 Stammbuch <rs type="person" xml:id="pNt_64770" ref="#person_19542"><surname>Saltens</surname></rs> wurde eingeweiht, mit einem Glückwunsch von mir.― Im 
@@ -204,6 +208,5 @@ eins heim; naßkaltes Wetter. Las noch in <rs type="person" xml:id="pNt_64771" r
             <p xml:space="preserve" rend="center">1922</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

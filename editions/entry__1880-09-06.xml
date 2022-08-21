@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1880-09-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-09-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-09-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1880-09-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-09-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-09-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DDAF-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,17 +177,19 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0098.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1880-09-06">
-            <p xml:space="preserve"><date when="1880-09-06">6/9</date> Montag. A… <rs type="place" xml:id="pl_00174" ref="#place_d7f977f9a16210838a0dd6b32f6fb25d">Volksg.</rs> ― <rs type="place" xml:id="pl_00175" ref="#place_85a3f5cbb52d9104b22a5a6702354836">Rathauspark</rs>. <rs type="person" xml:id="pNt_00835" ref="#person_17368"><forename>Fanny</forename></rs> ― Händedrücke; 
+            <p xml:space="preserve"><date when="1880-09-06">6/9</date> Montag. A… <rs type="place" xml:id="pl_00174" ref="#pmb103">Volksg.</rs> ― <rs type="place" xml:id="pl_00175" ref="#pmb91568">Rathauspark</rs>. <rs type="person" xml:id="pNt_00835" ref="#person_17368"><forename>Fanny</forename></rs> ― Händedrücke; 
 plötzlich und innig; mir seltsam und weh zu Mut ― „melanconia“ ― 
 Briefe von <rs type="person" xml:id="pNt_00836" ref="#person_21217"><forename>Adolf</forename></rs> und <rs type="person" xml:id="pNt_00837" ref="#person_16364"><forename>Richard</forename></rs>; beide herzlich und wohlthuend. <rs type="person" xml:id="pNt_00838" ref="#person_14386"><forename>Eugen</forename></rs> 
 mißfällt mir in vieler Beziehung.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

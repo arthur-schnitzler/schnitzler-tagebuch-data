@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1917-04-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-04-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-04-19.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1917-04-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-04-17.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-04-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0832-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,12 +177,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4445.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1917-04-18">
             <p xml:space="preserve"><date when="1917-04-18">18/4</date> Vm. dictirt <rs type="work" subtype="self" xml:id="bibl_6404">Fldb.</rs>― Nm. am <rs type="work" subtype="self" xml:id="bibl_6405">Fldb.</rs>―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_50374" ref="#person_13305"><surname>Auernheimers</surname></rs> z. N.― <rs type="person" xml:id="pNt_50375" ref="#person_13759"><forename>Björn</forename> <surname>Björnson</surname></rs>; später <rs type="person" xml:id="pNt_50376" ref="#person_21559"><surname>Zifferer</surname></rs> und Frau.― 
@@ -186,5 +191,6 @@ Von den individuell stärksten Eindrücken des Kriegs wurde u. a.
 gesprochen. <rs type="person" xml:id="pNt_50377" ref="#person_13305"><surname>Auernh.</surname></rs> erzählt die Geschichte des Offiziers, dem der von 
 ihm erschossene Feind den Abschiedsbrief an die Geliebte dictirt.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

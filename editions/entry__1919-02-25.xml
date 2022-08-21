@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-02-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-02-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-02-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-02-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-02-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-02-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0AD7-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4807.tif"/>
@@ -183,7 +187,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1919-02-25">
             <p xml:space="preserve"><date when="1919-02-25">25/2</date> Vm. bei <rs type="person" xml:id="pNt_55525" ref="#person_20925"><forename>Leo</forename></rs>. Vorgestern starb <rs type="person" xml:id="pNt_55526" ref="#person_18320"><forename>Fanny</forename> <surname>Mütter</surname></rs> auf dem Heimweg von 
-<rs type="person" xml:id="pNt_55527" ref="#person_20352"><roleName>Director</roleName> <surname>Steins</surname></rs>, gegen Mitternacht ― auf einer Bank am <rs type="place" xml:id="pl_11531" ref="#place_80f4af65bdf3e6d98a5e148a48b99825">Gürtel</rs>. 
+<rs type="person" xml:id="pNt_55527" ref="#person_20352"><roleName>Director</roleName> <surname>Steins</surname></rs>, gegen Mitternacht ― auf einer Bank am <rs type="place" xml:id="pl_11531" ref="#pmb40772">Gürtel</rs>. 
 Stenocard. Anfall. <rs type="person" xml:id="pNt_55528" ref="#person_20925"><forename>Leo</forename></rs> erzählt mir die ergreifenden Einzelheiten; das 
 träge, auch rohe Benehmen der Passanten;― sofort waren Diebe zur Hand, 
 die Schirm, Hut, Tasche stehlen wollten.― Sie ist 60 Jahre alt geworden;― 
@@ -201,6 +205,5 @@ die Verwandten fallen, mit denen fast nur üble Beziehungen beständen.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_55538" ref="#person_19822"><forename>Heini</forename></rs> <rs type="person" xml:id="pNt_55539" ref="#person_18282"><surname>Mozart</surname></rs> <rs type="work" xml:id="bibl_4620">Clav. Konz. V</rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

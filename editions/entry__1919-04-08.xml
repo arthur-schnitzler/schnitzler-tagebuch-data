@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-04-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-04-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-04-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-04-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-04-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-04-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0B01-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4824.tif"/>
@@ -183,11 +187,11 @@
       <body>
          <div type="diary-day" xml:id="entry__1919-04-08">
             <p xml:space="preserve"><date when="1919-04-08">8/4</date> Besorgungen.― Bei <rs type="person" xml:id="pNt_55786" ref="#person_17425"><roleName>Onkel</roleName> <forename>Max</forename></rs>, Geld geholt. (Der <rs type="place" xml:id="pl_11579" ref="#place_1d2d55eda7a847eea7bfbab40dadcf1d" ana="#exclude">bayr.</rs> Umsturz.) ―</p>
-            <p xml:space="preserve" rend="indent">Im <rs type="place" ref="#place_volkstheater">Volksth.</rs> (<rs type="person" xml:id="pNt_55787" ref="#person_19392"><surname>Rosenthal</surname></rs> ― erklärt, vom Theater abzugehen, wenn sich die 
+            <p xml:space="preserve" rend="indent">Im <rs type="place" ref="#pmb92202">Volksth.</rs> (<rs type="person" xml:id="pNt_55787" ref="#person_19392"><surname>Rosenthal</surname></rs> ― erklärt, vom Theater abzugehen, wenn sich die 
 Sozialisirung durchsetze. <rs type="person" xml:id="pNt_55788" ref="#person_13663"><surname>Bernau</surname></rs> (und Frau), galgenhumoristisch; eben war 
 wieder eine communistische Theaterversammlung; man kam, verspätet, zur 
 <rs type="work" xml:id="bibl_4719">Othelloprobe</rs>.― Secr. <rs type="person" xml:id="pNt_55789" ref="#person_15368"><surname>Geiringer</surname></rs> (Tantièmen ―);― er erzählt mir von 
-dem Brief seiner Nichte aus <rs type="place" xml:id="pl_11580" ref="#place_9fed5dae86e3030d9be3740efa198659">Budapest</rs> (O.s Cousine <rs type="person" xml:id="pNt_55790"><forename>Bella</forename></rs>) ― Proletarier 
+dem Brief seiner Nichte aus <rs type="place" xml:id="pl_11580" ref="#pmb43471">Budapest</rs> (O.s Cousine <rs type="person" xml:id="pNt_55790"><forename>Bella</forename></rs>) ― Proletarier 
 in die Wohnung gelegt;― die dreiköpfige Familie auf 2 Zimmer verwiesen, 
 Geld und Schmuck natürlich weg.)</p>
             <p xml:space="preserve" rend="indent">― Sanatorium <rs type="person" xml:id="pNt_55791"><surname>Loew</surname></rs>;― mich nach <rs type="person" xml:id="pNt_55792" ref="#person_19290"><forename>Thaddeus</forename> <surname>Rittners</surname></rs> Befinden erkundigen; aus 
@@ -206,6 +210,5 @@ den Plafond stößt und bedaure, daß er nicht durch kann. (Symbol für
 Arbeitsschwierigkeit!)</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

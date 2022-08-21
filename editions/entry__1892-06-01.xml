@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1892-06-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-05-31.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-06-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1892-06-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-05-31.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-06-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E568-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0618.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1892-06-01">
-            <p xml:space="preserve"><date when="1892-06-01">1/6</date> Mit <rs type="allusively" xml:id="rst_00147">Großpapa</rs> aus <rs type="place" xml:id="pl_01270" ref="#place_9a43e84f6e1d406076f2372205804f6d">Baden</rs> herein.―</p>
+            <p xml:space="preserve"><date when="1892-06-01">1/6</date> Mit <rs type="allusively" xml:id="rst_00147">Großpapa</rs> aus <rs type="place" xml:id="pl_01270" ref="#pmb662">Baden</rs> herein.―</p>
             <p xml:space="preserve" rend="indent">Abends <rs type="person" xml:id="pNt_06332" ref="#person_15485"><forename>Mz.</forename></rs> bei mir (2). Nach dem Th. sie abgeholt.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_06333" ref="#person_16363"><forename>Paul</forename> <surname>Horn</surname></rs> und <rs type="person" xml:id="pNt_06334" ref="#person_13611"><surname>Bératon</surname></rs> Poker gespielt.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

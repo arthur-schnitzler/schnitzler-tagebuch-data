@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-02-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-02-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-02-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-02-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-02-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-02-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-00C6-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3322.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1912-02-02">
-            <p xml:space="preserve"><date when="1912-02-02">2/2</date> Spaziergang im Schnee <rs type="place" xml:id="pl_07767" ref="#place_9c457f4107132ccb2d87ebf5e13f0b74">Schafberg</rs>, <rs type="place" xml:id="pl_07768" ref="#place_f5af0e4beb99b2ded62ac5ff72643954">Dornbach</rs>, <rs type="place" xml:id="pl_07769" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs>; später, 
+            <p xml:space="preserve"><date when="1912-02-02">2/2</date> Spaziergang im Schnee <rs type="place" xml:id="pl_07767" ref="#pmb59367">Schafberg</rs>, <rs type="place" xml:id="pl_07768" ref="#pmb90546">Dornbach</rs>, <rs type="place" xml:id="pl_07769" ref="#pmb169">Pötzleinsdorf</rs>; später, 
 am Park mit O.―</p>
             <p xml:space="preserve" rend="indent">Nm. an der „<rs type="work" subtype="self" xml:id="bibl_9929">Beate</rs>“.</p>
             <p xml:space="preserve" rend="indent">Abends bei <rs type="person" xml:id="pNt_37199" ref="#person_13551"><forename>Richard</forename></rs>, wo <rs type="person" xml:id="pNt_37200" ref="#person_19542"><surname>Saltens</surname></rs> und <rs type="person" xml:id="pNt_37201" ref="#person_20925"><forename>Leo</forename> <surname>Vanjung</surname></rs>. Discussion über 
@@ -191,6 +195,5 @@ am Park mit O.―</p>
 nennen. Das bekannte Gespräch über Literaturpolitik und dergl.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

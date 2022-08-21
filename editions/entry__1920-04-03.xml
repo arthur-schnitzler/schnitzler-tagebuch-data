@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-04-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-04-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-04-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1920-04-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-04-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-04-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0C69-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5066.tif"/>
@@ -182,9 +186,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1920-04-03">
-            <p xml:space="preserve"><date when="1920-04-03">3/4</date> Vm. <rs type="place" xml:id="pl_12179" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs>, <rs type="person" xml:id="pNt_58455" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs>, Spaziergang. Sie scheint ziemlich krank, 
-fährt auf 2 Monate <rs type="place" xml:id="pl_12180" ref="#place_93a9ecbb44a366f126306a8a9847010d">Traunsee</rs>. Melancholisches Gespräch auf dem 
-<rs type="place" xml:id="pl_12181" ref="#place_bf303a935ba7bb30e892cb5d0f2ea6ac">Michaelerberg</rs>, Bank im kahlrasirten Wald.―</p>
+            <p xml:space="preserve"><date when="1920-04-03">3/4</date> Vm. <rs type="place" xml:id="pl_12179" ref="#pmb169">Pötzleinsdorf</rs>, <rs type="person" xml:id="pNt_58455" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs>, Spaziergang. Sie scheint ziemlich krank, 
+fährt auf 2 Monate <rs type="place" xml:id="pl_12180" ref="#pmb91928">Traunsee</rs>. Melancholisches Gespräch auf dem 
+<rs type="place" xml:id="pl_12181" ref="#pmb91239">Michaelerberg</rs>, Bank im kahlrasirten Wald.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_4002">Nachklang</rs>.</p>
             <p xml:space="preserve" rend="indent">Las wieder ein Mscrpt. von <rs type="person" xml:id="pNt_58456" ref="#person_18323"><surname>Muhr</surname></rs> „<rs type="work" xml:id="bibl_4003">Die neue Welt</rs>“;― wie eine 
 Parodie auf die Expressionisten. Ein unleidliches Volk, diese 
@@ -196,6 +200,5 @@ außerordentliche, vielleicht große Züge;― im ganzen recht
 schlampig und geschwätzig.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

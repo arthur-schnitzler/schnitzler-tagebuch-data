@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-04-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-04-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-04-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1906-04-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-04-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-04-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F8A1-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2215.tif"/>
@@ -182,10 +186,9 @@
          <div type="diary-day" xml:id="entry__1906-04-13">
             <p xml:space="preserve"><date when="1906-04-13">13/4</date> Vm. Tennis.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_14930">Roman</rs>.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_24759" ref="#person_15729"><roleName>Dr.</roleName> <surname>Günsberg</surname></rs> (<rs type="place" xml:id="pl_05503" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>), von <rs type="person" xml:id="pNt_24760" ref="#person_19542"><surname>Salten</surname></rs> empfohlen, besucht uns.</p>
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_24759" ref="#person_15729"><roleName>Dr.</roleName> <surname>Günsberg</surname></rs> (<rs type="place" xml:id="pl_05503" ref="#pmb168">Berlin</rs>), von <rs type="person" xml:id="pNt_24760" ref="#person_19542"><surname>Salten</surname></rs> empfohlen, besucht uns.</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_24761" ref="#person_15854"><forename>Gisa</forename></rs> en fam. genachtmahlt.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

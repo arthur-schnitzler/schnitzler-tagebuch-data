@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-04-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-04-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-04-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-04-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-04-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-04-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-03E1-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,19 +177,20 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3808.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3809.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1914-04-07">
             <p xml:space="preserve"><date when="1914-04-07">7/4</date> Dictirt <rs type="work" subtype="self" xml:id="bibl_8787">Fink</rs> 3. Akt vorläufig zu Ende.―</p>
             <p xml:space="preserve" rend="indent">― Zum Thee bei <rs type="person" xml:id="pNt_43273" ref="#person_13699"><roleName>Dr.</roleName> <surname>Bettelheim</surname></rs>. <rs type="person" xml:id="pNt_43274" ref="#person_16306"><roleName>Fürstin</roleName> <surname>Hohenlohe</surname></rs> (die einstige 
 Obersthofmeistersgattin) <rs type="person" xml:id="pNt_43275" ref="#person_20207"><forename>Hermine v.</forename> <surname>Sonnenthal</surname></rs>. <rs type="person" xml:id="pNt_43276" ref="#person_15530"><surname>Goldmark</surname></rs>. <rs type="person" xml:id="pNt_43277" ref="#person_15212"><surname>Friedjung</surname></rs>. 
-<rs type="person" xml:id="pNt_43278" ref="#person_15436"><surname>Ginzkey</surname></rs>. <rs type="person" xml:id="pNt_43279" ref="#person_18756"><surname>Philippovits</surname></rs> u.a. Mit der Fürstin über das jetzige <rs type="place" ref="#place_burgtheater">Burgtheater</rs> 
-(sie fürchtet es „in Gefahr“), über polit. Zustände <rs type="place" xml:id="pl_08662" ref="#place_8be4faaae218289562dc0a8c0e2e0ff1">Triest</rs>, <rs type="place" xml:id="pl_08663" ref="#place_3d93c766d980f58a8e989a616a0c72e6">Dalmatien</rs> 
+<rs type="person" xml:id="pNt_43278" ref="#person_15436"><surname>Ginzkey</surname></rs>. <rs type="person" xml:id="pNt_43279" ref="#person_18756"><surname>Philippovits</surname></rs> u.a. Mit der Fürstin über das jetzige <rs type="place" ref="#pmb14">Burgtheater</rs> 
+(sie fürchtet es „in Gefahr“), über polit. Zustände <rs type="place" xml:id="pl_08662" ref="#pmb91944">Triest</rs>, <rs type="place" xml:id="pl_08663" ref="#pmb90511">Dalmatien</rs> 
 (<rs type="person" xml:id="pNt_43280" ref="#person_15212"><surname>Friedjung</surname></rs> als Fachmann); mit <rs type="person" xml:id="pNt_43281" ref="#person_20207"><forename>Hermine</forename> <surname>S.</surname></rs> über den <rs type="work" xml:id="bibl_8788">Briefwechsel</rs> ihres 
 Vaters (der auch Briefe von mir, und über mich enthält) ― von seiner 
 Stellung zu mir, von meinem <rs type="allusively" xml:id="rst_01346">Vater</rs>, etc.― Über <rs type="person" xml:id="pNt_43282" ref="#person_15980"><surname>Hauptmann</surname></rs> wurde viel 
@@ -196,5 +201,6 @@ von Talent als „neidlos“ bewundert ― Ich: Es ist beschämend! Was
 für Dichter müssen Sie kennen gelernt haben?!</p>
             <p xml:space="preserve" rend="indent">Im Concert <rs type="person" xml:id="pNt_43286" ref="#person_14108"><surname>Cahier</surname></rs> mit O.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-08-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-08-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-08-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-08-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-08-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-08-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-19CB-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,19 +177,21 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7343.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1929-08-22">
-            <p xml:space="preserve"><date when="1929-08-22">22/8</date> <rs type="place" xml:id="pl_18832" ref="#place_2f4d156f29b46c9add9d9337453822fc">Lausanne</rs>. Autofahrt über <rs type="place" xml:id="pl_18833" ref="#place_8d9cafbdba16e54bc75952984ed08b24">Vevey</rs> ― <rs type="place" xml:id="pl_18834" ref="#place_d2bdf23fecbe16d490bdc72bcbeaa15b">St. Pélerin</rs> (Zimmer angesehn) ― 
-<rs type="place" xml:id="pl_18835" ref="#place_af99963bd21453a6920af9c892bc0028">Blonay</rs> ― Les Avants (Zimmer) ― <rs type="place" xml:id="pl_18836" ref="#place_fe7ccfdd8211330c270a9b438c16bacd">Glion</rs> ― <rs type="place" xml:id="pl_18837" ref="#place_b69e39d38efc442d4f3faa0970eaf441">Caux</rs> (Zimmer gemiethet) ― 
-<rs type="place" xml:id="pl_18838" ref="#place_f197524aef7e6b2ee8b3196b6ca91c61">Territet</rs>; im Hotel des Alpes gegessen ― <rs type="place" xml:id="pl_18839" ref="#place_2f4d156f29b46c9add9d9337453822fc">Lausanne</rs>;― und um 5 wieder 
-(Bahn) <rs type="place" xml:id="pl_18840" ref="#place_f197524aef7e6b2ee8b3196b6ca91c61">Territet</rs> <rs type="place" xml:id="pl_18841" ref="#place_b69e39d38efc442d4f3faa0970eaf441">Caux</rs>. Ankunft nach 7. Hotel höchst befriedigend.― 
+            <p xml:space="preserve"><date when="1929-08-22">22/8</date> <rs type="place" xml:id="pl_18832" ref="#pmb50004">Lausanne</rs>. Autofahrt über <rs type="place" xml:id="pl_18833" ref="#pmb64657">Vevey</rs> ― <rs type="place" xml:id="pl_18834" ref="#pmb91808">St. Pélerin</rs> (Zimmer angesehn) ― 
+<rs type="place" xml:id="pl_18835" ref="#pmb90364">Blonay</rs> ― Les Avants (Zimmer) ― <rs type="place" xml:id="pl_18836" ref="#pmb40483">Glion</rs> ― <rs type="place" xml:id="pl_18837" ref="#pmb90460">Caux</rs> (Zimmer gemiethet) ― 
+<rs type="place" xml:id="pl_18838" ref="#pmb52051">Territet</rs>; im Hotel des Alpes gegessen ― <rs type="place" xml:id="pl_18839" ref="#pmb50004">Lausanne</rs>;― und um 5 wieder 
+(Bahn) <rs type="place" xml:id="pl_18840" ref="#pmb52051">Territet</rs> <rs type="place" xml:id="pl_18841" ref="#pmb90460">Caux</rs>. Ankunft nach 7. Hotel höchst befriedigend.― 
 Nachtmahl. Zwei Zimmer, zwei Badezimmer. Nachsaison; also verhältnismäßig 
 wohlfeil.― Hall.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

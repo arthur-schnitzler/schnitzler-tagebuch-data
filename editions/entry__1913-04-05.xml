@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-04-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-04-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-04-06.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-04-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-04-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-04-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0272-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3594.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1913-04-05">
-            <p xml:space="preserve"><date when="1913-04-05">5/4</date> Traum: Besuche ― Ecke <rs type="place" xml:id="pl_08203" ref="#place_53e75cdbc7449ba89598563b511e672b">Porzellan-</rs>, <rs type="place" xml:id="pl_08204" ref="#place_5f7d9fd53557edbbcc683be7db1e611c">Liechtensteinstraße</rs> ― Herrn 
+            <p xml:space="preserve"><date when="1913-04-05">5/4</date> Traum: Besuche ― Ecke <rs type="place" xml:id="pl_08203" ref="#pmb436">Porzellan-</rs>, <rs type="place" xml:id="pl_08204" ref="#pmb34305">Liechtensteinstraße</rs> ― Herrn 
 „Chateau d’un ―“ weiss, das heißt „Schloss des Einen“; er ist 
 ein wenig <rs type="person" xml:id="pNt_40460" ref="#person_14494"><surname>Doret</surname></rs>, ein wenig <rs type="person" xml:id="pNt_40461" ref="#person_15115"><forename>Clemens</forename> <surname>Franckenstein</surname></rs>; hält mich, wie ich 
 voraussehe, zum Essen dort, ich bekomme gebackenen Karpfen; ein 
@@ -196,10 +200,9 @@ allerdings war das ein Oberlieutenant …</p>
 geschlossen, begraben. Ministerium erklärt sich für incompetent.― 
 (Natürlich bestand die Möglichkeit, da es sich um geschlossne Vorstellung 
 handelt, einfach vorzugehn, ohne die Behörden zu fragen und es darauf 
-ankommen zu lassen. Hiezu fehlte dem <rs type="place" ref="#place_volkstheater">Volksth.</rs> der Muth.)</p>
+ankommen zu lassen. Hiezu fehlte dem <rs type="place" ref="#pmb92202">Volksth.</rs> der Muth.)</p>
             <p xml:space="preserve" rend="indent">Nm. mit O. und <rs type="person" xml:id="pNt_40463" ref="#person_13359"><forename>Stephi</forename></rs> im Votiv Kino.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

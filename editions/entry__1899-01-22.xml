@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1899-01-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-01-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-01-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1899-01-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-01-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-01-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EECE-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1479.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1899-01-22">
-            <p xml:space="preserve"><date when="1899-01-22">22/1</date> S. <rs type="place" xml:id="pl_03077" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs>. Mit <rs type="person" xml:id="pNt_16065" ref="#person_15980"><forename>Gerh.</forename> <surname>Hauptmann</surname></rs> spazieren; tausend Dinge, 
+            <p xml:space="preserve"><date when="1899-01-22">22/1</date> S. <rs type="place" xml:id="pl_03077" ref="#pmb91735">Semmering</rs>. Mit <rs type="person" xml:id="pNt_16065" ref="#person_15980"><forename>Gerh.</forename> <surname>Hauptmann</surname></rs> spazieren; tausend Dinge, 
 künstl. Schaffen, <rs type="person" xml:id="pNt_16066" ref="#person_21034"><surname>Wagner</surname></rs>, seine Pläne, mit ihm und <rs type="person" xml:id="pNt_16067" ref="#person_19724"><surname>Schlenther</surname></rs> genachtmahlt.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-04-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-04-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-04-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-04-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-04-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-04-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0B08-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4827.tif"/>
@@ -182,7 +186,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1919-04-15">
             <p xml:space="preserve"><date when="1919-04-15">15/4</date> Mit <rs type="person" xml:id="pNt_55831" ref="#person_19822"><forename>Heini</forename></rs> Stadt (Hut).―</p>
-            <p xml:space="preserve" rend="indent">Im <rs type="place" ref="#place_volkstheater">Volksth.</rs> <rs type="person" xml:id="pNt_55832" ref="#person_19392"><surname>Rosenthal</surname></rs> bat mich um mein Interesse für eine dramat. 
+            <p xml:space="preserve" rend="indent">Im <rs type="place" ref="#pmb92202">Volksth.</rs> <rs type="person" xml:id="pNt_55832" ref="#person_19392"><surname>Rosenthal</surname></rs> bat mich um mein Interesse für eine dramat. 
 Gesellschaft.― Mit <rs type="person" xml:id="pNt_55833" ref="#person_13663"><surname>Bernau</surname></rs> über <rs type="work" subtype="self" xml:id="bibl_4736">Reigen</rs> Inszenirung und andre 
 Aufführungsfragen.―</p>
             <p xml:space="preserve" rend="indent">Nm. sang mir O. <rs type="person" xml:id="pNt_55834" ref="#person_14371"><surname>Debussy</surname></rs> Lieder vor ―</p>
@@ -190,6 +194,5 @@ Aufführungsfragen.―</p>
 <rs type="work" xml:id="bibl_4737">Nährpflicht</rs> hält.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-03-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-03-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-03-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-03-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-03-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-03-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-17CC-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7061.tif"/>
@@ -184,7 +188,7 @@
          <div type="diary-day" xml:id="entry__1928-03-29">
             <p xml:space="preserve"><date when="1928-03-29">29/3</date> Vm. <rs type="person" xml:id="pNt_83375" ref="#person_19738"><forename>Viola Gabr.</forename> <surname>Schlesinger</surname></rs>. Katholisches (ausgehend von meinen 
 Erkundigungen über Functionen des Kaplans mit Hinblick auf „<rs type="work" subtype="self" xml:id="bibl_19272">Spiel der Sommerlüfte</rs>“).</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_83376" ref="#person_16920"><forename>Lucien</forename> <surname>Klopp</surname></rs>, Agent, wegen meiner Stücke für <rs type="place" xml:id="pl_17860" ref="#place_8d865b652dc83da05aa34b499a9b01be">Frankreich</rs>. Er wirkte 
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_83376" ref="#person_16920"><forename>Lucien</forename> <surname>Klopp</surname></rs>, Agent, wegen meiner Stücke für <rs type="place" xml:id="pl_17860" ref="#pmb166">Frankreich</rs>. Er wirkte 
 nicht unsympathisch.</p>
             <p xml:space="preserve" rend="indent">Dictirt Briefe (u. a. an <rs type="person" xml:id="pNt_83377" ref="#person_20963"><surname>Viereck</surname></rs> über das Mscrpt. seines Interviews).―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_19273">Abenteurer</rs>.</p>
@@ -197,6 +201,5 @@ Phonogrammplatten (seines Quartettes).― <rs type="person" xml:id="pNt_83391"><
 <rs type="work" subtype="self" xml:id="bibl_19275">Reigen</rs> anläßlich Films.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

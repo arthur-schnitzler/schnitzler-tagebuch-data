@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-08-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-08-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-08-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-08-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-08-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-08-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-16E9-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,22 +177,24 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6929.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1927-08-15">
-            <p xml:space="preserve"><date when="1927-08-15">15/8</date> <rs type="place" xml:id="pl_17479" ref="#place_75b06df88a6338e51a73fabf2f11c672">Campiglio</rs>. Vorm. hin und her. Mittags im Albergo.―</p>
+            <p xml:space="preserve"><date when="1927-08-15">15/8</date> <rs type="place" xml:id="pl_17479" ref="#pmb427">Campiglio</rs>. Vorm. hin und her. Mittags im Albergo.―</p>
             <p xml:space="preserve" rend="indent">Nm. Abreise (mit <rs type="person" xml:id="pNt_81471" ref="#person_20340"><surname>Stefenelli</surname></rs>); <rs type="person" xml:id="pNt_81472" ref="#person_19832"><forename>Olga</forename></rs>, <rs type="person" xml:id="pNt_81473" ref="#person_19822"><forename>Heini</forename></rs> und ich.― Auto hinter uns 
-<rs type="person" xml:id="pNt_81474" ref="#person_18793"><surname>Pietrkowski</surname></rs>. Schöne Fahrt über <rs type="place" xml:id="pl_17480" ref="#place_53eda3d01e8560c49da346baa2680892">Cles</rs> ― <rs type="place" xml:id="pl_17481" ref="#place_f530c768051b3c2051eb29262102f61b">Mendel</rs> (oft Regen ―) (Jause) 
-― <rs type="place" xml:id="pl_17482" ref="#place_3859ff9074d497ed0cb3c08be85996ad">Bozen</rs> Stadthotel.― <rs type="person" xml:id="pNt_81475" ref="#person_19832"><forename>O.</forename></rs> Zimmer neben mir „wie einst“.― Wir nachtm. 
-alle im Greif.― Ich begleite <rs type="person" xml:id="pNt_81476" ref="#person_19822"><forename>Heini</forename></rs> zur Bahn; er reist über <rs type="place" xml:id="pl_17483" ref="#place_d0a6343a081a7335baa965ce4fd0845c">München</rs> 
-nach <rs type="place" xml:id="pl_17484" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>, hat 17. Probe „<rs type="work" xml:id="bibl_24620">besserer Herr</rs>“ von <rs type="person" xml:id="pNt_81477" ref="#person_15961"><surname>Hasenclever</surname></rs> … Wie oft 
+<rs type="person" xml:id="pNt_81474" ref="#person_18793"><surname>Pietrkowski</surname></rs>. Schöne Fahrt über <rs type="place" xml:id="pl_17480" ref="#pmb90488">Cles</rs> ― <rs type="place" xml:id="pl_17481" ref="#pmb91229">Mendel</rs> (oft Regen ―) (Jause) 
+― <rs type="place" xml:id="pl_17482" ref="#pmb40260">Bozen</rs> Stadthotel.― <rs type="person" xml:id="pNt_81475" ref="#person_19832"><forename>O.</forename></rs> Zimmer neben mir „wie einst“.― Wir nachtm. 
+alle im Greif.― Ich begleite <rs type="person" xml:id="pNt_81476" ref="#person_19822"><forename>Heini</forename></rs> zur Bahn; er reist über <rs type="place" xml:id="pl_17483" ref="#pmb45258">München</rs> 
+nach <rs type="place" xml:id="pl_17484" ref="#pmb168">Berlin</rs>, hat 17. Probe „<rs type="work" xml:id="bibl_24620">besserer Herr</rs>“ von <rs type="person" xml:id="pNt_81477" ref="#person_15961"><surname>Hasenclever</surname></rs> … Wie oft 
 ― oder wie wenig oft wird man so von einander reisen … Zum Greif 
 zurück; bald alle schlafen. Ich sass noch eine Weile an <rs type="person" xml:id="pNt_81478" ref="#person_19832"><forename>O.s</forename></rs> Bett. Sie 
-fährt morgen an den <rs type="place" xml:id="pl_17485" ref="#place_0c8a0ca19b8a880f6aec12e3d3fe5c05">Karersee</rs>, zu <rs type="person" xml:id="pNt_81479" ref="#person_19802"><roleName>Fr.</roleName> <surname>Schneider</surname></rs> ― und weiss dann wieder nicht wohin mit sich.</p>
+fährt morgen an den <rs type="place" xml:id="pl_17485" ref="#pmb91003">Karersee</rs>, zu <rs type="person" xml:id="pNt_81479" ref="#person_19802"><roleName>Fr.</roleName> <surname>Schneider</surname></rs> ― und weiss dann wieder nicht wohin mit sich.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

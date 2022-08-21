@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-04-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-04-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-04-19.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-04-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-04-17.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-04-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FCCA-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2678.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1909-04-18">
-            <p xml:space="preserve"><date when="1909-04-18">18/4</date> S. Nach <rs type="place" xml:id="pl_06654" ref="#place_be57250d6a6a23f07aac7a733a5646ba">Berndorf</rs> und <rs type="place" xml:id="pl_06655" ref="#place_af2457155a311c31f733ad2e8a1f5b80">Veitsau</rs>, eine neue Pension besichtigen. 
+            <p xml:space="preserve"><date when="1909-04-18">18/4</date> S. Nach <rs type="place" xml:id="pl_06654" ref="#pmb90340">Berndorf</rs> und <rs type="place" xml:id="pl_06655" ref="#pmb91999">Veitsau</rs>, eine neue Pension besichtigen. 
 <rs ref="#person_18324" type="person" xml:id="pNt_30129"><roleName>Herrn</roleName> <roleName>Frau</roleName> <surname>Mully</surname></rs>; er hatte mir vorher geschrieben. Hübsche 
 Gegend. Ich und ein alter, seit 20 Jahren nicht gesprochener Bekannter 
 speisten als Gäste. Mit diesem Bekannten, <rs type="person" xml:id="pNt_30130" ref="#person_18598"><roleName>Herrn</roleName> <surname>Ostersetzer</surname></rs> auf der 
@@ -189,6 +193,5 @@ Heimfahrt alte Gymnasialerinnerungen.</p>
             <p xml:space="preserve" rend="indent">Daheim am <rs type="work" subtype="self" xml:id="bibl_12585">Medardus</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

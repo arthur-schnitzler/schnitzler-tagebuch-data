@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1917-10-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-10-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-10-31.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1917-10-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-10-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-10-31.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-08F5-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4546.tif"/>
@@ -182,10 +186,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1917-10-30">
-            <p xml:space="preserve"><date when="1917-10-30">30/10</date> Mit O. zu <rs type="person" xml:id="pNt_51773"><surname>Mautners</surname></rs>, <rs type="place" xml:id="pl_10763" ref="#place_8187ed1ec1a269ed0acbcfebb1fc395e">Khevenhüllerstr.</rs> Das unvergleichliche Haus. 
+            <p xml:space="preserve"><date when="1917-10-30">30/10</date> Mit O. zu <rs type="person" xml:id="pNt_51773"><surname>Mautners</surname></rs>, <rs type="place" xml:id="pl_10763" ref="#pmb92333">Khevenhüllerstr.</rs> Das unvergleichliche Haus. 
 Die neu gebauten Zimmer. <rs type="person" xml:id="pNt_51774" ref="#person_14318"><roleName>Frau</roleName> <surname>Culp</surname></rs> die dort wohnt; <rs type="person" xml:id="pNt_51775"><roleName>Hr.</roleName> <surname>van Bos</surname></rs>. <rs type="person" xml:id="pNt_51776" ref="#person_14318"><roleName>Fr.</roleName> <surname>C.</surname></rs> 
 nicht recht zufrieden mit gestern; großer Saal  ― nicht der rechte 
-Contact.― Die Siege über <rs type="place" xml:id="pl_10764" ref="#place_389962c9dec540ab28d04517e82c3996">Italien</rs>. Hoffnungen. <rs type="person" xml:id="pNt_51777"><surname>M.</surname></rs> soll <rs type="person" xml:id="pNt_51778"><surname>Fischer</surname></rs> Papier 
+Contact.― Die Siege über <rs type="place" xml:id="pl_10764" ref="#pmb40306">Italien</rs>. Hoffnungen. <rs type="person" xml:id="pNt_51777"><surname>M.</surname></rs> soll <rs type="person" xml:id="pNt_51778"><surname>Fischer</surname></rs> Papier 
 liefern. Notiz im Mittagblatt, aus heiterm Himmel: „Frau Schn. hat den 
 Plan zur Bühne zu gehn aufgegeben.“ Neulich in einem andern Klatschblatt. 
 „Frau Sch. studiert über Hals und Kopf Gesang und wird nächstens zum 
@@ -201,6 +205,5 @@ ersten Mal das Concertpodium betreten.“ ― Frl. <rs type="person" xml:id="pNt
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_51780" ref="#person_19822"><forename>Heini</forename></rs> <rs type="person" xml:id="pNt_51781" ref="#person_13555"><surname>Beethoven</surname></rs> <rs type="work" xml:id="bibl_6858">op. 131</rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

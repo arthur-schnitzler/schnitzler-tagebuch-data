@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-08-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-08-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-08-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-08-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-08-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-08-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1584-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6712.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1926-08-23">
-            <p xml:space="preserve"><date when="1926-08-23">23/8</date> <rs type="place" xml:id="pl_16845" ref="#place_d0dd8ec0c54bfc44e84edbb133bc249a">Zermatt</rs>. Träume, dass ich (auf Reisen) mit <rs type="person" xml:id="pNt_78414" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> in ein Hotel 
+            <p xml:space="preserve"><date when="1926-08-23">23/8</date> <rs type="place" xml:id="pl_16845" ref="#pmb34007">Zermatt</rs>. Träume, dass ich (auf Reisen) mit <rs type="person" xml:id="pNt_78414" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> in ein Hotel 
 komme;― vor meiner Thür steht <rs type="person" xml:id="pNt_78415" ref="#person_19832"><forename>Olga</forename></rs>,― die wartet, sie zu mir: Ich habe 
 geglaubt, du hast mich vergessen ― Ich: Was fällt dir ein; und küsse sie 
 herzlich;― <rs type="person" xml:id="pNt_78416" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>;― die aber eigentlich <rs type="person" xml:id="pNt_78417" ref="#person_19832"><forename>Olga</forename></rs> ist und so ausschaut, mit 
@@ -190,6 +194,5 @@ einem Kind (die jüngere <rs type="person" xml:id="pNt_78418" ref="#person_14130
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_20383">Roman</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

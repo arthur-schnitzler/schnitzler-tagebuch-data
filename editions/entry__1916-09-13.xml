@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1916-09-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-09-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-09-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1916-09-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-09-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-09-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0759-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,15 +177,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4322.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4323.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1916-09-13">
-            <p xml:space="preserve"><date when="1916-09-13">13/9</date> 7. Geburtstag von <rs type="person" xml:id="pNt_48749" ref="#person_14130"><forename>Lili</forename></rs>. Wir hatten ihr aus <rs type="place" xml:id="pl_10179" ref="#place_c38ad36647aca0261d667c432a4866bd">Salzburg</rs> Bauernwiege 
+            <p xml:space="preserve"><date when="1916-09-13">13/9</date> 7. Geburtstag von <rs type="person" xml:id="pNt_48749" ref="#person_14130"><forename>Lili</forename></rs>. Wir hatten ihr aus <rs type="place" xml:id="pl_10179" ref="#pmb91649">Salzburg</rs> Bauernwiege 
 u. dergl. mitgebracht. Der Geburtstagtisch in O.s Zimmer.― <rs type="person" xml:id="pNt_48750" ref="#person_16480"><forename>Fingi</forename></rs> in 
 Thränen, weil sie uns verläßt.― Zur <rs type="person" xml:id="pNt_48751" ref="#person_18881"><forename>Kolap</forename></rs>. Dict. <rs type="work" subtype="self" xml:id="bibl_7583"><rs type="person" xml:id="pNt_48752"><surname>Casanova</surname></rs></rs>. 
 <rs type="person" xml:id="pNt_48753" ref="#person_13305"><surname>Auernheimer</surname></rs> kommt verabschiedet sich.― Telegr. an <rs type="person" xml:id="pNt_48754" ref="#person_19468"><surname>Rundt</surname></rs>, will mich unter 
@@ -198,5 +203,6 @@ und letzte <rs type="person" xml:id="pNt_48762" ref="#person_20477"><surname>Str
             <p xml:space="preserve" rend="indent">An „<rs type="work" subtype="self" xml:id="bibl_7585">Wiederkehr</rs>“.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_48767"><surname>Bachrach’s</surname></rs> im Parkhotel. <rs type="person" xml:id="pNt_48768" ref="#person_19431"><surname>Rothschild</surname></rs>, <rs type="person" xml:id="pNt_48769" ref="#person_13305"><surname>Auernh.’s</surname></rs>. „Errathen.“</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

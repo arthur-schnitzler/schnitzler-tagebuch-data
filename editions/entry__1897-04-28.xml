@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1897-04-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-04-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-04-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1897-04-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-04-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-04-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EC57-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1322.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1897-04-28">
-            <p xml:space="preserve"><date when="1897-04-28">28/4</date> <rs type="place" xml:id="pl_02565" ref="#place_694072e074fc0641aa793a5990c3bf91">Versailles</rs>;― im grünen dejeunirt. Trianons etc.</p>
+            <p xml:space="preserve"><date when="1897-04-28">28/4</date> <rs type="place" xml:id="pl_02565" ref="#pmb36549">Versailles</rs>;― im grünen dejeunirt. Trianons etc.</p>
             <p xml:space="preserve" rend="indent">― Bei <rs type="person" xml:id="pNt_13882" ref="#person_19377"><surname>Rosenbergs</surname></rs> dinirt. <rs type="person" xml:id="pNt_13883" ref="#person_17707"><surname>Lowengard</surname></rs>; Frau und deren Bruder.</p>
             <p xml:space="preserve" rend="indent">Cabarets néant, ciel, Moulin rouge.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

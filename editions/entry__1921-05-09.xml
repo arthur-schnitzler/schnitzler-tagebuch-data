@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1921-05-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-05-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-05-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1921-05-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-05-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-05-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0DFA-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5402.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1921-05-09">
-            <p xml:space="preserve"><date when="1921-05-09">9/5</date> <rs type="place" xml:id="pl_12981" ref="#place_0f57f2d175cc678bd45f4a4053888baa" ana="#exclude">Starnberger</rs> Bahnhof;― wollten nach <rs type="place" xml:id="pl_12982" ref="#place_272452b157972659bec75e0679b79282">Feldafing</rs>;― <rs type="person" xml:id="pNt_62343" ref="#person_16469"><forename>Lucy</forename></rs>;― <rs type="person" xml:id="pNt_62344" ref="#person_19832"><forename>O.</forename></rs> ― um 3 
+            <p xml:space="preserve"><date when="1921-05-09">9/5</date> <rs type="place" xml:id="pl_12981" ref="#place_0f57f2d175cc678bd45f4a4053888baa" ana="#exclude">Starnberger</rs> Bahnhof;― wollten nach <rs type="place" xml:id="pl_12982" ref="#pmb53150">Feldafing</rs>;― <rs type="person" xml:id="pNt_62343" ref="#person_16469"><forename>Lucy</forename></rs>;― <rs type="person" xml:id="pNt_62344" ref="#person_19832"><forename>O.</forename></rs> ― um 3 
 Minuten zu spät! … Wie symbolisch … Wir alle ich in bösester Stimmung 
 zu <rs type="person" xml:id="pNt_62345" ref="#person_16469"><forename>Lucy</forename></rs>. Während sie in ihrem Schlafzimmer an einer Übersetzung arbeitet;― 
 ich mit <rs type="person" xml:id="pNt_62346" ref="#person_19832"><forename>O.</forename></rs> allein. Sie entschuldigt sich wegen ihrer Verspätung;― ein 
@@ -200,6 +204,5 @@ es denn ganz ― ? Fasst eine Frau je ganz?―</p>
 einer Schauspielerin.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

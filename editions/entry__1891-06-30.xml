@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1891-06-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-06-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-07-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1891-06-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-06-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-07-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E41A-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0543.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1891-06-30">
-            <p xml:space="preserve"><date when="1891-06-30">30. 6.</date> ― <rs type="place" xml:id="pl_01123" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs> mit <rs type="person" xml:id="pNt_05405" ref="#person_19542"><surname>Salten</surname></rs> und <rs type="person" xml:id="pNt_05406" ref="#person_19945"><surname>Schupp</surname></rs>.―</p>
+            <p xml:space="preserve"><date when="1891-06-30">30. 6.</date> ― <rs type="place" xml:id="pl_01123" ref="#pmb113">Türkenschanzpark</rs> mit <rs type="person" xml:id="pNt_05405" ref="#person_19542"><surname>Salten</surname></rs> und <rs type="person" xml:id="pNt_05406" ref="#person_19945"><surname>Schupp</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">„<rs type="work" subtype="self" xml:id="bibl_23118">Die Braut</rs>“, eine Skizze begonnen.</p>
             <p xml:space="preserve" rend="right">7.</p>
             <p xml:space="preserve" rend="right">250.</p>
             <p xml:space="preserve" rend="center">Juli</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

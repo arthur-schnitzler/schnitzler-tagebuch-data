@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-11-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-11-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-11-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-11-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-11-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-11-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FC23-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,13 +176,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2572.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2573.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1908-11-02">
             <p xml:space="preserve"><date when="1908-11-02">2/11</date> Vm. sehr hypochondrisch spazieren.</p>
             <p xml:space="preserve" rend="indent">Am <rs type="work" subtype="self" xml:id="bibl_13733">Medardus</rs>.</p>
@@ -189,8 +194,9 @@ nannte, worauf ich ihm unsre letzte Affaire erzählte.</p>
             <p xml:space="preserve" rend="indent">Über die Figur <rs type="person" xml:id="pNt_29081" ref="#person_13595"><surname>Benedikt</surname></rs> (den er als Romanhelden benützen möchte; ich hab 
 ihn im <rs type="work" subtype="self" xml:id="bibl_13734">Journalistenstück</rs> angebrochen), über die Frechheit der Literaten 
 und Philister gegen <rs type="person" xml:id="pNt_29082" ref="#person_16293"><surname>Hofmannsthal</surname></rs> u. a.;― über seine bevorstehende Reise 
-nach <rs type="place" xml:id="pl_06492" ref="#place_ad541f7b37e76a13301951a0c8c0a102">Indien</rs>. Auch über seine eignen Arbeiten sprach er einiges; erzählte 
+nach <rs type="place" xml:id="pl_06492" ref="#pmb55724">Indien</rs>. Auch über seine eignen Arbeiten sprach er einiges; erzählte 
 einen Stoff.― Er blieb bis 11 und nachtmahlte mit uns.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

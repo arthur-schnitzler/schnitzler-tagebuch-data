@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-12-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-12-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-12-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-12-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-12-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-12-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0A8B-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4757.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1918-12-11">
-            <p xml:space="preserve"><date when="1918-12-11">11/12</date> <rs type="place" ref="#place_volkstheater">Volksth.</rs>― Erster Akt <rs type="work" subtype="self" xml:id="bibl_6038">Bernh.</rs>― Dann mußte <rs type="person" xml:id="pNt_54913" ref="#person_13663"><surname>Bernau</surname></rs> in die Statthalterei, 
+            <p xml:space="preserve"><date when="1918-12-11">11/12</date> <rs type="place" ref="#pmb92202">Volksth.</rs>― Erster Akt <rs type="work" subtype="self" xml:id="bibl_6038">Bernh.</rs>― Dann mußte <rs type="person" xml:id="pNt_54913" ref="#person_13663"><surname>Bernau</surname></rs> in die Statthalterei, 
 wo erst über ev. Eröffnung der Theater entschieden werden soll.―</p>
             <p xml:space="preserve" rend="indent">― Die allgemeine Stimmung furchtbar. Sonderbar in all der Unsicherheit 
 und Verdüsterung, wie ich mit <rs type="person" xml:id="pNt_54914" ref="#person_19620"><surname>Schallud</surname></rs> im Haus herumsuche, nach einem 
@@ -196,6 +200,5 @@ meiner Signirung ― 360 Kr. (Die Angelegenheit der Neuausgabe mit
             <p xml:space="preserve" rend="indent">Begann <rs type="person" xml:id="pNt_54922" ref="#person_19899"><surname>Schubart</surname></rs> (<rs type="work" xml:id="bibl_6041">Briefe etc.</rs> <rs type="person" xml:id="pNt_54923" ref="#person_20498"><forename>Dav. Fr.</forename> <surname>Strauss</surname></rs>) zu lesen.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

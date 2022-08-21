@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1897-04-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-04-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-05-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1897-04-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-04-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-05-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EC59-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1322.tif"/>
@@ -182,11 +186,10 @@
       <body>
          <div type="diary-day" xml:id="entry__1897-04-30">
             <p xml:space="preserve"><date when="1897-04-30">30/4</date> Nm. <rs type="work" subtype="self" xml:id="bibl_21628">Rettung</rs> und <rs type="work" subtype="self" xml:id="bibl_21629">Entrüstete</rs> zusammen als Stück überlegt.― 
-<rs type="place" xml:id="pl_02567" ref="#place_4d26b371edeba6e5b3b459ff4b1d2485">Park Monceau</rs> und <rs type="place" xml:id="pl_02568" ref="#place_a3a32a22ae38369e4e46de68755fd50b">Montsouris</rs>.― „Concert Parisien“.</p>
+<rs type="place" xml:id="pl_02567" ref="#pmb59319">Park Monceau</rs> und <rs type="place" xml:id="pl_02568" ref="#pmb59322">Montsouris</rs>.― „Concert Parisien“.</p>
             <p xml:space="preserve" rend="center">
 Mai</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-03-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-03-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-03-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-03-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-03-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-03-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FE09-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2861.tif"/>
@@ -184,11 +188,10 @@
          <div type="diary-day" xml:id="entry__1910-03-03">
             <p xml:space="preserve"><date when="1910-03-03">3/3</date> Dictirt. Mit O. Stadt.―</p>
             <p xml:space="preserve" rend="indent">Nm. an <rs type="work" subtype="self" xml:id="bibl_11586">M. u. S.</rs>―</p>
-            <p xml:space="preserve" rend="indent">Zwei Herren aus <rs type="place" xml:id="pl_06971" ref="#place_4622ca687b31b0492be46aa5178c2b00">Prossnitz</rs>, wegen Vortrags.</p>
+            <p xml:space="preserve" rend="indent">Zwei Herren aus <rs type="place" xml:id="pl_06971" ref="#pmb51049">Prossnitz</rs>, wegen Vortrags.</p>
             <p xml:space="preserve" rend="indent">Apollotheater, O. und ich mit <rs type="person" xml:id="pNt_32184" ref="#person_15902"><roleName>Fräulein</roleName> <surname>Hannemann</surname></rs> und ihrem 
 <rs type="person" xml:id="pNt_32185" ref="#person_16562"><roleName>Herrn</roleName> <surname>John</surname></rs>. (<rs type="work" xml:id="bibl_11587">Chantecler</rs> etc.) ―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

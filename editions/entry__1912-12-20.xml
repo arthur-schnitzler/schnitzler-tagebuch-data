@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-12-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-12-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-12-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-12-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-12-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-12-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0208-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3535.tif"/>
@@ -185,10 +189,9 @@
             <p xml:space="preserve" rend="indent">Nm. das Mscrpt. <rs type="work" xml:id="bibl_10648">Dolly</rs>, Operette meiner Nichte <rs type="person" xml:id="pNt_39622" ref="#person_16797"><forename>Grethe</forename> 
 <surname>Suppé-Keller</surname></rs>;― widerlich.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_39623" ref="#person_16293"><forename>Hugo</forename></rs> und <rs type="person" xml:id="pNt_39624" ref="#person_16292"><forename>Gerty</forename></rs> zum Nachtmahl. Sehr gut über den <rs type="work" subtype="self" xml:id="bibl_10649">Bernhardi</rs>.― 
-Über die <rs type="work" xml:id="bibl_10650">Ariadne-Aufführungen</rs>, über <rs type="person" xml:id="pNt_39625" ref="#person_14626"><surname>Eger</surname></rs> (<rs type="place" xml:id="pl_08126" ref="#place_a6b1694c64918f9e8fbeabbc16d599a4">Darmstadt</rs>), <rs type="person" xml:id="pNt_39626" ref="#person_16185"><surname>Heymel</surname></rs>, 
+Über die <rs type="work" xml:id="bibl_10650">Ariadne-Aufführungen</rs>, über <rs type="person" xml:id="pNt_39625" ref="#person_14626"><surname>Eger</surname></rs> (<rs type="place" xml:id="pl_08126" ref="#pmb834">Darmstadt</rs>), <rs type="person" xml:id="pNt_39626" ref="#person_16185"><surname>Heymel</surname></rs>, 
 <rs type="person" xml:id="pNt_39627" ref="#person_15115"><surname>Franckenstein</surname></rs>, <rs ref="#person_21080" type="person" xml:id="pNt_39628"><surname>Walter</surname></rs> etc.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

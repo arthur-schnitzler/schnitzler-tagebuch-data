@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-01-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-01-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-01-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-01-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-01-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-01-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1057-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5939.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1923-01-04">
-            <p xml:space="preserve"><date when="1923-01-04">4/1</date> <rs type="person" xml:id="pNt_68269" ref="#person_19832"><forename>O.</forename></rs> möchte ein Häuschen in <rs type="place" xml:id="pl_14478" ref="#place_63714a562352ef3ae472da20ed0384c0">B.-B.</rs> miethen. Schwierigkeit der 
+            <p xml:space="preserve"><date when="1923-01-04">4/1</date> <rs type="person" xml:id="pNt_68269" ref="#person_19832"><forename>O.</forename></rs> möchte ein Häuschen in <rs type="place" xml:id="pl_14478" ref="#pmb228">B.-B.</rs> miethen. Schwierigkeit der 
 Möbelfrage. Bedenklichkeit der großen Entfernung. Ich soll rathen.  „Fühle 
 mit mir, wie arg es ist, nirgends in der Welt einen äußern Ruhepunkt zu 
 haben, es ist nur ein Glück, daß ich ihn innerlich so stark hab, und aus 
@@ -195,6 +199,5 @@ neues Leben aufgebaut“.―</p>
             <p xml:space="preserve" rend="indent">N. d. N. spielt <rs type="person" xml:id="pNt_68270" ref="#person_19822"><forename>Heini</forename></rs> die alte komische Oper „<rs type="work" xml:id="bibl_1545">Schwestern von Prag</rs>“.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

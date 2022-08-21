@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-11-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-11-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-11-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-11-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-11-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-11-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0358-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3724.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1913-11-21">
-            <p xml:space="preserve"><date when="1913-11-21">21/11</date> Vm. im <rs type="place" ref="#place_volkstheater">Volksth.</rs> <rs type="person" xml:id="pNt_42082" ref="#person_21211"><surname>Weisse</surname></rs> und <rs type="person" xml:id="pNt_42083" ref="#person_15368"><surname>Geiringer</surname></rs> berichten mir, dass nun 
+            <p xml:space="preserve"><date when="1913-11-21">21/11</date> Vm. im <rs type="place" ref="#pmb92202">Volksth.</rs> <rs type="person" xml:id="pNt_42082" ref="#person_21211"><surname>Weisse</surname></rs> und <rs type="person" xml:id="pNt_42083" ref="#person_15368"><surname>Geiringer</surname></rs> berichten mir, dass nun 
 <rs type="person" xml:id="pNt_42084" ref="#person_14155"><surname>Castell</surname></rs> (der Censor) selbst für die Freigabe des <rs type="work" subtype="self" xml:id="bibl_9755">Bernhardi</rs> eintrete; 
 <rs type="person" xml:id="pNt_42085" ref="#person_13723"><surname>Bienerth</surname></rs> (den die <rs type="person" xml:id="pNt_42086" ref="#person_19877"><surname>Schratt</surname></rs> zu sich kommen liess) noch immer dagegen 
 sei und in wenigen Tagen der Minister entscheide werde.―</p>
@@ -201,6 +205,5 @@ Bilder, <rs type="person" xml:id="pNt_42096" ref="#person_16998"><surname>Kokosc
 <rs type="work" xml:id="bibl_9758">Gedichte</rs> vor.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-03-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-03-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-03-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-03-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-03-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-03-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F715-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2053.tif"/>
@@ -180,12 +184,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1905-03-13">
-            <p xml:space="preserve"><date when="1905-03-13">13/3</date> <rs type="place" xml:id="pl_05103" ref="#place_aba34c267a6518aa31bc39c896117e9e">Korfu</rs> ― mit „<rs type="org">Cook</rs>“ Wagen: <rs type="person" xml:id="pNt_22576" ref="#person_13449"><roleName>Dr.</roleName> <surname>Baruch</surname></rs> und Frau, Herr <rs type="person" xml:id="pNt_22577" ref="#person_21250"><roleName>Dr.</roleName> <surname>Werner</surname></rs>, 
+            <p xml:space="preserve"><date when="1905-03-13">13/3</date> <rs type="place" xml:id="pl_05103" ref="#pmb41212">Korfu</rs> ― mit „<rs type="org">Cook</rs>“ Wagen: <rs type="person" xml:id="pNt_22576" ref="#person_13449"><roleName>Dr.</roleName> <surname>Baruch</surname></rs> und Frau, Herr <rs type="person" xml:id="pNt_22577" ref="#person_21250"><roleName>Dr.</roleName> <surname>Werner</surname></rs>, 
 <rs type="person" xml:id="pNt_22578" ref="#person_20270"><surname>Spiro</surname></rs>.― Achilleon, Castell.― Hotel St. George Mittag. Canone 
 (Todteninsel). Mon repos.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_22579" ref="#person_16009"><surname>Hebbel</surname></rs> <rs type="work" xml:id="bibl_15584">Nibelungen</rs> gelesen.― Kopfweh.― Unendliche Ferne Olgas.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1917-08-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-08-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-08-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1917-08-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-08-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-08-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-08B4-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,15 +177,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4525.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1917-08-26">
-            <p xml:space="preserve"><date when="1917-08-26">26/8</date> S. Mit <rs type="person" xml:id="pNt_51414" ref="#person_20925"><forename>Leo</forename></rs> <rs type="place" xml:id="pl_10679" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> ― Rieglerhütte ― <rs type="place" xml:id="pl_10680" ref="#place_b900112ce988d972bc2d561413e84979">Sofienalpe</rs> ― <rs type="place" xml:id="pl_10681" ref="#place_75f2e194839d6ba0e5d4080c211a449a">Dornbacher 
-Park</rs> ― <rs type="place" xml:id="pl_10682" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs>.― Im Anschluss an <rs type="work" subtype="self" xml:id="bibl_6719">Graesler</rs> über mathematische 
+            <p xml:space="preserve"><date when="1917-08-26">26/8</date> S. Mit <rs type="person" xml:id="pNt_51414" ref="#person_20925"><forename>Leo</forename></rs> <rs type="place" xml:id="pl_10679" ref="#pmb169">Pötzleinsdorf</rs> ― Rieglerhütte ― <rs type="place" xml:id="pl_10680" ref="#pmb92533">Sofienalpe</rs> ― <rs type="place" xml:id="pl_10681" ref="#pmb176">Dornbacher 
+Park</rs> ― <rs type="place" xml:id="pl_10682" ref="#pmb169">Pötzleinsdorf</rs>.― Im Anschluss an <rs type="work" subtype="self" xml:id="bibl_6719">Graesler</rs> über mathematische 
 Gesetze, die nicht nur in Musik, auch Malerei, sondern auch in Dichtkunst 
 wirksam sind.― Über mein Ohrenleiden. über Hörapparate. (<rs type="person" xml:id="pNt_51415" ref="#person_20925"><forename>Leo’s</forename></rs> 
 techn.-physik. Kenntnisse.)</p>
@@ -189,5 +194,6 @@ techn.-physik. Kenntnisse.)</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_51418" ref="#person_14130"><forename>Lili</forename></rs> von <rs type="person" xml:id="pNt_51419" ref="#person_19783"><surname>Schmutzers</surname></rs> abgeholt.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_51420" ref="#person_19822"><forename>Heini</forename></rs> <rs type="person" xml:id="pNt_51421" ref="#person_19902"><surname>Schubert</surname></rs> <rs type="work" xml:id="bibl_6721">Quintett C dur</rs>; Fr. <rs type="person" xml:id="pNt_51422" ref="#person_19783"><forename>Liesl</forename> <surname>Schmutzer</surname></rs> als Publikum.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

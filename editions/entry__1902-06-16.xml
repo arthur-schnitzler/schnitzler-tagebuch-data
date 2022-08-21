@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1902-06-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-06-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-06-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1902-06-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-06-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-06-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F338-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1691.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1902-06-16">
-            <p xml:space="preserve"><date when="1902-06-16">16/6</date> <rs type="place" xml:id="pl_03971" ref="#place_3962fe91966640892c61d1838300ed1a">Ober St. Veit</rs>, <rs type="person" xml:id="pNt_18710" ref="#person_13374"><surname>Bahr</surname></rs>.― Gewitter. Über eine Vortragstournée, 
+            <p xml:space="preserve"><date when="1902-06-16">16/6</date> <rs type="place" xml:id="pl_03971" ref="#pmb91377">Ober St. Veit</rs>, <rs type="person" xml:id="pNt_18710" ref="#person_13374"><surname>Bahr</surname></rs>.― Gewitter. Über eine Vortragstournée, 
 <rs type="person" xml:id="pNt_18711" ref="#person_16293"><forename>Hugo</forename></rs>, <rs type="person" xml:id="pNt_18712" ref="#person_13374"><surname>Bahr</surname></rs>, ich.― Sympathie für <rs type="person" xml:id="pNt_18713" ref="#person_13374"><surname>Bahr</surname></rs>.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_03972" ref="#place_a25ff6cb521df1cd0272d03eee7efd32">Brühl</rs>.―</p>
+            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_03972" ref="#pmb44413">Brühl</rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

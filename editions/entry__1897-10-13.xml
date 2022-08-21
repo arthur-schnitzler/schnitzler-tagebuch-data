@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1897-10-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-10-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-10-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1897-10-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-10-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-10-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-ECFD-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,16 +177,18 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1381.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1897-10-13">
-            <p xml:space="preserve"><date when="1897-10-13">13/10</date> Mittag <rs type="person" xml:id="pNt_14492" ref="#person_13913"><surname>Brahm</surname></rs> bei uns, Abd. <rs type="place" xml:id="pl_02769" ref="#place_f0ef1fe3f949f690ba52cff060d5229f">M.</rs> Das letzte Mal, wieder per Rad, 
+            <p xml:space="preserve"><date when="1897-10-13">13/10</date> Mittag <rs type="person" xml:id="pNt_14492" ref="#person_13913"><surname>Brahm</surname></rs> bei uns, Abd. <rs type="place" xml:id="pl_02769" ref="#pmb91217">M.</rs> Das letzte Mal, wieder per Rad, 
 kühl, im Mondenschein herein.― Imperial mit <rs type="person" xml:id="pNt_14493" ref="#person_16293"><forename>Hugo</forename></rs> und <rs type="person" xml:id="pNt_14494" ref="#person_13913"><surname>Brahm</surname></rs> 
 genachtm.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

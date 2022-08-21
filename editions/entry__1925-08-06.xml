@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1925-08-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-08-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-08-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1925-08-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-08-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-08-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1407-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6523.tif"/>
@@ -182,17 +186,16 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1925-08-06">
-            <p xml:space="preserve"><date when="1925-08-06">6/8</date> Reise. In <rs type="place" xml:id="pl_16209" ref="#place_2781d78cf5bdbb757c7c275e91694387">Innichen</rs> <rs type="person" xml:id="pNt_75577" ref="#person_20340"><surname>Stefenelli</surname></rs> beim Zug, sich entschuldigen, dass er mich 
-in <rs type="place" xml:id="pl_16210" ref="#place_3859ff9074d497ed0cb3c08be85996ad">Bozen</rs> nicht erwarten könne.</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_16211" ref="#place_3859ff9074d497ed0cb3c08be85996ad">Bozen</rs>. <rs type="person" xml:id="pNt_75578" ref="#person_17509"><surname>Lichtenstern’s</surname></rs> an der Bahn. Wir essen im Laurin (Garten). In ihrem Auto 
+            <p xml:space="preserve"><date when="1925-08-06">6/8</date> Reise. In <rs type="place" xml:id="pl_16209" ref="#pmb90929">Innichen</rs> <rs type="person" xml:id="pNt_75577" ref="#person_20340"><surname>Stefenelli</surname></rs> beim Zug, sich entschuldigen, dass er mich 
+in <rs type="place" xml:id="pl_16210" ref="#pmb40260">Bozen</rs> nicht erwarten könne.</p>
+            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_16211" ref="#pmb40260">Bozen</rs>. <rs type="person" xml:id="pNt_75578" ref="#person_17509"><surname>Lichtenstern’s</surname></rs> an der Bahn. Wir essen im Laurin (Garten). In ihrem Auto 
 mit ihnen Karerpasshotel. Regen. Gewitter. <rs type="person" xml:id="pNt_75579" ref="#person_19822"><forename>Heini</forename></rs>, <rs type="person" xml:id="pNt_75580" ref="#person_14130"><forename>Lili</forename></rs>, <rs type="person" xml:id="pNt_75581" ref="#person_19832"><forename>Olga</forename></rs>; diese von 
-absichtsvoller Fremdheit (ein Brief von <rs type="person" xml:id="pNt_75582" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> aus <rs type="place" xml:id="pl_16212" ref="#place_84465f5d4faee0a7e284c0f3878b528a">Riva</rs> lag schon in meinem 
+absichtsvoller Fremdheit (ein Brief von <rs type="person" xml:id="pNt_75582" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> aus <rs type="place" xml:id="pl_16212" ref="#pmb91602">Riva</rs> lag schon in meinem 
 Zimmer).― <rs type="person" xml:id="pNt_75583"><surname>L.s</surname></rs> wohnen auch im Hotel.― Wir alle in der Bar.― Mein hübsches 
-Zimmer;― Balkon, auf den <rs type="place" xml:id="pl_16213" ref="#place_24f0d58a37e37309535fd331fff74a42">Latemar</rs>.</p>
+Zimmer;― Balkon, auf den <rs type="place" xml:id="pl_16213" ref="#pmb91121">Latemar</rs>.</p>
             <p xml:space="preserve" rend="indent">N. d. N. eine kleine Tänzerin die sich producirt. <rs type="person" xml:id="pNt_75584" ref="#person_19822"><forename>Heini</forename></rs> und <rs type="person" xml:id="pNt_75585" ref="#person_14130"><forename>Lili</forename></rs> tanzen. <rs type="person" xml:id="pNt_75586" ref="#person_17037"><roleName>Frau</roleName> 
 <surname>Koppel</surname></rs> und Tochter.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

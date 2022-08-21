@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-08-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-08-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-08-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-08-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-08-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-08-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FD39-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2732.tif"/>
@@ -182,18 +186,17 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1909-08-07">
-            <p xml:space="preserve"><date when="1909-08-07">7/8</date> Mit O. nach <rs type="place" xml:id="pl_06772" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>. Eine Wohnung besichtigt <rs type="place" xml:id="pl_06773" ref="#place_d9b7a07c7075e98e7cd733cd44d1579b">Pötzleinsdorferstr.</rs> 28, 
+            <p xml:space="preserve"><date when="1909-08-07">7/8</date> Mit O. nach <rs type="place" xml:id="pl_06772" ref="#pmb50">Wien</rs>. Eine Wohnung besichtigt <rs type="place" xml:id="pl_06773" ref="#pmb92457">Pötzleinsdorferstr.</rs> 28, 
 <pb n="83"/>
 <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header"><fw place="top_center"><date type="range">1909: VIII 7 ― VIII 14</date></fw> <fw n="83" place="top_right" type="pageNum">83</fw></tei:fw>
 Vorbesichtigung durch <rs ref="#person_17958" type="person" xml:id="pNt_30717"><forename>Paul</forename></rs> ließ beßres vermuthen. Unmöglich.</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_06774" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs> mit O. Mittag.</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_30718" ref="#person_13551"><forename>Richard</forename></rs> kam uns entgegen; reist übermorgen an den <rs type="place" xml:id="pl_06775" ref="#place_9b5c2555a01778bd31e0cd1c675164b2">Lido</rs>. Neulich 
+            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_06774" ref="#pmb113">Türkenschanzpark</rs> mit O. Mittag.</p>
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_30718" ref="#person_13551"><forename>Richard</forename></rs> kam uns entgegen; reist übermorgen an den <rs type="place" xml:id="pl_06775" ref="#pmb91143">Lido</rs>. Neulich 
 starb seine Tante, leicht, ohne Krankheit, im 75. Lebensjahr ― er 
 schrieb mir: das Schicksal prügle ihn doch zu oft.― (Wie neulich <rs type="person" xml:id="pNt_30719" ref="#person_13550"><forename>Paula</forename></rs> 
 sagte: „Das Haus ― das hat uns grad noch gefehlt.“) ―</p>
-            <p xml:space="preserve" rend="indent">Nach <rs type="place" xml:id="pl_06776" ref="#place_6f4e3516ea738ef16c51614925de4154">Edlach</rs> zurück.― Spazieren.― Carambole.</p>
+            <p xml:space="preserve" rend="indent">Nach <rs type="place" xml:id="pl_06776" ref="#pmb470">Edlach</rs> zurück.― Spazieren.― Carambole.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

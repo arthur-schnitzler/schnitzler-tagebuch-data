@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-12-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-12-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-12-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-12-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-12-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-12-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-104C-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5928.tif"/>
@@ -186,7 +190,7 @@
             <p xml:space="preserve" rend="indent">― Briefe von <rs type="person" xml:id="pNt_68149" ref="#person_18137"><forename>Dora</forename></rs>; von <rs type="person" xml:id="pNt_68150" ref="#person_16469"><forename>Lucy</forename></rs> (über <rs type="person" xml:id="pNt_68151" ref="#person_19832"><forename>O.</forename></rs>);― von <rs type="person" xml:id="pNt_68152" ref="#person_19832"><forename>O.</forename></rs> seit vielen Tagen keine 
 Nachricht (auch nicht an die <rs type="allusively" xml:id="rst_01959">Kinder</rs>).―</p>
             <p xml:space="preserve" rend="indent">― Treffe zuerst <rs type="person" xml:id="pNt_68153" ref="#person_13550"><forename>Paula</forename></rs> und <rs type="person" xml:id="pNt_68154" ref="#person_13549"><forename>Noema</forename></rs>;― <rs type="person" xml:id="pNt_68155"><forename>Richard</forename></rs> kommt, da <rs type="person" xml:id="pNt_68156" ref="#person_18209"><surname>Moissi</surname></rs> erkrankt, ohne 
-<rs type="work" xml:id="bibl_3010">Charolais</rs> Aufführung wieder aus <rs type="place" xml:id="pl_14456" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> zurück.―</p>
+<rs type="work" xml:id="bibl_3010">Charolais</rs> Aufführung wieder aus <rs type="place" xml:id="pl_14456" ref="#pmb168">Berlin</rs> zurück.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_68157" ref="#person_17666"><forename>Siegfried</forename> <surname>Loewy</surname></rs> schließt sich mir auf einem kurzen Spaziergang an; über 
 „<rs type="work" xml:id="bibl_3011">Es</rs>“;― wünscht mich ferner zum Besuch des Concordiaballs zu bestimmen;― 
 möchte, dass ich sein Buch (<rs type="work" xml:id="bibl_3012">Theatergeschichtl. Feuilletons</rs>) lese (wohl auch 
@@ -210,6 +214,5 @@ Cyclamen und ein dummer Brief.― Stimmung war lau.―</p>
             <p xml:space="preserve" rend="indent">Zu Hause noch Zeitung gelesen.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

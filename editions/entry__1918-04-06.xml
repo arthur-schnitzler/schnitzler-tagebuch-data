@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-04-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-04-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-04-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-04-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-04-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-04-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0992-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4618.tif"/>
@@ -181,16 +185,16 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1918-04-06">
-            <p xml:space="preserve"><date when="1918-04-06">6/4</date> Besorgungen.― Panorama (<rs type="place" xml:id="pl_10931" ref="#place_74c6e9ae2e6a2eed28c45dd5189e2ea6">Teneriffa</rs>).</p>
-            <p xml:space="preserve" rend="indent">Besprechung mit <rs type="person" xml:id="pNt_52897" ref="#person_15750"><surname>Gund</surname></rs> und O.; wegen der <rs type="place" xml:id="pl_10932" ref="#place_7a0be5a1ed9675975e678b517f07573c">Schweiz</rs>. Ich lege meinen 
+            <p xml:space="preserve"><date when="1918-04-06">6/4</date> Besorgungen.― Panorama (<rs type="place" xml:id="pl_10931" ref="#pmb91881">Teneriffa</rs>).</p>
+            <p xml:space="preserve" rend="indent">Besprechung mit <rs type="person" xml:id="pNt_52897" ref="#person_15750"><surname>Gund</surname></rs> und O.; wegen der <rs type="place" xml:id="pl_10932" ref="#pmb43435">Schweiz</rs>. Ich lege meinen 
 Standpunkt dar. <rs type="person" xml:id="pNt_52898"><surname>G.</surname></rs> findet „man müsse alles versuchen“ ― kann aber 
 <pb n="129"/>
 <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header"><fw place="top_center"><date type="range">1918: IV 6 - IV 8</date></fw> <fw n="129" place="top_right" type="pageNum">129</fw></tei:fw>
 doch nicht anders, als die Reise als Vergnügungsreise auffassen ― 
 „warum nicht?“. (Seine Frau ist <rs type="place" xml:id="pl_10933" ref="#place_131a560b20fcb0ef66692c6b3fe79f51" ana="#exclude">Schweizerin</rs>.) Das wesentlichste der 
-Unterhaltung war wieder O.’s Ausruf, daß sie <rs type="place" xml:id="pl_10934" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> hasse ― sie nennt es 
+Unterhaltung war wieder O.’s Ausruf, daß sie <rs type="place" xml:id="pl_10934" ref="#pmb50">Wien</rs> hasse ― sie nennt es 
 selbst eine „fixe Idee“. Dagegen ist freilich auch mit einem Ausflug nach 
-der <rs type="place" xml:id="pl_10935" ref="#place_7a0be5a1ed9675975e678b517f07573c">Schweiz</rs> nichts gethan. Das Grundübel ― immer und immer: ihre 
+der <rs type="place" xml:id="pl_10935" ref="#pmb43435">Schweiz</rs> nichts gethan. Das Grundübel ― immer und immer: ihre 
 Unzufriedenheit, die mein Leben vergiftet. Es gibt ja immer wieder bessre 
 Stunden ― auch in dieser schlimmen Epoche;― aber eine wenn auch nur 
 relative Continuität mangelt.</p>
@@ -201,6 +205,5 @@ zu sehn. Nett, aber etwas provinziell. Ging bald.―</p>
             <p xml:space="preserve" rend="indent">Concert <rs type="person" xml:id="pNt_52902" ref="#person_20509"><surname>Strauss</surname></rs> ― <rs type="person" xml:id="pNt_52903" ref="#person_20372"><surname>Steiner</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

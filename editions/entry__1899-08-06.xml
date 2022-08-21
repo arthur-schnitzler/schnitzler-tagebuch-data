@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1899-08-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-08-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-08-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1899-08-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-08-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-08-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EF77-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1508.tif"/>
@@ -181,9 +185,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1899-08-06">
-            <p xml:space="preserve"><date when="1899-08-06">6/8</date> <rs type="place" xml:id="pl_03194" ref="#place_247f9dc52630f48919c622db25c3b0cf">Schluderbach</rs> ― <rs type="place" xml:id="pl_03195" ref="#place_7c58ec9d43d5c19d4d682846023548d9">Misurina</rs> ― <rs type="place" xml:id="pl_03196" ref="#place_c4b4b09310dd9312d42f7ceba02cb6cf">Tre Croci</rs> ― <rs type="place" xml:id="pl_03197" ref="#place_46a5899a904d63842cf2eb3627a2ed25">Cortina</rs>.</p>
+            <p xml:space="preserve"><date when="1899-08-06">6/8</date> <rs type="place" xml:id="pl_03194" ref="#pmb44317">Schluderbach</rs> ― <rs type="place" xml:id="pl_03195" ref="#pmb41013">Misurina</rs> ― <rs type="place" xml:id="pl_03196" ref="#pmb91932">Tre Croci</rs> ― <rs type="place" xml:id="pl_03197" ref="#pmb34199">Cortina</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

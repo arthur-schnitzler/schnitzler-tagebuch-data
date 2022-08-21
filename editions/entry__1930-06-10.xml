@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-06-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-06-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-06-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-06-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-06-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-06-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1AEF-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7503.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1930-06-10">
-            <p xml:space="preserve"><date when="1930-06-10">10/6</date> Vm. tel. <rs type="person" xml:id="pNt_89945" ref="#person_18137"><forename>Dora</forename></rs> <rs type="place" xml:id="pl_19286" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>.―</p>
+            <p xml:space="preserve"><date when="1930-06-10">10/6</date> Vm. tel. <rs type="person" xml:id="pNt_89945" ref="#person_18137"><forename>Dora</forename></rs> <rs type="place" xml:id="pl_19286" ref="#pmb168">Berlin</rs>.―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_89946" ref="#person_19986"><forename>Gustav</forename></rs>. Sein Verzweiflungsausbruch.―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_89947" ref="#person_15340"><forename>Olga</forename> <surname>Ludaßy</surname></rs>, nach 2 Jahren.</p>
             <p xml:space="preserve" rend="indent">Mittags zu Tisch <rs type="person" xml:id="pNt_89948" ref="#person_13733"><forename>Helene</forename> <surname>Binder</surname></rs> bei mir. Über ihre Tochter <rs ref="#person_13735" type="person" xml:id="pNt_89949"><forename>Sibylle</forename></rs>.</p>
@@ -190,6 +194,5 @@
 Langweilig. Ich war recht müd.― Radio <rs type="work" xml:id="bibl_1097">siebente</rs> <rs type="person" xml:id="pNt_89955" ref="#person_13555"><surname>Beethoven</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

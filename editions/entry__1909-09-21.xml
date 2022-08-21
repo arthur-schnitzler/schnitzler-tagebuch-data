@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-09-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-09-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-09-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-09-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-09-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-09-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FD66-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2755.tif"/>
@@ -183,8 +187,8 @@
       <body>
          <div type="diary-day" xml:id="entry__1909-09-21">
             <p xml:space="preserve"><date when="1909-09-21">21/9</date> Vm. Matrikelamt wegen <rs type="person" xml:id="pNt_30945" ref="#person_14130"><forename>Lili</forename></rs>. <rs type="person" xml:id="pNt_30946" ref="#person_13992"><roleName>Herr</roleName> <surname>Brösler</surname></rs> („schreiben auch fürs 
-<rs type="place" ref="#place_burgtheater">Burgtheater</rs> …?“).</p>
-            <p xml:space="preserve" rend="indent">― Nach <rs type="place" xml:id="pl_06819" ref="#place_6fc6f10422bfe80ddcba23b4f7f080dc">Hietzing</rs>. <rs type="person" xml:id="pNt_30947" ref="#person_20796"><surname>Trebitsch</surname></rs> nicht angetroffen. Durch den Park zurück.―</p>
+<rs type="place" ref="#pmb14">Burgtheater</rs> …?“).</p>
+            <p xml:space="preserve" rend="indent">― Nach <rs type="place" xml:id="pl_06819" ref="#pmb63">Hietzing</rs>. <rs type="person" xml:id="pNt_30947" ref="#person_20796"><surname>Trebitsch</surname></rs> nicht angetroffen. Durch den Park zurück.―</p>
             <p xml:space="preserve" rend="indent">Nm. an <rs type="person" xml:id="pNt_30948" ref="#person_14386"><surname>Deimel</surname></rs> geschrieben, von dem neulich nach langer Zeit wieder Briefe kamen.</p>
             <p xml:space="preserve" rend="indent">Dictirt Briefe.― Der <rs type="person" xml:id="pNt_30949" ref="#person_18881"><surname>Pollak</surname></rs> die Systeme meiner Ordnung erklärt.</p>
             <p xml:space="preserve" rend="indent">In <rs type="person" xml:id="pNt_30950" ref="#person_14441"><surname>Didring</surname></rs>, <rs type="work" xml:id="bibl_12863">Hohes Spiel</rs>, Burg, mit <rs type="person" xml:id="pNt_30951" ref="#person_20242"><surname>Speidel</surname></rs>. Wie in einem 
@@ -193,6 +197,5 @@ philosophisch genug, es hinzunehmen. Das Stück geschickt, construirt,
 etwas verlogen. Falsch besetzt.― Mit <rs type="person" xml:id="pNt_30952" ref="#person_20242"><surname>Sp.</surname></rs> im Löwenbräu genachtmahlt.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

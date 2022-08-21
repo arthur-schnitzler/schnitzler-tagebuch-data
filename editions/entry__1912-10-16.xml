@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-10-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-10-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-10-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-10-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-10-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-10-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-01C7-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3496.tif"/>
@@ -191,13 +195,12 @@ Klavierspielend, mit der andern sich die Nase pinselnd.―</p>
 bedrückt und unruhig hin und her: den alten <rs type="person" xml:id="pNt_39068" ref="#person_13357"><surname>Bachrach</surname></rs>. <rs type="person" xml:id="pNt_39069" ref="#person_20205"><forename>Felix</forename> 
 <surname>Sonnenthal</surname></rs>; Sensal, würdig und wohlsituirt in den Schranken.―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_39070" ref="#person_21593"><roleName>Frau</roleName> <surname>Zuckerkandl</surname></rs>, der ich das Haus zeigte. (O. bettlägerig.) ―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_39071" ref="#person_19210"><forename>Hubert</forename> <surname>Reusch</surname></rs>, vom <rs type="place" ref="#place_volkstheater">Volkstheater</rs>, der Regie <rs type="work" subtype="self" xml:id="bibl_10530">Bernhardi</rs> führen soll. 
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_39071" ref="#person_19210"><forename>Hubert</forename> <surname>Reusch</surname></rs>, vom <rs type="place" ref="#pmb92202">Volkstheater</rs>, der Regie <rs type="work" subtype="self" xml:id="bibl_10530">Bernhardi</rs> führen soll. 
 Besetzungsfragen, Censurschwierigkeiten, resp. Verzögerungen. 
 (<rs type="person" xml:id="pNt_39072" ref="#person_19210"><surname>Reusch</surname></rs> hat vor 14 Jahren den <rs type="figur">Karinski</rs> im Carltheater gespielt.)</p>
-            <p xml:space="preserve" rend="indent"><rs type="work" subtype="self" xml:id="bibl_10531">Reigen</rs>, <rs type="place" xml:id="pl_08062" ref="#place_70b74d148436d81e518cfca60f211f96" ana="#exclude">ungarisch</rs> in <rs type="place" xml:id="pl_08063" ref="#place_9fed5dae86e3030d9be3740efa198659">Budapest</rs> gespielt, ordinär wie es scheint, 
+            <p xml:space="preserve" rend="indent"><rs type="work" subtype="self" xml:id="bibl_10531">Reigen</rs>, <rs type="place" xml:id="pl_08062" ref="#place_70b74d148436d81e518cfca60f211f96" ana="#exclude">ungarisch</rs> in <rs type="place" xml:id="pl_08063" ref="#pmb43471">Budapest</rs> gespielt, ordinär wie es scheint, 
 polizeilich verboten.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

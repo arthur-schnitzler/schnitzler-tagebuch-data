@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-01-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-01-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-01-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-01-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-01-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-01-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1790-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7030.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1928-01-29">
-            <p xml:space="preserve"><date when="1928-01-29">29/1</date> S.― Vm. mit <rs type="person" xml:id="pNt_82851" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> <rs type="place" xml:id="pl_17784" ref="#place_75f2e194839d6ba0e5d4080c211a449a">Dornbacher Park</rs> spazieren.― Von der 
+            <p xml:space="preserve"><date when="1928-01-29">29/1</date> S.― Vm. mit <rs type="person" xml:id="pNt_82851" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> <rs type="place" xml:id="pl_17784" ref="#pmb176">Dornbacher Park</rs> spazieren.― Von der 
 Mittheilung aus, dass ich heut Abd. mit <rs type="person" xml:id="pNt_82852" ref="#person_17110"><forename>Lili</forename> <surname>K.</surname></rs> ins Concert geh, worauf 
 sie ein entsetztes Gesicht machte ― ich: warum?― Sie: Ich bin über 
 nichts mehr entsetzt ― ein vorausgesehnes Gespräch, besonders über <rs type="person" xml:id="pNt_82853" ref="#person_19832"><forename>O.s</forename></rs> 
@@ -196,6 +200,5 @@ nicht wußte.―</p>
 <surname>Kraus</surname></rs>; mit ihr, sowie <rs type="person" xml:id="pNt_82865" ref="#person_19827"><forename>Jul.</forename></rs>, <rs type="person" xml:id="pNt_82866" ref="#person_19823"><forename>Helene</forename></rs> <rs type="person" xml:id="pNt_82867"><forename>Annie</forename></rs> bei „<rs type="person" xml:id="pNt_82868"><surname>Hartmann</surname></rs>“ soup.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1907-03-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-03-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-03-06.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1907-03-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-03-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-03-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F9E7-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2340.tif"/>
@@ -180,7 +184,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1907-03-05">
-            <p xml:space="preserve"><date when="1907-03-05">5/3</date> Vm. Besorgungen Stadt.― Panorama (<rs type="place" xml:id="pl_05862" ref="#place_f4334fdfa1c728eae375fe781e2e2d9d">San Francisco</rs> Erdbeben), mit O. 
+            <p xml:space="preserve"><date when="1907-03-05">5/3</date> Vm. Besorgungen Stadt.― Panorama (<rs type="place" xml:id="pl_05862" ref="#pmb38216">San Francisco</rs> Erdbeben), mit O. 
 Secession und bei <rs type="person" xml:id="pNt_26446" ref="#person_17003"><roleName>Frl.</roleName> <surname>Kolisch</surname></rs> (Sanat. <rs ref="#person_19831" type="person" xml:id="pNt_26447"><surname>Loew</surname></rs>).</p>
             <p xml:space="preserve" rend="indent">Nm. mit <rs type="allusively" xml:id="rst_00815">Mama</rs> eine <rs type="person" xml:id="pNt_26448" ref="#person_19902"><surname>Schubert</surname></rs> Symphonie ―</p>
             <p xml:space="preserve" rend="indent">Am „<rs type="work" subtype="self" xml:id="bibl_14053">Familientag</rs>“.</p>
@@ -189,6 +193,5 @@ Secession und bei <rs type="person" xml:id="pNt_26446" ref="#person_17003"><role
 <rs type="person" xml:id="pNt_26450" ref="#person_13379"><surname>Baillou</surname></rs> „<rs type="work" xml:id="bibl_14054">Gräfin Thunen</rs>“.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

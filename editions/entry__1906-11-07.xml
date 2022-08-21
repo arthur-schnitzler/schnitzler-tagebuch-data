@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-11-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-11-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-11-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1906-11-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-11-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-11-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F971-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2286.tif"/>
@@ -180,13 +184,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1906-11-07">
-            <p xml:space="preserve"><date when="1906-11-07">7/11</date> Vm. dictirt (nach trübgestimmtem Spazierg. im <rs type="place" xml:id="pl_05719" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs>) 
+            <p xml:space="preserve"><date when="1906-11-07">7/11</date> Vm. dictirt (nach trübgestimmtem Spazierg. im <rs type="place" xml:id="pl_05719" ref="#pmb113">Türkenschanzpark</rs>) 
 <rs type="work" subtype="self" xml:id="bibl_15278">Roman</rs> u. a.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs ref="#person_16485" type="person" xml:id="pNt_25784"><forename>Grethl</forename></rs> ein <rs type="person" xml:id="pNt_25785" ref="#person_18282"><surname>Mozart</surname></rs> Quartett.</p>
             <p xml:space="preserve" rend="indent">Am <rs type="work" subtype="self" xml:id="bibl_15279">Roman</rs>.―</p>
             <p xml:space="preserve" rend="indent">Mit O. im Gesellschafts Concert: <rs type="person" xml:id="pNt_25786" ref="#person_14008"><surname>Bruckner</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

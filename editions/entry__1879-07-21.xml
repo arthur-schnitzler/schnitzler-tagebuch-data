@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1879-07-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1879-07-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1879-08-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1879-07-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1879-07-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1879-08-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DCCB-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,20 +177,22 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0003.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1879-07-21">
-            <p xml:space="preserve"><date when="1879-07-21">21/7</date> Besuch bei <rs type="person" xml:id="pNt_00055" ref="#person_16963"><forename>Ida</forename></rs> in <rs type="place" xml:id="pl_00002" ref="#place_0e891dbd1b1814a0cddd64e270c6ffac">Vöslau</rs>.</p>
+            <p xml:space="preserve"><date when="1879-07-21">21/7</date> Besuch bei <rs type="person" xml:id="pNt_00055" ref="#person_16963"><forename>Ida</forename></rs> in <rs type="place" xml:id="pl_00002" ref="#pmb992">Vöslau</rs>.</p>
             <p xml:space="preserve" rend="indent">Auch in den Maturaferien wiederholen sich die Reibereien zu Hause.―</p>
             <p xml:space="preserve" rend="indent">Werde auf <rs type="person" xml:id="pNt_00056" ref="#person_18320"><forename>Fanny</forename> <surname>M.</surname></rs> aufmerksam ―</p>
             <p xml:space="preserve" rend="indent">Im August eine erfolglose Augencur mit <rs type="person" xml:id="pNt_00057"><surname>Duboisin</surname></rs>.</p>
             <p xml:space="preserve" rend="indent">„<rs type="person" xml:id="pNt_00058" ref="#person_18320"><forename>F.</forename> <surname>Mütter</surname></rs> entzückt mich.“</p>
             <p xml:space="preserve" rend="indent">Das Verhältnis mit <rs type="person" xml:id="pNt_00059" ref="#person_17368"><forename>Fännchen</forename></rs> etwas kühl; Spazirgang mit ihr und ihrer 
-Familie in den <rs type="place" xml:id="pl_00003" ref="#place_8fbb5ad1eece300cc636ce72c126d8e1">Stadtpark</rs>. <rs type="person" xml:id="pNt_00060" ref="#person_17370"><forename>Jacques</forename> <surname>L.</surname></rs> mit. Vieles löst sich, klärt sich.</p>
+Familie in den <rs type="place" xml:id="pl_00003" ref="#pmb575">Stadtpark</rs>. <rs type="person" xml:id="pNt_00060" ref="#person_17370"><forename>Jacques</forename> <surname>L.</surname></rs> mit. Vieles löst sich, klärt sich.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

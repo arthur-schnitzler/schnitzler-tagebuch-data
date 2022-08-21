@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-09-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-09-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-09-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-09-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-09-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-09-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FD58-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2748.tif"/>
@@ -182,8 +186,8 @@
       <body>
          <div type="diary-day" xml:id="entry__1909-09-07">
             <p xml:space="preserve"><date when="1909-09-07">7/9</date> Vm. im Wagen mit O. und <rs type="person" xml:id="pNt_30872" ref="#person_19822"><forename>Heini</forename></rs> Sophienalpe. Dann zu Fuß 
-<rs type="place" xml:id="pl_06807" ref="#place_361000b73d3947c615f058769b32865c">Steinriegel</rs>, kleine Waldirrung, Wagen wieder über <rs type="place" xml:id="pl_06808" ref="#place_f31da60292f235984a0cb55466b84b5f">Weidlingbach</rs> 
-<rs type="place" xml:id="pl_06809" ref="#place_3b0cf80ce6f7c6e0340cf31265c8f3f7">Sievring</rs> zurück. Entzücken über die Gegend und beinah Trauer über die 
+<rs type="place" xml:id="pl_06807" ref="#pmb49210">Steinriegel</rs>, kleine Waldirrung, Wagen wieder über <rs type="place" xml:id="pl_06808" ref="#pmb44394">Weidlingbach</rs> 
+<rs type="place" xml:id="pl_06809" ref="#pmb64219">Sievring</rs> zurück. Entzücken über die Gegend und beinah Trauer über die 
 totale Vernachlässigung durch Einheimische und ― natürlich Fremde.―</p>
             <p xml:space="preserve" rend="indent">Nachmittag las ich das „<rs type="work" subtype="self" xml:id="bibl_12823">Wort</rs>“ wieder durch, die 5a. Tragikomödie 
 von 1906/7; fand gute Einzelheiten, im ganzen ist sie nicht zu brauchen.</p>
@@ -191,6 +195,5 @@ von 1906/7; fand gute Einzelheiten, im ganzen ist sie nicht zu brauchen.</p>
             <p xml:space="preserve" rend="indent">Empfand mit besondrer Schwere das Ohrenleiden in seiner Unaufhaltsamkeit. Philosoph bin ich nicht.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

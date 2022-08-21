@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-10-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-10-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-10-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-10-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-10-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-10-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F7EA-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2135.tif"/>
@@ -182,10 +186,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1905-10-12">
-            <p xml:space="preserve"><date when="1905-10-12">12/10</date> Vm. spazieren. Zur Probe ins <rs type="place" ref="#place_volkstheater">Volksth.</rs>― Dann sah ich ein Stück 
+            <p xml:space="preserve"><date when="1905-10-12">12/10</date> Vm. spazieren. Zur Probe ins <rs type="place" ref="#pmb92202">Volksth.</rs>― Dann sah ich ein Stück 
 <rs type="work" xml:id="bibl_15952">zerbrochnen Krug</rs>.― Dann <rs type="work" subtype="self" xml:id="bibl_15953">Kakadu</rs>. Außer <rs type="person" xml:id="pNt_23608" ref="#person_17087"><surname>Kramer</surname></rs> mäßig und schlecht.― 
-<rs type="person" xml:id="pNt_23609" ref="#person_20914"><surname>Vallentin</surname></rs> (wie in <rs type="place" xml:id="pl_05336" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>) inscenirt ihn. Er beklagte sich sehr über die 
-Wirtschaft im <rs type="place" ref="#place_volkstheater">Volksth.</rs> ― und das Intriguiren gegen ihn.―</p>
+<rs type="person" xml:id="pNt_23609" ref="#person_20914"><surname>Vallentin</surname></rs> (wie in <rs type="place" xml:id="pl_05336" ref="#pmb168">Berlin</rs>) inscenirt ihn. Er beklagte sich sehr über die 
+Wirtschaft im <rs type="place" ref="#pmb92202">Volksth.</rs> ― und das Intriguiren gegen ihn.―</p>
             <p xml:space="preserve" rend="indent">Mittag zu Haus 4 Uhr. Olga. <rs type="person" xml:id="pNt_23610" ref="#person_20386"><forename>Liesl</forename></rs>.―</p>
             <p xml:space="preserve" rend="indent">Ins Theater. Erstaufführung des „<rs type="work" subtype="self" xml:id="bibl_15954">Zwischenspiel</rs>“.― In der 
 Loge mit <rs type="allusively" xml:id="rst_00614">Mama</rs>, Olga, <rs type="person" xml:id="pNt_23611" ref="#person_20386"><forename>Liesl</forename></rs>.― Nach dem 1. verbeugte sich <rs type="person" xml:id="pNt_23612" ref="#person_13922"><surname>Brandt</surname></rs> 4mal 
@@ -204,6 +208,5 @@ dass die Pferde der Theaterwagen scheu wurden. Ich flüchtete.―</p>
 Wasser gefallen sind.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

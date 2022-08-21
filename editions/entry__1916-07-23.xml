@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1916-07-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-07-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-07-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1916-07-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-07-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-07-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0725-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4299.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1916-07-23">
-            <p xml:space="preserve"><date when="1916-07-23">23/7</date> S. Mit <rs type="person" xml:id="pNt_48392" ref="#person_14130"><forename>Lili</forename></rs> über die <rs type="place" xml:id="pl_10078" ref="#place_ac60f1c0440f1b021395f9ccfef91052">Ramsau</rs> Blaa; wo sie Butter und Käse ass. Auf 
+            <p xml:space="preserve"><date when="1916-07-23">23/7</date> S. Mit <rs type="person" xml:id="pNt_48392" ref="#person_14130"><forename>Lili</forename></rs> über die <rs type="place" xml:id="pl_10078" ref="#pmb91562">Ramsau</rs> Blaa; wo sie Butter und Käse ass. Auf 
 dem Hinweg u. a. über Gott und die alten Götter; auf dem Rückweg 
 mußt ich ihr doch wieder Geschichten erzählen. O. kam uns entgegen.―</p>
             <pb n="303"/>
@@ -196,6 +200,5 @@ mußt ich ihr doch wieder Geschichten erzählen. O. kam uns entgegen.―</p>
 <rs type="person" xml:id="pNt_48394" ref="#person_15781"><forename>Leonie</forename></rs>; sprachen nur vom Krieg. Gemeins. Nachtm. beim Seewirth.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

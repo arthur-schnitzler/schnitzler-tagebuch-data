@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-02-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-06.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1915-02-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-050F-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,13 +177,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3981.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3982.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1915-02-05">
             <p xml:space="preserve"><date when="1915-02-05">5/2</date> Dictirt Briefe, „<rs type="work" subtype="self" xml:id="bibl_7903">Wahnsinn</rs>“.―</p>
             <p xml:space="preserve" rend="indent">Nm. alte Briefe geordnet.― Am „<rs type="work" subtype="self" xml:id="bibl_7904">Wahnsinn</rs>“.</p>
@@ -195,5 +200,6 @@ wie viel schöner wär sein Werk geworden! ― wenn <rs type="person" xml:id="pN
 gewesen wäre.― (Und doch trotz Schwächen der Alterswerke bleibt <rs type="person" xml:id="pNt_44909" ref="#person_16432"><surname>Ibsen</surname></rs> 
 ein Ganzgroßer, und nur der Snobismus spielt gegen ihn heute <rs type="person" xml:id="pNt_44910" ref="#person_20530"><surname>Strindberg</surname></rs> aus.)</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

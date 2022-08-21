@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1903-08-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-08-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-08-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1903-08-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-08-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-08-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F4E6-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,26 +176,28 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1843.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1903-08-26">
             <p xml:space="preserve"><date when="1903-08-26">26/8</date> In nicht gutem Zustand aufgewacht, nach wirren Träumen. Erinnerlich 
 war mir dunkel: <rs type="person" xml:id="pNt_20185" ref="#person_17958"><forename>Paul</forename> <surname>M.</surname></rs> erklärt mir, dass O. mich betrügen werde, oder 
 mit ihm betrogen habe.―</p>
             <p xml:space="preserve" rend="indent">Früh zu O., Aussprache und Zärtlichkeit. Nach Haus.</p>
-            <p xml:space="preserve" rend="indent">Vor 1 O. abgeholt. Schwüle, Wind.― Trauung <rs type="place" xml:id="pl_04452" ref="#place_0b293bc4d32291bba794bab6a08639af">Schopenhauergasse</rs> 
+            <p xml:space="preserve" rend="indent">Vor 1 O. abgeholt. Schwüle, Wind.― Trauung <rs type="place" xml:id="pl_04452" ref="#pmb92520">Schopenhauergasse</rs> 
 (Zimmer). <rs type="person" xml:id="pNt_20186" ref="#person_13551"><forename>Richard</forename> <surname>B.-H.</surname></rs>, <rs type="person" xml:id="pNt_20187" ref="#person_19986"><forename>Gustav</forename></rs> Zeugen.― <rs type="person" xml:id="pNt_20188" ref="#person_14959"><roleName>Dr.</roleName> <surname>Feuchtwang</surname></rs> sprach kurz 
 und gut; sehr sympathisch. Cantor <rs type="person" xml:id="pNt_20189" ref="#person_18724"><surname>Peterselka</surname></rs>.―</p>
-            <p xml:space="preserve" rend="indent">Essen <rs type="place" xml:id="pl_04453" ref="#place_97af703f48200e54a8cc106005251faf">Gentzgasse</rs> mit <rs type="person" xml:id="pNt_20190" ref="#person_13551"><forename>Richard</forename></rs>, <rs type="person" xml:id="pNt_20191" ref="#person_19986"><forename>Gustav</forename></rs>, <rs type="person" xml:id="pNt_20192" ref="#person_21546"><forename>Mirjam</forename></rs>.</p>
+            <p xml:space="preserve" rend="indent">Essen <rs type="place" xml:id="pl_04453" ref="#pmb40694">Gentzgasse</rs> mit <rs type="person" xml:id="pNt_20190" ref="#person_13551"><forename>Richard</forename></rs>, <rs type="person" xml:id="pNt_20191" ref="#person_19986"><forename>Gustav</forename></rs>, <rs type="person" xml:id="pNt_20192" ref="#person_21546"><forename>Mirjam</forename></rs>.</p>
             <p xml:space="preserve" rend="indent">Nachher sang O. einige Lieder.―</p>
             <p xml:space="preserve" rend="indent">Nach Hause; Briefe an <rs type="allusively" xml:id="rst_00379">Mama</rs>, <rs type="person" xml:id="pNt_20193" ref="#person_19827"><forename>Julius</forename></rs>, <rs type="person" xml:id="pNt_20194" ref="#person_15529"><forename>Paul</forename> <surname>G.</surname></rs>―</p>
             <p xml:space="preserve" rend="indent">Dann zu O., mit ihr und <rs type="person" xml:id="pNt_20195" ref="#person_21546"><forename>Mirjam</forename></rs> (von <rs type="person" xml:id="pNt_20196" ref="#person_19542"><surname>Salten</surname></rs> bis zum Hausthor geleitet) 
 <rs type="place" xml:id="pl_04454" ref="#place_9b0c3194edd40bc3de7c58fefb7ee14f" ana="#exclude">Gersthofer</rs> Restaurant; genachtmahlt, O., dann <rs type="person" xml:id="pNt_20197" ref="#person_21546"><forename>Mirj.</forename></rs> nach Hause geleitet. 
 Kühles Wetter.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

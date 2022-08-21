@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1907-02-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-02-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-02-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1907-02-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-02-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-02-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F9D0-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2329.tif"/>
@@ -181,17 +185,16 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1907-02-10">
-            <p xml:space="preserve"><date when="1907-02-10">10/2</date> S. Vm. spazieren <rs type="place" xml:id="pl_05838" ref="#place_f5af0e4beb99b2ded62ac5ff72643954">Dornbach</rs> etc. Innerliche Briefe an <rs type="person" xml:id="pNt_26316" ref="#person_16477"><surname>Jacobsohn</surname></rs> 
+            <p xml:space="preserve"><date when="1907-02-10">10/2</date> S. Vm. spazieren <rs type="place" xml:id="pl_05838" ref="#pmb90546">Dornbach</rs> etc. Innerliche Briefe an <rs type="person" xml:id="pNt_26316" ref="#person_16477"><surname>Jacobsohn</surname></rs> 
 („<rs type="work" subtype="self" xml:id="bibl_13981">Ruf</rs>“), <rs type="person" xml:id="pNt_26317" ref="#person_20386"><forename>Liesl</forename></rs>, Landwehrcommando etc.― Mit O. und <rs type="person" xml:id="pNt_26318" ref="#person_19822"><forename>Heini</forename></rs>, die ich in 
-<rs type="place" xml:id="pl_05839" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> traf, Rodelnden zusehend, zurück.―</p>
+<rs type="place" xml:id="pl_05839" ref="#pmb169">Pötzleinsdorf</rs> traf, Rodelnden zusehend, zurück.―</p>
             <p xml:space="preserve" rend="indent">Am <rs type="work" subtype="self" xml:id="bibl_13982">Stück</rs>, 2. und 3. Akt.―</p>
             <p xml:space="preserve" rend="indent">Vorlesung <rs type="person" xml:id="pNt_26319" ref="#person_21107"><surname>Wassermann</surname></rs> (<rs type="work" xml:id="bibl_13983">Los der Juden</rs>) <rs ref="#person_13551" type="person" xml:id="pNt_26320"><forename>Richard</forename></rs> (<rs type="work" xml:id="bibl_13984">Gedichte</rs>) <rs type="person" xml:id="pNt_26321" ref="#person_19542"><surname>Salten</surname></rs> (<rs type="work" xml:id="bibl_13985">Ernst des 
 Lebens</rs>) Ich (<rs type="work" subtype="self" xml:id="bibl_13986">Gustl</rs>). Ich las gut und hatte großen Beifall.― Zu Gunsten 
-der jüdischen Waisen in <rs type="place" xml:id="pl_05840" ref="#place_65f7b8e17e93bc2a87843d99e82c08a5">Rußland</rs>.</p>
-            <p xml:space="preserve" rend="indent">Dann zu <rs type="place" ref="#place_meissl">Meissl</rs>. Wir alle mit Frauen, <rs type="person" xml:id="pNt_26323" ref="#person_16770"><surname>Kaufmann</surname></rs>, <rs type="person" xml:id="pNt_26324" ref="#person_19755"><surname>Schmidls</surname></rs>, <rs type="person" xml:id="pNt_26325" ref="#person_20872"><forename>Agnes</forename> <surname>Sp.</surname></rs>, <rs type="person" xml:id="pNt_26326" ref="#person_20076"><surname>Sgals</surname></rs>, 
+der jüdischen Waisen in <rs type="place" xml:id="pl_05840" ref="#pmb34438">Rußland</rs>.</p>
+            <p xml:space="preserve" rend="indent">Dann zu <rs type="place" ref="#pmb96">Meissl</rs>. Wir alle mit Frauen, <rs type="person" xml:id="pNt_26323" ref="#person_16770"><surname>Kaufmann</surname></rs>, <rs type="person" xml:id="pNt_26324" ref="#person_19755"><surname>Schmidls</surname></rs>, <rs type="person" xml:id="pNt_26325" ref="#person_20872"><forename>Agnes</forename> <surname>Sp.</surname></rs>, <rs type="person" xml:id="pNt_26326" ref="#person_20076"><surname>Sgals</surname></rs>, 
 <rs type="person" xml:id="pNt_26327" ref="#person_20238"><surname>Specht</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

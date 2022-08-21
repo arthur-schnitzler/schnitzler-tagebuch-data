@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-03-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-03-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-03-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-03-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-03-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-03-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FF79-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3116.tif"/>
@@ -183,7 +187,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1911-03-06">
             <p xml:space="preserve"><date when="1911-03-06">6/3</date> Besorgungen Stadt.― Frau <rs type="person" xml:id="pNt_34864" ref="#person_15962"><surname>Leinkauf</surname></rs> (Ehenamen vergessen) sprach 
-mich auf dem <rs type="place" xml:id="pl_07379" ref="#place_9ae90ea21d3e063c02809f046183f123">Ring</rs> an (jetzt in <rs type="place" xml:id="pl_07380" ref="#place_64f607906be7598a02d75dbc1e979662">England</rs>, vor 12-15 Jahren zuletzt 
+mich auf dem <rs type="place" xml:id="pl_07379" ref="#pmb91600">Ring</rs> an (jetzt in <rs type="place" xml:id="pl_07380" ref="#pmb90593">England</rs>, vor 12-15 Jahren zuletzt 
 gesprochen) mit Kindern und Freundin.―</p>
             <p xml:space="preserve" rend="indent">Panorama „<rs type="place" xml:id="pl_07381" ref="#place_3a51cd4d384c0ecb49766b60859b5ee0" ana="#exclude">Cordilleren</rs>“.―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="allusively" xml:id="rst_01186">Mama</rs> allein zu Tisch. (O. leicht fieberisch bettlägerig.) Ein 
@@ -208,6 +212,5 @@ Gebiet“ mit viel weniger Begabung sich umthun, gar nicht verkehren.―</p>
             <p xml:space="preserve" rend="indent">Umordnung der Zeitungsausschnitte-Sammlung.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

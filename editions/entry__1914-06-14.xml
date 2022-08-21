@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-06-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-06-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-06-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-06-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-06-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-06-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0425-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,15 +177,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3839.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3840.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1914-06-14">
-            <p xml:space="preserve"><date when="1914-06-14">14/6</date> S. Mit O. und <rs type="person" xml:id="pNt_43603" ref="#person_13359"><forename>Stephi</forename></rs> Spazierg. <rs type="place" xml:id="pl_08764" ref="#place_388686540f35afe7790d134863d92203">Kahlenberg</rs> Wälder.―</p>
+            <p xml:space="preserve"><date when="1914-06-14">14/6</date> S. Mit O. und <rs type="person" xml:id="pNt_43603" ref="#person_13359"><forename>Stephi</forename></rs> Spazierg. <rs type="place" xml:id="pl_08764" ref="#pmb574">Kahlenberg</rs> Wälder.―</p>
             <p xml:space="preserve" rend="indent">Nm. 6 bei <rs type="person" xml:id="pNt_43604" ref="#person_20238"><surname>Spechts</surname></rs>. <rs type="person" xml:id="pNt_43605" ref="#person_15494"><surname>Godowsky</surname></rs> und Tochter.― Dr. <rs type="person" xml:id="pNt_43606" ref="#person_16278"><forename>Stephan</forename> <surname>Hoffmann</surname></rs> (über 
 die antisem. Zustände an der mediz. Fakultät. Boycottirung der wenigen 
 jüdischen Assistenten. Schweigen der mediz. und andern Zeitungen).― 
@@ -191,5 +196,6 @@ und 2. Satz ― unvergleichlich.―</p>
             <p xml:space="preserve" rend="indent">Nachhausweg treffen wir <rs type="person" xml:id="pNt_43612"><forename>Leo</forename></rs> und <rs type="person" xml:id="pNt_43613" ref="#person_21231"><forename>Bella</forename></rs>; beide sehr traurig.― Aber 
 sie ist doch wieder da.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

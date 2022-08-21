@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-09-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-09-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-09-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-09-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-09-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-09-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0BA8-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4927.tif"/>
@@ -184,18 +188,17 @@
          <div type="diary-day" xml:id="entry__1919-09-23">
             <p xml:space="preserve"><date when="1919-09-23">23/9</date> Bei <rs type="person" xml:id="pNt_56911" ref="#person_16069"><surname>Heller</surname></rs>, der mich gebeten hatte: er klärte mir seine Differenzen 
 mit <rs type="person" xml:id="pNt_56912" ref="#person_15204"><surname>Fried</surname></rs> und <rs type="person" xml:id="pNt_56913" ref="#person_16935"><surname>Knepler</surname></rs> auf.―</p>
-            <p xml:space="preserve" rend="indent">Im Nachhausweg <rs type="person" xml:id="pNt_56914" ref="#person_15066"><roleName>Dr.</roleName> <surname>Foges</surname></rs>, der in <rs type="place" xml:id="pl_11880" ref="#place_c38ad36647aca0261d667c432a4866bd">Salzburg</rs> mit O. zusammen war; <rs type="person" xml:id="pNt_56915" ref="#person_13699"><roleName>Dr.</roleName> 
+            <p xml:space="preserve" rend="indent">Im Nachhausweg <rs type="person" xml:id="pNt_56914" ref="#person_15066"><roleName>Dr.</roleName> <surname>Foges</surname></rs>, der in <rs type="place" xml:id="pl_11880" ref="#pmb91649">Salzburg</rs> mit O. zusammen war; <rs type="person" xml:id="pNt_56915" ref="#person_13699"><roleName>Dr.</roleName> 
 <surname>Bettelheim</surname></rs>, über <rs type="person" xml:id="pNt_56916" ref="#person_13237"><surname>Anzengruber</surname></rs>; Steuerfragen etc.</p>
             <p xml:space="preserve" rend="indent">― N. T. <rs type="person" xml:id="pNt_56917" ref="#person_21406"><roleName>Dr.</roleName> <surname>Wittels</surname></rs>, in finanzieller <rs type="person" xml:id="pNt_56918" ref="#person_18916"><surname>Popper</surname></rs> Angelegenheit, Sanirungsplan.―</p>
             <p xml:space="preserve" rend="indent">Spazieren Abend; bei <rs type="person" xml:id="pNt_56919" ref="#person_18672"><roleName>Frau</roleName> <surname>Patak</surname></rs>, in Angelegenheit <rs type="person" xml:id="pNt_56920" ref="#person_18916"><surname>Popper</surname></rs>. Der Alte, dem 
 neulich ein Bein abgefahren wurde ― was mir <rs type="person" xml:id="pNt_56921"><roleName>Fr.</roleName> <surname>P.</surname></rs> erst draußen erzählte; 
 ich hätte es dem heitern Cigarettenrauchenden Herrn gar nicht angesehn.― 
-<rs type="place" xml:id="pl_11881" ref="#place_3a6c1f5e020800151a0faa84185ac160" ana="#exclude">Amerikanische</rs> Wohltätigkeitsactionen. Verbreitung meiner Werke in <rs type="place" xml:id="pl_11882" ref="#place_e884124295d0c4d07d9bcf5096fd5495">Amerika</rs> 
-und <rs type="place" xml:id="pl_11883" ref="#place_65f7b8e17e93bc2a87843d99e82c08a5">Russland</rs> ― ohne dass ich was davon habe.―</p>
+<rs type="place" xml:id="pl_11881" ref="#place_3a6c1f5e020800151a0faa84185ac160" ana="#exclude">Amerikanische</rs> Wohltätigkeitsactionen. Verbreitung meiner Werke in <rs type="place" xml:id="pl_11882" ref="#pmb43406">Amerika</rs> 
+und <rs type="place" xml:id="pl_11883" ref="#pmb34438">Russland</rs> ― ohne dass ich was davon habe.―</p>
             <p xml:space="preserve" rend="indent">N. d. N. mit <rs type="person" xml:id="pNt_56922" ref="#person_19822"><forename>Heini</forename></rs> bei <rs type="person" xml:id="pNt_56923" ref="#person_19783"><roleName>Frau</roleName> <surname>Schmutzer</surname></rs>. <rs type="person" xml:id="pNt_56924" ref="#person_15359"><roleName>Hofr.</roleName> <surname>Gayer</surname></rs>. Über Nationalgefühl, 
 Kriegschuld u. dergl.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-05-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-05-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-05-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-05-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-05-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-05-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FCF1-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2695.tif"/>
@@ -182,14 +186,13 @@
       <body>
          <div type="diary-day" xml:id="entry__1909-05-27">
             <p xml:space="preserve"><date when="1909-05-27">27/5</date> Vm. Besorgungen. Sprach in der Stadt Fr. <rs type="person" xml:id="pNt_30333" ref="#person_19501"><forename>Emmy</forename> <surname>Sachs</surname></rs> (aus 
-<rs type="place" xml:id="pl_06692" ref="#place_ad541f7b37e76a13301951a0c8c0a102">Indien</rs> zurück wo man „mit einem phantastischen Geliebten und 
+<rs type="place" xml:id="pl_06692" ref="#pmb55724">Indien</rs> zurück wo man „mit einem phantastischen Geliebten und 
 Säcken Gold reisen müßte“) und <rs type="person" xml:id="pNt_30334" ref="#person_16366"><forename>Risa</forename> <surname>Horn</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Dictirt <rs type="work" subtype="self" xml:id="bibl_12662">Medardus</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_12663">Medardus</rs>.</p>
             <p xml:space="preserve" rend="indent">Frl. <rs type="person" xml:id="pNt_30335" ref="#person_20295"><forename>Gisela</forename> <surname>Springer</surname></rs> spielte uns vor; auch <rs type="person" xml:id="pNt_30336" ref="#person_19986"><forename>Gustav</forename></rs> war da, mit 
-beiden im <rs type="place" xml:id="pl_06693" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs> Restaurant genachtmahlt.</p>
+beiden im <rs type="place" xml:id="pl_06693" ref="#pmb113">Türkenschanzpark</rs> Restaurant genachtmahlt.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

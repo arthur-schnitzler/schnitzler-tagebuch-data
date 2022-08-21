@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1921-06-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-06-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-06-06.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1921-06-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-06-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-06-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0E15-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5423.tif"/>
@@ -183,13 +187,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1921-06-05">
-            <p xml:space="preserve"><date when="1921-06-05">5/6</date> S. Früh 4 weckt mich <rs type="person" xml:id="pNt_62570" ref="#person_19822"><forename>Heini</forename></rs>; ein Dachstuhl in der <rs type="place" xml:id="pl_13049" ref="#place_c8647cad55b1bf771dc99383f9da2d14">Hochschulstr.</rs> in 
+            <p xml:space="preserve"><date when="1921-06-05">5/6</date> S. Früh 4 weckt mich <rs type="person" xml:id="pNt_62570" ref="#person_19822"><forename>Heini</forename></rs>; ein Dachstuhl in der <rs type="place" xml:id="pl_13049" ref="#pmb92288">Hochschulstr.</rs> in 
 Flammen und Rauch, Feuerwehr, Bewegung.</p>
-            <p xml:space="preserve" rend="indent">― Ich benütze das Frühaufstehn, fahre mit dem 6 Uhr Zug <rs type="place" xml:id="pl_13050" ref="#place_9fb018352ad828a04d6701701ff83e01">Preßbaum</rs>; 
+            <p xml:space="preserve" rend="indent">― Ich benütze das Frühaufstehn, fahre mit dem 6 Uhr Zug <rs type="place" xml:id="pl_13050" ref="#pmb44271">Preßbaum</rs>; 
 auf allerlei Wegen (schlechte Markirung) und Umwegen, schöne Wiesen 
-(Erdbeeren) und Wälder auf <rs type="place" xml:id="pl_13051" ref="#place_5defb9bede354dd61bf9b34b573829db">Troppberg</rs> (zum ersten Mal), auf die 
+(Erdbeeren) und Wälder auf <rs type="place" xml:id="pl_13051" ref="#pmb91951">Troppberg</rs> (zum ersten Mal), auf die 
 „Jaegerwarte“. Wundervoller heißer Sommertag. Dachte zu viel und in 
-böser Stimmung an <rs type="person" xml:id="pNt_62571" ref="#person_19832"><forename>O.</forename></rs>― Hinunter <rs type="place" xml:id="pl_13052" ref="#place_2f02b93ece3d39838c92297df8c02ee4">Tullnerbach</rs>, zum Mittagessen (gegen 3) 
+böser Stimmung an <rs type="person" xml:id="pNt_62571" ref="#person_19832"><forename>O.</forename></rs>― Hinunter <rs type="place" xml:id="pl_13052" ref="#pmb54771">Tullnerbach</rs>, zum Mittagessen (gegen 3) 
 zu Haus. Allzu müd, durch die große Hitze, den Nachmittag im 
 Bademantel verdöst. <rs type="person" xml:id="pNt_62572" ref="#person_19822"><forename>Heini</forename></rs> bei <rs type="person" xml:id="pNt_62573" ref="#person_18868"><surname>Pollaczeks</surname></rs>; <rs type="person" xml:id="pNt_62574" ref="#person_14130"><forename>Lili</forename></rs> eben zurückgekommen von 
 <rs type="person" xml:id="pNt_62575" ref="#person_13219"><surname>Anningers</surname></rs>, im Garten, Rosenfülle.</p>
@@ -204,6 +208,5 @@ hat“.</p>
             <p xml:space="preserve" rend="indent">N. d. N. spielte <rs type="person" xml:id="pNt_62579" ref="#person_19822"><forename>Heini</forename></rs> Klavierauszug <rs type="work" xml:id="bibl_3350">Mantel</rs> (<rs type="person" xml:id="pNt_62580" ref="#person_18988"><surname>Puccini</surname></rs>).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

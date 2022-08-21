@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-08-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-08-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-08-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-08-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-08-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-08-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0FCE-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5809.tif"/>
@@ -182,12 +186,11 @@
       <body>
          <div type="diary-day" xml:id="entry__1922-08-20">
             <p xml:space="preserve"><date when="1922-08-20">20/8</date> Immer das bange Erwachen. Schöner Morgen; schweres Herz.― 
-Soolenleitung nach <rs type="place" xml:id="pl_14176" ref="#place_f58a9763c516303cd489000da5ec2a38">Ilsank</rs>. Auf das Söldenköpfl. Triftweg zurück. Mittag 
+Soolenleitung nach <rs type="place" xml:id="pl_14176" ref="#pmb92299">Ilsank</rs>. Auf das Söldenköpfl. Triftweg zurück. Mittag 
 im Dtsch. Haus, mit folgender Conditorei.―</p>
-            <p xml:space="preserve" rend="indent">Den ganzen Nachmittag Briefe geschrieben, nach <rs type="place" xml:id="pl_14177" ref="#place_e884124295d0c4d07d9bcf5096fd5495">Amerika</rs>, <rs type="place" xml:id="pl_14178" ref="#place_64f607906be7598a02d75dbc1e979662">England</rs>, <rs type="place" xml:id="pl_14179" ref="#place_67eb2b8d0aab60ec69666532ff9527c9">Holland</rs>, 
-<rs type="place" xml:id="pl_14180" ref="#place_8d865b652dc83da05aa34b499a9b01be">Frankreich</rs> ― der Finger schmerzte mich.―</p>
+            <p xml:space="preserve" rend="indent">Den ganzen Nachmittag Briefe geschrieben, nach <rs type="place" xml:id="pl_14177" ref="#pmb43406">Amerika</rs>, <rs type="place" xml:id="pl_14178" ref="#pmb90593">England</rs>, <rs type="place" xml:id="pl_14179" ref="#pmb44016">Holland</rs>, 
+<rs type="place" xml:id="pl_14180" ref="#pmb166">Frankreich</rs> ― der Finger schmerzte mich.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

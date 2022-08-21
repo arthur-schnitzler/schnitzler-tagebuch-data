@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1901-06-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-06-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-06-06.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1901-06-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-06-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-06-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F1F5-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1637.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1901-06-05">
-            <p xml:space="preserve"><date when="1901-06-05">5/6</date> <rs type="place" xml:id="pl_03679" ref="#place_6cc6cfe893d0065a8007acc6e4074a69">Rodaun</rs>. Mit <rs type="person" xml:id="pNt_17975" ref="#person_16293"><forename>Hugo</forename></rs> gegessen; seine Villa ― zusammen Fußweg 
-<rs type="place" xml:id="pl_03680" ref="#place_97d57367459639154853cbd7c5de0796">Giesshübl</rs> <rs type="place" xml:id="pl_03681" ref="#place_a25ff6cb521df1cd0272d03eee7efd32">Brühl</rs>; wo wir mit <rs type="person" xml:id="pNt_17976" ref="#person_19832"><forename>Olga</forename></rs> und <rs type="person" xml:id="pNt_17977" ref="#person_20386"><forename>Liesl</forename></rs> (die er beide erst kennen 
+            <p xml:space="preserve"><date when="1901-06-05">5/6</date> <rs type="place" xml:id="pl_03679" ref="#pmb173">Rodaun</rs>. Mit <rs type="person" xml:id="pNt_17975" ref="#person_16293"><forename>Hugo</forename></rs> gegessen; seine Villa ― zusammen Fußweg 
+<rs type="place" xml:id="pl_03680" ref="#pmb90721">Giesshübl</rs> <rs type="place" xml:id="pl_03681" ref="#pmb44413">Brühl</rs>; wo wir mit <rs type="person" xml:id="pNt_17976" ref="#person_19832"><forename>Olga</forename></rs> und <rs type="person" xml:id="pNt_17977" ref="#person_20386"><forename>Liesl</forename></rs> (die er beide erst kennen 
 lernte) spazieren gingen.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

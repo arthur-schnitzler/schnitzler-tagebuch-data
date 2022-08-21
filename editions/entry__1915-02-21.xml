@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-02-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1915-02-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-051F-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3989.tif"/>
@@ -182,15 +186,14 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1915-02-21">
-            <p xml:space="preserve"><date when="1915-02-21">21/2</date> S. <rs type="person" xml:id="pNt_44984" ref="#person_19783"><surname>Schmutzer</surname></rs> zeigt mir eine hübsche Skizze, die er in <rs type="place" xml:id="pl_09226" ref="#place_cc0722b733e25829ed9de9e93ac97be5">Stein</rs> gestern 
+            <p xml:space="preserve"><date when="1915-02-21">21/2</date> S. <rs type="person" xml:id="pNt_44984" ref="#person_19783"><surname>Schmutzer</surname></rs> zeigt mir eine hübsche Skizze, die er in <rs type="place" xml:id="pl_09226" ref="#pmb91832">Stein</rs> gestern 
 für den „<rs type="work" subtype="self" xml:id="bibl_7933">Geronimo</rs>“ gemacht hat, u. a.― Mit Frau <rs ref="#person_19784" type="person" xml:id="pNt_44985"><surname>Schm.</surname></rs> fuhren wir ins 
 Concert <rs type="person" xml:id="pNt_44986" ref="#person_17786"><surname>Mahler</surname></rs> „<rs type="work" xml:id="bibl_7934">Lied von der Erde</rs>“ (<rs type="person" xml:id="pNt_44987" ref="#person_21080"><surname>Walter</surname></rs> dirigirte). Ergreifend ― 
 nur entging mir viel piano.―</p>
             <p xml:space="preserve" rend="indent">Nm. am „<rs type="work" subtype="self" xml:id="bibl_7935">Wahnsinn</rs>“ ― es muss erledigt werden.</p>
             <p xml:space="preserve" rend="indent">Nach dem Nachtm. <rs type="person" xml:id="pNt_44988" ref="#person_19542"><surname>Salten</surname></rs>, der von ½10 bis ½1 sehr amüsant über 
-<rs type="place" xml:id="pl_09227" ref="#place_b472f5868425ac2bc44e693fc3267e87">Oesterreich</rs>, <rs type="person" xml:id="pNt_44989" ref="#person_15827"><surname>Habsburg</surname></rs>, die tiefern Ursachen von <rs type="person" xml:id="pNt_44990" ref="#person_15149"><forename>F. F.s</forename></rs> Ermordung redete.</p>
+<rs type="place" xml:id="pl_09227" ref="#pmb41240">Oesterreich</rs>, <rs type="person" xml:id="pNt_44989" ref="#person_15827"><surname>Habsburg</surname></rs>, die tiefern Ursachen von <rs type="person" xml:id="pNt_44990" ref="#person_15149"><forename>F. F.s</forename></rs> Ermordung redete.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

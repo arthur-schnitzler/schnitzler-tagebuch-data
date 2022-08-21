@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-05-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-05-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-05-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-05-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-05-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-05-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1ACC-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7484.tif"/>
@@ -181,8 +185,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1930-05-06">
-            <p xml:space="preserve"><date when="1930-05-06">6/5</date> Telef. mit <rs type="person" xml:id="pNt_89645" ref="#person_14234"><forename>Suz.</forename></rs>, <rs type="place" xml:id="pl_19219" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs>.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_89646" ref="#person_19832"><forename>O.</forename></rs> kommt aus <rs type="place" xml:id="pl_19220" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>, <rs type="person" xml:id="pNt_89647" ref="#person_14129"><forename>Arn.</forename></rs> holt sie ab, ich erwarte sie vor dem Cottage Sanat., 
+            <p xml:space="preserve"><date when="1930-05-06">6/5</date> Telef. mit <rs type="person" xml:id="pNt_89645" ref="#person_14234"><forename>Suz.</forename></rs>, <rs type="place" xml:id="pl_19219" ref="#pmb182">Paris</rs>.―</p>
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_89646" ref="#person_19832"><forename>O.</forename></rs> kommt aus <rs type="place" xml:id="pl_19220" ref="#pmb168">Berlin</rs>, <rs type="person" xml:id="pNt_89647" ref="#person_14129"><forename>Arn.</forename></rs> holt sie ab, ich erwarte sie vor dem Cottage Sanat., 
 wo sie wohnt.― Wir gingen alle gleich zu mir. Ihr Aussehn nicht besonders. 
 Sie theilt mir mit, dass „alle“ (<rs type="person" xml:id="pNt_89648" ref="#person_16292"><forename>Gerty</forename> <surname>H.</surname></rs>; <rs type="person" xml:id="pNt_89649" ref="#person_20796"><surname>Trebitsch</surname></rs>) es unsinnig finden, 
 dass wir nicht zusammen leben.― Die Bildersache.</p>
@@ -197,6 +201,5 @@ qualvoll;― sie beherrscht sich.</p>
             <p xml:space="preserve" rend="indent">― Z. N. <rs type="person" xml:id="pNt_89654" ref="#person_19832"><forename>O.</forename></rs>, <rs type="person" xml:id="pNt_89655" ref="#person_14129"><forename>Arnoldo</forename></rs>, <rs type="person" xml:id="pNt_89656" ref="#person_16362"><forename>Lotte</forename> <surname>Horn</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

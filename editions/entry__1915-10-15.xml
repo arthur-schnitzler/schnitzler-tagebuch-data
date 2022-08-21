@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-10-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-10-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-10-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1915-10-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-10-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-10-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-060B-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4120.tif"/>
@@ -182,12 +186,11 @@
       <body>
          <div type="diary-day" xml:id="entry__1915-10-15">
             <p xml:space="preserve"><date when="1915-10-15">15/10</date> Vm. Briefe dictirt. Mit O. auf Commissariat wegen Pass.― Zu 
-<rs type="person" xml:id="pNt_46533" ref="#person_17998"><surname>Mautners</surname></rs> (<rs type="place" xml:id="pl_09635" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs>), gegessen mit <rs type="person" xml:id="pNt_46534" ref="#person_14318"><forename>Julia</forename> <surname>Culp</surname></rs>, <rs type="person" xml:id="pNt_46535" ref="#person_13884"><surname>Bos</surname></rs> (Begleiter), 
+<rs type="person" xml:id="pNt_46533" ref="#person_17998"><surname>Mautners</surname></rs> (<rs type="place" xml:id="pl_09635" ref="#pmb169">Pötzleinsdorf</rs>), gegessen mit <rs type="person" xml:id="pNt_46534" ref="#person_14318"><forename>Julia</forename> <surname>Culp</surname></rs>, <rs type="person" xml:id="pNt_46535" ref="#person_13884"><surname>Bos</surname></rs> (Begleiter), 
 <rs type="person" xml:id="pNt_46536"><surname>Bittner’s</surname></rs>. <rs type="person" xml:id="pNt_46537"><roleName>Fr.</roleName> <surname>Bittner</surname></rs>, auch O. sang, mit sehr schöner Stimme. <rs type="person" xml:id="pNt_46538" ref="#person_13884"><surname>Bos</surname></rs> machte 
 einige fachliche Ausstellungen, im herbstlichen Park spazierengehend.</p>
             <p xml:space="preserve" rend="indent">― Nm. am <rs type="work" subtype="self" xml:id="bibl_8392">Verführer</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

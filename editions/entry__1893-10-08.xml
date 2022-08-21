@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1893-10-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-10-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-10-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1893-10-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-10-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-10-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E753-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0780.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1893-10-08">
-            <p xml:space="preserve"><date when="1893-10-08">8/10</date> Sonntag.― Bic.partie nach <rs type="place" xml:id="pl_01639" ref="#place_2f8cfc13edee95175f630a54177679cf">Preßburg</rs>. Ueber <rs type="place" xml:id="pl_01640" ref="#place_b2dc082e3c75c00e8ab0b8bc6d8d50a0">Hainburg</rs>. Mit 
+            <p xml:space="preserve"><date when="1893-10-08">8/10</date> Sonntag.― Bic.partie nach <rs type="place" xml:id="pl_01639" ref="#pmb39615">Preßburg</rs>. Ueber <rs type="place" xml:id="pl_01640" ref="#pmb90823">Hainburg</rs>. Mit 
 <rs type="person" xml:id="pNt_07925" ref="#person_15194"><forename>Gustav</forename></rs> und anfangs <rs type="person" xml:id="pNt_07926" ref="#person_15855"><surname>Hajek</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

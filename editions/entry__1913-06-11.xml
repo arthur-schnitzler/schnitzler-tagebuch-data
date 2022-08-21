@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-06-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-06-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-06-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-06-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-06-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-06-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-02B5-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3634.tif"/>
@@ -182,8 +186,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1913-06-11">
-            <p xml:space="preserve"><date when="1913-06-11">11/6</date> Im Zug <rs type="person" xml:id="pNt_40979" ref="#person_21195"><surname>Weiss</surname></rs> „<rs type="work" xml:id="bibl_9498">Galeere</rs>“. In <rs type="place" xml:id="pl_08307" ref="#place_2e67729f24d2bad024eca3dae647b90c">Bischofshofen</rs> günstiges Telegramm. 
-½6 <rs type="place" xml:id="pl_08308" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>. <rs type="person" xml:id="pNt_40980" ref="#person_15854"><forename>Gisa</forename></rs> mit günstigen Nachrichten. <rs type="person" xml:id="pNt_40981" ref="#person_19827"><forename>Julius</forename></rs>, <rs type="person" xml:id="pNt_40982" ref="#person_19823"><forename>Helene</forename></rs>; sehr beruhigend. 
+            <p xml:space="preserve"><date when="1913-06-11">11/6</date> Im Zug <rs type="person" xml:id="pNt_40979" ref="#person_21195"><surname>Weiss</surname></rs> „<rs type="work" xml:id="bibl_9498">Galeere</rs>“. In <rs type="place" xml:id="pl_08307" ref="#pmb41003">Bischofshofen</rs> günstiges Telegramm. 
+½6 <rs type="place" xml:id="pl_08308" ref="#pmb50">Wien</rs>. <rs type="person" xml:id="pNt_40980" ref="#person_15854"><forename>Gisa</forename></rs> mit günstigen Nachrichten. <rs type="person" xml:id="pNt_40981" ref="#person_19827"><forename>Julius</forename></rs>, <rs type="person" xml:id="pNt_40982" ref="#person_19823"><forename>Helene</forename></rs>; sehr beruhigend. 
 <pb n="44"/>
 <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header"><fw n="44" place="top_left" type="pageNum">44</fw> <fw place="top_center"><date type="range">1913: VI 11 - VI 20</date></fw></tei:fw>
 Mit <rs type="person" xml:id="pNt_40983" ref="#person_15854"><forename>Gisa</forename></rs> zu ihr. <rs type="person" xml:id="pNt_40984" ref="#person_14130"><forename>Lili</forename></rs> (und <rs type="person" xml:id="pNt_40985" ref="#person_17633"><roleName>Frl.</roleName> <surname>Loew</surname></rs>) im Garten. Nach Haus. <rs type="person" xml:id="pNt_40986" ref="#person_19822"><forename>Heini</forename></rs> 
@@ -191,6 +195,5 @@ sehr lustig, kaum mehr Fieber. Athmen auf. <rs type="person" xml:id="pNt_40987" 
 der Veranda.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

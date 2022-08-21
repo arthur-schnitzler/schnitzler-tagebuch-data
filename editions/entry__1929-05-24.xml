@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-05-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-05-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-05-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-05-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-05-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-05-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1971-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7293.tif"/>
@@ -183,7 +187,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1929-05-24">
             <p xml:space="preserve"><date when="1929-05-24">24/5</date> Ins Sanatorium, bei <rs type="person" xml:id="pNt_86830" ref="#person_21107"><forename>Jacob</forename></rs>, der dort wohnt.― 
-Um 10 kam <rs type="person" xml:id="pNt_86831" ref="#person_19832"><forename>O.</forename></rs> aus <rs type="place" xml:id="pl_18668" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>,― (von <rs type="person" xml:id="pNt_86832" ref="#person_18181"><forename>Minna</forename></rs> begleitet).― Mit ihr gleich zu 
+Um 10 kam <rs type="person" xml:id="pNt_86831" ref="#person_19832"><forename>O.</forename></rs> aus <rs type="place" xml:id="pl_18668" ref="#pmb168">Berlin</rs>,― (von <rs type="person" xml:id="pNt_86832" ref="#person_18181"><forename>Minna</forename></rs> begleitet).― Mit ihr gleich zu 
 mir, wir plauderten zu dritt in meinem Zimmer, im Garten;― begleiteten 
 sie wieder hinüber.―</p>
             <p xml:space="preserve" rend="indent">Mittagessen bei mir.― <rs type="person" xml:id="pNt_86833" ref="#person_19832"><forename>O.</forename></rs> sehr bewegt, dass ich ihr im Sanat. ein Zimmer 
@@ -195,6 +199,5 @@ Sportbericht.―</p>
             <p xml:space="preserve" rend="indent">― Melancholie, wir alle;― begleiteten <rs type="person" xml:id="pNt_86839" ref="#person_19832"><forename>O.</forename></rs> zum Sanatorium.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-04-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-04-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-04-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-04-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-04-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-04-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-14F7-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6647.tif"/>
@@ -181,14 +185,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1926-04-03">
-            <p xml:space="preserve"><date when="1926-04-03">3/4</date> Vm. <rs type="person" xml:id="pNt_77563" ref="#person_18758"><forename>Henry A.</forename> <surname>Phillips</surname></rs>, <rs type="place" xml:id="pl_16574" ref="#place_87809c954948d8a20507bee3648281b3">New York</rs>, „interviewt“ mich.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_77564" ref="#person_16079"><roleName>Hr.</roleName> <surname>Hellmund</surname></rs> <rs type="place" xml:id="pl_16575" ref="#place_d0a6343a081a7335baa965ce4fd0845c">München</rs>; ich solle mich unter einen Aufruf zur Schaffung 
+            <p xml:space="preserve"><date when="1926-04-03">3/4</date> Vm. <rs type="person" xml:id="pNt_77563" ref="#person_18758"><forename>Henry A.</forename> <surname>Phillips</surname></rs>, <rs type="place" xml:id="pl_16574" ref="#pmb44053">New York</rs>, „interviewt“ mich.―</p>
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_77564" ref="#person_16079"><roleName>Hr.</roleName> <surname>Hellmund</surname></rs> <rs type="place" xml:id="pl_16575" ref="#pmb45258">München</rs>; ich solle mich unter einen Aufruf zur Schaffung 
 „einer philosoph. Akademie“ unterschreiben, was ich aus allgem. und besondern Gründen ablehne.―</p>
             <p xml:space="preserve" rend="indent">Dictirt: <rs type="work" subtype="self" xml:id="bibl_20144">Therese</rs>, <rs type="work" subtype="self" xml:id="bibl_20145">Badner Nov.</rs>―</p>
             <p xml:space="preserve" rend="indent">Nm. an „<rs type="work" subtype="self" xml:id="bibl_20146">Therese</rs>“.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_77565" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Oper <rs type="person" xml:id="pNt_77566" ref="#person_15438"><surname>Giordano</surname></rs>, <rs type="work" xml:id="bibl_20147">André Chénier</rs>;― nachher <rs type="institution" xml:id="pNt_77567"><surname>Leupold</surname></rs> genachtm.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

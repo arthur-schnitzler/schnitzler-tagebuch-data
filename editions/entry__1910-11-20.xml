@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-11-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-11-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-11-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-11-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-11-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-11-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FF0F-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3035.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1910-11-20">
-            <p xml:space="preserve"><date when="1910-11-20">20/11</date> S. Vormittag Spaziergang <rs type="place" xml:id="pl_07287" ref="#place_9c457f4107132ccb2d87ebf5e13f0b74">Schafberg</rs> ― <rs type="place" xml:id="pl_07288" ref="#place_c79ad839f84019f53250a4e6365359f9">Neuwaldegg</rs> ― <rs type="place" xml:id="pl_07289" ref="#place_318e051b87a18bd62b48dc49a3318206">Hütteldorf</rs>. 
+            <p xml:space="preserve"><date when="1910-11-20">20/11</date> S. Vormittag Spaziergang <rs type="place" xml:id="pl_07287" ref="#pmb59367">Schafberg</rs> ― <rs type="place" xml:id="pl_07288" ref="#pmb170">Neuwaldegg</rs> ― <rs type="place" xml:id="pl_07289" ref="#pmb90913">Hütteldorf</rs>. 
 Frühwintertag.―</p>
-            <p xml:space="preserve" rend="indent">Abends mit O. bei <rs type="person" xml:id="pNt_33958" ref="#person_15855"><surname>Hajeks</surname></rs> (<rs type="place" xml:id="pl_07290" ref="#place_9ed411d11c71f27ba598127fcdc4d7a2">Beethovengasse</rs>). Familie. Auch <rs type="person" xml:id="pNt_33959"><surname>Mandls</surname></rs>, 
+            <p xml:space="preserve" rend="indent">Abends mit O. bei <rs type="person" xml:id="pNt_33958" ref="#person_15855"><surname>Hajeks</surname></rs> (<rs type="place" xml:id="pl_07290" ref="#pmb92161">Beethovengasse</rs>). Familie. Auch <rs type="person" xml:id="pNt_33959"><surname>Mandls</surname></rs>, 
 <rs type="person" xml:id="pNt_33960" ref="#person_17815"><forename>Alfred</forename></rs>, <rs type="person" xml:id="pNt_33961" ref="#person_17803"><surname>Manassewitsch</surname></rs> und <rs type="person" xml:id="pNt_33962"><forename>Grethe</forename></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

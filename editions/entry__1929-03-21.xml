@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-03-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-03-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-03-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-03-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-03-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-03-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1931-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7257.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1929-03-21">
-            <p xml:space="preserve"><date when="1929-03-21">21/3</date> <rs type="place" xml:id="pl_18560" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>. Vm. bei <rs type="person" xml:id="pNt_86251"><surname>Fischer</surname></rs> (<rs type="person" xml:id="pNt_86252" ref="#person_13659"><surname>Bermann</surname></rs>, <rs type="person" xml:id="pNt_86253" ref="#person_17888"><surname>Maril</surname></rs>); allerlei geschäftliches.</p>
+            <p xml:space="preserve"><date when="1929-03-21">21/3</date> <rs type="place" xml:id="pl_18560" ref="#pmb168">Berlin</rs>. Vm. bei <rs type="person" xml:id="pNt_86251"><surname>Fischer</surname></rs> (<rs type="person" xml:id="pNt_86252" ref="#person_13659"><surname>Bermann</surname></rs>, <rs type="person" xml:id="pNt_86253" ref="#person_17888"><surname>Maril</surname></rs>); allerlei geschäftliches.</p>
             <p xml:space="preserve" rend="indent">― Im Esplanade mit <rs type="person" xml:id="pNt_86254" ref="#person_21298"><surname>Wiegler</surname></rs> gegessen. Über die Novelle von <rs type="person" xml:id="pNt_86255" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>,― die 
 ich unter „<rs type="person" xml:id="pNt_86256"><surname>Pidoll</surname></rs>“ eingesandt ― liegt bei der <rs type="work" subtype="newspaper" xml:id="bibl_216">Dame</rs> zur Prüfung.―</p>
             <p xml:space="preserve" rend="indent">― Anregendes Gespräch über vielerlei.―</p>
@@ -195,6 +199,5 @@ eine Weile zu viert mit <rs type="person" xml:id="pNt_86268" ref="#person_19822"
             <p xml:space="preserve" rend="indent">― Sie war wieder ― Nixe und Judenmädl ― unendlich reizvoll.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

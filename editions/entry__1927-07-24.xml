@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-07-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-07-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-07-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-07-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-07-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-07-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-16D3-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6913.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1927-07-24">
-            <p xml:space="preserve"><date when="1927-07-24">24/7</date> S. Mit <rs type="person" xml:id="pNt_81309" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Auto nach <rs type="place" xml:id="pl_17411" ref="#place_1c24743c9fa25eb3584fe72837b40057">Heiligenkreuz</rs> (Kirche) ― <rs type="place" xml:id="pl_17412" ref="#place_9a43e84f6e1d406076f2372205804f6d">Baden</rs> (grüner Baum 
-zu Mittag) ― direct <rs type="place" xml:id="pl_17413" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> (vor 4).―</p>
+            <p xml:space="preserve"><date when="1927-07-24">24/7</date> S. Mit <rs type="person" xml:id="pNt_81309" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Auto nach <rs type="place" xml:id="pl_17411" ref="#pmb90845">Heiligenkreuz</rs> (Kirche) ― <rs type="place" xml:id="pl_17412" ref="#pmb662">Baden</rs> (grüner Baum 
+zu Mittag) ― direct <rs type="place" xml:id="pl_17413" ref="#pmb50">Wien</rs> (vor 4).―</p>
             <p xml:space="preserve" rend="indent">Den Nachm. mit <rs type="work" subtype="self" xml:id="bibl_24563">Aphor.</rs> verbracht. Abendmelancholie ― vor allem wegen 
 <rs type="person" xml:id="pNt_81310" ref="#person_14130"><forename>Lilis</forename></rs> Fortsein.</p>
             <p xml:space="preserve" rend="indent">N. d. N. mit <rs type="person" xml:id="pNt_81311" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> Spazierg. in verschiedentlichen Parken.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

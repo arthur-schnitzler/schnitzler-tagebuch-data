@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1891-05-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-05-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-05-31.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1891-05-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-05-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-05-31.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E3FE-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0536.tif"/>
@@ -182,9 +186,8 @@
       <body>
          <div type="diary-day" xml:id="entry__1891-05-29">
             <p xml:space="preserve"><date when="1891-05-29">29/5</date> <rs type="work" subtype="self" xml:id="bibl_23094">Elixire</rs> von <rs type="work" subtype="newspaper" xml:id="bibl_23095">Magazin</rs> refus.―</p>
-            <p xml:space="preserve" rend="indent">Abds. mit <rs type="person" xml:id="pNt_05322" ref="#person_19542"><surname>Salten</surname></rs> auf den <rs type="place" xml:id="pl_01089" ref="#place_388686540f35afe7790d134863d92203">Kahlenberg</rs>, oben übernachtet.―</p>
+            <p xml:space="preserve" rend="indent">Abds. mit <rs type="person" xml:id="pNt_05322" ref="#person_19542"><surname>Salten</surname></rs> auf den <rs type="place" xml:id="pl_01089" ref="#pmb574">Kahlenberg</rs>, oben übernachtet.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-10-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-10-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-10-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1906-10-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-10-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-10-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F94E-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2270.tif"/>
@@ -181,13 +185,12 @@
       <body>
          <div type="diary-day" xml:id="entry__1906-10-03">
             <p xml:space="preserve"><date when="1906-10-03">3/10</date> Vm. Tennis. <rs type="person" xml:id="pNt_25521" ref="#person_20242"><surname>Speidels</surname></rs>. <rs type="person" xml:id="pNt_25522" ref="#person_16770"><surname>Kaufmann</surname></rs>. <rs type="person" xml:id="pNt_25523" ref="#person_19615"><forename>Alice</forename> <surname>Schalek</surname></rs>.―</p>
-            <p xml:space="preserve" rend="indent">Brief von <rs type="person" xml:id="pNt_25524" ref="#person_20386"><forename>Liesl</forename></rs> aus <rs type="place" xml:id="pl_05690" ref="#place_9910146dec98245cd21a61ee13e55c2d">Görbersdorf</rs>, Ergänzung eines vor 2 Tagen gekommenen 
+            <p xml:space="preserve" rend="indent">Brief von <rs type="person" xml:id="pNt_25524" ref="#person_20386"><forename>Liesl</forename></rs> aus <rs type="place" xml:id="pl_05690" ref="#pmb90735">Görbersdorf</rs>, Ergänzung eines vor 2 Tagen gekommenen 
 den der Arzt geschrieben. Sehr zweifelhafte Prognose. Ihre Ungeduld. 
 Thränen Olga’s.―</p>
             <p xml:space="preserve" rend="indent">Am <rs type="work" subtype="self" xml:id="bibl_15195">Roman</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Dr. <rs type="person" xml:id="pNt_25525" ref="#person_13473"><forename>Ludwig</forename> <surname>Bauer</surname></rs> da, erzählt von seiner Sommerschiffsreise nach <rs type="place" xml:id="pl_05691" ref="#place_5fb959f9b3ed86fb47b0f3905d111200">Algier</rs> ―</p>
+            <p xml:space="preserve" rend="indent">Dr. <rs type="person" xml:id="pNt_25525" ref="#person_13473"><forename>Ludwig</forename> <surname>Bauer</surname></rs> da, erzählt von seiner Sommerschiffsreise nach <rs type="place" xml:id="pl_05691" ref="#pmb43991">Algier</rs> ―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

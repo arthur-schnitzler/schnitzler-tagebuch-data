@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-11-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-11-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-12-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-11-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-11-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-12-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FDAC-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2794.tif"/>
@@ -182,7 +186,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1909-11-30">
             <p xml:space="preserve"><date when="1909-11-30">30/11</date> Vm. bei <rs type="person" xml:id="pNt_31320" ref="#person_14930"><surname>Feldstein</surname></rs> (Tischler), <rs type="person" xml:id="pNt_31321" ref="#person_13631"><surname>Berger</surname></rs>, <rs type="person" xml:id="pNt_31322" ref="#person_16166"><surname>Herzmansky</surname></rs> (über 
-<rs type="work" subtype="self" xml:id="bibl_13036">Pantomime</rs> und <rs type="work" subtype="self" xml:id="bibl_13037">Cassian</rs>); bei <rs type="person" xml:id="pNt_31323" ref="#person_19364"><surname>Rosenbaum</surname></rs> im <rs type="place" ref="#place_burgtheater">Burgtheater</rs>. <rs type="person" xml:id="pNt_31324" ref="#person_19364"><surname>R.</surname></rs> erklärt, 
+<rs type="work" subtype="self" xml:id="bibl_13036">Pantomime</rs> und <rs type="work" subtype="self" xml:id="bibl_13037">Cassian</rs>); bei <rs type="person" xml:id="pNt_31323" ref="#person_19364"><surname>Rosenbaum</surname></rs> im <rs type="place" ref="#pmb14">Burgtheater</rs>. <rs type="person" xml:id="pNt_31324" ref="#person_19364"><surname>R.</surname></rs> erklärt, 
 <rs type="work" subtype="self" xml:id="bibl_13038">Medardus</rs> liege thatsächlich noch bei der Censur, und werde seiner 
 Überzeugung nach in den nächsten Tagen frei gegeben, aber erst nächste 
 Saison gegeben werden.― <rs type="person" xml:id="pNt_31325" ref="#person_19724"><surname>Schlenther</surname></rs> stehe fester als je. Sein 
@@ -190,11 +194,10 @@ enthusiastisches Verhältnis zu <rs type="person" xml:id="pNt_31326" ref="#perso
 ehrlich; er wollte, wie <rs type="person" xml:id="pNt_31328" ref="#person_17356"><surname>Laube</surname></rs> <rs type="person" xml:id="pNt_31329" ref="#person_15661"><surname>Grillparzer</surname></rs>, auch einen <rs type="place" xml:id="pl_06879" ref="#place_f53b6700ba843d0e8090901c56324bee" ana="#exclude">österreichischen</rs> 
 Klassiker entdecken, machen.―</p>
             <p xml:space="preserve" rend="indent">Nm. erscheint plötzlich <rs type="person" xml:id="pNt_31330" ref="#person_21163"><forename>Max</forename> <surname>Weinberg</surname></rs>, beurlaubter Gymnasialprofessor 
-aus <rs type="place" xml:id="pl_06880" ref="#place_37c8fd63de5c5a7525530bf899435386">Höflein</rs>. Lebensläufe! Jugenderinnerungen. Mein schlechtes Gedächtnis.―</p>
+aus <rs type="place" xml:id="pl_06880" ref="#pmb46776">Höflein</rs>. Lebensläufe! Jugenderinnerungen. Mein schlechtes Gedächtnis.―</p>
             <p xml:space="preserve" rend="indent">Dictirt, Briefe, <rs type="work" subtype="self" xml:id="bibl_13039">Abenteurer</rs>.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_31331" ref="#person_14930"><surname>Feldstein</surname></rs> da, Messungen, Eintheilungen.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1880-02-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-02-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-02-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1880-02-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-02-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-02-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DD26-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,13 +177,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0026.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0027.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1880-02-24">
             <p xml:space="preserve"><date when="1880-02-24">24/2</date> Dinstag Abend. Die ganze Erdenwirthschaft ist wohl dem Getriebe in 
 einer Fabrik zu vergleichen, und wie aus dem hohen Rauchfang der Rauch 
@@ -189,13 +194,13 @@ mehr als das ― ein ungezwungner Nebel zum Aether auf, und schwebt hin
 und her und tanzt im unbegrenzten Raume ― es ist der künstlerische 
 Geist, der sich hervorhebt aus dem regelmäßigen Philisterium, das in 
 dumpfer Begrenzung die tägliche Arbeit verrichtet.―</p>
-            <p xml:space="preserve" rend="indent">Ich muss gestehn, daß es eine Zeit gab, wo mir der <rs type="place" xml:id="pl_00056" ref="#place_273c6fe7cd0300c46e98e05cc3414e33">Quaipark</rs> gar 
+            <p xml:space="preserve" rend="indent">Ich muss gestehn, daß es eine Zeit gab, wo mir der <rs type="place" xml:id="pl_00056" ref="#pmb92469">Quaipark</rs> gar 
 nicht gefiel.― 0 geliebtes, holdes Wesen! Sie löste sich das wallende 
 blonde Haar und nahm den Hut herunter, daß es frei über Haupt und 
 Schultern herabfloss. Ich sah ihr ins Auge und schlang den Arm um 
 ihren Hals und küsste den süßen Mund gar manches Mal.― Und sie 
 küsste dann auch meine Augen und ich ihre Hand und sie die meine.</p>
-            <p xml:space="preserve" rend="indent">― Die <rs type="place" xml:id="pl_00057" ref="#place_ec5faf5c37e55de32672b04a90a59b20">Donau</rs> glitzerte aus dem Dunkel hervor und Lichter drüben 
+            <p xml:space="preserve" rend="indent">― Die <rs type="place" xml:id="pl_00057" ref="#pmb90538">Donau</rs> glitzerte aus dem Dunkel hervor und Lichter drüben 
 ― und ich könnte das Bild immer wieder schildern. Noch kleines 
 Wahrheitchen zum Schluß: daß wir uns gar manche Augenblicke, die 
 sehr schön sein könnten, durch ungegründete Eifersüchtelein zu 
@@ -205,5 +210,6 @@ von einer Bank unter dem Baume und vor uns zweien ein Tisch, auf
 dem (nebst ganz famosen Birnen, Pomeranzen und Backwerk) ein gar 
 herrliches Werk liegt, von mir gedichtet ―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

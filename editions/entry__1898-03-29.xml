@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1898-03-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-03-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-03-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1898-03-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-03-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-03-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EDA4-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1424.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1898-03-29">
-            <p xml:space="preserve"><date when="1898-03-29">29/3</date> Abd. mit <rs type="person" xml:id="pNt_15180" ref="#person_19150"><forename>Mz.</forename> <surname>Rh.</surname></rs> spaz.― Las in alten Briefen von <rs type="person" xml:id="pNt_15181" ref="#person_15485"><forename>Mz.</forename></rs> (<rs type="place" xml:id="pl_02827" ref="#place_c38ad36647aca0261d667c432a4866bd">Salzburg</rs>) 
+            <p xml:space="preserve"><date when="1898-03-29">29/3</date> Abd. mit <rs type="person" xml:id="pNt_15180" ref="#person_19150"><forename>Mz.</forename> <surname>Rh.</surname></rs> spaz.― Las in alten Briefen von <rs type="person" xml:id="pNt_15181" ref="#person_15485"><forename>Mz.</forename></rs> (<rs type="place" xml:id="pl_02827" ref="#pmb91649">Salzburg</rs>) 
 sah ihre Bilder, war sehr ergriffen;― ohne die rechte Empfindung, dass 
 diese <rs type="person" xml:id="pNt_15182" ref="#person_15485"><forename>Mz. I</forename></rs>, die ich jeden Tag sehen kann ― dieselbe ist.― Mehr 
 Empfindung: Jugend ― dahin ―. Dann die anon. Briefe gelesen und 
@@ -190,6 +194,5 @@ die zornigen von mir an sie, die eine gewisse Macht haben, über die ich
 mich freute.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

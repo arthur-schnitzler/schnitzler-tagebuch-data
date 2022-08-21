@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1921-09-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-09-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-09-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1921-09-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-09-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-09-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0E7B-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5526.tif"/>
@@ -184,17 +188,16 @@
          <div type="diary-day" xml:id="entry__1921-09-15">
             <p xml:space="preserve"><date when="1921-09-15">15/9</date> In der Bank; geschäftliches (mit Hrn. <rs type="person" xml:id="pNt_63698" ref="#person_17175"><surname>Kugel</surname></rs> u. a.).</p>
             <p xml:space="preserve" rend="indent">Dictirt Briefe.―</p>
-            <p xml:space="preserve" rend="indent">An <rs type="person" xml:id="pNt_63699" ref="#person_19832"><forename>O.</forename></rs> nach <rs type="place" xml:id="pl_13363" ref="#place_ee73439f8e5bd57e3d0375ed174b4c76">Gastein</rs> geschrieben; daß ich, insbesondre einen längern 
-Aufenthalt in <rs type="place" xml:id="pl_13364" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> für verfrüht hielte. Schwierigkeiten des Domicils.― Sie 
+            <p xml:space="preserve" rend="indent">An <rs type="person" xml:id="pNt_63699" ref="#person_19832"><forename>O.</forename></rs> nach <rs type="place" xml:id="pl_13363" ref="#pmb521">Gastein</rs> geschrieben; daß ich, insbesondre einen längern 
+Aufenthalt in <rs type="place" xml:id="pl_13364" ref="#pmb50">Wien</rs> für verfrüht hielte. Schwierigkeiten des Domicils.― Sie 
 schreibt gestern von ihrer „vollkommnen Heimatlosigkeit ―“ und immer ein 
 Ton, als wär ein andrer Schuld als sie selbst.</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_63700" ref="#person_15753"><roleName>Herr</roleName> <surname>Gurevich</surname></rs> (aus <rs type="place" xml:id="pl_13365" ref="#place_0bcbcfedf2ef1f96542597b9279fb141">Rom</rs>), <rs type="place" xml:id="pl_13366" ref="#place_0f87a15c3d07e465057778ee8119547a" ana="#exclude">Russe</rs>, wegen „<rs type="work" subtype="self" xml:id="bibl_3508">Reigen</rs>“ <rs type="place" xml:id="pl_13367" ref="#place_389962c9dec540ab28d04517e82c3996">Italien</rs> ―</p>
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_63700" ref="#person_15753"><roleName>Herr</roleName> <surname>Gurevich</surname></rs> (aus <rs type="place" xml:id="pl_13365" ref="#pmb445">Rom</rs>), <rs type="place" xml:id="pl_13366" ref="#place_0f87a15c3d07e465057778ee8119547a" ana="#exclude">Russe</rs>, wegen „<rs type="work" subtype="self" xml:id="bibl_3508">Reigen</rs>“ <rs type="place" xml:id="pl_13367" ref="#pmb40306">Italien</rs> ―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="work" subtype="self" xml:id="bibl_3509">Tgb.</rs> 1913 vorgenommen.―</p>
             <p xml:space="preserve" rend="indent">Weiter am <rs type="work" subtype="self" xml:id="bibl_3510">Roman</rs>.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_63701" ref="#person_14130"><forename>Lili</forename></rs> (zum ersten Mal) eine Schachpartie.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_63702" ref="#person_19822"><forename>Heini</forename></rs> <rs type="person" xml:id="pNt_63703" ref="#person_13555"><surname>Beethoven</surname></rs> <rs type="work" xml:id="bibl_3511">Clav. Conc. Nr. 2</rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

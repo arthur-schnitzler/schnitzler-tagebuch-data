@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1924-04-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-04-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-04-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1924-04-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-04-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-04-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-122F-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6253.tif"/>
@@ -182,7 +186,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1924-04-21">
             <p xml:space="preserve"><date when="1924-04-21">21/4</date> Ostermontag. Vm. bei kühlem, regnerischem Wetter mit <rs type="person" xml:id="pNt_72117" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> spazieren 
-<rs type="place" xml:id="pl_15335" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> ― <rs type="place" xml:id="pl_15336" ref="#place_9c457f4107132ccb2d87ebf5e13f0b74">Schafberg</rs>, <rs type="place" xml:id="pl_15337" ref="#place_a513bae177c89d12226f343ac5ff1ee3">Salmannsdorf</rs> ― <rs type="place" xml:id="pl_15338" ref="#place_cc6eda773537f8cb4db5cb1b862d0e0d">Sommerhaidenweg</rs> etc.―</p>
+<rs type="place" xml:id="pl_15335" ref="#pmb169">Pötzleinsdorf</rs> ― <rs type="place" xml:id="pl_15336" ref="#pmb59367">Schafberg</rs>, <rs type="place" xml:id="pl_15337" ref="#pmb91641">Salmannsdorf</rs> ― <rs type="place" xml:id="pl_15338" ref="#pmb243">Sommerhaidenweg</rs> etc.―</p>
             <p xml:space="preserve" rend="indent">Zu Tisch <rs type="person" xml:id="pNt_72118"><forename>Louis</forename> <surname>Böhm</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. mit <rs type="person" xml:id="pNt_72119" ref="#person_19822"><forename>Heini</forename></rs> <rs type="person" xml:id="pNt_72120" ref="#person_18066"><surname>Mendelssohn</surname></rs>, <rs type="work" xml:id="bibl_20960">Schottische Symphonie</rs> (wie weit 
 ist man gerade von <rs type="person" xml:id="pNt_72121" ref="#person_18066"><surname>Mendelssohn</surname></rs> fort) <rs type="person" xml:id="pNt_72122" ref="#person_13882"><surname>Borodin</surname></rs> <rs type="work" xml:id="bibl_20961">Prinz Igor Ouv.</rs></p>
@@ -195,6 +199,5 @@ sympathischer schien ― doch getraut ich mich noch nicht ihn ein zweites Mal zu
             <p xml:space="preserve" rend="indent">Auch von <rs type="person" xml:id="pNt_72128" ref="#person_18137"><forename>Dora</forename></rs> ein Brief, den ich Abends beantwortete.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-01-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-01-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-01-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-01-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-01-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-01-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-093B-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4581.tif"/>
@@ -184,7 +188,7 @@
          <div type="diary-day" xml:id="entry__1918-01-09">
             <p xml:space="preserve"><date when="1918-01-09">9/1</date> Dictirt Briefe, „<rs type="work" subtype="self" xml:id="bibl_5235">Sohn</rs>“.―</p>
             <p xml:space="preserve" rend="indent">Nm. „<rs type="work" xml:id="bibl_5236">Esmond</rs>“ zu Ende gelesen.― Am „<rs type="work" subtype="self" xml:id="bibl_5237">Nachklang</rs>“.</p>
-            <p xml:space="preserve" rend="indent">Zum Thee <rs type="person" xml:id="pNt_52322" ref="#person_17867"><roleName>Frau</roleName> <surname>Mareš Gerstle</surname></rs>, Besitzerin des Guts <rs type="place" xml:id="pl_10831" ref="#place_012af12d2fd02ba02ce3baaffcac49e7">Ottensheim</rs>, von 
+            <p xml:space="preserve" rend="indent">Zum Thee <rs type="person" xml:id="pNt_52322" ref="#person_17867"><roleName>Frau</roleName> <surname>Mareš Gerstle</surname></rs>, Besitzerin des Guts <rs type="place" xml:id="pl_10831" ref="#pmb44187">Ottensheim</rs>, von 
 wo wir allerlei beziehen; lebendig, amüsant von ihrem (3.) Mann, ihrer 
 Liebe, dem Gutskauf, Verhandlungen mit Behörden und Kommanden.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_52323" ref="#person_14959"><roleName>Dr.</roleName> <surname>Feuchtwang</surname></rs> und Frau. Über <rs type="work" subtype="self" xml:id="bibl_5238">Fldb.</rs>;― über <rs type="person" xml:id="pNt_52324" ref="#person_13551"><forename>Richard</forename></rs> (<rs type="person" xml:id="pNt_52325" ref="#person_13551"><surname>B. H.’s</surname></rs>) und 
@@ -194,6 +198,5 @@ mein Judenthum; <rs type="person" xml:id="pNt_52326" ref="#person_13551"><forena
 sozial-psychologisches.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

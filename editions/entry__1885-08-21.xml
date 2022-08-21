@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1885-08-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-08-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-08-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1885-08-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-08-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-08-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DEDA-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0249.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1885-08-21">
-            <p xml:space="preserve"><date when="1885-08-21">21/8</date> Freitag. <rs type="place" xml:id="pl_00467" ref="#place_cceafad713406bc4d8421dbdd142523a">Luzern</rs> ― <rs type="place" xml:id="pl_00468" ref="#place_3ee24911953779671f01b510657436d4" ana="#exclude">Gotthardbahn</rs> ― <rs type="place" xml:id="pl_00469" ref="#place_7ca9b7a978fffe1f2c288963006cc6da">Locarno</rs> am <rs type="place" xml:id="pl_00470" ref="#place_9f272cbd418858629f797992f430cd6c">Lago Maggiore</rs>. 
+            <p xml:space="preserve"><date when="1885-08-21">21/8</date> Freitag. <rs type="place" xml:id="pl_00467" ref="#pmb967">Luzern</rs> ― <rs type="place" xml:id="pl_00468" ref="#place_3ee24911953779671f01b510657436d4" ana="#exclude">Gotthardbahn</rs> ― <rs type="place" xml:id="pl_00469" ref="#pmb49781">Locarno</rs> am <rs type="place" xml:id="pl_00470" ref="#pmb89836">Lago Maggiore</rs>. 
 Spaziergang durch die Stadt. Ruderfahrt.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

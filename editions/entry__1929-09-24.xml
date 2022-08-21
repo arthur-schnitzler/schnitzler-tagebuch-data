@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-09-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-09-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-09-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-09-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-09-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-09-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-19EC-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7356.tif"/>
@@ -183,7 +187,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1929-09-24">
-            <p xml:space="preserve"><date when="1929-09-24">24/9</date> ― Tel. mit <rs type="person" xml:id="pNt_87680" ref="#person_18137"><forename>Dora</forename></rs> (<rs type="place" xml:id="pl_18928" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>).―</p>
+            <p xml:space="preserve"><date when="1929-09-24">24/9</date> ― Tel. mit <rs type="person" xml:id="pNt_87680" ref="#person_18137"><forename>Dora</forename></rs> (<rs type="place" xml:id="pl_18928" ref="#pmb168">Berlin</rs>).―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_87681" ref="#person_15854"><forename>Gisa</forename></rs>. Ihre Sorgen (<rs type="person" xml:id="pNt_87682" ref="#person_16894"><forename>Margot</forename></rs> etc.) ― Boden Credit <rs type="person" xml:id="pNt_87683" ref="#person_19086"><roleName>Dir.</roleName> <surname>Rechnitzer</surname></rs>. 
 Interpellire ihn wegen der Gerüchte über die Bank. Er bestreitet zum 
 Theil, ist aber sichtlich irritirt.―</p>
@@ -194,6 +198,5 @@ Theil, ist aber sichtlich irritirt.―</p>
             <p xml:space="preserve" rend="indent">Mit ihr Linde soup.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

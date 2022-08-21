@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-09-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-09-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0A30-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4698.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1918-09-11">
-            <p xml:space="preserve"><date when="1918-09-11">11/9</date> Mit O. nach <rs type="place" xml:id="pl_11213" ref="#place_c38ad36647aca0261d667c432a4866bd">Salzburg</rs>. Europe. Regen.―</p>
+            <p xml:space="preserve"><date when="1918-09-11">11/9</date> Mit O. nach <rs type="place" xml:id="pl_11213" ref="#pmb91649">Salzburg</rs>. Europe. Regen.―</p>
             <p xml:space="preserve" rend="indent">Gegen Abend spazier ich allein herum, etwas melancholisch.― Die 
 <rs type="person" xml:id="pNt_54107" ref="#person_15485"><forename>M.</forename> <surname>G.</surname></rs> Zeit so fern, als wäre sie nie gewesen ― bald dreißig Jahre!―</p>
             <p xml:space="preserve" rend="indent">Nachtmahl im Europe.― Spreche <rs type="person" xml:id="pNt_54108"><roleName>Dr.</roleName> <surname>Müller</surname></rs> (Vater von <rs type="person" xml:id="pNt_54109" ref="#person_18297"><forename>Hans</forename></rs>), <rs type="person" xml:id="pNt_54110" ref="#person_15708"><roleName>Hofr.</roleName> 
@@ -193,6 +197,5 @@ Publikum ― die „neuen Reichen“. Schlafe gar nicht, befinde mich aber
 ganz leidlich; kommen nach 8 früh</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

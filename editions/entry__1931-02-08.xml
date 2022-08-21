@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-02-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-02-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-02-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1931-02-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-02-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-02-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1BE2-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,23 +177,25 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7637.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7638.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1931-02-08">
-            <p xml:space="preserve"><date when="1931-02-08">8/2</date> S. Tel. mit <rs type="person" xml:id="pNt_92010" ref="#person_19832"><forename>O.</forename></rs> (<rs type="place" xml:id="pl_19747" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>) (auch über <rs type="person" xml:id="pNt_92011" ref="#person_19822"><forename>Heini</forename></rs> und <rs type="person" xml:id="pNt_92012" ref="#person_13139"><forename>Ruth</forename></rs>).</p>
+            <p xml:space="preserve"><date when="1931-02-08">8/2</date> S. Tel. mit <rs type="person" xml:id="pNt_92010" ref="#person_19832"><forename>O.</forename></rs> (<rs type="place" xml:id="pl_19747" ref="#pmb168">Berlin</rs>) (auch über <rs type="person" xml:id="pNt_92011" ref="#person_19822"><forename>Heini</forename></rs> und <rs type="person" xml:id="pNt_92012" ref="#person_13139"><forename>Ruth</forename></rs>).</p>
             <p xml:space="preserve" rend="indent">― Brief an <rs type="person" xml:id="pNt_92013" ref="#person_14234"><forename>Suz.</forename></rs>;― Brief, und Tel. von ihr.―</p>
             <p xml:space="preserve" rend="indent">― Zu Tisch bei <rs type="person" xml:id="pNt_92014"><forename>Ferry</forename></rs> (und <rs type="person" xml:id="pNt_92015"><forename>Annie</forename></rs>) ― <rs type="person" xml:id="pNt_92016"><forename>Ferry</forename></rs> referirt mir sein Mittwoch 
 Gespräch mit <rs type="person" xml:id="pNt_92017" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>― Nachher mit ihm zu <rs type="person" xml:id="pNt_92018" ref="#person_15855"><surname>Hajek</surname></rs>, der nach einem 
 Nierensteinanfall sehr leidend.―</p>
             <p xml:space="preserve" rend="indent">― Die <rs type="work" subtype="self" xml:id="bibl_23598">Sängerin</rs> bedacht; Unmöglichkeit der Concentration.</p>
-            <p xml:space="preserve" rend="indent">― Mit <rs type="person" xml:id="pNt_92019" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Kino „<rs type="work" xml:id="bibl_23599">Danton</rs>“ (<rs type="person" xml:id="pNt_92020" ref="#person_17063"><surname>Kortner</surname></rs>), dann mit ihr „<rs type="place" ref="#place_meissl">Meissl</rs>“. Immer 
+            <p xml:space="preserve" rend="indent">― Mit <rs type="person" xml:id="pNt_92019" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Kino „<rs type="work" xml:id="bibl_23599">Danton</rs>“ (<rs type="person" xml:id="pNt_92020" ref="#person_17063"><surname>Kortner</surname></rs>), dann mit ihr „<rs type="place" ref="#pmb96">Meissl</rs>“. Immer 
 dasselbe.― Dass ich mich „über sie beklagt“;― u. s. w.;― und besonders 
 arg über <rs type="person" xml:id="pNt_92022" ref="#person_18137"><forename>Dora</forename></rs>, als wäre sie an allem Schuld.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

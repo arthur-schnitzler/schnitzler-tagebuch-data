@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1891-06-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-06-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-06-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1891-06-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-06-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-06-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E403-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0536.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1891-06-04">
-            <p xml:space="preserve"><date when="1891-06-04">4. 6.</date> Bei <rs type="person" xml:id="pNt_05326" ref="#person_15485"><forename>Mz.</forename></rs> das 1. Mal in <rs type="place" xml:id="pl_01092" ref="#place_9a43e84f6e1d406076f2372205804f6d">Baden</rs>. Spaziergang nach <rs type="place" xml:id="pl_01093" ref="#place_4d73023ecc7175684bda94c6e76aff2c">Pfaffstätten</rs>. 
+            <p xml:space="preserve"><date when="1891-06-04">4. 6.</date> Bei <rs type="person" xml:id="pNt_05326" ref="#person_15485"><forename>Mz.</forename></rs> das 1. Mal in <rs type="place" xml:id="pl_01092" ref="#pmb662">Baden</rs>. Spaziergang nach <rs type="place" xml:id="pl_01093" ref="#pmb91466">Pfaffstätten</rs>. 
 Genachtmahlt mit ihr und ihrem Bruder. Es war sehr schön.―</p>
             <p xml:space="preserve" rend="indent">Vorgestern war ihre Antrittsrolle, in <rs type="work" xml:id="bibl_23097">Cornelius Voss</rs>; sie hat gefallen. 
 Morgen spielt sie die <rs type="person" xml:id="pNt_05327"><forename>Alma</forename></rs>, was ich noch immer nicht vertragen kann.―</p>
@@ -190,6 +194,5 @@ Morgen spielt sie die <rs type="person" xml:id="pNt_05327"><forename>Alma</foren
             <p xml:space="preserve" rend="indent">Habe heute <rs type="work" subtype="self" xml:id="bibl_23099">Episode</rs> und <rs type="work" subtype="self" xml:id="bibl_23100">Abenteuer</rs> stellenweise geändert.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

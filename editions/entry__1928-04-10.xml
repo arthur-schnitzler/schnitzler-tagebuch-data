@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-04-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-04-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-04-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-04-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-04-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-04-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-17D8-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7067.tif"/>
@@ -183,9 +187,8 @@
          <div type="diary-day" xml:id="entry__1928-04-10">
             <p xml:space="preserve"><date when="1928-04-10">10/4</date> Dict. <rs type="work" subtype="self" xml:id="bibl_19305">Spiel d. S.</rs> vorläufig Schluss, <rs type="work" subtype="self" xml:id="bibl_19306">Abenteurer</rs>, Briefe.</p>
             <p xml:space="preserve" rend="indent">Nachmittag in besondrer Unruhe.―</p>
-            <p xml:space="preserve" rend="indent">Z. N. <rs type="person" xml:id="pNt_83449" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> (Ostertage <rs type="place" xml:id="pl_17874" ref="#place_017f791d01c1d14c3ec7a1209e28b020">Gutenstein</rs>).</p>
+            <p xml:space="preserve" rend="indent">Z. N. <rs type="person" xml:id="pNt_83449" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> (Ostertage <rs type="place" xml:id="pl_17874" ref="#pmb1036">Gutenstein</rs>).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

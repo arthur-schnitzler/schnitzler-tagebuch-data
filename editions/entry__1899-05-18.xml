@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1899-05-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-05-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-05-19.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1899-05-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-05-17.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-05-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EF28-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1492.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1899-05-18">
-            <p xml:space="preserve"><date when="1899-05-18">18/5</date> Mit <rs type="person" xml:id="pNt_16312" ref="#person_16293"><forename>Hugo</forename></rs> Rad <rs type="place" xml:id="pl_03102" ref="#place_3e738e36ecf58c97b2dba8c121cf092a">Kreuzenstein</rs> ― <rs type="place" xml:id="pl_03103" ref="#place_3adda835e8d93bd8815e6a8182d8ef68">Spillern</rs> ― <rs type="place" xml:id="pl_03104" ref="#place_a64ccfe6a153e969eccc0cd5e3d021f0">Greifenstein</rs> ― (<rs type="place" xml:id="pl_03105" ref="#place_ec5faf5c37e55de32672b04a90a59b20">Donau</rs> 
-übersetzt) ― <rs type="place" xml:id="pl_03106" ref="#place_82a9503bdaec6072b31faf9d301678cf">Kritzendorf</rs>.</p>
+            <p xml:space="preserve"><date when="1899-05-18">18/5</date> Mit <rs type="person" xml:id="pNt_16312" ref="#person_16293"><forename>Hugo</forename></rs> Rad <rs type="place" xml:id="pl_03102" ref="#pmb91069">Kreuzenstein</rs> ― <rs type="place" xml:id="pl_03103" ref="#pmb91790">Spillern</rs> ― <rs type="place" xml:id="pl_03104" ref="#pmb90763">Greifenstein</rs> ― (<rs type="place" xml:id="pl_03105" ref="#pmb90538">Donau</rs> 
+übersetzt) ― <rs type="place" xml:id="pl_03106" ref="#pmb91077">Kritzendorf</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

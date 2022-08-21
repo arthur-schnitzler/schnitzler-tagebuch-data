@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-05-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-05-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-05-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-05-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-05-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-05-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-10E7-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6053.tif"/>
@@ -183,9 +187,8 @@
          <div type="diary-day" xml:id="entry__1923-05-28">
             <p xml:space="preserve"><date when="1923-05-28">28/5</date> Vm. Besorgungen.― Bei <rs type="person" xml:id="pNt_69591" ref="#person_18863"><forename>Cl.</forename> <surname>P.</surname></rs>―</p>
             <p xml:space="preserve" rend="indent">Nm. Briefe für morgen vorbereitet etc.</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_69592" ref="#person_18863"><forename>Cl.</forename> <surname>P.</surname></rs> <rs type="place" xml:id="pl_14764" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> spazieren.</p>
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_69592" ref="#person_18863"><forename>Cl.</forename> <surname>P.</surname></rs> <rs type="place" xml:id="pl_14764" ref="#pmb169">Pötzleinsdorf</rs> spazieren.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

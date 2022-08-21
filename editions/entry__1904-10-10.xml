@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-10-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-10-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-10-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-10-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-10-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-10-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F67C-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1978.tif"/>
@@ -181,13 +185,12 @@
       <body>
          <div type="diary-day" xml:id="entry__1904-10-10">
             <p xml:space="preserve"><date when="1904-10-10">10/10</date> Vm. Besorgungen in der Stadt, bei <rs type="person" xml:id="pNt_21681" ref="#person_14981"><surname>Fimpel</surname></rs> mit O.―</p>
-            <p xml:space="preserve" rend="indent">― „<rs type="work" subtype="self" xml:id="bibl_17318">Burlesk. Abd.</rs>“ an <rs type="person" xml:id="pNt_21682" ref="#person_19154"><surname>Reinhardt</surname></rs> <rs type="place" xml:id="pl_04931" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> geschickt.―</p>
+            <p xml:space="preserve" rend="indent">― „<rs type="work" subtype="self" xml:id="bibl_17318">Burlesk. Abd.</rs>“ an <rs type="person" xml:id="pNt_21682" ref="#person_19154"><surname>Reinhardt</surname></rs> <rs type="place" xml:id="pl_04931" ref="#pmb168">Berlin</rs> geschickt.―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_21683" ref="#person_18066"><surname>Mendelssohn</surname></rs> und <rs type="work" xml:id="bibl_17319">Walküre</rs> gespielt.</p>
             <p xml:space="preserve" rend="indent">An der <rs type="work" subtype="self" xml:id="bibl_17320">N. E.</rs>― 2. Akt begonnen (neu).―</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_04932" ref="#place_6fc6f10422bfe80ddcba23b4f7f080dc">Hietzing</rs> mit O.― <rs type="person" xml:id="pNt_21684" ref="#person_16293"><forename>Hugo</forename></rs> und <rs type="person" xml:id="pNt_21685" ref="#person_16292"><forename>Gerty</forename></rs>. Regen. Über <rs type="person" xml:id="pNt_21686" ref="#person_17834"><forename>Heinrich</forename> 
+            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_04932" ref="#pmb63">Hietzing</rs> mit O.― <rs type="person" xml:id="pNt_21684" ref="#person_16293"><forename>Hugo</forename></rs> und <rs type="person" xml:id="pNt_21685" ref="#person_16292"><forename>Gerty</forename></rs>. Regen. Über <rs type="person" xml:id="pNt_21686" ref="#person_17834"><forename>Heinrich</forename> 
 <surname>Mann</surname></rs> in Bewunderung.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

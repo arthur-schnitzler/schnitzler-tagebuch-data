@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-07-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-07-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-07-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-07-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-07-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-07-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1B1E-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7529.tif"/>
@@ -181,15 +185,14 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1930-07-27">
-            <p xml:space="preserve"><date when="1930-07-27">27/7</date> S. <rs type="place" xml:id="pl_19394" ref="#place_51c7c0e8bc877f41a415a8e7efedd068">St. Moritz</rs>.― Nie recht wohl. Vergebliches Bemühn an der Antwort 
+            <p xml:space="preserve"><date when="1930-07-27">27/7</date> S. <rs type="place" xml:id="pl_19394" ref="#pmb44374">St. Moritz</rs>.― Nie recht wohl. Vergebliches Bemühn an der Antwort 
 für <rs type="person" xml:id="pNt_90333" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>―</p>
-            <p xml:space="preserve" rend="indent">Spazierg. über <rs type="place" xml:id="pl_19395" ref="#place_51c7c0e8bc877f41a415a8e7efedd068">St. Moritz</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Spazierg. über <rs type="place" xml:id="pl_19395" ref="#pmb44374">St. Moritz</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nach Tisch Carambole <rs type="person" xml:id="pNt_90334" ref="#person_21449"><surname>Wolff</surname></rs>.</p>
             <p xml:space="preserve" rend="indent">Nm. sehr müd zu Bett.―</p>
             <p xml:space="preserve" rend="indent">Z. N. kommen <rs type="person" xml:id="pNt_90335" ref="#person_15009"><forename>S.</forename> <surname>Fischers</surname></rs> und <rs type="person" xml:id="pNt_90336" ref="#person_21107"><forename>Jacob</forename></rs>. Spaziergang Park Stahlbad.― Gemeins. 
 Nachtm. <rs type="person" xml:id="pNt_90337" ref="#person_13139"><forename>Ruth</forename> <surname>A.</surname></rs> ist angekommen; wir alle zusammen Lesesaal.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

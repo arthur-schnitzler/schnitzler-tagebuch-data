@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-08-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-08-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-08-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-08-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-08-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-08-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1B31-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7539.tif"/>
@@ -181,15 +185,14 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1930-08-15">
-            <p xml:space="preserve"><date when="1930-08-15">15/8</date> Gegen ½12 zu <rs type="person" xml:id="pNt_90484" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>― Radio (<rs type="place" xml:id="pl_19454" ref="#place_c38ad36647aca0261d667c432a4866bd">Salzburg</rs> <rs type="person" xml:id="pNt_90485" ref="#person_18282"><surname>Mozart</surname></rs> Philh.) ― 
-Über ev. Reise,― <rs type="place" xml:id="pl_19455" ref="#place_07746ef3772ea6e718f5cd3a37681d92">Marienbad</rs> oder <rs type="place" xml:id="pl_19456" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs>.― ― Dann mit ihr ein wenig 
-spazieren <rs type="place" xml:id="pl_19457" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_90486" ref="#person_14828"><forename>David</forename> <surname>Ewes</surname></rs>, junger Journalist <rs type="place" xml:id="pl_19458" ref="#place_87809c954948d8a20507bee3648281b3">New York</rs>, dem ich ein Interview 
+            <p xml:space="preserve"><date when="1930-08-15">15/8</date> Gegen ½12 zu <rs type="person" xml:id="pNt_90484" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>― Radio (<rs type="place" xml:id="pl_19454" ref="#pmb91649">Salzburg</rs> <rs type="person" xml:id="pNt_90485" ref="#person_18282"><surname>Mozart</surname></rs> Philh.) ― 
+Über ev. Reise,― <rs type="place" xml:id="pl_19455" ref="#pmb91211">Marienbad</rs> oder <rs type="place" xml:id="pl_19456" ref="#pmb91735">Semmering</rs>.― ― Dann mit ihr ein wenig 
+spazieren <rs type="place" xml:id="pl_19457" ref="#pmb113">Türkenschanzpark</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_90486" ref="#person_14828"><forename>David</forename> <surname>Ewes</surname></rs>, junger Journalist <rs type="place" xml:id="pl_19458" ref="#pmb44053">New York</rs>, dem ich ein Interview 
 abgeschlagen; Gespräch.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_90487" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> <rs type="place" xml:id="pl_19459" ref="#place_cf7d8aac11089afe24b5aa7b15232659" ana="#exclude">Wiedner</rs> Th. <rs type="person" xml:id="pNt_90488" ref="#person_16669"><surname>Kalman</surname></rs>, <rs type="work" xml:id="bibl_1197">Veilchen vom Montmartre</rs> ― ziemlich üble 
 Vorstellung.― Mit ihr Weingartl genachtm.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

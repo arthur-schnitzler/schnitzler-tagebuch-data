@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-08-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-08-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-08-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-08-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-08-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-08-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-16E7-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6926.tif"/>
@@ -181,11 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1927-08-13">
-            <p xml:space="preserve"><date when="1927-08-13">13/8</date> <rs type="place" xml:id="pl_17468" ref="#place_75b06df88a6338e51a73fabf2f11c672">Campiglio</rs>. Träume, in denen immer meine schwarze 
+            <p xml:space="preserve"><date when="1927-08-13">13/8</date> <rs type="place" xml:id="pl_17468" ref="#pmb427">Campiglio</rs>. Träume, in denen immer meine schwarze 
 Manuscriptentasche verloren und doch da war.</p>
             <p xml:space="preserve" rend="indent">Spaziergang mit <rs type="person" xml:id="pNt_81432" ref="#person_19832"><forename>O.</forename></rs> und <rs type="person" xml:id="pNt_81433" ref="#person_19822"><forename>Heini</forename></rs>; in mäßigem Befinden.</p>
             <p xml:space="preserve" rend="indent">Mittagessen im Hotel Carlomagno mit <rs type="person" xml:id="pNt_81434" ref="#person_18793"><surname>Pietrkowskis</surname></rs>.―</p>
-            <p xml:space="preserve" rend="indent">― <rs type="work" subtype="self" xml:id="bibl_24614">Tgb.</rs> Eintrag und Brief an <rs type="person" xml:id="pNt_81435" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> nach <rs type="place" xml:id="pl_17469" ref="#place_141b24e5a2073bafa15851d9539646ff">Neudorf bei Wildon</rs>.</p>
+            <p xml:space="preserve" rend="indent">― <rs type="work" subtype="self" xml:id="bibl_24614">Tgb.</rs> Eintrag und Brief an <rs type="person" xml:id="pNt_81435" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> nach <rs type="place" xml:id="pl_17469" ref="#pmb91338">Neudorf bei Wildon</rs>.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_81436" ref="#person_19832"><forename>Olga</forename></rs> in mein Zimmer. Über <rs type="person" xml:id="pNt_81437" ref="#person_14130"><forename>Lili</forename></rs>;― <rs type="place" xml:id="pl_17470" ref="#place_42cfe6c6f6398bc2bdd8b9f8a9df0ef9" ana="#exclude">Venezianer</rs> Ausgaben, allerlei 
 finanzielles. <rs type="person" xml:id="pNt_81438" ref="#person_19832"><forename>O.s</forename></rs> Wunsch zu „verdienen“ und „Sicherheit zu haben“; 
 wie wieder die Antiquitäten- und Spitzenhandel-Ideen; Hoffnung auf <rs type="person" xml:id="pNt_81439" ref="#person_19802"><roleName>Fr.</roleName> 
@@ -198,6 +202,5 @@ Heimatlosigkeit und weint bitterlich. Später gingen wir spazieren.</p>
             <p xml:space="preserve" rend="indent">Nachtm. im Albergo <rs type="person" xml:id="pNt_81443"><surname>Zeledria</surname></rs>, mit <rs type="person" xml:id="pNt_81444" ref="#person_19832"><forename>O.</forename></rs> und <rs type="person" xml:id="pNt_81445" ref="#person_19822"><forename>Heini</forename></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

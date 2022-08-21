@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-08-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-08-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-018E-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3462.tif"/>
@@ -184,10 +188,9 @@
          <div type="diary-day" xml:id="entry__1912-08-20">
             <p xml:space="preserve"><date when="1912-08-20">20/8</date> Bei <rs type="person" xml:id="pNt_38644" ref="#person_17444"><roleName>Dr.</roleName> <surname>Lenz</surname></rs>.― Bad.―</p>
             <p xml:space="preserve" rend="indent">Der alte <rs type="person" xml:id="pNt_38645" ref="#person_16294"><surname>Hofmannsthal</surname></rs> und <rs type="person" xml:id="pNt_38646" ref="#person_16242"><surname>Hochsingers</surname></rs> sind neu angekommen.―</p>
-            <p xml:space="preserve" rend="indent">Nm. Segel, O. und ich mit <rs type="person" xml:id="pNt_38647" ref="#person_21601"><surname>Zuckerkandl</surname></rs>, um <rs type="place" xml:id="pl_08003" ref="#place_8ac85cc83788186b74cc9ca468d300c5">Brioni</rs>, bei hoher See.―</p>
+            <p xml:space="preserve" rend="indent">Nm. Segel, O. und ich mit <rs type="person" xml:id="pNt_38647" ref="#person_21601"><surname>Zuckerkandl</surname></rs>, um <rs type="place" xml:id="pl_08003" ref="#pmb45260">Brioni</rs>, bei hoher See.―</p>
             <p xml:space="preserve" rend="indent">Abends Poker auf <rs type="person" xml:id="pNt_38648" ref="#person_21601"><surname>Zuckerkandls</surname></rs> Terrasse.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

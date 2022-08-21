@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-10-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-10-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-10-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-10-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-10-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-10-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1887-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7172.tif"/>
@@ -185,7 +189,7 @@
 führen mich in ihre Wohnung, sie zeigt mir wieder nettes 
 gemaltes.</p>
             <p xml:space="preserve" rend="indent">― Bei <rs type="person" xml:id="pNt_84874" ref="#person_15854"><forename>Gisa</forename></rs>. Unannehmlichkeiten und mehr auf allen Seiten.―</p>
-            <p xml:space="preserve" rend="indent">Besorgungen. Schlafwagen für <rs type="place" xml:id="pl_18308" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Besorgungen. Schlafwagen für <rs type="place" xml:id="pl_18308" ref="#pmb168">Berlin</rs>.―</p>
             <p xml:space="preserve" rend="indent">― Bei <rs type="person" xml:id="pNt_84875" ref="#person_19827"><forename>Julius</forename></rs> zu Tisch. Gesammte Familie;― <rs type="person" xml:id="pNt_84876" ref="#person_19821"><forename>Hans</forename></rs> und die beiden jungen 
 Ehepaare;― nachher kam auch noch der Enkel <rs type="person" xml:id="pNt_84877" ref="#person_19820"><forename>Georg</forename></rs>; der auf Klavier und 
 andre Töne lebhaft reagirt.―</p>
@@ -196,6 +200,5 @@ die ihr nicht angenehm sind.―</p>
             <p xml:space="preserve" rend="indent">― Abd. mit <rs type="person" xml:id="pNt_84881" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Kino „<rs type="work" xml:id="bibl_19692">Hose</rs>“ (<rs type="person" xml:id="pNt_84882" ref="#person_17120"><forename>Werner</forename> <surname>Krauss</surname></rs>), Linde soup.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-07-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-06-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-07-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-07-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-06-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-07-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-09E8-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4665.tif"/>
@@ -182,12 +186,12 @@
       <body>
          <div type="diary-day" xml:id="entry__1918-07-01">
             <p xml:space="preserve"><date when="1918-07-01">1/7</date> Dict. Briefe, Gespräch.―</p>
-            <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_53624" ref="#person_21528"><roleName>Hofr.</roleName> <surname>Zeiss</surname></rs> im <rs type="place" ref="#place_hammerand">Hammerand</rs> ― er hatte mich gestern vergeblich besucht,― 
+            <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_53624" ref="#person_21528"><roleName>Hofr.</roleName> <surname>Zeiss</surname></rs> im <rs type="place" ref="#pmb92270">Hammerand</rs> ― er hatte mich gestern vergeblich besucht,― 
 mit ihm <rs type="institution" xml:id="pNt_53626"><surname>Landtmann</surname></rs>. Dienstreise her, aber doch auch, weils im B. Th. kriselt. 
 Doch die obern Behörden kümmerten sich nicht um ihn, und scheinen 
-<rs type="person" xml:id="pNt_53627" ref="#person_18168"><surname>Millenkovich</surname></rs> halten zu wollen. Wir redeten über <rs type="place" ref="#place_burgtheater">Burgtheater</rs> u. dergl., 
-die polit. Zustände,― die des <rs type="place" ref="#place_burgtheater">Burgtheater</rs>s ein Abbild ― des polit. 
-<rs type="place" xml:id="pl_11091" ref="#place_b472f5868425ac2bc44e693fc3267e87">Oesterreich</rs> im kleinen.― Zeigte ihm alte Plätze und Häuser. Wir schieden 
+<rs type="person" xml:id="pNt_53627" ref="#person_18168"><surname>Millenkovich</surname></rs> halten zu wollen. Wir redeten über <rs type="place" ref="#pmb14">Burgtheater</rs> u. dergl., 
+die polit. Zustände,― die des <rs type="place" ref="#pmb14">Burgtheater</rs>s ein Abbild ― des polit. 
+<rs type="place" xml:id="pl_11091" ref="#pmb41240">Oesterreich</rs> im kleinen.― Zeigte ihm alte Plätze und Häuser. Wir schieden 
 in gutem Einvernehmen.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_53628" ref="#person_19822"><forename>Heini</forename></rs> <rs type="person" xml:id="pNt_53629" ref="#person_18282"><surname>Mozart</surname></rs> <rs type="work" xml:id="bibl_5676">Qu. VII</rs> <rs type="work" xml:id="bibl_5677">Leonore Ouv. III</rs>.</p>
             <pb n="158"/>
@@ -199,6 +203,5 @@ in gutem Einvernehmen.―</p>
             </tei:fw>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-08-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-08-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-08-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1920-08-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-08-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-08-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0CF3-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5158.tif"/>
@@ -182,17 +186,16 @@
       <body>
          <div type="diary-day" xml:id="entry__1920-08-19">
             <p xml:space="preserve"><date when="1920-08-19">19/8</date> Vm. <rs type="person" xml:id="pNt_59558" ref="#person_17562"><forename>R.</forename> <surname>L.</surname></rs> (die auf meiner Terrasse schlummert). Halbwahrheiten.―</p>
-            <p xml:space="preserve" rend="indent">Nm. Telegr. „Filmautoren“ ― <rs type="work" subtype="self" xml:id="bibl_4235">Anatol</rs> für den Film an <rs type="place" xml:id="pl_12469" ref="#place_e884124295d0c4d07d9bcf5096fd5495">Amerika</rs> um 5000 D. 
+            <p xml:space="preserve" rend="indent">Nm. Telegr. „Filmautoren“ ― <rs type="work" subtype="self" xml:id="bibl_4235">Anatol</rs> für den Film an <rs type="place" xml:id="pl_12469" ref="#pmb43406">Amerika</rs> um 5000 D. 
 verkauft (20% davon Filmautoren) ― Das ist ― rund eine Million! Was hätte 
 das früher bedeutet ― Vermögen! Sorgenlosigkeit für den Rest der 
 Existenz … Heute?― Nach früherem Geldwerth etwa 30.000 Kronen; die Hälfte 
 überdies für Steuer abzuziehn.―</p>
-            <p xml:space="preserve" rend="indent">― Gegen Abend <rs type="person" xml:id="pNt_59559" ref="#person_13285"><roleName>Hr.</roleName> und <roleName>Frau</roleName> <surname>Askonas</surname></rs>, mir über <rs type="place" xml:id="pl_12470" ref="#place_2384804448a53e420c3707bdfb9fb295">Altaussee</rs> berichten.</p>
+            <p xml:space="preserve" rend="indent">― Gegen Abend <rs type="person" xml:id="pNt_59559" ref="#person_13285"><roleName>Hr.</roleName> und <roleName>Frau</roleName> <surname>Askonas</surname></rs>, mir über <rs type="place" xml:id="pl_12470" ref="#pmb90229">Altaussee</rs> berichten.</p>
             <p xml:space="preserve" rend="indent">N. d. N. bei <rs type="person" xml:id="pNt_59560" ref="#person_18672"><roleName>Fr.</roleName> <surname>Patak</surname></rs>, wo ich den <rs type="place" xml:id="pl_12471" ref="#place_affdb3834bd044951faffefcd003b890" ana="#exclude">New Yorker</rs> Rabbiner <rs type="person" xml:id="pNt_59561" ref="#person_17093"><forename>Nathan</forename> <surname>Krass</surname></rs> kennen 
 lerne, der aussieht wie ein amerikanischer Schauspieler.― <rs type="person" xml:id="pNt_59562" ref="#person_16003"><forename>Max</forename> <surname>Hayek</surname></rs>, ein 
 Festgedicht für <rs type="person" xml:id="pNt_59563" ref="#person_18672"><roleName>Frau</roleName> <surname>Patak</surname></rs> vorlesend.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

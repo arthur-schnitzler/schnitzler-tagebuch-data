@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-10-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-10-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-10-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-10-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-10-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-10-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-19FF-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7365.tif"/>
@@ -182,8 +186,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1929-10-13">
-            <p xml:space="preserve"><date when="1929-10-13">13/10</date> S. <rs type="person" xml:id="pNt_87809" ref="#person_19832"><forename>O.</forename></rs> telef. aus <rs type="place" xml:id="pl_18950" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>, wo sie heut früh aus <rs type="place" xml:id="pl_18951" ref="#place_834e1bca2cb7d2238249e70860ed8ae8">Meran</rs> angelangt.</p>
-            <p xml:space="preserve" rend="indent">― Spazieren mit <rs type="person" xml:id="pNt_87810" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> <rs type="place" xml:id="pl_18952" ref="#place_c79ad839f84019f53250a4e6365359f9">Neuwaldegg</rs> Park.―</p>
+            <p xml:space="preserve"><date when="1929-10-13">13/10</date> S. <rs type="person" xml:id="pNt_87809" ref="#person_19832"><forename>O.</forename></rs> telef. aus <rs type="place" xml:id="pl_18950" ref="#pmb168">Berlin</rs>, wo sie heut früh aus <rs type="place" xml:id="pl_18951" ref="#pmb43520">Meran</rs> angelangt.</p>
+            <p xml:space="preserve" rend="indent">― Spazieren mit <rs type="person" xml:id="pNt_87810" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> <rs type="place" xml:id="pl_18952" ref="#pmb170">Neuwaldegg</rs> Park.―</p>
             <p xml:space="preserve" rend="indent">Las das neuerdings corr. Stück von <rs type="person" xml:id="pNt_87811" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_87812" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> zu Tisch.</p>
             <p xml:space="preserve" rend="indent">Abends nachtm. <rs type="person" xml:id="pNt_87813" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> bei mir. Fast zwei Stunden lang wies ich ihr 
@@ -191,6 +195,5 @@ allerlei <rs type="person" xml:id="pNt_87814" ref="#person_17917"><surname>Marli
 alldem ist es nicht unbegabt.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

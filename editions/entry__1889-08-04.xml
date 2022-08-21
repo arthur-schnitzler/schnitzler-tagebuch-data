@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1889-08-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-08-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-08-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1889-08-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-08-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-08-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E18C-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0398.tif"/>
@@ -181,9 +185,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1889-08-04">
-            <p xml:space="preserve"><date when="1889-08-04">Sonntag 4.</date> <rs type="place" xml:id="pl_00800" ref="#place_c2ad928214981e457405589604924059">Ischl</rs> ― Predigtstuhl ― Hütteneck ― <rs type="place" xml:id="pl_00801" ref="#place_07cc35c579844177c6dabfc6b99c1f3d">Goisern</rs> ― <rs type="place" xml:id="pl_00802" ref="#place_c2ad928214981e457405589604924059">Ischl</rs>.</p>
+            <p xml:space="preserve"><date when="1889-08-04">Sonntag 4.</date> <rs type="place" xml:id="pl_00800" ref="#pmb213">Ischl</rs> ― Predigtstuhl ― Hütteneck ― <rs type="place" xml:id="pl_00801" ref="#pmb90731">Goisern</rs> ― <rs type="place" xml:id="pl_00802" ref="#pmb213">Ischl</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

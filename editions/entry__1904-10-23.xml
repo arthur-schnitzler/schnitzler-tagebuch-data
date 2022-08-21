@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-10-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-10-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-10-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-10-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-10-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-10-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F689-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,14 +176,15 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1984.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1904-10-23">
-            <p xml:space="preserve"><date when="1904-10-23">23/10</date> S. Vm. zu Fuss allein Himmel Cobenzl Krapfenwald, <rs type="place" xml:id="pl_04951" ref="#place_431168489e6885d4e91ebc5edec7dfb4">Grinzing</rs>; 
+            <p xml:space="preserve"><date when="1904-10-23">23/10</date> S. Vm. zu Fuss allein Himmel Cobenzl Krapfenwald, <rs type="place" xml:id="pl_04951" ref="#pmb90771">Grinzing</rs>; 
 übers <rs type="work" subtype="self" xml:id="bibl_17376">Aerztestück</rs> nachgedacht.― Nm. Kopfweh; wechselnde Stimmungen 
 mit O.― <rs type="person" xml:id="pNt_21753" ref="#person_19823"><forename>Helene</forename></rs>, <rs type="person" xml:id="pNt_21754"><forename>Annerl</forename></rs>, <rs type="person" xml:id="pNt_21755" ref="#person_20096"><forename>Ellyn</forename></rs>.― An der <rs type="work" subtype="self" xml:id="bibl_17377">N. E.</rs> weiter.―</p>
             <p xml:space="preserve" rend="indent">Abds. <rs type="allusively" xml:id="rst_00474">Mama</rs> (die bald ging), <rs type="person" xml:id="pNt_21756" ref="#person_18320"><forename>Fanny</forename> <surname>M.</surname></rs> und <rs type="person" xml:id="pNt_21757" ref="#person_20925"><forename>Leo</forename> <surname>V.</surname></rs> da.― 
@@ -188,7 +193,8 @@ Viel Musik.―</p>
 Tänzerin</rs>“ mit <rs type="work" subtype="self" xml:id="bibl_17379">Thameyer</rs>, <rs type="work" subtype="self" xml:id="bibl_17380">Excentric</rs> und <rs type="work" subtype="self" xml:id="bibl_17381">Geronimo</rs>.―</p>
             <p xml:space="preserve" rend="indent">― <rs type="person" xml:id="pNt_21759" ref="#person_13913"><surname>Brahm</surname></rs> sagte vor ein paar Monaten sehr gut zu <rs type="person" xml:id="pNt_21760" ref="#person_13374"><surname>Bahr</surname></rs>.― 
 Sch. ist jetzt so ziemlich der beliebteste dramatische Autor in 
-<rs type="place" xml:id="pl_04952" ref="#place_3c2f8b8c8c43538b25a0327ae84c3f65">Deutschland</rs> ― nur seine Stücke mögen die Leute nicht.</p>
+<rs type="place" xml:id="pl_04952" ref="#pmb151">Deutschland</rs> ― nur seine Stücke mögen die Leute nicht.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

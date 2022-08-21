@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1917-01-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-01-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-01-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1917-01-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-01-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-01-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-07CC-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4386.tif"/>
@@ -181,17 +185,16 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1917-01-06">
-            <p xml:space="preserve"><date when="1917-01-06">6/1</date> Traum: auf dem Land etwa <rs type="place" xml:id="pl_10354" ref="#place_a513bae177c89d12226f343ac5ff1ee3">Salmannsdorf</rs> besucht <rs type="person" xml:id="pNt_49620"><roleName>Frau</roleName> <surname>Fischer</surname></rs> die 
+            <p xml:space="preserve"><date when="1917-01-06">6/1</date> Traum: auf dem Land etwa <rs type="place" xml:id="pl_10354" ref="#pmb91641">Salmannsdorf</rs> besucht <rs type="person" xml:id="pNt_49620"><roleName>Frau</roleName> <surname>Fischer</surname></rs> die 
 Orte, wo sie mit ihrem indess verstorbnen Mann verweilt; ich gehe mit 
 einem Herrn, Gemisch von <rs type="person" xml:id="pNt_49621" ref="#person_13683"><surname>Bernstorff</surname></rs> u. a. mit Rucksack vorbei;― sehe 
 weg, um sie nicht zu stören.―</p>
-            <p xml:space="preserve" rend="indent">Spazieren <rs type="place" xml:id="pl_10355" ref="#place_b900112ce988d972bc2d561413e84979">Sophienalpe</rs>.</p>
+            <p xml:space="preserve" rend="indent">Spazieren <rs type="place" xml:id="pl_10355" ref="#pmb92533">Sophienalpe</rs>.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_49622" ref="#person_21600"><forename>Mimi</forename></rs> <rs type="person" xml:id="pNt_49623" ref="#person_13359"><forename>Stephi</forename></rs> zu Tisch;― beide sehr herunter.</p>
             <p xml:space="preserve" rend="indent">Nm. am „<rs type="work" subtype="self" xml:id="bibl_6121">Wahnsinn</rs>“, am <rs type="work" subtype="self" xml:id="bibl_6122">Fldb.</rs>―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_49624" ref="#person_19822"><forename>Heini</forename></rs> <rs type="person" xml:id="pNt_49625" ref="#person_13882"><surname>Borodin</surname></rs> Qu.―</p>
             <p xml:space="preserve" rend="indent">O. über ihre beiden Freundinnen klagend.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-02-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-02-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-02-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-02-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-02-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-02-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1080-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5973.tif"/>
@@ -182,13 +186,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1923-02-14">
-            <p xml:space="preserve"><date when="1923-02-14">14/2</date> Vm. tel. <rs type="person" xml:id="pNt_68595" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs> aus <rs type="place" xml:id="pl_14545" ref="#place_6f4e3516ea738ef16c51614925de4154">Edlach</rs>; ich solle kommen. Vielleicht nächste 
+            <p xml:space="preserve"><date when="1923-02-14">14/2</date> Vm. tel. <rs type="person" xml:id="pNt_68595" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs> aus <rs type="place" xml:id="pl_14545" ref="#pmb470">Edlach</rs>; ich solle kommen. Vielleicht nächste 
 Woche.―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_68596" ref="#person_15854"><forename>Gisa</forename></rs>; sie fährt nach <rs ref="#person_21594" type="person" xml:id="pNt_68597"><surname>Breitenstein</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_68598" ref="#person_16301"><roleName>Dr.</roleName> <surname>Hohenberg</surname></rs>, wegen der <rs type="place" xml:id="pl_14546" ref="#place_9c0a7e635ebd24c54a98e0e2eb62a5fe" ana="#exclude">schwed.</rs> Vortragsreise.―</p>
             <p xml:space="preserve" rend="indent">― <rs type="person" xml:id="pNt_68599" ref="#person_16735"><roleName>Dr.</roleName> <surname>Karolyi</surname></rs>, der sich (mit Recht) auf seine Behandlung meiner 
 Zähne was zu gute thut.―</p>
-            <p xml:space="preserve" rend="indent">Bei der <rs type="allusively" xml:id="rst_01985">Hofrätin</rs>. Meine <rs type="place" xml:id="pl_14547" ref="#place_55c76de3045e4a0a1e0b4506c5e2d403" ana="#exclude">französ.</rs> Angelegenheiten (für <rs type="place" xml:id="pl_14548" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs>).― <rs type="person" xml:id="pNt_68600" ref="#person_13272"><roleName>Dr.</roleName> 
+            <p xml:space="preserve" rend="indent">Bei der <rs type="allusively" xml:id="rst_01985">Hofrätin</rs>. Meine <rs type="place" xml:id="pl_14547" ref="#place_55c76de3045e4a0a1e0b4506c5e2d403" ana="#exclude">französ.</rs> Angelegenheiten (für <rs type="place" xml:id="pl_14548" ref="#pmb182">Paris</rs>).― <rs type="person" xml:id="pNt_68600" ref="#person_13272"><roleName>Dr.</roleName> 
 <surname>Asch</surname></rs> kam; über die nationalsozialistischen Pogromistischen Plakate. 
 Über den Antisemitismus im allgemeinen. Ich nenne ihn den genialsten 
 Einfall, den die menschliche Gemeinheit je gehabt hat.―</p>
@@ -197,6 +201,5 @@ Einfall, den die menschliche Gemeinheit je gehabt hat.―</p>
 Riecht nicht sehr nach Entwicklung. Die ersten Bilder versprechen was.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

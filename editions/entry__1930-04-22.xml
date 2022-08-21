@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-04-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-04-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-04-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-04-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-04-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-04-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1ABE-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,15 +177,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7472.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1930-04-22">
-            <p xml:space="preserve"><date when="1930-04-22">22/4</date> Tel. mit <rs type="person" xml:id="pNt_89492" ref="#person_18137"><forename>Dora</forename></rs> (<rs type="place" xml:id="pl_19181" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>). <rs type="person" xml:id="pNt_89493" ref="#person_19832"><forename>O.</forename></rs> will wie es scheint wegen <rs type="person" xml:id="pNt_89494" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> nicht 
-<rs type="place" xml:id="pl_19182" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> kommen ― als wäre mein Zögern auf sie zurückzuführen ―</p>
+            <p xml:space="preserve"><date when="1930-04-22">22/4</date> Tel. mit <rs type="person" xml:id="pNt_89492" ref="#person_18137"><forename>Dora</forename></rs> (<rs type="place" xml:id="pl_19181" ref="#pmb168">Berlin</rs>). <rs type="person" xml:id="pNt_89493" ref="#person_19832"><forename>O.</forename></rs> will wie es scheint wegen <rs type="person" xml:id="pNt_89494" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> nicht 
+<rs type="place" xml:id="pl_19182" ref="#pmb50">Wien</rs> kommen ― als wäre mein Zögern auf sie zurückzuführen ―</p>
             <p xml:space="preserve" rend="indent">Besorgungen in der Stadt ―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_89495" ref="#person_19986"><forename>Gustav</forename></rs>.</p>
             <p xml:space="preserve" rend="indent">Zu Tisch bei <rs type="person" xml:id="pNt_89496"><forename>Ferry</forename></rs> und <rs type="person" xml:id="pNt_89497"><forename>Annie</forename></rs>; brachte <rs type="person" xml:id="pNt_89498" ref="#person_14485"><forename>Trude</forename></rs>, die dieser Tage ein Jahr alt 
@@ -189,5 +194,6 @@ wird, eine Trommel, eine Trompete, ein Xylophon, einen Hampelmann mit.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_89499"><forename>Ferry</forename></rs> in die Herzstation. Druck 145.</p>
             <p xml:space="preserve" rend="indent">Den Abend allein zu Hause. Bilanz.― Kurzer Spaziergang.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

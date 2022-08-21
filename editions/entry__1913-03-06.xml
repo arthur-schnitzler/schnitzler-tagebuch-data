@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-03-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-03-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-03-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-03-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-03-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-03-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0254-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3579.tif"/>
@@ -185,7 +189,7 @@
             <p xml:space="preserve" rend="indent">Dictirt „<rs type="work" subtype="self" xml:id="bibl_9350">Wahnsinnig</rs>“ und „<rs type="work" subtype="self" xml:id="bibl_9351">Ormin</rs>“.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_40242" ref="#person_19827"><forename>Julius</forename></rs>, wegen <rs type="person" xml:id="pNt_40243" ref="#person_19822"><forename>Heini</forename></rs>. Er räth unbedingt zu Operation.― (<rs type="person" xml:id="pNt_40244" ref="#person_19822"><forename>Heini</forename></rs> sehr 
 wohl.)</p>
-            <p xml:space="preserve" rend="indent">Nm. mit O. nach <rs type="place" xml:id="pl_08172" ref="#place_6fc6f10422bfe80ddcba23b4f7f080dc">Hietzing</rs> zu <rs type="person" xml:id="pNt_40245" ref="#person_20796"><surname>Trebitsch’s</surname></rs>.―</p>
+            <p xml:space="preserve" rend="indent">Nm. mit O. nach <rs type="place" xml:id="pl_08172" ref="#pmb63">Hietzing</rs> zu <rs type="person" xml:id="pNt_40245" ref="#person_20796"><surname>Trebitsch’s</surname></rs>.―</p>
             <pb n="23"/>
             <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header">
                <fw place="top_center">
@@ -198,6 +202,5 @@ Aber seine Hypoch. immer mehr Psychose.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_40247" ref="#person_20796"><surname>Tr.</surname></rs> im gelben Auto Stadt; Besorgungen mit O.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

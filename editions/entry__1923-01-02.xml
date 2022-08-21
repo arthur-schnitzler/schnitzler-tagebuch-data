@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-01-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-01-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-01-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-01-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-01-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-01-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1055-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5938.tif"/>
@@ -183,12 +187,12 @@
       <body>
          <div type="diary-day" xml:id="entry__1923-01-02">
             <p xml:space="preserve"><date when="1923-01-02">2/1</date> Traum: ich rutsche oder rodle eine mäßig beschneite Straße aufwärts, 
-sehr rasch, im Gebirge, etwa <rs type="place" xml:id="pl_14472" ref="#place_4f0b5b77cda73de6bc9eb5ac7a6d435f" ana="#exclude">Heiligenkreuzer</rs> Gegend ― oder <rs type="place" xml:id="pl_14473" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs>;― mir 
+sehr rasch, im Gebirge, etwa <rs type="place" xml:id="pl_14472" ref="#place_4f0b5b77cda73de6bc9eb5ac7a6d435f" ana="#exclude">Heiligenkreuzer</rs> Gegend ― oder <rs type="place" xml:id="pl_14473" ref="#pmb91735">Semmering</rs>;― mir 
 entgegen ein ältrer Herr, etwa Professor, der im vorbei fahren mir eine Art 
 Warnung wegen meines schnellen Fahrens zuruft ― bin oben, jetzt kommt bald 
 die Straße, die ich einbiegen muß, zum „Rabenstein“ (was im Traum 
-keineswegs die funeste Bedeutung hat, sondern irgendwie mit <rs type="place" xml:id="pl_14474" ref="#place_361000b73d3947c615f058769b32865c">Steinriegl</rs> 
-(<rs type="place" xml:id="pl_14475" ref="#place_b900112ce988d972bc2d561413e84979">Sofienalpe</rs>) oder dem Bärenwirtshaus am <rs type="place" xml:id="pl_14476" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs> zusammenhängt). (Der 
+keineswegs die funeste Bedeutung hat, sondern irgendwie mit <rs type="place" xml:id="pl_14474" ref="#pmb49210">Steinriegl</rs> 
+(<rs type="place" xml:id="pl_14475" ref="#pmb92533">Sofienalpe</rs>) oder dem Bärenwirtshaus am <rs type="place" xml:id="pl_14476" ref="#pmb91735">Semmering</rs> zusammenhängt). (Der 
 Rabenstein vielleicht unbewußte Association mit der Allee von Gehenkten 
 (Maskenleihanstalt in der <rs type="work" subtype="self" xml:id="bibl_1541">Novelle</rs>) ― oder dem s.z. Tanzmeister <rs type="person" xml:id="pNt_68262" ref="#person_19018"><surname>Rabensteiner</surname></rs> 
 (den ich neulich von Tanzschulen sprechend bei <rs type="person" xml:id="pNt_68263" ref="#person_19542"><surname>Salten</surname></rs> zu erwähnen 
@@ -204,6 +208,5 @@ Bemerkungen.―</p>
 sehr schlechte Laune besserte sich.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

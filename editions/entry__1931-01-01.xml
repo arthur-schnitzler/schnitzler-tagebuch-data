@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-01-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-12-31.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-01-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1931-01-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-12-31.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-01-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1BBC-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7621.tif"/>
@@ -183,9 +187,9 @@
       <body>
          <div type="diary-day" xml:id="entry__1931-01-01">
             <p xml:space="preserve"><date when="1931-01-01">1/1</date> Nach ununterbrochnem 6std. Schlaf um 8 erwacht.―</p>
-            <p xml:space="preserve" rend="indent">Tel. mit <rs type="person" xml:id="pNt_91760" ref="#person_19832"><forename>O.</forename></rs> (<rs type="place" xml:id="pl_19692" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>), mit <rs type="person" xml:id="pNt_91761" ref="#person_18137"><forename>Dora</forename></rs> (<rs type="place" xml:id="pl_19693" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>).― Mit <rs type="person" xml:id="pNt_91762"><forename>Ferry</forename></rs>. (<rs type="person" xml:id="pNt_91763" ref="#person_13169"><roleName>Frau</roleName> <surname>Altmann</surname></rs>, <rs type="person" xml:id="pNt_91764"><forename>Helenens</forename></rs> 
+            <p xml:space="preserve" rend="indent">Tel. mit <rs type="person" xml:id="pNt_91760" ref="#person_19832"><forename>O.</forename></rs> (<rs type="place" xml:id="pl_19692" ref="#pmb168">Berlin</rs>), mit <rs type="person" xml:id="pNt_91761" ref="#person_18137"><forename>Dora</forename></rs> (<rs type="place" xml:id="pl_19693" ref="#pmb168">Berlin</rs>).― Mit <rs type="person" xml:id="pNt_91762"><forename>Ferry</forename></rs>. (<rs type="person" xml:id="pNt_91763" ref="#person_13169"><roleName>Frau</roleName> <surname>Altmann</surname></rs>, <rs type="person" xml:id="pNt_91764"><forename>Helenens</forename></rs> 
 Mutter gestern Abend gestorben.―) ― Mit <rs type="person" xml:id="pNt_91765" ref="#person_14234"><forename>Suz.</forename></rs> (die Zahnschmerzen von 
-gestern ziemlich geschwunden).― Mit <rs type="person" xml:id="pNt_91766" ref="#person_15854"><forename>Gisa</forename></rs> (die verfrüht aus <rs type="place" xml:id="pl_19694" ref="#place_9a43e84f6e1d406076f2372205804f6d">Baden</rs> zurück).― 
+gestern ziemlich geschwunden).― Mit <rs type="person" xml:id="pNt_91766" ref="#person_15854"><forename>Gisa</forename></rs> (die verfrüht aus <rs type="place" xml:id="pl_19694" ref="#pmb662">Baden</rs> zurück).― 
 Mit <rs type="person" xml:id="pNt_91767" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>― Mit <rs type="person" xml:id="pNt_91768" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs>―</p>
             <p xml:space="preserve" rend="indent">Das Radio noch hier, höre Orgel.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_91769" ref="#person_21594"><roleName>Hofr.</roleName> <surname>Z.</surname></rs> teleph.; über Gaunereien und Erpressungen auf Tonfilm- und andern 
@@ -209,6 +213,5 @@ Von unerträglicher Saftlosigkeit, schematische Einstellung ― dabei in
 gewissem Sinn virtuos.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

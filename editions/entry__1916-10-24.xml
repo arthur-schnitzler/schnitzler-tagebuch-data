@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1916-10-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-10-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-10-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1916-10-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-10-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-10-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0782-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,14 +177,15 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4343.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1916-10-24">
-            <p xml:space="preserve"><date when="1916-10-24">24/10</date> Bei <rs type="person" xml:id="pNt_49014" ref="#person_19986"><forename>Gustav</forename></rs>, wo <rs type="person" xml:id="pNt_49015" ref="#person_13551"><forename>Richard</forename></rs>, aus <rs type="place" xml:id="pl_10253" ref="#place_c38ad36647aca0261d667c432a4866bd">Salzburg</rs> kürzlich zurück, hat 
+            <p xml:space="preserve"><date when="1916-10-24">24/10</date> Bei <rs type="person" xml:id="pNt_49014" ref="#person_19986"><forename>Gustav</forename></rs>, wo <rs type="person" xml:id="pNt_49015" ref="#person_13551"><forename>Richard</forename></rs>, aus <rs type="place" xml:id="pl_10253" ref="#pmb91649">Salzburg</rs> kürzlich zurück, hat 
 gearbeitet. Seine Zumutung an <rs type="person" xml:id="pNt_49016" ref="#person_19154"><surname>Reinhardt</surname></rs>, <rs type="work" xml:id="bibl_7661">Jacobs Traum</rs> nicht öfter als 
 10-15 Mal zu geben, damit er für die Tetralogie verhältnismäßig neu 
 bleibe. Kommt natürlich nie dazu, selbst wenn <rs type="person" xml:id="pNt_49017"><surname>R.</surname></rs> drauf einginge;― er 
@@ -191,5 +196,6 @@ komischesten Prozess führen, den ein Autor je angestrengt.―</p>
 Sache (innerlich) auf.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_49023" ref="#person_19822"><forename>Heini</forename></rs> Quartett <rs type="person" xml:id="pNt_49024" ref="#person_19351"><surname>Rosé</surname></rs>.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

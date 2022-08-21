@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-05-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-05-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-05-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-05-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-05-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-05-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F5E2-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1916.tif"/>
@@ -180,11 +184,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1904-05-09">
-            <p xml:space="preserve"><date when="1904-05-09">9/5</date> <rs type="place" xml:id="pl_04703" ref="#place_8b6f0975edbb61684a14fc0b1891e1b1">Neapel</rs>. Museo nazionale.― Hotel Lunch.― <rs type="person" xml:id="pNt_21058" ref="#person_15612"><surname>Graeser</surname></rs>, krank, nicht 
-gesprochen.― Spazierfahrt <rs type="place" xml:id="pl_04704" ref="#place_a89d7e4e24c37b18add1ddba6cc4f827">Martino</rs> ― <rs type="place" xml:id="pl_04705" ref="#place_66359f796c1cf700b323b89204eae592">Posilippo</rs> mit wundervollen Ausblicken. 
+            <p xml:space="preserve"><date when="1904-05-09">9/5</date> <rs type="place" xml:id="pl_04703" ref="#pmb91330">Neapel</rs>. Museo nazionale.― Hotel Lunch.― <rs type="person" xml:id="pNt_21058" ref="#person_15612"><surname>Graeser</surname></rs>, krank, nicht 
+gesprochen.― Spazierfahrt <rs type="place" xml:id="pl_04704" ref="#pmb44311">Martino</rs> ― <rs type="place" xml:id="pl_04705" ref="#pmb91516">Posilippo</rs> mit wundervollen Ausblicken. 
 Unheimlich, da es im Einsamen dunkelte.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

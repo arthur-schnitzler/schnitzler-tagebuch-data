@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-08-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-08-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-08-31.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-08-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-08-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-08-31.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-158B-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6713.tif"/>
@@ -182,12 +186,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1926-08-30">
-            <p xml:space="preserve"><date when="1926-08-30">30/8</date> <rs type="place" xml:id="pl_16862" ref="#place_952de13cf4facaec2d572cfbd0a50b74">Grindelwald</rs>. Frühgespräch mit <rs type="person" xml:id="pNt_78439" ref="#person_18137"><forename>Dora</forename></rs> ― finanzielles, literarisches persönliches.</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_78440"><surname>M.s</surname></rs> nach <rs type="place" xml:id="pl_16863" ref="#place_1ade408a5b1108820d09976d0fc407ef">Scheidegg</rs> ― über <rs type="place" xml:id="pl_16864" ref="#place_b12c5dcd91fc186f23b61ea9d8d9427a">Wengen</rs>, <rs type="place" xml:id="pl_16865" ref="#place_906e621d0a453fe7be4c326293881c73">Interlaken</rs>. Wunderbare 
-Spätsommertage. Abschied von <rs type="person" xml:id="pNt_78441"><surname>M.’s</surname></rs>, die nach <rs type="place" xml:id="pl_16866" ref="#place_b2b63e0ca85f8b6eb5d35ae8497d559a">Stresa</rs>, <rs type="place" xml:id="pl_16867" ref="#place_241030ffac0efb4f7cb1f0bbee3cba66">Florenz</rs>, <rs type="place" xml:id="pl_16868" ref="#place_e4d4b19346747823e5636ed1238a7521">Venedig</rs> fahren.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_16869" ref="#place_906e621d0a453fe7be4c326293881c73">Interlaken</rs>. <rs type="person" xml:id="pNt_78442" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Spaziergang. Im freien genachtm.</p>
+            <p xml:space="preserve"><date when="1926-08-30">30/8</date> <rs type="place" xml:id="pl_16862" ref="#pmb90769">Grindelwald</rs>. Frühgespräch mit <rs type="person" xml:id="pNt_78439" ref="#person_18137"><forename>Dora</forename></rs> ― finanzielles, literarisches persönliches.</p>
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_78440"><surname>M.s</surname></rs> nach <rs type="place" xml:id="pl_16863" ref="#pmb91679">Scheidegg</rs> ― über <rs type="place" xml:id="pl_16864" ref="#pmb92075">Wengen</rs>, <rs type="place" xml:id="pl_16865" ref="#pmb916">Interlaken</rs>. Wunderbare 
+Spätsommertage. Abschied von <rs type="person" xml:id="pNt_78441"><surname>M.’s</surname></rs>, die nach <rs type="place" xml:id="pl_16866" ref="#pmb91850">Stresa</rs>, <rs type="place" xml:id="pl_16867" ref="#pmb263">Florenz</rs>, <rs type="place" xml:id="pl_16868" ref="#pmb462">Venedig</rs> fahren.―</p>
+            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_16869" ref="#pmb916">Interlaken</rs>. <rs type="person" xml:id="pNt_78442" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Spaziergang. Im freien genachtm.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

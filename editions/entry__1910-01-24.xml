@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-01-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-01-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-01-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-01-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-01-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-01-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FDE3-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2836.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1910-01-24">
-            <p xml:space="preserve"><date when="1910-01-24">24/1</date> Ankunft <rs type="place" xml:id="pl_06928" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.― Glatteis. Wagen konnte nicht hinauf. Der Bub, 
+            <p xml:space="preserve"><date when="1910-01-24">24/1</date> Ankunft <rs type="place" xml:id="pl_06928" ref="#pmb50">Wien</rs>.― Glatteis. Wagen konnte nicht hinauf. Der Bub, 
 mit <rs type="person" xml:id="pNt_31856" ref="#person_20700"><forename>Therese</forename></rs> eben in die Schule gehend. <rs type="person" xml:id="pNt_31857" ref="#person_14130"><forename>Lili</forename></rs> wohl und dick.</p>
             <p xml:space="preserve" rend="indent">― Dampfbad. In der Stadt <rs type="person" xml:id="pNt_31858" ref="#person_20490"><forename>Oscar</forename> <surname>Straus</surname></rs>, <rs type="person" xml:id="pNt_31859" ref="#person_14472"><surname>Dörmann</surname></rs> ― sowie <rs type="person" xml:id="pNt_31860" ref="#person_15354"><roleName>Dr.</roleName> 
 <surname>Gassner</surname></rs> gesprochen.―</p>
@@ -189,6 +193,5 @@ mit <rs type="person" xml:id="pNt_31856" ref="#person_20700"><forename>Therese</
             <p xml:space="preserve" rend="indent">Mit O. Oper, <rs type="person" xml:id="pNt_31861" ref="#person_13754"><surname>Bittner</surname></rs>, „<rs type="work" xml:id="bibl_11483">Die rothe Gred</rs>“.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

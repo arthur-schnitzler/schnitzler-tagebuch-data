@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-03-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-03-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-03-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-03-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-03-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-03-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F723-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2059.tif"/>
@@ -183,11 +187,11 @@
             <p xml:space="preserve"><date when="1905-03-27">27/3</date> Vm. dictirt (altes Zeug).</p>
             <p xml:space="preserve" rend="indent">Nm. mit O. und <rs ref="#person_20523" type="person" xml:id="pNt_22652"><forename>Annie</forename> <surname>S.</surname></rs> Tennisplatz, erkundigen.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_22653" ref="#person_14874"><forename>Fred</forename> <surname>Fakler</surname></rs> bei mir, hatte mir einen Artikel über <rs type="person" xml:id="pNt_22654" ref="#person_17219"><surname>Kussl</surname></rs> gesandt (der 
-in <rs type="place" xml:id="pl_05130" ref="#place_ca7668a05b2a3dbf29ca3d768c0febe8">Graz</rs> seine Geliebte ermordet), damit ich bei <rs type="person" xml:id="pNt_22655" ref="#person_15919"><surname>Harden</surname></rs> (<rs type="work" subtype="newspaper" xml:id="bibl_15600">Zukunft</rs>) 
+in <rs type="place" xml:id="pl_05130" ref="#pmb90759">Graz</rs> seine Geliebte ermordet), damit ich bei <rs type="person" xml:id="pNt_22655" ref="#person_15919"><surname>Harden</surname></rs> (<rs type="work" subtype="newspaper" xml:id="bibl_15600">Zukunft</rs>) 
 intervenire.― Ich stellte ihm vor, dass er mit diesem Artikel <rs type="person" xml:id="pNt_22656" ref="#person_17219"><surname>Kussl</surname></rs> 
 eher schaden würde, was er einsah ― Er erzählte mir einiges 
 interessante. Blick in das verseuchte Lieutenantsleben. Dann wie <rs type="person" xml:id="pNt_22657" ref="#person_17219"><surname>K.</surname></rs> 
-nach <rs type="place" xml:id="pl_05131" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> gekommen (vor dem Mord) bei ― <rs type="person" xml:id="pNt_22658" ref="#person_13162"><surname>Altenberg</surname></rs> „Verständnis und 
+nach <rs type="place" xml:id="pl_05131" ref="#pmb50">Wien</rs> gekommen (vor dem Mord) bei ― <rs type="person" xml:id="pNt_22658" ref="#person_13162"><surname>Altenberg</surname></rs> „Verständnis und 
 Hilfe finden“ ― und das jämmerliche Benehmen <rs type="person" xml:id="pNt_22659" ref="#person_13162"><forename>P.</forename> <surname>A.s</surname></rs>.― (Jetzt wirft 
 Herr <rs type="person" xml:id="pNt_22660" ref="#person_13162"><forename>P.</forename> <surname>A.</surname></rs> dem <rs type="person" xml:id="pNt_22661" ref="#person_17219"><surname>Kussl</surname></rs> vor, dass er ― ein <hi xmlns:tei="http://www.tei-c.org/ns/1.0" rend="italicised">schönes</hi> Mädchen 
 ermordet … wenn sie häßlich gewesen wäre, dann hätte ers 
@@ -196,6 +200,5 @@ Verlogenheit und Bequemlichkeit.) ―</p>
             <p xml:space="preserve" rend="indent">Am <rs type="work" subtype="self" xml:id="bibl_15601">Stück</rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

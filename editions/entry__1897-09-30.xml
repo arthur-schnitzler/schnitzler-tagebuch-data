@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1897-09-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-09-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-10-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1897-09-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-09-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-10-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-ECF0-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,14 +177,15 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1379.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1897-09-30">
-            <p xml:space="preserve"><date when="1897-09-30">30/9</date> <rs type="place" xml:id="pl_02751" ref="#place_f0ef1fe3f949f690ba52cff060d5229f">M.</rs> Tiefe Zärtlichkeit für <rs type="person" xml:id="pNt_14464" ref="#person_15485"><forename>Mz.</forename></rs>― Heut morgen Brief von <rs type="person" xml:id="pNt_14465" ref="#person_15178"><surname>Y.</surname></rs>― Nach 
+            <p xml:space="preserve"><date when="1897-09-30">30/9</date> <rs type="place" xml:id="pl_02751" ref="#pmb91217">M.</rs> Tiefe Zärtlichkeit für <rs type="person" xml:id="pNt_14464" ref="#person_15485"><forename>Mz.</forename></rs>― Heut morgen Brief von <rs type="person" xml:id="pNt_14465" ref="#person_15178"><surname>Y.</surname></rs>― Nach 
 dem Tod des Kindes hatte ich tiefe Empfindung eines Zusammenhanges 
 zwischen dem Tod des Kindes und meinem Mangel an Interesse für das 
 Kind vor der Geburt.― Nm. <rs type="person" xml:id="pNt_14466" ref="#person_15485"><forename>Mz. I</forename></rs> bei mir. Abd. im „<rs type="work" xml:id="bibl_21694">Lear</rs>“ <rs type="person" xml:id="pNt_14467" ref="#person_21506"><surname>Zacconi</surname></rs>. 
@@ -193,5 +198,6 @@ Tod ist ein Element, gegen das sich nichts sagen läßt.―) <rs type="person" x
 für die „<rs type="work" subtype="newspaper" xml:id="bibl_21695">Welt</rs>“.― Ekel.―</p>
             <p xml:space="preserve" rend="center">October</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

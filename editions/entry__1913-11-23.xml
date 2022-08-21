@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-11-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-11-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-11-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-11-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-11-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-11-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-035A-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3726.tif"/>
@@ -181,14 +185,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1913-11-23">
-            <p xml:space="preserve"><date when="1913-11-23">23/11</date> S. Mit O. und <rs type="person" xml:id="pNt_42103" ref="#person_13359"><forename>Stephi</forename></rs> von <rs type="place" xml:id="pl_08531" ref="#place_a513bae177c89d12226f343ac5ff1ee3">Salmannsdorf</rs> über Hameau <rs type="place" xml:id="pl_08532" ref="#place_b900112ce988d972bc2d561413e84979">Sophienalpe</rs>, 
-Rieglerhütte ― <rs type="place" xml:id="pl_08533" ref="#place_318e051b87a18bd62b48dc49a3318206">Hütteldorf</rs>.―</p>
+            <p xml:space="preserve"><date when="1913-11-23">23/11</date> S. Mit O. und <rs type="person" xml:id="pNt_42103" ref="#person_13359"><forename>Stephi</forename></rs> von <rs type="place" xml:id="pl_08531" ref="#pmb91641">Salmannsdorf</rs> über Hameau <rs type="place" xml:id="pl_08532" ref="#pmb92533">Sophienalpe</rs>, 
+Rieglerhütte ― <rs type="place" xml:id="pl_08533" ref="#pmb90913">Hütteldorf</rs>.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_42104" ref="#person_13359"><forename>Stephi</forename></rs> Mittags bei uns.― Vor 1 Jahr starb ihr Vater.― Familienzustände.― 
 <rs type="person" xml:id="pNt_42105" ref="#person_21600"><forename>Mimi</forename></rs> ― <rs type="person" xml:id="pNt_42106" ref="#person_20532"><surname>Stringa</surname></rs>, <rs type="person" xml:id="pNt_42107" ref="#person_13359"><forename>Stephi</forename></rs> ― <rs type="person" xml:id="pNt_42108" ref="#person_18548"><surname>Olden</surname></rs>.― Beide „die ärmsten Teufel, die’s 
 überhaupt gibt“.―</p>
             <p xml:space="preserve" rend="indent">Nm. mit der „<rs type="work" subtype="self" xml:id="bibl_9762">Novelle</rs>“ und <rs type="work" subtype="self" xml:id="bibl_9763">Fink</rs> beschäftigt.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

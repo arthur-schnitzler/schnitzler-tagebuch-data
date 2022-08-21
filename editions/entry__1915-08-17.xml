@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-08-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-08-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-08-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1915-08-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-08-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-08-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-05D0-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4086.tif"/>
@@ -181,14 +185,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1915-08-17">
-            <p xml:space="preserve"><date when="1915-08-17">17/8</date> Mit O. <rs type="person" xml:id="pNt_46156" ref="#person_21600"><forename>Mimi</forename></rs> <rs type="person" xml:id="pNt_46157" ref="#person_19822"><forename>Heini</forename></rs> <rs type="place" xml:id="pl_09522" ref="#place_50fce40d86c3084224109d978bdf526c">St. Gilgen</rs>. (Lueg.) ―</p>
-            <p xml:space="preserve" rend="indent">― Dort mit <rs type="person" xml:id="pNt_46158" ref="#person_19542"><surname>Saltens</surname></rs> und <rs type="person" xml:id="pNt_46159" ref="#person_21461"><forename>Jul. Ferd.</forename> <surname>Wollfs</surname></rs> (aus <rs type="place" xml:id="pl_09523" ref="#place_7af648bdb537c8e802b17da1c2304d2e">Unterach</rs> kommend) Mittag 
-gegessen.― Nach <rs type="place" xml:id="pl_09524" ref="#place_c2ad928214981e457405589604924059">Ischl</rs> zurück.</p>
+            <p xml:space="preserve"><date when="1915-08-17">17/8</date> Mit O. <rs type="person" xml:id="pNt_46156" ref="#person_21600"><forename>Mimi</forename></rs> <rs type="person" xml:id="pNt_46157" ref="#person_19822"><forename>Heini</forename></rs> <rs type="place" xml:id="pl_09522" ref="#pmb33">St. Gilgen</rs>. (Lueg.) ―</p>
+            <p xml:space="preserve" rend="indent">― Dort mit <rs type="person" xml:id="pNt_46158" ref="#person_19542"><surname>Saltens</surname></rs> und <rs type="person" xml:id="pNt_46159" ref="#person_21461"><forename>Jul. Ferd.</forename> <surname>Wollfs</surname></rs> (aus <rs type="place" xml:id="pl_09523" ref="#pmb91973">Unterach</rs> kommend) Mittag 
+gegessen.― Nach <rs type="place" xml:id="pl_09524" ref="#pmb213">Ischl</rs> zurück.</p>
             <p xml:space="preserve" rend="indent">Spazieren allein.―</p>
             <p xml:space="preserve" rend="indent"><rs xml:id="pNt_46160" type="place" ref="#pmb40450">Sonnenschein</rs> genachtm. mit <rs type="person" xml:id="pNt_46161" ref="#person_13551"><surname>B. H.s</surname></rs> und <rs ref="#person_16770" type="person" xml:id="pNt_46162"><surname>Kfm</surname></rs>.― Musik von draußen beim 
 Kurhaus.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

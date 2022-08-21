@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-02-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-02-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-02-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-02-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-02-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-02-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0F18-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5654.tif"/>
@@ -182,15 +186,15 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1922-02-19">
-            <p xml:space="preserve"><date when="1922-02-19">19/2</date> S. Spaziergang im Schnee <rs type="place" xml:id="pl_13670" ref="#place_431168489e6885d4e91ebc5edec7dfb4">Grinzing</rs> ― Cobenzl (<rs type="person" xml:id="pNt_65289" ref="#person_16852"><surname>Kirsch</surname></rs> und <rs type="person" xml:id="pNt_65290" ref="#person_16852"><forename>Hansi</forename></rs> 
+            <p xml:space="preserve"><date when="1922-02-19">19/2</date> S. Spaziergang im Schnee <rs type="place" xml:id="pl_13670" ref="#pmb90771">Grinzing</rs> ― Cobenzl (<rs type="person" xml:id="pNt_65289" ref="#person_16852"><surname>Kirsch</surname></rs> und <rs type="person" xml:id="pNt_65290" ref="#person_16852"><forename>Hansi</forename></rs> 
 Skilaufend;― <rs type="person" xml:id="pNt_65291" ref="#person_16159"><surname>Herzka</surname></rs> als Filmregisseur, die Sonne erwartend; ein 
 blasser Milliardär nähert sich, es ist der geschminkte <rs type="person" xml:id="pNt_65292" ref="#person_14715"><roleName>Herr</roleName> <surname>Elfeld</surname></rs>) und 
 zurück.</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_65293"><forename>Richard</forename></rs> bei mir, in seiner Filmangelegenheit.</p>
             <p xml:space="preserve" rend="indent">Zum Thee die Collegen <rs type="person" xml:id="pNt_65294" ref="#person_19822"><forename>Heinis</forename></rs>, <rs type="person" xml:id="pNt_65295"><roleName>Hr.</roleName> <roleName>Frau</roleName> <surname>Schwarz</surname></rs>; in Sachen der 
 Wanderbühne.―</p>
-            <p xml:space="preserve" rend="indent">Dr. <rs type="person" xml:id="pNt_65296" ref="#person_18885"><forename>Joh.</forename> <surname>Pollak</surname></rs>; der Studiencollege von einst, nach <rs type="place" xml:id="pl_13671" ref="#place_d52387880e1ea22817a72d3759213819">Java</rs> pensionirt, 
-in <rs type="place" xml:id="pl_13672" ref="#place_1d4660e0a445b02912a96b0ac4fe036a">Haag</rs> lebend. Jugenderinnerungen. Erkundigungen bei ihm wegen 
+            <p xml:space="preserve" rend="indent">Dr. <rs type="person" xml:id="pNt_65296" ref="#person_18885"><forename>Joh.</forename> <surname>Pollak</surname></rs>; der Studiencollege von einst, nach <rs type="place" xml:id="pl_13671" ref="#pmb90952">Java</rs> pensionirt, 
+in <rs type="place" xml:id="pl_13672" ref="#pmb58810">Haag</rs> lebend. Jugenderinnerungen. Erkundigungen bei ihm wegen 
 meiner <rs type="place" xml:id="pl_13673" ref="#place_1423210b9d028fab453b7b656a2d6775" ana="#exclude">holländ.</rs> Reise. Seine Ehe.―</p>
             <p xml:space="preserve" rend="indent">Z. N. <rs type="person" xml:id="pNt_65297" ref="#person_20238"><surname>Specht</surname></rs> und Frau. Für sein Buch sehn wir alte <rs type="work" xml:id="bibl_2354">Märchenkritiken</rs> 
 durch.― Er findet dann plötzlich, dass <rs type="figur"><forename>Georg</forename> <surname>Wergenthin</surname></rs> (<rs type="work" subtype="self" xml:id="bibl_2355">Weg ins 
@@ -207,6 +211,5 @@ interessire, sie ihm, dass sie nicht eingeladen werden, sie sich
 langweile u. s. w.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

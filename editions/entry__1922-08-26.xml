@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-08-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-08-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-08-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-08-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-08-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-08-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0FD4-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5811.tif"/>
@@ -181,10 +185,11 @@
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5813.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5814.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1922-08-26">
-            <p xml:space="preserve"><date when="1922-08-26">26/8</date> <rs type="place" xml:id="pl_14192" ref="#place_10610ec60fcdfbccb325e1eec16a82ad">Berchtesgaden</rs>. Öfters unterbrochner unruhiger Schlaf (wie jetzt meist). 
-Traum: Auf Reisen in einem Hotel am ehesten <rs type="place" xml:id="pl_14193" ref="#place_10610ec60fcdfbccb325e1eec16a82ad">Berchtesg.</rs>, mit <rs type="person" xml:id="pNt_67056" ref="#person_19832"><forename>O.</forename></rs> und noch einem 
+            <p xml:space="preserve"><date when="1922-08-26">26/8</date> <rs type="place" xml:id="pl_14192" ref="#pmb797">Berchtesgaden</rs>. Öfters unterbrochner unruhiger Schlaf (wie jetzt meist). 
+Traum: Auf Reisen in einem Hotel am ehesten <rs type="place" xml:id="pl_14193" ref="#pmb797">Berchtesg.</rs>, mit <rs type="person" xml:id="pNt_67056" ref="#person_19832"><forename>O.</forename></rs> und noch einem 
 (schattenhaften) Wesen (<rs type="person" xml:id="pNt_67057" ref="#person_20386"><forename>Liesl</forename></rs>?). <rs type="person" xml:id="pNt_67058" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs> (mit Mann und Kind?) sind angekommen, 
 nachdem wirs schon nicht mehr gehofft.― An einem runden Tisch mit ihr (und 
 den andern),― ich frage nach ihrem Befinden, sie wundert sich, dass ich nicht 
@@ -193,7 +198,7 @@ Ton berichtet und copire (ungefähr) „Mir geht es sehr schlecht“, indem
 ich zugleich laut lache ― ― Sie kommt dann (oder vorher) zu uns ins Zimmer 
 ― wir sollen in ihrs, sie hat was interessantes mitgebracht: erstens den 
 Splitter aus dem Fuß von <rs type="person" xml:id="pNt_67059"><forename>Franzi</forename></rs> der die lange Eiterung verursacht (― jetzt 
-erst fällt mir ein, dass das auf etwas analoges vom vorigen Jahr <rs type="place" xml:id="pl_14194" ref="#place_661f4200c3f047474d1df224f62f0503">Aussee</rs> 
+erst fällt mir ein, dass das auf etwas analoges vom vorigen Jahr <rs type="place" xml:id="pl_14194" ref="#pmb415">Aussee</rs> 
 <rs type="person" xml:id="pNt_67060"><forename>Franzi</forename></rs> Bezug hat), und ein (das?) Bild ― eine Miniature (von sich, von 
 <rs type="person" xml:id="pNt_67061"><forename>Franzi</forename></rs>?) (Das Bild <rs type="person" xml:id="pNt_67062"><forename>Aureliens</forename></rs> aus <rs type="work" subtype="self" xml:id="bibl_2730">Verführer</rs> ― ! ― die photogr. Miniature 
 von <rs type="person" xml:id="pNt_67063" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs>!) ― sie will es uns zeigen;― plötzlich liegt sie auf dem Divan, 
@@ -216,16 +221,17 @@ duckt sich scheu ― ich such mein Zimmer, nenne die Nummer 80 ― (es ist in
 Wirklichkeit 40) ― ich lache höhnisch geisterhaft, wie um die Leute zu 
 erschrecken,― aber eigentlich um mich von der Angst zu befreien, lache 3-, 
 4mal ― bis ich erwache. (Es war gerade Mitternacht.)</p>
-            <p xml:space="preserve" rend="indent">Bahn; <rs type="person" xml:id="pNt_67069" ref="#person_15854"><forename>Gisa</forename></rs> und <rs type="person" xml:id="pNt_67070" ref="#person_15855"><surname>Hajek</surname></rs> (und ein <rs type="place" xml:id="pl_14195" ref="#place_923c9d6aaf18f34b857e3d32ee926c57" ana="#exclude">amerik.</rs> Doktor) kommen aus <rs type="place" xml:id="pl_14196" ref="#place_c38ad36647aca0261d667c432a4866bd">Salzburg</rs>. Spaziergang 
-(Begegnung Ghr. <rs type="person" xml:id="pNt_67071" ref="#person_17225"><surname>Kuttner</surname></rs> und Frau). <rs type="place" xml:id="pl_14197" ref="#place_3fd2eb633f60f42c92a2e4d2538d6bc9">Lockstein</rs> <rs type="place" xml:id="pl_14198" ref="#place_36f5f28bd2bd6fbd67579e0c0fdaaaf1">Doktorberg</rs> etc.― Im Hotel warten 
+            <p xml:space="preserve" rend="indent">Bahn; <rs type="person" xml:id="pNt_67069" ref="#person_15854"><forename>Gisa</forename></rs> und <rs type="person" xml:id="pNt_67070" ref="#person_15855"><surname>Hajek</surname></rs> (und ein <rs type="place" xml:id="pl_14195" ref="#place_923c9d6aaf18f34b857e3d32ee926c57" ana="#exclude">amerik.</rs> Doktor) kommen aus <rs type="place" xml:id="pl_14196" ref="#pmb91649">Salzburg</rs>. Spaziergang 
+(Begegnung Ghr. <rs type="person" xml:id="pNt_67071" ref="#person_17225"><surname>Kuttner</surname></rs> und Frau). <rs type="place" xml:id="pl_14197" ref="#pmb92379">Lockstein</rs> <rs type="place" xml:id="pl_14198" ref="#pmb92208">Doktorberg</rs> etc.― Im Hotel warten 
 schon <rs type="person" xml:id="pNt_67072" ref="#person_20238"><surname>Specht’s</surname></rs>;― gemeins. Essen und Conditorei. <rs type="person" xml:id="pNt_67073" ref="#person_20238"><surname>Specht</surname></rs> erzählt von 
-<rs type="place" xml:id="pl_14199" ref="#place_c38ad36647aca0261d667c432a4866bd">Salzburg</rs>;― ― u. a. daß er im <rs type="work" subtype="self" xml:id="bibl_2731">Med. Film</rs>, der (alles mir total unbekannt) 
-zum Theil in <rs type="place" xml:id="pl_14200" ref="#place_c38ad36647aca0261d667c432a4866bd">Salzb.</rs> aufgenommen wird ― plötzlich als <rs type="person" xml:id="pNt_67074"><roleName>Herzog</roleName> <surname>v. Enghien</surname></rs> ― 
+<rs type="place" xml:id="pl_14199" ref="#pmb91649">Salzburg</rs>;― ― u. a. daß er im <rs type="work" subtype="self" xml:id="bibl_2731">Med. Film</rs>, der (alles mir total unbekannt) 
+zum Theil in <rs type="place" xml:id="pl_14200" ref="#pmb91649">Salzb.</rs> aufgenommen wird ― plötzlich als <rs type="person" xml:id="pNt_67074"><roleName>Herzog</roleName> <surname>v. Enghien</surname></rs> ― 
 erschossen worden sei.― Mit <rs type="person" xml:id="pNt_67075" ref="#person_15854"><forename>Gisa</forename></rs> über die Unlösbarkeit der Situation mit 
-<rs type="person" xml:id="pNt_67076" ref="#person_19832"><forename>O.</forename></rs>― Über die immer grauenhafte Theuerung in <rs type="place" xml:id="pl_14201" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>, Unruhen ― was wird 
+<rs type="person" xml:id="pNt_67076" ref="#person_19832"><forename>O.</forename></rs>― Über die immer grauenhafte Theuerung in <rs type="place" xml:id="pl_14201" ref="#pmb50">Wien</rs>, Unruhen ― was wird 
 werden?― Alle auf die Bahn begleitet, <rs type="person" xml:id="pNt_67077" ref="#person_15855"><surname>Haj.</surname></rs> reisen um 3, <rs type="person" xml:id="pNt_67078" ref="#person_20238"><surname>Spechts</surname></rs> (wir 
 spazieren gegen die Gmundbrücke) um 6.― (Über <rs type="person" xml:id="pNt_67079" ref="#person_15009"><surname>Fischer</surname></rs>, Verlagsachen 
 etc.) ― Im „Neuhaus“ Nachtmahl ―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

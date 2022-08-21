@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-06-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-06-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-06-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1931-06-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-06-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-06-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1C5A-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7715.tif"/>
@@ -182,11 +186,10 @@
       <body>
          <div type="diary-day" xml:id="entry__1931-06-09">
             <p xml:space="preserve"><date when="1931-06-09">9/6</date> <rs type="person" xml:id="pNt_93082" ref="#person_14234"><forename>Suz.</forename></rs> zu Tisch bei mir;― gegen 5 fort.</p>
-            <p xml:space="preserve" rend="indent">― Abend <rs type="place" xml:id="pl_19943" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs> spazieren.―</p>
+            <p xml:space="preserve" rend="indent">― Abend <rs type="place" xml:id="pl_19943" ref="#pmb113">Türkenschanzpark</rs> spazieren.―</p>
             <p xml:space="preserve" rend="indent">Tel. mit <rs type="person" xml:id="pNt_93083" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs>, die sehr gekränkt ―</p>
             <p xml:space="preserve" rend="indent">Allein zu Haus genachtm.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

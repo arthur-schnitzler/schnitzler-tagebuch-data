@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1894-05-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-05-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-05-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1894-05-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-05-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-05-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E836-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0837.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1894-05-24">
-            <p xml:space="preserve"><date when="1894-05-24">24/5</date> <rs type="place" xml:id="pl_01706" ref="#place_57c9180eee4fb88db953c8d2f64d8a0e">Rekawinkl</rs> ― (mit <rs type="person" xml:id="pNt_08767" ref="#person_15194"><forename>Gustav</forename></rs>, <rs type="person" xml:id="pNt_08768" ref="#person_20410"><surname>Stern</surname></rs> (<rs type="work" subtype="newspaper" xml:id="bibl_22445">Presse</rs>),― <rs type="person" xml:id="pNt_08769" ref="#person_19052"><surname>Ranzenhofer</surname></rs>) ― Bic. 
-― <rs type="place" xml:id="pl_01707" ref="#place_f23bea7a0da3d228791889d1753f6111">Hainfeld</rs> ― <rs type="place" xml:id="pl_01708" ref="#place_4a3c6f2d3db815161ddfa4b4f6ec2f96">Lilienfeld</rs> ― <rs type="place" xml:id="pl_01709" ref="#place_c751e0a19ec1902a71bc1e9ce40014c2">St. Pölten</rs>.―</p>
+            <p xml:space="preserve"><date when="1894-05-24">24/5</date> <rs type="place" xml:id="pl_01706" ref="#pmb54767">Rekawinkl</rs> ― (mit <rs type="person" xml:id="pNt_08767" ref="#person_15194"><forename>Gustav</forename></rs>, <rs type="person" xml:id="pNt_08768" ref="#person_20410"><surname>Stern</surname></rs> (<rs type="work" subtype="newspaper" xml:id="bibl_22445">Presse</rs>),― <rs type="person" xml:id="pNt_08769" ref="#person_19052"><surname>Ranzenhofer</surname></rs>) ― Bic. 
+― <rs type="place" xml:id="pl_01707" ref="#pmb90825">Hainfeld</rs> ― <rs type="place" xml:id="pl_01708" ref="#pmb91147">Lilienfeld</rs> ― <rs type="place" xml:id="pl_01709" ref="#pmb49880">St. Pölten</rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

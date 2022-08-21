@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1881-07-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1881-07-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1881-07-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1881-07-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1881-07-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1881-07-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DE1D-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0132.tif"/>
@@ -181,9 +185,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1881-07-14">
-            <p xml:space="preserve"><date when="1881-07-14">Donnerstag 14.</date> <rs type="place" xml:id="pl_00218" ref="#place_a3c7fe0abd84cd0be2c8339f5fb2a969">Lend</rs> ― <rs type="place" xml:id="pl_00219" ref="#place_ee73439f8e5bd57e3d0375ed174b4c76">Gastein</rs> (Wagen) <rs type="place" xml:id="pl_00220" ref="#place_ee73439f8e5bd57e3d0375ed174b4c76">Gastein</rs> ― <rs type="place" xml:id="pl_00221" ref="#place_0f7cf39acda1bf32c1aee91e4ce7b3c5">Böckstein</rs>.</p>
+            <p xml:space="preserve"><date when="1881-07-14">Donnerstag 14.</date> <rs type="place" xml:id="pl_00218" ref="#pmb91131">Lend</rs> ― <rs type="place" xml:id="pl_00219" ref="#pmb521">Gastein</rs> (Wagen) <rs type="place" xml:id="pl_00220" ref="#pmb521">Gastein</rs> ― <rs type="place" xml:id="pl_00221" ref="#pmb54760">Böckstein</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

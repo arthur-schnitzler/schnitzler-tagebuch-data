@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-05-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-05-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-05-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-05-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-05-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-05-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0136-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3403.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1912-05-24">
-            <p xml:space="preserve"><date when="1912-05-24">24/5</date> Früh bei <rs type="person" xml:id="pNt_38046" ref="#person_13551"><forename>Richard</forename></rs> und <rs type="person" xml:id="pNt_38047" ref="#person_13550"><forename>Paula</forename></rs>. Seine <rs type="place" xml:id="pl_07881" ref="#place_6200f29d669d049c662de58d281da8f3">Weißenbach</rs> Reise. Dank für 
+            <p xml:space="preserve"><date when="1912-05-24">24/5</date> Früh bei <rs type="person" xml:id="pNt_38046" ref="#person_13551"><forename>Richard</forename></rs> und <rs type="person" xml:id="pNt_38047" ref="#person_13550"><forename>Paula</forename></rs>. Seine <rs type="place" xml:id="pl_07881" ref="#pmb92065">Weißenbach</rs> Reise. Dank für 
 den gestern gesandten Virginier-Anzünder.―</p>
             <p xml:space="preserve" rend="indent">Ordnen, Adressen etc.―</p>
             <p xml:space="preserve" rend="indent">Lecture der Artikel etc.</p>
@@ -201,6 +205,5 @@ liebe Verse geschickt und im <rs type="work" subtype="newspaper" xml:id="bibl_10
             <p xml:space="preserve" rend="indent">Lecture der Ausschnitte. Wenig bemerkenswertes.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

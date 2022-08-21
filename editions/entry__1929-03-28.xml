@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-03-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-03-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-03-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-03-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-03-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-03-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1938-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,21 +177,23 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7262.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1929-03-28">
             <p xml:space="preserve"><date when="1929-03-28">28/3</date> Im Waggon <rs type="person" xml:id="pNt_86372" ref="#person_15957"><surname>Harz</surname></rs> gesprochen; der zu- und umgänglich war; für den 
 <rs type="work" subtype="self" xml:id="bibl_236">Reigen</rs> bessere Aussichten.</p>
-            <p xml:space="preserve" rend="indent">Ankunft <rs type="place" xml:id="pl_18580" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.―  Nach kurzem tel. Gespräch mit <rs type="person" xml:id="pNt_86373" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> zu ihr; die 
+            <p xml:space="preserve" rend="indent">Ankunft <rs type="place" xml:id="pl_18580" ref="#pmb50">Wien</rs>.―  Nach kurzem tel. Gespräch mit <rs type="person" xml:id="pNt_86373" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> zu ihr; die 
 ausschließlich unter dem Eindruck meines <rs type="place" xml:id="pl_18581" ref="#place_be7f11f190986254826063420695db61" ana="#exclude">Berliner</rs> Verkehrs mit <rs type="person" xml:id="pNt_86374" ref="#person_19832"><forename>O.</forename></rs> 
 stand, wieder mit den alten Sachen kam, weder klug noch angenehm war und 
 Fluchtgedanken in mir auslöste.―</p>
             <p xml:space="preserve" rend="indent">Nm. geordnet, gesichtet ―</p>
             <p xml:space="preserve" rend="indent">Z. N.: <rs type="person" xml:id="pNt_86375" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>, die vernünftiger wurde.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

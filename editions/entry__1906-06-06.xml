@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-06-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-06-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-06-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1906-06-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-06-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-06-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F8D7-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,17 +176,19 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2234.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1906-06-06">
             <p xml:space="preserve"><date when="1906-06-06">6/6</date> Vm. Tennis. <rs type="person" xml:id="pNt_25067" ref="#person_20242"><surname>Speidel</surname></rs>. <rs type="person" xml:id="pNt_25068"><forename>Annie</forename> <surname>Sikora</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. 6. Capitel <rs type="work" subtype="self" xml:id="bibl_15021">Roman</rs> vorläufig abgeschlossen.</p>
             <p xml:space="preserve" rend="indent">Abd. <rs type="person" xml:id="pNt_25069" ref="#person_20242"><surname>Speidels</surname></rs> bei uns und <rs type="person" xml:id="pNt_25070" ref="#person_17958"><forename>Paul</forename> <surname>Marx</surname></rs>.― <rs type="person" xml:id="pNt_25071" ref="#person_20242"><roleName>Fr.</roleName> <surname>Speidel</surname></rs> von ihrem recht erfolgr. 
 <rs type="place" xml:id="pl_05572" ref="#place_129c924ad31e360a7557572083befb2f" ana="#exclude">Frankfurter</rs> Gastspiel zurück.― Distanzrittspiel.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

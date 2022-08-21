@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1900-03-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-03-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-03-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1900-03-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-03-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-03-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F051-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -162,7 +166,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1550.tif"/>
@@ -170,10 +174,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1900-03-29">
-            <p xml:space="preserve"><date when="1900-03-29">29/3</date> <rs type="place" xml:id="pl_03355" ref="#place_8be4faaae218289562dc0a8c0e2e0ff1">Triest</rs> ― (<rs type="place" xml:id="pl_03356" ref="#place_9219ee9e1eb760ce3bd97532b5ca05e1">Pola</rs> ― <rs type="place" xml:id="pl_03357" ref="#place_f8c2475361c649af0f3bf7c2e2aa5160">Zara</rs> ― <rs type="place" xml:id="pl_03358" ref="#place_318efa92bf2fce794042c0ac7fd31b2f">Spalato</rs>). „Wurmbrand“ Balneologen.
+            <p xml:space="preserve"><date when="1900-03-29">29/3</date> <rs type="place" xml:id="pl_03355" ref="#pmb91944">Triest</rs> ― (<rs type="place" xml:id="pl_03356" ref="#pmb851">Pola</rs> ― <rs type="place" xml:id="pl_03357" ref="#pmb61062">Zara</rs> ― <rs type="place" xml:id="pl_03358" ref="#pmb4231">Spalato</rs>). „Wurmbrand“ Balneologen.
 Regen.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

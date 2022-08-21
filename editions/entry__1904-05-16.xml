@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-05-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-05-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-05-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-05-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-05-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-05-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F5E9-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,15 +176,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1919.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1920.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1904-05-16">
-            <p xml:space="preserve"><date when="1904-05-16">16/5</date> <rs type="place" xml:id="pl_04726" ref="#place_8191692ba6c002b14b07549113e62125">Palermo</rs>. Traum: Hatte bei <rs type="person" xml:id="pNt_21068" ref="#person_19194"><surname>Renz</surname></rs> in einer Wasser-Pantomime als Gott 
+            <p xml:space="preserve"><date when="1904-05-16">16/5</date> <rs type="place" xml:id="pl_04726" ref="#pmb901">Palermo</rs>. Traum: Hatte bei <rs type="person" xml:id="pNt_21068" ref="#person_19194"><surname>Renz</surname></rs> in einer Wasser-Pantomime als Gott 
 der Liebe, nackt, mitgewirkt.― Angst, dass es bekannt wird. <rs type="person" xml:id="pNt_21069" ref="#person_19194"><surname>Renz</surname></rs> streng an 
 der Kasse: Geben Sie dem Stallmeister 10 fl. Trinkgeld. Dieser, da ich es 
 thue, mißtrauisch: Qu’est-ce qu’il veut de moi?― Eine geschiedene Frau, 
@@ -190,10 +195,11 @@ Einbildung suggerirt, dass ich nackt mitgewirkt habe ― Jemand, etwa
 <rs type="person" xml:id="pNt_21073" ref="#person_20423"><surname>Sternberg</surname></rs> (<rs type="work" subtype="newspaper" xml:id="bibl_17089">N. Fr. Pr.</rs>) schleppt mich durch Koth und Schlamm mit.― <rs type="person" xml:id="pNt_21074" ref="#person_19542"><surname>Salten</surname></rs> 
 sagt mir (über die Pantomime) ich hätte es nicht thun sollen. Königl. 
 Zimmer. Verwischt.―</p>
-            <p xml:space="preserve" rend="indent">In <rs type="place" xml:id="pl_04727" ref="#place_06d80d1bed85e789ba6b6b30c0b5bd60">Monreale</rs> mit O. und <rs type="person" xml:id="pNt_21075" ref="#person_20821"><roleName>Dr.</roleName> <surname>T.</surname></rs>―</p>
+            <p xml:space="preserve" rend="indent">In <rs type="place" xml:id="pl_04727" ref="#pmb45264">Monreale</rs> mit O. und <rs type="person" xml:id="pNt_21075" ref="#person_20821"><roleName>Dr.</roleName> <surname>T.</surname></rs>―</p>
             <p xml:space="preserve" rend="indent">Abends mit <rs type="person" xml:id="pNt_21076" ref="#person_20821"><forename>Tr.</forename></rs> und O. Villa Flora, botan. Garten, Villa 
 Igiea.</p>
             <p xml:space="preserve" rend="indent">Mäßiges Übelbefinden.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

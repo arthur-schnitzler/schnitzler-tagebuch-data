@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-01-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-01-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-01-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-01-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-01-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-01-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-038A-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3760.tif"/>
@@ -182,9 +186,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1914-01-10">
-            <p xml:space="preserve"><date when="1914-01-10">10/1</date> Traum: <rs type="place" xml:id="pl_08593" ref="#place_82f6936702948eb9d4c32f0904877053">Währingerstraße</rs>, <rs type="person" xml:id="pNt_42557" ref="#person_21602"><forename>Vicki</forename></rs>, mit irgend jemandem, zu seiner 
+            <p xml:space="preserve"><date when="1914-01-10">10/1</date> Traum: <rs type="place" xml:id="pl_08593" ref="#pmb312">Währingerstraße</rs>, <rs type="person" xml:id="pNt_42557" ref="#person_21602"><forename>Vicki</forename></rs>, mit irgend jemandem, zu seiner 
 Hinrichtung gehend, in lebhaftem Gespräch; ich zirka 50 Schritte 
-hinter ihm. Ort der Hinrichtung etwa <rs type="place" xml:id="pl_08594" ref="#place_5fea448ccb97ac0aabec75091f8cc28b">Adlerplatz</rs>, mäßiges Gedränge; 
+hinter ihm. Ort der Hinrichtung etwa <rs type="place" xml:id="pl_08594" ref="#pmb92132">Adlerplatz</rs>, mäßiges Gedränge; 
 <rs type="person" xml:id="pNt_42558" ref="#person_21602"><forename>Vicki</forename></rs> mit einem Draht, zu seiner Mutter (die ganz anders, etwa wie ein 
 junges Mädchen aussieht), sie legt ihm den Draht um den Hals, ich bin 
 entsetzt, rufe irgend etwas, sie solle doch lieber um Gnade für ihn 
@@ -199,6 +203,5 @@ seine Doppelsprachigkeit (<rs type="place" xml:id="pl_08595" ref="#place_d05756b
 ihren Gesang.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1901-04-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-03-31.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-04-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1901-04-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-03-31.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-04-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F1B5-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1623.tif"/>
@@ -182,15 +186,14 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1901-04-01">
-            <p xml:space="preserve"><date when="1901-04-01">1/4</date> <rs type="place" xml:id="pl_03627" ref="#place_0bcbcfedf2ef1f96542597b9279fb141">Rom</rs>. Heut Nacht träumt ich von der <rs type="allusively" xml:id="rst_00330">Todten</rs> ― ich hatte sie 
+            <p xml:space="preserve"><date when="1901-04-01">1/4</date> <rs type="place" xml:id="pl_03627" ref="#pmb445">Rom</rs>. Heut Nacht träumt ich von der <rs type="allusively" xml:id="rst_00330">Todten</rs> ― ich hatte sie 
 verlassen, und eine große Reue überkam mich, dass ich ihr schreiben 
 wollte „Ich war ein Narr“― was mir aber affectirt vorkam ― dann 
 dachte ich zu ihr zu gehn, gleich nach Tisch, wobei ich mir deutlich 
-die <rs type="place" xml:id="pl_03628" ref="#place_d93d161527f790b43c4528035eedae54">Maysedergasse</rs> vorstellte ― mit einem Wagen über hügelige 
+die <rs type="place" xml:id="pl_03628" ref="#pmb92397">Maysedergasse</rs> vorstellte ― mit einem Wagen über hügelige 
 Straßen.― Träum auffallend viel von meinen früheren Gel., und von <rs type="person" xml:id="pNt_17868" ref="#person_19832"><forename>D.</forename> <surname>M.</surname></rs> gar nicht.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_03629" ref="#place_a8571795df5a56146cfde039bd9c1a5a">Vatican</rs> (Sixtina, Stanzen). Caracalla Thermen.</p>
+            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_03629" ref="#pmb91997">Vatican</rs> (Sixtina, Stanzen). Caracalla Thermen.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

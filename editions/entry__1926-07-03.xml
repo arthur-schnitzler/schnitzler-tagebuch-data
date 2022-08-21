@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-07-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-07-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-07-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-07-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-07-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-07-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1552-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6686.tif"/>
@@ -183,14 +187,13 @@
       <body>
          <div type="diary-day" xml:id="entry__1926-07-03">
             <p xml:space="preserve"><date when="1926-07-03">3/7</date> Dictirt Briefe; <rs type="work" subtype="self" xml:id="bibl_20288">Tgb.</rs>―</p>
-            <p xml:space="preserve" rend="indent">Zu Tisch <rs type="person" xml:id="pNt_78171" ref="#person_19227"><forename>Gerty</forename> <surname>Rheinhardt</surname></rs>. (War den Winter zur Cur in <rs type="place" xml:id="pl_16728" ref="#place_aa91a9fbe032ecd8738607f09ea24f0d">Davos</rs>, dann in 
-<rs type="place" xml:id="pl_16729" ref="#place_241030ffac0efb4f7cb1f0bbee3cba66">Florenz</rs>, geht nach <rs type="place" xml:id="pl_16730" ref="#place_6a3a03e1972c41335661e8cebad2b66c">Beckenried</rs>, bei ihrer Gesangslehrerin weiterstudieren und selbst lehren.)</p>
+            <p xml:space="preserve" rend="indent">Zu Tisch <rs type="person" xml:id="pNt_78171" ref="#person_19227"><forename>Gerty</forename> <surname>Rheinhardt</surname></rs>. (War den Winter zur Cur in <rs type="place" xml:id="pl_16728" ref="#pmb892">Davos</rs>, dann in 
+<rs type="place" xml:id="pl_16729" ref="#pmb263">Florenz</rs>, geht nach <rs type="place" xml:id="pl_16730" ref="#pmb50424">Beckenried</rs>, bei ihrer Gesangslehrerin weiterstudieren und selbst lehren.)</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_20289">Diagramm</rs>.</p>
             <p xml:space="preserve" rend="indent">Z. N. <rs type="person" xml:id="pNt_78172" ref="#person_17958"><forename>Paul</forename> <surname>Marx</surname></rs>, <rs type="person" xml:id="pNt_78173" ref="#person_19986"><forename>Gustav</forename></rs>. (U. a. über alte Operetten.) ―</p>
             <p xml:space="preserve" rend="indent">― Mit <rs type="person" xml:id="pNt_78174" ref="#person_14130"><forename>Lili</forename></rs> über ihre Zustände; ihren Mangel an Selbstdisciplin. Ihre 
 gelegentlichen Depressionen (die bis zu dem weltschmerzlichen „Wozu …?“ gehen).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

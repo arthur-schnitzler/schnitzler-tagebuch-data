@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1895-07-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-07-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-07-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1895-07-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-07-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-07-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E9C7-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1035.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1895-07-03">
-            <p xml:space="preserve"><date when="1895-07-03">3/7</date> <rs type="place" xml:id="pl_02040" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> ― <rs type="place" xml:id="pl_02041" ref="#place_c12b8d9779a8ad2b240a57b31c979290">Prag</rs>.― <rs type="person" xml:id="pNt_10748" ref="#person_15809"><roleName>Herr</roleName> <surname>Haas</surname></rs>, braver Geschäftsjude aus <rs type="place" xml:id="pl_02042" ref="#place_a774d886677f8505ee889b7fda1cfe26">Jungbunzlau</rs> 
+            <p xml:space="preserve"><date when="1895-07-03">3/7</date> <rs type="place" xml:id="pl_02040" ref="#pmb50">Wien</rs> ― <rs type="place" xml:id="pl_02041" ref="#pmb91524">Prag</rs>.― <rs type="person" xml:id="pNt_10748" ref="#person_15809"><roleName>Herr</roleName> <surname>Haas</surname></rs>, braver Geschäftsjude aus <rs type="place" xml:id="pl_02042" ref="#pmb52694">Jungbunzlau</rs> 
 und ein <rs type="person" xml:id="pNt_10749" ref="#person_17293"><roleName>Dr.</roleName> <surname>Lang</surname></rs>. Fahrt Jüd. Friedhof. Ethnogr. Ausstellung, 
-<rs type="work" xml:id="bibl_22181">Attaché</rs> im <rs type="place" ref="#place_volkstheater">Volksth.</rs> (<rs type="person" xml:id="pNt_10750" ref="#person_15944"><surname>Hartmann</surname></rs> und <rs type="person" xml:id="pNt_10751" ref="#person_16666"><surname>Kallina</surname></rs>) <rs type="institution" xml:id="pNt_10752"><surname>Piskacek</surname></rs> soup.; Continental.―</p>
+<rs type="work" xml:id="bibl_22181">Attaché</rs> im <rs type="place" ref="#pmb92202">Volksth.</rs> (<rs type="person" xml:id="pNt_10750" ref="#person_15944"><surname>Hartmann</surname></rs> und <rs type="person" xml:id="pNt_10751" ref="#person_16666"><surname>Kallina</surname></rs>) <rs type="institution" xml:id="pNt_10752"><surname>Piskacek</surname></rs> soup.; Continental.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

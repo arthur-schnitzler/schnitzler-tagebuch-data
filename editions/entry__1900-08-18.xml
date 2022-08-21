@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1900-08-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-08-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-08-19.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1900-08-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-08-17.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-08-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F0D4-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -162,7 +166,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1579.tif"/>
@@ -170,9 +174,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1900-08-18">
-            <p xml:space="preserve"><date when="1900-08-18">18/8</date> <rs type="place" xml:id="pl_03502" ref="#place_9ccee5afdbf91c3d1cd3c9ff9dc10421">Schruns</rs>. Abends nach <rs type="place" xml:id="pl_03503" ref="#place_da8c62c36c0ec0edc0ab259a34a15aa2">Gargellen</rs>.</p>
+            <p xml:space="preserve"><date when="1900-08-18">18/8</date> <rs type="place" xml:id="pl_03502" ref="#pmb91697">Schruns</rs>. Abends nach <rs type="place" xml:id="pl_03503" ref="#pmb90695">Gargellen</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

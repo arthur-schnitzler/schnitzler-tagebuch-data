@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1893-06-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-06-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-06-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1893-06-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-06-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-06-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E6DC-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0733.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1893-06-11">
-            <p xml:space="preserve"><date when="1893-06-11">11/6</date> Sonntag.― In der <rs type="place" xml:id="pl_01495" ref="#place_a25ff6cb521df1cd0272d03eee7efd32">Brühl</rs>.― <rs type="person" xml:id="pNt_07468" ref="#person_13551"><forename>Richard</forename></rs> las uns „<rs type="work" xml:id="bibl_22676">das Kind</rs>“ vor, eine 
+            <p xml:space="preserve"><date when="1893-06-11">11/6</date> Sonntag.― In der <rs type="place" xml:id="pl_01495" ref="#pmb44413">Brühl</rs>.― <rs type="person" xml:id="pNt_07468" ref="#person_13551"><forename>Richard</forename></rs> las uns „<rs type="work" xml:id="bibl_22676">das Kind</rs>“ vor, eine 
 sehr gelungene psycholog. Studie voll feiner Beobachtung und 
 lebendig tiefer Stimmungen; die in einem bewunderungswürdig fertigen 
 Stil geschrieben ist.―</p>
@@ -189,6 +193,5 @@ Stil geschrieben ist.―</p>
             <p xml:space="preserve" rend="indent">Neue Hypochondrie ―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

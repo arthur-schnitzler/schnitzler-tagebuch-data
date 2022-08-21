@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-07-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-07-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-07-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-07-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-07-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-07-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-110F-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6071.tif"/>
@@ -182,11 +186,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1923-07-07">
-            <p xml:space="preserve"><date when="1923-07-07">7/7</date> <rs type="place" xml:id="pl_14839" ref="#place_63714a562352ef3ae472da20ed0384c0">Bd.-Bd.</rs>― Früh erwacht; in tiefer Melancholie. Das ewige Abschiednehmen.― 
+            <p xml:space="preserve"><date when="1923-07-07">7/7</date> <rs type="place" xml:id="pl_14839" ref="#pmb228">Bd.-Bd.</rs>― Früh erwacht; in tiefer Melancholie. Das ewige Abschiednehmen.― 
 Frühstück mit <rs type="person" xml:id="pNt_69852" ref="#person_19832"><forename>O.</forename></rs> Sie spritzt den Garten. Adieu. Erwiderte (vielleicht 
-das erste Mal wieder seit Jahren) ihren Kuss.― Durch die <rs type="place" xml:id="pl_14840" ref="#place_ecf94a662b34e2ec3401ba89bdd27863">Lichtentaler-Allee</rs> 
+das erste Mal wieder seit Jahren) ihren Kuss.― Durch die <rs type="place" xml:id="pl_14840" ref="#pmb92373">Lichtentaler-Allee</rs> 
 zur Bahn.</p>
-            <p xml:space="preserve" rend="indent">Abreise. Mittag in <rs type="place" xml:id="pl_14841" ref="#place_a330ac6c48198545d4d2f9ff2cb0fc05">Stuttgart</rs>. Heißer Sommertag. Spaziergang im 
+            <p xml:space="preserve" rend="indent">Abreise. Mittag in <rs type="place" xml:id="pl_14841" ref="#pmb872">Stuttgart</rs>. Heißer Sommertag. Spaziergang im 
 Park, durch Straßen. Begegnung <rs type="person" xml:id="pNt_69853" ref="#person_15106"><roleName>Hr.</roleName> <surname>Fränkl</surname></rs>,― (Neffe <rs type="person" xml:id="pNt_69854" ref="#person_19755"><surname>Schmidls</surname></rs>) der 
 hier als Mitglied der anthroposoph. Gesellschaft lebt.― Im Hotel 
 <rs type="institution" xml:id="pNt_69855"><surname>Marquardt</surname></rs> gegessen.</p>
@@ -194,10 +198,9 @@ hier als Mitglied der anthroposoph. Gesellschaft lebt.― Im Hotel
 zwischen einem klugen <rs type="place" xml:id="pl_14842" ref="#place_84de3a89c71f49c7e2536891c03f849c" ana="#exclude">Russen</rs> und einem eingebildeten dummen 
 <rs type="place" xml:id="pl_14843" ref="#place_61bf5ce345539960074f319b53b2dba4" ana="#exclude">ungar.</rs>-<rs type="place" xml:id="pl_14844" ref="#place_7cdea9ae9649ec111b27914b21b8ce73" ana="#exclude">böhm.</rs> Juden.― Lese (mit Widerstreben) einen Roman von <rs type="person" xml:id="pNt_69856" ref="#person_18317"><forename>Kurt</forename> 
 <surname>Münzer</surname></rs>, <rs type="work" xml:id="bibl_1902">Esther Berg</rs>,― sehr begabt, und doch affenhaft und versnobt.―</p>
-            <p xml:space="preserve" rend="indent">Ankunft <rs type="place" xml:id="pl_14845" ref="#place_0d02faf704bd0c9d27ef4e5dc7980b02">Nürnberg</rs>. <rs type="person" xml:id="pNt_69857" ref="#person_19822"><forename>Heini</forename></rs> an der Bahn;― der seit 3 Tagen hier. Hotel 
+            <p xml:space="preserve" rend="indent">Ankunft <rs type="place" xml:id="pl_14845" ref="#pmb44172">Nürnberg</rs>. <rs type="person" xml:id="pNt_69857" ref="#person_19822"><forename>Heini</forename></rs> an der Bahn;― der seit 3 Tagen hier. Hotel 
 Fürstenhof.― Nachtm. Victoria.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

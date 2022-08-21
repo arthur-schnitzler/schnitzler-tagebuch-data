@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1899-06-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-06-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-07-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1899-06-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-06-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-07-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EF53-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1500.tif"/>
@@ -182,12 +186,11 @@
       <body>
          <div type="diary-day" xml:id="entry__1899-06-30">
             <p xml:space="preserve"><date when="1899-06-30">30/6</date> Traum Nachts von der <rs type="allusively" xml:id="rst_00291">Entschwundnen</rs>. Abreise <rs type="allusively" xml:id="rst_00292">Mama</rs> bei <rs type="person" xml:id="pNt_16413" ref="#person_15855"><surname>Hajeks</surname></rs>.―</p>
-            <p xml:space="preserve" rend="indent">Nachm. mit <rs type="person" xml:id="pNt_16414" ref="#person_19986"><forename>Gustav</forename></rs> nach <rs type="place" xml:id="pl_03148" ref="#place_7140b1dc7868cdd3d911da75b9a84e45">Würnitz</rs>,― von <rs type="person" xml:id="pNt_16415" ref="#person_15485"><surname>Gl.s</surname></rs> abgeholt; Abds. 
+            <p xml:space="preserve" rend="indent">Nachm. mit <rs type="person" xml:id="pNt_16414" ref="#person_19986"><forename>Gustav</forename></rs> nach <rs type="place" xml:id="pl_03148" ref="#pmb92111">Würnitz</rs>,― von <rs type="person" xml:id="pNt_16415" ref="#person_15485"><surname>Gl.s</surname></rs> abgeholt; Abds. 
 Drechslermühl ― Gewitter ― Wagen ―</p>
             <p xml:space="preserve" rend="center">
 Juli</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

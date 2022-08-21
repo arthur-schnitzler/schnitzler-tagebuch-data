@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1890-12-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-12-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-12-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1890-12-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-12-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-12-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E377-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0487.tif"/>
@@ -184,10 +188,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1890-12-08">
-            <p xml:space="preserve"><date when="1890-12-08">8. December</date>, Montag Feiertag Nachmittag ― <rs type="place" xml:id="pl_01002" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.</p>
+            <p xml:space="preserve"><date when="1890-12-08">8. December</date>, Montag Feiertag Nachmittag ― <rs type="place" xml:id="pl_01002" ref="#pmb50">Wien</rs>.</p>
             <p xml:space="preserve" rend="indent">Ich bin zu Hause ― im Gefühl einer grenzenlosen Einsamkeit ―</p>
             <p xml:space="preserve" rend="indent">― Es ist auch schrecklich, schrecklich.―</p>
-            <p xml:space="preserve" rend="indent">Ich blieb bis 4. Oktober in <rs type="place" xml:id="pl_01003" ref="#place_c38ad36647aca0261d667c432a4866bd">Salzburg</rs> ― sah sie noch in den ersten 
+            <p xml:space="preserve" rend="indent">Ich blieb bis 4. Oktober in <rs type="place" xml:id="pl_01003" ref="#pmb91649">Salzburg</rs> ― sah sie noch in den ersten 
 Rollen. Die schrecklichen Sensationen des Umschlungenwerdens auf 
 der Bühne.― Die Abreise.―</p>
             <p xml:space="preserve" rend="indent">Wie ich Abend, am letzten Abend in dem Hotelzimmer mit ihnen 
@@ -229,9 +233,8 @@ Nacht, es ist unfaßbar.―</p>
 austreiben ― Das schreib ich so her ― sie ist mir so absolut, absolut 
 gleichgiltig!―</p>
             <p xml:space="preserve" rend="center">Chronik, Oktober</p>
-            <p xml:space="preserve" rend="indent">(<rs type="place" xml:id="pl_01004" ref="#place_c38ad36647aca0261d667c432a4866bd">Salzburg</rs>)</p>
+            <p xml:space="preserve" rend="indent">(<rs type="place" xml:id="pl_01004" ref="#pmb91649">Salzburg</rs>)</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

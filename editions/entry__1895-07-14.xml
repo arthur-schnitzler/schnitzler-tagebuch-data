@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1895-07-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-07-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-07-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1895-07-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-07-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-07-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E9D2-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1039.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1895-07-14">
-            <p xml:space="preserve"><date when="1895-07-14">14/7</date> Sonntag. <rs type="place" xml:id="pl_02059" ref="#place_0d02faf704bd0c9d27ef4e5dc7980b02">N.</rs>― Früh zu ihnen ― Mit <rs type="person" xml:id="pNt_10800" ref="#person_15485"><forename>Mz.</forename></rs> geplaudert. Es ist immer 
+            <p xml:space="preserve"><date when="1895-07-14">14/7</date> Sonntag. <rs type="place" xml:id="pl_02059" ref="#pmb44172">N.</rs>― Früh zu ihnen ― Mit <rs type="person" xml:id="pNt_10800" ref="#person_15485"><forename>Mz.</forename></rs> geplaudert. Es ist immer 
 dasselbe.― Mit ihr im german. Museum. Auf dem Weg sie: „Ich 
 glaube, es könnte mir wieder wohl werden ― wenn ich ein Kind von 
 dir hätte.― Das ist doch eine famose Idee?― Im Frühjahr könnt ich das 
@@ -206,6 +210,5 @@ sich in Bewegung, sie steht weinend da. Ich fahre davon.</p>
             </tei:fw>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-05-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-05-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-05-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-05-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-05-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-05-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-10CE-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6032.tif"/>
@@ -182,11 +186,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1923-05-03">
-            <p xml:space="preserve"><date when="1923-05-03">3/5</date> Bank; mit Blumen und Chocolade zu <rs type="person" xml:id="pNt_69303"><forename>B.</forename> <surname>B.</surname></rs> (<rs type="place" xml:id="pl_14676" ref="#place_811c7ad30c4e603795ef80e0c113ad9e">Frankgasse</rs>) Abschied. Sie hofft 
+            <p xml:space="preserve"><date when="1923-05-03">3/5</date> Bank; mit Blumen und Chocolade zu <rs type="person" xml:id="pNt_69303"><forename>B.</forename> <surname>B.</surname></rs> (<rs type="place" xml:id="pl_14676" ref="#pmb397">Frankgasse</rs>) Abschied. Sie hofft 
 nach Pfingsten wieder da zu sein.― Lerne <rs type="person" xml:id="pNt_69304" ref="#person_17699"><forename>Else</forename> <surname>Lott</surname></rs> kennen. Stehen am 
 Fenster ― am gleichen wohl, wie ich vor 15-25 Jahren stand.― Am Auto 
 adieu.―</p>
-            <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_69305" ref="#person_16769"><forename>Jay</forename> <surname>Kaufman</surname></rs> und <rs type="person" xml:id="pNt_69306" ref="#person_16415"><forename>Will.</forename></rs> <rs type="person" xml:id="pNt_69307" ref="#person_16415"><surname>[Huligan]</surname></rs>, Direktor und Schauspieler,― <rs type="place" xml:id="pl_14677" ref="#place_87809c954948d8a20507bee3648281b3">New York</rs> 
+            <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_69305" ref="#person_16769"><forename>Jay</forename> <surname>Kaufman</surname></rs> und <rs type="person" xml:id="pNt_69306" ref="#person_16415"><forename>Will.</forename></rs> <rs type="person" xml:id="pNt_69307" ref="#person_16415"><surname>[Huligan]</surname></rs>, Direktor und Schauspieler,― <rs type="place" xml:id="pl_14677" ref="#pmb44053">New York</rs> 
 fast drei Stunden bei mir; beide sehr herzlich, mit allerlei Vorschlägen; 
 Gespräch über die finanz. Dinge, zeige ihnen meine kläglichen <rs type="place" xml:id="pl_14678" ref="#place_923c9d6aaf18f34b857e3d32ee926c57" ana="#exclude">amerik.</rs> 
 Abrechnungen;― Vortragsreise ― Rechte zur ― Dramatisirung <rs type="work" subtype="self" xml:id="bibl_1805"><rs type="person" xml:id="pNt_69308"><surname>Cas.</surname></rs> Heimfahrt</rs> 
@@ -200,6 +204,5 @@ auch des Herzens meine Leere übertäube.</p>
             <p xml:space="preserve" rend="indent">Nachher Bilanzen.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

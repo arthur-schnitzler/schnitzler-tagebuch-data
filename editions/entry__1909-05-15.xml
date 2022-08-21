@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-05-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-05-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-05-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-05-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-05-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-05-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FCE5-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,13 +177,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2689.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2690.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1909-05-15">
             <p xml:space="preserve"><date when="1909-05-15">15/5</date> Mein 47. Geburtstag. Blumen von Olga und <rs type="person" xml:id="pNt_30275" ref="#person_19822"><forename>Heini</forename></rs>. Grüne 
 Seidendecken, Polster, schöne Photographien von <rs type="person" xml:id="pNt_30276" ref="#person_19822"><forename>Heini</forename></rs> (<rs type="person" xml:id="pNt_30277" ref="#person_18573"><surname>d’Ora</surname></rs>).</p>
@@ -191,5 +196,6 @@ Loge; amusant im ganzen. Besuche in der Loge von <rs type="person" xml:id="pNt_3
 <rs type="person" xml:id="pNt_30287" ref="#person_21109"><surname>Wassermann</surname></rs>; <rs type="person" xml:id="pNt_30288" ref="#person_16293"><forename>Hugo</forename></rs> und <rs type="person" xml:id="pNt_30289" ref="#person_16292"><forename>Gerty</forename></rs>, <rs type="person" xml:id="pNt_30290" ref="#person_20796"><surname>Trebitschs</surname></rs> etc., <rs type="person" xml:id="pNt_30291" ref="#person_14065"><surname>Burckhard</surname></rs>.</p>
             <p xml:space="preserve" rend="indent">Soupirt mit <rs type="person" xml:id="pNt_30292" ref="#person_13913"><surname>Brahm</surname></rs> und <rs type="person" xml:id="pNt_30293" ref="#person_14065"><surname>Burckhard</surname></rs> im Hotel <rs type="person" xml:id="pNt_30294"><forename>Elisabeth</forename></rs>.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

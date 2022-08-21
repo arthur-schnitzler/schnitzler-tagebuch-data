@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-07-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1931-07-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1C87-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7744.tif"/>
@@ -184,8 +188,8 @@
          <div type="diary-day" xml:id="entry__1931-07-24">
             <p xml:space="preserve" rend="indent">― <rs type="person" xml:id="pNt_93463" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> immer in übelster Stimmung, schlechtem Befinden, voll Mißtraun.― 
 Mit ihr auf der Terrasse in mühseligstem Gespräch.― Und so auch der Abend.― 
-Brief aus <rs type="place" xml:id="pl_20029" ref="#place_e436e319cfdb5cc8b9365de1a4bb82d5x">Z.</rs> 
-<date when="1931-07-24">24/7</date> <rs type="place" xml:id="pl_20030" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs>.― Die Morgenstunden verstört von finanz. Zukunftsorgen; 
+Brief aus <rs type="place" xml:id="pl_20029" ref="#pmb92609">Z.</rs> 
+<date when="1931-07-24">24/7</date> <rs type="place" xml:id="pl_20030" ref="#pmb91735">Semmering</rs>.― Die Morgenstunden verstört von finanz. Zukunftsorgen; 
 Kopfweh etc.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_93464" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Meiereiweg, Bank. Ich lese die neuen Scenen „<rs type="work" subtype="self" xml:id="bibl_23877">Ruf</rs>“ und notire.― 
 <rs type="person" xml:id="pNt_93465" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> weint daneben.― Bei Tisch frage ich und gebe Ratschläge wegen ihrer 
@@ -195,10 +199,9 @@ Ich sage ihr, dass es ein fast unerträgliches Bewußtsein, unschuldig als
 Krankheitsursache herumzugehn ― (und zugleich als facultatives 
 Heilmittel).―</p>
             <p xml:space="preserve" rend="indent">Nm. am „<rs type="work" subtype="self" xml:id="bibl_23878">Sekundanten</rs>“.</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_93466" ref="#person_19704"><surname>Schinnerer</surname></rs> wieder aus <rs type="place" xml:id="pl_20031" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> zurück.</p>
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_93466" ref="#person_19704"><surname>Schinnerer</surname></rs> wieder aus <rs type="place" xml:id="pl_20031" ref="#pmb50">Wien</rs> zurück.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_93467" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>, mit nervösen Herzzuständen consultirt <rs type="person" xml:id="pNt_93468" ref="#person_14745"><roleName>Dr.</roleName> <surname>Ender</surname></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

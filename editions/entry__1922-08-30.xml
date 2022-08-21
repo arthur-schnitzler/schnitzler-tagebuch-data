@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-08-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-08-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-08-31.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-08-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-08-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-08-31.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0FD8-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,20 +177,22 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5817.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1922-08-30">
-            <p xml:space="preserve"><date when="1922-08-30">30/8</date> <rs type="place" xml:id="pl_14220" ref="#place_10610ec60fcdfbccb325e1eec16a82ad">Berchtesgaden</rs>. Nach <rs type="place" xml:id="pl_14221" ref="#place_515322af1eb924f2a4cee609d1f39bfax">Au</rs> (das ganze zu Fuß) ― oberer <rs type="place" xml:id="pl_14222" ref="#place_16f8bed3c52bf873fb6bab75c2c654f9">Salzberg</rs> ― 
-<rs type="place" xml:id="pl_14223" ref="#place_10610ec60fcdfbccb325e1eec16a82ad">Berchtesg.</rs>―</p>
+            <p xml:space="preserve"><date when="1922-08-30">30/8</date> <rs type="place" xml:id="pl_14220" ref="#pmb797">Berchtesgaden</rs>. Nach <rs type="place" xml:id="pl_14221" ref="#pmb90276">Au</rs> (das ganze zu Fuß) ― oberer <rs type="place" xml:id="pl_14222" ref="#pmb91653">Salzberg</rs> ― 
+<rs type="place" xml:id="pl_14223" ref="#pmb797">Berchtesg.</rs>―</p>
             <p xml:space="preserve" rend="indent">Alle im Hotel gegessen.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_2734">Verf.</rs>―</p>
-            <p xml:space="preserve" rend="indent">Zur Bahn alle. <rs type="person" xml:id="pNt_67104" ref="#person_19822"><forename>Heinis</forename></rs> Abreise nach <rs type="place" xml:id="pl_14224" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Zur Bahn alle. <rs type="person" xml:id="pNt_67104" ref="#person_19822"><forename>Heinis</forename></rs> Abreise nach <rs type="place" xml:id="pl_14224" ref="#pmb50">Wien</rs>.―</p>
             <p xml:space="preserve" rend="indent">Meine Fingerschmerzen, am stärksten am Ballen der Mittelhand ― stören ganz 
 empfindlich ― wie z. B. jetzt beim Schreiben dieser Zeilen.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

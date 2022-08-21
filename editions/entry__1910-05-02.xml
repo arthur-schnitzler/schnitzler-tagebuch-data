@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-05-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-05-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-05-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-05-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-05-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-05-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FE45-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,24 +177,26 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2900.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1910-05-02">
             <p xml:space="preserve"><date when="1910-05-02">2/5</date> 17. Todestag meines <rs type="allusively" xml:id="rst_01111">Vaters</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Nach <rs type="place" xml:id="pl_07021" ref="#place_f5b61ab40d3efa6b67d874a0fd70d3bd">Purkersdorf</rs>, dort in trübem regnerischen Wetter spazieren 
-gegen <rs type="place" xml:id="pl_07022" ref="#place_4d8502a92b48516833fb7b6e7ae97176">Deutschwald</rs>. Tristheit der Landhäuser; bis zur Verstimmung.―</p>
+            <p xml:space="preserve" rend="indent">Nach <rs type="place" xml:id="pl_07021" ref="#pmb91552">Purkersdorf</rs>, dort in trübem regnerischen Wetter spazieren 
+gegen <rs type="place" xml:id="pl_07022" ref="#pmb90523">Deutschwald</rs>. Tristheit der Landhäuser; bis zur Verstimmung.―</p>
             <p xml:space="preserve" rend="indent">Nm. sehr amusirt <rs type="person" xml:id="pNt_32651" ref="#person_20080"><surname>Shaws</surname></rs> <rs type="work" xml:id="bibl_11711">Ehe</rs> gelesen.―</p>
             <p xml:space="preserve" rend="indent">Bemerkungen zum „<rs type="work" subtype="self" xml:id="bibl_11712">Vorigen</rs>“, …vorläufig „<rs type="work" subtype="self" xml:id="bibl_11713">Feigling</rs>“―</p>
             <p xml:space="preserve" rend="indent">Überlegung, ob das <rs type="work" subtype="self" xml:id="bibl_11714">Journalistenstück</rs> nicht wieder vorzunehmen ― 
 aber mit anderm Hintergrund, nicht Strike.―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="allusively" xml:id="rst_01112">Mama</rs> zum Nachtmahl. <rs type="person" xml:id="pNt_32652" ref="#person_15855"><surname>Hajeks</surname></rs> und <rs type="person" xml:id="pNt_32653" ref="#person_16894"><forename>Margot</forename></rs>.―</p>
-            <p xml:space="preserve" rend="indent">Las noch <rs type="person" xml:id="pNt_32654" ref="#person_13632"><forename>Karl</forename> <surname>Berger</surname></rs> (<rs type="place" xml:id="pl_07023" ref="#place_3859ff9074d497ed0cb3c08be85996ad">Bozen</rs>), das mir übersandte „<rs type="work" xml:id="bibl_11715">Weiberfeinde</rs>“.―</p>
+            <p xml:space="preserve" rend="indent">Las noch <rs type="person" xml:id="pNt_32654" ref="#person_13632"><forename>Karl</forename> <surname>Berger</surname></rs> (<rs type="place" xml:id="pl_07023" ref="#pmb40260">Bozen</rs>), das mir übersandte „<rs type="work" xml:id="bibl_11715">Weiberfeinde</rs>“.―</p>
             <p xml:space="preserve" rend="indent">(Früher vom selben Verfasser <rs type="work" xml:id="bibl_11716"><rs type="role" xml:id="pNt_32655"><forename>Johann</forename> <surname>Biener</surname></rs></rs> ― s.Z. mir von <rs type="person" xml:id="pNt_32656" ref="#person_21045"><surname>Wahrmund</surname></rs> 
 empfohlen.) Nicht ohne Talent, doch roh und dünn.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

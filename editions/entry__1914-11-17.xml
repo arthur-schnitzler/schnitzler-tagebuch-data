@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-11-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-11-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-11-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-11-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-11-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-11-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-04C0-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3927.tif"/>
@@ -184,13 +188,12 @@
          <div type="diary-day" xml:id="entry__1914-11-17">
             <p xml:space="preserve"><date when="1914-11-17">17/11</date> Dictirt Briefe.― <rs type="person" xml:id="pNt_44418" ref="#person_18884"><roleName>Dr.</roleName> <surname>Pollak</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Für <rs type="person" xml:id="pNt_44419" ref="#person_13359"><forename>Stephi</forename></rs> ein Telegr. an <rs type="person" xml:id="pNt_44420" ref="#person_18548"><forename>R.</forename> <surname>O.</surname></rs> aufgegeben, der kaum eingerückt schon 
-leicht verwundet in <rs type="place" xml:id="pl_09072" ref="#place_601bafc20a5d3420adc2b5f9344324c2">Homburg</rs> ist.</p>
+leicht verwundet in <rs type="place" xml:id="pl_09072" ref="#pmb54155">Homburg</rs> ist.</p>
             <p xml:space="preserve" rend="indent">― Im Gymn. bei <rs type="person" xml:id="pNt_44421" ref="#person_21371"><roleName>Prof.</roleName> <surname>Winkler</surname></rs> (<rs type="place" xml:id="pl_09073" ref="#place_11fdee8f59d1e64558f1752d0eafa2a9" ana="#exclude">Griechisch</rs>) der mir seine Unzufriedenheit 
 mit <rs type="person" xml:id="pNt_44422" ref="#person_19822"><forename>Heini</forename></rs> ausdrückt. Daheim den Buben vorgenommen. Seine 
 Oberflächlichkeit und Verspieltheit.―</p>
             <p xml:space="preserve" rend="indent">Mit O. ein bedrückendes Gespräch.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

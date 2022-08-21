@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-08-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-08-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-08-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-08-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-08-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-08-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0B8B-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4911.tif"/>
@@ -182,12 +186,11 @@
       <body>
          <div type="diary-day" xml:id="entry__1919-08-25">
             <p xml:space="preserve"><date when="1919-08-25">25/8</date> <rs type="person" xml:id="pNt_56765" ref="#person_18881"><forename>Kolap</forename></rs>. Gespräch. Dict. Briefe u. dgl.―</p>
-            <p xml:space="preserve" rend="indent">Abds. mit <rs type="person" xml:id="pNt_56766" ref="#person_19822"><forename>Heini</forename></rs> und <rs type="person" xml:id="pNt_56767" ref="#person_19986"><forename>Gustav</forename></rs> <rs type="place" ref="#place_volkstheater">Volksth.</rs> „<rs type="work" xml:id="bibl_4998">Jüdin von Toledo</rs>“. Loge. Ich 
+            <p xml:space="preserve" rend="indent">Abds. mit <rs type="person" xml:id="pNt_56766" ref="#person_19822"><forename>Heini</forename></rs> und <rs type="person" xml:id="pNt_56767" ref="#person_19986"><forename>Gustav</forename></rs> <rs type="place" ref="#pmb92202">Volksth.</rs> „<rs type="work" xml:id="bibl_4998">Jüdin von Toledo</rs>“. Loge. Ich 
 hörte so ziemlich nichts.―</p>
             <p xml:space="preserve" rend="indent">Beim Nachtm. theilt mir <rs type="person" xml:id="pNt_56768" ref="#person_19822"><forename>Heini</forename></rs> seine Zweifel mit ― Musik?― Regie?― Ich 
 warne ihn vor Oberflächlichkeit, zu der er, bei allem Interesse, tendirt.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

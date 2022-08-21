@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-09-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-09-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-09-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-09-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-09-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-09-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-19DB-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7347.tif"/>
@@ -183,14 +187,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1929-09-07">
-            <p xml:space="preserve"><date when="1929-09-07">7/9</date> <rs type="place" xml:id="pl_18882" ref="#place_f197524aef7e6b2ee8b3196b6ca91c61">Territet</rs>. Vm. allein <rs type="place" xml:id="pl_18883" ref="#place_aea44d3548cc92c9568c8299da21f3c7">Valmont</rs>. Besichtigung des Sanatoriums; 
+            <p xml:space="preserve"><date when="1929-09-07">7/9</date> <rs type="place" xml:id="pl_18882" ref="#pmb52051">Territet</rs>. Vm. allein <rs type="place" xml:id="pl_18883" ref="#pmb92579">Valmont</rs>. Besichtigung des Sanatoriums; 
 Gespräch mit der Directrice (mit ferner Beziehung auf <rs type="person" xml:id="pNt_87591" ref="#person_19832"><forename>Olga</forename></rs>).</p>
             <p xml:space="preserve" rend="indent">Strandbad.―</p>
             <p xml:space="preserve" rend="indent">Brief von <rs type="person" xml:id="pNt_87592" ref="#person_19832"><forename>O.</forename></rs>, aus dem deutliche Verstimmung … Plötzlich Bühlerhöhe … 
-Ich telegr.: meinetwegen <rs type="place" xml:id="pl_18884" ref="#place_a330ac6c48198545d4d2f9ff2cb0fc05">Stuttgart</rs> treffen.―</p>
+Ich telegr.: meinetwegen <rs type="place" xml:id="pl_18884" ref="#pmb872">Stuttgart</rs> treffen.―</p>
             <p xml:space="preserve" rend="indent">Abd. Spazierg. mit <rs type="person" xml:id="pNt_87593" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> und <rs ref="#person_19704" type="person" xml:id="pNt_87594"><surname>Sch.</surname></rs> Quai.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

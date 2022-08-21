@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1917-07-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-07-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-07-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1917-07-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-07-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-07-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-088A-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4503.tif"/>
@@ -182,13 +186,12 @@
       <body>
          <div type="diary-day" xml:id="entry__1917-07-15">
             <p xml:space="preserve"><date when="1917-07-15">15/7</date> Spaziergang mit O. <rs type="person" xml:id="pNt_51075" ref="#person_14130"><forename>Lili</forename></rs> und <rs type="person" xml:id="pNt_51076" ref="#person_20543"><forename>Lili</forename> <surname>Landesberger</surname></rs>, <rs type="person" xml:id="pNt_51077"><roleName>Hrn.</roleName> <roleName>Fr.</roleName> <surname>Anninger</surname></rs> 
-mit Kindern gegen die Rieglerhütte, Rohrerhütte, <rs type="place" xml:id="pl_10601" ref="#place_75f2e194839d6ba0e5d4080c211a449a">Dornbacher Park</rs>.―</p>
+mit Kindern gegen die Rieglerhütte, Rohrerhütte, <rs type="place" xml:id="pl_10601" ref="#pmb176">Dornbacher Park</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. sah ich mir Vorarbeiten zu <rs type="work" subtype="self" xml:id="bibl_6616">Eins. Weg</rs> und <rs type="work" subtype="self" xml:id="bibl_6617">Bernh.</rs> an.―</p>
             <p xml:space="preserve" rend="indent">An der <rs type="work" subtype="self" xml:id="bibl_6618"><rs type="person" xml:id="pNt_51078"><surname>Cas.</surname></rs> Nov.</rs>―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_51079" ref="#person_19986"><forename>Gustav</forename></rs> kam, blieb zum Nachtm.; nachher <rs type="person" xml:id="pNt_51080" ref="#person_19784"><surname>Schmutzers</surname></rs>, Photographien ihres 
 Hauses.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

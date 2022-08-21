@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1900-04-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-04-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-04-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1900-04-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-04-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-04-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F057-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -162,12 +166,13 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1551.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1900-04-04">
             <p xml:space="preserve"><date when="1900-04-04">4/4</date> Traum: die <rs type="allusively" xml:id="rst_00315">Entschwundne</rs> in der Kajüte auf dem Schoss sitzend;
 sie (nachdem wir was besprochen): ja, wenn nicht ― (stimmt mit den
@@ -175,7 +180,7 @@ thatsächl. Verhältnissen in Hinsicht auf <rs type="person" xml:id="pNt_16965" 
 entzückt ― dann sie zärtlich küssend, denk mir: nur <hi xmlns:tei="http://www.tei-c.org/ns/1.0" rend="italicised">so</hi>
 (indem sie ein Kind kriegt) kann ich sie dafür entschädigen, dass
 sie so jung gestorben.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_03369" ref="#place_36660b0099a8fb7694b57edcbb304e09">Abbazia</rs>.― Herr <rs type="person" xml:id="pNt_16966" ref="#person_18519"><forename>Hugo</forename> <surname>Oehler</surname></rs>. <rs type="person" xml:id="pNt_16967" ref="#person_16222"><surname>Hirschfeld’s</surname></rs>.</p>
+            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_03369" ref="#pmb38096">Abbazia</rs>.― Herr <rs type="person" xml:id="pNt_16966" ref="#person_18519"><forename>Hugo</forename> <surname>Oehler</surname></rs>. <rs type="person" xml:id="pNt_16967" ref="#person_16222"><surname>Hirschfeld’s</surname></rs>.</p>
             <pb n="326"/>
             <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header">
                <fw place="top_left" type="pn">326</fw>
@@ -184,5 +189,6 @@ sie so jung gestorben.―</p>
                </fw>
             </tei:fw>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

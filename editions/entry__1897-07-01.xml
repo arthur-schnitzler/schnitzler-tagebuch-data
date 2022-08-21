@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1897-07-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-06-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-07-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1897-07-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-06-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-07-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EC96-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1344.tif"/>
@@ -181,14 +185,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1897-07-01">
-            <p xml:space="preserve"><date when="1897-07-01">1/7</date> Früh <rs type="person" xml:id="pNt_14147"><roleName>Frau</roleName> <surname>Y.</surname></rs> zur Radbahn, per Rad nach <rs type="place" xml:id="pl_02646" ref="#place_7af648bdb537c8e802b17da1c2304d2e">Unterach</rs> zu 
+            <p xml:space="preserve"><date when="1897-07-01">1/7</date> Früh <rs type="person" xml:id="pNt_14147"><roleName>Frau</roleName> <surname>Y.</surname></rs> zur Radbahn, per Rad nach <rs type="place" xml:id="pl_02646" ref="#pmb91973">Unterach</rs> zu 
 <rs type="person" xml:id="pNt_14148"><surname>Strisower</surname></rs>. Berghof.― <rs type="person" xml:id="pNt_14149" ref="#person_16366"><forename>Risa</forename></rs> unerhört schön. Zu Tisch dort. <rs type="person" xml:id="pNt_14150" ref="#person_14014"><surname>Brülls</surname></rs> und 
 <rs type="person" xml:id="pNt_14151" ref="#person_19975"><surname>Schwarz’s</surname></rs>; Nm. bei <rs type="person" xml:id="pNt_14152" ref="#person_16366"><forename>Risa</forename></rs> allein im Zimmer, unerhörte Zärtlichkeiten; 
 ich log sie viel an, war aber so entzückt, dass es beinah wahr war.―</p>
-            <p xml:space="preserve" rend="indent">Retour von <rs type="person" xml:id="pNt_14153" ref="#person_16366"><forename>Risa</forename></rs> u. a. begleitet. (<rs type="person" xml:id="pNt_14154" ref="#person_17629"><surname>Löti</surname></rs>.) <rs type="place" xml:id="pl_02647" ref="#place_6200f29d669d049c662de58d281da8f3">Weissenbach</rs> ― Gewitter ― 
-<rs type="place" xml:id="pl_02648" ref="#place_c2ad928214981e457405589604924059">Ischl</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Retour von <rs type="person" xml:id="pNt_14153" ref="#person_16366"><forename>Risa</forename></rs> u. a. begleitet. (<rs type="person" xml:id="pNt_14154" ref="#person_17629"><surname>Löti</surname></rs>.) <rs type="place" xml:id="pl_02647" ref="#pmb92065">Weissenbach</rs> ― Gewitter ― 
+<rs type="place" xml:id="pl_02648" ref="#pmb213">Ischl</rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

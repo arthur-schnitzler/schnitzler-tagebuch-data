@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-01-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-01-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-01-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1931-01-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-01-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-01-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1BBD-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7622.tif"/>
@@ -183,7 +187,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1931-01-02">
             <p xml:space="preserve"><date when="1931-01-02">2/1</date> ― Recht mäßige Nacht. Gegen Morgen ein unklarer Traum, in dem ich einen 
-französ. Pass brauchte, um zu <rs type="person" xml:id="pNt_91786" ref="#person_18063"><surname>Menczels</surname></rs> (an die <rs type="place" xml:id="pl_19695" ref="#place_48e85f254225625df8a560aa4cb48808">Riviera</rs>?) zu gelangen.―</p>
+französ. Pass brauchte, um zu <rs type="person" xml:id="pNt_91786" ref="#person_18063"><surname>Menczels</surname></rs> (an die <rs type="place" xml:id="pl_19695" ref="#pmb90942">Riviera</rs>?) zu gelangen.―</p>
             <p xml:space="preserve" rend="indent">Nach Besichtigung einer (überflüssig) Doc.-Mappe bei <rs type="person" xml:id="pNt_91787"><surname>Schwanhäusser</surname></rs> 
 Bildergallerie;― mit <rs type="person" xml:id="pNt_91788" ref="#person_14234"><forename>Suz.</forename></rs> <rs type="place" xml:id="pl_19696" ref="#place_75c4ceb2ad602189c9760ce854452ea3" ana="#exclude">Niederländer</rs> besehn. Sie war das erste Mal in 
 ihrem ganzen Leben in unserm Museum!― ― Sie hat sich von jenem Anfall noch 
@@ -199,6 +203,5 @@ Familien-Traueressens komme.―</p>
 dann Weingartl genachtm.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

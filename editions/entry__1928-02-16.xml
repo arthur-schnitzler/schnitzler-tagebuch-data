@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-02-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-02-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-02-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-02-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-02-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-02-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-17A2-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7040.tif"/>
@@ -182,9 +186,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1928-02-16">
-            <p xml:space="preserve"><date when="1928-02-16">16/2</date> Vm. <rs type="person" xml:id="pNt_82988" ref="#person_14028"><roleName>Dr.</roleName> <surname>Brunow</surname></rs>, mit Empfehlung von <rs type="person" xml:id="pNt_82989" ref="#person_19227"><forename>Gerty</forename> <surname>Rheinhardt</surname></rs> (<rs type="place" xml:id="pl_17807" ref="#place_ab21db0a2aa2e84be73932be6063b033">Mailand</rs>);― 
+            <p xml:space="preserve"><date when="1928-02-16">16/2</date> Vm. <rs type="person" xml:id="pNt_82988" ref="#person_14028"><roleName>Dr.</roleName> <surname>Brunow</surname></rs>, mit Empfehlung von <rs type="person" xml:id="pNt_82989" ref="#person_19227"><forename>Gerty</forename> <surname>Rheinhardt</surname></rs> (<rs type="place" xml:id="pl_17807" ref="#pmb886">Mailand</rs>);― 
 einer der unbeschäftigten <rs type="person" xml:id="pNt_82990" ref="#person_19154"><surname>Reinhardtregisseure</surname></rs>.―</p>
-            <p xml:space="preserve" rend="indent">Dictirt Briefe (u. a. an Intern. soc. theatr. <rs type="place" xml:id="pl_17808" ref="#place_59ead8d1e124ccfb79f3ace06f43e703">London</rs>, die für 
+            <p xml:space="preserve" rend="indent">Dictirt Briefe (u. a. an Intern. soc. theatr. <rs type="place" xml:id="pl_17808" ref="#pmb224">London</rs>, die für 
 <rs type="work" subtype="self" xml:id="bibl_19161">Bernhardi</rs> ― <rs type="work" subtype="self" xml:id="bibl_19162">Cassian</rs> und <rs type="work" subtype="self" xml:id="bibl_19163">Hochzeitsmorgen</rs> ankündigen,― mit Verwahrung).― 
 Mit <rs type="person" xml:id="pNt_82991" ref="#person_18881"><forename>Kolap</forename></rs> über die Situation.</p>
             <p xml:space="preserve" rend="indent">Nm. ein wenig am „<rs type="work" subtype="self" xml:id="bibl_19164">Sekundant</rs>“.</p>
@@ -193,6 +197,5 @@ wenn ich sie „weniger“ liebe ― würde sie abreisen;― ich sagte
 was zu sagen war.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

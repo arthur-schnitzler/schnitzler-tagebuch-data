@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1895-12-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-12-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-12-19.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1895-12-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-12-17.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-12-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EA6F-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1086.tif"/>
@@ -184,8 +188,8 @@
          <div type="diary-day" xml:id="entry__1895-12-18">
             <p xml:space="preserve"><date when="1895-12-18">18/12</date> Nachricht in der <rs type="work" subtype="newspaper" xml:id="bibl_22340">N. Fr. Pr.</rs> <rs type="person" xml:id="pNt_11427" ref="#person_18363"><surname>Nathanson</surname></rs> übersetzt <rs type="work" subtype="self" xml:id="bibl_22341">L.</rs> ins ital. 
 (ich hatte es <rs type="person" xml:id="pNt_11428" ref="#person_14686"><surname>Eisenschitz</surname></rs> zugesagt).― Mit <rs type="person" xml:id="pNt_11429" ref="#person_13196"><forename>Lou</forename></rs>, <rs type="person" xml:id="pNt_11430" ref="#person_15859"><surname>Halbe</surname></rs>, <rs type="person" xml:id="pNt_11431"><forename>Rich.</forename></rs>, <rs type="person" xml:id="pNt_11432" ref="#person_19542"><surname>Salten</surname></rs> 
-Imperial dinirt.― <rs type="person" xml:id="pNt_11433" ref="#person_19150"><forename>Mz.</forename> <surname>R.</surname></rs> <rs type="place" xml:id="pl_02163" ref="#place_d229992d620f3083a55a1488372e9a46">Leopoldstadt</rs> begleitet. Conc. <rs type="person" xml:id="pNt_11434" ref="#person_14364"><surname>Davies</surname></rs> 
-<rs type="person" xml:id="pNt_11435" ref="#person_16905"><surname>Klengel</surname></rs>. <rs type="place" ref="#place_griensteidl">Griensteidl</rs> Masse Leute; neue, <rs type="person" xml:id="pNt_11437" ref="#person_18512"><surname>Obermaier</surname></rs> etc.― Mit <rs type="person" xml:id="pNt_11438" ref="#person_15859"><surname>Halbe</surname></rs> über 
+Imperial dinirt.― <rs type="person" xml:id="pNt_11433" ref="#person_19150"><forename>Mz.</forename> <surname>R.</surname></rs> <rs type="place" xml:id="pl_02163" ref="#pmb52">Leopoldstadt</rs> begleitet. Conc. <rs type="person" xml:id="pNt_11434" ref="#person_14364"><surname>Davies</surname></rs> 
+<rs type="person" xml:id="pNt_11435" ref="#person_16905"><surname>Klengel</surname></rs>. <rs type="place" ref="#pmb92258">Griensteidl</rs> Masse Leute; neue, <rs type="person" xml:id="pNt_11437" ref="#person_18512"><surname>Obermaier</surname></rs> etc.― Mit <rs type="person" xml:id="pNt_11438" ref="#person_15859"><surname>Halbe</surname></rs> über 
 seine <rs type="work" xml:id="bibl_22342">Lebenswende</rs> gesprochen, die mir keinen bedeutenden Eindruck 
 gemacht. Es ist schwer ganz wahr zu sein. Ich lobte mehr als meiner 
 innern Ueberzeugung gemäss war. <rs type="person" xml:id="pNt_11439" ref="#person_15859"><surname>Halbe</surname></rs> erzählt mir von der Entstehung 
@@ -194,6 +198,5 @@ seiner Stücke.― Die Heldin von „<rs type="work" xml:id="bibl_22343">Freie L
 <rs type="work" xml:id="bibl_22345">Jugend</rs> lebt noch unverheiratet.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

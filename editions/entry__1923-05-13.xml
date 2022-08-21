@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-05-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-05-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-05-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-05-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-05-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-05-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-10D8-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,15 +177,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6040.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6041.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1923-05-13">
-            <p xml:space="preserve"><date when="1923-05-13">13/5</date> S. <rs type="place" xml:id="pl_14715" ref="#place_226e71f7dbaedcb5e25a3998ca43db21">Kopenhagen</rs>.― Vm. mit <rs type="person" xml:id="pNt_69400" ref="#person_15098"><forename>Axel</forename> <surname>Fraenkel</surname></rs> im Museum ―</p>
+            <p xml:space="preserve"><date when="1923-05-13">13/5</date> S. <rs type="place" xml:id="pl_14715" ref="#pmb36300">Kopenhagen</rs>.― Vm. mit <rs type="person" xml:id="pNt_69400" ref="#person_15098"><forename>Axel</forename> <surname>Fraenkel</surname></rs> im Museum ―</p>
             <p xml:space="preserve" rend="indent">― <rs type="person" xml:id="pNt_69401" ref="#person_18142"><forename>Sophus</forename> <surname>Michaelis</surname></rs> und Frau (nicht mehr <rs type="person" xml:id="pNt_69402" ref="#person_18139"><forename>Karin</forename></rs>) holen mich aus 
 dem Hotel; Frühstück im Lange Linie Pavillon vom Schriftstellerverein 
 mir veranstaltet. Etwa 8 Herren, und 4 Damen. <rs type="person" xml:id="pNt_69403" ref="#person_18142"><forename>Soph.</forename> <surname>M.</surname></rs> sprach ein paar 
@@ -193,8 +198,9 @@ plaudern allein über 2 Stunden. Er fragt nach dem Antisemitismus
 (von dem hier nichts zu spüren), <rs type="person" xml:id="pNt_69407" ref="#person_16165"><surname>Herzl</surname></rs>; wir reden über <rs type="person" xml:id="pNt_69408" ref="#person_19333"><surname>Rolland</surname></rs>, 
 <rs type="person" xml:id="pNt_69409" ref="#person_14238"><surname>Clemenceau</surname></rs> (seine Verfeindung mit <rs ref="#person_13969" type="person" xml:id="pNt_69410"><forename>Br.</forename></rs>), <rs type="person" xml:id="pNt_69411" ref="#person_18852"><surname>Poincaré</surname></rs>, später kommt seine 
 Freundin <rs type="person" xml:id="pNt_69412" ref="#person_13328"><roleName>Frau</roleName> <surname>B.</surname></rs>― (?)</p>
-            <p xml:space="preserve" rend="indent">Spazieren; Bahn wegen ev. <rs type="place" xml:id="pl_14716" ref="#place_fcfff492e00727b63cf5dff9f59bc2a4">Stockh.</rs> Reise; Brief an <rs type="person" xml:id="pNt_69413" ref="#person_18139"><forename>B.</forename> <surname>B.</surname></rs>, allein im 
+            <p xml:space="preserve" rend="indent">Spazieren; Bahn wegen ev. <rs type="place" xml:id="pl_14716" ref="#pmb1119">Stockh.</rs> Reise; Brief an <rs type="person" xml:id="pNt_69413" ref="#person_18139"><forename>B.</forename> <surname>B.</surname></rs>, allein im 
 Phoenix gen.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

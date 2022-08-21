@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1903-06-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-06-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-06-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1903-06-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-06-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-06-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F4A4-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,17 +176,18 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1820.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1821.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1822.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1903-06-21">
             <p xml:space="preserve"><date when="1903-06-21">21/6</date> S. Vm. bei <rs type="person" xml:id="pNt_19921" ref="#person_13374"><surname>Bahr</surname></rs>, der mir sein neues Buch „<rs type="work" xml:id="bibl_17726">Rezensionen</rs>“ gewidmet 
-hatte.― Über sein und <rs type="person" xml:id="pNt_19922" ref="#person_19154"><surname>Reinhardts</surname></rs> neues Theater in <rs type="place" xml:id="pl_04333" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> (Zukunft); <rs type="person" xml:id="pNt_19923"><forename>Dilly</forename> <surname>Sandrock</surname></rs> (Engagement und Thorheit, <rs type="person" xml:id="pNt_19924" ref="#person_18524"><roleName>Herr</roleName> <surname>Oesterr.</surname></rs>), über <rs type="person" xml:id="pNt_19925" ref="#person_14065"><surname>Burckhard</surname></rs> der 
+hatte.― Über sein und <rs type="person" xml:id="pNt_19922" ref="#person_19154"><surname>Reinhardts</surname></rs> neues Theater in <rs type="place" xml:id="pl_04333" ref="#pmb50">Wien</rs> (Zukunft); <rs type="person" xml:id="pNt_19923"><forename>Dilly</forename> <surname>Sandrock</surname></rs> (Engagement und Thorheit, <rs type="person" xml:id="pNt_19924" ref="#person_18524"><roleName>Herr</roleName> <surname>Oesterr.</surname></rs>), über <rs type="person" xml:id="pNt_19925" ref="#person_14065"><surname>Burckhard</surname></rs> der 
 sich krank fühlt, bei sich Arterioskl. vermuthet.― <rs type="person" xml:id="pNt_19926"><surname>B.</surname></rs> als Hypochonder der das 
 Weltbild stört.―</p>
             <p xml:space="preserve" rend="indent">Nm. arbeitete ich <rs type="work" subtype="self" xml:id="bibl_17727">Junggesell</rs> und versuchte Verse, <rs type="work" subtype="self" xml:id="bibl_17728">Cassian</rs>.</p>
@@ -199,5 +204,6 @@ selbst einigen Respekt habe. Jetzt bin ich weit entfernt davon.―</p>
             <p xml:space="preserve" rend="indent">― In diesem Zusammenhang muss ich auch wieder meines Gehörs 
 denken, das kläglich zurückgeht und des unentwegten Sausens.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1902-06-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-06-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-06-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1902-06-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-06-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-06-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F32F-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1689.tif"/>
@@ -181,9 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1902-06-07">
-            <p xml:space="preserve"><date when="1902-06-07">7/6</date> Früh (auf Einladung <rs type="person" xml:id="pNt_18683" ref="#person_13913"><surname>Brahms</surname></rs>) nach <rs type="place" xml:id="pl_03965" ref="#place_9fed5dae86e3030d9be3740efa198659">Budapest</rs>.</p>
+            <p xml:space="preserve"><date when="1902-06-07">7/6</date> Früh (auf Einladung <rs type="person" xml:id="pNt_18683" ref="#person_13913"><surname>Brahms</surname></rs>) nach <rs type="place" xml:id="pl_03965" ref="#pmb43471">Budapest</rs>.</p>
             <p xml:space="preserve" rend="indent">Nm. „<rs type="work" subtype="self" xml:id="bibl_18027">Hexerei</rs>“ und „<rs type="work" subtype="self" xml:id="bibl_18028">Duld. Frau</rs>“ neu begonnen.―</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_18684" ref="#person_13913"><surname>Brahm</surname></rs> Spazierfahrt <rs type="place" xml:id="pl_03966" ref="#place_2b7f1f65a3a0ea2c027c84aed172e29b">Blocksberg</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_18684" ref="#person_13913"><surname>Brahm</surname></rs> Spazierfahrt <rs type="place" xml:id="pl_03966" ref="#pmb90360">Blocksberg</rs>.―</p>
             <p xml:space="preserve" rend="indent"><rs type="work" subtype="self" xml:id="bibl_18029">Leb. St.</rs> im Lustspieltheater.― Nachtmahl mit <rs type="person" xml:id="pNt_18685" ref="#person_13913"><surname>Brahm</surname></rs>, <rs type="person" xml:id="pNt_18686" ref="#person_15581"><surname>Góth</surname></rs>, 
 <rs type="person" xml:id="pNt_18687" ref="#person_13471"><surname>Bauer</surname></rs>, dann <rs type="person" xml:id="pNt_18688" ref="#person_14468"><surname>Doczi</surname></rs>, <rs type="person" xml:id="pNt_18689" ref="#person_18768"><forename>Vict.</forename></rs> <rs type="person" xml:id="pNt_18690" ref="#person_18768"><surname>[Pichler]</surname></rs>.― ― <rs type="person" xml:id="pNt_18691" ref="#person_16676"><surname>[Kanarson]</surname></rs></p>
             <p xml:space="preserve" rend="indent">― <rs type="person" xml:id="pNt_18692" ref="#person_13913"><surname>Brahm</surname></rs> endete überraschend.―</p>
@@ -196,6 +200,5 @@
             </tei:fw>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

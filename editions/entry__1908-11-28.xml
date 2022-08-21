@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-11-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-11-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-11-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-11-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-11-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-11-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FC3D-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,18 +176,20 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2589.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1908-11-28">
-            <p xml:space="preserve"><date when="1908-11-28">28/11</date> Vm. mit <rs type="person" xml:id="pNt_29246" ref="#person_19822"><forename>Heini</forename></rs> <rs type="place" xml:id="pl_06515" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs>; später Olga ―</p>
+            <p xml:space="preserve"><date when="1908-11-28">28/11</date> Vm. mit <rs type="person" xml:id="pNt_29246" ref="#person_19822"><forename>Heini</forename></rs> <rs type="place" xml:id="pl_06515" ref="#pmb169">Pötzleinsdorf</rs>; später Olga ―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_13800">Medardus</rs>.―</p>
             <p xml:space="preserve" rend="indent">Concert <rs type="person" xml:id="pNt_29247" ref="#person_14473"><surname>Dohnanyi</surname></rs>; sprach ihn.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_29248" ref="#person_16819"><surname>Kerr</surname></rs> und <rs type="person" xml:id="pNt_29249" ref="#person_13551"><forename>Richard</forename></rs> die uns abholten (mich und O.) im 
-<rs type="place" ref="#place_meissl">Meissl</rs> gespeist.</p>
+<rs type="place" ref="#pmb96">Meissl</rs> gespeist.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

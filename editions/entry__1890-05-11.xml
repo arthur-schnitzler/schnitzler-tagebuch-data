@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1890-05-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-05-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-05-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1890-05-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-05-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-05-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E2A4-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0457.tif"/>
@@ -182,9 +186,8 @@
       <body>
          <div type="diary-day" xml:id="entry__1890-05-11">
             <p xml:space="preserve"><date when="1890-05-11">11.</date> <rs type="person" xml:id="pNt_04554" ref="#person_15485"><forename>Mz.</forename></rs> Vorm. (2) ― Brief von <rs type="person" xml:id="pNt_04555" ref="#person_16022"><forename>Jean.</forename></rs> ― den <rs type="person" xml:id="pNt_04556" ref="#person_15485"><forename>Mz.</forename></rs> auffängt, ― Abds. nach 
-<rs type="place" xml:id="pl_00903" ref="#place_e08f67e87755f34f857023df12e0fde1">Mariahilf</rs> mit <rs type="person" xml:id="pNt_04557" ref="#person_15485"><forename>Mz.</forename></rs> (<rs type="person" xml:id="pNt_04558" ref="#person_20905"><surname>Valenais</surname></rs>) ― <rs type="place" ref="#place_leidinger">Leidinger</rs> soup. Kfh. Poker ―</p>
+<rs type="place" xml:id="pl_00903" ref="#pmb56">Mariahilf</rs> mit <rs type="person" xml:id="pNt_04557" ref="#person_15485"><forename>Mz.</forename></rs> (<rs type="person" xml:id="pNt_04558" ref="#person_20905"><surname>Valenais</surname></rs>) ― <rs type="place" ref="#pmb42">Leidinger</rs> soup. Kfh. Poker ―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

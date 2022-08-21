@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-06-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-06-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-06-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-06-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-06-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-06-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-181B-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7108.tif"/>
@@ -183,7 +187,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1928-06-16">
-            <p xml:space="preserve"><date when="1928-06-16">16/6</date> <rs type="place" xml:id="pl_18046" ref="#place_c2ad928214981e457405589604924059">Ischl</rs>. Traum: dass ich einen Vortrag halten soll, <rs type="person" xml:id="pNt_83993" ref="#person_15499"><surname>Goethe</surname></rs> 
+            <p xml:space="preserve"><date when="1928-06-16">16/6</date> <rs type="place" xml:id="pl_18046" ref="#pmb213">Ischl</rs>. Traum: dass ich einen Vortrag halten soll, <rs type="person" xml:id="pNt_83993" ref="#person_15499"><surname>Goethe</surname></rs> 
 <rs type="work" xml:id="bibl_19466">Gedichte</rs>, die <rs type="person" xml:id="pNt_83994" ref="#person_19902"><surname>Schubert</surname></rs> componirt hat (zur Jubelfeier); das 
 Podium schwer erreichbar, ich probire, ganz rückwärts, Stufen 
 quasi unter dem Podium selbst; <rs type="person" xml:id="pNt_83995" ref="#person_21243"><surname>Werfel</surname></rs> hilft mir, indem er mich hinaufschupst. 
@@ -210,11 +214,10 @@ entschuldige mich ― dass ich schon ¾ Stunden spreche;―
 plötzlich auf einer Garten- oder Schulbank ― <rs type="person" xml:id="pNt_84003" ref="#person_13196"><forename>Lou</forename> <surname>Salomé</surname></rs>, schwarz, 
 hager, Brille?, sieht aus wie eine <rs type="place" xml:id="pl_18047" ref="#place_70133643509c1cae1e13cc222b6764fc" ana="#exclude">Amerikanerin</rs> hier im Hotel;― sie 
 sagt, ob ich nicht wisse, dass sie mit <rs type="person" xml:id="pNt_84004" ref="#person_13920"><forename>Georg</forename> <surname>Br.</surname></rs> bös sei.</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_18048" ref="#place_c2ad928214981e457405589604924059">Ischl</rs> ― Vm. mit <rs type="person" xml:id="pNt_84005" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Spaziergang Ahornbühel, <rs type="place" xml:id="pl_18049" ref="#place_4b5860d2a9ea251025de8b6146180bc9">Lindau</rs>, <rs type="place" xml:id="pl_18050" ref="#place_378e3304884b837b0fd1949fd6699bb9">Pfandl</rs>, 
-<rs type="place" xml:id="pl_18051" ref="#place_8ce19f0f1bd6882ec7de0b1194af8cad">Elisabethpromenade</rs> zurück.―</p>
+            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_18048" ref="#pmb213">Ischl</rs> ― Vm. mit <rs type="person" xml:id="pNt_84005" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Spaziergang Ahornbühel, <rs type="place" xml:id="pl_18049" ref="#pmb91151">Lindau</rs>, <rs type="place" xml:id="pl_18050" ref="#pmb91470">Pfandl</rs>, 
+<rs type="place" xml:id="pl_18051" ref="#pmb92225">Elisabethpromenade</rs> zurück.―</p>
             <p xml:space="preserve" rend="indent">Nm. am „<rs type="work" subtype="self" xml:id="bibl_19469">Zug der Schatten</rs>“.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

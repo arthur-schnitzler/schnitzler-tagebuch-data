@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-07-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-07-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-07-31.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-07-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-07-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-07-31.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-02E6-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,14 +177,15 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3666.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1913-07-30">
-            <p xml:space="preserve" rend="indent"><date when="1913-07-30">30/7</date> Früh mit O. und <rs type="person" xml:id="pNt_41260" ref="#person_19755"><surname>Schmidl</surname></rs> <rs type="place" xml:id="pl_08371" ref="#place_c894c3cc1a54293f8e92f5693e7cd8e6">Saluga</rs>; Bad.―</p>
+            <p xml:space="preserve" rend="indent"><date when="1913-07-30">30/7</date> Früh mit O. und <rs type="person" xml:id="pNt_41260" ref="#person_19755"><surname>Schmidl</surname></rs> <rs type="place" xml:id="pl_08371" ref="#pmb92507">Saluga</rs>; Bad.―</p>
             <p xml:space="preserve" rend="indent">Nm. Segelpartie in der Tramontana mit <rs type="person" xml:id="pNt_41261" ref="#person_17200"><roleName>Hofr.</roleName> <surname>Kunzek</surname></rs>, <rs type="person" xml:id="pNt_41262" ref="#person_21602"><forename>Vicki</forename></rs>, <rs type="person" xml:id="pNt_41263" ref="#person_19755"><surname>Schmidls</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Tennis mit <rs type="person" xml:id="pNt_41264" ref="#person_21601"><forename>Otto</forename> <surname>Z.</surname></rs>, <rs type="person" xml:id="pNt_41265" ref="#person_21602"><forename>Vicki</forename></rs>, <rs type="person" xml:id="pNt_41266"><forename>Lili</forename></rs> und <rs type="person" xml:id="pNt_41267" ref="#person_15736"><forename>Emma</forename> <surname>Berger</surname></rs>. <rs type="person" xml:id="pNt_41268"><forename>Lili</forename></rs> charmant, 
 <pb n="55"/>
@@ -188,5 +193,6 @@
 <rs type="person" xml:id="pNt_41269" ref="#person_15736"><forename>Emma</forename></rs> recht komisch.</p>
             <p xml:space="preserve" rend="indent">Nach dem Souper mit <rs type="person" xml:id="pNt_41270"><surname>Z.s</surname></rs>, den <rs type="person" xml:id="pNt_41271"><surname>Bergers</surname></rs>, <rs type="person" xml:id="pNt_41272" ref="#person_17205"><surname>Kupelwieser</surname></rs> lang am Meer.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-06-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-06-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-06-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1920-06-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-06-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-06-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0CB0-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5120.tif"/>
@@ -181,13 +185,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1920-06-13">
-            <p xml:space="preserve"><date when="1920-06-13">13/6</date> S. Spazierg. <rs type="place" xml:id="pl_12333" ref="#place_a513bae177c89d12226f343ac5ff1ee3">Salmannsdorf</rs> ― <rs type="place" xml:id="pl_12334" ref="#place_1cc23f21f7a8f901c6e7db2c8f1b54a2">Randweg</rs> ― <rs type="place" xml:id="pl_12335" ref="#place_c79ad839f84019f53250a4e6365359f9">Neuwaldegg</rs> (Park). Heuduft. 
+            <p xml:space="preserve"><date when="1920-06-13">13/6</date> S. Spazierg. <rs type="place" xml:id="pl_12333" ref="#pmb91641">Salmannsdorf</rs> ― <rs type="place" xml:id="pl_12334" ref="#pmb92473">Randweg</rs> ― <rs type="place" xml:id="pl_12335" ref="#pmb170">Neuwaldegg</rs> (Park). Heuduft. 
 Begegnung mit Sect. Chef <rs type="person" xml:id="pNt_59107" ref="#person_19915"><roleName>Dr.</roleName> <surname>Schüller</surname></rs>;― über die Reparationscommission, 
 die ewigen Verschleppungen.</p>
             <p xml:space="preserve" rend="indent">― Zu Haus <rs type="person" xml:id="pNt_59108" ref="#person_20602"><surname>Szell</surname></rs> mit Braut (Dinstag Heirat) spielt <rs type="person" xml:id="pNt_59109" ref="#person_14543"><surname>Dukas</surname></rs>, <rs type="person" xml:id="pNt_59110" ref="#person_19760"><surname>Schmidt</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Zu Tisch <rs type="person" xml:id="pNt_59111" ref="#person_19755"><surname>Schmidl</surname></rs> und <rs type="person" xml:id="pNt_59112"><forename>Gerty</forename></rs>. Meine <rs type="place" xml:id="pl_12336" ref="#place_923c9d6aaf18f34b857e3d32ee926c57" ana="#exclude">amerik.</rs> und andre geschäftliche 
 Erlebnisse und Correspondenzen zum besten gegeben.―</p>
-            <p xml:space="preserve" rend="indent">Zum Thee <rs type="person" xml:id="pNt_59113" ref="#person_20729"><roleName>Dr.</roleName> <surname>Thullner</surname></rs> und Frau <rs type="person" xml:id="pNt_59114" ref="#person_16169"><surname>Herzog</surname></rs> (Sängerin). Er erzählt von <rs type="place" xml:id="pl_12337" ref="#place_601df943a89d2ac73e0e43a5d37fc228">Ungarn</rs> 
+            <p xml:space="preserve" rend="indent">Zum Thee <rs type="person" xml:id="pNt_59113" ref="#person_20729"><roleName>Dr.</roleName> <surname>Thullner</surname></rs> und Frau <rs type="person" xml:id="pNt_59114" ref="#person_16169"><surname>Herzog</surname></rs> (Sängerin). Er erzählt von <rs type="place" xml:id="pl_12337" ref="#pmb35512">Ungarn</rs> 
 (wo er bis vor kurzem gelebt) vom rothen und weißen Terror.―</p>
             <p xml:space="preserve" rend="indent">Abds. (Regen) auf meinem Balkon <rs type="work" subtype="self" xml:id="bibl_4130">1912</rs> weiter durchgesehn. Tiefe 
 schmerzvolle Depression.―</p>
@@ -195,6 +199,5 @@ schmerzvolle Depression.―</p>
             <p xml:space="preserve" rend="indent">― Lese <rs type="person" xml:id="pNt_59117"><surname>Brehm</surname></rs> (heute z. B. Kameele), <rs type="person" xml:id="pNt_59118" ref="#person_15499"><surname>Goethe</surname></rs> <rs type="work" xml:id="bibl_4132">Wahrheit und Dichtung</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

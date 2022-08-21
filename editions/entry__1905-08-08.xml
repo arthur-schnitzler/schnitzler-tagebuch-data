@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-08-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-08-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-08-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-08-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-08-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-08-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F7A9-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,18 +176,20 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2110.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1905-08-08">
             <p xml:space="preserve"><date when="1905-08-08">8/8</date> Vorm. an der <rs type="work" subtype="self" xml:id="bibl_15827">Vtm.</rs> gefeilt.―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="work" subtype="self" xml:id="bibl_15828">Tgb.</rs> 1895 gelesen.― Tennis.―</p>
-            <p xml:space="preserve" rend="indent">Mit O. (von der <rs type="place" xml:id="pl_05264" ref="#place_a25ff6cb521df1cd0272d03eee7efd32">Brühl</rs>) <rs type="place" xml:id="pl_05265" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs> genachtm. Las ihr dann 
+            <p xml:space="preserve" rend="indent">Mit O. (von der <rs type="place" xml:id="pl_05264" ref="#pmb44413">Brühl</rs>) <rs type="place" xml:id="pl_05265" ref="#pmb113">Türkenschanzpark</rs> genachtm. Las ihr dann 
 „<rs type="work" subtype="self" xml:id="bibl_15829">Vatermörderin</rs>“ vor, die 2 ersten Akte sehr gelungen, am 3. noch 
 manches zu machen.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

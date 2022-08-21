@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1907-06-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-06-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-06-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1907-06-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-06-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-06-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FA59-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2398.tif"/>
@@ -180,10 +184,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1907-06-27">
-            <p xml:space="preserve"><date when="1907-06-27">27/6</date> <rs type="place" xml:id="pl_06014" ref="#place_9411cbb4eebe5b8e9deb98dcebbc3b9d">Klagenfurt</rs>. Vm. allein <rs type="place" xml:id="pl_06015" ref="#place_fc2652ac7ac1c389bec19046fc131328x">Kreuzberg</rs>.</p>
-            <p xml:space="preserve" rend="indent">Mit O. Rundfahrt <rs type="place" xml:id="pl_06016" ref="#place_ccd2a8ffe72453fd32a08412ff1ff875">Wörthersee</rs>.</p>
+            <p xml:space="preserve"><date when="1907-06-27">27/6</date> <rs type="place" xml:id="pl_06014" ref="#pmb91030">Klagenfurt</rs>. Vm. allein <rs type="place" xml:id="pl_06015" ref="#pmb92348">Kreuzberg</rs>.</p>
+            <p xml:space="preserve" rend="indent">Mit O. Rundfahrt <rs type="place" xml:id="pl_06016" ref="#pmb430">Wörthersee</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-04-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-04-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-04-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-04-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-04-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-04-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-17D2-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7064.tif"/>
@@ -182,11 +186,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1928-04-04">
-            <p xml:space="preserve"><date when="1928-04-04">4/4</date> Vm. allerlei geordnet. <rs type="place" xml:id="pl_17868" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs>.</p>
-            <p xml:space="preserve" rend="indent">Zu Tisch <rs type="person" xml:id="pNt_83415" ref="#person_16819"><forename>Alfred</forename> <surname>Kerr</surname></rs> und Frau. Er hatte in <rs type="place" xml:id="pl_17869" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> (im <rs type="place" ref="#place_volkstheater">Volksth.</rs>), 
-in <rs type="place" xml:id="pl_17870" ref="#place_9fed5dae86e3030d9be3740efa198659">Budapest</rs> gelesen, und gestern war ein Diner im P. E. N. gewesen ― 
+            <p xml:space="preserve"><date when="1928-04-04">4/4</date> Vm. allerlei geordnet. <rs type="place" xml:id="pl_17868" ref="#pmb113">Türkenschanzpark</rs>.</p>
+            <p xml:space="preserve" rend="indent">Zu Tisch <rs type="person" xml:id="pNt_83415" ref="#person_16819"><forename>Alfred</forename> <surname>Kerr</surname></rs> und Frau. Er hatte in <rs type="place" xml:id="pl_17869" ref="#pmb50">Wien</rs> (im <rs type="place" ref="#pmb92202">Volksth.</rs>), 
+in <rs type="place" xml:id="pl_17870" ref="#pmb43471">Budapest</rs> gelesen, und gestern war ein Diner im P. E. N. gewesen ― 
 Hatte nirgends beigewohnt ― Er drückte seine Verwunderung aus dass 
-so wenig ― und in <rs type="place" xml:id="pl_17871" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> meine letzten 3 Stücke überhaupt nicht 
+so wenig ― und in <rs type="place" xml:id="pl_17871" ref="#pmb168">Berlin</rs> meine letzten 3 Stücke überhaupt nicht 
 gespielt worden seien. Solle über ihn verfügen. Ich sagte dass ich 
 von dergleichen im allgemeinen nicht Gebrauch mache ― und keineswegs 
 sein Eintreten wünsche ― wenn er selbst die Sache nicht für gut halte. 
@@ -200,6 +204,5 @@ Und man soll über die andern ungehalten sein?</p>
             <p xml:space="preserve" rend="indent">Z. N. <rs type="person" xml:id="pNt_83416" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>;― es war wieder einmal ein ganz guter Abend.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

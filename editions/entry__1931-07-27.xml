@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-07-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1931-07-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1C8A-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7746.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1931-07-27">
-            <p xml:space="preserve"><date when="1931-07-27">27/7</date> <rs type="place" xml:id="pl_20035" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs>.― In der Früh erklärt <rs type="person" xml:id="pNt_93487" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>, dass sie heut hinunterfahre. 
+            <p xml:space="preserve"><date when="1931-07-27">27/7</date> <rs type="place" xml:id="pl_20035" ref="#pmb91735">Semmering</rs>.― In der Früh erklärt <rs type="person" xml:id="pNt_93487" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>, dass sie heut hinunterfahre. 
 Und damit ― Ende. Ausbruch ― wegen <rs type="person" xml:id="pNt_93488" ref="#person_14234"><forename>Suz.</forename></rs> Meine Correspondenz mit ihr ― sie 
 habe die Couverts in meinem Papierkorb gefunden (allerdings vorher gesucht) 
 alles angesammelte kam heraus; und maßlose Beschimpfung auf <rs type="person" xml:id="pNt_93489" ref="#person_14234"><forename>Suz.</forename></rs>,― auch 
@@ -197,7 +201,7 @@ Sommertag. Mir weh ums Herz. Trotzdem bitte ich sie nicht zu bleiben ―
 u. s. w.―  Esse unten mit <rs type="person" xml:id="pNt_93490" ref="#person_19704"><surname>Sch.</surname></rs> allein.― Hinauf zu ihr; noch ein paar 
 böse Worte von ihr. Hinunter.― Auf der Bank vor dem Hotel. ― Eh der 
 Omnibus wegfährt, sag ich ihr. Heut vor 3 Jahren landete mein Aeroplan 
-in <rs type="place" xml:id="pl_20036" ref="#place_e4d4b19346747823e5636ed1238a7521">Venedig</rs> ― (da erwartete uns <rs type="person" xml:id="pNt_93491" ref="#person_14129"><forename>Arnoldo</forename></rs> mit der Todesnachricht).― Sie 
+in <rs type="place" xml:id="pl_20036" ref="#pmb462">Venedig</rs> ― (da erwartete uns <rs type="person" xml:id="pNt_93491" ref="#person_14129"><forename>Arnoldo</forename></rs> mit der Todesnachricht).― Sie 
 hatte mich gebeten, nicht auf die Bahn mitzufahren; <rs type="person" xml:id="pNt_93492" ref="#person_19704"><surname>Sch.</surname></rs> begleitet sie 
 im Omnibus.―</p>
             <p xml:space="preserve" rend="indent">― Dass es so nicht weiterging ― ist gewiss;― dass sie Anlass zur 
@@ -211,6 +215,5 @@ bescheiden. Hätte sie können.― Nun ist es wohl wirklich aus.― Wieder
 einmal …</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

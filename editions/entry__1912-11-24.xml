@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-11-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-11-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-11-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-11-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-11-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-11-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-01EE-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3519.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1912-11-24">
-            <p xml:space="preserve"><date when="1912-11-24">24/11</date> S. <rs type="place" xml:id="pl_08095" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>. Hotel <rs type="person" xml:id="pNt_39376"><surname>Adlon</surname></rs>.―</p>
+            <p xml:space="preserve"><date when="1912-11-24">24/11</date> S. <rs type="place" xml:id="pl_08095" ref="#pmb168">Berlin</rs>. Hotel <rs type="person" xml:id="pNt_39376"><surname>Adlon</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Spaziergang mit O., zu <rs type="person" xml:id="pNt_39377" ref="#person_13913"><surname>Brahm</surname></rs>. <rs type="person" xml:id="pNt_39378" ref="#person_16572"><roleName>Frau</roleName> <surname>Jonas</surname></rs> dort, später Justizrath 
 und Tochter <rs type="person" xml:id="pNt_39379" ref="#person_18972"><forename>Eva</forename></rs>. Morgen Operation. Er scheint (?) es leicht zu 
 nehmen. Über „Sommer“, die nächste Novität, und „<rs type="work" xml:id="bibl_10599">Die große 
@@ -195,6 +199,5 @@ Liebe</rs>“ von <rs type="person" xml:id="pNt_39380" ref="#person_17834"><surn
             <p xml:space="preserve" rend="indent">Kaiserhof; mit <rs type="person" xml:id="pNt_39387" ref="#person_13428"><surname>Barnowsky</surname></rs> und <rs type="person" xml:id="pNt_39388"><surname>Michaelis</surname></rs> ―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

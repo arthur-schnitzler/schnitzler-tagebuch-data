@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-04-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-04-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-04-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-04-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-04-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-04-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FB65-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2501.tif"/>
@@ -180,10 +184,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1908-04-26">
-            <p xml:space="preserve"><date when="1908-04-26">26/4</date> S. Nm. in <rs type="place" xml:id="pl_06273" ref="#place_84465f5d4faee0a7e284c0f3878b528a">Riva</rs>. Hotel du lac.―</p>
-            <p xml:space="preserve" rend="indent">Spazierfahrt <rs type="place" xml:id="pl_06274" ref="#place_5b68ebcbd53bc488fcf01236211bd325">Torbole</rs>.</p>
+            <p xml:space="preserve"><date when="1908-04-26">26/4</date> S. Nm. in <rs type="place" xml:id="pl_06273" ref="#pmb91602">Riva</rs>. Hotel du lac.―</p>
+            <p xml:space="preserve" rend="indent">Spazierfahrt <rs type="place" xml:id="pl_06274" ref="#pmb40294">Torbole</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

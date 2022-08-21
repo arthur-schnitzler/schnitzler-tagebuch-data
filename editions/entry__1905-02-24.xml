@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-02-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-02-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-02-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-02-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-02-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-02-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F705-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2047.tif"/>
@@ -181,11 +185,10 @@
       <body>
          <div type="diary-day" xml:id="entry__1905-02-24">
             <p xml:space="preserve"><date when="1905-02-24">24/2</date> Vm. mit O. Stadt Besorgungen.―</p>
-            <p xml:space="preserve" rend="indent">Nm. Bote von <rs ref="#person_19831" type="person" xml:id="pNt_22515"><surname>Schenker</surname></rs>, Platz für den 6. März.― (<rs type="place" xml:id="pl_05071" ref="#place_7fc3dbc3496d4ac1533526f7b163ceab">Genua</rs>.)</p>
+            <p xml:space="preserve" rend="indent">Nm. Bote von <rs ref="#person_19831" type="person" xml:id="pNt_22515"><surname>Schenker</surname></rs>, Platz für den 6. März.― (<rs type="place" xml:id="pl_05071" ref="#pmb994">Genua</rs>.)</p>
             <p xml:space="preserve" rend="indent">Am <rs type="work" subtype="self" xml:id="bibl_15562">Roman</rs>.―</p>
             <p xml:space="preserve" rend="indent">Abds. bei <rs type="allusively" xml:id="rst_00531">Mama</rs> mit O.― <rs type="person" xml:id="pNt_22516" ref="#person_17909"><forename>Raoul</forename></rs> &amp; <rs type="person" xml:id="pNt_22517" ref="#person_19440"><roleName>Frl.</roleName> <surname>Roussel</surname></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

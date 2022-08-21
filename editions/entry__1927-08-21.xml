@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-08-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-08-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-08-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-08-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-08-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-08-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-16EF-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6932.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1927-08-21">
-            <p xml:space="preserve"><date when="1927-08-21">21/8</date> <rs type="place" xml:id="pl_17500" ref="#place_0c8a0ca19b8a880f6aec12e3d3fe5c05">Karersee</rs>. Gespräche mit <rs type="person" xml:id="pNt_81536" ref="#person_18137"><forename>Dora</forename></rs>; mit <rs type="person" xml:id="pNt_81537" ref="#person_19832"><forename>O.</forename></rs> wieder auf den Wiesen 
+            <p xml:space="preserve"><date when="1927-08-21">21/8</date> <rs type="place" xml:id="pl_17500" ref="#pmb91003">Karersee</rs>. Gespräche mit <rs type="person" xml:id="pNt_81536" ref="#person_18137"><forename>Dora</forename></rs>; mit <rs type="person" xml:id="pNt_81537" ref="#person_19832"><forename>O.</forename></rs> wieder auf den Wiesen 
 spazieren.―</p>
             <p xml:space="preserve" rend="indent">Mittag im Hotel.―</p>
             <p xml:space="preserve" rend="indent">Gegen Abend Spazierg. mit <rs type="person" xml:id="pNt_81538"><surname>Michaelis</surname></rs>, <rs type="person" xml:id="pNt_81539" ref="#person_18137"><forename>Dora</forename></rs> und der <rs type="person" xml:id="pNt_81540" ref="#person_18141"><forename>Lor-Braut</forename></rs> ― Blick auf 
@@ -192,6 +196,5 @@ Antiqu.-Pläne u. dgl.―</p>
             <p xml:space="preserve" rend="indent">Sass spät noch lang auf ihrem Bett, wie in früherer Zeit …―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-04-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-04-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-04-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-04-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-04-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-04-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-167D-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6856.tif"/>
@@ -181,14 +185,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1927-04-29">
-            <p xml:space="preserve"><date when="1927-04-29">29/4</date> <rs type="place" xml:id="pl_17255" ref="#place_e4d4b19346747823e5636ed1238a7521">Venedig</rs>.― Spaziergang.― Begegnung <rs type="person" xml:id="pNt_80476" ref="#person_20373"><forename>Herbert</forename> <surname>Steiner</surname></rs> (<rs type="place" xml:id="pl_17256" ref="#place_103a821a3a6a0b923c9f74a39662bb51">Zürich</rs>).― Mit 
+            <p xml:space="preserve"><date when="1927-04-29">29/4</date> <rs type="place" xml:id="pl_17255" ref="#pmb462">Venedig</rs>.― Spaziergang.― Begegnung <rs type="person" xml:id="pNt_80476" ref="#person_20373"><forename>Herbert</forename> <surname>Steiner</surname></rs> (<rs type="place" xml:id="pl_17256" ref="#pmb484">Zürich</rs>).― Mit 
 <rs type="person" xml:id="pNt_80477" ref="#person_14130"><forename>Lili</forename></rs> und <rs type="person" xml:id="pNt_80478" ref="#person_14129"><forename>Arn.</forename></rs> Olympia gegessen.―</p>
             <p xml:space="preserve" rend="indent">Nm. (immer sehr müd),― versucht an <rs type="work" subtype="self" xml:id="bibl_24355">aphor.</rs> zu arbeiten. Briefe (von <rs type="person" xml:id="pNt_80479" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> 
 täglich, nach 11täg. Bettruhe aufgestanden), von <rs type="person" xml:id="pNt_80480" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs>―</p>
             <p xml:space="preserve" rend="indent">Spaziergänge.</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_80481" ref="#person_14130"><forename>Lili</forename></rs> und <rs type="person" xml:id="pNt_80482" ref="#person_14129"><forename>Arn.</forename></rs> <rs type="place" ref="#place_bonvecchiati">Bonvecchiati</rs> genachtm., dann bei „<rs type="person" xml:id="pNt_80484"><surname>Florian</surname></rs>“.</p>
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_80481" ref="#person_14130"><forename>Lili</forename></rs> und <rs type="person" xml:id="pNt_80482" ref="#person_14129"><forename>Arn.</forename></rs> <rs type="place" ref="#pmb92174">Bonvecchiati</rs> genachtm., dann bei „<rs type="person" xml:id="pNt_80484"><surname>Florian</surname></rs>“.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-05-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-04-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-05-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-05-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-04-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-05-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0B18-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4835.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1919-05-01">
-            <p xml:space="preserve"><date when="1919-05-01">1/5</date> Spazierg. Hameau, <rs type="place" xml:id="pl_11611" ref="#place_b900112ce988d972bc2d561413e84979">Sofienalpe</rs>, <rs type="place" xml:id="pl_11612" ref="#place_75f2e194839d6ba0e5d4080c211a449a">Dornbacher Park</rs>.― Frühlingstag, 
+            <p xml:space="preserve"><date when="1919-05-01">1/5</date> Spazierg. Hameau, <rs type="place" xml:id="pl_11611" ref="#pmb92533">Sofienalpe</rs>, <rs type="place" xml:id="pl_11612" ref="#pmb176">Dornbacher Park</rs>.― Frühlingstag, 
 Sonne, kühle Winde. War innerlich beschäftigt mit der neuesten 
 drohend frechen Enunciation der Arbeiterräte (<rs type="person" xml:id="pNt_55924" ref="#person_13096"><forename>Friedrich</forename> <surname>Adler</surname></rs>) entwarf 
 <rs type="person" xml:id="pNt_55925"><surname>platonische</surname></rs> Briefe, dachte über die willkürlich agitatorische 
@@ -198,6 +202,5 @@ kommunistische. Und in den christlichen Gruppen schrien sie: „Nieder
 mit den Juden.“―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

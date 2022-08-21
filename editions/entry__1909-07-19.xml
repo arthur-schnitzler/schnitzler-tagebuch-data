@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-07-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-07-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-07-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-07-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-07-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-07-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FD26-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2729.tif"/>
@@ -182,11 +186,10 @@
       <body>
          <div type="diary-day" xml:id="entry__1909-07-19">
             <p xml:space="preserve"><date when="1909-07-19">19/7</date> Spazieren. <rs type="work" subtype="self" xml:id="bibl_12764">Medardus</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Mit O. <rs type="place" xml:id="pl_06760" ref="#place_62abecfac3ba329cf2d2736a2d24dd89">Prein</rs>.</p>
+            <p xml:space="preserve" rend="indent">Mit O. <rs type="place" xml:id="pl_06760" ref="#pmb49072">Prein</rs>.</p>
             <p xml:space="preserve" rend="indent">Las die „<rs type="work" xml:id="bibl_12765">Verhüllte</rs>“ (<rs type="person" xml:id="pNt_30671" ref="#person_14922"><surname>Fekete</surname></rs>, vom Autor als Mscrpt. übersandt) 
 wenig Talent aber viel Widerwärtigkeit.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

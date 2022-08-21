@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-03-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-03-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-03-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-03-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-03-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-03-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F722-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2058.tif"/>
@@ -180,14 +184,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1905-03-26">
-            <p xml:space="preserve"><date when="1905-03-26">26/3</date> S.― Vm. spazieren mit O. und <rs type="person" xml:id="pNt_22645" ref="#person_14792"><roleName>Frl.</roleName> <surname>Erl</surname></rs> <rs type="place" xml:id="pl_05127" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> ― 
-<rs type="place" xml:id="pl_05128" ref="#place_a513bae177c89d12226f343ac5ff1ee3">Salmannsdorf</rs>, <rs type="place" xml:id="pl_05129" ref="#place_c79ad839f84019f53250a4e6365359f9">Neuwaldegg</rs>. Regen.―</p>
+            <p xml:space="preserve"><date when="1905-03-26">26/3</date> S.― Vm. spazieren mit O. und <rs type="person" xml:id="pNt_22645" ref="#person_14792"><roleName>Frl.</roleName> <surname>Erl</surname></rs> <rs type="place" xml:id="pl_05127" ref="#pmb169">Pötzleinsdorf</rs> ― 
+<rs type="place" xml:id="pl_05128" ref="#pmb91641">Salmannsdorf</rs>, <rs type="place" xml:id="pl_05129" ref="#pmb170">Neuwaldegg</rs>. Regen.―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="allusively" xml:id="rst_00543">Mama</rs>. <rs type="person" xml:id="pNt_22646" ref="#person_17909"><forename>Raoul</forename></rs> <rs type="person" xml:id="pNt_22647" ref="#person_15854"><forename>Gisa</forename></rs>, <rs type="person" xml:id="pNt_22648" ref="#person_16894"><forename>Margot</forename></rs>.― Mit <rs type="person" xml:id="pNt_22649" ref="#person_17909"><forename>Raoul</forename></rs> <rs type="work" xml:id="bibl_15597">5.</rs> <rs type="person" xml:id="pNt_22650" ref="#person_20822"><surname>Tschaikowski</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Zu Hause am <rs type="work" subtype="self" xml:id="bibl_15598">Stück</rs> (2. A. neu skizzirt).―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_22651" ref="#person_14792"><roleName>Frl.</roleName> <surname>Erl</surname></rs> nachtmahlte da.―</p>
             <p xml:space="preserve" rend="indent">Spielte <rs type="work" xml:id="bibl_15599">Meistersinger</rs>, spielten Lieder durch. (O. und ich.) ―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

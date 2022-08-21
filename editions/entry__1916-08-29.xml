@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1916-08-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-08-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-08-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1916-08-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-08-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-08-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-074A-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4314.tif"/>
@@ -181,8 +185,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1916-08-29">
-            <p xml:space="preserve"><date when="1916-08-29">29/8</date> Spaziergang Bärmoos ― Loitzl ― <rs type="place" xml:id="pl_10142" ref="#place_661f4200c3f047474d1df224f62f0503">Aussee</rs> ― <rs type="place" xml:id="pl_10143" ref="#place_74e84e7569d93f1c0a8aa869c6f5e310">Leonhard</rs> ― 
-<rs type="place" xml:id="pl_10144" ref="#place_b9f92e13cdacfecdbd060ede5f6c8981">Pötschenstraße</rs> ― zurück. Wunderbares Herbstwetter.―</p>
+            <p xml:space="preserve"><date when="1916-08-29">29/8</date> Spaziergang Bärmoos ― Loitzl ― <rs type="place" xml:id="pl_10142" ref="#pmb415">Aussee</rs> ― <rs type="place" xml:id="pl_10143" ref="#pmb92368">Leonhard</rs> ― 
+<rs type="place" xml:id="pl_10144" ref="#pmb92454">Pötschenstraße</rs> ― zurück. Wunderbares Herbstwetter.―</p>
             <p xml:space="preserve" rend="indent">Die Pässe sind vidirt von Dr. <rs type="person" xml:id="pNt_48622" ref="#person_13091"><surname>Adler</surname></rs> an uns gesandt.―</p>
             <p xml:space="preserve" rend="indent">Mittag bei <rs type="person" xml:id="pNt_48623" ref="#person_18388"><forename>Hansi v.</forename> <surname>L.</surname></rs> auf der Terrasse, mit O., <rs type="person" xml:id="pNt_48624" ref="#person_19431"><surname>Rothschild</surname></rs>, <rs type="person" xml:id="pNt_48625" ref="#person_20372"><surname>Steiner</surname></rs>, 
 Frau <rs type="person" xml:id="pNt_48626" ref="#person_20019"><forename>Nolly</forename> <surname>Seemann</surname></rs>.― Dann auf dem schönen Platz am See. Heiterkeit 
@@ -193,6 +197,5 @@ Veranda zu. Frau <rs type="person" xml:id="pNt_48628" ref="#person_20019"><foren
             <p xml:space="preserve" rend="indent">Nach dem Nachtm. bei <rs type="person" xml:id="pNt_48629" ref="#person_16074"><surname>Hellmanns</surname></rs>. O. sang.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

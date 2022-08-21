@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1890-09-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-09-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-09-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1890-09-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-09-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1890-09-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E327-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0474.tif"/>
@@ -298,9 +302,8 @@ dieses Mädel das erste Mal geküsst habe, hab ich eigentlich keinen
 andern Gedanken als sie, sie, sie ― Es ist weder traurig noch lustig ― 
 es ist halt so ― Daß man sich damit nicht begnügen kann!―</p>
             <p xml:space="preserve" rend="center">[Chronik September]</p>
-            <p xml:space="preserve"><date when="1890-09-19">19.</date> <rs type="place" xml:id="pl_00993" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> ― <rs type="place" xml:id="pl_00994" ref="#place_c38ad36647aca0261d667c432a4866bd">Salzburg</rs>.― Allein.― <rs type="place" xml:id="pl_00995" ref="#place_74fdd4bc634a1360e10d6f45327f7e2e">Parsch</rs> ― <rs type="place" xml:id="pl_00996" ref="#place_f999d6e8a6abcf3cdb94ed626a65099e">Mönchsberg</rs>.</p>
+            <p xml:space="preserve"><date when="1890-09-19">19.</date> <rs type="place" xml:id="pl_00993" ref="#pmb50">Wien</rs> ― <rs type="place" xml:id="pl_00994" ref="#pmb91649">Salzburg</rs>.― Allein.― <rs type="place" xml:id="pl_00995" ref="#pmb49759">Parsch</rs> ― <rs type="place" xml:id="pl_00996" ref="#pmb91270">Mönchsberg</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

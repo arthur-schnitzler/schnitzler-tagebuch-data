@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-03-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-03-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-03-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-03-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-03-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-03-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-17B9-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7051.tif"/>
@@ -182,13 +186,12 @@
       <body>
          <div type="diary-day" xml:id="entry__1928-03-10">
             <p xml:space="preserve"><date when="1928-03-10">10/3</date> Vm. dictirt Briefe (an <rs type="person" xml:id="pNt_83165" ref="#person_15009"><surname>Fischer</surname></rs>, wegen der häßlichen 
-Einbandmuster <rs type="work" subtype="self" xml:id="bibl_19222">Therese</rs>;― die <rs type="work" subtype="self" xml:id="bibl_19223">Bernhardi</rs> Tantièmen <rs type="place" xml:id="pl_17829" ref="#place_67eb2b8d0aab60ec69666532ff9527c9">Holland</rs> etc.) ― 
+Einbandmuster <rs type="work" subtype="self" xml:id="bibl_19222">Therese</rs>;― die <rs type="work" subtype="self" xml:id="bibl_19223">Bernhardi</rs> Tantièmen <rs type="place" xml:id="pl_17829" ref="#pmb44016">Holland</rs> etc.) ― 
 „<rs type="work" subtype="self" xml:id="bibl_19224">Spiel der Sommerluft</rs>“ ― </p>
             <p xml:space="preserve" rend="indent">Nm. mit „<rs type="work" subtype="self" xml:id="bibl_19225">Spiel d. M.</rs>“ beschäftigt.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_83166" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Kino <rs type="work" xml:id="bibl_19226">Auferstehung</rs> (<rs type="person" xml:id="pNt_83167" ref="#person_17330"><surname>Rocque</surname></rs>, <rs type="person" xml:id="pNt_83168" ref="#person_14406"><surname>Rio</surname></rs>); im Opernrest. soupirt.―</p>
             <p xml:space="preserve" rend="indent">Weitres im Mscrpt. des neuen Romans von <rs type="person" xml:id="pNt_83169" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> gelesen.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

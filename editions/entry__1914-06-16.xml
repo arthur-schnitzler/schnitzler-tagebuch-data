@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-06-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-06-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-06-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-06-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-06-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-06-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0427-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,17 +177,19 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3840.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1914-06-16">
             <p xml:space="preserve"><date when="1914-06-16">16/6</date> Dictirt <rs type="work" subtype="self" xml:id="bibl_8869">Graesler</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="place" xml:id="pl_08766" ref="#place_3c02fd00737fc820ba34ecf08dc88798" ana="#exclude">Gallner</rs> Briefe zu Ende. 21 Jahre her … Wie kurz ist das Leben.―</p>
             <p xml:space="preserve" rend="indent">Im „Schutzengel“, wo O.,<rs type="person" xml:id="pNt_43616" ref="#person_13359"><forename>Stephi</forename></rs>, <rs type="person" xml:id="pNt_43617" ref="#person_21600"><forename>Mimi</forename></rs>, <rs type="person" xml:id="pNt_43618" ref="#person_18786"><roleName>Frau</roleName> <surname>Piekarski</surname></rs>, „<rs type="person" xml:id="pNt_43619" ref="#person_17425"><roleName>Onkel</roleName> <forename>Max</forename></rs>“, 
 <rs type="person" xml:id="pNt_43620" ref="#person_21614"><forename>Stefan</forename> <surname>Zweig</surname></rs>.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-09-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-08-31.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-09-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-08-31.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0A26-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4694.tif"/>
@@ -181,15 +185,14 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1918-09-01">
-            <p xml:space="preserve"><date when="1918-09-01">1/9</date> S.― Spaz. <rs type="place" xml:id="pl_11193" ref="#place_864d953d6b1160e1302d76f320123558">Wamberg</rs> ― <rs type="place" xml:id="pl_11194" ref="#place_37a4a35f9145c52edcef16f7dab444fd">Kaltenbrunn</rs> Gschwandnerbauer ― <rs type="place" xml:id="pl_11195" ref="#place_502a91893399db24435cbaec132d5c2e">Mittenwald Straße</rs>.</p>
+            <p xml:space="preserve"><date when="1918-09-01">1/9</date> S.― Spaz. <rs type="place" xml:id="pl_11193" ref="#pmb92043">Wamberg</rs> ― <rs type="place" xml:id="pl_11194" ref="#pmb90985">Kaltenbrunn</rs> Gschwandnerbauer ― <rs type="place" xml:id="pl_11195" ref="#pmb92406">Mittenwald Straße</rs>.</p>
             <p xml:space="preserve" rend="indent">― Im „<rs type="person" xml:id="pNt_54041"><surname>Tannenberg</surname></rs>“ die gleichen entzückenden Zimmer wie voriges Jahr 
 mit dem wunderbaren Blick über die Wiesen zu den Bergen hin.― Villa 
 Zufriedenheit, wo <rs type="person" xml:id="pNt_54042" ref="#person_20386"><forename>Liesl</forename></rs> wohnt. Die brave <rs type="person" xml:id="pNt_54043"><forename>Anna</forename></rs>.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_54044"><forename>Walther</forename> <surname>G.</surname></rs>, der Stiefbruder, in <rs type="place" xml:id="pl_11196" ref="#place_d0a6343a081a7335baa965ce4fd0845c">München</rs> bei einem Zahnarzt;― 15 Jahre,― 
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_54044"><forename>Walther</forename> <surname>G.</surname></rs>, der Stiefbruder, in <rs type="place" xml:id="pl_11196" ref="#pmb45258">München</rs> bei einem Zahnarzt;― 15 Jahre,― 
 wird seinen Weg machen.―</p>
             <p xml:space="preserve" rend="indent">In der Villa <rs type="person" xml:id="pNt_54045" ref="#person_19608"><surname>Schäuffelen</surname></rs>, von der Hausfrau gebeten. Entzückt.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

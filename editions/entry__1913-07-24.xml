@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-07-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-07-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-07-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-07-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-07-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-07-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-02E0-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,18 +177,20 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3664.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1913-07-24">
-            <p xml:space="preserve"><date when="1913-07-24">24/7</date> Ankunft <rs type="place" xml:id="pl_08363" ref="#place_8ac85cc83788186b74cc9ca468d300c5">Brioni</rs> im Regen. <rs type="person" xml:id="pNt_41225" ref="#person_19755"><surname>Schmidls</surname></rs>, <rs type="person" xml:id="pNt_41226" ref="#person_21602"><forename>Vicki</forename></rs> am Schiff.― Auspacken. 
+            <p xml:space="preserve"><date when="1913-07-24">24/7</date> Ankunft <rs type="place" xml:id="pl_08363" ref="#pmb45260">Brioni</rs> im Regen. <rs type="person" xml:id="pNt_41225" ref="#person_19755"><surname>Schmidls</surname></rs>, <rs type="person" xml:id="pNt_41226" ref="#person_21602"><forename>Vicki</forename></rs> am Schiff.― Auspacken. 
 Bad bei 15°.―</p>
             <p xml:space="preserve" rend="indent">Nm. gelesen (<rs type="work" xml:id="bibl_9560">Sinngedicht</rs>).― Abd. spazieren, mit <rs ref="#person_21601" type="person" xml:id="pNt_41227"><surname>Zuckerkandls</surname></rs> und 
 <rs type="person" xml:id="pNt_41228" ref="#person_19755"><surname>Schmidls</surname></rs>; in ihrer Villa Punta naso. Herrlicher Blick.― Nach dem 
 Nachtm. spielte <rs type="person" xml:id="pNt_41229" ref="#person_15378"><surname>Geldstet</surname></rs>.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

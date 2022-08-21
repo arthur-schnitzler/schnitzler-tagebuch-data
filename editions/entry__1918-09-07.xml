@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-09-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-09-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0A2C-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4696.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1918-09-07">
-            <p xml:space="preserve"><date when="1918-09-07">7/9</date> <rs type="place" xml:id="pl_11208" ref="#place_3446366bf01f328bae3d1cfde3b4529e">Rissermoos</rs> ― gegen <rs type="place" xml:id="pl_11209" ref="#place_aef7ae44f86b8d7b83e2f82f8e92d43c">Hammersbach</rs>.</p>
+            <p xml:space="preserve"><date when="1918-09-07">7/9</date> <rs type="place" xml:id="pl_11208" ref="#pmb92486">Rissermoos</rs> ― gegen <rs type="place" xml:id="pl_11209" ref="#pmb90833">Hammersbach</rs>.</p>
             <p xml:space="preserve" rend="indent">Auf dem Rückweg bei <rs type="person" xml:id="pNt_54085" ref="#person_20386"><forename>Liesl</forename></rs>. Maler <rs type="person" xml:id="pNt_54086" ref="#person_19909"><surname>Schülein</surname></rs> und seine Frau Malerin. 
 (<rs type="place" xml:id="pl_11210" ref="#place_121d5e170adc3facffc0a0bb97e5de10" ana="#exclude">Französin</rs>, charmant, bizarr.) ―</p>
             <p xml:space="preserve" rend="indent">Jause bei der guten <rs type="person" xml:id="pNt_54087" ref="#person_16984"><forename>Anneliese</forename> <surname>K.</surname></rs> (sie unterrichtet hier;― treu bei 
 <rs type="person" xml:id="pNt_54088" ref="#person_20386"><forename>Liesl</forename></rs>). <rs type="person" xml:id="pNt_54089" ref="#person_19909"><surname>Schüleins</surname></rs>, <rs type="person" xml:id="pNt_54090" ref="#person_17834"><surname>Mann’s</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

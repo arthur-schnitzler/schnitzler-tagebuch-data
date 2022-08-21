@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-04-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-04-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-04-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-04-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-04-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-04-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-10CA-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6028.tif"/>
@@ -183,7 +187,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1923-04-29">
-            <p xml:space="preserve"><date when="1923-04-29">29/4</date> S. Traum: mit den <rs type="allusively" xml:id="rst_02001">Kindern</rs> (?) in <rs type="place" xml:id="pl_14665" ref="#place_971d9360a377fa82fd2640a5119b1112">Schönbrunn</rs>,― schönes Blumenparket, 
+            <p xml:space="preserve"><date when="1923-04-29">29/4</date> S. Traum: mit den <rs type="allusively" xml:id="rst_02001">Kindern</rs> (?) in <rs type="place" xml:id="pl_14665" ref="#pmb92518">Schönbrunn</rs>,― schönes Blumenparket, 
 will zum <rs type="place" xml:id="pl_14666" ref="#place_ffc2b4ba8a523d541fc96d2c7edf9ed7" ana="#exclude">Hietzinger</rs> Thor,― dort im Park eine ital. Barockkirche; bin 
 verwundert;― dann versteh ichs ― war ja immer da, steige die Stufen hinauf 
 (das ganze coulissenhaft) ― drinnen ein großes Wandgemälde ― viele 
@@ -199,13 +203,12 @@ und entschuldigt sich.―</p>
             <p xml:space="preserve" rend="indent">― Hole <rs type="person" xml:id="pNt_69272"><forename>B.</forename> <surname>B.</surname></rs> ab;― über <rs type="person" xml:id="pNt_69273" ref="#person_17509"><surname>Lichtensterns</surname></rs>,― die uns im Auto mitnehmen 
 wollten, zu <rs type="person" xml:id="pNt_69274" ref="#person_15855"><surname>Hajek</surname></rs>; die Untersuchung der Mandeln ergab die Richtigkeit meiner 
 Vermuthung; ― <rs type="person" xml:id="pNt_69275"><surname>H.</surname></rs> räth zur Ausschälung;― <rs type="person" xml:id="pNt_69276"><forename>B.</forename> <surname>B.</surname></rs> will auf eine Weile nach 
-<rs type="place" xml:id="pl_14670" ref="#place_67eb2b8d0aab60ec69666532ff9527c9">Holland</rs>, und dann zum Zweck der Operation wieder her.―</p>
+<rs type="place" xml:id="pl_14670" ref="#pmb44016">Holland</rs>, und dann zum Zweck der Operation wieder her.―</p>
             <p xml:space="preserve" rend="indent">Sie speist bei uns, schläft nachher auf dem Divan;― schreibt den 
-Brief an ihren Gatten.― Wir spazieren dann durch den <rs type="place" xml:id="pl_14671" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs> 
+Brief an ihren Gatten.― Wir spazieren dann durch den <rs type="place" xml:id="pl_14671" ref="#pmb113">Türkenschanzpark</rs> 
 Windmühlhöhe, ich spreche von <rs type="person" xml:id="pNt_69277" ref="#person_19832"><forename>O.</forename></rs>;― auch vom „<rs type="work" subtype="self" xml:id="bibl_1801">Verf.</rs>“.―</p>
             <p xml:space="preserve" rend="indent">― Z. N. außer <rs type="person" xml:id="pNt_69278"><forename>B.</forename> <surname>B.</surname></rs>,― <rs type="person" xml:id="pNt_69279" ref="#person_17509"><surname>Lichtensterns</surname></rs>, <rs type="person" xml:id="pNt_69280" ref="#person_16151"><forename>Mizi</forename> <surname>Kende</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

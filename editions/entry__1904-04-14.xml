@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-04-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-04-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-04-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-04-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-04-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-04-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F5C9-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1911.tif"/>
@@ -180,12 +184,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1904-04-14">
-            <p xml:space="preserve"><date when="1904-04-14">14/4</date> Rad <rs type="place" xml:id="pl_04658" ref="#place_6fc6f10422bfe80ddcba23b4f7f080dc">Hietzing</rs>, <rs type="place" xml:id="pl_04659" ref="#place_e3a1571b9091d6d78548ad3b4b159d11">Hetzendorf</rs>, <rs type="place" xml:id="pl_04660" ref="#place_1c95cf6d9ec9bfc2709bedc313fa820b">Lainz</rs> (<rs type="person" xml:id="pNt_21013" ref="#person_21107"><surname>Wassermann’s</surname></rs> gesprochen).</p>
+            <p xml:space="preserve"><date when="1904-04-14">14/4</date> Rad <rs type="place" xml:id="pl_04658" ref="#pmb63">Hietzing</rs>, <rs type="place" xml:id="pl_04659" ref="#pmb48734">Hetzendorf</rs>, <rs type="place" xml:id="pl_04660" ref="#pmb49452">Lainz</rs> (<rs type="person" xml:id="pNt_21013" ref="#person_21107"><surname>Wassermann’s</surname></rs> gesprochen).</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_21014" ref="#person_15183"><surname>Freund</surname></rs> bei mir (in <rs type="work" subtype="self" xml:id="bibl_17064">Reigen</rs>sache); <rs type="person" xml:id="pNt_21015" ref="#person_13473"><forename>L.</forename> <surname>Bauer</surname></rs> wegen seines Stücks das 
 mir nicht gefallen hatte.―</p>
             <p xml:space="preserve" rend="indent">Mit O., <rs type="person" xml:id="pNt_21016" ref="#person_20618"><roleName>Frau</roleName> <surname>Tagger</surname></rs> und Tochter spazieren.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

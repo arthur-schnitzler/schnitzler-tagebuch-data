@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-09-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-09-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-09-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1920-09-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-09-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-09-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0D0E-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5178.tif"/>
@@ -182,16 +186,15 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1920-09-15">
-            <p xml:space="preserve"><date when="1920-09-15">15/9</date> Von <rs type="place" xml:id="pl_12522" ref="#place_e08e2925aa5a062324eb618129ccbf26">Gosau</rs> (mit Träger) über Rußbach (<rs type="place" xml:id="pl_12523" ref="#place_b1b97a3b5a40f421ae518113521ce892">Gschüttpaß</rs>) ― <rs type="place" xml:id="pl_12524" ref="#place_3c135e1202bd00efcbe8ae9648582790">Abtenau</rs>. 
+            <p xml:space="preserve"><date when="1920-09-15">15/9</date> Von <rs type="place" xml:id="pl_12522" ref="#pmb51797">Gosau</rs> (mit Träger) über Rußbach (<rs type="place" xml:id="pl_12523" ref="#pmb90791">Gschüttpaß</rs>) ― <rs type="place" xml:id="pl_12524" ref="#pmb52548">Abtenau</rs>. 
 Zerstörte Straßen. Zum Kurhaus durch Brückenruin Übergang unmöglich. 
 Ich sprach mit dem Wirth, der auf einem Balken stand. Beim rothen Ochsen 
-gegessen. Wunderbare Landschaft. Im Steirerwagerl nach <rs type="place" xml:id="pl_12525" ref="#place_da917b2d10cfdda007fe6b33af58c202">Golling</rs>. Nach kurzem 
+gegessen. Wunderbare Landschaft. Im Steirerwagerl nach <rs type="place" xml:id="pl_12525" ref="#pmb90733">Golling</rs>. Nach kurzem 
 Aufenthalt in dem unfreundl. Bahnhofhotel in das nette „Alte Post“.― 
 <rs type="person" xml:id="pNt_59871" ref="#person_14130"><forename>Lili</forename></rs> hält sich famos.―</p>
             <p xml:space="preserve" rend="indent">Las ein wahrhaft widerliches Buch von <rs type="person" xml:id="pNt_59872" ref="#person_15542"><forename>Alfons</forename> <surname>Goldschmidt</surname></rs>, <rs type="work" xml:id="bibl_4257">Moskau 1920</rs>, 
 mit bolschewistischen Alluren, unaufrichtig, copirter <rs type="person" xml:id="pNt_59873" ref="#person_16819"><surname>Kerrstil</surname></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

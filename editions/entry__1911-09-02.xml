@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-09-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-09-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-09-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-09-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-09-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-09-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-002D-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3212.tif"/>
@@ -183,7 +187,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1911-09-02">
             <p xml:space="preserve"><date when="1911-09-02">2/9</date> Den Vormittag im Sanatorium ―, dort gegessen.</p>
-            <p xml:space="preserve" rend="indent">Nm. mit O. in den <rs type="place" xml:id="pl_07601" ref="#place_75f2e194839d6ba0e5d4080c211a449a">Dornbacher Park</rs> gefahren. Dort spazieren, wieder 
+            <p xml:space="preserve" rend="indent">Nm. mit O. in den <rs type="place" xml:id="pl_07601" ref="#pmb176">Dornbacher Park</rs> gefahren. Dort spazieren, wieder 
 (nach communalen Wegschwierigkeiten im <rs type="place" xml:id="pl_07602" ref="#place_aced77fcb653c3216ac883df10617126" ana="#exclude">Pötzleinsdorfer</rs> Wald) ins 
 Sanatorium.― <rs type="allusively" xml:id="rst_01251">Mama</rs> unruhig; aber nie Krankheitsgefühl.―</p>
             <p xml:space="preserve" rend="indent">Dem <rs type="person" xml:id="pNt_35946" ref="#person_16273"><roleName>Frl.</roleName> <surname>Hoffmann</surname></rs> Briefe dictirt.</p>
@@ -194,6 +198,5 @@ Erinnerung an die Physiognomie ihres Vaters.</p>
             <p xml:space="preserve" rend="indent">Las zu Hause den 8. Band <rs type="work" xml:id="bibl_11146">Jean Christophe</rs> (<rs type="work" xml:id="bibl_11147">les amies</rs>) zu Ende.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

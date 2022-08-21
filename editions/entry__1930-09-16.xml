@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-09-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-09-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-09-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-09-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-09-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-09-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1B51-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7554.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1930-09-16">
-            <p xml:space="preserve"><date when="1930-09-16">16/9</date> ― Zur Ostbahn;― mit <rs type="person" xml:id="pNt_90692" ref="#person_14234"><forename>Suz.</forename></rs> Auto <rs type="place" xml:id="pl_19531" ref="#place_86a694cf5ce5552ca627cb96b607eccd">Prater</rs> Lusthaus; mit ihr zu ihr, mit ihr 
+            <p xml:space="preserve"><date when="1930-09-16">16/9</date> ― Zur Ostbahn;― mit <rs type="person" xml:id="pNt_90692" ref="#person_14234"><forename>Suz.</forename></rs> Auto <rs type="place" xml:id="pl_19531" ref="#pmb91530">Prater</rs> Lusthaus; mit ihr zu ihr, mit ihr 
 und den Kindern (erster Schultag) Mittag;― sie gibt mir ihre Jugendgedichte 
 mit; ich führe sie in die Stadt.― Lernte heut ihren Schwiegervater kennen, 
 typische Figur; christl.-soz. <rs type="place" xml:id="pl_19532" ref="#place_781a8381f1c836027cb7fb872cc8fc1d" ana="#exclude">Altwiener</rs>, liebenswürdig, etwas komödiantisch, 
@@ -192,6 +196,5 @@ zeigt.</p>
             <p xml:space="preserve" rend="indent">Allein genachtm.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

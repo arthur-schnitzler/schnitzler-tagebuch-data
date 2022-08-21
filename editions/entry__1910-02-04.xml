@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-02-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-02-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-02-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-02-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-02-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-02-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FDEE-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2846.tif"/>
@@ -183,13 +187,13 @@
       <body>
          <div type="diary-day" xml:id="entry__1910-02-04">
             <p xml:space="preserve"><date when="1910-02-04">4/2</date> Vm. bei <rs type="person" xml:id="pNt_31992" ref="#person_16166"><surname>Herzmansky</surname></rs> (nach gestrigem Telephon-Gespräch mit 
-<rs type="person" xml:id="pNt_31993" ref="#person_20490"><surname>Straus</surname></rs>; <rs type="work" subtype="self" xml:id="bibl_11519">Cassian</rs> betreffend) ― mit O.; dann in der <rs type="place" xml:id="pl_06940" ref="#place_0440d43880c6c31ea1d5137c5abec2dc">Palästina</rs> 
+<rs type="person" xml:id="pNt_31993" ref="#person_20490"><surname>Straus</surname></rs>; <rs type="work" subtype="self" xml:id="bibl_11519">Cassian</rs> betreffend) ― mit O.; dann in der <rs type="place" xml:id="pl_06940" ref="#pmb815">Palästina</rs> 
 Ausstellung (Bezalel); <rs type="person" xml:id="pNt_31994" ref="#person_21496"><surname>York-Steiner</surname></rs>, <rs type="person" xml:id="pNt_31995" ref="#person_19635"><forename>Boris</forename> <surname>Schatz</surname></rs> u. a. gesprochen; (Berichte 
 über die Zustände dort).</p>
             <p xml:space="preserve" rend="indent">Seltsamer Traum, Fahrt Nachts mit irgend Einer (wer?) im Einspänner 
-<rs type="place" xml:id="pl_06941" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs>, an einer Stelle vorbei, wo s. Z. <rs type="person" xml:id="pNt_31996" ref="#person_19150"><forename>M.</forename> <surname>R.</surname></rs> ohnmächtig geworden und 
+<rs type="place" xml:id="pl_06941" ref="#pmb182">Paris</rs>, an einer Stelle vorbei, wo s. Z. <rs type="person" xml:id="pNt_31996" ref="#person_19150"><forename>M.</forename> <surname>R.</surname></rs> ohnmächtig geworden und 
 nach Haus transportirt worden war ― (was nie der Fall war ―) ― ah,― 
-welche Straße? ja, <rs type="place" xml:id="pl_06942" ref="#place_b1a2b88344d34780991505a44e284625">rue Scribe</rs> ―! ― ich sehe in Papieren 
+welche Straße? ja, <rs type="place" xml:id="pl_06942" ref="#pmb92501">rue Scribe</rs> ―! ― ich sehe in Papieren 
 nach und finde die Ausgaben über Medicamente etc. aufgeschrieben, 
 breche in krampfhaftes Schluchzen aus. Die Begleiterin beruhigt mich.―</p>
             <p xml:space="preserve" rend="indent">― Nm. Brief von <rs type="person" xml:id="pNt_31997" ref="#person_21107"><forename>Jacob</forename></rs> und <rs type="person" xml:id="pNt_31998" ref="#person_21109"><forename>Julie</forename></rs>, weil ich für die Schule, für die sich 
@@ -204,6 +208,5 @@ zeichnete 500 Kr.― Ich spielte ihr aus <rs type="work" subtype="self" xml:id="
             <p xml:space="preserve" rend="indent">Mit O. zu <rs type="allusively" xml:id="rst_01088">Mama</rs>. Familie.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

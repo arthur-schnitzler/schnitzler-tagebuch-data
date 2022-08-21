@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-01-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-01-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-01-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1915-01-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-01-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-01-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-04F6-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3962.tif"/>
@@ -211,7 +215,7 @@ Namen mir im Traum nicht einfällt (nach dem Erwachen weiß ich es ist Frl.
 <rs type="person" xml:id="pNt_44768" ref="#person_13721"><forename>Elsa</forename> <surname>Bienenfeld</surname></rs>, Musikkritikerin) ― fragt mich (wie Gastgeberin) ob ich 
 allein mich nicht langweile. Ich erkläre „gerade so amüsir ich mich“; 
 Lärm steigert sich ― ich komme gegen ein leeres Amphitheater (Hörsaal) 
-durch die breite Gasse, herabsteigend (Novelle: <rs type="place" xml:id="pl_09153" ref="#place_9219ee9e1eb760ce3bd97532b5ca05e1">Pola</rs> ― Parlamentsconcert 
+durch die breite Gasse, herabsteigend (Novelle: <rs type="place" xml:id="pl_09153" ref="#pmb851">Pola</rs> ― Parlamentsconcert 
 bevorstehend für O.) ― greife an meinen Hals,― zu meinem Schrecken hab 
 ich eine andre Cravate, u. zw. eine kleine schwarze zum Anknöpfeln (wie 
 sie immer mein Vater getragen!) ― habe Angst, dass man mich umgekleidet, 
@@ -226,6 +230,5 @@ Lerne auf der Straße <rs type="person" xml:id="pNt_44773" ref="#person_17139"><
             <p xml:space="preserve" rend="indent">Notizen zu <rs type="work" subtype="self" xml:id="bibl_7850">Fink</rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

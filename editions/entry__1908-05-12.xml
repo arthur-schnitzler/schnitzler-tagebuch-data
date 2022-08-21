@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-05-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-05-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FB75-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2505.tif"/>
@@ -180,12 +184,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1908-05-12">
-            <p xml:space="preserve"><date when="1908-05-12">12/5</date> Auto <rs type="place" xml:id="pl_06304" ref="#place_5cea8f71bfa6f42547adaf63d65eb3ed">Garmisch</rs> ― <rs type="place" xml:id="pl_06305" ref="#place_629fcb51dff180b0ea65e6dc70684f02">Mittenwald</rs> ― <rs type="place" xml:id="pl_06306" ref="#place_a7a4b2bbe5b32a752dc5bd68c65eb330">Walchensee</rs> ― <rs type="place" xml:id="pl_06307" ref="#place_a9abc48a6715717599f5974d86c3c775">Kochelsee</rs> ― <rs type="place" xml:id="pl_06308" ref="#place_fbb9488d92ec0117fd5e3a27fc0e875a">Isarthal</rs> 
-― <rs type="place" xml:id="pl_06309" ref="#place_d0a6343a081a7335baa965ce4fd0845c">München</rs>. Wundervoll.</p>
+            <p xml:space="preserve"><date when="1908-05-12">12/5</date> Auto <rs type="place" xml:id="pl_06304" ref="#pmb667">Garmisch</rs> ― <rs type="place" xml:id="pl_06305" ref="#pmb91253">Mittenwald</rs> ― <rs type="place" xml:id="pl_06306" ref="#pmb92033">Walchensee</rs> ― <rs type="place" xml:id="pl_06307" ref="#pmb91046">Kochelsee</rs> ― <rs type="place" xml:id="pl_06308" ref="#pmb90936">Isarthal</rs> 
+― <rs type="place" xml:id="pl_06309" ref="#pmb45258">München</rs>. Wundervoll.</p>
             <p xml:space="preserve" rend="indent">― Lese <rs type="person" xml:id="pNt_28242" ref="#person_13403"><surname>Bang</surname></rs> „<rs type="work" xml:id="bibl_13404">am Weg</rs>“ ―</p>
             <p xml:space="preserve" rend="indent">Mit O. im Franziskaner Keller.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

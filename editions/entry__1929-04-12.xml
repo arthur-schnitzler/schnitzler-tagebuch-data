@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-04-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-04-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-04-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-04-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-04-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-04-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1947-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7269.tif"/>
@@ -181,13 +185,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1929-04-12">
-            <p xml:space="preserve"><date when="1929-04-12">12/4</date> Vm. Dr. <rs type="person" xml:id="pNt_86481" ref="#person_18830"><forename>Paul</forename> <surname>Plaut</surname></rs> aus <rs type="place" xml:id="pl_18601" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>, zum psychol. Congress hier. Schreibt 
+            <p xml:space="preserve"><date when="1929-04-12">12/4</date> Vm. Dr. <rs type="person" xml:id="pNt_86481" ref="#person_18830"><forename>Paul</forename> <surname>Plaut</surname></rs> aus <rs type="place" xml:id="pl_18601" ref="#pmb168">Berlin</rs>, zum psychol. Congress hier. Schreibt 
 über Psychologie der Production. Gespräch über dergl.; über Träume, 
 Psychoanalyse. (<rs type="work" subtype="self" xml:id="bibl_278">Frl. Else</rs> speciell.)</p>
             <p xml:space="preserve" rend="indent">― Besorgungen Stadt.―</p>
             <p xml:space="preserve" rend="indent">Zu Tisch bei <rs type="person" xml:id="pNt_86482" ref="#person_19827"><forename>Julius’</forename></rs>.― Nachher mit Schwiegerneffen <rs type="person" xml:id="pNt_86483" ref="#person_14482"><roleName>Dr.</roleName> <surname>Donath</surname></rs> die 
 Herzstation besichtigt.―</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="place" xml:id="pl_18602" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>, <rs type="person" xml:id="pNt_86484" ref="#person_19832"><forename>O.</forename></rs> gesprochen, nach Brief von ihr und Nachricht <rs type="person" xml:id="pNt_86485" ref="#person_19822"><forename>Heini’s</forename></rs>, von 
+            <p xml:space="preserve" rend="indent">Mit <rs type="place" xml:id="pl_18602" ref="#pmb168">Berlin</rs>, <rs type="person" xml:id="pNt_86484" ref="#person_19832"><forename>O.</forename></rs> gesprochen, nach Brief von ihr und Nachricht <rs type="person" xml:id="pNt_86485" ref="#person_19822"><forename>Heini’s</forename></rs>, von 
 ihrer Grippe (Seruminjection).</p>
             <p xml:space="preserve" rend="indent">Vm. auch in der Einbruchsversicherung <rs type="person" xml:id="pNt_86486" ref="#person_16879"><roleName>Hr.</roleName> <surname>Klein</surname></rs>; wegen Erhöhung der 
 Versicherung (viele Einbrüche im Cottage); auch über ev. Versicherung 
@@ -200,6 +204,5 @@ Hauses</rs>“ zurück.― Dazu Kündigung des neuen Mädchens. Irrsinn wegen <r
 „Ausland“, als Gesellschafterin … u. s. w.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

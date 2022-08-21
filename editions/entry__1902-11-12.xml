@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1902-11-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-11-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-11-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1902-11-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-11-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-11-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F3C8-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1722.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1902-11-12">
-            <p xml:space="preserve"><date when="1902-11-12">12/11</date> Vm. mit <rs type="person" xml:id="pNt_19138" ref="#person_19832"><forename>O.</forename></rs>, über <rs type="place" xml:id="pl_04148" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs>, <rs type="place" xml:id="pl_04149" ref="#place_c79ad839f84019f53250a4e6365359f9">Neuwaldegg</rs>; Streit aus 
+            <p xml:space="preserve"><date when="1902-11-12">12/11</date> Vm. mit <rs type="person" xml:id="pNt_19138" ref="#person_19832"><forename>O.</forename></rs>, über <rs type="place" xml:id="pl_04148" ref="#pmb169">Pötzleinsdorf</rs>, <rs type="place" xml:id="pl_04149" ref="#pmb170">Neuwaldegg</rs>; Streit aus 
 nichtigen Gründen.― Nervös.― Abd. <rs type="person" xml:id="pNt_19139" ref="#person_19832"><forename>O.</forename></rs> bei mir, spielten das <rs type="work" xml:id="bibl_18135">Trio</rs> von 
 <rs type="person" xml:id="pNt_19140" ref="#person_20172"><surname>Smetana</surname></rs>.― Quälende Eifersucht auf die Zukunft.― Bei <rs type="person" xml:id="pNt_19141" ref="#person_19823"><forename>Helene</forename></rs> ―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

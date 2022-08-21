@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-08-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-08-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-08-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1931-08-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-08-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-08-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1CA3-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7763.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1931-08-21">
-            <p xml:space="preserve"><date when="1931-08-21">21/8</date> <rs type="place" xml:id="pl_20117" ref="#place_d533f22e7175d6063cb4c4286fb92c0c">Gmunden</rs>. Regen.― Mit <rs type="person" xml:id="pNt_93709" ref="#person_19832"><forename>O.</forename></rs> und <rs type="person" xml:id="pNt_93710" ref="#person_19822"><forename>Heini</forename></rs> im Schloss Cumberland. Besichtigung.</p>
+            <p xml:space="preserve"><date when="1931-08-21">21/8</date> <rs type="place" xml:id="pl_20117" ref="#pmb874">Gmunden</rs>. Regen.― Mit <rs type="person" xml:id="pNt_93709" ref="#person_19832"><forename>O.</forename></rs> und <rs type="person" xml:id="pNt_93710" ref="#person_19822"><forename>Heini</forename></rs> im Schloss Cumberland. Besichtigung.</p>
             <p xml:space="preserve" rend="indent">Nm. mit „<rs type="work" subtype="self" xml:id="bibl_23902">Ruf</rs>“ beschäftigt, ziemlich hoffnungslos.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

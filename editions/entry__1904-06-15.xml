@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-06-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-06-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-06-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-06-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-06-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-06-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F607-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1931.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1904-06-15">
-            <p xml:space="preserve"><date when="1904-06-15">15/6</date> Vm. Rad <rs type="place" xml:id="pl_04772" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> ― <rs type="place" xml:id="pl_04773" ref="#place_a513bae177c89d12226f343ac5ff1ee3">Salmannsdorf</rs> ― Dreimarkstein ― <rs type="place" xml:id="pl_04774" ref="#place_3b0cf80ce6f7c6e0340cf31265c8f3f7">Sievring</rs>. ― 
+            <p xml:space="preserve"><date when="1904-06-15">15/6</date> Vm. Rad <rs type="place" xml:id="pl_04772" ref="#pmb169">Pötzleinsdorf</rs> ― <rs type="place" xml:id="pl_04773" ref="#pmb91641">Salmannsdorf</rs> ― Dreimarkstein ― <rs type="place" xml:id="pl_04774" ref="#pmb64219">Sievring</rs>. ― 
 Einfälle zum <rs type="work" subtype="self" xml:id="bibl_17122">Roman</rs>  im Wald.―</p>
             <p xml:space="preserve" rend="indent">Mittag <rs type="person" xml:id="pNt_21169" ref="#person_17324"><surname>Lantz</surname></rs>.― Dictirt <rs type="work" subtype="self" xml:id="bibl_17123">Roman</rs>, Pläne.―</p>
             <p xml:space="preserve" rend="indent">Abd. bei <rs ref="#person_20925" type="person" xml:id="pNt_21170"><surname>Vanjungs</surname></rs>.― O., <rs type="person" xml:id="pNt_21171" ref="#person_18320"><forename>Fanny</forename> <surname>M.</surname></rs>, <rs type="person" xml:id="pNt_21172" ref="#person_19424"><roleName>Frl.</roleName> <surname>Rothenstein</surname></rs>, <rs type="person" xml:id="pNt_21173" ref="#person_18358"><forename>Ella</forename> 
@@ -189,6 +193,5 @@ Einfälle zum <rs type="work" subtype="self" xml:id="bibl_17122">Roman</rs>  im 
 <surname>Kaufmann</surname></rs>, <rs type="person" xml:id="pNt_21178" ref="#person_14976"><surname>Fichtengoltz</surname></rs>.― Gesang. O. las Gedichte hübsch vor.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1900-06-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-06-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-06-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1900-06-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-06-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-06-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F09E-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -162,16 +166,18 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1570.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1900-06-14">
-            <p xml:space="preserve"><date when="1900-06-14">14/6</date> Mit <rs type="person" xml:id="pNt_17158" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs> nach <rs type="place" xml:id="pl_03438" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>. Bei <rs ref="#person_20247" type="person" xml:id="pNt_17159"><surname>Sp.’s</surname></rs>. <rs type="person" xml:id="pNt_17160" ref="#person_18137"><forename>Dora</forename></rs> ganz blass &amp; traurig.―
+            <p xml:space="preserve"><date when="1900-06-14">14/6</date> Mit <rs type="person" xml:id="pNt_17158" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs> nach <rs type="place" xml:id="pl_03438" ref="#pmb50">Wien</rs>. Bei <rs ref="#person_20247" type="person" xml:id="pNt_17159"><surname>Sp.’s</surname></rs>. <rs type="person" xml:id="pNt_17160" ref="#person_18137"><forename>Dora</forename></rs> ganz blass &amp; traurig.―
 Zu <rs type="person" xml:id="pNt_17161" ref="#person_15485"><forename>M.</forename> <surname>Gl.</surname></rs>― Mit ihr Riedhof. Erinnerung, Rührung, die alte Geschichte.―</p>
             <p xml:space="preserve" rend="indent">Zwei Russen Nm. wegen Übersetzungsangelegenh. bei mir.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

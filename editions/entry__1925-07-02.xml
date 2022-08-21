@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1925-07-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-07-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-07-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1925-07-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-07-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-07-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-13E4-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6510.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1925-07-02">
-            <p xml:space="preserve"><date when="1925-07-02">2/7</date> <rs type="place" xml:id="pl_16167" ref="#place_3859ff9074d497ed0cb3c08be85996ad">Bozen</rs>,― Autofahrt <rs type="place" xml:id="pl_16168" ref="#place_5a2315c53148f860229a3a7597c81b2e">Waidbruck</rs> ― <rs type="place" xml:id="pl_16169" ref="#place_c363eaba1e837e3aa436d34a9f771c19">Grödner Thal</rs>;― dann (mit <rs type="person" xml:id="pNt_75387" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>) 
-spazieren ein paar 100 Schritte gegen’s <rs type="place" xml:id="pl_16170" ref="#place_35fb2a05581db95edf77acca556cce49">Sellajoch</rs> (Fußpartie vor 18 Jahren 
-mit <rs type="person" xml:id="pNt_75388" ref="#person_19832"><forename>O.</forename></rs>);― in <rs type="place" xml:id="pl_16171" ref="#place_3be81fe073503981a14e93e85322080c">Wolkenstein</rs> (Hotel Oswald) zu Mittag.― Zurück nach <rs type="place" xml:id="pl_16172" ref="#place_3859ff9074d497ed0cb3c08be85996ad">Bozen</rs>. Rest.garten Laurin.</p>
+            <p xml:space="preserve"><date when="1925-07-02">2/7</date> <rs type="place" xml:id="pl_16167" ref="#pmb40260">Bozen</rs>,― Autofahrt <rs type="place" xml:id="pl_16168" ref="#pmb92031">Waidbruck</rs> ― <rs type="place" xml:id="pl_16169" ref="#pmb65733">Grödner Thal</rs>;― dann (mit <rs type="person" xml:id="pNt_75387" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>) 
+spazieren ein paar 100 Schritte gegen’s <rs type="place" xml:id="pl_16170" ref="#pmb91731">Sellajoch</rs> (Fußpartie vor 18 Jahren 
+mit <rs type="person" xml:id="pNt_75388" ref="#person_19832"><forename>O.</forename></rs>);― in <rs type="place" xml:id="pl_16171" ref="#pmb92101">Wolkenstein</rs> (Hotel Oswald) zu Mittag.― Zurück nach <rs type="place" xml:id="pl_16172" ref="#pmb40260">Bozen</rs>. Rest.garten Laurin.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

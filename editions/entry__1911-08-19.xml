@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-08-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-08-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-08-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-08-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-08-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-08-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-001F-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3205.tif"/>
@@ -182,11 +186,10 @@
       <body>
          <div type="diary-day" xml:id="entry__1911-08-19">
             <p xml:space="preserve"><date when="1911-08-19">19/8</date> Beim Frühstück Ingenieur <rs type="person" xml:id="pNt_35873" ref="#person_18298"><surname>Müller</surname></rs>, über die Zustände an der 
-Grenze <rs type="place" xml:id="pl_07578" ref="#place_601df943a89d2ac73e0e43a5d37fc228">Ungarn</rs>, <rs type="place" xml:id="pl_07579" ref="#place_e5e72ce64abf0b0be68d544840ab0cbf">Rumänien</rs>, bei den Kohlengrubenarbeitern.―</p>
-            <p xml:space="preserve" rend="indent">Mit O. <rs type="place" xml:id="pl_07580" ref="#place_797995abb7274e2eab2059ba02411f0f">Pinkenkogel</rs> auf dem Rodelweg.</p>
+Grenze <rs type="place" xml:id="pl_07578" ref="#pmb35512">Ungarn</rs>, <rs type="place" xml:id="pl_07579" ref="#pmb378">Rumänien</rs>, bei den Kohlengrubenarbeitern.―</p>
+            <p xml:space="preserve" rend="indent">Mit O. <rs type="place" xml:id="pl_07580" ref="#pmb91482">Pinkenkogel</rs> auf dem Rodelweg.</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_11130">5. Akt</rs> weiter.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-01-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-01-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-01-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-01-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-01-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-01-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0AAC-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4776.tif"/>
@@ -188,15 +192,15 @@ herauflugend, aber ohne etwas zu sehen, mit dem Gärtner (unsichtbar) redend
 einen unbekannten Herrn <rs type="person" xml:id="pNt_55179"><surname>Luchs</surname></rs> (o. ä.) geschrieben, wegen Musizirens, was 
 mich ärgert (wir erwarten demnächst in einer Wohltätigkeitsangelegenheit 
 einen <rs type="person" xml:id="pNt_55180" ref="#person_14337"><roleName>Hr.</roleName> <surname>Czuczka</surname></rs>), und was ich ihr verweise. Dann ein Sanatorium (etwa),― 
-vis à vis dem anatom. Institut <rs type="place" xml:id="pl_11474" ref="#place_82f6936702948eb9d4c32f0904877053">Währingerstr.</rs> (was mir im Traum nicht 
+vis à vis dem anatom. Institut <rs type="place" xml:id="pl_11474" ref="#pmb312">Währingerstr.</rs> (was mir im Traum nicht 
 bewußt ist);― ich sehe auf dem Op. Tisch <rs type="person" xml:id="pNt_55181" ref="#person_19150"><forename>M.</forename> <surname>R.</surname></rs> liegen ― eigentlich aber 
 bin ichs, sie ist schon operirt worden, an mir soll die gleiche Oper. 
 vorgenommen werden;― nach einer Irrigation, soll ― ein Fahrrad in den 
 Darm eingeführt werden; die Irr. geschieht;― ich verlange von einem 
 kleinen Arzt ein Thermophor; er ist höflich dagegen, ich denke mir 
 „dummer Kerl“― ―</p>
-            <p xml:space="preserve" rend="indent">Dictirt Briefe.― Notizen über Anschluss <rs type="place" xml:id="pl_11475" ref="#place_7222ce731fbfa56521627597260e0bec">Deutsch Oesterreich</rs> an 
-<rs type="place" xml:id="pl_11476" ref="#place_3c2f8b8c8c43538b25a0327ae84c3f65">Deutschland</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Dictirt Briefe.― Notizen über Anschluss <rs type="place" xml:id="pl_11475" ref="#pmb92203">Deutsch Oesterreich</rs> an 
+<rs type="place" xml:id="pl_11476" ref="#pmb151">Deutschland</rs>.―</p>
             <p xml:space="preserve" rend="indent">Begegnung mit <rs type="person" xml:id="pNt_55182" ref="#person_21403"><forename>Lotte</forename> <surname>Witt</surname></rs>, über Politik und Wahlversammlungen; sie wohnte 
 einer bei.―</p>
             <p xml:space="preserve" rend="indent">Ich wünschte mehr allein und weniger einsam zu sein.</p>
@@ -205,6 +209,5 @@ einer bei.―</p>
 Draufgabe Lebensmittel an ― nur halb im Scherz.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

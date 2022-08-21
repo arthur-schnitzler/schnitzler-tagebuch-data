@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-08-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-08-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-08-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-08-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-08-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-08-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-046C-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3871.tif"/>
@@ -182,13 +186,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1914-08-25">
-            <p xml:space="preserve"><date when="1914-08-25">25/8</date> Vm. <rs type="place" xml:id="pl_08915" ref="#place_b6f69dd96cd2848c89f5a627d9164598">Ebenseerstraße</rs>; mit O. an der Brücke <rs type="person" xml:id="pNt_43943" ref="#person_13551"><forename>Richard</forename></rs> und <rs type="person" xml:id="pNt_43944" ref="#person_13550"><forename>Paula</forename></rs> 
-erwartet, die aus <rs type="place" xml:id="pl_08916" ref="#place_6200f29d669d049c662de58d281da8f3">Weißenbach</rs> kommen.― Sie speisen mit uns; Nm. mit 
+            <p xml:space="preserve"><date when="1914-08-25">25/8</date> Vm. <rs type="place" xml:id="pl_08915" ref="#pmb92222">Ebenseerstraße</rs>; mit O. an der Brücke <rs type="person" xml:id="pNt_43943" ref="#person_13551"><forename>Richard</forename></rs> und <rs type="person" xml:id="pNt_43944" ref="#person_13550"><forename>Paula</forename></rs> 
+erwartet, die aus <rs type="place" xml:id="pl_08916" ref="#pmb92065">Weißenbach</rs> kommen.― Sie speisen mit uns; Nm. mit 
 ihnen herum. Gesprochen wird nur über den Krieg. Es gibt kein andres 
 Interesse mehr.</p>
-            <p xml:space="preserve" rend="indent">Mit O. nach <rs type="place" xml:id="pl_08917" ref="#place_40f97962019d7e2ecf73d863b6f82a98">Perneck</rs> und <rs type="place" xml:id="pl_08918" ref="#place_365ec5dfa6413b97f4bd965bd843a8cd"><rs type="allusively" xml:id="rst_01361">Kaiser</rs> Jubiläumsweg</rs> zurück.―</p>
+            <p xml:space="preserve" rend="indent">Mit O. nach <rs type="place" xml:id="pl_08917" ref="#pmb91453">Perneck</rs> und <rs type="place" xml:id="pl_08918" ref="#pmb92321"><rs type="allusively" xml:id="rst_01361">Kaiser</rs> Jubiläumsweg</rs> zurück.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

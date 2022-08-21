@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1917-05-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-05-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-05-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1917-05-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-05-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-05-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-084C-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4462.tif"/>
@@ -182,15 +186,14 @@
       <body>
          <div type="diary-day" xml:id="entry__1917-05-14">
             <p xml:space="preserve"><date when="1917-05-14">14/5</date> Abreise mit O. Auf dem Weg zur Bahn die straßenweis angestellten 
-Weiber und Kinder.― Im Coupé. Die Soldatengattin aus <rs type="place" xml:id="pl_10516" ref="#place_3859ff9074d497ed0cb3c08be85996ad">Bozen</rs>. Über 
+Weiber und Kinder.― Im Coupé. Die Soldatengattin aus <rs type="place" xml:id="pl_10516" ref="#pmb40260">Bozen</rs>. Über 
 <rs type="place" xml:id="pl_10517" ref="#place_00b194b63d0941b2e807e769cc2a82c8" ana="#exclude">Dolomitenzustände</rs> ― „Die Männer werden so roh ― man wird sich ganz 
 fremd.“</p>
             <p xml:space="preserve" rend="indent">― Lese <rs type="person" xml:id="pNt_50592" ref="#person_15073"><surname>Fontane’s</surname></rs> <rs type="work" xml:id="bibl_6479">Kinderjahre</rs> (zum 2. Male).―</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_10518" ref="#place_c38ad36647aca0261d667c432a4866bd">Salzburg</rs>. <rs type="person" xml:id="pNt_50593" ref="#person_19827"><forename>Julius</forename></rs> an der Bahn. Ins Europe. <rs type="person" xml:id="pNt_50594" ref="#person_19823"><forename>Helene</forename></rs> und <rs ref="#person_14481" type="person" xml:id="pNt_50595"><forename>Annie</forename></rs>.― Mit 
-<rs type="person" xml:id="pNt_50596" ref="#person_19827"><forename>Jul.</forename></rs>, <rs type="person" xml:id="pNt_50597" ref="#person_19823"><forename>Hel.</forename></rs>, <rs ref="#person_14481" type="person" xml:id="pNt_50598"><forename>Annie</forename></rs> Spazierg. <rs type="place" xml:id="pl_10519" ref="#place_b10428ac1958695fb6bd44e5338ac76e">Nonnberg</rs> etc.― immer wieder ergriffen von 
+            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_10518" ref="#pmb91649">Salzburg</rs>. <rs type="person" xml:id="pNt_50593" ref="#person_19827"><forename>Julius</forename></rs> an der Bahn. Ins Europe. <rs type="person" xml:id="pNt_50594" ref="#person_19823"><forename>Helene</forename></rs> und <rs ref="#person_14481" type="person" xml:id="pNt_50595"><forename>Annie</forename></rs>.― Mit 
+<rs type="person" xml:id="pNt_50596" ref="#person_19827"><forename>Jul.</forename></rs>, <rs type="person" xml:id="pNt_50597" ref="#person_19823"><forename>Hel.</forename></rs>, <rs ref="#person_14481" type="person" xml:id="pNt_50598"><forename>Annie</forename></rs> Spazierg. <rs type="place" xml:id="pl_10519" ref="#pmb92422">Nonnberg</rs> etc.― immer wieder ergriffen von 
 dieser Wunderstadt. Wir soupiren im Europe.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

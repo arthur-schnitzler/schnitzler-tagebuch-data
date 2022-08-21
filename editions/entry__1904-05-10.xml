@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-05-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-05-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-05-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-05-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-05-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-05-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F5E3-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1916.tif"/>
@@ -180,10 +184,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1904-05-10">
-            <p xml:space="preserve"><date when="1904-05-10">10/5</date> <rs type="place" xml:id="pl_04706" ref="#place_8b6f0975edbb61684a14fc0b1891e1b1">Neapel</rs> ― (<rs type="place" xml:id="pl_04707" ref="#place_830d817911eb29dc2c6633dc3d4f5285">Sorrent</rs>) ― <rs type="place" xml:id="pl_04708" ref="#place_6151bf346f0e9c4daed056ae2ec0bc02">Capri</rs> ― <rs type="place" xml:id="pl_04709" ref="#place_2f4de5ee4befa5bf7eb260590a13ca4a">Anacapri</rs> (Vittoria) zurück. Blaue 
+            <p xml:space="preserve"><date when="1904-05-10">10/5</date> <rs type="place" xml:id="pl_04706" ref="#pmb91330">Neapel</rs> ― (<rs type="place" xml:id="pl_04707" ref="#pmb629">Sorrent</rs>) ― <rs type="place" xml:id="pl_04708" ref="#pmb90444">Capri</rs> ― <rs type="place" xml:id="pl_04709" ref="#pmb90245">Anacapri</rs> (Vittoria) zurück. Blaue 
 Grotte.― Schön.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

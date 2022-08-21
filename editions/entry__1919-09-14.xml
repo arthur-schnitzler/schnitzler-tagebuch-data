@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-09-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-09-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-09-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-09-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-09-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-09-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0B9F-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4924.tif"/>
@@ -181,8 +185,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1919-09-14">
-            <p xml:space="preserve"><date when="1919-09-14">14/9</date> S. <rs type="place" xml:id="pl_11873" ref="#place_bf303a935ba7bb30e892cb5d0f2ea6ac">Michaelerberg</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Hr. <rs type="person" xml:id="pNt_56872" ref="#person_18949"><forename>Paul</forename> <surname>Prechner</surname></rs>, aus <rs type="place" xml:id="pl_11874" ref="#place_c38ad36647aca0261d667c432a4866bd">Salzburg</rs>, der Vorstand des Arbeiterbildungsamts, 
+            <p xml:space="preserve"><date when="1919-09-14">14/9</date> S. <rs type="place" xml:id="pl_11873" ref="#pmb91239">Michaelerberg</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Hr. <rs type="person" xml:id="pNt_56872" ref="#person_18949"><forename>Paul</forename> <surname>Prechner</surname></rs>, aus <rs type="place" xml:id="pl_11874" ref="#pmb91649">Salzburg</rs>, der Vorstand des Arbeiterbildungsamts, 
 für das O. singt; muß sich hier wegen einer Rede verantworten, und 
 wird seine Stellung verlieren. Allerlei parteipolitisches. Er speist 
 da. 24jähriger anscheinend harmloser Judenbub, ganz klug, mit 
@@ -192,6 +196,5 @@ anständigen Tendenzen, von Opportunismus nicht ganz frei;― erinnert an
             <p xml:space="preserve" rend="indent">Z. N. <rs type="person" xml:id="pNt_56875" ref="#person_19986"><forename>Gustav</forename></rs>, nachher <rs type="person" xml:id="pNt_56876" ref="#person_16770"><forename>Arthur</forename> <surname>Kaufmann</surname></rs> und Schwester.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

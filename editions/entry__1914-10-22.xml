@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-10-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-10-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-10-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-10-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-10-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-10-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-04A6-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3910.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1914-10-22">
-            <p xml:space="preserve"><date when="1914-10-22">22/10</date> <rs type="place" xml:id="pl_09024" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>. Bristol. <rs type="person" xml:id="pNt_44278" ref="#person_14730"><surname>Eloesser</surname></rs> erwartet uns im Hotel. Nach Tisch 
-spaziere ich mit O. über die <rs type="place" xml:id="pl_09025" ref="#place_46bebbb34a0464036f16a73ab72e5026">Linden</rs>. Abends um 7 Probe ― höchst 
+            <p xml:space="preserve"><date when="1914-10-22">22/10</date> <rs type="place" xml:id="pl_09024" ref="#pmb168">Berlin</rs>. Bristol. <rs type="person" xml:id="pNt_44278" ref="#person_14730"><surname>Eloesser</surname></rs> erwartet uns im Hotel. Nach Tisch 
+spaziere ich mit O. über die <rs type="place" xml:id="pl_09025" ref="#pmb91975">Linden</rs>. Abends um 7 Probe ― höchst 
 unfertig; alberne Striche. Bis 2 ― aber nicht alles.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

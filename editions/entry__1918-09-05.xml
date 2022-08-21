@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-09-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-06.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-09-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0A2A-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4695.tif"/>
@@ -182,14 +186,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1918-09-05">
-            <p xml:space="preserve"><date when="1918-09-05">5/9</date> Spaz. <rs type="place" xml:id="pl_11205" ref="#place_9a958c826319f2c231db20d6dedaca57">Schlattan</rs> ― <rs type="place" xml:id="pl_11206" ref="#place_6ca1ace3fafc0fd5a352e08557f21aef">Hasenthal</rs>.</p>
-            <p xml:space="preserve" rend="indent">Nm. mit <rs type="person" xml:id="pNt_54069" ref="#person_17834"><forename>Heinrich</forename> <surname>M.</surname></rs> und O. gegen <rs type="place" xml:id="pl_11207" ref="#place_90b865309050e2ffc80491dbbf8d0ae2">Wildenau</rs>.</p>
+            <p xml:space="preserve"><date when="1918-09-05">5/9</date> Spaz. <rs type="place" xml:id="pl_11205" ref="#pmb91685">Schlattan</rs> ― <rs type="place" xml:id="pl_11206" ref="#pmb92622">Hasenthal</rs>.</p>
+            <p xml:space="preserve" rend="indent">Nm. mit <rs type="person" xml:id="pNt_54069" ref="#person_17834"><forename>Heinrich</forename> <surname>M.</surname></rs> und O. gegen <rs type="place" xml:id="pl_11207" ref="#pmb92604">Wildenau</rs>.</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_54070" ref="#person_20386"><forename>Liesl</forename></rs>. O. singt, schön. Ich begleite, später <rs type="person" xml:id="pNt_54071" ref="#person_14296"><roleName>Frau</roleName> <surname>Crawell</surname></rs>.― <rs type="person" xml:id="pNt_54072" ref="#person_21131"><forename>Tilly</forename>
 <pb n="176"/>
 <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header"><fw n="176" place="top_left" type="pageNum">176</fw> <fw place="top_center"><date type="range">1918: IX 5 - IX 10</date></fw></tei:fw>
 <surname>Wedekind</surname></rs> in Trauer. <rs type="person" xml:id="pNt_54073" ref="#person_16984"><forename>Anneliese</forename> <surname>K.</surname></rs>; <rs type="person" xml:id="pNt_54074" ref="#person_17834"><surname>Mann’s</surname></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

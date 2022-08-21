@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-08-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-08-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-08-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1906-08-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-08-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-08-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F921-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2254.tif"/>
@@ -180,12 +184,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1906-08-19">
-            <p xml:space="preserve"><date when="1906-08-19">19/8</date> S. <rs type="place" xml:id="pl_05657" ref="#place_85adf1fddc935a5a9635fe29b6387cc4">Eisenach</rs> ― <rs type="place" xml:id="pl_05658" ref="#place_0d02faf704bd0c9d27ef4e5dc7980b02">Nürnberg</rs>.― (<rs type="person" xml:id="pNt_25346" ref="#person_21319"><surname>Wilbrandts</surname></rs> <rs type="work" xml:id="bibl_15134">Lotsenkommandeur</rs>, <rs type="person" xml:id="pNt_25347" ref="#person_14513"><surname>Dreyers</surname></rs> [!] 
+            <p xml:space="preserve"><date when="1906-08-19">19/8</date> S. <rs type="place" xml:id="pl_05657" ref="#pmb44240">Eisenach</rs> ― <rs type="place" xml:id="pl_05658" ref="#pmb44172">Nürnberg</rs>.― (<rs type="person" xml:id="pNt_25346" ref="#person_21319"><surname>Wilbrandts</surname></rs> <rs type="work" xml:id="bibl_15134">Lotsenkommandeur</rs>, <rs type="person" xml:id="pNt_25347" ref="#person_14513"><surname>Dreyers</surname></rs> [!] 
 „<rs type="work" xml:id="bibl_15135">Vater und Sohn</rs>“ gelesen. Die letzten Tage <rs type="person" xml:id="pNt_25348" ref="#person_13310"><surname>Augiers</surname></rs> „<rs type="work" xml:id="bibl_15136">Fourchambault</rs>“ und 
 „<rs type="work" xml:id="bibl_15137">arme Loewin</rs>“.) ― Ausstellung.― Marionetten („<rs type="work" xml:id="bibl_15138">Eulenschloss</rs>“) ― 
 Sonntagsfülle.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

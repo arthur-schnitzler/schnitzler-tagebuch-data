@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-11-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-11-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-11-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-11-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-11-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-11-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-01E5-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3515.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1912-11-15">
-            <p xml:space="preserve"><date when="1912-11-15">15/11</date> Spazieren <rs type="place" xml:id="pl_08090" ref="#place_c79ad839f84019f53250a4e6365359f9">Neuwaldegg</rs>.―</p>
+            <p xml:space="preserve"><date when="1912-11-15">15/11</date> Spazieren <rs type="place" xml:id="pl_08090" ref="#pmb170">Neuwaldegg</rs>.―</p>
             <p xml:space="preserve" rend="indent">Später <rs type="person" xml:id="pNt_39298" ref="#person_19542"><surname>Salten</surname></rs>, mit O., begegnet; Streit zwischen <rs type="person" xml:id="pNt_39299" ref="#person_19542"><surname>Salten</surname></rs> und <rs type="person" xml:id="pNt_39300" ref="#person_16293"><forename>Hugo</forename></rs> 
 um Vorrang in der Rede beim <rs type="person" xml:id="pNt_39301" ref="#person_15980"><surname>Hauptmann</surname></rs> Bankett.―</p>
             <p xml:space="preserve" rend="indent"><rs ref="#person_21602" type="person" xml:id="pNt_39302"><forename>Viki</forename> <surname>Z.</surname></rs> zu Tisch; mit ihm <rs type="person" xml:id="pNt_39303" ref="#person_14008"><surname>Bruckners</surname></rs> <rs type="work" xml:id="bibl_10590">Neunte</rs>.</p>
@@ -197,6 +201,5 @@ auf Verlangen nennt, zum Thee. Über <rs type="person" xml:id="pNt_39305" ref="#
 begleitete sie zu <rs type="person" xml:id="pNt_39306" ref="#person_13551"><forename>Richard</forename></rs>; blieb eine Weile dort.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

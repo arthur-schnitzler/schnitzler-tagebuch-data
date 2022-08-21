@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-12-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-12-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-12-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-12-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-12-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-12-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-103B-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5913.tif"/>
@@ -184,7 +188,7 @@
          <div type="diary-day" xml:id="entry__1922-12-07">
             <p xml:space="preserve"><date when="1922-12-07">7/12</date> Dictirt <rs type="work" subtype="self" xml:id="bibl_2958">Fr. d. R.</rs>, <rs type="work" subtype="self" xml:id="bibl_2959">Tgb.</rs> (92) Briefe.―</p>
             <p xml:space="preserve" rend="indent">Nm. an <rs type="work" subtype="self" xml:id="bibl_2960">Fr. d. R.</rs></p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_68025" ref="#person_17655"><roleName>Mr.</roleName> <surname>Loewenthal</surname></rs> aus <rs type="place" xml:id="pl_14434" ref="#place_87809c954948d8a20507bee3648281b3">New York</rs>; in Fürsorgeangelegenheiten reisend. Die 
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_68025" ref="#person_17655"><roleName>Mr.</roleName> <surname>Loewenthal</surname></rs> aus <rs type="place" xml:id="pl_14434" ref="#pmb44053">New York</rs>; in Fürsorgeangelegenheiten reisend. Die 
 Zustände an der hiesigen Universität, die antisemitischen Schäbigkeiten 
 und Schurkereien.― Über Zionismus.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_68026" ref="#person_14130"><forename>Lili</forename></rs> muß mir einen „Novellenstoff“ erzählen. Ein Mensch der sein Leben 
@@ -195,6 +199,5 @@ andern; vor Gericht gestellt will er verurtheilt werden, der Richter spricht
 ihn frei und er tödtet sich selbst.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

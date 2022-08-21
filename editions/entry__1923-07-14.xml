@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-07-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-07-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-07-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-07-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-07-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-07-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1116-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,15 +177,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6075.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6076.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1923-07-14">
-            <p xml:space="preserve"><date when="1923-07-14">14/7</date> <rs type="person" xml:id="pNt_69889" ref="#person_18881"><forename>Kolap</forename></rs> telef. von einer Notiz: <rs type="work" subtype="self" xml:id="bibl_1909"><rs type="person" xml:id="pNt_69890"><surname>Cas.</surname></rs> Hmf.</rs> werde in <rs type="place" xml:id="pl_14860" ref="#place_e884124295d0c4d07d9bcf5096fd5495">Amerika</rs> 
+            <p xml:space="preserve"><date when="1923-07-14">14/7</date> <rs type="person" xml:id="pNt_69889" ref="#person_18881"><forename>Kolap</forename></rs> telef. von einer Notiz: <rs type="work" subtype="self" xml:id="bibl_1909"><rs type="person" xml:id="pNt_69890"><surname>Cas.</surname></rs> Hmf.</rs> werde in <rs type="place" xml:id="pl_14860" ref="#pmb43406">Amerika</rs> 
 verfilmt … Neuer Raub ― war wüthend.</p>
             <p xml:space="preserve" rend="indent">Sascha;― man führte mir den <rs type="work" subtype="self" xml:id="bibl_1910">Med. Film</rs> vor. <rs type="person" xml:id="pNt_69891" ref="#person_19813"><roleName>Direktor</roleName> <surname>Schnek</surname></rs>, 
 Dramaturg <rs type="person" xml:id="pNt_69892" ref="#person_13356"><surname>Bachrach</surname></rs>. Die „Titel“ zum großen Theil furchtbar; viele 
@@ -190,5 +195,6 @@ schauspielerische Leistungen.―</p>
             <p xml:space="preserve" rend="indent">War den übrigen Theil des Tags mit Correctur der Titel beschäftigt; 
 schrieb Briefe an <rs type="person" xml:id="pNt_69893" ref="#person_18137"><forename>Dora</forename> <surname>M.</surname></rs> und <rs type="person" xml:id="pNt_69894" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs>, nachtm. allein beim <rs type="institution" xml:id="pNt_69895"><surname>Kratzer</surname></rs>.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

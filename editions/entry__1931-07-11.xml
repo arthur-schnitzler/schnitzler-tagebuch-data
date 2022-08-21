@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-07-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1931-07-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1C7A-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,20 +177,21 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7737.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7738.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1931-07-11">
             <p xml:space="preserve"><date when="1931-07-11">11/7</date> <rs type="person" xml:id="pNt_93396" ref="#person_14234"><forename>Suz.</forename></rs> tel. von dem gestrigen Cobenzl und Lusthaus etc. in großer 
-Gesellschaft, fährt heute <rs type="place" xml:id="pl_19998" ref="#place_ae346a40038f37b848c0d01aaaa37344">Thalheim</rs>.―</p>
+Gesellschaft, fährt heute <rs type="place" xml:id="pl_19998" ref="#pmb91887">Thalheim</rs>.―</p>
             <p xml:space="preserve" rend="indent">Dictirt <rs type="work" subtype="self" xml:id="bibl_23852">Ruf</rs>, 3. Akt.―</p>
             <p xml:space="preserve" rend="indent">Gegen 6 <rs type="person" xml:id="pNt_93397" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> bei mir, mit vielen Thränen, von denen vielleicht einige echt 
-waren; fährt an die <rs type="place" xml:id="pl_19999" ref="#place_ec5faf5c37e55de32672b04a90a59b20">Donau</rs>.</p>
-            <p xml:space="preserve" rend="indent">Später zu <rs type="person" xml:id="pNt_93398" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>; der Umstand, dass ich die Reise auf den <rs type="place" xml:id="pl_20000" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs> auf 
+waren; fährt an die <rs type="place" xml:id="pl_19999" ref="#pmb90538">Donau</rs>.</p>
+            <p xml:space="preserve" rend="indent">Später zu <rs type="person" xml:id="pNt_93398" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>; der Umstand, dass ich die Reise auf den <rs type="place" xml:id="pl_20000" ref="#pmb91735">Semmering</rs> auf 
 den Donnerstag (statt Mittwoch) verlegt, veranlaßte sie zu vielen 
 Ungerechtigkeiten und Thorheiten;― sie rechtfertigte sich mit ihren 
 miserabeln Nerven und sonstigem Gesundheitszustand, mit meiner 
@@ -195,5 +200,6 @@ bald nach 9 ging ich, empfand meine ganze Existenz als unmoralisch und
 irgendwie lächerlich.―</p>
             <p xml:space="preserve" rend="indent">Allein zu Haus auf der Terrasse genachtm.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

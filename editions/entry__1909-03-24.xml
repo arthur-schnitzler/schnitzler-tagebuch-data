@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-03-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-03-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-03-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-03-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-03-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-03-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FCB1-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2665.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1909-03-24">
-            <p xml:space="preserve"><date when="1909-03-24">24/3</date> Vm. spazieren <rs type="place" xml:id="pl_06627" ref="#place_f5af0e4beb99b2ded62ac5ff72643954">Dornbach</rs>, <rs type="place" xml:id="pl_06628" ref="#place_cc6eda773537f8cb4db5cb1b862d0e0d">Sommerhaidenweg</rs> ― Trübseligkeit der 
+            <p xml:space="preserve"><date when="1909-03-24">24/3</date> Vm. spazieren <rs type="place" xml:id="pl_06627" ref="#pmb90546">Dornbach</rs>, <rs type="place" xml:id="pl_06628" ref="#pmb243">Sommerhaidenweg</rs> ― Trübseligkeit der 
 Landschaft.―</p>
             <p xml:space="preserve" rend="indent">Am <rs type="work" subtype="self" xml:id="bibl_12504">Medardus</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_30015" ref="#person_21107"><surname>Wassermann</surname></rs> auf eine halbe Stunde. <rs type="work" xml:id="bibl_12505">Elektra</rs> (<rs type="person" xml:id="pNt_30016" ref="#person_16293"><surname>Hofmannsthal</surname></rs> ― 
@@ -198,6 +202,5 @@ Aufführung glänzend (<rs type="person" xml:id="pNt_30020" ref="#person_17856">
             </tei:fw>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

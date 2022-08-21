@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1896-09-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-09-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-09-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1896-09-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-09-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-09-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EB6D-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1241.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1896-09-06">
-            <p xml:space="preserve"><date when="1896-09-06">6/9</date> Sonntag.― Bic. nach <rs type="place" xml:id="pl_02468" ref="#place_02031ed2507818d10a37c1a6bf0c9f9d">Mödling</rs>.― <rs type="place" xml:id="pl_02469" ref="#place_a25ff6cb521df1cd0272d03eee7efd32">Brühl</rs>.― Dort <rs type="person" xml:id="pNt_12739"><surname>Salten</surname></rs> und die <rs type="person" xml:id="pNt_12740"><surname>M.</surname></rs> 
-Über <rs type="place" xml:id="pl_02470" ref="#place_6cc6cfe893d0065a8007acc6e4074a69">Rodaun</rs> zurück.― Westbahn, <rs type="allusively" xml:id="rst_00246">Mama</rs> kommt an.― (Aus <rs type="place" xml:id="pl_02471" ref="#place_114ed0b25b3859978b88d3e803308ce8">Eastbourne</rs> 
-und <rs type="place" xml:id="pl_02472" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs>.)</p>
+            <p xml:space="preserve"><date when="1896-09-06">6/9</date> Sonntag.― Bic. nach <rs type="place" xml:id="pl_02468" ref="#pmb968">Mödling</rs>.― <rs type="place" xml:id="pl_02469" ref="#pmb44413">Brühl</rs>.― Dort <rs type="person" xml:id="pNt_12739"><surname>Salten</surname></rs> und die <rs type="person" xml:id="pNt_12740"><surname>M.</surname></rs> 
+Über <rs type="place" xml:id="pl_02470" ref="#pmb173">Rodaun</rs> zurück.― Westbahn, <rs type="allusively" xml:id="rst_00246">Mama</rs> kommt an.― (Aus <rs type="place" xml:id="pl_02471" ref="#pmb90560">Eastbourne</rs> 
+und <rs type="place" xml:id="pl_02472" ref="#pmb182">Paris</rs>.)</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

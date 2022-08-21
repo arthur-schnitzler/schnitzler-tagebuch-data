@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-04-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-04-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-04-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-04-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-04-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-04-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1942-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7267.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1929-04-07">
-            <p xml:space="preserve"><date when="1929-04-07">7/4</date> S.― Vm. <rs type="place" xml:id="pl_18594" ref="#place_f5b61ab40d3efa6b67d874a0fd70d3bd">Purkersdorf</rs> Sanatorium; bei <rs type="person" xml:id="pNt_86447" ref="#person_13355"><forename>Ama</forename></rs>, die recht leidend. Später 
+            <p xml:space="preserve"><date when="1929-04-07">7/4</date> S.― Vm. <rs type="place" xml:id="pl_18594" ref="#pmb91552">Purkersdorf</rs> Sanatorium; bei <rs type="person" xml:id="pNt_86447" ref="#person_13355"><forename>Ama</forename></rs>, die recht leidend. Später 
 auch <rs type="person" xml:id="pNt_86448" ref="#person_17407"><forename>Mirjam</forename> <surname>Lehmann-Haupt</surname></rs> an ihrem Bett.</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="work" subtype="self" xml:id="bibl_262">Tgb.</rs> 21; am <rs type="work" subtype="self" xml:id="bibl_263">Spiel der Sommerlüfte</rs>.</p>
             <p xml:space="preserve" rend="indent">Z. N. <rs type="person" xml:id="pNt_86449" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Nicht erfreulich.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

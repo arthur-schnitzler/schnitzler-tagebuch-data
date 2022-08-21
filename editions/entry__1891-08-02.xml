@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1891-08-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-08-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-08-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1891-08-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-08-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-08-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E438-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0553.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1891-08-02">
-            <p xml:space="preserve"><date when="1891-08-02">2. 8.</date> Sonntag. Mittag in <rs type="place" xml:id="pl_01154" ref="#place_0e891dbd1b1814a0cddd64e270c6ffac">Vöslau</rs>.― Nachm. bei <rs type="person" xml:id="pNt_05482" ref="#person_15485"><forename>Mz.</forename></rs> in <rs type="place" xml:id="pl_01155" ref="#place_9a43e84f6e1d406076f2372205804f6d">B.</rs> ― Der schwarze 
+            <p xml:space="preserve"><date when="1891-08-02">2. 8.</date> Sonntag. Mittag in <rs type="place" xml:id="pl_01154" ref="#pmb992">Vöslau</rs>.― Nachm. bei <rs type="person" xml:id="pNt_05482" ref="#person_15485"><forename>Mz.</forename></rs> in <rs type="place" xml:id="pl_01155" ref="#pmb662">B.</rs> ― Der schwarze 
 <pb n="344"/>
 <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header"><fw place="top_left" type="pageNum">344</fw> <fw place="top_center"><date type="range">1891: VIII 2 - VIII 15</date></fw></tei:fw>
 Punkt spielte stark herein.― Ich war rasend.― Abends in der Arena 
@@ -190,6 +194,5 @@ fünf Minuten noch mit ihr. Sie sagte: „Bleib, ich kann dich heut nicht
 gehen lassen.“ ―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

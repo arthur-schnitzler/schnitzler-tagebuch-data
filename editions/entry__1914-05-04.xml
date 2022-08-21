@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-05-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-05-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-05-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-05-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-05-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-05-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-03FC-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3824.tif"/>
@@ -183,11 +187,10 @@
       <body>
          <div type="diary-day" xml:id="entry__1914-05-04">
             <p xml:space="preserve"><date when="1914-05-04">4/5</date> Mit O. und <rs type="person" xml:id="pNt_43460" ref="#person_13359"><forename>Stephi</forename></rs> Uffizien.―</p>
-            <p xml:space="preserve" rend="indent">Nm. im Auto (mit <rs type="person" xml:id="pNt_43461" ref="#person_19124"><surname>Reichenfeld</surname></rs> und <rs type="person" xml:id="pNt_43462" ref="#person_13359"><forename>Stephi</forename></rs>) nach <rs type="place" xml:id="pl_08700" ref="#place_8a4d0e8f48399b7ebd2cbafe143dc974">Vallombrosa</rs> und <rs type="place" xml:id="pl_08701" ref="#place_b8b27fa104e86b2a0626d038e618923b">Saltino</rs>; 
+            <p xml:space="preserve" rend="indent">Nm. im Auto (mit <rs type="person" xml:id="pNt_43461" ref="#person_19124"><surname>Reichenfeld</surname></rs> und <rs type="person" xml:id="pNt_43462" ref="#person_13359"><forename>Stephi</forename></rs>) nach <rs type="place" xml:id="pl_08700" ref="#pmb91991">Vallombrosa</rs> und <rs type="place" xml:id="pl_08701" ref="#pmb91645">Saltino</rs>; 
 unerwartete unvergeßliche Landschaft.―</p>
             <p xml:space="preserve" rend="indent">Nachtm. im Wirtshaus; Kino.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

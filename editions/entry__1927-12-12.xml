@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-12-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-12-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-12-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-12-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-12-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-12-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1760-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7005.tif"/>
@@ -183,13 +187,12 @@
       <body>
          <div type="diary-day" xml:id="entry__1927-12-12">
             <p xml:space="preserve"><date when="1927-12-12">12/12</date> Dictirt Briefe.</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_82503" ref="#person_18881"><forename>Kolap</forename></rs> von <rs type="place" xml:id="pl_17735" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> erzählt.―</p>
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_82503" ref="#person_18881"><forename>Kolap</forename></rs> von <rs type="place" xml:id="pl_17735" ref="#pmb168">Berlin</rs> erzählt.―</p>
             <p xml:space="preserve" rend="indent">Nm. an der <rs type="work" subtype="self" xml:id="bibl_24913">Lit.-Novelle</rs>.―</p>
             <p xml:space="preserve" rend="indent">Z. N. bei <rs type="person" xml:id="pNt_82504" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>; die gutgestimmt von einem Thee bei <rs type="person" xml:id="pNt_82505" ref="#person_14099"><surname>Byk</surname></rs> kam, wo sie 
 den Praesid. des Vth. Vereins kennen lernte ― der ihr gleich ihr 
 preisgekröntes Stück mitbrachte.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

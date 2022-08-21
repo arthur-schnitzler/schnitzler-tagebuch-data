@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-11-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-11-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-11-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1920-11-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-11-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-11-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0D3E-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5218.tif"/>
@@ -183,15 +187,14 @@
          <div type="diary-day" xml:id="entry__1920-11-02">
             <p xml:space="preserve"><date when="1920-11-02">2/11</date> Dictirt Briefe.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_4352">Weiher</rs>.</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_60342" ref="#person_19294"><roleName>Director</roleName> <surname>Robert</surname></rs>; wegen <rs type="work" subtype="self" xml:id="bibl_4353">Reigen</rs>. Jetzt associirt mit <rs type="person" xml:id="pNt_60343" ref="#person_21059"><surname>Walden</surname></rs>, <rs type="place" xml:id="pl_12622" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> Tribüne; 
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_60342" ref="#person_19294"><roleName>Director</roleName> <surname>Robert</surname></rs>; wegen <rs type="work" subtype="self" xml:id="bibl_4353">Reigen</rs>. Jetzt associirt mit <rs type="person" xml:id="pNt_60343" ref="#person_21059"><surname>Walden</surname></rs>, <rs type="place" xml:id="pl_12622" ref="#pmb168">Berlin</rs> Tribüne; 
 Besetzungsvorschläge;― theils mögliches theils schwindelhaftes.― Die 
 schlimme Atmosphäre des Theatergetriebes heut!― Dilatorisch.―</p>
-            <p xml:space="preserve" rend="indent">In einem Kino <rs type="place" xml:id="pl_12623" ref="#place_d8e4af920d6804a648e0b854af15df65">Gersthof</rs>. (<rs type="person" xml:id="pNt_60344" ref="#person_13626"><forename>E.</forename> <surname>B.</surname></rs>)</p>
+            <p xml:space="preserve" rend="indent">In einem Kino <rs type="place" xml:id="pl_12623" ref="#pmb90705">Gersthof</rs>. (<rs type="person" xml:id="pNt_60344" ref="#person_13626"><forename>E.</forename> <surname>B.</surname></rs>)</p>
             <p xml:space="preserve" rend="indent">― Las den <rs type="place" xml:id="pl_12624" ref="#place_7c4357ee9b41d5afb20ae120f34d690d" ana="#exclude">englischen</rs> <rs type="work" subtype="self" xml:id="bibl_4354">Reigen</rs> zu Ende. Ein wirklich amüsantes Buch, mit 
 mancherlei Köstlichkeiten ― und es könnte doch besser sein;― an manchen 
 Stellen ins höhere und weitere gehn.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

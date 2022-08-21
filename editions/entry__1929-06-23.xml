@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-06-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-06-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-06-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-06-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-06-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-06-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-198F-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7311.tif"/>
@@ -181,15 +185,14 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1929-06-23">
-            <p xml:space="preserve"><date when="1929-06-23">23/6</date> S. <rs type="place" xml:id="pl_18727" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs>.</p>
+            <p xml:space="preserve"><date when="1929-06-23">23/6</date> S. <rs type="place" xml:id="pl_18727" ref="#pmb91735">Semmering</rs>.</p>
             <p xml:space="preserve" rend="indent">Vm. <rs type="person" xml:id="pNt_87052" ref="#person_14745"><roleName>Dr.</roleName> <surname>Ender</surname></rs>.―</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_87053" ref="#person_19704"><surname>Schinnerer</surname></rs> nach <rs type="place" xml:id="pl_18728" ref="#place_8c013d27c25b2d109cfc000dee9900bf">Maria Schutz</rs> gefahren, mit ihm dort gegessen.―</p>
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_87053" ref="#person_19704"><surname>Schinnerer</surname></rs> nach <rs type="place" xml:id="pl_18728" ref="#pmb45277">Maria Schutz</rs> gefahren, mit ihm dort gegessen.―</p>
             <p xml:space="preserve" rend="indent">Nm. dem Festzug von einem Balkon aus zugeschaut.</p>
             <p xml:space="preserve" rend="indent">Das „<rs type="work" subtype="self" xml:id="bibl_444">Wort</rs>“ weiter durchgesehn.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_87054" ref="#person_19704"><surname>Schinnerer</surname></rs> im „Stübl“ genachtm. Er erzählt von seinem 
 Entwicklungsgang. Zum Pastor bestimmt; die fromme Familie etc.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

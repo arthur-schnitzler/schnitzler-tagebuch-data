@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-12-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-12-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-12-19.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-12-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-12-17.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-12-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0206-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3533.tif"/>
@@ -182,10 +186,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1912-12-18">
-            <p xml:space="preserve"><date when="1912-12-18">18/12</date> Vm. zum Begräbnis Dr. <rs type="person" xml:id="pNt_39588" ref="#person_17819"><forename>Ferdinand</forename> <surname>Mandl</surname></rs>. (<rs type="place" xml:id="pl_08121" ref="#place_40f03c4d8f3c432e80d8a7ae8467b0b7">Asperngasse</rs>. Erinnerungen. 
+            <p xml:space="preserve"><date when="1912-12-18">18/12</date> Vm. zum Begräbnis Dr. <rs type="person" xml:id="pNt_39588" ref="#person_17819"><forename>Ferdinand</forename> <surname>Mandl</surname></rs>. (<rs type="place" xml:id="pl_08121" ref="#pmb92151">Asperngasse</rs>. Erinnerungen. 
 <rs type="person" xml:id="pNt_39589" ref="#person_17014"><forename>Else v.</forename> <surname>K.</surname></rs>, <rs type="person" xml:id="pNt_39590" ref="#person_17731"><surname>Lueger</surname></rs>.) ―</p>
-            <p xml:space="preserve" rend="indent">Panorama (<rs type="place" xml:id="pl_08122" ref="#place_f7688f95685985f806fab40e78596fe8">Hallein</rs>, <rs type="place" xml:id="pl_08123" ref="#place_ee73439f8e5bd57e3d0375ed174b4c76">Gastein</rs> etc.) ―</p>
-            <p xml:space="preserve" rend="indent">Auf dem <rs type="place" xml:id="pl_08124" ref="#place_c8369178c0d715f504a72813045a5cd0">Graben</rs> <rs type="person" xml:id="pNt_39591" ref="#person_19542"><surname>Saltens</surname></rs>, später <rs type="person" xml:id="pNt_39592" ref="#person_14748"><surname>Engel</surname></rs>.―</p>
+            <p xml:space="preserve" rend="indent">Panorama (<rs type="place" xml:id="pl_08122" ref="#pmb44258">Hallein</rs>, <rs type="place" xml:id="pl_08123" ref="#pmb521">Gastein</rs> etc.) ―</p>
+            <p xml:space="preserve" rend="indent">Auf dem <rs type="place" xml:id="pl_08124" ref="#pmb90753">Graben</rs> <rs type="person" xml:id="pNt_39591" ref="#person_19542"><surname>Saltens</surname></rs>, später <rs type="person" xml:id="pNt_39592" ref="#person_14748"><surname>Engel</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="work" subtype="self" xml:id="bibl_10641">Sommerstück</rs> Notizen.―</p>
             <p xml:space="preserve" rend="indent">Gelesen über 30j. Krieg, wegen „<rs type="work" subtype="self" xml:id="bibl_10642">Landsknecht</rs>“. Correctur „<rs type="work" subtype="self" xml:id="bibl_10643">Freund 
 Y</rs>“ („Jugendarbeiten im <rs type="work" subtype="newspaper" xml:id="bibl_10644">Extrablatt</rs>“) ―</p>
@@ -203,6 +207,5 @@ Christen- und Judentums.</p>
  … wenn man ihn nicht ohrfeigt, nimmt ers als Bestechungsversuch.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

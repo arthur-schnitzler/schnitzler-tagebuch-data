@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-04-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-04-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-04-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-04-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-04-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-04-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0284-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3606.tif"/>
@@ -182,16 +186,15 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1913-04-23">
-            <p xml:space="preserve"><date when="1913-04-23">23/4</date> <rs type="place" xml:id="pl_08227" ref="#place_9a43e84f6e1d406076f2372205804f6d">Baden</rs>. Früh im Park.</p>
-            <p xml:space="preserve" rend="indent">Mit O. und <rs type="person" xml:id="pNt_40598" ref="#person_13359"><forename>Stephi</forename></rs> im Wagen <rs type="place" xml:id="pl_08228" ref="#place_4aee0ba8deb6ed0f68f1345844d493fb">Neuhaus</rs>. Das neue nicht fertige Hotel 
+            <p xml:space="preserve"><date when="1913-04-23">23/4</date> <rs type="place" xml:id="pl_08227" ref="#pmb662">Baden</rs>. Früh im Park.</p>
+            <p xml:space="preserve" rend="indent">Mit O. und <rs type="person" xml:id="pNt_40598" ref="#person_13359"><forename>Stephi</forename></rs> im Wagen <rs type="place" xml:id="pl_08228" ref="#pmb47414">Neuhaus</rs>. Das neue nicht fertige Hotel 
 „Orange“. Mittag im Garten des alten Hotels, allein, Sonne. 
 Besichtigung von Zimmern und Spaziergang. Die kleinen Villen. Wiesen; 
-Blumen und Zweige.― Zurück über <rs type="place" xml:id="pl_08229" ref="#place_0e891dbd1b1814a0cddd64e270c6ffac">Vöslau</rs>.―</p>
+Blumen und Zweige.― Zurück über <rs type="place" xml:id="pl_08229" ref="#pmb992">Vöslau</rs>.―</p>
             <p xml:space="preserve" rend="indent">Abends mit O. (<rs type="person" xml:id="pNt_40599" ref="#person_13359"><forename>Stephi</forename></rs> voraus, Blumen pflückend) im Park gegen die 
-<rs type="place" xml:id="pl_08230" ref="#place_2fb2f45597d6fce7cea9ec0ffa809c8b">Einöd</rs>; Gespräch ins tiefste, allgemein und besonders.―</p>
-            <p xml:space="preserve" rend="indent">Nachtmahl im Hotel. Zur Bahn begleitet; allein nach <rs type="place" xml:id="pl_08231" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>, „<rs type="work" xml:id="bibl_9426">Les civilis</rs>és“ lesend.―</p>
+<rs type="place" xml:id="pl_08230" ref="#pmb90569">Einöd</rs>; Gespräch ins tiefste, allgemein und besonders.―</p>
+            <p xml:space="preserve" rend="indent">Nachtmahl im Hotel. Zur Bahn begleitet; allein nach <rs type="place" xml:id="pl_08231" ref="#pmb50">Wien</rs>, „<rs type="work" xml:id="bibl_9426">Les civilis</rs>és“ lesend.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

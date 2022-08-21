@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-11-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-11-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-11-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-11-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-11-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-11-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-102F-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5903.tif"/>
@@ -182,8 +186,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1922-11-25">
-            <p xml:space="preserve"><date when="1922-11-25">25/11</date> Vm. mit <rs type="person" xml:id="pNt_67902" ref="#person_21525"><forename>Paul</forename> <surname>Zeisler</surname></rs> Spaziergang <rs type="place" xml:id="pl_14416" ref="#place_cc6eda773537f8cb4db5cb1b862d0e0d">Sommerhaidenweg</rs> etc. Glatteis und Wind. 
-(<rs type="place" xml:id="pl_14417" ref="#place_3a6c1f5e020800151a0faa84185ac160" ana="#exclude">Amerikanische</rs> sociale Verhältnisse, <rs type="place" xml:id="pl_14418" ref="#place_9cfa1e69f507d007a516eb3e9f5074e2">Chicago</rs> etc.)</p>
+            <p xml:space="preserve"><date when="1922-11-25">25/11</date> Vm. mit <rs type="person" xml:id="pNt_67902" ref="#person_21525"><forename>Paul</forename> <surname>Zeisler</surname></rs> Spaziergang <rs type="place" xml:id="pl_14416" ref="#pmb243">Sommerhaidenweg</rs> etc. Glatteis und Wind. 
+(<rs type="place" xml:id="pl_14417" ref="#place_3a6c1f5e020800151a0faa84185ac160" ana="#exclude">Amerikanische</rs> sociale Verhältnisse, <rs type="place" xml:id="pl_14418" ref="#pmb880">Chicago</rs> etc.)</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_67903" ref="#person_21525"><surname>Zeisler</surname></rs> und <rs type="person" xml:id="pNt_67904" ref="#person_19707"><forename>Jessie</forename></rs> zu Mittag bei uns ―</p>
             <p xml:space="preserve" rend="indent">Nm. an „<rs type="work" subtype="self" xml:id="bibl_2924">Fr. d. R.</rs>“ ―</p>
             <p xml:space="preserve" rend="indent">Gegen Abend <rs type="person" xml:id="pNt_67905" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> bei mir.―</p>
@@ -193,6 +197,5 @@ lassen; mit <rs type="person" xml:id="pNt_67906" ref="#person_19822"><forename>H
 gewichtigen Bedenken.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

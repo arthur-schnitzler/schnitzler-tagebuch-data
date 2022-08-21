@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-08-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-08-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-08-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1931-08-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-08-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-08-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1C9C-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7759.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1931-08-14">
-            <p xml:space="preserve"><date when="1931-08-14">14/8</date> <rs type="place" xml:id="pl_20090" ref="#place_d533f22e7175d6063cb4c4286fb92c0c">Gmunden</rs>.― Um 12 kommt <rs type="person" xml:id="pNt_93649" ref="#person_14234"><forename>Suz.</forename></rs> (aus <rs type="place" xml:id="pl_20091" ref="#place_661f4200c3f047474d1df224f62f0503">Aussee</rs>). Mit ihr im Regen Esplanade. 
+            <p xml:space="preserve"><date when="1931-08-14">14/8</date> <rs type="place" xml:id="pl_20090" ref="#pmb874">Gmunden</rs>.― Um 12 kommt <rs type="person" xml:id="pNt_93649" ref="#person_14234"><forename>Suz.</forename></rs> (aus <rs type="place" xml:id="pl_20091" ref="#pmb415">Aussee</rs>). Mit ihr im Regen Esplanade. 
 Am See, mit <rs type="person" xml:id="pNt_93650" ref="#person_14129"><forename>Arnoldo</forename></rs> und <rs type="person" xml:id="pNt_93651" ref="#person_19704"><surname>Schinnerer</surname></rs> Wermuth.― Essen zu sechst im Hotel. 
 Eine Weile mit <rs type="person" xml:id="pNt_93652" ref="#person_14234"><forename>Suz.</forename></rs> spazieren und bei mir.</p>
             <p xml:space="preserve" rend="indent">Dann alle Conditorei. Spazierg., in den alten Straßen. <rs type="person" xml:id="pNt_93653" ref="#person_19832"><forename>O.</forename></rs> mit <rs type="person" xml:id="pNt_93654" ref="#person_14234"><forename>Suz.</forename></rs> (wie 
@@ -189,6 +193,5 @@ sie mir später erzählt), bitter über <rs type="person" xml:id="pNt_93655" ref
 „Schwan“.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

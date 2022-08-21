@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1907-09-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-09-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-09-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1907-09-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-09-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-09-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FAA0-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2407.tif"/>
@@ -180,10 +184,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1907-09-06">
-            <p xml:space="preserve"><date when="1907-09-06">6/9</date> Mit <rs type="person" xml:id="pNt_27268" ref="#person_13682"><surname>Bernstein</surname></rs> und <rs type="person" xml:id="pNt_27269" ref="#person_19682"><surname>Schiff</surname></rs> <rs type="place" xml:id="pl_06089" ref="#place_9a779dd25cde23591ab41376772961d3">Dorf Tirol</rs> ―</p>
+            <p xml:space="preserve"><date when="1907-09-06">6/9</date> Mit <rs type="person" xml:id="pNt_27268" ref="#person_13682"><surname>Bernstein</surname></rs> und <rs type="person" xml:id="pNt_27269" ref="#person_19682"><surname>Schiff</surname></rs> <rs type="place" xml:id="pl_06089" ref="#pmb92216">Dorf Tirol</rs> ―</p>
             <p xml:space="preserve" rend="indent"><rs type="work" subtype="self" xml:id="bibl_14426">R.</rs> 8 vorgelesen.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

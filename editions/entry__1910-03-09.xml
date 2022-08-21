@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-03-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-03-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-03-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-03-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-03-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-03-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FE0F-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2865.tif"/>
@@ -182,16 +186,15 @@
       <body>
          <div type="diary-day" xml:id="entry__1910-03-09">
             <p xml:space="preserve"><date when="1910-03-09">9/3</date> Vm. mit O. und <rs type="person" xml:id="pNt_32226" ref="#person_13551"><forename>Richard</forename></rs> Besichtigung der Villa <rs type="person" xml:id="pNt_32227" ref="#person_13231"><surname>Anton</surname></rs>, 
-<rs type="place" xml:id="pl_06977" ref="#place_49101ce65f7ff47903aad06966f105cd">Schafberggasse</rs> 3. Wohnungsgespräch.― Zweifel. Wieder Gedanke, die untre 
+<rs type="place" xml:id="pl_06977" ref="#pmb92511">Schafberggasse</rs> 3. Wohnungsgespräch.― Zweifel. Wieder Gedanke, die untre 
 Wohnung zu nehmen.―</p>
             <p xml:space="preserve" rend="indent">― Nm. für mich „<rs type="work" subtype="self" xml:id="bibl_11601">neues Lied</rs>“ und „<rs type="work" subtype="self" xml:id="bibl_11602">Excentrik</rs>“.―</p>
-            <p xml:space="preserve" rend="indent">― <rs type="person" xml:id="pNt_32228" ref="#person_14626"><roleName>Dr.</roleName> <surname>Eger</surname></rs>, <rs type="place" xml:id="pl_06978" ref="#place_c12b8d9779a8ad2b240a57b31c979290">Prag</rs>; Vorschläge und Wünsche. („<rs type="work" subtype="self" xml:id="bibl_11603">Marionetten</rs>“ in <rs type="place" xml:id="pl_06979" ref="#place_c12b8d9779a8ad2b240a57b31c979290">Prag</rs>,― 
+            <p xml:space="preserve" rend="indent">― <rs type="person" xml:id="pNt_32228" ref="#person_14626"><roleName>Dr.</roleName> <surname>Eger</surname></rs>, <rs type="place" xml:id="pl_06978" ref="#pmb91524">Prag</rs>; Vorschläge und Wünsche. („<rs type="work" subtype="self" xml:id="bibl_11603">Marionetten</rs>“ in <rs type="place" xml:id="pl_06979" ref="#pmb91524">Prag</rs>,― 
 Cyclus meiner Werke ― zu meinem (es wird schwer es hinzuschreiben) 50.―</p>
             <p xml:space="preserve" rend="indent">Empfehlung an <rs type="person" xml:id="pNt_32229" ref="#person_13913"><surname>Brahm</surname></rs> ev.,― Regisseurstelle.)</p>
             <p xml:space="preserve" rend="indent">Mit O. <rs type="person" xml:id="pNt_32230" ref="#person_13914"><surname>Brahms</surname></rs> Gesangsconcert <rs type="person" xml:id="pNt_32231" ref="#person_15750"><surname>Gound</surname></rs> als Begleiter, <rs type="person" xml:id="pNt_32232" ref="#person_16651"><forename>Flore</forename> <surname>Kalbeck</surname></rs>. 
 <rs type="person" xml:id="pNt_32233" ref="#person_20277"><roleName>Dr.</roleName> <surname>Spitzer</surname></rs> etc.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

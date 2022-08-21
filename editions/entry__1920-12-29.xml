@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-12-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-12-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-12-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1920-12-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-12-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-12-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0D77-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,26 +177,28 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5259.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1920-12-29">
             <p xml:space="preserve"><date when="1920-12-29">29/12</date> Frage früh <rs type="person" xml:id="pNt_60857" ref="#person_19832"><forename>O.</forename></rs>, ob irgend was wesentliches gestern entschieden 
 worden;― nein; es bleibe dabei, Anfang Jänner fahre sie fort; wünsche 
 nur vorher mit einem Advokaten sich zu berathen.―</p>
-            <p xml:space="preserve" rend="indent">Auf die <rs type="place" xml:id="pl_12695" ref="#place_4a524fbde0fd36afd1652865666d12e7">Weißgerberlände</rs>, zu <rs type="person" xml:id="pNt_60858" ref="#person_15957"><surname>Harz</surname></rs>, der nun den Verlag „<rs type="pubHouse">Kosmos</rs>“ hat; 
+            <p xml:space="preserve" rend="indent">Auf die <rs type="place" xml:id="pl_12695" ref="#pmb92598">Weißgerberlände</rs>, zu <rs type="person" xml:id="pNt_60858" ref="#person_15957"><surname>Harz</surname></rs>, der nun den Verlag „<rs type="pubHouse">Kosmos</rs>“ hat; 
 Honorarfragen.―</p>
-            <p xml:space="preserve" rend="indent">Nachm., trotz miserabeln Wetters, nach <rs type="place" xml:id="pl_12696" ref="#place_9a43e84f6e1d406076f2372205804f6d">Baden</rs>, Pens. Cortella; zu <rs type="person" xml:id="pNt_60859" ref="#person_15854"><forename>Gisa</forename></rs>.― 
+            <p xml:space="preserve" rend="indent">Nachm., trotz miserabeln Wetters, nach <rs type="place" xml:id="pl_12696" ref="#pmb662">Baden</rs>, Pens. Cortella; zu <rs type="person" xml:id="pNt_60859" ref="#person_15854"><forename>Gisa</forename></rs>.― 
 Mit ihr spazieren in den Straßen;― ihr den Stand der Angelegenheit 
 erklärt;― sie sieht sie auch als aussichtslos an. Trotzdem erleichtert 
-mich die Aussprache ein wenig.― Im überfüllten Zug nach <rs type="place" xml:id="pl_12697" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>, auf der 
+mich die Aussprache ein wenig.― Im überfüllten Zug nach <rs type="place" xml:id="pl_12697" ref="#pmb50">Wien</rs>, auf der 
 Südbahn genachtmahlt; bringe <rs type="person" xml:id="pNt_60860" ref="#person_19832"><forename>O.</forename></rs> und <rs type="person" xml:id="pNt_60861" ref="#person_14130"><forename>Lili</forename></rs> Zuckerbäckereien von <rs type="person" xml:id="pNt_60862" ref="#person_15854"><forename>Gisa</forename></rs> mit; 
 keinerlei Erörterungen.</p>
             <p xml:space="preserve" rend="indent">Lese in den <rs type="person" xml:id="pNt_60863" ref="#person_20276"><forename>D.</forename> <surname>Spitzer’schen</surname></rs> <rs type="work" xml:id="bibl_4462">Wiener Spaziergängen</rs>, von <rs type="person" xml:id="pNt_60864" ref="#person_15957"><surname>Harz</surname></rs> geschenkt; 
 im <rs type="work" xml:id="bibl_4463">Meister</rs> weiter.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-04-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-04-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-04-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1931-04-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-04-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-04-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1C1D-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7678.tif"/>
@@ -183,10 +187,9 @@
          <div type="diary-day" xml:id="entry__1931-04-08">
             <p xml:space="preserve"><date when="1931-04-08">8/4</date> Früh <rs type="person" xml:id="pNt_92574" ref="#person_17562"><forename>R.</forename> <surname>L.</surname></rs> Behandlung.―</p>
             <p xml:space="preserve" rend="indent">Dictirt Briefe etc.―</p>
-            <p xml:space="preserve" rend="indent">Abds. mit <rs type="person" xml:id="pNt_92575" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Saschakino (<rs type="person" xml:id="pNt_92576" ref="#person_14179"><surname>Chaplin</surname></rs> <rs type="work" xml:id="bibl_23692">City lights</rs>), dann mit ihr <rs type="place" ref="#place_meissl">Meißl</rs> 
+            <p xml:space="preserve" rend="indent">Abds. mit <rs type="person" xml:id="pNt_92575" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Saschakino (<rs type="person" xml:id="pNt_92576" ref="#person_14179"><surname>Chaplin</surname></rs> <rs type="work" xml:id="bibl_23692">City lights</rs>), dann mit ihr <rs type="place" ref="#pmb96">Meißl</rs> 
 genachtm.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

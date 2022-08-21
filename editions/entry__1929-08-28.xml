@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-08-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-08-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-08-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-08-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-08-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-08-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-19D1-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7344.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1929-08-28">
-            <p xml:space="preserve"><date when="1929-08-28">28/8</date> <rs type="place" xml:id="pl_18854" ref="#place_b69e39d38efc442d4f3faa0970eaf441">Caux</rs>. Spazierg. mit <rs type="person" xml:id="pNt_87561" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs></p>
+            <p xml:space="preserve"><date when="1929-08-28">28/8</date> <rs type="place" xml:id="pl_18854" ref="#pmb90460">Caux</rs>. Spazierg. mit <rs type="person" xml:id="pNt_87561" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs></p>
             <p xml:space="preserve" rend="indent">Nm. am „<rs type="work" subtype="self" xml:id="bibl_564">Zug</rs>“ überlegt.―</p>
-            <p xml:space="preserve" rend="indent">Brief von <rs type="person" xml:id="pNt_87562" ref="#person_19832"><forename>O.</forename></rs>; noch nichts von <rs type="place" xml:id="pl_18855" ref="#place_834e1bca2cb7d2238249e70860ed8ae8">Meran</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Brief von <rs type="person" xml:id="pNt_87562" ref="#person_19832"><forename>O.</forename></rs>; noch nichts von <rs type="place" xml:id="pl_18855" ref="#pmb43520">Meran</rs>.―</p>
             <p xml:space="preserve" rend="indent">Immer herrliches Wetter. Aufenthalt durchaus angenehm.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-11-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-11-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-11-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-11-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-11-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-11-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FD91-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2777.tif"/>
@@ -183,7 +187,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1909-11-03">
             <p xml:space="preserve"><date when="1909-11-03">3/11</date> Vm. bei <rs type="person" xml:id="pNt_31149" ref="#person_16166"><surname>Herzmansky</surname></rs>. Über die Samstag Aufführung <rs type="work" subtype="self" xml:id="bibl_12959">Cassian</rs> (mit 
-<rs type="work" xml:id="bibl_12960">Colombine</rs> und <rs type="work" xml:id="bibl_12961">Venus im Grünen</rs>) in <rs type="place" xml:id="pl_06853" ref="#place_4a887b8a68acf9b04d9d027bddedb06b">Leipzig</rs>; <rs type="work" xml:id="bibl_12962">Venus</rs> der Schlager.―</p>
+<rs type="work" xml:id="bibl_12960">Colombine</rs> und <rs type="work" xml:id="bibl_12961">Venus im Grünen</rs>) in <rs type="place" xml:id="pl_06853" ref="#pmb864">Leipzig</rs>; <rs type="work" xml:id="bibl_12962">Venus</rs> der Schlager.―</p>
             <pb n="100"/>
             <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header">
                <fw n="100" place="top_left" type="pageNum">100</fw>
@@ -191,7 +195,7 @@
                   <date type="range">1909: XI 3 ― XI 7</date>
                </fw>
             </tei:fw>
-            <p xml:space="preserve" rend="indent">Dann Panorama, <rs type="place" xml:id="pl_06854" ref="#place_0bcbcfedf2ef1f96542597b9279fb141">Rom</rs>.</p>
+            <p xml:space="preserve" rend="indent">Dann Panorama, <rs type="place" xml:id="pl_06854" ref="#pmb445">Rom</rs>.</p>
             <p xml:space="preserve" rend="indent">Zurück zu <rs type="person" xml:id="pNt_31150" ref="#person_16166"><surname>H.</surname></rs>, wo später <rs type="person" xml:id="pNt_31151" ref="#person_20490"><forename>Oscar</forename> <surname>Straus</surname></rs> (und Gattin) weiteres über 
 die Vorstellung, die er dirigirt hat; wenig Aussichten, beste 
 Zusammenstellung wäre mit der <rs type="work" subtype="self" xml:id="bibl_12963">Pantomime</rs> von <rs type="person" xml:id="pNt_31152" ref="#person_14473"><surname>Dohnanyi</surname></rs>, telegrafirte 
@@ -204,6 +208,5 @@ kalt gelassen; viel nur mit seiner Manier gemacht. Olga sagt: <rs type="person" 
             <p xml:space="preserve" rend="indent">Neben uns saßen <rs type="person" xml:id="pNt_31157" ref="#person_16666"><surname>Kallina</surname></rs> und <rs type="person" xml:id="pNt_31158"><surname>Mann</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

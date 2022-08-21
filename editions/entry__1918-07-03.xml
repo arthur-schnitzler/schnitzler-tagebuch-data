@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-07-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-07-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-07-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-07-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-07-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-07-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-09EA-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4665.tif"/>
@@ -187,7 +191,7 @@ Demission <rs type="person" xml:id="pNt_53638" ref="#person_18168"><surname>Mill
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_53639" ref="#person_20238"><forename>Richard</forename> <surname>Specht</surname></rs>.― Die Directionskrisen in Burg und Oper.―</p>
             <p xml:space="preserve" rend="indent">Nm. Notizen zum „<rs type="work" subtype="self" xml:id="bibl_5679">Nachklang</rs>“.―</p>
             <p xml:space="preserve" rend="indent">Reporter <rs type="person" xml:id="pNt_53640" ref="#person_14945"><surname>Felsenburg</surname></rs> von der <rs type="work" subtype="newspaper" xml:id="bibl_5680">N. Fr. Pr.</rs> will mich über die „Zukunft 
-des <rs type="place" ref="#place_burgtheater">Burgtheater</rs>s“ interviewen; ich lehne ab, was er natürlich vorher 
+des <rs type="place" ref="#pmb14">Burgtheater</rs>s“ interviewen; ich lehne ab, was er natürlich vorher 
 gewußt hatte. „Unser <rs type="person" xml:id="pNt_53641"><surname>Überbenedikt</surname></rs>, der <rs type="person" xml:id="pNt_53642" ref="#person_20423"><surname>Sternberg</surname></rs> wird natürlich 
 finden ich bin untüchtig.“ ― Er selbst habe <rs type="person" xml:id="pNt_53643" ref="#person_18168"><surname>Millenk.</surname></rs> gesagt. „Lieber 
 Freund ― Sie müssen das Obersthofmeisteramt veranlassen zu dementiren.“ 
@@ -202,8 +206,8 @@ Lass’ dich aufhängen …“ Offenbar aus dem eifersüchtigen Gefühl:
 Und diese drei Jahre ― über die ich nichts sicheres wissen kann und 
 werde ―?―</p>
             <p xml:space="preserve" rend="indent">„<rs type="work" xml:id="bibl_5681">Der Diakonus</rs>“, ein albernes Gymnasiastenstück, durch einen <rs type="person" xml:id="pNt_53646" ref="#person_20026"><roleName>Herrn</roleName> 
-<surname>Seiden</surname></rs>, <rs type="place" xml:id="pl_11096" ref="#place_02031ed2507818d10a37c1a6bf0c9f9d">Mödling</rs> übersandt, der daraufhin einen Verein „Das junge 
-<rs type="place" xml:id="pl_11097" ref="#place_b472f5868425ac2bc44e693fc3267e87">Oesterreich</rs>“ gründen wollte.―</p>
+<surname>Seiden</surname></rs>, <rs type="place" xml:id="pl_11096" ref="#pmb968">Mödling</rs> übersandt, der daraufhin einen Verein „Das junge 
+<rs type="place" xml:id="pl_11097" ref="#pmb41240">Oesterreich</rs>“ gründen wollte.―</p>
             <p xml:space="preserve" rend="indent">Las ferner „<rs type="work" xml:id="bibl_5682">Anfänger</rs>“ von <rs type="person" xml:id="pNt_53647" ref="#person_15783"><surname>Guttmann</surname></rs>,― „<rs type="work" xml:id="bibl_5683">Parteien</rs>“ von <rs type="person" xml:id="pNt_53648" ref="#person_19646"><surname>Schendell</surname></rs>, zwei 
 „neuere“ Dramen. Wieder war es nicht sosehr die Talentlosigkeit (beim 
 ersteren besonders;― in <rs type="person" xml:id="pNt_53649" ref="#person_19646"><surname>Schendell</surname></rs> steckt vielleicht was) ― als die 
@@ -211,6 +215,5 @@ seelische Bedenklichkeit;― dieses Gemisch von Hochmut, Hass, Affectation,
 Snobismus, die mich anwiderte.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

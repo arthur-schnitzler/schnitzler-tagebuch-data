@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-02-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-02-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-02-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-02-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-02-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-02-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0955-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,21 +177,23 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4595.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1918-02-04">
             <p xml:space="preserve"><date when="1918-02-04">4/2</date> Vm. dictirt Briefe;― „<rs type="work" subtype="self" xml:id="bibl_5327">Sohn</rs>“.―</p>
             <p xml:space="preserve" rend="indent">Frl. <rs type="person" xml:id="pNt_52541" ref="#person_14057"><forename>Margar.</forename> <surname>Bukovics</surname></rs>,― will die <rs type="person" xml:id="pNt_52542"><forename>Erna</forename></rs> im <rs type="work" subtype="self" xml:id="bibl_5328">W. L.</rs> spielen. Ablehnend.</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="work" subtype="self" xml:id="bibl_5329">Verführer</rs> 3. Akt Scenar. durchgesehn.</p>
             <p xml:space="preserve" rend="indent">Den alten Plan, „<rs type="work" subtype="self" xml:id="bibl_5330">Ritterlich</rs>“.― Der Anfang verspricht was, dann 
 wirds nichts.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" ref="#place_volkstheater">Volkstheater</rs>, um <rs type="person" xml:id="pNt_52543" ref="#person_19996"><roleName>Fr.</roleName> <surname>Schweighofer</surname></rs> (Dame in Trauer) für <rs type="figur">Fr. Aigner</rs> 
+            <p xml:space="preserve" rend="indent"><rs type="place" ref="#pmb92202">Volkstheater</rs>, um <rs type="person" xml:id="pNt_52543" ref="#person_19996"><roleName>Fr.</roleName> <surname>Schweighofer</surname></rs> (Dame in Trauer) für <rs type="figur">Fr. Aigner</rs> 
 (<rs type="work" subtype="self" xml:id="bibl_5331">W. L.</rs>) zu begutachten. Schwach.― Blieb 3 Akte; bei <rs type="person" xml:id="pNt_52545" ref="#person_21074"><surname>Wallner</surname></rs> in der 
 Loge.― Mit <rs type="person" xml:id="pNt_52546" ref="#person_19392"><surname>Rosenthal</surname></rs> allerlei zur Besetzung.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

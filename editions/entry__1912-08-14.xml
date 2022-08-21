@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-08-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-08-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0188-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3460.tif"/>
@@ -184,10 +188,9 @@
             <p xml:space="preserve"><date when="1912-08-14">14/8</date> Bad wieder. Nachher bei <rs type="person" xml:id="pNt_38614" ref="#person_17444"><roleName>Dr.</roleName> <surname>Lenz</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent"><rs type="work" subtype="self" xml:id="bibl_10443">Bernhardi</rs>,― die corrigirten Scenen an die Druckerei ―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_38615" ref="#person_19755"><roleName>Frau</roleName> <surname>Schmidl</surname></rs> im Zimmer; dann Spaziergang mit O. und Hrn 
-<rs ref="#person_19756" type="person" xml:id="pNt_38616"><forename>Schm.</forename></rs> Paradiso ― <rs type="place" xml:id="pl_07995" ref="#place_b58956f9e8974e3a0f30757920fe9171">Cipro</rs>, wo wir mit <rs type="person" xml:id="pNt_38617" ref="#person_21601"><surname>Zuckerkandls</surname></rs> und <rs type="person" xml:id="pNt_38618" ref="#person_14259"><surname>Colmers</surname></rs> 
+<rs ref="#person_19756" type="person" xml:id="pNt_38616"><forename>Schm.</forename></rs> Paradiso ― <rs type="place" xml:id="pl_07995" ref="#pmb92408">Cipro</rs>, wo wir mit <rs type="person" xml:id="pNt_38617" ref="#person_21601"><surname>Zuckerkandls</surname></rs> und <rs type="person" xml:id="pNt_38618" ref="#person_14259"><surname>Colmers</surname></rs> 
 zusammentrafen. (Über <rs type="person" xml:id="pNt_38619" ref="#person_15529"><surname>Goldmann</surname></rs>, <rs type="person" xml:id="pNt_38620" ref="#person_13162"><surname>Altenberg</surname></rs> etc.) ―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

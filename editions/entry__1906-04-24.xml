@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-04-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-04-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-04-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1906-04-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-04-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-04-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F8AC-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2219.tif"/>
@@ -181,13 +185,12 @@
       <body>
          <div type="diary-day" xml:id="entry__1906-04-24">
             <p xml:space="preserve"><date when="1906-04-24">24/4</date> Vm. bei <rs type="person" xml:id="pNt_24810" ref="#person_15562"><surname>Gomperz</surname></rs> (wegen „Valyl“ fragen); bei <rs type="person" xml:id="pNt_24811" ref="#person_13305"><surname>Auernheimer</surname></rs> und 
-<rs type="person" xml:id="pNt_24812" ref="#person_15369"><surname>Geiringer</surname></rs> (beide nicht getroffen). Panorama (<rs type="place" xml:id="pl_05519" ref="#place_8b6f0975edbb61684a14fc0b1891e1b1">Neapel</rs>, <rs type="place" xml:id="pl_05520" ref="#place_0e07710087154c8b2a371763d8acc024">Mallorca</rs>).</p>
+<rs type="person" xml:id="pNt_24812" ref="#person_15369"><surname>Geiringer</surname></rs> (beide nicht getroffen). Panorama (<rs type="place" xml:id="pl_05519" ref="#pmb91330">Neapel</rs>, <rs type="place" xml:id="pl_05520" ref="#pmb91197">Mallorca</rs>).</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="allusively" xml:id="rst_00692">Mama</rs> nach Tisch <rs type="person" xml:id="pNt_24813" ref="#person_17786"><surname>Mahler</surname></rs> <rs type="work" xml:id="bibl_14945">Zweite</rs>.</p>
             <p xml:space="preserve" rend="indent">Mit O. bei <rs type="person" xml:id="pNt_24814" ref="#person_17825"><roleName>Dr.</roleName> <surname>Mandl</surname></rs> consultiren; bei <rs ref="#person_19831" type="person" xml:id="pNt_24815"><surname>Koppel</surname></rs> etc., Stoffe.</p>
             <p xml:space="preserve" rend="indent">Telegr. an <rs type="person" xml:id="pNt_24816" ref="#person_13913"><surname>Brahm</surname></rs> (wegen <rs type="person" xml:id="pNt_24817" ref="#person_19126"><surname>Reicher</surname></rs>).</p>
             <p xml:space="preserve" rend="indent">Nach dem Nachtmahl am <rs type="work" subtype="self" xml:id="bibl_14946">Roman</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

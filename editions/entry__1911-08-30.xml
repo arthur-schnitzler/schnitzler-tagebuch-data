@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-08-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-08-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-08-31.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-08-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-08-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-08-31.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-002A-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3210.tif"/>
@@ -182,9 +186,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1911-08-30">
-            <p xml:space="preserve"><date when="1911-08-30">30/8</date> Vormittag nach <rs type="place" xml:id="pl_07599" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>. Südbahn gegessen. Ins Sanatorium. <rs type="allusively" xml:id="rst_01247">Mama</rs> 
+            <p xml:space="preserve"><date when="1911-08-30">30/8</date> Vormittag nach <rs type="place" xml:id="pl_07599" ref="#pmb50">Wien</rs>. Südbahn gegessen. Ins Sanatorium. <rs type="allusively" xml:id="rst_01247">Mama</rs> 
 etwas besser, aber recht benommen.― Nach Haus. Gewitter. Wieder ins 
-Sanatorium.― Mit O. Riedhof. Traurigkeit der <rs type="place" xml:id="pl_07600" ref="#place_9ce4d8c98a6877d79975eac1b717b8e3">Alserstraße</rs>. Musik.―</p>
+Sanatorium.― Mit O. Riedhof. Traurigkeit der <rs type="place" xml:id="pl_07600" ref="#pmb92140">Alserstraße</rs>. Musik.―</p>
             <p xml:space="preserve" rend="indent">Übernachte bei <rs type="allusively" xml:id="rst_01248">Mama</rs>. Schon im Bett liegend empfang ich Dr. <rs type="person" xml:id="pNt_35930" ref="#person_16777"><forename>Rudi</forename> 
 <surname>Kaufmann</surname></rs> (behandelnder Arzt). Wir reden bis gegen 11, über Tod, 
 Krankheiten, Hypochondrien, <rs type="person" xml:id="pNt_35931" ref="#person_16009"><surname>Hebbel</surname></rs>, mein Ohrenleiden u. a.― Seine 
@@ -193,6 +197,5 @@ vorsichtig-widerwillige und doch von tieferer Sympathie erhellte Stellung zu mir
             <p xml:space="preserve" rend="indent">Unwohlsein Nachts. Kopfweh. Unerträglicher Lärm auf der Straße.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

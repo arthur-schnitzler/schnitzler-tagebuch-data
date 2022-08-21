@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-02-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-02-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-02-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1920-02-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-02-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-02-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0C3A-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5029.tif"/>
@@ -183,7 +187,7 @@
          <div type="diary-day" xml:id="entry__1920-02-16">
             <p xml:space="preserve"><date when="1920-02-16">16/2</date> Dict. <rs type="work" subtype="self" xml:id="bibl_3902">Med. Film</rs> etc.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_58032" ref="#person_16770"><forename>Arthur</forename> <surname>Kfm.</surname></rs> brachte seinen Artikel über Bolschewismus den ich 
-nach <rs type="place" xml:id="pl_12112" ref="#place_aea93afdf4bee7f4b52526ee5f040cea">Basel</rs> an <rs type="person" xml:id="pNt_58033" ref="#person_13473"><forename>Ludwig</forename> <surname>Bauer</surname></rs> sandte ―</p>
+nach <rs type="place" xml:id="pl_12112" ref="#pmb854">Basel</rs> an <rs type="person" xml:id="pNt_58033" ref="#person_13473"><forename>Ludwig</forename> <surname>Bauer</surname></rs> sandte ―</p>
             <p xml:space="preserve" rend="indent">Nm. Briefe.―</p>
             <p xml:space="preserve" rend="indent">Im Opernkino. Sah mir einen Film der Projectograph an, von 
 dem für <rs type="work" subtype="self" xml:id="bibl_3903">Med.</rs> bestimmten Regisseur nach dem allerdings 
@@ -193,6 +197,5 @@ war angewidert von der Geschmacklosigkeit.―</p>
 schmutzige Seele.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

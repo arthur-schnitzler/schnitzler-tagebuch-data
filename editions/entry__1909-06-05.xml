@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-06-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-06-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-06-06.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-06-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-06-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-06-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FCFA-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2699.tif"/>
@@ -181,18 +185,17 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1909-06-05">
-            <p xml:space="preserve"><date when="1909-06-05">5/6</date> Traum: in der alten Wohnung, <rs type="place" xml:id="pl_06696" ref="#place_cfa835a4df2f287f2b999521ebe66bee">Burgring</rs>, empfangen wir Kinder 
+            <p xml:space="preserve"><date when="1909-06-05">5/6</date> Traum: in der alten Wohnung, <rs type="place" xml:id="pl_06696" ref="#pmb274">Burgring</rs>, empfangen wir Kinder 
 alle unsern <rs type="allusively" xml:id="rst_01033">Vater</rs>, und ich bin zu Thränen ergriffen, daß ich ihn so 
 selten „in der letzten Zeit“ sehe.―</p>
             <p xml:space="preserve" rend="indent">Dictirt <rs type="work" subtype="self" xml:id="bibl_12681">Medardus</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_12682">Medardus</rs>.―</p>
             <p xml:space="preserve" rend="indent">Zum Thee <rs type="person" xml:id="pNt_30381" ref="#person_16845"><roleName>Frl.</roleName> <surname>Kipiany</surname></rs> (die sich Monate nicht sehen ließ, offenbar 
 ihr Elend verbergend, jetzt in einem Kloster als Pensionärin wohnt). 
-<rs type="person" xml:id="pNt_30382" ref="#person_15781"><forename>Leonie</forename> <surname>Guttmann</surname></rs> (über die literarische Bewegung in <rs type="place" xml:id="pl_06697" ref="#place_601df943a89d2ac73e0e43a5d37fc228">Ungarn</rs>).</p>
-            <p xml:space="preserve" rend="indent">Im <rs type="place" xml:id="pl_06698" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs> genachtmahlt: <rs type="person" xml:id="pNt_30383" ref="#person_15781"><forename>Leonie</forename></rs>, <rs type="person" xml:id="pNt_30384" ref="#person_13305"><surname>Auernheimers</surname></rs>, 
+<rs type="person" xml:id="pNt_30382" ref="#person_15781"><forename>Leonie</forename> <surname>Guttmann</surname></rs> (über die literarische Bewegung in <rs type="place" xml:id="pl_06697" ref="#pmb35512">Ungarn</rs>).</p>
+            <p xml:space="preserve" rend="indent">Im <rs type="place" xml:id="pl_06698" ref="#pmb113">Türkenschanzpark</rs> genachtmahlt: <rs type="person" xml:id="pNt_30383" ref="#person_15781"><forename>Leonie</forename></rs>, <rs type="person" xml:id="pNt_30384" ref="#person_13305"><surname>Auernheimers</surname></rs>, 
 <rs type="person" xml:id="pNt_30385" ref="#person_21107"><surname>Wassermanns</surname></rs>, <rs type="person" xml:id="pNt_30386" ref="#person_13551"><forename>Richard</forename></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

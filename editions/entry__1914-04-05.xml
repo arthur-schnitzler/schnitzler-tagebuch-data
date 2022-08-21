@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-04-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-04-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-04-06.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-04-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-04-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-04-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-03DF-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,16 +177,18 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3808.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1914-04-05">
-            <p xml:space="preserve"><date when="1914-04-05">5/4</date> S. Mit <rs type="person" xml:id="pNt_43268" ref="#person_19822"><forename>Heini</forename></rs> über Hameau ― <rs type="place" xml:id="pl_08660" ref="#place_b900112ce988d972bc2d561413e84979">Sophienalpe</rs> nach <rs type="place" xml:id="pl_08661" ref="#place_318e051b87a18bd62b48dc49a3318206">Hütteldorf</rs>.―</p>
+            <p xml:space="preserve"><date when="1914-04-05">5/4</date> S. Mit <rs type="person" xml:id="pNt_43268" ref="#person_19822"><forename>Heini</forename></rs> über Hameau ― <rs type="place" xml:id="pl_08660" ref="#pmb92533">Sophienalpe</rs> nach <rs type="place" xml:id="pl_08661" ref="#pmb90913">Hütteldorf</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. mit <rs type="work" subtype="self" xml:id="bibl_8785">Fink</rs> beschäftigt; erzähle den Verlauf mit den neuern Varianten 
 0., was dem Stück höchst förderlich sein dürfte.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

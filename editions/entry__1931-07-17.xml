@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-07-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1931-07-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1C80-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7740.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1931-07-17">
-            <p xml:space="preserve"><date when="1931-07-17">17/7</date> <rs type="place" xml:id="pl_20012" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs>. Mit <rs type="person" xml:id="pNt_93433" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Meierei und zurück.―</p>
+            <p xml:space="preserve"><date when="1931-07-17">17/7</date> <rs type="place" xml:id="pl_20012" ref="#pmb91735">Semmering</rs>. Mit <rs type="person" xml:id="pNt_93433" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Meierei und zurück.―</p>
             <p xml:space="preserve" rend="indent">„<rs type="work" subtype="self" xml:id="bibl_23865">Ruf</rs>“.―</p>
             <p xml:space="preserve" rend="indent">Nm. auch „<rs type="work" subtype="self" xml:id="bibl_23866">Ruf</rs>“.― Träg, fast melancholisch.</p>
             <p xml:space="preserve" rend="indent">Wetteraenderung.― Regenbogen.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

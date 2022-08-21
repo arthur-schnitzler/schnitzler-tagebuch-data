@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1893-06-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-06-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-06-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1893-06-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-06-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-06-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E6DD-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0734.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1893-06-12">
-            <p xml:space="preserve"><date when="1893-06-12">12/6</date> Mit <rs type="person" xml:id="pNt_07470" ref="#person_14199"><forename>Gusti</forename></rs> im <rs type="place" xml:id="pl_01496" ref="#place_d3c577dc993c4cc879206c93d7ccb668">Augarten</rs>, dann soupirt.― Erzähle ihr Stoffe 
+            <p xml:space="preserve"><date when="1893-06-12">12/6</date> Mit <rs type="person" xml:id="pNt_07470" ref="#person_14199"><forename>Gusti</forename></rs> im <rs type="place" xml:id="pl_01496" ref="#pmb124">Augarten</rs>, dann soupirt.― Erzähle ihr Stoffe 
 („<rs type="work" subtype="self" xml:id="bibl_22677">Familie</rs>“ und „<rs type="work" subtype="self" xml:id="bibl_22678">Verwandlung</rs>“) ― Sie hofft auf eine Reaction bei 
 <rs type="person" xml:id="pNt_07471" ref="#person_15485"><forename>Mz.</forename></rs>― Ich sehe sie voraus, und es wurmt mich, daß in nicht allzulanger 
 Zeit dieses Weib nicht mehr leiden wird.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

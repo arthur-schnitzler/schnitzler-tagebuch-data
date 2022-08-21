@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-03-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-03-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-03-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-03-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-03-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-03-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0265-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3587.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1913-03-23">
-            <p xml:space="preserve"><date when="1913-03-23">23/3</date> Ostersonntag. Nach <rs type="place" xml:id="pl_08187" ref="#place_02031ed2507818d10a37c1a6bf0c9f9d">Mödling</rs>. Zu Fuss übern <rs type="place" xml:id="pl_08188" ref="#place_da4e3775bd2de6c37fadd9b0188f7a4e">Liechtenstein</rs>, Hotel 
-<rs type="place" ref="#place_radetzky">Radetzky</rs>, Neubau besichtigt, mit Hotelier <rs type="person" xml:id="pNt_40378" ref="#person_14385"><surname>Deigner</surname></rs>. Allzuwarmer 
+            <p xml:space="preserve"><date when="1913-03-23">23/3</date> Ostersonntag. Nach <rs type="place" xml:id="pl_08187" ref="#pmb968">Mödling</rs>. Zu Fuss übern <rs type="place" xml:id="pl_08188" ref="#pmb91145">Liechtenstein</rs>, Hotel 
+<rs type="place" ref="#pmb92471">Radetzky</rs>, Neubau besichtigt, mit Hotelier <rs type="person" xml:id="pNt_40378" ref="#person_14385"><surname>Deigner</surname></rs>. Allzuwarmer 
 Frühjahrstag. Auf dem Hinweg ergriffen, später kühl.</p>
             <p xml:space="preserve" rend="indent">Nm. auf der besonnten Veranda Zeitungen gelesen, später zur 
 <rs type="work" subtype="self" xml:id="bibl_9377">Novelle</rs> Notizen. <rs type="person" xml:id="pNt_40379" ref="#person_13359"><forename>Stephi</forename></rs> brachte <rs type="person" xml:id="pNt_40380" ref="#person_15941"><surname>Hartlebens</surname></rs> <rs type="work" xml:id="bibl_9378"><rs type="person" xml:id="pNt_40381"><surname>Goethebrevier</surname></rs></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

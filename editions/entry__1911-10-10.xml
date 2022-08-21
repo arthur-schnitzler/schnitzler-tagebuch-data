@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-10-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-10-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-10-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-10-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-10-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-10-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0053-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3244.tif"/>
@@ -183,9 +187,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1911-10-10">
-            <p xml:space="preserve"><date when="1911-10-10">10/10</date> In die <rs type="place" xml:id="pl_07647" ref="#place_811c7ad30c4e603795ef80e0c113ad9e">Frankgasse</rs>. <rs type="person" xml:id="pNt_36244" ref="#person_19823"><forename>Helene</forename></rs> und <rs type="person" xml:id="pNt_36245" ref="#person_15854"><forename>Gisa</forename></rs>. Über Vertheilung des 
+            <p xml:space="preserve"><date when="1911-10-10">10/10</date> In die <rs type="place" xml:id="pl_07647" ref="#pmb397">Frankgasse</rs>. <rs type="person" xml:id="pNt_36244" ref="#person_19823"><forename>Helene</forename></rs> und <rs type="person" xml:id="pNt_36245" ref="#person_15854"><forename>Gisa</forename></rs>. Über Vertheilung des 
 Schmucks, des Silbers etc.</p>
-            <p xml:space="preserve" rend="indent">Ins <rs type="place" ref="#place_burgtheater">Burgtheater</rs>. Im Gang u. a. <rs type="person" xml:id="pNt_36246" ref="#person_19364"><surname>Rosenbaum</surname></rs>. „Wir haben einen 
+            <p xml:space="preserve" rend="indent">Ins <rs type="place" ref="#pmb14">Burgtheater</rs>. Im Gang u. a. <rs type="person" xml:id="pNt_36246" ref="#person_19364"><surname>Rosenbaum</surname></rs>. „Wir haben einen 
 schweren Verlust erlitten. <rs type="person" xml:id="pNt_36247" ref="#person_15944"><surname>Hartmann</surname></rs> ist heut Nacht plötzlich 
 gestorben.“ <rs type="person" xml:id="pNt_36248" ref="#person_14065"><surname>Burckhard</surname></rs> dort; <rs type="person" xml:id="pNt_36249" ref="#person_13624"><surname>Berger</surname></rs> führt mich und ihn ins Bureau. 
 Sonderbare Stimmung dieses Zusammenseins. Ich erzähle davon, wie ich eben 
@@ -214,6 +218,5 @@ falschen Ruhm.</p>
 sank mir ein wenig herab.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

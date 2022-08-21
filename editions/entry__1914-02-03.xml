@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-02-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-02-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-02-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-02-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-02-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-02-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-03A2-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3773.tif"/>
@@ -183,14 +187,13 @@
       <body>
          <div type="diary-day" xml:id="entry__1914-02-03">
             <p xml:space="preserve"><date when="1914-02-03">3/2</date> Spaziergang und -fahrt mit O. Abreise ― <rs type="person" xml:id="pNt_42778" ref="#person_16404"><surname>Huch</surname></rs> gelesen (bewundernd); 
-Ankunft in <rs type="place" xml:id="pl_08620" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>. <rs type="allusively" xml:id="rst_01341">Kinder</rs> wohl.― Neuer Kamin in meinem 
+Ankunft in <rs type="place" xml:id="pl_08620" ref="#pmb50">Wien</rs>. <rs type="allusively" xml:id="rst_01341">Kinder</rs> wohl.― Neuer Kamin in meinem 
 <pb n="96"/>
 <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header"><fw n="96" place="top_left" type="pageNum">96</fw> <fw place="top_center"><date type="range">1914: II 3 - II 10</date></fw></tei:fw>
 Arbeitszimmer.―</p>
-            <p xml:space="preserve" rend="indent">Traurige Nachricht von des kleinen <rs type="person" xml:id="pNt_42779" ref="#person_16467"><surname>Jacobi</surname></rs> Tod.― Telegramme aus <rs type="place" xml:id="pl_08621" ref="#place_87809c954948d8a20507bee3648281b3">New York</rs> 
-<rs type="person" xml:id="pNt_42780" ref="#person_14209"><forename>Christians</forename></rs>, <rs type="place" xml:id="pl_08622" ref="#place_fcfff492e00727b63cf5dff9f59bc2a4">Stockholm</rs>, <rs type="person" xml:id="pNt_42781" ref="#person_17567"><surname>Linden</surname></rs>, große Erfolge des <rs type="work" subtype="self" xml:id="bibl_8643">Bernhardi</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Traurige Nachricht von des kleinen <rs type="person" xml:id="pNt_42779" ref="#person_16467"><surname>Jacobi</surname></rs> Tod.― Telegramme aus <rs type="place" xml:id="pl_08621" ref="#pmb44053">New York</rs> 
+<rs type="person" xml:id="pNt_42780" ref="#person_14209"><forename>Christians</forename></rs>, <rs type="place" xml:id="pl_08622" ref="#pmb1119">Stockholm</rs>, <rs type="person" xml:id="pNt_42781" ref="#person_17567"><surname>Linden</surname></rs>, große Erfolge des <rs type="work" subtype="self" xml:id="bibl_8643">Bernhardi</rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1925-01-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-01-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-01-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1925-01-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-01-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-01-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1345-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6438.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1925-01-24">
-            <p xml:space="preserve"><date when="1925-01-24">24/1</date> <rs type="place" xml:id="pl_15898" ref="#place_51c7c0e8bc877f41a415a8e7efedd068">St. Moritz</rs>. Vm. <rs type="place" xml:id="pl_15899" ref="#place_dc6fbe8513a886e78d087eb71558f8b9">Suvretta</rs>. Eislaufplatz. <rs type="person" xml:id="pNt_74307" ref="#person_19832"><forename>O.</forename></rs>, <rs type="person" xml:id="pNt_74308" ref="#person_14130"><forename>Lili</forename></rs> etc.</p>
+            <p xml:space="preserve"><date when="1925-01-24">24/1</date> <rs type="place" xml:id="pl_15898" ref="#pmb44374">St. Moritz</rs>. Vm. <rs type="place" xml:id="pl_15899" ref="#pmb92754">Suvretta</rs>. Eislaufplatz. <rs type="person" xml:id="pNt_74307" ref="#person_19832"><forename>O.</forename></rs>, <rs type="person" xml:id="pNt_74308" ref="#person_14130"><forename>Lili</forename></rs> etc.</p>
             <p xml:space="preserve" rend="indent">Nm. Briefe an <rs type="person" xml:id="pNt_74309" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> über ihre neue Erzählung „<rs type="work" xml:id="bibl_16211">der ewige Student</rs>“, die ich 
 gestern Abend noch gelesen. (Anständig erzählt, uninteressant.) ― An <rs type="person" xml:id="pNt_74310" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs> 
-(nach <rs type="place" xml:id="pl_15900" ref="#place_84bb7a44667327c91eade4b980a38a6f">Karlsbad</rs>). Von <rs type="person" xml:id="pNt_74311" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> fast täglich tagebuchartige Briefe.―</p>
+(nach <rs type="place" xml:id="pl_15900" ref="#pmb842">Karlsbad</rs>). Von <rs type="person" xml:id="pNt_74311" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> fast täglich tagebuchartige Briefe.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-01-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-01-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-01-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-01-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-01-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-01-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0AB7-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4785.tif"/>
@@ -182,11 +186,11 @@
       <body>
          <div type="diary-day" xml:id="entry__1919-01-24">
             <p xml:space="preserve"><date when="1919-01-24">24/1</date> Dict. „<rs type="work" subtype="self" xml:id="bibl_4519">Nachklg.</rs>“.―</p>
-            <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_55262" ref="#person_21406"><roleName>Dr.</roleName> <surname>Wittels</surname></rs>; aus <rs type="place" xml:id="pl_11487" ref="#place_7eae4e7c5f444294d02f17f98633af8e">Konstantinopel</rs> zurück, mit Verlust seines 
+            <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_55262" ref="#person_21406"><roleName>Dr.</roleName> <surname>Wittels</surname></rs>; aus <rs type="place" xml:id="pl_11487" ref="#pmb966">Konstantinopel</rs> zurück, mit Verlust seines 
 Gepäcks, nach schöner Meerfahrt, wieder im Cottage-Sanat.―</p>
             <p xml:space="preserve" rend="indent">Am <rs type="work" subtype="self" xml:id="bibl_4520">Nachklg.</rs>―</p>
             <p xml:space="preserve" rend="indent">Ldgr. <rs type="person" xml:id="pNt_55263" ref="#person_18893"><forename>Adam</forename> <surname>Pollak</surname></rs>. (Sein Vater gestorben. Bemühung um seine Stücke am 
-<rs type="place" ref="#place_volkstheater">Volksth.</rs>― Steuerfragen.― Aussichten für die Wahlen, christl. soz. 
+<rs type="place" ref="#pmb92202">Volksth.</rs>― Steuerfragen.― Aussichten für die Wahlen, christl. soz. 
 Majorität sicher; Möglichkeit eines Putschversuchs von Seite der 
 Sozialdemokr.― Von <rs type="person" xml:id="pNt_55264" ref="#person_15423"><surname>Gibbon</surname></rs>, <rs type="person" xml:id="pNt_55265" ref="#person_14066"><surname>Burckhardt</surname></rs> u. a. schönen Büchern.)</p>
             <p xml:space="preserve" rend="indent">― Z. N. <rs type="person" xml:id="pNt_55266" ref="#person_15685"><forename>Wilh.</forename> <surname>Grosz</surname></rs>; O. correpetirt nun mit ihm; er spielte allerlei vor. 
@@ -200,6 +204,5 @@ dem unglücklichen Ende beigetragen. (Unwahre Motivirung.) ― O. verübelt
 gelassen worden sei.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1925-12-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-12-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-12-06.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1925-12-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-12-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-12-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1480-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6596.tif"/>
@@ -183,13 +187,12 @@
          <div type="diary-day" xml:id="entry__1925-12-05">
             <p xml:space="preserve"><date when="1925-12-05">5/12</date> Traum;― ich fahre durch irgend eine Gegend, die ich nicht zu kennen 
 glaube;― dann mit <rs type="person" xml:id="pNt_76639" ref="#person_19832"><forename>O.</forename></rs> durch dieselbe, sie erinnert mich ungefähr, es sei 
-„<rs type="place" xml:id="pl_16446" ref="#place_c895460d8e2f632d0cf203ee6ce63c2c">Teplitz</rs>“ ― worauf ichs erkenne.―</p>
+„<rs type="place" xml:id="pl_16446" ref="#pmb955">Teplitz</rs>“ ― worauf ichs erkenne.―</p>
             <p xml:space="preserve" rend="indent">Dictirt <rs type="work" subtype="self" xml:id="bibl_16864">Badner Novelle</rs>.― Briefe, <rs type="work" subtype="self" xml:id="bibl_16865">Aphor.</rs>―</p>
             <p xml:space="preserve" rend="indent">Nm. Fahnen <rs type="work" subtype="self" xml:id="bibl_16866">Weiher</rs>, 1. und 2. Akt ―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_76640" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Kino (<rs type="work" xml:id="bibl_16867">Einbruch</rs>, <rs type="person" xml:id="pNt_76641" ref="#person_19127"><surname>Reicher</surname></rs>).</p>
             <p xml:space="preserve" rend="indent">Mit ihr silberner Brunnen genachtm.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

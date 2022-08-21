@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1903-11-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-11-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-11-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1903-11-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-11-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-11-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F52A-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,20 +176,22 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1862.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1903-11-07">
-            <p xml:space="preserve"><date when="1903-11-07">7/11</date> Spaziergang Ortbauer, neue Straße <rs type="place" xml:id="pl_04517" ref="#place_5884bac5272bf94a2487941d33f4ddc1">Payerbach</rs>. Mit O. heftige 
-Discussion, von <rs type="person" xml:id="pNt_20390" ref="#person_15485"><forename>M.</forename> <surname>Gl.</surname></rs> ausgehend, die ich in <rs type="place" xml:id="pl_04518" ref="#place_9a43e84f6e1d406076f2372205804f6d">B.</rs> sprechen wollte.― <rs type="person" xml:id="pNt_20391"><surname>Fischer</surname></rs> 
+            <p xml:space="preserve"><date when="1903-11-07">7/11</date> Spaziergang Ortbauer, neue Straße <rs type="place" xml:id="pl_04517" ref="#pmb948">Payerbach</rs>. Mit O. heftige 
+Discussion, von <rs type="person" xml:id="pNt_20390" ref="#person_15485"><forename>M.</forename> <surname>Gl.</surname></rs> ausgehend, die ich in <rs type="place" xml:id="pl_04518" ref="#pmb662">B.</rs> sprechen wollte.― <rs type="person" xml:id="pNt_20391"><surname>Fischer</surname></rs> 
 schlecht gegessen.―</p>
             <p xml:space="preserve" rend="indent">In der „<rs type="work" subtype="newspaper" xml:id="bibl_17862">Zeit</rs>“ Feuill. von <rs type="person" xml:id="pNt_20392" ref="#person_19542"><surname>Salten</surname></rs> „<rs type="work" xml:id="bibl_17863">A. S. und der <rs type="work" subtype="self" xml:id="bibl_17864">Reigen</rs></rs>“, das mich, wegen 
 wie mir schien nicht ganz unperfiden Bemerkungen über „süßes Mädel“ 
 und „Kleinkunst“ trotz hohen Lobes erregte und zu einem heftigen ― 
 höflichen Brief an <rs type="person" xml:id="pNt_20393" ref="#person_19542"><surname>S.</surname></rs> veranlasste.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

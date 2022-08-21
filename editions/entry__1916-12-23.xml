@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1916-12-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-12-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-12-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1916-12-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-12-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-12-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-07BE-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,13 +177,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4377.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4378.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1916-12-23">
             <p xml:space="preserve"><date when="1916-12-23">23/12</date> Besorgungen.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_7812">Fldb.</rs>― Das nachmittägige Übelbefinden nimmt wieder sehr 
@@ -188,5 +193,6 @@ Angstgefühle!) ―</p>
             <p xml:space="preserve" rend="indent">Zum Nachtm. <rs type="person" xml:id="pNt_49481" ref="#person_21600"><forename>Mimi</forename></rs>; <rs type="person" xml:id="pNt_49482" ref="#person_13359"><forename>Stephi</forename></rs> und <rs type="person" xml:id="pNt_49483" ref="#person_19431"><surname>Rothschild</surname></rs> nachher;― über Musik; 
 <rs type="person" xml:id="pNt_49484" ref="#person_19431"><surname>R.</surname></rs> schlägt allerlei <rs type="person" xml:id="pNt_49485" ref="#person_13555"><surname>Beethoven</surname></rs> Themen an.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-04-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-04-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-04-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-04-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-04-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-04-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FE2E-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2884.tif"/>
@@ -182,11 +186,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1910-04-09">
-            <p xml:space="preserve"><date when="1910-04-09">9/4</date> Vm. bei <rs type="person" xml:id="pNt_32461"><surname>Schenker</surname></rs> (Erkundigungen); Panorama (<rs type="place" xml:id="pl_07001" ref="#place_830d817911eb29dc2c6633dc3d4f5285">Sorrent</rs> etc.), bei 
+            <p xml:space="preserve"><date when="1910-04-09">9/4</date> Vm. bei <rs type="person" xml:id="pNt_32461"><surname>Schenker</surname></rs> (Erkundigungen); Panorama (<rs type="place" xml:id="pl_07001" ref="#pmb629">Sorrent</rs> etc.), bei 
 <rs type="person" xml:id="pNt_32462" ref="#person_15158"><surname>Fred</surname></rs> im Sanatorium; liegt; macht aber einen nicht übeln Eindruck; 
 <pb n="140"/>
 <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header"><fw n="140" place="top_left" type="pageNum">140</fw> <fw place="top_center"><date type="range">1910: IV 9 ― IV 11</date></fw></tei:fw>
-(über die feindselige Art <rs type="place" xml:id="pl_07002" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlins</rs> ― gegen <rs type="place" xml:id="pl_07003" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> etc.);― dann mit <rs type="person" xml:id="pNt_32463" ref="#person_17825"><surname>Mandl</surname></rs> 
+(über die feindselige Art <rs type="place" xml:id="pl_07002" ref="#pmb168">Berlins</rs> ― gegen <rs type="place" xml:id="pl_07003" ref="#pmb50">Wien</rs> etc.);― dann mit <rs type="person" xml:id="pNt_32463" ref="#person_17825"><surname>Mandl</surname></rs> 
 hinüber ins Frauensanatorium; sprach <rs type="person" xml:id="pNt_32464" ref="#person_16293"><forename>Hugo</forename></rs>, <rs type="person" xml:id="pNt_32465" ref="#person_16292"><forename>Gerty</forename></rs> ist vor 3 Tagen 
 operirt (leichte Sache).― Bei <rs type="person" xml:id="pNt_32466" ref="#person_15854"><forename>Gisa</forename></rs> (die etwas froissirt war, weil wir 
 nicht auch von dieser Seite wegen des Hauses Geld aufnahmen) ―</p>
@@ -198,6 +202,5 @@ nicht auch von dieser Seite wegen des Hauses Geld aufnahmen) ―</p>
 <rs type="person" xml:id="pNt_32475" ref="#person_16770"><surname>Kaufmann</surname></rs>. Es war etwas langweilig.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-07-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-07-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-07-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-07-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-07-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-07-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-02DB-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,25 +177,27 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3660.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3661.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1913-07-19">
             <p xml:space="preserve"><date when="1913-07-19">19/7</date> ― Vm. Besorgungen. An <rs type="person" xml:id="pNt_41199" ref="#person_13374"><surname>Bahr</surname></rs> zum 50. Geburtstag gratulirt.―</p>
             <p xml:space="preserve" rend="indent">Nm. Grand Hotel. <rs type="person" xml:id="pNt_41200" ref="#person_15877"><roleName>Mrs.</roleName> <surname>Halton Felix</surname></rs> hatte mir geschrieben.― Über 
 <rs type="person" xml:id="pNt_41201" ref="#person_14933"><forename>Hugo</forename> <surname>Felix</surname></rs> (he is ashamed of you weil er noch nicht berühmt ―) … sie 
 selbst hat ein Bureau eröffnet, dessen Dienste sie mir anbietet; erzählt 
-mir wie ich in <rs type="place" xml:id="pl_08358" ref="#place_64f607906be7598a02d75dbc1e979662">England</rs> bestohlen werde. O. holt mich ab.</p>
-            <p xml:space="preserve" rend="indent">Südbahn. <rs type="person" xml:id="pNt_41202" ref="#person_14130"><forename>Lili</forename></rs> kommt aus <rs type="place" xml:id="pl_08359" ref="#place_b333d193dca0791c0cf701b0749dc4ce">Hinterbrühl</rs> mit <rs type="person" xml:id="pNt_41203"><roleName>Miss</roleName> <forename>Elsie</forename></rs>. Wir spediren 
-sie nach <rs type="place" xml:id="pl_08360" ref="#place_8ac85cc83788186b74cc9ca468d300c5">Brioni</rs>. <rs type="person" xml:id="pNt_41204" ref="#person_21601"><forename>Otto</forename> <surname>Zuckerkandl</surname></rs> fährt im selben Zug. <rs type="person" xml:id="pNt_41205" ref="#person_19827"><forename>Julius</forename></rs> auf der 
+mir wie ich in <rs type="place" xml:id="pl_08358" ref="#pmb90593">England</rs> bestohlen werde. O. holt mich ab.</p>
+            <p xml:space="preserve" rend="indent">Südbahn. <rs type="person" xml:id="pNt_41202" ref="#person_14130"><forename>Lili</forename></rs> kommt aus <rs type="place" xml:id="pl_08359" ref="#pmb75">Hinterbrühl</rs> mit <rs type="person" xml:id="pNt_41203"><roleName>Miss</roleName> <forename>Elsie</forename></rs>. Wir spediren 
+sie nach <rs type="place" xml:id="pl_08360" ref="#pmb45260">Brioni</rs>. <rs type="person" xml:id="pNt_41204" ref="#person_21601"><forename>Otto</forename> <surname>Zuckerkandl</surname></rs> fährt im selben Zug. <rs type="person" xml:id="pNt_41205" ref="#person_19827"><forename>Julius</forename></rs> auf der 
 Bahn. Böse Bemerkungen über den Opportunismus der <rs type="person" xml:id="pNt_41206"><surname>Z.s</surname></rs>, auch des 
 verstorbnen Hofrats, vielleicht nicht ganz gerecht.</p>
-            <p xml:space="preserve" rend="indent">― Mit O. im <rs type="place" xml:id="pl_08361" ref="#place_76b0d42674a1368e8ff6eee14094196b">Maria Josefa Park</rs> spazieren zum Arsenal; auf der S. 
+            <p xml:space="preserve" rend="indent">― Mit O. im <rs type="place" xml:id="pl_08361" ref="#pmb92385">Maria Josefa Park</rs> spazieren zum Arsenal; auf der S. 
 Bahn genachtm.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

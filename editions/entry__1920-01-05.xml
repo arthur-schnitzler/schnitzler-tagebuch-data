@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-01-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-01-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-01-06.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1920-01-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-01-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-01-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0C10-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5002.tif"/>
@@ -184,7 +188,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1920-01-05">
             <p xml:space="preserve"><date when="1920-01-05">5/1</date> Träume der letzten Nächte:</p>
-            <p xml:space="preserve" rend="indent">Im <rs type="place" ref="#place_burgtheater">Burgtheater</rs>; in einer Loge mit <rs type="person" xml:id="pNt_57689" ref="#person_19874"><surname>Schott</surname></rs>, während einer Probe, 
+            <p xml:space="preserve" rend="indent">Im <rs type="place" ref="#pmb14">Burgtheater</rs>; in einer Loge mit <rs type="person" xml:id="pNt_57689" ref="#person_19874"><surname>Schott</surname></rs>, während einer Probe, 
 wohl zu den <rs type="work" subtype="self" xml:id="bibl_3819">Schwestern</rs>, <rs type="person" xml:id="pNt_57690"><surname>Sch.</surname></rs> irgendwie unzufrieden. Decoration 
 ungefähr <rs type="work" xml:id="bibl_3820">Elektra</rs>, doch die Quadern auf der Leinwand die flattert 
 und sich bauscht, röthlich beleuchtet, etwas phantastisch, à la 
@@ -199,7 +203,7 @@ zahlreiche Minister, diurnistenhaft; der eine steht auf, redet
 zu mir?, uns? ― ich erinnre mich daß ich den Thermophor auf dem 
 Magen habe, versuche mich unbemerkt dessen zu entledigen, was mir 
 irgendwie gelingt ―</p>
-            <p xml:space="preserve" rend="indent">Heute: In einem Café, etwa zu <rs type="place" xml:id="pl_12049" ref="#place_c751e0a19ec1902a71bc1e9ce40014c2">St. Pölten</rs> oder <rs type="place" xml:id="pl_12050" ref="#place_0f0b5f02ced8b80e3d3afa7b48b4de39">Wr. Neustadt</rs> ― 
+            <p xml:space="preserve" rend="indent">Heute: In einem Café, etwa zu <rs type="place" xml:id="pl_12049" ref="#pmb49880">St. Pölten</rs> oder <rs type="place" xml:id="pl_12050" ref="#pmb92109">Wr. Neustadt</rs> ― 
 ein Friseur, eigentlich Komiker, sehr berühmt, spielt in dem Stück 
 mit, das im Café aufgeführt wird ― sonst ist aber nichts von dem 
 Stück zu sehn;― ich bin um meinen Winterrock besorgt; oben im 
@@ -219,6 +223,5 @@ zuzugeben. Sein Ehrgeiz immer noch,― fix als Feuilletonist engagirt zu
 werden.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-10-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-10-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-10-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-10-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-10-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-10-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-18A2-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7185.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1928-10-29">
-            <p xml:space="preserve"><date when="1928-10-29">29/10</date> Vm. Mrs. <rs type="person" xml:id="pNt_85143" ref="#person_18851"><surname>Pohli MacLeod</surname></rs> (<rs type="place" xml:id="pl_18359" ref="#place_f4334fdfa1c728eae375fe781e2e2d9d">San Francisco</rs>) (hat <rs type="work" subtype="self" xml:id="bibl_19730">Bernhardi</rs> s. Z. 
+            <p xml:space="preserve"><date when="1928-10-29">29/10</date> Vm. Mrs. <rs type="person" xml:id="pNt_85143" ref="#person_18851"><surname>Pohli MacLeod</surname></rs> (<rs type="place" xml:id="pl_18359" ref="#pmb38216">San Francisco</rs>) (hat <rs type="work" subtype="self" xml:id="bibl_19730">Bernhardi</rs> s. Z. 
 auszugsweise übersetzt und herausgegeben. Jetzt eingestampft).―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_85144" ref="#person_19017"><roleName>Fr.</roleName> <surname>Rabelbauer</surname></rs> die <rs type="place" xml:id="pl_18360" ref="#place_55c76de3045e4a0a1e0b4506c5e2d403" ana="#exclude">französ.</rs> Lehrerin von <rs type="person" xml:id="pNt_85145" ref="#person_14130"><forename>Lili</forename></rs>,― der ich den Ring 
 zurückgab, den sie <rs type="person" xml:id="pNt_85146" ref="#person_14130"><forename>Lili</forename></rs> zur Hochzeit geschenkt. Schwere Stunde. 
@@ -196,6 +200,5 @@ es werde schwer möglich sein ― die Nachricht zu unterdrücken ―
 <rs type="person" xml:id="pNt_85150" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> verbittet es sich aufs schärfste.― Welches Gesindel.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

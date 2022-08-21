@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-06-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-06-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-06-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-06-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-06-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-06-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0B4B-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4866.tif"/>
@@ -183,7 +187,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1919-06-21">
-            <p xml:space="preserve"><date when="1919-06-21">21/6</date> Vm. <rs type="place" ref="#place_volkstheater">Volksth.</rs> <rs type="person" xml:id="pNt_56326" ref="#person_15368"><surname>Geiringer</surname></rs> u. a. Über die wachsende Gefahr der 
+            <p xml:space="preserve"><date when="1919-06-21">21/6</date> Vm. <rs type="place" ref="#pmb92202">Volksth.</rs> <rs type="person" xml:id="pNt_56326" ref="#person_15368"><surname>Geiringer</surname></rs> u. a. Über die wachsende Gefahr der 
 Rätheregierung. Volkswehrgeschichten. Einer der communistischen 
 <pb n="264"/>
 <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header"><fw n="264" place="top_left" type="pageNum">264</fw> <fw place="top_center"><date type="range">1919: VI 21 - VI 22</date></fw></tei:fw>
@@ -191,7 +195,7 @@ Hochstapler, der ihre Sache führt ― „Bildungsamt“ verlangt für die
 Volkwehr eine Vorstellung der „Armut“ von <rs type="person" xml:id="pNt_56327" ref="#person_21328"><surname>Wildgans</surname></rs>. Es kommt ― kein 
 halbes Dutzend der bildungshungrigen Volkwehrleute.― Immer wieder 
 versuchen sie bei solchen Gelegenheiten ― die Billets zu verkaufen.―</p>
-            <p xml:space="preserve" rend="indent">Auf dem <rs type="place" xml:id="pl_11710" ref="#place_9ae90ea21d3e063c02809f046183f123">Ring</rs> spricht mich ein Herr an, stellt sich vor: <rs type="person" xml:id="pNt_56328" ref="#person_19983"><roleName>Dr.</roleName> <surname>Schwarzbart</surname></rs>, 
+            <p xml:space="preserve" rend="indent">Auf dem <rs type="place" xml:id="pl_11710" ref="#pmb91600">Ring</rs> spricht mich ein Herr an, stellt sich vor: <rs type="person" xml:id="pNt_56328" ref="#person_19983"><roleName>Dr.</roleName> <surname>Schwarzbart</surname></rs>, 
 Herausgeber der <rs type="work" subtype="newspaper" xml:id="bibl_4878">Aerztezeitung</rs> ― er will mir einen Romanstoff erzählen … 
 Danke. Also ― einen Roman aus dem Leben, er braucht meinen Rath. Er 
 trägt mir die etwas complicirte Angelegenheit vor; ich gebe einen Rath 
@@ -218,6 +222,5 @@ neuen Richtvertrag).― Wühlende Verstimmung.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_56339" ref="#person_15464"><surname>Glazounov</surname></rs> Symph. mit <rs type="person" xml:id="pNt_56340" ref="#person_19822"><forename>Heini</forename></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

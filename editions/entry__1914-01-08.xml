@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-01-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-01-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-01-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-01-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-01-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-01-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0388-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,13 +177,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3758.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3759.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1914-01-08">
             <p xml:space="preserve"><date when="1914-01-08">8/1</date> Burgth. Mit <rs type="person" xml:id="pNt_42533" ref="#person_19364"><surname>Rosenbaum</surname></rs> über die notwendig gewordne Verschiebung des 
 <rs type="work" subtype="self" xml:id="bibl_8608">Eins. Weg</rs> (Unwohlsein der <rs type="person" xml:id="pNt_42534" ref="#person_21423"><surname>Wohlgemuth</surname></rs>, Urlaub <rs type="person" xml:id="pNt_42535" ref="#person_21059"><surname>Walden</surname></rs>), währenddem kam 
@@ -189,10 +194,11 @@ Abnahme der <rs type="figur">Wegrath</rs> Rolle von <rs type="person" xml:id="pN
 den entsprechenden Brief an die Direktion.―</p>
             <p xml:space="preserve" rend="indent">Nm. spazieren mit O. und <rs type="person" xml:id="pNt_42541" ref="#person_14130"><forename>Lili</forename></rs>, die Schneeballen warf.―</p>
             <p xml:space="preserve" rend="indent">Zum Thee <rs type="person" xml:id="pNt_42542" ref="#person_21231"><forename>Bella</forename> <surname>Wengerow</surname></rs>.―</p>
-            <p xml:space="preserve" rend="indent">Ins <rs type="place" ref="#place_volkstheater">Volksth.</rs>; zu <rs type="person" xml:id="pNt_42543" ref="#person_15368"><surname>Geiringer</surname></rs>, der von der Steuerbehörde meinetwegen gefragt 
+            <p xml:space="preserve" rend="indent">Ins <rs type="place" ref="#pmb92202">Volksth.</rs>; zu <rs type="person" xml:id="pNt_42543" ref="#person_15368"><surname>Geiringer</surname></rs>, der von der Steuerbehörde meinetwegen gefragt 
 wurde. Auch mit <rs type="person" xml:id="pNt_42544" ref="#person_21211"><surname>Weisse</surname></rs> gesprochen; dem Theater gehts sehr schlecht.―</p>
-            <p xml:space="preserve" rend="indent">Im <rs type="place" xml:id="pl_08591" ref="#place_a9a988302086229505c21f885134919d">Josefst.</rs> Th. mit <rs type="person" xml:id="pNt_42545" ref="#person_19986"><forename>Gustav</forename></rs> „<rs type="work" xml:id="bibl_8610">Meilensteine</rs>“ ein kindliches <rs type="place" xml:id="pl_08592" ref="#place_f9febe0fcd456c971a8feaa99a16fae8" ana="#exclude">englisches</rs> 
+            <p xml:space="preserve" rend="indent">Im <rs type="place" xml:id="pl_08591" ref="#pmb58">Josefst.</rs> Th. mit <rs type="person" xml:id="pNt_42545" ref="#person_19986"><forename>Gustav</forename></rs> „<rs type="work" xml:id="bibl_8610">Meilensteine</rs>“ ein kindliches <rs type="place" xml:id="pl_08592" ref="#place_f9febe0fcd456c971a8feaa99a16fae8" ana="#exclude">englisches</rs> 
 Stück, in provinzialer Darstellung. Mit <rs type="person" xml:id="pNt_42546" ref="#person_19986"><forename>Gustav</forename></rs> Pilsenetzer soupirt.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

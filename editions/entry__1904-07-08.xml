@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-07-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-07-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-07-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-07-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-07-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-07-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F61E-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1937.tif"/>
@@ -180,7 +184,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1904-07-08">
-            <p xml:space="preserve"><date when="1904-07-08">8/7</date> Vm. Rad <rs type="place" xml:id="pl_04798" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs>, Hitze, Pneum defect.―</p>
+            <p xml:space="preserve"><date when="1904-07-08">8/7</date> Vm. Rad <rs type="place" xml:id="pl_04798" ref="#pmb169">Pötzleinsdorf</rs>, Hitze, Pneum defect.―</p>
             <p xml:space="preserve" rend="indent">Mittag <rs type="person" xml:id="pNt_21274" ref="#person_20386"><forename>Liesl</forename></rs> und <rs type="person" xml:id="pNt_21275" ref="#person_20383"><forename>Alb.</forename> <surname>Steinrück</surname></rs>.― Las Nachm. allen 
 <rs type="work" subtype="self" xml:id="bibl_17144">Marionetten</rs> und <rs type="work" subtype="self" xml:id="bibl_17145">Haus Delorme</rs>, sehr gut, gefiel [ungemein] ― Idee eines 
 Abds. bei <rs type="person" xml:id="pNt_21276" ref="#person_19154"><surname>Reinhardt</surname></rs>: <rs type="work" subtype="self" xml:id="bibl_17146">Kakadu</rs>, <rs type="work" subtype="self" xml:id="bibl_17147">Delorme</rs>, <rs type="work" subtype="self" xml:id="bibl_17148">Marionetten</rs>.― <rs type="work" subtype="self" xml:id="bibl_17149">Roman</rs> weiter.</p>
@@ -188,6 +192,5 @@ Abds. bei <rs type="person" xml:id="pNt_21276" ref="#person_19154"><surname>Rein
             <p xml:space="preserve" rend="indent">― Notiz über die 3 <rs type="place" xml:id="pl_04799" ref="#place_cf7d8aac11089afe24b5aa7b15232659" ana="#exclude">Wiedner</rs> <rs type="work" subtype="self" xml:id="bibl_17150">Einakter</rs> im <rs type="work" subtype="newspaper" xml:id="bibl_17151">Wr. Abdbl.</rs></p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1924-01-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-01-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-01-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1924-01-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-01-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-01-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-11CC-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,12 +177,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6191.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1924-01-13">
             <p xml:space="preserve"><date when="1924-01-13">13/1</date> S. Vm. bei <rs type="person" xml:id="pNt_71286" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>―</p>
             <p xml:space="preserve" rend="indent">Zum Thee <rs type="person" xml:id="pNt_71287" ref="#person_17705"><forename>Pierre</forename> <surname>Loving</surname></rs>, <rs type="person" xml:id="pNt_71288" ref="#person_20886"><forename>Louis</forename> <surname>Untermeyer</surname></rs> und Frau;― <rs type="person" xml:id="pNt_71289" ref="#person_15993"><roleName>Prof.</roleName> <surname>Hausmann</surname></rs> und 
@@ -187,5 +192,6 @@ Gespräch über Träume.</p>
             <p xml:space="preserve" rend="indent">― <rs type="person" xml:id="pNt_71293"><roleName>Hofr.</roleName> <surname>P.</surname></rs> blieb übers Nachtm.; <rs type="person" xml:id="pNt_71294" ref="#person_19822"><forename>Heini</forename></rs> spielte Clavier vor (altes, 
 <rs type="person" xml:id="pNt_71295" ref="#person_19076"><surname>Ravel</surname></rs>; und <rs type="person" xml:id="pNt_71296" ref="#person_20942"><surname>Verdi</surname></rs>).</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

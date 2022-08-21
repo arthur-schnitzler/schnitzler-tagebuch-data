@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-08-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-08-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-08-31.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-08-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-08-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-08-31.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1B40-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7545.tif"/>
@@ -182,20 +186,19 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1930-08-30">
-            <p xml:space="preserve"><date when="1930-08-30">30/8</date> <rs type="place" xml:id="pl_19488" ref="#place_07746ef3772ea6e718f5cd3a37681d92">Marienbad</rs>. Wüste Träume nach Übelbefinden und Hypochondrien (?) ― 
+            <p xml:space="preserve"><date when="1930-08-30">30/8</date> <rs type="place" xml:id="pl_19488" ref="#pmb91211">Marienbad</rs>. Wüste Träume nach Übelbefinden und Hypochondrien (?) ― 
 Von einer Operation, oder Recidiven (unklar, was);― gleich darauf von 
 einer unhübschen Wärterin (in schottischem Kleid, wie einst <rs type="person" xml:id="pNt_90575" ref="#person_15485"><forename>M.</forename> <surname>G.</surname></rs>; ohne 
 es zu wissen), mit stark sexuellem Einschlag und Widerstand.― Dann, in 
-einem Wagen ― mit der jungen <rs type="person" xml:id="pNt_90576" ref="#person_15485"><forename>M.</forename> <surname>G.</surname></rs>,― durch Straßen <rs type="place" xml:id="pl_19489" ref="#place_2de2cbfcf4f6f7265397fff154638c9e">Wieden</rs>!,― sie sehr 
+einem Wagen ― mit der jungen <rs type="person" xml:id="pNt_90576" ref="#person_15485"><forename>M.</forename> <surname>G.</surname></rs>,― durch Straßen <rs type="place" xml:id="pl_19489" ref="#pmb54">Wieden</rs>!,― sie sehr 
 entreprenant; wir etliche Mal an Sicherheitswachleuten vorbei, vor denen 
 sie sich in meinem Schoss verbirgt.―</p>
-            <p xml:space="preserve" rend="indent">― Mit <rs type="person" xml:id="pNt_90577" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Auto <rs type="place" xml:id="pl_19490" ref="#place_05b654fa308d88578a1a7ad1929e1f85">Königswarth</rs>. Synagoge (Samstag nicht zugänglich), 
-Schloss und Museum ― Park.― Weiterfahrt Jagdhaus <rs type="place" xml:id="pl_19491" ref="#place_cdc0387ab33d47d172016dbb65ea7ba1">Glatzen</rs> (Mittag) ― 
-<rs type="place" xml:id="pl_19492" ref="#place_77dbb7986bf71ca43291e913b5d84a4b">Sangerberg</rs> ― zurück.―</p>
+            <p xml:space="preserve" rend="indent">― Mit <rs type="person" xml:id="pNt_90577" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Auto <rs type="place" xml:id="pl_19490" ref="#pmb59010">Königswarth</rs>. Synagoge (Samstag nicht zugänglich), 
+Schloss und Museum ― Park.― Weiterfahrt Jagdhaus <rs type="place" xml:id="pl_19491" ref="#pmb92257">Glatzen</rs> (Mittag) ― 
+<rs type="place" xml:id="pl_19492" ref="#pmb91655">Sangerberg</rs> ― zurück.―</p>
             <p xml:space="preserve" rend="indent">― Nm. im Hotel Notizen zur <rs type="work" subtype="self" xml:id="bibl_1222">Sängerin</rs>.</p>
             <p xml:space="preserve" rend="indent">Kleiner Spaziergang mit <rs type="person" xml:id="pNt_90578" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>, genachtm. Neptun.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

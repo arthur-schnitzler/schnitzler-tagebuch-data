@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-09-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-09-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-09-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-09-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-09-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-09-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-115B-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6114.tif"/>
@@ -182,18 +186,17 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1923-09-22">
-            <p xml:space="preserve"><date when="1923-09-22">22/9</date> Vm. <rs type="person" xml:id="pNt_70310" ref="#person_20140"><forename>Walter</forename> <surname>Singer</surname></rs> (<rs type="place" xml:id="pl_15089" ref="#place_fcfff492e00727b63cf5dff9f59bc2a4">Stockholm</rs>) und Frau aus Pens. <rs ref="#person_21594" type="person" xml:id="pNt_70311"><surname>Kramer</surname></rs> 
-abgeholt; ihnen <rs type="place" xml:id="pl_15090" ref="#place_9ae90ea21d3e063c02809f046183f123">Ring</rs> und Burg gezeigt.―</p>
+            <p xml:space="preserve"><date when="1923-09-22">22/9</date> Vm. <rs type="person" xml:id="pNt_70310" ref="#person_20140"><forename>Walter</forename> <surname>Singer</surname></rs> (<rs type="place" xml:id="pl_15089" ref="#pmb1119">Stockholm</rs>) und Frau aus Pens. <rs ref="#person_21594" type="person" xml:id="pNt_70311"><surname>Kramer</surname></rs> 
+abgeholt; ihnen <rs type="place" xml:id="pl_15090" ref="#pmb91600">Ring</rs> und Burg gezeigt.―</p>
             <p xml:space="preserve" rend="indent">Zur <rs type="allusively" xml:id="rst_02018">Hofrätin</rs>. Die Burgth.-Zustände. Der unmögliche <rs type="person" xml:id="pNt_70312" ref="#person_19187"><surname>Renkin</surname></rs>. 
 <rs type="person" xml:id="pNt_70313" ref="#person_16125"><surname>Herterichs</surname></rs> Schwäche.― Von <rs type="person" xml:id="pNt_70314" ref="#person_16293"><forename>Hugo</forename></rs>;― <rs type="person" xml:id="pNt_70315" ref="#person_21564"><forename>Christiane</forename></rs> Secretärin ― ― bei 
 <rs type="person" xml:id="pNt_70316" ref="#person_15691"><forename>Stefan</forename> <surname>Großmann</surname></rs>!― Nein, das müßte nicht sein.―</p>
             <p xml:space="preserve" rend="indent">Nm. begann ich die <rs type="work" subtype="self" xml:id="bibl_2019">Doppelnov.</rs> durchzusehn.</p>
             <p xml:space="preserve" rend="indent">― Zu <rs type="person" xml:id="pNt_70317" ref="#person_19828"><forename>Karl</forename></rs>, meinem Neffen, der heute, nach dem Autounfall, mit 
-<rs type="person" xml:id="pNt_70318" ref="#person_19827"><forename>Jul.</forename></rs> <rs type="person" xml:id="pNt_70319" ref="#person_19823"><forename>Helene</forename></rs>  von <rs type="place" xml:id="pl_15091" ref="#place_0bcbcfedf2ef1f96542597b9279fb141">Rom</rs> zurückkam. Gebrochne Rippen und Bluterguß Pleura. 
+<rs type="person" xml:id="pNt_70318" ref="#person_19827"><forename>Jul.</forename></rs> <rs type="person" xml:id="pNt_70319" ref="#person_19823"><forename>Helene</forename></rs>  von <rs type="place" xml:id="pl_15091" ref="#pmb445">Rom</rs> zurückkam. Gebrochne Rippen und Bluterguß Pleura. 
 Besserung. Die kläglichen Zustände in dem <rs type="place" xml:id="pl_15092" ref="#place_8878d259aabf53d9a7b09da7f2b4277f" ana="#exclude">röm.</rs> Sanatorium.―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_70320" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> genachtm.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

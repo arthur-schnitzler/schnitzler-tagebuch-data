@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-04-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-04-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-04-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-04-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-04-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-04-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FB53-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,20 +176,22 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2494.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1908-04-08">
             <p xml:space="preserve"><date when="1908-04-08">8/4</date> Vm. bei <rs type="person" xml:id="pNt_28125" ref="#person_21107"><surname>Wassermann</surname></rs>, dem ich über den <rs type="work" xml:id="bibl_13346">Caspar Hauser</rs> nur gutes zu 
 sagen hatte.― Seine nächsten Pläne; Dialoge (über Gerechtigkeit und 
 Unsterblichkeit) und der humor. <rs type="work" subtype="self" xml:id="bibl_13347">Roman</rs> (zu dem ich im <rs type="work" xml:id="bibl_13348">C. H.</rs> Ansätze finde).</p>
             <p xml:space="preserve" rend="indent">― Nm. an der <rs type="work" subtype="self" xml:id="bibl_13349">Pantomime</rs>.―</p>
             <p xml:space="preserve" rend="indent">Abends <rs type="person" xml:id="pNt_28126" ref="#person_16293"><forename>Hugo</forename></rs> und <rs type="person" xml:id="pNt_28127" ref="#person_16292"><forename>Gerty</forename></rs> da.― Über das Pech <rs type="person" xml:id="pNt_28128" ref="#person_13913"><surname>Brahms</surname></rs>; über <rs type="person" xml:id="pNt_28129" ref="#person_19154"><surname>Reinhardt</surname></rs> etc.― 
-(<rs type="person" xml:id="pNt_28130" ref="#person_16293"><forename>Hugo’s</forename></rs> waren etwa 6 Wochen in <rs type="place" xml:id="pl_06249" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>, Thor und der Tod bei <rs type="person" xml:id="pNt_28131" ref="#person_19154"><surname>R.</surname></rs> aufgeführt.) 
-― Er fährt nach <rs type="place" xml:id="pl_06250" ref="#place_9bbe5cef5dacc0b4666c2a1d1a8b5615">Griechenland</rs>, mit <rs type="person" xml:id="pNt_28132" ref="#person_16826"><surname>Kessler</surname></rs>.</p>
+(<rs type="person" xml:id="pNt_28130" ref="#person_16293"><forename>Hugo’s</forename></rs> waren etwa 6 Wochen in <rs type="place" xml:id="pl_06249" ref="#pmb168">Berlin</rs>, Thor und der Tod bei <rs type="person" xml:id="pNt_28131" ref="#person_19154"><surname>R.</surname></rs> aufgeführt.) 
+― Er fährt nach <rs type="place" xml:id="pl_06250" ref="#pmb44293">Griechenland</rs>, mit <rs type="person" xml:id="pNt_28132" ref="#person_16826"><surname>Kessler</surname></rs>.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

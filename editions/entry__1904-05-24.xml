@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-05-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-05-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-05-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-05-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-05-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-05-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F5F1-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1921.tif"/>
@@ -180,11 +184,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1904-05-24">
-            <p xml:space="preserve"><date when="1904-05-24">24/5</date> <rs type="place" xml:id="pl_04740" ref="#place_e01585f07dba8bd0e6a1e3c2e14bf208">Taormina</rs>.― Abends <rs type="place" xml:id="pl_04741" ref="#place_1569f8f32be7ae04898403c550b47b82">Messina</rs>. Mit <rs type="person" xml:id="pNt_21082" ref="#person_17740"><surname>Lustig</surname></rs> und <rs type="person" xml:id="pNt_21083" ref="#person_15031"><surname>Fleischer</surname></rs> mit Frau und 
+            <p xml:space="preserve"><date when="1904-05-24">24/5</date> <rs type="place" xml:id="pl_04740" ref="#pmb906">Taormina</rs>.― Abends <rs type="place" xml:id="pl_04741" ref="#pmb44129">Messina</rs>. Mit <rs type="person" xml:id="pNt_21082" ref="#person_17740"><surname>Lustig</surname></rs> und <rs type="person" xml:id="pNt_21083" ref="#person_15031"><surname>Fleischer</surname></rs> mit Frau und 
 Sohn.― Auf die Elektra. Schlechte See. Alles seekrank; ich überwand es, 
 nicht ohne Mühe, schlief dann im obern Bett leidlich.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

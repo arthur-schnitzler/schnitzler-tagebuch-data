@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1892-12-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-12-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-12-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1892-12-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-12-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-12-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E62F-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,17 +177,19 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0662.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1892-12-19">
             <p xml:space="preserve"><date when="1892-12-19">19. 12.</date>― Vorm. mit <rs ref="#person_21214" type="person" xml:id="pNt_06869"><forename>F.</forename></rs> spazieren.― Im <rs type="work" subtype="newspaper" xml:id="bibl_23002">N. Wr. Tgb.</rs> und <rs type="work" subtype="newspaper" xml:id="bibl_23003">Fremdenblatt</rs> 
 sehr gute Kritik über <rs type="work" subtype="self" xml:id="bibl_23004">Anatol</rs>.― Früher schon im <rs type="work" subtype="newspaper" xml:id="bibl_23005">Wr. Tgbl.</rs> und 
 <rs type="work" subtype="newspaper" xml:id="bibl_23006">Extrablatt</rs> (<rs type="person" xml:id="pNt_06870" ref="#person_20186"><surname>Sokal</surname></rs>, <rs type="person" xml:id="pNt_06871" ref="#person_15338"><surname>Ludaßy</surname></rs>, <rs type="person" xml:id="pNt_06872" ref="#person_13983"><surname>Brociner</surname></rs>, <rs type="person" xml:id="pNt_06873" ref="#person_13471"><surname>Bauer</surname></rs>) ― Dem <rs type="person" xml:id="pNt_06874" ref="#person_20204"><surname>Sonnenthal</surname></rs> 
 geantwortet.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

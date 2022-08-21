@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-05-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-05-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-05-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-05-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-05-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-05-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-10E0-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6049.tif"/>
@@ -182,18 +186,17 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1923-05-21">
-            <p xml:space="preserve"><date when="1923-05-21">21/5</date> Pfingstmontag, <rs type="place" xml:id="pl_14749" ref="#place_fcfff492e00727b63cf5dff9f59bc2a4">Stockholm</rs>. Im Auto des Architekten <rs type="person" xml:id="pNt_69530" ref="#person_20666"><surname>Tengbom</surname></rs>, 
+            <p xml:space="preserve"><date when="1923-05-21">21/5</date> Pfingstmontag, <rs type="place" xml:id="pl_14749" ref="#pmb1119">Stockholm</rs>. Im Auto des Architekten <rs type="person" xml:id="pNt_69530" ref="#person_20666"><surname>Tengbom</surname></rs>, 
 mit diesem, seiner Frau und Schwägerin; <rs type="person" xml:id="pNt_69531" ref="#person_17568"><roleName>Frau</roleName> <surname>Linden</surname></rs> und <rs type="person" xml:id="pNt_69532" ref="#person_20140"><roleName>Dir.</roleName> <surname>Singer</surname></rs> 
-Haga;― <rs type="place" xml:id="pl_14750" ref="#place_5e93d293a8d9508c5f106b9bc5453c5e">Drottningholm</rs>.― Park;― das Rococotheater; <rs type="person" xml:id="pNt_69533" ref="#person_20666"><surname>Tengbom</surname></rs> führte 
+Haga;― <rs type="place" xml:id="pl_14750" ref="#pmb62282">Drottningholm</rs>.― Park;― das Rococotheater; <rs type="person" xml:id="pNt_69533" ref="#person_20666"><surname>Tengbom</surname></rs> führte 
 uns auf Bühne, etc.; er hatte die Renovirungsarbeiten geleitet … Eine alte 
 Barockdecoration stand da. Garderoben. Logen etc.―</p>
             <p xml:space="preserve" rend="indent">Zurück. Mittagessen mit <rs type="person" xml:id="pNt_69534" ref="#person_20140"><roleName>Dir.</roleName> <surname>Singer</surname></rs>.</p>
             <p xml:space="preserve" rend="indent">Nm. sah ich mir den 3. Akt <rs type="work" subtype="self" xml:id="bibl_1848">Verf.</rs> durch ― der mir geradezu hoffnungslos 
 erschien.―</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_69535" ref="#person_20140"><roleName>Dir.</roleName> <surname>Singer</surname></rs> in dem Wald <rs type="place" xml:id="pl_14751" ref="#place_c77b183f87530d1260d51b6f404e3c25">Lille Skog</rs> (?) spazieren, dann Kgl. Dram. 
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_69535" ref="#person_20140"><roleName>Dir.</roleName> <surname>Singer</surname></rs> in dem Wald <rs type="place" xml:id="pl_14751" ref="#pmb92376">Lille Skog</rs> (?) spazieren, dann Kgl. Dram. 
 Th.; mit <rs type="person" xml:id="pNt_69536" ref="#person_17567"><surname>Lindens</surname></rs> 3 Bilder „<rs type="work" xml:id="bibl_1849">Es war einmal</rs>“; im Opernrestaurant.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

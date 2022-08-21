@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1917-03-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-03-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-03-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1917-03-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-03-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-03-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-080A-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4422.tif"/>
@@ -184,7 +188,7 @@
          <div type="diary-day" xml:id="entry__1917-03-09">
             <p xml:space="preserve"><date when="1917-03-09">9/3</date> Traum: Ich übergebe <rs type="person" xml:id="pNt_50065" ref="#person_17901"><roleName>Onkel</roleName> <forename>Felix</forename></rs> (todt seit 2 Jahren) bei der 
 Polizeidirection einen Brief für <rs type="person" xml:id="pNt_50066" ref="#person_15485"><forename>M.</forename> <surname>Gl.</surname></rs>, bin dann in der <rs type="allusively" xml:id="rst_01494">Großeltern</rs> 
-Wohnung <rs type="place" xml:id="pl_10421" ref="#place_e5d452213a490add72fe5787fdf4474f">Circusgasse</rs>, warte auf Antwort, die um 3 kommen soll, Praesident 
+Wohnung <rs type="place" xml:id="pl_10421" ref="#pmb92189">Circusgasse</rs>, warte auf Antwort, die um 3 kommen soll, Praesident 
 <rs type="person" xml:id="pNt_50067" ref="#person_17278"><surname>v. Landesberger</surname></rs> für ½4 erwartet;― eine Art Factotum, schlecht 
 angezogner Mensch mit Schnurrbart kommt die Treppen herauf, bringt mir 
 die Antwort ― von einer Sängerin, die schreibt, sie hätte gleich 
@@ -201,6 +205,5 @@ bin verzweifelt, kaum ein Wort zu verstehn. Fort, in Thränen.―</p>
 <rs type="person" xml:id="pNt_50076" ref="#person_21397"><surname>Wits</surname></rs> <rs type="work" xml:id="bibl_6303">Lebensroman</rs> ausgelesen.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-06-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-06-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-06-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-06-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-06-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-06-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0431-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3846.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1914-06-27">
-            <p xml:space="preserve"><date when="1914-06-27">27/6</date> Dictirt <rs type="work" subtype="self" xml:id="bibl_8891">Graesler</rs>.― <rs type="person" xml:id="pNt_43684" ref="#person_15854"><forename>Gisa</forename></rs> zu Besuch vor <rs type="place" xml:id="pl_08776" ref="#place_201fd3351b4372387395bdfaa5ee6cbf">Küb</rs>.</p>
-            <p xml:space="preserve" rend="indent">Mit O., <rs type="person" xml:id="pNt_43685" ref="#person_19822"><forename>Heini</forename></rs>, <rs type="person" xml:id="pNt_43686" ref="#person_14130"><forename>Lili</forename></rs> und <rs type="person" xml:id="pNt_43687" ref="#person_19986"><forename>Gustav</forename></rs> Nm. in den <rs type="place" xml:id="pl_08777" ref="#place_103a038226a092dd8adeab3b128be4d2">Wurstelprater</rs>. Wurstl, 
-Ringelspiele, Grottenbahn. <rs type="person" xml:id="pNt_43688" ref="#person_14130"><forename>Lili</forename></rs> zum ersten Mal im <rs type="place" xml:id="pl_08778" ref="#place_103a038226a092dd8adeab3b128be4d2">Wurstelprater</rs>.― 
+            <p xml:space="preserve"><date when="1914-06-27">27/6</date> Dictirt <rs type="work" subtype="self" xml:id="bibl_8891">Graesler</rs>.― <rs type="person" xml:id="pNt_43684" ref="#person_15854"><forename>Gisa</forename></rs> zu Besuch vor <rs type="place" xml:id="pl_08776" ref="#pmb91083">Küb</rs>.</p>
+            <p xml:space="preserve" rend="indent">Mit O., <rs type="person" xml:id="pNt_43685" ref="#person_19822"><forename>Heini</forename></rs>, <rs type="person" xml:id="pNt_43686" ref="#person_14130"><forename>Lili</forename></rs> und <rs type="person" xml:id="pNt_43687" ref="#person_19986"><forename>Gustav</forename></rs> Nm. in den <rs type="place" xml:id="pl_08777" ref="#pmb685">Wurstelprater</rs>. Wurstl, 
+Ringelspiele, Grottenbahn. <rs type="person" xml:id="pNt_43688" ref="#person_14130"><forename>Lili</forename></rs> zum ersten Mal im <rs type="place" xml:id="pl_08778" ref="#pmb685">Wurstelprater</rs>.― 
 <rs type="person" xml:id="pNt_43689" ref="#person_19986"><forename>Gustav</forename></rs> zum Nachtm. bei uns.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

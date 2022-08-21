@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-07-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-07-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-07-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-07-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-07-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-07-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-19AA-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7325.tif"/>
@@ -184,7 +188,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1929-07-20">
             <p xml:space="preserve"><date when="1929-07-20">20/7</date> Vm. <rs type="person" xml:id="pNt_87286" ref="#person_19738"><forename>Viola Gabr.</forename> <surname>Schlesinger</surname></rs>; mit ihrer Schwester (zum ersten Mal);― 
-reisen nach <rs type="place" xml:id="pl_18780" ref="#place_a89d7e4e24c37b18add1ddba6cc4f827">Martino</rs> ― dann <rs type="place" xml:id="pl_18781" ref="#place_389962c9dec540ab28d04517e82c3996">Italien</rs>; Prozess gewonnen. Im Garten sitzend 
+reisen nach <rs type="place" xml:id="pl_18780" ref="#pmb44311">Martino</rs> ― dann <rs type="place" xml:id="pl_18781" ref="#pmb40306">Italien</rs>; Prozess gewonnen. Im Garten sitzend 
 erkundigte ich mich nach allerlei Ritualen,― mit Beziehung auf meinen 
 Kaplan,― dann geriethen wir ins religiöse; und besonders katholische. 
 Nicht leicht, sich zu verständigen, wo der Verstand willkürlich 
@@ -196,7 +200,7 @@ fand, dass ich sie nicht veröffentlicht).</p>
             <p xml:space="preserve" rend="indent">― <rs type="person" xml:id="pNt_87289" ref="#person_18863"><forename>C.</forename> <surname>P.s</surname></rs> Aerger mit der <rs type="work" subtype="newspaper" xml:id="bibl_482">N. Fr. Pr.</rs>;― die schmutzig und unverlässlich wie 
 immer;― Geldschwierigkeiten (die sie ja nicht hat) ― (das unerträgliche 
 der „Abhängigkeit“ ― das ich ja nachfühlen kann).―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_87290" ref="#person_18137"><forename>Dora</forename></rs> telef. aus <rs type="place" xml:id="pl_18782" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>;― sie habe es schwer mit <rs type="person" xml:id="pNt_87291" ref="#person_19832"><forename>O.</forename></rs>, seit diese so 
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_87290" ref="#person_18137"><forename>Dora</forename></rs> telef. aus <rs type="place" xml:id="pl_18782" ref="#pmb168">Berlin</rs>;― sie habe es schwer mit <rs type="person" xml:id="pNt_87291" ref="#person_19832"><forename>O.</forename></rs>, seit diese so 
 ziemlich hergestellt. Wegen <rs type="person" xml:id="pNt_87292" ref="#person_19822"><forename>Heini</forename></rs> und <rs type="person" xml:id="pNt_87293" ref="#person_13139"><forename>Ruth</forename></rs> scheint sie vor allem aegrirt; 
 die Möglichkeit einer Ehe macht ihr „Sorgen“;― gibt Anlass zu Kritik 
 u. a. ― Und besonders wichtig ist ihr,― ob <rs type="person" xml:id="pNt_87294" ref="#person_19822"><forename>Heini</forename></rs> und <rs type="person" xml:id="pNt_87295" ref="#person_14129"><forename>Arnoldo</forename></rs> hier mit 
@@ -209,6 +213,5 @@ Zeit „<rs type="person" xml:id="pNt_87299"><surname>Gruss</surname></rs>“ im
 das Theater neu eröffnen will, einfältig und Phrasen schwätzend.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

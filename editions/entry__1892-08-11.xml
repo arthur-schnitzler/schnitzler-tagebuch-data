@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1892-08-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-08-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-08-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1892-08-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-08-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-08-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E5AF-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0628.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1892-08-11">
-            <p xml:space="preserve"><date when="1892-08-11">11. 8.</date> ― Heut unterschrieb <rs type="person" xml:id="pNt_06465" ref="#person_15485"><forename>Mz.</forename></rs> <rs type="place" xml:id="pl_01314" ref="#place_9974545279455eb03bf50b1b1b4d7fea">Wiesbaden</rs>.― Vm. mit ihr, Nm. 
-<rs type="place" xml:id="pl_01315" ref="#place_971d9360a377fa82fd2640a5119b1112">Schönbrunn</rs> ― <rs type="place" xml:id="pl_01316" ref="#place_dac9f8d2001040ee8f6e352348bc148b">Meidling</rs> ―</p>
+            <p xml:space="preserve"><date when="1892-08-11">11. 8.</date> ― Heut unterschrieb <rs type="person" xml:id="pNt_06465" ref="#person_15485"><forename>Mz.</forename></rs> <rs type="place" xml:id="pl_01314" ref="#pmb883">Wiesbaden</rs>.― Vm. mit ihr, Nm. 
+<rs type="place" xml:id="pl_01315" ref="#pmb92518">Schönbrunn</rs> ― <rs type="place" xml:id="pl_01316" ref="#pmb62">Meidling</rs> ―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

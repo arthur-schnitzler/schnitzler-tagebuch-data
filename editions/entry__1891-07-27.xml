@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1891-07-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-07-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-07-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1891-07-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-07-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-07-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E432-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,19 +177,21 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0552.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1891-07-27">
-            <p xml:space="preserve"><date when="1891-07-27">27. 7.</date> In <rs type="place" xml:id="pl_01149" ref="#place_9a43e84f6e1d406076f2372205804f6d">B.</rs> mit <rs type="person" xml:id="pNt_05468" ref="#person_19542"><surname>Salten</surname></rs>. Arena. <rs type="work" xml:id="bibl_23131">Das zweite Gesicht</rs>. <rs type="person" xml:id="pNt_05469" ref="#person_15485"><forename>Mz.</forename></rs> als <rs type="person" xml:id="pNt_05470"><forename>Kitty</forename></rs> war 
+            <p xml:space="preserve"><date when="1891-07-27">27. 7.</date> In <rs type="place" xml:id="pl_01149" ref="#pmb662">B.</rs> mit <rs type="person" xml:id="pNt_05468" ref="#person_19542"><surname>Salten</surname></rs>. Arena. <rs type="work" xml:id="bibl_23131">Das zweite Gesicht</rs>. <rs type="person" xml:id="pNt_05469" ref="#person_15485"><forename>Mz.</forename></rs> als <rs type="person" xml:id="pNt_05470"><forename>Kitty</forename></rs> war 
 entzückend. Ich war dann mit ihr und ihrer Mutter essen, sie war 
 etwas abgespannt. Ich liebe sie immer tiefer. Der Gedanke sie zu 
 verlieren unfassbar.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_05471" ref="#person_19398"><forename>Mz.</forename> <surname>R.</surname></rs> war Nachm. bei mir gewesen; eine Bemerkung von ihr über 
 das „unnahbare <rs type="person" xml:id="pNt_05472" ref="#person_15485"><roleName>Frl.</roleName> <surname>Gl.</surname></rs>“ freute mich.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

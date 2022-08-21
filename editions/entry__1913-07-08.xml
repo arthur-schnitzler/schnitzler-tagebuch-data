@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-07-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-07-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-07-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-07-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-07-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-07-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-02D0-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3650.tif"/>
@@ -205,7 +209,7 @@ ich erst im Wachen weiss) aus wie <rs type="person" xml:id="pNt_41134" ref="#per
 <pb n="50"/>
 <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header"><fw n="50" place="top_left" type="pageNum">50</fw> <fw place="top_center"><date>1913: VII 8 </date></fw></tei:fw>
 Aufklärung, wo er an den verschiedenen Abenden mit <rs type="person" xml:id="pNt_41136" ref="#person_21231"><forename>Bella</forename></rs> (die jetzt 
-in <rs type="place" xml:id="pl_08351" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>) soupirt; ich lese durch (ohne etwas zu erfahren), in der Mitte 
+in <rs type="place" xml:id="pl_08351" ref="#pmb50">Wien</rs>) soupirt; ich lese durch (ohne etwas zu erfahren), in der Mitte 
 des Notizbuchs seine Ausgaben notirt; nachzusehn schiene mir indiscret, 
 übrigens kann ich sie nicht lesen.― Nun bin ich mit <rs type="person" xml:id="pNt_41137" ref="#person_19135"><roleName>Dr.</roleName> <surname>Reik</surname></rs> irgendwo, 
 er wird witzig-intim, was ich ärgerlich ablehne, sogar handgreiflich; 
@@ -227,7 +231,7 @@ Schwester bei <rs type="person" xml:id="pNt_41146" ref="#person_19822"><forename
 der Krankheit Trinkgeld geben sollte.― ― Der Zug ― die Reisesehnsucht; 
 O.’s rasche Besuchslust ― eine Erinnerung daran, dass ich ihr übel 
 nahm, was ich das „devote Benehmen“ (ungerecht!) gegen die Agentin 
-<rs type="person" xml:id="pNt_41147" ref="#person_21447"><roleName>Frau</roleName> <surname>Wolff</surname></rs> nannte.― <rs type="person" xml:id="pNt_41148" ref="#person_21425"><roleName>Frl.</roleName> <surname>Woiwode</surname></rs> ― wir sollen heuer in <rs type="place" xml:id="pl_08352" ref="#place_8ac85cc83788186b74cc9ca468d300c5">Brioni</rs> die 
+<rs type="person" xml:id="pNt_41147" ref="#person_21447"><roleName>Frau</roleName> <surname>Wolff</surname></rs> nannte.― <rs type="person" xml:id="pNt_41148" ref="#person_21425"><roleName>Frl.</roleName> <surname>Woiwode</surname></rs> ― wir sollen heuer in <rs type="place" xml:id="pl_08352" ref="#pmb45260">Brioni</rs> die 
 Ballerinen <rs type="person" xml:id="pNt_41149"><surname>Berger</surname></rs> kennen lernen ― ich sah <rs type="person" xml:id="pNt_41150" ref="#person_21425"><roleName>Frl.</roleName> <surname>Woiwode</surname></rs> als Balletmädl 
 im <rs type="work" subtype="self" xml:id="bibl_9542">Abschiedsouper</rs>! ― Daher auch das Ballkleid! ― Die Intimität 
 <rs type="person" xml:id="pNt_41151" ref="#person_19135"><surname>Reiks</surname></rs> ― Eigenheit der Psychoanalytiker die intimsten Details zu 
@@ -252,6 +256,5 @@ wurde wieder furchtbar. „Das Jahr vergess ich dir nicht“ sagt ich ―
 zweites.“― Ihre trotzige Einsichtslosigkeit macht mich übertreiben.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-11-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-11-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-11-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-11-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-11-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-11-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F80E-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,17 +176,19 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2153.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1905-11-17">
             <p xml:space="preserve"><date when="1905-11-17">17/11</date> Vm. mit O. Besorgungen.―</p>
             <p xml:space="preserve" rend="indent">Nm. am „<rs type="work" subtype="self" xml:id="bibl_16059">Gabriel</rs>“.―</p>
             <p xml:space="preserve" rend="indent">In „<rs type="work" xml:id="bibl_16060">Passerelle</rs>“ (<rs type="person" xml:id="pNt_23856" ref="#person_19178"><surname>Réjane</surname></rs>) 16. Reihe, hinter mir 21. Olga und <rs ref="#person_20523" type="person" xml:id="pNt_23857"><forename>Annie</forename> <surname>Sikora</surname></rs>.― Hörte recht wenig.―</p>
-            <p xml:space="preserve" rend="indent">Mit O. <rs type="place" ref="#place_meissl">Meissl</rs> genachtmahlt.</p>
+            <p xml:space="preserve" rend="indent">Mit O. <rs type="place" ref="#pmb96">Meissl</rs> genachtmahlt.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

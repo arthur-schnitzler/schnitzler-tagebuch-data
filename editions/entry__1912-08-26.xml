@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-08-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-08-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0194-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3465.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1912-08-26">
-            <p xml:space="preserve"><date when="1912-08-26">26/8</date> <rs type="place" xml:id="pl_08015" ref="#place_c6f3801b0f7078f39cc75b8690301853">Gossensass</rs>. Regen.― Wieder kleiner Furunkel am Bein.― Mit 
+            <p xml:space="preserve"><date when="1912-08-26">26/8</date> <rs type="place" xml:id="pl_08015" ref="#pmb40474">Gossensass</rs>. Regen.― Wieder kleiner Furunkel am Bein.― Mit 
 <rs type="person" xml:id="pNt_38685" ref="#person_19821"><forename>Hans</forename> <surname>S.</surname></rs> Uferpromenade.―</p>
             <p xml:space="preserve" rend="indent">Nm. gelesen (<rs type="person" xml:id="pNt_38686" ref="#person_18991"><surname>Pückler</surname></rs> <rs type="work" xml:id="bibl_10446">Briefe</rs>).―</p>
             <p xml:space="preserve" rend="indent">Poker mit <rs type="person" xml:id="pNt_38687" ref="#person_19827"><forename>Julius</forename></rs>, <rs type="person" xml:id="pNt_38688" ref="#person_14309"><surname>Cronbach</surname></rs>, <rs type="person" xml:id="pNt_38689" ref="#person_13171"><forename>Hans</forename> <surname>Altmann</surname></rs>.―</p>
@@ -189,6 +193,5 @@
 War schwer verstimmt.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

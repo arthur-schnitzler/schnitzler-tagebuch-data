@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1881-07-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1881-07-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1881-07-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1881-07-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1881-07-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1881-07-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DE1B-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0132.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1881-07-12">
-            <p xml:space="preserve"><date when="1881-07-12">Dinstag 12.</date> Rundfahrt; <rs type="place" xml:id="pl_00207" ref="#place_51b85b043b4723dd90172fa3e1144866">Obersee</rs>, <rs type="place" xml:id="pl_00208" ref="#place_c53290a5b61793c14730914e3a95d48b">St. Bartolomä</rs>; <rs type="place" xml:id="pl_00209" ref="#place_7ed4496167f8edc24d094798be1c9cc8">Königssee</rs> ― <rs type="place" xml:id="pl_00210" ref="#place_f7688f95685985f806fab40e78596fe8">Hallein</rs>. 
+            <p xml:space="preserve"><date when="1881-07-12">Dinstag 12.</date> Rundfahrt; <rs type="place" xml:id="pl_00207" ref="#pmb91379">Obersee</rs>, <rs type="place" xml:id="pl_00208" ref="#pmb91802">St. Bartolomä</rs>; <rs type="place" xml:id="pl_00209" ref="#pmb91054">Königssee</rs> ― <rs type="place" xml:id="pl_00210" ref="#pmb44258">Hallein</rs>. 
 (Fußtour.)</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_00211" ref="#place_f7688f95685985f806fab40e78596fe8">Hallein</rs> ― <rs type="place" xml:id="pl_00212" ref="#place_da917b2d10cfdda007fe6b33af58c202">Golling</rs> (Eisenbahn).</p>
+            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_00211" ref="#pmb44258">Hallein</rs> ― <rs type="place" xml:id="pl_00212" ref="#pmb90733">Golling</rs> (Eisenbahn).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

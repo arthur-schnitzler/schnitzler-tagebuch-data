@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-06-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-06-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-06-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-06-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-06-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-06-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FFE0-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3180.tif"/>
@@ -182,13 +186,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1911-06-17">
-            <p xml:space="preserve"><date when="1911-06-17">17/6</date> Vm. Besorgungen.― Panorama (<rs type="place" xml:id="pl_07510" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs>).</p>
+            <p xml:space="preserve"><date when="1911-06-17">17/6</date> Vm. Besorgungen.― Panorama (<rs type="place" xml:id="pl_07510" ref="#pmb182">Paris</rs>).</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_35556" ref="#person_17650"><roleName>Frl.</roleName> <surname>Loewenstamm</surname></rs>; die mich radirt. Wurde xmal photographirt.―</p>
             <p xml:space="preserve" rend="indent">Nm. Herr <rs type="person" xml:id="pNt_35557" ref="#person_16864"><forename>Josef</forename> <surname>Kitir</surname></rs>, als Bittsteller.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_35558" ref="#person_17958"><forename>Paul</forename> <surname>Marx</surname></rs>, im Garten.―</p>
             <p xml:space="preserve" rend="indent">Dictirt.― Der dumm dreiste Brief von Hrn <rs type="person" xml:id="pNt_35559" ref="#person_17303"><forename>A.</forename> <surname>Langen</surname></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

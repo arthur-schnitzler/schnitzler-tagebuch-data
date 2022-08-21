@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-05-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-04-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-05-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-04-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FB6A-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2502.tif"/>
@@ -180,11 +184,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1908-05-01">
-            <p xml:space="preserve"><date when="1908-05-01">1/5</date> Bahn <rs type="place" xml:id="pl_06283" ref="#place_e93a52859ebc48118c4864b1add4d856">Klobenstein</rs>. Entzückt.</p>
-            <p xml:space="preserve" rend="indent">In <rs type="place" xml:id="pl_06284" ref="#place_3859ff9074d497ed0cb3c08be85996ad">Oberbozen</rs> zu Mittag.―</p>
-            <p xml:space="preserve" rend="indent">Abds. Truhe. Fahrt Runkelstein, <rs type="place" xml:id="pl_06285" ref="#place_7580f5f486c19fc6b5b0dec742ca1949">Gries</rs>.―</p>
+            <p xml:space="preserve"><date when="1908-05-01">1/5</date> Bahn <rs type="place" xml:id="pl_06283" ref="#pmb50822">Klobenstein</rs>. Entzückt.</p>
+            <p xml:space="preserve" rend="indent">In <rs type="place" xml:id="pl_06284" ref="#pmb40260">Oberbozen</rs> zu Mittag.―</p>
+            <p xml:space="preserve" rend="indent">Abds. Truhe. Fahrt Runkelstein, <rs type="place" xml:id="pl_06285" ref="#pmb45092">Gries</rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

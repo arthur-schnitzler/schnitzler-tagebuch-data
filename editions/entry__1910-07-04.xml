@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-07-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-07-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-07-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-07-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-07-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-07-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FE84-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,14 +177,15 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2935.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2936.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2937.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1910-07-04">
             <p xml:space="preserve"><date when="1910-07-04">4/7</date> Vm. Villa. Tennis. <rs type="person" xml:id="pNt_33028" ref="#person_19846"><surname>Schönbrunn</surname></rs> und, neu, zwei <rs type="person" xml:id="pNt_33029"><roleName>Frl.</roleName> <surname>Kraus</surname></rs>, Nichten 
 des <rs type="work" subtype="newspaper" xml:id="bibl_11838"><rs type="person" xml:id="pNt_33030" ref="#person_17108"><surname>Fackel-Kraus</surname></rs></rs>. Von diesem wissen sie, daß <rs type="person" xml:id="pNt_33031" ref="#person_13162"><forename>P.</forename> <surname>A.</surname></rs> wohlhabend ja 
@@ -201,7 +206,7 @@ das stilisirte rette, wo Grenzen a priori gegeben ―.</p>
             <p xml:space="preserve" rend="indent">Telegramm <rs type="person" xml:id="pNt_33033" ref="#person_19364"><surname>Rosenbaum</surname></rs> sehr entzückt vom <rs type="work" subtype="self" xml:id="bibl_11840">W. L.</rs>; offenbar von <rs type="person" xml:id="pNt_33034" ref="#person_13624"><surname>Berger</surname></rs> 
 inspirirt resp. gestattet; aber ohne bestimmtes betreffs Aufführung.―.</p>
             <p xml:space="preserve" rend="indent">Nm. „Urstoffe“ etc. vom <rs type="work" subtype="self" xml:id="bibl_11841">W. L.</rs> durchgesehn.―</p>
-            <p xml:space="preserve" rend="indent">Mit O. nach <rs type="place" xml:id="pl_07128" ref="#place_6fc6f10422bfe80ddcba23b4f7f080dc">Hietzing</rs> zu <rs type="person" xml:id="pNt_33035" ref="#person_20796"><surname>Trebitsch</surname></rs>. Mit ihm Billard vor und nach 
+            <p xml:space="preserve" rend="indent">Mit O. nach <rs type="place" xml:id="pl_07128" ref="#pmb63">Hietzing</rs> zu <rs type="person" xml:id="pNt_33035" ref="#person_20796"><surname>Trebitsch</surname></rs>. Mit ihm Billard vor und nach 
 dem Nachtmahl. Sie beklagte sich über ihn bei uns ― wie gestern <rs type="person" xml:id="pNt_33036"><roleName>Frau</roleName> <surname>A.</surname></rs> über ihren Gatten. Später, allein mit O., kam ihr ganzes Unglück 
 heraus: seine Leere und Streberei, die es ihr unmöglich macht, sich 
 auszuruhn; Verkehr in „literarischen“ Kreisen, die ihr eigentlich 
@@ -214,5 +219,6 @@ zuwider; Hetze etc.―</p>
                </fw>
             </tei:fw>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

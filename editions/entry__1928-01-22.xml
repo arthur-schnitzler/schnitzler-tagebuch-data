@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-01-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-01-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-01-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-01-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-01-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-01-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1789-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7025.tif"/>
@@ -181,8 +185,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1928-01-22">
-            <p xml:space="preserve"><date when="1928-01-22">22/1</date> S.― Vm. mit <rs type="person" xml:id="pNt_82786" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> spazieren, <rs type="place" xml:id="pl_17770" ref="#place_431168489e6885d4e91ebc5edec7dfb4">Grinzing</rs> ― <rs type="place" xml:id="pl_17771" ref="#place_388686540f35afe7790d134863d92203">Kahlenberg</rs> Gegend ― 
-<rs type="place" xml:id="pl_17772" ref="#place_86f90c857ca2c813e066ea7b3502cb7c">Hohewarte</rs>.―</p>
+            <p xml:space="preserve"><date when="1928-01-22">22/1</date> S.― Vm. mit <rs type="person" xml:id="pNt_82786" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> spazieren, <rs type="place" xml:id="pl_17770" ref="#pmb90771">Grinzing</rs> ― <rs type="place" xml:id="pl_17771" ref="#pmb574">Kahlenberg</rs> Gegend ― 
+<rs type="place" xml:id="pl_17772" ref="#pmb92292">Hohewarte</rs>.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_82787" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> telef. mir Tod ihrer Mutter.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_82788" ref="#person_19832"><forename>O.</forename></rs> und <rs ref="#person_16362" type="person" xml:id="pNt_82789"><forename>Lotte</forename></rs> zu Tisch. <rs type="person" xml:id="pNt_82790" ref="#person_19832"><forename>O.</forename></rs> über ihre <rs type="place" xml:id="pl_17773" ref="#place_be7f11f190986254826063420695db61" ana="#exclude">Berliner</rs> Wohnungpläne: 
 Besichtigung der Dinge (Möbel etc.) die sie haben möchte. (Zwei 
@@ -192,6 +196,5 @@ einrichten könnte … „Und so eilen wir denn zum Schlusse …“</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_82791" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Kino „<rs type="work" xml:id="bibl_19075">Liebesreigen</rs>“; im silb. Brunnen genachtm.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

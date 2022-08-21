@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1898-08-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-08-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-08-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1898-08-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-08-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-08-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EE2E-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1449.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1898-08-15">
-            <p xml:space="preserve"><date when="1898-08-15">15/8</date> <rs type="place" xml:id="pl_02980" ref="#place_fe7ccfdd8211330c270a9b438c16bacd">Glion</rs> ― <rs type="place" xml:id="pl_02981" ref="#place_5d29e0bde6fa973b4873f8c093e254c4">Rochers de Naye</rs>, <rs type="place" xml:id="pl_02982" ref="#place_fe7ccfdd8211330c270a9b438c16bacd">Glion</rs> ― <rs type="place" xml:id="pl_02983" ref="#place_f197524aef7e6b2ee8b3196b6ca91c61">Territet</rs> (Bahn) ― <rs type="place" xml:id="pl_02984" ref="#place_8d9cafbdba16e54bc75952984ed08b24">Vevey</rs> 
-(Rad). Bad, Diner.― Telegramm <rs type="person" xml:id="pNt_15542" ref="#person_16293"><forename>Hugos</forename></rs> Großmama todt.― ― <rs type="place" xml:id="pl_02985" ref="#place_2f4d156f29b46c9add9d9337453822fc">Lausanne</rs> 
+            <p xml:space="preserve"><date when="1898-08-15">15/8</date> <rs type="place" xml:id="pl_02980" ref="#pmb40483">Glion</rs> ― <rs type="place" xml:id="pl_02981" ref="#pmb91604">Rochers de Naye</rs>, <rs type="place" xml:id="pl_02982" ref="#pmb40483">Glion</rs> ― <rs type="place" xml:id="pl_02983" ref="#pmb52051">Territet</rs> (Bahn) ― <rs type="place" xml:id="pl_02984" ref="#pmb64657">Vevey</rs> 
+(Rad). Bad, Diner.― Telegramm <rs type="person" xml:id="pNt_15542" ref="#person_16293"><forename>Hugos</forename></rs> Großmama todt.― ― <rs type="place" xml:id="pl_02985" ref="#pmb50004">Lausanne</rs> 
 (Rad). Spazierg. Casino.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

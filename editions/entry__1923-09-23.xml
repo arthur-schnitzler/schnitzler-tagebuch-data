@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-09-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-09-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-09-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-09-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-09-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-09-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-115C-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6115.tif"/>
@@ -181,8 +185,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1923-09-23">
-            <p xml:space="preserve"><date when="1923-09-23">23/9</date> S. <rs type="person" xml:id="pNt_70321" ref="#person_20140"><forename>Walter</forename> <surname>Singer</surname></rs> und Frau holen mich ab; spazieren <rs type="place" xml:id="pl_15093" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> ― 
-<rs type="place" xml:id="pl_15094" ref="#place_a513bae177c89d12226f343ac5ff1ee3">Salmannsdorf</rs> ― Hameau ― <rs type="place" xml:id="pl_15095" ref="#place_b457a404d9be4ac8779a6c105d7c2bda">Dreimarkstein</rs> ― <rs type="place" xml:id="pl_15096" ref="#place_a513bae177c89d12226f343ac5ff1ee3">Salmannsdorf</rs>.― Schöner 
+            <p xml:space="preserve"><date when="1923-09-23">23/9</date> S. <rs type="person" xml:id="pNt_70321" ref="#person_20140"><forename>Walter</forename> <surname>Singer</surname></rs> und Frau holen mich ab; spazieren <rs type="place" xml:id="pl_15093" ref="#pmb169">Pötzleinsdorf</rs> ― 
+<rs type="place" xml:id="pl_15094" ref="#pmb91641">Salmannsdorf</rs> ― Hameau ― <rs type="place" xml:id="pl_15095" ref="#pmb90548">Dreimarkstein</rs> ― <rs type="place" xml:id="pl_15096" ref="#pmb91641">Salmannsdorf</rs>.― Schöner 
 Herbsttag.― Sie speisen bei uns. Wir plaudern im Garten. Zeige <rs type="person" xml:id="pNt_70322"><surname>S.</surname></rs> 
 meine Aufzeichnungen über <rs type="place" xml:id="pl_15097" ref="#place_9d200f7c8b6c40b04cebf5d94f729f55" ana="#exclude">schwedische</rs> Einnahmen etc. bespreche 
 den <rs type="person" xml:id="pNt_70323" ref="#person_15009"><surname>Fischerischen</surname></rs> Brief mit ihm ―</p>
@@ -191,6 +195,5 @@ den <rs type="person" xml:id="pNt_70323" ref="#person_15009"><surname>Fischerisc
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_70324" ref="#person_19822"><forename>Heini</forename></rs> ein <rs type="person" xml:id="pNt_70325" ref="#person_13555"><surname>Beethoven</surname></rs> Streichtrio.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

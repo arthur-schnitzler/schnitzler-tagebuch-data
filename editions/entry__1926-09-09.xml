@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-09-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-09-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-09-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-09-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-09-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-09-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1595-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,18 +177,20 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6721.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1926-09-09">
-            <p xml:space="preserve"><date when="1926-09-09">9/9</date> <rs type="place" xml:id="pl_16904" ref="#place_cceafad713406bc4d8421dbdd142523a">Luzern</rs>. Schiff <rs type="place" xml:id="pl_16905" ref="#place_9ced84a0ddab28d58a0fea8ff49524d5">Kersiten</rs>. Bahn <rs type="place" xml:id="pl_16906" ref="#place_540f5818d6bfe09efc0f23f0f4858e15">Bürgenstock</rs>, wo vor 16 Jahren mit <rs type="person" xml:id="pNt_78488" ref="#person_19832"><forename>O.</forename></rs> 
-war.― Zu Fuss nach <rs type="place" xml:id="pl_16907" ref="#place_54215f6a13b1fcacbc650e7a3c5c45cb">Stansstad</rs>;― Schiff zurück <rs type="place" xml:id="pl_16908" ref="#place_cceafad713406bc4d8421dbdd142523a">Luzern</rs>.</p>
+            <p xml:space="preserve"><date when="1926-09-09">9/9</date> <rs type="place" xml:id="pl_16904" ref="#pmb967">Luzern</rs>. Schiff <rs type="place" xml:id="pl_16905" ref="#pmb91022">Kersiten</rs>. Bahn <rs type="place" xml:id="pl_16906" ref="#pmb90418">Bürgenstock</rs>, wo vor 16 Jahren mit <rs type="person" xml:id="pNt_78488" ref="#person_19832"><forename>O.</forename></rs> 
+war.― Zu Fuss nach <rs type="place" xml:id="pl_16907" ref="#pmb52078">Stansstad</rs>;― Schiff zurück <rs type="place" xml:id="pl_16908" ref="#pmb967">Luzern</rs>.</p>
             <p xml:space="preserve" rend="indent">Nm. Briefe an <rs type="person" xml:id="pNt_78489" ref="#person_19832"><forename>O.</forename></rs> und <rs type="person" xml:id="pNt_78490" ref="#person_14130"><forename>Lili</forename></rs> (anläßlich ihres 17. Geburtstags). Thränen.―</p>
             <p xml:space="preserve" rend="indent">Spaziergang.―</p>
             <p xml:space="preserve" rend="indent">An der <rs type="work" subtype="self" xml:id="bibl_20403">Bdn. Nov.</rs>―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-01-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-01-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-01-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-01-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-01-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-01-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F56A-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1881.tif"/>
@@ -180,12 +184,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1904-01-10">
-            <p xml:space="preserve"><date when="1904-01-10">10/1</date> S. Nach <rs type="place" xml:id="pl_04577" ref="#place_8c013d27c25b2d109cfc000dee9900bf">Maria Schutz</rs> mit <rs type="person" xml:id="pNt_20612" ref="#person_15855"><surname>Hajek</surname></rs> und <rs type="person" xml:id="pNt_20613" ref="#person_16285"><roleName>Hrn.</roleName> <surname>Hofmann</surname></rs>. Die Damen im 
+            <p xml:space="preserve"><date when="1904-01-10">10/1</date> S. Nach <rs type="place" xml:id="pl_04577" ref="#pmb45277">Maria Schutz</rs> mit <rs type="person" xml:id="pNt_20612" ref="#person_15855"><surname>Hajek</surname></rs> und <rs type="person" xml:id="pNt_20613" ref="#person_16285"><roleName>Hrn.</roleName> <surname>Hofmann</surname></rs>. Die Damen im 
 Schlitten. Ich feuerte zum ersten Mal meinen Revolver ab.―</p>
             <p xml:space="preserve" rend="indent">Nm. mit O. und <rs type="person" xml:id="pNt_20614" ref="#person_19542"><surname>Salten</surname></rs>, Adlitzgräben; <rs type="person" xml:id="pNt_20615" ref="#person_17731"><surname>Lueger</surname></rs> und andre im Schlitten 
 überfahren uns beinah.― Kopfweh.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

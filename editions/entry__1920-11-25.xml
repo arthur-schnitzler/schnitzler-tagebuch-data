@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-11-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-11-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-11-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1920-11-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-11-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-11-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0D55-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5233.tif"/>
@@ -182,8 +186,8 @@
       <body>
          <div type="diary-day" xml:id="entry__1920-11-25">
             <p xml:space="preserve"><date when="1920-11-25">25/11</date> Dictirt Briefe.―</p>
-            <p xml:space="preserve" rend="indent">Abd. <rs type="place" ref="#place_volkstheater">Volksth.</rs> <rs type="work" xml:id="bibl_4398">Don Carlos</rs> Loge, mit <rs type="person" xml:id="pNt_60546" ref="#person_14130"><forename>Lili</forename></rs> und <rs type="person" xml:id="pNt_60547" ref="#person_17562"><forename>R.</forename> <surname>L.</surname></rs>―</p>
-            <p xml:space="preserve" rend="indent">Zu Haus traf ich <rs type="person" xml:id="pNt_60548" ref="#person_15507"><roleName>Dr.</roleName> <surname>Götzl</surname></rs> bei <rs type="person" xml:id="pNt_60549" ref="#person_19822"><forename>Heini</forename></rs> an. (<rs type="person" xml:id="pNt_60550" ref="#person_18884"><roleName>Dr.</roleName> <surname>Pollak</surname></rs> schon nach <rs type="place" xml:id="pl_12646" ref="#place_6200f29d669d049c662de58d281da8f3">Weißenbach</rs> 
+            <p xml:space="preserve" rend="indent">Abd. <rs type="place" ref="#pmb92202">Volksth.</rs> <rs type="work" xml:id="bibl_4398">Don Carlos</rs> Loge, mit <rs type="person" xml:id="pNt_60546" ref="#person_14130"><forename>Lili</forename></rs> und <rs type="person" xml:id="pNt_60547" ref="#person_17562"><forename>R.</forename> <surname>L.</surname></rs>―</p>
+            <p xml:space="preserve" rend="indent">Zu Haus traf ich <rs type="person" xml:id="pNt_60548" ref="#person_15507"><roleName>Dr.</roleName> <surname>Götzl</surname></rs> bei <rs type="person" xml:id="pNt_60549" ref="#person_19822"><forename>Heini</forename></rs> an. (<rs type="person" xml:id="pNt_60550" ref="#person_18884"><roleName>Dr.</roleName> <surname>Pollak</surname></rs> schon nach <rs type="place" xml:id="pl_12646" ref="#pmb92065">Weißenbach</rs> 
 übersiedelt; sein reicher <rs type="place" xml:id="pl_12647" ref="#place_923c9d6aaf18f34b857e3d32ee926c57" ana="#exclude">amerik.</rs> Bruder hat ihm das Geld zu einem 
 Sanatorium zur Verfügung gestellt.) Fieber noch hoch;― Angina; im 
 übrigen keinerlei schwere Symptome.― <rs type="person" xml:id="pNt_60551" ref="#person_15507"><roleName>Dr.</roleName> <surname>Götzl</surname></rs> (den ich von <rs type="person" xml:id="pNt_60552" ref="#person_19542"><surname>Salten</surname></rs> aus 
@@ -191,6 +195,5 @@ kannte) erzählt uns dann noch allerlei von seinen aerztl.
 Kriegserlebnissen.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

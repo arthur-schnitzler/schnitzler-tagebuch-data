@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1885-08-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-08-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-08-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1885-08-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-08-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-08-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DEDF-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0249.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1885-08-26">
-            <p xml:space="preserve"><date when="1885-08-26">26/8</date> Mittwoch. <rs type="place" xml:id="pl_00486" ref="#place_ab21db0a2aa2e84be73932be6063b033">Mailand</rs>. Dom. Brera. Chiesa Maria delle Grazie. 
+            <p xml:space="preserve"><date when="1885-08-26">26/8</date> Mittwoch. <rs type="place" xml:id="pl_00486" ref="#pmb886">Mailand</rs>. Dom. Brera. Chiesa Maria delle Grazie. 
 <rs type="person" xml:id="pNt_02327" ref="#person_17452"><forename>Leonardo</forename> <surname>da Vinci’s</surname></rs> <rs type="work" xml:id="bibl_23329">Abendmahl</rs>. <rs type="person" xml:id="pNt_02328"><surname>Scala</surname></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

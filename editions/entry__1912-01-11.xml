@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-01-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-01-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-01-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-01-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-01-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-01-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-00B0-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3311.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1912-01-11">
-            <p xml:space="preserve"><date when="1912-01-11">11/1</date> Auf den <rs type="place" xml:id="pl_07754" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs> mit O., <rs type="person" xml:id="pNt_37072" ref="#person_21600"><forename>Mimi</forename></rs>, <rs type="person" xml:id="pNt_37073" ref="#person_21107"><surname>Wassermann</surname></rs>, mit vielen komischen 
+            <p xml:space="preserve"><date when="1912-01-11">11/1</date> Auf den <rs type="place" xml:id="pl_07754" ref="#pmb91735">Semmering</rs> mit O., <rs type="person" xml:id="pNt_37072" ref="#person_21600"><forename>Mimi</forename></rs>, <rs type="person" xml:id="pNt_37073" ref="#person_21107"><surname>Wassermann</surname></rs>, mit vielen komischen 
 Aperçus.</p>
             <p xml:space="preserve" rend="indent">Oben <rs type="person" xml:id="pNt_37074" ref="#person_13913"><surname>Brahm</surname></rs>. Spazieren und in der Halle mit ihm. Über das 
 „<rs type="work" xml:id="bibl_9878">Tänzchen</rs>“ (von <rs type="person" xml:id="pNt_37075" ref="#person_13374"><surname>Bahr</surname></rs>, das eben ohne Erfolg gespielt wurde) und 
 <rs type="work" xml:id="bibl_9879">Gabriel Schilling</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

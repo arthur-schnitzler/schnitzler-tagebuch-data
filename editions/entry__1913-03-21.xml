@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-03-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-03-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-03-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-03-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-03-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-03-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0263-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3586.tif"/>
@@ -183,11 +187,10 @@
          <div type="diary-day" xml:id="entry__1913-03-21">
             <p xml:space="preserve"><date when="1913-03-21">21/3</date> Früh schweres Gespräch mit O.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_40356" ref="#person_20242"><surname>Speidel</surname></rs> kam, in Zweifel, ob <rs type="person" xml:id="pNt_40357" ref="#person_15833"><forename>Else</forename></rs> reisen soll.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_40358" ref="#person_16293"><forename>Hugo</forename></rs>; mit ihm spazieren <rs type="place" xml:id="pl_08185" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs>. Über Productionsarten.―</p>
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_40358" ref="#person_16293"><forename>Hugo</forename></rs>; mit ihm spazieren <rs type="place" xml:id="pl_08185" ref="#pmb169">Pötzleinsdorf</rs>. Über Productionsarten.―</p>
             <p xml:space="preserve" rend="indent">Nm. mit O. und <rs type="person" xml:id="pNt_40359" ref="#person_13359"><forename>Stephi</forename></rs> Besorgungen in der Stadt. <rs type="person" xml:id="pNt_40360" ref="#person_13359"><forename>Stephi</forename></rs> zum 
 Nachtmahl bei uns.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

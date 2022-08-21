@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1925-06-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-06-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-06-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1925-06-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-06-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-06-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-13DF-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6507.tif"/>
@@ -181,14 +185,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1925-06-27">
-            <p xml:space="preserve"><date when="1925-06-27">27/6</date> Autopartie <rs type="place" xml:id="pl_16130" ref="#place_3859ff9074d497ed0cb3c08be85996ad">Bozen</rs> ― <rs type="place" xml:id="pl_16131" ref="#place_0c8a0ca19b8a880f6aec12e3d3fe5c05">Karersee</rs> (Regen) ― <rs type="place" xml:id="pl_16132" ref="#place_547282a923e772f8b20d04d2231d82db">Predazzo</rs> ― <rs type="place" xml:id="pl_16133" ref="#place_856a5d51cd9f24df38b84fdca72fbe8f">Rolle</rs> ― <rs type="place" xml:id="pl_16134" ref="#place_a89d7e4e24c37b18add1ddba6cc4f827">Martino</rs>. 
+            <p xml:space="preserve"><date when="1925-06-27">27/6</date> Autopartie <rs type="place" xml:id="pl_16130" ref="#pmb40260">Bozen</rs> ― <rs type="place" xml:id="pl_16131" ref="#pmb91003">Karersee</rs> (Regen) ― <rs type="place" xml:id="pl_16132" ref="#pmb90170">Predazzo</rs> ― <rs type="place" xml:id="pl_16133" ref="#pmb91608">Rolle</rs> ― <rs type="place" xml:id="pl_16134" ref="#pmb44311">Martino</rs>. 
 (Grand Hotel des Alpes, wo <rs type="person" xml:id="pNt_75358" ref="#person_19832"><forename>O.</forename></rs> und <rs type="person" xml:id="pNt_75359" ref="#person_17037"><roleName>Frau</roleName> <surname>Koppel</surname></rs> Zimmer bestellt. Sehr mäßig. 
-Dagegen.―) <rs type="place" xml:id="pl_16135" ref="#place_a89d7e4e24c37b18add1ddba6cc4f827">Martino</rs> sehr verändert; lauter neue (und häßliche) Hotels (es 
+Dagegen.―) <rs type="place" xml:id="pl_16135" ref="#pmb44311">Martino</rs> sehr verändert; lauter neue (und häßliche) Hotels (es 
 war vollkommen zerschossen). (Die vielen Soldatenfriedhöfe auf dem Weg.) 
-Schlechtes Wetter. <rs type="place" xml:id="pl_16136" ref="#place_a89d7e4e24c37b18add1ddba6cc4f827">Martino</rs> ― <rs type="place" xml:id="pl_16137" ref="#place_547282a923e772f8b20d04d2231d82db">Predazzo</rs> ― <rs type="place" xml:id="pl_16138" ref="#place_5d9a59fd9aa5ab74b8cbb1657d01f928">Cavalese</rs> ― <rs type="place" xml:id="pl_16139" ref="#place_51ffeade6f46e8ffd320e7c981cc11ae">Auer</rs> ― <rs type="place" xml:id="pl_16140" ref="#place_3859ff9074d497ed0cb3c08be85996ad">Bozen</rs>. 
+Schlechtes Wetter. <rs type="place" xml:id="pl_16136" ref="#pmb44311">Martino</rs> ― <rs type="place" xml:id="pl_16137" ref="#pmb90170">Predazzo</rs> ― <rs type="place" xml:id="pl_16138" ref="#pmb90462">Cavalese</rs> ― <rs type="place" xml:id="pl_16139" ref="#pmb90278">Auer</rs> ― <rs type="place" xml:id="pl_16140" ref="#pmb40260">Bozen</rs>. 
 (Erinnerung an die Fußpartie mit <rs type="person" xml:id="pNt_75360" ref="#person_13551"><forename>Richard</forename></rs> und <rs type="person" xml:id="pNt_75361" ref="#person_21107"><surname>Wassermann</surname></rs> 1899;― <rs type="person" xml:id="pNt_75362" ref="#person_19832"><forename>Olga</forename></rs> 1907.)</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

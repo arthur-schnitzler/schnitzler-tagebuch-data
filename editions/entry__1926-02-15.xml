@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-02-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-02-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-02-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-02-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-02-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-02-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-14C8-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,13 +177,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6629.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6630.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1926-02-15">
             <p xml:space="preserve"><date when="1926-02-15">15/2</date> Vm. bei <rs type="person" xml:id="pNt_77279" ref="#person_19379"><roleName>Dr.</roleName> <surname>Rosenberger</surname></rs> (wegen der Filmsache).</p>
             <p xml:space="preserve" rend="indent">― Mittag Esplanade mit <rs type="person" xml:id="pNt_77280" ref="#person_19832"><forename>O.</forename></rs>, <rs type="person" xml:id="pNt_77281" ref="#person_14130"><forename>Lili</forename></rs>, <rs type="person" xml:id="pNt_77282" ref="#person_19822"><forename>Heini</forename></rs>.―</p>
@@ -192,5 +197,6 @@ bei meinem Nein,― wie schon vorher gegenüber <rs type="person" xml:id="pNt_77
 allerlei;― wie er von Monarchisten wegen <rs type="person" xml:id="pNt_77289" ref="#person_21338"><roleName>Kaiser</roleName> <forename>Wilhelm</forename></rs> Film hätte 
 ermordet werden sollen, klagt über die Zeiten.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

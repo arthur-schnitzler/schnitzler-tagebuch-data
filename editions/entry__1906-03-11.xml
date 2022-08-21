@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-03-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-03-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-03-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1906-03-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-03-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-03-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F880-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2201.tif"/>
@@ -180,12 +184,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1906-03-11">
-            <p xml:space="preserve"><date when="1906-03-11">11/3</date> S. Vm. spazieren über <rs type="place" xml:id="pl_05474" ref="#place_c79ad839f84019f53250a4e6365359f9">Neuwaldegg</rs> nach <rs type="place" xml:id="pl_05475" ref="#place_318e051b87a18bd62b48dc49a3318206">Hütteldorf</rs>.</p>
+            <p xml:space="preserve"><date when="1906-03-11">11/3</date> S. Vm. spazieren über <rs type="place" xml:id="pl_05474" ref="#pmb170">Neuwaldegg</rs> nach <rs type="place" xml:id="pl_05475" ref="#pmb90913">Hütteldorf</rs>.</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="allusively" xml:id="rst_00677">Mama</rs> gegessen; Nm. <rs type="work" xml:id="bibl_14816">4. Claviertrio</rs> <rs type="person" xml:id="pNt_24560" ref="#person_13555"><surname>Beethoven</surname></rs>.</p>
             <p xml:space="preserve" rend="indent">Nachm. über <rs type="work" subtype="self" xml:id="bibl_14817">Journalistenstück</rs> („<rs type="work" subtype="self" xml:id="bibl_14818">Wespennest</rs>“) meditirt, 
 Parlamentsverhandlung über Strike etc. gelesen.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

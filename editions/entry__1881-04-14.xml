@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1881-04-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1881-04-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1881-04-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1881-04-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1881-04-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1881-04-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DE02-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0125.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1881-04-14">
-            <p xml:space="preserve"><date when="1881-04-14">14/4</date> Donnerstag.― Im <rs type="place" xml:id="pl_00193" ref="#place_d7f977f9a16210838a0dd6b32f6fb25d">Volkg.</rs> ― Ich begleitete <rs type="person" xml:id="pNt_01147" ref="#person_13766"><roleName>Frl.</roleName> <forename>Blanche</forename></rs> und <rs type="person" xml:id="pNt_01148" ref="#person_16963"><forename>Ida</forename></rs> 
+            <p xml:space="preserve"><date when="1881-04-14">14/4</date> Donnerstag.― Im <rs type="place" xml:id="pl_00193" ref="#pmb103">Volkg.</rs> ― Ich begleitete <rs type="person" xml:id="pNt_01147" ref="#person_13766"><roleName>Frl.</roleName> <forename>Blanche</forename></rs> und <rs type="person" xml:id="pNt_01148" ref="#person_16963"><forename>Ida</forename></rs> 
 heim. <rs type="person" xml:id="pNt_01149" ref="#person_16963"><forename>Ida</forename></rs> eiferte gegen die Versöhnungsversuche <rs type="person" xml:id="pNt_01150" ref="#person_18320"><forename>Fany</forename> <surname>M.s</surname></rs>; nannte 
 sie eine Intriguantin, citirte eine Äußerung <rs type="person" xml:id="pNt_01151" ref="#person_17368"><forename>Fanys</forename></rs>, „sie sei 
 unglücklich, wenn die Geschichte noch einmal anfinge“, behauptete, 
@@ -190,12 +194,11 @@ heiraten.― Zum Schluss kamen wir auf <rs type="person" xml:id="pNt_01154" ref=
 Sie kennt den Inhalt. „Auch über mich steht etwas drin“ sagte 
 <rs type="person" xml:id="pNt_01155" ref="#person_16963"><forename>Ida</forename></rs> „geben sie mir Ihr Wort ―, dass Sie es nicht glauben … Es wär 
 einmal wahr gewesen ― aber das ist schon lang her ― als Sie damals in 
-<rs type="place" xml:id="pl_00194" ref="#place_0e891dbd1b1814a0cddd64e270c6ffac">Vöslau</rs> waren.“ ― Es ist doch drollig, daß mir <rs type="person" xml:id="pNt_01156" ref="#person_16963"><forename>Ida</forename></rs>, so oft ich noch mit 
+<rs type="place" xml:id="pl_00194" ref="#pmb992">Vöslau</rs> waren.“ ― Es ist doch drollig, daß mir <rs type="person" xml:id="pNt_01156" ref="#person_16963"><forename>Ida</forename></rs>, so oft ich noch mit 
 ihr zusammenkam, gestand, sie ― liebe mich nicht.―</p>
             <p xml:space="preserve" rend="indent">― Mein <rs type="allusively" xml:id="rst_00018">Vater</rs> traf heute <rs type="person" xml:id="pNt_01157" ref="#person_18320"><forename>Fany</forename> <surname>M.</surname></rs> bei <rs type="person" xml:id="pNt_01158" ref="#person_21083"><surname>Walter’s</surname></rs> und äußerte sich 
 sehr vortheilhaft über sie.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

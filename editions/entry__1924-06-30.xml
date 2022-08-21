@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1924-06-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-06-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-07-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1924-06-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-06-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-07-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1275-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,15 +177,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6288.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6289.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1924-06-30">
-            <p xml:space="preserve"><date when="1924-06-30">30/6</date> <rs type="place" xml:id="pl_15451" ref="#place_63714a562352ef3ae472da20ed0384c0">B.-B.</rs> <rs type="person" xml:id="pNt_72561" ref="#person_19832"><forename>O.</forename></rs> holt mich ab; wir gehn zum Steueramt; dann ins 
+            <p xml:space="preserve"><date when="1924-06-30">30/6</date> <rs type="place" xml:id="pl_15451" ref="#pmb228">B.-B.</rs> <rs type="person" xml:id="pNt_72561" ref="#person_19832"><forename>O.</forename></rs> holt mich ab; wir gehn zum Steueramt; dann ins 
 Bankhaus <rs type="person" xml:id="pNt_72562"><surname>Herrmann</surname></rs>. <rs type="person" xml:id="pNt_72563" ref="#person_15932"><roleName>Herr</roleName> <surname>Harris</surname></rs>. Berathung. Ihre Schulden sind 
 beträchtlicher als ich gedacht.― Auf dem Rückweg ist sie von 
 factiöser Schweigsamkeit ― wie in den schönsten Ehejahren;― fast 
@@ -208,5 +213,6 @@ richtiges über <rs type="figur">Falk.</rs> und <rs type="role" xml:id="pNt_7257
             <p xml:space="preserve" rend="indent">Im Hotel arbeitsunfähig auf dem Divan.</p>
             <p xml:space="preserve" rend="indent">Oben genachtm.; auch Frau <rs type="person" xml:id="pNt_72572"><forename>Grethe</forename> <surname>L.</surname></rs> war dabei.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

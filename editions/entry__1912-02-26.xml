@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-02-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-02-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-02-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-02-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-02-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-02-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-00DE-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3339.tif"/>
@@ -184,7 +188,7 @@
             <p xml:space="preserve"><date when="1912-02-26">26/2</date> Dictirt.―</p>
             <p xml:space="preserve" rend="indent">Nm. mit O. bei <rs type="person" xml:id="pNt_37360" ref="#person_13355"><surname>Bachrachs</surname></rs>.― Am „<rs type="work" subtype="self" xml:id="bibl_9998">Bernhardi</rs>“.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_37361" ref="#person_18011"><forename>Alfred</forename> <surname>Mayer</surname></rs> zum Nachtmahl. <rs type="person" xml:id="pNt_37362" ref="#person_20383"><forename>Alberts</forename></rs> üble Geldverhältnisse; <rs type="person" xml:id="pNt_37363" ref="#person_20386"><forename>Liesls</forename></rs> 
-Existenz in <rs type="place" xml:id="pl_07778" ref="#place_5cea8f71bfa6f42547adaf63d65eb3ed">Partenkirchen</rs>.―</p>
+Existenz in <rs type="place" xml:id="pl_07778" ref="#pmb667">Partenkirchen</rs>.―</p>
             <p xml:space="preserve" rend="indent">― <rs type="person" xml:id="pNt_37364" ref="#person_14130"><forename>Lili</forename></rs> bricht neulich ihre „Überhaupt-Puppe“. Fragt dann O.: 
 „Mutter, zerbichst du auch.“ Nein … möchtest du das nicht? „Oh nein, 
 sonst hätt ich ja keine Mutter.“ ― Singt alle möglichen Lieder nach. 
@@ -192,6 +196,5 @@ sonst hätt ich ja keine Mutter.“ ― Singt alle möglichen Lieder nach.
 Worten, z. B. „Was ist Schicksal?“ ―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

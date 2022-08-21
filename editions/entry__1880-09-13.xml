@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1880-09-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-09-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-09-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1880-09-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-09-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-09-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DDB5-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0098.tif"/>
@@ -182,12 +186,11 @@
       <body>
          <div type="diary-day" xml:id="entry__1880-09-13">
             <p xml:space="preserve"><date when="1880-09-13">13/9</date> Montag.― <rs type="person" xml:id="pNt_00854" ref="#person_14386"><forename>Eugen</forename></rs> hat gute Aussichten auf eine journ. Stelle in 
-<rs type="place" xml:id="pl_00178" ref="#place_d0a6343a081a7335baa965ce4fd0845c">München</rs> bei <rs type="person" xml:id="pNt_00855"><surname>Bösl</surname></rs>.― Bei <rs type="person" xml:id="pNt_00856"><surname>K.s</surname></rs> ― <rs type="person" xml:id="pNt_00857" ref="#person_16963"><forename>Ida</forename></rs> ist wieder da. Ich plauderte 
+<rs type="place" xml:id="pl_00178" ref="#pmb45258">München</rs> bei <rs type="person" xml:id="pNt_00855"><surname>Bösl</surname></rs>.― Bei <rs type="person" xml:id="pNt_00856"><surname>K.s</surname></rs> ― <rs type="person" xml:id="pNt_00857" ref="#person_16963"><forename>Ida</forename></rs> ist wieder da. Ich plauderte 
 manches mit ihr. <rs type="person" xml:id="pNt_00858" ref="#person_14386"><forename>Eugen</forename></rs> war oben. Unzufrieden mit <rs type="person" xml:id="pNt_00859" ref="#person_16963"><forename>Ida</forename></rs>. Bekümmert, dass 
 sie ihm davon läuft, wenn er ernster zu werden beginnt; ärgerlich, 
 dass man ringsum meint, sie liebe mich.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

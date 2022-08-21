@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1925-06-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-06-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-06-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1925-06-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-06-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-06-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-13D3-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6502.tif"/>
@@ -181,17 +185,16 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1925-06-15">
-            <p xml:space="preserve"><date when="1925-06-15">15/6</date> Nach Monaten Brief von <rs ref="#person_13969" type="person" xml:id="pNt_75315"><forename>B.</forename> <surname>B.</surname></rs>;― sie kommt im Herbst auf lang nach <rs type="place" xml:id="pl_16097" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>;― 
+            <p xml:space="preserve"><date when="1925-06-15">15/6</date> Nach Monaten Brief von <rs ref="#person_13969" type="person" xml:id="pNt_75315"><forename>B.</forename> <surname>B.</surname></rs>;― sie kommt im Herbst auf lang nach <rs type="place" xml:id="pl_16097" ref="#pmb50">Wien</rs>;― 
 hat <rs type="work" subtype="self" xml:id="bibl_16514">Literatur</rs> und <rs type="work" subtype="self" xml:id="bibl_16515">Fr. mit Dolch</rs> gespielt ― und schickt mir die Tantièmen! (40 fl.)</p>
             <p xml:space="preserve" rend="indent">― Dictirt <rs type="work" subtype="self" xml:id="bibl_16516">Weiher</rs>, <rs type="work" subtype="self" xml:id="bibl_16517">Therese</rs>, Briefe.― <rs type="person" xml:id="pNt_75316" ref="#person_18881"><forename>Kolap</forename></rs> erzählt mir gesprächsweise von 
 der übeln Art, in der <rs type="person" xml:id="pNt_75317" ref="#person_17213"><forename>Peter</forename> <surname>K.</surname></rs> über mich zu reden pflegt, was mich 
 unverhältnismäßig aergert ― aus der Empfindung heraus, dass es meistens 
 die gleiche Gegend ist, aus der dergleichen geweht kommt.</p>
             <p xml:space="preserve" rend="indent">Packen u. dgl.―</p>
-            <p xml:space="preserve" rend="indent">Zu <rs type="person" xml:id="pNt_75318" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> <rs type="place" xml:id="pl_16098" ref="#place_63714a562352ef3ae472da20ed0384c0">B.-B.</rs> gab wieder zu schöner Verstimmung Anlass. Viertelstunden 
+            <p xml:space="preserve" rend="indent">Zu <rs type="person" xml:id="pNt_75318" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> <rs type="place" xml:id="pl_16098" ref="#pmb228">B.-B.</rs> gab wieder zu schöner Verstimmung Anlass. Viertelstunden 
 Schweigen.― Bei <rs type="institution" xml:id="pNt_75319"><surname>Leupold</surname></rs> genachtm.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

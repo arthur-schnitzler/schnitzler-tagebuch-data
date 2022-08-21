@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-10-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-10-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-10-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-10-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-10-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-10-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-01CA-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3499.tif"/>
@@ -182,11 +186,11 @@
       <body>
          <div type="diary-day" xml:id="entry__1912-10-19">
             <p xml:space="preserve"><date when="1912-10-19">19/10</date> Vm. Briefe dictirt.―</p>
-            <p xml:space="preserve" rend="indent">Nm. kam <rs type="person" xml:id="pNt_39097" ref="#person_17046"><surname>Korff</surname></rs> ― will vom <rs type="place" ref="#place_burgtheater">Burgtheater</rs> weg, ist zurückgesetzt, ich 
+            <p xml:space="preserve" rend="indent">Nm. kam <rs type="person" xml:id="pNt_39097" ref="#person_17046"><surname>Korff</surname></rs> ― will vom <rs type="place" ref="#pmb14">Burgtheater</rs> weg, ist zurückgesetzt, ich 
 <pb n="362"/>
 <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header"><fw n="362" place="top_left" type="pageNum">362</fw> <fw place="top_center"><date type="range">1912: X 19 ― X 22</date></fw></tei:fw>
 soll ihm <rs type="work" subtype="self" xml:id="bibl_10537">Weites Land</rs>, <rs type="work" subtype="self" xml:id="bibl_10538">Medardus</rs> übergeben, er übersetzt es ins 
-<rs type="place" xml:id="pl_08064" ref="#place_d18e5d5a09c7b6e8b45b799066d5ac33" ana="#exclude">englische</rs>, gastirt damit in <rs type="place" xml:id="pl_08065" ref="#place_64f607906be7598a02d75dbc1e979662">England</rs> und <rs type="place" xml:id="pl_08066" ref="#place_e884124295d0c4d07d9bcf5096fd5495">Amerika</rs>, verdient Millionen, auch 
+<rs type="place" xml:id="pl_08064" ref="#place_d18e5d5a09c7b6e8b45b799066d5ac33" ana="#exclude">englische</rs>, gastirt damit in <rs type="place" xml:id="pl_08065" ref="#pmb90593">England</rs> und <rs type="place" xml:id="pl_08066" ref="#pmb43406">Amerika</rs>, verdient Millionen, auch 
 für mich.― Dann hin und her zwischen Größen- und Kleinheits-Wahn, 
 er, als erster Schauspieler muß auch Regisseur sein; hat kein Geld, nur 
 700 Kr. monatlich bleiben ihm, dabei wartet sein Auto vor der Thür, 
@@ -194,6 +198,5 @@ und am Ende soll ich bei <rs type="person" xml:id="pNt_39098" ref="#person_20714
             <p xml:space="preserve" rend="indent">― Abends mit O. aus der <rs type="person" xml:id="pNt_39099" ref="#person_17786"><surname>Mahler</surname></rs> <rs type="work" xml:id="bibl_10539">VIII.</rs> vierhändig.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

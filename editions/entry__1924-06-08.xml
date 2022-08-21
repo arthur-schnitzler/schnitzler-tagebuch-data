@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1924-06-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-06-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-06-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1924-06-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-06-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-06-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-125F-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6276.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1924-06-08">
-            <p xml:space="preserve"><date when="1924-06-08">8/6</date> Pfingstsonntag. Schöner Frühsommertag.― Spazierg. <rs type="place" xml:id="pl_15411" ref="#place_3b0cf80ce6f7c6e0340cf31265c8f3f7">Sievring</rs> ― 
-Himmel ― <rs type="place" xml:id="pl_15412" ref="#place_b625a5db1a61b7d49ce6840eb1112f49">Hermannskogel</rs> ― Jägerwiese ― <rs type="place" xml:id="pl_15413" ref="#place_388686540f35afe7790d134863d92203">Kahlenberg</rs> ― <rs type="place" xml:id="pl_15414" ref="#place_431168489e6885d4e91ebc5edec7dfb4">Grinzing</rs>.</p>
+            <p xml:space="preserve"><date when="1924-06-08">8/6</date> Pfingstsonntag. Schöner Frühsommertag.― Spazierg. <rs type="place" xml:id="pl_15411" ref="#pmb64219">Sievring</rs> ― 
+Himmel ― <rs type="place" xml:id="pl_15412" ref="#pmb90863">Hermannskogel</rs> ― Jägerwiese ― <rs type="place" xml:id="pl_15413" ref="#pmb574">Kahlenberg</rs> ― <rs type="place" xml:id="pl_15414" ref="#pmb90771">Grinzing</rs>.</p>
             <p xml:space="preserve" rend="indent">Nm. Correcturen vom <rs type="work" subtype="self" xml:id="bibl_21100">Verf.</rs> (Druck); Striche.―</p>
             <p xml:space="preserve" rend="indent">N. d. N. mit <rs type="person" xml:id="pNt_72411" ref="#person_19822"><forename>Heini</forename></rs> <rs type="person" xml:id="pNt_72412" ref="#person_18282"><surname>Mozart</surname></rs> <rs type="work" xml:id="bibl_21101">I. Concert</rs> (Clavier).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

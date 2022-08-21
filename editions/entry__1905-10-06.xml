@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-10-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-10-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-10-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-10-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-10-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-10-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F7E4-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2132.tif"/>
@@ -181,12 +185,11 @@
       <body>
          <div type="diary-day" xml:id="entry__1905-10-06">
             <p xml:space="preserve"><date when="1905-10-06">6/10</date> Vm. <rs type="work" subtype="self" xml:id="bibl_15937">Probe</rs> Burg.― Mit <rs type="person" xml:id="pNt_23564" ref="#person_16646"><surname>Kainz</surname></rs> fort.― <rs type="person" xml:id="pNt_23565" ref="#person_16646"><surname>K.</surname></rs> („Mir ist, als wenn ich nicht 
-in <rs type="place" xml:id="pl_05329" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> sterben sollte …“) sehr gegen <rs type="person" xml:id="pNt_23566" ref="#person_19724"><surname>Schlenther</surname></rs>.―</p>
+in <rs type="place" xml:id="pl_05329" ref="#pmb50">Wien</rs> sterben sollte …“) sehr gegen <rs type="person" xml:id="pNt_23566" ref="#person_19724"><surname>Schlenther</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. Briefe etc.―</p>
             <p xml:space="preserve" rend="indent">Abd. bei <rs type="allusively" xml:id="rst_00610">Mama</rs> (ohne O.), Familie. <rs type="person" xml:id="pNt_23567" ref="#person_19986"><forename>Gustav</forename> <surname>Schwarzkopf</surname></rs> ―</p>
             <p xml:space="preserve" rend="indent">Herbst.― Wieder stärker unter schlechtem Hören und Sausen leidend.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

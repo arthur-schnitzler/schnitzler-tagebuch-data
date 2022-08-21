@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-07-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-07-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-07-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-07-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-07-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-07-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0A01-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4676.tif"/>
@@ -184,7 +188,7 @@
          <div type="diary-day" xml:id="entry__1918-07-26">
             <p xml:space="preserve"><date when="1918-07-26">26/7</date> Mit O. und <rs type="person" xml:id="pNt_53802" ref="#person_18881"><forename>Kolap</forename></rs> Hausvorräthe inspizirt u. dergl.―</p>
             <p xml:space="preserve" rend="indent">Nm. „<rs type="work" subtype="self" xml:id="bibl_5733">Nachklg.</rs>“.―</p>
-            <p xml:space="preserve" rend="indent">Spazierg. Begegne im <rs type="place" xml:id="pl_11133" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs> dem einäugigen Pianisten 
+            <p xml:space="preserve" rend="indent">Spazierg. Begegne im <rs type="place" xml:id="pl_11133" ref="#pmb113">Türkenschanzpark</rs> dem einäugigen Pianisten 
 <rs type="person" xml:id="pNt_53803" ref="#person_17259"><surname>Lamberg</surname></rs>; er klagt mir verzweifelt über sein Ohrenleiden (wie das 
 meine).― Ihm ist außerdem noch passirt, daß ein oberflächlicher 
 Augenarzt ihn durch 30 Jahre in der Angst erhielt, er werde auch das 
@@ -196,6 +200,5 @@ Zukunft. Revolution ― Pogrom ― Ruin ― angenehme Erwartungen. Man
 glaubts eben doch nicht.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

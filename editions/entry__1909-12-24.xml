@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-12-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-12-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-12-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-12-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-12-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-12-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FDC4-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2811.tif"/>
@@ -185,10 +189,10 @@
             <p xml:space="preserve"><date when="1909-12-24">24/12</date> Brief an <rs type="person" xml:id="pNt_31538" ref="#person_19154"><surname>Reinhardt</surname></rs>, Abrechnung, dictirt.</p>
             <p xml:space="preserve" rend="indent">― Dazwischen <rs type="person" xml:id="pNt_31539" ref="#person_20653"><forename>Carl</forename> <surname>Techet</surname></rs>; hatte mir vor 5 Jahren ein (Mscrpt.) 
 Märchenstück, vor 2 eine gedruckte Novelle, vor 6 Wochen ein 
-satirisches Skizzenbuch „<rs type="work" xml:id="bibl_13108">Fern von Europa</rs>“ (<rs type="place" xml:id="pl_06898" ref="#place_d3d8d213fb1fbd178f1c9c4aea35cbc6">Tirol</rs>!) gesandt: 
-Ist eben auf der Flucht aus <rs type="place" xml:id="pl_06899" ref="#place_7c7a6bca9c2979ea2bd6510f15ee2cc7">Kufstein</rs>, wo er Naturgeschichtsprofessor am 
+satirisches Skizzenbuch „<rs type="work" xml:id="bibl_13108">Fern von Europa</rs>“ (<rs type="place" xml:id="pl_06898" ref="#pmb423">Tirol</rs>!) gesandt: 
+Ist eben auf der Flucht aus <rs type="place" xml:id="pl_06899" ref="#pmb1012">Kufstein</rs>, wo er Naturgeschichtsprofessor am 
 Gymnasium; wegen des Buchs verfolgt. Erzählt mir über die Macht des 
-Clericalismus und die Verdummung und Bosheit in <rs type="place" xml:id="pl_06900" ref="#place_d3d8d213fb1fbd178f1c9c4aea35cbc6">Nordtirol</rs>.―</p>
+Clericalismus und die Verdummung und Bosheit in <rs type="place" xml:id="pl_06900" ref="#pmb423">Nordtirol</rs>.―</p>
             <p xml:space="preserve" rend="indent">― Er gefiel mir gut.―</p>
             <p xml:space="preserve" rend="indent">Nm. zur Bescherung <rs type="allusively" xml:id="rst_01074">Mama</rs>, <rs type="person" xml:id="pNt_31540" ref="#person_16770"><roleName>Dr.</roleName> <surname>Kaufmann</surname></rs> und <rs type="person" xml:id="pNt_31541" ref="#person_19986"><forename>Gustav</forename></rs> da.― Im 
 Anschluß an das <rs type="person" xml:id="pNt_31542" ref="#person_16228"><surname>Hirschfeld</surname></rs> Feuilleton Gespräch über die allgemein 
@@ -209,6 +213,5 @@ Esoi- und Abfallsjuden.―</p>
             <p xml:space="preserve" rend="indent">Im Auto (lebenserleichternd) nach Haus ― ―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

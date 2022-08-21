@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1925-05-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-05-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-05-31.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1925-05-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-05-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-05-31.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-13C3-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6496.tif"/>
@@ -182,13 +186,12 @@
       <body>
          <div type="diary-day" xml:id="entry__1925-05-30">
             <p xml:space="preserve"><date when="1925-05-30">30/5</date> Früh <rs type="person" xml:id="pNt_75226" ref="#person_14118"><roleName>Hr.</roleName> <surname>Callimachi</surname></rs> mit Frau <rs type="person" xml:id="pNt_75227" ref="#person_20190"><forename>Dida</forename> <surname>C.-Solomon</surname></rs>, Schauspielerin bei mir, 
-wegen Aufführungen in <rs type="place" xml:id="pl_16071" ref="#place_a7d5bd23ed772c7010f2f81527d0aad5">Bukarest</rs>; es stellt sich heraus, dass sie nichts von 
+wegen Aufführungen in <rs type="place" xml:id="pl_16071" ref="#pmb90411">Bukarest</rs>; es stellt sich heraus, dass sie nichts von 
 mir kennen (außer die gestern gesehene <rs type="work" subtype="self" xml:id="bibl_16485">Beatrice</rs>).</p>
             <p xml:space="preserve" rend="indent">Dictirt „<rs type="work" subtype="self" xml:id="bibl_16486">Therese</rs>“;― Briefe.―</p>
-            <p xml:space="preserve" rend="indent">Abds. mit <rs type="person" xml:id="pNt_75228" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> zur Reichsbrücke, dann <rs type="place" xml:id="pl_16072" ref="#place_86a694cf5ce5552ca627cb96b607eccd">Prater</rs> gefahren;― Wurstlprater;― 
+            <p xml:space="preserve" rend="indent">Abds. mit <rs type="person" xml:id="pNt_75228" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> zur Reichsbrücke, dann <rs type="place" xml:id="pl_16072" ref="#pmb91530">Prater</rs> gefahren;― Wurstlprater;― 
 Schweizerhaus genachtm.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

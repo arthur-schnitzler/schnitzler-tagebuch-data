@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-10-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-10-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-10-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-10-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-10-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-10-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F688-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,19 +176,21 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1983.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1904-10-22">
             <p xml:space="preserve"><date when="1904-10-22">22/10</date> Vm. dictirt <rs type="work" subtype="self" xml:id="bibl_17370">Volkssängerin</rs>, <rs type="work" subtype="self" xml:id="bibl_17371">Wiener Einakter</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="work" subtype="self" xml:id="bibl_17372">N. E.</rs> weiter.―</p>
-            <p xml:space="preserve" rend="indent">Mit O. <rs type="place" xml:id="pl_04949" ref="#place_a9a988302086229505c21f885134919d">Josefstadt</rs> (<rs type="work" xml:id="bibl_17373">Angele</rs>, <rs type="work" xml:id="bibl_17374">Karrnerleut’</rs>, <rs type="work" xml:id="bibl_17375">Dieb</rs>). Mit <rs type="person" xml:id="pNt_21748" ref="#person_19986"><forename>Gustav</forename></rs> 
+            <p xml:space="preserve" rend="indent">Mit O. <rs type="place" xml:id="pl_04949" ref="#pmb58">Josefstadt</rs> (<rs type="work" xml:id="bibl_17373">Angele</rs>, <rs type="work" xml:id="bibl_17374">Karrnerleut’</rs>, <rs type="work" xml:id="bibl_17375">Dieb</rs>). Mit <rs type="person" xml:id="pNt_21748" ref="#person_19986"><forename>Gustav</forename></rs> 
 <rs type="person" xml:id="pNt_21749" ref="#person_19986"><forename>Schw.</forename></rs> ― <rs type="person" xml:id="pNt_21750" ref="#person_14065"><surname>Burckhard</surname></rs>, ergreifend, gealtert, <rs type="place" xml:id="pl_04950" ref="#place_63c2242ffd94b2a17189d85f1740ccd5" ana="#exclude">altwienerisch</rs>, besuchte 
 uns in der Loge. <rs type="person" xml:id="pNt_21751" ref="#person_15941"><forename>Otto E.</forename> <surname>Hartleben</surname></rs> flüchtig gesprochen.―</p>
             <p xml:space="preserve" rend="indent">Riedhof mit O. und <rs type="person" xml:id="pNt_21752" ref="#person_19986"><forename>Gust.</forename> <surname>Schw.</surname></rs>―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

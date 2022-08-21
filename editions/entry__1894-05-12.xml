@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1894-05-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-05-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-05-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1894-05-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-05-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-05-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E82A-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,17 +177,19 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0836.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1894-05-12">
             <p xml:space="preserve"><date when="1894-05-12">12/5</date> <rs type="person" xml:id="pNt_08749" ref="#person_19564"><forename>Dilly</forename></rs> läßt nichts von sich hören.― Ich fuhr Bic. 
-<rs type="place" xml:id="pl_01689" ref="#place_a3c879a4f19e7987aa5aa1f1b929b0da">Klosterneuburg</rs>.―</p>
+<rs type="place" xml:id="pl_01689" ref="#pmb865">Klosterneuburg</rs>.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_08750" ref="#person_15485"><forename>Mz.</forename></rs> Gedenken.― An ferne Abende, Orte, wo wir einmal waren ― z. B. 
-das kleine Stationshaus von <rs type="place" xml:id="pl_01690" ref="#place_b6967657419796470f5d5a74db894161">Kottingbrunn</rs>.</p>
+das kleine Stationshaus von <rs type="place" xml:id="pl_01690" ref="#pmb91061">Kottingbrunn</rs>.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

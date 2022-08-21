@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-04-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-04-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-04-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-04-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-04-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-04-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F735-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2067.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1905-04-14">
-            <p xml:space="preserve"><date when="1905-04-14">14/4</date> Vm. spazieren <rs type="place" xml:id="pl_05147" ref="#place_d8e4af920d6804a648e0b854af15df65">Gersthof</rs> <rs type="place" xml:id="pl_05148" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs>;― Zeitungen über <rs type="work" xml:id="bibl_15642">Schrimpf</rs>.―</p>
+            <p xml:space="preserve"><date when="1905-04-14">14/4</date> Vm. spazieren <rs type="place" xml:id="pl_05147" ref="#pmb90705">Gersthof</rs> <rs type="place" xml:id="pl_05148" ref="#pmb169">Pötzleinsdorf</rs>;― Zeitungen über <rs type="work" xml:id="bibl_15642">Schrimpf</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. mit <rs type="allusively" xml:id="rst_00555">Mama</rs> <rs type="person" xml:id="pNt_22755" ref="#person_13344"><surname>Bach</surname></rs> (<rs type="work" xml:id="bibl_15643">Brandenburg Nr. 5</rs>), <rs type="person" xml:id="pNt_22756" ref="#person_13555"><surname>Beethoven</surname></rs> <rs type="work" xml:id="bibl_15644">Weihe</rs> ―</p>
             <p xml:space="preserve" rend="indent">― An der <rs type="work" subtype="self" xml:id="bibl_15645">Vatermörderin</rs>.―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="allusively" xml:id="rst_00556">Mama</rs>, Familie.― Neuerliche laryng. Untersuchung O.s (die auch ich oft 
@@ -189,6 +193,5 @@ mache).― Da ein minimales Knötchen constatirt wird, Depression O.s.―</p>
             <p xml:space="preserve" rend="indent">Zu Hause noch an der <rs type="work" subtype="self" xml:id="bibl_15646">Vatermörderin</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

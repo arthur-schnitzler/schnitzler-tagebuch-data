@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1896-06-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-06-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-06-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1896-06-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-06-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-06-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EB22-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,25 +177,27 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1179.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1180.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1896-06-14">
-            <p xml:space="preserve"><date when="1896-06-14">14/6</date> Nach <rs type="place" xml:id="pl_02285" ref="#place_d1bbe5c82af588aa9fd6e5f65d6acab3">Reichenau</rs> Nachm. <rs type="person" xml:id="pNt_12317" ref="#person_21047"><forename>Olga</forename></rs> lag vor ihrem Haus, Chaise longue; 
+            <p xml:space="preserve"><date when="1896-06-14">14/6</date> Nach <rs type="place" xml:id="pl_02285" ref="#pmb91574">Reichenau</rs> Nachm. <rs type="person" xml:id="pNt_12317" ref="#person_21047"><forename>Olga</forename></rs> lag vor ihrem Haus, Chaise longue; 
 plaudern, redete viele gescheidte Sachen, wie nie mit andern; oder 
 lieber: in lebendiger Form.― Von Leidenschaften, die ins typische 
 hineinreißen, daher die Liebe verdummt; von den Sünden, von den 
 Sünden der Zellen. (Krankheiten entstehen dadurch.) ― Ein junges 
-Mädchen das nach 1täg. Krankheit in <rs type="place" xml:id="pl_02286" ref="#place_ca7668a05b2a3dbf29ca3d768c0febe8">Graz</rs> starb, die Tochter des 
+Mädchen das nach 1täg. Krankheit in <rs type="place" xml:id="pl_02286" ref="#pmb90759">Graz</rs> starb, die Tochter des 
 Abgeordneten <rs type="person" xml:id="pNt_12318"><surname>Neuwirth</surname></rs>, war eben vor Tagen noch bei ihr gewesen; 
 sie zeigt mir einen Brief von ihr, paar Tage vorm Tod geschrieben; soll 
 an meinen Sachen viel Gefallen gefunden haben ― wir zwei, behauptet 
 <rs type="person" xml:id="pNt_12319" ref="#person_21047"><forename>Olga</forename></rs> hätten zueinander gepasst.― Schrieb in meinem Zimmer an 
 <rs type="work" subtype="self" xml:id="bibl_21885">Frwld.</rs>― Nachtmahl, Leute; <rs type="person" xml:id="pNt_12320" ref="#person_17629"><surname>Löti</surname></rs>, <rs type="person" xml:id="pNt_12321"><forename>Lili</forename> <surname>Sonnenthal</surname></rs>, <rs type="person" xml:id="pNt_12322" ref="#person_20205"><forename>Felix’</forename></rs> Frau.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

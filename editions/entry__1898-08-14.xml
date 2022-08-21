@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1898-08-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-08-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-08-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1898-08-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-08-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-08-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EE2D-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1449.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1898-08-14">
-            <p xml:space="preserve"><date when="1898-08-14">14/8</date> <rs type="place" xml:id="pl_02972" ref="#place_9d1a0b4eef61178e4c6e9fd16fda3a02">Neuchâtel</rs> ― <rs type="place" xml:id="pl_02973" ref="#place_97eaa7e3532158d26a686a583dc946f5">Yverdon</rs> (Rad) ― <rs type="place" xml:id="pl_02974" ref="#place_2f4d156f29b46c9add9d9337453822fc">Lausanne</rs> (Bahn). <rs type="place" xml:id="pl_02975" ref="#place_cc610f9eb29c95079ad238a42870cf2e">Genfer See</rs> 
+            <p xml:space="preserve"><date when="1898-08-14">14/8</date> <rs type="place" xml:id="pl_02972" ref="#pmb91336">Neuchâtel</rs> ― <rs type="place" xml:id="pl_02973" ref="#pmb92117">Yverdon</rs> (Rad) ― <rs type="place" xml:id="pl_02974" ref="#pmb50004">Lausanne</rs> (Bahn). <rs type="place" xml:id="pl_02975" ref="#pmb512">Genfer See</rs> 
 <pb n="291"/>
 <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header"><fw place="top_center"><date type="range">1898: VIII 14 - VIII 28</date></fw> <fw place="top_right" type="pn">291</fw></tei:fw>
-Schiff <rs type="place" xml:id="pl_02976" ref="#place_a692e1c9e9503d87b0131ec87e3283d7">Villeneuve</rs>; Rad nach <rs type="place" xml:id="pl_02977" ref="#place_399116a8917dd71d678d79151b93bbed">Chillon</rs>, <rs type="place" xml:id="pl_02978" ref="#place_f197524aef7e6b2ee8b3196b6ca91c61">Territet</rs>.― Bahn <rs type="place" xml:id="pl_02979" ref="#place_fe7ccfdd8211330c270a9b438c16bacd">Glion</rs>.</p>
+Schiff <rs type="place" xml:id="pl_02976" ref="#pmb92015">Villeneuve</rs>; Rad nach <rs type="place" xml:id="pl_02977" ref="#pmb90472">Chillon</rs>, <rs type="place" xml:id="pl_02978" ref="#pmb52051">Territet</rs>.― Bahn <rs type="place" xml:id="pl_02979" ref="#pmb40483">Glion</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

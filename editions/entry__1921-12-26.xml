@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1921-12-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-12-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-12-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1921-12-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-12-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-12-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0EE1-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5605.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1921-12-26">
-            <p xml:space="preserve"><date when="1921-12-26">26/12</date> Spaziergang <rs type="place" xml:id="pl_13581" ref="#place_388686540f35afe7790d134863d92203">Kahlenberg</rs>; in leidlicher Stimmung.―</p>
+            <p xml:space="preserve"><date when="1921-12-26">26/12</date> Spaziergang <rs type="place" xml:id="pl_13581" ref="#pmb574">Kahlenberg</rs>; in leidlicher Stimmung.―</p>
             <p xml:space="preserve" rend="indent">Nm. am „<rs type="work" subtype="self" xml:id="bibl_3788">Verführer</rs>“.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_64706" ref="#person_17784"><forename>Alma</forename> <surname>Mahler</surname></rs>;― sie zeigte mir zwei Briefe von <rs type="person" xml:id="pNt_64707" ref="#person_19832"><forename>Olga</forename></rs>, der letzte vor 2 Tagen 
 geschrieben;― darin wieder ein wahres Zerrbild von mir entworfen ist;― und 
@@ -190,7 +194,7 @@ kaum eine Ahnung der eignen Verantwortung und Schuld. Die Briefe dabei auf
 ziemlich hohem Niveau. Ich trug <rs type="person" xml:id="pNt_64708" ref="#person_17784"><forename>Alma</forename></rs> die ganze Geschichte vor ― solang sie 
 mich hört, ist sie ja ganz gewiß durchaus bei mir. U. a. fabelt <rs type="person" xml:id="pNt_64709" ref="#person_19832"><forename>Olga</forename></rs> auch 
 von einer Frau, die mich offenbar hetzt ― und, da ich Vortragsreisen vorhabe, 
-sei es eine Fremde ― (die wahrscheinlich zugleich in <rs type="place" xml:id="pl_13582" ref="#place_c12b8d9779a8ad2b240a57b31c979290">Prag</rs> und in <rs type="place" xml:id="pl_13583" ref="#place_3eb8670d999ac077dd0e2c345cb7c905">Amsterdam</rs> 
+sei es eine Fremde ― (die wahrscheinlich zugleich in <rs type="place" xml:id="pl_13582" ref="#pmb91524">Prag</rs> und in <rs type="place" xml:id="pl_13583" ref="#pmb40709">Amsterdam</rs> 
 zu Hause ist).― Zugleich kommen fast täglich Briefe von ihr an mich; sie 
 ist glücklich mit <rs type="person" xml:id="pNt_64710" ref="#person_14130"><forename>Lili</forename></rs>,― freut sich auf <rs type="person" xml:id="pNt_64711" ref="#person_14130"><forename>Lili</forename></rs>; Gesellschaft etc… <rs type="person" xml:id="pNt_64712"><surname>G.</surname></rs> jedoch 
 war vor Weihnachten dort; die Briefe an <rs type="person" xml:id="pNt_64713" ref="#person_17784"><forename>Alma</forename></rs> sprechen mit ermattender 
@@ -200,6 +204,5 @@ Zärtlichkeit von ihm.―</p>
 bittre Monologe.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

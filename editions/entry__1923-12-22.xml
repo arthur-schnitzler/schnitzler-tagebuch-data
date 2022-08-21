@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-12-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-12-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-12-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-12-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-12-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-12-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-11B6-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,18 +177,19 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6165.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1923-12-22">
             <p xml:space="preserve"><date when="1923-12-22">22/12</date> Vm. dictirt, soweit ich nicht durch telephoniren über die <rs type="work" subtype="self" xml:id="bibl_2217">Eins. Weg</rs> 
 Affaire in Anspruch genommen war (mit <rs type="person" xml:id="pNt_70994" ref="#person_16125"><surname>Herterich</surname></rs> <rs type="person" xml:id="pNt_70995" ref="#person_15368"><surname>Geiringer</surname></rs>, <rs type="person" xml:id="pNt_70996" ref="#person_13664"><surname>Bernauer</surname></rs>).―</p>
-            <p xml:space="preserve" rend="indent">Abends im <rs type="place" ref="#place_volkstheater">Volksth.</rs>;― mit <rs type="person" xml:id="pNt_70997" ref="#person_13664"><surname>Bernauer</surname></rs>, <rs type="person" xml:id="pNt_70998" ref="#person_19392"><surname>Rosenthal</surname></rs>, <rs type="person" xml:id="pNt_70999" ref="#person_18209"><surname>Moissi</surname></rs> über die 
+            <p xml:space="preserve" rend="indent">Abends im <rs type="place" ref="#pmb92202">Volksth.</rs>;― mit <rs type="person" xml:id="pNt_70997" ref="#person_13664"><surname>Bernauer</surname></rs>, <rs type="person" xml:id="pNt_70998" ref="#person_19392"><surname>Rosenthal</surname></rs>, <rs type="person" xml:id="pNt_70999" ref="#person_18209"><surname>Moissi</surname></rs> über die 
 ev. Aufführung <rs type="work" subtype="self" xml:id="bibl_2218">Eins. Weg</rs>. Ich mache es abhängig davon, daß <rs type="person" xml:id="pNt_71000" ref="#person_18209"><surname>Moissi</surname></rs> 
-seine <rs type="place" xml:id="pl_15208" ref="#place_6a04ba950c68304cb108b9ddb2dc5727">Moskauer</rs> Gastspielreise verschiebt. Über Besetzung einigen wir 
+seine <rs type="place" xml:id="pl_15208" ref="#pmb91304">Moskauer</rs> Gastspielreise verschiebt. Über Besetzung einigen wir 
 uns nothdürftig.―</p>
             <p xml:space="preserve" rend="indent">Sah mir dann den „<rs type="work" xml:id="bibl_2219">weißen Heiland</rs>“ an (saß mit <rs type="person" xml:id="pNt_71001" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> in der 
 frühern Kaiserloge);― viel schönes. All seine „Menschenliebe“ 
@@ -193,5 +198,6 @@ zu werden. Man spürt im <rs type="work" xml:id="bibl_2220">Heiland</rs> irgendw
 oft das Genie. <rs type="person" xml:id="pNt_71003" ref="#person_18209"><surname>Moissi</surname></rs> war außerordentlich.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_71004" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> im weißen Hahn genachtm.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

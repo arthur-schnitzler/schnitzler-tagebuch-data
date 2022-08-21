@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1899-07-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-07-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-07-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1899-07-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-07-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-07-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EF5F-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1503.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1899-07-12">
-            <p xml:space="preserve"><date when="1899-07-12">12/7</date> Vorm. nach <rs type="place" xml:id="pl_03155" ref="#place_7140b1dc7868cdd3d911da75b9a84e45">Würnitz</rs>. Rad, <rs type="person" xml:id="pNt_16437" ref="#person_15485"><surname>Gl.</surname></rs> in <rs type="place" xml:id="pl_03156" ref="#place_5bff1ea62200096c98ef7aea1189e710">Wolkersdorf</rs> eingestiegen. 
+            <p xml:space="preserve"><date when="1899-07-12">12/7</date> Vorm. nach <rs type="place" xml:id="pl_03155" ref="#pmb92111">Würnitz</rs>. Rad, <rs type="person" xml:id="pNt_16437" ref="#person_15485"><surname>Gl.</surname></rs> in <rs type="place" xml:id="pl_03156" ref="#pmb92103">Wolkersdorf</rs> eingestiegen. 
 Wieder mit ihr, sie besessen ―</p>
-            <p xml:space="preserve" rend="indent">Ausflug Rad mit <rs type="person" xml:id="pNt_16438" ref="#person_14283"><surname>Coschell</surname></rs> und <rs type="person" xml:id="pNt_16439" ref="#person_15485"><surname>Gl.</surname></rs> <rs type="place" xml:id="pl_03157" ref="#place_4eda91fb2f9faeb6f532ed5da88d1eb0">Karnabrunn</rs> ― Kirche ― 
+            <p xml:space="preserve" rend="indent">Ausflug Rad mit <rs type="person" xml:id="pNt_16438" ref="#person_14283"><surname>Coschell</surname></rs> und <rs type="person" xml:id="pNt_16439" ref="#person_15485"><surname>Gl.</surname></rs> <rs type="place" xml:id="pl_03157" ref="#pmb91007">Karnabrunn</rs> ― Kirche ― 
 Landschaftsbilder ― Dammühle.― <rs type="person" xml:id="pNt_16440" ref="#person_14199"><forename>Gusti</forename></rs>.― Rückweg Feld; traurig, 
 Nervosität; auch durch Comfortmangel gesteigert.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

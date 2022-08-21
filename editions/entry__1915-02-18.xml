@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-02-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-19.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1915-02-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-17.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-051C-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3989.tif"/>
@@ -183,11 +187,10 @@
          <div type="diary-day" xml:id="entry__1915-02-18">
             <p xml:space="preserve"><date when="1915-02-18">18/2</date> Vm. bei <rs type="person" xml:id="pNt_44976" ref="#person_19986"><forename>Gustav</forename></rs>; dann zu <rs type="person" xml:id="pNt_44977" ref="#person_13305"><surname>Auernheimer</surname></rs>, dem ich zum Tod seines 
 Vaters condoliren wollte; nur <rs type="person" xml:id="pNt_44978" ref="#person_13304"><forename>Irene</forename></rs> zu Haus, mit der ich dann in einem 
-noch nicht fertigen Haus <rs type="place" xml:id="pl_09224" ref="#place_aefd706df20bf4aaf15e7f0b647de172">Arenbergpark</rs> eine Wohnung ansah.</p>
+noch nicht fertigen Haus <rs type="place" xml:id="pl_09224" ref="#pmb92149">Arenbergpark</rs> eine Wohnung ansah.</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_7928">Fliederbusch</rs>.―</p>
             <p xml:space="preserve" rend="indent">Mit O. (da Concert Tonkünstler abgesagt war) Burg-Kino.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

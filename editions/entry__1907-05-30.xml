@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1907-05-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-05-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-05-31.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1907-05-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-05-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-05-31.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FA3D-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2386.tif"/>
@@ -181,18 +185,17 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1907-05-30">
-            <p xml:space="preserve"><date when="1907-05-30">30/5</date> Frohnleichnam. Nach <rs type="place" xml:id="pl_05983" ref="#place_0e891dbd1b1814a0cddd64e270c6ffac">Vöslau</rs> früh. Erinnerungen an die Kindheit. 
+            <p xml:space="preserve"><date when="1907-05-30">30/5</date> Frohnleichnam. Nach <rs type="place" xml:id="pl_05983" ref="#pmb992">Vöslau</rs> früh. Erinnerungen an die Kindheit. 
 <rs type="person" xml:id="pNt_26985" ref="#person_16490"><surname>Jaegermayervilla</surname></rs>, wo ich 73 gewohnt hab, <rs ref="#person_17826" type="person" xml:id="pNt_26986"><surname>Mandl</surname></rs>-(früher <rs type="person" xml:id="pNt_26986b" ref="#person_19022"><surname>Rademacher</surname></rs>-)Villa.― 
 Die Bank, wo mich <rs type="person" xml:id="pNt_26987" ref="#person_17825"><forename>Louis</forename> <surname>M.</surname></rs> „eingeweiht“.― Waldruhe, wo einst die Arena 
 stand und ich als Kind <rs type="person" xml:id="pNt_26988" ref="#person_20297"><roleName>Herrn</roleName> <surname>Sprinz</surname></rs> und <rs type="person" xml:id="pNt_26989" ref="#person_20688"><roleName>Frl.</roleName> <surname>Thaller</surname></rs> von der Probe kommen 
 sah und hörte, wie sie sich „Du“ sagten. (Erster Eindruck von „hinter 
 den Coulissen“.) ― Straßen.― Spaziergang Waldandacht, Jaegerhaus, 
-Helenenthal <rs type="place" xml:id="pl_05984" ref="#place_9a43e84f6e1d406076f2372205804f6d">Baden</rs>.―</p>
+Helenenthal <rs type="place" xml:id="pl_05984" ref="#pmb662">Baden</rs>.―</p>
             <p xml:space="preserve" rend="indent">Am <rs type="work" subtype="self" xml:id="bibl_14295">Roman</rs>.</p>
-            <p xml:space="preserve" rend="indent">Tennis mit O. und <rs type="person" xml:id="pNt_26990" ref="#person_16292"><forename>Gerty</forename></rs> (aus <rs type="place" xml:id="pl_05985" ref="#place_6cc6cfe893d0065a8007acc6e4074a69">Rodaun</rs>). <rs type="person" xml:id="pNt_26991" ref="#person_16293"><forename>Hugo</forename></rs> mit Vater in <rs type="place" xml:id="pl_05986" ref="#place_389962c9dec540ab28d04517e82c3996">Italien</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Tennis mit O. und <rs type="person" xml:id="pNt_26990" ref="#person_16292"><forename>Gerty</forename></rs> (aus <rs type="place" xml:id="pl_05985" ref="#pmb173">Rodaun</rs>). <rs type="person" xml:id="pNt_26991" ref="#person_16293"><forename>Hugo</forename></rs> mit Vater in <rs type="place" xml:id="pl_05986" ref="#pmb40306">Italien</rs>.―</p>
             <p xml:space="preserve" rend="indent">Berückend schöner Sommertag.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

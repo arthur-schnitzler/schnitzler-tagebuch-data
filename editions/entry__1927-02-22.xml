@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-02-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-02-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-02-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-02-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-02-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-02-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-163B-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6812.tif"/>
@@ -186,7 +190,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1927-02-22">
-            <p xml:space="preserve"><date when="1927-02-22">22/2</date> Träume. <rs type="place" ref="#place_burgtheater">Burgtheater</rs>, sitzend an eine Coulisse gelehnt nah an einander 
+            <p xml:space="preserve"><date when="1927-02-22">22/2</date> Träume. <rs type="place" ref="#pmb14">Burgtheater</rs>, sitzend an eine Coulisse gelehnt nah an einander 
 ich und <rs type="person" xml:id="pNt_79828" ref="#person_18008"><roleName>Frau</roleName> <surname>Mayen</surname></rs>, wie ich allmälig erkenne; Wangen zärtlich aneinander. 
 Sie: Haben Sie gar keine Angst vor mir. (Das bezieht sich zugleich auf 
 ihren Schnupfen und darauf, dass sie die Frau von <rs type="person" xml:id="pNt_79829" ref="#person_20892"><surname>U.</surname></rs> der mir mein 
@@ -199,7 +203,7 @@ sei durch die Kirche am Ende abgeschlossen. Ich glaub es nicht recht;―
 doch es stimmt ― die Gasse ist blockirt; immerhin geh ich in die Kirche 
 (von rückwärts), irgendwelche Büroräume, ein Diener oder Sakristan, 
 dann in die dämmerige vage Kirche, und durchs Thor vorn heraus, auf eine 
-Stiege, die in den Park führt, etwa <rs type="place" xml:id="pl_17130" ref="#place_971d9360a377fa82fd2640a5119b1112">Schönbrunn</rs>. Auf der Stiege, von 
+Stiege, die in den Park führt, etwa <rs type="place" xml:id="pl_17130" ref="#pmb92518">Schönbrunn</rs>. Auf der Stiege, von 
 Kindern umgeben, ein mir Unbekannter, etwa Wächter, oder [Detektiv], 
 Vollbart, <rs type="place" xml:id="pl_17131" ref="#place_2b17585367854070784fe5d35b60e527" ana="#exclude">altitalienisch</rs>, schwarzer Mantel?, höflich-hinterhältig,  will 
 mich quasi nicht fortlassen ― vielleicht ― halb scherzend ― habe ich 
@@ -265,6 +269,5 @@ probirte den Hörapparat <rs type="person" xml:id="pNt_79851" ref="#person_17611
 Heiterkeit und Güte bewahrt).―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

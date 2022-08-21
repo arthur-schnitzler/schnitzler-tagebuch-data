@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-03-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-03-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-03-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-03-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-03-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-03-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0985-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4610.tif"/>
@@ -181,8 +185,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1918-03-24">
-            <p xml:space="preserve"><date when="1918-03-24">24/3</date> S. Spazierg. <rs type="place" xml:id="pl_10908" ref="#place_3b0cf80ce6f7c6e0340cf31265c8f3f7">Sievring</rs> ― Jaegerwiese ― <rs type="place" xml:id="pl_10909" ref="#place_b625a5db1a61b7d49ce6840eb1112f49">Hermannskogel</rs> ― Rohrerwiese 
-― Dreimarkstein ― <rs type="place" xml:id="pl_10910" ref="#place_a513bae177c89d12226f343ac5ff1ee3">Salmannsdorf</rs>.― In unproductiv-zerstreut-ärgerlicher 
+            <p xml:space="preserve"><date when="1918-03-24">24/3</date> S. Spazierg. <rs type="place" xml:id="pl_10908" ref="#pmb64219">Sievring</rs> ― Jaegerwiese ― <rs type="place" xml:id="pl_10909" ref="#pmb90863">Hermannskogel</rs> ― Rohrerwiese 
+― Dreimarkstein ― <rs type="place" xml:id="pl_10910" ref="#pmb91641">Salmannsdorf</rs>.― In unproductiv-zerstreut-ärgerlicher 
 Stimmung, durch die Papierangelegenheit praeoccupirt, die mir (<rs type="person" xml:id="pNt_52802" ref="#person_15009"><surname>Fischers</surname></rs> 
 Verhalten) irgendwie die Beziehungen <rs ref="#person_15765" type="person" xml:id="pNt_52803"><surname>F.s</surname></rs> zu mir, seines Verlags, zu den 
 <rs type="place" xml:id="pl_10911" ref="#place_a6a47ecc54bd266bbd1d1bd38ee569cd" ana="#exclude">deutschoesterr.</rs> Dichtern zu krönen scheint.―</p>
@@ -201,6 +205,5 @@ Puppentheater beschäftigt. <rs type="person" xml:id="pNt_52816" ref="#person_19
 macht mir eine Beleuchtungprobe vor.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

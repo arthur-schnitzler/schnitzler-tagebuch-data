@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-05-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-05-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-05-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1906-05-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-05-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-05-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F8BD-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2224.tif"/>
@@ -180,11 +184,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1906-05-11">
-            <p xml:space="preserve"><date when="1906-05-11">11/5</date> <rs type="place" xml:id="pl_05544" ref="#place_b333d193dca0791c0cf701b0749dc4ce">Hbr.</rs> Vm. Spazierg. (Meiereiwiese etc.)</p>
+            <p xml:space="preserve"><date when="1906-05-11">11/5</date> <rs type="place" xml:id="pl_05544" ref="#pmb75">Hbr.</rs> Vm. Spazierg. (Meiereiwiese etc.)</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="work" subtype="self" xml:id="bibl_14980">Roman</rs>. <rs type="person" xml:id="pNt_24912" ref="#person_16293"><forename>Hugo</forename></rs> und <rs type="person" xml:id="pNt_24913" ref="#person_16292"><forename>Gerty</forename></rs> kamen.</p>
             <p xml:space="preserve" rend="indent">Tennis mit O. und <rs type="person" xml:id="pNt_24914" ref="#person_16293"><forename>Hugo</forename></rs>. Ich schlug <rs type="person" xml:id="pNt_24915" ref="#person_16293"><forename>Hugo</forename></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

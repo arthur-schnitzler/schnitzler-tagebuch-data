@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1907-07-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-07-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-07-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1907-07-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-07-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-07-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FA5F-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2399.tif"/>
@@ -180,10 +184,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1907-07-03">
-            <p xml:space="preserve"><date when="1907-07-03">3/7</date> <rs type="place" xml:id="pl_06024" ref="#place_37c1019d59a18e340ff8820b88b3d6e7">Spittal</rs> ― <rs type="place" xml:id="pl_06025" ref="#place_cbab2f43ba4787c07872dde454a4c7e1">Seeboden</rs> (<rs type="institution" xml:id="pNt_27176"><surname>Brugger</surname></rs>) ― <rs type="place" xml:id="pl_06026" ref="#place_a34f3edea7fc20cc4881bf4f5a7ac8ac">Millstatt</rs> (Villa Kreuz, die biedere 
-<rs type="place" xml:id="pl_06027" ref="#place_edac654eb566b08e82ecb18ac7d653cb" ana="#exclude">Grazerin</rs>, <rs type="person" xml:id="pNt_27177" ref="#person_19262"><surname>Riehl</surname></rs> als Miether) Lindenhof ― ― <rs type="place" xml:id="pl_06028" ref="#place_37c1019d59a18e340ff8820b88b3d6e7">Spittal</rs> ― <rs type="place" xml:id="pl_06029" ref="#place_2781d78cf5bdbb757c7c275e91694387">Innichen</rs>.―</p>
+            <p xml:space="preserve"><date when="1907-07-03">3/7</date> <rs type="place" xml:id="pl_06024" ref="#pmb41052">Spittal</rs> ― <rs type="place" xml:id="pl_06025" ref="#pmb91717">Seeboden</rs> (<rs type="institution" xml:id="pNt_27176"><surname>Brugger</surname></rs>) ― <rs type="place" xml:id="pl_06026" ref="#pmb41069">Millstatt</rs> (Villa Kreuz, die biedere 
+<rs type="place" xml:id="pl_06027" ref="#place_edac654eb566b08e82ecb18ac7d653cb" ana="#exclude">Grazerin</rs>, <rs type="person" xml:id="pNt_27177" ref="#person_19262"><surname>Riehl</surname></rs> als Miether) Lindenhof ― ― <rs type="place" xml:id="pl_06028" ref="#pmb41052">Spittal</rs> ― <rs type="place" xml:id="pl_06029" ref="#pmb90929">Innichen</rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

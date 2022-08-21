@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1917-01-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-01-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-01-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1917-01-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-01-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-01-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-07D4-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,12 +177,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4390.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1917-01-14">
             <p xml:space="preserve"><date when="1917-01-14">14/1</date> S.― Zu <rs type="person" xml:id="pNt_49657" ref="#person_13551"><forename>Richard</forename></rs>, wohin <rs type="person" xml:id="pNt_49658" ref="#person_16770"><forename>Arthur</forename> <surname>Kfm.</surname></rs> Über <rs type="person" xml:id="pNt_49659" ref="#person_14047"><surname>Büchner</surname></rs>, <rs type="person" xml:id="pNt_49660" ref="#person_16900"><surname>Kleist</surname></rs>, <rs type="person" xml:id="pNt_49661" ref="#person_16794"><surname>Keller</surname></rs>. 
 Über „zu gute“ Dichtungen (anläßlich des <rs type="work" xml:id="bibl_6146">Kohlhaas</rs>) die athemlos 
@@ -194,5 +199,6 @@ entwicklungsgeschichtliches, philosophisches.</p>
             <p xml:space="preserve" rend="indent">Zum Nachtm. <rs type="person" xml:id="pNt_49664" ref="#person_21602"><forename>Vicki</forename></rs> und <rs type="person" xml:id="pNt_49665" ref="#person_16852"><forename>Hansi</forename></rs>. Mit ihm <rs type="person" xml:id="pNt_49666" ref="#person_18066"><surname>Mendelssohn</surname></rs> 
 <rs type="work" xml:id="bibl_6151">Sommernachtstraumouverture</rs> und Ouv. <rs type="work" xml:id="bibl_6152">Leonore III.</rs>― Poker.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

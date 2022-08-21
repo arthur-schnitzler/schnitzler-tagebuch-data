@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-07-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-07-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-07-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-07-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-07-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-07-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0A04-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4679.tif"/>
@@ -182,12 +186,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1918-07-29">
-            <p xml:space="preserve"><date when="1918-07-29">29/7</date> Mit O. zur Bahn. Sie fuhr nach <rs type="place" xml:id="pl_11139" ref="#place_d0a6343a081a7335baa965ce4fd0845c">München</rs> ― <rs type="place" xml:id="pl_11140" ref="#place_5cea8f71bfa6f42547adaf63d65eb3ed">Partenkirchen</rs> zu <rs type="person" xml:id="pNt_53836" ref="#person_20386"><forename>Liesl</forename></rs>. 
+            <p xml:space="preserve"><date when="1918-07-29">29/7</date> Mit O. zur Bahn. Sie fuhr nach <rs type="place" xml:id="pl_11139" ref="#pmb45258">München</rs> ― <rs type="place" xml:id="pl_11140" ref="#pmb667">Partenkirchen</rs> zu <rs type="person" xml:id="pNt_53836" ref="#person_20386"><forename>Liesl</forename></rs>. 
 Wir schieden leidlich, mit einem Kuß und guten Wünschen. Mein 
 innerstes Gefühl war nicht ganz rein;― mir war etwas oed im Herzen.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_53837" ref="#person_18881"><forename>Kolap</forename></rs> über die <rs type="work" subtype="self" xml:id="bibl_5734">autobiogr. Arbeiten</rs>. Viel über O.</p>
             <p xml:space="preserve" rend="indent">Von gestern nachzutragen: Vm. war <rs type="person" xml:id="pNt_53838" ref="#person_19999"><forename>Rosa</forename> <surname>G.</surname></rs>, O.s Cousine da; ihr 
-Verlobter ist an der <rs type="place" xml:id="pl_11141" ref="#place_506f6d1356a8f25f440f8364875c4f00">Piave</rs> gefallen;― Nm. kam <rs type="person" xml:id="pNt_53839" ref="#person_21109"><forename>Julie</forename></rs>, aufgepulvert;― 
+Verlobter ist an der <rs type="place" xml:id="pl_11141" ref="#pmb91476">Piave</rs> gefallen;― Nm. kam <rs type="person" xml:id="pNt_53839" ref="#person_21109"><forename>Julie</forename></rs>, aufgepulvert;― 
 sie fühlt sich irgendwie als B. Th. Directrice.―</p>
             <p xml:space="preserve" rend="indent">Traum heut Nachts: Sehe auf einem großen Platz <rs type="person" xml:id="pNt_53840" ref="#person_21184"><surname>Weiskirchner</surname></rs> irgend was 
 spielen; er hat einen grauen Waffenrock; Schnurrbart;― ich wundre mich 
@@ -214,6 +218,5 @@ Politik.― Seine (auch in vielen Kunstfragen) hervortretende Abneigung
 gegen das Preußentum.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

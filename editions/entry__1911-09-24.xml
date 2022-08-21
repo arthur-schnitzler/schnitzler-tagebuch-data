@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-09-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-09-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-09-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-09-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-09-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-09-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0043-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3231.tif"/>
@@ -183,7 +187,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1911-09-24">
             <p xml:space="preserve"><date when="1911-09-24">24/9</date> Vm. erscheint <rs type="person" xml:id="pNt_36124" ref="#person_21107"><forename>Jacob</forename></rs>; war „unglücklich“ über einiges z. Th. 
-entstellte, was ihm <rs type="person" xml:id="pNt_36125" ref="#person_20872"><forename>Agnes</forename></rs> aus unserm letzten Gespräch nach <rs type="place" xml:id="pl_07630" ref="#place_2384804448a53e420c3707bdfb9fb295">Altaussee</rs> 
+entstellte, was ihm <rs type="person" xml:id="pNt_36125" ref="#person_20872"><forename>Agnes</forename></rs> aus unserm letzten Gespräch nach <rs type="place" xml:id="pl_07630" ref="#pmb90229">Altaussee</rs> 
 hinterbracht; sieht im ganzen ein, daß wir recht haben. Ich sage etwa: 
 „Machen Sie <rs type="person" xml:id="pNt_36126" ref="#person_13359"><forename>Steffi</forename></rs> glücklich ― wie, das ist Ihre Sache, indem Sie sie zu 
 Ihrer Geliebten machen,―indem Sie sie heiraten, oder indem Sie sie frei 
@@ -205,6 +209,5 @@ und einen Chirurgen, um controliren zu können, ob etwa ein
 Kunstfehler vorlag, und ev. auf Schadenersatz zu klagen.)</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

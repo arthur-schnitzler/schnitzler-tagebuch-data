@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-02-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-02-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-02-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1931-02-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-02-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-02-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1BEF-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,17 +177,19 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7645.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1931-02-21">
             <p xml:space="preserve"><date when="1931-02-21">21/2</date> Dictirt. (Aenderungen „<rs type="work" subtype="self" xml:id="bibl_23623">Zug</rs>“), Briefe und <rs type="work" subtype="self" xml:id="bibl_23624">Tgb.</rs>―</p>
             <p xml:space="preserve" rend="indent">Zu Tisch (mit <rs type="person" xml:id="pNt_92146" ref="#person_18881"><forename>Kolap</forename></rs>) <rs type="person" xml:id="pNt_92147" ref="#person_17562"><forename>R.</forename> <surname>L.</surname></rs>―</p>
             <p xml:space="preserve" rend="indent">Nachm. wie immer.―</p>
             <p xml:space="preserve" rend="indent">Nach 7 <rs type="person" xml:id="pNt_92148" ref="#person_14234"><forename>Suz.</forename></rs> Sehr wesentliches Gespräch. Um eins nach Haus mit ihr.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

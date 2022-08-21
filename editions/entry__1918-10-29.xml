@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-10-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-10-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-10-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-10-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-10-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-10-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0A60-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4731.tif"/>
@@ -182,14 +186,14 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1918-10-29">
-            <p xml:space="preserve"><date when="1918-10-29">29/10</date> Vm. <rs type="place" ref="#place_volkstheater">Volksth.</rs> <rs type="person" xml:id="pNt_54601" ref="#person_13663"><surname>Bernau</surname></rs> (wegen ev. Verschiebung der „<rs type="work" subtype="self" xml:id="bibl_5926">Schwestern</rs>“ 
+            <p xml:space="preserve"><date when="1918-10-29">29/10</date> Vm. <rs type="place" ref="#pmb92202">Volksth.</rs> <rs type="person" xml:id="pNt_54601" ref="#person_13663"><surname>Bernau</surname></rs> (wegen ev. Verschiebung der „<rs type="work" subtype="self" xml:id="bibl_5926">Schwestern</rs>“ 
 auf Jänner oder nächste Saison;― <rs type="work" subtype="self" xml:id="bibl_5927">Bernhardi</rs> Möglichkeiten) mit 
 Regisseur <rs type="person" xml:id="pNt_54602" ref="#person_19392"><surname>Rosenthal</surname></rs> (über die ungeheuern polit. Ereignisse, „Sinn und 
 Unsinn“ des Weltgeschehns);― zu <rs type="person" xml:id="pNt_54603" ref="#person_14853"><surname>Faesi</surname></rs> ins Bristol;― bei <rs type="person" xml:id="pNt_54604"><surname>Grünbaum</surname></rs> 
 (Schneider; mit <rs type="person" xml:id="pNt_54605" ref="#person_15976"><surname>Haug</surname></rs> über Aufbewahrung unsrer Sachen aus 
 Sicherheitsgründen); bei <rs type="person" xml:id="pNt_54606" ref="#person_17425"><roleName>Onkel</roleName> <forename>Max</forename></rs> (Länderbank;― finanzielles); Begegnung 
 mit <rs type="person" xml:id="pNt_54607" ref="#person_16363"><forename>Paul</forename> <surname>Horn</surname></rs> (sein Sohn 19jährig;― Aussichten);― schon des Morgens 
-traf ich <rs type="person" xml:id="pNt_54608" ref="#person_15345"><forename>Hugo</forename> <surname>Ganz</surname></rs>, empört über <rs type="place" xml:id="pl_11333" ref="#place_b472f5868425ac2bc44e693fc3267e87">Oesterreichs</rs> Treulosigkeit, das 
+traf ich <rs type="person" xml:id="pNt_54608" ref="#person_15345"><forename>Hugo</forename> <surname>Ganz</surname></rs>, empört über <rs type="place" xml:id="pl_11333" ref="#pmb41240">Oesterreichs</rs> Treulosigkeit, das 
 „<rs type="figur">Ephialtesministerium</rs>“ <rs type="person" xml:id="pNt_54610" ref="#person_17261"><surname>Lammasch</surname></rs> ― <rs type="person" xml:id="pNt_54611" ref="#person_19096"><surname>Redlich</surname></rs>);― bei <rs type="person" xml:id="pNt_54612" ref="#person_15855"><surname>Hajeks</surname></rs> ― über 
 Einstellung einiger Koffer bei ihnen.―</p>
             <p xml:space="preserve" rend="indent">Nm. am „<rs type="work" subtype="self" xml:id="bibl_5928">Weiher</rs>“.― Furchtbar langsam, aber nicht unsicher.</p>
@@ -197,6 +201,5 @@ Einstellung einiger Koffer bei ihnen.―</p>
 über die Unannehmlichkeiten, und Schrecken der Zeit.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

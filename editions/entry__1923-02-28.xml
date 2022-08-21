@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-02-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-02-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-03-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-02-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-02-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-03-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-108E-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5982.tif"/>
@@ -181,16 +185,15 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1923-02-28">
-            <p xml:space="preserve"><date when="1923-02-28">28/2</date> Vm. bei <rs type="person" xml:id="pNt_68709" ref="#person_15854"><forename>Gisa</forename></rs>, die mit Catarrh von <rs type="place" xml:id="pl_14578" ref="#place_2aecac3a5fc580392bdd5187e0e6a2fc">Breitenstein</rs> zurück.</p>
+            <p xml:space="preserve"><date when="1923-02-28">28/2</date> Vm. bei <rs type="person" xml:id="pNt_68709" ref="#person_15854"><forename>Gisa</forename></rs>, die mit Catarrh von <rs type="place" xml:id="pl_14578" ref="#pmb36503">Breitenstein</rs> zurück.</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_68710" ref="#person_16735"><roleName>Dr.</roleName> <surname>Karolyi</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_68711"><surname>Lichtenstern</surname></rs> zu Tisch. Nachher Gespräch mit <rs type="person" xml:id="pNt_68712" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs></p>
-            <p xml:space="preserve" rend="indent">Nm. Dr. <rs type="person" xml:id="pNt_68713" ref="#person_18885"><forename>Joh.</forename> <surname>Pollak</surname></rs>. Seine <rs type="place" xml:id="pl_14579" ref="#place_d52387880e1ea22817a72d3759213819">Java</rs> Reise. Als <rs type="place" xml:id="pl_14580" ref="#place_e8624db2d10ca0d2def71b80119da78b" ana="#exclude">holl.</rs> Schiffsarzt mit seiner 
+            <p xml:space="preserve" rend="indent">Nm. Dr. <rs type="person" xml:id="pNt_68713" ref="#person_18885"><forename>Joh.</forename> <surname>Pollak</surname></rs>. Seine <rs type="place" xml:id="pl_14579" ref="#pmb90952">Java</rs> Reise. Als <rs type="place" xml:id="pl_14580" ref="#place_e8624db2d10ca0d2def71b80119da78b" ana="#exclude">holl.</rs> Schiffsarzt mit seiner 
 Pension hat er ein sorgenloses Leben, 200 <rs type="place" xml:id="pl_14581" ref="#place_28eada1c35342254e2fd8eac31c0cdcb" ana="#exclude">oest.</rs> Millionen Rente.― Er 
 interessirte sich für meine lit. geschäftlichen Erlebnisse.―</p>
-            <p xml:space="preserve" rend="indent">Telegr. aus <rs type="place" xml:id="pl_14582" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> über großen <rs type="work" subtype="self" xml:id="bibl_1680">Bernhardi</rs> Erfolg bei <rs type="person" xml:id="pNt_68714"><surname>Rotters</surname></rs>.―</p>
+            <p xml:space="preserve" rend="indent">Telegr. aus <rs type="place" xml:id="pl_14582" ref="#pmb168">Berlin</rs> über großen <rs type="work" subtype="self" xml:id="bibl_1680">Bernhardi</rs> Erfolg bei <rs type="person" xml:id="pNt_68714"><surname>Rotters</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Abends im Kino.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

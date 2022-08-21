@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-02-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-02-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-02-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-02-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-02-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-02-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-023D-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3569.tif"/>
@@ -182,7 +186,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1913-02-11">
             <p xml:space="preserve"><date when="1913-02-11">11/2</date> Vm. im Sanat. bei <persName xml:id="pNt_40090"><surname>Andrian</surname></persName>, dems recht gut geht. (<persName xml:id="pNt_40091"><surname>Michel</surname></persName>.) ―</p>
-            <p xml:space="preserve" rend="indent">Besorgungen. <rs type="place" ref="#place_volkstheater">Volkstheater</rs>. Mit <persName xml:id="pNt_40092"><surname>Geiringer</surname></persName> über ev. Aufführung 
+            <p xml:space="preserve" rend="indent">Besorgungen. <rs type="place" ref="#pmb92202">Volkstheater</rs>. Mit <persName xml:id="pNt_40092"><surname>Geiringer</surname></persName> über ev. Aufführung 
 <pb n="19"/>
 <seg type="header"><fw place="top_center"><date type="range">1913: II 11 - II 15</date></fw> <fw n="19" place="top_right" type="pageNum">19</fw></seg>
 <bibl type="self">Bernhardi</bibl> <placeName type="city" xml:id="pl_08163">Preßburg</placeName>.―</p>
@@ -192,7 +196,5 @@
 gemietet war. Seine Reise zu <persName xml:id="pNt_40097"><forename>Agnes</forename></persName> (von der er <persName xml:id="pNt_40098"><forename>Stephi</forename></persName> erzählt!).</p>
          </div>
       </body>
-      
-   
-    </text>
+   </text>
 </TEI>

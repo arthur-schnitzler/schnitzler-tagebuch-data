@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1925-06-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-06-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-06-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1925-06-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-06-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-06-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-13D2-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6502.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1925-06-14">
-            <p xml:space="preserve"><date when="1925-06-14">14/6</date> S. Mit <rs type="person" xml:id="pNt_75308" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> spazieren <rs type="place" xml:id="pl_16096" ref="#place_bf303a935ba7bb30e892cb5d0f2ea6ac">Michaelerberg</rs>.</p>
+            <p xml:space="preserve"><date when="1925-06-14">14/6</date> S. Mit <rs type="person" xml:id="pNt_75308" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> spazieren <rs type="place" xml:id="pl_16096" ref="#pmb91239">Michaelerberg</rs>.</p>
             <p xml:space="preserve" rend="indent">Dann bei <rs type="person" xml:id="pNt_75309" ref="#person_21602"><forename>Vicki</forename></rs> und <rs type="person" xml:id="pNt_75310" ref="#person_21600"><forename>Mimi</forename></rs>. (Aussichten fürs nächste Jahr;― Verkehr <rs type="person" xml:id="pNt_75311" ref="#person_19822"><forename>Heinis</forename></rs> mit 
 <rs type="person" xml:id="pNt_75312" ref="#person_20602"><surname>Szell</surname></rs>, etc.; <rs type="work" subtype="self" xml:id="bibl_16512">meine Aphor.</rs> zu <rs type="person" xml:id="pNt_75313" ref="#person_17838"><forename>Thomas</forename> <surname>Manns</surname></rs> Geburtstag.) ―</p>
             <p xml:space="preserve" rend="indent">Nm. am „<rs type="work" subtype="self" xml:id="bibl_16513">Roman</rs>“.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_75314" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> Abends bei mir. Regen; Balkon.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

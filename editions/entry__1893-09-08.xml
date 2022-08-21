@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1893-09-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-09-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-09-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1893-09-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-09-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-09-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E735-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0773.tif"/>
@@ -182,12 +186,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1893-09-08">
-            <p xml:space="preserve"><date when="1893-09-08">8/9</date> Auf dem Bic. mit <rs type="person" xml:id="pNt_07808" ref="#person_15194"><forename>Gustav</forename> <surname>Fr.</surname></rs> in die <rs type="place" xml:id="pl_01628" ref="#place_a25ff6cb521df1cd0272d03eee7efd32">Brühl</rs>.―</p>
+            <p xml:space="preserve"><date when="1893-09-08">8/9</date> Auf dem Bic. mit <rs type="person" xml:id="pNt_07808" ref="#person_15194"><forename>Gustav</forename> <surname>Fr.</surname></rs> in die <rs type="place" xml:id="pl_01628" ref="#pmb44413">Brühl</rs>.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_07809" ref="#person_19988"><name type="unclear">Rudolf</name></rs> und <rs type="person" xml:id="pNt_07810" ref="#person_19987"><forename>Max</forename> <surname>Schw.</surname></rs>― Guss.― Mit <rs type="person" xml:id="pNt_07811" ref="#person_19542"><surname>Salten</surname></rs>.― Zurück.―</p>
             <p xml:space="preserve" rend="indent">Litt unter der Erinnerung an <rs type="person" xml:id="pNt_07812" ref="#person_15485"><forename>Mz.’s</forename></rs> Untreue, und auch darunter, daß 
 sie fort ist.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

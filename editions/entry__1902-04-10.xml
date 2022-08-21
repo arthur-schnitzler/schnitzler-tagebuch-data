@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1902-04-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-04-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-04-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1902-04-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-04-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-04-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F2FD-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1678.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1902-04-10">
-            <p xml:space="preserve"><date when="1902-04-10">10/4</date> Rad über <rs type="place" xml:id="pl_03904" ref="#place_8465b2a4836a5b305b8d35f22150d5e4">Alt Erlaa</rs> nach <rs type="place" xml:id="pl_03905" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.</p>
+            <p xml:space="preserve"><date when="1902-04-10">10/4</date> Rad über <rs type="place" xml:id="pl_03904" ref="#pmb92141">Alt Erlaa</rs> nach <rs type="place" xml:id="pl_03905" ref="#pmb50">Wien</rs>.</p>
             <p xml:space="preserve" rend="indent">„<rs type="work" xml:id="bibl_17996">Erbförster</rs>“ Burg.―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_18556" ref="#person_20242"><surname>Speidel</surname></rs> und <rs type="person" xml:id="pNt_18557" ref="#person_14524"><surname>Drucker</surname></rs> da; beide Urtheile in Empfang nehmend.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

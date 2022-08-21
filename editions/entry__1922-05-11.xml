@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-05-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-05-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-05-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-05-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-05-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-05-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0F69-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5710.tif"/>
@@ -182,20 +186,19 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1922-05-11">
-            <p xml:space="preserve"><date when="1922-05-11">11/5</date> <rs type="place" xml:id="pl_13879" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>. <rs type="person" xml:id="pNt_66009" ref="#person_15306"><surname>Fulda</surname></rs> bringt mir die <rs type="work" subtype="newspaper" xml:id="bibl_2524">Oest. Ill.</rs> mit ein paar Versen für mich 
+            <p xml:space="preserve"><date when="1922-05-11">11/5</date> <rs type="place" xml:id="pl_13879" ref="#pmb168">Berlin</rs>. <rs type="person" xml:id="pNt_66009" ref="#person_15306"><surname>Fulda</surname></rs> bringt mir die <rs type="work" subtype="newspaper" xml:id="bibl_2524">Oest. Ill.</rs> mit ein paar Versen für mich 
 und einem Artikel von <rs type="person" xml:id="pNt_66010" ref="#person_15483"><surname>Glücksmann</surname></rs>, sehr enthusiastisch, mit vielen thatsächl. 
 Unwahrheiten.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_66011" ref="#person_18137"><forename>Dora</forename></rs> holt mich ab. Über <rs type="person" xml:id="pNt_66012" ref="#person_19832"><forename>O.</forename></rs>― <rs type="person" xml:id="pNt_66013"><forename>Kaiser Friedrich</forename></rs> Museum.</p>
             <p xml:space="preserve" rend="indent">Bei „<rs type="org">Horcher</rs>“ mit <rs type="person" xml:id="pNt_66015" ref="#person_20796"><surname>Trebitsch</surname></rs> gegessen. Er wollte mir ein neues Stück „<rs type="work" xml:id="bibl_2525">der 
 Geliebte</rs>“ widmen; rathe des Inhalts und möglicher Mißdeutungen wegen 
 ab.―</p>
-            <p xml:space="preserve" rend="indent">Besuche <rs type="person" xml:id="pNt_66016" ref="#person_21231"><forename>Bella</forename> <surname>Wengerow</surname></rs> in der <rs type="place" xml:id="pl_13880" ref="#place_9b5faeb26b242d22fabbdaae5d556562">Lutherstr.</rs>, die jetzt hier Clavierlect. gibt.</p>
+            <p xml:space="preserve" rend="indent">Besuche <rs type="person" xml:id="pNt_66016" ref="#person_21231"><forename>Bella</forename> <surname>Wengerow</surname></rs> in der <rs type="place" xml:id="pl_13880" ref="#pmb92383">Lutherstr.</rs>, die jetzt hier Clavierlect. gibt.</p>
             <p xml:space="preserve" rend="indent">Im Kl. Th. <rs type="person" xml:id="pNt_66017" ref="#person_13170"><roleName>Dir.</roleName> <surname>Altmann</surname></rs>, als Vertreter der <rs type="person" xml:id="pNt_66018"><surname>Rotters</surname></rs>; über Aufführungen meiner 
 Stücke.― (<rs type="work" subtype="self" xml:id="bibl_2526">Komoedie der Worte</rs> und <rs type="work" subtype="self" xml:id="bibl_2527">Bernhardi</rs>!―)</p>
             <p xml:space="preserve" rend="indent">Im Staatsth. <rs type="work" xml:id="bibl_2528">Napoleon</rs> von <rs type="person" xml:id="pNt_66019" ref="#person_15605"><surname>Grabbe</surname></rs>, in interess. Inszenirung von <rs type="person" xml:id="pNt_66020" ref="#person_16550"><surname>Jessner</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_66021"><surname>Michaelis’</surname></rs> und <rs type="person" xml:id="pNt_66022" ref="#person_18141"><forename>Lor</forename></rs> bei <rs type="person" xml:id="pNt_66023"><surname>Stallmann</surname></rs> gen.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

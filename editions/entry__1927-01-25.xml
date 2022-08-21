@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-01-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-01-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-01-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-01-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-01-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-01-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-161F-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,17 +177,18 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6799.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1927-01-25">
             <p xml:space="preserve"><date when="1927-01-25">25/1</date> Früh <rs type="person" xml:id="pNt_79652" ref="#person_16277"><roleName>Dr.</roleName> <surname>Hoffmann</surname></rs>; wegen der <rs type="place" xml:id="pl_17095" ref="#place_d06a4c9ac44f4e202427917bb2fc3ac0" ana="#exclude">ital.</rs> Ehegesetze.― Über meine finanz. 
 Verhältnisse.―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_79653" ref="#person_16485"><forename>Grethe</forename> <surname>Jacques</surname></rs> und <rs type="person" xml:id="pNt_79654" ref="#person_15033"><forename>Erna</forename> <surname>Fleischer</surname></rs>. Anfangs <rs type="person" xml:id="pNt_79655" ref="#person_15189"><roleName>Prof.</roleName> <surname>Frey</surname></rs>.― Das Haus 
-gegenüber (s. <rs type="work" subtype="self" xml:id="bibl_24095">Weg ins freie</rs> ―),― eins der allerältesten <rs type="place" xml:id="pl_17096" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wiens</rs>. In einem 
+gegenüber (s. <rs type="work" subtype="self" xml:id="bibl_24095">Weg ins freie</rs> ―),― eins der allerältesten <rs type="place" xml:id="pl_17096" ref="#pmb50">Wiens</rs>. In einem 
 Fenster ein Kanalräumer, im zweiten ein Rauchfangkehrer;― im dritten ein Mäderl mit ihrem Liebsten ―</p>
             <p xml:space="preserve" rend="indent">― Bei <rs type="person" xml:id="pNt_79656" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs>― Bei <rs type="person" xml:id="pNt_79657" ref="#person_19827"><forename>Julius</forename></rs> gegessen. Von <rs type="person" xml:id="pNt_79658" ref="#person_14130"><forename>Lili</forename></rs> und ihrer wahrscheinlichen 
 Verlobung.― <rs type="person" xml:id="pNt_79659" ref="#person_19821"><forename>Hans</forename></rs> gab mir einige mediz. Separatabdrucke und zeigte mir ein (schlechtes) erot. Gedicht.</p>
@@ -193,5 +198,6 @@ unwahrscheinlich; immer wieder, neben der Dummheit und Unbildung die
 Niedrigkeit der Charaktere (der Verfasser) bemerkenswerth.</p>
             <p xml:space="preserve" rend="indent">Im silbernen Brunnen mit <rs type="person" xml:id="pNt_79661" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> gegessen.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

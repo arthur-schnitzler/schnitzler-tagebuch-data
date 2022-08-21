@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-02-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-02-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-02-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-02-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-02-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-02-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-14C9-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,14 +177,15 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6630.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1926-02-16">
-            <p xml:space="preserve"><date when="1926-02-16">16/2</date> <rs type="place" xml:id="pl_16518" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>. Vm. Packen etc. Im Reisebüro wegen <rs type="place" xml:id="pl_16519" ref="#place_419b15d7a08e509c228471308ab72939">Madeira</rs> etc.―</p>
+            <p xml:space="preserve"><date when="1926-02-16">16/2</date> <rs type="place" xml:id="pl_16518" ref="#pmb168">Berlin</rs>. Vm. Packen etc. Im Reisebüro wegen <rs type="place" xml:id="pl_16519" ref="#pmb91183">Madeira</rs> etc.―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_77290" ref="#person_19832"><forename>O.</forename></rs> und <rs type="person" xml:id="pNt_77291" ref="#person_14130"><forename>Lili</forename></rs> zu Mittag. Vorher Geh. R. <rs type="person" xml:id="pNt_77292" ref="#person_16694"><surname>Kantorowicz</surname></rs> und 
 Schwiegertochter von ihm gesprochen.―</p>
             <p xml:space="preserve" rend="indent">Ins Hotel.― Gespräch mit <rs type="person" xml:id="pNt_77293" ref="#person_18137"><forename>Dora</forename></rs>.―</p>
@@ -190,5 +195,6 @@ Schwiegertochter von ihm gesprochen.―</p>
             <p xml:space="preserve" rend="indent">Abreise mit <rs type="person" xml:id="pNt_77299" ref="#person_14130"><forename>Lili</forename></rs> (6.41).―</p>
             <p xml:space="preserve" rend="indent">Lese <rs type="person" xml:id="pNt_77300" ref="#person_15274"><surname>Frondaie</surname></rs>, <rs type="work" xml:id="bibl_20023">Gardienne</rs>.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

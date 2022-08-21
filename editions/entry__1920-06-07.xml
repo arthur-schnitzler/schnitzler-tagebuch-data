@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-06-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-06-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-06-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1920-06-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-06-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-06-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0CAA-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5114.tif"/>
@@ -183,7 +187,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1920-06-07">
             <p xml:space="preserve"><date when="1920-06-07">7/6</date> Las früh zu Ende, was ich gestern Abends zu lesen begonnen: 
-<rs type="person" xml:id="pNt_59043" ref="#person_20885"><surname>Unruhs</surname></rs> Komoedie <rs type="work" xml:id="bibl_4121">Platz</rs> (die in <rs type="place" xml:id="pl_12307" ref="#place_d5460b665e26333bdf699f77a2e3cf17">Frankfurt</rs> sehr erfolgreich war). Ein 
+<rs type="person" xml:id="pNt_59043" ref="#person_20885"><surname>Unruhs</surname></rs> Komoedie <rs type="work" xml:id="bibl_4121">Platz</rs> (die in <rs type="place" xml:id="pl_12307" ref="#pmb146">Frankfurt</rs> sehr erfolgreich war). Ein 
 paar Stellen von hoher poetischer Schönheit (lyr.) seien zugegeben. Im 
 übrigen das ganze verworren, widerwärtig, großsprecherisch,― und 
 eigentlich nur zu erklären aus einem krankhaften Geisteszustand. Machte 
@@ -198,6 +202,5 @@ Skizzen). Über <rs type="person" xml:id="pNt_59046" ref="#person_19840"><surnam
 gibt als er ist.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

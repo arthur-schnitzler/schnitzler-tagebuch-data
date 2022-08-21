@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-03-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-03-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-03-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-03-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-03-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-03-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-109B-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5988.tif"/>
@@ -186,7 +190,7 @@
             <p xml:space="preserve" rend="indent">Nm. an „<rs type="work" subtype="self" xml:id="bibl_1712">Fr. d. R.</rs>“ ―</p>
             <p xml:space="preserve" rend="indent">Gegen Abend <rs type="person" xml:id="pNt_68808" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs>; über ihre Sorgen u. dgl.;― zeigt mir den Brief 
 <rs type="person" xml:id="pNt_68809" ref="#person_18748"><forename>W.</forename> <surname>Pf.s</surname></rs>, der durchaus wünscht, ich möchte mit ihnen im August ein 
-paar Wochen in <rs type="place" xml:id="pl_14593" ref="#place_8d865b652dc83da05aa34b499a9b01be">Frankreich</rs> zubringen „Ich glaube wir würden alle 
+paar Wochen in <rs type="place" xml:id="pl_14593" ref="#pmb166">Frankreich</rs> zubringen „Ich glaube wir würden alle 
 drei sehr glücklich sein“. Wie die scheinbar gleichen Dinge sehr 
 schwer oder ganz leicht;― ganz harmlos, oder ungeheuerlich scheinen 
 ― und sind!―</p>
@@ -195,6 +199,5 @@ schwer oder ganz leicht;― ganz harmlos, oder ungeheuerlich scheinen
 von <rs type="person" xml:id="pNt_68814" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs></p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-09-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-09-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-09-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-09-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-09-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-09-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FBE8-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2546.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1908-09-04">
-            <p xml:space="preserve"><date when="1908-09-04">4/9</date> <rs type="place" xml:id="pl_06447" ref="#place_a89d7e4e24c37b18add1ddba6cc4f827">Martino</rs>. <rs type="person" xml:id="pNt_28744" ref="#person_18358"><roleName>Frl.</roleName> <surname>Naschauer</surname></rs> und <rs type="person" xml:id="pNt_28745" ref="#person_16344"><surname>Honig</surname></rs>.</p>
+            <p xml:space="preserve"><date when="1908-09-04">4/9</date> <rs type="place" xml:id="pl_06447" ref="#pmb44311">Martino</rs>. <rs type="person" xml:id="pNt_28744" ref="#person_18358"><roleName>Frl.</roleName> <surname>Naschauer</surname></rs> und <rs type="person" xml:id="pNt_28745" ref="#person_16344"><surname>Honig</surname></rs>.</p>
             <p xml:space="preserve" rend="indent">Spazierg. mit O. Erinnerung, vor 9 Jahren mit <rs type="person" xml:id="pNt_28746" ref="#person_13551"><forename>Richard</forename></rs> und <rs type="person" xml:id="pNt_28747" ref="#person_21107"><surname>Wassermann</surname></rs> hier 
 gewesen, und den seither verstorbnen <rs type="person" xml:id="pNt_28748" ref="#person_18364"><surname>Nathorff</surname></rs> getroffen.―</p>
             <p xml:space="preserve" rend="indent">Nm. erscheinen <rs type="person" xml:id="pNt_28749" ref="#person_13305"><surname>Auernheimers</surname></rs>, <rs type="person" xml:id="pNt_28750" ref="#person_19597"><roleName>Fr.</roleName> <surname>v. Scanavi</surname></rs> und Sohn, <rs type="person" xml:id="pNt_28751" ref="#person_21387"><roleName>Br.</roleName> <surname>Winterstein</surname></rs>; mit 
@@ -189,6 +193,5 @@ ihnen spazieren.―</p>
             <p xml:space="preserve" rend="indent">Mit O. nach dem Nachtm. Domino.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-07-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-07-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-07-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-07-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-07-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-07-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FE8B-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,13 +177,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2940.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2941.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1910-07-11">
             <p xml:space="preserve"><date when="1910-07-11">11/7</date> Traum: Irgend eine fremde Stadt; auf einem Podium vierhändig 
 Klavier spielend <rs type="person" xml:id="pNt_33083" ref="#person_17593"><surname>Liszt</surname></rs> <rs type="work" xml:id="bibl_11850">Rhapsodie</rs>?, <rs type="person" xml:id="pNt_33084" ref="#person_19394"><surname>Rosenthal</surname></rs> und <rs type="person" xml:id="pNt_33085" ref="#person_20925"><surname>Vanjung</surname></rs>; ich grüße 
@@ -194,5 +199,6 @@ eine Spur unangenehm berührt.) ―</p>
 gesprochen. Ungeheure Ausgaben; geringer Ertrag meiner Werke. Und die Zukunft!</p>
             <p xml:space="preserve" rend="indent">Aß zum ersten Mal eine Kirsche vom eignen Baum.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

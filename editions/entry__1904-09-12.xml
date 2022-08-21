@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-09-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-09-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-09-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-09-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-09-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-09-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F660-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1965.tif"/>
@@ -180,13 +184,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1904-09-12">
-            <p xml:space="preserve"><date when="1904-09-12">12/9</date> Mit O. Vm. Schiff <rs type="place" xml:id="pl_04895" ref="#place_8d39ba5a7ce316c832ce717d4c26b95f">Wolfgang</rs>, zu Fuss (unter Stummsein aus nichtigen 
-Gründen) Falkensteinwand, <rs type="place" xml:id="pl_04896" ref="#place_4b9b68fbdbcb6211844abb1de63e4473">Fürberg</rs> ― <rs type="place" xml:id="pl_04897" ref="#place_50fce40d86c3084224109d978bdf526c">Gilgen</rs>.―</p>
-            <p xml:space="preserve" rend="indent">In <rs type="place" xml:id="pl_04898" ref="#place_1f8c82592620c6015573491c32824424">Lueg</rs> <rs type="person" xml:id="pNt_21538" ref="#person_20096"><forename>Ellyn</forename></rs> (die in <rs type="place" xml:id="pl_04899" ref="#place_c38ad36647aca0261d667c432a4866bd">Salzburg</rs> engagirt ist).― Kopfweh.―</p>
+            <p xml:space="preserve"><date when="1904-09-12">12/9</date> Mit O. Vm. Schiff <rs type="place" xml:id="pl_04895" ref="#pmb61000">Wolfgang</rs>, zu Fuss (unter Stummsein aus nichtigen 
+Gründen) Falkensteinwand, <rs type="place" xml:id="pl_04896" ref="#pmb40276">Fürberg</rs> ― <rs type="place" xml:id="pl_04897" ref="#pmb33">Gilgen</rs>.―</p>
+            <p xml:space="preserve" rend="indent">In <rs type="place" xml:id="pl_04898" ref="#pmb91173">Lueg</rs> <rs type="person" xml:id="pNt_21538" ref="#person_20096"><forename>Ellyn</forename></rs> (die in <rs type="place" xml:id="pl_04899" ref="#pmb91649">Salzburg</rs> engagirt ist).― Kopfweh.―</p>
             <p xml:space="preserve" rend="indent">Spazieren.― Fernrohr auf der Terrasse. Grauen in den 
 dunkeln Himmel zu sehn, während man einen Stern sucht.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

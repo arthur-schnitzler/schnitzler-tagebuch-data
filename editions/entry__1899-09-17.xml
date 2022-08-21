@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1899-09-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-09-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-09-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1899-09-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-09-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1899-09-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EF96-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1513.tif"/>
@@ -182,12 +186,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1899-09-17">
-            <p xml:space="preserve"><date when="1899-09-17">17/9</date> <rs type="place" xml:id="pl_03241" ref="#place_0d02faf704bd0c9d27ef4e5dc7980b02">Nürnberg</rs>. Mit <rs type="person" xml:id="pNt_16540" ref="#person_14734"><forename>M.</forename> <surname>E.</surname></rs> Reichtum des Lebens. Am meisten gefühlt: 
+            <p xml:space="preserve"><date when="1899-09-17">17/9</date> <rs type="place" xml:id="pl_03241" ref="#pmb44172">Nürnberg</rs>. Mit <rs type="person" xml:id="pNt_16540" ref="#person_14734"><forename>M.</forename> <surname>E.</surname></rs> Reichtum des Lebens. Am meisten gefühlt: 
 einsamer Spaziergang Stelle, wo mir <rs type="person" xml:id="pNt_16541" ref="#person_15485"><forename>M.</forename> <surname>Gl.</surname></rs> gesagt ― vor 4 Jahren, sie 
-möchte ein Kind von mir ― die <rs type="allusively" xml:id="rst_00301">Entschwundne</rs> damals in <rs type="place" xml:id="pl_03242" ref="#place_ff6b92568f199b01f10dd417db89f87d">Franzensbad</rs> 
-― jetzt <rs type="person" xml:id="pNt_16542" ref="#person_14734"><forename>M.</forename> <surname>E.</surname></rs> hier ― Nm. <rs type="place" xml:id="pl_03243" ref="#place_39092904714b73a14695c37858112686">Zirndorf</rs> mit <rs type="person" xml:id="pNt_16543" ref="#person_14734"><forename>M.</forename> <surname>E.</surname></rs>, <rs type="person" xml:id="pNt_16544" ref="#person_21107"><surname>Wassermann</surname></rs> zu Ehren.</p>
+möchte ein Kind von mir ― die <rs type="allusively" xml:id="rst_00301">Entschwundne</rs> damals in <rs type="place" xml:id="pl_03242" ref="#pmb390">Franzensbad</rs> 
+― jetzt <rs type="person" xml:id="pNt_16542" ref="#person_14734"><forename>M.</forename> <surname>E.</surname></rs> hier ― Nm. <rs type="place" xml:id="pl_03243" ref="#pmb92127">Zirndorf</rs> mit <rs type="person" xml:id="pNt_16543" ref="#person_14734"><forename>M.</forename> <surname>E.</surname></rs>, <rs type="person" xml:id="pNt_16544" ref="#person_21107"><surname>Wassermann</surname></rs> zu Ehren.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

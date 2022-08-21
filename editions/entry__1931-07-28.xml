@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-07-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1931-07-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-07-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1C8B-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7747.tif"/>
@@ -182,16 +186,15 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1931-07-28">
-            <p xml:space="preserve"><date when="1931-07-28">28/7</date> <rs type="place" xml:id="pl_20037" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs>.― Unwetter.― Corrigire „<rs type="work" subtype="self" xml:id="bibl_23883">Flucht</rs>“ zu Ende.</p>
+            <p xml:space="preserve"><date when="1931-07-28">28/7</date> <rs type="place" xml:id="pl_20037" ref="#pmb91735">Semmering</rs>.― Unwetter.― Corrigire „<rs type="work" subtype="self" xml:id="bibl_23883">Flucht</rs>“ zu Ende.</p>
             <p xml:space="preserve" rend="indent">Packen etc.― Brief an <rs type="person" xml:id="pNt_93494" ref="#person_14234"><forename>Suz.</forename></rs></p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_93495" ref="#person_19704"><surname>Schinnerer</surname></rs> gegessen.</p>
             <p xml:space="preserve" rend="indent">Nm. Hr. <rs type="person" xml:id="pNt_93496" ref="#person_18631"><forename>Job</forename> <surname>Paal</surname></rs>, <rs type="place" xml:id="pl_20038" ref="#place_c209355953a95edfa77a1188d9a1bead" ana="#exclude">ung.</rs> Journalist, dem ich ein Interview verweigere und 
 der mich interviewt. Sein Sohn.</p>
             <p xml:space="preserve" rend="indent">Abreise um 6 mit <rs type="person" xml:id="pNt_93497" ref="#person_19704"><surname>Schinnerer</surname></rs>.―</p>
-            <p xml:space="preserve" rend="indent">Ankunft <rs type="place" xml:id="pl_20039" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>. <rs ref="#person_14482" type="person" xml:id="pNt_93498"><forename>Ferry</forename></rs> telef.;― <rs type="person" xml:id="pNt_93499" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> hat schon angerufen, er war bei ihr ― 
+            <p xml:space="preserve" rend="indent">Ankunft <rs type="place" xml:id="pl_20039" ref="#pmb50">Wien</rs>. <rs ref="#person_14482" type="person" xml:id="pNt_93498"><forename>Ferry</forename></rs> telef.;― <rs type="person" xml:id="pNt_93499" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> hat schon angerufen, er war bei ihr ― 
 2½std. Gespräch.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

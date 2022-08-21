@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-12-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-12-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-12-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-12-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-12-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-12-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1BB8-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7617.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1930-12-28">
-            <p xml:space="preserve"><date when="1930-12-28">28/12</date> S. Tel. mit <rs type="person" xml:id="pNt_91726" ref="#person_19832"><forename>O.</forename></rs> (<rs type="place" xml:id="pl_19690" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>) ― <rs type="person" xml:id="pNt_91727" ref="#person_14129"><forename>Arnoldos</forename></rs> Ankunft;― <rs type="person" xml:id="pNt_91728" ref="#person_19822"><forename>Heini</forename></rs> Beschäftigung 
+            <p xml:space="preserve"><date when="1930-12-28">28/12</date> S. Tel. mit <rs type="person" xml:id="pNt_91726" ref="#person_19832"><forename>O.</forename></rs> (<rs type="place" xml:id="pl_19690" ref="#pmb168">Berlin</rs>) ― <rs type="person" xml:id="pNt_91727" ref="#person_14129"><forename>Arnoldos</forename></rs> Ankunft;― <rs type="person" xml:id="pNt_91728" ref="#person_19822"><forename>Heini</forename></rs> Beschäftigung 
 (Cabaret der Komiker;― über <rs type="person" xml:id="pNt_91729" ref="#person_13139"><forename>Ruth</forename></rs>) ―</p>
             <p xml:space="preserve" rend="indent">Nach 11 kam <rs type="person" xml:id="pNt_91730" ref="#person_14234"><forename>Suz.</forename></rs>, sehr ermattet, vom Krankenbett der Kinder, aus dem 
 Sanat.; und fuhr um 1 wieder zurück.―</p>
@@ -190,13 +194,12 @@ Sanat.; und fuhr um 1 wieder zurück.―</p>
             <p xml:space="preserve" rend="indent">Vertrödle den Nachm. mit Zeitungen und ziemlich überflüssigem 
 Briefordnen.</p>
             <p xml:space="preserve" rend="indent">Hole <rs type="person" xml:id="pNt_91731" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> ins Kino. (Ihre Verse für den Schluss „<rs type="work" subtype="self" xml:id="bibl_1521">Weiher</rs>“.―)</p>
-            <p xml:space="preserve" rend="indent">― Im (Elite) Kino, „<rs type="work" xml:id="bibl_1522">Eine Frau sucht Anschluss</rs>“ ― bei <rs type="place" ref="#place_meissl">Meißl</rs> mit ihr 
+            <p xml:space="preserve" rend="indent">― Im (Elite) Kino, „<rs type="work" xml:id="bibl_1522">Eine Frau sucht Anschluss</rs>“ ― bei <rs type="place" ref="#pmb96">Meißl</rs> mit ihr 
 genachtm. Sie hat <rs type="person" xml:id="pNt_91733" ref="#person_14234"><forename>Suz.</forename></rs> Roman (mit ihrer Erlaubnis) zu Ende gelesen;― hat 
 Bedenken wegen des „autobiografischen“, will sie „warnen“, was ich 
 ihr ― nach Rücksprache mit <rs type="person" xml:id="pNt_91734" ref="#person_14234"><forename>Suz.</forename></rs> widerrieth. Ihre Bedenken literarisch, 
 sind ungefähr die meinen.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

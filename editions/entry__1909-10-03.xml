@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-10-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-10-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-10-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-10-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-10-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-10-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FD72-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2762.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1909-10-03">
-            <p xml:space="preserve"><date when="1909-10-03">3/10</date> S. Früh <rs type="place" xml:id="pl_06829" ref="#place_0e891dbd1b1814a0cddd64e270c6ffac">Vöslau</rs>; durch den Ort, Waldandacht, Jägerhaus Eisernes 
+            <p xml:space="preserve"><date when="1909-10-03">3/10</date> S. Früh <rs type="place" xml:id="pl_06829" ref="#pmb992">Vöslau</rs>; durch den Ort, Waldandacht, Jägerhaus Eisernes 
 Thor; zum ersten Mal. Das Schutzhaus oben überfüllt, saß an einem 
 Tisch mit <rs type="person" xml:id="pNt_31002" ref="#person_13641"><roleName>Hrn</roleName> und <roleName>Fr. Prof.</roleName> <surname>Bergmeister</surname></rs>, <rs type="person" xml:id="pNt_31003" ref="#person_14837"><forename>Robert</forename> <surname>Eysler</surname></rs> (Fr. B. 
 Bruder),― <rs type="person" xml:id="pNt_31004" ref="#person_14811"><roleName>Hofr.</roleName> <surname>Escherich</surname></rs>, den ich bei dieser Gelegenheit kennen 
@@ -192,6 +196,5 @@ Maiglöckchen zur Geburt <rs type="person" xml:id="pNt_31006" ref="#person_14130
             <p xml:space="preserve" rend="indent">Daheim bald <rs type="person" xml:id="pNt_31008" ref="#person_21109"><forename>Julie</forename> <surname>Wassermann</surname></rs>, <rs type="person" xml:id="pNt_31009" ref="#person_13551"><forename>Richard</forename></rs> und <rs type="person" xml:id="pNt_31010" ref="#person_13550"><forename>Paula</forename></rs> zu Besuch.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

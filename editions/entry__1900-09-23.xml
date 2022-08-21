@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1900-09-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-09-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-09-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1900-09-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-09-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-09-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F0F8-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -162,7 +166,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1588.tif"/>
@@ -170,10 +174,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1900-09-23">
-            <p xml:space="preserve"><date when="1900-09-23">23/9</date> Vorm. <rs type="place" xml:id="pl_03549" ref="#place_aefd706df20bf4aaf15e7f0b647de172">Arenberg Park</rs>.― Nm. <rs type="person" xml:id="pNt_17380" ref="#person_19832"><forename>D.</forename> <surname>M.</surname></rs> bei mir, las ihr „<rs type="work" subtype="self" xml:id="bibl_18455">Gustl</rs>“ vor.
+            <p xml:space="preserve"><date when="1900-09-23">23/9</date> Vorm. <rs type="place" xml:id="pl_03549" ref="#pmb92149">Arenberg Park</rs>.― Nm. <rs type="person" xml:id="pNt_17380" ref="#person_19832"><forename>D.</forename> <surname>M.</surname></rs> bei mir, las ihr „<rs type="work" subtype="self" xml:id="bibl_18455">Gustl</rs>“ vor.
 Nm. Theater „<rs type="work" xml:id="bibl_18456">hohe Schule</rs>“. Albern.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

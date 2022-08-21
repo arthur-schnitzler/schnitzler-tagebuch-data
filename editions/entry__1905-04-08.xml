@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-04-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-04-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-04-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-04-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-04-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-04-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F72F-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,19 +176,21 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2065.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1905-04-08">
             <p xml:space="preserve"><date when="1905-04-08">8/4</date> Früh Gespräch mit O., in dem ich mich meiner Unzufriedenheit mit 
 mir aphoristisch entäußerte.―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_22731" ref="#person_20242"><forename>Felix</forename> <surname>Speidel</surname></rs>, der, mit Enthusiasmus, an einem Versstück schreibt.―</p>
             <p xml:space="preserve" rend="indent">Las „<rs type="work" xml:id="bibl_15626">Grabesfenster</rs>“ zu Ende, Mscrpt. das mir <rs type="person" xml:id="pNt_22732" ref="#person_18952"><roleName>Frau</roleName> <surname>Preindlsberger</surname></rs> aus 
-<rs type="place" xml:id="pl_05141" ref="#place_45cb61a48b985856d8bf1cb545661858">Serajewo</rs> zugeschickt.</p>
+<rs type="place" xml:id="pl_05141" ref="#pmb65671">Serajewo</rs> zugeschickt.</p>
             <p xml:space="preserve" rend="indent">Begann <rs type="work" subtype="self" xml:id="bibl_15627">Vatermörderin</rs> neu und frisch, arbeitete bis in die Nacht.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-01-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-01-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-01-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-01-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-01-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-01-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0EF0-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5618.tif"/>
@@ -183,7 +187,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1922-01-10">
             <p xml:space="preserve"><date when="1922-01-10">10/1</date> Vm. Besorgungen. Bei <rs type="person" xml:id="pNt_64845" ref="#person_17784"><forename>Alma</forename></rs>. Ihr hatte <rs type="person" xml:id="pNt_64846" ref="#person_19832"><forename>O.</forename></rs> geschrieben, daß sie 
-nächstens schon darum auf ein paar Tage nach <rs type="place" xml:id="pl_13613" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> kommen wolle, 
+nächstens schon darum auf ein paar Tage nach <rs type="place" xml:id="pl_13613" ref="#pmb50">Wien</rs> kommen wolle, 
 um mit ihr zu reden (<rs type="person" xml:id="pNt_64847" ref="#person_17784"><forename>Alma</forename></rs> scheint ihr einige Wahrheiten geschrieben zu 
 haben ―) ― <rs type="person" xml:id="pNt_64848" ref="#person_17784"><forename>Almas</forename></rs> innerster Wunsch wäre natürlich 
 „Versöhnung“ ― wir gehörten nun einmal zusammen;― jenes Erlebnis 
@@ -198,6 +202,5 @@ Feber insbesondre.―</p>
 Scheftel</rs>“ von <rs type="person" xml:id="pNt_64854" ref="#person_18804"><surname>Pinski</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

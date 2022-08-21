@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-07-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-07-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-07-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-07-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-07-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-07-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0FA6-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5758.tif"/>
@@ -184,9 +188,9 @@
       <body>
          <div type="diary-day" xml:id="entry__1922-07-11">
             <p xml:space="preserve"><date when="1922-07-11">11/7</date> Hole <rs type="person" xml:id="pNt_66593" ref="#person_14178"><surname>Chapiro</surname></rs> ab (der mir telef.);― er spricht von <rs type="person" xml:id="pNt_66594" ref="#person_19832"><forename>O.</forename></rs>, mit der er Winters 
-in <rs type="place" xml:id="pl_14014" ref="#place_c38ad36647aca0261d667c432a4866bd">Salzburg</rs> zusammenwar und die ihm anvertraut, wie gern sie wieder zurück 
+in <rs type="place" xml:id="pl_14014" ref="#pmb91649">Salzburg</rs> zusammenwar und die ihm anvertraut, wie gern sie wieder zurück 
 möchte; er hatte damals die Absicht zu mir zu reisen;― Tod der Schwester, 
-der Mutter, des Vaters (in <rs type="place" xml:id="pl_14015" ref="#place_65f7b8e17e93bc2a87843d99e82c08a5">Rußland</rs>) hielten ihn ab.― Ich ließ ihn merken, 
+der Mutter, des Vaters (in <rs type="place" xml:id="pl_14015" ref="#pmb34438">Rußland</rs>) hielten ihn ab.― Ich ließ ihn merken, 
 daß er, nur von der einen Seite informirt, die Lage nicht ganz richtig 
 beurtheilen könne und daß ich vorläufig ein Wiederzusammenleben für 
 undenkbar hielte ― trotz der <rs type="allusively" xml:id="rst_01905">Kinder</rs> und der innern Zusammengehörigkeit.― 
@@ -201,7 +205,7 @@ abholt, um in der <rs type="place" xml:id="pl_14019" ref="#place_3e59557b630aba4
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_66599" ref="#person_16143"><roleName>Frl.</roleName> <forename>(Fr.)</forename> <surname>Herz</surname></rs> (<rs type="person" xml:id="pNt_66600"><surname>Karczag</surname></rs>) mit Mr. <rs type="person" xml:id="pNt_66601" ref="#person_16769"><forename>Jay</forename> <surname>Kaufman</surname></rs>,― einem jungen <rs type="place" xml:id="pl_14020" ref="#place_e019ad6453c82723bc20f13c924ea8b0" ana="#exclude">Amerikaner</rs>; 
 Red. des <rs type="work" subtype="newspaper" xml:id="bibl_2664">Globe</rs>, Verfasser von 10 (z. Th. gespielten) Einaktern, der mir 
 erzählt er werde ein disciple of A. S. genannt,― mir von meinem Namen in 
-<rs type="place" xml:id="pl_14021" ref="#place_e884124295d0c4d07d9bcf5096fd5495">Amerika</rs>, Verbreitung meiner Werke berichtet, sich fast rührend enthusiastisch 
+<rs type="place" xml:id="pl_14021" ref="#pmb43406">Amerika</rs>, Verbreitung meiner Werke berichtet, sich fast rührend enthusiastisch 
 geberdet, und mir allerlei praktische Verwendung im Interesse meiner Sachen in 
 Aussicht stellt,― auch ein wenig Manager und Director zu sein scheint.</p>
             <p xml:space="preserve" rend="indent">― Z. N. bei <rs type="person" xml:id="pNt_66602" ref="#person_13219"><surname>Anningers</surname></rs>, wo <rs type="person" xml:id="pNt_66603" ref="#person_17086"><roleName>Dr.</roleName> <surname>Kramer</surname></rs> (Bruder des Schauspielers,― klug, 
@@ -209,6 +213,5 @@ charmant, banal und eitel wie dieser) mit Frau, <rs type="person" xml:id="pNt_66
             <p xml:space="preserve" rend="indent">Lese daheim noch das <rs type="person" xml:id="pNt_66605" ref="#person_20900"><surname>Vajdasche</surname></rs> Filmscen. <rs type="work" subtype="self" xml:id="bibl_2665">Medardus</rs> zu zwei Dritteln.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

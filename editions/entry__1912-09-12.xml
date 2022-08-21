@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-09-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-09-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-09-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-09-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-09-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-09-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-01A5-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3474.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1912-09-12">
-            <p xml:space="preserve"><date when="1912-09-12">12/9</date> Vm. ins <rs type="place" ref="#place_volkstheater">Volkstheater</rs>; <rs type="person" xml:id="pNt_38820" ref="#person_21211"><surname>Weisse</surname></rs>, der eben in Abreise begriffen, den 
+            <p xml:space="preserve"><date when="1912-09-12">12/9</date> Vm. ins <rs type="place" ref="#pmb92202">Volkstheater</rs>; <rs type="person" xml:id="pNt_38820" ref="#person_21211"><surname>Weisse</surname></rs>, der eben in Abreise begriffen, den 
 „<rs type="work" subtype="self" xml:id="bibl_10465">Bernhardi</rs>“ übergeben ―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_38821" ref="#person_15483"><surname>Glücksmann</surname></rs> über die beginnende Saison.</p>
             <p xml:space="preserve" rend="indent">― Besorgungen, mit O. und <rs type="person" xml:id="pNt_38822" ref="#person_19822"><forename>Heini</forename></rs>.―</p>
@@ -190,6 +194,5 @@
 Kino Antrag von <rs type="pubHouse">Nord Verlag</rs>. Wollte Monopol; was ich ablehnte.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

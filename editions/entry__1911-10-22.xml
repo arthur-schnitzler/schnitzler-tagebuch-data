@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-10-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-10-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-10-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-10-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-10-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-10-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-005F-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3254.tif"/>
@@ -184,7 +188,7 @@
          <div type="diary-day" xml:id="entry__1911-10-22">
             <p xml:space="preserve"><date when="1911-10-22">22/10</date> Albern frecher Brief von <rs type="person" xml:id="pNt_36402" ref="#person_14161"><surname>Caudrelier</surname></rs>, der sich nun gern auf den 
 Beleidigten hinausspielen möchte.</p>
-            <p xml:space="preserve" rend="indent">Mit der Beantwortung beschäftigt, mit <rs type="person" xml:id="pNt_36403" ref="#person_19822"><forename>Heini</forename></rs> im <rs type="place" xml:id="pl_07663" ref="#place_75f2e194839d6ba0e5d4080c211a449a">Dornbacher Park</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Mit der Beantwortung beschäftigt, mit <rs type="person" xml:id="pNt_36403" ref="#person_19822"><forename>Heini</forename></rs> im <rs type="place" xml:id="pl_07663" ref="#pmb176">Dornbacher Park</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. bei <rs type="person" xml:id="pNt_36404" ref="#person_13355"><surname>Bachrachs</surname></rs>. Mit <rs type="person" xml:id="pNt_36405" ref="#person_13305"><forename>Raoul</forename> <surname>Auernheimer</surname></rs> im Garten herum; ihm die 
 <rs type="person" xml:id="pNt_36406" ref="#person_14161"><surname>Caudrelier</surname></rs> Affaire erzählt, wegen ev. Zeugenschaft bei Unterredung.― 
 Über <rs type="person" xml:id="pNt_36407" ref="#person_19542"><surname>Salten</surname></rs>, <rs type="work" subtype="newspaper" xml:id="bibl_11242">Neue Freie Presse</rs>. Auch <rs type="person" xml:id="pNt_36408" ref="#person_13304"><forename>Irene</forename></rs>, <rs type="person" xml:id="pNt_36409" ref="#person_15135"><roleName>Frau</roleName> <surname>Frankfurter</surname></rs> und 
@@ -194,6 +198,5 @@ Herrenzudringlichkeiten etc. Sie war jetzt auf einem Schloß bei
 <rs type="person" xml:id="pNt_36412" ref="#person_18345"><roleName>Baron</roleName> <surname>Nadhernys</surname></rs>. Eigentlich eine Gans.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

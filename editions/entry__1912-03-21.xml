@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-03-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-03-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-03-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-03-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-03-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-03-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-00F6-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,16 +177,18 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3357.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1912-03-21">
             <p xml:space="preserve"><date when="1912-03-21">21/3</date> Dictirt (<rs type="work" subtype="self" xml:id="bibl_10074">Heimkehr</rs>).</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_37551"><roleName>Hr.</roleName> <roleName>Fr.</roleName> <surname>Paulsen</surname></rs> (<rs type="person" xml:id="pNt_37552"><surname>Pollak</surname></rs> <rs type="person" xml:id="pNt_37553" ref="#person_17709"><surname>Lubelsky</surname></rs>) zum Thee.</p>
             <p xml:space="preserve" rend="indent">Kleine Gesellschaft bei <rs type="person" xml:id="pNt_37554" ref="#person_13355"><surname>Bachrachs</surname></rs>. Neu Maler <rs type="person" xml:id="pNt_37555" ref="#person_20532"><surname>Stringa</surname></rs>.― „Errathen.“</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-03-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-03-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-03-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-03-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-03-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-03-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FCA7-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2661.tif"/>
@@ -183,13 +187,12 @@
       <body>
          <div type="diary-day" xml:id="entry__1909-03-14">
             <p xml:space="preserve"><date when="1909-03-14">14/3</date> S. Vormittag kam <rs type="person" xml:id="pNt_29964" ref="#person_13551"><forename>Richard</forename></rs>, mit ihm zu <rs type="person" xml:id="pNt_29965" ref="#person_19542"><surname>Salten</surname></rs>, er bewohnt ein 
-Haus in der <rs type="place" xml:id="pl_06625" ref="#place_df4093a15c24d76ec83902dda99ef255">Cottagegasse</rs>, das wir (O. und ich) miethenshalber an dem 
+Haus in der <rs type="place" xml:id="pl_06625" ref="#pmb63834">Cottagegasse</rs>, das wir (O. und ich) miethenshalber an dem 
 Tag besichtigt hatten, an dessen Abend sie an Scharlach erkrankte.― 
 Es sieht behaglich und wohlgehalten aus.―</p>
             <p xml:space="preserve" rend="indent">Daheim traf ich <rs type="person" xml:id="pNt_29966" ref="#person_21107"><surname>Wassermann</surname></rs> an.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_12481">Medardus</rs>. Vorspiel beendet.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

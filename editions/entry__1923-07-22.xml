@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-07-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-07-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-07-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-07-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-07-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-07-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-111E-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6079.tif"/>
@@ -183,7 +187,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1923-07-22">
             <p xml:space="preserve"><date when="1923-07-22">22/7</date> S. Vm. am <rs type="work" subtype="self" xml:id="bibl_1921">Verf.</rs>―</p>
-            <p xml:space="preserve" rend="indent">Nach <rs type="place" xml:id="pl_14877" ref="#place_431168489e6885d4e91ebc5edec7dfb4">Grinzing</rs>. Mit <rs type="person" xml:id="pNt_69942" ref="#person_13589"><roleName>Dr.</roleName> <surname>Benedikt</surname></rs> gespeist in seiner Villa.― Auf das 
+            <p xml:space="preserve" rend="indent">Nach <rs type="place" xml:id="pl_14877" ref="#pmb90771">Grinzing</rs>. Mit <rs type="person" xml:id="pNt_69942" ref="#person_13589"><roleName>Dr.</roleName> <surname>Benedikt</surname></rs> gespeist in seiner Villa.― Auf das 
 „weite Land“ hatte er sich vorbereitet, wir sprachen auch sonst 
 über allerlei: Entstehungsgeschichte <rs type="work" subtype="self" xml:id="bibl_1922">Medardus</rs>, <rs type="work" subtype="self" xml:id="bibl_1923">Beatrice</rs>;― 
 Steuersachen, u. a.―</p>
@@ -191,6 +195,5 @@ Steuersachen, u. a.―</p>
 genachtm.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-07-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-07-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-07-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-07-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-07-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-07-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1B18-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7526.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1930-07-21">
-            <p xml:space="preserve"><date when="1930-07-21">21/7</date> <rs type="place" xml:id="pl_19369" ref="#place_51c7c0e8bc877f41a415a8e7efedd068">St. Moritz</rs>. Brief an <rs type="person" xml:id="pNt_90281" ref="#person_14234"><forename>Suz.</forename></rs>―</p>
+            <p xml:space="preserve"><date when="1930-07-21">21/7</date> <rs type="place" xml:id="pl_19369" ref="#pmb44374">St. Moritz</rs>. Brief an <rs type="person" xml:id="pNt_90281" ref="#person_14234"><forename>Suz.</forename></rs>―</p>
             <p xml:space="preserve" rend="indent">Kohlensäure Bad.―</p>
             <p xml:space="preserve" rend="indent">Nm. nicht ohne Mühe, Brief an <rs type="person" xml:id="pNt_90282" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> ― bleibe dabei, unsre Beziehung jetzt 
 tendire mehr nach Freundschaft als Liebe.―</p>
@@ -189,6 +193,5 @@ tendire mehr nach Freundschaft als Liebe.―</p>
 der Schatten</rs>“.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

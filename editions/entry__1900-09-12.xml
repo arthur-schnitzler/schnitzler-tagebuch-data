@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1900-09-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-09-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-09-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1900-09-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-09-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-09-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F0ED-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -162,7 +166,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1583.tif"/>
@@ -171,11 +175,10 @@
       <body>
          <div type="diary-day" xml:id="entry__1900-09-12">
             <p xml:space="preserve"><date when="1900-09-12">12/9</date> Wieder vergeblich gewartet. ½7 Telephon; ich wollte sie nachher
-sprechen, nichts, <rs type="place" xml:id="pl_03531" ref="#place_76c6935478b53cd3182fa3c293d05fc0">Praterstern</rs>, ihre Nähe; aber gleich zu <rs ref="#person_15759" type="person" xml:id="pNt_17315"><surname>G.s</surname></rs>, wo <rs type="person" xml:id="pNt_17316" ref="#person_19832"><forename>D.</forename>
+sprechen, nichts, <rs type="place" xml:id="pl_03531" ref="#pmb530">Praterstern</rs>, ihre Nähe; aber gleich zu <rs ref="#person_15759" type="person" xml:id="pNt_17315"><surname>G.s</surname></rs>, wo <rs type="person" xml:id="pNt_17316" ref="#person_19832"><forename>D.</forename>
 <surname>M.</surname></rs>― Silberner Brunnen; <rs type="person" xml:id="pNt_17317" ref="#person_20243"><surname>Speidel</surname></rs> hat den Protest gegen <rs type="person" xml:id="pNt_17318" ref="#person_19724"><surname>Schlenther</surname></rs> mit
 unterschrieben.― Unerhörter Nervenzustand.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

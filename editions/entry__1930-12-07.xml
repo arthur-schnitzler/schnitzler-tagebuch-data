@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-12-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-12-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-12-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-12-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-12-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-12-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1BA3-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7607.tif"/>
@@ -181,13 +185,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1930-12-07">
-            <p xml:space="preserve"><date when="1930-12-07">7/12</date> S.― Tel. mit <rs type="person" xml:id="pNt_91540" ref="#person_19832"><forename>O.</forename></rs>, <rs type="place" xml:id="pl_19665" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>.―</p>
+            <p xml:space="preserve"><date when="1930-12-07">7/12</date> S.― Tel. mit <rs type="person" xml:id="pNt_91540" ref="#person_19832"><forename>O.</forename></rs>, <rs type="place" xml:id="pl_19665" ref="#pmb168">Berlin</rs>.―</p>
             <p xml:space="preserve" rend="indent">Sanat. Diathermie.―</p>
-            <p xml:space="preserve" rend="indent">In die <rs type="place" xml:id="pl_19666" ref="#place_a8a82d0c7e60a47ff871d330c0b97e8d">Ferrogasse</rs>; <rs type="person" xml:id="pNt_91541" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs>, neue Wohnung, noch sehr im Anfang.―</p>
+            <p xml:space="preserve" rend="indent">In die <rs type="place" xml:id="pl_19666" ref="#pmb92236">Ferrogasse</rs>; <rs type="person" xml:id="pNt_91541" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs>, neue Wohnung, noch sehr im Anfang.―</p>
             <p xml:space="preserve" rend="indent">― In die Pension Schönbrunn zu „<rs type="person" xml:id="pNt_91542" ref="#person_13355"><forename>Ama</forename></rs>“.―</p>
             <p xml:space="preserve" rend="indent">Zu Tisch bei mir <rs type="person" xml:id="pNt_91543" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>; sowie <rs type="person" xml:id="pNt_91544" ref="#person_21107"><forename>Jakob</forename></rs> und <rs type="person" xml:id="pNt_91545" ref="#person_21110"><forename>Martha</forename></rs>. Über Autorenerlebnisse 
 mit jungen Autoren, Autogrammsammlern etc.</p>
-            <p xml:space="preserve" rend="indent">Gegen 6 M. <rs type="person" xml:id="pNt_91546" ref="#person_17986"><surname>Mauprey</surname></rs> (<rs type="place" xml:id="pl_19667" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs>, Übersetzer von <rs type="person" xml:id="pNt_91547" ref="#person_20619"><surname>Bruckner</surname></rs> etc.) ― wegen <rs type="work" subtype="self" xml:id="bibl_1476">Bernhardi</rs> 
+            <p xml:space="preserve" rend="indent">Gegen 6 M. <rs type="person" xml:id="pNt_91546" ref="#person_17986"><surname>Mauprey</surname></rs> (<rs type="place" xml:id="pl_19667" ref="#pmb182">Paris</rs>, Übersetzer von <rs type="person" xml:id="pNt_91547" ref="#person_20619"><surname>Bruckner</surname></rs> etc.) ― wegen <rs type="work" subtype="self" xml:id="bibl_1476">Bernhardi</rs> 
 fürs Odéon (<rs type="person" xml:id="pNt_91548" ref="#person_13083"><roleName>Dir.</roleName> <surname>Abram</surname></rs>);― brachte ihn gleich in teleph. Verbindung mit 
 <rs type="person" xml:id="pNt_91549" ref="#person_14234"><forename>Suz.</forename></rs>; sie hatten gleich darauf Besprechung im Grd. Hotel;― sie telef. mir 
 darauf und konnte ihm schon den 1. Akt mitgeben.―</p>
@@ -197,6 +201,5 @@ seelischen und soc. Situation.</p>
             <p xml:space="preserve" rend="indent">― Im ganzen ein gemütlicher Abend.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1889-08-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-08-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-08-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1889-08-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-08-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-08-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E194-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0402.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1889-08-12">
-            <p xml:space="preserve"><date when="1889-08-12">12.</date> <rs type="place" xml:id="pl_00821" ref="#place_096fe15a391b374b49743494cd0f762d">Grundlsee</rs> ― <rs type="place" xml:id="pl_00822" ref="#place_72f4eb6eba3a41562dbadb0a887ebcb5">Gössl</rs> ― <rs type="place" xml:id="pl_00823" ref="#place_f1357a032571ad2a0c5de0fe92a99f16">Toplitz-</rs> und <rs type="place" xml:id="pl_00824" ref="#place_d1b731e4e033578faac57b4763efe53d">Kammersee</rs> ― <rs type="place" xml:id="pl_00825" ref="#place_72f4eb6eba3a41562dbadb0a887ebcb5">Gössl</rs> ― 
-<rs type="place" xml:id="pl_00826" ref="#place_f6a084741cb4f021c1e928ba238b1418">Lahngangsee</rs> ― <rs type="place" xml:id="pl_00827" ref="#place_096fe15a391b374b49743494cd0f762d">Grundlsee</rs>.</p>
+            <p xml:space="preserve"><date when="1889-08-12">12.</date> <rs type="place" xml:id="pl_00821" ref="#pmb90787">Grundlsee</rs> ― <rs type="place" xml:id="pl_00822" ref="#pmb90749">Gössl</rs> ― <rs type="place" xml:id="pl_00823" ref="#pmb91912">Toplitz-</rs> und <rs type="place" xml:id="pl_00824" ref="#pmb92327">Kammersee</rs> ― <rs type="place" xml:id="pl_00825" ref="#pmb90749">Gössl</rs> ― 
+<rs type="place" xml:id="pl_00826" ref="#pmb91097">Lahngangsee</rs> ― <rs type="place" xml:id="pl_00827" ref="#pmb90787">Grundlsee</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

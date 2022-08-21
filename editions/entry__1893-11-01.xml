@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1893-11-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-10-31.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-11-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1893-11-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-10-31.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1893-11-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E76B-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,12 +177,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0787.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1893-11-01">
             <p xml:space="preserve"><date when="1893-11-01">1/11</date> Nm. <rs type="person" xml:id="pNt_08020" ref="#person_16293"><forename>Loris</forename></rs>, <rs type="person" xml:id="pNt_08021" ref="#person_19542"><surname>Salten</surname></rs>, <rs type="person" xml:id="pNt_08022" ref="#person_13551"><forename>Richard</forename></rs>, <rs type="person" xml:id="pNt_08023" ref="#person_19986"><surname>Schwarzkopf</surname></rs>.― <rs type="work" xml:id="bibl_22764">Thor und der Tod</rs> 
 musikalisch.―</p>
@@ -186,5 +191,6 @@ musikalisch.―</p>
             <p xml:space="preserve" rend="indent">Im Kfh. <rs type="person" xml:id="pNt_08026" ref="#person_13374"><surname>Bahr</surname></rs>, dumme Paradoxien, ein Schauspieler habe Recht, zu sagen, 
 er spiele nicht mit ― gutes Theaterstück sei, was dem Publikum gefällt.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

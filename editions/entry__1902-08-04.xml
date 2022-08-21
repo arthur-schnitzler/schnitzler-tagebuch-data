@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1902-08-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-08-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-08-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1902-08-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-08-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-08-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F369-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1700.tif"/>
@@ -182,12 +186,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1902-08-04">
-            <p xml:space="preserve"><date when="1902-08-04">4/8</date> Früh wie so oft über den <rs type="place" xml:id="pl_04046" ref="#place_da4e3775bd2de6c37fadd9b0188f7a4e">Liechtenstein</rs> zur Dampftramwaystation 
+            <p xml:space="preserve"><date when="1902-08-04">4/8</date> Früh wie so oft über den <rs type="place" xml:id="pl_04046" ref="#pmb91145">Liechtenstein</rs> zur Dampftramwaystation 
 spaziert.― Überlegungen.― Sehn ich mich nach dem Kind?― 
 Mäßig ― Viel Aerger über die zahlreichen Unbequemlichkeiten.―</p>
             <p xml:space="preserve" rend="indent">Störungen durch Kleinlichkeiten ― <rs type="person" xml:id="pNt_18807" ref="#person_19832"><forename>Olga</forename></rs> Glück ― ―</p>
             <p xml:space="preserve" rend="indent"><rs type="work" subtype="self" xml:id="bibl_18057">Roman</rs>. Thränen.―</p>
-            <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_18808" ref="#person_16293"><forename>Hugo</forename></rs>, bei <rs type="person" xml:id="pNt_18809" ref="#person_13551"><forename>Richard</forename></rs>.― Über <rs type="person" xml:id="pNt_18810" ref="#person_15529"><forename>Paul</forename> <surname>G.</surname></rs> der <rs type="person" xml:id="pNt_18811" ref="#person_20386"><forename>Liesl</forename></rs> (als sie in <rs type="place" xml:id="pl_04047" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> 
+            <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_18808" ref="#person_16293"><forename>Hugo</forename></rs>, bei <rs type="person" xml:id="pNt_18809" ref="#person_13551"><forename>Richard</forename></rs>.― Über <rs type="person" xml:id="pNt_18810" ref="#person_15529"><forename>Paul</forename> <surname>G.</surname></rs> der <rs type="person" xml:id="pNt_18811" ref="#person_20386"><forename>Liesl</forename></rs> (als sie in <rs type="place" xml:id="pl_04047" ref="#pmb168">Berlin</rs> 
 war, um sich <rs ref="#person_17649" type="person" xml:id="pNt_18812"><surname>L.</surname></rs> vorzustellen) sagte, er sei über uns hinausgewachsen.― 
 <rs type="person" xml:id="pNt_18813" ref="#person_13551"><forename>Richard</forename></rs> fühlt, er wird älter ― er wird intoleranter und gewöhnt sich 
 ab über seine Beziehungen zu andern Menschen nachzudenken.―</p>
@@ -195,6 +199,5 @@ ab über seine Beziehungen zu andern Menschen nachzudenken.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_18814" ref="#person_19542"><surname>Salten</surname></rs>, <rs type="person" xml:id="pNt_18815" ref="#person_15004"><surname>Aram</surname></rs>, <rs type="person" xml:id="pNt_18816" ref="#person_20135"><surname>Singer</surname></rs>, <rs type="person" xml:id="pNt_18817" ref="#person_19827"><forename>Jul.</forename></rs> im Victoria; Polizeigeschichten.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-12-31.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-12-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-01-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-12-31.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-12-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-01-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0A9F-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4767.tif"/>
@@ -185,14 +189,14 @@
          <div type="diary-day" xml:id="entry__1918-12-31">
             <p xml:space="preserve"><date when="1918-12-31">31/12</date> Träume: <rs type="place" xml:id="pl_11436" ref="#place_815ad963a5789b9aded59e6461ae2fb4" ana="#exclude">Kopenhagener</rs> Straße;― <rs type="person" xml:id="pNt_55071"><forename>Leo</forename></rs> ― irgendwie ist es auch 
 <rs type="person" xml:id="pNt_55072" ref="#person_13920"><surname>Brandes</surname></rs> erzählt mir, er habe ein Verhältnis mit einer Musikschülerin;― 
-sie sagte: Sie sind mir zu jung (oder zu alt);― Bahnhof ― etwa <rs type="place" xml:id="pl_11437" ref="#place_c38ad36647aca0261d667c432a4866bd">Salzburg</rs> 
+sie sagte: Sie sind mir zu jung (oder zu alt);― Bahnhof ― etwa <rs type="place" xml:id="pl_11437" ref="#pmb91649">Salzburg</rs> 
 (ich träume in der letzten Zeit sehr oft Bahnen u. dgl.) ― eilig ― stürze 
 hinauf, stehle eine <rs type="work" subtype="newspaper" xml:id="bibl_6101">Neue Fr. Presse</rs> hinaufstürzend, nehme mir vor, auf 
 der Rückreise zu zahlen,― belege Platz in der ersten mit grünem Hut, 
 wieder Perron oder Halle, Träger, auch der schwarze Hutkoffer ins 
 Coupé;― plötzlich hab ich einen grauen Hut auf ― offenbar gestohlen,― 
 ins Coupé ― Platz besetzt, noch andere kommen ― ich hoffe, einige 
-werden aussteigen;― Bühne <rs type="place" ref="#place_volkstheater">Volkstheater</rs> ― ich spiele unversehens den 
+werden aussteigen;― Bühne <rs type="place" ref="#pmb92202">Volkstheater</rs> ― ich spiele unversehens den 
 <rs type="work">Hochroitzpointner</rs>, weiß die Rolle nicht, suche die Requisiten (Protokoll 
 u. dgl.) ― Zuschauerraum halbleer; ich denke mir: Warum geben sie 
 das Stück auch Nachmittag! (Sie spielens nemlich an den Spieltagen 
@@ -201,7 +205,7 @@ Brüstung lehnend <rs type="person" xml:id="pNt_55075" ref="#person_21107"><fore
 dann, noch im Theater bin ich mit ihnen und andern gegenüber (wie 
 wenn es ein Kreis wäre), in den Sitzreihen; wir essen,― Suppe, dann 
 Mehlspeise; ich frage den (schäbigen) Kellner. Warum kein Fleisch?― 
-Er. Ja Schweinernes, aber das ist zu fett.― <rs type="place" xml:id="pl_11438" ref="#place_8bf31ab4554274338206ad700810dcbd">Taborstraße</rs>,― Auslagen mit 
+Er. Ja Schweinernes, aber das ist zu fett.― <rs type="place" xml:id="pl_11438" ref="#pmb541">Taborstraße</rs>,― Auslagen mit 
 vielen, ordinären Schuhen, aha, Gegend der Schleichhändler; hinunter 
 in eine Tiefe, Leichenkammer für Scharlachtodte, niemand da (was 
 mich nicht wundert) ich denke: ich habe keine Angst, bin ja Arzt, freue 
@@ -240,6 +244,5 @@ entgegen.― Stimmung war ganz leidlich; man ging nach zwei. <rs type="person" x
 1919</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

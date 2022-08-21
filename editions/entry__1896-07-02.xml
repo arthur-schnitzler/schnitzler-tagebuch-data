@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1896-07-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-07-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-07-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1896-07-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-07-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-07-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EB34-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1191.tif"/>
@@ -183,7 +187,7 @@
          <div type="diary-day" xml:id="entry__1896-07-02">
             <p xml:space="preserve"><date when="1896-07-02">2/7</date> Nm. mit <rs type="person" xml:id="pNt_12396" ref="#person_19150"><forename>Mz.</forename> <surname>Rh.</surname></rs> Abschied von ihr genommen. Sie weint viel; ich 
 hatte sie sehr lieb, war aber wenig ergriffen ―</p>
-            <p xml:space="preserve" rend="indent">In <rs type="place" xml:id="pl_02305" ref="#place_d32a635cff5dcc73a609d313801541d4">Verona</rs> ist bereits im März die <rs type="work" subtype="self" xml:id="bibl_21892">Liebelei</rs> ausgepfiffen worden. 
+            <p xml:space="preserve" rend="indent">In <rs type="place" xml:id="pl_02305" ref="#pmb44153">Verona</rs> ist bereits im März die <rs type="work" subtype="self" xml:id="bibl_21892">Liebelei</rs> ausgepfiffen worden. 
 <pb n="200"/>
 <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header"><fw place="top_left" type="pn">200</fw> <fw place="top_center"><date type="range">1896: VII 2 - VII 6</date></fw></tei:fw>
 Polemik zwischen dem Übersetzer und dem Recensenten im <rs type="work" subtype="newspaper" xml:id="bibl_21893">Piccolo Faust</rs>. 
@@ -191,6 +195,5 @@ Polemik zwischen dem Übersetzer und dem Recensenten im <rs type="work" subtype=
 Nachtmahl en fam. im Schweizerhaus.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-04-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-04-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-04-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-04-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-04-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-04-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1AB8-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7469.tif"/>
@@ -182,9 +186,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1930-04-16">
-            <p xml:space="preserve"><date when="1930-04-16">16/4</date> Tel. mit <rs type="person" xml:id="pNt_89452" ref="#person_18137"><forename>Dora</forename></rs> <rs type="place" xml:id="pl_19169" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>, zuerst rief ich sie, dann sie mich an. <rs type="person" xml:id="pNt_89453" ref="#person_19832"><forename>O.</forename></rs> hat 
+            <p xml:space="preserve"><date when="1930-04-16">16/4</date> Tel. mit <rs type="person" xml:id="pNt_89452" ref="#person_18137"><forename>Dora</forename></rs> <rs type="place" xml:id="pl_19169" ref="#pmb168">Berlin</rs>, zuerst rief ich sie, dann sie mich an. <rs type="person" xml:id="pNt_89453" ref="#person_19832"><forename>O.</forename></rs> hat 
 wieder Geldsorgen!! ― das hindert sie am Reisen, sonst wäre sie 
-wahrscheinlich schon fort.― <rs type="person" xml:id="pNt_89454" ref="#person_18137"><forename>Dora</forename></rs> fährt am 24. mit Gatten nach <rs type="place" xml:id="pl_19170" ref="#place_87809c954948d8a20507bee3648281b3">New York</rs>.―</p>
+wahrscheinlich schon fort.― <rs type="person" xml:id="pNt_89454" ref="#person_18137"><forename>Dora</forename></rs> fährt am 24. mit Gatten nach <rs type="place" xml:id="pl_19170" ref="#pmb44053">New York</rs>.―</p>
             <p xml:space="preserve" rend="indent">Besorgungen Stadt. Bei <rs type="org">Huber</rs> u. <rs type="institution" xml:id="pNt_89456"><surname>Lerner</surname></rs> die <rs type="person" xml:id="pNt_89457" ref="#person_21423"><surname>Wohlgemuth</surname></rs> und <rs type="person" xml:id="pNt_89458" ref="#person_21583"><roleName>Frau</roleName> <surname>v. Zsolnay</surname></rs> 
 gesprochen.―</p>
             <p xml:space="preserve" rend="indent">Beim Zahnarzt <rs type="person" xml:id="pNt_89459" ref="#person_18722"><roleName>Dr.</roleName> <surname>Peter</surname></rs>.―</p>
@@ -194,6 +198,5 @@ genachtm.― Familiensachen;― Abstammungen u. dgl.―</p>
             <p xml:space="preserve" rend="indent">Zu Haus noch in <rs type="person" xml:id="pNt_89461" ref="#person_13745"><surname>Birt’s</surname></rs> <rs type="work" xml:id="bibl_987">Von <rs type="person" xml:id="pNt_89462"><surname>Homer</surname></rs> bis <rs type="person" xml:id="pNt_89463"><surname>Sokrates</surname></rs></rs> gelesen.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

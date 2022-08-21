@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1921-08-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-08-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-08-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1921-08-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-08-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-08-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0E54-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,16 +177,17 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5493.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5494.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1921-08-07">
             <p xml:space="preserve"><date when="1921-08-07">7/8</date> S.― Erwache wieder, in tiefer Depression;― Sehnsucht nach den 
-<rs type="allusively" xml:id="rst_01832">Kindern</rs>;― nach „ …Einst“.― Angst vor <rs type="place" xml:id="pl_13252" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>, vor dem Winter.―</p>
+<rs type="allusively" xml:id="rst_01832">Kindern</rs>;― nach „ …Einst“.― Angst vor <rs type="place" xml:id="pl_13252" ref="#pmb50">Wien</rs>, vor dem Winter.―</p>
             <p xml:space="preserve" rend="indent">Um den See.― Bad.― Bei <rs type="person" xml:id="pNt_63224" ref="#person_15854"><forename>Gisa</forename></rs> zu Tisch; <rs type="person" xml:id="pNt_63225" ref="#person_17868"><roleName>Prof.</roleName> <surname>Maresch</surname></rs> (der dort wohnt).―</p>
             <p xml:space="preserve" rend="indent">Nm. matt, Kopfweh;― gelesen.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_63226" ref="#person_15854"><forename>Gisa</forename></rs> spazieren, sie erzählt mir von ihrer Novelle.―</p>
@@ -193,5 +198,6 @@ begleitet mich; spricht mir von <rs type="person" xml:id="pNt_63234"><forename>M
             <p xml:space="preserve" rend="indent">― Seewirth; <rs type="person" xml:id="pNt_63236" ref="#person_20234"><forename>Ernst</forename> <surname>Specht</surname></rs>, der Geiger <rs type="person" xml:id="pNt_63237" ref="#person_19431"><surname>Rothschild</surname></rs>.― Eine Lautenistin, mit 
 ihrem Komiker Gatten producirt sich; armseliges Los.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

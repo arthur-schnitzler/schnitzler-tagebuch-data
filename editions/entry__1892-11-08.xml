@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1892-11-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-11-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-11-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1892-11-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-11-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-11-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E606-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0653.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1892-11-08">
-            <p xml:space="preserve"><date when="1892-11-08">8. 11.</date> Böse Träume. <rs type="person" xml:id="pNt_06729" ref="#person_21047"><forename>Olga</forename></rs>, mit der ich <rs type="place" xml:id="pl_01407" ref="#place_e4d4b19346747823e5636ed1238a7521">Venedig</rs> und <rs type="place" xml:id="pl_01408" ref="#place_82f6936702948eb9d4c32f0904877053">Währingerstr.</rs> 
+            <p xml:space="preserve"><date when="1892-11-08">8. 11.</date> Böse Träume. <rs type="person" xml:id="pNt_06729" ref="#person_21047"><forename>Olga</forename></rs>, mit der ich <rs type="place" xml:id="pl_01407" ref="#pmb462">Venedig</rs> und <rs type="place" xml:id="pl_01408" ref="#pmb312">Währingerstr.</rs> 
 herumgehe, schwere Krankheiten, Spielschulden, Uebelkeit.― Bin 
 nervös, weil ich die Anbringungsmühe für meine <rs type="work" subtype="self" xml:id="bibl_22968">Novelle</rs> scheue, weil 
 die Aufführung des <rs type="work" subtype="self" xml:id="bibl_22969">Märchen</rs> ins unendliche hinausgerückt worden; 
@@ -192,6 +196,5 @@ von <rs type="person" xml:id="pNt_06730" ref="#person_15485"><forename>Mz.</fore
             <p xml:space="preserve" rend="indent">Auch finanziell kann ich mich nicht rühren.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

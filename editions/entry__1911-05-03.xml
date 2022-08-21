@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-05-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-05-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-05-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-05-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-05-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-05-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FFB3-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3147.tif"/>
@@ -182,13 +186,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1911-05-03">
-            <p xml:space="preserve"><date when="1911-05-03">3/5</date> Ankunft <rs type="place" xml:id="pl_07464" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>. Veränderungen des Hauses. Briefe. 
+            <p xml:space="preserve"><date when="1911-05-03">3/5</date> Ankunft <rs type="place" xml:id="pl_07464" ref="#pmb50">Wien</rs>. Veränderungen des Hauses. Briefe. 
 Dumm-unverschämter von <rs type="person" xml:id="pNt_35187" ref="#person_14643"><forename>Albert</forename> <surname>Ehrenstein</surname></rs>. Unverhältnismäßiger Ärger.</p>
             <p xml:space="preserve" rend="indent">― Die <rs type="allusively" xml:id="rst_01199">Kinder</rs> entzückend.―</p>
             <p xml:space="preserve" rend="indent">Gespräch mit dem Gärtnergehilfen.―</p>
             <p xml:space="preserve" rend="indent">Kopfweh etc.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

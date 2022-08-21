@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-10-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-10-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-10-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-10-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-10-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-10-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1B77-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7576.tif"/>
@@ -182,16 +186,16 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1930-10-24">
-            <p xml:space="preserve"><date when="1930-10-24">24/10</date> Vm. <rs type="person" xml:id="pNt_91003" ref="#person_19061"><forename>Sonja</forename> <surname>Rappaport-Szeniczey</surname></rs> (nach Jahren); lebt in <rs type="place" xml:id="pl_19579" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs>, ist in 
+            <p xml:space="preserve"><date when="1930-10-24">24/10</date> Vm. <rs type="person" xml:id="pNt_91003" ref="#person_19061"><forename>Sonja</forename> <surname>Rappaport-Szeniczey</surname></rs> (nach Jahren); lebt in <rs type="place" xml:id="pl_19579" ref="#pmb182">Paris</rs>, ist in 
 Scheidung;― journalistisch thätig. Erinnerungen an <rs type="person" xml:id="pNt_91004" ref="#person_13359"><forename>Stephi</forename></rs>, <rs type="person" xml:id="pNt_91005" ref="#person_21600"><forename>Mimi</forename></rs>, 
-<rs type="place" xml:id="pl_19580" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs>.</p>
+<rs type="place" xml:id="pl_19580" ref="#pmb91735">Semmering</rs>.</p>
             <p xml:space="preserve" rend="indent">Creditanstalt (<rs type="person" xml:id="pNt_91006" ref="#person_17342"><surname>Lassner</surname></rs>), u. a.</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_91007" ref="#person_15854"><forename>Gisa’</forename></rs> zu Tisch.</p>
             <p xml:space="preserve" rend="indent">Nm. las ich <rs type="person" xml:id="pNt_91008" ref="#person_14234"><forename>Suz.</forename></rs> Stück nach fast 2 Jahren wieder;― nichts damit zu 
 machen.―</p>
             <p xml:space="preserve" rend="indent">Um 6 <rs type="person" xml:id="pNt_91009" ref="#person_13547"><forename>Bubi</forename> <surname>B.-H.</surname></rs>; erzählt mir von dem widerlichen Schwindler <rs type="person" xml:id="pNt_91010" ref="#person_14335"><surname>Czinner</surname></rs>,― 
 <rs type="person" xml:id="pNt_91011" ref="#person_13643"><forename>Elisab.</forename> <surname>B.</surname></rs> (Hörigkeit ― oder „Verbrecherpaar“ ―); Erfahrung mit der 
-Filmarbeit;― <rs type="person" xml:id="pNt_91012" ref="#person_13547"><forename>Bubi</forename></rs> fährt in wenigen Tagen nach <rs type="place" xml:id="pl_19581" ref="#place_87809c954948d8a20507bee3648281b3">N. Y.</rs>; ist sehr 
+Filmarbeit;― <rs type="person" xml:id="pNt_91012" ref="#person_13547"><forename>Bubi</forename></rs> fährt in wenigen Tagen nach <rs type="place" xml:id="pl_19581" ref="#pmb44053">N. Y.</rs>; ist sehr 
 aufgeschlossen, herzlich, klug;― doch nicht „wahr“, und kaum völlig 
 normal. Will auch in meinen Angelegenheiten mit <rs type="person" xml:id="pNt_91013"><surname>Schuster</surname></rs> <rs type="person" xml:id="pNt_91014"><surname>Simon</surname></rs> sprechen, 
 sich wegen Film etc. bemühn.</p>
@@ -203,6 +207,5 @@ Einfälle zu ihrem Roman.―</p>
 aber ohne Sympathie.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

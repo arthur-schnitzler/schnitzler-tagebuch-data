@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-05-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-05-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-05-19.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-05-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-05-17.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-05-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0B29-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4843.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1919-05-18">
-            <p xml:space="preserve"><date when="1919-05-18">18/5</date> S. <rs type="place" xml:id="pl_11642" ref="#place_a513bae177c89d12226f343ac5ff1ee3">Salmannsdorf</rs> ― Dreimarkstein ― <rs type="place" xml:id="pl_11643" ref="#place_a513bae177c89d12226f343ac5ff1ee3">Salmannsdorf</rs> ― <rs type="place" xml:id="pl_11644" ref="#place_9c457f4107132ccb2d87ebf5e13f0b74">Schafberg</rs>.― 
+            <p xml:space="preserve"><date when="1919-05-18">18/5</date> S. <rs type="place" xml:id="pl_11642" ref="#pmb91641">Salmannsdorf</rs> ― Dreimarkstein ― <rs type="place" xml:id="pl_11643" ref="#pmb91641">Salmannsdorf</rs> ― <rs type="place" xml:id="pl_11644" ref="#pmb59367">Schafberg</rs>.― 
 Etwas Sonne, kalt, Hagelfälle.― Ein paar Verse zum <rs type="work" subtype="self" xml:id="bibl_4804">Weiher</rs>;― in tiefer 
 Bitternis.―</p>
             <p xml:space="preserve" rend="indent">Zu Tisch <rs type="person" xml:id="pNt_56059" ref="#person_15204"><surname>Fried</surname></rs>, <rs type="person" xml:id="pNt_56060" ref="#person_15685"><surname>Groß</surname></rs> und <rs type="person" xml:id="pNt_56061" ref="#person_20238"><surname>Specht</surname></rs>; später <rs type="person" xml:id="pNt_56062" ref="#person_20925"><forename>Leo</forename></rs>. <rs type="person" xml:id="pNt_56063" ref="#person_15685"><surname>Groß</surname></rs> spielte <rs type="person" xml:id="pNt_56064" ref="#person_15204"><surname>Fried</surname></rs> einiges 
@@ -189,6 +193,5 @@ vor, das <rs type="person" xml:id="pNt_56065" ref="#person_15204"><surname>Fr.</
             <p xml:space="preserve" rend="indent">Briefe (S ―) durchgesehn.― Häusliche Düsterkeiten.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

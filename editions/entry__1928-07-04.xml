@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-07-04.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-07-03.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-07-05.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-07-04.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-07-03.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-07-05.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-182D-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,13 +177,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7119.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7120.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1928-07-04">
             <p xml:space="preserve"><date when="1928-07-04">4/7</date> Vm. mit <rs type="person" xml:id="pNt_84121" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> <rs type="person" xml:id="pNt_84122" ref="#person_16910"><surname>Klimt</surname></rs> Ausstellung Secession; <rs type="person" xml:id="pNt_84123" ref="#person_18218"><surname>Moll</surname></rs> der Initiator 
 anfangs Cicerone.― Das symbolische noch verblaßter; die Landschaften 
@@ -190,5 +195,6 @@ noch schöner, die Portraits noch lebendiger.</p>
 <rs type="person" xml:id="pNt_84127" ref="#person_16293"><forename>Hugo</forename></rs>, der dort seine <rs type="work" xml:id="bibl_19514">Gedichte</rs> vortrug.―</p>
             <p xml:space="preserve" rend="indent">Nachtm. allein zu Haus. Da schleichen die Melancholien heran.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

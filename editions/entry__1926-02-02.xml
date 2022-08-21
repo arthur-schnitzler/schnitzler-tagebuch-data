@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-02-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-02-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-02-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-02-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-02-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-02-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-14BB-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,17 +177,19 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6621.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1926-02-02">
             <p xml:space="preserve"><date when="1926-02-02">2/2</date> Vm. dictirt <rs type="work" subtype="self" xml:id="bibl_19983">Film (Große Scene)</rs> zu Ende.―</p>
             <p xml:space="preserve" rend="indent">Nm. an der <rs type="work" subtype="self" xml:id="bibl_19984">Badner Nov.</rs>―</p>
             <p xml:space="preserve" rend="indent">Abds. <rs type="person" xml:id="pNt_77071" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> bei mir.</p>
             <p xml:space="preserve" rend="indent">Las <rs type="person" xml:id="pNt_77072" ref="#person_17697"><surname>Loti</surname></rs>, <rs type="work" xml:id="bibl_19985">letzte Tage von Peking</rs>;― einen <rs type="person" xml:id="pNt_77073" ref="#person_21130"><surname>Wedekind</surname></rs> Aufsatz von <rs type="person" xml:id="pNt_77074" ref="#person_13285"><surname>Askonas</surname></rs> (Mscrpt.).</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

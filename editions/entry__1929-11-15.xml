@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-11-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-11-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-11-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-11-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-11-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-11-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1A20-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,12 +177,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7383.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1929-11-15">
             <p xml:space="preserve" rend="indent">Z. N. <rs type="person" xml:id="pNt_88096"><forename>H.</forename> <surname>K.</surname></rs> 
 <date when="1929-11-15">15/11</date> Tel. <rs type="person" xml:id="pNt_88097" ref="#person_14234"><forename>Suz.</forename> <surname>Cl.</surname></rs> (vorher ihr Brief).</p>
@@ -186,7 +191,7 @@
 viel über <rs type="person" xml:id="pNt_88100" ref="#person_19180"><surname>Remarque</surname></rs> ― Ruhm und Einnahmen, Production.)</p>
             <p xml:space="preserve" rend="indent">Kleiner Spaziergang.</p>
             <p xml:space="preserve" rend="indent">Zu Tisch <rs type="person" xml:id="pNt_88101" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> bei mir.―</p>
-            <p xml:space="preserve" rend="indent">Gegen Abend <rs type="place" ref="#place_volkstheater">Volksth.</rs> Zu <rs type="person" xml:id="pNt_88102" ref="#person_13545"><roleName>Dr.</roleName> <surname>Beer</surname></rs>.― Übergab ihm <rs type="work" subtype="self" xml:id="bibl_713">Sommerluft</rs>. 
+            <p xml:space="preserve" rend="indent">Gegen Abend <rs type="place" ref="#pmb92202">Volksth.</rs> Zu <rs type="person" xml:id="pNt_88102" ref="#person_13545"><roleName>Dr.</roleName> <surname>Beer</surname></rs>.― Übergab ihm <rs type="work" subtype="self" xml:id="bibl_713">Sommerluft</rs>. 
 Besetzungsfragen.</p>
             <p xml:space="preserve" rend="indent">Im Theater (mit <rs type="person" xml:id="pNt_88103" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>) <rs type="person" xml:id="pNt_88104" ref="#person_20083"><surname>Sherriff</surname></rs>; <rs type="work" xml:id="bibl_714">die andere Seite</rs>, sehr interessant.― 
 <rs type="person" xml:id="pNt_88105" ref="#person_14234"><forename>Suz.</forename> <surname>Cl.</surname></rs> kam im Zwischenakt ― stellte vor. <rs type="person" xml:id="pNt_88106" ref="#person_13545"><surname>Beer</surname></rs> ― kommt gleichfalls ― 
@@ -195,5 +200,6 @@ einverstanden dass er <rs type="person" xml:id="pNt_88108"><surname>M.</surname>
 Opportunismus.</p>
             <p xml:space="preserve" rend="indent">― Mit <rs type="person" xml:id="pNt_88109" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> „Weingartl“ genachtm.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

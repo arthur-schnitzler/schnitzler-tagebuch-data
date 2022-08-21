@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1900-09-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-09-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-09-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1900-09-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-09-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-09-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F0FE-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -162,7 +166,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1589.tif"/>
@@ -171,7 +175,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1900-09-29">
-            <p xml:space="preserve"><date when="1900-09-29">29/9</date> Vorm. mit <rs type="person" xml:id="pNt_17391" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs> an der <rs type="place" xml:id="pl_03554" ref="#place_ec5faf5c37e55de32672b04a90a59b20">Donau</rs>.― Brief, sehr lieb von <rs type="person" xml:id="pNt_17392" ref="#person_14734"><forename>M.</forename> <surname>E.</surname></rs>, und
+            <p xml:space="preserve"><date when="1900-09-29">29/9</date> Vorm. mit <rs type="person" xml:id="pNt_17391" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs> an der <rs type="place" xml:id="pl_03554" ref="#pmb90538">Donau</rs>.― Brief, sehr lieb von <rs type="person" xml:id="pNt_17392" ref="#person_14734"><forename>M.</forename> <surname>E.</surname></rs>, und
 von <rs type="person" xml:id="pNt_17393" ref="#person_18137"><forename>D.</forename> <surname>Sp.</surname></rs>― Nm. ein lächerlicher Brief, nach Jahren, teleph.
 angekündigt von <rs type="person" xml:id="pNt_17394" ref="#person_19143"><forename>Else</forename> <surname>S.</surname></rs> ― ― ich solle sie heiraten, halts zu Haus nicht aus, ist
 weder in mich, noch in wen andern verliebt etc. Nachm. bei Frau <rs type="person" xml:id="pNt_17395" ref="#person_13641"><forename>Joh.</forename>
@@ -182,6 +186,5 @@ einige Stunden nahm, erzählt Ungeheuerlichkeiten von mir; es
 scheint, dass ich an dem Tod schuld bin.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

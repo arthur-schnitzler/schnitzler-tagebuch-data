@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-07-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-07-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-07-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1915-07-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-07-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-07-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-05B4-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,20 +177,22 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4077.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1915-07-20">
-            <p xml:space="preserve"><date when="1915-07-20">20/7</date> Vm. nach <rs type="place" xml:id="pl_09470" ref="#place_318e051b87a18bd62b48dc49a3318206">Hütteldorf</rs>, und auf Wegen, die ich noch nie betreten, 
-längs des <rs type="place" xml:id="pl_09471" ref="#place_1d9e3f8c25741f8cee7f9445b137c3bb">Thiergartens</rs> (soweit es nicht abgesperrt) <rs type="place" xml:id="pl_09472" ref="#place_7e53f9c95183a8ae538debe6e3266289">Stock im Weg</rs> ― <rs type="place" xml:id="pl_09473" ref="#place_3962fe91966640892c61d1838300ed1a">Ober 
+            <p xml:space="preserve"><date when="1915-07-20">20/7</date> Vm. nach <rs type="place" xml:id="pl_09470" ref="#pmb90913">Hütteldorf</rs>, und auf Wegen, die ich noch nie betreten, 
+längs des <rs type="place" xml:id="pl_09471" ref="#pmb91099">Thiergartens</rs> (soweit es nicht abgesperrt) <rs type="place" xml:id="pl_09472" ref="#pmb92553">Stock im Weg</rs> ― <rs type="place" xml:id="pl_09473" ref="#pmb91377">Ober 
 St. Veit</rs>. Wie wundersam ist eine „große Stadt“.―</p>
             <p xml:space="preserve" rend="indent">Weiter an der <rs type="work" subtype="self" xml:id="bibl_8264"><rs type="person" xml:id="pNt_45990"><surname>Cas.</surname></rs> Novelle</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_8265">Weiher</rs>.― (Skizze Scenar.) ―</p>
-            <p xml:space="preserve" rend="indent">Das Spital kommt doch nicht nach <rs type="place" xml:id="pl_09474" ref="#place_2b1d254cba3024bee234bc2183f0409c">Przeworsk</rs>, sondern nach 
-<rs type="place" xml:id="pl_09475" ref="#place_73712d3d0428c81db13497b943ee8dc6">Lemberg</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Das Spital kommt doch nicht nach <rs type="place" xml:id="pl_09474" ref="#pmb91548">Przeworsk</rs>, sondern nach 
+<rs type="place" xml:id="pl_09475" ref="#pmb46224">Lemberg</rs>.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

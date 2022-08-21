@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-01-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-01-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-01-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1931-01-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-01-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-01-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1BC8-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7627.tif"/>
@@ -182,7 +186,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1931-01-13">
             <p xml:space="preserve"><date when="1931-01-13">13/1</date> <rs type="person" xml:id="pNt_91853" ref="#person_13551"><forename>Richard</forename></rs> und <rs type="person" xml:id="pNt_91854" ref="#person_13550"><forename>Paula</forename></rs> bei mir, mit einem Telegr. <rs type="person" xml:id="pNt_91855" ref="#person_13547"><forename>Bubis</forename></rs> der zu der <rs type="work" subtype="self" xml:id="bibl_23560">Anatol</rs> 
-Première <rs type="place" xml:id="pl_19709" ref="#place_87809c954948d8a20507bee3648281b3">New York</rs> deren Regie er führt ein Gratulationstelegr. 
+Première <rs type="place" xml:id="pl_19709" ref="#pmb44053">New York</rs> deren Regie er führt ein Gratulationstelegr. 
 erbittet.―</p>
             <p xml:space="preserve" rend="indent">Um 11 <rs type="person" xml:id="pNt_91856" ref="#person_14234"><forename>Suz.</forename></rs> (nach tel. Gesprächen);― über ihre <rs type="place" xml:id="pl_19710" ref="#place_4949bd5f4356074941523ed82733267e" ana="#exclude">Pariser</rs> Reise;― wann ― ?― 
 Sie vor mir ― die <rs type="work" xml:id="bibl_23561">Corday</rs> bei <rs type="person" xml:id="pNt_91857" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> abgeben.―</p>
@@ -193,6 +197,5 @@ Sie vor mir ― die <rs type="work" xml:id="bibl_23561">Corday</rs> bei <rs type
             <p xml:space="preserve" rend="indent">Zu Haus noch mit <rs type="person" xml:id="pNt_91862" ref="#person_14234"><forename>Suz.</forename></rs> telef.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

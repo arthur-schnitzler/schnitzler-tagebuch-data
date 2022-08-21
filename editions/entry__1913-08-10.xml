@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-08-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-08-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-08-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-08-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-08-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-08-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-02F1-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3669.tif"/>
@@ -183,10 +187,9 @@
          <div type="diary-day" xml:id="entry__1913-08-10">
             <p xml:space="preserve"><date when="1913-08-10">10/8</date> Bad.―</p>
             <p xml:space="preserve" rend="indent">Nm. Segelfahrt Tramontana Hofrath, O., <rs type="person" xml:id="pNt_41343" ref="#person_14757"><surname>Engelmann</surname></rs> (Orthopäd) und Frau.―</p>
-            <p xml:space="preserve" rend="indent">Spazierg. <rs type="place" xml:id="pl_08379" ref="#place_6c4321def9c53b8e56da3d146d4c3b72">Barbana</rs> mit O., <rs type="person" xml:id="pNt_41344" ref="#person_13359"><forename>Stephi</forename></rs>, <rs type="person" xml:id="pNt_41345" ref="#person_14757"><surname>Engelmanns</surname></rs>.―</p>
+            <p xml:space="preserve" rend="indent">Spazierg. <rs type="place" xml:id="pl_08379" ref="#pmb92157">Barbana</rs> mit O., <rs type="person" xml:id="pNt_41344" ref="#person_13359"><forename>Stephi</forename></rs>, <rs type="person" xml:id="pNt_41345" ref="#person_14757"><surname>Engelmanns</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Abends mit <rs type="person" xml:id="pNt_41346" ref="#person_17205"><forename>Loni</forename> <surname>Kupelwieser</surname></rs> am Ufer.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

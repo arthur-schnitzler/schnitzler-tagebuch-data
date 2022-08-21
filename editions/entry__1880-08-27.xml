@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1880-08-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-08-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-08-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1880-08-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-08-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-08-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DDA8-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0096.tif"/>
@@ -184,9 +188,9 @@
             <p xml:space="preserve"><date when="1880-08-27">27/8</date> Freitag Mg.― Für die Ordnung in der Poesie wird es gut sein, alles 
 mittelmäßige unters schlechte, für die im Leben, auch das schlechte 
 unter das mittelmäßige zu reihen.―</p>
-            <p xml:space="preserve" rend="indent">Von gestern ist ganz unschuldig aus dem <rs type="place" xml:id="pl_00168" ref="#place_41f96c9f219c395e8304ac22401c0521">Matzleinsdorfertheater</rs> der 
+            <p xml:space="preserve" rend="indent">Von gestern ist ganz unschuldig aus dem <rs type="place" xml:id="pl_00168" ref="#pmb92393">Matzleinsdorfertheater</rs> der 
 Name <rs type="person" xml:id="pNt_00818" ref="#person_14819"><forename>Eugenie</forename></rs> einzutragen.</p>
-            <p xml:space="preserve" rend="indent">Nm.― In <rs type="place" xml:id="pl_00169" ref="#place_c2ad928214981e457405589604924059">Ischl</rs> verkehrt ich mit <rs type="person" xml:id="pNt_00819" ref="#person_15591"><forename>Otto</forename> <surname>G.</surname></rs> <rs type="person" xml:id="pNt_00820" ref="#person_16364"><forename>Richard</forename> <surname>H.</surname></rs> <rs type="person" xml:id="pNt_00821" ref="#person_14011"><forename>Emil</forename> <surname>Br.</surname></rs> 
+            <p xml:space="preserve" rend="indent">Nm.― In <rs type="place" xml:id="pl_00169" ref="#pmb213">Ischl</rs> verkehrt ich mit <rs type="person" xml:id="pNt_00819" ref="#person_15591"><forename>Otto</forename> <surname>G.</surname></rs> <rs type="person" xml:id="pNt_00820" ref="#person_16364"><forename>Richard</forename> <surname>H.</surname></rs> <rs type="person" xml:id="pNt_00821" ref="#person_14011"><forename>Emil</forename> <surname>Br.</surname></rs> 
 Letztrer hat sich aufs Lustspiel„dichten“ geworfen und bringt 
 einzelne nicht eben geistreiche aber manchmal ganz komische Scenen 
 hervor, wenn auch [immer] der Geschmacklosigkeit viel Raum 
@@ -197,6 +201,5 @@ Scenen nicht übel aneinander gereiht. Die Witze zumeist Kalauer.
 Eine Bereicherung erfährt unsre Literatur nicht.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

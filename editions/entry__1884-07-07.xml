@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1884-07-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1884-06-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1884-09-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1884-07-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1884-06-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1884-09-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DEC1-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0230.tif"/>
@@ -184,7 +188,7 @@
             <p xml:space="preserve"><date when="1884-07-07">7/7</date> Sonntag ― ein schwüler, schwerer Sommernachmittag, der 
 zudringlich über der Erde lastet und die Dinge noch widerlicher macht, 
 als sie sind ― ―</p>
-            <p xml:space="preserve" rend="indent">Ich habe neulich in <rs type="place" xml:id="pl_00406" ref="#place_0e891dbd1b1814a0cddd64e270c6ffac">V.</rs> bei <rs type="person" xml:id="pNt_02222"><surname>H.s</surname></rs> mit meinem <rs type="allusively" xml:id="rst_00042">Bruder</rs> einen Besuch 
+            <p xml:space="preserve" rend="indent">Ich habe neulich in <rs type="place" xml:id="pl_00406" ref="#pmb992">V.</rs> bei <rs type="person" xml:id="pNt_02222"><surname>H.s</surname></rs> mit meinem <rs type="allusively" xml:id="rst_00042">Bruder</rs> einen Besuch 
 gemacht. <rs type="person" xml:id="pNt_02223" ref="#person_16064"><forename>Charlotte</forename></rs> anmutig, zutraulich.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_02224" ref="#person_17014"><forename>Else</forename></rs> ist seit ziemlich lange, nachdem ich mich ziemlich lange nicht 
 um sie gekümmert weg; schickte mir Brief und Photographie; ich ließ 
@@ -197,6 +201,5 @@ keiner Seite.</p>
             <p xml:space="preserve" rend="center">September</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

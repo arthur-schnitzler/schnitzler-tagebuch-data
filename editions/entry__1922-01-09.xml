@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-01-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-01-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-01-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-01-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-01-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-01-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0EEF-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5616.tif"/>
@@ -183,8 +187,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1922-01-09">
-            <p xml:space="preserve"><date when="1922-01-09">9/1</date> Brief von <rs type="person" xml:id="pNt_64831" ref="#person_19832"><forename>O.</forename></rs>;― sie möchte wegen <rs type="person" xml:id="pNt_64832" ref="#person_14130"><forename>Lili</forename></rs> nach <rs type="place" xml:id="pl_13609" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> lieber kommen 
-als nach <rs type="place" xml:id="pl_13610" ref="#place_d0a6343a081a7335baa965ce4fd0845c">München</rs>;― über meine abweisende Haltung;― im ganzen 
+            <p xml:space="preserve"><date when="1922-01-09">9/1</date> Brief von <rs type="person" xml:id="pNt_64831" ref="#person_19832"><forename>O.</forename></rs>;― sie möchte wegen <rs type="person" xml:id="pNt_64832" ref="#person_14130"><forename>Lili</forename></rs> nach <rs type="place" xml:id="pl_13609" ref="#pmb50">Wien</rs> lieber kommen 
+als nach <rs type="place" xml:id="pl_13610" ref="#pmb45258">München</rs>;― über meine abweisende Haltung;― im ganzen 
 kluger Brief, der mich irritirte.―</p>
             <p xml:space="preserve" rend="indent"><rs type="work" subtype="self" xml:id="bibl_2268">Reigen</rs> wird vorläufig doch nicht gespielt;― <rs type="person" xml:id="pNt_64833" ref="#person_13663"><surname>Bernau</surname></rs> wurde von den 
 Parlamentariern, wo er sondirte, gewarnt … Es bleibt wie es war bei 
@@ -195,8 +199,8 @@ immer ― wohl gestützt ―</p>
             <p xml:space="preserve" rend="indent">― Der junge <rs type="person" xml:id="pNt_64834" ref="#person_18075"><surname>Menger</surname></rs>,― wie meistens einen etwas pathol. Eindruck 
 machend;― seine algebr. Entdeckungen.―</p>
             <p xml:space="preserve" rend="indent">Dictirt <rs type="work" subtype="self" xml:id="bibl_2269">Verf.</rs>―</p>
-            <p xml:space="preserve" rend="indent">Nm. Brief von <rs type="person" xml:id="pNt_64835" ref="#person_19832"><forename>O.</forename></rs> ― sie möchte ihren Geburtstag mit mir, ev. <rs type="place" xml:id="pl_13611" ref="#place_c2ad928214981e457405589604924059">Ischl</rs> 
-― oder <rs type="place" xml:id="pl_13612" ref="#place_661f4200c3f047474d1df224f62f0503">Aussee</rs> verbringen ― allein, sich aussprechen. Einige Stellen 
+            <p xml:space="preserve" rend="indent">Nm. Brief von <rs type="person" xml:id="pNt_64835" ref="#person_19832"><forename>O.</forename></rs> ― sie möchte ihren Geburtstag mit mir, ev. <rs type="place" xml:id="pl_13611" ref="#pmb213">Ischl</rs> 
+― oder <rs type="place" xml:id="pl_13612" ref="#pmb415">Aussee</rs> verbringen ― allein, sich aussprechen. Einige Stellen 
 lassen fast auf Einsicht schließen ― aber jetzt fängt es eben an 
 bequemer zu werden, Einsicht zu haben. Immerhin bewegte mich der 
 Brief sehr.―</p>
@@ -213,6 +217,5 @@ Meinung über die innre „Bösheit“ der „Expressionisten“ und in der
 Liebe zu <rs type="person" xml:id="pNt_64844" ref="#person_15894"><surname>Hamsun</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

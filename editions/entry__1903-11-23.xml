@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1903-11-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-11-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-11-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1903-11-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-11-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-11-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F53A-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1866.tif"/>
@@ -180,10 +184,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1903-11-23">
-            <p xml:space="preserve"><date when="1903-11-23">23/11</date> Vm. Dr. <rs type="person" xml:id="pNt_20443" ref="#person_13546"><forename>Th.</forename> <surname>Beer</surname></rs> getroffen, der sich am <rs type="place" xml:id="pl_04530" ref="#place_cc610f9eb29c95079ad238a42870cf2e">Genfer See</rs> eine Villa 
+            <p xml:space="preserve"><date when="1903-11-23">23/11</date> Vm. Dr. <rs type="person" xml:id="pNt_20443" ref="#person_13546"><forename>Th.</forename> <surname>Beer</surname></rs> getroffen, der sich am <rs type="place" xml:id="pl_04530" ref="#pmb512">Genfer See</rs> eine Villa 
 gekauft hat.― Bei <rs type="person" xml:id="pNt_20444" ref="#person_19542"><surname>Salten</surname></rs>. Über sein <rs type="work" subtype="self" xml:id="bibl_17880">Reigen</rs> Feuilleton und <rs type="person" xml:id="pNt_20445" ref="#person_19724"><surname>Schlenther</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

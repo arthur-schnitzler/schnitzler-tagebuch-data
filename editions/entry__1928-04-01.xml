@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-04-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-03-31.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-04-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-04-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-03-31.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-04-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-17CF-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7063.tif"/>
@@ -182,7 +186,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1928-04-01">
             <p xml:space="preserve"><date when="1928-04-01">1/4</date> S. Vm. getrödelt;― ein wenig am „<rs type="work" subtype="self" xml:id="bibl_19280">Spiel d. S.</rs>“ ― ; 
-<rs type="place" xml:id="pl_17862" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs>.</p>
+<rs type="place" xml:id="pl_17862" ref="#pmb113">Türkenschanzpark</rs>.</p>
             <p xml:space="preserve" rend="indent">Zu Tisch <rs type="person" xml:id="pNt_83403" ref="#person_16362"><forename>Lotte</forename> <surname>Horn</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. am „<rs type="work" subtype="self" xml:id="bibl_19281">Abenteurer</rs>“.―</p>
             <p xml:space="preserve" rend="indent">Das erste (und bisher einzige) Romancapitel des <rs type="work" subtype="self" xml:id="bibl_19282">Theaterromans</rs> durchgelesen; 
@@ -191,6 +195,5 @@ nicht schlecht aber so kaum zu brauchen.</p>
 geführt ― das Resultat bei mir war eigentlich nur Ungeduld.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

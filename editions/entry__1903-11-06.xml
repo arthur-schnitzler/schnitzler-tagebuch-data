@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1903-11-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-11-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-11-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1903-11-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-11-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-11-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F529-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1861.tif"/>
@@ -180,9 +184,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1903-11-06">
-            <p xml:space="preserve"><date when="1903-11-06">6/11</date> Mit O. auf den <rs type="place" xml:id="pl_04516" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs>. Spaziergang. <rs type="person" xml:id="pNt_20389" ref="#person_15266"><rs type="person" xml:id="pNt_20389a" ref="#person_15269"><roleName>Hr.</roleName> und <roleName>Frau</roleName> <surname>Fröhlich</surname></rs></rs> ―</p>
+            <p xml:space="preserve"><date when="1903-11-06">6/11</date> Mit O. auf den <rs type="place" xml:id="pl_04516" ref="#pmb91735">Semmering</rs>. Spaziergang. <rs type="person" xml:id="pNt_20389" ref="#person_15266"><rs type="person" xml:id="pNt_20389a" ref="#person_15269"><roleName>Hr.</roleName> und <roleName>Frau</roleName> <surname>Fröhlich</surname></rs></rs> ―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

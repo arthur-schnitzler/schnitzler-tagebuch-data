@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1903-05-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-05-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-05-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1903-05-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-05-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-05-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F488-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1811.tif"/>
@@ -180,7 +184,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1903-05-24">
-            <p xml:space="preserve"><date when="1903-05-24">24/5</date> S. Vm. mit O. <rs type="place" xml:id="pl_04278" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs>.― Bei <rs type="person" xml:id="pNt_19847" ref="#person_15855"><surname>Hajek</surname></rs> gegessen.―</p>
+            <p xml:space="preserve"><date when="1903-05-24">24/5</date> S. Vm. mit O. <rs type="place" xml:id="pl_04278" ref="#pmb169">Pötzleinsdorf</rs>.― Bei <rs type="person" xml:id="pNt_19847" ref="#person_15855"><surname>Hajek</surname></rs> gegessen.―</p>
             <p xml:space="preserve" rend="indent">Nm. bei <rs type="person" xml:id="pNt_19848"><forename>Grethel</forename></rs>.― Abds. mit <rs type="allusively" xml:id="rst_00367">Mama</rs> bei O.― O. war von <rs type="person" xml:id="pNt_19849"><surname>Salten</surname></rs> und Frau 
 abgeholt worden und kam erst ein paar Minuten später mit ihnen; fuhr im 
 Fiaker an, <rs type="person" xml:id="pNt_19850"><surname>S.</surname></rs> zwischen <rs type="person" xml:id="pNt_19851" ref="#person_19543"><forename>Otti</forename></rs> und O. Ich war ziemlich grundlos wüthend 
@@ -190,6 +194,5 @@ weiteres. Es ist wirklich bedrohlich, dass mich das geringste so maßlos
 gegen sie aufbringt.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

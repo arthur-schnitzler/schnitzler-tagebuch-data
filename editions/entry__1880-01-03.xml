@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-   xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
-   xml:id="entry__1880-01-03.xml"
-   prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-01-02.xml"
-   next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-01-04.xml">
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1880-01-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-01-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-01-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -93,8 +93,7 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI"
-               >http://hdl.handle.net/21.11115/0000-000B-DD05-7</tei:idno>
+            <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DD05-7</tei:idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -176,7 +175,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0011.tif"/>
@@ -186,7 +185,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1880-01-03">
             <p xml:space="preserve"><date when="1880-01-03">3/1</date> Samstag Morgens. Gestern wandelten wir wieder bei Wind und 
-Thau nahe den grauen Fluten der <rs type="place" xml:id="pl_00028" ref="#place_ec5faf5c37e55de32672b04a90a59b20">Donau</rs> am <rs type="place" xml:id="pl_00029" ref="#place_ff5db51a55c58fe398ca41aa0d41250c">Franz-Josefs-Quai</rs> 
+Thau nahe den grauen Fluten der <rs type="place" xml:id="pl_00028" ref="#pmb90538">Donau</rs> am <rs type="place" xml:id="pl_00029" ref="#pmb92241">Franz-Josefs-Quai</rs> 
 herum. Sie war merkwürdig still, besonders anfänglich ― mit einem 
 Male oder vielmehr nach und nach übertrug sich ihre Stimmung auf 
 mich ― sie war lustiger geworden. Es war ganz dunkel; ein närrischer 
@@ -204,6 +203,5 @@ Stiegen herunter, und oben klimperte die Prosa ― und wir mußten scheiden.</p>
             <p xml:space="preserve" rend="indent">― Abends.― ― und wenn dir beim Lesen des Aegidius, wenngleich du ihn „wunderschön“ fandest, manches gewagt vorkam, wenn dich bei den leidenschaftlichen Stellen, wie du selbst gestandest, eine gewisse Angst vor mir ankam - so hast du Recht, denn du bist ein Mädchen.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

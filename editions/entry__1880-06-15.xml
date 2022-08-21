@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1880-06-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-06-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-06-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1880-06-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-06-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1880-06-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DD74-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0075.tif"/>
@@ -182,11 +186,10 @@
       <body>
          <div type="diary-day" xml:id="entry__1880-06-15">
             <p xml:space="preserve"><date when="1880-06-15">15/6</date> Dinstag Abd.― <rs type="person" xml:id="pNt_00575" ref="#person_14386"><forename>Eugens</forename></rs> Bruder <rs type="person" xml:id="pNt_00576" ref="#person_14390"><forename>Marino</forename></rs> ist gestorben. Den Vmg. 
-im <rs type="place" xml:id="pl_00106" ref="#place_d3c577dc993c4cc879206c93d7ccb668">Augarten</rs>; mit <rs type="person" xml:id="pNt_00577" ref="#person_15054"><surname>Flotow</surname></rs> im Weinhaus. Abds. ein paar Worte mit 
+im <rs type="place" xml:id="pl_00106" ref="#pmb124">Augarten</rs>; mit <rs type="person" xml:id="pNt_00577" ref="#person_15054"><surname>Flotow</surname></rs> im Weinhaus. Abds. ein paar Worte mit 
 <rs type="person" xml:id="pNt_00578" ref="#person_17368"><forename>Fany</forename></rs>. Lustigkeit ― Unzufriedenheit ― Ekel ― Sehnsucht ― Hohn ― 
 Hoffnung ― Flachheit.― Unbedingt eine Veränderung vonnöten.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

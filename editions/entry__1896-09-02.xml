@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1896-09-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-09-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-09-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1896-09-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-09-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-09-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EB69-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1238.tif"/>
@@ -182,13 +186,12 @@
       <body>
          <div type="diary-day" xml:id="entry__1896-09-02">
             <p xml:space="preserve"><date when="1896-09-02">2/9</date> Wieder mit <rs type="person" xml:id="pNt_12712" ref="#person_19150"><forename>Mz.</forename> <surname>Rh.</surname></rs> Nm. zusammen, in der früh ein verspäteter 
-Brief von <rs type="person" xml:id="pNt_12713" ref="#person_15485"><forename>Mz. I</forename></rs> <rs type="place" xml:id="pl_02465" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>. Im ganzen befänd ich mich jetzt seelisch wohl, 
+Brief von <rs type="person" xml:id="pNt_12713" ref="#person_15485"><forename>Mz. I</forename></rs> <rs type="place" xml:id="pl_02465" ref="#pmb168">Berlin</rs>. Im ganzen befänd ich mich jetzt seelisch wohl, 
 wenn nicht der Gedanke an <rs type="person" xml:id="pNt_12714" ref="#person_15485"><forename>Mz. I</forename></rs> mich quält, resp. daran dass sie 
 leidet.― Heute hatte ich auch einen guten Glauben an mich, erzählte 
 <rs type="person" xml:id="pNt_12715" ref="#person_15485"><forename>Mz.</forename></rs> manche Pläne; wie ich Nachts 2. Akt <rs type="work" subtype="self" xml:id="bibl_21941">Freiwild</rs> las, schwankte er 
 wieder beträchtlich.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

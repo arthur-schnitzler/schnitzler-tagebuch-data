@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-11-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-11-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-11-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-11-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-11-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-11-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0070-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3268.tif"/>
@@ -184,7 +188,7 @@
          <div type="diary-day" xml:id="entry__1911-11-08">
             <p xml:space="preserve"><date when="1911-11-08">8/11</date> <rs type="person" xml:id="pNt_36601" ref="#person_19827"><forename>Julius</forename></rs> und <rs type="person" xml:id="pNt_36602" ref="#person_19823"><forename>Helene</forename></rs>, deren Anwesenheit uns sehr erfreut hatte, 
 reisen ab. Bahn. Dann mit O. ein wenig spazieren.</p>
-            <p xml:space="preserve" rend="indent">Nm. nach <rs type="place" xml:id="pl_07689" ref="#place_0911883f4c8d51899c2ce7dbfc48c185">Stellingen</rs>, <rs type="place" ref="#place_hagenbeck">Thierpark von Hagenbeck</rs>.</p>
+            <p xml:space="preserve" rend="indent">Nm. nach <rs type="place" xml:id="pl_07689" ref="#pmb49212">Stellingen</rs>, <rs type="place" ref="#pmb478">Thierpark von Hagenbeck</rs>.</p>
             <p xml:space="preserve" rend="indent">Abends kam <rs type="person" xml:id="pNt_36604" ref="#person_17573"><surname>Lindner</surname></rs> ins Hotel; er denkt nun doch dran, nach <rs type="person" xml:id="pNt_36605" ref="#person_15009"><surname>Fischers</surname></rs> 
 Vorschlag, das Buch über mich zu schreiben ― ich verhalte mich 
 kühl. Immerhin ist <rs type="person" xml:id="pNt_36606"><surname>L.</surname></rs> einer der wenigen, die nicht mit den 
@@ -203,6 +207,5 @@ erschießt ― oder was …“. Die Idee wurde aufgegriffen, auch hier zum
 „<rs type="work" xml:id="bibl_11280">Tänzchen</rs>“ „<rs type="work" subtype="self" xml:id="bibl_11281">Comtesse Mizi</rs>“ zu geben, mit der <rs type="person" xml:id="pNt_36620" ref="#person_14734"><surname>Elsinger</surname></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

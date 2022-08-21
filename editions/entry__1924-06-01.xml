@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1924-06-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-05-31.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-06-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1924-06-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-05-31.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-06-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1258-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6274.tif"/>
@@ -181,14 +185,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1924-06-01">
-            <p xml:space="preserve"><date when="1924-06-01">1/6</date> S. Vm. mit <rs ref="#person_21602" type="person" xml:id="pNt_72379"><forename>Viki</forename></rs> <rs type="place" xml:id="pl_15398" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> <rs type="place" xml:id="pl_15399" ref="#place_a513bae177c89d12226f343ac5ff1ee3">Salmannsdorf</rs> ― Hameau (über die 
+            <p xml:space="preserve"><date when="1924-06-01">1/6</date> S. Vm. mit <rs ref="#person_21602" type="person" xml:id="pNt_72379"><forename>Viki</forename></rs> <rs type="place" xml:id="pl_15398" ref="#pmb169">Pötzleinsdorf</rs> <rs type="place" xml:id="pl_15399" ref="#pmb91641">Salmannsdorf</rs> ― Hameau (über die 
 <rs type="work" subtype="self" xml:id="bibl_21087">Hierarchie des Worts (mein Diagramm)</rs>); dort <rs type="person" xml:id="pNt_72380" ref="#person_13305"><surname>Auernheimer</surname></rs>, mit beiden 
-gegen die <rs type="place" xml:id="pl_15400" ref="#place_b900112ce988d972bc2d561413e84979">Sofienalpe</rs> ― <rs type="place" xml:id="pl_15401" ref="#place_c79ad839f84019f53250a4e6365359f9">Neuwaldegg</rs>. (Über den Titel zu <rs type="work" subtype="self" xml:id="bibl_21088">meinem Stück</rs>.)</p>
+gegen die <rs type="place" xml:id="pl_15400" ref="#pmb92533">Sofienalpe</rs> ― <rs type="place" xml:id="pl_15401" ref="#pmb170">Neuwaldegg</rs>. (Über den Titel zu <rs type="work" subtype="self" xml:id="bibl_21088">meinem Stück</rs>.)</p>
             <p xml:space="preserve" rend="indent">Nm. ziemlich vertrödelt.―</p>
             <p xml:space="preserve" rend="indent">Z. N. <rs type="person" xml:id="pNt_72381" ref="#person_16462"><forename>Hans</forename> <surname>Jacob</surname></rs> und Frau, auf der Terrasse. Über <rs type="person" xml:id="pNt_72382" ref="#person_18981"><surname>Proust</surname></rs>, Associationen, 
 Illusionen etc.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

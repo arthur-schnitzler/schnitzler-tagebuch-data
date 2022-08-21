@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-05-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-05-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-05-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FB76-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2505.tif"/>
@@ -180,7 +184,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1908-05-13">
-            <p xml:space="preserve"><date when="1908-05-13">13/5</date> Mit <rs type="person" xml:id="pNt_28243" ref="#person_13925"><surname>Brann</surname></rs> (und O.) <rs type="place" xml:id="pl_06310" ref="#place_5d0770456fbd6f86ec07eec5318b6d78">engl. Garten</rs>;</p>
+            <p xml:space="preserve"><date when="1908-05-13">13/5</date> Mit <rs type="person" xml:id="pNt_28243" ref="#person_13925"><surname>Brann</surname></rs> (und O.) <rs type="place" xml:id="pl_06310" ref="#pmb90589">engl. Garten</rs>;</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_28244" ref="#person_13925"><surname>Brann</surname></rs> speiste bei uns im Hotel</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_28245" ref="#person_17266"><roleName>Graf</roleName> <surname>Lanckoronski</surname></rs> unser Tisch, taktlos laut, dumm über die <rs type="person" xml:id="pNt_28246"><surname>Wahrmundaffaire</surname></rs>.</p>
             <p xml:space="preserve" rend="indent">Gepackt.― Noch im Warenhaus <rs type="person" xml:id="pNt_28247"><surname>Tietz</surname></rs> mit O.</p>
@@ -188,6 +192,5 @@
             <p xml:space="preserve" rend="indent">mit <rs type="person" xml:id="pNt_28248" ref="#person_13925"><surname>Brann</surname></rs> im Künstlerhaus gegessen. Abreise.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

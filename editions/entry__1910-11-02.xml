@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-11-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-11-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-11-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-11-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-11-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-11-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FEFD-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3018.tif"/>
@@ -193,7 +197,7 @@ machen ― 3 Bilder dazu gedichtet. Probe: letztes Bild … 1. 2. 3.― ―</p>
             </tei:fw>
             <p xml:space="preserve" rend="indent">Das „<rs type="work" subtype="self" xml:id="bibl_12090">W. Land</rs>“ von der Censur zurück, ein paar „sittliche Striche“ ― 
 Mit <rs type="person" xml:id="pNt_33821" ref="#person_13624"><surname>Berger</surname></rs> und <rs type="person" xml:id="pNt_33822" ref="#person_19364"><surname>Rosenbaum</surname></rs> über Termin etc.―</p>
-            <p xml:space="preserve" rend="indent">Gegen Abend <rs type="person" xml:id="pNt_33823" ref="#person_17965"><forename>E.</forename> <surname>Matern</surname></rs> (<rs type="place" xml:id="pl_07275" ref="#place_6a04ba950c68304cb108b9ddb2dc5727">Moskau</rs>).―</p>
+            <p xml:space="preserve" rend="indent">Gegen Abend <rs type="person" xml:id="pNt_33823" ref="#person_17965"><forename>E.</forename> <surname>Matern</surname></rs> (<rs type="place" xml:id="pl_07275" ref="#pmb91304">Moskau</rs>).―</p>
             <p xml:space="preserve" rend="indent">Brief an <rs type="person" xml:id="pNt_33824" ref="#person_16293"><forename>Hugo</forename></rs> abgesandt.―</p>
             <p xml:space="preserve" rend="indent">Zu lesen begonnen <rs type="person" xml:id="pNt_33825" ref="#person_21406"><surname>Wittels</surname></rs> „<rs type="work" xml:id="bibl_12091">Ezechiel</rs>“ ― das mir der Autor gesandt, 
 um ein Gutachten meinerseits zu provociren, ob es als Schlüsselroman 
@@ -202,6 +206,5 @@ eines Prozesses gegen <rs type="person" xml:id="pNt_33827" ref="#person_21406"><
             <p xml:space="preserve" rend="indent">Fortdauerndes Übelbefinden.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

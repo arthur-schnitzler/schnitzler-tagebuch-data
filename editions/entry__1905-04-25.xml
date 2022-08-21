@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-04-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-04-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-04-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-04-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-04-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-04-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F740-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2070.tif"/>
@@ -180,11 +184,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1905-04-25">
-            <p xml:space="preserve"><date when="1905-04-25">25/4</date> Vm. dictirt (<rs type="work" subtype="self" xml:id="bibl_15670">Vaterm.</rs>) ― <rs type="person" xml:id="pNt_22789" ref="#person_17958"><forename>Paul</forename> <surname>M.</surname></rs> aus <rs type="place" xml:id="pl_05159" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> auf der Reise nach 
-<rs type="place" xml:id="pl_05160" ref="#place_9fed5dae86e3030d9be3740efa198659">Budapest</rs> da; speiste mit uns, Spazierg. Abend.</p>
+            <p xml:space="preserve"><date when="1905-04-25">25/4</date> Vm. dictirt (<rs type="work" subtype="self" xml:id="bibl_15670">Vaterm.</rs>) ― <rs type="person" xml:id="pNt_22789" ref="#person_17958"><forename>Paul</forename> <surname>M.</surname></rs> aus <rs type="place" xml:id="pl_05159" ref="#pmb168">Berlin</rs> auf der Reise nach 
+<rs type="place" xml:id="pl_05160" ref="#pmb43471">Budapest</rs> da; speiste mit uns, Spazierg. Abend.</p>
             <p xml:space="preserve" rend="indent">― An der <rs type="work" subtype="self" xml:id="bibl_15671">Vatermörderin</rs>; Schwierigkeiten des 3. Aktes.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

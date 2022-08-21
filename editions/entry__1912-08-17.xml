@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-08-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-08-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-08-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-018B-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,12 +177,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3461.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1912-08-17">
             <p xml:space="preserve"><date when="1912-08-17">17/8</date> <rs type="person" xml:id="pNt_38629" ref="#person_17444"><roleName>Dr.</roleName> <surname>Lenz</surname></rs>. Bad.―</p>
             <p xml:space="preserve" rend="indent">Tiefer gehendes Gespräch mit Olga.</p>
@@ -189,8 +194,9 @@
 erzählt. (Abenteurernatur. Sentimental. Weltreisen. Das Telegramm 
 des Freundes: „Bubi todt. Leichenbegängnis unumgänglich notwendig. 
 Sonst Cigarrenkiste. Schlamastik.―“ Signale. <rs type="person" xml:id="pNt_38632" ref="#person_21601"><surname>Zuckerkandl</surname></rs> wirft ein: 
-Und wir glauben „Krieg mit <rs type="place" xml:id="pl_07999" ref="#place_389962c9dec540ab28d04517e82c3996">Italien</rs>“. Selbstmordversuch der Mutter. 
+Und wir glauben „Krieg mit <rs type="place" xml:id="pl_07999" ref="#pmb40306">Italien</rs>“. Selbstmordversuch der Mutter. 
 Nachspringen <rs type="person" xml:id="pNt_38633"><forename>Kazis</forename></rs>.―)</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

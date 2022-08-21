@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1892-07-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-06-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-07-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1892-07-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-06-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-07-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E586-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0622.tif"/>
@@ -182,12 +186,11 @@
       <body>
          <div type="diary-day" xml:id="entry__1892-07-01">
             <p xml:space="preserve"><date when="1892-07-01">1/7</date> Vorm. <rs type="person" xml:id="pNt_06390" ref="#person_15485"><forename>Mz.</forename></rs> ― Abds. nach dem Th. mit ihr soup.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" ref="#place_leidinger">Leidinger</rs> ― <rs type="person" xml:id="pNt_06392" ref="#person_13611"><surname>Bératon</surname></rs>; der jüd. lyrische Tenor <rs type="person" xml:id="pNt_06393" ref="#person_20304"><surname>St.</surname></rs>, Aufschneider, 
+            <p xml:space="preserve" rend="indent"><rs type="place" ref="#pmb42">Leidinger</rs> ― <rs type="person" xml:id="pNt_06392" ref="#person_13611"><surname>Bératon</surname></rs>; der jüd. lyrische Tenor <rs type="person" xml:id="pNt_06393" ref="#person_20304"><surname>St.</surname></rs>, Aufschneider, 
 eingebildet, mit einem Stich ins semitisch bürgerliche.― Die <rs type="person" xml:id="pNt_06394" ref="#person_19070"><surname>Rauch</surname></rs> 
 und noch eine Ballet. Hübsche Erzählung der <rs type="person" xml:id="pNt_06395" ref="#person_19070"><surname>Rauch</surname></rs> über die 
 <rs type="person" xml:id="pNt_06396" ref="#person_19721"><surname>Schleinzer</surname></rs> und <rs type="person" xml:id="pNt_06397" ref="#person_14932"><surname>Felix</surname></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

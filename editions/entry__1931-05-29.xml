@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-05-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-05-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-05-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1931-05-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-05-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-05-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1C4F-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,25 +177,27 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7708.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7709.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1931-05-29">
             <p xml:space="preserve"><date when="1931-05-29">29/5</date> Früh <rs type="person" xml:id="pNt_92973" ref="#person_16277"><roleName>Dr.</roleName> <surname>Hoffmann</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Vm. Besorgungen; zu <rs ref="#person_14482" type="person" xml:id="pNt_92974"><forename>Ferry</forename></rs> in die Herzstation. <rs type="person" xml:id="pNt_92975" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> war gestern bei ihm 
 gewesen, mit den alten Klagen über mich.</p>
-            <p xml:space="preserve" rend="indent">― Zu Tisch (mit <rs type="person" xml:id="pNt_92976" ref="#person_19822"><forename>Heini</forename></rs>) <rs type="person" xml:id="pNt_92977" ref="#person_18793"><roleName>Dr.</roleName> <surname>Pietrkowski</surname></rs> aus <rs type="place" xml:id="pl_19924" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>. (Politisches.) Garten.―</p>
+            <p xml:space="preserve" rend="indent">― Zu Tisch (mit <rs type="person" xml:id="pNt_92976" ref="#person_19822"><forename>Heini</forename></rs>) <rs type="person" xml:id="pNt_92977" ref="#person_18793"><roleName>Dr.</roleName> <surname>Pietrkowski</surname></rs> aus <rs type="place" xml:id="pl_19924" ref="#pmb168">Berlin</rs>. (Politisches.) Garten.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_92978" ref="#person_14234"><forename>Suz.</forename></rs> ruft an; aergerlich über eine Karte <rs type="person" xml:id="pNt_92979" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> die als Dank für die von <rs type="person" xml:id="pNt_92980" ref="#person_14234"><forename>Suz.</forename></rs> 
 und zugleich Entschuldigung für ihren Mann kam.―</p>
             <p xml:space="preserve" rend="indent">Der Nachm. wie gewöhnlich.</p>
             <p xml:space="preserve" rend="indent">Z. N. (mit <rs type="person" xml:id="pNt_92981" ref="#person_19822"><forename>Heini</forename></rs>) <rs type="person" xml:id="pNt_92982" ref="#person_15412"><surname>Geyer</surname></rs>, <rs type="person" xml:id="pNt_92983" ref="#person_13551"><forename>Richard</forename></rs> <rs type="person" xml:id="pNt_92984" ref="#person_13550"><forename>Paula</forename></rs>, <rs type="person" xml:id="pNt_92985" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> ― Mit <rs type="person" xml:id="pNt_92986" ref="#person_15412"><surname>Geyer</surname></rs> über Aufführung 
-<rs type="work" subtype="self" xml:id="bibl_23782">W. L.</rs> in der <rs type="place" xml:id="pl_19925" ref="#place_a9a988302086229505c21f885134919d">Josefstadt</rs> nächstes Jahr. Über <rs type="work" subtype="self" xml:id="bibl_23783">Liebelei</rs> Besetzung und <rs type="work" subtype="self" xml:id="bibl_23784">Ltnt. 
+<rs type="work" subtype="self" xml:id="bibl_23782">W. L.</rs> in der <rs type="place" xml:id="pl_19925" ref="#pmb58">Josefstadt</rs> nächstes Jahr. Über <rs type="work" subtype="self" xml:id="bibl_23783">Liebelei</rs> Besetzung und <rs type="work" subtype="self" xml:id="bibl_23784">Ltnt. 
 Gustl</rs>. Dies alles noch unentschieden. Wir aßen auf der Terrasse. Ich befand 
 mich sehr wenig wohl.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-04-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-04-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-04-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-04-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-04-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-04-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-09A9-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4629.tif"/>
@@ -191,13 +195,12 @@
                </fw>
             </tei:fw>
             <p xml:space="preserve" rend="indent">Zum Thee <rs type="person" xml:id="pNt_53083" ref="#person_19227"><forename>Gerty v.</forename> <surname>L.</surname></rs>―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_53084" ref="#person_13663"><roleName>Director</roleName> <surname>Bernau</surname></rs> (Kammerspiele, vom August an <rs type="place" ref="#place_volkstheater">Volkstheater</rs>) ― sympathisch. 
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_53084" ref="#person_13663"><roleName>Director</roleName> <surname>Bernau</surname></rs> (Kammerspiele, vom August an <rs type="place" ref="#pmb92202">Volkstheater</rs>) ― sympathisch. 
 Über „<rs type="work" subtype="self" xml:id="bibl_5535">Schwestern</rs>“ „<rs type="work" subtype="self" xml:id="bibl_5536">Bernhardi</rs>“ „<rs type="work" subtype="self" xml:id="bibl_5537">Weites Land</rs>“ hinsichtlich Aufführung 
 nächstes Jahr; Festspiele, <rs type="place" xml:id="pl_10982" ref="#place_50e7fee43672ab5849a6d99f48c6ad7c" ana="#exclude">oesterr.</rs> Cyclus.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_53085" ref="#person_16927"><roleName>Hr.</roleName> <surname>Knappe</surname></rs> (unsrer einstigen <rs type="person" xml:id="pNt_53086" ref="#person_16928"><forename>Hedwig</forename></rs> Mann), über Stimmungen im Volk.―</p>
             <p xml:space="preserve" rend="indent">Las <rs type="work" xml:id="bibl_5538">Gil Blas</rs> zu Ende, mit viel Vergnügen.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

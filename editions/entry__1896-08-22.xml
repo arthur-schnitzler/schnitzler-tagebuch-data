@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1896-08-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-08-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-08-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1896-08-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-08-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-08-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EB5E-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1230.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1896-08-22">
-            <p xml:space="preserve"><date when="1896-08-22">22/8</date> <rs type="place" xml:id="pl_02448" ref="#place_226e71f7dbaedcb5e25a3998ca43db21">Kopenhagen</rs> ― <rs type="place" xml:id="pl_02449" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> ― über <rs type="place" xml:id="pl_02450" ref="#place_0b8f1fe33701f2ff2861663311e37202">Warnemünde</rs>.― Gelesen. <rs type="work" xml:id="bibl_21917">Wahrheit 
+            <p xml:space="preserve"><date when="1896-08-22">22/8</date> <rs type="place" xml:id="pl_02448" ref="#pmb36300">Kopenhagen</rs> ― <rs type="place" xml:id="pl_02449" ref="#pmb168">Berlin</rs> ― über <rs type="place" xml:id="pl_02450" ref="#pmb49158">Warnemünde</rs>.― Gelesen. <rs type="work" xml:id="bibl_21917">Wahrheit 
 und Dichtung</rs>.― <rs type="work" xml:id="bibl_21918">Goldner Esel</rs>.― Innerlich „<rs type="work" subtype="self" xml:id="bibl_21919">Wittwer</rs>“ als Schauspiel 
 überdacht.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

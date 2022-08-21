@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-10-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-10-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-10-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-10-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-10-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-10-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-117D-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,24 +177,26 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6132.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1923-10-26">
             <p xml:space="preserve"><date when="1923-10-26">26/10</date> Bth. Gen. Pr. <rs type="person" xml:id="pNt_70539" ref="#person_18206"><surname>Mohr</surname></rs> <rs type="work" xml:id="bibl_2084">Improvisationen im Juni</rs>. Viel gute 
 Einfälle, bizarre Züge; im ganzen war es mir, wegen seiner 
 praetentiösen Art und vielfacher Abgeschmacktheiten und 
 Unselbständigkeiten nicht sympathisch. Mit <rs type="person" xml:id="pNt_70540" ref="#person_19542"><surname>Salten</surname></rs>, der es sehr 
 schätzt (weil er es dem Bth. empfohlen ― nicht umgekehrt) nach 
-Haus.― <rs type="person" xml:id="pNt_70541" ref="#person_19615"><forename>Alice</forename> <surname>Schalek</surname></rs> erzählt mir über meine Popularität in <rs type="place" xml:id="pl_15130" ref="#place_53a577bb3bc587b0c28ab808390f1c9b">Japan</rs>, die 
+Haus.― <rs type="person" xml:id="pNt_70541" ref="#person_19615"><forename>Alice</forename> <surname>Schalek</surname></rs> erzählt mir über meine Popularität in <rs type="place" xml:id="pl_15130" ref="#pmb318">Japan</rs>, die 
 Aufführungen der <rs type="work" subtype="self" xml:id="bibl_2085">Liebelei</rs> etc.</p>
             <p xml:space="preserve" rend="indent">― Mit <rs type="person" xml:id="pNt_70542" ref="#person_19822"><forename>Heini</forename></rs> Nm. bei <rs type="person" xml:id="pNt_70543" ref="#person_19756"><surname>Schmidls</surname></rs>. <rs type="person" xml:id="pNt_70544" ref="#person_20872"><forename>Agnes</forename></rs>.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_70545" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Abend bei mir.―</p>
             <p xml:space="preserve" rend="indent">Neulich mit <rs type="person" xml:id="pNt_70546" ref="#person_19822"><forename>Heini</forename></rs> <rs type="person" xml:id="pNt_70547" ref="#person_21432"><forename>Hugo</forename> <surname>Wolfs</surname></rs> <rs type="work" xml:id="bibl_2086">Penthesilea</rs> und <rs type="work" xml:id="bibl_2087">Ital. Serenade</rs>.―</p>
             <p xml:space="preserve" rend="indent">Gestern <rs type="person" xml:id="pNt_70548" ref="#person_19088"><roleName>Hr.</roleName> <surname>Reclam</surname></rs> wegen Universalbibl.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

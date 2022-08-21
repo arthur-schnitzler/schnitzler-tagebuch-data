@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-02-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-02-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-02-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-02-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-02-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-02-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0F14-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5651.tif"/>
@@ -183,14 +187,14 @@
       <body>
          <div type="diary-day" xml:id="entry__1922-02-15">
             <p xml:space="preserve"><date when="1922-02-15">15/2</date> Burgth. General Pr. <rs ref="#person_18225" type="person" xml:id="pNt_65248"><surname>Molnar</surname></rs> <rs type="work" xml:id="bibl_2347">Theater</rs>, zwei Einakter.― Viel Talent, viel 
-Sketsch, viel <rs type="place" xml:id="pl_13666" ref="#place_9fed5dae86e3030d9be3740efa198659">Budapest</rs>.― <rs type="person" xml:id="pNt_65249" ref="#person_18079"><roleName>Gf.</roleName> <surname>Mensdorff</surname></rs> erzählt mir von <rs type="place" xml:id="pl_13667" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs> (das erste Mal 
+Sketsch, viel <rs type="place" xml:id="pl_13666" ref="#pmb43471">Budapest</rs>.― <rs type="person" xml:id="pNt_65249" ref="#person_18079"><roleName>Gf.</roleName> <surname>Mensdorff</surname></rs> erzählt mir von <rs type="place" xml:id="pl_13667" ref="#pmb182">Paris</rs> (das erste Mal 
 dort seit dem Krieg; <rs type="person" xml:id="pNt_65250" ref="#person_21328"><surname>Wildgans</surname></rs>, auch seine Rede hatte bei der <rs type="person" xml:id="pNt_65251" ref="#person_18214"><surname>Molièrefeier</surname></rs> 
 sehr gewirkt; ich mög es ihm bestellen).―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_65252" ref="#person_13551"><forename>Richard</forename></rs> und <rs type="person" xml:id="pNt_65253" ref="#person_13550"><forename>Paula</forename></rs>. <rs type="person" xml:id="pNt_65254" ref="#person_13551"><forename>Richard</forename></rs> möchte, um in einer Filmangelegenheit zu 
-verhandeln, nach <rs type="place" xml:id="pl_13668" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> fahren; ich widerrathe;― lieber brieflich,― 
+verhandeln, nach <rs type="place" xml:id="pl_13668" ref="#pmb168">Berlin</rs> fahren; ich widerrathe;― lieber brieflich,― 
 hinausgeworfnes Geld, nur seine Neigung sich Ausreden zu verschaffen, um 
 nicht zu arbeiten; ich dictire ihm Briefentwurf,― er möchte doch 
-nach <rs type="place" xml:id="pl_13669" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> ― so geht das ermüdend zwei Stunden lang ― und ich habe eine 
+nach <rs type="place" xml:id="pl_13669" ref="#pmb168">Berlin</rs> ― so geht das ermüdend zwei Stunden lang ― und ich habe eine 
 Ausrede nicht zu arbeiten ― und <hi xmlns:tei="http://www.tei-c.org/ns/1.0" rend="italicised">ordne</hi> … Bald bin ich so weit dass ich 
 überhaupt nichts mehr finden werde.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_65255" ref="#person_19822"><forename>Heini</forename></rs> n. d. N. ein <rs type="person" xml:id="pNt_65256" ref="#person_13914"><surname>Brahmsquartett</surname></rs>, das ihn trotz Bewunderung ganz kalt 
@@ -201,6 +205,5 @@ Stellung der neuen Generation zu <rs type="person" xml:id="pNt_65258" ref="#pers
 Verdrossenheit … u. s. w.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

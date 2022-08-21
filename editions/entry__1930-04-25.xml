@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-04-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-04-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-04-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-04-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-04-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-04-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1AC1-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7474.tif"/>
@@ -181,15 +185,14 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1930-04-25">
-            <p xml:space="preserve"><date when="1930-04-25">25/4</date> Vm. mit <rs type="person" xml:id="pNt_89524" ref="#person_14234"><forename>Suz.</forename></rs> beim „Apollo“ zusammengetroffen, mit ihr <rs type="place" xml:id="pl_19186" ref="#place_971d9360a377fa82fd2640a5119b1112">Schönbrunn</rs>. 
+            <p xml:space="preserve"><date when="1930-04-25">25/4</date> Vm. mit <rs type="person" xml:id="pNt_89524" ref="#person_14234"><forename>Suz.</forename></rs> beim „Apollo“ zusammengetroffen, mit ihr <rs type="place" xml:id="pl_19186" ref="#pmb92518">Schönbrunn</rs>. 
 Palmenhaus, Alleen. (Stunden, die gleich als unvergesslich geboren 
 werden.) ―</p>
-            <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_89525" ref="#person_15855"><surname>Hajek’s</surname></rs> (aus <rs type="place" xml:id="pl_19187" ref="#place_6f4e3516ea738ef16c51614925de4154">Edlach</rs> zurück). Deutete <rs type="person" xml:id="pNt_89526" ref="#person_15854"><forename>Gisa</forename></rs> die neue Situation an …―</p>
+            <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_89525" ref="#person_15855"><surname>Hajek’s</surname></rs> (aus <rs type="place" xml:id="pl_19187" ref="#pmb470">Edlach</rs> zurück). Deutete <rs type="person" xml:id="pNt_89526" ref="#person_15854"><forename>Gisa</forename></rs> die neue Situation an …―</p>
             <p xml:space="preserve" rend="indent">Abds. mit <rs type="person" xml:id="pNt_89527" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Kino (Apollo);― Tonf.: <rs type="work" xml:id="bibl_1009">Blauer Engel</rs> (nach <rs type="work" xml:id="bibl_1010">Prof. Unrath</rs>) 
 (<rs type="person" xml:id="pNt_89528" ref="#person_16504"><surname>Jannings</surname></rs>, <rs type="person" xml:id="pNt_89529" ref="#person_14447"><forename>Marlene</forename> <surname>Dietrich</surname></rs>); im ganzen unleidlich.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_89530" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> „Weingartl“.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

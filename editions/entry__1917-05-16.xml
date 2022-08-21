@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1917-05-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-05-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-05-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1917-05-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-05-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-05-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-084E-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4463.tif"/>
@@ -184,7 +188,7 @@
          <div type="diary-day" xml:id="entry__1917-05-16">
             <p xml:space="preserve"><date when="1917-05-16">16/5</date> Schlechte Nacht ― spät eingeschlafen ― vor Verzweiflung über mein 
 Ohrgedröhn geweint.― Morgens Einkäufe, Telegramme ― Zimmerbestellung 
-in <rs type="place" xml:id="pl_10523" ref="#place_ee73439f8e5bd57e3d0375ed174b4c76">Gastein</rs> für heute etc.― nach Hause kommend find ich ein Telegr. von 
+in <rs type="place" xml:id="pl_10523" ref="#pmb521">Gastein</rs> für heute etc.― nach Hause kommend find ich ein Telegr. von 
 <rs type="person" xml:id="pNt_50607" ref="#person_21602"><forename>Vicki</forename></rs>: „<rs type="person" xml:id="pNt_50608" ref="#person_13359"><forename>Stephi</forename></rs> heute früh an Veronal-Morphium Vergiftung gestorben <rs type="person" xml:id="pNt_50609" ref="#person_21600"><forename>Mimi</forename></rs> 
 sehr verzweifelt aber körperlich gesund <rs type="person" xml:id="pNt_50610" ref="#person_13355"><forename>Ama</forename></rs> vorbereitet wird es wohl ganz 
 gut überstehen.“ ― Ins Zimmer ― Olga sucht mit <rs type="person" xml:id="pNt_50611" ref="#person_19823"><forename>Helene</forename></rs> und <rs ref="#person_14481" type="person" xml:id="pNt_50612"><forename>Annie</forename></rs> eben 
@@ -192,7 +196,7 @@ Stoffe aus ― ich rufe zuerst <rs type="person" xml:id="pNt_50613" ref="#person
 Erschütterung ― und doch nicht ― wie man glauben sollte ― wir sahn es 
 zu sehr voraus.―</p>
             <p xml:space="preserve" rend="indent">Packen, Mittag,― wir sitzen in der Halle ― <rs type="person" xml:id="pNt_50614" ref="#person_19827"><forename>Julius</forename></rs> etc. begleiten uns 
-auf die Bahn, wir fahren nach <rs type="place" xml:id="pl_10524" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> ― reden im Coupé viel von <rs type="person" xml:id="pNt_50615" ref="#person_13359"><forename>Stephi</forename></rs> 
+auf die Bahn, wir fahren nach <rs type="place" xml:id="pl_10524" ref="#pmb50">Wien</rs> ― reden im Coupé viel von <rs type="person" xml:id="pNt_50615" ref="#person_13359"><forename>Stephi</forename></rs> 
 ― der Erfüllung eines Schicksals ― der Familie ― dem Schuldantheil 
 <rs type="person" xml:id="pNt_50616" ref="#person_20892"><surname>U.’s</surname></rs>, sind uns beide klar, daß wirs noch nicht völlig fassen.</p>
             <pb n="45"/>
@@ -208,6 +212,5 @@ u. a.) ― zu Bett ― und muß mir gestehen ― schwerer von meinem
 Ohrenleiden bedrückt als von <rs type="person" xml:id="pNt_50619" ref="#person_13359"><forename>Stephis</forename></rs> Tod.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

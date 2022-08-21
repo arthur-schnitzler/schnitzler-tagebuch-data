@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1889-09-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-09-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-09-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1889-09-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-09-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1889-09-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E1AD-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0409.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1889-09-06">
-            <p xml:space="preserve"><date when="1889-09-06">6.</date> mit <rs type="person" xml:id="pNt_03922" ref="#person_15485"><forename>Mz.</forename></rs> <rs type="place" xml:id="pl_00866" ref="#place_908933d2ee8da1864993a5ad1d533780">Nlgb.</rs>― Wirtshaus… Bei <rs type="person" xml:id="pNt_03923" ref="#person_16022"><forename>J.</forename></rs> Scene (1).</p>
+            <p xml:space="preserve"><date when="1889-09-06">6.</date> mit <rs type="person" xml:id="pNt_03922" ref="#person_15485"><forename>Mz.</forename></rs> <rs type="place" xml:id="pl_00866" ref="#pmb55279">Nlgb.</rs>― Wirtshaus… Bei <rs type="person" xml:id="pNt_03923" ref="#person_16022"><forename>J.</forename></rs> Scene (1).</p>
             <pb n="276"/>
             <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header">
                <fw place="top_left" type="pageNum">276</fw>
@@ -191,6 +195,5 @@
             </tei:fw>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

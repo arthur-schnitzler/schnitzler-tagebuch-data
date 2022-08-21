@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-11-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-10-31.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-11-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-11-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-10-31.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-11-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1737-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6982.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1927-11-01">
-            <p xml:space="preserve"><date when="1927-11-01">1/11</date> Vm. Spaziergang (allein ― was nicht so übel war!) <rs type="place" xml:id="pl_17680" ref="#place_4eccc29620e7bfd13d3e8f6f024426fe">Leopoldsberg</rs>, 
+            <p xml:space="preserve"><date when="1927-11-01">1/11</date> Vm. Spaziergang (allein ― was nicht so übel war!) <rs type="place" xml:id="pl_17680" ref="#pmb59364">Leopoldsberg</rs>, 
 wechselnd sonniges Herbstwetter ―</p>
             <p xml:space="preserve" rend="indent">Nm. am „<rs type="work" subtype="self" xml:id="bibl_24777">Nachf.</rs>“, und am „<rs type="work" subtype="self" xml:id="bibl_24778">Wort</rs>“.―</p>
             <p xml:space="preserve" rend="indent">Z. N. <rs type="person" xml:id="pNt_82080" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> da. Las ihr <rs type="work" subtype="self" xml:id="bibl_24779">Autobiogr.</rs>, Cap. V vor.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

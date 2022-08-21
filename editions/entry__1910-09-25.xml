@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-09-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-09-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-09-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-09-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-09-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-09-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FED7-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2991.tif"/>
@@ -183,7 +187,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1910-09-25">
             <p xml:space="preserve"><date when="1910-09-25">25/9</date> S. Vm. nach einem Sorgengespräch mit O.; Spaziergang 
-<rs type="place" xml:id="pl_07237" ref="#place_75f2e194839d6ba0e5d4080c211a449a">Dornbacher Park</rs>. Trüber Herbsttag.</p>
+<rs type="place" xml:id="pl_07237" ref="#pmb176">Dornbacher Park</rs>. Trüber Herbsttag.</p>
             <p xml:space="preserve" rend="indent">― Nm. durchsah ich meine Einakterszenarien. Einfall, die 3, die 
 vorläufig unter den Namen „<rs type="work" subtype="self" xml:id="bibl_11976">Komödiant</rs> … <rs type="work" subtype="self" xml:id="bibl_11977">Komödiantin</rs> … 
 <rs type="work" subtype="self" xml:id="bibl_11978">Schauspielerstück</rs>“ gehn, als Cyclus „<rs type="work" subtype="self" xml:id="bibl_11979">Lügenwelt</rs>“ zusammenzufassen, 
@@ -199,6 +203,5 @@ Ausgaben unsre Einnahmen 2-3fach. Geht’s so weiter, so sind in 2-3
 Jahren Schulden, der Ruin unausbleiblich.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

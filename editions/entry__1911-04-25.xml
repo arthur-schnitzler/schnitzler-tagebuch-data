@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-04-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-04-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-04-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-04-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-04-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-04-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FFAB-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3144.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1911-04-25">
-            <p xml:space="preserve"><date when="1911-04-25">25/4</date> Reise (über <rs type="place" xml:id="pl_07456" ref="#place_5c3bb83961c60315165392ebd7410e6f">Ala</rs> ― <rs type="place" xml:id="pl_07457" ref="#place_3859ff9074d497ed0cb3c08be85996ad">Bozen</rs>―) <rs type="place" xml:id="pl_07458" ref="#place_d0a6343a081a7335baa965ce4fd0845c">München</rs>. Auf der Fahrt „<rs type="work" xml:id="bibl_10945">Stilpe</rs>“ von 
+            <p xml:space="preserve"><date when="1911-04-25">25/4</date> Reise (über <rs type="place" xml:id="pl_07456" ref="#pmb90204">Ala</rs> ― <rs type="place" xml:id="pl_07457" ref="#pmb40260">Bozen</rs>―) <rs type="place" xml:id="pl_07458" ref="#pmb45258">München</rs>. Auf der Fahrt „<rs type="work" xml:id="bibl_10945">Stilpe</rs>“ von 
 <rs type="person" xml:id="pNt_35123" ref="#person_13726"><surname>Bierbaum</surname></rs> gelesen. Hotel Jahreszeiten.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

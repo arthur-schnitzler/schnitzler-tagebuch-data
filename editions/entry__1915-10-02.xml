@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-10-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-10-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-10-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1915-10-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-10-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-10-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-05FE-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4110.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1915-10-02">
-            <p xml:space="preserve"><date when="1915-10-02">2/10</date> Traum: <rs type="person" xml:id="pNt_46441" ref="#person_13359"><forename>Stephi</forename></rs>, aus <rs type="place" xml:id="pl_09606" ref="#place_73712d3d0428c81db13497b943ee8dc6">L.</rs> zurück, in ein Concert, gar nicht hübsch, 
+            <p xml:space="preserve"><date when="1915-10-02">2/10</date> Traum: <rs type="person" xml:id="pNt_46441" ref="#person_13359"><forename>Stephi</forename></rs>, aus <rs type="place" xml:id="pl_09606" ref="#pmb46224">L.</rs> zurück, in ein Concert, gar nicht hübsch, 
 ich sage ihr, dass sie gut aussieht; sie: „Ich hab mich auch noch nie so 
 gut unterhalten ―“</p>
             <p xml:space="preserve" rend="indent">Begleite <rs type="person" xml:id="pNt_46442" ref="#person_14130"><forename>Lili</forename></rs> in die Schule.Die 6jährigen Kinder in den Bänken.― ― 
@@ -194,6 +198,5 @@ die an ihrem Gott verzweifeln.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_46447" ref="#person_21602"><forename>Vicki</forename></rs> und <rs type="person" xml:id="pNt_46448" ref="#person_19755"><forename>Hugo</forename> <surname>Schmidl</surname></rs> zum Nachtm., ein kleines Poker nachher.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

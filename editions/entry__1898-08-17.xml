@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1898-08-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-08-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-08-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1898-08-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-08-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-08-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EE30-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1450.tif"/>
@@ -182,9 +186,8 @@
       <body>
          <div type="diary-day" xml:id="entry__1898-08-17">
             <p xml:space="preserve"><date when="1898-08-17">17/8</date> Tour du lac (mit <rs type="allusively" xml:id="rst_00277">Schwager</rs>, <rs type="allusively" xml:id="rst_00278">Schwester</rs> und <rs type="person" xml:id="pNt_15544" ref="#person_16293"><forename>Hugo</forename></rs>) ― <rs type="person" xml:id="pNt_15545" ref="#person_16293"><forename>Hugo</forename></rs> in 
-<rs type="place" xml:id="pl_02988" ref="#place_13708c657f137acd3b2ec03ec45dfb3a">Montreux</rs> Abschied.― Lese <rs type="work" xml:id="bibl_18740">Lyhne</rs> und <rs type="person" xml:id="pNt_15546" ref="#person_17169"><surname>Kürnberger</surname></rs> <rs type="work" xml:id="bibl_18741">Aufs.</rs>―</p>
+<rs type="place" xml:id="pl_02988" ref="#pmb91284">Montreux</rs> Abschied.― Lese <rs type="work" xml:id="bibl_18740">Lyhne</rs> und <rs type="person" xml:id="pNt_15546" ref="#person_17169"><surname>Kürnberger</surname></rs> <rs type="work" xml:id="bibl_18741">Aufs.</rs>―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

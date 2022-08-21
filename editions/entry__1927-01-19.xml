@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-01-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-01-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-01-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-01-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-01-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-01-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1619-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,20 +177,22 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6795.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1927-01-19">
             <p xml:space="preserve"><date when="1927-01-19">19/1</date> Vm. bei <rs type="person" xml:id="pNt_79613" ref="#person_19832"><forename>O.</forename></rs> in der Pension. Ausführl. Gespräch über <rs type="person" xml:id="pNt_79614" ref="#person_14130"><forename>Lili</forename></rs>, <rs ref="#person_14129" type="person" xml:id="pNt_79615"><forename>Cap.</forename></rs>; 
-<rs type="place" xml:id="pl_17087" ref="#place_e4d4b19346747823e5636ed1238a7521">Venedig</rs>, Zukunft. „Mir bricht das Herz, wenn ich denke, dass du in deinem 
+<rs type="place" xml:id="pl_17087" ref="#pmb462">Venedig</rs>, Zukunft. „Mir bricht das Herz, wenn ich denke, dass du in deinem 
 Haus allein leben sollst.“ (Nicht ganz ohne Nebengedanken ausgesprochen.―) 
 Ihre Bereitschaft, von ihrer Rente ein drittel <rs type="person" xml:id="pNt_79616" ref="#person_14130"><forename>Lili</forename></rs> abzutreten, sie braucht 
 durchschnittlich das doppelte ihrer Rente.― „Ist es nicht gemütlich bei mir ―“</p>
             <p xml:space="preserve" rend="indent">Nm. den <rs type="work" subtype="self" xml:id="bibl_24074">Louisenhof</rs> Einakter vorgenommen ― für den mir die leichte Hand 
 offenbar nicht mehr zu Gebote steht … <rs type="work" subtype="self" xml:id="bibl_24075">Aphoristisches</rs>. Den <rs type="work" subtype="self" xml:id="bibl_24076">Landsknecht</rs> hin und her erwogen.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

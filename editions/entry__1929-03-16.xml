@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-03-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-03-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-03-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-03-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-03-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-03-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-192C-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,17 +177,18 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7254.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1929-03-16">
-            <p xml:space="preserve"><date when="1929-03-16">16/3</date> <rs type="place" xml:id="pl_18547" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>. Dr. <rs type="person" xml:id="pNt_86171" ref="#person_13384"><forename>Béla</forename> <surname>Balazs</surname></rs> im Hotel; Filmangelegenheiten; Vorschläge.―</p>
+            <p xml:space="preserve"><date when="1929-03-16">16/3</date> <rs type="place" xml:id="pl_18547" ref="#pmb168">Berlin</rs>. Dr. <rs type="person" xml:id="pNt_86171" ref="#person_13384"><forename>Béla</forename> <surname>Balazs</surname></rs> im Hotel; Filmangelegenheiten; Vorschläge.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_86172" ref="#person_18137"><forename>Dora</forename></rs> holt mich ab. Spaziergang.</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_86173" ref="#person_19832"><forename>O.</forename></rs> zu Tisch, dort <rs ref="#person_15253" type="person" xml:id="pNt_86174"><forename>Ephr.</forename> <surname>Frisch</surname></rs> (der hieher übersiedeln will (aus 
-<rs type="place" xml:id="pl_18548" ref="#place_d0a6343a081a7335baa965ce4fd0845c">München</rs>)), <rs type="person" xml:id="pNt_86175" ref="#person_20602"><forename>Georg</forename> <surname>Szell</surname></rs> (genesen nach langer Ischias), <rs type="person" xml:id="pNt_86176" ref="#person_19822"><forename>Heini</forename></rs>, <rs type="person" xml:id="pNt_86177" ref="#person_13139"><forename>Ruth</forename></rs>, 
+<rs type="place" xml:id="pl_18548" ref="#pmb45258">München</rs>)), <rs type="person" xml:id="pNt_86175" ref="#person_20602"><forename>Georg</forename> <surname>Szell</surname></rs> (genesen nach langer Ischias), <rs type="person" xml:id="pNt_86176" ref="#person_19822"><forename>Heini</forename></rs>, <rs type="person" xml:id="pNt_86177" ref="#person_13139"><forename>Ruth</forename></rs>, 
 <rs type="person" xml:id="pNt_86178" ref="#person_17958"><forename>Paul</forename> <surname>M.</surname></rs>―</p>
             <p xml:space="preserve" rend="indent">Im Hotel getrödelt, bei recht mäßigem Befinden.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_86179" ref="#person_19832"><forename>O.</forename></rs> Kino, „<rs type="work" xml:id="bibl_203">Asphalt</rs>“ (<rs type="person" xml:id="pNt_86180" ref="#person_20383"><forename>Albert</forename> <surname>Steinrück</surname></rs> spielt einen Oberstwachmeister) 
@@ -191,5 +196,6 @@ dummer Film.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_86181" ref="#person_19832"><forename>O.</forename></rs> und <rs type="person" xml:id="pNt_86182" ref="#person_19822"><forename>Heini</forename></rs> in der Weinstube <rs type="institution" xml:id="pNt_86183"><surname>Lanzsch</surname></rs> genachtm.― Mit <rs type="person" xml:id="pNt_86184" ref="#person_19822"><forename>Heini</forename></rs> über 
 Sommerreisen. <rs type="person" xml:id="pNt_86185" ref="#person_19832"><forename>O.</forename></rs> in düsterster Stimmung, weinend und stumm.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

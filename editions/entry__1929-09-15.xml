@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-09-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-09-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-09-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-09-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-09-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-09-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-19E3-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7353.tif"/>
@@ -182,13 +186,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1929-09-15">
-            <p xml:space="preserve"><date when="1929-09-15">15/9</date> S. <rs type="place" xml:id="pl_18914" ref="#place_07746ef3772ea6e718f5cd3a37681d92">Marienbad</rs>. Frühstück Kurgarten, mit <rs type="person" xml:id="pNt_87634" ref="#person_13551"><forename>Richard</forename></rs>. (Über den 
+            <p xml:space="preserve"><date when="1929-09-15">15/9</date> S. <rs type="place" xml:id="pl_18914" ref="#pmb91211">Marienbad</rs>. Frühstück Kurgarten, mit <rs type="person" xml:id="pNt_87634" ref="#person_13551"><forename>Richard</forename></rs>. (Über den 
 „Helden“ in <rs type="work" subtype="self" xml:id="bibl_579">meiner Typologie</rs>;― er sei ohne Legende nicht möglich.―)</p>
             <p xml:space="preserve" rend="indent">Spazierg. Rübezahl, Hochwald etc., Panorama ― im Hotel gegessen.</p>
             <p xml:space="preserve" rend="indent">Zu müd Nachmittag.― Brief an <rs type="person" xml:id="pNt_87635" ref="#person_18137"><forename>Dora</forename></rs>.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_87636" ref="#person_13551"><forename>Rich.</forename></rs> und <rs type="person" xml:id="pNt_87637" ref="#person_13550"><forename>Paula</forename></rs> Neptun genachtm.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

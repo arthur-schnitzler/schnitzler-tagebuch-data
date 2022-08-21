@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-09-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-09-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-09-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-09-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-09-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-09-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0B94-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4916.tif"/>
@@ -184,8 +188,8 @@
          <div type="diary-day" xml:id="entry__1919-09-03">
             <p xml:space="preserve"><date when="1919-09-03">3/9</date> Vm. dictirt <rs type="work" subtype="self" xml:id="bibl_5016">autobiogr.</rs>―</p>
             <p xml:space="preserve" rend="indent">Nm. getrödelt und gepackt ― unsicher, ob ich morgen, wie beabsichtigt 
-<rs type="place" xml:id="pl_11854" ref="#place_d1bbe5c82af588aa9fd6e5f65d6acab3">Reichenau</rs> fahren kann, da Strike.</p>
-            <p xml:space="preserve" rend="indent">Abends in den <rs type="place" xml:id="pl_11855" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs> ―, auf einer Bank, in bittern, 
+<rs type="place" xml:id="pl_11854" ref="#pmb91574">Reichenau</rs> fahren kann, da Strike.</p>
+            <p xml:space="preserve" rend="indent">Abends in den <rs type="place" xml:id="pl_11855" ref="#pmb113">Türkenschanzpark</rs> ―, auf einer Bank, in bittern, 
 hoffnungslosen Thränen. Wenn einem das Herz in der Jugend weh thut ― 
 was für eine schöne wehmütige, gewissermaßen elegante Angelegenheit 
 ― aber wenn mans einmal physisch zu spüren anfängt ― aus mit der 
@@ -193,6 +197,5 @@ Eleganz.―</p>
             <p xml:space="preserve" rend="indent">Nachhause;― von <rs type="person" xml:id="pNt_56825" ref="#person_14130"><forename>Lilis</forename></rs> Holdheit tief bewegt.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

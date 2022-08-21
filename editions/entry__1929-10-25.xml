@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-10-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-10-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-10-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-10-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-10-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-10-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1A0B-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7371.tif"/>
@@ -181,14 +185,14 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1929-10-25">
-            <p xml:space="preserve"><date when="1929-10-25">25/10</date> Vm. telegr. <rs type="place" xml:id="pl_18956" ref="#place_e884124295d0c4d07d9bcf5096fd5495">Amerika</rs>; [scheinen] wieder Schwierigkeiten mit Film;― 
+            <p xml:space="preserve"><date when="1929-10-25">25/10</date> Vm. telegr. <rs type="place" xml:id="pl_18956" ref="#pmb43406">Amerika</rs>; [scheinen] wieder Schwierigkeiten mit Film;― 
 Telegr. etc.―</p>
             <p xml:space="preserve" rend="indent">Vor dem Radiobüro finanz.-polit. Gespräch mit <rs type="person" xml:id="pNt_87891" ref="#person_18424"><roleName>Reg. R.</roleName> <surname>Neumann</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Gegen zwölf zu <rs type="person" xml:id="pNt_87892" ref="#person_14234"><forename>S.</forename> <surname>Cl.</surname></rs>;― zum ersten Mal. Altes Haus,― der Familie 
 gehörig.― Ich sagte ihr: am stärksten in mir sei das Gefühl, 
 lächerlich zu sein. Und doch war es eine schöne Stunde.</p>
-            <p xml:space="preserve" rend="indent">― Zu Tisch bei <rs type="person" xml:id="pNt_87893" ref="#person_17784"><forename>Alma</forename></rs> und <rs type="person" xml:id="pNt_87894" ref="#person_21243"><surname>Werfel</surname></rs>. <rs type="person" xml:id="pNt_87895" ref="#person_21080"><forename>Bruno</forename> <surname>Walter</surname></rs> und Frau. Viel von <rs type="place" xml:id="pl_18957" ref="#place_e884124295d0c4d07d9bcf5096fd5495">Amerika</rs> 
-(<rs type="place" xml:id="pl_18958" ref="#place_1ac441036f927b9815ba1137464ee064">Hollywood</rs>, <rs type="place" xml:id="pl_18959" ref="#place_f4334fdfa1c728eae375fe781e2e2d9d">S. Francisco</rs>);― viel über <rs type="person" xml:id="pNt_87896" ref="#person_16293"><forename>Hugo</forename></rs>;― über histor. 
+            <p xml:space="preserve" rend="indent">― Zu Tisch bei <rs type="person" xml:id="pNt_87893" ref="#person_17784"><forename>Alma</forename></rs> und <rs type="person" xml:id="pNt_87894" ref="#person_21243"><surname>Werfel</surname></rs>. <rs type="person" xml:id="pNt_87895" ref="#person_21080"><forename>Bruno</forename> <surname>Walter</surname></rs> und Frau. Viel von <rs type="place" xml:id="pl_18957" ref="#pmb43406">Amerika</rs> 
+(<rs type="place" xml:id="pl_18958" ref="#pmb38174">Hollywood</rs>, <rs type="place" xml:id="pl_18959" ref="#pmb38216">S. Francisco</rs>);― viel über <rs type="person" xml:id="pNt_87896" ref="#person_16293"><forename>Hugo</forename></rs>;― über histor. 
 Notwendigkeit u. dgl.― Ich wunderte mich selbst über die Lebendigkeit 
 meiner Repliken;― dabei welche Verstörung und Zerstörung, 
 Zwangsängste.―</p>
@@ -196,6 +200,5 @@ Zwangsängste.―</p>
 genachtm.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

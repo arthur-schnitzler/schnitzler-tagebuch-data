@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-10-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-10-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-10-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-10-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-10-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-10-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1720-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6966.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1927-10-09">
-            <p xml:space="preserve"><date when="1927-10-09">9/10</date> S.― <rs type="work" subtype="self" xml:id="bibl_24710">Roman-Corr.</rs>― Spazierg. mit <rs type="person" xml:id="pNt_81855" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> <rs type="place" xml:id="pl_17633" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs>.</p>
+            <p xml:space="preserve"><date when="1927-10-09">9/10</date> S.― <rs type="work" subtype="self" xml:id="bibl_24710">Roman-Corr.</rs>― Spazierg. mit <rs type="person" xml:id="pNt_81855" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> <rs type="place" xml:id="pl_17633" ref="#pmb113">Türkenschanzpark</rs>.</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_24711">Roman</rs> „Schluss“ der Corr.― Am „<rs type="work" subtype="self" xml:id="bibl_24712">Wort</rs>“ gefeilt. Novellenstoffe 
 durchgesehn. Schwere Stimmung, vor allem in Gedanken an <rs type="person" xml:id="pNt_81856" ref="#person_19832"><forename>O.</forename></rs></p>
             <p xml:space="preserve" rend="indent">Z. N. war <rs type="person" xml:id="pNt_81857" ref="#person_19832"><forename>O.</forename></rs>, <rs type="person" xml:id="pNt_81858" ref="#person_16362"><forename>Lotte</forename> <surname>Horn</surname></rs> und <rs type="person" xml:id="pNt_81859" ref="#person_18063"><surname>Menczels</surname></rs> da. <rs type="person" xml:id="pNt_81860" ref="#person_19832"><forename>O.</forename></rs> sprach mit <rs type="person" xml:id="pNt_81861"><roleName>Dr.</roleName> <surname>M.</surname></rs> (allein) 
@@ -190,6 +194,5 @@ durchgesehn. Schwere Stimmung, vor allem in Gedanken an <rs type="person" xml:id
 Prinz</rs>) über soc. Zustände, Trägheit des Herzens, unser Aller Mitschuld.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

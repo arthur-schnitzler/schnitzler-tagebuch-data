@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-03-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-03-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-03-31.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-03-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-03-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-03-31.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-03D9-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,13 +177,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3802.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3803.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1914-03-30">
             <p xml:space="preserve"><date when="1914-03-30">30/3</date> Vm. Briefe dictirt und geschrieben.―</p>
             <p xml:space="preserve" rend="indent">― Nm. <rs type="person" xml:id="pNt_43215" ref="#person_19986"><forename>Gustav</forename></rs>; er erzählt mir, dass ich (Jänner) von <rs type="person" xml:id="pNt_43216" ref="#person_13699"><surname>Bettelheim</surname></rs> mit 
@@ -200,5 +205,6 @@ festzuhalten; doch vielleicht als Typus.―</p>
             <p xml:space="preserve" rend="indent">Mit O. bei <rs type="person" xml:id="pNt_43220" ref="#person_13305"><surname>Auernheimers</surname></rs>; <rs type="person" xml:id="pNt_43221" ref="#person_21107"><surname>Wassermann</surname></rs>; <rs type="person" xml:id="pNt_43222" ref="#person_21600"><forename>Mimi</forename></rs>, <rs type="person" xml:id="pNt_43223" ref="#person_20532"><surname>Stringa</surname></rs>; <rs type="person" xml:id="pNt_43224" ref="#person_15134"><roleName>Hofr.</roleName> <surname>Frankfurter</surname></rs>; 
 <rs type="person" xml:id="pNt_43225" ref="#person_15781"><forename>Leonie</forename></rs>. Auch <rs type="person" xml:id="pNt_43226" ref="#person_13305"><surname>Auernh.</surname></rs> erzählt mir heute den <rs type="person" xml:id="pNt_43227"><surname>Grillparzer</surname></rs> Vorschlag.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

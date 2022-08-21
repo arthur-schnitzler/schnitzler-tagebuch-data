@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-01-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-01-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-01-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1906-01-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-01-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-01-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F850-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2182.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1906-01-22">
-            <p xml:space="preserve"><date when="1906-01-22">22/1</date> <rs type="place" xml:id="pl_05427" ref="#place_60960432acfa4972c8f13dd89a872920">Breslau</rs>. Savoy. Im alten <rs type="place" xml:id="pl_05428" ref="#place_60960432acfa4972c8f13dd89a872920">Breslau</rs> spazieren.</p>
+            <p xml:space="preserve"><date when="1906-01-22">22/1</date> <rs type="place" xml:id="pl_05427" ref="#pmb90392">Breslau</rs>. Savoy. Im alten <rs type="place" xml:id="pl_05428" ref="#pmb90392">Breslau</rs> spazieren.</p>
             <p xml:space="preserve" rend="indent">Bei Dr. <rs type="person" xml:id="pNt_24272" ref="#person_15181"><forename>Erich</forename> <surname>Freund</surname></rs>.― Savoy allein gegessen.―</p>
             <p xml:space="preserve" rend="indent">Nm. Spaziergang Kleinburg.― Am <rs type="work" subtype="self" xml:id="bibl_14704">Roman</rs>.― <rs type="person" xml:id="pNt_24273" ref="#person_16900"><surname>Kleistsche</surname></rs> <rs type="work" xml:id="bibl_14705">Novellen</rs> gelesen.―</p>
             <p xml:space="preserve" rend="indent">Abds. Vorlesung im Saal der Freunde. „<rs type="work" subtype="self" xml:id="bibl_14706">Weissagung</rs>“. Nach einer Pause: 
@@ -192,6 +196,5 @@ mir angenehmes über „<rs type="work" subtype="self" xml:id="bibl_14709">Eins.
 <rs type="person" xml:id="pNt_24276" ref="#person_18020"><roleName>Frl.</roleName> <surname>Mayer</surname></rs>.― Poker mit <rs type="person" xml:id="pNt_24277" ref="#person_20192"><surname>Sombart</surname></rs>, <rs type="person" xml:id="pNt_24278" ref="#person_15459"><roleName>Hrn.</roleName> <surname>Glaser</surname></rs>, und einem vierten.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

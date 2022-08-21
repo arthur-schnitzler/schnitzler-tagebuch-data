@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-01-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-01-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-01-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-01-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-01-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-01-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0AB5-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,17 +177,19 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4784.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1919-01-22">
             <p xml:space="preserve"><date when="1919-01-22">22/1</date> Vm. dictirt Scen. „<rs type="work" subtype="self" xml:id="bibl_4510">Der Vorige</rs>“, Briefe.―</p>
             <p xml:space="preserve" rend="indent">Nm. mit <rs type="work" subtype="self" xml:id="bibl_4511">Nachklg.</rs> beschäftigt; Fieber, um 5 zu Bett; <rs type="work" subtype="self" xml:id="bibl_4512">Nachklang</rs> und 
 Lecture.― (<rs type="person" xml:id="pNt_55256" ref="#person_20498"><surname>Strauss</surname></rs>, <rs type="work" xml:id="bibl_4513"><rs type="role" xml:id="pNt_55257"><surname>Märklin</surname></rs></rs>;― <rs type="person" xml:id="pNt_55258" ref="#person_18253"><surname>Morgenstern</surname></rs> „<rs type="work" xml:id="bibl_4514">Stufen</rs>“;― <rs type="person" xml:id="pNt_55259" ref="#person_20080"><surname>Shaw</surname></rs>, <rs type="work" xml:id="bibl_4515">Mensch 
 und Übermensch</rs>.)</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

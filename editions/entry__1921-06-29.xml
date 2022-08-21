@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1921-06-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-06-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-06-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1921-06-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-06-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-06-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0E2D-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,15 +177,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5453.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1921-06-29">
-            <p xml:space="preserve"><date when="1921-06-29">29/6</date> Spaziergang mit <rs type="person" xml:id="pNt_62809" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs>; <rs type="place" xml:id="pl_13127" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> ― <rs type="place" xml:id="pl_13128" ref="#place_75f2e194839d6ba0e5d4080c211a449a">Dornbacher Park</rs>, Hameauweg ― 
-<rs type="place" xml:id="pl_13129" ref="#place_a513bae177c89d12226f343ac5ff1ee3">Salmannsdorf</rs> ― <rs type="place" xml:id="pl_13130" ref="#place_cc6eda773537f8cb4db5cb1b862d0e0d">Sommerhaidenweg</rs> ― <rs type="place" xml:id="pl_13131" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs>.― Ruhn auf Bänken und 
+            <p xml:space="preserve"><date when="1921-06-29">29/6</date> Spaziergang mit <rs type="person" xml:id="pNt_62809" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs>; <rs type="place" xml:id="pl_13127" ref="#pmb169">Pötzleinsdorf</rs> ― <rs type="place" xml:id="pl_13128" ref="#pmb176">Dornbacher Park</rs>, Hameauweg ― 
+<rs type="place" xml:id="pl_13129" ref="#pmb91641">Salmannsdorf</rs> ― <rs type="place" xml:id="pl_13130" ref="#pmb243">Sommerhaidenweg</rs> ― <rs type="place" xml:id="pl_13131" ref="#pmb169">Pötzleinsdorf</rs>.― Ruhn auf Bänken und 
 Wiesen. Sie fragte mich, ob das Gerücht von meiner Scheidung richtig, hätte 
 es schon anläßlich der <rs type="work" subtype="self" xml:id="bibl_3397">Reigen</rs> Pr. ― gehört.― Sie hofft vom August an mit 
 ihrem <rs type="place" xml:id="pl_13132" ref="#place_4ea69139c04ce644a0c13b1077d7a2e3" ana="#exclude">Berner</rs> Bräutigam vereint zu sein, den sie sehr liebt, ist sich aber 
@@ -192,5 +197,6 @@ ihrer Labilität durchaus bewußt.</p>
             <p xml:space="preserve" rend="indent">N. d. N. 1. und 2. Akt der Tragik.: „<rs type="work" subtype="self" xml:id="bibl_3400">Das Wort</rs>“ durchgelesen.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_62812" ref="#person_19822"><forename>Heini</forename></rs> war mit seinen „Collegen und Colleginnen“ beim <rs type="institution" xml:id="pNt_62813"><surname>Zögernitz</surname></rs>.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

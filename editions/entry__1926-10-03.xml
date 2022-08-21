@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-10-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-10-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-10-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-10-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-10-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-10-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-15AD-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,13 +177,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6732.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6733.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1926-10-03">
             <p xml:space="preserve"><date when="1926-10-03">3/10</date> S.― <rs type="person" xml:id="pNt_78647" ref="#person_18064"><roleName>Frau Dr.</roleName> <surname>M.</surname></rs> erhält Brief von <rs type="person" xml:id="pNt_78648" ref="#person_19832"><forename>O.</forename></rs>: sie ist über meinen Brief, in 
 dem ich meine Unruhe nicht verhehle, offenbar erbittert: warum ich ihr und 
@@ -188,7 +193,7 @@ kommt 8. oder 10. mit <rs type="person" xml:id="pNt_78650" ref="#person_14130"><
 hätte sie sie gegen mich zu schützen!);― kurz ― nun entwickelt sie auch 
 an dieser Sache alle die störenden und zerstörenden Seiten ihres Wesens.―</p>
             <p xml:space="preserve" rend="indent">Eröffnungsitzung des Paneur. Congresses;― nach der 20. Rede ungefähr floh 
-ich;― mit <rs type="person" xml:id="pNt_78651" ref="#person_18064"><roleName>Frau Dr.</roleName> <surname>M.</surname></rs>; schöner Herbsttag, über den <rs type="place" xml:id="pl_16938" ref="#place_9ae90ea21d3e063c02809f046183f123">Ring</rs>. <rs type="person" xml:id="pNt_78652" ref="#person_18064"><roleName>Frau Dr.</roleName> <surname>M.</surname></rs> nicht 
+ich;― mit <rs type="person" xml:id="pNt_78651" ref="#person_18064"><roleName>Frau Dr.</roleName> <surname>M.</surname></rs>; schöner Herbsttag, über den <rs type="place" xml:id="pl_16938" ref="#pmb91600">Ring</rs>. <rs type="person" xml:id="pNt_78652" ref="#person_18064"><roleName>Frau Dr.</roleName> <surname>M.</surname></rs> nicht 
 minder erbittert von dem Brief <rs type="person" xml:id="pNt_78653" ref="#person_19832"><forename>O.s</forename></rs> als ich.―</p>
             <p xml:space="preserve" rend="indent">Fand zu Haus einen Brief <rs type="person" xml:id="pNt_78654" ref="#person_19832"><forename>O.s</forename></rs>, im selben Ton, wie an <rs type="person" xml:id="pNt_78655"><roleName>Frau</roleName> <surname>M.</surname></rs>; nur etwas 
 vorsichtiger abgefasst.</p>
@@ -196,7 +201,8 @@ vorsichtiger abgefasst.</p>
 die Sache (<rs type="person" xml:id="pNt_78658" ref="#person_19832"><forename>O.</forename></rs> und <rs type="person" xml:id="pNt_78659" ref="#person_14130"><forename>Lilis</forename></rs> Kommen) nicht weiter zu verzögern.</p>
             <p xml:space="preserve" rend="indent">― An der <rs type="work" subtype="self" xml:id="bibl_20460">Bdn. Nov.</rs>― Am <rs type="work" subtype="self" xml:id="bibl_20461">Diagramm</rs>.</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_78660" ref="#person_13551"><forename>Richard</forename></rs>. (Trübe Stimmung, besonders wegen <rs type="person" xml:id="pNt_78661" ref="#person_13547"><forename>Gabriels</forename></rs> Abreise nach 
-<rs type="place" xml:id="pl_16939" ref="#place_e884124295d0c4d07d9bcf5096fd5495">Amerika</rs>.)</p>
+<rs type="place" xml:id="pl_16939" ref="#pmb43406">Amerika</rs>.)</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

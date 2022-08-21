@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-07-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-07-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-07-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-07-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-07-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-07-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-183D-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7127.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1928-07-20">
-            <p xml:space="preserve"><date when="1928-07-20">20/7</date> Vm. Dr. <rs type="person" xml:id="pNt_84254" ref="#person_19704"><forename>O. P.</forename> <surname>Schinnerer</surname></rs>; <rs type="place" xml:id="pl_18126" ref="#place_87809c954948d8a20507bee3648281b3">New York</rs>, der ein <rs type="work" xml:id="bibl_19552">Buch über 
+            <p xml:space="preserve"><date when="1928-07-20">20/7</date> Vm. Dr. <rs type="person" xml:id="pNt_84254" ref="#person_19704"><forename>O. P.</forename> <surname>Schinnerer</surname></rs>; <rs type="place" xml:id="pl_18126" ref="#pmb44053">New York</rs>, der ein <rs type="work" xml:id="bibl_19552">Buch über 
 mich</rs> schreiben will. 37j.; aus <rs type="place" xml:id="pl_18127" ref="#place_8b8ce697991b9cb2c90683f6c6c6c358" ana="#exclude">dtsch.</rs> <rs type="place" xml:id="pl_18128" ref="#place_923c9d6aaf18f34b857e3d32ee926c57" ana="#exclude">amerik.</rs> Pastorenfamilie; jetzt 
 an der Columbia Universität. Verstanden uns gleich aufs beste … 
 Er sprach von den Mißverständnissen über mich ― meine Werke;― 
@@ -206,6 +210,5 @@ nur Musik und spielten <rs type="person" xml:id="pNt_84264" ref="#person_13344">
             <p xml:space="preserve" rend="indent">Z. N. <rs type="person" xml:id="pNt_84265" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> bei mir.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

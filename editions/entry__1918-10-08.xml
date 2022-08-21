@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-10-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-10-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-10-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-10-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-10-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-10-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0A4B-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4716.tif"/>
@@ -182,13 +186,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1918-10-08">
-            <p xml:space="preserve"><date when="1918-10-08">8/10</date> Mit <rs type="person" xml:id="pNt_54356" ref="#person_14853"><surname>Faesi</surname></rs> <rs type="place" xml:id="pl_11268" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> ― <rs type="place" xml:id="pl_11269" ref="#place_c79ad839f84019f53250a4e6365359f9">Neuwaldegg</rs> Park ― Hameau ― 
+            <p xml:space="preserve"><date when="1918-10-08">8/10</date> Mit <rs type="person" xml:id="pNt_54356" ref="#person_14853"><surname>Faesi</surname></rs> <rs type="place" xml:id="pl_11268" ref="#pmb169">Pötzleinsdorf</rs> ― <rs type="place" xml:id="pl_11269" ref="#pmb170">Neuwaldegg</rs> Park ― Hameau ― 
 Dreimarkstein.― (Über <rs type="place" xml:id="pl_11270" ref="#place_ee4c6f2f0df2cd2abf7db20478cad25d" ana="#exclude">Wiener</rs> polit. Zustände. Aus meinen liter. 
 Erlebnissen (<rs type="work" subtype="self" xml:id="bibl_5868">Bernhardi</rs>, <rs type="work" subtype="self" xml:id="bibl_5869">Kakadu</rs> u. s. w.).― Antisemitismus ― Die Brüder 
 <rs type="person" xml:id="pNt_54357"><surname>Mann</surname></rs>. „Civilisations“literaten.― Renegatentum und Ausländerei.― Friedensaussichten?) Tramway.</p>
             <p xml:space="preserve" rend="indent">Anfänge des Bolschewikismus?―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_5870">Weiher</rs>.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" ref="#place_volkstheater">Volksth.</rs> <rs type="person" xml:id="pNt_54358" ref="#person_17302"><surname>Lange</surname></rs> <rs type="work" xml:id="bibl_5871">Simson und Delila</rs> (mit <rs type="person" xml:id="pNt_54359" ref="#person_19987"><forename>Max</forename> <surname>Schwarzkopf</surname></rs>); z. Th. sehr fein 
+            <p xml:space="preserve" rend="indent"><rs type="place" ref="#pmb92202">Volksth.</rs> <rs type="person" xml:id="pNt_54358" ref="#person_17302"><surname>Lange</surname></rs> <rs type="work" xml:id="bibl_5871">Simson und Delila</rs> (mit <rs type="person" xml:id="pNt_54359" ref="#person_19987"><forename>Max</forename> <surname>Schwarzkopf</surname></rs>); z. Th. sehr fein 
 ― und reizvoll. Schluss matt.― Zu Fuß im Regen hin und zurück.―</p>
             <p xml:space="preserve" rend="indent">Las <rs type="person" xml:id="pNt_54360"><surname>Schaefer’s</surname></rs> <rs type="work" xml:id="bibl_5872"><rs type="person" xml:id="pNt_54361"><surname>Stauffer Bern</surname></rs> Roman</rs>, fesselte mich im Beginn,― zum 
 Schluß wußte ich nicht ― warum das ganze Experiment?</p>
@@ -201,6 +205,5 @@ Schluß wußte ich nicht ― warum das ganze Experiment?</p>
             </tei:fw>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

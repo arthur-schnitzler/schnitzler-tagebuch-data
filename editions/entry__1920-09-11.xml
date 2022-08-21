@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-09-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-09-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-09-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1920-09-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-09-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-09-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0D0A-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5175.tif"/>
@@ -183,10 +187,10 @@
       <body>
          <div type="diary-day" xml:id="entry__1920-09-11">
             <p xml:space="preserve"><date when="1920-09-11">11/9</date> Mit <rs type="person" xml:id="pNt_59825" ref="#person_14130"><forename>Lili</forename></rs>, <rs type="person" xml:id="pNt_59826" ref="#person_15854"><forename>Gisa</forename></rs>, <rs type="person" xml:id="pNt_59827" ref="#person_19170"><roleName>Frl.</roleName> <surname>Reiter</surname></rs>, <rs type="person" xml:id="pNt_59828" ref="#person_15152"><forename>Franzl</forename></rs>, <rs type="person" xml:id="pNt_59829" ref="#person_16770"><surname>Kaufmann</surname></rs>, <rs type="person" xml:id="pNt_59830" ref="#person_19964"><surname>Schwarz</surname></rs> und Tochter 
-<rs type="place" xml:id="pl_12510" ref="#place_16f8bed3c52bf873fb6bab75c2c654f9">Salzberg</rs> ― hintre <rs type="place" xml:id="pl_12511" ref="#place_16f8bed3c52bf873fb6bab75c2c654f9">Sandling</rs> Alm ― vordre <rs type="place" xml:id="pl_12512" ref="#place_16f8bed3c52bf873fb6bab75c2c654f9">Sandling</rs> Alm (Rast) ― Wiesen ― 
-Bachwirth ― (Jause) ― <rs type="place" xml:id="pl_12513" ref="#place_2384804448a53e420c3707bdfb9fb295">Altaussee</rs>.―</p>
+<rs type="place" xml:id="pl_12510" ref="#pmb91653">Salzberg</rs> ― hintre <rs type="place" xml:id="pl_12511" ref="#pmb91653">Sandling</rs> Alm ― vordre <rs type="place" xml:id="pl_12512" ref="#pmb91653">Sandling</rs> Alm (Rast) ― Wiesen ― 
+Bachwirth ― (Jause) ― <rs type="place" xml:id="pl_12513" ref="#pmb90229">Altaussee</rs>.―</p>
             <p xml:space="preserve" rend="indent"> 
-Brief von <rs type="person" xml:id="pNt_59831" ref="#person_19832"><forename>O.</forename></rs>;― vom 4. aus <rs type="place" xml:id="pl_12514" ref="#place_c38ad36647aca0261d667c432a4866bd">Salzburg</rs>; unter dem Eindruck einer mit der <rs type="allusively" xml:id="rst_01735">Hofr.</rs> 
+Brief von <rs type="person" xml:id="pNt_59831" ref="#person_19832"><forename>O.</forename></rs>;― vom 4. aus <rs type="place" xml:id="pl_12514" ref="#pmb91649">Salzburg</rs>; unter dem Eindruck einer mit der <rs type="allusively" xml:id="rst_01735">Hofr.</rs> 
 geschrieben [!]; schlimme Stellen enthaltend, und widerspruchsvoll; der mich 
 aufs tiefste verstimmte. Die ganze mühselige Erholung der letzten 2 Wochen 
 war hin.</p>
@@ -200,6 +204,5 @@ und möglichst reinliches Ende machen.“ ― Die Anspielung bleibt trotz
 Muthmaßungen unklar.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

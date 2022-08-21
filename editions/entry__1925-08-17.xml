@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1925-08-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-08-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-08-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1925-08-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-08-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-08-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1412-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6532.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1925-08-17">
-            <p xml:space="preserve"><date when="1925-08-17">17/8</date> <rs type="place" xml:id="pl_16244" ref="#place_3859ff9074d497ed0cb3c08be85996ad">Bozen</rs>; Abfahrt mit <rs type="person" xml:id="pNt_75697" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> im Auto Mittags (strahlender Tag) <rs type="place" xml:id="pl_16245" ref="#place_f530c768051b3c2051eb29262102f61b">Mendel</rs> ― 
-<rs type="place" xml:id="pl_16246" ref="#place_8fff1c32b468ddb7ab0c8a88fc824124">Fondo</rs> ― <rs type="place" xml:id="pl_16247" ref="#place_4d1f1791f73372dd8fbd956eba48e83b">Malè</rs> (Imbiss) ― <rs type="place" xml:id="pl_16248" ref="#place_20ca0708673130cb120085476799920a">Tonalepass</rs> ― <rs type="place" xml:id="pl_16249" ref="#place_9904dd1e82acbba846acd4985dd5c8c9">Ponte di Legno</rs> (Imbiss, Grd. 
-Hotel) ― <rs type="place" xml:id="pl_16250" ref="#place_cc8cdaff24dc681b3b9c1c7c8021df6f">Edolo</rs> ― <rs type="place" xml:id="pl_16251" ref="#place_494b6e03d05330763f2bd7c8de0c9cd0">Tirano</rs> (½8).</p>
+            <p xml:space="preserve"><date when="1925-08-17">17/8</date> <rs type="place" xml:id="pl_16244" ref="#pmb40260">Bozen</rs>; Abfahrt mit <rs type="person" xml:id="pNt_75697" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> im Auto Mittags (strahlender Tag) <rs type="place" xml:id="pl_16245" ref="#pmb91229">Mendel</rs> ― 
+<rs type="place" xml:id="pl_16246" ref="#pmb90123">Fondo</rs> ― <rs type="place" xml:id="pl_16247" ref="#pmb90126">Malè</rs> (Imbiss) ― <rs type="place" xml:id="pl_16248" ref="#pmb91909">Tonalepass</rs> ― <rs type="place" xml:id="pl_16249" ref="#pmb91500">Ponte di Legno</rs> (Imbiss, Grd. 
+Hotel) ― <rs type="place" xml:id="pl_16250" ref="#pmb90563">Edolo</rs> ― <rs type="place" xml:id="pl_16251" ref="#pmb90129">Tirano</rs> (½8).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

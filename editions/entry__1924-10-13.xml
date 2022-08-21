@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1924-10-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-10-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-10-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1924-10-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-10-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-10-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-12DE-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6371.tif"/>
@@ -183,9 +187,9 @@
       <body>
          <div type="diary-day" xml:id="entry__1924-10-13">
             <p xml:space="preserve"><date when="1924-10-13">13/10</date> Dictirt Briefe.―</p>
-            <p xml:space="preserve" rend="indent">Vorher bei <rs type="person" xml:id="pNt_73486" ref="#person_18137"><forename>Dora</forename></rs>, die gestern mit <rs ref="#person_20191" type="person" xml:id="pNt_73487"><roleName>Frl.</roleName> <surname>S.</surname></rs> aus <rs type="place" xml:id="pl_15733" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> kam. <rs type="person" xml:id="pNt_73488" ref="#person_19822"><forename>Heini’s</forename></rs> erste 
+            <p xml:space="preserve" rend="indent">Vorher bei <rs type="person" xml:id="pNt_73486" ref="#person_18137"><forename>Dora</forename></rs>, die gestern mit <rs ref="#person_20191" type="person" xml:id="pNt_73487"><roleName>Frl.</roleName> <surname>S.</surname></rs> aus <rs type="place" xml:id="pl_15733" ref="#pmb168">Berlin</rs> kam. <rs type="person" xml:id="pNt_73488" ref="#person_19822"><forename>Heini’s</forename></rs> erste 
 Rolle bei <rs type="person" xml:id="pNt_73489" ref="#person_16550"><surname>Jessner</surname></rs>, der Rekrut in „<rs type="work" xml:id="bibl_21323">Wallenstein’s Lager</rs>“.―</p>
-            <p xml:space="preserve" rend="indent">Abds. mit <rs type="person" xml:id="pNt_73490" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> <rs type="place" xml:id="pl_15734" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs> spazieren. Die Nachwirkung des <rs type="work" subtype="self" xml:id="bibl_21324">Stücks</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Abds. mit <rs type="person" xml:id="pNt_73490" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> <rs type="place" xml:id="pl_15734" ref="#pmb113">Türkenschanzpark</rs> spazieren. Die Nachwirkung des <rs type="work" subtype="self" xml:id="bibl_21324">Stücks</rs>.―</p>
             <p xml:space="preserve" rend="indent">N. d. N. mit <rs type="person" xml:id="pNt_73491" ref="#person_19832"><forename>O.</forename></rs> über <rs type="person" xml:id="pNt_73492" ref="#person_14130"><forename>Lili</forename></rs>,― und die heutige Mädchenwelt. Dann 
 finanzielles.― Sie war „einsichtig“, klug;― offenbar stand sie unter 
 dem Einfluss eines Gesprächs über meine „Sorgen“, das sie mit 
@@ -194,6 +198,5 @@ dem Einfluss eines Gesprächs über meine „Sorgen“, das sie mit
 nach deinen Arbeiten fragen. Werd ich nicht wieder ausgeschaltet sein ― ?“ ―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

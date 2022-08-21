@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1925-08-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-08-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-08-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1925-08-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-08-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-08-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1418-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6534.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1925-08-23">
-            <p xml:space="preserve"><date when="1925-08-23">23/8</date> S.― <rs type="place" xml:id="pl_16274" ref="#place_63da02947d9e51e4ddd4504712bc71c0">Celerina</rs>. Mit <rs type="person" xml:id="pNt_75718" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Vm. über <rs type="place" xml:id="pl_16275" ref="#place_9e28ea74c830eaec7077019905f987c8">Cristolais</rs> <rs type="place" xml:id="pl_16276" ref="#place_0a16bce3e470dfab76d6a8c529e2725d">Samaden</rs>.</p>
+            <p xml:space="preserve"><date when="1925-08-23">23/8</date> S.― <rs type="place" xml:id="pl_16274" ref="#pmb12589">Celerina</rs>. Mit <rs type="person" xml:id="pNt_75718" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Vm. über <rs type="place" xml:id="pl_16275" ref="#pmb92193">Cristolais</rs> <rs type="place" xml:id="pl_16276" ref="#pmb44306">Samaden</rs>.</p>
             <p xml:space="preserve" rend="indent">Nm. „<rs type="work" subtype="self" xml:id="bibl_16609">Weiher</rs>“.―</p>
-            <p xml:space="preserve" rend="indent">N. d. N. <rs type="person" xml:id="pNt_75719" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs>, von der „<rs type="place" xml:id="pl_16277" ref="#place_311dd80e8226d935b1ac8959c5226ad2">Diavolezza</rs>“.</p>
+            <p xml:space="preserve" rend="indent">N. d. N. <rs type="person" xml:id="pNt_75719" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs>, von der „<rs type="place" xml:id="pl_16277" ref="#pmb90527">Diavolezza</rs>“.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

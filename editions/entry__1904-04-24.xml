@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-04-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-04-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-04-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-04-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-04-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-04-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F5D3-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1913.tif"/>
@@ -180,11 +184,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1904-04-24">
-            <p xml:space="preserve"><date when="1904-04-24">24/4</date> S. Früh <rs type="allusively" xml:id="rst_00422">Mama</rs> (und <rs type="person" xml:id="pNt_21029" ref="#person_15854"><forename>Gisa</forename></rs>) Bahn (<rs type="place" xml:id="pl_04673" ref="#place_834e1bca2cb7d2238249e70860ed8ae8">Meran</rs>) abgeholt.</p>
-            <p xml:space="preserve" rend="indent">Spazieren <rs type="place" xml:id="pl_04674" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> und <rs type="place" xml:id="pl_04675" ref="#place_c79ad839f84019f53250a4e6365359f9">Neuwaldegg</rs>.</p>
+            <p xml:space="preserve"><date when="1904-04-24">24/4</date> S. Früh <rs type="allusively" xml:id="rst_00422">Mama</rs> (und <rs type="person" xml:id="pNt_21029" ref="#person_15854"><forename>Gisa</forename></rs>) Bahn (<rs type="place" xml:id="pl_04673" ref="#pmb43520">Meran</rs>) abgeholt.</p>
+            <p xml:space="preserve" rend="indent">Spazieren <rs type="place" xml:id="pl_04674" ref="#pmb169">Pötzleinsdorf</rs> und <rs type="place" xml:id="pl_04675" ref="#pmb170">Neuwaldegg</rs>.</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="allusively" xml:id="rst_00423">Mama</rs> gegessen. <rs type="work" xml:id="bibl_17080">Eroica</rs>.― Nm. <rs type="work" subtype="self" xml:id="bibl_17081">Roman</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

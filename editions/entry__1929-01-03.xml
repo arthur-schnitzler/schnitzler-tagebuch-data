@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-01-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-01-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-01-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-01-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-01-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-01-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-18E4-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7218.tif"/>
@@ -181,12 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1929-01-03">
-            <p xml:space="preserve"><date when="1929-01-03">3/1</date> <rs type="place" xml:id="pl_18455" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>.― Vorm. mit Briefen, telef. hingebracht.― In die 
-<rs type="place" xml:id="pl_18456" ref="#place_716fe6173c8e9e86aee02f4b8abb24b7">Haendelstr.</rs> zu <rs type="person" xml:id="pNt_85651" ref="#person_21602"><forename>Vicki</forename></rs> und <rs type="person" xml:id="pNt_85652" ref="#person_21600"><forename>Mimi</forename></rs>; angeregte Unterhaltung ― allerlei 
+            <p xml:space="preserve"><date when="1929-01-03">3/1</date> <rs type="place" xml:id="pl_18455" ref="#pmb168">Berlin</rs>.― Vorm. mit Briefen, telef. hingebracht.― In die 
+<rs type="place" xml:id="pl_18456" ref="#pmb92267">Haendelstr.</rs> zu <rs type="person" xml:id="pNt_85651" ref="#person_21602"><forename>Vicki</forename></rs> und <rs type="person" xml:id="pNt_85652" ref="#person_21600"><forename>Mimi</forename></rs>; angeregte Unterhaltung ― allerlei 
 selbstbiografisches.―</p>
             <p xml:space="preserve" rend="indent">― Die spätern Nachm. Std. im Hotel,― die meist in körperlicher 
 Unruhe vergehn.― Die Briefe von <rs type="person" xml:id="pNt_85653" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> und <rs type="person" xml:id="pNt_85654" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> Keinerlei 
-Sehnsucht nach <rs type="place" xml:id="pl_18457" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.―</p>
+Sehnsucht nach <rs type="place" xml:id="pl_18457" ref="#pmb50">Wien</rs>.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_85655" ref="#person_19832"><forename>O.</forename></rs> abgeholt; Gespräch über <rs type="person" xml:id="pNt_85656" ref="#person_13139"><forename>Ruth</forename></rs>, Familie ― problematisches.</p>
             <p xml:space="preserve" rend="indent">― Mit <rs type="person" xml:id="pNt_85657" ref="#person_19832"><forename>O.</forename></rs> Oper <rs type="work" xml:id="bibl_3">Othello</rs> <rs type="person" xml:id="pNt_85658" ref="#person_20942"><surname>Verdi</surname></rs>. (<rs type="person" xml:id="pNt_85659" ref="#person_17406"><surname>Lehmann</surname></rs>.) ― Wiederbegegnung mit 
 <rs type="person" xml:id="pNt_85660" ref="#person_13423"><surname>Barjanski’s</surname></rs> ― die ich zuerst nicht erkannte!―</p>
@@ -195,6 +199,5 @@ sich vor.―</p>
             <p xml:space="preserve" rend="indent">Nachtm. mit <rs type="person" xml:id="pNt_85662" ref="#person_19832"><forename>O.</forename></rs> Esplanade Bar ― mit <rs type="person" xml:id="pNt_85663" ref="#person_13139"><forename>Ruth</forename></rs>,― <rs type="person" xml:id="pNt_85664" ref="#person_19822"><forename>Heini</forename></rs> spät von Nachtprobe.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

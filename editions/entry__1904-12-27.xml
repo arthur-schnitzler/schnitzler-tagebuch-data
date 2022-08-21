@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-12-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-12-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-12-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-12-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-12-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-12-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F6CA-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2016.tif"/>
@@ -180,7 +184,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1904-12-27">
-            <p xml:space="preserve"><date when="1904-12-27">27/12</date> <rs type="place" xml:id="pl_05010" ref="#place_1f8c82592620c6015573491c32824424">Lueg</rs>. <rs type="person" xml:id="pNt_22194" ref="#person_14065"><surname>Burckhard</surname></rs> morgens da. <rs type="person" xml:id="pNt_22195" ref="#person_13374"><surname>Bahr</surname></rs> eben abgefahren.― Mit ihm 
+            <p xml:space="preserve"><date when="1904-12-27">27/12</date> <rs type="place" xml:id="pl_05010" ref="#pmb91173">Lueg</rs>. <rs type="person" xml:id="pNt_22194" ref="#person_14065"><surname>Burckhard</surname></rs> morgens da. <rs type="person" xml:id="pNt_22195" ref="#person_13374"><surname>Bahr</surname></rs> eben abgefahren.― Mit ihm 
 in sein Haus. Über seine Krankheit. (Mir ist seine Diagnose 
 unwahrscheinlich.)</p>
             <p xml:space="preserve" rend="indent">Nm. gearbeitet.― Abd. bei <rs type="person" xml:id="pNt_22196" ref="#person_14065"><surname>Burckh.</surname></rs> mit O.― Sein hübsches, aber doch, 
@@ -188,6 +192,5 @@ bei schlechter Innenbeleuchtung etc. nicht ganz gemütliches Haus.―
 Musik. O. sang.― Heimwärts im Schnee.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

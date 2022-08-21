@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-10-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-10-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-10-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-10-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-10-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-10-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-15BA-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,19 +177,21 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6742.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1926-10-16">
             <p xml:space="preserve"><date when="1926-10-16">16/10</date> Dictirt (<rs type="work" subtype="self" xml:id="bibl_20488">Novelle</rs>) (zum <rs type="work" subtype="self" xml:id="bibl_20489">Diagr</rs>.) ―</p>
             <p xml:space="preserve" rend="indent">Brief an <rs type="person" xml:id="pNt_78778" ref="#person_19832"><forename>O.</forename></rs> gesandt.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_78779" ref="#person_14130"><forename>Lili</forename></rs> bei <rs type="person" xml:id="pNt_78780" ref="#person_21582"><surname>Zsolnay’s</surname></rs>. <rs type="person" xml:id="pNt_78781" ref="#person_16125"><surname>Herterich</surname></rs>; <rs type="person" xml:id="pNt_78782" ref="#person_19543"><forename>Otti</forename> <surname>Salten</surname></rs> und <rs ref="#person_19541" type="person" xml:id="pNt_78783"><forename>Annie</forename></rs>;― <rs type="person" xml:id="pNt_78784" ref="#person_13669"><roleName>Frl.</roleName> <surname>Bernhard</surname></rs>; 
 Familie <rs type="person" xml:id="pNt_78785" ref="#person_21582"><forename>Zs.</forename></rs>― <rs type="person" xml:id="pNt_78786" ref="#person_16125"><surname>H.</surname></rs> erst vor meinem Haus, beim Abschied, dass er „nicht 
 vergessen“, und mir hoffentlich wegen Besetzung des „<rs type="work" subtype="self" xml:id="bibl_20490">Gang</rs>“ bald mehr 
-werde sagen können.― <rs type="person" xml:id="pNt_78787" ref="#person_21582"><roleName>Hr.</roleName> <surname>v. Zsolnay</surname></rs> Erinnerungen an seine Consulatszeit in <rs type="place" xml:id="pl_16967" ref="#place_fd68f0c77af1c5c77565cc46630de590">Kawalla</rs>.―</p>
+werde sagen können.― <rs type="person" xml:id="pNt_78787" ref="#person_21582"><roleName>Hr.</roleName> <surname>v. Zsolnay</surname></rs> Erinnerungen an seine Consulatszeit in <rs type="place" xml:id="pl_16967" ref="#pmb91020">Kawalla</rs>.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1894-09-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-09-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-09-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1894-09-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-09-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-09-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E8B2-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0879.tif"/>
@@ -195,7 +199,7 @@ Dann geh ich ins obre Stockwerk, hab angst, dass man mir den Kopf
 „wie den der <rs type="person" xml:id="pNt_09241"><forename>Judith</forename></rs>“ auf einer Tasse bringt. Aber sie liegt im Bett, 
 erdrosselt, und bewegt sich noch.―</p>
             <p xml:space="preserve" rend="indent">Heute träumt ich, ich gehe mit einem Todtenkopf in der Hand übern 
-<rs type="place" xml:id="pl_01836" ref="#place_eb13c4dad3246447bf0175bce219241c">Stefansplatz</rs>; frage einen Dienstmann (nachdem ich theoretisch über 
+<rs type="place" xml:id="pl_01836" ref="#pmb91826">Stefansplatz</rs>; frage einen Dienstmann (nachdem ich theoretisch über 
 das Anfüllen des Schädels mit Sp. nachgedacht): Wie viel geht da 
 wohl hinein?― Er. Anderthalb Eimer.― Drüben, wo sonst das Kirchenamt, 
 eine Art mittelalterl. Alchymistenbude ― mit <rs type="person" xml:id="pNt_09242" ref="#person_21176"><roleName>Prof.</roleName> <surname>Weinlechner</surname></rs>, der 
@@ -203,6 +207,5 @@ mich unfreundlich empfängt. Lesen Sie unterdessen. Ich nehme eine
 pathol. Anatomie und wundre mich über das viele schöne.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

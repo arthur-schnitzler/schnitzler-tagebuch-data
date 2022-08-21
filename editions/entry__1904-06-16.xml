@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-06-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-06-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-06-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-06-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-06-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-06-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F608-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1932.tif"/>
@@ -181,10 +185,9 @@
       <body>
          <div type="diary-day" xml:id="entry__1904-06-16">
             <p xml:space="preserve"><date when="1904-06-16">16/6</date> Wohnung <rs type="person" xml:id="pNt_21179" ref="#person_20386"><forename>Liesl</forename></rs> gesucht.― Zollamt. (<rs type="place" xml:id="pl_04775" ref="#place_de1acb5cffea65ab54cc761ce2e60c66" ana="#exclude">Ital.</rs> Gepäck.)</p>
-            <p xml:space="preserve" rend="indent">Abd. <rs type="place" xml:id="pl_04776" ref="#place_86a694cf5ce5552ca627cb96b607eccd">Prater</rs> mit O., Schweizerhaus soup.― [Buden].― Trist im 
+            <p xml:space="preserve" rend="indent">Abd. <rs type="place" xml:id="pl_04776" ref="#pmb91530">Prater</rs> mit O., Schweizerhaus soup.― [Buden].― Trist im 
 ganzen.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

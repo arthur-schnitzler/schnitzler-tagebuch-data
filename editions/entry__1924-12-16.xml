@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1924-12-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-12-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-12-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1924-12-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-12-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-12-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-131E-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6411.tif"/>
@@ -189,7 +193,7 @@
          <div type="diary-day" xml:id="entry__1924-12-16">
             <p xml:space="preserve"><date when="1924-12-16">16/12</date> Träume: Bin in einer Art Ballsaal;― gegen Schluss des 
 Balles ― was vorher war, unklar ― in einem Fenster (etwa wie zur 
-<rs type="place" xml:id="pl_15822" ref="#place_ce97dbd6e076d5b5a93c0c503690c5d4">Eschenbachg.</rs> hinab ― frühere <rs type="place" xml:id="pl_15823" ref="#place_1b881122193d8b5a3fe95b21bf9572b4" ana="#exclude">Burgringwohnung</rs> ― wie immer öfter 
+<rs type="place" xml:id="pl_15822" ref="#pmb564">Eschenbachg.</rs> hinab ― frühere <rs type="place" xml:id="pl_15823" ref="#place_1b881122193d8b5a3fe95b21bf9572b4" ana="#exclude">Burgringwohnung</rs> ― wie immer öfter 
 in der letzten Zeit ―) ― <rs type="person" xml:id="pNt_73987" ref="#person_17784"><forename>Alma</forename></rs> ―; wir hatten uns den ganzen Abend ― 
 absichtlich nicht umeinander gekümmert;― ich muss doch jetzt 
 hin, sie kühl ― reservirt, wie ich aber ihre Hand, ihren Arm 
@@ -200,12 +204,12 @@ verstimmt darüber,― lasse es nochmals versuchen ― ― und
 wirklich;― es ist mir zugleich als stünde wer an meinem Bett 
 und warte mein Erwachen ab ―; die Schlafzimmerlampe brennt noch;― 
 ich war während des Lesens eingeschlafen. Träume weiter: fahre 
-nach <rs type="place" xml:id="pl_15824" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> ― Sommer ― die Straße <rs type="place" xml:id="pl_15825" ref="#place_d8e4af920d6804a648e0b854af15df65">Gersthof</rs> abgesperrt 
+nach <rs type="place" xml:id="pl_15824" ref="#pmb169">Pötzleinsdorf</rs> ― Sommer ― die Straße <rs type="place" xml:id="pl_15825" ref="#pmb90705">Gersthof</rs> abgesperrt 
 (Polizei),― etwa wie Frohnleichnam ― eine Weile wart ich;― dann 
 denk ich: zu Fuss gehn;― ich habe dem Chauffeur 23 000 Kr. zu geben 
 ― finde die tausend Kr. nicht ― der Ch. sagt: bei der früheren, 
 der Streckentaxe hätten Sie das doppelte zahlen müssen ― ich sage: 
-nein, wir sind ja noch nicht in <rs type="place" xml:id="pl_15826" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs>, erst in <rs type="place" xml:id="pl_15827" ref="#place_d8e4af920d6804a648e0b854af15df65">Gersthof</rs>, 
+nein, wir sind ja noch nicht in <rs type="place" xml:id="pl_15826" ref="#pmb169">Pötzleinsdorf</rs>, erst in <rs type="place" xml:id="pl_15827" ref="#pmb90705">Gersthof</rs>, 
 gebe ihm aber nobel 3 zehntausender.― Gehe statt oben ― eine Art 
 Serpentinenweg führt hinauf,― unten ―; Straße verengt sich ― 
 eine Art Riesentourniquet,― von der Mittelstange ein Strick herunter, 
@@ -272,6 +276,5 @@ wegen früherer (und künftiger) Ungerechtigkeiten).</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_74004" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> bei mir.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

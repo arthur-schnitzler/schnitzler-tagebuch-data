@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-03-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-03-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-03-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-03-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-03-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-03-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1A9D-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7453.tif"/>
@@ -183,8 +187,8 @@
          <div type="diary-day" xml:id="entry__1930-03-20">
             <p xml:space="preserve"><date when="1930-03-20">20/3</date> Vm. dictirt Briefe.</p>
             <p xml:space="preserve" rend="indent">Nm. eine Weile bei <rs type="person" xml:id="pNt_89218" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Thränen. Es ist nicht leicht.―</p>
-            <p xml:space="preserve" rend="indent">― Um ½6 kam <rs type="person" xml:id="pNt_89219" ref="#person_14234"><forename>Suz.</forename></rs>, die ich auf die <rs type="place" xml:id="pl_19132" ref="#place_2de2cbfcf4f6f7265397fff154638c9e">Wieden</rs> begleitete ―</p>
-            <p xml:space="preserve" rend="indent">Telef. Gespräche, mit <rs type="person" xml:id="pNt_89220" ref="#person_14234"><forename>Suz.</forename></rs>, der <rs type="allusively" xml:id="rst_02190">Hofrätin</rs>, die aus <rs type="place" xml:id="pl_19133" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> zurück. 
+            <p xml:space="preserve" rend="indent">― Um ½6 kam <rs type="person" xml:id="pNt_89219" ref="#person_14234"><forename>Suz.</forename></rs>, die ich auf die <rs type="place" xml:id="pl_19132" ref="#pmb54">Wieden</rs> begleitete ―</p>
+            <p xml:space="preserve" rend="indent">Telef. Gespräche, mit <rs type="person" xml:id="pNt_89220" ref="#person_14234"><forename>Suz.</forename></rs>, der <rs type="allusively" xml:id="rst_02190">Hofrätin</rs>, die aus <rs type="place" xml:id="pl_19133" ref="#pmb168">Berlin</rs> zurück. 
 Erzählte mir von <rs type="place" xml:id="pl_19134" ref="#place_a0edf2027dba611b2917924dd24a3203" ana="#exclude">Amerikanern</rs>, die meinen „Ruhm“ verkündeten;― 
 <rs type="person" xml:id="pNt_89221" ref="#person_16819"><surname>Kerr</surname></rs>, und <rs type="person" xml:id="pNt_89222" ref="#person_15210"><surname>Friedell</surname></rs>, die einstimmten,― ― als sie bei <rs type="person" xml:id="pNt_89223" ref="#person_21602"><forename>Vicki</forename></rs> <rs type="person" xml:id="pNt_89224" ref="#person_15009"><forename>S.</forename> <surname>Fischer</surname></rs> 
 berichtete, schien er fast betreten,― wie er auch meine von der <rs type="allusively" xml:id="rst_02191">Hofr.</rs> 
@@ -193,6 +197,5 @@ Die Stellung des Verlags zu mir bleibt immer meine ärgerlichste liter.
 Erfahrung.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

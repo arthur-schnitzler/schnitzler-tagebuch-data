@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-11-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-11-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-11-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-11-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-11-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-11-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-034D-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3715.tif"/>
@@ -184,13 +188,12 @@
          <div type="diary-day" xml:id="entry__1913-11-10">
             <p xml:space="preserve"><date when="1913-11-10">10/11</date> Vm. <rs type="work" subtype="self" xml:id="bibl_9715">Novelle</rs> dictirt.―</p>
             <p xml:space="preserve" rend="indent">Zum Thee <rs type="person" xml:id="pNt_41976" ref="#person_17324"><forename>Adolf</forename> <surname>Lantz</surname></rs> und Frau; seit vorigem Jahr Direktor des Neuen 
-Schauspielhauses in <rs type="place" xml:id="pl_08516" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> (vor wenigen Jahren noch ein armer Teufel, 
+Schauspielhauses in <rs type="place" xml:id="pl_08516" ref="#pmb168">Berlin</rs> (vor wenigen Jahren noch ein armer Teufel, 
 Jugendfreund von Olga und <rs type="person" xml:id="pNt_41977" ref="#person_20386"><forename>Liesl</forename></rs>) wirkte nicht recht erfreulich.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_41978" ref="#person_16770"><forename>Arthur</forename> <surname>Kaufmann</surname></rs> in der Vorlesung <rs type="person" xml:id="pNt_41979" ref="#person_15210"><forename>Egon</forename> <surname>Friedell</surname></rs>. Er liest 
 humoristisches nicht übel.― Im Concerthausrestaurant mit <rs type="person" xml:id="pNt_41980" ref="#person_16770"><surname>Kaufmann</surname></rs>. 
 Über <rs type="person" xml:id="pNt_41981" ref="#person_20823"><surname>Tschechow</surname></rs>; den <rs type="person" xml:id="pNt_41982" ref="#person_13706"><surname>Beylisprozess</surname></rs>, u. a.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

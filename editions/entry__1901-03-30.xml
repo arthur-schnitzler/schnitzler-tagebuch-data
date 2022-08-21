@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1901-03-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-03-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-03-31.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1901-03-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-03-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-03-31.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F1B3-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1622.tif"/>
@@ -182,12 +186,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1901-03-30">
-            <p xml:space="preserve"><date when="1901-03-30">30/3</date> <rs type="place" xml:id="pl_03623" ref="#place_7fc3dbc3496d4ac1533526f7b163ceab">Genua</rs> ― <rs type="place" xml:id="pl_03624" ref="#place_322db3095458956cc0d273d05531d993">Pisa</rs>. Grüner Plan mit Dom, Friedhof, etc.― Auch heut 
+            <p xml:space="preserve"><date when="1901-03-30">30/3</date> <rs type="place" xml:id="pl_03623" ref="#pmb994">Genua</rs> ― <rs type="place" xml:id="pl_03624" ref="#pmb44267">Pisa</rs>. Grüner Plan mit Dom, Friedhof, etc.― Auch heut 
 Nacht von <rs type="person" xml:id="pNt_17864" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs> geträumt; Sehnsucht nach ihr und kaum nach <rs type="person" xml:id="pNt_17865" ref="#person_19832"><forename>D.</forename> 
 <surname>M.</surname></rs>― Im Traum empfand ich heut das Kind als ungeheure 
 Unbequemlichkeit.― Genuss von der Reise? Nein. Hypochondrien. Immer gequält.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

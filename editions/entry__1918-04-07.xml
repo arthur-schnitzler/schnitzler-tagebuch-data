@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-04-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-04-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-04-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-04-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-04-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-04-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0993-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4619.tif"/>
@@ -181,8 +185,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1918-04-07">
-            <p xml:space="preserve"><date when="1918-04-07">7/4</date> S. <rs type="place" xml:id="pl_10936" ref="#place_a513bae177c89d12226f343ac5ff1ee3">Salmannsdorf</rs> ― Hameau ― <rs type="place" xml:id="pl_10937" ref="#place_b900112ce988d972bc2d561413e84979">Sofien Alpe</rs> ― Knödelhütte ― 
-<rs type="place" xml:id="pl_10938" ref="#place_318e051b87a18bd62b48dc49a3318206">Hütteldorf</rs>;― ausschließlich mit der Beziehung zu O. in trübster Weise 
+            <p xml:space="preserve"><date when="1918-04-07">7/4</date> S. <rs type="place" xml:id="pl_10936" ref="#pmb91641">Salmannsdorf</rs> ― Hameau ― <rs type="place" xml:id="pl_10937" ref="#pmb92533">Sofien Alpe</rs> ― Knödelhütte ― 
+<rs type="place" xml:id="pl_10938" ref="#pmb90913">Hütteldorf</rs>;― ausschließlich mit der Beziehung zu O. in trübster Weise 
 beschäftigt.</p>
             <p xml:space="preserve" rend="indent">Z. T. die <rs type="allusively" xml:id="rst_01547">Hofrätin</rs>; sie wollte, als O. eben das Zimmer verlassen, von 
 der <rs type="place" xml:id="pl_10939" ref="#place_9912c9330e203d0dc109bf7e74e09e51" ana="#exclude">Schweizer</rs> Sache sprechen ― es sei zur fixen Idee bei O. geworden;― 
@@ -198,6 +202,5 @@ Leute gelegentlich unsre beeinflußt haben.)</p>
             <p xml:space="preserve" rend="indent">Lese <rs type="work" xml:id="bibl_5479">Gilblas</rs> weiter, begann von <rs type="person" xml:id="pNt_52906" ref="#person_14257"><forename>Willy</forename></rs>, <rs type="work" xml:id="bibl_5480">Vagabonde</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

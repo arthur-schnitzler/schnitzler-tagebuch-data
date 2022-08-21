@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1924-11-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-11-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-11-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1924-11-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-11-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-11-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1303-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6398.tif"/>
@@ -182,11 +186,10 @@
       <body>
          <div type="diary-day" xml:id="entry__1924-11-19">
             <p xml:space="preserve"><date when="1924-11-19">19/11</date> Besorgungen in der Stadt.―</p>
-            <p xml:space="preserve" rend="indent">Im San. <rs type="person" xml:id="pNt_73793"><surname>Loew</surname></rs>, bei <rs type="person" xml:id="pNt_73794" ref="#person_20313"><roleName>Baronin</roleName> <surname>Stackelberg</surname></rs>, Bilder aus <rs type="place" xml:id="pl_15791" ref="#place_90e3015776833dc704859e559f7d8228">Sardinien</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Im San. <rs type="person" xml:id="pNt_73793"><surname>Loew</surname></rs>, bei <rs type="person" xml:id="pNt_73794" ref="#person_20313"><roleName>Baronin</roleName> <surname>Stackelberg</surname></rs>, Bilder aus <rs type="place" xml:id="pl_15791" ref="#pmb91659">Sardinien</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="work" subtype="self" xml:id="bibl_21444">aphoristisches</rs>.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_73795" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Kino (<rs type="work" xml:id="bibl_21445">Königsmark</rs> I).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

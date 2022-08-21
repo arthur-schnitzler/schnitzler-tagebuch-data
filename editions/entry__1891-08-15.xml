@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1891-08-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-08-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-08-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1891-08-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-08-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-08-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E445-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0554.tif"/>
@@ -181,14 +185,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1891-08-15">
-            <p xml:space="preserve"><date when="1891-08-15">15.</date> <rs type="place" xml:id="pl_01172" ref="#place_c2ad928214981e457405589604924059">Ischl</rs>. Famille, <rs type="person" xml:id="pNt_05508" ref="#person_15370"><surname>Geiringer</surname></rs>, <rs type="person" xml:id="pNt_05509" ref="#person_20467"><surname>Strakosch</surname></rs>.― Partie en fam. nach <rs type="place" xml:id="pl_01173" ref="#place_50fce40d86c3084224109d978bdf526c">St. 
+            <p xml:space="preserve"><date when="1891-08-15">15.</date> <rs type="place" xml:id="pl_01172" ref="#pmb213">Ischl</rs>. Famille, <rs type="person" xml:id="pNt_05508" ref="#person_15370"><surname>Geiringer</surname></rs>, <rs type="person" xml:id="pNt_05509" ref="#person_20467"><surname>Strakosch</surname></rs>.― Partie en fam. nach <rs type="place" xml:id="pl_01173" ref="#pmb33">St. 
 Gilgen</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Nachtpartie, <rs type="place" xml:id="pl_01174" ref="#place_5fe39040c5aee75bce3ade75490d80bd">Jainzenthal</rs> mit <rs type="person" xml:id="pNt_05510" ref="#person_16530"><forename>Pauline</forename> <surname>Jellinek</surname></rs>, <rs type="person" xml:id="pNt_05511" ref="#person_16741"><forename>Susanne</forename> <surname>Karsay</surname></rs>, 
+            <p xml:space="preserve" rend="indent">Nachtpartie, <rs type="place" xml:id="pl_01174" ref="#pmb92307">Jainzenthal</rs> mit <rs type="person" xml:id="pNt_05510" ref="#person_16530"><forename>Pauline</forename> <surname>Jellinek</surname></rs>, <rs type="person" xml:id="pNt_05511" ref="#person_16741"><forename>Susanne</forename> <surname>Karsay</surname></rs>, 
 <pb n="345"/>
 <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header"><fw place="top_center"><date type="range">1891: VIII 15 - VIII 26</date></fw> <fw place="top_right" type="pageNum">345</fw></tei:fw>
 <rs type="person" xml:id="pNt_05512" ref="#person_19373"><forename>Mathilde</forename></rs>, <rs type="person" xml:id="pNt_05513" ref="#person_19371"><forename>Ilka</forename></rs>, <rs type="person" xml:id="pNt_05514" ref="#person_19377"><forename>Sandor</forename></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

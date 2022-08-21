@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-04-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-04-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-04-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-04-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-04-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-04-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F5C4-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1909.tif"/>
@@ -182,7 +186,7 @@
          <div type="diary-day" xml:id="entry__1904-04-09">
             <p xml:space="preserve"><date when="1904-04-09">9/4</date> Traf Vm. <rs type="person" xml:id="pNt_20987" ref="#person_19321"><surname>Römpler</surname></rs>, der <rs type="person" xml:id="pNt_20988" ref="#person_15607"><surname>Grach</surname></rs> nur als „Dutzendtalent“ einschätzte.― 
 O. glaubt, er wolle sich selbst beruhigen, weil er ihn später hat fallen 
-lassen und sagte: „Über <rs type="place" xml:id="pl_04651" ref="#place_ca7668a05b2a3dbf29ca3d768c0febe8">Graz</rs> kommen Sie nicht hinaus.―“ (In <rs type="place" xml:id="pl_04652" ref="#place_ca7668a05b2a3dbf29ca3d768c0febe8">Graz</rs> ist 
+lassen und sagte: „Über <rs type="place" xml:id="pl_04651" ref="#pmb90759">Graz</rs> kommen Sie nicht hinaus.―“ (In <rs type="place" xml:id="pl_04652" ref="#pmb90759">Graz</rs> ist 
 er gestorben.)</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_20989" ref="#person_19986"><surname>Schwarzkopf</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. bringt mir <rs type="person" xml:id="pNt_20990" ref="#person_13473"><forename>Ludwig</forename> <surname>Bauer</surname></rs> ein Stück, „<rs type="work" xml:id="bibl_17056">Gesellschaft</rs>“.―</p>
@@ -190,6 +194,5 @@ er gestorben.)</p>
 Schriften</rs> <rs type="place" xml:id="pl_04653" ref="#place_934c39c18c7b3c338f519cfcd39aa6a5" ana="#exclude">russisch</rs> 1. Band“. …Was hab ich davon?―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

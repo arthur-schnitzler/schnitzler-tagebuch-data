@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1916-08-31.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-08-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-09-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1916-08-31.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-08-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-09-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-074C-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4314.tif"/>
@@ -185,12 +189,11 @@
             <p xml:space="preserve"><date when="1916-08-31">31/8</date> In der letzten Zeit sich steigernd ein Gefühl der Unheimlichkeit 
 beim Erwachen, wie aus vergessenen Träumen.</p>
             <p xml:space="preserve" rend="indent">― Dictirt <rs type="work" subtype="self" xml:id="bibl_7562">Wiederkehr</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Nm. mit O. nach <rs type="place" xml:id="pl_10149" ref="#place_c38ad36647aca0261d667c432a4866bd">Salzburg</rs>. (Regen.) ― Europe. <rs type="person" xml:id="pNt_48639" ref="#person_16647"><forename>Grethe</forename> <surname>Kainz</surname></rs>.― Das 
+            <p xml:space="preserve" rend="indent">Nm. mit O. nach <rs type="place" xml:id="pl_10149" ref="#pmb91649">Salzburg</rs>. (Regen.) ― Europe. <rs type="person" xml:id="pNt_48639" ref="#person_16647"><forename>Grethe</forename> <surname>Kainz</surname></rs>.― Das 
 Hotel irgendwie gespenstisch; das melancholische Orchester, als 
 bestünd es aus Geistern der Gefallenen.― <rs type="person" xml:id="pNt_48640" ref="#person_13305"><surname>Auernheimer’s</surname></rs>, <rs type="person" xml:id="pNt_48641" ref="#person_20457"><roleName>Prinz</roleName> <surname>Stolberg</surname></rs> 
 (durch <rs type="person" xml:id="pNt_48642" ref="#person_16647"><forename>Grethe</forename> <surname>Kainz</surname></rs>).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

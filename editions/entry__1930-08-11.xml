@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-08-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-08-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-08-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-08-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-08-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-08-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1B2D-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7536.tif"/>
@@ -181,12 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1930-08-11">
-            <p xml:space="preserve"><date when="1930-08-11">11/8</date> Ankunft <rs type="place" xml:id="pl_19444" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> nach 9.― (Regen, kühl.) ― ―</p>
+            <p xml:space="preserve"><date when="1930-08-11">11/8</date> Ankunft <rs type="place" xml:id="pl_19444" ref="#pmb50">Wien</rs> nach 9.― (Regen, kühl.) ― ―</p>
             <p xml:space="preserve" rend="indent">Post, Ordnung etc.― Rufe <rs type="person" xml:id="pNt_90451" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> an; sie für Mittag laden …― Nach 12 
-ruft <rs type="person" xml:id="pNt_90452" ref="#person_14234"><forename>Suz.</forename></rs> (aus <rs type="place" xml:id="pl_19445" ref="#place_ae346a40038f37b848c0d01aaaa37344">Th.</rs>) an. Ihre junge, wie neue Stimme.</p>
+ruft <rs type="person" xml:id="pNt_90452" ref="#person_14234"><forename>Suz.</forename></rs> (aus <rs type="place" xml:id="pl_19445" ref="#pmb91887">Th.</rs>) an. Ihre junge, wie neue Stimme.</p>
             <p xml:space="preserve" rend="indent">Zu Tisch <rs type="person" xml:id="pNt_90453" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>;― die mühselig und nicht immer ihre Thränen rückhält. 
 6 Wochen nicht gesehn.― Mühselig, kühl das Gespräch;― über ihre 
-<rs type="place" xml:id="pl_19446" ref="#place_84bb7a44667327c91eade4b980a38a6f">Karlsb.</rs> Kur, ihr schlechtes Befinden. Über meine Reise etc.― Ihr Sohn 
+<rs type="place" xml:id="pl_19446" ref="#pmb842">Karlsb.</rs> Kur, ihr schlechtes Befinden. Über meine Reise etc.― Ihr Sohn 
 <rs ref="#person_18865" type="person" xml:id="pNt_90454"><forename>Harry</forename></rs> (nach wenig Monaten Ehe) schon in Scheidung.― Ich zeige ihr das 
 Photogr. Album das mir <rs type="person" xml:id="pNt_90455" ref="#person_19822"><forename>Heini</forename></rs> mitgegeben.― Sie geht bald nach 3.― Die 
 Unmöglichkeit zeigt sich schon in dieser Stunde.</p>
@@ -194,6 +198,5 @@ Unmöglichkeit zeigt sich schon in dieser Stunde.</p>
             <p xml:space="preserve" rend="indent">Allein zu Hause genachtm.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

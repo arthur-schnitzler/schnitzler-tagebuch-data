@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1900-05-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-05-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-05-19.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1900-05-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-05-17.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-05-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F083-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -162,7 +166,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1563.tif"/>
@@ -171,10 +175,9 @@
       <body>
          <div type="diary-day" xml:id="entry__1900-05-18">
             <p xml:space="preserve"><date when="1900-05-18">18/5</date> Kopfschmerzen.― Consilium mit <rs type="person" xml:id="pNt_17067" ref="#person_13965"><surname>Breuer</surname></rs> wegen <rs type="person" xml:id="pNt_17068" ref="#person_20238"><forename>Richard</forename> <surname>Specht</surname></rs>.―
-Abend mit <rs type="person" xml:id="pNt_17069" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs> <rs type="place" xml:id="pl_03396" ref="#place_9a5f19560d14e39485dbf194820ff166">K.g.</rs> ― heut ein bischen verl., nachdem ich die letzten
+Abend mit <rs type="person" xml:id="pNt_17069" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs> <rs type="place" xml:id="pl_03396" ref="#pmb92329">K.g.</rs> ― heut ein bischen verl., nachdem ich die letzten
 Tage recht abgekühlt war.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

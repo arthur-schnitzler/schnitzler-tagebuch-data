@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-01-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-01-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-01-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-01-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-01-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-01-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-149D-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6610.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1926-01-03">
-            <p xml:space="preserve"><date when="1926-01-03">3/1</date> S.― Mit <rs type="person" xml:id="pNt_76881" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> spazieren <rs type="place" xml:id="pl_16473" ref="#place_187ad9aa5bf46727d6f6cd8ad17cad55">Galitzinberg</rs>.―</p>
+            <p xml:space="preserve"><date when="1926-01-03">3/1</date> S.― Mit <rs type="person" xml:id="pNt_76881" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> spazieren <rs type="place" xml:id="pl_16473" ref="#pmb90687">Galitzinberg</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_19908">Weiher</rs>, 5. Akt.</p>
             <p xml:space="preserve" rend="indent">Abd. kam <rs type="person" xml:id="pNt_76882" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs>, die mit uns nachtmahlt; ich führe sie im Auto heim.―</p>
             <p xml:space="preserve" rend="indent">Ziemlich unwohl, <rs type="person" xml:id="pNt_76883" ref="#person_14130"><forename>Lili</forename></rs> auch ― ―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

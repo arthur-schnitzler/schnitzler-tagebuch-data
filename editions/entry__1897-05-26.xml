@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1897-05-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-05-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-05-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1897-05-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-05-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1897-05-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EC73-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,18 +177,20 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1331.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1897-05-26">
-            <p xml:space="preserve"><date when="1897-05-26">26/5</date> Nach <rs type="place" xml:id="pl_02606" ref="#place_59ead8d1e124ccfb79f3ace06f43e703">London</rs>. Westminster Abbey.― Royal Academy.― 
+            <p xml:space="preserve"><date when="1897-05-26">26/5</date> Nach <rs type="place" xml:id="pl_02606" ref="#pmb224">London</rs>. Westminster Abbey.― Royal Academy.― 
 <rs type="person" xml:id="pNt_14001"><surname>Tussaud</surname></rs>.</p>
             <p xml:space="preserve" rend="indent">― Nach Honor Oak.― Liebenswürdigkeit <rs type="person" xml:id="pNt_14002"><forename>Juliens</forename></rs>. <rs type="person" xml:id="pNt_14003" ref="#person_17895"><forename>Sissy</forename></rs> und 
 <rs type="person" xml:id="pNt_14004" ref="#person_17896"><surname>Andrée</surname></rs>, die kleinen Mäderln, die um mich herumtollen und mich 
-gernhaben. Mit <rs type="person" xml:id="pNt_14005" ref="#person_17901"><forename>Felix</forename></rs> Klavier; nach <rs type="place" xml:id="pl_02607" ref="#place_59ead8d1e124ccfb79f3ace06f43e703">London</rs> („<rs type="work" xml:id="bibl_21643">Geisha</rs>“).</p>
+gernhaben. Mit <rs type="person" xml:id="pNt_14005" ref="#person_17901"><forename>Felix</forename></rs> Klavier; nach <rs type="place" xml:id="pl_02607" ref="#pmb224">London</rs> („<rs type="work" xml:id="bibl_21643">Geisha</rs>“).</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

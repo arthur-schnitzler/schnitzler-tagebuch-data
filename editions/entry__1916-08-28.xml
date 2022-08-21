@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1916-08-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-08-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-08-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1916-08-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-08-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-08-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0749-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4313.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1916-08-28">
-            <p xml:space="preserve"><date when="1916-08-28">28/8</date> <rs type="place" xml:id="pl_10139" ref="#place_2779ddbcac529386211f740af6ebdf0d">Pflindsberg</rs>. Frau <rs type="person" xml:id="pNt_48615" ref="#person_19979"><roleName>Prof.</roleName> <surname>Schwarz</surname></rs> verwickelt mich in ein polit. Gespräch.―</p>
+            <p xml:space="preserve"><date when="1916-08-28">28/8</date> <rs type="place" xml:id="pl_10139" ref="#pmb91474">Pflindsberg</rs>. Frau <rs type="person" xml:id="pNt_48615" ref="#person_19979"><roleName>Prof.</roleName> <surname>Schwarz</surname></rs> verwickelt mich in ein polit. Gespräch.―</p>
             <pb n="310"/>
             <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header">
                <fw n="310" place="top_left" type="pageNum">310</fw>
@@ -193,10 +197,9 @@
             <p xml:space="preserve" rend="indent">Nm. an „<rs type="work" subtype="self" xml:id="bibl_7559">Wiederkehr</rs>“.―</p>
             <p xml:space="preserve" rend="indent">Zum Thee <rs type="person" xml:id="pNt_48616" ref="#person_13355"><surname>Bachrach’s</surname></rs>, <rs type="person" xml:id="pNt_48617" ref="#person_14908"><surname>Fehling</surname></rs>, <rs type="person" xml:id="pNt_48618" ref="#person_18020"><roleName>Frl.</roleName> <surname>Mayer</surname></rs>; <rs type="person" xml:id="pNt_48619" ref="#person_19999"><forename>Rosa</forename> <surname>G.</surname></rs>;― die Nachricht 
 von der <rs type="place" xml:id="pl_10140" ref="#place_535622ce8ce08e09a6ea7548e08c4b63" ana="#exclude">rumaen.</rs> Kriegserklärung. Ekel und Zorn.― <rs type="person" xml:id="pNt_48620" ref="#person_14908"><surname>Fehling</surname></rs> über seine 
-theatral. Erfahrungen und Aussichten. <rs type="place" xml:id="pl_10141" ref="#place_d788dcf13eff9157f207a0aa51f04c9a">Dachstein</rs> in schönster Beleuchtung.―</p>
+theatral. Erfahrungen und Aussichten. <rs type="place" xml:id="pl_10141" ref="#pmb90506">Dachstein</rs> in schönster Beleuchtung.―</p>
             <p xml:space="preserve" rend="indent">Nach dem Nachtm. kommt <rs type="person" xml:id="pNt_48621" ref="#person_19227"><forename>Gerty v.</forename> <surname>L.</surname></rs> und nimmt Lieder mit O.  durch.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

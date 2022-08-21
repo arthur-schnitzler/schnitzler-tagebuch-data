@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-09-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-09-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-09-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-09-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-09-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-09-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-01B3-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3483.tif"/>
@@ -193,7 +197,7 @@ kenn ich ―“ ―</p>
             <p xml:space="preserve" rend="indent">Vm. dictirt (<rs type="work" subtype="self" xml:id="bibl_10498">Film Liebelei</rs> versuchsweise begonnen).―</p>
             <p xml:space="preserve" rend="indent">Dann zu <rs type="person" xml:id="pNt_38928" ref="#person_19827"><forename>Julius</forename></rs>; er kam erst knapp vor Tisch; es geht ihm nicht viel 
 besser, aber er scheint doch beruhigter.―</p>
-            <p xml:space="preserve" rend="indent">Nm. erscheint <rs type="person" xml:id="pNt_38929" ref="#person_21107"><surname>Wassermann</surname></rs>, aus <rs type="place" xml:id="pl_08049" ref="#place_661f4200c3f047474d1df224f62f0503">Aussee</rs> zurück; berichtet von seiner 
+            <p xml:space="preserve" rend="indent">Nm. erscheint <rs type="person" xml:id="pNt_38929" ref="#person_21107"><surname>Wassermann</surname></rs>, aus <rs type="place" xml:id="pl_08049" ref="#pmb415">Aussee</rs> zurück; berichtet von seiner 
 Differenz mit <rs type="person" xml:id="pNt_38930" ref="#person_18881"><forename>Frieda</forename> <surname>Pollak</surname></rs>; ich wasche ihm den Kopf, besonders wie 
 er vom „psychologischen Geldbeutel“ spricht. „Sie Schwindler.“</p>
             <p xml:space="preserve" rend="indent">Alte Briefe.</p>
@@ -209,6 +213,5 @@ deutscher Sprache vor Jahrzehnten begonnen und stehn lassen).</p>
             </tei:fw>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-05-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-05-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-05-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1906-05-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-05-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-05-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F8C7-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2228.tif"/>
@@ -180,7 +184,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1906-05-21">
-            <p xml:space="preserve"><date when="1906-05-21">21/5</date> Früh ein Brief aus <rs type="place" xml:id="pl_05557" ref="#place_1296d84a0939bd6108c9ff885bd4db5e">Petersburg</rs>, wegen ev. Opernbearbeitung der 
+            <p xml:space="preserve"><date when="1906-05-21">21/5</date> Früh ein Brief aus <rs type="place" xml:id="pl_05557" ref="#pmb433">Petersburg</rs>, wegen ev. Opernbearbeitung der 
 <rs type="work" subtype="self" xml:id="bibl_14993">Beatrice</rs>.― Eine Stunde später erscheint ein <rs type="person" xml:id="pNt_24975" ref="#person_20864"><roleName>Herr</roleName> <surname>Ullmann</surname></rs>, mich um das 
 gleiche ersuchen. Sonderbarer Zufall.―</p>
             <p xml:space="preserve" rend="indent">Bei dem kleinen <rs type="person" xml:id="pNt_24976" ref="#person_14643"><forename>Albert</forename> <surname>Ehrenstein</surname></rs>, der sich ganz erholt hat, 12 Kilo 
@@ -188,10 +192,9 @@ zugenommen hat, Naturgeschichte an der Univ. studirt. Seine Eltern.</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_24977" ref="#person_15158"><forename>Fred</forename></rs> im Sanatorium. Über die beiden <rs type="person" xml:id="pNt_24978"><surname>Manns</surname></rs> u. a.</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_14994">Roman</rs>.―</p>
             <p xml:space="preserve" rend="indent">Mit O. bei „<rs type="work" xml:id="bibl_14995">Traumulus</rs>“. <rs type="person" xml:id="pNt_24979" ref="#person_19986"><forename>Gustav</forename> <surname>Schw.</surname></rs> und <rs type="person" xml:id="pNt_24980" ref="#person_17958"><forename>Paul</forename></rs> in unsre Loge.</p>
-            <p xml:space="preserve" rend="indent">Bei <rs type="place" ref="#place_meissl">Meissl</rs> soupirt mit <rs type="person" xml:id="pNt_24982" ref="#person_13913"><surname>Brahm</surname></rs>, <rs type="person" xml:id="pNt_24983" ref="#person_19986"><surname>Schwarzkopf</surname></rs>, <rs type="person" xml:id="pNt_24984" ref="#person_21107"><surname>Wassermanns</surname></rs>.</p>
+            <p xml:space="preserve" rend="indent">Bei <rs type="place" ref="#pmb96">Meissl</rs> soupirt mit <rs type="person" xml:id="pNt_24982" ref="#person_13913"><surname>Brahm</surname></rs>, <rs type="person" xml:id="pNt_24983" ref="#person_19986"><surname>Schwarzkopf</surname></rs>, <rs type="person" xml:id="pNt_24984" ref="#person_21107"><surname>Wassermanns</surname></rs>.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_24985" ref="#person_19986"><forename>Gustav</forename></rs> immer galliger, bissiger; in der Discussion besonders.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

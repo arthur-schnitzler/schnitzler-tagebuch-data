@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1924-07-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-07-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-07-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1924-07-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-07-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-07-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1283-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6297.tif"/>
@@ -183,12 +187,11 @@
          <div type="diary-day" xml:id="entry__1924-07-14">
             <p xml:space="preserve"><date when="1924-07-14">14/7</date> Dictirt vielerlei.―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_72660" ref="#person_21586"><surname>Zsolnay</surname></rs>. Er erzählt mir von seinen Erlebnissen in der Communistenzeit 
-bei <rs type="place" xml:id="pl_15488" ref="#place_2f8cfc13edee95175f630a54177679cf">Preßburg</rs> (wo eins „seiner Güter“). ― Schloss über die Nov. 
+bei <rs type="place" xml:id="pl_15488" ref="#pmb39615">Preßburg</rs> (wo eins „seiner Güter“). ― Schloss über die Nov. 
 „<rs type="work" subtype="self" xml:id="bibl_21172">Fräulein Else</rs>“ mit ihm ab.―</p>
             <p xml:space="preserve" rend="indent">― Z. N. die <rs type="allusively" xml:id="rst_02060">Hofrätin</rs> bei mir. Von ihrer <rs type="place" xml:id="pl_15489" ref="#place_7c4357ee9b41d5afb20ae120f34d690d" ana="#exclude">englischen</rs> und <rs type="place" xml:id="pl_15490" ref="#place_55c76de3045e4a0a1e0b4506c5e2d403" ana="#exclude">französ.</rs> 
-Reise. Die Socialisten in <rs type="place" xml:id="pl_15491" ref="#place_64f607906be7598a02d75dbc1e979662">England</rs>, die Minister. Sie wohnte bei <rs type="person" xml:id="pNt_72661" ref="#person_20178"><surname>Snowden</surname></rs>.</p>
+Reise. Die Socialisten in <rs type="place" xml:id="pl_15491" ref="#pmb90593">England</rs>, die Minister. Sie wohnte bei <rs type="person" xml:id="pNt_72661" ref="#person_20178"><surname>Snowden</surname></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

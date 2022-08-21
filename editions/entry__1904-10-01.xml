@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-10-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-09-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-10-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-10-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-09-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-10-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F673-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1972.tif"/>
@@ -184,7 +188,7 @@
          <div type="diary-day" xml:id="entry__1904-10-01">
             <p xml:space="preserve"><date when="1904-10-01">1/10</date> Vm. spazieren Cottage.― Correcturen, letzte oberflächlich, 
 <rs type="work" subtype="self" xml:id="bibl_17277">Novellettenbuch</rs>.― Dictirt: <rs type="work" subtype="self" xml:id="bibl_17278">N. E.</rs>;― <rs type="work" subtype="self" xml:id="bibl_17279">Dialog (Clementine)</rs> weiter.― 
-<rs type="work" subtype="self" xml:id="bibl_17280">Reigen</rs>, Gerichtsverhdl. <rs type="place" xml:id="pl_04921" ref="#place_4a887b8a68acf9b04d9d027bddedb06b">Leipzig</rs>, verboten.―</p>
+<rs type="work" subtype="self" xml:id="bibl_17280">Reigen</rs>, Gerichtsverhdl. <rs type="place" xml:id="pl_04921" ref="#pmb864">Leipzig</rs>, verboten.―</p>
             <p xml:space="preserve" rend="indent">Während ich dictirte, Parte <rs type="person" xml:id="pNt_21622" ref="#person_19146"><forename>Karl</forename> <surname>Rh.</surname></rs>, der Bruder der 
 <rs type="allusively" xml:id="rst_00461">Entschwundnen</rs>; sehr unerwartet.― Er war Kapellmeister.―</p>
             <p xml:space="preserve" rend="indent">Nm. einiges <rs type="work" xml:id="bibl_17281">Fidelio</rs> gespielt ― <rs type="work" subtype="self" xml:id="bibl_17282">N. E.</rs> weitergeschrieben 
@@ -194,7 +198,7 @@
 war unzufrieden mit dem Eindruck und hatte unglaublicherweise geglaubt, 
 es gefiele mir nicht. (Hatte nur Einwendungen gegen 4. und 5. Akt, fand 
 das andre „außerordentlich“, die Verse unvergleichlich, die 
-Gedankenfülle verblüffend.) ― <rs type="person" xml:id="pNt_21630" ref="#person_16293"><forename>Hugo</forename></rs> wäre aus <rs type="place" xml:id="pl_04922" ref="#place_e4d4b19346747823e5636ed1238a7521">Venedig</rs> plötzlich, 
+Gedankenfülle verblüffend.) ― <rs type="person" xml:id="pNt_21630" ref="#person_16293"><forename>Hugo</forename></rs> wäre aus <rs type="place" xml:id="pl_04922" ref="#pmb462">Venedig</rs> plötzlich, 
 nur wegen <rs type="person" xml:id="pNt_21631"><forename>R.s</forename></rs> Vorlesung gekommen, aus einer Art Nervosität, um die 
 Stimmung zu verschlechtern (halb unbewußt) …er wird überhaupt 
 nun auf den stilisirt, der kleinlich neidisch und streberisch, trotz des 
@@ -202,7 +206,7 @@ großen Talentes, trotz der enormen Intelligenz, daemonisch zu
 Äußerungen, Bethätigung dieser Kleinlichkeiten getrieben wird.― Die 
 Einseitigkeit dieser Auffassung ist mir aergerlich, und wenn ich mich 
 gegen diese Übertreibungen, Stilisirungen, Nervositäten (Zusammen- 
-resp. Nahewohnen in <rs type="place" xml:id="pl_04923" ref="#place_6cc6cfe893d0065a8007acc6e4074a69">Rodaun</rs>!!) wende ― „sitz ich auf“ … Ich weiss 
+resp. Nahewohnen in <rs type="place" xml:id="pl_04923" ref="#pmb173">Rodaun</rs>!!) wende ― „sitz ich auf“ … Ich weiss 
 genau, dass ich <rs type="person" xml:id="pNt_21632" ref="#person_16293"><forename>Hugo</forename></rs> besser kenne, als ihn die andern kennen ― und ihn 
 früher gekannt habe.― Alle menschlichen Beziehungen werden ja nur 
 ermöglicht, indem man sich durch die Fehler der Freunde und Freundinnen 
@@ -215,6 +219,5 @@ schreiben, veröffentlichen. An seinem Geist, der in Hinsicht aufs
 mathematisch-musikalische ins geniale geht, erfreu ich mich immer mehr.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

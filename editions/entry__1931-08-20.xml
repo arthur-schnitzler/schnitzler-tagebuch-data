@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-08-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-08-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-08-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1931-08-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-08-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-08-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1CA2-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7763.tif"/>
@@ -181,15 +185,14 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1931-08-20">
-            <p xml:space="preserve"><date when="1931-08-20">20/8</date> <rs type="place" xml:id="pl_20114" ref="#place_d533f22e7175d6063cb4c4286fb92c0c">Gmunden</rs>.― Schon wieder Regen. Ein Brief von <rs type="person" xml:id="pNt_93704" ref="#person_14234"><forename>Suz.</forename></rs>― Telef. mit <rs type="person" xml:id="pNt_93705" ref="#person_18137"><forename>Dora</forename></rs> 
-(<rs type="place" xml:id="pl_20115" ref="#place_10610ec60fcdfbccb325e1eec16a82ad">Berchtesgaden</rs>) sie werden herkommen.―</p>
+            <p xml:space="preserve"><date when="1931-08-20">20/8</date> <rs type="place" xml:id="pl_20114" ref="#pmb874">Gmunden</rs>.― Schon wieder Regen. Ein Brief von <rs type="person" xml:id="pNt_93704" ref="#person_14234"><forename>Suz.</forename></rs>― Telef. mit <rs type="person" xml:id="pNt_93705" ref="#person_18137"><forename>Dora</forename></rs> 
+(<rs type="place" xml:id="pl_20115" ref="#pmb797">Berchtesgaden</rs>) sie werden herkommen.―</p>
             <p xml:space="preserve" rend="indent">Ich übersiedle in ein Zimmer 1. Stock Bad.―</p>
             <p xml:space="preserve" rend="indent">Brief an <rs type="person" xml:id="pNt_93706" ref="#person_14234"><forename>Suz.</forename></rs>―</p>
             <p xml:space="preserve" rend="indent">Nm. in Geschäften mit <rs type="person" xml:id="pNt_93707" ref="#person_19832"><forename>O.</forename></rs>―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_93708" ref="#person_14234"><forename>Suz.</forename></rs>; auf einen halben Tag in <rs type="place" xml:id="pl_20116" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>, ruft an.</p>
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_93708" ref="#person_14234"><forename>Suz.</forename></rs>; auf einen halben Tag in <rs type="place" xml:id="pl_20116" ref="#pmb50">Wien</rs>, ruft an.</p>
             <p xml:space="preserve" rend="indent">Regen; Nachtm. im Hotel.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

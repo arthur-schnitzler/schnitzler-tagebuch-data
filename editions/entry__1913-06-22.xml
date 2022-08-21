@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-06-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-06-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-06-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-06-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-06-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-06-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-02C0-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3637.tif"/>
@@ -185,9 +189,9 @@
             <p xml:space="preserve"><date when="1913-06-22">22/6</date> S. Traum: fahre zu einem Duell (warum? mit wem?) Aufenthalt, 
 großes Thor, <rs type="person" xml:id="pNt_41017" ref="#person_19827"><forename>Julius</forename></rs> hat drin zu thun, es wird zu spät!, endlich kommt 
 <rs type="person" xml:id="pNt_41018" ref="#person_19827"><forename>Julius</forename></rs> doch heraus, es ist ¾8 ― später steh ich in irgend welcher 
-Verhandlung mit einer Frau gegenüber ― aber gegenüber <rs type="place" xml:id="pl_08325" ref="#place_cfa835a4df2f287f2b999521ebe66bee">Burgring</rs>, wegen 
+Verhandlung mit einer Frau gegenüber ― aber gegenüber <rs type="place" xml:id="pl_08325" ref="#pmb274">Burgring</rs>, wegen 
 Fensterpolstern? ―; dann Theaterprobe; <rs type="person" xml:id="pNt_41019" ref="#person_20383"><forename>Albert</forename></rs>, der vom Erfolg des 
-<rs type="person" xml:id="pNt_41020" ref="#person_19294"><surname>Robert</surname></rs> Gastspiels spricht ― auf der Bühne Leute vom <rs type="place" ref="#place_volkstheater">Volkstheater</rs>, sie 
+<rs type="person" xml:id="pNt_41020" ref="#person_19294"><surname>Robert</surname></rs> Gastspiels spricht ― auf der Bühne Leute vom <rs type="place" ref="#pmb92202">Volkstheater</rs>, sie 
 werden Nm. ein Stück ein einziges Mal spielen, es heißt „Der 
 Regenwurm ―“, dann Zuschauerraum, <rs type="person" xml:id="pNt_41021" ref="#person_20386"><forename>Liesl</forename></rs> sitzt im Parket, ich eile hinein.―</p>
             <p xml:space="preserve" rend="indent"><rs type="work" subtype="newspaper" xml:id="bibl_9511">Imago</rs>: Aufsätze von <rs type="person" xml:id="pNt_41022" ref="#person_19502"><surname>Sachs</surname></rs> und <rs type="person" xml:id="pNt_41023" ref="#person_19135"><surname>Reik</surname></rs> über mich, sich sehr erfreulich von 
@@ -197,6 +201,5 @@ dem üblichen Literatengeschwätz unterscheidend, ins tiefere deutend.―</p>
             <p xml:space="preserve" rend="indent">Nm. an der <rs type="work" subtype="self" xml:id="bibl_9512">Novelle</rs> weiter, aber sehr müd.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

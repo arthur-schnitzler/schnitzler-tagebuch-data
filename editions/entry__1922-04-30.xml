@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-04-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-04-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-05-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-04-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-04-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-05-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0F5E-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,17 +177,19 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5706.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1922-04-30">
-            <p xml:space="preserve"><date when="1922-04-30">30/4</date> Autofahrt mit <rs type="person" xml:id="pNt_65901"><forename>Leonh.</forename> <surname>Sch.</surname></rs>, Nichte;― <rs type="person" xml:id="pNt_65902" ref="#person_13969"><roleName>Frau</roleName> <surname>Br.</surname></rs> und <rs type="person" xml:id="pNt_65903" ref="#person_17031"><surname>Koos</surname></rs> nach <rs type="place" xml:id="pl_13843" ref="#place_b8de5ad0f7dea631efbccb67bda4ee20">Volendam</rs> 
-an der Zuiderzee. Zurück;― Thee bei <rs type="person" xml:id="pNt_65904" ref="#person_19830"><surname>Sch.s</surname></rs>;― wieder nach <rs type="place" xml:id="pl_13844" ref="#place_1d4660e0a445b02912a96b0ac4fe036a">Haag</rs>.― Mit <rs type="person" xml:id="pNt_65905" ref="#person_20661"><surname>Tels’</surname></rs> 
+            <p xml:space="preserve"><date when="1922-04-30">30/4</date> Autofahrt mit <rs type="person" xml:id="pNt_65901"><forename>Leonh.</forename> <surname>Sch.</surname></rs>, Nichte;― <rs type="person" xml:id="pNt_65902" ref="#person_13969"><roleName>Frau</roleName> <surname>Br.</surname></rs> und <rs type="person" xml:id="pNt_65903" ref="#person_17031"><surname>Koos</surname></rs> nach <rs type="place" xml:id="pl_13843" ref="#pmb57860">Volendam</rs> 
+an der Zuiderzee. Zurück;― Thee bei <rs type="person" xml:id="pNt_65904" ref="#person_19830"><surname>Sch.s</surname></rs>;― wieder nach <rs type="place" xml:id="pl_13844" ref="#pmb58810">Haag</rs>.― Mit <rs type="person" xml:id="pNt_65905" ref="#person_20661"><surname>Tels’</surname></rs> 
 und <rs type="person" xml:id="pNt_65906" ref="#person_13969"><roleName>Fr.</roleName> <surname>Br.</surname></rs> <rs type="work" xml:id="bibl_2517">Hamlet</rs> (<rs type="person" xml:id="pNt_65907" ref="#person_20947"><surname>Verkade</surname></rs>) provinc. Aufführung; bald fort. Bei <rs type="person" xml:id="pNt_65908" ref="#person_20661"><surname>Tels</surname></rs>,― 
 mit ihm (Violine), <rs type="person" xml:id="pNt_65909" ref="#person_13344"><surname>Bach</surname></rs>, <rs type="person" xml:id="pNt_65910" ref="#person_15835"><surname>Haendel</surname></rs>, <rs type="person" xml:id="pNt_65911" ref="#person_17128"><surname>Kreisler</surname></rs> u. a.― <rs type="person" xml:id="pNt_65912" ref="#person_13969"><roleName>Frau</roleName> <surname>Br.</surname></rs> hörte uns zu.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

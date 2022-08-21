@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1924-09-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-09-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-09-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1924-09-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-09-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-09-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-12C8-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6348.tif"/>
@@ -182,7 +186,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1924-09-21">
             <p xml:space="preserve"><date when="1924-09-21">21/9</date> S. Spaziergang Dreimarkstein. Auf dem Rückweg bei <rs type="person" xml:id="pNt_73230" ref="#person_19542"><surname>Salten</surname></rs>, den ich 
-seit vielen Monaten nicht sah. Seine Leute in <rs type="place" xml:id="pl_15700" ref="#place_e4d4b19346747823e5636ed1238a7521">Venedig</rs>;― er kam von der Jagd.―</p>
+seit vielen Monaten nicht sah. Seine Leute in <rs type="place" xml:id="pl_15700" ref="#pmb462">Venedig</rs>;― er kam von der Jagd.―</p>
             <p xml:space="preserve" rend="indent">― Nm. mit <rs type="person" xml:id="pNt_73231" ref="#person_19832"><forename>O.</forename></rs> gesprochen;― von <rs type="person" xml:id="pNt_73232" ref="#person_20112"><forename>Wucki</forename></rs> ausgehend;― <rs type="person" xml:id="pNt_73233" ref="#person_19832"><forename>O.</forename></rs> weinend ― ob 
 sich der Wechsel vielleicht vermeiden ließe ― ― wenn sie nun einige 
 Monate bei <rs type="person" xml:id="pNt_73234" ref="#person_14130"><forename>Lili</forename></rs> bliebe. Ich erklärte nein ― und sie verstand so 
@@ -198,6 +202,5 @@ herum.― Die Stimmung war nicht ganz rein. <rs type="person" xml:id="pNt_73240"
 „Kein Mensch kann sich ändern.“ ―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

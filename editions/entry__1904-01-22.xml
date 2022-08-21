@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-01-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-01-21.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-01-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-01-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-01-21.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-01-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F576-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1886.tif"/>
@@ -182,11 +186,10 @@
          <div type="diary-day" xml:id="entry__1904-01-22">
             <p xml:space="preserve"><date when="1904-01-22">22/1</date> Dictirt Briefe, <rs type="work" subtype="self" xml:id="bibl_16959">Bluette</rs>, altes: <rs type="work" subtype="self" xml:id="bibl_16960">Familie</rs>.</p>
             <p xml:space="preserve" rend="indent">― Nm. <rs type="person" xml:id="pNt_20646" ref="#person_17696"><surname>Lothar</surname></rs> da, mich interviewen, wegen des <rs type="person" xml:id="pNt_20647" ref="#person_14550"><surname>Dumont</surname></rs> Plans Nationaltheater 
-<rs type="place" xml:id="pl_04587" ref="#place_00f8780e567ba1b5689c43337d826371">Weimar</rs>, 3 Monate ― ich sprach vom histor. Theater, ständig, in <rs type="place" xml:id="pl_04588" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> oder 
-<rs type="place" xml:id="pl_04589" ref="#place_7a0be5a1ed9675975e678b517f07573c">Schweiz</rs>.―</p>
+<rs type="place" xml:id="pl_04587" ref="#pmb92063">Weimar</rs>, 3 Monate ― ich sprach vom histor. Theater, ständig, in <rs type="place" xml:id="pl_04588" ref="#pmb50">Wien</rs> oder 
+<rs type="place" xml:id="pl_04589" ref="#pmb43435">Schweiz</rs>.―</p>
             <p xml:space="preserve" rend="indent"><rs type="work" subtype="self" xml:id="bibl_16961">Bluette</rs>.― Abds. <rs type="person" xml:id="pNt_20648" ref="#person_18094"><surname>Messchaert</surname></rs> mit O.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

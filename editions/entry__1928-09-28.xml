@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-09-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-09-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-09-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-09-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-09-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-09-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1883-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,13 +177,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7170.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7171.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1928-09-28">
             <p xml:space="preserve"><date when="1928-09-28">28/9</date> Vm. <rs type="person" xml:id="pNt_84848" ref="#person_16277"><roleName>Dr.</roleName> <surname>Hoffmann</surname></rs>. Urheberrechtssachen. <rs type="work" subtype="self" xml:id="bibl_19681">Reigen</rs> <rs type="person" xml:id="pNt_84849" ref="#person_15957"><surname>Harz</surname></rs> <rs type="person" xml:id="pNt_84850" ref="#person_15009"><surname>Fischer</surname></rs>. 
 International etc. Aussichtslosigkeiten.</p>
@@ -188,5 +193,6 @@ vorwärts …</p>
             <p xml:space="preserve" rend="indent">Zu Tisch <rs type="person" xml:id="pNt_84852" ref="#person_16507"><forename>Lotte</forename> <surname>Janowitzer</surname></rs> ― und <rs type="person" xml:id="pNt_84853" ref="#person_16362"><forename>Lotte</forename> <surname>Horn</surname></rs>. Traurige Erinnerungen.</p>
             <p xml:space="preserve" rend="indent">Abends mit <rs type="person" xml:id="pNt_84854" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Kino „<rs type="work" xml:id="bibl_19682">Circus Wolfson</rs>“.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

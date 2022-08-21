@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1917-05-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-05-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-05-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1917-05-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-05-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-05-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0848-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4456.tif"/>
@@ -182,9 +186,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1917-05-10">
-            <p xml:space="preserve"><date when="1917-05-10">10/5</date> Mit <rs type="person" xml:id="pNt_50560" ref="#person_16770"><forename>Arth.</forename> <surname>Kfm.</surname></rs> <rs type="place" xml:id="pl_10504" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> ― Hameau ― <rs type="place" xml:id="pl_10505" ref="#place_f31da60292f235984a0cb55466b84b5f">Weidling Bach</rs> ― 
-<rs type="place" xml:id="pl_10506" ref="#place_b625a5db1a61b7d49ce6840eb1112f49">Hermannskogel</rs> ― <rs type="place" xml:id="pl_10507" ref="#place_3b0cf80ce6f7c6e0340cf31265c8f3f7">Sievring</rs>. Wunderbarer Frühlingstag. Eine Weile saßen 
-wir am Weg zwischen <rs type="place" xml:id="pl_10508" ref="#place_79569c4d5a6b9125210394665c1e4f3f">Weidling</rs> und <rs type="place" xml:id="pl_10509" ref="#place_b625a5db1a61b7d49ce6840eb1112f49">Hermannskogel</rs> (mir noch unbekannt), 
+            <p xml:space="preserve"><date when="1917-05-10">10/5</date> Mit <rs type="person" xml:id="pNt_50560" ref="#person_16770"><forename>Arth.</forename> <surname>Kfm.</surname></rs> <rs type="place" xml:id="pl_10504" ref="#pmb169">Pötzleinsdorf</rs> ― Hameau ― <rs type="place" xml:id="pl_10505" ref="#pmb44394">Weidling Bach</rs> ― 
+<rs type="place" xml:id="pl_10506" ref="#pmb90863">Hermannskogel</rs> ― <rs type="place" xml:id="pl_10507" ref="#pmb64219">Sievring</rs>. Wunderbarer Frühlingstag. Eine Weile saßen 
+wir am Weg zwischen <rs type="place" xml:id="pl_10508" ref="#pmb44392">Weidling</rs> und <rs type="place" xml:id="pl_10509" ref="#pmb90863">Hermannskogel</rs> (mir noch unbekannt), 
 Blick bis zum mähr. Gebirge ― „Wenn ich diese Schönheit sehe“ sagte 
 <rs type="person" xml:id="pNt_50561"><surname>K.</surname></rs>, „so ist mir fast, als müßt ich mich religiös nennen -“ Sie sinds 
 ― da Sie diese Schönheit empfinden. Es wäre eine gute Beschäftigung für 
@@ -200,6 +204,5 @@ endlosen Determinirens für mich ausgeschaltet.―</p>
             <p xml:space="preserve" rend="indent">Abd. Conc. <rs type="person" xml:id="pNt_50563" ref="#person_21171"><forename>Paul</forename> <surname>Weingarten</surname></rs>, mit O.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

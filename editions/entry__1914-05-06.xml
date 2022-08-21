@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-05-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-05-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-05-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-05-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-05-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-05-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-03FE-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3825.tif"/>
@@ -183,12 +187,11 @@
          <div type="diary-day" xml:id="entry__1914-05-06">
             <p xml:space="preserve"><date when="1914-05-06">6/5</date> Mit O. und <rs type="person" xml:id="pNt_43470" ref="#person_13359"><forename>Stephi</forename></rs> Bargello, <rs type="person" xml:id="pNt_43471"><surname>Pitti</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Mittag Grd. Hotel: <rs type="person" xml:id="pNt_43472" ref="#person_13359"><forename>Stephi</forename></rs>, <rs type="person" xml:id="pNt_43473" ref="#person_16162"><forename>Trude</forename> <surname>H.</surname></rs>, <rs type="person" xml:id="pNt_43474" ref="#person_19124"><surname>Reichenfeld</surname></rs>.</p>
-            <p xml:space="preserve" rend="indent">― Nm. Auto (mit <rs type="person" xml:id="pNt_43475" ref="#person_19124"><surname>Reichenf.</surname></rs> und <rs type="person" xml:id="pNt_43476" ref="#person_13359"><forename>Stephi</forename></rs>) <rs type="place" xml:id="pl_08702" ref="#place_0b6e99edce73490bcb154350c2520ef0">Fiesole</rs> ― Borgo S. Lorenzo; 
-dann <rs type="place" xml:id="pl_08703" ref="#place_17b1b0d6e6c120d35d56dcbdbf72b93e">Viale dei colli</rs>, <rs type="place" xml:id="pl_08704" ref="#place_9f47156752590524e59dcf43d6dca33f">Piazza Michel Angelo</rs> ― Blick auf die Stadt.―</p>
+            <p xml:space="preserve" rend="indent">― Nm. Auto (mit <rs type="person" xml:id="pNt_43475" ref="#person_19124"><surname>Reichenf.</surname></rs> und <rs type="person" xml:id="pNt_43476" ref="#person_13359"><forename>Stephi</forename></rs>) <rs type="place" xml:id="pl_08702" ref="#pmb48621">Fiesole</rs> ― Borgo S. Lorenzo; 
+dann <rs type="place" xml:id="pl_08703" ref="#pmb92582">Viale dei colli</rs>, <rs type="place" xml:id="pl_08704" ref="#pmb92445">Piazza Michel Angelo</rs> ― Blick auf die Stadt.―</p>
             <p xml:space="preserve" rend="indent">Gambrinus genachtm.; ich mit <rs type="person" xml:id="pNt_43477" ref="#person_17423"><forename>Kara</forename> <surname>Leitner</surname></rs> und <rs type="person" xml:id="pNt_43478" ref="#person_16816"><roleName>Frl.</roleName> <surname>Kern</surname></rs> ins Kino; O. 
 mit den andern in die <rs type="work" xml:id="bibl_8839">Traviata</rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

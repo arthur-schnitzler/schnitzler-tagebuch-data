@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-09-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-09-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-09-19.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-09-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-09-17.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-09-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F666-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1966.tif"/>
@@ -181,14 +185,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1904-09-18">
-            <p xml:space="preserve"><date when="1904-09-18">18/9</date> <rs type="place" xml:id="pl_04908" ref="#place_c38ad36647aca0261d667c432a4866bd">Salzburg</rs>.― Vm. mit O. <rs type="person" xml:id="pNt_21549" ref="#person_13551"><forename>Rich.</forename></rs> <rs type="place" xml:id="pl_04909" ref="#place_8e13299cb9283ee406943831d353dd51">Maxglan</rs> spazieren.</p>
+            <p xml:space="preserve"><date when="1904-09-18">18/9</date> <rs type="place" xml:id="pl_04908" ref="#pmb91649">Salzburg</rs>.― Vm. mit O. <rs type="person" xml:id="pNt_21549" ref="#person_13551"><forename>Rich.</forename></rs> <rs type="place" xml:id="pl_04909" ref="#pmb49234">Maxglan</rs> spazieren.</p>
             <p xml:space="preserve" rend="indent">Mittag wir alle wieder mit <rs type="person" xml:id="pNt_21550" ref="#person_16718"><surname>Karg</surname></rs>.</p>
             <p xml:space="preserve" rend="indent">Nm. auf meinem Zimmer mit <rs type="person" xml:id="pNt_21551" ref="#person_13551"><forename>Rich.</forename></rs> stundenlang über <rs type="person" xml:id="pNt_21552" ref="#person_16293"><forename>Hugo</forename></rs>. 
 Tiefe (allzutiefe) Erbitterung <rs type="person" xml:id="pNt_21553" ref="#person_13551"><forename>Richards</forename></rs>.―</p>
-            <p xml:space="preserve" rend="indent">Spazieren. Menschenmenge am <rs type="place" xml:id="pl_04910" ref="#place_a153145383ba263883909d27de6d65a2">Mozartplatz</rs> ― Presscongress 
+            <p xml:space="preserve" rend="indent">Spazieren. Menschenmenge am <rs type="place" xml:id="pl_04910" ref="#pmb91306">Mozartplatz</rs> ― Presscongress 
 ― <rs type="person" xml:id="pNt_21554" ref="#person_13374"><surname>Bahr</surname></rs> begegnet; wir bleiben gleich zusammen. Mirabell.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

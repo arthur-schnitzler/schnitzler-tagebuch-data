@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-06-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-06-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-06-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-06-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-06-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-06-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FCFC-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2700.tif"/>
@@ -185,8 +189,8 @@
             <p xml:space="preserve"><date when="1909-06-07">7/6</date> Vm. Tennis.―</p>
             <p xml:space="preserve" rend="indent">Zu Tisch <rs type="person" xml:id="pNt_30395" ref="#person_17958"><forename>Paul</forename></rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. die <rs type="person" xml:id="pNt_30396" ref="#person_18497"><surname>Nowotnysche</surname></rs> Abschrift des <rs type="work" subtype="self" xml:id="bibl_12688">Medardus</rs> zu lesen begonnen.</p>
-            <p xml:space="preserve" rend="indent">Im Wagen mit O. und <rs type="person" xml:id="pNt_30397" ref="#person_17958"><forename>Paul</forename> <surname>M.</surname></rs> <rs type="place" xml:id="pl_06702" ref="#place_f31da60292f235984a0cb55466b84b5f">Weidlingbach</rs>; dort spazieren, dann 
-<rs type="place" xml:id="pl_06703" ref="#place_79569c4d5a6b9125210394665c1e4f3f">Weidling</rs>, beim Straußen genachtmahlt. Wieder entzückt von der 
+            <p xml:space="preserve" rend="indent">Im Wagen mit O. und <rs type="person" xml:id="pNt_30397" ref="#person_17958"><forename>Paul</forename> <surname>M.</surname></rs> <rs type="place" xml:id="pl_06702" ref="#pmb44394">Weidlingbach</rs>; dort spazieren, dann 
+<rs type="place" xml:id="pl_06703" ref="#pmb44392">Weidling</rs>, beim Straußen genachtmahlt. Wieder entzückt von der 
 Landschaft; aber die rapide Verschlechterung des Gehörs ― mit einer 
 andern Zwangsvorstellung verbunden, Zukunftsgedanken umdüsterten mich.</p>
             <p xml:space="preserve" rend="indent">Daheim noch die <rs type="work" subtype="self" xml:id="bibl_12689">Medardus</rs> Abschrift weiter.</p>
@@ -199,6 +203,5 @@ andern Zwangsvorstellung verbunden, Zukunftsgedanken umdüsterten mich.</p>
             </tei:fw>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

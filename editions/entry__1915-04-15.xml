@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-04-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-04-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-04-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1915-04-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-04-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-04-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0554-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4022.tif"/>
@@ -183,16 +187,15 @@
       <body>
          <div type="diary-day" xml:id="entry__1915-04-15">
             <p xml:space="preserve"><date when="1915-04-15">15/4</date> Mit <rs type="person" xml:id="pNt_45323" ref="#person_19822"><forename>Heini</forename></rs> Panorama (Schlachtfelder!); im <rs type="place" xml:id="pl_09314" ref="#place_f3f3356a03faa7fba60f19c1bcd97b61" ana="#exclude">Oest.</rs> Museum.― Traf 
-auf dem <rs type="place" xml:id="pl_09315" ref="#place_9ae90ea21d3e063c02809f046183f123">Ring</rs> <rs type="person" xml:id="pNt_45324" ref="#person_19197"><surname>Ress</surname></rs>; er erzählt mir dass er gestern in einem Concert des 
+auf dem <rs type="place" xml:id="pl_09315" ref="#pmb91600">Ring</rs> <rs type="person" xml:id="pNt_45324" ref="#person_19197"><surname>Ress</surname></rs>; er erzählt mir dass er gestern in einem Concert des 
 kathol. Gesellen(?)vereins war; lauter Aristokratie;― zuerst Reden, in 
 denen auf Presse und Juden geschimpft wurde, dann etwas Musik.―</p>
-            <p xml:space="preserve" rend="indent">Der optimistische Brief von <rs type="person" xml:id="pNt_45325" ref="#person_13774"><forename>Franz</forename> <surname>Blei</surname></rs> an <rs type="person" xml:id="pNt_45326" ref="#person_15009"><surname>Fischer</surname></rs>, den dieser (aus <rs type="place" xml:id="pl_09316" ref="#place_834e1bca2cb7d2238249e70860ed8ae8">Meran</rs>) 
+            <p xml:space="preserve" rend="indent">Der optimistische Brief von <rs type="person" xml:id="pNt_45325" ref="#person_13774"><forename>Franz</forename> <surname>Blei</surname></rs> an <rs type="person" xml:id="pNt_45326" ref="#person_15009"><surname>Fischer</surname></rs>, den dieser (aus <rs type="place" xml:id="pl_09316" ref="#pmb43520">Meran</rs>) 
 mir sendet. Bald Friede und Sieg auf allen Linien. Im ganzen steht es 
 jedenfalls ungleich besser als vor wenig Wochen.―</p>
             <p xml:space="preserve" rend="indent">Nm. am „<rs type="work" subtype="self" xml:id="bibl_8058">Fliederbusch</rs>“.―</p>
             <p xml:space="preserve" rend="indent">Mit O. bei <rs type="person" xml:id="pNt_45327" ref="#person_13355"><surname>Bachrach’s</surname></rs> genachtm.; auch <rs type="person" xml:id="pNt_45328" ref="#person_17425"><roleName>Onkel</roleName> <forename>Max</forename></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1917-03-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-03-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-03-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1917-03-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-03-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-03-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-081C-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4431.tif"/>
@@ -181,8 +185,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1917-03-27">
-            <p xml:space="preserve"><date when="1917-03-27">27/3</date> Panorama (<rs type="place" xml:id="pl_10440" ref="#place_8dbb07a18d46f63d8b3c8994d5ccc351">Mexico</rs>).― Bei <rs type="person" xml:id="pNt_50180" ref="#person_19364"><roleName>Dr.</roleName> <surname>Rosenbaum</surname></rs>.― Seine Versuche wieder 
-ans Burgth. zu kommen.― <rs type="place" xml:id="pl_10441" ref="#place_4e92f9d2cdf0b8eb493ae3a19709d121">Montenegro</rs>, Krieg, <rs type="place" xml:id="pl_10442" ref="#place_3d93c766d980f58a8e989a616a0c72e6">Dalmatien</rs>; seine Existenz 
+            <p xml:space="preserve"><date when="1917-03-27">27/3</date> Panorama (<rs type="place" xml:id="pl_10440" ref="#pmb367">Mexico</rs>).― Bei <rs type="person" xml:id="pNt_50180" ref="#person_19364"><roleName>Dr.</roleName> <surname>Rosenbaum</surname></rs>.― Seine Versuche wieder 
+ans Burgth. zu kommen.― <rs type="place" xml:id="pl_10441" ref="#pmb366">Montenegro</rs>, Krieg, <rs type="place" xml:id="pl_10442" ref="#pmb90511">Dalmatien</rs>; seine Existenz 
 als Baons Adjutant.―</p>
             <p xml:space="preserve" rend="indent">Zum Thee <rs type="person" xml:id="pNt_50181" ref="#person_21602"><forename>Vicki</forename></rs>;― ich erzählte aus literar. und schauspielerischen 
 Erinnerungen;― <rs type="person" xml:id="pNt_50182" ref="#person_18190"><surname>Mitterwurzer</surname></rs> <rs type="person" xml:id="pNt_50183" ref="#person_14065"><surname>Burckhard</surname></rs>, <rs type="work" subtype="self" xml:id="bibl_6349">Liebelei</rs> etc.―</p>
@@ -198,6 +202,5 @@ mich</rs> zu schreiben. Allerlei über <rs type="person" xml:id="pNt_50186" ref=
             </tei:fw>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

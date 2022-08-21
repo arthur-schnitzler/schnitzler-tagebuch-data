@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1894-05-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-05-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-05-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1894-05-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-05-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-05-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E82C-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0836.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1894-05-14">
-            <p xml:space="preserve"><date when="1894-05-14">14/5</date> Herumradelei <rs type="place" xml:id="pl_01693" ref="#place_cf347124ffab1af3a8fa01234016bd7d">Neunkirchen</rs> ― <rs type="place" xml:id="pl_01694" ref="#place_5884bac5272bf94a2487941d33f4ddc1">Payerbach</rs> ― <rs type="place" xml:id="pl_01695" ref="#place_6193df85bc3c052a79293849f3d641b1">Schottwien</rs> ― 
-<rs type="place" xml:id="pl_01696" ref="#place_c9fe2ce48d12e0308505cd0da82e9273">Gloggnitz</rs> ― <rs type="place" xml:id="pl_01697" ref="#place_0f0b5f02ced8b80e3d3afa7b48b4de39">Neustadt</rs>.― Nachts bei <rs type="person" xml:id="pNt_08753" ref="#person_19564"><forename>Dilly</forename></rs>.―</p>
+            <p xml:space="preserve"><date when="1894-05-14">14/5</date> Herumradelei <rs type="place" xml:id="pl_01693" ref="#pmb91340">Neunkirchen</rs> ― <rs type="place" xml:id="pl_01694" ref="#pmb948">Payerbach</rs> ― <rs type="place" xml:id="pl_01695" ref="#pmb91695">Schottwien</rs> ― 
+<rs type="place" xml:id="pl_01696" ref="#pmb90727">Gloggnitz</rs> ― <rs type="place" xml:id="pl_01697" ref="#pmb92109">Neustadt</rs>.― Nachts bei <rs type="person" xml:id="pNt_08753" ref="#person_19564"><forename>Dilly</forename></rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1896-03-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-03-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-03-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1896-03-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-03-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-03-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EAD5-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1132.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1896-03-29">
-            <p xml:space="preserve"><date when="1896-03-29">29/3</date> S. Das <rs type="work" subtype="self" xml:id="bibl_21822">Absch.souper</rs> ist, den Telegr. nach in <rs type="place" xml:id="pl_02206" ref="#place_d5460b665e26333bdf699f77a2e3cf17">Frankfurt am Main</rs> 
+            <p xml:space="preserve"><date when="1896-03-29">29/3</date> S. Das <rs type="work" subtype="self" xml:id="bibl_21822">Absch.souper</rs> ist, den Telegr. nach in <rs type="place" xml:id="pl_02206" ref="#pmb146">Frankfurt am Main</rs> 
 gestern (zu „<rs type="work" xml:id="bibl_21823">Untreu</rs>“ gegeben) durchgefallen ― „ein <rs type="work" subtype="self" xml:id="bibl_21824">Anatolmotiv</rs> voll 
 feiner Beobachtung ist an dem wenig empfängl. Publikum spurlos 
-vorübergegangen ―“. Bic. nach <rs type="place" xml:id="pl_02207" ref="#place_f31da60292f235984a0cb55466b84b5f">Weidling Bach</rs>; <rs type="person" xml:id="pNt_11942" ref="#person_19542"><surname>Salten</surname></rs> ― Abd. mit <rs type="person" xml:id="pNt_11943"><forename>Mz.</forename></rs> 
+vorübergegangen ―“. Bic. nach <rs type="place" xml:id="pl_02207" ref="#pmb44394">Weidling Bach</rs>; <rs type="person" xml:id="pNt_11942" ref="#person_19542"><surname>Salten</surname></rs> ― Abd. mit <rs type="person" xml:id="pNt_11943"><forename>Mz.</forename></rs> 
 <rs type="person" xml:id="pNt_11944"><forename>Rh.</forename></rs> bei Uns, hatte sie sehr lieb.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

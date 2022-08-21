@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1892-05-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-05-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-05-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1892-05-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-05-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-05-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E556-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,12 +177,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0614.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1892-05-14">
             <p xml:space="preserve"><date when="1892-05-14">14/5</date> Vm. <rs type="person" xml:id="pNt_06257" ref="#person_15485"><forename>Mz.</forename></rs> ― Bei der Probe zu <rs type="work" xml:id="bibl_22889">Thermidor</rs> fiel sie <rs type="person" xml:id="pNt_06258" ref="#person_18190"><surname>Mitterwurzer</surname></rs> auf.― 
 Ob sie viel spiele. <rs type="person" xml:id="pNt_06259" ref="#person_16621"><surname>Kadelburg</surname></rs>: Oh ja …Im übrigen ist sie ja verlobt ― 
@@ -199,5 +204,6 @@ Sie haben Talent.―“</p>
 werden liegt eine enervirende Tragik.―</p>
             <p xml:space="preserve" rend="indent">Im Schattenspieltheater mit <rs type="person" xml:id="pNt_06267" ref="#person_19542"><surname>Salten</surname></rs>. <rs type="work" xml:id="bibl_22890">Klabriaspartie</rs> ― <rs type="person" xml:id="pNt_06268" ref="#person_17336"><surname>Laska</surname></rs>.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

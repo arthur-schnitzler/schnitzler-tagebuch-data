@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-02-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-02-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-02-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-02-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-02-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-02-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0F1C-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5658.tif"/>
@@ -182,10 +186,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1922-02-23">
-            <p xml:space="preserve"><date when="1922-02-23">23/2</date> Träume: am <rs type="place" xml:id="pl_13685" ref="#place_b6838b4a250a6393d18e5657d5b296d3">Schwarzenbergplatz</rs> ein (Leiter?) Wagen zusammenstoßend 
+            <p xml:space="preserve"><date when="1922-02-23">23/2</date> Träume: am <rs type="place" xml:id="pl_13685" ref="#pmb91711">Schwarzenbergplatz</rs> ein (Leiter?) Wagen zusammenstoßend 
 mit einem Leichenwagen; ich sehe, mich umwendend, daß der Sarg heraus (oder 
 nur von einer Karre herunter) gekollert ist;― etwas ängstlich, ob auch die 
-Leiche herausfiel, was nicht der Fall. Dann weiter dem <rs type="place" xml:id="pl_13686" ref="#place_9ae90ea21d3e063c02809f046183f123">Ring</rs> zu. (Ein Theil 
+Leiche herausfiel, was nicht der Fall. Dann weiter dem <rs type="place" xml:id="pl_13686" ref="#pmb91600">Ring</rs> zu. (Ein Theil 
 der Stadt, von dem ich nicht selten träume.) ― Dann Traum von <rs type="person" xml:id="pNt_65333" ref="#person_19832"><forename>O.</forename></rs>, 
 mit stark erot.-sex. Betonung; sie erröthend, wie ein junges Mädchen.</p>
             <p xml:space="preserve" rend="indent">Dictirt Briefe.―</p>
@@ -195,6 +199,5 @@ er bescheidene Propaganda für sich macht; ich gebe ihm Ratschläge.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_65335" ref="#person_20242"><surname>Speidels</surname></rs> besuchen mich.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

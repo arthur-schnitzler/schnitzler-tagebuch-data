@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-04-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-04-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-04-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1906-04-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-04-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-04-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F8A4-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,12 +176,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2217.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1906-04-16">
             <p xml:space="preserve"><date when="1906-04-16">16/4</date> Ostermontag. Vm. Tennis.</p>
             <p xml:space="preserve" rend="indent">Mg. Mama und <rs type="person" xml:id="pNt_24773"><forename>Annie</forename> <surname>Sikora</surname></rs> da.― Mit <rs type="allusively" xml:id="rst_00689">Mama</rs> <rs type="work" xml:id="bibl_14933">5.</rs> <rs type="person" xml:id="pNt_24774" ref="#person_18282"><surname>Mozart</surname></rs> Symph.―</p>
@@ -186,5 +191,6 @@ mir wieder sehr dringende Einladung von <rs type="person" xml:id="pNt_24777" ref
 betreffend, brachte. Komische Geschichten von <rs type="person" xml:id="pNt_24778" ref="#person_14567"><surname>Durieux</surname></rs>, <rs type="person" xml:id="pNt_24779" ref="#person_16255"><surname>Höflich</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Kopfweh. Früh zu Bett.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

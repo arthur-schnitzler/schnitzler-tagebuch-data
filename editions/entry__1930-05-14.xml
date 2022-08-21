@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-05-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-05-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-05-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-05-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-05-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-05-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1AD4-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7487.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1930-05-14">
-            <p xml:space="preserve"><date when="1930-05-14">14/5</date> <rs type="place" xml:id="pl_19238" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.― Tel. mit <rs type="person" xml:id="pNt_89699" ref="#person_14234"><forename>Suz.</forename></rs> Um 10 war sie da;― Berichte aus <rs type="place" xml:id="pl_19239" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs> (sie kam 
+            <p xml:space="preserve"><date when="1930-05-14">14/5</date> <rs type="place" xml:id="pl_19238" ref="#pmb50">Wien</rs>.― Tel. mit <rs type="person" xml:id="pNt_89699" ref="#person_14234"><forename>Suz.</forename></rs> Um 10 war sie da;― Berichte aus <rs type="place" xml:id="pl_19239" ref="#pmb182">Paris</rs> (sie kam 
 gestern an), geschäftliches (<rs type="person" xml:id="pNt_89700" ref="#person_14877"><surname>Falconetti</surname></rs>, <rs type="person" xml:id="pNt_89701" ref="#person_19182"><surname>Rémon</surname></rs>, <rs type="person" xml:id="pNt_89702" ref="#person_16062"><surname>Hella</surname></rs>, <rs type="person" xml:id="pNt_89703" ref="#person_14394"><surname>Delamain</surname></rs>),― 
 sie hat alles so klug gemacht wie möglich.― Privates, von der Hochzeit 
 u. s. w.― Krokodilportemonnaie zum Geburtstag.― Gute Stunden, bis eins.―</p>
@@ -192,7 +196,7 @@ abgesehn.― Wenn es sich um eigne Angelegenheiten handelt, gibts für <rs type=
 keine Logik und keine Consequenz.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_89708" ref="#person_14234"><forename>Suz.</forename></rs> telef., liest Briefe vor.</p>
             <p xml:space="preserve" rend="indent">― Telef. mit <rs type="person" xml:id="pNt_89709" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>;― gleich darauf ein Brief von ihr, gefasst und auch 
-ergreifend;― aber immer wieder ― wegen <rs type="person" xml:id="pNt_89710" ref="#person_19832"><forename>O</forename></rs>… dass ich mit ihr <rs type="place" xml:id="pl_19240" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs> 
+ergreifend;― aber immer wieder ― wegen <rs type="person" xml:id="pNt_89710" ref="#person_19832"><forename>O</forename></rs>… dass ich mit ihr <rs type="place" xml:id="pl_19240" ref="#pmb91735">Semmering</rs> 
 gewesen … mit besonderer Rücksicht auf ihre Familie; mit „Ultimatum“.― 
 Telef. Antwort.―</p>
             <p xml:space="preserve" rend="indent">Abends zu <rs type="person" xml:id="pNt_89711" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Mühselig ― Ich erkläre, auf soz. Rücksichten nicht 
@@ -201,6 +205,5 @@ Sie gibt quasi nach. Mit ihr zu mir; sie nachtm. bei mir, Schweigen, ich
 begleite sie bald heim.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

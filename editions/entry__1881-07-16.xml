@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1881-07-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1881-07-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1881-07-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1881-07-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1881-07-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1881-07-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DE1F-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0132.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1881-07-16">
-            <p xml:space="preserve"><date when="1881-07-16">Samstag 16.</date> <rs type="place" xml:id="pl_00226" ref="#place_fed0640715fd3a0b37041bc44191bbf0">Obervellach</rs> ― <rs type="place" xml:id="pl_00227" ref="#place_235bb2764e0db2935b53aa66c95dda96">Winklern</rs> ― <rs type="place" xml:id="pl_00228" ref="#place_6924ee63c56474bfac826b3b7e0714cd">Heiligenblut</rs> (gefahren).</p>
+            <p xml:space="preserve"><date when="1881-07-16">Samstag 16.</date> <rs type="place" xml:id="pl_00226" ref="#pmb91383">Obervellach</rs> ― <rs type="place" xml:id="pl_00227" ref="#pmb92089">Winklern</rs> ― <rs type="place" xml:id="pl_00228" ref="#pmb90843">Heiligenblut</rs> (gefahren).</p>
             <pb n="107"/>
             <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header">
                <fw place="top_center">
@@ -191,6 +195,5 @@
             </tei:fw>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1925-06-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-06-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-06-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1925-06-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-06-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-06-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-13DE-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6506.tif"/>
@@ -182,12 +186,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1925-06-26">
-            <p xml:space="preserve"><date when="1925-06-26">26/6</date> <rs type="place" xml:id="pl_16127" ref="#place_3859ff9074d497ed0cb3c08be85996ad">Bozen</rs>.― <rs type="person" xml:id="pNt_75353" ref="#person_20340"><roleName>Hr.</roleName> <surname>v. Stefenelli</surname></rs>; Besprechung wegen Autopartien (von <rs type="person" xml:id="pNt_75354" ref="#person_13573"><forename>Cap.</forename></rs> 
+            <p xml:space="preserve"><date when="1925-06-26">26/6</date> <rs type="place" xml:id="pl_16127" ref="#pmb40260">Bozen</rs>.― <rs type="person" xml:id="pNt_75353" ref="#person_20340"><roleName>Hr.</roleName> <surname>v. Stefenelli</surname></rs>; Besprechung wegen Autopartien (von <rs type="person" xml:id="pNt_75354" ref="#person_13573"><forename>Cap.</forename></rs> 
 <rs type="person" xml:id="pNt_75355" ref="#person_13573"><surname>Bellinzoni</surname></rs> empfohlen), auch gewesener <rs type="place" xml:id="pl_16128" ref="#place_50e7fee43672ab5849a6d99f48c6ad7c" ana="#exclude">oesterr.</rs> Offizier.</p>
             <p xml:space="preserve" rend="indent">Briefe; u. a. von <rs type="person" xml:id="pNt_75356" ref="#person_13920"><surname>Brandes</surname></rs>.―</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_75357" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Spaziergang (Abend) <rs type="place" xml:id="pl_16129" ref="#place_7580f5f486c19fc6b5b0dec742ca1949">Gries</rs>.</p>
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_75357" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Spaziergang (Abend) <rs type="place" xml:id="pl_16129" ref="#pmb45092">Gries</rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

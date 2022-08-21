@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-09-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-09-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-09-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-09-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-09-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-09-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-01AD-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3479.tif"/>
@@ -183,13 +187,12 @@
          <div type="diary-day" xml:id="entry__1912-09-20">
             <p xml:space="preserve"><date when="1912-09-20">20/9</date> Vm. spazieren und dictirt. Dumpfes Kopfweh fast immer seit 
 Heimkehr.</p>
-            <p xml:space="preserve" rend="indent">Gegen Abend <rs type="person" xml:id="pNt_38875" ref="#person_19542"><surname>Salten</surname></rs>, aus <rs type="place" xml:id="pl_08042" ref="#place_7af648bdb537c8e802b17da1c2304d2e">Unterach</rs> zurück. Citirt gleich eine Stelle 
+            <p xml:space="preserve" rend="indent">Gegen Abend <rs type="person" xml:id="pNt_38875" ref="#person_19542"><surname>Salten</surname></rs>, aus <rs type="place" xml:id="pl_08042" ref="#pmb91973">Unterach</rs> zurück. Citirt gleich eine Stelle 
 aus einem Feuilleton von gestern, in der er gegen <rs type="person" xml:id="pNt_38876" ref="#person_15149"><forename>F.</forename> <surname>E.</surname></rs> auftritt. 
 („Auch ich …“) ―</p>
-            <p xml:space="preserve" rend="indent">Oper, <rs type="work" xml:id="bibl_10482">Tosca</rs> (<rs type="person" xml:id="pNt_38877" ref="#person_14144"><surname>Caruso</surname></rs>) mit O.― Dann im <rs type="place" ref="#place_meissl">Meissl</rs> mit <rs type="person" xml:id="pNt_38879" ref="#person_21601"><surname>Zuckerkandl</surname></rs> und 
+            <p xml:space="preserve" rend="indent">Oper, <rs type="work" xml:id="bibl_10482">Tosca</rs> (<rs type="person" xml:id="pNt_38877" ref="#person_14144"><surname>Caruso</surname></rs>) mit O.― Dann im <rs type="place" ref="#pmb96">Meissl</rs> mit <rs type="person" xml:id="pNt_38879" ref="#person_21601"><surname>Zuckerkandl</surname></rs> und 
 <rs type="person" xml:id="pNt_38880" ref="#person_19542"><surname>Salten</surname></rs>; dann in die Kaiserbar, wo <rs type="person" xml:id="pNt_38881" ref="#person_15378"><surname>Geldstet</surname></rs> spielte.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

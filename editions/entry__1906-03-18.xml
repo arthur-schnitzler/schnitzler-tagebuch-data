@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1906-03-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-03-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-03-19.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1906-03-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-03-17.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1906-03-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F887-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2205.tif"/>
@@ -180,12 +184,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1906-03-18">
-            <p xml:space="preserve"><date when="1906-03-18">18/3</date> Vm. bei <rs type="person" xml:id="pNt_24615" ref="#person_16517"><surname>Jarno</surname></rs> in der <rs type="place" xml:id="pl_05478" ref="#place_a9a988302086229505c21f885134919d">Josefstadt</rs>.―</p>
+            <p xml:space="preserve"><date when="1906-03-18">18/3</date> Vm. bei <rs type="person" xml:id="pNt_24615" ref="#person_16517"><surname>Jarno</surname></rs> in der <rs type="place" xml:id="pl_05478" ref="#pmb58">Josefstadt</rs>.―</p>
             <p xml:space="preserve" rend="indent">Frühlingstag. Düstre, bange Stimmung. Am <rs type="work" subtype="self" xml:id="bibl_14848">Roman</rs>.―</p>
             <p xml:space="preserve" rend="indent">Mit O. bei <rs type="allusively" xml:id="rst_00682">Mama</rs> genachtmahlt, sie zur Bahn begleitet. Sie reist nach 
-<rs type="place" xml:id="pl_05479" ref="#place_834e1bca2cb7d2238249e70860ed8ae8">Meran</rs>, <rs type="person" xml:id="pNt_24616" ref="#person_15854"><forename>Gisa</forename></rs> entgegen.</p>
+<rs type="place" xml:id="pl_05479" ref="#pmb43520">Meran</rs>, <rs type="person" xml:id="pNt_24616" ref="#person_15854"><forename>Gisa</forename></rs> entgegen.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

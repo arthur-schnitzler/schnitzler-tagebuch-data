@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-09-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-09-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-09-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-09-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-09-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-09-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FBEA-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2547.tif"/>
@@ -180,10 +184,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1908-09-06">
-            <p xml:space="preserve"><date when="1908-09-06">6/9</date> <rs type="place" xml:id="pl_06449" ref="#place_3859ff9074d497ed0cb3c08be85996ad">Bozen</rs>.― Mit <rs type="person" xml:id="pNt_28752" ref="#person_13305"><surname>Auernheimers</surname></rs> und <rs type="person" xml:id="pNt_28753" ref="#person_21387"><roleName>Baron</roleName> <surname>Winterstein</surname></rs> spazieren nach <rs type="place" xml:id="pl_06450" ref="#place_7580f5f486c19fc6b5b0dec742ca1949">Gries</rs>. 
+            <p xml:space="preserve"><date when="1908-09-06">6/9</date> <rs type="place" xml:id="pl_06449" ref="#pmb40260">Bozen</rs>.― Mit <rs type="person" xml:id="pNt_28752" ref="#person_13305"><surname>Auernheimers</surname></rs> und <rs type="person" xml:id="pNt_28753" ref="#person_21387"><roleName>Baron</roleName> <surname>Winterstein</surname></rs> spazieren nach <rs type="place" xml:id="pl_06450" ref="#pmb45092">Gries</rs>. 
 Im Bristol Garten gemeinsam genachtm. Abreise.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-08-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-08-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-08-06.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-08-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-08-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-08-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1B27-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7534.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1930-08-05">
-            <p xml:space="preserve"><date when="1930-08-05">5/8</date> <rs type="place" xml:id="pl_19422" ref="#place_51c7c0e8bc877f41a415a8e7efedd068">St. Moritz</rs>.― Brief <rs type="person" xml:id="pNt_90412" ref="#person_14234"><forename>Suz.</forename></rs>―</p>
+            <p xml:space="preserve"><date when="1930-08-05">5/8</date> <rs type="place" xml:id="pl_19422" ref="#pmb44374">St. Moritz</rs>.― Brief <rs type="person" xml:id="pNt_90412" ref="#person_14234"><forename>Suz.</forename></rs>―</p>
             <p xml:space="preserve" rend="indent">Schlechtwetter. Gang um den See.</p>
             <p xml:space="preserve" rend="indent">Gegen Abend mit <rs type="person" xml:id="pNt_90413" ref="#person_19827"><forename>Jul.</forename></rs> <rs type="person" xml:id="pNt_90414" ref="#person_19823"><forename>Helene</forename></rs> am See.―</p>
             <p xml:space="preserve" rend="indent">Nach dem Nachtm. kleines Poker mit <rs type="person" xml:id="pNt_90415" ref="#person_19822"><forename>Heini</forename></rs>, <rs type="person" xml:id="pNt_90416" ref="#person_21456"><surname>Wolfsthals</surname></rs> (<rs type="person" xml:id="pNt_90417" ref="#person_13139"><forename>Ruth</forename></rs>).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

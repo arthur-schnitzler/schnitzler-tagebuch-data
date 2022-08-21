@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1916-12-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-12-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-12-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1916-12-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-12-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-12-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-07C1-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4379.tif"/>
@@ -182,11 +186,10 @@
       <body>
          <div type="diary-day" xml:id="entry__1916-12-26">
             <p xml:space="preserve"><date when="1916-12-26">26/12</date> Mit <rs type="person" xml:id="pNt_49515" ref="#person_19822"><forename>Heini</forename></rs> Dreimarkstein, dort mit <rs type="person" xml:id="pNt_49516" ref="#person_18881"><roleName>Frl.</roleName> <surname>Pollak</surname></rs> und Frau <rs type="person" xml:id="pNt_49517" ref="#person_13282"><forename>Hanne</forename> 
-<surname>Askonas</surname></rs> zusammengetroffen, über <rs type="place" xml:id="pl_10343" ref="#place_f31da60292f235984a0cb55466b84b5f">Weidlingbach</rs>, <rs type="place" xml:id="pl_10344" ref="#place_3b0cf80ce6f7c6e0340cf31265c8f3f7">Sievring</rs> heimwärts.</p>
+<surname>Askonas</surname></rs> zusammengetroffen, über <rs type="place" xml:id="pl_10343" ref="#pmb44394">Weidlingbach</rs>, <rs type="place" xml:id="pl_10344" ref="#pmb64219">Sievring</rs> heimwärts.</p>
             <p xml:space="preserve" rend="indent">Nm. Brief an <rs type="person" xml:id="pNt_49518" ref="#person_20386"><forename>Liesl</forename></rs>.― Am <rs type="work" subtype="self" xml:id="bibl_7819">Fldb.</rs>―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_49519" ref="#person_19822"><forename>Heini</forename></rs> <rs type="work" xml:id="bibl_7820">Pathetique</rs> von <rs type="person" xml:id="pNt_49520" ref="#person_20822"><surname>Tschaikowsky</surname></rs>!―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

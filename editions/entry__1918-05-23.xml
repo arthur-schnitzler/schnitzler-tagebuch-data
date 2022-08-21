@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-05-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-05-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-05-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-05-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-05-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-05-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-09C1-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4641.tif"/>
@@ -181,9 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1918-05-23">
-            <p xml:space="preserve"><date when="1918-05-23">23/5</date> Mit <rs type="person" xml:id="pNt_53287" ref="#person_16770"><forename>Arthur</forename> <surname>Kfm.</surname></rs> und Schwester <rs type="place" xml:id="pl_11020" ref="#place_efef1d73581305a6c40cfe3821c7a2b3">Bürgeralpel</rs>.― <rs type="person" xml:id="pNt_53288"><surname>Laufenstein</surname></rs> Mittag.</p>
+            <p xml:space="preserve"><date when="1918-05-23">23/5</date> Mit <rs type="person" xml:id="pNt_53287" ref="#person_16770"><forename>Arthur</forename> <surname>Kfm.</surname></rs> und Schwester <rs type="place" xml:id="pl_11020" ref="#pmb90420">Bürgeralpel</rs>.― <rs type="person" xml:id="pNt_53288"><surname>Laufenstein</surname></rs> Mittag.</p>
             <p xml:space="preserve" rend="indent">― Las <rs type="person" xml:id="pNt_53289"><roleName>Hauptmann</roleName> <surname>Wlach</surname></rs> „<rs type="work" xml:id="bibl_5599">Flucht durchs mongol. Sandmeer</rs>“.― <rs type="person" xml:id="pNt_53290" ref="#person_17069"><surname>Kotzebue</surname></rs> 
-<rs type="work" xml:id="bibl_5600">Menschenhass</rs>.― Mit beiden <rs type="person" xml:id="pNt_53291"><surname>Kfm.s</surname></rs> <rs type="place" xml:id="pl_11022" ref="#place_2ead72cc83faaed9d9d0c0f412e20464">Rasing</rs>, Linde, Obersschaumcaffee; 
+<rs type="work" xml:id="bibl_5600">Menschenhass</rs>.― Mit beiden <rs type="person" xml:id="pNt_53291"><surname>Kfm.s</surname></rs> <rs type="place" xml:id="pl_11022" ref="#pmb91566">Rasing</rs>, Linde, Obersschaumcaffee; 
 herrliche Narcissenwiesen, Josefswarte, Elisabethwarte.― Gespräch vor 
 der Kirche über Zwangsvorstellungen.</p>
             <pb n="144"/>
@@ -195,6 +199,5 @@ der Kirche über Zwangsvorstellungen.</p>
             </tei:fw>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

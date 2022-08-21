@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1917-10-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-10-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-10-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1917-10-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-10-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1917-10-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-08D9-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4537.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1917-10-02">
-            <p xml:space="preserve"><date when="1917-10-02">2/10</date> Vm. <rs type="place" ref="#place_volkstheater">Volksth.</rs> Besprechung Besetzung <rs type="work" subtype="self" xml:id="bibl_6779">Fldb.</rs>, mit <rs type="person" xml:id="pNt_51630" ref="#person_21074"><surname>Wallner</surname></rs>, Regisseur 
+            <p xml:space="preserve"><date when="1917-10-02">2/10</date> Vm. <rs type="place" ref="#pmb92202">Volksth.</rs> Besprechung Besetzung <rs type="work" subtype="self" xml:id="bibl_6779">Fldb.</rs>, mit <rs type="person" xml:id="pNt_51630" ref="#person_21074"><surname>Wallner</surname></rs>, Regisseur 
 <rs type="person" xml:id="pNt_51631" ref="#person_19925"><surname>Schulbaur</surname></rs> und <rs type="person" xml:id="pNt_51632" ref="#person_15483"><surname>Glücksmann</surname></rs>.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_51633" ref="#person_19822"><forename>Heini</forename></rs> bei <rs type="person" xml:id="pNt_51634" ref="#person_16735"><roleName>Dr.</roleName> <surname>Karolyi</surname></rs>.</p>
             <p xml:space="preserve" rend="indent">Nm. mit Briefen an <rs type="person" xml:id="pNt_51635" ref="#person_17834"><surname>Mann</surname></rs> und <rs type="person" xml:id="pNt_51636" ref="#person_20885"><surname>Unruh</surname></rs> beschäftigt.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

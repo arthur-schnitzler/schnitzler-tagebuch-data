@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1907-11-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-11-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-11-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1907-11-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-11-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-11-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FAEC-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2439.tif"/>
@@ -182,7 +186,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1907-11-21">
             <p xml:space="preserve"><date when="1907-11-21">21/11</date> Vm. bei <rs type="person" xml:id="pNt_27611" ref="#person_19542"><surname>Salten</surname></rs>. Später kam <rs type="person" xml:id="pNt_27612" ref="#person_19096"><roleName>Prof.</roleName> <surname>Redlich</surname></rs>.―</p>
-            <p xml:space="preserve" rend="indent">Nm. zu <rs type="person" xml:id="pNt_27613" ref="#person_18776"><forename>Gustav</forename> <surname>Pick</surname></rs>. (Das erste Mal.) <rs type="place" xml:id="pl_06162" ref="#place_692c45e517cb1619a4f0afeaf1d04235">Hegelgasse</rs>. Er spielte mir wieder 
+            <p xml:space="preserve" rend="indent">Nm. zu <rs type="person" xml:id="pNt_27613" ref="#person_18776"><forename>Gustav</forename> <surname>Pick</surname></rs>. (Das erste Mal.) <rs type="place" xml:id="pl_06162" ref="#pmb53169">Hegelgasse</rs>. Er spielte mir wieder 
 einiges vor … „Daraus laßt sich doch was machen“ …ich solle 
 ihm einen Text schreiben. Bilder. Mein Ururgroßvater <rs type="person" xml:id="pNt_27614" ref="#person_19666"><forename>Moses</forename> <surname>Schey</surname></rs>, sein 
 Urgroßvater. <rs type="work" subtype="self" xml:id="bibl_14601">Tagebücher</rs>.― <rs type="person" xml:id="pNt_27615" ref="#person_18773"><forename>Alfred</forename></rs>, sein Sohn, jetzt Gerichtssecretair, 
@@ -199,6 +203,5 @@ Zugstück.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_27626" ref="#person_15306"><surname>Fulda</surname></rs> ins Grand Hotel <rs type="person" xml:id="pNt_27627"><surname>Keller</surname></rs>; wo auch <rs type="person" xml:id="pNt_27628" ref="#person_21157"><surname>Weilen</surname></rs> und Gattin.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

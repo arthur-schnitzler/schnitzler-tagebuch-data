@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-04-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-04-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-04-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-04-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-04-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-04-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FFA7-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,17 +177,19 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3143.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1911-04-21">
-            <p xml:space="preserve"><date when="1911-04-21">21/4</date> <rs type="place" xml:id="pl_07442" ref="#place_fd90af29b9843498b46c03408c979372">Mentone</rs>.― Autofahrt <rs type="place" xml:id="pl_07443" ref="#place_d6a297c6193fd59309453a0db7a51b90">Monaco</rs> ― <rs type="place" xml:id="pl_07444" ref="#place_b4d5600c385a6db5d7bdd413be57579b">Nizza</rs> ― <rs type="place" xml:id="pl_07445" ref="#place_1220ba81970cc72cafccb22a4e4a0dd0">Californie</rs>, Observatorium 
-<rs type="place" xml:id="pl_07446" ref="#place_ac85909cc2f96e6ad93e26add940f597">Cannes</rs> ― (Mittagessen: Casino municipal.) ―</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_07447" ref="#place_a0fa7fc5688d952306ba65d253a394e3">Antibes</rs> ― Villa Eilenroc (Herrlichkeit!) ― <rs type="place" xml:id="pl_07448" ref="#place_fd90af29b9843498b46c03408c979372">Mentone</rs>.―</p>
+            <p xml:space="preserve"><date when="1911-04-21">21/4</date> <rs type="place" xml:id="pl_07442" ref="#pmb36456">Mentone</rs>.― Autofahrt <rs type="place" xml:id="pl_07443" ref="#pmb91267">Monaco</rs> ― <rs type="place" xml:id="pl_07444" ref="#pmb926">Nizza</rs> ― <rs type="place" xml:id="pl_07445" ref="#pmb90430">Californie</rs>, Observatorium 
+<rs type="place" xml:id="pl_07446" ref="#pmb56147">Cannes</rs> ― (Mittagessen: Casino municipal.) ―</p>
+            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_07447" ref="#pmb88767">Antibes</rs> ― Villa Eilenroc (Herrlichkeit!) ― <rs type="place" xml:id="pl_07448" ref="#pmb36456">Mentone</rs>.―</p>
             <p xml:space="preserve" rend="indent">Lese <rs type="person" xml:id="pNt_35120" ref="#person_21493"><surname>Xanrof</surname></rs> „<rs type="work" xml:id="bibl_10940">C’est pour rire</rs>“.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

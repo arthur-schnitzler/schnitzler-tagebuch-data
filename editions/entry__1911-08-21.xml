@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-08-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-08-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-08-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-08-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-08-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-08-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0021-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,18 +177,20 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3205.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3206.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1911-08-21">
-            <p xml:space="preserve"><date when="1911-08-21">21/8</date> Mit <rs type="person" xml:id="pNt_35882" ref="#person_19822"><forename>Heini</forename></rs> Wagen <rs type="place" xml:id="pl_07582" ref="#place_8c013d27c25b2d109cfc000dee9900bf">Mariaschutz</rs>; zu Fuß nach <rs type="place" xml:id="pl_07583" ref="#place_5d363f3f2b2fc0ef8d3aca7867194d76">Schlagl</rs> und <rs type="place" xml:id="pl_07584" ref="#place_d99da12034c2eb74e8d79c158c06a704">Raach</rs>. 
+            <p xml:space="preserve"><date when="1911-08-21">21/8</date> Mit <rs type="person" xml:id="pNt_35882" ref="#person_19822"><forename>Heini</forename></rs> Wagen <rs type="place" xml:id="pl_07582" ref="#pmb45277">Mariaschutz</rs>; zu Fuß nach <rs type="place" xml:id="pl_07583" ref="#pmb91683">Schlagl</rs> und <rs type="place" xml:id="pl_07584" ref="#pmb91556">Raach</rs>. 
 <rs type="person" xml:id="pNt_35883" ref="#person_17813"><roleName>Herr</roleName> <surname>Mandl</surname></rs> (von Firma <rs type="org">Kranner</rs>) macht die Honneurs in Landschaft 
-und Gasthof.― Hinab durchs <rs type="place" xml:id="pl_07585" ref="#place_455245f33b9850c8eb74310639e4cf1f">Syhrnthal</rs> <rs type="place" xml:id="pl_07586" ref="#place_c9fe2ce48d12e0308505cd0da82e9273">Gloggnitz</rs>, Bahn <rs type="place" xml:id="pl_07587" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs>.―</p>
+und Gasthof.― Hinab durchs <rs type="place" xml:id="pl_07585" ref="#pmb92561">Syhrnthal</rs> <rs type="place" xml:id="pl_07586" ref="#pmb90727">Gloggnitz</rs>, Bahn <rs type="place" xml:id="pl_07587" ref="#pmb91735">Semmering</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. beschäftigte ich mich mit dem Einakter, der früher „<rs type="work" subtype="self" xml:id="bibl_11133">Der Vorige</rs>“ hieß.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

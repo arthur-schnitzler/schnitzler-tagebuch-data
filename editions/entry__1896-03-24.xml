@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1896-03-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-03-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-03-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1896-03-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-03-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-03-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EAD0-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,14 +177,15 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1130.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1896-03-24">
-            <p xml:space="preserve"><date when="1896-03-24">24/3</date> Vorm. <rs type="person" xml:id="pNt_11929" ref="#person_14065"><surname>Burckhard</surname></rs> gesprochen, vorm <rs type="place" ref="#place_burgtheater">Burgtheater</rs>; Frühling, er 
+            <p xml:space="preserve"><date when="1896-03-24">24/3</date> Vorm. <rs type="person" xml:id="pNt_11929" ref="#person_14065"><surname>Burckhard</surname></rs> gesprochen, vorm <rs type="place" ref="#pmb14">Burgtheater</rs>; Frühling, er 
 strawanzerisch, sympathisch, übers Radfahren, über den „<rs type="work" subtype="self" xml:id="bibl_21818">Abschied</rs>“ 
 („da hab ich mir Sie so vorgestellt, wie Sie beim Guckerl stehn ―“). 
 Frägt nach meinem neuen <rs type="work" subtype="self" xml:id="bibl_21819">Stück</rs>. Ich äußer mein Bedenken in 
@@ -189,5 +194,6 @@ Frägt nach meinem neuen <rs type="work" subtype="self" xml:id="bibl_21819">Stü
 Hinsicht auf die Burg-Offiziere ― Er: Könnens nicht ein’ Brieftrager 
 draus machen? Abd. im Conc. <rs type="person" xml:id="pNt_11930" ref="#person_15656"><surname>Grieg</surname></rs>, vorher mit <rs type="person" xml:id="pNt_11931" ref="#person_19150"><forename>Mz.</forename> <surname>Rh.</surname></rs> spazieren.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

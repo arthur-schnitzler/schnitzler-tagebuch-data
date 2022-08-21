@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1921-12-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-12-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-12-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1921-12-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-12-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-12-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0ECD-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5590.tif"/>
@@ -181,11 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1921-12-06">
-            <p xml:space="preserve"><date when="1921-12-06">6/12</date> Probe. <rs type="work" subtype="self" xml:id="bibl_3721">Leb. St.</rs>― Das unverbesserliche <rs type="place" ref="#place_volkstheater">Volkstheater</rs>. Die <rs type="person" xml:id="pNt_64513"><forename>Paola</forename></rs> am 
+            <p xml:space="preserve"><date when="1921-12-06">6/12</date> Probe. <rs type="work" subtype="self" xml:id="bibl_3721">Leb. St.</rs>― Das unverbesserliche <rs type="place" ref="#pmb92202">Volkstheater</rs>. Die <rs type="person" xml:id="pNt_64513"><forename>Paola</forename></rs> am 
 Tag vor der Gen. Probe ― <rs type="person" xml:id="pNt_64514" ref="#person_20111"><roleName>Herr</roleName> <surname>Sima</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent">Bringe <rs type="person" xml:id="pNt_64515" ref="#person_19986"><forename>Gustav</forename></rs> Sitze für morgen.</p>
             <p xml:space="preserve" rend="indent">Zum Thee zu <rs type="person" xml:id="pNt_64516" ref="#person_19542"><surname>Saltens</surname></rs> (wie <rs type="person" xml:id="pNt_64517" ref="#person_17834"><forename>Heinrich</forename> <surname>Mann</surname></rs> u. a.) ―</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_64518" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> Restaur. <rs type="place" xml:id="pl_13555" ref="#place_a9a988302086229505c21f885134919d">Josefstadt</rs> (Ch. s.) … Sie kam aus der <rs type="place" xml:id="pl_13556" ref="#place_811c7ad30c4e603795ef80e0c113ad9e">Frankg.</rs>; war müd, 
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_64518" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> Restaur. <rs type="place" xml:id="pl_13555" ref="#pmb58">Josefstadt</rs> (Ch. s.) … Sie kam aus der <rs type="place" xml:id="pl_13556" ref="#pmb397">Frankg.</rs>; war müd, 
 etwas verlogen, dann sehr aufrichtig, ein bischen „verbittert“ über ihr 
 Los;― ihre Überarbeitung.― In der Tram <rs type="person" xml:id="pNt_64519" ref="#person_16003"><forename>Max</forename> <surname>Hayek</surname></rs>. Als er mich mit <rs type="person" xml:id="pNt_64520" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> 
 sah, dachte er ersichtlich: „Seht, wie rasch der große <rs type="person" xml:id="pNt_64521" ref="#person_19654"><forename>Raphael</forename></rs> recht 
@@ -193,6 +197,5 @@ bekommt ― … schon ist er nicht mehr allein.“ … So halten Leute
 Prophezeiungen für erfüllt.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

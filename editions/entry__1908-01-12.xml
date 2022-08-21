@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-01-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-01-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-01-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-01-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-01-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-01-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FAFD-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2451.tif"/>
@@ -181,7 +185,8 @@
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2454.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2455.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1908-01-12">
             <p xml:space="preserve"><date when="1908-01-12">12/1</date> S. Zu regelmäßiger <rs type="work" subtype="self" xml:id="bibl_13145">Tagebuchführung</rs> noch kein Entschluss gefasst.―</p>
             <p xml:space="preserve" rend="indent">Olga noch bettlägerig, in voller Reconvalescenz.―</p>
@@ -201,7 +206,7 @@ Die <rs type="work" xml:id="bibl_13151">Briefe</rs> von <rs type="person" xml:id
 Romantik</rs> wieder.― <rs type="work" xml:id="bibl_13154">Lucinde</rs>.― <rs type="person" xml:id="pNt_27719" ref="#person_16443"><surname>Immermann</surname></rs> <rs type="work" xml:id="bibl_13155">Münchhausen</rs>, 1. Band.― In <rs type="person" xml:id="pNt_27720"><surname>Brehm</surname></rs> 
 (<rs type="work" xml:id="bibl_13156">Raubthiere</rs>).― <rs type="work" xml:id="bibl_13157"><rs type="person" xml:id="pNt_27721"><surname>Goethe</surname></rs> über seine Werke</rs> (<rs type="work" xml:id="bibl_13158">Faustband</rs>).― <rs type="work" xml:id="bibl_13159">Novellen</rs> von 
 <rs type="person" xml:id="pNt_27722" ref="#person_18204"><surname>Moerike</surname></rs>.― <rs type="person" xml:id="pNt_27723" ref="#person_16187"><surname>Heywood</surname></rs>, <rs type="work" xml:id="bibl_13160">der engl. Reisende</rs>.― <rs type="person" xml:id="pNt_27724" ref="#person_18333"><surname>Musil</surname></rs>, &gt;<rs type="work" xml:id="bibl_13161">Die Verirrungen des 
-Zöglings Törless</rs>.― <rs type="person" xml:id="pNt_27725"><surname>Vehse</surname></rs> (<rs type="place" xml:id="pl_06182" ref="#place_2b599b5935723d14cbf88a2b4bd8f5db">Sachsen</rs>).― <rs type="person" xml:id="pNt_27726" ref="#person_18356"><forename>Napoleon</forename></rs> <rs type="work" xml:id="bibl_13162">Briefe</rs>.― <rs type="work" xml:id="bibl_13163">Briefe</rs> <rs type="person" xml:id="pNt_27727"><forename>Marie 
+Zöglings Törless</rs>.― <rs type="person" xml:id="pNt_27725"><surname>Vehse</surname></rs> (<rs type="place" xml:id="pl_06182" ref="#pmb209">Sachsen</rs>).― <rs type="person" xml:id="pNt_27726" ref="#person_18356"><forename>Napoleon</forename></rs> <rs type="work" xml:id="bibl_13162">Briefe</rs>.― <rs type="work" xml:id="bibl_13163">Briefe</rs> <rs type="person" xml:id="pNt_27727"><forename>Marie 
 Antoinette</forename></rs> mit <rs type="person" xml:id="pNt_27728"><surname>Joseph</surname></rs> und <rs type="person" xml:id="pNt_27729"><surname>Leopold</surname></rs>.― Viel Zeitung, zur Zerstreuung, die mir 
 anfangs sehr nöthig war.―</p>
             <p xml:space="preserve" rend="indent">Auch <rs type="person" xml:id="pNt_27730" ref="#person_15529"><surname>Goldmanns</surname></rs> Briefe les ich, nach langer Zeit, wieder. Welch ein feiner 
@@ -218,13 +223,14 @@ sagt Olga lächelnd, wenn ich mich über die <rs type="person" xml:id="pNt_27733
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_27734" ref="#person_19822"><forename>Heini</forename></rs> wohnt noch immer bei seiner <rs type="allusively" xml:id="rst_00897">Großmama</rs>; wir teleph. öfters.―</p>
             <p xml:space="preserve" rend="indent">Auf der Straße neulich zufällig <rs type="person" xml:id="pNt_27735"><forename>Leo</forename></rs>; neulich <rs type="person" xml:id="pNt_27736" ref="#person_13551"><forename>Richard</forename></rs> gesprochen.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_27737" ref="#person_20188"><roleName>Dr.</roleName> <surname>Sokolowsky</surname></rs>, Übersetzer, begleitete mich auf einem Spaziergang nach 
-<rs type="place" xml:id="pl_06183" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs>; erzählt mir allerlei von <rs type="place" xml:id="pl_06184" ref="#place_3e59557b630aba415b2b473b86a70e73" ana="#exclude">russ.</rs> Verhältnissen.</p>
+<rs type="place" xml:id="pl_06183" ref="#pmb169">Pötzleinsdorf</rs>; erzählt mir allerlei von <rs type="place" xml:id="pl_06184" ref="#place_3e59557b630aba415b2b473b86a70e73" ana="#exclude">russ.</rs> Verhältnissen.</p>
             <p xml:space="preserve" rend="indent">Meine Cousine <rs type="person" xml:id="pNt_27738" ref="#person_17804"><forename>Grethe</forename> <surname>Mandl</surname></rs> hat sich mit <rs type="person" xml:id="pNt_27739" ref="#person_17803"><roleName>Dr.</roleName> <surname>Manassewitsch</surname></rs> verlobt.― </p>
-            <p xml:space="preserve" rend="indent">Neulich, spazierengehend, sah ich in <rs type="place" xml:id="pl_06185" ref="#place_6fc6f10422bfe80ddcba23b4f7f080dc">Hietzing</rs> das eben in Bau begriffene 
+            <p xml:space="preserve" rend="indent">Neulich, spazierengehend, sah ich in <rs type="place" xml:id="pl_06185" ref="#pmb63">Hietzing</rs> das eben in Bau begriffene 
 Haus von <rs type="person" xml:id="pNt_27740" ref="#person_20796"><surname>Trebitsch</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_27741" ref="#person_20386"><forename>Liesl</forename></rs>, Tuberkulincur befindet sich nach eignen, Bekannter, Ärzte 
 Mittheilungen entschieden besser.―</p>
             <p xml:space="preserve" rend="indent">Prozess <rs type="person" xml:id="pNt_27742" ref="#person_15919"><surname>Harden</surname></rs> <rs type="person" xml:id="pNt_27743" ref="#person_18229"><surname>Moltke</surname></rs> hat (der zweite) mit einem Zusammenbruch <rs type="person" xml:id="pNt_27744"><surname>H.s</surname></rs> geendet.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-09-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-09-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-09-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0A3E-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,20 +177,22 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4711.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4712.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1918-09-25">
             <p xml:space="preserve"><date when="1918-09-25">25/9</date> Dict. (aus <rs type="work" subtype="self" xml:id="bibl_5841">Tgb.</rs>; Charakteristiken u. dgl.) ―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="work" subtype="self" xml:id="bibl_5842">Nachklg.</rs> 5 durchzulesen begonnen.</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" ref="#place_volkstheater">Volksth.</rs>, „<rs type="work" xml:id="bibl_5843">Rausch</rs>“ von <rs type="person" xml:id="pNt_54266" ref="#person_20530"><surname>Strindberg</surname></rs>, mit <rs type="person" xml:id="pNt_54267" ref="#person_19986"><forename>Gustav</forename></rs>. War mir, von den ersten 
+            <p xml:space="preserve" rend="indent"><rs type="place" ref="#pmb92202">Volksth.</rs>, „<rs type="work" xml:id="bibl_5843">Rausch</rs>“ von <rs type="person" xml:id="pNt_54266" ref="#person_20530"><surname>Strindberg</surname></rs>, mit <rs type="person" xml:id="pNt_54267" ref="#person_19986"><forename>Gustav</forename></rs>. War mir, von den ersten 
 2, 3 Bildern abgesehn, fast widerwärtig.―</p>
             <p xml:space="preserve" rend="indent">Las „<rs type="work" xml:id="bibl_5844">Arbeit</rs>“ des Schweizers <rs type="person" xml:id="pNt_54268" ref="#person_15425"><surname>Giedion</surname></rs>; ein plattes ungeschicktes Stück, 
 mit einiger Heimatluft und viel Praetensionen.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

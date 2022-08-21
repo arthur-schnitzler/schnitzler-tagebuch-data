@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-08-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-08-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-08-31.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-08-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-08-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-08-31.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0305-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3676.tif"/>
@@ -182,16 +186,15 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1913-08-30">
-            <p xml:space="preserve"><date when="1913-08-30">30/8</date> Träume: <rs type="person" xml:id="pNt_41468" ref="#person_19150"><forename>M.</forename> <surname>R.</surname></rs> auf dem <rs type="place" xml:id="pl_08421" ref="#place_9ae90ea21d3e063c02809f046183f123">Ring</rs>; ― meine Mutter mit mir im Zug, muss 
-umsteigen, <rs type="place" xml:id="pl_08422" ref="#place_f4ee5b52bfbc9981283060f0c5eb65ac">Selzthal</rs> ― bei <rs type="person" xml:id="pNt_41469" ref="#person_15485"><surname>Gl.’s</surname></rs> ― meine Uhr steht, ein Zeiger, der kleine 
+            <p xml:space="preserve"><date when="1913-08-30">30/8</date> Träume: <rs type="person" xml:id="pNt_41468" ref="#person_19150"><forename>M.</forename> <surname>R.</surname></rs> auf dem <rs type="place" xml:id="pl_08421" ref="#pmb91600">Ring</rs>; ― meine Mutter mit mir im Zug, muss 
+umsteigen, <rs type="place" xml:id="pl_08422" ref="#pmb91733">Selzthal</rs> ― bei <rs type="person" xml:id="pNt_41469" ref="#person_15485"><surname>Gl.’s</surname></rs> ― meine Uhr steht, ein Zeiger, der kleine 
 fehlt;― ich renne zur Bahn, einen Burschen, der mich aufhält, bedroh 
 ich mit Ohrfeigen.―</p>
             <p xml:space="preserve" rend="indent">Mit O. Pension <rs type="person" xml:id="pNt_41470" ref="#person_21122"><surname>Weber</surname></rs> besichtigt. Die Besitzer. Er pens. 
 Opernorchestermitglied.―</p>
-            <p xml:space="preserve" rend="indent">Nm. mit O. <rs type="place" xml:id="pl_08423" ref="#place_63da02947d9e51e4ddd4504712bc71c0">Celerina</rs>. Bei <rs type="person" xml:id="pNt_41471" ref="#person_20925"><forename>Leo</forename></rs> und <rs type="person" xml:id="pNt_41472" ref="#person_21231"><forename>Bella</forename></rs>. <rs type="person" xml:id="pNt_41473" ref="#person_16770"><surname>Kaufmann</surname></rs>. Guss. Mit <rs type="person" xml:id="pNt_41474" ref="#person_16770"><surname>K.</surname></rs> 
-nach <rs type="place" xml:id="pl_08424" ref="#place_51c7c0e8bc877f41a415a8e7efedd068">St. Moritz</rs>. „<rs ref="#person_19831" type="person" xml:id="pNt_41475"><surname>Haas</surname></rs>.“―</p>
+            <p xml:space="preserve" rend="indent">Nm. mit O. <rs type="place" xml:id="pl_08423" ref="#pmb12589">Celerina</rs>. Bei <rs type="person" xml:id="pNt_41471" ref="#person_20925"><forename>Leo</forename></rs> und <rs type="person" xml:id="pNt_41472" ref="#person_21231"><forename>Bella</forename></rs>. <rs type="person" xml:id="pNt_41473" ref="#person_16770"><surname>Kaufmann</surname></rs>. Guss. Mit <rs type="person" xml:id="pNt_41474" ref="#person_16770"><surname>K.</surname></rs> 
+nach <rs type="place" xml:id="pl_08424" ref="#pmb44374">St. Moritz</rs>. „<rs ref="#person_19831" type="person" xml:id="pNt_41475"><surname>Haas</surname></rs>.“―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

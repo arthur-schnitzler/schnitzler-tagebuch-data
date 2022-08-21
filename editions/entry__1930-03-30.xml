@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-03-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-03-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-03-31.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-03-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-03-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-03-31.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1AA7-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7457.tif"/>
@@ -182,12 +186,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1930-03-30">
-            <p xml:space="preserve"><date when="1930-03-30">30/3</date> S. Tel. <rs type="person" xml:id="pNt_89281" ref="#person_19832"><forename>O.</forename></rs> nach <rs type="place" xml:id="pl_19141" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Zu <rs type="person" xml:id="pNt_89282" ref="#person_21107"><forename>Jakob</forename> <surname>W.</surname></rs> ins Sanatorium (wo er immer wohnt, wenn er nach <rs type="place" xml:id="pl_19142" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> kommt). 
+            <p xml:space="preserve"><date when="1930-03-30">30/3</date> S. Tel. <rs type="person" xml:id="pNt_89281" ref="#person_19832"><forename>O.</forename></rs> nach <rs type="place" xml:id="pl_19141" ref="#pmb168">Berlin</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Zu <rs type="person" xml:id="pNt_89282" ref="#person_21107"><forename>Jakob</forename> <surname>W.</surname></rs> ins Sanatorium (wo er immer wohnt, wenn er nach <rs type="place" xml:id="pl_19142" ref="#pmb50">Wien</rs> kommt). 
 Hat ein Drittel des <rs type="work" xml:id="bibl_952">Etzelromans</rs> vollendet. Über <rs type="work" subtype="self" xml:id="bibl_953">Spiel der Sommerlüfte</rs>, 
 und die Erfolglosigkeit. Die kläglichen Theaterzustände u. s. w.―</p>
             <p xml:space="preserve" rend="indent">Zu Haus allein gegessen.―</p>
-            <p xml:space="preserve" rend="indent">Nm. tel. mit <rs type="person" xml:id="pNt_89283" ref="#person_14234"><forename>Suz.</forename></rs>; Bericht vom Ausflug (<rs type="place" xml:id="pl_19143" ref="#place_679f6acee48b874be0f267f7e760ffd8">Jeutendorf</rs>, <rs type="place" xml:id="pl_19144" ref="#place_1ac1fe68de4bd77a52097abf6af525c4">Dürnstein</rs>).― Während 
+            <p xml:space="preserve" rend="indent">Nm. tel. mit <rs type="person" xml:id="pNt_89283" ref="#person_14234"><forename>Suz.</forename></rs>; Bericht vom Ausflug (<rs type="place" xml:id="pl_19143" ref="#pmb45181">Jeutendorf</rs>, <rs type="place" xml:id="pl_19144" ref="#pmb90558">Dürnstein</rs>).― Während 
 sie telef.; die Kinderjause daneben.―</p>
             <p xml:space="preserve" rend="indent">Am „<rs type="work" subtype="self" xml:id="bibl_954">Zug</rs>“.― Lese <rs type="work" xml:id="bibl_955">Amphitryon 38</rs> von <rs type="person" xml:id="pNt_89284" ref="#person_15445"><surname>Giraudoux</surname></rs>.</p>
             <p xml:space="preserve" rend="indent">― Z. N. <rs type="person" xml:id="pNt_89285" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>― Immer schwierigeres Verhältnis. Ihre versagenden Nerven, 
@@ -197,6 +201,5 @@ nach Haus.</p>
             <p xml:space="preserve" rend="indent">Dann noch ein langes tel. Gespräch mit <rs type="person" xml:id="pNt_89289" ref="#person_14234"><forename>Suz.</forename></rs>,― ziemlich aufwühlend ―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

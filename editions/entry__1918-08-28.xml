@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-08-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-08-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-08-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-08-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-08-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-08-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0A22-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4692.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1918-08-28">
-            <p xml:space="preserve"><date when="1918-08-28">28/8</date> Schlimmste Discussion.― Sie will nicht nach <rs type="place" xml:id="pl_11188" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.― Sehr 
+            <p xml:space="preserve"><date when="1918-08-28">28/8</date> Schlimmste Discussion.― Sie will nicht nach <rs type="place" xml:id="pl_11188" ref="#pmb50">Wien</rs>.― Sehr 
 einverstanden. Aber ich hätte keinerlei Recht, ihr beide <rs type="allusively" xml:id="rst_01572">Kinder</rs> zu nehmen.―</p>
             <p xml:space="preserve" rend="indent">Wir sagen einander härteste Dinge, unter herrlichstem Herbsthimmel.</p>
             <p xml:space="preserve" rend="indent">― Mit O. und <rs type="person" xml:id="pNt_54026" ref="#person_19874"><surname>Schott</surname></rs> Victoria Luise Caffee; ganz heiter, <rs type="person" xml:id="pNt_54027"><surname>Sch.</surname></rs> reist ab.― ―</p>
@@ -190,6 +194,5 @@ einverstanden. Aber ich hätte keinerlei Recht, ihr beide <rs type="allusively" 
 unsinnige verlieren. Am Geländer des kleinen Wegs. Thränen und Küsse.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

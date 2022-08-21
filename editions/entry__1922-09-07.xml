@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-09-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-09-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-09-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-09-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-09-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-09-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0FE0-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5823.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1922-09-07">
-            <p xml:space="preserve"><date when="1922-09-07">7/9</date> <rs type="place" xml:id="pl_14252" ref="#place_10610ec60fcdfbccb325e1eec16a82ad">Berchtesgaden</rs>.― Mit <rs type="person" xml:id="pNt_67157" ref="#person_14130"><forename>Lili</forename></rs> spazieren;― allerlei „philosophische“ 
+            <p xml:space="preserve"><date when="1922-09-07">7/9</date> <rs type="place" xml:id="pl_14252" ref="#pmb797">Berchtesgaden</rs>.― Mit <rs type="person" xml:id="pNt_67157" ref="#person_14130"><forename>Lili</forename></rs> spazieren;― allerlei „philosophische“ 
 Gespräche.―</p>
             <p xml:space="preserve" rend="indent">Nm. am „<rs type="work" subtype="self" xml:id="bibl_2747">Verführer</rs>“.― Immer trübes kaltes Wetter.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_67158" ref="#person_19832"><forename>O.</forename></rs> wieder in ihrer „als wäre nichts geschehn“ Art, besonders vor <rs type="person" xml:id="pNt_67159" ref="#person_14130"><forename>Lili</forename></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

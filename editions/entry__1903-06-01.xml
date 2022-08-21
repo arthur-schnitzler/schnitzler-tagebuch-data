@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1903-06-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-05-31.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-06-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1903-06-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-05-31.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-06-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F490-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1816.tif"/>
@@ -180,11 +184,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1903-06-01">
-            <p xml:space="preserve"><date when="1903-06-01">1/6</date> <rs type="place" xml:id="pl_04295" ref="#place_e4d4b19346747823e5636ed1238a7521">Venedig</rs>. Pfingstmontag. Mit <rs type="person" xml:id="pNt_19880" ref="#person_19731"><forename>Hans</forename> <surname>Schlesinger</surname></rs> Ca’ d’oro. Der Diener 
+            <p xml:space="preserve"><date when="1903-06-01">1/6</date> <rs type="place" xml:id="pl_04295" ref="#pmb462">Venedig</rs>. Pfingstmontag. Mit <rs type="person" xml:id="pNt_19880" ref="#person_19731"><forename>Hans</forename> <surname>Schlesinger</surname></rs> Ca’ d’oro. Der Diener 
 <rs type="person" xml:id="pNt_19881" ref="#person_15110"><surname>Franchetti’s</surname></rs>, <rs type="person" xml:id="pNt_19882" ref="#person_13234"><forename>Antonio</forename></rs>.― Michieli, Museo civico.</p>
-            <p xml:space="preserve" rend="indent">― <rs type="place" xml:id="pl_04296" ref="#place_6cba6ddb393fc677406f4faf8cea72bf">Giardini pubblici</rs>.― Pilsneria, Quadri.―</p>
+            <p xml:space="preserve" rend="indent">― <rs type="place" xml:id="pl_04296" ref="#pmb90711">Giardini pubblici</rs>.― Pilsneria, Quadri.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

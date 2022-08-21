@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1891-08-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-08-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-08-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1891-08-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-08-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-08-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E44B-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0555.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1891-08-21">
-            <p xml:space="preserve"><date when="1891-08-21">21. 8.</date> In <rs type="place" xml:id="pl_01180" ref="#place_9a43e84f6e1d406076f2372205804f6d">Baden</rs>, <rs type="person" xml:id="pNt_05526" ref="#person_15485"><forename>Mz.</forename></rs> ein unerhört albernes Stück <rs type="work" xml:id="bibl_23142">Pêle Mêle</rs>. Mit ihr 
+            <p xml:space="preserve"><date when="1891-08-21">21. 8.</date> In <rs type="place" xml:id="pl_01180" ref="#pmb662">Baden</rs>, <rs type="person" xml:id="pNt_05526" ref="#person_15485"><forename>Mz.</forename></rs> ein unerhört albernes Stück <rs type="work" xml:id="bibl_23142">Pêle Mêle</rs>. Mit ihr 
 und Mutter soup. Ich fühlte mich sehr tief geliebt.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-01-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-01-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-01-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-01-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-01-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-01-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-14A4-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6613.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1926-01-10">
-            <p xml:space="preserve"><date when="1926-01-10">10/1</date> S. Vm. mit <rs type="person" xml:id="pNt_76929" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> Spazierg. <rs type="place" xml:id="pl_16483" ref="#place_75f2e194839d6ba0e5d4080c211a449a">Dornbacher Park</rs> ― Hameau. Schnee.</p>
+            <p xml:space="preserve"><date when="1926-01-10">10/1</date> S. Vm. mit <rs type="person" xml:id="pNt_76929" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> Spazierg. <rs type="place" xml:id="pl_16483" ref="#pmb176">Dornbacher Park</rs> ― Hameau. Schnee.</p>
             <p xml:space="preserve" rend="indent">Nm. letzte Feile <rs type="work" subtype="self" xml:id="bibl_19925">Weiher</rs>.―</p>
             <p xml:space="preserve" rend="indent">Abd. bei <rs type="person" xml:id="pNt_76930" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Sie las mir den Anfang ihrer <rs type="place" xml:id="pl_16484" ref="#place_55c76de3045e4a0a1e0b4506c5e2d403" ana="#exclude">französ.</rs> Übersetzung 
 <rs type="work" subtype="self" xml:id="bibl_19926">Weiher</rs> vor.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

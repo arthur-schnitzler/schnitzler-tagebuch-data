@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-02-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-02-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-02-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-02-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-02-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-02-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FB20-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2470.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1908-02-17">
-            <p xml:space="preserve"><date when="1908-02-17">17/2</date> Vorm. gegen’s <rs type="place" xml:id="pl_06202" ref="#place_dcb01e42d0b50a424eecb170341a973b" ana="#exclude">steirische</rs>, Eingang in ein Thal (<rs type="place" xml:id="pl_06203" ref="#place_5b26c9dff0aca06bed9d82f5c6f7bded">Dürrgraben</rs>). 
+            <p xml:space="preserve"><date when="1908-02-17">17/2</date> Vorm. gegen’s <rs type="place" xml:id="pl_06202" ref="#place_dcb01e42d0b50a424eecb170341a973b" ana="#exclude">steirische</rs>, Eingang in ein Thal (<rs type="place" xml:id="pl_06203" ref="#pmb92221">Dürrgraben</rs>). 
 Wohlgefühl des Alleinseins.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_13218">3. Akt</rs>. Verwirrung. „Arbeiten“ ― eine Fähigkeit, die mir 
 decidirt zu fehlen scheint.― Die Sache scheint mir wieder aussichtslos.― 
@@ -194,6 +198,5 @@ als ich.―</p>
 linke, das früher hinüberhörte, immer mehr zu versagen beginnt.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

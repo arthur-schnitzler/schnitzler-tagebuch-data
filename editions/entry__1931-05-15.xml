@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1931-05-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-05-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-05-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1931-05-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-05-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1931-05-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1C41-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,24 +177,26 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7699.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7700.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1931-05-15">
-            <p xml:space="preserve"><date when="1931-05-15">15/5</date> <rs type="place" xml:id="pl_19892" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs>.― 69. Geburtstag.― Schönes, etwas schwüles Wetter.― Tel. 
+            <p xml:space="preserve"><date when="1931-05-15">15/5</date> <rs type="place" xml:id="pl_19892" ref="#pmb91735">Semmering</rs>.― 69. Geburtstag.― Schönes, etwas schwüles Wetter.― Tel. 
 mit <rs type="person" xml:id="pNt_92851" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>;― mit <rs type="person" xml:id="pNt_92852" ref="#person_14234"><forename>Suz.</forename></rs>―</p>
             <p xml:space="preserve" rend="indent">Lesezimmer;― gegen <rs type="institution" xml:id="pNt_92853"><surname>Panhans</surname></rs>; müd, Wagenfahrt über Bahn ins Hotel.―</p>
             <p xml:space="preserve" rend="indent">Nm. Lecture (<rs type="person" xml:id="pNt_92854" ref="#person_15894"><surname>Hamsun</surname></rs>).</p>
             <p xml:space="preserve" rend="indent">Abds. Meiereiweg.― Eine junge Frau mit Kind, auf einer Bank, hält mich auf 
 ― „Herr ― S. ― ?“ Dann erzählt sie mir, dass sie vorige Nacht von mir 
 geträumt; ihre kleine blonde Tochter bestätigt es; sie erzählt später 
-(da ich ihr auf dem Rückweg wieder begegne) dass sie früher in <rs type="place" xml:id="pl_19893" ref="#place_a620921af9eef09d01368fb2c1a2fd88">Agram</rs> 
+(da ich ihr auf dem Rückweg wieder begegne) dass sie früher in <rs type="place" xml:id="pl_19893" ref="#pmb39955">Agram</rs> 
 gelebt u. s. w. ― ihr Kind Keuchhusten gehabt u. s. w.―</p>
             <p xml:space="preserve" rend="indent">― In <rs type="person" xml:id="pNt_92855" ref="#person_15894"><surname>Hamsun</surname></rs> weiter.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

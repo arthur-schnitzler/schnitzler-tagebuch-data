@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1898-01-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-01-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-01-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1898-01-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-01-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-01-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-ED58-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1406.tif"/>
@@ -182,7 +186,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1898-01-12">
             <p xml:space="preserve"><date when="1898-01-12">12/1</date> Vorm. bei <rs type="person" xml:id="pNt_14899" ref="#person_15485"><forename>Mz. I</forename></rs>, die mich entzückt; Abd. bei <rs type="person" xml:id="pNt_14900" ref="#person_19150"><forename>Mz.</forename> <surname>Rh.</surname></rs> die ich 
-liebe.― <rs type="work" xml:id="bibl_18633">Bartel Turaser</rs> im <rs type="place" ref="#place_volkstheater">Volksth.</rs>― Mit <rs type="person" xml:id="pNt_14901" ref="#person_16293"><forename>Hugo</forename></rs> soupirt; <rs type="person" xml:id="pNt_14902" ref="#person_17087"><surname>Kramer</surname></rs>.</p>
+liebe.― <rs type="work" xml:id="bibl_18633">Bartel Turaser</rs> im <rs type="place" ref="#pmb92202">Volksth.</rs>― Mit <rs type="person" xml:id="pNt_14901" ref="#person_16293"><forename>Hugo</forename></rs> soupirt; <rs type="person" xml:id="pNt_14902" ref="#person_17087"><surname>Kramer</surname></rs>.</p>
             <pb n="276"/>
             <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header">
                <fw place="top_left" type="pn">276</fw>
@@ -192,6 +196,5 @@ liebe.― <rs type="work" xml:id="bibl_18633">Bartel Turaser</rs> im <rs type="p
             </tei:fw>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

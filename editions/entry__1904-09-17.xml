@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-09-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-09-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-09-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-09-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-09-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-09-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F665-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,17 +176,19 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1966.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1904-09-17">
-            <p xml:space="preserve"><date when="1904-09-17">17/9</date> <rs type="place" xml:id="pl_04907" ref="#place_c38ad36647aca0261d667c432a4866bd">Salzburg</rs>.― Mit O. Museum.―</p>
+            <p xml:space="preserve"><date when="1904-09-17">17/9</date> <rs type="place" xml:id="pl_04907" ref="#pmb91649">Salzburg</rs>.― Mit O. Museum.―</p>
             <p xml:space="preserve" rend="indent">Im Bristol mit <rs type="person" xml:id="pNt_21545" ref="#person_13551"><forename>Richard</forename></rs> (der von 3 Antiquaren kam) und 
 <rs type="person" xml:id="pNt_21546" ref="#person_16718"><forename>Hannibal</forename> <surname>Karg</surname></rs> gegessen.―</p>
             <p xml:space="preserve" rend="indent">Nm. mit O. und <rs type="person" xml:id="pNt_21547" ref="#person_13551"><forename>Rich.</forename></rs> Hohensalzburg.― Mirabell, Musik, <rs type="person" xml:id="pNt_21548" ref="#person_16718"><surname>Karg</surname></rs>.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

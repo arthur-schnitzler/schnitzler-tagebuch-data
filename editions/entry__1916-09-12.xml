@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1916-09-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-09-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-09-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1916-09-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-09-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-09-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0758-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,13 +177,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4321.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4322.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1916-09-12">
             <p xml:space="preserve"><date when="1916-09-12">12/9</date> Mit O. Einkäufe.― Komische Bekanntschaft mit der Fürstin <rs type="person" xml:id="pNt_48744" ref="#person_18097"><forename>Pauline</forename> 
 <surname>Metternich</surname></rs>. Ich halte den Aufzug im Hinabfahren an, ohne zu merken, wer 
@@ -187,15 +192,16 @@ schon drin, habe meine beiden Arme voll, Überzieher und Pelzerl für O.,
 Obst. Die Fürstin und ihre Tochter, welch letztere ihre Mutter durch 
 Blicke auf mich aufmerksam macht. Unten sagt die Fürstin: Nicht wahr, 
 Sie sind der Schn.? Ich erwidre höflich, sie spricht von ihrer Verehrung 
-für meinen verstorbnen <rs type="allusively" xml:id="rst_01464">Vater</rs>; ich sage, dass wir nach <rs type="place" xml:id="pl_10175" ref="#place_661f4200c3f047474d1df224f62f0503">Aussee</rs>s fahren und 
+für meinen verstorbnen <rs type="allusively" xml:id="rst_01464">Vater</rs>; ich sage, dass wir nach <rs type="place" xml:id="pl_10175" ref="#pmb415">Aussee</rs>s fahren und 
 dort noch einige Zeit bleiben wollen wenn das 
 <pb n="314"/>
 <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header"><fw n="314" place="top_left" type="pageNum">314</fw> <fw place="top_center"><date type="range">1916: IX 12 ― IX 18</date></fw></tei:fw>
 Wetter besser wird. Sie: Ja ― das Wetter. Überhaupt ― diese Zeit!― 
 Schluss.―</p>
             <p xml:space="preserve" rend="indent">Nm. Abreise. Mit uns <rs type="person" xml:id="pNt_48745" ref="#person_16293"><forename>Hugo</forename></rs>, <rs type="person" xml:id="pNt_48746" ref="#person_16292"><forename>Gerty</forename></rs>, <rs type="person" xml:id="pNt_48747" ref="#person_21564"><forename>Christiane</forename></rs>, zufällig von einer 
-Radpartie; steigen in <rs type="place" xml:id="pl_10176" ref="#place_50fce40d86c3084224109d978bdf526c">St. Gilgen</rs> aus.― <rs type="place" xml:id="pl_10177" ref="#place_c2ad928214981e457405589604924059">Ischl</rs> (<rs type="institution" xml:id="pNt_48748"><surname>Zauner</surname></rs>), weiter nach 
-<rs type="place" xml:id="pl_10178" ref="#place_2384804448a53e420c3707bdfb9fb295">Altaussee</rs>.―</p>
+Radpartie; steigen in <rs type="place" xml:id="pl_10176" ref="#pmb33">St. Gilgen</rs> aus.― <rs type="place" xml:id="pl_10177" ref="#pmb213">Ischl</rs> (<rs type="institution" xml:id="pNt_48748"><surname>Zauner</surname></rs>), weiter nach 
+<rs type="place" xml:id="pl_10178" ref="#pmb90229">Altaussee</rs>.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

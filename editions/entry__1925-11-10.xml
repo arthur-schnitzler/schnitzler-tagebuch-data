@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1925-11-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-11-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-11-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1925-11-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-11-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-11-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1467-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6575.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1925-11-10">
-            <p xml:space="preserve"><date when="1925-11-10">10/11</date> Vm. bei <rs type="person" xml:id="pNt_76373" ref="#person_17952"><surname>Marton</surname></rs>. Antrag <rs type="place" xml:id="pl_16424" ref="#place_e884124295d0c4d07d9bcf5096fd5495">Amerika</rs>, 3 Filmsujets, Reise hinüber etc. 
+            <p xml:space="preserve"><date when="1925-11-10">10/11</date> Vm. bei <rs type="person" xml:id="pNt_76373" ref="#person_17952"><surname>Marton</surname></rs>. Antrag <rs type="place" xml:id="pl_16424" ref="#pmb43406">Amerika</rs>, 3 Filmsujets, Reise hinüber etc. 
 Zusammen, bei Annahme 25.000 d. Dilatorisch.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_76374" ref="#person_19832"><forename>Olga</forename></rs> zu Tisch.</p>
             <p xml:space="preserve" rend="indent">Abds. Burgth.― <rs type="work" xml:id="bibl_16772">Demetrius Fragment</rs>.― <rs type="work" xml:id="bibl_16773">Heinrich von Andernach</rs> (<rs type="person" xml:id="pNt_76375" ref="#person_20885"><surname>Unruh</surname></rs>); 
@@ -191,6 +195,5 @@ Festspiel; als Werk für sich wenig ansprechend.― Mit <rs type="person" xml:id
 dass sie „Verräter“ waren (d. h. ihr <rs type="person" xml:id="pNt_76380" ref="#person_19832"><forename>O.s</forename></rs> Verhalten gegen mich nicht gut geheißen haben).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

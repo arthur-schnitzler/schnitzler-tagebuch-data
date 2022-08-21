@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-10-30.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-10-29.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-10-31.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1920-10-30.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-10-29.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-10-31.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0D3B-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5215.tif"/>
@@ -183,11 +187,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1920-10-30">
-            <p xml:space="preserve"><date when="1920-10-30">30/10</date> Vm. bei <rs type="person" xml:id="pNt_60296" ref="#person_20380"><roleName>Director</roleName> <surname>Steininger</surname></rs> (über literar. Anknüpfung mit <rs type="place" xml:id="pl_12613" ref="#place_389962c9dec540ab28d04517e82c3996">Italien</rs> 
+            <p xml:space="preserve"><date when="1920-10-30">30/10</date> Vm. bei <rs type="person" xml:id="pNt_60296" ref="#person_20380"><roleName>Director</roleName> <surname>Steininger</surname></rs> (über literar. Anknüpfung mit <rs type="place" xml:id="pl_12613" ref="#pmb40306">Italien</rs> 
 u. dergl.),―</p>
             <p xml:space="preserve" rend="indent">beim Photographen <rs type="person" xml:id="pNt_60297"><forename>Franz</forename> <surname>Loewy</surname></rs>, ließ mich aufnehmen,</p>
             <p xml:space="preserve" rend="indent">bei Verleger <rs type="person" xml:id="pNt_60298"><surname>Bard</surname></rs>, der mich gebeten. Er möchte „<rs type="work" subtype="self" xml:id="bibl_4342">Reigen</rs>“ für die 
-Renaissance Bühne, ev. Gastspiel <rs type="place" xml:id="pl_12614" ref="#place_67eb2b8d0aab60ec69666532ff9527c9">Holland</rs> <rs type="place" xml:id="pl_12615" ref="#place_ff8b6a7eb9b23e2fee8a59bad1a6164c">Schweden</rs>; Vorschüsse etc.― 
+Renaissance Bühne, ev. Gastspiel <rs type="place" xml:id="pl_12614" ref="#pmb44016">Holland</rs> <rs type="place" xml:id="pl_12615" ref="#pmb44335">Schweden</rs>; Vorschüsse etc.― 
 Dilatorisch ― Er war höchst beflissen. Sie riechen alle Geld, viel Geld!― 
 Widerlich, nur mehr Geschäfte, keine Literatur mehr ― von Kunst gar nicht 
 zu reden.</p>
@@ -213,6 +217,5 @@ haben ― und sucht sich jetzt die Schauspieler zusammen ― für die ersten
             <p xml:space="preserve" rend="indent">N. d. N. mit <rs type="person" xml:id="pNt_60318" ref="#person_19822"><forename>Heini</forename></rs> <rs type="person" xml:id="pNt_60319" ref="#person_13555"><surname>Beethoven</surname></rs> <rs type="work" xml:id="bibl_4347">op. 18, 6</rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

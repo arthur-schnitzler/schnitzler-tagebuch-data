@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-05-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-05-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-05-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1915-05-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-05-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-05-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-056C-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4039.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1915-05-09">
-            <p xml:space="preserve"><date when="1915-05-09">9/5</date> S.― Mit <rs type="person" xml:id="pNt_45536" ref="#person_14130"><forename>Lili</forename></rs> und <rs type="person" xml:id="pNt_45537" ref="#person_16480"><forename>Fingi</forename></rs> <rs type="place" xml:id="pl_09356" ref="#place_971d9360a377fa82fd2640a5119b1112">Schönbrunn</rs>. Palmenhaus, Menagerie, Gloriette, 
+            <p xml:space="preserve"><date when="1915-05-09">9/5</date> S.― Mit <rs type="person" xml:id="pNt_45536" ref="#person_14130"><forename>Lili</forename></rs> und <rs type="person" xml:id="pNt_45537" ref="#person_16480"><forename>Fingi</forename></rs> <rs type="place" xml:id="pl_09356" ref="#pmb92518">Schönbrunn</rs>. Palmenhaus, Menagerie, Gloriette, 
 Neptuntempel etc. In den Pausen erzähl ich ihr die Geschichte vom 
 „Zuckerbäcker Violatt“ weiter.― <rs type="person" xml:id="pNt_45538" ref="#person_21600"><forename>Mimi</forename></rs> <rs type="person" xml:id="pNt_45539" ref="#person_13359"><forename>Stephi</forename></rs> zu Tisch.</p>
             <p xml:space="preserve" rend="indent">Nm. am „<rs type="work" subtype="self" xml:id="bibl_8124">Fliederbusch</rs>“.―</p>
@@ -189,6 +193,5 @@ Neptuntempel etc. In den Pausen erzähl ich ihr die Geschichte vom
             <p xml:space="preserve" rend="indent">Zum Nachtm. bei <rs type="person" xml:id="pNt_45543" ref="#person_20242"><surname>Speidels</surname></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

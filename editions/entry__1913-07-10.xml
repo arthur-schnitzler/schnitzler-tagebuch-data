@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-07-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-07-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-07-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-07-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-07-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-07-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-02D2-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3655.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1913-07-10">
-            <p xml:space="preserve"><date when="1913-07-10">10/7</date> Vm. Besorgungen. Panorama (<rs type="place" xml:id="pl_08353" ref="#place_0ac401498abfda3d10898bdd3e25652b">Philippinen</rs>). Zahnarzt. Dann noch 
+            <p xml:space="preserve"><date when="1913-07-10">10/7</date> Vm. Besorgungen. Panorama (<rs type="place" xml:id="pl_08353" ref="#pmb40095">Philippinen</rs>). Zahnarzt. Dann noch 
 Einkäufe mit O.―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_41161" ref="#person_19822"><forename>Heini</forename></rs>, der, halbtägig außer Bett mit dem Mecano spielt, 
 „<rs type="work" xml:id="bibl_9544">Leben</rs>“ von <rs type="person" xml:id="pNt_41162" ref="#person_13850"><surname>Bojer</surname></rs> ausgelesen. „<rs type="work" xml:id="bibl_9545">Hose</rs>“ von <rs type="person" xml:id="pNt_41163" ref="#person_20427"><surname>Sternheim</surname></rs>, mit 
@@ -197,6 +201,5 @@ ihrer frühern Ansicht mit derselben Feindseligkeit, wie damals meiner.</p>
             <p xml:space="preserve" rend="indent">Ich setze es nur als Paradigma her. Die Atmosphäre unerträglich.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

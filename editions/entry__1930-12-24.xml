@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-12-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-12-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-12-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-12-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-12-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-12-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1BB4-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7615.tif"/>
@@ -182,7 +186,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1930-12-24">
             <p xml:space="preserve"><date when="1930-12-24">24/12</date> Blumen von <rs type="person" xml:id="pNt_91688" ref="#person_18137"><forename>Dora</forename></rs>; von <rs type="person" xml:id="pNt_91689" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs>; von <rs type="person" xml:id="pNt_91690" ref="#person_16362"><forename>Lotte</forename> <surname>Horn</surname></rs>.</p>
-            <p xml:space="preserve" rend="indent">Dict. Briefe; an <rs type="person" xml:id="pNt_91691" ref="#person_14682"><roleName>Fr.</roleName> <surname>Eisenmenger</surname></rs>, nach <rs type="place" xml:id="pl_19681" ref="#place_87809c954948d8a20507bee3648281b3">N. Y.</rs> in den <rs type="place" xml:id="pl_19682" ref="#place_923c9d6aaf18f34b857e3d32ee926c57" ana="#exclude">amerik.</rs> 
+            <p xml:space="preserve" rend="indent">Dict. Briefe; an <rs type="person" xml:id="pNt_91691" ref="#person_14682"><roleName>Fr.</roleName> <surname>Eisenmenger</surname></rs>, nach <rs type="place" xml:id="pl_19681" ref="#pmb44053">N. Y.</rs> in den <rs type="place" xml:id="pl_19682" ref="#place_923c9d6aaf18f34b857e3d32ee926c57" ana="#exclude">amerik.</rs> 
 Angelegenheiten.―</p>
             <p xml:space="preserve" rend="indent">Nm. 4 <rs type="person" xml:id="pNt_91692" ref="#person_14234"><forename>Suz.</forename></rs> bei mir ―</p>
             <p xml:space="preserve" rend="indent">nach 6 kommt <rs type="person" xml:id="pNt_91693" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> (bringt schöne Tischdecke).</p>
@@ -192,6 +196,5 @@ Weihnachtsgeschenke.― Grammophonplatten (<rs type="work" xml:id="bibl_1512">Fl
             <p xml:space="preserve" rend="indent">Bringe <rs type="person" xml:id="pNt_91699"><forename>Ferry</forename></rs> und <rs type="person" xml:id="pNt_91700"><forename>Annie</forename></rs> nach Hause.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

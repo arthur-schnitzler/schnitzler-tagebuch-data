@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-12-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-12-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-12-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-12-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-12-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-12-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0BF4-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4981.tif"/>
@@ -182,13 +186,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1919-12-08">
-            <p xml:space="preserve"><date when="1919-12-08">8/12</date> Vm. <rs type="place" xml:id="pl_12015" ref="#place_388686540f35afe7790d134863d92203">Kahlenberg</rs>. Begegnung <rs type="person" xml:id="pNt_57480" ref="#person_19799"><roleName>Dr.</roleName> <surname>Schneeberger</surname></rs>. Er prophezeit allgemeinen 
+            <p xml:space="preserve"><date when="1919-12-08">8/12</date> Vm. <rs type="place" xml:id="pl_12015" ref="#pmb574">Kahlenberg</rs>. Begegnung <rs type="person" xml:id="pNt_57480" ref="#person_19799"><roleName>Dr.</roleName> <surname>Schneeberger</surname></rs>. Er prophezeit allgemeinen 
 Hungertod. Spricht von seiner Verarmung, seiner Vergangenheit. Schickt 
 Tochter und Enkelkind in ein <rs type="place" xml:id="pl_12016" ref="#place_0efdf587cf32e8c428aeba6fe08236fa" ana="#exclude">oberoest.</rs> Nest, weil sie hier erfrieren und 
 verhungern.―</p>
             <p xml:space="preserve" rend="indent">Nach Tisch <rs type="person" xml:id="pNt_57481" ref="#person_19874"><surname>Schott</surname></rs>, mit <rs type="person" xml:id="pNt_57482" ref="#person_19822"><forename>Heini</forename></rs> zu „<rs type="work" xml:id="bibl_5163">Fiorenza</rs>“.―</p>
             <p xml:space="preserve" rend="indent">Zum Thee <rs type="person" xml:id="pNt_57483" ref="#person_19986"><forename>Gustav</forename></rs>,― <rs type="person" xml:id="pNt_57484" ref="#person_13551"><forename>Richard</forename></rs> und <rs type="person" xml:id="pNt_57485" ref="#person_13550"><forename>Paula</forename></rs>. <rs type="person" xml:id="pNt_57486" ref="#person_13551"><forename>Richard</forename></rs> erzählt <rs type="person" xml:id="pNt_57487" ref="#person_13550"><forename>Paulas</forename></rs> 
-Reiseabenteuer; Proben- Aufführungserlebnisse in <rs type="place" xml:id="pl_12017" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> (<rs type="work" xml:id="bibl_5164">Jaákobs 
+Reiseabenteuer; Proben- Aufführungserlebnisse in <rs type="place" xml:id="pl_12017" ref="#pmb168">Berlin</rs> (<rs type="work" xml:id="bibl_5164">Jaákobs 
 Traum</rs>); beide erfrischend.―</p>
             <p xml:space="preserve" rend="indent">Vm. war <rs type="person" xml:id="pNt_57488" ref="#person_19542"><forename>Fel.</forename> <surname>S.</surname></rs> dagewesen: <rs type="person" xml:id="pNt_57489" ref="#person_16046"><surname>Heine</surname></rs> von den <rs type="work" subtype="self" xml:id="bibl_5165">Schwestern</rs> entzückt, will 
 <pb n="315"/>
@@ -199,6 +203,5 @@ Vielleicht schreitet es nicht eigentlich allmälig, sondern ruckweise
 fort, und zwischen Ruck und Ruck acclimatisirt man sich ein wenig.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

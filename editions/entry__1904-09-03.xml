@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-09-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-09-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-09-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-09-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-09-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-09-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F657-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,17 +176,19 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1963.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1904-09-03">
-            <p xml:space="preserve"><date when="1904-09-03">3/9</date> O. und ich mit <rs type="person" xml:id="pNt_21510" ref="#person_16292"><forename>Gerty</forename></rs> nach <rs type="place" xml:id="pl_04875" ref="#place_c2ad928214981e457405589604924059">Ischl</rs>.― Im Zug <rs type="person" xml:id="pNt_21511" ref="#person_19542"><surname>Salten</surname></rs>, der nach <rs type="place" xml:id="pl_04876" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs> 
-fährt, die <rs type="person" xml:id="pNt_21512" ref="#person_19513"><surname>Coburg</surname></rs> (<rs type="person" xml:id="pNt_21513" ref="#person_17976"><surname>Mattachich</surname></rs>) die aus <rs type="place" xml:id="pl_04877" ref="#place_6f777458fb1e954e62bcbeba299fb886">Elster</rs> Entflohne zu interviewen.― 
-<rs type="place" xml:id="pl_04878" ref="#place_c2ad928214981e457405589604924059">Ischl</rs>. <rs type="person" xml:id="pNt_21514" ref="#person_16294"><forename>Hugo</forename></rs> an der Bahn. ― Hotel Kaiserkrone.― Mit <rs type="person" xml:id="pNt_21515" ref="#person_16294"><forename>Hugo</forename></rs>, <rs type="person" xml:id="pNt_21516" ref="#person_16292"><forename>Gerty</forename></rs> und 
+            <p xml:space="preserve"><date when="1904-09-03">3/9</date> O. und ich mit <rs type="person" xml:id="pNt_21510" ref="#person_16292"><forename>Gerty</forename></rs> nach <rs type="place" xml:id="pl_04875" ref="#pmb213">Ischl</rs>.― Im Zug <rs type="person" xml:id="pNt_21511" ref="#person_19542"><surname>Salten</surname></rs>, der nach <rs type="place" xml:id="pl_04876" ref="#pmb182">Paris</rs> 
+fährt, die <rs type="person" xml:id="pNt_21512" ref="#person_19513"><surname>Coburg</surname></rs> (<rs type="person" xml:id="pNt_21513" ref="#person_17976"><surname>Mattachich</surname></rs>) die aus <rs type="place" xml:id="pl_04877" ref="#pmb90583">Elster</rs> Entflohne zu interviewen.― 
+<rs type="place" xml:id="pl_04878" ref="#pmb213">Ischl</rs>. <rs type="person" xml:id="pNt_21514" ref="#person_16294"><forename>Hugo</forename></rs> an der Bahn. ― Hotel Kaiserkrone.― Mit <rs type="person" xml:id="pNt_21515" ref="#person_16294"><forename>Hugo</forename></rs>, <rs type="person" xml:id="pNt_21516" ref="#person_16292"><forename>Gerty</forename></rs> und 
 Vater <rs ref="#person_16293" type="person" xml:id="pNt_21517"><surname>H.</surname></rs> spazieren. Regen.― Kaiserkr. genachtm.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

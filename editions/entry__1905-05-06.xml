@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-05-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-05-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-05-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-05-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-05-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-05-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F74B-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2072.tif"/>
@@ -180,12 +184,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1905-05-06">
-            <p xml:space="preserve"><date when="1905-05-06">6/5</date> Vm. allein auf den <rs type="place" xml:id="pl_05167" ref="#place_d40f3d44ca3730684f5399bd2fa25826">Sonnwendstein</rs>.</p>
-            <p xml:space="preserve" rend="indent">Nm. nach <rs type="place" xml:id="pl_05168" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> gefahren.―</p>
-            <p xml:space="preserve" rend="indent">Las auf dem <rs type="place" xml:id="pl_05169" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs>: <rs type="person" xml:id="pNt_22808" ref="#person_17834"><surname>Mann’s</surname></rs> <rs type="work" xml:id="bibl_15683">Prof. Unrath</rs>, <rs type="work" xml:id="bibl_15684">Liaisons dangereuses</rs> ― 
+            <p xml:space="preserve"><date when="1905-05-06">6/5</date> Vm. allein auf den <rs type="place" xml:id="pl_05167" ref="#pmb91776">Sonnwendstein</rs>.</p>
+            <p xml:space="preserve" rend="indent">Nm. nach <rs type="place" xml:id="pl_05168" ref="#pmb50">Wien</rs> gefahren.―</p>
+            <p xml:space="preserve" rend="indent">Las auf dem <rs type="place" xml:id="pl_05169" ref="#pmb91735">Semmering</rs>: <rs type="person" xml:id="pNt_22808" ref="#person_17834"><surname>Mann’s</surname></rs> <rs type="work" xml:id="bibl_15683">Prof. Unrath</rs>, <rs type="work" xml:id="bibl_15684">Liaisons dangereuses</rs> ― 
 <rs type="person" xml:id="pNt_22809" ref="#person_13403"><surname>Bang</surname></rs>, <rs type="work" xml:id="bibl_15685">weißes Haus</rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

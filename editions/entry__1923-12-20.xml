@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-12-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-12-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-12-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-12-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-12-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-12-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-11B4-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,12 +177,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6163.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1923-12-20">
             <p xml:space="preserve"><date when="1923-12-20">20/12</date> Dictirt Briefe etc.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_70970" ref="#person_16462"><forename>Hans</forename> <surname>Jacob</surname></rs>, in eignen Angelegenheiten.</p>
@@ -188,5 +193,6 @@ Ansichten auseinander.―</p>
             <p xml:space="preserve" rend="indent">Briefe an <rs type="person" xml:id="pNt_70973" ref="#person_19832"><forename>O.</forename></rs>, <rs type="person" xml:id="pNt_70974" ref="#person_18137"><forename>Dora</forename> <surname>Michaelis</surname></rs>, <rs type="person" xml:id="pNt_70975" ref="#person_16469"><forename>Lucy</forename> <surname>Jacobi</surname></rs> und <rs type="person" xml:id="pNt_70976"><forename>B.</forename> <surname>B.</surname></rs>―</p>
             <p xml:space="preserve" rend="indent">Las <rs type="person" xml:id="pNt_70977"><surname>Jacobs</surname></rs> kurze <rs type="work" xml:id="bibl_2214"><rs type="person" xml:id="pNt_70978"><surname>Rimbaudbiografie</surname></rs></rs>.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

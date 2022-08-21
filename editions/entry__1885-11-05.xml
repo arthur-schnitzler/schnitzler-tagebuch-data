@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1885-11-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-11-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-11-06.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1885-11-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-11-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-11-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DEE9-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0252.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1885-11-05">
-            <p xml:space="preserve"><date when="1885-11-05">5/11</date> Theater auf der <rs type="place" xml:id="pl_00501" ref="#place_2de2cbfcf4f6f7265397fff154638c9e">Wieden</rs>. <rs type="work" xml:id="bibl_23332">Zigeunerbaron</rs>. Souper <rs type="place" ref="#place_leidinger">Leidinger</rs>. <rs type="person" xml:id="pNt_02356" ref="#person_15231"><forename>Max</forename></rs>, 
+            <p xml:space="preserve"><date when="1885-11-05">5/11</date> Theater auf der <rs type="place" xml:id="pl_00501" ref="#pmb54">Wieden</rs>. <rs type="work" xml:id="bibl_23332">Zigeunerbaron</rs>. Souper <rs type="place" ref="#pmb42">Leidinger</rs>. <rs type="person" xml:id="pNt_02356" ref="#person_15231"><forename>Max</forename></rs>, 
 <rs type="person" xml:id="pNt_02357"><forename>Nixl</forename></rs>, <rs type="person" xml:id="pNt_02358"><forename>Rethi</forename></rs>, <rs type="person" xml:id="pNt_02359"><forename>Louis</forename> <surname>M.</surname></rs>, <rs type="person" xml:id="pNt_02360" ref="#person_16104"><roleName>Dr.</roleName> <surname>Herigl</surname></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

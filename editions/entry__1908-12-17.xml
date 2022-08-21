@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-12-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-12-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-12-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-12-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-12-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-12-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FC50-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2599.tif"/>
@@ -180,13 +184,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1908-12-17">
-            <p xml:space="preserve"><date when="1908-12-17">17/12</date> Vm. Besorgungen Stadt. Panorama (<rs type="place" xml:id="pl_06525" ref="#place_7a0be5a1ed9675975e678b517f07573c">Schweiz</rs>).</p>
-            <p xml:space="preserve" rend="indent">Nm. mit O. nach <rs type="place" xml:id="pl_06526" ref="#place_9fed5dae86e3030d9be3740efa198659">Budapest</rs>. <rs type="person" xml:id="pNt_29342" ref="#person_19355"><roleName>Königl. Rath</roleName> <surname>v. Rosen</surname></rs>. Ankunft. <rs type="person" xml:id="pNt_29343" ref="#person_21332"><forename>Arthur</forename> 
+            <p xml:space="preserve"><date when="1908-12-17">17/12</date> Vm. Besorgungen Stadt. Panorama (<rs type="place" xml:id="pl_06525" ref="#pmb43435">Schweiz</rs>).</p>
+            <p xml:space="preserve" rend="indent">Nm. mit O. nach <rs type="place" xml:id="pl_06526" ref="#pmb43471">Budapest</rs>. <rs type="person" xml:id="pNt_29342" ref="#person_19355"><roleName>Königl. Rath</roleName> <surname>v. Rosen</surname></rs>. Ankunft. <rs type="person" xml:id="pNt_29343" ref="#person_21332"><forename>Arthur</forename> 
 <surname>Wilheim</surname></rs> mit Mutter, <rs type="person" xml:id="pNt_29344" ref="#person_20767"><roleName>Prof.</roleName> <surname>Toldy</surname></rs> an der Bahn. Hotel Königin von 
-England. Mit <rs type="person" xml:id="pNt_29345" ref="#person_21332"><forename>Arthur</forename></rs> spazieren. <rs type="place" xml:id="pl_06527" ref="#place_f39c5e3628c433e1b695f0b5200aa6ce">Ofen</rs> und die <rs type="place" xml:id="pl_06528" ref="#place_ec5faf5c37e55de32672b04a90a59b20">Donau</rs> in 
+England. Mit <rs type="person" xml:id="pNt_29345" ref="#person_21332"><forename>Arthur</forename></rs> spazieren. <rs type="place" xml:id="pl_06527" ref="#pmb91393">Ofen</rs> und die <rs type="place" xml:id="pl_06528" ref="#pmb90538">Donau</rs> in 
 Nachtnebel mit blinkenden Lichtern.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

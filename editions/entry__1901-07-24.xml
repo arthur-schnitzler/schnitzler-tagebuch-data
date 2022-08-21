@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1901-07-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-07-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-07-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1901-07-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-07-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1901-07-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F21B-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1641.tif"/>
@@ -181,9 +185,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1901-07-24">
-            <p xml:space="preserve"><date when="1901-07-24">24/7</date> <rs type="place" xml:id="pl_03737" ref="#place_0c8a0ca19b8a880f6aec12e3d3fe5c05">Karersee</rs> ― Weisslahnbad.― <rs type="place" xml:id="pl_03738" ref="#place_f3697317069fb6c2a484651d77278fe4">Blumau</rs> <rs type="place" xml:id="pl_03739" ref="#place_d111b37857b0a9b910db70a7c59a82df">Vahrn</rs> ―</p>
+            <p xml:space="preserve"><date when="1901-07-24">24/7</date> <rs type="place" xml:id="pl_03737" ref="#pmb91003">Karersee</rs> ― Weisslahnbad.― <rs type="place" xml:id="pl_03738" ref="#pmb90368">Blumau</rs> <rs type="place" xml:id="pl_03739" ref="#pmb946">Vahrn</rs> ―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1894-10-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-09-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-10-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1894-10-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-09-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1894-10-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E8B7-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0883.tif"/>
@@ -183,7 +187,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1894-10-01">
-            <p xml:space="preserve"><date when="1894-10-01">1/10</date> Abends reiste Tante <rs type="person" xml:id="pNt_09261" ref="#person_17905"><forename>Marie</forename> <surname>M.</surname></rs> nach <rs type="place" xml:id="pl_01840" ref="#place_e884124295d0c4d07d9bcf5096fd5495">Amerika</rs> ab.―</p>
+            <p xml:space="preserve"><date when="1894-10-01">1/10</date> Abends reiste Tante <rs type="person" xml:id="pNt_09261" ref="#person_17905"><forename>Marie</forename> <surname>M.</surname></rs> nach <rs type="place" xml:id="pl_01840" ref="#pmb43406">Amerika</rs> ab.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_09262" ref="#person_15338"><surname>Ludaßy</surname></rs> ist Red. der <rs type="work" subtype="newspaper" xml:id="bibl_22533">allg. Ztg.</rs> geworden.―</p>
             <p xml:space="preserve" rend="indent">Abends bei <rs type="person" xml:id="pNt_09263" ref="#person_19564"><forename>Dilly</forename></rs>. Sie als etwas ungeheuer wichtiges ― Nu was mir 
 heut geschehn ist!! <rs type="person" xml:id="pNt_09264" ref="#person_14065"><surname>Burckhard</surname></rs> hat ihr nemlich telephonirt.― Mir wars 
@@ -225,6 +229,5 @@ sagen.― Endlich geh ich; sie will sich anziehn und weg ― ich bin
 überzeugt daß sie zu Haus bleibt.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

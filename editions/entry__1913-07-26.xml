@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1913-07-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-07-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-07-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1913-07-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-07-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1913-07-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-02E2-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3664.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1913-07-26">
-            <p xml:space="preserve"><date when="1913-07-26">26/7</date> <rs type="person" xml:id="pNt_41237" ref="#person_19986"><forename>Gustav</forename></rs> kommt aus <rs type="place" xml:id="pl_08368" ref="#place_9219ee9e1eb760ce3bd97532b5ca05e1">Pola</rs>. Mit ihm <rs type="place" xml:id="pl_08369" ref="#place_8c351339da149895600d14c798bca74b">Monte Saluga</rs> Bad.―</p>
+            <p xml:space="preserve"><date when="1913-07-26">26/7</date> <rs type="person" xml:id="pNt_41237" ref="#person_19986"><forename>Gustav</forename></rs> kommt aus <rs type="place" xml:id="pl_08368" ref="#pmb851">Pola</rs>. Mit ihm <rs type="place" xml:id="pl_08369" ref="#pmb92409">Monte Saluga</rs> Bad.―</p>
             <p xml:space="preserve" rend="indent">Nm. Spazierfahrt mit <rs type="person" xml:id="pNt_41238" ref="#person_19986"><forename>Gustav</forename></rs> und <rs type="person" xml:id="pNt_41239" ref="#person_19822"><forename>Heini</forename></rs> Madonna, Torre etc., über 
 Villa <rs type="person" xml:id="pNt_41240" ref="#person_21601"><surname>Zuckerkandls</surname></rs> (Punta naso) ins Hotel.</p>
             <p xml:space="preserve" rend="indent">Nach dem Nachtmahl zu <rs type="person" xml:id="pNt_41241" ref="#person_21601"><surname>Z.’s</surname></rs> (mit <rs type="person" xml:id="pNt_41242" ref="#person_21601"><surname>Z.s</surname></rs>, <rs type="person" xml:id="pNt_41243" ref="#person_17205"><surname>Kupelwieser</surname></rs>, <rs type="person" xml:id="pNt_41244" ref="#person_19418"><forename>Lili</forename> <surname>Berger</surname></rs>, <rs type="person" xml:id="pNt_41245" ref="#person_19986"><forename>Gustav</forename></rs>). 
@@ -190,6 +194,5 @@ Auf der Terrasse. Sternennacht. Überflüssiges Gespräch von Politik
 u. dergl.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

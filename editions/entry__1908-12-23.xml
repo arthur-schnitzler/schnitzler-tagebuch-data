@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-12-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-12-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-12-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-12-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-12-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-12-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FC56-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2603.tif"/>
@@ -180,13 +184,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1908-12-23">
-            <p xml:space="preserve"><date when="1908-12-23">23/12</date> Vm. im <rs type="place" ref="#place_volkstheater">Volksth.</rs> Besprechung mit <rs type="person" xml:id="pNt_29403" ref="#person_19620"><surname>Schallud</surname></rs> (Decor. Modell für 
+            <p xml:space="preserve"><date when="1908-12-23">23/12</date> Vm. im <rs type="place" ref="#pmb92202">Volksth.</rs> Besprechung mit <rs type="person" xml:id="pNt_29403" ref="#person_19620"><surname>Schallud</surname></rs> (Decor. Modell für 
 <rs type="work" subtype="self" xml:id="bibl_13848">Comt. Mizzi</rs>) und <rs type="person" xml:id="pNt_29404" ref="#person_16159"><surname>Herzka</surname></rs> (Inszenirung).―</p>
             <p xml:space="preserve" rend="indent">Nm. dictirt <rs type="work" subtype="self" xml:id="bibl_13849">Medardus</rs> und Briefe.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_29405" ref="#person_18057"><roleName>Dr.</roleName> <surname>Mell</surname></rs>; theilt mit dass er 2 Komoedien geschrieben; über 
 das tragikomische.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

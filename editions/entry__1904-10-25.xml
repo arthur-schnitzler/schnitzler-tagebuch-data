@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-10-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-10-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-10-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-10-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-10-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-10-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F68B-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1985.tif"/>
@@ -180,8 +184,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1904-10-25">
-            <p xml:space="preserve"><date when="1904-10-25">25/10</date> Vm. <rs type="place" ref="#place_volkstheater">Volkstheater</rs>, mit <rs type="person" xml:id="pNt_21766" ref="#person_16621"><surname>Kadelburg</surname></rs> über <rs type="work" subtype="self" xml:id="bibl_17386">Freiwild</rs> Termin etc.</p>
-            <p xml:space="preserve" rend="indent">― Panorama (<rs type="place" xml:id="pl_04954" ref="#place_160eacc14c860636fca7889ceed09d08">Port Arthur</rs>, <rs type="place" xml:id="pl_04955" ref="#place_a8f809c99c4a996780c3046b9b594195">Korea</rs>) ― bei <rs type="person" xml:id="pNt_21767" ref="#person_16245"><roleName>Frau</roleName> <surname>Hochsinger</surname></rs>; 
+            <p xml:space="preserve"><date when="1904-10-25">25/10</date> Vm. <rs type="place" ref="#pmb92202">Volkstheater</rs>, mit <rs type="person" xml:id="pNt_21766" ref="#person_16621"><surname>Kadelburg</surname></rs> über <rs type="work" subtype="self" xml:id="bibl_17386">Freiwild</rs> Termin etc.</p>
+            <p xml:space="preserve" rend="indent">― Panorama (<rs type="place" xml:id="pl_04954" ref="#pmb91510">Port Arthur</rs>, <rs type="place" xml:id="pl_04955" ref="#pmb91056">Korea</rs>) ― bei <rs type="person" xml:id="pNt_21767" ref="#person_16245"><roleName>Frau</roleName> <surname>Hochsinger</surname></rs>; 
 über die Aufführung der <rs type="work" subtype="self" xml:id="bibl_17387">3 Einakter</rs>.― <rs type="person" xml:id="pNt_21768" ref="#person_16046"><surname>Heine</surname></rs> dort.―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="allusively" xml:id="rst_00475">Mama</rs> zu Tisch.― Nm. mit ihr <rs type="work" xml:id="bibl_17388">F moll Quintett</rs> <rs type="person" xml:id="pNt_21769" ref="#person_13914"><surname>Brahms</surname></rs>; 
 mit O. zu <rs type="person" xml:id="pNt_21770" ref="#person_20096"><forename>Ellyn</forename></rs>, mit diesen nach Haus ―</p>
@@ -190,6 +194,5 @@ mit O. zu <rs type="person" xml:id="pNt_21770" ref="#person_20096"><forename>Ell
 <rs type="allusively" xml:id="rst_00476">Mama</rs>, <rs type="person" xml:id="pNt_21775"><forename>Louis</forename> <surname>M.</surname></rs> und Frau.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

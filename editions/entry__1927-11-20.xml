@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-11-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-11-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-11-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-11-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-11-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-11-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-174A-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,17 +177,18 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6992.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6993.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1927-11-20">
             <p xml:space="preserve"><date when="1927-11-20">20/11</date> S. Vm. bei <rs type="person" xml:id="pNt_82248" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Nahm ihre „Erzählung“ „<rs type="work" xml:id="bibl_24845">Lastthiere</rs>“ mit ihr durch, 
 und sprach über die Unzulänglichkeiten im Einzelnen, und im Ganzen.</p>
-            <p xml:space="preserve" rend="indent">Zu Tisch <rs type="person" xml:id="pNt_82249" ref="#person_13355"><forename>Ama</forename></rs>; über <rs type="person" xml:id="pNt_82250" ref="#person_21602"><forename>Vicki</forename></rs> und <rs type="person" xml:id="pNt_82251" ref="#person_21600"><forename>Mimi</forename></rs> in <rs type="place" xml:id="pl_17703" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>.― Sie sagte gutes über <rs type="person" xml:id="pNt_82252" ref="#person_18863"><forename>C.</forename> <surname>P.s</surname></rs> 
+            <p xml:space="preserve" rend="indent">Zu Tisch <rs type="person" xml:id="pNt_82249" ref="#person_13355"><forename>Ama</forename></rs>; über <rs type="person" xml:id="pNt_82250" ref="#person_21602"><forename>Vicki</forename></rs> und <rs type="person" xml:id="pNt_82251" ref="#person_21600"><forename>Mimi</forename></rs> in <rs type="place" xml:id="pl_17703" ref="#pmb168">Berlin</rs>.― Sie sagte gutes über <rs type="person" xml:id="pNt_82252" ref="#person_18863"><forename>C.</forename> <surname>P.s</surname></rs> 
 Roman (<rs type="work" subtype="self" xml:id="bibl_24846">N. Fr. P.</rs>) der im allgemeinen zu gefallen scheint; wie auch 
 ihre Übersetzung der <rs type="person" xml:id="pNt_82253" ref="#person_15395"><surname>Géraldy</surname></rs> <rs type="work" xml:id="bibl_24847">Gedichte</rs>.</p>
             <p xml:space="preserve" rend="indent">Nm. am „<rs type="work" subtype="self" xml:id="bibl_24848">Zug der Schatten</rs>“, und „<rs type="work" subtype="self" xml:id="bibl_24849">Sekundant</rs>“.</p>
@@ -192,5 +197,6 @@ ihre Übersetzung der <rs type="person" xml:id="pNt_82253" ref="#person_15395"><
 Frau eines <rs type="place" xml:id="pl_17704" ref="#place_e5635cee5d0526c40d8c20134f008ba9" ana="#exclude">rum.</rs> Offiziers, mit der ich sehr rasch in ein lebhaftes Gespräch 
 kam.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

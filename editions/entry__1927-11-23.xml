@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-11-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-11-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-11-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-11-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-11-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-11-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-174D-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,19 +177,21 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6993.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6994.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1927-11-23">
             <p xml:space="preserve"><date when="1927-11-23">23/11</date> Vm. <rs type="person" xml:id="pNt_82263" ref="#person_19122"><roleName>Frl.</roleName> <surname>Reichelt</surname></rs>, von Seiten <rs type="person" xml:id="pNt_82264" ref="#person_13803"><forename>Robert</forename> <surname>Blum</surname></rs>, der angeblich von <rs type="person" xml:id="pNt_82265" ref="#person_15384"><surname>Gémier</surname></rs> 
 mit Verhandlung und Inscenirung eines meiner Stücke ― welches steht nicht 
 fest, betraut ist … Mit gebotenem Mißtrauen die Angelegenheit behandelt.</p>
             <p xml:space="preserve" rend="indent">Correctur des <rs type="work" subtype="self" xml:id="bibl_24856">Aphor.buches</rs> weiter, auch am Nachm.</p>
-            <p xml:space="preserve" rend="indent">Briefe an <rs type="person" xml:id="pNt_82266" ref="#person_19832"><forename>O.</forename></rs>, an <rs ref="#person_13969" type="person" xml:id="pNt_82267"><forename>B.</forename> <surname>B.</surname></rs>, die mir aus <rs type="place" xml:id="pl_17706" ref="#place_e01585f07dba8bd0e6a1e3c2e14bf208">Taormina</rs> schrieb. Der Abend allein.</p>
+            <p xml:space="preserve" rend="indent">Briefe an <rs type="person" xml:id="pNt_82266" ref="#person_19832"><forename>O.</forename></rs>, an <rs ref="#person_13969" type="person" xml:id="pNt_82267"><forename>B.</forename> <surname>B.</surname></rs>, die mir aus <rs type="place" xml:id="pl_17706" ref="#pmb906">Taormina</rs> schrieb. Der Abend allein.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

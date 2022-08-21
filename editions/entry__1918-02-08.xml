@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1918-02-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-02-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-02-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1918-02-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-02-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1918-02-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0959-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4596.tif"/>
@@ -182,7 +186,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1918-02-08">
             <p xml:space="preserve"><date when="1918-02-08">8/2</date> Dict. „<rs type="work" subtype="self" xml:id="bibl_5336">Sohn</rs>“.―</p>
-            <p xml:space="preserve" rend="indent">Nm. spazieren mit O. und <rs type="person" xml:id="pNt_52555" ref="#person_14130"><forename>Lili</forename></rs> um den <rs type="place" xml:id="pl_10859" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs> ―</p>
+            <p xml:space="preserve" rend="indent">Nm. spazieren mit O. und <rs type="person" xml:id="pNt_52555" ref="#person_14130"><forename>Lili</forename></rs> um den <rs type="place" xml:id="pl_10859" ref="#pmb113">Türkenschanzpark</rs> ―</p>
             <p xml:space="preserve" rend="indent">Nahm <rs type="work" subtype="self" xml:id="bibl_5337">Fr. d. Richters</rs> wieder vor.―</p>
             <p xml:space="preserve" rend="indent">Nach d. N. mit O. bei <rs type="person" xml:id="pNt_52556" ref="#person_19783"><surname>Schmutzers</surname></rs>. Billard.― Gespräch über die Einsamkeit 
 der Junggesellen, der alternden (von <rs type="person" xml:id="pNt_52557" ref="#person_19850"><surname>Schönherr</surname></rs> aus). Frau <rs ref="#person_19784" type="person" xml:id="pNt_52558"><surname>Schm.</surname></rs>: Und doch 
@@ -192,6 +196,5 @@ Er: Naja, manchmal denk ich mir, wenn ich im arbeiten gestört werde:
 Ruh’!“ ― Besserung der häusl. Atmosphäre.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

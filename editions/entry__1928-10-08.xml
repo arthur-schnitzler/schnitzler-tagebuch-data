@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-10-08.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-10-07.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-10-09.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-10-08.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-10-07.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-10-09.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-188D-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,18 +177,20 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7175.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1928-10-08">
-            <p xml:space="preserve"><date when="1928-10-08">8/10</date> <rs type="place" xml:id="pl_18314" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>. Bei <rs type="person" xml:id="pNt_84917" ref="#person_18137"><forename>Dora</forename></rs>. Spaziergang <rs type="place" xml:id="pl_18315" ref="#place_db4a42a192c3c97a2871005a8ccd6439">Grunewald</rs>.― Dort (<rs type="place" xml:id="pl_18316" ref="#place_6a1f1935677db0eba1ae67aa99d0212d">Hubertus 
+            <p xml:space="preserve"><date when="1928-10-08">8/10</date> <rs type="place" xml:id="pl_18314" ref="#pmb168">Berlin</rs>. Bei <rs type="person" xml:id="pNt_84917" ref="#person_18137"><forename>Dora</forename></rs>. Spaziergang <rs type="place" xml:id="pl_18315" ref="#pmb129">Grunewald</rs>.― Dort (<rs type="place" xml:id="pl_18316" ref="#pmb92296">Hubertus 
 Allee</rs>) gegessen.</p>
             <p xml:space="preserve" rend="indent">Abends allein Kino (Vaterland) <rs type="work" xml:id="bibl_19701">Looping the loop</rs> (<rs type="person" xml:id="pNt_84918" ref="#person_17120"><surname>Krauss</surname></rs>) 
 ― zu <rs type="person" xml:id="pNt_84919" ref="#person_19832"><forename>O.</forename></rs>, bei ihr gegessen; ihre üble Stimmung gegenüber mir 
 merkbar; nach d. N. kam <rs type="person" xml:id="pNt_84920" ref="#person_19822"><forename>Heini</forename></rs>, da war es gut.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

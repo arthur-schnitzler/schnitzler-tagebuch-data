@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1914-03-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-03-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-03-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1914-03-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-03-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1914-03-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-03D6-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,13 +177,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3800.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3801.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1914-03-27">
             <p xml:space="preserve"><date when="1914-03-27">27/3</date> Zeitung: Der seit 1908 nicht verliehene <rs type="person" xml:id="pNt_43189"><surname>Raimundpreis</surname></rs> mir für 
 <rs type="work" subtype="self" xml:id="bibl_8762">Medardus</rs>; <rs type="person" xml:id="pNt_43190" ref="#person_16339"><surname>Holzer</surname></rs> für „<rs type="work" xml:id="bibl_8763">Gute Mütter</rs>“.― Absicht die 2000 <rs type="person" xml:id="pNt_43191"><forename>Kr.</forename></rs> der 
@@ -189,5 +194,6 @@
             <p xml:space="preserve" rend="indent">― Mit O. „<rs type="work" xml:id="bibl_8765">Gurre Lieder</rs>“ von <rs type="person" xml:id="pNt_43197" ref="#person_19840"><surname>Schönberg</surname></rs> im Musikvereinssaal.―</p>
             <p xml:space="preserve" rend="indent">Imperial mit <rs type="person" xml:id="pNt_43198"><surname>Zuckerkandl</surname></rs> Vater und Sohn; <rs type="person" xml:id="pNt_43199" ref="#person_19755"><surname>Schmidls</surname></rs>, <rs type="person" xml:id="pNt_43200" ref="#person_13925"><surname>Brann</surname></rs>.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

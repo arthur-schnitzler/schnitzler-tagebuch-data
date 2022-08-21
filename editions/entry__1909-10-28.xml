@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-10-28.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-10-27.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-10-29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-10-28.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-10-27.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-10-29.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FD8B-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2773.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1909-10-28">
-            <p xml:space="preserve"><date when="1909-10-28">28/10</date> Vm. dictirt. Dann mit O. zu <rs type="person" xml:id="pNt_31111"><surname>Mautners</surname></rs> nach <rs type="place" xml:id="pl_06846" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> 
+            <p xml:space="preserve"><date when="1909-10-28">28/10</date> Vm. dictirt. Dann mit O. zu <rs type="person" xml:id="pNt_31111"><surname>Mautners</surname></rs> nach <rs type="place" xml:id="pl_06846" ref="#pmb169">Pötzleinsdorf</rs> 
 gefahren, dort mit <rs type="person" xml:id="pNt_31112"><surname>M.s</surname></rs> und <rs type="person" xml:id="pNt_31113" ref="#person_18000"><forename>Konrad</forename> <surname>M.</surname></rs> und Frau gegessen. Besichtigung 
 des schönen alten Schlößls (1798, war einmal dort, 1896) der 
 andern von <rs type="person" xml:id="pNt_31114"><surname>M.</surname></rs> dazugekauften Gärten und besonders des renovirten 
@@ -191,6 +195,5 @@ Häuschens, das <rs type="person" xml:id="pNt_31115" ref="#person_18000"><forena
             <p xml:space="preserve" rend="indent">Eine Novellette (vorläufig „<rs type="work" subtype="self" xml:id="bibl_12947">Tagebuch</rs>“) begonnen.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1929-01-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-01-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-01-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1929-01-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-01-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1929-01-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-18F2-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7226.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1929-01-17">
-            <p xml:space="preserve"><date when="1929-01-17">17/1</date> Vm. nach <rs type="place" xml:id="pl_18482" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> telefonirt, <rs type="person" xml:id="pNt_85789" ref="#person_19832"><forename>O.</forename></rs> zum Geburtstag gratulirt; sie schien 
+            <p xml:space="preserve"><date when="1929-01-17">17/1</date> Vm. nach <rs type="place" xml:id="pl_18482" ref="#pmb168">Berlin</rs> telefonirt, <rs type="person" xml:id="pNt_85789" ref="#person_19832"><forename>O.</forename></rs> zum Geburtstag gratulirt; sie schien 
 sehr erfreut.― Über die <rs type="work" subtype="self" xml:id="bibl_30">Else-Angelegenheit</rs>.―</p>
             <p xml:space="preserve" rend="indent">Dictirt Briefe, Bilanzen, <rs type="person" xml:id="pNt_85790" ref="#person_14130"><forename>Lili</forename></rs> <rs type="work" xml:id="bibl_31">Tgb.</rs>―</p>
             <p xml:space="preserve" rend="indent">Nm. müd;― gelesen;― später am <rs type="work" subtype="self" xml:id="bibl_32">Roman</rs>.―</p>
@@ -193,6 +197,5 @@ Leute sprächen anders darüber, wenn <rs type="person" xml:id="pNt_85793" ref="
 Tgbl.</rs> wäre).―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

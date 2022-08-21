@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-10-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-10-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-10-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-10-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-10-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-10-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FD86-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,19 +177,21 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2771.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1909-10-23">
             <p xml:space="preserve"><date when="1909-10-23">23/10</date> Vm. (nach dem üblichen kleinen Spaziergang) dictirt, <rs type="work" subtype="self" xml:id="bibl_12933">Bernhardi</rs>, Briefe.―</p>
             <p xml:space="preserve" rend="indent">Weiter am <rs type="work" subtype="self" xml:id="bibl_12934">Bernhardi</rs>.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_31080" ref="#person_14643"><forename>Albert</forename> <surname>Ehrenstein</surname></rs> da, der strebend sich bemüht. Fand nur eine 
 Verbindung <rs type="person" xml:id="pNt_31081" ref="#person_20224"><forename>Otto</forename> <surname>Soyka</surname></rs> ― <rs type="person" xml:id="pNt_31082" ref="#person_15691"><surname>Großmann</surname></rs> ― <rs type="person" xml:id="pNt_31083" ref="#person_18856"><surname>Polgar</surname></rs>.― Seine Begabung 
 ausgesprochen. Warnte ihn vor der Kritik (Kritischer Bethätigung) bei 
-seinem decidirten Übelwollen. Sein dramatischer Plan „<rs type="place" xml:id="pl_06839" ref="#place_d229992d620f3083a55a1488372e9a46">Leopoldstadt</rs>“.―</p>
+seinem decidirten Übelwollen. Sein dramatischer Plan „<rs type="place" xml:id="pl_06839" ref="#pmb52">Leopoldstadt</rs>“.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

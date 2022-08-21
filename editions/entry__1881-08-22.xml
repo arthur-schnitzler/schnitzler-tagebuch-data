@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1881-08-22.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1881-08-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1881-08-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1881-08-22.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1881-08-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1881-08-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DE27-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0133.tif"/>
@@ -182,10 +186,10 @@
       <body>
          <div type="diary-day" xml:id="entry__1881-08-22">
             <p xml:space="preserve"><date when="1881-08-22">22/8</date> Montag. Heute früh kehrte ich von einem 14tägigen Aufenthalt 
-in <rs type="place" xml:id="pl_00247" ref="#place_c2ad928214981e457405589604924059">Ischl</rs> (en fam.) zurück. Matt. Ein paar neue Bekanntschaften. stud. 
+in <rs type="place" xml:id="pl_00247" ref="#pmb213">Ischl</rs> (en fam.) zurück. Matt. Ein paar neue Bekanntschaften. stud. 
 jur. <rs type="person" xml:id="pNt_01252" ref="#person_20668"><surname>Tennenbaum</surname></rs> z. B.― die pikante Wittwe <rs type="person" xml:id="pNt_01253" ref="#person_20495"><roleName>Frau</roleName> <forename>Str.</forename></rs> ―</p>
-            <p xml:space="preserve" rend="indent">Verkehr mit <rs type="person" xml:id="pNt_01254" ref="#person_17904"><forename>Julie</forename> <surname>Jellinek</surname></rs>. Ausflüge. <rs type="place" xml:id="pl_00248" ref="#place_6c77351074b8699987e7f04e7856b3ab">Hallstatt</rs>, <rs type="place" xml:id="pl_00249" ref="#place_096fe15a391b374b49743494cd0f762d">Grundlsee</rs> ― 
-<rs type="person" xml:id="pNt_01255" ref="#person_20204"><surname>Sonnenthal</surname></rs> ― über <rs type="place" xml:id="pl_00250" ref="#place_6fff0c87148a112e9c5de8c71add2bc7">Mond-</rs>, <rs type="place" xml:id="pl_00251" ref="#place_35f8d243487e9062a2a9b8690ae78d7a">Wolfgang-</rs> &amp; <rs type="place" xml:id="pl_00252" ref="#place_00d8fc87f2dce5826effe3206e02b3eb">Attersee</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Verkehr mit <rs type="person" xml:id="pNt_01254" ref="#person_17904"><forename>Julie</forename> <surname>Jellinek</surname></rs>. Ausflüge. <rs type="place" xml:id="pl_00248" ref="#pmb39671">Hallstatt</rs>, <rs type="place" xml:id="pl_00249" ref="#pmb90787">Grundlsee</rs> ― 
+<rs type="person" xml:id="pNt_01255" ref="#person_20204"><surname>Sonnenthal</surname></rs> ― über <rs type="place" xml:id="pl_00250" ref="#pmb91272">Mond-</rs>, <rs type="place" xml:id="pl_00251" ref="#pmb92093">Wolfgang-</rs> &amp; <rs type="place" xml:id="pl_00252" ref="#pmb237">Attersee</rs>.―</p>
             <p xml:space="preserve" rend="indent">― Tod <rs type="person" xml:id="pNt_01256" ref="#person_19211"><surname>Reusches</surname></rs>.― Todtsagung meines Onkels Dr. <rs type="person" xml:id="pNt_01257" ref="#person_17899"><forename>Edm.</forename> <surname>M.</surname></rs> ― Brand 
 des czech. Nationaltheaters.―</p>
             <p xml:space="preserve" rend="indent">Rückkehr in der gewöhnlichen (geradezu hypochondrischen) Verstimmung 
@@ -197,6 +201,5 @@ Tod &amp; Leben amüsiren? Verbieten mir die Verhältnisse. Muss halt
 weiterdämmern.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

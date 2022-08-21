@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-11-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-11-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-11-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1915-11-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-11-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-11-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0632-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4147.tif"/>
@@ -184,12 +188,12 @@
       <body>
          <div type="diary-day" xml:id="entry__1915-11-23">
             <p xml:space="preserve"><date when="1915-11-23">23/11</date> Traum (durch Einriss in den Thermophor, der mich befeuchtete): 
-Im Kahn auf dem <rs type="place" xml:id="pl_09682" ref="#place_7ed4496167f8edc24d094798be1c9cc8">Königssee</rs>, in Schwimmhose mit <rs type="person" xml:id="pNt_46869" ref="#person_21614"><forename>Stefan</forename> <surname>Zweig</surname></rs>, 
+Im Kahn auf dem <rs type="place" xml:id="pl_09682" ref="#pmb91054">Königssee</rs>, in Schwimmhose mit <rs type="person" xml:id="pNt_46869" ref="#person_21614"><forename>Stefan</forename> <surname>Zweig</surname></rs>, 
 springe (warum?) ins Wasser (von <rs type="person" xml:id="pNt_46870" ref="#person_21614"><surname>Zweig</surname></rs> war gestern unvortheilhaft wegen 
 einer albern-taktlosen Äußerung über <rs type="person" xml:id="pNt_46871" ref="#person_13355"><forename>Ama</forename></rs> zu <rs type="person" xml:id="pNt_46872" ref="#person_20532"><surname>Stringa</surname></rs> die Rede) ― Ufer 
 felsig links, es entwickelt sich allmälig ein Festungsrelief (<rs type="person" xml:id="pNt_46873" ref="#person_20532"><surname>Stringa</surname></rs> ist als 
-Artillerieoffizier auf dem <rs type="place" xml:id="pl_09683" ref="#place_8c1c2cb103774034bde0b2384fcba0fa">M. Baldo</rs> und beschießt <rs type="place" xml:id="pl_09684" ref="#place_84465f5d4faee0a7e284c0f3878b528a">Riva</rs> ― der <rs type="place" xml:id="pl_09685" ref="#place_7ed4496167f8edc24d094798be1c9cc8">Königssee</rs> 
-könnte auch der <rs type="place" xml:id="pl_09686" ref="#place_342571a5eb2a95c6a3084596e2208048">Gardasee</rs> sein ―) bin dann in einem sommerlichen 
+Artillerieoffizier auf dem <rs type="place" xml:id="pl_09683" ref="#pmb91280">M. Baldo</rs> und beschießt <rs type="place" xml:id="pl_09684" ref="#pmb91602">Riva</rs> ― der <rs type="place" xml:id="pl_09685" ref="#pmb91054">Königssee</rs> 
+könnte auch der <rs type="place" xml:id="pl_09686" ref="#pmb90691">Gardasee</rs> sein ―) bin dann in einem sommerlichen 
 <rs type="place" xml:id="pl_09687" ref="#place_e12f265f448e10f362084064ed286868" ana="#exclude">Badner</rs> Curpark, heute Abend, erzählt mir <rs type="person" xml:id="pNt_46874" ref="#person_19986"><forename>Gustav</forename></rs>, geht der <rs type="allusively" xml:id="rst_01435">Kaiser</rs> ins 
 Theater, ich wundre mich: trotz des Kriegs,― von einer Frau, etwa 
 Tochter geführt, blind erscheint <rs type="person" xml:id="pNt_46875" ref="#person_19126"><surname>Reicher</surname></rs> in dunkelm Gehrock, Cylinder, 
@@ -221,6 +225,5 @@ oder nur mit Zustimmung so wenig zu thun hat, und gewissermaßen
 tiefer wurzelt.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

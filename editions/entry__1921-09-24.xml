@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1921-09-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-09-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-09-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1921-09-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-09-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-09-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0E84-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5532.tif"/>
@@ -181,15 +185,14 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1921-09-24">
-            <p xml:space="preserve"><date when="1921-09-24">24/9</date> Den ganzen Vorm. <rs type="person" xml:id="pNt_63780" ref="#person_21330"><roleName>Hr.</roleName> <surname>Wilhartitz</surname></rs> mit Hrn. <rs type="person" xml:id="pNt_63781" ref="#person_20422"><forename>Jo</forename> <surname>Sternberg</surname></rs> aus <rs type="place" xml:id="pl_13389" ref="#place_87809c954948d8a20507bee3648281b3">New 
+            <p xml:space="preserve"><date when="1921-09-24">24/9</date> Den ganzen Vorm. <rs type="person" xml:id="pNt_63780" ref="#person_21330"><roleName>Hr.</roleName> <surname>Wilhartitz</surname></rs> mit Hrn. <rs type="person" xml:id="pNt_63781" ref="#person_20422"><forename>Jo</forename> <surname>Sternberg</surname></rs> aus <rs type="place" xml:id="pl_13389" ref="#pmb44053">New 
 York</rs>, sprachen allerlei durch;― ich band mich vorläufig nicht, gab ihm aber 
-das Recht, insbesondre Film meine Sachen in <rs type="place" xml:id="pl_13390" ref="#place_e884124295d0c4d07d9bcf5096fd5495">Amerika</rs> anzutragen. Er 
+das Recht, insbesondre Film meine Sachen in <rs type="place" xml:id="pl_13390" ref="#pmb43406">Amerika</rs> anzutragen. Er 
 verspricht sich offenbar ein sehr gutes Geschäft; doch scheint auch eine 
 gewisse Sympathie da zu sein.</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_3527">Roman</rs>.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_63782" ref="#person_19822"><forename>Heini</forename></rs> <rs type="person" xml:id="pNt_63783" ref="#person_17786"><surname>Mahler</surname></rs> <rs type="work" xml:id="bibl_3528">Achte</rs>, dann Wirtshaus vis à vis.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

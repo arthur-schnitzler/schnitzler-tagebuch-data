@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-11-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-11-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-11-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-11-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-11-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-11-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-15D5-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6753.tif"/>
@@ -182,8 +186,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1926-11-12">
-            <p xml:space="preserve"><date when="1926-11-12">12/11</date> Tel. <rs type="person" xml:id="pNt_78997" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs>, über die Feiertage nach <rs type="place" xml:id="pl_16995" ref="#place_75ea467cdddad5498edbb6c35f98c2c2">Aflenz</rs>.―</p>
-            <p xml:space="preserve" rend="indent">― Mit <rs type="person" xml:id="pNt_78998" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> <rs type="place" xml:id="pl_16996" ref="#place_86a694cf5ce5552ca627cb96b607eccd">Prater</rs>; Partien, die ich noch nie betreten.― Das Gespräch, 
+            <p xml:space="preserve"><date when="1926-11-12">12/11</date> Tel. <rs type="person" xml:id="pNt_78997" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs>, über die Feiertage nach <rs type="place" xml:id="pl_16995" ref="#pmb90198">Aflenz</rs>.―</p>
+            <p xml:space="preserve" rend="indent">― Mit <rs type="person" xml:id="pNt_78998" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> <rs type="place" xml:id="pl_16996" ref="#pmb91530">Prater</rs>; Partien, die ich noch nie betreten.― Das Gespräch, 
 anfangs leidlich, wurde unerträglich, resp. ging in Schweigen aus. So 
 verständlich ihr Verdruss über <rs type="person" xml:id="pNt_78999" ref="#person_19832"><forename>O.</forename></rs> Anwesenheit (die auf Dauer berechnet); 
 auch hier fehlt letzte Einsicht. Wie immer, die Zustände werden unhaltbar ( ― und halten sich doch).</p>
@@ -194,6 +198,5 @@ auch hier fehlt letzte Einsicht. Wie immer, die Zustände werden unhaltbar ( ―
             <p xml:space="preserve" rend="indent">Begann <rs type="person" xml:id="pNt_79005" ref="#person_21226"><surname>Wells</surname></rs> „<rs type="work" xml:id="bibl_20554">Weltgeschichte</rs>“ zu lesen.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

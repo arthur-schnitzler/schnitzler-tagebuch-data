@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1925-09-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-09-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-09-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1925-09-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-09-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-09-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-142A-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6538.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1925-09-10">
-            <p xml:space="preserve"><date when="1925-09-10">10/9</date> <rs type="place" xml:id="pl_16324" ref="#place_3dfc02600af4645d45083e3e2f8042ab">Forte dei Marmi</rs>.― Brief an <rs type="person" xml:id="pNt_75768" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> (wie fern ist sie mir, und wie ungütig 
+            <p xml:space="preserve"><date when="1925-09-10">10/9</date> <rs type="place" xml:id="pl_16324" ref="#pmb44248">Forte dei Marmi</rs>.― Brief an <rs type="person" xml:id="pNt_75768" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> (wie fern ist sie mir, und wie ungütig 
 bin ich gegen sie).―</p>
             <p xml:space="preserve" rend="indent">Die Manicure im Garten.―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="work" subtype="self" xml:id="bibl_16628">Weiher</rs> 2. Akt, in dem ich die Verse zum Theil schlechter finde als im ersten.―</p>
-            <p xml:space="preserve" rend="indent">Gegen Abend Tram nach <rs type="place" xml:id="pl_16325" ref="#place_ffd76a62497d0efbffc21e4b36238174">Viareggio</rs>; Spaziergang,― am Strand,― Sonnenuntergang.―</p>
+            <p xml:space="preserve" rend="indent">Gegen Abend Tram nach <rs type="place" xml:id="pl_16325" ref="#pmb1174">Viareggio</rs>; Spaziergang,― am Strand,― Sonnenuntergang.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

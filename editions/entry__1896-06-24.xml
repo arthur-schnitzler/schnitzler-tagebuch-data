@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1896-06-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-06-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-06-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1896-06-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-06-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1896-06-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EB2C-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1183.tif"/>
@@ -183,7 +187,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1896-06-24">
-            <p xml:space="preserve"><date when="1896-06-24">24/6</date> In <rs type="place" xml:id="pl_02296" ref="#place_0e891dbd1b1814a0cddd64e270c6ffac">Vöslau</rs> bei <rs type="person" xml:id="pNt_12351" ref="#person_21047"><forename>Olga</forename></rs>; die draußen in der Villa ihres Vaters allein 
+            <p xml:space="preserve"><date when="1896-06-24">24/6</date> In <rs type="place" xml:id="pl_02296" ref="#pmb992">Vöslau</rs> bei <rs type="person" xml:id="pNt_12351" ref="#person_21047"><forename>Olga</forename></rs>; die draußen in der Villa ihres Vaters allein 
 mit ihrer Schwester <rs type="person" xml:id="pNt_12352"><forename>Fanny</forename></rs>.― Noch immer krank. Es war sehr schön. 
 Schöner stiller Garten, Weinberg, ruhiger Sommerabend. Behaglich 
 elegante Räume.― Sie hatte eine Pelzmantille um, an der die Grundidee 
@@ -215,6 +219,5 @@ gestört, die wir anfangs den <rs type="person" xml:id="pNt_12361" ref="#person_
             </tei:fw>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

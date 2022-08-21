@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-03-31.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-03-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-04-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-03-31.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-03-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-04-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FF92-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3134.tif"/>
@@ -187,7 +191,7 @@ Welch ein Geniestück!―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="allusively" xml:id="rst_01193">Mama</rs> zu Tisch.―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="work" subtype="self" xml:id="bibl_10912">Aphorismen und dergl.</rs> durchgesehn; gefeilt, gereimt.―</p>
             <p xml:space="preserve" rend="indent">Zum Nachtmahl <rs type="person" xml:id="pNt_35039" ref="#person_20796"><surname>Trebitsch</surname></rs> und Frau; <rs type="person" xml:id="pNt_35040" ref="#person_13447"><surname>Bartsch</surname></rs> und Frau. <rs type="person" xml:id="pNt_35041" ref="#person_13447"><surname>B.</surname></rs> über 
-den <rs type="allusively" xml:id="rst_01194">Thronfolger</rs>.― Sein Beichtvater in <rs type="place" xml:id="pl_07402" ref="#place_8ac85cc83788186b74cc9ca468d300c5">Brioni</rs> zu <rs type="person" xml:id="pNt_35042" ref="#person_17206"><roleName>Frau</roleName> <surname>Kupelwieser</surname></rs> … 
+den <rs type="allusively" xml:id="rst_01194">Thronfolger</rs>.― Sein Beichtvater in <rs type="place" xml:id="pl_07402" ref="#pmb45260">Brioni</rs> zu <rs type="person" xml:id="pNt_35042" ref="#person_17206"><roleName>Frau</roleName> <surname>Kupelwieser</surname></rs> … 
 „Ich weiß wohl, er ist ein Schützer des Christentums etc. ― aber als 
 Christ und Mensch bin ich verpflichtet Sie zu warnen; er ist ein böser 
 Mensch.“― ― Er will dem Besitzer <rs type="person" xml:id="pNt_35043"><surname>K.</surname></rs> die Hälfte der Insel um 5 Kr. 
@@ -202,6 +206,5 @@ jährlich abpachten.― Sein Geiz, seine Brutalität, seine Treulosigkeit.―
             </tei:fw>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

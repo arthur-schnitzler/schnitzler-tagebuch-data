@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-03-31.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-03-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-04-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-03-31.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-03-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-04-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-14F4-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6645.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1926-03-31">
-            <p xml:space="preserve"><date when="1926-03-31">31/3</date> Vm. mit <rs type="person" xml:id="pNt_77544" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> <rs type="place" xml:id="pl_16569" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> ― <rs type="place" xml:id="pl_16570" ref="#place_c79ad839f84019f53250a4e6365359f9">Neuwaldegg</rs> (<rs type="place" xml:id="pl_16571" ref="#place_bf303a935ba7bb30e892cb5d0f2ea6ac">Michaelerberg</rs>). Ihre 
+            <p xml:space="preserve"><date when="1926-03-31">31/3</date> Vm. mit <rs type="person" xml:id="pNt_77544" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> <rs type="place" xml:id="pl_16569" ref="#pmb169">Pötzleinsdorf</rs> ― <rs type="place" xml:id="pl_16570" ref="#pmb170">Neuwaldegg</rs> (<rs type="place" xml:id="pl_16571" ref="#pmb91239">Michaelerberg</rs>). Ihre 
 Verstimmung durch meine Reise.</p>
             <p xml:space="preserve" rend="indent">Nm. an <rs type="work" subtype="self" xml:id="bibl_20131">Therese</rs>.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_77545" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> Kino (<rs type="work" xml:id="bibl_20132">Venus vom Montmartre</rs>). Ein besonders hübsches Gespräch.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1925-12-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-12-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-12-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1925-12-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-12-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-12-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1492-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6604.tif"/>
@@ -182,10 +186,9 @@
       <body>
          <div type="diary-day" xml:id="entry__1925-12-23">
             <p xml:space="preserve"><date when="1925-12-23">23/12</date> Besorgungen.</p>
-            <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_76768" ref="#person_14682"><roleName>Hofr.</roleName> <surname>Eisenmenger</surname></rs>; <rs type="person" xml:id="pNt_76769" ref="#person_17952"><surname>Marton</surname></rs>.― Über den Filmantrag aus <rs type="place" xml:id="pl_16458" ref="#place_e884124295d0c4d07d9bcf5096fd5495">Amerika</rs>. Vag.―</p>
+            <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_76768" ref="#person_14682"><roleName>Hofr.</roleName> <surname>Eisenmenger</surname></rs>; <rs type="person" xml:id="pNt_76769" ref="#person_17952"><surname>Marton</surname></rs>.― Über den Filmantrag aus <rs type="place" xml:id="pl_16458" ref="#pmb43406">Amerika</rs>. Vag.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_76770" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> Abend Kino („<rs type="work" xml:id="bibl_16911">wenn sich ein Mädl geirrt hat</rs>“) im silb. Brunnen genachtm.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

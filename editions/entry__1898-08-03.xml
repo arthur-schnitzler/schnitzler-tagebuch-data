@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1898-08-03.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-08-02.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-08-04.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1898-08-03.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-08-02.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-08-04.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EE22-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1448.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1898-08-03">
-            <p xml:space="preserve"><date when="1898-08-03">3/8</date> Bic. mit <rs type="person" xml:id="pNt_15522"><forename>Mz.</forename></rs> und <rs type="person" xml:id="pNt_15523" ref="#person_14073"><forename>Lola</forename></rs> <rs type="place" xml:id="pl_02959" ref="#place_9746f127a4a25642baeba0d98f0b4ea0">Tölz</rs>, retour ― geplatzter Pneum. von <rs type="person" xml:id="pNt_15524"><forename>Mz.</forename></rs>; 
+            <p xml:space="preserve"><date when="1898-08-03">3/8</date> Bic. mit <rs type="person" xml:id="pNt_15522"><forename>Mz.</forename></rs> und <rs type="person" xml:id="pNt_15523" ref="#person_14073"><forename>Lola</forename></rs> <rs type="place" xml:id="pl_02959" ref="#pmb424">Tölz</rs>, retour ― geplatzter Pneum. von <rs type="person" xml:id="pNt_15524"><forename>Mz.</forename></rs>; 
 Wagen, Gereiztheit <rs type="person" xml:id="pNt_15525"><forename>Lolas</forename></rs>.― Unmöglichkeit dieser Beziehung.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

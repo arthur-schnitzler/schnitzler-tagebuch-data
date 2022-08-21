@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1900-09-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-09-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-09-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1900-09-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-09-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1900-09-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F0F0-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -162,7 +166,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1584.tif"/>
@@ -171,12 +175,11 @@
       <body>
          <div type="diary-day" xml:id="entry__1900-09-15">
             <p xml:space="preserve"><date when="1900-09-15">15/9</date> Jesuitische Gegenerklärung <rs type="person" xml:id="pNt_17334" ref="#person_19724"><surname>Schlenthers</surname></rs>.― Bei <rs type="person" xml:id="pNt_17335" ref="#person_20243"><surname>Speidel</surname></rs> in
-<rs type="place" xml:id="pl_03535" ref="#place_3b0cf80ce6f7c6e0340cf31265c8f3f7">Sievering</rs>, der nicht zu sprechen war.― Mit <rs type="person" xml:id="pNt_17336" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs> an der <rs type="place" xml:id="pl_03536" ref="#place_ec5faf5c37e55de32672b04a90a59b20">Donau</rs>.― Ihre
+<rs type="place" xml:id="pl_03535" ref="#pmb64219">Sievering</rs>, der nicht zu sprechen war.― Mit <rs type="person" xml:id="pNt_17336" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs> an der <rs type="place" xml:id="pl_03536" ref="#pmb90538">Donau</rs>.― Ihre
 Bemerkung: Schad, dass ich mit <rs type="person" xml:id="pNt_17337" ref="#person_19724"><surname>Schl.</surname></rs> kein Verh. hab, dem möcht ich
 meine Meinung sagen. Bei <rs type="person" xml:id="pNt_17338" ref="#person_13551"><forename>Richard</forename></rs>. Seine erkrankte Frau.― Bei <rs type="person" xml:id="pNt_17339" ref="#person_19832"><forename>D.</forename> <surname>M.</surname></rs>―
 <rs type="person" xml:id="pNt_17340" ref="#person_15607"><roleName>Hr.</roleName> <surname>De Grach</surname></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

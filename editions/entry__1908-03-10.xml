@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-03-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-03-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-03-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-03-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-03-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-03-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FB36-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2479.tif"/>
@@ -184,13 +188,12 @@
             <p xml:space="preserve"><date when="1908-03-10">10/3</date> Vm. Besorgungen.</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="allusively" xml:id="rst_00913">Mama</rs> allein gespeist. <rs type="person" xml:id="pNt_27983" ref="#person_13914"><surname>Brahms</surname></rs> <rs type="work" xml:id="bibl_13265">Quartett</rs>.</p>
             <p xml:space="preserve" rend="indent">Dictirt Nm.: an die société (<rs type="person" xml:id="pNt_27984" ref="#person_16371"><surname>Horner</surname></rs> hatte mir geschrieben und Belege 
-eingesandt, dass <rs type="work" subtype="self" xml:id="bibl_13266">Absch.-souper</rs> in <rs type="place" xml:id="pl_06220" ref="#place_b4d5600c385a6db5d7bdd413be57579b">Nizza</rs> als „<rs type="work" subtype="self" xml:id="bibl_13267">souper d’adieu</rs> de <rs type="person" xml:id="pNt_27985" ref="#person_20931"><roleName>M.</roleName> <surname>Vaucaire</surname></rs>“ 
-gespielt wurde ― wie im vorigen Jahr Wochenlang in <rs type="place" xml:id="pl_06221" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs>), <rs type="person" xml:id="pNt_27986" ref="#person_14766"><surname>Entsch</surname></rs> (in 
+eingesandt, dass <rs type="work" subtype="self" xml:id="bibl_13266">Absch.-souper</rs> in <rs type="place" xml:id="pl_06220" ref="#pmb926">Nizza</rs> als „<rs type="work" subtype="self" xml:id="bibl_13267">souper d’adieu</rs> de <rs type="person" xml:id="pNt_27985" ref="#person_20931"><roleName>M.</roleName> <surname>Vaucaire</surname></rs>“ 
+gespielt wurde ― wie im vorigen Jahr Wochenlang in <rs type="place" xml:id="pl_06221" ref="#pmb182">Paris</rs>), <rs type="person" xml:id="pNt_27986" ref="#person_14766"><surname>Entsch</surname></rs> (in 
 derselben Sache) ― an <rs type="person" xml:id="pNt_27987" ref="#person_14982"><surname>Finger</surname></rs> (Antwort auf die Enquêtefragen Kunst ― 
 Geschlechtskrankheiten etc.) ― etc.―</p>
             <p xml:space="preserve" rend="indent">― Discussion mit O., die nach versöhnlichen Momenten schlecht endete.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

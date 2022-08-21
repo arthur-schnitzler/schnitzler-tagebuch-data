@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1916-04-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-04-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-04-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1916-04-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-04-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1916-04-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-06C0-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4244.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1916-04-13">
-            <p xml:space="preserve"><date when="1916-04-13">13/4</date> Vm. Besorgungen. Panorama (<rs type="place" xml:id="pl_09881" ref="#place_16b343b628f3c360818df5cd3a63e5cf">Durazzo</rs>).</p>
+            <p xml:space="preserve"><date when="1916-04-13">13/4</date> Vm. Besorgungen. Panorama (<rs type="place" xml:id="pl_09881" ref="#pmb90556">Durazzo</rs>).</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="work" subtype="self" xml:id="bibl_7326">dram. Fragmente</rs> (1880-81) durchgesehn. Nichts zukunftsweisend, nur 
 wo Stilisirung versucht wird.</p>
             <p xml:space="preserve" rend="indent">― Zum Nachtm. bei <rs type="person" xml:id="pNt_47807" ref="#person_19827"><forename>Julius’</forename></rs>. Familie. <rs type="person" xml:id="pNt_47808" ref="#person_20120"><roleName>Hr.</roleName> <surname>Simon</surname></rs> von seinen 
 Sammlungen (<rs type="person" xml:id="pNt_47809" ref="#person_17321"><surname>Lanner</surname></rs>, <rs type="person" xml:id="pNt_47810" ref="#person_20505"><surname>Strauss</surname></rs>).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

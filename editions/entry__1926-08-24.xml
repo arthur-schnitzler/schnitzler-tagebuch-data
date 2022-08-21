@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-08-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-08-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-08-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-08-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-08-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-08-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1585-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6712.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1926-08-24">
-            <p xml:space="preserve"><date when="1926-08-24">24/8</date> <rs type="place" xml:id="pl_16846" ref="#place_d0dd8ec0c54bfc44e84edbb133bc249a">Zermatt</rs>. Spaziergang (allein) <rs type="place" xml:id="pl_16847" ref="#place_c0460b3b4696f48c99af9b010e2a9187">Findelen</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Nm., mit <rs type="person" xml:id="pNt_78420" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>, begegne ich <rs type="person" xml:id="pNt_78421" ref="#person_15855"><surname>Hajek</surname></rs>, der eben vom <rs type="place" xml:id="pl_16848" ref="#place_085070c48c05743e8266b8b61b46bb05">Gornergrat</rs> kommt, mit Dr. 
+            <p xml:space="preserve"><date when="1926-08-24">24/8</date> <rs type="place" xml:id="pl_16846" ref="#pmb34007">Zermatt</rs>. Spaziergang (allein) <rs type="place" xml:id="pl_16847" ref="#pmb90637">Findelen</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Nm., mit <rs type="person" xml:id="pNt_78420" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>, begegne ich <rs type="person" xml:id="pNt_78421" ref="#person_15855"><surname>Hajek</surname></rs>, der eben vom <rs type="place" xml:id="pl_16848" ref="#pmb90741">Gornergrat</rs> kommt, mit Dr. 
 <rs type="person" xml:id="pNt_78422" ref="#person_16803"><surname>Kemeny</surname></rs>, <rs type="person" xml:id="pNt_78423" ref="#person_21277"><roleName>Dr.</roleName> <surname>Wessely</surname></rs>, und seiner langj. Famula <rs type="person" xml:id="pNt_78424" ref="#person_13215"><forename>Anna</forename></rs>.― Begleite ihn zur 
 Bahn.</p>
             <p xml:space="preserve" rend="indent">Am <rs type="work" subtype="self" xml:id="bibl_20384">Roman</rs>.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

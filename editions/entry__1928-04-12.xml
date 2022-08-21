@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-04-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-04-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-04-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-04-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-04-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-04-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-17DA-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7068.tif"/>
@@ -181,16 +185,15 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1928-04-12">
-            <p xml:space="preserve"><date when="1928-04-12">12/4</date> <rs type="person" xml:id="pNt_83456" ref="#person_14682"><roleName>Hofr.</roleName> <surname>Eisenmenger</surname></rs> telef. Filmantrag <rs type="work" subtype="self" xml:id="bibl_19308">Spiel im M.</rs> <rs type="place" xml:id="pl_17875" ref="#place_e884124295d0c4d07d9bcf5096fd5495">Amerika</rs>; nahm an; 
+            <p xml:space="preserve"><date when="1928-04-12">12/4</date> <rs type="person" xml:id="pNt_83456" ref="#person_14682"><roleName>Hofr.</roleName> <surname>Eisenmenger</surname></rs> telef. Filmantrag <rs type="work" subtype="self" xml:id="bibl_19308">Spiel im M.</rs> <rs type="place" xml:id="pl_17875" ref="#pmb43406">Amerika</rs>; nahm an; 
 relativ hoher Betrag ― und doch hineingefallen.―</p>
-            <p xml:space="preserve" rend="indent">Dictirt Briefe (<rs type="place" xml:id="pl_17876" ref="#place_389962c9dec540ab28d04517e82c3996">Italien</rs> ― unautor. Aufführung <rs type="work" subtype="self" xml:id="bibl_19309">Große Scene</rs> (mit Abfall 
-noch dazu!) <rs type="place" xml:id="pl_17877" ref="#place_67eb2b8d0aab60ec69666532ff9527c9">Holland</rs> (<rs type="work" subtype="self" xml:id="bibl_19310">Bernhardi</rs> Tournee mit Tantiemenverweigerung ― 
+            <p xml:space="preserve" rend="indent">Dictirt Briefe (<rs type="place" xml:id="pl_17876" ref="#pmb40306">Italien</rs> ― unautor. Aufführung <rs type="work" subtype="self" xml:id="bibl_19309">Große Scene</rs> (mit Abfall 
+noch dazu!) <rs type="place" xml:id="pl_17877" ref="#pmb44016">Holland</rs> (<rs type="work" subtype="self" xml:id="bibl_19310">Bernhardi</rs> Tournee mit Tantiemenverweigerung ― 
 und gnadenweisen 2% ― nein)).</p>
             <p xml:space="preserve" rend="indent">Nm. gepackt.― <rs type="person" xml:id="pNt_83457" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> telef. etliche Mal, immer mit Thränen in der Stimme.― 
 <rs type="person" xml:id="pNt_83458" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> telef. (will auf die Bahn).</p>
             <p xml:space="preserve" rend="indent">Südbahn Abreise.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

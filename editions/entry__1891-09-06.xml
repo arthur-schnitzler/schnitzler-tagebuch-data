@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1891-09-06.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-09-05.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-09-07.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1891-09-06.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-09-05.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-09-07.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E45B-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0558.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1891-09-06">
-            <p xml:space="preserve"><date when="1891-09-06">6. 9.</date> Sonntag. Vorm. mit <rs type="person" xml:id="pNt_05551" ref="#person_15485"><forename>Mz.</forename></rs> in <rs type="place" xml:id="pl_01208" ref="#place_fa8a4a0fb753daa46810c572b474ef4f">Brunn</rs> ― nach <rs type="place" xml:id="pl_01209" ref="#place_02031ed2507818d10a37c1a6bf0c9f9d">Mödling</rs> gegangen.― 
-Nachm. in <rs type="place" xml:id="pl_01210" ref="#place_9a43e84f6e1d406076f2372205804f6d">B.</rs> Da sie allerdings gedrängt, eine Einladung zu <rs type="person" xml:id="pNt_05552" ref="#person_20977"><surname>Vita</surname></rs> 
+            <p xml:space="preserve"><date when="1891-09-06">6. 9.</date> Sonntag. Vorm. mit <rs type="person" xml:id="pNt_05551" ref="#person_15485"><forename>Mz.</forename></rs> in <rs type="place" xml:id="pl_01208" ref="#pmb40202">Brunn</rs> ― nach <rs type="place" xml:id="pl_01209" ref="#pmb968">Mödling</rs> gegangen.― 
+Nachm. in <rs type="place" xml:id="pl_01210" ref="#pmb662">B.</rs> Da sie allerdings gedrängt, eine Einladung zu <rs type="person" xml:id="pNt_05552" ref="#person_20977"><surname>Vita</surname></rs> 
 annahm, macht’ ich ihr auf der Straße einen Höllenskandal, sie 
 weinte furchtbar, beschwor mich, sie um ¾10 wieder zu erwarten; sie 
 kam, stürzte mir an den Hals und alles war wieder gut.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

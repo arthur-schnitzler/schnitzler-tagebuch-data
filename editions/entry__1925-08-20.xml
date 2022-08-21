@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1925-08-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-08-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-08-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1925-08-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-08-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1925-08-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1415-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6533.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1925-08-20">
-            <p xml:space="preserve"><date when="1925-08-20">20/8</date> <rs type="place" xml:id="pl_16260" ref="#place_63da02947d9e51e4ddd4504712bc71c0">Celerina</rs>. Um 3 Uhr Nachts mit sehr heftigem Unwohlsein erwacht. Der ganze Tag sehr übel.</p>
-            <p xml:space="preserve" rend="indent">Nm. ins Cresta Kulm; <rs type="person" xml:id="pNt_75707" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> (aus <rs type="place" xml:id="pl_16261" ref="#place_b4a3a80247afc58a8bde4afff2b93e4c">Genf</rs> und <rs type="place" xml:id="pl_16262" ref="#place_103a821a3a6a0b923c9f74a39662bb51">Zürich</rs>).</p>
+            <p xml:space="preserve"><date when="1925-08-20">20/8</date> <rs type="place" xml:id="pl_16260" ref="#pmb12589">Celerina</rs>. Um 3 Uhr Nachts mit sehr heftigem Unwohlsein erwacht. Der ganze Tag sehr übel.</p>
+            <p xml:space="preserve" rend="indent">Nm. ins Cresta Kulm; <rs type="person" xml:id="pNt_75707" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> (aus <rs type="place" xml:id="pl_16261" ref="#pmb562">Genf</rs> und <rs type="place" xml:id="pl_16262" ref="#pmb484">Zürich</rs>).</p>
             <p xml:space="preserve" rend="indent">Heim; und um 7 niedergelegt.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

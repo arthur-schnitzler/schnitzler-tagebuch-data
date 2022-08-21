@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1930-01-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-01-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-01-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1930-01-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-01-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1930-01-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1A5C-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7421.tif"/>
@@ -182,9 +186,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1930-01-14">
-            <p xml:space="preserve"><date when="1930-01-14">14/1</date> <rs type="place" xml:id="pl_19064" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>. Packen.―</p>
-            <p xml:space="preserve" rend="indent">Brief aus <rs type="place" xml:id="pl_19065" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_88754" ref="#person_18137"><forename>Dora</forename></rs> in der Hall lang über <rs type="place" xml:id="pl_19066" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> und was zu thun. Der Brief von 
+            <p xml:space="preserve"><date when="1930-01-14">14/1</date> <rs type="place" xml:id="pl_19064" ref="#pmb168">Berlin</rs>. Packen.―</p>
+            <p xml:space="preserve" rend="indent">Brief aus <rs type="place" xml:id="pl_19065" ref="#pmb182">Paris</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_88754" ref="#person_18137"><forename>Dora</forename></rs> in der Hall lang über <rs type="place" xml:id="pl_19066" ref="#pmb50">Wien</rs> und was zu thun. Der Brief von 
 <rs type="person" xml:id="pNt_88755" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> („Alltag“).</p>
             <p xml:space="preserve" rend="indent">Zu <rs type="person" xml:id="pNt_88756" ref="#person_19832"><forename>O.</forename></rs> Bei ihr gegessen. Erinnerungen ― besonders an <rs type="person" xml:id="pNt_88757" ref="#person_14130"><forename>Lili</forename></rs>, in tiefer 
 Erschütterung.</p>
@@ -195,6 +199,5 @@ und doch ― man muss hier sagen „irgendwie“ ― ein heilloses Geschwätz.�
 <rs type="person" xml:id="pNt_88762" ref="#person_16754"><surname>Katajew</surname></rs> <rs type="work" xml:id="bibl_812">der Defraudant</rs> zu lesen begonnen.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1902-10-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-10-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-10-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1902-10-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-10-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-10-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F3B8-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,15 +177,17 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1718.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1902-10-26">
-            <p xml:space="preserve"><date when="1902-10-26">26/10</date> S.― Vm. <rs ref="#person_19987" type="person" xml:id="pNt_19069"><surname>Fürth</surname></rs> Sanat.― <rs type="person" xml:id="pNt_19070" ref="#person_16293"><forename>Hugo</forename></rs> aus <rs type="place" xml:id="pl_04142" ref="#place_0bcbcfedf2ef1f96542597b9279fb141">Rom</rs> da.―</p>
+            <p xml:space="preserve"><date when="1902-10-26">26/10</date> S.― Vm. <rs ref="#person_19987" type="person" xml:id="pNt_19069"><surname>Fürth</surname></rs> Sanat.― <rs type="person" xml:id="pNt_19070" ref="#person_16293"><forename>Hugo</forename></rs> aus <rs type="place" xml:id="pl_04142" ref="#pmb445">Rom</rs> da.―</p>
             <p xml:space="preserve" rend="indent">Mit beiden <rs type="person" xml:id="pNt_19071" ref="#person_19986"><surname>Schwarzkopf</surname></rs> bei <rs type="person" xml:id="pNt_19072" ref="#person_19832"><forename>O.</forename></rs>― <rs type="person" xml:id="pNt_19073" ref="#person_19832"><forename>O.</forename></rs> Nm. bei mir.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

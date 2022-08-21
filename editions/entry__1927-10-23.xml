@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1927-10-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-10-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-10-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1927-10-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-10-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1927-10-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-172E-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6977.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1927-10-23">
-            <p xml:space="preserve"><date when="1927-10-23">23/10</date> S. tel. von <rs type="person" xml:id="pNt_81984" ref="#person_18063"><roleName>Dr.</roleName> <surname>Menczel</surname></rs> über <rs type="place" xml:id="pl_17651" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>; Tel. von <rs type="person" xml:id="pNt_81985" ref="#person_19832"><forename>O.</forename></rs> (wohnt bei 
+            <p xml:space="preserve"><date when="1927-10-23">23/10</date> S. tel. von <rs type="person" xml:id="pNt_81984" ref="#person_18063"><roleName>Dr.</roleName> <surname>Menczel</surname></rs> über <rs type="place" xml:id="pl_17651" ref="#pmb168">Berlin</rs>; Tel. von <rs type="person" xml:id="pNt_81985" ref="#person_19832"><forename>O.</forename></rs> (wohnt bei 
 Frau <rs type="person" xml:id="pNt_81986" ref="#person_15879"><surname>Hambuechen</surname></rs>, <rs type="person" xml:id="pNt_81987" ref="#person_18793"><surname>Pietrkowski</surname></rs> Tochter).― <rs type="person" xml:id="pNt_81988"><roleName>Frau</roleName> <surname>Schn.</surname></rs> telef., <rs type="person" xml:id="pNt_81989" ref="#person_19832"><forename>O.</forename></rs> komme 
 nicht zum Schreiben; erwartet Antiqu.-Nachsendung.―</p>
             <p xml:space="preserve" rend="indent">Ordnen etc.</p>
@@ -193,6 +197,5 @@ Hr. <rs type="person" xml:id="pNt_81998" ref="#person_13316"><forename>St.</fore
             <p xml:space="preserve" rend="indent">Z. N. <rs type="person" xml:id="pNt_82001" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> (die nun da <rs type="person" xml:id="pNt_82002" ref="#person_19832"><forename>O.</forename></rs> wieder fort, aufathmet).―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

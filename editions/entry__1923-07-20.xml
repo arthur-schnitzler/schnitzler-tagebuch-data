@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-07-20.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-07-19.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-07-21.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-07-20.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-07-19.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-07-21.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-111C-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6079.tif"/>
@@ -182,7 +186,7 @@
       <body>
          <div type="diary-day" xml:id="entry__1923-07-20">
             <p xml:space="preserve"><date when="1923-07-20">20/7</date> Vm. Bank <rs type="person" xml:id="pNt_69936" ref="#person_18063"><roleName>Dr.</roleName> <surname>Menczel</surname></rs>.― Begegnung mit Exc. <rs type="person" xml:id="pNt_69937" ref="#person_19096"><roleName>Prof.</roleName> <surname>Redlich</surname></rs>; polit. 
-Gespräch. Er war in <rs type="place" xml:id="pl_14868" ref="#place_e884124295d0c4d07d9bcf5096fd5495">Amerika</rs> und <rs type="place" xml:id="pl_14869" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs>. Seine Empörung über die 
+Gespräch. Er war in <rs type="place" xml:id="pl_14868" ref="#pmb43406">Amerika</rs> und <rs type="place" xml:id="pl_14869" ref="#pmb182">Paris</rs>. Seine Empörung über die 
 <rs type="place" xml:id="pl_14870" ref="#place_a73eb5b2d5a63796d9385322e95a0cc1" ana="#exclude">Deutschen</rs>,― vielmehr die Alldeutschen ― durch deren Wesen und 
 Treiben alle <rs type="place" xml:id="pl_14871" ref="#place_d7c42cd9ac9ff0bf28786f3a97e13ab6" ana="#exclude">Ruhrgemeinheiten</rs> der <rs type="place" xml:id="pl_14872" ref="#place_b98105faab91cfbc7f0aa9feac58715c" ana="#exclude">Franzosen</rs> mindestens begreiflich 
 werden. Über den Antisemitismus als Kampf gegen die Geistigkeit. 
@@ -190,11 +194,10 @@ Manchmal allerdings mußt ich fragen: Warum schreiben Sie das
 nicht?― Er gestand offen, dass man sich heute damit in Lebensgefahr 
 begäbe.―</p>
             <p xml:space="preserve" rend="indent">Nm. am „<rs type="work" subtype="self" xml:id="bibl_1919">Verf.</rs>“ ―</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_69938" ref="#person_17509"><roleName>Dr.</roleName> <surname>Lichtenstern</surname></rs> im Auto über <rs type="place" xml:id="pl_14873" ref="#place_f0ef1fe3f949f690ba52cff060d5229f">Mauer</rs> nach <rs type="place" xml:id="pl_14874" ref="#place_b333d193dca0791c0cf701b0749dc4ce">Hinterbrühl</rs>, Hotel 
-<rs type="place" ref="#place_radetzky">Radetzky</rs>, dort ein wenig spazieren, dann <rs type="place" xml:id="pl_14875" ref="#place_3962fe91966640892c61d1838300ed1a">Ober St. Veit</rs> Hubertushof 
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_69938" ref="#person_17509"><roleName>Dr.</roleName> <surname>Lichtenstern</surname></rs> im Auto über <rs type="place" xml:id="pl_14873" ref="#pmb91217">Mauer</rs> nach <rs type="place" xml:id="pl_14874" ref="#pmb75">Hinterbrühl</rs>, Hotel 
+<rs type="place" ref="#pmb92471">Radetzky</rs>, dort ein wenig spazieren, dann <rs type="place" xml:id="pl_14875" ref="#pmb91377">Ober St. Veit</rs> Hubertushof 
 genachtm.; Musik und Tanz, Lebewelt.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

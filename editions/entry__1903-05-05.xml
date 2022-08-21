@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1903-05-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-05-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-05-06.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1903-05-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-05-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1903-05-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F475-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1806.tif"/>
@@ -180,8 +184,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1903-05-05">
-            <p xml:space="preserve"><date when="1903-05-05">5/5</date> Vm. bei O. <rs type="person" xml:id="pNt_19797" ref="#person_17958"><forename>Paul</forename></rs> aus <rs type="place" xml:id="pl_04254" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> da.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_19798" ref="#person_20811"><forename>Irene</forename> <surname>Triesch</surname></rs> Nm. bei mir; die in <rs type="place" xml:id="pl_04255" ref="#place_4a887b8a68acf9b04d9d027bddedb06b">Leipzig</rs> die <rs type="work" subtype="self" xml:id="bibl_17689">Bea.</rs> spielt und mich 
+            <p xml:space="preserve"><date when="1903-05-05">5/5</date> Vm. bei O. <rs type="person" xml:id="pNt_19797" ref="#person_17958"><forename>Paul</forename></rs> aus <rs type="place" xml:id="pl_04254" ref="#pmb168">Berlin</rs> da.―</p>
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_19798" ref="#person_20811"><forename>Irene</forename> <surname>Triesch</surname></rs> Nm. bei mir; die in <rs type="place" xml:id="pl_04255" ref="#pmb864">Leipzig</rs> die <rs type="work" subtype="self" xml:id="bibl_17689">Bea.</rs> spielt und mich 
 „kniefällig“ um neue Rolle bittet.―</p>
             <p xml:space="preserve" rend="indent">Bei O.― <rs type="person" xml:id="pNt_19799" ref="#person_17958"><forename>Paul</forename> <surname>M.</surname></rs> und <rs type="person" xml:id="pNt_19800" ref="#person_19986"><forename>Gustav</forename> <surname>Schw.</surname></rs>― Später mit O. allein, gegen die 
 ich beinah immer leicht gereizt bin.―</p>
@@ -192,6 +196,5 @@ jeder Hinsicht ― besonders Privatverhältnisse.―</p>
 schlecht.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

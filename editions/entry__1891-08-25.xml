@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1891-08-25.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-08-24.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-08-26.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1891-08-25.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-08-24.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-08-26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E44F-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0555.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1891-08-25">
-            <p xml:space="preserve"><date when="1891-08-25">25. 8.</date> In <rs type="place" xml:id="pl_01188" ref="#place_02031ed2507818d10a37c1a6bf0c9f9d">Mödling</rs> <rs type="person" xml:id="pNt_05530" ref="#person_15485"><forename>Mz.</forename></rs>― <rs type="person" xml:id="pNt_05531" ref="#person_19542"><surname>Salten</surname></rs>. Sie muß <rs type="place" xml:id="pl_01189" ref="#place_0e5965aa6363b878ccbac634a51170b1">Troppau</rs> annehmen, es ist 
+            <p xml:space="preserve"><date when="1891-08-25">25. 8.</date> In <rs type="place" xml:id="pl_01188" ref="#pmb968">Mödling</rs> <rs type="person" xml:id="pNt_05530" ref="#person_15485"><forename>Mz.</forename></rs>― <rs type="person" xml:id="pNt_05531" ref="#person_19542"><surname>Salten</surname></rs>. Sie muß <rs type="place" xml:id="pl_01189" ref="#pmb36539">Troppau</rs> annehmen, es ist 
 noch das beste.― Verzweifelte Scene. Sie beim <rs type="person" xml:id="pNt_05532" ref="#person_13249"><roleName>Dir.</roleName> <surname>A.</surname></rs> Hat noch nicht 
 endgiltig unterschrieben.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

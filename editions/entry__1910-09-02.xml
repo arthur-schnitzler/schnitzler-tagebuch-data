@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-09-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-09-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-09-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-09-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-09-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-09-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FEC0-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,18 +177,20 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2974.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1910-09-02">
             <p xml:space="preserve"><date when="1910-09-02">2/9</date> Vm. mit <rs type="person" xml:id="pNt_33383" ref="#person_17825"><forename>Louis</forename> <surname>Mandls</surname></rs> die ich in ihrer Villa besuchen wollte und 
-<rs type="person" xml:id="pNt_33384" ref="#person_17127"><surname>Kreidl</surname></rs> Fahrt <rs type="place" xml:id="pl_07204" ref="#place_d76551a698d810272d5b419e479dbbdc">Laufen</rs> (<rs type="allusively" subtype="att" xml:id="rst_01136">Kaiserdenkmal</rs> am Weg) und zurück.―</p>
+<rs type="person" xml:id="pNt_33384" ref="#person_17127"><surname>Kreidl</surname></rs> Fahrt <rs type="place" xml:id="pl_07204" ref="#pmb35658">Laufen</rs> (<rs type="allusively" subtype="att" xml:id="rst_01136">Kaiserdenkmal</rs> am Weg) und zurück.―</p>
             <p xml:space="preserve" rend="indent">Nm. bei <rs type="person" xml:id="pNt_33385" ref="#person_13551"><forename>Richard</forename></rs>. <rs type="person" xml:id="pNt_33386" ref="#person_19986"><forename>Gustav</forename></rs>.― O. sang später. Nachtmahl bei 
 <rs xml:id="pNt_33387" type="place" ref="#pmb40450">Sonnenschein</rs>.―</p>
             <p xml:space="preserve" rend="indent">Regen, immer Regen.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

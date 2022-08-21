@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1895-09-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-09-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-09-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1895-09-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-09-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1895-09-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EA1F-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1063.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1895-09-29">
-            <p xml:space="preserve"><date when="1895-09-29">29/9</date> Sonntag.― Bic. mit <rs type="person" xml:id="pNt_11069" ref="#person_19542"><surname>Salten</surname></rs> von <rs type="place" xml:id="pl_02145" ref="#place_9a43e84f6e1d406076f2372205804f6d">Baden</rs> ― <rs type="place" xml:id="pl_02146" ref="#place_e13ec8c925540228f5e6a053948bf715">Siegenfeld</rs> ― <rs type="place" xml:id="pl_02147" ref="#place_a25ff6cb521df1cd0272d03eee7efd32">Brühl</rs> (<rs ref="#person_19842" type="person" xml:id="pNt_11070"><forename>Tini</forename></rs>) 
-― <rs type="place" xml:id="pl_02148" ref="#place_26772cb430822468d91f9978930b32cd">Laxenburg</rs>.― <rs type="place" xml:id="pl_02149" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.― Bei <rs type="work" xml:id="bibl_22251">Medea</rs>; Debut der <rs type="person" xml:id="pNt_11071" ref="#person_14899"><surname>Fay</surname></rs>, der im Kampf mit 
+            <p xml:space="preserve"><date when="1895-09-29">29/9</date> Sonntag.― Bic. mit <rs type="person" xml:id="pNt_11069" ref="#person_19542"><surname>Salten</surname></rs> von <rs type="place" xml:id="pl_02145" ref="#pmb662">Baden</rs> ― <rs type="place" xml:id="pl_02146" ref="#pmb91743">Siegenfeld</rs> ― <rs type="place" xml:id="pl_02147" ref="#pmb44413">Brühl</rs> (<rs ref="#person_19842" type="person" xml:id="pNt_11070"><forename>Tini</forename></rs>) 
+― <rs type="place" xml:id="pl_02148" ref="#pmb53786">Laxenburg</rs>.― <rs type="place" xml:id="pl_02149" ref="#pmb50">Wien</rs>.― Bei <rs type="work" xml:id="bibl_22251">Medea</rs>; Debut der <rs type="person" xml:id="pNt_11071" ref="#person_14899"><surname>Fay</surname></rs>, der im Kampf mit 
 der deutschen Sprache, den sie wohl besteht, was sie sonst an Energie 
 des Talents haben mag, verloren geht.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

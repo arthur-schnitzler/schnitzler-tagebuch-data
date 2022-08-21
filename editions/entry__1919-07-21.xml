@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-07-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-07-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-07-23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-07-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-07-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-07-23.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0B69-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4885.tif"/>
@@ -184,7 +188,7 @@
             <p xml:space="preserve"><date when="1919-07-21">21/7</date> Wie so oft mit Herzschmerzen erwacht;― düsterste Gedanken (in 
 denen mir diese Schmerzen, die ich noch immer für nervös halten möchte, 
 am gleichgiltigsten sind) ―</p>
-            <p xml:space="preserve" rend="indent">Generalstrike in <rs type="place" xml:id="pl_11769" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>. (Parteipolitische Kriecherei vor den Kommunisten.) ―</p>
+            <p xml:space="preserve" rend="indent">Generalstrike in <rs type="place" xml:id="pl_11769" ref="#pmb50">Wien</rs>. (Parteipolitische Kriecherei vor den Kommunisten.) ―</p>
             <pb n="273"/>
             <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header">
                <fw place="top_center">
@@ -201,6 +205,5 @@ lassen; <rs type="person" xml:id="pNt_56552" ref="#person_21110"><forename>Marth
             <p xml:space="preserve" rend="indent">Las <rs type="person" xml:id="pNt_56555" ref="#person_13411"><surname>Barbusse’s</surname></rs> <rs type="work" xml:id="bibl_4956">Enfer</rs>, mit Interesse und Widerstand.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

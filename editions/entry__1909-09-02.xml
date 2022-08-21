@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1909-09-02.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-09-01.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-09-03.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1909-09-02.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-09-01.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1909-09-03.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FD53-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,18 +177,20 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2745.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1909-09-02">
-            <p xml:space="preserve"><date when="1909-09-02">2/9</date> Wieder in <rs type="place" xml:id="pl_06802" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>. Ordnen. <rs type="person" xml:id="pNt_30853" ref="#person_13787"><roleName>Frau</roleName> <surname>Bloch</surname></rs> wohnt schon da.―</p>
+            <p xml:space="preserve"><date when="1909-09-02">2/9</date> Wieder in <rs type="place" xml:id="pl_06802" ref="#pmb50">Wien</rs>. Ordnen. <rs type="person" xml:id="pNt_30853" ref="#person_13787"><roleName>Frau</roleName> <surname>Bloch</surname></rs> wohnt schon da.―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="allusively" xml:id="rst_01045">Mama</rs>. Später <rs type="person" xml:id="pNt_30854"><forename>Otti</forename> <surname>Metzl</surname></rs> mit <rs type="person" xml:id="pNt_30855" ref="#person_19544"><forename>Paul</forename></rs>,― endlich der Hausherr, 
 über die neue Wohnung.</p>
             <p xml:space="preserve" rend="indent">Nach dem Nachtmahl mit O. spazieren. Wie gut, wieder bei ihr zu 
 sein.― Sie ist Heimat und Sinn meines Lebens.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

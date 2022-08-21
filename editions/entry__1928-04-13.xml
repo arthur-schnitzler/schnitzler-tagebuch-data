@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-04-13.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-04-12.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-04-14.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-04-13.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-04-12.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-04-14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-17DB-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7068.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1928-04-13">
-            <p xml:space="preserve"><date when="1928-04-13">13/4</date> Ankunft <rs type="place" xml:id="pl_17878" ref="#place_8be4faaae218289562dc0a8c0e2e0ff1">Triest</rs> 10 Uhr.― Zugleich stiegen <rs type="person" xml:id="pNt_83459" ref="#person_17153"><roleName>Frau</roleName> <surname>Krum</surname></rs> (Freundin 
+            <p xml:space="preserve"><date when="1928-04-13">13/4</date> Ankunft <rs type="place" xml:id="pl_17878" ref="#pmb91944">Triest</rs> 10 Uhr.― Zugleich stiegen <rs type="person" xml:id="pNt_83459" ref="#person_17153"><roleName>Frau</roleName> <surname>Krum</surname></rs> (Freundin 
 <rs type="person" xml:id="pNt_83460" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs>) mit Gatten und ein <rs type="person" xml:id="pNt_83461" ref="#person_19026"><roleName>Herr</roleName> <surname>Radwaner</surname></rs> (stellt sich vor) aus.―</p>
             <p xml:space="preserve" rend="indent">Ins „Excelsior“.</p>
             <p xml:space="preserve" rend="indent">Spaziergang Höhen um die Stadt.―</p>
@@ -193,10 +197,9 @@
 besichtige mit einem Beamten das Riesenschiff Saturnia. (<rs type="person" xml:id="pNt_83466" ref="#person_19026"><roleName>Herr</roleName> 
 <surname>Radwaner</surname></rs> schließt sich an.)</p>
             <p xml:space="preserve" rend="indent">Brief an <rs type="person" xml:id="pNt_83467" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> (ohne Animo).</p>
-            <p xml:space="preserve" rend="indent">Spaziergang. Rest. <rs type="person" xml:id="pNt_83468"><surname>Bonavia</surname></rs>, dort <rs type="person" xml:id="pNt_83469"><roleName>Herr</roleName> <roleName>Frau</roleName> <surname>Gonzala</surname></rs> (aus <rs type="place" xml:id="pl_17879" ref="#place_51c7c0e8bc877f41a415a8e7efedd068">St. Moritz</rs> 
+            <p xml:space="preserve" rend="indent">Spaziergang. Rest. <rs type="person" xml:id="pNt_83468"><surname>Bonavia</surname></rs>, dort <rs type="person" xml:id="pNt_83469"><roleName>Herr</roleName> <roleName>Frau</roleName> <surname>Gonzala</surname></rs> (aus <rs type="place" xml:id="pl_17879" ref="#pmb44374">St. Moritz</rs> 
 bekannt durch <rs type="person" xml:id="pNt_83470" ref="#person_19832"><forename>O.</forename></rs>) ―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

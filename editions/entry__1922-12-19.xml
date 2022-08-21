@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-12-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-12-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-12-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-12-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-12-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-12-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1047-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5925.tif"/>
@@ -183,11 +187,10 @@
          <div type="diary-day" xml:id="entry__1922-12-19">
             <p xml:space="preserve"><date when="1922-12-19">19/12</date> Besorgungen in der Stadt.― Quatschwetter.</p>
             <p xml:space="preserve" rend="indent">Nachm. vertrödelt.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" ref="#place_rolandbuehne">Rolandbühne</rs> (<rs type="place" xml:id="pl_14453" ref="#place_60b1f2826e95f3ca0c30f382946d9459">Wilna</rs> Theater jüd.) „<rs type="work" xml:id="bibl_3000">Schwer zu sein a Jud</rs>“ von <rs type="person" xml:id="pNt_68118" ref="#person_19857"><surname>Alejchem</surname></rs>. 
+            <p xml:space="preserve" rend="indent"><rs type="place" ref="#pmb92488">Rolandbühne</rs> (<rs type="place" xml:id="pl_14453" ref="#pmb60492">Wilna</rs> Theater jüd.) „<rs type="work" xml:id="bibl_3000">Schwer zu sein a Jud</rs>“ von <rs type="person" xml:id="pNt_68118" ref="#person_19857"><surname>Alejchem</surname></rs>. 
 Leidlich soweit ichs verstand. Nach dem 2. Akt mit <rs type="person" xml:id="pNt_68119" ref="#person_18064"><roleName>Frau Dr.</roleName> <surname>Menczel</surname></rs> nach 
 Haus.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

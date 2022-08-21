@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1924-12-26.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-12-25.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-12-27.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1924-12-26.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-12-25.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1924-12-27.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1328-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6422.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1924-12-26">
-            <p xml:space="preserve"><date when="1924-12-26">26/12</date> Vm. mit <rs type="person" xml:id="pNt_74089" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> spazieren <rs type="place" xml:id="pl_15839" ref="#place_d8e4af920d6804a648e0b854af15df65">Gersthof</rs>. Rauhreif.―</p>
+            <p xml:space="preserve"><date when="1924-12-26">26/12</date> Vm. mit <rs type="person" xml:id="pNt_74089" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> spazieren <rs type="place" xml:id="pl_15839" ref="#pmb90705">Gersthof</rs>. Rauhreif.―</p>
             <p xml:space="preserve" rend="indent">Nm. an der <rs type="work" subtype="self" xml:id="bibl_21545">Traumnovelle</rs>.―</p>
             <p xml:space="preserve" rend="indent">Im Regina, bei <rs type="person" xml:id="pNt_74090" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>; mit ihr Kino „<rs type="work" xml:id="bibl_21546">der Liebesbrief</rs>“ (<rs type="person" xml:id="pNt_74091" ref="#person_21087"><surname>Walton</surname></rs>) im 
 Regina genachtm.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

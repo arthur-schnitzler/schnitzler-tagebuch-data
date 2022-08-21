@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1922-07-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-07-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-07-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1922-07-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-07-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1922-07-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0FAE-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5766.tif"/>
@@ -183,11 +187,10 @@
          <div type="diary-day" xml:id="entry__1922-07-19">
             <p xml:space="preserve"><date when="1922-07-19">19/7</date> Vm. Gebührenamt. Man sagt mir, dass das Burgth. immer zu hohe 
 Stempelgebühr berechnet.― Steueramt, Mietzinsabgabe.</p>
-            <p xml:space="preserve" rend="indent">― Alle Läden geschlossen, Unruhen befürchtet. Fahre trotzdem Nm. <rs type="place" xml:id="pl_14039" ref="#place_5884bac5272bf94a2487941d33f4ddc1">Payerbach</rs>. 
+            <p xml:space="preserve" rend="indent">― Alle Läden geschlossen, Unruhen befürchtet. Fahre trotzdem Nm. <rs type="place" xml:id="pl_14039" ref="#pmb948">Payerbach</rs>. 
 Hotel <rs type="org">Kampitsch</rs>, wo <rs type="person" xml:id="pNt_66660" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> Wir spazieren herum. Regen. Stimmungslos. 
 Trübseliges schmutziges Hotel.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

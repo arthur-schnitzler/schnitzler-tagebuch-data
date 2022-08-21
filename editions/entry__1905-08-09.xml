@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-08-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-08-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-08-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-08-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-08-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-08-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F7AA-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,21 +176,23 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2110.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1905-08-09">
             <p xml:space="preserve"><date when="1905-08-09">9/8</date> 3. Geburtstag von <rs type="person" xml:id="pNt_23254" ref="#person_19822"><forename>Heini</forename></rs>. Bescheerung.―</p>
             <p xml:space="preserve" rend="indent">An der „<rs type="work" subtype="self" xml:id="bibl_15830">Vtm.</rs>“ gefeilt, auch mit O. einiges darüber gesprochen.―</p>
             <p xml:space="preserve" rend="indent">Mg. <rs type="person" xml:id="pNt_23255" ref="#person_20386"><forename>Liesl</forename></rs> und <rs type="person" xml:id="pNt_23256" ref="#person_16485"><forename>Grethe</forename> <surname>Samuely</surname></rs> da. Mit dieser das <rs type="person" xml:id="pNt_23257" ref="#person_20822"><surname>Tschaikowski</surname></rs> <rs type="work" xml:id="bibl_15831">Trio</rs> vierhdg.―</p>
-            <p xml:space="preserve" rend="indent">In <rs type="place" xml:id="pl_05266" ref="#place_971d9360a377fa82fd2640a5119b1112">Schönbrunn</rs> mit O., <rs type="person" xml:id="pNt_23258" ref="#person_19822"><forename>Heini</forename></rs>, <rs type="person" xml:id="pNt_23259" ref="#person_20386"><forename>Liesl</forename></rs>, <rs type="person" xml:id="pNt_23260"><forename>Grethe</forename></rs>. Dort nach Verabredung <rs type="person" xml:id="pNt_23261" ref="#person_16294"><forename>Hugo</forename></rs> 
+            <p xml:space="preserve" rend="indent">In <rs type="place" xml:id="pl_05266" ref="#pmb92518">Schönbrunn</rs> mit O., <rs type="person" xml:id="pNt_23258" ref="#person_19822"><forename>Heini</forename></rs>, <rs type="person" xml:id="pNt_23259" ref="#person_20386"><forename>Liesl</forename></rs>, <rs type="person" xml:id="pNt_23260"><forename>Grethe</forename></rs>. Dort nach Verabredung <rs type="person" xml:id="pNt_23261" ref="#person_16294"><forename>Hugo</forename></rs> 
 <rs type="person" xml:id="pNt_23262" ref="#person_16292"><forename>Gerty</forename></rs>, auch Vater <rs type="person" xml:id="pNt_23263" ref="#person_16294"><surname>Hofmannsthal</surname></rs> getroffen.― Menagerie. <rs type="person" xml:id="pNt_23264" ref="#person_19822"><forename>Heini</forename></rs> war 
 entzückt.―</p>
             <p xml:space="preserve" rend="indent">Dann wir zwei mit den <rs type="person" xml:id="pNt_23265" ref="#person_16294"><surname>Hofmsths.</surname></rs> noch spazieren Gloriette, bei <rs type="person" xml:id="pNt_23266"><surname>Kuffner</surname></rs> 
 genachtm.― <rs type="person" xml:id="pNt_23267"><forename>H.</forename></rs> über seine Waffenübung, die Leute dort etc.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

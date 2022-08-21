@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1902-06-29.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-06-28.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-06-30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1902-06-29.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-06-28.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1902-06-30.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F345-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1694.tif"/>
@@ -181,12 +185,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1902-06-29">
-            <p xml:space="preserve"><date when="1902-06-29">29/6</date> S. Spazierfahrt Rad (mit <rs type="person" xml:id="pNt_18751" ref="#person_16293"><forename>Hugo</forename></rs>) <rs type="place" xml:id="pl_03987" ref="#place_639a777f1daa60e404eb39d85953aa42">Aigen</rs> Park, <rs type="place" xml:id="pl_03988" ref="#place_627965721d5dd1de8d834b5f7e49e05a">Hellbrunn</rs>, 
-<rs type="place" xml:id="pl_03989" ref="#place_96a374ccd80774282c7ed65dacf1ee25">Berchtesgadener-Straße</rs>.―</p>
+            <p xml:space="preserve"><date when="1902-06-29">29/6</date> S. Spazierfahrt Rad (mit <rs type="person" xml:id="pNt_18751" ref="#person_16293"><forename>Hugo</forename></rs>) <rs type="place" xml:id="pl_03987" ref="#pmb90200">Aigen</rs> Park, <rs type="place" xml:id="pl_03988" ref="#pmb31">Hellbrunn</rs>, 
+<rs type="place" xml:id="pl_03989" ref="#pmb92164">Berchtesgadener-Straße</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. „<rs type="work" subtype="self" xml:id="bibl_18040">Hexerei</rs>“ weiter, und ein <rs type="work" subtype="self" xml:id="bibl_18041">Abenteurerstück</rs> in Versen begonnen.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_03990" ref="#place_4351290dffb5a712273033ae07459330">Maria Plain</rs> und Mirabell.</p>
+            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_03990" ref="#pmb49120">Maria Plain</rs> und Mirabell.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-09-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-09-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-09-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-09-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-09-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-09-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1596-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6721.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1926-09-10">
-            <p xml:space="preserve"><date when="1926-09-10">10/9</date> <rs type="place" xml:id="pl_16909" ref="#place_cceafad713406bc4d8421dbdd142523a">Luzern</rs>.― <rs type="place" xml:id="pl_16910" ref="#place_b88f9ee287cd96336ce0db815feb8b78">Sonnenberg</rs> (war vor 2 Jahren mit <rs type="person" xml:id="pNt_78491" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> dort ― hatte es ganz 
+            <p xml:space="preserve"><date when="1926-09-10">10/9</date> <rs type="place" xml:id="pl_16909" ref="#pmb967">Luzern</rs>.― <rs type="place" xml:id="pl_16910" ref="#pmb92536">Sonnenberg</rs> (war vor 2 Jahren mit <rs type="person" xml:id="pNt_78491" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> dort ― hatte es ganz 
 vergessen). Schöner Herbstgang Kreuzhöhe.―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="work" subtype="self" xml:id="bibl_20404">Bdn. Nov.</rs>―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

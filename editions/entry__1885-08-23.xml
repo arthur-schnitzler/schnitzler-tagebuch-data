@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1885-08-23.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-08-22.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-08-24.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1885-08-23.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-08-22.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1885-08-24.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DEDC-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0249.tif"/>
@@ -181,10 +185,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1885-08-23">
-            <p xml:space="preserve"><date when="1885-08-23">23/8</date> Sonntag. <rs type="place" xml:id="pl_00477" ref="#place_9255ac016d7a922a7830cca85ae8f12d">Menaggio</rs> ― <rs type="place" xml:id="pl_00478" ref="#place_c62ccc8fa4d0d17c77fe38dd713aabb2">Bellagio</rs>. Fahrt nach <rs type="place" xml:id="pl_00479" ref="#place_2a1ebcdf6bbb901fc6a93ad053e88654">Cadenabbia</rs> im Kahn. 
-Spaziergang nach <rs type="place" xml:id="pl_00480" ref="#place_e0e94f27e0f03dff68d1a723742662fa">Tremezzo</rs>. Einfach herrlich! Villa Serbelloni.</p>
+            <p xml:space="preserve"><date when="1885-08-23">23/8</date> Sonntag. <rs type="place" xml:id="pl_00477" ref="#pmb91227">Menaggio</rs> ― <rs type="place" xml:id="pl_00478" ref="#pmb90322">Bellagio</rs>. Fahrt nach <rs type="place" xml:id="pl_00479" ref="#pmb90426">Cadenabbia</rs> im Kahn. 
+Spaziergang nach <rs type="place" xml:id="pl_00480" ref="#pmb91936">Tremezzo</rs>. Einfach herrlich! Villa Serbelloni.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

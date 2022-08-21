@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1923-06-27.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-06-26.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-06-28.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1923-06-27.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-06-26.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1923-06-28.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1105-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6068.tif"/>
@@ -181,11 +185,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1923-06-27">
-            <p xml:space="preserve"><date when="1923-06-27">27/6</date> <rs type="place" xml:id="pl_14807" ref="#place_d0a6343a081a7335baa965ce4fd0845c">München</rs>, ein paar Stunden; mit <rs type="person" xml:id="pNt_69796" ref="#person_14130"><forename>Lili</forename></rs> ins Café.― Herabgekommene 
-Stadt. Weiterfahrt. Ankunft <rs type="place" xml:id="pl_14808" ref="#place_63714a562352ef3ae472da20ed0384c0">Baden-Baden</rs>. 8 Uhr;― <rs type="person" xml:id="pNt_69797" ref="#person_19832"><forename>Olga</forename></rs> uns in der 
-<rs type="place" xml:id="pl_14809" ref="#place_ecf94a662b34e2ec3401ba89bdd27863">Lichtentaler Allee</rs> entgegen. Das Haus, entzückend gelegen. <rs type="place" xml:id="pl_14810" ref="#place_d7bee3eb8574593a80f8e1f71d305330">Herchenbachstr.</rs></p>
+            <p xml:space="preserve"><date when="1923-06-27">27/6</date> <rs type="place" xml:id="pl_14807" ref="#pmb45258">München</rs>, ein paar Stunden; mit <rs type="person" xml:id="pNt_69796" ref="#person_14130"><forename>Lili</forename></rs> ins Café.― Herabgekommene 
+Stadt. Weiterfahrt. Ankunft <rs type="place" xml:id="pl_14808" ref="#pmb228">Baden-Baden</rs>. 8 Uhr;― <rs type="person" xml:id="pNt_69797" ref="#person_19832"><forename>Olga</forename></rs> uns in der 
+<rs type="place" xml:id="pl_14809" ref="#pmb92373">Lichtentaler Allee</rs> entgegen. Das Haus, entzückend gelegen. <rs type="place" xml:id="pl_14810" ref="#pmb92278">Herchenbachstr.</rs></p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

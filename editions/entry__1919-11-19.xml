@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-11-19.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-11-18.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-11-20.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-11-19.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-11-18.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-11-20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0BE1-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,21 +177,22 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4969.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4970.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4971.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1919-11-19">
-            <p xml:space="preserve"><date when="1919-11-19">19/11</date> Generalprobe „<rs type="work" xml:id="bibl_5130">Sterne</rs>“ von <rs type="person" xml:id="pNt_57343" ref="#person_18297"><forename>H.</forename> <surname>Müller</surname></rs> im <rs type="place" ref="#place_burgtheater">Burgtheater</rs> ― 
+            <p xml:space="preserve"><date when="1919-11-19">19/11</date> Generalprobe „<rs type="work" xml:id="bibl_5130">Sterne</rs>“ von <rs type="person" xml:id="pNt_57343" ref="#person_18297"><forename>H.</forename> <surname>Müller</surname></rs> im <rs type="place" ref="#pmb14">Burgtheater</rs> ― 
 Praetentiöser Schmarrn. „Problem.“ (<rs type="person" xml:id="pNt_57344" ref="#person_15326"><surname>Galilei</surname></rs>.) Der erste Akt erweckt 
 Erwartungen.― Mit <rs type="person" xml:id="pNt_57345" ref="#person_19542"><surname>Salten</surname></rs> über die Zustände und Ausgaben. Grotesk. Er hat 
 in diesem Jahr schon über 100.000 gebraucht. Ich wohl das doppelte.</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_57346" ref="#person_19827"><forename>Julius</forename></rs> zu Tisch.</p>
-            <p xml:space="preserve" rend="indent">Nm. im <rs type="place" ref="#place_volkstheater">Volksth.</rs> <rs type="person" xml:id="pNt_57347" ref="#person_19620"><surname>Schallud</surname></rs>. Decorationsprobe für die <rs type="work" subtype="self" xml:id="bibl_5131">Schwestern</rs>, 
+            <p xml:space="preserve" rend="indent">Nm. im <rs type="place" ref="#pmb92202">Volksth.</rs> <rs type="person" xml:id="pNt_57347" ref="#person_19620"><surname>Schallud</surname></rs>. Decorationsprobe für die <rs type="work" subtype="self" xml:id="bibl_5131">Schwestern</rs>, 
 schematisch.―</p>
             <p xml:space="preserve" rend="indent">Zu Haus O. über ihre Concerte. Sie fragt mich und sich, wie die übeln 
 Kritiken zu erklären und die feindselige Haltung insbesondre bei 
@@ -220,5 +225,6 @@ ewiger.―“ Wir schieden so freundschaftlich, wie seit Monaten nicht nach
 einer Aussprache,― die von ihr diesmal ohne Trotz, von mir unverkrampft 
 geführt wurde.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

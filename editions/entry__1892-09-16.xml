@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1892-09-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-09-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-09-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1892-09-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-09-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1892-09-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E5D1-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,14 +177,16 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0638.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1892-09-16">
-            <p xml:space="preserve"><date when="1892-09-16">16. 9.</date> <rs type="place" xml:id="pl_01365" ref="#place_84465f5d4faee0a7e284c0f3878b528a">Riva</rs>.― Vorm. Wasserfall <rs type="place" xml:id="pl_01366" ref="#place_1e741c3a1169a01624093126d0523773">Varone</rs>.― Nach <rs type="place" xml:id="pl_01367" ref="#place_34f36b9454115e3b99acdf7913509e12">Trient</rs>.― Abd.</p>
+            <p xml:space="preserve"><date when="1892-09-16">16. 9.</date> <rs type="place" xml:id="pl_01365" ref="#pmb91602">Riva</rs>.― Vorm. Wasserfall <rs type="place" xml:id="pl_01366" ref="#pmb91995">Varone</rs>.― Nach <rs type="place" xml:id="pl_01367" ref="#pmb954">Trient</rs>.― Abd.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

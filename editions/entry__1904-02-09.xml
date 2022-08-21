@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-02-09.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-02-08.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-02-10.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-02-09.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-02-08.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-02-10.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F588-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,18 +176,20 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1891.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1904-02-09">
             <p xml:space="preserve"><date when="1904-02-09">9/2</date> Vm. <rs type="work" subtype="self" xml:id="bibl_16973">Probe</rs>, flau.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_20735" ref="#person_17958"><forename>Paul</forename></rs> und O. im Prinz Wilhelm gegessen.―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_20736" ref="#person_15178"><roleName>Frau</roleName> <surname>Freudenthal</surname></rs>, die über das Bild O.’s erstaunt schien.―</p>
-            <p xml:space="preserve" rend="indent">Abd. <rs type="place" ref="#place_schillertheater">Schillerth.</rs> <rs type="work" xml:id="bibl_16974">Lear</rs>. <rs type="person" xml:id="pNt_20737" ref="#person_20386"><forename>Liesl</forename></rs> als <rs type="person" xml:id="pNt_20738"><forename>Cordelia</forename></rs>.―</p>
+            <p xml:space="preserve" rend="indent">Abd. <rs type="place" ref="#pmb334">Schillerth.</rs> <rs type="work" xml:id="bibl_16974">Lear</rs>. <rs type="person" xml:id="pNt_20737" ref="#person_20386"><forename>Liesl</forename></rs> als <rs type="person" xml:id="pNt_20738"><forename>Cordelia</forename></rs>.―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_20739"><surname>Wedl</surname></rs> mit <rs type="person" xml:id="pNt_20740" ref="#person_20386"><forename>Liesl</forename></rs>, <rs type="person" xml:id="pNt_20741" ref="#person_20383"><surname>Steinrück</surname></rs>, <rs type="person" xml:id="pNt_20742" ref="#person_21545"><surname>Ziegel</surname></rs>, <rs type="person" xml:id="pNt_20743" ref="#person_21546"><forename>Mirj.</forename></rs></p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

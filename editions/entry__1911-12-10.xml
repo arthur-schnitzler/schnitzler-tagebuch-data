@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-12-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-12-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-12-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-12-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-12-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-12-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0090-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3288.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1911-12-10">
-            <p xml:space="preserve"><date when="1911-12-10">10/12</date> S. Spazieren <rs type="place" xml:id="pl_07716" ref="#place_9c457f4107132ccb2d87ebf5e13f0b74">Schafberg</rs>, <rs type="place" xml:id="pl_07717" ref="#place_a513bae177c89d12226f343ac5ff1ee3">Salmannsdorf</rs>. Auf dem Rückweg über 
+            <p xml:space="preserve"><date when="1911-12-10">10/12</date> S. Spazieren <rs type="place" xml:id="pl_07716" ref="#pmb59367">Schafberg</rs>, <rs type="place" xml:id="pl_07717" ref="#pmb91641">Salmannsdorf</rs>. Auf dem Rückweg über 
 die Felder kamen mir <rs type="person" xml:id="pNt_36835" ref="#person_19822"><forename>Heini</forename></rs> mit <rs type="person" xml:id="pNt_36836" ref="#person_13355"><roleName>Frau</roleName> <surname>Bachrach</surname></rs> („<rs type="person" xml:id="pNt_36837" ref="#person_13355"><forename>Ama</forename></rs>“) entgegen.</p>
             <p xml:space="preserve" rend="indent">― Zum Thee <rs type="person" xml:id="pNt_36838" ref="#person_19943"><forename>Wolfgang</forename> <surname>Schumann</surname></rs>, unbefangener und daher 
 angenehmer als neulich. Ich hoffe ihn doch richtig erkannt zu haben. <rs type="person" xml:id="pNt_36839" ref="#person_13304"><forename>Irene</forename></rs> 
@@ -190,6 +194,5 @@ angenehmer als neulich. Ich hoffe ihn doch richtig erkannt zu haben. <rs type="p
 Klavier spielte („<rs type="work" xml:id="bibl_11365">Brüderlein fein</rs>“ von <rs type="person" xml:id="pNt_36843" ref="#person_14881"><surname>Fall</surname></rs>).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-07-31.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-07-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-08-01.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-07-31.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-07-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-08-01.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0B72-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4893.tif"/>
@@ -182,15 +186,14 @@
       <body>
          <div type="diary-day" xml:id="entry__1919-07-31">
             <p xml:space="preserve"><date when="1919-07-31">31/7</date> Mit <rs type="person" xml:id="pNt_56610" ref="#person_19822"><forename>Heini</forename></rs> touristische Besorgungen bei der <rs type="institution" xml:id="pNt_56611"><forename>Mizi</forename> <surname>Langer</surname></rs>.― Dann 
-<rs type="place" xml:id="pl_11788" ref="#place_4a9bec2a85821f866ea37564ad4654eb">Esterhazypark</rs>, <rs type="place" xml:id="pl_11789" ref="#place_df9ada664d64da152a9ee6d9913e9019">Kaisergarten</rs>, Salon der (mit Recht) Zurückgewiesenen. 
+<rs type="place" xml:id="pl_11788" ref="#pmb92231">Esterhazypark</rs>, <rs type="place" xml:id="pl_11789" ref="#pmb92319">Kaisergarten</rs>, Salon der (mit Recht) Zurückgewiesenen. 
 (Nichts revolutionäres, ganz das Gegentheil.)</p>
             <p xml:space="preserve" rend="indent">Nm. vertrendelt und verdöselt.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_56612" ref="#person_13305"><surname>Auernheimer</surname></rs> kam, mit ihm spazieren Windmühlhöhe. (<rs type="place" xml:id="pl_11790" ref="#place_f2c4f97beac703addb6ad791dafc9e09" ana="#exclude">Ungar.</rs> Zustände;― 
-er erwartet Schwiegermutter und Schwägerin aus <rs type="place" xml:id="pl_11791" ref="#place_9fed5dae86e3030d9be3740efa198659">Budapest</rs>, die seit 
+er erwartet Schwiegermutter und Schwägerin aus <rs type="place" xml:id="pl_11791" ref="#pmb43471">Budapest</rs>, die seit 
 Monaten zu flüchten versuchen.― Finanzielles.― Unternehmerallüren 
 und -machenschaften.― Das Problem der äußern <rs type="person" xml:id="pNt_56613" ref="#person_19542"><forename>F.</forename> <surname>S.</surname></rs>schen Existenz.)</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

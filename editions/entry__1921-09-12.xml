@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1921-09-12.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-09-11.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-09-13.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1921-09-12.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-09-11.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-09-13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0E78-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5524.tif"/>
@@ -181,13 +185,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1921-09-12">
-            <p xml:space="preserve"><date when="1921-09-12">12/9</date> ― Brief von <rs type="person" xml:id="pNt_63661" ref="#person_19832"><forename>O.</forename></rs> aus <rs type="place" xml:id="pl_13357" ref="#place_ee73439f8e5bd57e3d0375ed174b4c76">Gastein</rs> an <rs type="person" xml:id="pNt_63662" ref="#person_14130"><forename>Lili</forename></rs>; sie schreibt u. a. von <rs type="place" xml:id="pl_13358" ref="#place_d06a4c9ac44f4e202427917bb2fc3ac0" ana="#exclude">ital.</rs> Bildern 
+            <p xml:space="preserve"><date when="1921-09-12">12/9</date> ― Brief von <rs type="person" xml:id="pNt_63661" ref="#person_19832"><forename>O.</forename></rs> aus <rs type="place" xml:id="pl_13357" ref="#pmb521">Gastein</rs> an <rs type="person" xml:id="pNt_63662" ref="#person_14130"><forename>Lili</forename></rs>; sie schreibt u. a. von <rs type="place" xml:id="pl_13358" ref="#place_d06a4c9ac44f4e202427917bb2fc3ac0" ana="#exclude">ital.</rs> Bildern 
 in ihrem Zimmer „Dort überall war ich mit dem Vater“ … Und wieder ist 
 alles in mir zu Thränen aufgerührt.</p>
-            <p xml:space="preserve" rend="indent">Besorgungen.― Bei der <rs type="allusively" xml:id="rst_01838">Hofrätin</rs>. (Über <rs type="place" xml:id="pl_13359" ref="#place_601df943a89d2ac73e0e43a5d37fc228">Westungarn</rs>. Monarchistische 
+            <p xml:space="preserve" rend="indent">Besorgungen.― Bei der <rs type="allusively" xml:id="rst_01838">Hofrätin</rs>. (Über <rs type="place" xml:id="pl_13359" ref="#pmb35512">Westungarn</rs>. Monarchistische 
 Versuche.) ―</p>
             <p xml:space="preserve" rend="indent">Nach Tisch <rs type="person" xml:id="pNt_63663" ref="#person_19227"><forename>Gerty</forename> <surname>Rheinhardt</surname></rs>.</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_63664" ref="#person_19874"><surname>Schott</surname></rs>, erzählt von Gastspielen und <rs type="place" ref="#place_burgtheater">Burgtheater</rs>; lächerlichen 
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_63664" ref="#person_19874"><surname>Schott</surname></rs>, erzählt von Gastspielen und <rs type="place" ref="#pmb14">Burgtheater</rs>; lächerlichen 
 Gageverhältnissen.</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_63665" ref="#person_19822"><forename>Heini</forename></rs> Vth. beim <rs type="work" subtype="self" xml:id="bibl_3500">Kakadu</rs> (<rs type="person" xml:id="pNt_63666" ref="#person_18209"><surname>Moissi</surname></rs>, den ich seit 1904 in der Rolle 
 nicht gesehn; er sehr gut; im ganzen eine Schandvorstellung) und <rs type="person" xml:id="pNt_63667" ref="#person_20772"><surname>Tolstoi</surname></rs> 
@@ -196,6 +200,5 @@ fort.</p>
             <p xml:space="preserve" rend="indent">― Mit <rs type="person" xml:id="pNt_63669" ref="#person_19822"><forename>Heini</forename></rs> Pilsenetzer gen.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1888-07-24.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1888-07-23.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1888-07-25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1888-07-24.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1888-07-23.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1888-07-25.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E081-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,15 +177,17 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0349.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1888-07-24">
-            <p xml:space="preserve"><date when="1888-07-24">24/7</date> Dinstag. <rs type="place" xml:id="pl_00701" ref="#place_d85b8267d2957c2e1dac4f93680f556b">Ventnor</rs> ― <rs type="place" xml:id="pl_00702" ref="#place_d76c42088faf18eec02a010e3a79ca5b">Freshwater</rs> ― Alumbay ― Carrisbrooke 
-(Castle ― <rs type="place" xml:id="pl_00703" ref="#place_32ce05e138b10ec1e22c4feae285d05f">Newport</rs>).</p>
+            <p xml:space="preserve"><date when="1888-07-24">24/7</date> Dinstag. <rs type="place" xml:id="pl_00701" ref="#pmb92005">Ventnor</rs> ― <rs type="place" xml:id="pl_00702" ref="#pmb90653">Freshwater</rs> ― Alumbay ― Carrisbrooke 
+(Castle ― <rs type="place" xml:id="pl_00703" ref="#pmb91348">Newport</rs>).</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

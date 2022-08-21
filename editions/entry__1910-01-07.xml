@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1910-01-07.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-01-06.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-01-08.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1910-01-07.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-01-06.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1910-01-08.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FDD2-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2824.tif"/>
@@ -181,13 +185,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1910-01-07">
-            <p xml:space="preserve"><date when="1910-01-07">7/1</date> Dictirt; dann mit O. <rs type="place" xml:id="pl_06910" ref="#place_86115aaa5bbe9bd3f5e0ddc811a5ec4e">Edelhofgasse</rs>, Wohnung im Haus <rs type="person" xml:id="pNt_31701" ref="#person_20098"><surname>Sikora</surname></rs> 
+            <p xml:space="preserve"><date when="1910-01-07">7/1</date> Dictirt; dann mit O. <rs type="place" xml:id="pl_06910" ref="#pmb92223">Edelhofgasse</rs>, Wohnung im Haus <rs type="person" xml:id="pNt_31701" ref="#person_20098"><surname>Sikora</surname></rs> 
 angesehn. Empfand es als traurig, daß O. mir zumuthen konnte, in 
 diese traurige Gasse zu ziehn. Später fühlte sie’s wohl selbst.</p>
             <p xml:space="preserve" rend="indent">Nm. an <rs type="work" subtype="self" xml:id="bibl_11445">Mutter u. Sohn</rs>.</p>
             <p xml:space="preserve" rend="indent">Abd. bei <rs type="allusively" xml:id="rst_01080">Mama</rs>; <rs type="person" xml:id="pNt_31702" ref="#person_19827"><forename>Julius</forename></rs> und <rs type="person" xml:id="pNt_31703" ref="#person_19823"><forename>Helene</forename></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

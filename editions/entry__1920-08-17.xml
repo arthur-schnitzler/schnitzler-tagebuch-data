@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1920-08-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-08-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-08-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1920-08-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-08-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1920-08-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0CF1-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5157.tif"/>
@@ -181,14 +185,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1920-08-17">
-            <p xml:space="preserve"><date when="1920-08-17">17/8</date> <rs type="person" xml:id="pNt_59551" ref="#person_18881"><forename>Kolap</forename></rs> gegen Mittag, aus <rs type="place" xml:id="pl_12465" ref="#place_c2ad928214981e457405589604924059">Ischl</rs> zurück; berichtet aus <rs type="place" xml:id="pl_12466" ref="#place_c2ad928214981e457405589604924059">Ischl</rs>, 
-<rs type="place" xml:id="pl_12467" ref="#place_2384804448a53e420c3707bdfb9fb295">Altaussee</rs>. Sie speist Mittag da, Nm. dictir ich <rs type="work" subtype="self" xml:id="bibl_4231">Weiher</rs> 3. Akt, soweit er 
+            <p xml:space="preserve"><date when="1920-08-17">17/8</date> <rs type="person" xml:id="pNt_59551" ref="#person_18881"><forename>Kolap</forename></rs> gegen Mittag, aus <rs type="place" xml:id="pl_12465" ref="#pmb213">Ischl</rs> zurück; berichtet aus <rs type="place" xml:id="pl_12466" ref="#pmb213">Ischl</rs>, 
+<rs type="place" xml:id="pl_12467" ref="#pmb90229">Altaussee</rs>. Sie speist Mittag da, Nm. dictir ich <rs type="work" subtype="self" xml:id="bibl_4231">Weiher</rs> 3. Akt, soweit er 
 gediehn.―</p>
-            <p xml:space="preserve" rend="indent">Abds. nach <rs type="place" xml:id="pl_12468" ref="#place_6fc6f10422bfe80ddcba23b4f7f080dc">Hietzing</rs> zu <rs type="person" xml:id="pNt_59552" ref="#person_18916"><surname>Popper</surname></rs>; dort eine <rs type="person" xml:id="pNt_59553" ref="#person_18580"><roleName>Frau</roleName> <surname>Ornstein</surname></rs>. Er hat einen 
+            <p xml:space="preserve" rend="indent">Abds. nach <rs type="place" xml:id="pl_12468" ref="#pmb63">Hietzing</rs> zu <rs type="person" xml:id="pNt_59552" ref="#person_18916"><surname>Popper</surname></rs>; dort eine <rs type="person" xml:id="pNt_59553" ref="#person_18580"><roleName>Frau</roleName> <surname>Ornstein</surname></rs>. Er hat einen 
 Filmantrag zur ― „<rs type="work" xml:id="bibl_4232">Nährpflicht</rs>“ bekommen; ich berichte allerlei 
 finanzielles und technisches aus diesen Betrieben und Lebensformen.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

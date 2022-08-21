@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1905-02-21.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-02-20.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-02-22.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1905-02-21.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-02-20.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1905-02-22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F702-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2046.tif"/>
@@ -180,7 +184,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1905-02-21">
-            <p xml:space="preserve"><date when="1905-02-21">21/2</date> Vm. <rs type="place" xml:id="pl_05066" ref="#place_6fc6f10422bfe80ddcba23b4f7f080dc">Hietzing</rs> bei Frau <rs type="person" xml:id="pNt_22500" ref="#person_16280"><forename>Nina</forename> <surname>Hoffmann-Matscheko</surname></rs> (die mir 
+            <p xml:space="preserve"><date when="1905-02-21">21/2</date> Vm. <rs type="place" xml:id="pl_05066" ref="#pmb63">Hietzing</rs> bei Frau <rs type="person" xml:id="pNt_22500" ref="#person_16280"><forename>Nina</forename> <surname>Hoffmann-Matscheko</surname></rs> (die mir 
 geschrieben hatte) Wittwe des Malers <rs type="person" xml:id="pNt_22501" ref="#person_16275"><forename>Josef</forename> <surname>Hoffmann</surname></rs>, Verfasserin des 
 <rs type="work" xml:id="bibl_15553">Buchs über <rs ref="#person_19831" type="person" xml:id="pNt_22502"><surname>Dostojewski</surname></rs></rs> ― Sie bat mich für einen Districtspflege- 
 Verein vorzulesen was ich vorläufig ablehnte. ― Über ihre 
@@ -191,6 +195,5 @@ Verein vorzulesen was ich vorläufig ablehnte. ― Über ihre
 um was zum dictiren herauszusuchen.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1907-10-01.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-09-30.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-10-02.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1907-10-01.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-09-30.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1907-10-02.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FAB9-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,14 +176,15 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2418.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1907-10-01">
-            <p xml:space="preserve"><date when="1907-10-01">1/10</date> Vm. mit O. und <rs type="person" xml:id="pNt_27369" ref="#person_19822"><forename>Heini</forename></rs> <rs type="place" xml:id="pl_06125" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs>, <rs type="place" xml:id="pl_06126" ref="#place_c79ad839f84019f53250a4e6365359f9">Neuwaldegg</rs>.</p>
+            <p xml:space="preserve"><date when="1907-10-01">1/10</date> Vm. mit O. und <rs type="person" xml:id="pNt_27369" ref="#person_19822"><forename>Heini</forename></rs> <rs type="place" xml:id="pl_06125" ref="#pmb169">Pötzleinsdorf</rs>, <rs type="place" xml:id="pl_06126" ref="#pmb170">Neuwaldegg</rs>.</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="allusively" xml:id="rst_00869">Mama</rs> zu Tisch. Ein Trio von <rs type="person" xml:id="pNt_27370" ref="#person_19942"><surname>Schumann</surname></rs> mit ihr.―</p>
             <p xml:space="preserve" rend="indent">― Auswärtige Zeitungen constatiren alle den großen Erfolg des <rs type="work" subtype="self" xml:id="bibl_14463">Märchen</rs>; 
 sprechen von den „Ovationen“ und „Ehrungen“ für mich.― <rs type="person" xml:id="pNt_27371" ref="#person_14365"><surname>Davis</surname></rs> erschien, 
@@ -187,5 +192,6 @@ sehr empört über die Kritiker; die sich insbesondre gegen <rs type="person" xm
 läppisch leichtfertig benommen. Er überströmte.―</p>
             <p xml:space="preserve" rend="indent">Am <rs type="work" subtype="self" xml:id="bibl_14464">Roman</rs>; wieder in bessrer Stimmung.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

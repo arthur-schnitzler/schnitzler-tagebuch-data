@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1911-12-05.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-12-04.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-12-06.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1911-12-05.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-12-04.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1911-12-06.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-008B-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3285.tif"/>
@@ -185,14 +189,14 @@
             <p xml:space="preserve"><date when="1911-12-05">5/12</date> Dictirt Briefe. <rs type="work" subtype="self" xml:id="bibl_11349">Bernhardi</rs> 1. Akt zu Ende.</p>
             <p xml:space="preserve" rend="indent">Nm. mit O. im Park.―</p>
             <p xml:space="preserve" rend="indent">An der „<rs type="work" subtype="self" xml:id="bibl_11350">Beate</rs>“.―</p>
-            <p xml:space="preserve" rend="indent">Mit O. <rs type="place" ref="#place_volkstheater">Volkstheater</rs> „<rs type="work" xml:id="bibl_11351">König Dagobert</rs>“ von <rs type="person" xml:id="pNt_36806" ref="#person_19292"><surname>Rivoire</surname></rs>, Bearbeitung 
+            <p xml:space="preserve" rend="indent">Mit O. <rs type="place" ref="#pmb92202">Volkstheater</rs> „<rs type="work" xml:id="bibl_11351">König Dagobert</rs>“ von <rs type="person" xml:id="pNt_36806" ref="#person_19292"><surname>Rivoire</surname></rs>, Bearbeitung 
 von <rs type="person" xml:id="pNt_36807" ref="#person_19542"><surname>Salten</surname></rs>. Hübsch, zum Theil fein, die Verse von <rs type="person" xml:id="pNt_36808" ref="#person_19542"><surname>Salten</surname></rs> schlechter 
 <rs type="person" xml:id="pNt_36809" ref="#person_13808"><surname>Blumenthal</surname></rs>. Für mich insofern angenehm, als es genügte, wenn ich den 
 ersten Vers verstand: der zweite verstand sich von selbst. Er holte uns 
 ab, dann wir zusammen seine Frau, wir nachtmahlten bei uns. Mit der 
 Operettengesellschaft hat er völlig gebrochen. Komisch widerliche 
 Geschichten von <rs type="person" xml:id="pNt_36810" ref="#person_14881"><surname>Fall</surname></rs> und <rs type="person" xml:id="pNt_36811" ref="#person_17401"><surname>Lehár</surname></rs>.― Über den Christus-Snobismus in 
-<rs type="place" xml:id="pl_07713" ref="#place_3c2f8b8c8c43538b25a0327ae84c3f65">Deutschland</rs>, die Feigheit der Juden („ … Oi weh ― Christus!“), mit 
+<rs type="place" xml:id="pl_07713" ref="#pmb151">Deutschland</rs>, die Feigheit der Juden („ … Oi weh ― Christus!“), mit 
 Beziehung auf <rs type="work" xml:id="bibl_11352">Emanuel Quint</rs>. Was man öffentlich aussprechen kann, 
 was nicht. Wie die Dinge anders klingen, wenn der Widerhall sie 
 verstärkt, fälscht, die Antworten mithallen. Wer ins „Volk“ dringt, die 
@@ -200,6 +204,5 @@ verstärkt, fälscht, die Antworten mithallen. Wer ins „Volk“ dringt, die
 das „jüdische“, so weit es geht, unterschlagen.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1891-08-18.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-08-17.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-08-19.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1891-08-18.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-08-17.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-08-19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E448-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0554.tif"/>
@@ -182,8 +186,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1891-08-18">
-            <p xml:space="preserve"><date when="1891-08-18">18. 8.</date> In <rs type="place" xml:id="pl_01177" ref="#place_02031ed2507818d10a37c1a6bf0c9f9d">Mödling</rs> mit <rs type="person" xml:id="pNt_05518" ref="#person_15485"><forename>Mz.</forename></rs> Ins Gasthaus kamen <rs type="person" xml:id="pNt_05519" ref="#person_13187"><surname>Ander</surname></rs> und die <rs type="person" xml:id="pNt_05520" ref="#person_21186"><surname>Weiss</surname></rs>. 
-Mit <rs type="person" xml:id="pNt_05521" ref="#person_19542"><surname>Salten</surname></rs> soup., den ich mit Mühe nach <rs type="place" xml:id="pl_01178" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> brachte, er sprach 
+            <p xml:space="preserve"><date when="1891-08-18">18. 8.</date> In <rs type="place" xml:id="pl_01177" ref="#pmb968">Mödling</rs> mit <rs type="person" xml:id="pNt_05518" ref="#person_15485"><forename>Mz.</forename></rs> Ins Gasthaus kamen <rs type="person" xml:id="pNt_05519" ref="#person_13187"><surname>Ander</surname></rs> und die <rs type="person" xml:id="pNt_05520" ref="#person_21186"><surname>Weiss</surname></rs>. 
+Mit <rs type="person" xml:id="pNt_05521" ref="#person_19542"><surname>Salten</surname></rs> soup., den ich mit Mühe nach <rs type="place" xml:id="pl_01178" ref="#pmb50">Wien</rs> brachte, er sprach 
 davon, seine Gel., die ihm untreu zu sein schien, zu verwunden oder 
 zu tödten. Er schrieb nur einen Brief und fuhr mit mir herein.</p>
             <p xml:space="preserve" rend="indent">― <rs type="person" xml:id="pNt_05522" ref="#person_19685"><surname>Schik</surname></rs>, der kein Weib mehr besitzt, weil er sich nicht von einem 
@@ -195,6 +199,5 @@ gelähmt.― Meine Zeit ganz zersplittert. Vertretung meines <rs type="allusivel
 Abds. immer hinaus.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

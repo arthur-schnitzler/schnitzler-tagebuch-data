@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1928-04-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-04-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-04-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1928-04-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-04-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1928-04-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-17DF-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7073.tif"/>
@@ -181,14 +185,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1928-04-17">
-            <p xml:space="preserve"><date when="1928-04-17">17/4</date> Früh <rs type="place" xml:id="pl_17890" ref="#place_10d4ccda401656f711a5ee0bd5941d99">Katakolon</rs>; der größte Theil der Gesellschaft fährt 
-nach <rs type="place" xml:id="pl_17891" ref="#place_153e719fd62d36d426a21622035b7024">Olympia</rs>; ich mit <rs type="person" xml:id="pNt_83510" ref="#person_14129"><forename>Arnoldo</forename></rs> und <rs type="person" xml:id="pNt_83511" ref="#person_14130"><forename>Lili</forename></rs>, wie <rs type="person" xml:id="pNt_83512" ref="#person_17154"><surname>Krum’s</surname></rs> spazieren in 
+            <p xml:space="preserve"><date when="1928-04-17">17/4</date> Früh <rs type="place" xml:id="pl_17890" ref="#pmb91014">Katakolon</rs>; der größte Theil der Gesellschaft fährt 
+nach <rs type="place" xml:id="pl_17891" ref="#pmb91399">Olympia</rs>; ich mit <rs type="person" xml:id="pNt_83510" ref="#person_14129"><forename>Arnoldo</forename></rs> und <rs type="person" xml:id="pNt_83511" ref="#person_14130"><forename>Lili</forename></rs>, wie <rs type="person" xml:id="pNt_83512" ref="#person_17154"><surname>Krum’s</surname></rs> spazieren in 
 dem armseligen Hafenort umher; lunchen an Bord.―</p>
             <p xml:space="preserve" rend="indent">Nm. schreib ich (ohne Elan) an <rs type="person" xml:id="pNt_83513" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs></p>
             <p xml:space="preserve" rend="indent">Abends Gespräch mit <rs type="person" xml:id="pNt_83514" ref="#person_15804"><roleName>Dr.</roleName> <surname>Haack</surname></rs> über seine evangelischen erzieherischen 
 Bethätigungen;― Curse u. dgl.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

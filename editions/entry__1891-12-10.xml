@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1891-12-10.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-12-09.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-12-11.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1891-12-10.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-12-09.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1891-12-11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E4BA-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,12 +177,13 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0572.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1891-12-10">
             <p xml:space="preserve"><date when="1891-12-10">10. 12.</date> <rs type="allusively" xml:id="rst_00131">Papa</rs>: <rs type="person" xml:id="pNt_05776" ref="#person_19827"><forename>Jul.</forename></rs> sagt, du seist befremdet, daß ich über dein <rs type="work" subtype="self" xml:id="bibl_23197">Stück</rs> 
 noch nicht gesprochen.― Nun, erstens bist du zu aufgeregt und dann 
@@ -188,5 +193,6 @@ Sprache.― Die Leute sprechen nicht wienerisch, sondern
 ungrammatikalisch.― „Einzelne sehr hübsche Stellen.―“</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_05777" ref="#person_15485"><forename>Mz.</forename></rs> Nm.― Abds. Soirée <rs type="person" xml:id="pNt_05778" ref="#person_19372"><surname>Rosenberg</surname></rs>.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

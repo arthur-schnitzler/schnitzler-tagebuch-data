@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1915-02-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1915-02-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1915-02-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0518-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3987.tif"/>
@@ -181,7 +185,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1915-02-14">
-            <p xml:space="preserve"><date when="1915-02-14">14/2</date> S.― Spazierg. <rs type="place" xml:id="pl_09211" ref="#place_5c76163a4535a69a05551159f795dfcc">Wilhelminenberg</rs> <rs type="place" xml:id="pl_09212" ref="#place_318e051b87a18bd62b48dc49a3318206">Hütteldorf</rs> (abgesperrter Weg „wer 
+            <p xml:space="preserve"><date when="1915-02-14">14/2</date> S.― Spazierg. <rs type="place" xml:id="pl_09211" ref="#pmb92081">Wilhelminenberg</rs> <rs type="place" xml:id="pl_09212" ref="#pmb90913">Hütteldorf</rs> (abgesperrter Weg „wer 
 ihn betritt wird als Spion verhaftet“, aus dem ich plötzlich herauskam).―</p>
             <pb n="174"/>
             <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header">
@@ -192,13 +196,12 @@ ihn betritt wird als Spion verhaftet“, aus dem ich plötzlich herauskam).―</
             </tei:fw>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_7921">Wahnsinn</rs>; auch mit <rs type="work" subtype="self" xml:id="bibl_7922">Fliederbusch</rs> beschäftigt (der Titel 
 „<rs type="work" subtype="self" xml:id="bibl_7923">Zwei Schatten</rs>“ fiel mir ein).</p>
-            <p xml:space="preserve" rend="indent">― O. sang in der <rs type="place" xml:id="pl_09213" ref="#place_70b50d6b0c80f1e664545cfa6a7dbbfe">Stöbergasse</rs>, von <rs type="person" xml:id="pNt_44949" ref="#person_15750"><surname>Gund</surname></rs> begleitet 
+            <p xml:space="preserve" rend="indent">― O. sang in der <rs type="place" xml:id="pl_09213" ref="#pmb92552">Stöbergasse</rs>, von <rs type="person" xml:id="pNt_44949" ref="#person_15750"><surname>Gund</surname></rs> begleitet 
 (Volksbildungsheim) sehr gut im ganzen (<rs type="person" xml:id="pNt_44950" ref="#person_18915"><roleName>Frl.</roleName> <surname>Popper</surname></rs> spielte Klavier) auch 
 Kammersänger <rs type="person" xml:id="pNt_44951" ref="#person_20372"><surname>Steiner</surname></rs>, der <rs type="person" xml:id="pNt_44952" ref="#person_19902"><surname>Schubert</surname></rs> hörte, war zufrieden. <rs type="person" xml:id="pNt_44953" ref="#person_13355"><surname>Bachrachs</surname></rs>, <rs type="person" xml:id="pNt_44954" ref="#person_19755"><surname>Schmidls</surname></rs>, 
 <rs type="person" xml:id="pNt_44955" ref="#person_20075"><surname>Sgals</surname></rs>, <rs type="person" xml:id="pNt_44956" ref="#person_21602"><forename>Vicki</forename></rs> u. a. waren dort.― <rs type="person" xml:id="pNt_44957" ref="#person_16852"><forename>Hansi</forename></rs> nahmen wir zum Nachtmahl mit.― 
 O. war unzufrieden mit sich und erklärte sich für„hoffnungslos“.―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

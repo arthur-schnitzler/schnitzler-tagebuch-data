@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1926-05-17.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-05-16.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-05-18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1926-05-17.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-05-16.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1926-05-18.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1523-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6664.tif"/>
@@ -182,7 +186,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1926-05-17">
-            <p xml:space="preserve"><date when="1926-05-17">17/5</date> <rs type="place" xml:id="pl_16663" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>. Vm. Bank. <rs type="person" xml:id="pNt_77839" ref="#person_14912"><roleName>Dir.</roleName> <surname>Feilchenfeld</surname></rs>. Meine Finanzen etwas günstiger als ich dachte.</p>
+            <p xml:space="preserve"><date when="1926-05-17">17/5</date> <rs type="place" xml:id="pl_16663" ref="#pmb168">Berlin</rs>. Vm. Bank. <rs type="person" xml:id="pNt_77839" ref="#person_14912"><roleName>Dir.</roleName> <surname>Feilchenfeld</surname></rs>. Meine Finanzen etwas günstiger als ich dachte.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_77840" ref="#person_19832"><forename>O.</forename></rs> <rs type="person" xml:id="pNt_77841" ref="#person_19822"><forename>Heini</forename></rs> <rs type="person" xml:id="pNt_77842" ref="#person_14130"><forename>Lili</forename></rs> zu mir ins Hotel. Las und erläuterte das <rs type="work" subtype="self" xml:id="bibl_20198">Diagramm</rs>, von dem 
 sie alle sehr angethan sind.</p>
             <p xml:space="preserve" rend="indent">Mit ihnen im Hotel gegessen.</p>
@@ -193,6 +197,5 @@ sie alle sehr angethan sind.</p>
 findet, das Verhältnis verbürgerliche sich zu sehr.) ―</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

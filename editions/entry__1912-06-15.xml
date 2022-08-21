@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1912-06-15.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-06-14.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-06-16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1912-06-15.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-06-14.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1912-06-16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-014C-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3421.tif"/>
@@ -183,23 +187,23 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1912-06-15">
-            <p xml:space="preserve"><date when="1912-06-15">15/6</date> <rs type="place" xml:id="pl_07901" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.― Tennis.―</p>
+            <p xml:space="preserve"><date when="1912-06-15">15/6</date> <rs type="place" xml:id="pl_07901" ref="#pmb50">Wien</rs>.― Tennis.―</p>
             <p xml:space="preserve" rend="indent">Nm. gelesen, getrendelt und geduselt.―</p>
             <p xml:space="preserve" rend="indent">Zusammenstellung, was die „deutschen Theater“ zur „Feier“ 
 meines 50. nach Antrag des <rs type="place" xml:id="pl_07902" ref="#place_c5ec7227e68b921a63348b101c573914" ana="#exclude">deutschen</rs> Bühnenvereins geleistet:</p>
-            <p xml:space="preserve" rend="indent">Neueinstudirungen: <rs type="place" xml:id="pl_07903" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> (Volksbühne) ― <rs type="work" subtype="self" xml:id="bibl_10300">Liebelei</rs> und <rs type="work" subtype="self" xml:id="bibl_10301">Literatur</rs> ― 
-<rs type="place" xml:id="pl_07904" ref="#place_4d3e0acd6166e7434bc37196cd875740">Karlsruhe</rs>: <rs type="work" subtype="self" xml:id="bibl_10302">Liebelei</rs> und <rs type="work" subtype="self" xml:id="bibl_10303">Paracelsus</rs>.― <rs type="place" xml:id="pl_07905" ref="#place_f213e3074e0c95c49458e3e8cc8335df">Braunschweig</rs> und <rs type="place" xml:id="pl_07906" ref="#place_ca7668a05b2a3dbf29ca3d768c0febe8">Graz</rs>: <rs type="work" subtype="self" xml:id="bibl_10304">Anatol</rs> 
-― <rs type="place" xml:id="pl_07907" ref="#place_bd2b145b873049a539012fea08bfa71a">Mannheim</rs>, <rs type="place" xml:id="pl_07908" ref="#place_a330ac6c48198545d4d2f9ff2cb0fc05">Stuttgart</rs>, <rs type="place" xml:id="pl_07909" ref="#place_103a821a3a6a0b923c9f74a39662bb51">Zürich</rs>: <rs type="work" subtype="self" xml:id="bibl_10305">Weites Land</rs>. <rs type="place" xml:id="pl_07910" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs> (<rs type="place" xml:id="pl_07911" ref="#place_d65db48a692d238e75f8461363bc97fa">Charlottenburg</rs>) 
-― und <rs type="place" xml:id="pl_07912" ref="#place_4954c53c759af8001d314f00bf3577f3">Freiburg</rs>: <rs type="work" subtype="self" xml:id="bibl_10306">Parac.</rs>, <rs type="work" subtype="self" xml:id="bibl_10307">Gef.</rs> und <rs type="work" subtype="self" xml:id="bibl_10308">Kakadu</rs>;― <rs type="place" xml:id="pl_07913" ref="#place_d5460b665e26333bdf699f77a2e3cf17">Frankfurt a. M.</rs> <rs type="work" subtype="self" xml:id="bibl_10309">Masken</rs>, 
-<rs type="work" subtype="self" xml:id="bibl_10310">Literatur</rs>, <rs type="work" subtype="self" xml:id="bibl_10311">Kakadu</rs> ― <rs type="place" xml:id="pl_07914" ref="#place_c12b8d9779a8ad2b240a57b31c979290">Prag</rs>: <rs type="work" subtype="self" xml:id="bibl_10312">Märchen</rs> (mit Cyclus!) also 13 Abende.―</p>
+            <p xml:space="preserve" rend="indent">Neueinstudirungen: <rs type="place" xml:id="pl_07903" ref="#pmb168">Berlin</rs> (Volksbühne) ― <rs type="work" subtype="self" xml:id="bibl_10300">Liebelei</rs> und <rs type="work" subtype="self" xml:id="bibl_10301">Literatur</rs> ― 
+<rs type="place" xml:id="pl_07904" ref="#pmb871">Karlsruhe</rs>: <rs type="work" subtype="self" xml:id="bibl_10302">Liebelei</rs> und <rs type="work" subtype="self" xml:id="bibl_10303">Paracelsus</rs>.― <rs type="place" xml:id="pl_07905" ref="#pmb35572">Braunschweig</rs> und <rs type="place" xml:id="pl_07906" ref="#pmb90759">Graz</rs>: <rs type="work" subtype="self" xml:id="bibl_10304">Anatol</rs> 
+― <rs type="place" xml:id="pl_07907" ref="#pmb881">Mannheim</rs>, <rs type="place" xml:id="pl_07908" ref="#pmb872">Stuttgart</rs>, <rs type="place" xml:id="pl_07909" ref="#pmb484">Zürich</rs>: <rs type="work" subtype="self" xml:id="bibl_10305">Weites Land</rs>. <rs type="place" xml:id="pl_07910" ref="#pmb168">Berlin</rs> (<rs type="place" xml:id="pl_07911" ref="#pmb90466">Charlottenburg</rs>) 
+― und <rs type="place" xml:id="pl_07912" ref="#pmb631">Freiburg</rs>: <rs type="work" subtype="self" xml:id="bibl_10306">Parac.</rs>, <rs type="work" subtype="self" xml:id="bibl_10307">Gef.</rs> und <rs type="work" subtype="self" xml:id="bibl_10308">Kakadu</rs>;― <rs type="place" xml:id="pl_07913" ref="#pmb146">Frankfurt a. M.</rs> <rs type="work" subtype="self" xml:id="bibl_10309">Masken</rs>, 
+<rs type="work" subtype="self" xml:id="bibl_10310">Literatur</rs>, <rs type="work" subtype="self" xml:id="bibl_10311">Kakadu</rs> ― <rs type="place" xml:id="pl_07914" ref="#pmb91524">Prag</rs>: <rs type="work" subtype="self" xml:id="bibl_10312">Märchen</rs> (mit Cyclus!) also 13 Abende.―</p>
             <p xml:space="preserve" rend="indent">Aufführungen von Stücken, die ohnedies auf dem Repertoire waren: 
-<rs type="place" xml:id="pl_07915" ref="#place_9cde0327a11987aa4c5f19095eeb0a28">Arnstadt</rs> (10), <rs type="place" xml:id="pl_07916" ref="#place_5f22adea9df0d30bf784d08b57acc88e">Düsseldorf</rs>, <rs type="place" xml:id="pl_07917" ref="#place_d5460b665e26333bdf699f77a2e3cf17">Frankfurt</rs>, <rs type="place" xml:id="pl_07918" ref="#place_d0a6343a081a7335baa965ce4fd0845c">München</rs>: <rs type="work" subtype="self" xml:id="bibl_10313">Anatol</rs>;―</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_07919" ref="#place_19ed5f8ceab486afbee6b3ba5c88884d">Dresden</rs>, <rs type="place" xml:id="pl_07920" ref="#place_f672a0e9dc1e9724a7fbbf1f9f8520c3">Königsberg</rs>, <rs type="place" xml:id="pl_07921" ref="#place_d1be5c800653e4addaca193b664e9c0f">Posen</rs>: <rs type="work" subtype="self" xml:id="bibl_10314">Liebelei</rs> ―</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_07922" ref="#place_7337cb74b4fba0cc030830008c91dd57">Altona</rs>. <rs type="work" subtype="self" xml:id="bibl_10315">Liebelei</rs> mit <rs type="work" subtype="self" xml:id="bibl_10316">Literatur</rs> ―</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_07923" ref="#place_d72261a58f8777c2da6598d43adbbf2b">Halle</rs>. <rs type="work" subtype="self" xml:id="bibl_10317">Liebelei</rs> mit <rs type="work" subtype="self" xml:id="bibl_10318">Abschs.</rs> ―</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_07924" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>. <rs type="work" subtype="self" xml:id="bibl_10319">Liebelei</rs> und <rs type="work" subtype="self" xml:id="bibl_10320">Kakadu</rs> ―</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_07925" ref="#place_60960432acfa4972c8f13dd89a872920">Breslau</rs>. <rs type="work" subtype="self" xml:id="bibl_10321">Masken</rs>, <rs type="work" subtype="self" xml:id="bibl_10322">Liter.</rs>, <rs type="work" subtype="self" xml:id="bibl_10323">Absch.</rs> ―</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_07926" ref="#place_e33aa4ba5c56cc07714ea6d6520cf548">Brünn</rs>. <rs type="work" subtype="self" xml:id="bibl_10324">Puppensp.</rs>, <rs type="work" subtype="self" xml:id="bibl_10325">Lit.</rs>, <rs type="work" subtype="self" xml:id="bibl_10326">Kakadu</rs> ―</p>
+<rs type="place" xml:id="pl_07915" ref="#pmb90262">Arnstadt</rs> (10), <rs type="place" xml:id="pl_07916" ref="#pmb863">Düsseldorf</rs>, <rs type="place" xml:id="pl_07917" ref="#pmb146">Frankfurt</rs>, <rs type="place" xml:id="pl_07918" ref="#pmb45258">München</rs>: <rs type="work" subtype="self" xml:id="bibl_10313">Anatol</rs>;―</p>
+            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_07919" ref="#pmb90550">Dresden</rs>, <rs type="place" xml:id="pl_07920" ref="#pmb42605">Königsberg</rs>, <rs type="place" xml:id="pl_07921" ref="#pmb44282">Posen</rs>: <rs type="work" subtype="self" xml:id="bibl_10314">Liebelei</rs> ―</p>
+            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_07922" ref="#pmb1259">Altona</rs>. <rs type="work" subtype="self" xml:id="bibl_10315">Liebelei</rs> mit <rs type="work" subtype="self" xml:id="bibl_10316">Literatur</rs> ―</p>
+            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_07923" ref="#pmb140">Halle</rs>. <rs type="work" subtype="self" xml:id="bibl_10317">Liebelei</rs> mit <rs type="work" subtype="self" xml:id="bibl_10318">Abschs.</rs> ―</p>
+            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_07924" ref="#pmb50">Wien</rs>. <rs type="work" subtype="self" xml:id="bibl_10319">Liebelei</rs> und <rs type="work" subtype="self" xml:id="bibl_10320">Kakadu</rs> ―</p>
+            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_07925" ref="#pmb90392">Breslau</rs>. <rs type="work" subtype="self" xml:id="bibl_10321">Masken</rs>, <rs type="work" subtype="self" xml:id="bibl_10322">Liter.</rs>, <rs type="work" subtype="self" xml:id="bibl_10323">Absch.</rs> ―</p>
+            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_07926" ref="#pmb833">Brünn</rs>. <rs type="work" subtype="self" xml:id="bibl_10324">Puppensp.</rs>, <rs type="work" subtype="self" xml:id="bibl_10325">Lit.</rs>, <rs type="work" subtype="self" xml:id="bibl_10326">Kakadu</rs> ―</p>
             <pb n="336"/>
             <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header">
                <fw n="336" place="top_left" type="pageNum">336</fw>
@@ -207,13 +211,12 @@ meines 50. nach Antrag des <rs type="place" xml:id="pl_07902" ref="#place_c5ec72
                   <date type="range">1912: VI 15 ― VI 19</date>
                </fw>
             </tei:fw>
-            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_07927" ref="#place_35d7df6ed3d93be2927d14acc5f1fc9a">Hamburg</rs>, <rs type="place" xml:id="pl_07928" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>, <rs type="place" xml:id="pl_07929" ref="#place_d0a6343a081a7335baa965ce4fd0845c">München</rs>. <rs type="work" subtype="self" xml:id="bibl_10327">Das weite Land</rs>.</p>
+            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_07927" ref="#pmb506">Hamburg</rs>, <rs type="place" xml:id="pl_07928" ref="#pmb50">Wien</rs>, <rs type="place" xml:id="pl_07929" ref="#pmb45258">München</rs>. <rs type="work" subtype="self" xml:id="bibl_10327">Das weite Land</rs>.</p>
             <p xml:space="preserve" rend="indent">Also ― auf einige 100 Bühnen: Ein Cyclus; zehn Adhoc Neustudirungen 
 ― davon mindestens 6 schon ohnedies acceptirte Stücke ― und 15 
 normale Aufführungen von Stücken, die eben am 15. statt am 5. oder 
 20. oder sonstwann gegeben wurden.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

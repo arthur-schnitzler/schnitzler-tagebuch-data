@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1908-11-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-11-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-11-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1908-11-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-11-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1908-11-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FC2F-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,13 +176,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2579.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2580.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1908-11-14">
             <p xml:space="preserve"><date when="1908-11-14">14/11</date> ― Las Vm. im Kfh. Kritiken über <rs ref="#person_19326" type="person" xml:id="pNt_29130"><surname>Rößlers</surname></rs> „<rs type="work" xml:id="bibl_13765">Reichen Jüngling</rs>“ und 
 fand dass nur <rs type="person" xml:id="pNt_29131" ref="#person_16228"><forename>Robert</forename> <surname>Hirschfeld</surname></rs> in seinen religiösen Empfindungen verletzt 
@@ -196,10 +201,11 @@ dacht ich: wie ungerecht ist der Ruhm. Dass auch von diesem Menschen nichts
 übrig bleiben wird als das was er geschrieben hat ― und darin ist (in den 
 besten Stellen) eben ein Hauch von ihm, nicht mehr ― und wohl auch nur 
 für die, die ihn kennen und verstehn.― ― Sprachen dann auch über die 
-Unterschätzung <rs type="place" xml:id="pl_06503" ref="#place_b472f5868425ac2bc44e693fc3267e87">Oesterreichs</rs> im Reich.―</p>
+Unterschätzung <rs type="place" xml:id="pl_06503" ref="#pmb41240">Oesterreichs</rs> im Reich.―</p>
             <p xml:space="preserve" rend="indent">Mit O. Generalprobe <rs type="work" xml:id="bibl_13766">Missa solemnis</rs>. Trotz der schönen Aufführung 
 Mißbehagen über den übeln Dampf der gläubig-kriecherisch-einfältigen 
 Worte.</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

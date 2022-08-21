@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1921-04-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-04-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-04-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1921-04-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-04-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1921-04-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0DE3-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5378.tif"/>
@@ -182,11 +186,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1921-04-16">
-            <p xml:space="preserve"><date when="1921-04-16">16/4</date> Im Gymnasium <rs type="place" xml:id="pl_12914" ref="#place_6b7ed5712369e1964071c5d9966da1ec">Klosterg.</rs>; mit dem Direktor über Termin <rs type="person" xml:id="pNt_62057" ref="#person_14130"><forename>Lili</forename></rs>.―</p>
+            <p xml:space="preserve"><date when="1921-04-16">16/4</date> Im Gymnasium <rs type="place" xml:id="pl_12914" ref="#pmb92338">Klosterg.</rs>; mit dem Direktor über Termin <rs type="person" xml:id="pNt_62057" ref="#person_14130"><forename>Lili</forename></rs>.―</p>
             <p xml:space="preserve" rend="indent">Bei Frau <rs type="person" xml:id="pNt_62058" ref="#person_19783"><roleName>Prof.</roleName> <surname>Schmutzer</surname></rs>, Schulfragen.― Den Zeichenlehrer <rs type="person" xml:id="pNt_62059" ref="#person_18751"><surname>Philipp</surname></rs> um 
 Dispensirung für <rs type="person" xml:id="pNt_62060" ref="#person_14130"><forename>Lili</forename></rs> ersucht.</p>
-            <p xml:space="preserve" rend="indent">Zu Tisch bei <rs type="person" xml:id="pNt_62061" ref="#person_20796"><surname>Trebitsch’s</surname></rs> in <rs type="place" xml:id="pl_12915" ref="#place_6fc6f10422bfe80ddcba23b4f7f080dc">Hietzing</rs>; mit der <rs type="person" xml:id="pNt_62062" ref="#person_14567"><surname>Durieux</surname></rs>. Ich erzählte von 
-den <rs type="place" xml:id="pl_12916" ref="#place_84de3a89c71f49c7e2536891c03f849c" ana="#exclude">Russen</rs>;― warum es nicht in <rs type="place" xml:id="pl_12917" ref="#place_3c2f8b8c8c43538b25a0327ae84c3f65">Deutschland</rs> und <rs type="place" xml:id="pl_12918" ref="#place_b472f5868425ac2bc44e693fc3267e87">Oesterreich</rs> möglich. 
+            <p xml:space="preserve" rend="indent">Zu Tisch bei <rs type="person" xml:id="pNt_62061" ref="#person_20796"><surname>Trebitsch’s</surname></rs> in <rs type="place" xml:id="pl_12915" ref="#pmb63">Hietzing</rs>; mit der <rs type="person" xml:id="pNt_62062" ref="#person_14567"><surname>Durieux</surname></rs>. Ich erzählte von 
+den <rs type="place" xml:id="pl_12916" ref="#place_84de3a89c71f49c7e2536891c03f849c" ana="#exclude">Russen</rs>;― warum es nicht in <rs type="place" xml:id="pl_12917" ref="#pmb151">Deutschland</rs> und <rs type="place" xml:id="pl_12918" ref="#pmb41240">Oesterreich</rs> möglich. 
 Ethisches, menschliches.― (<rs type="person" xml:id="pNt_62063" ref="#person_14567"><surname>Durieux</surname></rs> gastirt eben hier.) ― Sie erzählt mir, 
 dass <rs type="person" xml:id="pNt_62064" ref="#person_20383"><forename>Albert</forename> <surname>Steinrück</surname></rs> mit einem jungen Mädchen verlobt.― Anlässlich 
 unsres <rs type="work" subtype="self" xml:id="bibl_3267">Reigen</rs> Briefwechsels über die <rs type="place" xml:id="pl_12919" ref="#place_be7f11f190986254826063420695db61" ana="#exclude">Berliner</rs> Aufführung (soll schlecht 
@@ -194,6 +198,5 @@ sein).―</p>
             <p xml:space="preserve" rend="indent">Nm. am „<rs type="work" subtype="self" xml:id="bibl_3268">Weiher</rs>“; mühevoll 2 Verse.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

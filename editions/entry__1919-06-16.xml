@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1919-06-16.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-06-15.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-06-17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1919-06-16.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-06-15.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1919-06-17.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0B46-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,13 +177,14 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4862.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4863.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1919-06-16">
             <p xml:space="preserve"><date when="1919-06-16">16/6</date> Träume: Wieder einer von O., mit Zärtlichkeit. Dann: Besuche bei 
 uns nach zehn ― irgend welche offenbar obligate Handwerksleute, in 
@@ -188,7 +193,7 @@ gekleidet in eine Art Bürstenüberzug, igelhaft (Mann oder Frau, das
 ganze irgendwie lächerlich). Dann auf einem breiten Rundgang, mit 
 Balustrade, etwa (phantastisch) die Gloriette, viele Leute;― ich höre 
 schießen,― dann schreien,― dann Applaudiren; nun zur Brüstung, sehe, 
-durch eine breite Allee des <rs type="place" xml:id="pl_11706" ref="#place_c2e186fca4448a726e594d611bfb4494">Schönbrunnerparks</rs>, eben um den großen 
+durch eine breite Allee des <rs type="place" xml:id="pl_11706" ref="#pmb92519">Schönbrunnerparks</rs>, eben um den großen 
 Teich biegend, ein ungeheures (Panzer-) Automobil ― besetzt mit Truppen, 
 schön angethan ― grau, rothe Aufschläge, in Rieseneile, ringsum 
 schießend; offenbar vom Terror befreiend. Ich sehe daß auch auf 
@@ -211,5 +216,6 @@ seine <rs type="work" xml:id="bibl_4869">Gedichte</rs> sagte. Dann wurde es fad;
 Glauben er sei geladen, nicht fortzubringen war bis ich ihm sagte, wir 
 seien nicht vorbereitet.―</p>
          </div>
-      </body></text>
+      </body>
+   </text>
 </TEI>

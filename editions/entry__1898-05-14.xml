@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1898-05-14.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-05-13.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-05-15.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1898-05-14.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-05-13.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1898-05-15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EDD2-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -173,7 +177,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1433.tif"/>
@@ -181,14 +185,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1898-05-14">
-            <p xml:space="preserve"><date when="1898-05-14">14/5</date> Von <rs type="work" subtype="self" xml:id="bibl_18698">Sterben</rs> ist eine czech. Übersetzung erschienen. Bic. <rs type="place" xml:id="pl_02861" ref="#place_86a694cf5ce5552ca627cb96b607eccd">Prater</rs> 
+            <p xml:space="preserve"><date when="1898-05-14">14/5</date> Von <rs type="work" subtype="self" xml:id="bibl_18698">Sterben</rs> ist eine czech. Übersetzung erschienen. Bic. <rs type="place" xml:id="pl_02861" ref="#pmb91530">Prater</rs> 
 Spitz.― Nm. <rs type="person" xml:id="pNt_15307" ref="#person_19150"><forename>Mz.</forename> <surname>Rh.</surname></rs> bei mir.― <rs type="person" xml:id="pNt_15308" ref="#person_20925"><forename>Leo</forename> <surname>Vanjung</surname></rs> holt mich ab; Tempel 
-<rs type="place" xml:id="pl_02862" ref="#place_04b70cbb41906bb3f9f6866e116d7fb9">Florianigasse</rs>; schäbig und klein; <rs type="person" xml:id="pNt_15309" ref="#person_13551"><forename>Rich.</forename></rs> und <rs type="person" xml:id="pNt_15310" ref="#person_13550"><forename>Paula</forename></rs> erscheinen; wir sind 
+<rs type="place" xml:id="pl_02862" ref="#pmb818">Florianigasse</rs>; schäbig und klein; <rs type="person" xml:id="pNt_15309" ref="#person_13551"><forename>Rich.</forename></rs> und <rs type="person" xml:id="pNt_15310" ref="#person_13550"><forename>Paula</forename></rs> erscheinen; wir sind 
 Trauzeugen; mein einstiger Religionslehrer <rs type="person" xml:id="pNt_15311" ref="#person_17659"><surname>Löwy</surname></rs> traut sie; ich segne 
 <rs type="person" xml:id="pNt_15312" ref="#person_13550"><forename>Paula</forename></rs>.― In der Pilsenetzer <rs type="person" xml:id="pNt_15313" ref="#person_14067"><roleName>Prof.</roleName> <surname>Burdach</surname></rs>; im Kfh. erschien <rs type="person" xml:id="pNt_15314" ref="#person_13551"><forename>Rich.</forename></rs>, <rs type="person" xml:id="pNt_15315" ref="#person_20925"><forename>Leo</forename></rs> 
 <rs type="person" xml:id="pNt_15316" ref="#person_19542"><surname>Salten</surname></rs>.</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>

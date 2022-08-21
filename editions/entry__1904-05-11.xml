@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions" xml:id="entry__1904-05-11.xml" prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-05-10.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-05-12.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+     xml:id="entry__1904-05-11.xml"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-05-10.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions/entry__1904-05-12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -88,9 +93,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F5E4-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -172,7 +176,7 @@
             </interpretation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc></profileDesc>
+      <profileDesc/>
    </teiHeader>
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1917.tif"/>
@@ -180,10 +184,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1904-05-11">
-            <p xml:space="preserve"><date when="1904-05-11">11/5</date> <rs type="place" xml:id="pl_04710" ref="#place_630f4207d58878c666151beb35016fc0">Pompeji</rs>. Ungeheurer Eindruck.</p>
-            <p xml:space="preserve" rend="indent">Nachm. gelesen <rs type="person" xml:id="pNt_21059" ref="#person_15499"><surname>Goethe</surname></rs> <rs type="work" xml:id="bibl_17087">Ital. Reise</rs> (<rs type="place" xml:id="pl_04711" ref="#place_8b6f0975edbb61684a14fc0b1891e1b1">Neapel</rs>, <rs type="place" xml:id="pl_04712" ref="#place_2b0f6af168f3c980d7be0e02053b1576">Sicilien</rs>).</p>
+            <p xml:space="preserve"><date when="1904-05-11">11/5</date> <rs type="place" xml:id="pl_04710" ref="#pmb1283">Pompeji</rs>. Ungeheurer Eindruck.</p>
+            <p xml:space="preserve" rend="indent">Nachm. gelesen <rs type="person" xml:id="pNt_21059" ref="#person_15499"><surname>Goethe</surname></rs> <rs type="work" xml:id="bibl_17087">Ital. Reise</rs> (<rs type="place" xml:id="pl_04711" ref="#pmb91330">Neapel</rs>, <rs type="place" xml:id="pl_04712" ref="#pmb451">Sicilien</rs>).</p>
          </div>
       </body>
-   
-    </text>
+   </text>
 </TEI>
