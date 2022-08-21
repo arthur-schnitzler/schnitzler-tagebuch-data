@@ -49,7 +49,7 @@
         </xsl:element>
     </xsl:template>-->
     
-    <xsl:template match="tei:place[not(starts-with(@xml:id, 'pmb'))]">
+    <!--<xsl:template match="tei:place[not(starts-with(@xml:id, 'pmb'))]">
         <xsl:variable name="treffer" select="key('konkordanz-will-never-work', @xml:id, $konkordanz)"/>
         <xsl:choose>
             <xsl:when test="empty($treffer)">
@@ -77,6 +77,21 @@
             </xsl:otherwise>
         </xsl:choose>
         
+    </xsl:template>-->
+    
+    <xsl:template match="tei:place[starts-with(@xml:id, 'place')]">
+                <xsl:element name="place" namespace="http://www.tei-c.org/ns/1.0">
+                    <xsl:attribute name="xml:id">
+                        <xsl:text>pmb</xsl:text>
+                    </xsl:attribute>  
+                    <xsl:copy-of select="child::*"/>
+                    <xsl:element name="idno" namespace="http://www.tei-c.org/ns/1.0">
+                        <xsl:attribute name="type">
+                            <xsl:text>obsolete-schnitzler-diary</xsl:text>
+                        </xsl:attribute>
+                        <xsl:value-of select="@xml:id"/>
+                    </xsl:element>
+                </xsl:element>
     </xsl:template>
     
 </xsl:stylesheet>
