@@ -6,31 +6,6 @@
             <serialized xml:space="preserve">
                 <serializableOrderedMap>
                     <entry>
-                        <String>scenario.associations</String>
-                        <scenarioAssociation-array>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>pmb-nummern-statt-places.xsl</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>pmb-nummern-statt-places</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                        </scenarioAssociation-array>
-                    </entry>
-                    <entry>
                         <String>scenarios</String>
                         <scenario-array>
                             <scenario>
@@ -38,7 +13,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>pmb-nummern-statt-places</String>
+                                    <String>settingDesc eintragen</String>
                                 </field>
                                 <field name="baseURL">
                                     <String></String>
@@ -56,7 +31,7 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>${pdu}/pmb-nummern-statt-places.xsl</String>
+                                    <String>${pdu}/obsolete-xslts/settingDesc.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
                                     <String>${currentFileURL}</String>
