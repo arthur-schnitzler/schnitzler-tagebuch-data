@@ -11,6 +11,7 @@
         as="xs:string"/>
     <xsl:template match="tei:profileDesc">
         <xsl:element name="profileDesc" namespace="http://www.tei-c.org/ns/1.0">
+            <xsl:copy-of select="child::*[not(name()='settingDesc')]"/>
             <xsl:element name="settingDesc" namespace="http://www.tei-c.org/ns/1.0">
                 <xsl:variable name="settinglistPlace"
                     select="key('place-lookup', $date-of-diary-entry, $places)/descendant::tei:listPlace"/>
@@ -19,9 +20,31 @@
                         <xsl:for-each select="$settinglistPlace/tei:place">
                             <xsl:element name="place" namespace="http://www.tei-c.org/ns/1.0">
                                 <xsl:variable name="pmb-nummer" as="xs:string">
-                                    <xsl:value-of
-                                        select="substring-before(substring-after(descendant::tei:idno[@type = 'pmb'][1], 'https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/'), '/detail')"
-                                    />
+                                    <xsl:choose>
+                                        <xsl:when test="contains(descendant::tei:idno[@type = 'pmb'][1], '/detail')">
+                                            <xsl:value-of
+                                                select="substring-before(substring-after(descendant::tei:idno[@type = 'pmb'][1], 'https://pmb.acdh.oeaw.ac.at/entity/'), '/detail')"
+                                            />
+                                        </xsl:when>
+                                        <xsl:when test="ends-with(descendant::tei:idno[@type = 'pmb'][1], '/')">
+                                            <xsl:value-of
+                                                select="substring-before(substring-after(descendant::tei:idno[@type = 'pmb'][1], 'https://pmb.acdh.oeaw.ac.at/entity/'), '/')"
+                                            />
+                                        </xsl:when>
+                                        <xsl:when test="starts-with(descendant::tei:idno[@type = 'pmb'][1], 'https://pmb.acdh.oeaw.ac.at/entity/')">
+                                            <xsl:value-of
+                                                select="(substring-after(descendant::tei:idno[@type = 'pmb'][1], 'https://pmb.acdh.oeaw.ac.at/entity/'))"
+                                            />
+                                            
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:value-of
+                                                select="descendant::tei:idno[@type = 'pmb'][1]"
+                                            />
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                    
+                                    
                                 </xsl:variable>
                                 <xsl:element name="placeName" namespace="http://www.tei-c.org/ns/1.0">
                                     <xsl:attribute name="ref">
