@@ -238,6 +238,21 @@
                     <xsl:value-of select="concat('pmb', key('nachschlagen', replace(., '#pmb', ''), $neue-werte)/tei:neu)"/>
                 </xsl:when>
                 <xsl:otherwise>
+                    <xsl:value-of select="."/>
+                </xsl:otherwise>
+            </xsl:choose>
+            
+        </xsl:attribute>
+        
+    </xsl:template>
+    
+    <xsl:template match="placeName/@ref">
+        <xsl:attribute name="ref">
+            <xsl:choose>
+                <xsl:when test="key('nachschlagen', replace(., 'pmb', ''), $neue-werte)">
+                    <xsl:value-of select="concat('pmb', key('nachschlagen', replace(., 'pmb', ''), $neue-werte)/tei:neu)"/>
+                </xsl:when>
+                <xsl:otherwise>
                     <xsl:value-of select="."/><xsl:text>falsch</xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
