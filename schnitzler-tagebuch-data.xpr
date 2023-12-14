@@ -99,7 +99,7 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>file:/Users/oldfiche/Documents/git/schnitzler-tagebuch-data/obsolete-xslts/listplace-abgleich-pmbNummern.xsl</String>
+                                    <String>${pdu}/obsolete-xslts/listplace-abgleich-pmbNummern.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
                                     <String>${currentFileURL}</String>
@@ -129,13 +129,13 @@
                                     <null/>
                                 </field>
                                 <field name="openInEditor">
-                                    <Boolean>true</Boolean>
+                                    <Boolean>false</Boolean>
                                 </field>
                                 <field name="showInHTMLPane">
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="showInXMLPane">
-                                    <Boolean>true</Boolean>
+                                    <Boolean>false</Boolean>
                                 </field>
                                 <field name="showInSVGPane">
                                     <Boolean>false</Boolean>
