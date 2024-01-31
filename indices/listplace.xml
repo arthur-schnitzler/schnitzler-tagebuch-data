@@ -22574,24 +22574,31 @@
                   <bibl type="collections" n="2">Erster Import</bibl>
                </listBibl>
             </place>
-            <place xml:id="pmb91173">
-               <placeName>Pass Lueg</placeName>
-               <placeName type="alternative-name">Pass Lueg</placeName>
-               <desc type="entity_type">https://www.geonames.org/ontology#T.PASS</desc>
-               <desc type="entity_type_id">2013</desc>
+            <place xml:id="pmb186">
+               <placeName>Lueg am Wolfgangsee</placeName>
+               <desc type="entity_type">Bezirk (A.BZK)</desc>
+               <desc type="entity_type_id">25</desc>
                <location type="coords">
-                  <geo>47,56667 13,2</geo>
+                  <geo>47,754041 13,372211</geo>
                </location>
                <location type="located_in_place">
-                  <placeName ref="pmb41240">Österreich</placeName>
-                  <geo>47,33333 13,33333</geo>
+                  <placeName key="place__33">St. Gilgen</placeName>
+                  <geo>47,76667 13,36667</geo>
                </location>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91173/</idno>
-               <idno type="URL" subtype="geonames">https://sws.geonames.org/2772215/</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb91173.html</idno>
-               <listBibl>
-                  <bibl type="collections" n="7">Default import collection</bibl>
-               </listBibl>
+               <idno type="URL" subtype="schnitzler-bahr">
+                  https://schnitzler-bahr.acdh.oeaw.ac.at/pmb186.html
+               </idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/186/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">
+                  https://schnitzler-briefe.acdh.oeaw.ac.at/pmb186.html
+               </idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q31842431</idno>
+               <idno type="URL" subtype="wikipedia">
+                  https://de.wikipedia.org/wiki/Lueg_(Gemeinde_Sankt_Gilgen)
+               </idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">
+                  https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb91173.html
+               </idno>
             </place>
             <place xml:id="pmb92382">
                <placeName>Luftkurhotel Früh</placeName>
