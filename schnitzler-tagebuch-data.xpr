@@ -59,7 +59,7 @@
                                     <String>${pdu}/xslts/update-listPerson-listWork-listOrg-listPlace/1_updateLists.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
-                                    <String>${pdu}/indices/listperson.xml</String>
+                                    <String>${currentFileURL}</String>
                                 </field>
                                 <field name="defaultScenario">
                                     <Boolean>false</Boolean>

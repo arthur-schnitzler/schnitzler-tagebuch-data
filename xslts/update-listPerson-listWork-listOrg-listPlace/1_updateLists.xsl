@@ -8,7 +8,7 @@
     <xsl:template match="tei:listPlace/tei:place[starts-with(@xml:id, 'pmb')]">
         <xsl:variable name="nummer" select="replace(@xml:id, 'pmb', '')"/>
         <xsl:variable name="eintrag"
-            select="fn:escape-html-uri(concat('https://pmb.acdh.oeaw.ac.at/entity/', $nummer))"
+            select="fn:escape-html-uri(concat('https://pmb.acdh.oeaw.ac.at/apis/tei/place/', $nummer))"
             as="xs:string"/>
         <xsl:choose>
             <xsl:when test="doc-available($eintrag)">
@@ -27,7 +27,7 @@
     <xsl:template match="tei:listOrg/tei:org[tei:idno[@subtype='pmb']]">
         <xsl:variable name="nummer" select="replace(replace(tei:idno[@subtype='pmb']/text(), 'https://pmb.acdh.oeaw.ac.at/entity/', ''), '/', '')"/>
         <xsl:variable name="eintrag"
-            select="fn:escape-html-uri(concat('https://pmb.acdh.oeaw.ac.at/apis/entities/tei/org/', $nummer))"
+            select="fn:escape-html-uri(concat('https://pmb.acdh.oeaw.ac.at/apis/tei/org/', $nummer))"
             as="xs:string"/>
         <xsl:choose>
             <xsl:when test="doc-available($eintrag)">
@@ -46,7 +46,7 @@
     <xsl:template match="tei:listBibl/tei:bibl[starts-with(@xml:id, 'pmb')]">
         <xsl:variable name="nummer" select="replace(@xml:id, 'pmb', '')"/>
         <xsl:variable name="eintrag"
-            select="fn:escape-html-uri(concat('https://pmb.acdh.oeaw.ac.at/entity/', $nummer))"
+            select="fn:escape-html-uri(concat('https://pmb.acdh.oeaw.ac.at/apis/tei/work/', $nummer))"
             as="xs:string"/>
         <xsl:choose>
             <xsl:when test="doc-available($eintrag)">
