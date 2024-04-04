@@ -24124,16 +24124,6 @@
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb51679.html</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb51679.html</idno>
             </place>
-            <place xml:id="pmb92415">
-               <placeName>N.</placeName>
-               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
-               <desc type="entity_type_id">14</desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92415/</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92415.html</idno>
-               <listBibl>
-                  <bibl type="collections" n="9">Schnitzler-Orte ohne Geonames</bibl>
-               </listBibl>
-            </place>
             <place xml:id="pmb53800">
                <placeName>Náchod</placeName>
                <placeName type="alternative-name">Nachod</placeName>
@@ -27143,6 +27133,7 @@
                <idno type="URL" subtype="geonames">https://sws.geonames.org/6535802/</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb91480.html</idno>
             </place>
+            
             <place xml:id="pmb553">
                <placeName>Pilsen</placeName>
                <placeName type="legacy-name-merge">Pilsen</placeName>
@@ -27160,6 +27151,23 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Pilsen</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb553.html</idno>
                
+            </place>
+            <place xml:id="pmb168033">
+               <placeName>Römerwand</placeName>
+               <desc type="entity_type">S.RUIN</desc>
+               <desc type="entity_type_id">1646</desc>
+               <location type="coords">
+                  <geo>48,0885556 16,2482778</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName key="pmb75">Hinterbrühl</placeName>
+                  <geo>48,08611 16,24809</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168033/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q38123646</idno>
+               <listBibl>
+                  <bibl type="collections" n="23">manually created entity</bibl>
+               </listBibl>
             </place>
             <place xml:id="pmb91482">
                <placeName>Pinkenkogel</placeName>
@@ -27291,14 +27299,6 @@
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91488/</idno>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2604954/</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb91488.html</idno>
-            </place>
-            <place xml:id="pmb92448">
-               <placeName>place de la liberté</placeName>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92448/</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92448.html</idno>
-               <listBibl>
-                  <bibl type="collections" n="9">Schnitzler-Orte ohne Geonames</bibl>
-               </listBibl>
             </place>
             <place xml:id="pmb92449">
                <placeName>Plankeng.</placeName>
