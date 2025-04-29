@@ -29,7 +29,7 @@ jobs:
           XML_DIR="data/indices" # <<< GEÄNDERT
           XSLT_DIR="xslts/update-listPerson-listWork-listOrg-listPlace" # <<< GEÄNDERT
           XSLT1="${XSLT_DIR}/1_updateLists.xsl"
-          XSLT2="${XSLT_DIR}/2_updateLists.xsl"
+          XSLT2="${XSLT_DIR}/2_namespaces-fix.xsl"
 
           # Überprüfen, ob die XSLT-Dateien existieren
           if [ ! -f "$XSLT1" ]; then
