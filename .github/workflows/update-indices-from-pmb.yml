@@ -1,0 +1,108 @@
+# .github/workflows/process-xml.yml
+
+name: XML Dateien mit XSLT bearbeiten
+
+# Trigger: Wann soll der Workflow ausgeführt werden?
+on:
+  workflow_dispatch: # Ermöglicht manuelles Auslösen über die GitHub UI
+
+jobs:
+  process_xml_files:
+    runs-on: ubuntu-latest # Betriebssystem für den Runner
+
+    steps:
+      # Schritt 1: Repository-Inhalt auschecken
+      - name: Checkout Repository
+        uses: actions/checkout@v4 # Verwendet die offizielle Checkout-Action
+
+      # Schritt 2: Benötigte Werkzeuge installieren (xsltproc)
+      - name: Install xsltproc
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y xsltproc
+
+      # Schritt 3: XML-Dateien verarbeiten
+      - name: Verarbeite XML Dateien mit XSLTs
+        run: |
+          # Pfade zu den Verzeichnissen und Stylesheets definieren
+          XML_DIR="projektverzeichnis/data/indices"
+          XSLT_DIR="projektverzeichnis/xslts/update-listPerson-listWork-listOrg-listPlace"
+          XSLT1="${XSLT_DIR}/1_updateLists.xsl"
+          XSLT2="${XSLT_DIR}/2_updateLists.xsl"
+
+          # Überprüfen, ob die XSLT-Dateien existieren
+          if [ ! -f "$XSLT1" ]; then
+              echo "Fehler: XSLT1 nicht gefunden unter $XSLT1"
+              exit 1
+          fi
+          if [ ! -f "$XSLT2" ]; then
+              echo "Fehler: XSLT2 nicht gefunden unter $XSLT2"
+              exit 1
+          fi
+
+          # Zähler für verarbeitete Dateien
+          processed_count=0
+
+          # Durch alle passenden XML-Dateien iterieren
+          shopt -s nullglob # Verhindert Fehler, wenn keine Dateien gefunden werden
+          for file in ${XML_DIR}/list*.xml; do
+            echo "Verarbeite Datei: $file"
+
+            # Temporäre Datei für Zwischenergebnisse
+            TEMP_FILE="${file}.tmp"
+
+            # 1. Transformation anwenden -> TEMP_FILE
+            echo "  Anwenden von $XSLT1..."
+            xsltproc -o "$TEMP_FILE" "$XSLT1" "$file"
+            if [ $? -ne 0 ]; then
+                echo "Fehler bei der Verarbeitung von $file mit $XSLT1"
+                rm -f "$TEMP_FILE" # Temporäre Datei aufräumen
+                exit 1 # Workflow mit Fehler beenden
+            fi
+
+            # 2. Transformation auf das Ergebnis der 1. anwenden (aus TEMP_FILE) -> Originaldatei überschreiben
+            echo "  Anwenden von $XSLT2..."
+            # Wichtig: Das zweite XSLT liest aus TEMP_FILE und schreibt in die Originaldatei
+            xsltproc -o "$file" "$XSLT2" "$TEMP_FILE"
+             if [ $? -ne 0 ]; then
+                echo "Fehler bei der Verarbeitung von $TEMP_FILE mit $XSLT2"
+                rm -f "$TEMP_FILE" # Temporäre Datei aufräumen
+                exit 1 # Workflow mit Fehler beenden
+            fi
+
+            # Temporäre Datei löschen
+            rm "$TEMP_FILE"
+            echo "  Datei $file erfolgreich aktualisiert."
+            processed_count=$((processed_count + 1))
+          done
+          shopt -u nullglob # nullglob wieder deaktivieren
+
+          if [ "$processed_count" -eq 0 ]; then
+            echo "Keine Dateien unter ${XML_DIR}/list*.xml gefunden."
+          else
+            echo "$processed_count Datei(en) erfolgreich verarbeitet."
+          fi
+
+          # Änderungen zu Git hinzufügen (nur wenn welche vorhanden sind)
+          # Speichert den Status in einer Variablen
+          git_status=$(git status --porcelain ${XML_DIR}/list*.xml)
+
+          if [ -n "$git_status" ]; then
+            echo "Änderungen in XML-Dateien gefunden. Committing..."
+            git config --global user.name 'github-actions[bot]'
+            git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+            git add ${XML_DIR}/list*.xml
+            git commit -m "Automatisches Update der XML-Indexdateien via XSLT"
+            echo "::set-output name=changes_committed::true" # Signalisiert, dass Änderungen committet wurden
+          else
+            echo "Keine Änderungen in den XML-Dateien nach der Verarbeitung festgestellt."
+            echo "::set-output name=changes_committed::false"
+          fi
+        id: process # Gibt diesem Schritt eine ID, um auf Outputs zuzugreifen
+
+      # Schritt 4: Änderungen zurück ins Repository pushen (nur wenn Änderungen committet wurden)
+      - name: Push changes
+        if: steps.process.outputs.changes_committed == 'true' # Nur ausführen, wenn der vorherige Schritt Änderungen committet hat
+        run: |
+          echo "Pushe Änderungen zurück ins Repository..."
+          git push
