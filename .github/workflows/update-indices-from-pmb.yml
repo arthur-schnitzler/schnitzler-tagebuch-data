@@ -22,11 +22,12 @@ jobs:
           sudo apt-get install -y xsltproc
 
       # Schritt 3: XML-Dateien verarbeiten
+      # Schritt 3: XML-Dateien verarbeiten
       - name: Verarbeite XML Dateien mit XSLTs
         run: |
           # Pfade zu den Verzeichnissen und Stylesheets definieren
-          XML_DIR="projektverzeichnis/data/indices"
-          XSLT_DIR="projektverzeichnis/xslts/update-listPerson-listWork-listOrg-listPlace"
+          XML_DIR="data/indices" # <<< GEÄNDERT
+          XSLT_DIR="xslts/update-listPerson-listWork-listOrg-listPlace" # <<< GEÄNDERT
           XSLT1="${XSLT_DIR}/1_updateLists.xsl"
           XSLT2="${XSLT_DIR}/2_updateLists.xsl"
 
@@ -45,6 +46,7 @@ jobs:
 
           # Durch alle passenden XML-Dateien iterieren
           shopt -s nullglob # Verhindert Fehler, wenn keine Dateien gefunden werden
+          # Die Variable $XML_DIR wird hier verwendet, daher muss nur die Variablendefinition oben geändert werden
           for file in ${XML_DIR}/list*.xml; do
             echo "Verarbeite Datei: $file"
 
@@ -62,7 +64,6 @@ jobs:
 
             # 2. Transformation auf das Ergebnis der 1. anwenden (aus TEMP_FILE) -> Originaldatei überschreiben
             echo "  Anwenden von $XSLT2..."
-            # Wichtig: Das zweite XSLT liest aus TEMP_FILE und schreibt in die Originaldatei
             xsltproc -o "$file" "$XSLT2" "$TEMP_FILE"
              if [ $? -ne 0 ]; then
                 echo "Fehler bei der Verarbeitung von $TEMP_FILE mit $XSLT2"
@@ -84,21 +85,22 @@ jobs:
           fi
 
           # Änderungen zu Git hinzufügen (nur wenn welche vorhanden sind)
-          # Speichert den Status in einer Variablen
+          # Die Variable $XML_DIR wird auch hier verwendet
           git_status=$(git status --porcelain ${XML_DIR}/list*.xml)
 
           if [ -n "$git_status" ]; then
             echo "Änderungen in XML-Dateien gefunden. Committing..."
             git config --global user.name 'github-actions[bot]'
             git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+            # Die Variable $XML_DIR wird auch hier verwendet
             git add ${XML_DIR}/list*.xml
             git commit -m "Automatisches Update der XML-Indexdateien via XSLT"
-            echo "::set-output name=changes_committed::true" # Signalisiert, dass Änderungen committet wurden
+            echo "::set-output name=changes_committed::true"
           else
             echo "Keine Änderungen in den XML-Dateien nach der Verarbeitung festgestellt."
             echo "::set-output name=changes_committed::false"
           fi
-        id: process # Gibt diesem Schritt eine ID, um auf Outputs zuzugreifen
+        id: process
 
       # Schritt 4: Änderungen zurück ins Repository pushen (nur wenn Änderungen committet wurden)
       - name: Push changes
