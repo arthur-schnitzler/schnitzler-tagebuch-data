@@ -13,23 +13,44 @@ jobs:
     steps:
       # Schritt 1: Repository-Inhalt auschecken
       - name: Checkout Repository
-        uses: actions/checkout@v4 # Verwendet die offizielle Checkout-Action
+        uses: actions/checkout@v4
 
-      # Schritt 2: Benötigte Werkzeuge installieren (xsltproc)
-      - name: Install xsltproc
+      # Schritt 2: Java (benötigt für Saxon) installieren
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17' # Saxon benötigt Java. Version 17 ist eine stabile LTS-Version.
+          distribution: 'temurin' # Eine populäre OpenJDK Distribution
+
+      # Schritt 3: Saxon-HE herunterladen
+      - name: Download Saxon-HE Processor
         run: |
-          sudo apt-get update
-          sudo apt-get install -y xsltproc
+          # Definiere die Saxon-Version und den Dateinamen
+          # Überprüfe ggf. auf https://github.com/Saxonica/Saxon-HE/releases oder Maven Central die aktuellste Version
+          SAXON_VERSION="12.4" # Beispielversion, bitte ggf. anpassen
+          SAXON_JAR_FILE="Saxon-HE-${SAXON_VERSION}.jar"
+          SAXON_DOWNLOAD_URL="https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/${SAXON_VERSION}/${SAXON_JAR_FILE}"
 
-      # Schritt 3: XML-Dateien verarbeiten
-      # Schritt 3: XML-Dateien verarbeiten
-      - name: Verarbeite XML Dateien mit XSLTs
+          echo "Lade Saxon-HE Version ${SAXON_VERSION} herunter von ${SAXON_DOWNLOAD_URL}..."
+          wget -q "${SAXON_DOWNLOAD_URL}" -O "${SAXON_JAR_FILE}"
+          if [ $? -ne 0 ]; then
+              echo "Fehler beim Herunterladen von Saxon-HE."
+              exit 1
+          fi
+          echo "Saxon-HE heruntergeladen als ${SAXON_JAR_FILE}"
+          # Store the JAR filename for later steps
+          echo "SAXON_JAR=${SAXON_JAR_FILE}" >> $GITHUB_ENV
+
+      # Schritt 4: XML-Dateien mit Saxon verarbeiten
+      - name: Verarbeite XML Dateien mit Saxon XSLT
+        id: process # ID für den Schritt, um auf Outputs zugreifen zu können
         run: |
           # Pfade zu den Verzeichnissen und Stylesheets definieren
-          XML_DIR="indices" 
-          XSLT_DIR="xslts/update-listPerson-listWork-listOrg-listPlace" 
+          XML_DIR="indices"
+          XSLT_DIR="xslts/update-listPerson-listWork-listOrg-listPlace"
           XSLT1="${XSLT_DIR}/1_updateLists.xsl"
           XSLT2="${XSLT_DIR}/2_namespace-fix.xsl"
+          SAXON_COMMAND="java -jar ./${SAXON_JAR}" # Zugriff auf die Umgebungsvariable
 
           # Überprüfen, ob die XSLT-Dateien existieren
           if [ ! -f "$XSLT1" ]; then
@@ -41,13 +62,9 @@ jobs:
               exit 1
           fi
 
-          # Überprüfen, ob die XSLT-Dateien existieren
-          if [ ! -f "$XSLT1" ]; then
-              echo "Fehler: XSLT1 nicht gefunden unter $XSLT1"
-              exit 1
-          fi
-          if [ ! -f "$XSLT2" ]; then
-              echo "Fehler: XSLT2 nicht gefunden unter $XSLT2"
+          # Überprüfen, ob der Saxon JAR existiert
+          if [ ! -f "${SAXON_JAR}" ]; then
+              echo "Fehler: Saxon JAR (${SAXON_JAR}) nicht gefunden."
               exit 1
           fi
 
@@ -55,32 +72,33 @@ jobs:
           processed_count=0
 
           # Durch alle passenden XML-Dateien iterieren
-          shopt -s nullglob
+          shopt -s nullglob # Verhindert Fehler, wenn keine Dateien gefunden werden
           for file in ${XML_DIR}/list*.xml; do
             echo "Verarbeite Datei: $file"
             TEMP_FILE="${file}.tmp"
 
-            echo "  Anwenden von $XSLT1..."
-            xsltproc -o "$TEMP_FILE" "$XSLT1" "$file"
+            echo "  Anwenden von $XSLT1 mit Saxon..."
+            # Saxon Kommando: java -jar <saxon.jar> -s:<source> -xsl:<stylesheet> -o:<output>
+            ${SAXON_COMMAND} -s:"$file" -xsl:"$XSLT1" -o:"$TEMP_FILE"
             if [ $? -ne 0 ]; then
                 echo "Fehler bei der Verarbeitung von $file mit $XSLT1"
-                rm -f "$TEMP_FILE"
+                rm -f "$TEMP_FILE" # Temporäre Datei aufräumen
                 exit 1
             fi
 
-            echo "  Anwenden von $XSLT2..."
-            xsltproc -o "$file" "$XSLT2" "$TEMP_FILE"
+            echo "  Anwenden von $XSLT2 mit Saxon..."
+            ${SAXON_COMMAND} -s:"$TEMP_FILE" -xsl:"$XSLT2" -o:"$file"
              if [ $? -ne 0 ]; then
                 echo "Fehler bei der Verarbeitung von $TEMP_FILE mit $XSLT2"
-                rm -f "$TEMP_FILE"
+                rm -f "$TEMP_FILE" # Temporäre Datei aufräumen
                 exit 1
             fi
 
-            rm "$TEMP_FILE"
+            rm "$TEMP_FILE" # Temporäre Datei nach Erfolg löschen
             echo "  Datei $file erfolgreich aktualisiert."
             processed_count=$((processed_count + 1))
           done
-          shopt -u nullglob
+          shopt -u nullglob # nullglob wieder deaktivieren
 
           if [ "$processed_count" -eq 0 ]; then
             echo "Keine Dateien unter ${XML_DIR}/list*.xml gefunden."
@@ -89,14 +107,16 @@ jobs:
           fi
 
           # Änderungen zu Git hinzufügen (nur wenn welche vorhanden sind)
+          # Überprüfe den Status nur der relevanten Dateien
           git_status=$(git status --porcelain ${XML_DIR}/list*.xml)
 
           if [ -n "$git_status" ]; then
             echo "Änderungen in XML-Dateien gefunden. Committing..."
             git config --global user.name 'github-actions[bot]'
             git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+            # Füge nur die spezifischen Dateien hinzu
             git add ${XML_DIR}/list*.xml
-            git commit -m "Automatisches Update der XML-Indexdateien via XSLT"
+            git commit -m "Automatisches Update der XML-Indexdateien via Saxon XSLT"
             # NEUE METHODE: Output in die $GITHUB_OUTPUT Datei schreiben
             echo "changes_committed=true" >> $GITHUB_OUTPUT
           else
@@ -105,27 +125,10 @@ jobs:
             echo "changes_committed=false" >> $GITHUB_OUTPUT
           fi
 
-          # Änderungen zu Git hinzufügen (nur wenn welche vorhanden sind)
-          # Die Variable $XML_DIR wird auch hier verwendet
-          git_status=$(git status --porcelain ${XML_DIR}/list*.xml)
-
-          if [ -n "$git_status" ]; then
-            echo "Änderungen in XML-Dateien gefunden. Committing..."
-            git config --global user.name 'github-actions[bot]'
-            git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-            # Die Variable $XML_DIR wird auch hier verwendet
-            git add ${XML_DIR}/list*.xml
-            git commit -m "Automatisches Update der XML-Indexdateien via XSLT"
-            echo "::set-output name=changes_committed::true"
-          else
-            echo "Keine Änderungen in den XML-Dateien nach der Verarbeitung festgestellt."
-            echo "::set-output name=changes_committed::false"
-          fi
-        id: process
-
-      # Schritt 4: Änderungen zurück ins Repository pushen (nur wenn Änderungen committet wurden)
+      # Schritt 5: Änderungen zurück ins Repository pushen (nur wenn Änderungen committet wurden)
       - name: Push changes
-        if: steps.process.outputs.changes_committed == 'true' # Nur ausführen, wenn der vorherige Schritt Änderungen committet hat
+        # Bedingung basiert auf dem Output des 'process'-Schritts
+        if: steps.process.outputs.changes_committed == 'true'
         run: |
           echo "Pushe Änderungen zurück ins Repository..."
           git push
