@@ -19,27 +19,39 @@ jobs:
       - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
-          java-version: '17' # Saxon benötigt Java. Version 17 ist eine stabile LTS-Version.
-          distribution: 'temurin' # Eine populäre OpenJDK Distribution
+          java-version: '17'
+          distribution: 'temurin'
 
-      # Schritt 3: Saxon-HE herunterladen
-      - name: Download Saxon-HE Processor
+      # Schritt 3: Saxon-HE und Abhängigkeiten herunterladen
+      - name: Download Saxon-HE and XML Resolver
         run: |
-          # Definiere die Saxon-Version und den Dateinamen
+          # Saxon Version und Dateiname
           # Überprüfe ggf. auf https://github.com/Saxonica/Saxon-HE/releases oder Maven Central die aktuellste Version
           SAXON_VERSION="12.4" # Beispielversion, bitte ggf. anpassen
           SAXON_JAR_FILE="Saxon-HE-${SAXON_VERSION}.jar"
           SAXON_DOWNLOAD_URL="https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/${SAXON_VERSION}/${SAXON_JAR_FILE}"
 
-          echo "Lade Saxon-HE Version ${SAXON_VERSION} herunter von ${SAXON_DOWNLOAD_URL}..."
+          echo "Lade Saxon-HE Version ${SAXON_VERSION} herunter..."
           wget -q "${SAXON_DOWNLOAD_URL}" -O "${SAXON_JAR_FILE}"
-          if [ $? -ne 0 ]; then
-              echo "Fehler beim Herunterladen von Saxon-HE."
-              exit 1
-          fi
+          if [ $? -ne 0 ]; then echo "Fehler beim Herunterladen von Saxon-HE."; exit 1; fi
           echo "Saxon-HE heruntergeladen als ${SAXON_JAR_FILE}"
-          # Store the JAR filename for later steps
+
+          # XML Resolver Version und Dateiname
+          # Siehe https://github.com/xmlresolver/xmlresolver/releases oder Maven Central
+          # Wichtig: Neuere Versionen sind unter org.xmlresolver groupId
+          RESOLVER_VERSION="5.2.1" # Aktuelle Version (Stand ~Anfang 2024), ggf. prüfen/anpassen
+          RESOLVER_JAR_FILE="xmlresolver-${RESOLVER_VERSION}.jar"
+          RESOLVER_DOWNLOAD_URL="https://repo1.maven.org/maven2/org/xmlresolver/xmlresolver/${RESOLVER_VERSION}/${RESOLVER_JAR_FILE}"
+          # Ältere Version (falls benötigt): group=xml-resolver, artifact=xml-resolver, z.B. Version 1.2
+
+          echo "Lade XML Resolver Version ${RESOLVER_VERSION} herunter..."
+          wget -q "${RESOLVER_DOWNLOAD_URL}" -O "${RESOLVER_JAR_FILE}"
+          if [ $? -ne 0 ]; then echo "Fehler beim Herunterladen des XML Resolvers."; exit 1; fi
+          echo "XML Resolver heruntergeladen als ${RESOLVER_JAR_FILE}"
+
+          # Store JAR filenames for later steps
           echo "SAXON_JAR=${SAXON_JAR_FILE}" >> $GITHUB_ENV
+          echo "RESOLVER_JAR=${RESOLVER_JAR_FILE}" >> $GITHUB_ENV
 
       # Schritt 4: XML-Dateien mit Saxon verarbeiten
       - name: Verarbeite XML Dateien mit Saxon XSLT
@@ -50,39 +62,34 @@ jobs:
           XSLT_DIR="xslts/update-listPerson-listWork-listOrg-listPlace"
           XSLT1="${XSLT_DIR}/1_updateLists.xsl"
           XSLT2="${XSLT_DIR}/2_namespace-fix.xsl"
-          SAXON_COMMAND="java -jar ./${SAXON_JAR}" # Zugriff auf die Umgebungsvariable
+
+          # Classpath mit beiden JARs definieren (getrennt durch ':')
+          # WICHTIG: Ausführung mit -cp und Angabe der Main Class net.sf.saxon.Transform
+          SAXON_COMMAND="java -cp ./${SAXON_JAR}:./${RESOLVER_JAR} net.sf.saxon.Transform"
 
           # Überprüfen, ob die XSLT-Dateien existieren
-          if [ ! -f "$XSLT1" ]; then
-              echo "Fehler: XSLT1 nicht gefunden unter $XSLT1"
-              exit 1
-          fi
-          if [ ! -f "$XSLT2" ]; then
-              echo "Fehler: XSLT2 nicht gefunden unter $XSLT2"
-              exit 1
-          fi
+          if [ ! -f "$XSLT1" ]; then echo "Fehler: XSLT1 nicht gefunden unter $XSLT1"; exit 1; fi
+          if [ ! -f "$XSLT2" ]; then echo "Fehler: XSLT2 nicht gefunden unter $XSLT2"; exit 1; fi
 
-          # Überprüfen, ob der Saxon JAR existiert
-          if [ ! -f "${SAXON_JAR}" ]; then
-              echo "Fehler: Saxon JAR (${SAXON_JAR}) nicht gefunden."
-              exit 1
-          fi
+          # Überprüfen, ob die JARs existieren
+          if [ ! -f "${SAXON_JAR}" ]; then echo "Fehler: Saxon JAR (${SAXON_JAR}) nicht gefunden."; exit 1; fi
+          if [ ! -f "${RESOLVER_JAR}" ]; then echo "Fehler: XML Resolver JAR (${RESOLVER_JAR}) nicht gefunden."; exit 1; fi
 
           # Zähler für verarbeitete Dateien
           processed_count=0
 
           # Durch alle passenden XML-Dateien iterieren
-          shopt -s nullglob # Verhindert Fehler, wenn keine Dateien gefunden werden
+          shopt -s nullglob
           for file in ${XML_DIR}/list*.xml; do
             echo "Verarbeite Datei: $file"
             TEMP_FILE="${file}.tmp"
 
             echo "  Anwenden von $XSLT1 mit Saxon..."
-            # Saxon Kommando: java -jar <saxon.jar> -s:<source> -xsl:<stylesheet> -o:<output>
+            # Saxon Kommando mit Classpath: java -cp <jars> net.sf.saxon.Transform -s:<source> -xsl:<stylesheet> -o:<output>
             ${SAXON_COMMAND} -s:"$file" -xsl:"$XSLT1" -o:"$TEMP_FILE"
             if [ $? -ne 0 ]; then
                 echo "Fehler bei der Verarbeitung von $file mit $XSLT1"
-                rm -f "$TEMP_FILE" # Temporäre Datei aufräumen
+                rm -f "$TEMP_FILE"
                 exit 1
             fi
 
@@ -90,15 +97,15 @@ jobs:
             ${SAXON_COMMAND} -s:"$TEMP_FILE" -xsl:"$XSLT2" -o:"$file"
              if [ $? -ne 0 ]; then
                 echo "Fehler bei der Verarbeitung von $TEMP_FILE mit $XSLT2"
-                rm -f "$TEMP_FILE" # Temporäre Datei aufräumen
+                rm -f "$TEMP_FILE"
                 exit 1
             fi
 
-            rm "$TEMP_FILE" # Temporäre Datei nach Erfolg löschen
+            rm "$TEMP_FILE"
             echo "  Datei $file erfolgreich aktualisiert."
             processed_count=$((processed_count + 1))
           done
-          shopt -u nullglob # nullglob wieder deaktivieren
+          shopt -u nullglob
 
           if [ "$processed_count" -eq 0 ]; then
             echo "Keine Dateien unter ${XML_DIR}/list*.xml gefunden."
@@ -107,27 +114,22 @@ jobs:
           fi
 
           # Änderungen zu Git hinzufügen (nur wenn welche vorhanden sind)
-          # Überprüfe den Status nur der relevanten Dateien
           git_status=$(git status --porcelain ${XML_DIR}/list*.xml)
 
           if [ -n "$git_status" ]; then
             echo "Änderungen in XML-Dateien gefunden. Committing..."
             git config --global user.name 'github-actions[bot]'
             git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-            # Füge nur die spezifischen Dateien hinzu
             git add ${XML_DIR}/list*.xml
             git commit -m "Automatisches Update der XML-Indexdateien via Saxon XSLT"
-            # NEUE METHODE: Output in die $GITHUB_OUTPUT Datei schreiben
             echo "changes_committed=true" >> $GITHUB_OUTPUT
           else
             echo "Keine Änderungen in den XML-Dateien nach der Verarbeitung festgestellt."
-            # NEUE METHODE: Output in die $GITHUB_OUTPUT Datei schreiben
             echo "changes_committed=false" >> $GITHUB_OUTPUT
           fi
 
       # Schritt 5: Änderungen zurück ins Repository pushen (nur wenn Änderungen committet wurden)
       - name: Push changes
-        # Bedingung basiert auf dem Output des 'process'-Schritts
         if: steps.process.outputs.changes_committed == 'true'
         run: |
           echo "Pushe Änderungen zurück ins Repository..."
