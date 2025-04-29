@@ -26,8 +26,8 @@ jobs:
       - name: Verarbeite XML Dateien mit XSLTs
         run: |
           # Pfade zu den Verzeichnissen und Stylesheets definieren
-          XML_DIR="data/indices" # <<< GEÄNDERT
-          XSLT_DIR="xslts/update-listPerson-listWork-listOrg-listPlace" # <<< GEÄNDERT
+          XML_DIR="indices" 
+          XSLT_DIR="xslts/update-listPerson-listWork-listOrg-listPlace" 
           XSLT1="${XSLT_DIR}/1_updateLists.xsl"
           XSLT2="${XSLT_DIR}/2_namespace-fix.xsl"
 
