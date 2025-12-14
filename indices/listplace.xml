@@ -6135,7 +6135,6 @@
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/114051/</idno>
                <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00002092</idno>
                <listBibl>
-                  <bibl type="collections" n="13">No WikiData-ID found</bibl>
                   <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                   <bibl type="collections" n="77">SemanticKraus</bibl>
@@ -12069,7 +12068,7 @@
                <idno type="URL" subtype="geonames">https://sws.geonames.org/7910522/</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb90579.html</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb90579.html</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Elefsina</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q204905</idno>
                <listBibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
@@ -14460,27 +14459,39 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q457381</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Freyung_(Wien)</idno>
             </place>
-            <place xml:id="pmb90657">
-               <placeName>Friedenau</placeName>
+            <place xml:id="pmb115779">
+               <placeName>Berlin-Friedenau</placeName>
+               <placeName type="legacy-name-merge">Friedenau</placeName>
+               <placeName type="legacy-name-merge">Friedenau</placeName>
                <placeName type="alternative-name">Berlin-Friedenau</placeName>
-               <desc type="entity_type">P.PPLX</desc>
-               <desc type="entity_type_id">1234</desc>
+               <desc type="entity_type">Teil eines besiedelten Ortes (A.BSOX)</desc>
+               <desc type="entity_type_id">18</desc>
                <location type="coords">
-                  <geo>52,47133 13,32813</geo>
+                  <geo>52,471111 13,328055</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb168">Berlin</placeName>
+                  <geo>52,52437 13,41053</geo>
                </location>
                <location type="located_in_place">
                   <placeName ref="pmb151">Deutschland</placeName>
                   <geo>51,5 10,5</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/90657/</idno>
-               <idno type="URL" subtype="geonames">https://sws.geonames.org/2924770/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/115779/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4138088-5</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb90657.html</idno>
-               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb90657.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/13294/</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berlin-Friedenau</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00002162</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2924770/</idno>
+               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb90657.html</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q692390</idno>
                <listBibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
+                  <bibl type="collections" n="77">SemanticKraus</bibl>
                </listBibl>
+               <note type="references">None</note>
             </place>
             <place xml:id="pmb58779">
                <placeName>Friedrichshafen</placeName>
@@ -14912,6 +14923,7 @@
                <placeName>Fusch an der Großglocknerstraße</placeName>
                <placeName type="legacy-name-merge">Fusch an der Großglocknerstrasse</placeName>
                <placeName type="legacy-name-merge">Fusch an der Grossglocknerstrasse</placeName>
+               <placeName type="legacy-name-merge">Fusch an der Großglocknerstraße</placeName>
                <desc type="entity_type">P.PPL</desc>
                <desc type="entity_type_id">1412</desc>
                <location type="coords">
@@ -14925,15 +14937,17 @@
                   <placeName ref="pmb697">Salzburg [Land]</placeName>
                   <geo>47,41667 13,25</geo>
                </location>
-               <idno type="URL" subtype="geonames">https://sws.geonames.org/2780799/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/34194/</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb34194.html</idno>
-               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb34194.html</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb34194.html</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2779089/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb573.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/573/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q694084</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Fusch_an_der_Gro%C3%9Fglocknerstra%C3%9Fe</idno>
                <listBibl>
-                  <bibl type="collections" n="13">No WikiData-ID found</bibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
+               <note type="references"> </note>
                <note type="image">
                   <figure>
                      <graphic url="https://iiif.onb.ac.at/images/AKON/AK058_243/243/full/,600/0/native.jpg"/>
@@ -17245,6 +17259,7 @@
                <placeName type="legacy-name">Gries bei Bozen</placeName>
                <placeName type="legacy-name-merge">Bozen-Gries</placeName>
                <placeName type="legacy-name-merge">Gries</placeName>
+               <placeName type="legacy-name-merge">Gries/Bozen</placeName>
                <desc type="entity_type">P.PPL</desc>
                <desc type="entity_type_id">1412</desc>
                <location type="coords">
@@ -17263,6 +17278,7 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1546471</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/10135460-5</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Gries-Quirein</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/262182/</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb194314.html</idno>
                <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00001791</idno>
                <listBibl>
@@ -21938,6 +21954,7 @@
                <placeName type="alternative-name">Stadt Innsbruck</placeName>
                <placeName type="legacy-name-merge">bei Innsbruck</placeName>
                <placeName type="alternative-name">Innsbruck</placeName>
+               <placeName type="legacy-name-merge">Innsbruck?</placeName>
                <desc type="entity_type">A.ADM2</desc>
                <desc type="entity_type_id">1135</desc>
                <location type="coords">
@@ -21965,6 +21982,7 @@
                <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/DWplace00466</idno>
                <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/pmb867</idno>
                <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00000047</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/262675/</idno>
                <listBibl>
                   <bibl type="collections" n="5">Karl Kraus: Rechtsakten</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
@@ -24568,6 +24586,8 @@
             </place>
             <place xml:id="pmb91026">
                <placeName>Kindberg</placeName>
+               <placeName type="legacy-name-merge">Kinsberg</placeName>
+               <placeName type="legacy-name-merge">Kindberg</placeName>
                <desc type="entity_type">P.PPLA3</desc>
                <desc type="entity_type_id">1128</desc>
                <location type="coords">
@@ -24579,10 +24599,14 @@
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91026/</idno>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2774437/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4314291-6</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb91026.html</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb91026.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/304445/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/103682/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q695227</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Kindberg</idno>
                <listBibl>
-                  <bibl type="collections" n="13">No WikiData-ID found</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
                <note type="image">
@@ -24707,6 +24731,7 @@
                <placeName type="alternative-name">Chisinau</placeName>
                <placeName type="alternative-name">Chișinău</placeName>
                <placeName type="legacy-name">Kischinew (Bessarabien)</placeName>
+               <placeName type="legacy-name-merge">Kischinew</placeName>
                <desc type="entity_type">P.PPLC</desc>
                <desc type="entity_type_id">1418</desc>
                <location type="coords">
@@ -24721,6 +24746,7 @@
                <idno type="URL" subtype="geonames">https://sws.geonames.org/618426/</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Chi%C8%99in%C4%83u</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb45904.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/302089/</idno>
                <listBibl>
                   <bibl type="collections" n="13">No WikiData-ID found</bibl>
                </listBibl>
@@ -50819,13 +50845,14 @@
                </listBibl>
             </place>
             <place xml:id="pmb49165">
-               <placeName>Tokyo</placeName>
+               <placeName>Tokio</placeName>
                <placeName type="legacy-name-merge">Tokyo</placeName>
                <placeName type="alternative-name">Tokyo</placeName>
                <placeName type="alternative-name">Edo</placeName>
                <placeName type="legacy-name">Tokyo</placeName>
                <placeName type="legacy-name-merge">Tokio</placeName>
                <placeName type="legacy-name-merge">Tokio?</placeName>
+               <placeName type="legacy-name-merge">Tokio</placeName>
                <desc type="entity_type">P.PPLC</desc>
                <desc type="entity_type_id">1418</desc>
                <location type="coords">
@@ -50848,6 +50875,7 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Pr%C3%A4fektur_Tokio</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1490</idno>
                <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00002607</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/303588/</idno>
                <listBibl>
                   <bibl type="collections" n="77">SemanticKraus</bibl>
                </listBibl>
