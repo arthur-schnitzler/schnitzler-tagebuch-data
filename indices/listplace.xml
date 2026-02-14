@@ -2364,8 +2364,8 @@
             <place xml:id="pmb90258">
                <placeName>Rab</placeName>
                <placeName type="alternative-name">Rab</placeName>
-               <desc type="entity_type">P.PPLA2</desc>
-               <desc type="entity_type_id">1134</desc>
+               <desc type="entity_type">Insel (N.INS)</desc>
+               <desc type="entity_type_id">57</desc>
                <location type="coords">
                   <geo>44,75694 14,76083</geo>
                </location>
@@ -2378,6 +2378,9 @@
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb90258.html</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q13277</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Rab</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
                <note type="image">
                   <figure>
                      <graphic url="https://iiif.onb.ac.at/images/AKON/AK086_344/344/full/,600/0/native.jpg"/>
@@ -10317,6 +10320,8 @@
                <placeName type="legacy-name-merge">Bundesrepublik Deutschland</placeName>
                <placeName type="legacy-name-merge">Germany</placeName>
                <placeName type="legacy-name-merge">Deutschland</placeName>
+               <placeName type="ort_fruherer-name">Deutsches Kaiserreich</placeName>
+               <placeName type="ort_fruherer-name">Weimarer Republik</placeName>
                <desc type="entity_type">A.PCLI</desc>
                <desc type="entity_type_id">1107</desc>
                <location type="coords">
@@ -19704,12 +19709,16 @@
                </listBibl>
             </place>
             <place xml:id="pmb90851">
-               <placeName>Helgoland</placeName>
+               <placeName>Helgoland [Gemeinde]</placeName>
                <placeName type="alternative-name">Helgoland</placeName>
                <desc type="entity_type">P.PPLA4</desc>
                <desc type="entity_type_id">1195</desc>
                <location type="coords">
                   <geo>54,18143 7,8863</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb983">Helgoland [Insel]</placeName>
+                  <geo>54,18213 7,88458</geo>
                </location>
                <location type="located_in_place">
                   <placeName ref="pmb151">Deutschland</placeName>
@@ -21600,6 +21609,7 @@
                <placeName type="alternative-name">Iglau</placeName>
                <placeName type="legacy-name">Iglau</placeName>
                <placeName type="legacy-name-merge">Iglau</placeName>
+               <placeName type="legacy-name-merge">Iglau</placeName>
                <desc type="entity_type">P.PPLA</desc>
                <desc type="entity_type_id">1415</desc>
                <location type="coords">
@@ -21621,6 +21631,7 @@
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb44092.html</idno>
                <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00003395</idno>
                <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00001829</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/304169/</idno>
                <listBibl>
                   <bibl type="collections" n="77">SemanticKraus</bibl>
                </listBibl>
@@ -33904,6 +33915,10 @@
                   <placeName ref="pmb40306">Italien</placeName>
                   <geo>42,83333 12,83333</geo>
                </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb724">Pustertal</placeName>
+                  <geo>46,75 12,33333</geo>
+               </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20545/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91308/</idno>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/3169345/</idno>
@@ -35062,32 +35077,42 @@
                   </figure>
                </note>
             </place>
-            <place xml:id="pmb91350">
+            <place xml:id="pmb40556">
                <placeName>Niederdorf</placeName>
+               <placeName type="legacy-name-merge">Niederdorf</placeName>
                <placeName type="alternative-name">Niederdorf</placeName>
-               <desc type="entity_type">P.PPLA3</desc>
-               <desc type="entity_type_id">1128</desc>
+               <placeName type="legacy-name-merge">Niederdorf/Pustertal</placeName>
+               <placeName type="ort_namensvariante">Villabassa</placeName>
+               <desc type="entity_type">A.ADM3</desc>
+               <desc type="entity_type_id">1124</desc>
                <location type="coords">
-                  <geo>46,73781 12,17266</geo>
+                  <geo>46,73813 12,17139</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb969">Südtirol</placeName>
+                  <geo>46,71667 11,5</geo>
                </location>
                <location type="located_in_place">
                   <placeName ref="pmb40306">Italien</placeName>
                   <geo>42,83333 12,83333</geo>
                </location>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91350/</idno>
+               <location type="located_in_place">
+                  <placeName ref="pmb724">Pustertal</placeName>
+                  <geo>46,75 12,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/6535940/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/40556/</idno>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/3164301/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q504724</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Niederdorf_(S%C3%BCdtirol)</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/262011/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb40556.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91350/</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb91350.html</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb91350.html</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb91350.html</idno>
                <listBibl>
-                  <bibl type="collections" n="13">No WikiData-ID found</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
-               <note type="image">
-                  <figure>
-                     <graphic url="https://iiif.onb.ac.at/images/AKON/AK062_566/566/full/,600/0/native.jpg"/>
-                  </figure>
-               </note>
             </place>
             <place xml:id="pmb1003">
                <placeName>Niederösterreich</placeName>
@@ -36916,21 +36941,37 @@
                   </figure>
                </note>
             </place>
-            <place xml:id="pmb92433">
-               <placeName>P.</placeName>
-               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
-               <desc type="entity_type_id">14</desc>
+            <place xml:id="pmb90146">
+               <placeName>Pamsenhof</placeName>
+               <placeName type="legacy-name-merge">P.</placeName>
+               <desc type="entity_type">Gebäude (K.GBD)</desc>
+               <desc type="entity_type_id">24</desc>
+               <location type="coords">
+                  <geo>47,9044 15,49918</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
                <location type="located_in_place">
                   <placeName ref="pmb1003">Niederösterreich</placeName>
                   <geo>48,33333 15,75</geo>
                </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb334518">Traisenbachrotte</placeName>
+                  <geo>47,89416666666666 15,511388888888888</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/90146/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/12493324/</idno>
+               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb90146.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92433/</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92433.html</idno>
-               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb92433.html</idno>
                <listBibl>
+                  <bibl type="collections" n="13">No WikiData-ID found</bibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
+               <note type="references"> </note>
             </place>
             <place xml:id="pmb91426">
                <placeName>Punt Muragl, Talstation</placeName>
@@ -39292,9 +39333,9 @@
             </place>
             <place xml:id="pmb44282">
                <placeName>Poznan</placeName>
-               <placeName type="alternative-name">Posen</placeName>
                <placeName type="legacy-name">Posen</placeName>
                <placeName type="legacy-name-merge">Posen</placeName>
+               <placeName type="ort_namensvariante">Posen</placeName>
                <desc type="entity_type">P.PPLA</desc>
                <desc type="entity_type_id">1415</desc>
                <location type="coords">
@@ -45467,27 +45508,35 @@
                </note>
             </place>
             <place xml:id="pmb34824">
-               <placeName>Seeboden</placeName>
+               <placeName>Seeboden am Millstättersee</placeName>
                <placeName type="alternative-name">Seeboden am Millstätter See</placeName>
                <placeName type="legacy-name-merge">Seeboden</placeName>
-               <desc type="entity_type">A.ADM3</desc>
-               <desc type="entity_type_id">1124</desc>
+               <placeName type="legacy-name-merge">Seeboden am Millstätter See</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
                <location type="coords">
-                  <geo>46,83649 13,52346</geo>
+                  <geo>46,818888888889 13,518333</geo>
                </location>
                <location type="located_in_place">
                   <placeName ref="pmb41240">Österreich</placeName>
                   <geo>47,33333 13,33333</geo>
                </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb651">Kärnten</placeName>
+                  <geo>46,75 13,83333</geo>
+               </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/34824/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91717/</idno>
-               <idno type="URL" subtype="geonames">https://sws.geonames.org/2765286/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92802/</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb34824.html</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb34824.html</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb34824.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/333833/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q660576</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4054100-9</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/7872791/</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Seeboden_am_Millst%C3%A4tter_See</idno>
                <listBibl>
-                  <bibl type="collections" n="13">No WikiData-ID found</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
                <note type="image">
@@ -49532,8 +49581,9 @@
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb19055.html</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb19055.html</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb19055.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q89404717</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Sulz_im_Wienerwald</idno>
                <listBibl>
-                  <bibl type="collections" n="13">No WikiData-ID found</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
                <note type="image">
@@ -55183,6 +55233,10 @@
                <location type="located_in_place">
                   <placeName ref="pmb969">Südtirol</placeName>
                   <geo>46,71667 11,5</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb724">Pustertal</placeName>
+                  <geo>46,75 12,33333</geo>
                </location>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/3173140/</idno>
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb428.html</idno>
