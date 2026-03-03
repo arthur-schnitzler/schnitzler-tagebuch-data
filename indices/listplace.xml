@@ -74,7 +74,6 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q859732</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/3056139-5</idno>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/7669122/</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb234029.html</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Certosa_di_San_Martino</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb234029.html</idno>
                <listBibl>
@@ -166,30 +165,33 @@
                <placeName type="legacy-name">Abbazia</placeName>
                <placeName type="legacy-name-merge">Opatija</placeName>
                <placeName type="legacy-name">Opatija</placeName>
+               <placeName type="legacy-name-merge">Grad Opatija</placeName>
                <desc type="entity_type">P.PPLA2</desc>
                <desc type="entity_type_id">1134</desc>
                <location type="coords">
                   <geo>45,33771 14,30515</geo>
                </location>
                <location type="located_in_place">
+                  <placeName ref="pmb38096">Opatija</placeName>
+                  <geo>45,33771 14,30515</geo>
+               </location>
+               <location type="located_in_place">
                   <placeName ref="pmb34494">Kroatien</placeName>
                   <geo>45,16667 15,5</geo>
                </location>
-               <location type="located_in_place">
-                  <placeName ref="pmb35647">Grad Opatija</placeName>
-                  <geo>45,33333 14,26667</geo>
-               </location>
-               <idno type="URL" subtype="geonames">https://sws.geonames.org/3194099/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3194097/</idno>
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb38096.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/38096/</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb38096.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Opatija</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb38096.html</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb38096.html</idno>
                <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb38096.html</idno>
                <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00004219</idno>
                <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00003591</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35647/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q223353</idno>
                <listBibl>
-                  <bibl type="collections" n="13">No WikiData-ID found</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                   <bibl type="collections" n="77">SemanticKraus</bibl>
                </listBibl>
@@ -7944,23 +7946,26 @@
                   </figure>
                </note>
             </place>
-            <place xml:id="pmb90440">
+            <place xml:id="pmb34052">
                <placeName>Canal Grande</placeName>
-               <desc type="entity_type">H.CNL</desc>
-               <desc type="entity_type_id">2028</desc>
+               <placeName type="legacy-name-merge">Canal Grande</placeName>
+               <desc type="entity_type">Fluss (N.FLS)</desc>
+               <desc type="entity_type_id">50</desc>
                <location type="coords">
-                  <geo>45,43598 12,33052</geo>
+                  <geo>45,436312 12,33118</geo>
                </location>
                <location type="located_in_place">
                   <placeName ref="pmb462">Venedig</placeName>
                   <geo>45,43713 12,33265</geo>
                </location>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/90440/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/34052/</idno>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/3175933/</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb90440.html</idno>
-               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb90440.html</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q309243</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Canal_Grande</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb34052.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/90440/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb90440.html</idno>
+               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb90440.html</idno>
                <listBibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
@@ -12073,7 +12078,7 @@
                <idno type="URL" subtype="geonames">https://sws.geonames.org/7910522/</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb90579.html</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb90579.html</idno>
-               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q204905</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Elefsina</idno>
                <listBibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
@@ -16323,7 +16328,7 @@
                </location>
                <location type="located_in_place">
                   <placeName ref="pmb772">Marienbad</placeName>
-                  <geo>49,96115 12,72872</geo>
+                  <geo>49,964444 12,701944</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92257/</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92257.html</idno>
@@ -20524,9 +20529,6 @@
             </place>
             <place xml:id="pmb75">
                <placeName>Hinterbrühl</placeName>
-               <placeName type="legacy-name-merge">Helmstreitmühle</placeName>
-               <placeName type="legacy-name-merge">Hinterbrühl</placeName>
-               <placeName type="legacy-name-merge">Hinterbrühl</placeName>
                <placeName type="legacy-name-merge">Hinterbrühl</placeName>
                <desc type="entity_type">P.PPLA3</desc>
                <desc type="entity_type_id">1128</desc>
@@ -27601,6 +27603,7 @@
             <place xml:id="pmb92361">
                <placeName>Laßnitzhöhe</placeName>
                <placeName type="legacy-name-merge">Laßnitzhöhe</placeName>
+               <placeName type="legacy-name-merge">Laßnitzhöhe</placeName>
                <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
                <desc type="entity_type_id">14</desc>
                <location type="coords">
@@ -27610,6 +27613,7 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q696552</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4592095-3</idno>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/7873405/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/24371/</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/La%C3%9Fnitzh%C3%B6he</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92361/</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92361.html</idno>
@@ -31255,7 +31259,7 @@
                <desc type="entity_type">P.PPL</desc>
                <desc type="entity_type_id">1412</desc>
                <location type="coords">
-                  <geo>49,96115 12,72872</geo>
+                  <geo>49,964444 12,701944</geo>
                </location>
                <location type="located_in_place">
                   <placeName ref="pmb43430">Tschechische Republik</placeName>
@@ -49373,6 +49377,8 @@
                <placeName type="alternative-name">Stuhlweißenburg</placeName>
                <placeName type="alternative-name">Székesfehérvár</placeName>
                <placeName type="legacy-name-merge">Alba</placeName>
+               <placeName type="legacy-name-merge">Stuhlweißenburg</placeName>
+               <placeName type="legacy-name-merge">Stuhlweißenburg</placeName>
                <desc type="entity_type">P.PPLA</desc>
                <desc type="entity_type_id">1415</desc>
                <location type="coords">
@@ -49383,12 +49389,15 @@
                   <geo>47,0 20,0</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11647/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/18844/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/54127/</idno>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/3044774/</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb54127.html</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Sz%C3%A9kesfeh%C3%A9rv%C3%A1r</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q130212</idno>
                <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00000226</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4132096-7</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/96256/</idno>
                <listBibl>
                   <bibl type="collections" n="77">SemanticKraus</bibl>
                </listBibl>
@@ -53849,6 +53858,10 @@
             </place>
             <place xml:id="pmb92585">
                <placeName>Volksgartenrestaurant</placeName>
+               <placeName type="ort_namensvariante">Volksgarten-Café</placeName>
+               <placeName type="ort_namensvariante">Café-Restaurant J. Seidl</placeName>
+               <desc type="entity_type">Veranstaltungsgebäude (K.VSB)</desc>
+               <desc type="entity_type_id">5</desc>
                <location type="coords">
                   <geo>48,207065 16,361604</geo>
                </location>
@@ -55527,8 +55540,10 @@
                </note>
             </place>
             <place xml:id="pmb92602">
-               <placeName>Wiednerspital</placeName>
+               <placeName>Wiedner Spital</placeName>
                <placeName type="legacy-name-merge">Wiedner Spital</placeName>
+               <desc type="entity_type">Krankenhaus (K.KKH)</desc>
+               <desc type="entity_type_id">23</desc>
                <location type="coords">
                   <geo>48,19224 16,370928</geo>
                </location>
@@ -55543,14 +55558,11 @@
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92602/</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92602.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/182852/</idno>
-               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1485420</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wiedner_Spital</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb92602.html</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
-               <note type="references"> </note>
             </place>
             <place xml:id="pmb92603">
                <placeName>Wiednertheater</placeName>
