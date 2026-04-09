@@ -92,6 +92,8 @@ jobs:
           LISTPLACE_URI="file://${GITHUB_WORKSPACE}/python-temp/listplace.xml"
           LISTORG_URI="file://${GITHUB_WORKSPACE}/python-temp/listorg.xml"
           LISTBIBL_URI="file://${GITHUB_WORKSPACE}/python-temp/listbibl.xml"
+          LISTEVENT_URI="file://${GITHUB_WORKSPACE}/python-temp/listevent.xml"
+
 
           # Classpath mit beiden JARs definieren (getrennt durch ':')
           # WICHTIG: Ausführung mit -cp und Angabe der Main Class net.sf.saxon.Transform
@@ -125,7 +127,9 @@ jobs:
               listperson-uri="$LISTPERSON_URI" \
               listplace-uri="$LISTPLACE_URI" \
               listorg-uri="$LISTORG_URI" \
-              listbibl-uri="$LISTBIBL_URI"
+              listbibl-uri="$LISTBIBL_URI" \
+              listevent-uri="$LISTEVENT_URI"
+
             if [ $? -ne 0 ]; then
                 echo "Fehler bei der Verarbeitung von $file mit $XSLT1"
                 rm -f "$TEMP_FILE"

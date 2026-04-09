@@ -2,7 +2,10 @@
   "permissions": {
     "allow": [
       "Bash(curl -sf https://pmb.acdh.oeaw.ac.at/media/listperson.xml)",
-      "Bash(curl -sf https://pmb.acdh.oeaw.ac.at/apis/tei/person/298571)"
+      "Bash(curl -sf https://pmb.acdh.oeaw.ac.at/apis/tei/person/298571)",
+      "Read(//private/tmp/**)",
+      "Bash(wget -q https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/12.4/Saxon-HE-12.4.jar)",
+      "Bash(wget -q https://repo1.maven.org/maven2/org/xmlresolver/xmlresolver/5.2.1/xmlresolver-5.2.1.jar)"
     ]
   }
 }

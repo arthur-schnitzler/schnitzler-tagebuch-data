@@ -5,99 +5,95 @@
     <xsl:mode on-no-match="shallow-copy"/>
     <xsl:output method="xml" indent="yes"/>
 
-    <!-- Pfade (URIs) zu den lokal heruntergeladenen PMB-Listen.
-         Werden vom Workflow als absolute file://-URIs übergeben. -->
+    <!-- URIs der lokal heruntergeladenen PMB-Bulk-Listen, vom Workflow als
+         absolute file://-URIs übergeben. Pro Lauf wird nur die Liste gebraucht,
+         die zum gerade verarbeiteten Index-File passt. -->
     <xsl:param name="listperson-uri" as="xs:string" select="''"/>
     <xsl:param name="listplace-uri" as="xs:string" select="''"/>
-    <xsl:param name="listorg-uri" as="xs:string" select="''"/>
     <xsl:param name="listbibl-uri" as="xs:string" select="''"/>
 
     <xsl:variable name="listperson-doc"
         select="if ($listperson-uri != '' and doc-available($listperson-uri)) then document($listperson-uri) else ()"/>
     <xsl:variable name="listplace-doc"
         select="if ($listplace-uri != '' and doc-available($listplace-uri)) then document($listplace-uri) else ()"/>
-    <xsl:variable name="listorg-doc"
-        select="if ($listorg-uri != '' and doc-available($listorg-uri)) then document($listorg-uri) else ()"/>
     <xsl:variable name="listbibl-doc"
         select="if ($listbibl-uri != '' and doc-available($listbibl-uri)) then document($listbibl-uri) else ()"/>
 
-    <!-- angewandt auf bestehende listperson.xml etc. -->
-    <xsl:template match="tei:listPlace/tei:place[starts-with(@xml:id, 'pmb')]">
-        <xsl:variable name="nummer" select="replace(@xml:id, 'pmb', '')"/>
-        <xsl:variable name="entry"
-            select="$listplace-doc//tei:place[@xml:id = concat('place__', $nummer)][1]"/>
-        <xsl:choose>
-            <xsl:when test="$entry">
-                <xsl:copy-of select="$entry" copy-namespaces="no"/>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:element name="error">
-                    <xsl:attribute name="type">
-                        <xsl:text>place</xsl:text>
-                    </xsl:attribute>
-                    <xsl:value-of select="."/>
-                </xsl:element>
-            </xsl:otherwise>
-        </xsl:choose>
+    <!-- Hilfsfunktion: Aus der schnitzler-tagebuch-Idno-URL die neue xml:id
+         ableiten, z.B.
+           https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_17277.html -> person_17277
+           https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92368.html      -> pmb92368 -->
+    <xsl:function name="tei:new-id" as="xs:string">
+        <xsl:param name="entry" as="element()"/>
+        <xsl:variable name="url"
+            select="normalize-space($entry/tei:idno[@subtype='schnitzler-tagebuch'][1])"/>
+        <xsl:value-of select="replace(replace($url, 'https://schnitzler-tagebuch\.acdh\.oeaw\.ac\.at/', ''), '\.html$', '')"/>
+    </xsl:function>
+
+    <!-- Top-Level-Container der Personenliste komplett neu befüllen -->
+    <xsl:template match="tei:listPerson[@xml:id='listperson']">
+        <xsl:copy>
+            <xsl:apply-templates select="@*"/>
+            <xsl:choose>
+                <xsl:when test="exists($listperson-doc)">
+                    <xsl:for-each select="$listperson-doc//tei:person[tei:idno[@subtype='schnitzler-tagebuch'] and not(contains(tei:idno[@subtype='schnitzler-tagebuch'][1], '#'))]">
+                        <xsl:sort select="tei:new-id(.)"/>
+                        <xsl:element name="person" namespace="http://www.tei-c.org/ns/1.0">
+                            <xsl:attribute name="xml:id" select="tei:new-id(.)"/>
+                            <xsl:copy-of select="@* except @xml:id" copy-namespaces="no"/>
+                            <xsl:copy-of select="node()" copy-namespaces="no"/>
+                        </xsl:element>
+                    </xsl:for-each>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:apply-templates select="node()"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:copy>
     </xsl:template>
-    <xsl:template match="tei:listOrg/tei:org[tei:idno[@subtype='pmb']]">
-        <xsl:variable name="nummer" select="replace(replace(tei:idno[@subtype='pmb']/text(), 'https://pmb.acdh.oeaw.ac.at/entity/', ''), '/', '')"/>
-        <xsl:variable name="entry"
-            select="$listorg-doc//tei:org[@xml:id = concat('org__', $nummer)][1]"/>
-        <xsl:choose>
-            <xsl:when test="$entry">
-                <xsl:copy-of select="$entry" copy-namespaces="no"/>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:element name="error">
-                    <xsl:attribute name="type">
-                        <xsl:text>org</xsl:text>
-                    </xsl:attribute>
-                    <xsl:value-of select="$nummer"/>
-                </xsl:element>
-            </xsl:otherwise>
-        </xsl:choose>
+
+    <!-- Top-Level-Container der Ortsliste komplett neu befüllen -->
+    <xsl:template match="tei:body/tei:listPlace">
+        <xsl:copy>
+            <xsl:apply-templates select="@*"/>
+            <xsl:choose>
+                <xsl:when test="exists($listplace-doc)">
+                    <xsl:for-each select="$listplace-doc//tei:place[tei:idno[@subtype='schnitzler-tagebuch'] and not(contains(tei:idno[@subtype='schnitzler-tagebuch'][1], '#'))]">
+                        <xsl:sort select="tei:new-id(.)"/>
+                        <xsl:element name="place" namespace="http://www.tei-c.org/ns/1.0">
+                            <xsl:attribute name="xml:id" select="tei:new-id(.)"/>
+                            <xsl:copy-of select="@* except @xml:id" copy-namespaces="no"/>
+                            <xsl:copy-of select="node()" copy-namespaces="no"/>
+                        </xsl:element>
+                    </xsl:for-each>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:apply-templates select="node()"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:copy>
     </xsl:template>
-    <xsl:template match="tei:listBibl/tei:bibl[starts-with(@xml:id, 'pmb')]">
-        <xsl:variable name="nummer" select="replace(@xml:id, 'pmb', '')"/>
-        <xsl:variable name="entry"
-            select="$listbibl-doc//tei:bibl[@xml:id = concat('work__', $nummer)][1]"/>
-        <xsl:choose>
-            <xsl:when test="$entry">
-                <xsl:copy-of select="$entry" copy-namespaces="no"/>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:element name="error">
-                    <xsl:attribute name="type">
-                        <xsl:text>bibl</xsl:text>
-                    </xsl:attribute>
-                    <xsl:value-of select="$nummer"/>
-                </xsl:element>
-            </xsl:otherwise>
-        </xsl:choose>
-    </xsl:template>
-    <xsl:template match="tei:listPerson/tei:person[tei:idno[@subtype='pmb']]">
-        <xsl:variable name="nummer" select="replace(replace(tei:idno[@subtype='pmb'][1]/text(), 'https://pmb.acdh.oeaw.ac.at/entity/', ''), '/', '')"/>
-        <xsl:variable name="entry"
-            select="$listperson-doc//tei:person[@xml:id = concat('person__', $nummer)][1]"/>
-        <xsl:choose>
-            <xsl:when test="$entry">
-                <xsl:element name="person" namespace="http://www.tei-c.org/ns/1.0">
-                    <xsl:attribute name="xml:id">
-                        <xsl:value-of select="$entry//tei:idno[@subtype='schnitzler-tagebuch'][1]/replace(replace(text(), 'https://schnitzler-tagebuch.acdh.oeaw.ac.at/', ''), '.html', '')"/>
-                    </xsl:attribute>
-                <xsl:copy-of select="$entry/*" copy-namespaces="no"/>
-                </xsl:element>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:element name="error" namespace="http://www.tei-c.org/ns/1.0">
-                    <xsl:attribute name="type">
-                        <xsl:text>person</xsl:text>
-                    </xsl:attribute>
-                    <xsl:value-of select="$nummer"/>
-                </xsl:element>
-            </xsl:otherwise>
-        </xsl:choose>
+
+    <!-- Top-Level-Container der Werkliste komplett neu befüllen -->
+    <xsl:template match="tei:listBibl[@xml:id='listwork']">
+        <xsl:copy>
+            <xsl:apply-templates select="@*"/>
+            <xsl:choose>
+                <xsl:when test="exists($listbibl-doc)">
+                    <xsl:for-each select="$listbibl-doc//tei:bibl[tei:idno[@subtype='schnitzler-tagebuch'] and not(contains(tei:idno[@subtype='schnitzler-tagebuch'][1], '#'))]">
+                        <xsl:sort select="tei:new-id(.)"/>
+                        <xsl:element name="bibl" namespace="http://www.tei-c.org/ns/1.0">
+                            <xsl:attribute name="xml:id" select="tei:new-id(.)"/>
+                            <xsl:copy-of select="@* except @xml:id" copy-namespaces="no"/>
+                            <xsl:copy-of select="node()" copy-namespaces="no"/>
+                        </xsl:element>
+                    </xsl:for-each>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:apply-templates select="node()"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:copy>
     </xsl:template>
 
 </xsl:stylesheet>
