@@ -19,7 +19,9 @@
       "Bash(saxon -s:lb_new.xml -xsl:/Users/oldfiche/git/schnitzler-tagebuch-data/xslts/update-listPerson-listWork-listOrg-listPlace/2_namespace-fix.xsl -o:lb_final.xml)",
       "Bash(xmllint --noout /tmp/pmb-test/listperson_s2.xml)",
       "Bash(xmllint --noout /tmp/pmb-test/listplace_s2.xml)",
-      "Bash(xmllint --noout /tmp/pmb-test/listbibl_s2.xml)"
+      "Bash(xmllint --noout /tmp/pmb-test/listbibl_s2.xml)",
+      "Bash(git pull:*)",
+      "Bash(git stash:*)"
     ]
   }
 }
