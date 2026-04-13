@@ -5,7 +5,21 @@
       "Bash(curl -sf https://pmb.acdh.oeaw.ac.at/apis/tei/person/298571)",
       "Read(//private/tmp/**)",
       "Bash(wget -q https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/12.4/Saxon-HE-12.4.jar)",
-      "Bash(wget -q https://repo1.maven.org/maven2/org/xmlresolver/xmlresolver/5.2.1/xmlresolver-5.2.1.jar)"
+      "Bash(wget -q https://repo1.maven.org/maven2/org/xmlresolver/xmlresolver/5.2.1/xmlresolver-5.2.1.jar)",
+      "Bash(ls /Users/oldfiche/git/schnitzler-tagebuch-data/indices/list*.xml)",
+      "Bash(java -version)",
+      "Read(//Users/oldfiche/**)",
+      "Bash(saxon -s:/Users/oldfiche/git/schnitzler-tagebuch-data/indices/listwork.xml -xsl:/Users/oldfiche/git/schnitzler-tagebuch-data/xslts/update-listPerson-listWork-listOrg-listPlace/1_updateLists.xsl -o:listwork_out.xml listperson-uri=\"file:///tmp/pmb-test/listperson.xml\" listplace-uri=\"file:///tmp/pmb-test/listplace.xml\" listbibl-uri=\"file:///tmp/pmb-test/listbibl.xml\")",
+      "Bash(saxon -s:/Users/oldfiche/git/schnitzler-tagebuch-data/indices/listplace.xml -xsl:/Users/oldfiche/git/schnitzler-tagebuch-data/xslts/update-listPerson-listWork-listOrg-listPlace/1_updateLists.xsl -o:listplace_out.xml listperson-uri=\"file:///tmp/pmb-test/listperson.xml\" listplace-uri=\"file:///tmp/pmb-test/listplace.xml\" listbibl-uri=\"file:///tmp/pmb-test/listbibl.xml\")",
+      "Bash(saxon -s:listperson.xml -xsl:1_updateLists.xsl -o:lp_new.xml)",
+      "Bash(saxon -s:lp_new.xml -xsl:/Users/oldfiche/git/schnitzler-tagebuch-data/xslts/update-listPerson-listWork-listOrg-listPlace/2_namespace-fix.xsl -o:lp_final.xml)",
+      "Bash(saxon -s:listplace.xml -xsl:1_updateLists.xsl -o:lpl_new.xml)",
+      "Bash(saxon -s:lpl_new.xml -xsl:/Users/oldfiche/git/schnitzler-tagebuch-data/xslts/update-listPerson-listWork-listOrg-listPlace/2_namespace-fix.xsl -o:lpl_final.xml)",
+      "Bash(saxon -s:listbibl.xml -xsl:1_updateLists.xsl -o:lb_new.xml)",
+      "Bash(saxon -s:lb_new.xml -xsl:/Users/oldfiche/git/schnitzler-tagebuch-data/xslts/update-listPerson-listWork-listOrg-listPlace/2_namespace-fix.xsl -o:lb_final.xml)",
+      "Bash(xmllint --noout /tmp/pmb-test/listperson_s2.xml)",
+      "Bash(xmllint --noout /tmp/pmb-test/listplace_s2.xml)",
+      "Bash(xmllint --noout /tmp/pmb-test/listbibl_s2.xml)"
     ]
   }
 }

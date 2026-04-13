@@ -1,12 +1,12 @@
 # .github/workflows/update-indices-from-pmb.yml
 
-name: listperson-listwork-listorg-listplace update aus der PMB
+name: listperson-listwork-listplace update aus der PMB
 
 # Trigger: Wann soll der Workflow ausgeführt werden?
 on:
   schedule:
-    # Läuft jeden zweiten Mittwoch um 3 Uhr morgens UTC
-    - cron: '0 3 */14 * 3'
+    # Läuft jeden Mittwoch um 3 Uhr morgens UTC
+    - cron: '0 3 * * 3'
   workflow_dispatch: # Ermöglicht manuelles Auslösen über die GitHub UI
 
 jobs:
@@ -23,21 +23,16 @@ jobs:
         run: |
           mkdir -p python-temp
           echo "Lade listbibl.xml herunter..."
-          curl -f -o python-temp/listbibl.xml https://pmb.acdh.oeaw.ac.at/media/listbibl.xml
+          curl -fsSL -o python-temp/listbibl.xml https://pmb.acdh.oeaw.ac.at/media/listbibl.xml
 
           echo "Lade listperson.xml herunter..."
-          curl -f -o python-temp/listperson.xml https://pmb.acdh.oeaw.ac.at/media/listperson.xml
+          curl -fsSL -o python-temp/listperson.xml https://pmb.acdh.oeaw.ac.at/media/listperson.xml
 
           echo "Lade listplace.xml herunter..."
-          curl -f -o python-temp/listplace.xml https://pmb.acdh.oeaw.ac.at/media/listplace.xml
-
-          echo "Lade listorg.xml herunter..."
-          curl -f -o python-temp/listorg.xml https://pmb.acdh.oeaw.ac.at/media/listorg.xml
-
-          echo "Lade listevent.xml herunter..."
-          curl -f -o python-temp/listevent.xml https://pmb.acdh.oeaw.ac.at/media/listevent.xml
+          curl -fsSL -o python-temp/listplace.xml https://pmb.acdh.oeaw.ac.at/media/listplace.xml
 
           echo "Alle Listen erfolgreich heruntergeladen."
+          ls -la python-temp/
 
       # Schritt 3: Java (benötigt für Saxon) installieren
       - name: Set up JDK 17
@@ -49,125 +44,90 @@ jobs:
       # Schritt 4: Saxon-HE und Abhängigkeiten herunterladen
       - name: Download Saxon-HE and XML Resolver
         run: |
-          # Saxon Version und Dateiname
-          # Überprüfe ggf. auf https://github.com/Saxonica/Saxon-HE/releases oder Maven Central die aktuellste Version
-          SAXON_VERSION="12.4" # Beispielversion, bitte ggf. anpassen
+          SAXON_VERSION="12.4"
           SAXON_JAR_FILE="Saxon-HE-${SAXON_VERSION}.jar"
           SAXON_DOWNLOAD_URL="https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/${SAXON_VERSION}/${SAXON_JAR_FILE}"
 
           echo "Lade Saxon-HE Version ${SAXON_VERSION} herunter..."
           wget -q "${SAXON_DOWNLOAD_URL}" -O "${SAXON_JAR_FILE}"
           if [ $? -ne 0 ]; then echo "Fehler beim Herunterladen von Saxon-HE."; exit 1; fi
-          echo "Saxon-HE heruntergeladen als ${SAXON_JAR_FILE}"
 
-          # XML Resolver Version und Dateiname
-          # Siehe https://github.com/xmlresolver/xmlresolver/releases oder Maven Central
-          # Wichtig: Neuere Versionen sind unter org.xmlresolver groupId
-          RESOLVER_VERSION="5.2.1" # Aktuelle Version (Stand ~Anfang 2024), ggf. prüfen/anpassen
+          RESOLVER_VERSION="5.2.1"
           RESOLVER_JAR_FILE="xmlresolver-${RESOLVER_VERSION}.jar"
           RESOLVER_DOWNLOAD_URL="https://repo1.maven.org/maven2/org/xmlresolver/xmlresolver/${RESOLVER_VERSION}/${RESOLVER_JAR_FILE}"
-          # Ältere Version (falls benötigt): group=xml-resolver, artifact=xml-resolver, z.B. Version 1.2
 
           echo "Lade XML Resolver Version ${RESOLVER_VERSION} herunter..."
           wget -q "${RESOLVER_DOWNLOAD_URL}" -O "${RESOLVER_JAR_FILE}"
           if [ $? -ne 0 ]; then echo "Fehler beim Herunterladen des XML Resolvers."; exit 1; fi
-          echo "XML Resolver heruntergeladen als ${RESOLVER_JAR_FILE}"
 
-          # Store JAR filenames for later steps
           echo "SAXON_JAR=${SAXON_JAR_FILE}" >> $GITHUB_ENV
           echo "RESOLVER_JAR=${RESOLVER_JAR_FILE}" >> $GITHUB_ENV
 
-      # Schritt 5: XML-Dateien mit Saxon verarbeiten
-      - name: Verarbeite XML Dateien mit Saxon XSLT
-        id: process # ID für den Schritt, um auf Outputs zugreifen zu können
+      # Schritt 5: PMB-Listen mit Saxon kürzen und als Indexdateien ablegen
+      - name: Verarbeite PMB-Listen mit Saxon XSLT
+        id: process
         run: |
-          # Pfade zu den Verzeichnissen und Stylesheets definieren
-          XML_DIR="indices"
           XSLT_DIR="xslts/update-listPerson-listWork-listOrg-listPlace"
           XSLT1="${XSLT_DIR}/1_updateLists.xsl"
           XSLT2="${XSLT_DIR}/2_namespace-fix.xsl"
 
-          # Absolute file://-URIs der lokal heruntergeladenen PMB-Listen
-          LISTPERSON_URI="file://${GITHUB_WORKSPACE}/python-temp/listperson.xml"
-          LISTPLACE_URI="file://${GITHUB_WORKSPACE}/python-temp/listplace.xml"
-          LISTORG_URI="file://${GITHUB_WORKSPACE}/python-temp/listorg.xml"
-          LISTBIBL_URI="file://${GITHUB_WORKSPACE}/python-temp/listbibl.xml"
-          LISTEVENT_URI="file://${GITHUB_WORKSPACE}/python-temp/listevent.xml"
-
-
-          # Classpath mit beiden JARs definieren (getrennt durch ':')
-          # WICHTIG: Ausführung mit -cp und Angabe der Main Class net.sf.saxon.Transform
           SAXON_COMMAND="java -cp ./${SAXON_JAR}:./${RESOLVER_JAR} net.sf.saxon.Transform"
 
-          # Überprüfen, ob die XSLT-Dateien existieren
           if [ ! -f "$XSLT1" ]; then echo "Fehler: XSLT1 nicht gefunden unter $XSLT1"; exit 1; fi
           if [ ! -f "$XSLT2" ]; then echo "Fehler: XSLT2 nicht gefunden unter $XSLT2"; exit 1; fi
-
-          # Überprüfen, ob die JARs existieren
           if [ ! -f "${SAXON_JAR}" ]; then echo "Fehler: Saxon JAR (${SAXON_JAR}) nicht gefunden."; exit 1; fi
           if [ ! -f "${RESOLVER_JAR}" ]; then echo "Fehler: XML Resolver JAR (${RESOLVER_JAR}) nicht gefunden."; exit 1; fi
 
-          # Überprüfen, ob die heruntergeladenen Listen existieren
-          for f in python-temp/listperson.xml python-temp/listplace.xml python-temp/listorg.xml python-temp/listbibl.xml; do
-            if [ ! -f "$f" ]; then echo "Fehler: Heruntergeladene Liste $f nicht gefunden."; exit 1; fi
-          done
+          # Mapping: PMB-Quelldatei  ->  Zieldatei unter indices/
+          declare -a MAPPING=(
+            "python-temp/listperson.xml|indices/listperson.xml"
+            "python-temp/listplace.xml|indices/listplace.xml"
+            "python-temp/listbibl.xml|indices/listwork.xml"
+          )
 
-          # Zähler für verarbeitete Dateien
-          processed_count=0
+          for entry in "${MAPPING[@]}"; do
+            SRC="${entry%%|*}"
+            DEST="${entry##*|}"
+            TMP="${DEST}.tmp"
 
-          # Durch alle passenden XML-Dateien iterieren
-          shopt -s nullglob
-          for file in ${XML_DIR}/list*.xml; do
-            echo "Verarbeite Datei: $file"
-            TEMP_FILE="${file}.tmp"
+            if [ ! -f "$SRC" ]; then
+              echo "Fehler: PMB-Quelldatei $SRC nicht gefunden."
+              exit 1
+            fi
 
-            echo "  Anwenden von $XSLT1 mit Saxon..."
-            # Saxon Kommando mit Classpath und XSLT-Parametern für die lokalen PMB-Listen
-            ${SAXON_COMMAND} -s:"$file" -xsl:"$XSLT1" -o:"$TEMP_FILE" \
-              listperson-uri="$LISTPERSON_URI" \
-              listplace-uri="$LISTPLACE_URI" \
-              listorg-uri="$LISTORG_URI" \
-              listbibl-uri="$LISTBIBL_URI" \
-              listevent-uri="$LISTEVENT_URI"
+            echo "Kürze $SRC -> $DEST"
 
+            echo "  Anwenden von $XSLT1 ..."
+            ${SAXON_COMMAND} -s:"$SRC" -xsl:"$XSLT1" -o:"$TMP"
             if [ $? -ne 0 ]; then
-                echo "Fehler bei der Verarbeitung von $file mit $XSLT1"
-                rm -f "$TEMP_FILE"
-                exit 1
+              echo "Fehler bei der Verarbeitung von $SRC mit $XSLT1"
+              rm -f "$TMP"
+              exit 1
             fi
 
-            echo "  Anwenden von $XSLT2 mit Saxon..."
-            ${SAXON_COMMAND} -s:"$TEMP_FILE" -xsl:"$XSLT2" -o:"$file"
-             if [ $? -ne 0 ]; then
-                echo "Fehler bei der Verarbeitung von $TEMP_FILE mit $XSLT2"
-                rm -f "$TEMP_FILE"
-                exit 1
+            echo "  Anwenden von $XSLT2 ..."
+            ${SAXON_COMMAND} -s:"$TMP" -xsl:"$XSLT2" -o:"$DEST"
+            if [ $? -ne 0 ]; then
+              echo "Fehler bei der Verarbeitung von $TMP mit $XSLT2"
+              rm -f "$TMP"
+              exit 1
             fi
 
-            rm "$TEMP_FILE"
-            echo "  Datei $file erfolgreich aktualisiert."
-            processed_count=$((processed_count + 1))
+            rm -f "$TMP"
+            echo "  $DEST erfolgreich aktualisiert."
           done
-          shopt -u nullglob
 
-          if [ "$processed_count" -eq 0 ]; then
-            echo "Keine Dateien unter ${XML_DIR}/list*.xml gefunden."
-          else
-            echo "$processed_count Datei(en) erfolgreich verarbeitet."
-          fi
-
-          # Änderungen zu Git hinzufügen (nur wenn welche vorhanden sind)
-          git_status=$(git status --porcelain ${XML_DIR}/list*.xml)
+          git_status=$(git status --porcelain indices/listperson.xml indices/listplace.xml indices/listwork.xml)
 
           if [ -n "$git_status" ]; then
-            echo "Änderungen in XML-Dateien gefunden. Committing..."
+            echo "Änderungen in den Indexdateien gefunden. Committing..."
             git config --global user.name 'github-actions[bot]'
             git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-            git add ${XML_DIR}/list*.xml
+            git add indices/listperson.xml indices/listplace.xml indices/listwork.xml
             git commit -m "Automatisches Update der XML-Indexdateien via Saxon XSLT"
             echo "indices_committed=true" >> $GITHUB_OUTPUT
           else
-            echo "Keine Änderungen in den XML-Dateien nach der Verarbeitung festgestellt."
+            echo "Keine Änderungen in den Indexdateien festgestellt."
             echo "indices_committed=false" >> $GITHUB_OUTPUT
           fi
 
