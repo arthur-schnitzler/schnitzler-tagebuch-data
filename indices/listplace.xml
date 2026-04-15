@@ -29758,6 +29758,8 @@
             </place>
             <place xml:id="pmb90436">
                <placeName>Campitello di Fassa</placeName>
+               <placeName type="legacy-name-merge">Campitello/Südtirol</placeName>
+               <placeName type="legacy-name-merge">Campitello</placeName>
                <desc type="entity_type">A.ADM3</desc>
                <desc type="entity_type_id">1124</desc>
                <location type="coords">
@@ -29769,8 +29771,11 @@
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/90436/</idno>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/6542172/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/406375-2</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb90436.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/261857/</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb90436.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/102676/</idno>
                <listBibl>
                   <bibl type="collections" n="13">No WikiData-ID found</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
@@ -40068,6 +40073,7 @@
             <place xml:id="pmb91340">
                <placeName>Neunkirchen</placeName>
                <placeName type="alternative-name">Neunkirchen</placeName>
+               <placeName type="legacy-name-merge">Neunkirchen</placeName>
                <desc type="entity_type">P.PPLA3</desc>
                <desc type="entity_type_id">1128</desc>
                <location type="coords">
@@ -40077,17 +40083,29 @@
                   <placeName ref="pmb41240">Österreich</placeName>
                   <geo>47,33333 13,33333</geo>
                </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb37211">Politischer Bezirk Neunkirchen</placeName>
+                  <geo>47,69424 15,93783</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb1003">Niederösterreich</placeName>
+                  <geo>48,33333 15,75</geo>
+               </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91340/</idno>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2770711/</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb91340.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q265948</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4107074-4</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/7871866/</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb91340.html</idno>
                <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00004023</idno>
                <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00001759</idno>
                <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00002351</idno>
                <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00002492</idno>
                <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00003568</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/194410/</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Neunkirchen_(Nieder%C3%B6sterreich)</idno>
                <listBibl>
-                  <bibl type="collections" n="13">No WikiData-ID found</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                   <bibl type="collections" n="77">SemanticKraus</bibl>
                </listBibl>
@@ -56786,12 +56804,12 @@
                   <geo>47,69209 15,8634</geo>
                </location>
                <location type="located_in_place">
-                  <placeName ref="pmb1003">Niederösterreich</placeName>
-                  <geo>48,33333 15,75</geo>
+                  <placeName ref="pmb37211">Politischer Bezirk Neunkirchen</placeName>
+                  <geo>47,69424 15,93783</geo>
                </location>
                <location type="located_in_place">
-                  <placeName ref="pmb91340">Neunkirchen</placeName>
-                  <geo>47,72096 16,08107</geo>
+                  <placeName ref="pmb1003">Niederösterreich</placeName>
+                  <geo>48,33333 15,75</geo>
                </location>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q676675</idno>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2769182/</idno>
