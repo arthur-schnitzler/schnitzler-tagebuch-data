@@ -1440,6 +1440,11 @@
                <note type="apis_dates">
                   <date when-iso="1888-10-11">1888-10-11</date>
                </note>
+               <note type="image">
+                  <figure>
+                     <graphic url="https://upload.wikimedia.org/wikipedia/commons/e/e4/Burgtheater-Wien-M%C3%A4rz-2008.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original"/>
+                  </figure>
+               </note>
             </place>
             <place xml:id="pmb140">
                <placeName>Halle (Saale)</placeName>
@@ -8380,6 +8385,10 @@
                <location type="located_in_place">
                   <placeName ref="pmb50">Wien</placeName>
                   <geo>48,208333 16,373056</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb51">I., Innere Stadt</placeName>
+                  <geo>48,20769 16,37049</geo>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/40998/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92241/</idno>
@@ -26124,6 +26133,7 @@
             <place xml:id="pmb89077">
                <placeName>Dachau</placeName>
                <placeName type="legacy-name-merge">Dachau</placeName>
+               <placeName type="legacy-name-merge">Dachau</placeName>
                <desc type="entity_type">P.PPLA3</desc>
                <desc type="entity_type_id">1128</desc>
                <location type="coords">
@@ -26137,9 +26147,13 @@
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/89077/</idno>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2939623/</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb89077.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q7077</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4010844-2</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/6558210/</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb89077.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/258238/</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Dachau</idno>
                <listBibl>
-                  <bibl type="collections" n="13">No WikiData-ID found</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
             </place>
@@ -31250,7 +31264,7 @@
                <idno type="URL" subtype="geonames">https://sws.geonames.org/7910522/</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb90579.html</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb90579.html</idno>
-               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q204905</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Elefsina</idno>
                <listBibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
