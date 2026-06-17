@@ -1772,14 +1772,8 @@
             </place>
             <place xml:id="pmb146">
                <placeName>Frankfurt am Main</placeName>
-               <placeName type="legacy-name-merge">Frankfurt am Main</placeName>
-               <placeName type="legacy-name-merge">Frankfurt/M.?</placeName>
-               <placeName type="legacy-name-merge">Frankfurt</placeName>
-               <placeName type="alternative-name">Frankfurt</placeName>
-               <placeName type="legacy-name-merge">Frankfurt a. Main</placeName>
-               <placeName type="alternative-name">Frankfurt, Main</placeName>
-               <placeName type="alternative-name">Frankfurt/Main</placeName>
-               <placeName type="legacy-name-merge">Frankfurt a. M\:</placeName>
+               <placeName type="ort_namensvariante">Frankfurt a. Main</placeName>
+               <placeName type="ort_namensvariante">Frankfurt/Main</placeName>
                <desc type="entity_type">P.PPLA3</desc>
                <desc type="entity_type_id">1128</desc>
                <location type="coords">
@@ -17182,6 +17176,8 @@
                <placeName type="alternative-name">Prostějov</placeName>
                <placeName type="legacy-name-merge">Prossnitz</placeName>
                <placeName type="legacy-name-merge">Proßnitz</placeName>
+               <placeName type="legacy-name-merge">Proßnitz</placeName>
+               <placeName type="legacy-name-merge">Proßnitz</placeName>
                <desc type="entity_type">P.PPL</desc>
                <desc type="entity_type_id">1412</desc>
                <location type="coords">
@@ -17196,12 +17192,18 @@
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/51049/</idno>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/3067421/</idno>
                <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb51049.html</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4240635-3</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/5196314-0</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q470445</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Prost%C4%9Bjov</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb51049.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/95217/</idno>
                <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00000927</idno>
                <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00002888</idno>
                <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00004827</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/94459/</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00002571</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00001038</idno>
                <listBibl>
                   <bibl type="collections" n="5">Karl Kraus: Rechtsakten</bibl>
                   <bibl type="collections" n="77">SemanticKraus</bibl>
@@ -19889,11 +19891,7 @@
             </place>
             <place xml:id="pmb562">
                <placeName>Genf</placeName>
-               <placeName type="legacy-name-merge">Genf</placeName>
-               <placeName type="legacy-name-merge">Drize, Kreis Genf</placeName>
-               <placeName type="alternative-name">Genf</placeName>
-               <placeName type="legacy-name-merge">Geneva</placeName>
-               <placeName type="legacy-name-merge">Genf</placeName>
+               <placeName type="ort_namensvariante">Genève</placeName>
                <desc type="entity_type">P.PPLA</desc>
                <desc type="entity_type_id">1415</desc>
                <location type="coords">
@@ -44040,8 +44038,8 @@
                <idno type="URL" subtype="geonames">https://sws.geonames.org/6691953/</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb91689.html</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb91689.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q264176</idno>
                <listBibl>
-                  <bibl type="collections" n="13">No WikiData-ID found</bibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
