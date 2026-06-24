@@ -6371,6 +6371,7 @@
                <placeName type="alternative-name">Grosswardein</placeName>
                <placeName type="legacy-name">Oradea</placeName>
                <placeName type="legacy-name">Großwardein</placeName>
+               <placeName type="legacy-name-merge">Oradea</placeName>
                <desc type="entity_type">P.PPLA</desc>
                <desc type="entity_type_id">1415</desc>
                <location type="coords">
@@ -6387,8 +6388,10 @@
                <idno type="URL" subtype="geonames">https://sws.geonames.org/671768/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/39487/</idno>
                <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb39487.html</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4253198-6</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb39487.html</idno>
                <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00000620</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/97219/</idno>
                <listBibl>
                   <bibl type="collections" n="13">No WikiData-ID found</bibl>
                   <bibl type="collections" n="5">Karl Kraus: Rechtsakten</bibl>
@@ -14830,6 +14833,7 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q666478</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4406480-9</idno>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/7872995/</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Puchberg_am_Schneeberg</idno>
                <listBibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                   <bibl type="collections" n="77">SemanticKraus</bibl>
@@ -18146,6 +18150,7 @@
                <placeName type="legacy-name-merge">Landstraßer Hauptstraße</placeName>
                <placeName type="legacy-name-merge">Wien-Landstraße</placeName>
                <placeName type="legacy-name-merge">Gemeindebezirk Landstrasse</placeName>
+               <placeName type="legacy-name-merge">Landstraße</placeName>
                <desc type="entity_type">A.ADM3</desc>
                <desc type="entity_type_id">1124</desc>
                <location type="coords">
@@ -18172,9 +18177,13 @@
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb53.html</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb53.html</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb53.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/341506/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/12214069/</idno>
+               <idno type="URL" subtype="schoenberg-ue">https://www.schoenberg-ue.at/ue/places/place.9.11.8</idno>
                <listBibl>
                   <bibl type="collections" n="5">Karl Kraus: Rechtsakten</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
+                  <bibl type="collections" n="87">Schönberg-Briefe: Universal-Edition und Dreililien</bibl>
                </listBibl>
                <note type="image">
                   <figure>
@@ -23655,6 +23664,7 @@
                <placeName type="alternative-name">Breslau</placeName>
                <placeName type="ort_namensvariante">Wrocław</placeName>
                <placeName type="legacy-name-merge">Wroclaw</placeName>
+               <placeName type="legacy-name-merge">Breslau</placeName>
                <desc type="entity_type">P.PPLA</desc>
                <desc type="entity_type_id">1415</desc>
                <location type="coords">
@@ -23684,11 +23694,14 @@
                <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/DWplace00342</idno>
                <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/DWplace00176</idno>
                <idno type="URL" subtype="schnitzler-fischer">https://biblio.ub.uni-freiburg.de/sf/#pmb677</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/341101/</idno>
+               <idno type="URL" subtype="schoenberg-ue">https://www.schoenberg-ue.at/ue/places/place.2.6</idno>
                <listBibl>
                   <bibl type="collections" n="5">Karl Kraus: Rechtsakten</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                   <bibl type="collections" n="77">SemanticKraus</bibl>
                   <bibl type="collections" n="85">S-Fischer</bibl>
+                  <bibl type="collections" n="87">Schönberg-Briefe: Universal-Edition und Dreililien</bibl>
                </listBibl>
             </place>
             <place xml:id="pmb68">
@@ -29456,7 +29469,7 @@
             <place xml:id="pmb90386">
                <placeName>Bosporus</placeName>
                <placeName type="alternative-name">Bosporus</placeName>
-               <desc type="entity_type">H.STRT</desc>
+               <desc type="entity_type">H.STRT (Meerenge)</desc>
                <desc type="entity_type_id">2026</desc>
                <location type="coords">
                   <geo>41,10164 29,06097</geo>
@@ -30765,7 +30778,7 @@
                <placeName>Dardanellen</placeName>
                <placeName type="alternative-name">Dardanelles</placeName>
                <placeName type="alternative-name">Hellespont</placeName>
-               <desc type="entity_type">H.STRT</desc>
+               <desc type="entity_type">H.STRT (Meerenge)</desc>
                <desc type="entity_type_id">2026</desc>
                <location type="coords">
                   <geo>40,21407 26,4584</geo>
@@ -44039,6 +44052,7 @@
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb91689.html</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb91689.html</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q264176</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Grazer_Schlo%C3%9Fberg</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
@@ -50261,6 +50275,8 @@
             </place>
             <place xml:id="pmb92227">
                <placeName>Elsaß-Lothringen</placeName>
+               <desc type="entity_type">Teil eines Landes (A.LNDX)</desc>
+               <desc type="entity_type_id">13</desc>
                <location type="coords">
                   <geo>48,43 6,82</geo>
                </location>
@@ -50272,6 +50288,9 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q155144</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Reichsland_Elsa%C3%9F-Lothringen</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92227.html</idno>
+               <listBibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
+               </listBibl>
                <note type="apis_dates">
                   <date from-iso="1871-01-01" to-iso="1918-01-01">1871 – 1918</date>
                </note>
