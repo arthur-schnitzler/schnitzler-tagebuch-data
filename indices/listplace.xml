@@ -2035,10 +2035,14 @@
                <placeName>Teneriffa</placeName>
                <placeName type="alternative-name">Tenerife Island</placeName>
                <placeName type="legacy-name-merge">Tenerife</placeName>
-               <desc type="entity_type">T.ISL</desc>
+               <desc type="entity_type">T.ISL [Insel]</desc>
                <desc type="entity_type_id">1576</desc>
                <location type="coords">
                   <geo>28,32977 -16,5097</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb363849">Kanarische Inseln</placeName>
+                  <geo>28,0 -15,75</geo>
                </location>
                <location type="located_in_place">
                   <placeName ref="pmb388">Spanien</placeName>
@@ -15434,7 +15438,7 @@
                <placeName>Elba</placeName>
                <placeName type="alternative-name">Elba</placeName>
                <placeName type="legacy-name-merge">Elba</placeName>
-               <desc type="entity_type">T.ISL</desc>
+               <desc type="entity_type">T.ISL [Insel]</desc>
                <desc type="entity_type_id">1576</desc>
                <location type="coords">
                   <geo>42,77663 10,27788</geo>
@@ -27937,7 +27941,7 @@
             </place>
             <place xml:id="pmb90249">
                <placeName>Antilles</placeName>
-               <desc type="entity_type">T.ISLS</desc>
+               <desc type="entity_type">T.ISLS [Inselgruppe]</desc>
                <desc type="entity_type_id">1593</desc>
                <location type="coords">
                   <geo>18,73333 -69,15</geo>
@@ -30133,7 +30137,7 @@
                <placeName>Capri</placeName>
                <placeName type="legacy-name-merge">Isola di Capri</placeName>
                <placeName type="alternative-name">Capri</placeName>
-               <desc type="entity_type">T.ISL</desc>
+               <desc type="entity_type">T.ISL [Insel]</desc>
                <desc type="entity_type_id">1576</desc>
                <location type="coords">
                   <geo>40,55073 14,24263</geo>
@@ -30710,7 +30714,7 @@
             <place xml:id="pmb90502">
                <placeName>Korcula</placeName>
                <placeName type="alternative-name">Korčula</placeName>
-               <desc type="entity_type">T.ISL</desc>
+               <desc type="entity_type">T.ISL [Insel]</desc>
                <desc type="entity_type_id">1576</desc>
                <location type="coords">
                   <geo>42,94861 16,91806</geo>
@@ -35616,7 +35620,7 @@
                <placeName>Ven</placeName>
                <placeName type="alternative-name">Ven</placeName>
                <placeName type="ort_namensvariante">Hven</placeName>
-               <desc type="entity_type">T.ISL</desc>
+               <desc type="entity_type">T.ISL [Insel]</desc>
                <desc type="entity_type_id">1576</desc>
                <location type="coords">
                   <geo>55,91004 12,69878</geo>
@@ -35840,7 +35844,7 @@
             <place xml:id="pmb90938">
                <placeName>Isle of Wight</placeName>
                <placeName type="alternative-name">Isle of Wight</placeName>
-               <desc type="entity_type">T.ISL</desc>
+               <desc type="entity_type">T.ISL [Insel]</desc>
                <desc type="entity_type_id">1576</desc>
                <location type="coords">
                   <geo>50,66667 -1,33333</geo>
@@ -35905,7 +35909,7 @@
                <placeName type="alternative-name">Ithaka</placeName>
                <placeName type="alternative-name">Ithaca</placeName>
                <placeName type="alternative-name">Ithaca Island</placeName>
-               <desc type="entity_type">T.ISL</desc>
+               <desc type="entity_type">T.ISL [Insel]</desc>
                <desc type="entity_type_id">1576</desc>
                <location type="coords">
                   <geo>38,38419 20,67078</geo>
@@ -35995,7 +35999,7 @@
             <place xml:id="pmb90952">
                <placeName>Java</placeName>
                <placeName type="alternative-name">Java</placeName>
-               <desc type="entity_type">T.ISL</desc>
+               <desc type="entity_type">T.ISL [Insel]</desc>
                <desc type="entity_type_id">1576</desc>
                <location type="coords">
                   <geo>-7,49167 110,00444</geo>
@@ -36392,7 +36396,7 @@
                <placeName type="alternative-name">Fortunate Isles</placeName>
                <placeName type="alternative-name">The Canaries</placeName>
                <placeName type="alternative-name">Canaren</placeName>
-               <desc type="entity_type">T.ISLS</desc>
+               <desc type="entity_type">T.ISLS [Inselgruppe]</desc>
                <desc type="entity_type_id">1593</desc>
                <location type="coords">
                   <geo>28,0 -15,5</geo>
@@ -38391,7 +38395,7 @@
             </place>
             <place xml:id="pmb91161">
                <placeName>Lofoten</placeName>
-               <desc type="entity_type">T.ISLS</desc>
+               <desc type="entity_type">T.ISLS [Inselgruppe]</desc>
                <desc type="entity_type_id">1593</desc>
                <location type="coords">
                   <geo>68,20483 12,79496</geo>
@@ -38784,7 +38788,7 @@
             <place xml:id="pmb91197">
                <placeName>Majorca</placeName>
                <placeName type="alternative-name">Mallorca</placeName>
-               <desc type="entity_type">T.ISL</desc>
+               <desc type="entity_type">T.ISL [Insel]</desc>
                <desc type="entity_type_id">1576</desc>
                <location type="coords">
                   <geo>39,6078 3,01197</geo>
@@ -38948,7 +38952,7 @@
             <place xml:id="pmb91207">
                <placeName>Margit-sziget</placeName>
                <placeName type="alternative-name">Margareteninsel</placeName>
-               <desc type="entity_type">T.ISL</desc>
+               <desc type="entity_type">T.ISL [Insel]</desc>
                <desc type="entity_type_id">1576</desc>
                <location type="coords">
                   <geo>47,5267 19,04783</geo>
@@ -44538,7 +44542,7 @@
                </listBibl>
             </place>
             <place xml:id="pmb91731">
-               <placeName>Sella Pass</placeName>
+               <placeName>Sellajoch</placeName>
                <placeName type="alternative-name">Sellajoch</placeName>
                <placeName type="alternative-name">Sella Pass</placeName>
                <desc type="entity_type">T.PASS</desc>
@@ -44938,7 +44942,7 @@
             </place>
             <place xml:id="pmb91764">
                <placeName>Skeppsholmen</placeName>
-               <desc type="entity_type">T.ISL</desc>
+               <desc type="entity_type">T.ISL [Insel]</desc>
                <desc type="entity_type_id">1576</desc>
                <location type="coords">
                   <geo>59,32544 18,08435</geo>
@@ -45598,7 +45602,7 @@
             </place>
             <place xml:id="pmb91822">
                <placeName>Gjesværstappan</placeName>
-               <desc type="entity_type">T.ISL</desc>
+               <desc type="entity_type">T.ISL [Insel]</desc>
                <desc type="entity_type_id">1576</desc>
                <location type="coords">
                   <geo>71,13997 25,33659</geo>
@@ -45951,7 +45955,7 @@
             <place xml:id="pmb91859">
                <placeName>Sumatra</placeName>
                <placeName type="alternative-name">Sumatra</placeName>
-               <desc type="entity_type">T.ISL</desc>
+               <desc type="entity_type">T.ISL [Insel]</desc>
                <desc type="entity_type_id">1576</desc>
                <location type="located_in_place">
                   <placeName ref="pmb35585">Indonesien</placeName>
@@ -45966,7 +45970,7 @@
             <place xml:id="pmb91863">
                <placeName>Sylt</placeName>
                <placeName type="alternative-name">Sylt</placeName>
-               <desc type="entity_type">T.ISL</desc>
+               <desc type="entity_type">T.ISL [Insel]</desc>
                <desc type="entity_type_id">1576</desc>
                <location type="coords">
                   <geo>54,91823 8,33113</geo>
