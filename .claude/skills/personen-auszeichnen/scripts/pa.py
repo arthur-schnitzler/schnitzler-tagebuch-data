@@ -2868,14 +2868,31 @@ def cmd_sichern(args):
 
 
 def cmd_fortschritt(args):
-    """Welche Monate sind erledigt, welche kommen als Nächstes?"""
+    """Welche Monate sind erledigt, welche kommen als Nächstes? Mit --tage reicht die Auswahl bis zu dieser Zahl von
+    Einträgen (mindestens ein Monat, höchstens --anzahl Monate): dünn besetzte Monate werden so zusammen bearbeitet."""
     fort = _fortschritt_lesen()
-    monate = sorted({t[:7] for t in alle_tage()})
+    alle = alle_tage()
+    monate = sorted({t[:7] for t in alle})
     erledigt = [m for m in monate if any(m.startswith(k) for k in fort)]
     offen = [m for m in monate if m not in erledigt and (not args.ab or m >= args.ab)]
     print(f"{len(erledigt)} von {len(monate)} Monaten erledigt; {len([m for m in monate if m not in erledigt])} offen")
-    if offen:
+    if not offen:
+        return 0
+    tage = getattr(args, "tage", None)
+    if not tage:
         print("nächste: " + ", ".join(offen[:args.anzahl]))
+        return 0
+    je_monat = {}
+    for t in alle:
+        je_monat[t[:7]] = je_monat.get(t[:7], 0) + 1
+    wahl, summe = [], 0
+    for m in offen:
+        if len(wahl) >= args.anzahl or (wahl and summe >= tage):
+            break
+        wahl.append(m)
+        summe += je_monat[m]
+    print("nächste: " + ", ".join(wahl))
+    print(f"{len(wahl)} Monate, {summe} Einträge")
     return 0
 
 
@@ -2928,7 +2945,8 @@ def main(argv=None):
     p.set_defaults(fn=cmd_sichern)
     p = sub.add_parser("fortschritt", help="erledigte und nächste Monate eines Gesamtlaufs")
     p.add_argument("--ab", help="frühester Monat (YYYY-MM)")
-    p.add_argument("--anzahl", type=int, default=12)
+    p.add_argument("--anzahl", type=int, default=12, help="höchstens so viele Monate nennen")
+    p.add_argument("--tage", type=int, help="Auswahl bis zu dieser Zahl von Einträgen (mindestens ein Monat)")
     p.set_defaults(fn=cmd_fortschritt)
     p = sub.add_parser("register-luecken", help="PMB-Personen in Einträgen/Index, die nicht in listperson.xml stehen")
     p.set_defaults(fn=cmd_register_luecken)

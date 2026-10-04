@@ -43,24 +43,27 @@ indices/index_person_day.xml abgleichen und implizit erwähnte Personen finden. 
 Rückfragen. Entscheide nach den Regeln des Skills und halte dich im Zweifel zurück (nichts anwenden, im Bericht nennen).
 
 1. Einrichten
-   - git fetch origin. Sperre: Gibt es origin/claude/personen-lauf und ist sein letzter Commit jünger als 25 Minuten
-     (git log -1 --format=%ct origin/claude/personen-lauf gegen date +%s), arbeitet vermutlich eine andere Sitzung daran. Beende dich
-     dann sofort mit der Meldung »andere Sitzung aktiv« und ändere nichts (parallele Sitzungen würden dieselben xml:id vergeben).
+   - git fetch origin. Sperre: Gibt es origin/claude/personen-lauf, lies seinen letzten Commit (git log -1 --format='%ct %s'
+     origin/claude/personen-lauf; date +%s). Ist er jünger als 25 Minuten und beginnt die Betreffzeile nicht mit »Sitzung beendet«,
+     arbeitet vermutlich eine andere Sitzung daran: Beende dich sofort mit der Meldung »andere Sitzung aktiv« und ändere nichts
+     (parallele Sitzungen würden dieselben xml:id vergeben).
    - Arbeitsbranch claude/personen-lauf: Gibt es origin/claude/personen-lauf, dann
      git checkout -B claude/personen-lauf origin/claude/personen-lauf, sonst
-     git checkout -B claude/personen-lauf origin/claude/personen-skill.
+     git checkout -B claude/personen-lauf origin/claude/personen-skill. Fehlt eine Git-Identität: git config user.name Claude und
+     git config user.email noreply@anthropic.com.
    - Nur wenn origin/claude/personen-lauf schon existierte: git merge --no-edit origin/claude/personen-skill (holt Verbesserungen des
      Skills; berührt nur .claude/skills/personen-auszeichnen/scripts und references). Bei einem Konflikt: abbrechen und melden.
    - Push-Test sofort: git push -u origin claude/personen-lauf (noch ohne neue Commits). Scheitert er (z. B. 403), brich ab und melde
      das, bevor du Arbeit investierst.
    - python3 -c "import lxml" (falls es fehlt: pip install lxml).
-   - Lies .claude/skills/personen-auszeichnen/SKILL.md vollständig und references/konventionen.md; vor Durchgang B references/implied.md.
-     Der Skill ist deine Arbeitsanweisung; die Punkte hier ergänzen sie. Der Schreibschutz-Hook ist in dieser Sitzung nicht aktiv:
-     Ändere XML-Dateien trotzdem nie direkt, nur mit pa.py apply.
+   - python3 .claude/skills/personen-auszeichnen/scripts/pa.py fortschritt --anzahl 40 --tage 250 nennt die nächsten offenen Monate.
+     Nennt es keinen offenen Monat mehr, melde »Gesamtlauf abgeschlossen« (Push-Benachrichtigung erlaubt) und beende die Sitzung.
+   - Sonst: Lies .claude/skills/personen-auszeichnen/SKILL.md vollständig und references/konventionen.md; vor Durchgang B
+     references/implied.md. Der Skill ist deine Arbeitsanweisung; die Punkte hier ergänzen sie. Der Schreibschutz-Hook ist in dieser
+     Sitzung nicht aktiv: Ändere XML-Dateien trotzdem nie direkt, nur mit pa.py apply.
    - python3 .claude/skills/personen-auszeichnen/scripts/test_skill.py muss »alles in Ordnung« melden, sonst brich ab und melde es.
-2. Bereich: python3 .claude/skills/personen-auszeichnen/scripts/pa.py fortschritt --anzahl 12 nennt die nächsten offenen Monate.
-   Bearbeite sie der Reihe nach (höchstens 12 in dieser Sitzung). Nennt es keinen offenen Monat mehr, melde »Gesamtlauf
-   abgeschlossen« und beende die Sitzung.
+2. Bereich: genau die Monate, die fortschritt in Schritt 1 genannt hat (bei dichten Jahrgängen etwa 8–9, in den dünn besetzten
+   Anfangsjahren bis zu 40). Bearbeite sie der Reihe nach.
 3. Je Monat nach SKILL.md (Durchgang A mit --aufgaben 1,2, dann B mit --aufgaben 3), mit diesen Änderungen für den Lauf:
    - Du fragst nicht nach; Entscheidungen schreibst du selbst in temp/personen-auszeichnen/<Monat>/entscheidungen-A.json und -B.json.
    - Je Durchgang: apply --dry-run (Ausgabe lesen), danach apply --ruhig. Committe nach Durchgang A (git add editions indices;
@@ -76,9 +79,14 @@ Rückfragen. Entscheide nach den Regeln des Skills und halte dich im Zweifel zur
      allen anderen Push-Fehlern.
 4. Grenzen: Du änderst nur editions/, indices/index_person_day.xml, indices/implied-persons.txt und
    .claude/skills/personen-auszeichnen/lauf/. Kein Merge nach master, kein Pull Request, kein Force-Push, keine Änderung an
-   listperson.xml, listplace.xml, listwork.xml.
-5. Ende: Alles gepusht? Gib aus: erledigte Monate, Zahl der Operationen je Art, neue implied-person-Kennungen, PMB-Personen
-   außerhalb des Registers, offene Punkte (Stufe C, Prüfbefunde), Probleme.
+   listperson.xml, listplace.xml, listwork.xml. Sende keine Push-Benachrichtigung, außer bei Abbruch wegen eines Fehlers und bei
+   »Gesamtlauf abgeschlossen«.
+5. Ende: Sind alle Monate gepusht, setze die Marke, die die Sperre freigibt:
+   git commit --allow-empty -m "Sitzung beendet: <erster>..<letzter Monat>" (in den Rumpf der Meldung: Zahl der Operationen je Art
+   und offene Punkte in zwei, drei Zeilen), danach git push origin claude/personen-lauf. Bei einem Abbruch wegen eines Fehlers setzt
+   du die Marke nicht (die Sperre läuft nach 25 Minuten ab). Abschlussbericht, Deutsch, höchstens 15 Zeilen: erledigte Monate, Zahl
+   der Operationen je Art, neue implied-person-Kennungen, PMB-Personen außerhalb des Registers, offene Punkte (Stufe C,
+   Prüfbefunde), Probleme.
 ```
 
 **Pilot-Variante** (am 2026-10-04 gelaufen): Statt Schritt 2: »Bearbeite genau diese Monate: 1880-05, 1902-07, 1905-03, 1921-11.« Der Pilot
