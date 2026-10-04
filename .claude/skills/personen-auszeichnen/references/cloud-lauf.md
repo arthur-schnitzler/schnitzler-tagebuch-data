@@ -44,8 +44,8 @@ Rückfragen. Entscheide nach den Regeln des Skills und halte dich im Zweifel zur
 
 1. Einrichten
    - git fetch origin. Sperre: Gibt es origin/claude/personen-lauf, lies seinen letzten Commit (git log -1 --format='%ct %s'
-     origin/claude/personen-lauf; date +%s). Ist er jünger als 25 Minuten und beginnt die Betreffzeile nicht mit »Sitzung beendet«,
-     arbeitet vermutlich eine andere Sitzung daran: Beende dich sofort mit der Meldung »andere Sitzung aktiv« und ändere nichts
+     origin/claude/personen-lauf; date +%s). Ist er jünger als 25 Minuten und beginnt die Betreffzeile nicht mit »Sitzung beendet« oder
+     »Gesamtlauf abgeschlossen«, arbeitet vermutlich eine andere Sitzung daran: Beende dich sofort mit der Meldung »andere Sitzung aktiv« und ändere nichts
      (parallele Sitzungen würden dieselben xml:id vergeben).
    - Arbeitsbranch claude/personen-lauf: Gibt es origin/claude/personen-lauf, dann
      git checkout -B claude/personen-lauf origin/claude/personen-lauf, sonst
@@ -57,7 +57,10 @@ Rückfragen. Entscheide nach den Regeln des Skills und halte dich im Zweifel zur
      das, bevor du Arbeit investierst.
    - python3 -c "import lxml" (falls es fehlt: pip install lxml).
    - python3 .claude/skills/personen-auszeichnen/scripts/pa.py fortschritt --anzahl 40 --tage 250 nennt die nächsten offenen Monate.
-     Nennt es keinen offenen Monat mehr, melde »Gesamtlauf abgeschlossen« (Push-Benachrichtigung erlaubt) und beende die Sitzung.
+     Nennt es keinen offenen Monat mehr: Beginnt der letzte Commit von origin/claude/personen-lauf nicht mit »Gesamtlauf
+     abgeschlossen«, setze diese Marke (git commit --allow-empty -m "Gesamtlauf abgeschlossen: <Datum>"; git push origin
+     claude/personen-lauf), sende eine Push-Benachrichtigung und melde es; sonst beende dich ohne Benachrichtigung und ohne
+     weitere Arbeit (die Routine läuft stündlich weiter, bis sie abgeschaltet wird).
    - Sonst: Lies .claude/skills/personen-auszeichnen/SKILL.md vollständig und references/konventionen.md; vor Durchgang B
      references/implied.md. Der Skill ist deine Arbeitsanweisung; die Punkte hier ergänzen sie. Der Schreibschutz-Hook ist in dieser
      Sitzung nicht aktiv: Ändere XML-Dateien trotzdem nie direkt, nur mit pa.py apply.
@@ -79,8 +82,8 @@ Rückfragen. Entscheide nach den Regeln des Skills und halte dich im Zweifel zur
      allen anderen Push-Fehlern.
 4. Grenzen: Du änderst nur editions/, indices/index_person_day.xml, indices/implied-persons.txt und
    .claude/skills/personen-auszeichnen/lauf/. Kein Merge nach master, kein Pull Request, kein Force-Push, keine Änderung an
-   listperson.xml, listplace.xml, listwork.xml. Sende keine Push-Benachrichtigung, außer bei Abbruch wegen eines Fehlers und bei
-   »Gesamtlauf abgeschlossen«.
+   listperson.xml, listplace.xml, listwork.xml. Sende keine Push-Benachrichtigung, außer bei Abbruch wegen eines Fehlers und beim
+   ersten »Gesamtlauf abgeschlossen«.
 5. Ende: Sind alle Monate gepusht, setze die Marke, die die Sperre freigibt:
    git commit --allow-empty -m "Sitzung beendet: <erster>..<letzter Monat>" (in den Rumpf der Meldung: Zahl der Operationen je Art
    und offene Punkte in zwei, drei Zeilen), danach git push origin claude/personen-lauf. Bei einem Abbruch wegen eines Fehlers setzt
