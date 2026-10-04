@@ -18,7 +18,7 @@ einfacher Schutz »Pull Request erforderlich« würde den wöchentlichen Bot-Lau
 | Baustein | Festlegung |
 |---|---|
 | Skill-Branch | `claude/personen-skill`: aktueller `origin/master` plus der Ordner `.claude/skills/personen-auszeichnen/` (mit `data/`) und der Eintrag `/temp-indices` in `.gitignore` |
-| Arbeitsbranch | `claude/personen-lauf`: entsteht aus dem Skill-Branch, die Sitzungen setzen ihn fort; nie nach `master` mergen, nur per Pull Request nach Durchsicht |
+| Arbeitsbranch | `claude/personen-lauf`: entsteht aus dem Skill-Branch, die Sitzungen setzen ihn fort und holen sich Skill-Verbesserungen per `git merge`; nie nach `master` mergen, nur per Pull Request nach Durchsicht |
 | Reihenfolge | strikt chronologisch und nacheinander, **nicht parallel**: neue `xml:id`s (globales Maximum + 1), die Nummern der `implied-person_N` und `index_person_day.xml` sind gemeinsamer Zustand |
 | Einheit | ein Monat je Durchgang A und B, ein Commit je Monat (`Personen ausgezeichnet: YYYY-MM`), danach Push |
 | Fortschritt | `lauf/fortschritt.txt` (Befehl `pa.py fortschritt`); eine neue Sitzung macht beim ersten offenen Monat weiter |
@@ -39,6 +39,8 @@ Rückfragen. Entscheide nach den Regeln des Skills und halte dich im Zweifel zur
    - git fetch origin. Arbeitsbranch claude/personen-lauf: Gibt es origin/claude/personen-lauf, dann
      git checkout -B claude/personen-lauf origin/claude/personen-lauf, sonst
      git checkout -B claude/personen-lauf origin/claude/personen-skill.
+   - Nur wenn origin/claude/personen-lauf schon existierte: git merge --no-edit origin/claude/personen-skill (holt Verbesserungen des
+     Skills; berührt nur .claude/skills/personen-auszeichnen/scripts und references). Bei einem Konflikt: abbrechen und melden.
    - Push-Test sofort: git push -u origin claude/personen-lauf (noch ohne neue Commits). Scheitert er (z. B. 403), brich ab und melde
      das, bevor du Arbeit investierst.
    - python3 -c "import lxml" (falls es fehlt: pip install lxml).
@@ -67,8 +69,9 @@ Rückfragen. Entscheide nach den Regeln des Skills und halte dich im Zweifel zur
    außerhalb des Registers, offene Punkte (Stufe C, Prüfbefunde), Probleme.
 ```
 
-**Pilot-Variante**: Statt Schritt 2: »Bearbeite genau diese Monate: 1880-05, 1902-07, 1905-03, 1921-11.« Der Pilot geht in denselben Branch;
-die Redaktion prüft den Diff (`git diff origin/master...claude/personen-lauf`) und die Berichte unter `lauf/`, bevor der Lauf fortgesetzt wird.
+**Pilot-Variante** (am 2026-10-04 gelaufen): Statt Schritt 2: »Bearbeite genau diese Monate: 1880-05, 1902-07, 1905-03, 1921-11.« Der Pilot
+geht in denselben Branch; die Redaktion prüft den Diff (`git diff origin/master...claude/personen-lauf`) und die Berichte unter `lauf/`,
+bevor der Lauf fortgesetzt wird.
 
 ## Routine anlegen
 
@@ -84,7 +87,22 @@ Zeitplan (einmalig, deaktiviert) und wird je Sitzung mit »Run now« gestartet. 
 - Der Branch ändert `index_person_day.xml` flächig; manuelle Arbeit der Redaktion an dieser Datei und an denselben Einträgen
   während des Laufs vermeiden, sonst gibt es Merge-Konflikte.
 
-## Offene Unsicherheiten (erst im Pilot klar)
+## Befunde aus dem Pilot (2026-10-04, Sonnet 5.5)
 
-Ob die Cloud-Sitzung auf `claude/…`-Branches pushen darf, ob `lxml` vorhanden oder installierbar ist, wie lange eine Sitzung läuft
-und was das Kontingent hergibt. Darum zuerst der Pilot.
+- **Umgebung**: Python 3.11, `lxml` fehlt im Image, `pip install lxml` genügt (6.1.3). Push auf `claude/…`-Branches geht, sobald die
+  Claude-GitHub-App für das Repository freigegeben ist (ohne sie 403).
+- **Dauer**: vier Monate in 332 s und 29 Zügen einschließlich Einrichtung. Der erste Scan baut den Korpus-Cache (≈ 68 s), jeder
+  weitere Scan braucht 3–4 s. Der ganze Bestand sind 615 Monate (611 offen nach dem Pilot): bei 12 Monaten je Sitzung ≈ 51 Sitzungen.
+- **Ergebnis**: 65 Operationen (38 `set_ref`, 27 `implied`), 19 neue Index-Zeilen, 2 neue Kennungen
+  (`implied-person_1|?? [Frau von Leopold Schmidt]`, `implied-person_2|?? [Frau von Oskar Benjamin Frankl]`), `pa.py verify` über
+  alle 33 geänderten Tage ohne Verstöße. Gegenprobe außerhalb der Sitzung: Alle `@ref` der 38 `set_ref` standen schon vor dem Lauf im Tagesindex
+  (geschlossene Menge eingehalten); die 24 Ehepartner-`implied` (13 verschiedene Paare) sind in den PMB-Relationen als zum Datum
+  gültige Ehe belegt; die Entscheidungen waren zurückhaltend (nichts angewendet bei Heller, Mann's, Kreglinger, K.s).
+- **Unsicherste Fälle** (zur Durchsicht): 1880-05-30 »seinen Bruder« → Alexander Zucker (pmb339476, einziger Bruder in der PMB,
+  nicht im Register), 1905-03-01 »Gutmann-Gelses« → Albertine (Heiratsdatum fehlt), 1880-05-09 »Königs« → Georg König (Familie auf
+  das Haupt bezogen).
+- **Behobener Fehler** (nach dem Pilot): Berührte ein `apply` nur einen Tag, landete das Protokoll im Tagesordner statt im
+  Monatsordner und fehlte deshalb in `lauf/`. Betroffen ist 1880-05 (der Eintrag zu Alexander Zucker fehlt in `protokoll.jsonl` und
+  im Bericht; `entscheidungen-B.json` und der Diff enthalten ihn). Der Fix steht auf dem Skill-Branch (Sitzungen holen ihn per Merge).
+- **Berichtsform**: In den Pilot-Berichten stehen auch Stufe-A-Einträge unter »Mit Begründung (Stufe B …)«; seit dem Fix zählt der
+  Bericht Stufe A nur und listet Entscheidungen von Hand einzeln.
