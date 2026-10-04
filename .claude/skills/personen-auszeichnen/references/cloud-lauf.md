@@ -36,7 +36,10 @@ indices/index_person_day.xml abgleichen und implizit erwähnte Personen finden. 
 Rückfragen. Entscheide nach den Regeln des Skills und halte dich im Zweifel zurück (nichts anwenden, im Bericht nennen).
 
 1. Einrichten
-   - git fetch origin. Arbeitsbranch claude/personen-lauf: Gibt es origin/claude/personen-lauf, dann
+   - git fetch origin. Sperre: Gibt es origin/claude/personen-lauf und ist sein letzter Commit jünger als 25 Minuten
+     (git log -1 --format=%ct origin/claude/personen-lauf gegen date +%s), arbeitet vermutlich eine andere Sitzung daran. Beende dich
+     dann sofort mit der Meldung »andere Sitzung aktiv« und ändere nichts (parallele Sitzungen würden dieselben xml:id vergeben).
+   - Arbeitsbranch claude/personen-lauf: Gibt es origin/claude/personen-lauf, dann
      git checkout -B claude/personen-lauf origin/claude/personen-lauf, sonst
      git checkout -B claude/personen-lauf origin/claude/personen-skill.
    - Nur wenn origin/claude/personen-lauf schon existierte: git merge --no-edit origin/claude/personen-skill (holt Verbesserungen des
@@ -49,7 +52,8 @@ Rückfragen. Entscheide nach den Regeln des Skills und halte dich im Zweifel zur
      Ändere XML-Dateien trotzdem nie direkt, nur mit pa.py apply.
    - python3 .claude/skills/personen-auszeichnen/scripts/test_skill.py muss »alles in Ordnung« melden, sonst brich ab und melde es.
 2. Bereich: python3 .claude/skills/personen-auszeichnen/scripts/pa.py fortschritt --anzahl 12 nennt die nächsten offenen Monate.
-   Bearbeite sie der Reihe nach (höchstens 12 in dieser Sitzung).
+   Bearbeite sie der Reihe nach (höchstens 12 in dieser Sitzung). Nennt es keinen offenen Monat mehr, melde »Gesamtlauf
+   abgeschlossen« und beende die Sitzung.
 3. Je Monat nach SKILL.md (Durchgang A mit --aufgaben 1,2, dann B mit --aufgaben 3), mit diesen Änderungen für den Lauf:
    - Du fragst nicht nach; Entscheidungen schreibst du selbst in temp/personen-auszeichnen/<Monat>/entscheidungen-A.json und -B.json.
    - Je Durchgang: apply --dry-run (Ausgabe lesen), danach apply --ruhig. Committe nach Durchgang A (git add editions indices;
@@ -60,8 +64,9 @@ Rückfragen. Entscheide nach den Regeln des Skills und halte dich im Zweifel zur
      pa.py sichern <Monat> --keine-arbeit --notiz "verify fehlgeschlagen: …" vermerkt.
    - pa.py bericht <Monat>, dann pa.py sichern <Monat>; Monate ohne Arbeit: pa.py sichern <Monat> --keine-arbeit.
    - git add editions indices .claude/skills/personen-auszeichnen/lauf; git commit -m "Personen ausgezeichnet: YYYY-MM";
-     git push origin claude/personen-lauf. Bei »non-fast-forward« git pull --rebase und erneut pushen; bei anderen Push-Fehlern
-     die Sitzung mit klarer Meldung beenden.
+     git push origin claude/personen-lauf. Bei »non-fast-forward« (eine andere Sitzung oder die Redaktion hat gepusht) nicht
+     rebasen und nicht erneut pushen, sondern die Sitzung mit klarer Meldung beenden (neue xml:id könnten kollidieren); ebenso bei
+     allen anderen Push-Fehlern.
 4. Grenzen: Du änderst nur editions/, indices/index_person_day.xml, indices/implied-persons.txt und
    .claude/skills/personen-auszeichnen/lauf/. Kein Merge nach master, kein Pull Request, kein Force-Push, keine Änderung an
    listperson.xml, listplace.xml, listwork.xml.
