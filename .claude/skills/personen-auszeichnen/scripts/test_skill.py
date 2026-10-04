@@ -19,6 +19,7 @@ import sys
 import tempfile
 from pathlib import Path
 
+sys.dont_write_bytecode = True          # kein __pycache__ im Repo (auch nicht in Cloud-Läufen)
 HIER = Path(__file__).resolve().parent
 spec = importlib.util.spec_from_file_location("pa", HIER / "pa.py")
 pa = importlib.util.module_from_spec(spec)

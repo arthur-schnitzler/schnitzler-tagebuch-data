@@ -4,6 +4,15 @@ Der Skill kann unbeaufsichtigt in einer Cloud-Sitzung laufen. Die Sitzung arbeit
 sieht nur, was dort liegt, nichts von der lokalen Arbeitskopie (auch nicht `temp-indices/`). Skill und `data/` müssen deshalb auf
 einem Branch auf GitHub stehen, bevor die Routine startet.
 
+## Voraussetzung: Claude-GitHub-App
+
+Die Cloud-Sitzung klont das öffentliche Repository ohne Anmeldung, **pusht aber nur, wenn die Claude-GitHub-App für das Repository
+freigegeben ist** (sonst `403 … Claude doesn't have GitHub access`; so im ersten Pilot am 2026-10-04). Eine Organisation
+braucht dafür einen Administrator: <https://github.com/apps/claude/installations/select_target> (Organisation wählen, nur dieses
+Repository freigeben) oder GitHub unter <https://claude.ai/customize/connectors> neu verbinden. Besser vorher auf `master` eine
+Regel setzen, die direkte Pushes für die App ausschließt (Ruleset mit Bypass nur für GitHub Actions und Administratoren; ein
+einfacher Schutz »Pull Request erforderlich« würde den wöchentlichen Bot-Lauf blockieren).
+
 ## Aufbau
 
 | Baustein | Festlegung |
@@ -30,6 +39,8 @@ Rückfragen. Entscheide nach den Regeln des Skills und halte dich im Zweifel zur
    - git fetch origin. Arbeitsbranch claude/personen-lauf: Gibt es origin/claude/personen-lauf, dann
      git checkout -B claude/personen-lauf origin/claude/personen-lauf, sonst
      git checkout -B claude/personen-lauf origin/claude/personen-skill.
+   - Push-Test sofort: git push -u origin claude/personen-lauf (noch ohne neue Commits). Scheitert er (z. B. 403), brich ab und melde
+     das, bevor du Arbeit investierst.
    - python3 -c "import lxml" (falls es fehlt: pip install lxml).
    - Lies .claude/skills/personen-auszeichnen/SKILL.md vollständig und references/konventionen.md; vor Durchgang B references/implied.md.
      Der Skill ist deine Arbeitsanweisung; die Punkte hier ergänzen sie. Der Schreibschutz-Hook ist in dieser Sitzung nicht aktiv:
@@ -39,8 +50,9 @@ Rückfragen. Entscheide nach den Regeln des Skills und halte dich im Zweifel zur
    Bearbeite sie der Reihe nach (höchstens 12 in dieser Sitzung).
 3. Je Monat nach SKILL.md (Durchgang A mit --aufgaben 1,2, dann B mit --aufgaben 3), mit diesen Änderungen für den Lauf:
    - Du fragst nicht nach; Entscheidungen schreibst du selbst in temp/personen-auszeichnen/<Monat>/entscheidungen-A.json und -B.json.
-   - Je Durchgang: apply --dry-run (Ausgabe lesen), danach apply --ruhig. Das Arbeitsverzeichnis ist vor jedem Monat sauber
-     (alles committet), sonst bricht apply ab.
+   - Je Durchgang: apply --dry-run (Ausgabe lesen), danach apply --ruhig. Committe nach Durchgang A (git add editions indices;
+     git commit -m 'Personen ausgezeichnet: YYYY-MM (Durchgang A)'), bevor du Durchgang B beginnst: Das Arbeitsverzeichnis muss
+     für apply sauber sein. Lass keine unversionierten Dateien zurück (der Stop-Hook der Sitzung prüft das).
    - Nach Durchgang B: pa.py verify muss »keine Verstöße« melden. Sonst: Ursache klären; was verify nicht besteht, wird nicht
      committet (nur die betroffenen Dateien mit git checkout -- <Datei> zurücksetzen) und der Monat mit
      pa.py sichern <Monat> --keine-arbeit --notiz "verify fehlgeschlagen: …" vermerkt.
