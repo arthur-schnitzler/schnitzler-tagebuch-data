@@ -9,9 +9,16 @@ einem Branch auf GitHub stehen, bevor die Routine startet.
 Die Cloud-Sitzung klont das öffentliche Repository ohne Anmeldung, **pusht aber nur, wenn die Claude-GitHub-App für das Repository
 freigegeben ist** (sonst `403 … Claude doesn't have GitHub access`; so im ersten Pilot am 2026-10-04). Eine Organisation
 braucht dafür einen Administrator: <https://github.com/apps/claude/installations/select_target> (Organisation wählen, nur dieses
-Repository freigeben) oder GitHub unter <https://claude.ai/customize/connectors> neu verbinden. Besser vorher auf `master` eine
-Regel setzen, die direkte Pushes für die App ausschließt (Ruleset mit Bypass nur für GitHub Actions und Administratoren; ein
-einfacher Schutz »Pull Request erforderlich« würde den wöchentlichen Bot-Lauf blockieren).
+Repository freigeben) oder GitHub unter <https://claude.ai/customize/connectors> neu verbinden.
+
+**Schutz von `master`**: Die Pushes der Cloud-Sitzungen laufen unter dem GitHub-Konto der Person, die GitHub mit claude.ai
+verbunden hat (in der Aktivitätsliste des Repositorys steht deren Name), nicht unter einer eigenen App-Identität. Ein Ruleset kann
+sie deshalb nicht von den eigenen Pushes der Redaktion trennen, und eine Ausnahme für Administratoren nähme die Cloud-Sitzungen
+mit aus. Routinen pushen standardmäßig auf `claude/…`-Branches, der Prompt verbietet `master`. Als Sicherung genügen ein Ruleset
+auf `master` nur mit »Restrict deletions« und »Block force pushes« (ohne Bypass-Liste) und ein Sicherungs-Tag vor dem Lauf
+(`git tag vor-personen-lauf origin/master`). Eine Pflicht zum Pull Request für `master` würde auch die direkten Pushes der
+Redaktion und den wöchentlichen Bot-Lauf blockieren (er pusht mit dem Standard-`GITHUB_TOKEN`, der sich nach den gefundenen
+Angaben nicht in eine Bypass-Liste eintragen lässt).
 
 ## Aufbau
 
