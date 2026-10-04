@@ -9,16 +9,23 @@ einem Branch auf GitHub stehen, bevor die Routine startet.
 Die Cloud-Sitzung klont das öffentliche Repository ohne Anmeldung, **pusht aber nur, wenn die Claude-GitHub-App für das Repository
 freigegeben ist** (sonst `403 … Claude doesn't have GitHub access`; so im ersten Pilot am 2026-10-04). Eine Organisation
 braucht dafür einen Administrator: <https://github.com/apps/claude/installations/select_target> (Organisation wählen, nur dieses
-Repository freigeben) oder GitHub unter <https://claude.ai/customize/connectors> neu verbinden. Besser vorher auf `master` eine
-Regel setzen, die direkte Pushes für die App ausschließt (Ruleset mit Bypass nur für GitHub Actions und Administratoren; ein
-einfacher Schutz »Pull Request erforderlich« würde den wöchentlichen Bot-Lauf blockieren).
+Repository freigeben) oder GitHub unter <https://claude.ai/customize/connectors> neu verbinden.
+
+**Schutz von `master`**: Die Pushes der Cloud-Sitzungen laufen unter dem GitHub-Konto der Person, die GitHub mit claude.ai
+verbunden hat (in der Aktivitätsliste des Repositorys steht deren Name), nicht unter einer eigenen App-Identität. Ein Ruleset kann
+sie deshalb nicht von den eigenen Pushes der Redaktion trennen, und eine Ausnahme für Administratoren nähme die Cloud-Sitzungen
+mit aus. Routinen pushen standardmäßig auf `claude/…`-Branches, der Prompt verbietet `master`. Als Sicherung genügen ein Ruleset
+auf `master` nur mit »Restrict deletions« und »Block force pushes« (ohne Bypass-Liste) und ein Sicherungs-Tag vor dem Lauf
+(`git tag vor-personen-lauf origin/master`). Eine Pflicht zum Pull Request für `master` würde auch die direkten Pushes der
+Redaktion und den wöchentlichen Bot-Lauf blockieren (er pusht mit dem Standard-`GITHUB_TOKEN`, der sich nach den gefundenen
+Angaben nicht in eine Bypass-Liste eintragen lässt).
 
 ## Aufbau
 
 | Baustein | Festlegung |
 |---|---|
 | Skill-Branch | `claude/personen-skill`: aktueller `origin/master` plus der Ordner `.claude/skills/personen-auszeichnen/` (mit `data/`) und der Eintrag `/temp-indices` in `.gitignore` |
-| Arbeitsbranch | `claude/personen-lauf`: entsteht aus dem Skill-Branch, die Sitzungen setzen ihn fort; nie nach `master` mergen, nur per Pull Request nach Durchsicht |
+| Arbeitsbranch | `claude/personen-lauf`: entsteht aus dem Skill-Branch, die Sitzungen setzen ihn fort und holen sich Skill-Verbesserungen per `git merge`; nie nach `master` mergen, nur per Pull Request nach Durchsicht |
 | Reihenfolge | strikt chronologisch und nacheinander, **nicht parallel**: neue `xml:id`s (globales Maximum + 1), die Nummern der `implied-person_N` und `index_person_day.xml` sind gemeinsamer Zustand |
 | Einheit | ein Monat je Durchgang A und B, ein Commit je Monat (`Personen ausgezeichnet: YYYY-MM`), danach Push |
 | Fortschritt | `lauf/fortschritt.txt` (Befehl `pa.py fortschritt`); eine neue Sitzung macht beim ersten offenen Monat weiter |
@@ -36,18 +43,27 @@ indices/index_person_day.xml abgleichen und implizit erwähnte Personen finden. 
 Rückfragen. Entscheide nach den Regeln des Skills und halte dich im Zweifel zurück (nichts anwenden, im Bericht nennen).
 
 1. Einrichten
-   - git fetch origin. Arbeitsbranch claude/personen-lauf: Gibt es origin/claude/personen-lauf, dann
+   - git fetch origin. Sperre: Gibt es origin/claude/personen-lauf, lies seinen letzten Commit (git log -1 --format='%ct %s'
+     origin/claude/personen-lauf; date +%s). Ist er jünger als 25 Minuten und beginnt die Betreffzeile nicht mit »Sitzung beendet«,
+     arbeitet vermutlich eine andere Sitzung daran: Beende dich sofort mit der Meldung »andere Sitzung aktiv« und ändere nichts
+     (parallele Sitzungen würden dieselben xml:id vergeben).
+   - Arbeitsbranch claude/personen-lauf: Gibt es origin/claude/personen-lauf, dann
      git checkout -B claude/personen-lauf origin/claude/personen-lauf, sonst
-     git checkout -B claude/personen-lauf origin/claude/personen-skill.
+     git checkout -B claude/personen-lauf origin/claude/personen-skill. Fehlt eine Git-Identität: git config user.name Claude und
+     git config user.email noreply@anthropic.com.
+   - Nur wenn origin/claude/personen-lauf schon existierte: git merge --no-edit origin/claude/personen-skill (holt Verbesserungen des
+     Skills; berührt nur .claude/skills/personen-auszeichnen/scripts und references). Bei einem Konflikt: abbrechen und melden.
    - Push-Test sofort: git push -u origin claude/personen-lauf (noch ohne neue Commits). Scheitert er (z. B. 403), brich ab und melde
      das, bevor du Arbeit investierst.
    - python3 -c "import lxml" (falls es fehlt: pip install lxml).
-   - Lies .claude/skills/personen-auszeichnen/SKILL.md vollständig und references/konventionen.md; vor Durchgang B references/implied.md.
-     Der Skill ist deine Arbeitsanweisung; die Punkte hier ergänzen sie. Der Schreibschutz-Hook ist in dieser Sitzung nicht aktiv:
-     Ändere XML-Dateien trotzdem nie direkt, nur mit pa.py apply.
+   - python3 .claude/skills/personen-auszeichnen/scripts/pa.py fortschritt --anzahl 40 --tage 250 nennt die nächsten offenen Monate.
+     Nennt es keinen offenen Monat mehr, melde »Gesamtlauf abgeschlossen« (Push-Benachrichtigung erlaubt) und beende die Sitzung.
+   - Sonst: Lies .claude/skills/personen-auszeichnen/SKILL.md vollständig und references/konventionen.md; vor Durchgang B
+     references/implied.md. Der Skill ist deine Arbeitsanweisung; die Punkte hier ergänzen sie. Der Schreibschutz-Hook ist in dieser
+     Sitzung nicht aktiv: Ändere XML-Dateien trotzdem nie direkt, nur mit pa.py apply.
    - python3 .claude/skills/personen-auszeichnen/scripts/test_skill.py muss »alles in Ordnung« melden, sonst brich ab und melde es.
-2. Bereich: python3 .claude/skills/personen-auszeichnen/scripts/pa.py fortschritt --anzahl 12 nennt die nächsten offenen Monate.
-   Bearbeite sie der Reihe nach (höchstens 12 in dieser Sitzung).
+2. Bereich: genau die Monate, die fortschritt in Schritt 1 genannt hat (bei dichten Jahrgängen etwa 8–9, in den dünn besetzten
+   Anfangsjahren bis zu 40). Bearbeite sie der Reihe nach.
 3. Je Monat nach SKILL.md (Durchgang A mit --aufgaben 1,2, dann B mit --aufgaben 3), mit diesen Änderungen für den Lauf:
    - Du fragst nicht nach; Entscheidungen schreibst du selbst in temp/personen-auszeichnen/<Monat>/entscheidungen-A.json und -B.json.
    - Je Durchgang: apply --dry-run (Ausgabe lesen), danach apply --ruhig. Committe nach Durchgang A (git add editions indices;
@@ -58,17 +74,24 @@ Rückfragen. Entscheide nach den Regeln des Skills und halte dich im Zweifel zur
      pa.py sichern <Monat> --keine-arbeit --notiz "verify fehlgeschlagen: …" vermerkt.
    - pa.py bericht <Monat>, dann pa.py sichern <Monat>; Monate ohne Arbeit: pa.py sichern <Monat> --keine-arbeit.
    - git add editions indices .claude/skills/personen-auszeichnen/lauf; git commit -m "Personen ausgezeichnet: YYYY-MM";
-     git push origin claude/personen-lauf. Bei »non-fast-forward« git pull --rebase und erneut pushen; bei anderen Push-Fehlern
-     die Sitzung mit klarer Meldung beenden.
+     git push origin claude/personen-lauf. Bei »non-fast-forward« (eine andere Sitzung oder die Redaktion hat gepusht) nicht
+     rebasen und nicht erneut pushen, sondern die Sitzung mit klarer Meldung beenden (neue xml:id könnten kollidieren); ebenso bei
+     allen anderen Push-Fehlern.
 4. Grenzen: Du änderst nur editions/, indices/index_person_day.xml, indices/implied-persons.txt und
    .claude/skills/personen-auszeichnen/lauf/. Kein Merge nach master, kein Pull Request, kein Force-Push, keine Änderung an
-   listperson.xml, listplace.xml, listwork.xml.
-5. Ende: Alles gepusht? Gib aus: erledigte Monate, Zahl der Operationen je Art, neue implied-person-Kennungen, PMB-Personen
-   außerhalb des Registers, offene Punkte (Stufe C, Prüfbefunde), Probleme.
+   listperson.xml, listplace.xml, listwork.xml. Sende keine Push-Benachrichtigung, außer bei Abbruch wegen eines Fehlers und bei
+   »Gesamtlauf abgeschlossen«.
+5. Ende: Sind alle Monate gepusht, setze die Marke, die die Sperre freigibt:
+   git commit --allow-empty -m "Sitzung beendet: <erster>..<letzter Monat>" (in den Rumpf der Meldung: Zahl der Operationen je Art
+   und offene Punkte in zwei, drei Zeilen), danach git push origin claude/personen-lauf. Bei einem Abbruch wegen eines Fehlers setzt
+   du die Marke nicht (die Sperre läuft nach 25 Minuten ab). Abschlussbericht, Deutsch, höchstens 15 Zeilen: erledigte Monate, Zahl
+   der Operationen je Art, neue implied-person-Kennungen, PMB-Personen außerhalb des Registers, offene Punkte (Stufe C,
+   Prüfbefunde), Probleme.
 ```
 
-**Pilot-Variante**: Statt Schritt 2: »Bearbeite genau diese Monate: 1880-05, 1902-07, 1905-03, 1921-11.« Der Pilot geht in denselben Branch;
-die Redaktion prüft den Diff (`git diff origin/master...claude/personen-lauf`) und die Berichte unter `lauf/`, bevor der Lauf fortgesetzt wird.
+**Pilot-Variante** (am 2026-10-04 gelaufen): Statt Schritt 2: »Bearbeite genau diese Monate: 1880-05, 1902-07, 1905-03, 1921-11.« Der Pilot
+geht in denselben Branch; die Redaktion prüft den Diff (`git diff origin/master...claude/personen-lauf`) und die Berichte unter `lauf/`,
+bevor der Lauf fortgesetzt wird.
 
 ## Routine anlegen
 
@@ -84,7 +107,22 @@ Zeitplan (einmalig, deaktiviert) und wird je Sitzung mit »Run now« gestartet. 
 - Der Branch ändert `index_person_day.xml` flächig; manuelle Arbeit der Redaktion an dieser Datei und an denselben Einträgen
   während des Laufs vermeiden, sonst gibt es Merge-Konflikte.
 
-## Offene Unsicherheiten (erst im Pilot klar)
+## Befunde aus dem Pilot (2026-10-04, Sonnet 5.5)
 
-Ob die Cloud-Sitzung auf `claude/…`-Branches pushen darf, ob `lxml` vorhanden oder installierbar ist, wie lange eine Sitzung läuft
-und was das Kontingent hergibt. Darum zuerst der Pilot.
+- **Umgebung**: Python 3.11, `lxml` fehlt im Image, `pip install lxml` genügt (6.1.3). Push auf `claude/…`-Branches geht, sobald die
+  Claude-GitHub-App für das Repository freigegeben ist (ohne sie 403).
+- **Dauer**: vier Monate in 332 s und 29 Zügen einschließlich Einrichtung. Der erste Scan baut den Korpus-Cache (≈ 68 s), jeder
+  weitere Scan braucht 3–4 s. Der ganze Bestand sind 615 Monate (611 offen nach dem Pilot): bei 12 Monaten je Sitzung ≈ 51 Sitzungen.
+- **Ergebnis**: 65 Operationen (38 `set_ref`, 27 `implied`), 19 neue Index-Zeilen, 2 neue Kennungen
+  (`implied-person_1|?? [Frau von Leopold Schmidt]`, `implied-person_2|?? [Frau von Oskar Benjamin Frankl]`), `pa.py verify` über
+  alle 33 geänderten Tage ohne Verstöße. Gegenprobe außerhalb der Sitzung: Alle `@ref` der 38 `set_ref` standen schon vor dem Lauf im Tagesindex
+  (geschlossene Menge eingehalten); die 24 Ehepartner-`implied` (13 verschiedene Paare) sind in den PMB-Relationen als zum Datum
+  gültige Ehe belegt; die Entscheidungen waren zurückhaltend (nichts angewendet bei Heller, Mann's, Kreglinger, K.s).
+- **Unsicherste Fälle** (zur Durchsicht): 1880-05-30 »seinen Bruder« → Alexander Zucker (pmb339476, einziger Bruder in der PMB,
+  nicht im Register), 1905-03-01 »Gutmann-Gelses« → Albertine (Heiratsdatum fehlt), 1880-05-09 »Königs« → Georg König (Familie auf
+  das Haupt bezogen).
+- **Behobener Fehler** (nach dem Pilot): Berührte ein `apply` nur einen Tag, landete das Protokoll im Tagesordner statt im
+  Monatsordner und fehlte deshalb in `lauf/`. Betroffen ist 1880-05 (der Eintrag zu Alexander Zucker fehlt in `protokoll.jsonl` und
+  im Bericht; `entscheidungen-B.json` und der Diff enthalten ihn). Der Fix steht auf dem Skill-Branch (Sitzungen holen ihn per Merge).
+- **Berichtsform**: In den Pilot-Berichten stehen auch Stufe-A-Einträge unter »Mit Begründung (Stufe B …)«; seit dem Fix zählt der
+  Bericht Stufe A nur und listet Entscheidungen von Hand einzeln.

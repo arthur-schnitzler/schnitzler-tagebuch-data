@@ -407,7 +407,11 @@ def bereich_tage(spec):
     return [t for t in tage if t.startswith(spec)]
 
 
-def bereich_name(tage):
+def bereich_name(tage, spec=None):
+    """Ordnername eines Bereichs: die Angabe selbst, wenn sie ein Tag, Monat oder Jahr ist (so heißt der Ordner auch bei einem
+    Monat mit nur einem Eintrag), sonst aus den Tagen abgeleitet (Zeitraum, »alle«)."""
+    if spec and re.fullmatch(r"\d{4}(-\d{2}){0,2}", spec.strip()):
+        return spec.strip()
     if not tage:
         return "leer"
     if len(tage) == 1:
@@ -1493,7 +1497,7 @@ def cmd_apply(args):
     if index_neu_raw is not None and index_neu:
         schreibe(R.index, index_neu_raw)
     ctx.implied.speichern()
-    protokolliere(ergebnisse, index_neu, ctx)
+    protokolliere(ergebnisse, index_neu, ctx, _bereich_aus_dateien(args.dateien))
     reg = lade_registry()
     for tag, _ in geschrieben:
         reg["tage"].pop(tag, None)          # Kandidaten dieser Tage sind nach dem Schreiben veraltet
@@ -1504,9 +1508,19 @@ def cmd_apply(args):
     return 1 if fehler else 0
 
 
-def protokolliere(ergebnisse, index_neu, ctx):
+def _bereich_aus_dateien(dateien):
+    """Liegt eine Eingabedatei in temp/personen-auszeichnen/<Bereich>/, ist <Bereich> der Ordner für das Protokoll
+    (sonst teilte sich das Protokoll auf Tagesordner auf, wenn ein apply nur einen Tag berührt)."""
+    for f in dateien:
+        p = Path(f).resolve()
+        if p.parent.parent == R.temp.resolve():
+            return p.parent.name
+    return None
+
+
+def protokolliere(ergebnisse, index_neu, ctx, bereich=None):
     tage = sorted({e[0] for e in ergebnisse})
-    ordner = R.temp / bereich_name(tage)
+    ordner = R.temp / (bereich or bereich_name(tage))
     ordner.mkdir(parents=True, exist_ok=True)
     zeit = dt.datetime.now().isoformat(timespec="seconds")
     with open(ordner / "protokoll.jsonl", "a", encoding="utf-8") as f:
@@ -2522,7 +2536,7 @@ def cmd_scan(args):
     haushalte = lade_haushalte()
     impl_ids = ImpliedListe().ids()
     verworfen = lade_verworfen()
-    name = bereich_name(tage)
+    name = bereich_name(tage, args.bereich)
     ordner = R.temp / name
     ordner.mkdir(parents=True, exist_ok=True)
     reg = lade_registry()
@@ -2685,7 +2699,7 @@ def cmd_verify(args):
 
 def cmd_bericht(args):
     tage = bereich_tage(args.bereich)
-    name = bereich_name(tage)
+    name = bereich_name(tage, args.bereich)
     ordner = R.temp / name
     prot = []
     pf = ordner / "protokoll.jsonl"
@@ -2722,9 +2736,14 @@ def cmd_bericht(args):
     z.append(", ".join(f"{k}: {v}" for k, v in zaehl.items()) or "nichts")
     z.append("")
     mit_grund = [p for p in prot if p.get("grund") and p["art"] != "index"]
-    if mit_grund:
-        z.append("### Mit Begründung (Stufe B, zur Prüfung)")
-        for p in mit_grund:
+    auto_n = sum(1 for p in mit_grund if "(Stufe A" in p["grund"] or "Stufe A)" in p["grund"] or "; Stufe A" in p["grund"])
+    manuell = [p for p in mit_grund if not ("(Stufe A" in p["grund"] or "Stufe A)" in p["grund"] or "; Stufe A" in p["grund"])]
+    if auto_n:
+        z.append(f"Automatisch (Stufe A, Grund im Protokoll): {auto_n}")
+        z.append("")
+    if manuell:
+        z.append("### Entscheidungen mit Begründung (Stufe B und implizite Personen, zur Prüfung)")
+        for p in manuell:
             z.append(f"- {p['tag']} {p['art']} {'/'.join(p.get('refs') or [])} »{_kurz(p.get('text') or '', 40)}« – {p['grund']}")
         z.append("")
     neu_impl = [ (pid, t) for pid, (pmb, t) in impl.eintraege.items() ]
@@ -2831,7 +2850,7 @@ def cmd_sichern(args):
     tage = bereich_tage(args.bereich)
     if not tage:
         raise PaError(f"Keine Einträge für »{args.bereich}«")
-    name = bereich_name(tage)
+    name = bereich_name(tage, args.bereich)
     kopiert = []
     if not args.keine_arbeit:
         quelle, ziel = R.temp / name, R.lauf / name
@@ -2841,8 +2860,6 @@ def cmd_sichern(args):
                 shutil.copy2(f, ziel / f.name)
                 kopiert.append(f.name)
     fort = _fortschritt_lesen()
-    schluessel = args.bereich if re.fullmatch(r"\d{4}(-\d{2})?", args.bereich) else name    # Monat/Jahr, auch bei nur einem Eintrag
-    name = schluessel
     fort[name] = [dt.datetime.now().isoformat(timespec="seconds"), args.notiz or ("keine Arbeit" if args.keine_arbeit else "")]
     R.lauf.mkdir(parents=True, exist_ok=True)
     schreibe(R.lauf / "fortschritt.txt", "# Bereich\tZeit\tNotiz\n" + "".join(f"{k}\t" + "\t".join(v) + "\n" for k, v in sorted(fort.items())))
@@ -2851,14 +2868,31 @@ def cmd_sichern(args):
 
 
 def cmd_fortschritt(args):
-    """Welche Monate sind erledigt, welche kommen als Nächstes?"""
+    """Welche Monate sind erledigt, welche kommen als Nächstes? Mit --tage reicht die Auswahl bis zu dieser Zahl von
+    Einträgen (mindestens ein Monat, höchstens --anzahl Monate): dünn besetzte Monate werden so zusammen bearbeitet."""
     fort = _fortschritt_lesen()
-    monate = sorted({t[:7] for t in alle_tage()})
+    alle = alle_tage()
+    monate = sorted({t[:7] for t in alle})
     erledigt = [m for m in monate if any(m.startswith(k) for k in fort)]
     offen = [m for m in monate if m not in erledigt and (not args.ab or m >= args.ab)]
     print(f"{len(erledigt)} von {len(monate)} Monaten erledigt; {len([m for m in monate if m not in erledigt])} offen")
-    if offen:
+    if not offen:
+        return 0
+    tage = getattr(args, "tage", None)
+    if not tage:
         print("nächste: " + ", ".join(offen[:args.anzahl]))
+        return 0
+    je_monat = {}
+    for t in alle:
+        je_monat[t[:7]] = je_monat.get(t[:7], 0) + 1
+    wahl, summe = [], 0
+    for m in offen:
+        if len(wahl) >= args.anzahl or (wahl and summe >= tage):
+            break
+        wahl.append(m)
+        summe += je_monat[m]
+    print("nächste: " + ", ".join(wahl))
+    print(f"{len(wahl)} Monate, {summe} Einträge")
     return 0
 
 
@@ -2911,7 +2945,8 @@ def main(argv=None):
     p.set_defaults(fn=cmd_sichern)
     p = sub.add_parser("fortschritt", help="erledigte und nächste Monate eines Gesamtlaufs")
     p.add_argument("--ab", help="frühester Monat (YYYY-MM)")
-    p.add_argument("--anzahl", type=int, default=12)
+    p.add_argument("--anzahl", type=int, default=12, help="höchstens so viele Monate nennen")
+    p.add_argument("--tage", type=int, help="Auswahl bis zu dieser Zahl von Einträgen (mindestens ein Monat)")
     p.set_defaults(fn=cmd_fortschritt)
     p = sub.add_parser("register-luecken", help="PMB-Personen in Einträgen/Index, die nicht in listperson.xml stehen")
     p.set_defaults(fn=cmd_register_luecken)

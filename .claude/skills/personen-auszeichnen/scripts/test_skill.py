@@ -547,6 +547,26 @@ with contextlib.redirect_stdout(buf):
     pa.cmd_fortschritt(argparse.Namespace(ab=None, anzahl=5))
 monate_gesamt = len({t_[:7] for t_ in pa.alle_tage()})
 pruefe("fortschritt zählt erledigte Monate und nennt die nächsten", f"2 von {monate_gesamt} Monaten erledigt" in buf.getvalue() and "nächste:" in buf.getvalue() or monate_gesamt == 2)
+buf = io.StringIO()
+with contextlib.redirect_stdout(buf):
+    pa.cmd_fortschritt(argparse.Namespace(ab=None, anzahl=40, tage=1))
+n_eins = [z for z in buf.getvalue().splitlines() if z.startswith("nächste:")][0].count(",") + 1
+buf = io.StringIO()
+with contextlib.redirect_stdout(buf):
+    pa.cmd_fortschritt(argparse.Namespace(ab=None, anzahl=40, tage=10**6))
+n_alle = [z for z in buf.getvalue().splitlines() if z.startswith("nächste:")][0].count(",") + 1
+pruefe("fortschritt --tage wählt mindestens einen Monat, bei hoher Grenze alle offenen", n_eins == 1 and n_alle == monate_gesamt - 2
+       and "Einträge" in buf.getvalue())
+(pa.R.temp / "1899-03").mkdir(parents=True, exist_ok=True)
+fB = pa.R.temp / "1899-03" / "entscheidungen-B.json"
+fB.write_text(json.dumps([{"op": "implied", "tag": "1899-03-01", "anker": {"text": "Frau", "vorher": "und "}, "neu": "Frau von Hugo von Hofmannsthal", "grund": "Test"}]), encoding="utf-8")
+with contextlib.redirect_stdout(io.StringIO()):
+    rc = pa.cmd_apply(argparse.Namespace(dateien=[str(fB)], dry_run=False, unsauber=False, weiter=False, ruhig=True))
+pruefe("Protokoll landet im Ordner des Bereichs, auch wenn apply nur einen Tag berührt",
+       rc == 0 and (pa.R.temp / "1899-03" / "protokoll.jsonl").exists() and not (pa.R.temp / "1899-03-01" / "protokoll.jsonl").exists())
+with contextlib.redirect_stdout(io.StringIO()):
+    pa.cmd_bericht(argparse.Namespace(bereich="1899-03"))
+pruefe("Bericht zählt die angewendeten Operationen aus dem Bereichsordner", "implied: 1" in pa.lies(pa.R.temp / "1899-03" / "bericht.md"))
 fp0 = pa._fingerprint()
 e1 = pa.R.entry("1900-01-01")
 e1.write_text(e1.read_text(encoding="utf-8") + "\n", encoding="utf-8")
