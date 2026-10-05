@@ -1,0 +1,56 @@
+# Bericht 1897-03
+
+## Angewendet
+set_ref: 4, implied: 5, index: 5, ausserhalb_register: 1
+
+Automatisch (Stufe A, Grund im Protokoll): 2
+
+### Entscheidungen mit Begründung (Stufe B und implizite Personen, zur Prüfung)
+- 1897-03-20 set_ref pmb10863 »Richard« – Richard = Beer-Hofmann, Index
+- 1897-03-20 set_ref pmb10863 »Rich.« – Rich. = Beer-Hofmann, Index
+- 1897-03-03 implied pmb337540 »Tochter« – ihre Tochter = Tochter der Frau Richter (PMB-Kind)
+- 1897-03-07 implied pmb28299 »Loebs« – bei Loebs
+- 1897-03-14 implied pmb14953 »Schwester« – ihre Schwester = Marie Glümer
+- 1897-03-21 implied pmb28299 »Loebs« – bei Loebs
+- 1897-03-28 implied pmb19144 »Frau« – Karlweis und Frau
+
+## Liste implied-persons.txt (aktueller Stand)
+- implied-person_1|?? [Frau von Leopold Schmidt]
+- implied-person_2|?? [Frau von Oskar Benjamin Frankl]
+- implied-person_3|?? [Frau von Hermann Riedel]
+- implied-person_4|?? [Bruder von Jacques Lawner]
+- implied-person_5|?? [Schwester von Maximilian Bern]
+- implied-person_6|?? [Frau von Leonhard Labatt]
+- implied-person_7|?? [Mutter von Laura Eissler]
+- implied-person_8|?? [Frau von Gustav Walter]
+- implied-person_9|?? [Bruder von Anton Rückauf]
+- implied-person_10|?? [Frau von Wiesholz]
+- implied-person_11|?? [Frau von Eugen Schwarzenberg]
+- implied-person_12|?? [Mutter von Gisela Mayer]
+- implied-person_13|?? [Mutter von Melanie Soudek]
+- implied-person_14|?? [Frau von Hermann Cohn]
+- implied-person_15|?? [Frau von Leopold Postawka]
+- implied-person_16|?? [Frau von Ferry Bératon]
+- implied-person_17|?? [Mutter von Josefine Moller]
+- implied-person_18|?? [Frau von Hermann Oppenheim]
+- implied-person_19|?? [Frau von Cornel Engel]
+- implied-person_20|?? [Frau von Eduard Brüll]
+- implied-person_21|?? [Frau von Wilhelm Zierer]
+- implied-person_22|?? [Mutter von Karl Friese]
+- implied-person_23|?? [Frau von Friedrich Elbogen]
+- implied-person_24|?? [Frau von Friedrich von Weichs-Glon]
+- implied-person_25|?? [Frau von Gustav Schwarzkopf]
+- implied-person_26|?? [Mann von Emma Frid]
+- implied-person_27|?? [Frau von Oskar Friedrich Eirich]
+- implied-person_28|?? [Frau von Franz Oppenheimer]
+- implied-person_29|?? [Mann von Irma Hasterlik]
+
+## Auffälligkeit bestehender Auszeichnung (Aufgabe 1) (3)
+- 1897-03-03 art=nicht_im_register rs=pNt_94770 text=Tochter ref=pmb337540 name=Hermine Friedwagner
+- 1897-03-07 art=nicht_im_register rs=pNt_94771 text=Loebs ref=pmb28299 name=Regina Loeb
+- 1897-03-21 art=nicht_im_register rs=pNt_94773 text=Loebs ref=pmb28299 name=Regina Loeb
+
+## C: Index-Person ohne Anker im Text (2)
+- 1897-03-11 pmb24033 Hermine von Schaffgotsch (1871–1928, female)
+- 1897-03-28 pmb13044 Gustav Walter (1834–1910, male, Sänger)
+
