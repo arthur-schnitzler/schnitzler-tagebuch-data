@@ -1,13 +1,14 @@
 # Bericht 1902-05
 
 ## Angewendet
-set_ref: 4
+set_ref: 4, implied: 1, index: 1
 
 Automatisch (Stufe A, Grund im Protokoll): 2
 
 ### Entscheidungen mit Begründung (Stufe B und implizite Personen, zur Prüfung)
 - 1902-05-10 set_ref pmb2167 »Salten« – Salten = Felix Salten
 - 1902-05-10 set_ref pmb23918 »Metzl« – Metzl = Ottilie Salten geb. Metzl, im Index
+- 1902-05-18 implied pmb14707 »Burgers« – bei Burgers: Caroline Burger, Ehe laut PMB gültig
 
 ## Liste implied-persons.txt (aktueller Stand)
 - implied-person_1|?? [Frau von Leopold Schmidt]
@@ -53,7 +54,4 @@ Automatisch (Stufe A, Grund im Protokoll): 2
 ## C: Index-Person ohne Anker im Text (2)
 - 1902-05-14 pmb2315 Elisabeth Steinrück (1885–1920, female)
 - 1902-05-14 pmb2173 Olga Schnitzler (1882–1970, female, Schauspieler/Sänger)
-
-## implied-Auslöser, nicht entschieden (1)
-- 1902-05-18#1 familienform »Burgers« Kopf Rudolf Burger
 
