@@ -39,6 +39,3 @@ Automatisch (Stufe A, Grund im Protokoll): 2
 - implied-person_31|?? [Mann von Melanie Soudek]
 - implied-person_32|?? [Frau von Alexander von Weilen]
 
-## implied-Auslöser, nicht entschieden (1)
-- 1898-01-05#1 familienform »Mandls« Kopf Irene Mandl
-
