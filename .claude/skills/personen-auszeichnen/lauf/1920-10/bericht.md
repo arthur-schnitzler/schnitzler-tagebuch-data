@@ -1,7 +1,7 @@
 # Bericht 1920-10
 
 ## Angewendet
-set_ref: 15, wrap: 1
+set_ref: 15, wrap: 1, implied: 9, index: 7
 
 Automatisch (Stufe A, Grund im Protokoll): 13
 
@@ -9,6 +9,15 @@ Automatisch (Stufe A, Grund im Protokoll): 13
 - 1920-10-05 set_ref pmb14223 »B.« – entschlossen B. zu heiraten: Josef Binder, Ehemann der Helene Binder (Index)
 - 1920-10-23 wrap pmb12031 »Landauer« – Landauer = Gustav Landauer, Wiederkehr
 - 1920-10-29 set_ref pmb20400 »Fr. L.s« – Fr. L.s Schwester bei Lichtensterns = Vilma
+- 1920-10-03 implied pmb2642 »Speidels« – bei Speidels = Ehepaar, Else im Index
+- 1920-10-03 implied pmb20400 »Lichtenstern’s« – zum Thee Lichtenstern's = Ehepaar
+- 1920-10-06 implied pmb9734 »Schmutzers« – bei Schmutzers = Ehepaar
+- 1920-10-12 implied pmb20400 »Frau« – Dr. Lichtenstern und Frau
+- 1920-10-13 implied implied-person_155 »Frau« – Stekel in Scheidung mit seiner Frau
+- 1920-10-14 implied pmb24292 »Schmidls« – bei Schmidls = Ehepaar
+- 1920-10-26 implied implied-person_156 »Frau« – Hollaender und Frau
+- 1920-10-26 implied pmb11636 »Frau« – Reinhardt, anfangs auch seine Frau = Else Heims (Ehe 1910-1935)
+- 1920-10-29 implied pmb20400 »Lichtensterns« – bei Lichtensterns = Ehepaar
 
 ## Liste implied-persons.txt (aktueller Stand)
 - implied-person_1|?? [Frau von Leopold Schmidt]
@@ -165,38 +174,16 @@ Automatisch (Stufe A, Grund im Protokoll): 13
 - implied-person_152|?? [Frau von Theodor von Liebieg]
 - implied-person_153|?? [Frau von Franz Lehár]
 - implied-person_154|?? [Frau von Eugen Steinach]
+- implied-person_155|?? [Frau von Wilhelm Stekel]
+- implied-person_156|?? [Frau von Felix Hollaender]
 
 ## Auffälligkeit bestehender Auszeichnung (Aufgabe 1) (2)
 - 1920-10-02 art=ausreisser rs=pNt_60024 text=Frau Heller ref=pmb18077 ueblich=pmb11646 belege=12/12
 - 1920-10-05 art=ausreisser rs=pNt_60043 text=Helene ref=pmb14218 ueblich=pmb24423 belege=67/68
 
-## C: Index-Person ohne Anker im Text (5)
-- 1920-10-03 pmb2642 Else Speidel-Haeberle (1877–1937, female, Schauspieler)
+## C: Index-Person ohne Anker im Text (4)
 - 1920-10-07 pmb11113 Richard Nikolaus von Coudenhove-Kalergi (1894–1972, male, Schriftsteller/Politiker)
 - 1920-10-23 pmb8736 Rosa Luxemburg (1871–1919, female, Politiker)
 - 1920-10-24 pmb18862 Katharina Jerusalem (1856–1932, female)
 - 1920-10-30 pmb20783 Franz Löwy (1883–1949, male, Fotograf)
-
-## implied-Auslöser, nicht entschieden (21)
-- 1920-10-03#1 familienform »Speidels« Kopf Felix Speidel
-- 1920-10-03#2 familienform »Lichtenstern’s« Kopf Robert Lichtenstern
-- 1920-10-06#1 familienform »Schmutzers« Kopf Ferdinand Schmutzer
-- 1920-10-06#2 familienform »Nietzsche’s« Kopf Friedrich Nietzsche
-- 1920-10-12#1 familienform »Hajeks« Kopf Markus Hajek
-- 1920-10-12#2 folgewort »Frau« Kopf Robert Lichtenstern (1874–1955, male, Urologe/Chirurg)
-- 1920-10-13#1 besitz »ihrer Tochter« Kopf Helene Binder (1865–1960, female)
-- 1920-10-13#2 besitz »seiner Frau« Kopf Wilhelm Stekel (1868–1940, male, Psychoanalytiker)
-- 1920-10-14#1 familienform »Schmidls« Kopf Hugo Schmidl
-- 1920-10-16#1 familienform »Sternheims« Kopf Carl Sternheim
-- 1920-10-23#1 familienform »Ravels« Kopf Maurice Ravel
-- 1920-10-23#2 familienform »Nicolais« Kopf Christoph Friedrich Nicolai
-- 1920-10-24#1 familienform »Korngold’s« Kopf Erich Wolfgang Korngold
-- 1920-10-24#2 familienform »Debussys« Kopf Claude Debussy
-- 1920-10-24#3 folgewort »Frau« Kopf Adolf Gelber (1856–1923, male, Schriftsteller/Journalist)
-- 1920-10-26#1 folgewort »Frau« Kopf Felix Hollaender (1867–1931, male, Schriftsteller/Theaterleiter)
-- 1920-10-26#2 besitz »seine Frau« Kopf Max Reinhardt (1873–1943, male, Theaterleiter/Regisseur)
-- 1920-10-27#1 familienform »Gelbers« Kopf Ludwig Gelber
-- 1920-10-29#1 familienform »Lichtensterns« Kopf Robert Lichtenstern
-- 1920-10-29#2 familienform »Manns« Kopf Heinrich Mann
-- 1920-10-29#3 familienform »Edschmids« Kopf Kasimir Edschmid
 
