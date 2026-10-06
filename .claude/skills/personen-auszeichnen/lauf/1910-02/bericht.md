@@ -1,7 +1,7 @@
 # Bericht 1910-02
 
 ## Angewendet
-set_ref: 12
+set_ref: 12, implied: 8, index: 6
 
 Automatisch (Stufe A, Grund im Protokoll): 8
 
@@ -10,6 +10,14 @@ Automatisch (Stufe A, Grund im Protokoll): 8
 - 1910-02-26 set_ref pmb13055 »Wassermann« – Wassermann und Julie
 - 1910-02-28 set_ref pmb13970 »Benedicts« – Benedicts = Haus von Marianne (Minnie) Benedict, nicht Schaffgotsch
 - 1910-02-28 set_ref pmb13970 »Minnies« – Minnie = Marianne Benedict, Schwester Emmy Sachs
+- 1910-02-01 implied implied-person_72 »Gattin« – Haushalt/Begleitung, PMB-Relation oder Kontext
+- 1910-02-02 implied pmb26159 »Frau« – Haushalt/Begleitung, PMB-Relation oder Kontext
+- 1910-02-05 implied pmb26159 »Frau« – Haushalt/Begleitung, PMB-Relation oder Kontext
+- 1910-02-16 implied pmb13058 »Wassermanns« – Haushalt/Begleitung, PMB-Relation oder Kontext
+- 1910-02-18 implied pmb2642 »Speidels« – Haushalt/Begleitung, PMB-Relation oder Kontext
+- 1910-02-20 implied pmb13058 »Wassermanns« – Haushalt/Begleitung, PMB-Relation oder Kontext
+- 1910-02-22 implied pmb23918 »Saltens« – Haushalt/Begleitung, PMB-Relation oder Kontext
+- 1910-02-25 implied pmb13342 »Mutter« – Haushalt/Begleitung, PMB-Relation oder Kontext
 
 ## Liste implied-persons.txt (aktueller Stand)
 - implied-person_1|?? [Frau von Leopold Schmidt]
@@ -94,22 +102,6 @@ Automatisch (Stufe A, Grund im Protokoll): 8
 - implied-person_80|?? [Frau von Ludwig Ferdinand Graf]
 - implied-person_81|?? [Frau von Ernst von Dohnányi]
 - implied-person_82|?? [Frau von Otto Carl Waldemar Benzon]
-
-## implied-Auslöser, nicht entschieden (14)
-- 1910-02-01#1 folgewort »Gattin« Kopf Oscar Straus (1870–1954, male, Komponist)
-- 1910-02-02#1 folgewort »Frau« Kopf Siegfried Trebitsch (1868–1956, male, Schriftsteller/Übersetzer)
-- 1910-02-03#1 familienform »Bergers« Kopf Alfred von Berger
-- 1910-02-05#1 familienform »Techets« Kopf Carl Franz Techet
-- 1910-02-05#2 folgewort »Frau« Kopf Siegfried Trebitsch (1868–1956, male, Schriftsteller/Übersetzer)
-- 1910-02-16#1 familienform »Wassermanns« Kopf Jakob Wassermann
-- 1910-02-18#1 familienform »Speidels« Kopf Felix Speidel
-- 1910-02-19#1 familienform »Hirschfelds« Kopf Georg Hirschfeld
-- 1910-02-20#1 familienform »Wassermanns« Kopf Jakob Wassermann
-- 1910-02-22#1 familienform »Saltens« Kopf Felix Salten
-- 1910-02-25#1 familienform »Brauns« Kopf Lily Braun
-- 1910-02-25#2 folgewort »Mutter« Kopf Helene Schnitzler (1871–1941, female)
-- 1910-02-25#3 besitz »ihrer Mutter« Kopf Helene Schnitzler (1871–1941, female)
-- 1910-02-28#1 familienform »Benedicts« Kopf Marianne Benedict
 
 ## C: Index-Person ohne Anker im Text (3)
 - 1910-02-10 pmb12858 Otto Stoessl (1875–1936, male, Schriftsteller)
