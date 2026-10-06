@@ -1,0 +1,184 @@
+# Bericht 1913-12
+
+## Angewendet
+set_ref: 22, implied: 21, index: 16, ausserhalb_register: 1
+
+Automatisch (Stufe A, Grund im Protokoll): 10
+
+### Entscheidungen mit Begründung (Stufe B und implizite Personen, zur Prüfung)
+- 1913-12-07 set_ref pmb24420 »Hans« – Hans = Hans Schnitzler (Sohn Julius)
+- 1913-12-11 set_ref pmb10863 »Richards« – Richards Production = Beer-Hofmann
+- 1913-12-11 set_ref pmb23655 »Rothballer« – Rothballer = Oskar (Hölönö = Helene, seine Frau)
+- 1913-12-12 set_ref pmb2238/pmb12692 »Kinder« – Kinder = Lili und Heini
+- 1913-12-12 set_ref pmb3095 »Prof. Zuckerk.« – Frau Prof. Zuckerkandl = Amalie
+- 1913-12-21 set_ref pmb2456 »Richard« – Richard und Vera Specht = Richard Specht
+- 1913-12-28 set_ref pmb2238/pmb12692 »Kinder« – Kinder = Lili und Heini
+- 1913-12-29 set_ref pmb2513 »Kaisers« – Kaiser
+- 1913-12-18 set_ref pmb3095/pmb2312/pmb3115/pmb3091/pmb54787 »Zuckerkandls« – 5 Zuckerkandls laut Index
+- 1913-12-31 set_ref pmb24430 »Karl« – Karl = Karl Schnitzler
+- 1913-12-31 set_ref pmb4528 »Schroeder« – Schroeder = Karl Ludwig Schröder
+- 1913-12-31 set_ref pmb4528 »Schroeder« – Schroeder
+- 1913-12-04 implied pmb24292 »Schmidls« – Haushalt/Paar, Vorschlag aus PMB-Relation, Kontext Gesellschaft
+- 1913-12-04 implied pmb24292 »Schmidls« – Haushalt/Paar, Vorschlag aus PMB-Relation, Kontext Gesellschaft
+- 1913-12-04 implied pmb9667 »Spechts« – Haushalt/Paar, Vorschlag aus PMB-Relation, Kontext Gesellschaft
+- 1913-12-12 implied pmb23918 »Saltens« – Haushalt/Paar, Vorschlag aus PMB-Relation, Kontext Gesellschaft
+- 1913-12-12 implied pmb19220 »Frau« – Haushalt/Paar, Vorschlag aus PMB-Relation, Kontext Gesellschaft
+- 1913-12-15 implied pmb13058 »Wassermanns« – Haushalt/Paar, Vorschlag aus PMB-Relation, Kontext Gesellschaft
+- 1913-12-17 implied pmb3095 »Zuckerkandls« – Haushalt/Paar, Vorschlag aus PMB-Relation, Kontext Gesellschaft
+- 1913-12-17 implied implied-person_124 »Frau« – Haushalt/Paar, Vorschlag aus PMB-Relation, Kontext Gesellschaft
+- 1913-12-19 implied pmb2461 »Hajeks« – Haushalt/Paar, Vorschlag aus PMB-Relation, Kontext Gesellschaft
+- 1913-12-19 implied pmb20861 »Manassewitsch’s« – Haushalt/Paar, Vorschlag aus PMB-Relation, Kontext Gesellschaft
+- 1913-12-21 implied pmb24700 »Chiavaccis« – Haushalt/Paar, Vorschlag aus PMB-Relation, Kontext Gesellschaft
+- 1913-12-21 implied pmb36658 »Mutter« – Haushalt/Paar, Vorschlag aus PMB-Relation, Kontext Gesellschaft
+- 1913-12-24 implied pmb9667 »Frau« – Haushalt/Paar, Vorschlag aus PMB-Relation, Kontext Gesellschaft
+- 1913-12-25 implied pmb22153 »Mutter« – Haushalt/Paar, Vorschlag aus PMB-Relation, Kontext Gesellschaft
+- 1913-12-26 implied pmb23918 »Saltens« – Haushalt/Paar, Vorschlag aus PMB-Relation, Kontext Gesellschaft
+- 1913-12-26 implied pmb9667 »Specht’s« – Haushalt/Paar, Vorschlag aus PMB-Relation, Kontext Gesellschaft
+- 1913-12-28 implied pmb2642 »Speidels« – Haushalt/Paar, Vorschlag aus PMB-Relation, Kontext Gesellschaft
+- 1913-12-31 implied pmb9667 »Spechts« – Haushalt/Paar, Vorschlag aus PMB-Relation, Kontext Gesellschaft
+- 1913-12-31 implied pmb13058 »Wassermanns« – Haushalt/Paar, Vorschlag aus PMB-Relation, Kontext Gesellschaft
+- 1913-12-31 implied pmb24292 »Schmidls« – Haushalt/Paar, Vorschlag aus PMB-Relation, Kontext Gesellschaft
+- 1913-12-31 implied pmb23918 »Saltens« – Haushalt/Paar, Vorschlag aus PMB-Relation, Kontext Gesellschaft
+
+## Liste implied-persons.txt (aktueller Stand)
+- implied-person_1|?? [Frau von Leopold Schmidt]
+- implied-person_2|?? [Frau von Oskar Benjamin Frankl]
+- implied-person_3|?? [Frau von Hermann Riedel]
+- implied-person_4|?? [Bruder von Jacques Lawner]
+- implied-person_5|?? [Schwester von Maximilian Bern]
+- implied-person_6|?? [Frau von Leonhard Labatt]
+- implied-person_7|?? [Mutter von Laura Eissler]
+- implied-person_8|?? [Frau von Gustav Walter]
+- implied-person_9|?? [Bruder von Anton Rückauf]
+- implied-person_10|?? [Frau von Wiesholz]
+- implied-person_11|?? [Frau von Eugen Schwarzenberg]
+- implied-person_12|?? [Mutter von Gisela Mayer]
+- implied-person_13|?? [Mutter von Melanie Soudek]
+- implied-person_14|?? [Frau von Hermann Cohn]
+- implied-person_15|?? [Frau von Leopold Postawka]
+- implied-person_16|?? [Frau von Ferry Bératon]
+- implied-person_17|?? [Mutter von Josefine Moller]
+- implied-person_18|?? [Frau von Hermann Oppenheim]
+- implied-person_19|?? [Frau von Cornel Engel]
+- implied-person_20|?? [Frau von Eduard Brüll]
+- implied-person_21|?? [Frau von Wilhelm Zierer]
+- implied-person_22|?? [Mutter von Karl Friese]
+- implied-person_23|?? [Frau von Friedrich Elbogen]
+- implied-person_24|?? [Frau von Friedrich von Weichs-Glon]
+- implied-person_25|?? [Frau von Gustav Schwarzkopf]
+- implied-person_26|?? [Mann von Emma Frid]
+- implied-person_27|?? [Frau von Oskar Friedrich Eirich]
+- implied-person_28|?? [Frau von Franz Oppenheimer]
+- implied-person_29|?? [Mann von Irma Hasterlik]
+- implied-person_30|?? [Frau von Walter Wilson Cobbett]
+- implied-person_31|?? [Mann von Melanie Soudek]
+- implied-person_32|?? [Frau von Alexander von Weilen]
+- implied-person_33|?? [Frau von Felix Kauders]
+- implied-person_34|?? [Frau von Maximilian Felix Fechner]
+- implied-person_35|?? [Frau von Wilhelm Degré]
+- implied-person_36|?? [Frau von Ernst Urban]
+- implied-person_37|?? [Frau von Alois Strasser]
+- implied-person_38|?? [Sohn von Paul Lindau]
+- implied-person_39|?? [Frau von Alexander Jaray]
+- implied-person_40|?? [Frau von Moriz Carl Millmann]
+- implied-person_41|?? [Frau von Otto Eysler]
+- implied-person_42|?? [Frau von Otto von Krumhaar]
+- implied-person_43|?? [Frau von Hirsch]
+- implied-person_44|?? [Tochter von Nemay]
+- implied-person_45|?? [Frau von Philipp Stein]
+- implied-person_46|?? [Tochter von Claire Tagger]
+- implied-person_47|?? [Frau von Arthur von Gutmann-Gelse]
+- implied-person_48|?? [Frau von Alexander Fleischer]
+- implied-person_49|?? [Tochter von Hermann Eissler]
+- implied-person_50|?? [Frau von Evgenij N. Čirikov]
+- implied-person_51|?? [Bruder von Oskar Mayer]
+- implied-person_52|?? [Mutter von Elsa Marguerite Galafrès]
+- implied-person_53|?? [Mutter von Dora Erl]
+- implied-person_54|?? [Frau von Willi Handl]
+- implied-person_55|?? [Frau von Alfred Fröhlich]
+- implied-person_56|?? [Frau von Leopold Bauer]
+- implied-person_57|?? [Frau von Ferdinand Gregori]
+- implied-person_58|?? [Frau von Oskar Heidt]
+- implied-person_59|?? [Frau von Johann Ress]
+- implied-person_60|?? [Frau von Marco Brociner]
+- implied-person_61|?? [Frau von Jacques Eisenstein]
+- implied-person_62|?? [Frau von Emil Wolf]
+- implied-person_63|?? [Frau von Felix Schlichter]
+- implied-person_64|?? [Frau von Richard Huldschiner]
+- implied-person_65|?? [Sohn von Nettie von Scanavi]
+- implied-person_66|?? [Mutter von Felix Speidel]
+- implied-person_67|?? [Frau von Artur Specht]
+- implied-person_68|?? [Frau von M. Kolloden]
+- implied-person_69|?? [Schwester von Dominik Wölfel]
+- implied-person_70|?? [Frau von Vincenz Chiavacci]
+- implied-person_71|?? [Frau von Richard M. Meyer]
+- implied-person_72|?? [Frau von Oscar Straus]
+- implied-person_73|?? [Frau von Paul Wiegler]
+- implied-person_74|?? [Tochter von Helene Louise Jaeger]
+- implied-person_75|?? [Frau von Ludwig Julius Eisenberg]
+- implied-person_76|?? [Frau von Hugo Schönbrunn]
+- implied-person_77|?? [Frau von Frederick Diller Owsley]
+- implied-person_78|?? [Frau von Konrad Mautner]
+- implied-person_79|?? [Frau von Julius Lehnert]
+- implied-person_80|?? [Frau von Ludwig Ferdinand Graf]
+- implied-person_81|?? [Frau von Ernst von Dohnányi]
+- implied-person_82|?? [Frau von Otto Carl Waldemar Benzon]
+- implied-person_83|?? [Frau von Josef von Winter]
+- implied-person_84|?? [Mutter von Leonie Guttmann]
+- implied-person_85|?? [Frau von Josef Peter]
+- implied-person_86|?? [Frau von Jacob Pollak]
+- implied-person_87|?? [Vater von Josef Kainz]
+- implied-person_88|?? [Frau von Leo Birinski]
+- implied-person_89|?? [Sohn von Arthur Foges]
+- implied-person_90|?? [Frau von Wilhelm Bauer]
+- implied-person_91|?? [Frau von Moriz Baumfeld]
+- implied-person_92|?? [Frau von Franz Neumann]
+- implied-person_93|?? [Frau von Edmund Kapper]
+- implied-person_94|?? [Frau von Rudolf von Kahler]
+- implied-person_95|?? [Tochter von Richard Heuberger]
+- implied-person_96|?? [Frau von Hans Prinzhorn]
+- implied-person_97|?? [Frau von Rudolf Hans Bartsch]
+- implied-person_98|?? [Frau von Gustav Waldau]
+- implied-person_99|?? [Frau von Rolf Randolf]
+- implied-person_100|?? [Frau von Arnost Ziegler]
+- implied-person_101|?? [Frau von Hugo Grab]
+- implied-person_102|?? [Mutter von Friedrich Dlabač]
+- implied-person_103|?? [Mutter von Grace Palotta]
+- implied-person_104|?? [Mutter von Siegfried Trebitsch]
+- implied-person_105|?? [Frau von Carl Kraus]
+- implied-person_106|?? [Frau von Oskar Baum]
+- implied-person_107|?? [Frau von Leo Blech]
+- implied-person_108|?? [Frau von Carl Sternheim]
+- implied-person_109|?? [Frau von Wolfgang Schumann]
+- implied-person_110|?? [Frau von Robert Michel]
+- implied-person_111|?? [Frau von Georg Stollberg]
+- implied-person_112|?? [Frau von Julius Bittner]
+- implied-person_113|?? [Frau von Julius Szeps]
+- implied-person_114|?? [Vater von Josef Plat]
+- implied-person_115|?? [Mann von Jeannette Radway]
+- implied-person_116|?? [Frau von Karl Kupelwieser]
+- implied-person_117|?? [Frau von Guido Engelmann]
+- implied-person_118|?? [Frau von Rudolf Allers]
+- implied-person_119|?? [Frau von Siegmund Schratter]
+- implied-person_120|?? [Frau von Richard Robert]
+- implied-person_121|?? [Frau von Gustav Glück]
+- implied-person_122|?? [Frau von Adolf Lantz]
+- implied-person_123|?? [Frau von Josef Simon]
+- implied-person_124|?? [Frau von Leo Ebermann]
+
+## C: Index-Person ohne Anker im Text (6)
+- 1913-12-04 pmb10863 Richard Beer-Hofmann (1866–1945, male, Schriftsteller)
+- 1913-12-07 pmb11530 Hans Gerhard Gräf (1864–1942, male)
+- 1913-12-10 pmb12170 Heinrich Mann (1871–1950, male, Schriftsteller)
+- 1913-12-10 pmb12176 Thomas Mann (1875–1955, male, Schriftsteller)
+- 1913-12-21 pmb10863 Richard Beer-Hofmann (1866–1945, male, Schriftsteller)
+- 1913-12-28 pmb24420 Hans Schnitzler (1895–1967, male, Chirurg)
+
+## Auffälligkeit bestehender Auszeichnung (Aufgabe 1) (6)
+- 1913-12-12 art=ausreisser rs=pNt_42281 text=Frau Chiavacci ref=pmb24700 ueblich=pmb2154 belege=8/8
+- 1913-12-12 art=ausreisser rs=pNt_42294 text=Kaufmann ref=pmb11888 ueblich=pmb2496 belege=87/90
+- 1913-12-21 art=nicht_im_register rs=pNt_96077 text=Mutter ref=pmb36658 name=Clara Van-Jung
+- 1913-12-21 art=ausreisser rs=pNt_42382 text=Richard ref=pmb2456 ueblich=pmb10863 belege=144/150
+- 1913-12-23 art=ausreisser rs=pNt_42397 text=Fischer ref=pmb16269 ueblich=pmb11324 belege=42/44
+- 1913-12-30 art=ausreisser rs=pNt_42458 text=Frau Trebitsch ref=pmb26159 ueblich=pmb12968 belege=41/43
+
