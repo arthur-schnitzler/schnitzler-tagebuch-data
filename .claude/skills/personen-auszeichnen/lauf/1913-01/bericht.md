@@ -1,7 +1,7 @@
 # Bericht 1913-01
 
 ## Angewendet
-set_ref: 13, wrap: 1
+set_ref: 13, wrap: 1, implied: 16, index: 15
 
 Automatisch (Stufe A, Grund im Protokoll): 7
 
@@ -13,6 +13,22 @@ Automatisch (Stufe A, Grund im Protokoll): 7
 - 1913-01-08 set_ref pmb3095 »Zuckerkandls« – Zuckerkandls, Index
 - 1913-01-14 set_ref pmb10875 »Benedikt« – Benedikt, Index
 - 1913-01-14 set_ref pmb10875 »Bened.« – Bened. = Benedikt
+- 1913-01-03 implied pmb23918 »Saltens« – Haushalt/Ehepartner, Vorschlag übernommen
+- 1913-01-06 implied pmb12942 »Tochter« – Haushalt/Ehepartner, Vorschlag übernommen
+- 1913-01-07 implied pmb23918 »Saltens« – Haushalt/Ehepartner, Vorschlag übernommen
+- 1913-01-08 implied pmb3091 »Zuckerkandls« – Haushalt/Ehepartner, Vorschlag übernommen
+- 1913-01-08 implied pmb24292 »Schmidls« – Haushalt/Ehepartner, Vorschlag übernommen
+- 1913-01-13 implied implied-person_105 »Frau« – Haushalt/Ehepartner, Vorschlag übernommen
+- 1913-01-17 implied pmb23918 »Salten’s« – Haushalt/Ehepartner, Vorschlag übernommen
+- 1913-01-19 implied pmb2642 »Speidels« – Haushalt/Ehepartner, Vorschlag übernommen
+- 1913-01-22 implied pmb26159 »Frau« – Haushalt/Ehepartner, Vorschlag übernommen
+- 1913-01-23 implied implied-person_110 »Frau« – Haushalt/Ehepartner, Vorschlag übernommen
+- 1913-01-25 implied pmb2461 »Hajeks« – Haushalt/Ehepartner, Vorschlag übernommen
+- 1913-01-25 implied implied-person_37 »Strassers« – Haushalt/Ehepartner, Vorschlag übernommen
+- 1913-01-27 implied pmb24292 »Schmidls« – Haushalt/Ehepartner, Vorschlag übernommen
+- 1913-01-27 implied pmb3095 »Zuckerkandls« – Haushalt/Ehepartner, Vorschlag übernommen
+- 1913-01-27 implied pmb13058 »Wassermanns« – Haushalt/Ehepartner, Vorschlag übernommen
+- 1913-01-30 implied pmb3095 »Zuckerkandls« – Haushalt/Ehepartner, Vorschlag übernommen
 
 ## Liste implied-persons.txt (aktueller Stand)
 - implied-person_1|?? [Frau von Leopold Schmidt]
@@ -124,32 +140,7 @@ Automatisch (Stufe A, Grund im Protokoll): 7
 - implied-person_107|?? [Frau von Leo Blech]
 - implied-person_108|?? [Frau von Carl Sternheim]
 - implied-person_109|?? [Frau von Wolfgang Schumann]
-
-## implied-Auslöser, nicht entschieden (24)
-- 1913-01-01#1 familienform »Hardts« Kopf Ernst Hardt
-- 1913-01-03#1 familienform »Saltens« Kopf Felix Salten
-- 1913-01-06#1 familienform »Bachrachs« Kopf Eugenie Bachrach
-- 1913-01-06#2 besitz »seine Tochter« Kopf Hugo Thimig (1854–1944, male, Theaterleiter/Schauspieler)
-- 1913-01-06#3 besitz »seinen Sohn« Kopf Max Reinhardt (1873–1943, male, Theaterleiter/Regisseur)
-- 1913-01-07#1 familienform »Saltens« Kopf Felix Salten
-- 1913-01-08#1 familienform »Zuckerkandls« Kopf Amalie Zuckerkandl
-- 1913-01-08#2 familienform »Schmidls« Kopf Hugo Schmidl
-- 1913-01-09#1 folgewort »Sohn« Kopf Fritz Zuckerkandl (1895–1983, male, Chemiker)
-- 1913-01-10#1 familienform »Bachrachs« Kopf Eugenie Bachrach
-- 1913-01-11#1 familienform »Strindbergs« Kopf August Strindberg
-- 1913-01-13#1 folgewort »Frau« Kopf Carl Kraus (1865–1923, male, Mediziner/Sanatoriumsleiter)
-- 1913-01-17#1 familienform »Salten’s« Kopf Felix Salten
-- 1913-01-18#1 familienform »Bachrachs« Kopf Eugenie Bachrach
-- 1913-01-19#1 familienform »Speidels« Kopf Felix Speidel
-- 1913-01-20#1 familienform »Hellers« Kopf Hugo Heller
-- 1913-01-22#1 folgewort »Frau« Kopf Siegfried Trebitsch (1868–1956, male, Schriftsteller/Übersetzer)
-- 1913-01-23#1 folgewort »Frau« Kopf Robert Michel (1876–1957, male, Schriftsteller/Offizier)
-- 1913-01-25#1 familienform »Hajeks« Kopf Markus Hajek
-- 1913-01-25#2 familienform »Strassers« Kopf Alois Strasser
-- 1913-01-27#1 familienform »Schmidls« Kopf Hugo Schmidl
-- 1913-01-27#2 familienform »Zuckerkandls« Kopf Otto Zuckerkandl
-- 1913-01-27#3 familienform »Wassermanns« Kopf Jakob Wassermann
-- 1913-01-30#1 familienform »Zuckerkandls« Kopf Otto Zuckerkandl
+- implied-person_110|?? [Frau von Robert Michel]
 
 ## Auffälligkeit bestehender Auszeichnung (Aufgabe 1) (2)
 - 1913-01-04 art=ausreisser rs=pNt_39773 text=Frl. Steffi ref=pmb25356 ueblich=pmb13653 belege=55/55
