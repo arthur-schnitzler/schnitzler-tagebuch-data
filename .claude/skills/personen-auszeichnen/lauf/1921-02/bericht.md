@@ -1,7 +1,7 @@
 # Bericht 1921-02
 
 ## Angewendet
-set_ref: 22
+set_ref: 22, implied: 14, index: 11
 
 Automatisch (Stufe A, Grund im Protokoll): 16
 
@@ -12,6 +12,20 @@ Automatisch (Stufe A, Grund im Protokoll): 16
 - 1921-02-27 set_ref pmb4843 »Prof. Robert« – Prof. Robert = Richard Robert
 - 1921-02-08 set_ref pmb20398/pmb20400 »Lichtenstern« – bei Lichtenstern, nachher mit ihr geplaudert = Ehepaar
 - 1921-02-22 set_ref pmb2238/pmb12692 »Kinder« – wir haben nur zwei Kinder = Lili und Heini
+- 1921-02-02 implied pmb20400 »Frau« – Dr. Lichtenstern und Frau
+- 1921-02-03 implied pmb10860 »Beer-Hofmann’s« – von Beer-Hofmann's und Saltens = Paula
+- 1921-02-03 implied pmb23918 »Saltens« – s.o. Ottilie Salten
+- 1921-02-05 implied pmb20400 »Lichtensterns« – bei Lichtensterns
+- 1921-02-05 implied implied-person_160 »Frau« – X und Frau
+- 1921-02-06 implied pmb22149 »Oldens« – Frau Szell, Oldens, ... gesprochen = Ehepaar
+- 1921-02-09 implied pmb9734 »Schmutzers« – bei Schmutzers
+- 1921-02-09 implied pmb25566 »Frau« – Strakosch und Frau
+- 1921-02-09 implied implied-person_161 »Frau« – X und Frau
+- 1921-02-09 implied implied-person_162 »Frau« – X und Frau
+- 1921-02-20 implied pmb23915 »Tochter« – Salten mit seiner Tochter = Anna Katharina (Rehmann), Kind laut PMB
+- 1921-02-23 implied pmb23918 »Saltens« – mit Saltens heim
+- 1921-02-25 implied pmb14227 »Tochter« – ihrer Tochter und Stekel = Sybille Falckenberg, Index
+- 1921-02-27 implied implied-person_118 »Frau« – X und Frau
 
 ## Liste implied-persons.txt (aktueller Stand)
 - implied-person_1|?? [Frau von Leopold Schmidt]
@@ -173,29 +187,9 @@ Automatisch (Stufe A, Grund im Protokoll): 16
 - implied-person_157|?? [Frau von Victor Tischler]
 - implied-person_158|?? [Frau von Heinrich Glücksmann]
 - implied-person_159|?? [Frau von Maximilian Sladek]
-
-## implied-Auslöser, nicht entschieden (21)
-- 1921-02-01#1 familienform »Bernau’s« Kopf Alfred Bernau
-- 1921-02-01#2 familienform »Bernaus« Kopf Alfred Bernau
-- 1921-02-02#1 folgewort »Frau« Kopf Robert Lichtenstern (1874–1955, male, Urologe/Chirurg)
-- 1921-02-03#1 familienform »Beer-Hofmann’s« Kopf Richard Beer-Hofmann
-- 1921-02-03#2 familienform »Saltens« Kopf Felix Salten
-- 1921-02-05#1 familienform »Lichtensterns« Kopf Robert Lichtenstern
-- 1921-02-05#2 folgewort »Frau« Kopf Hans Eppinger (1879–1946, male, Internist)
-- 1921-02-06#1 familienform »Oldens« Kopf Rudolf Olden
-- 1921-02-09#1 familienform »Lenins« Kopf Wladimir Iljitsch Lenin
-- 1921-02-09#2 familienform »Schmutzers« Kopf Ferdinand Schmutzer
-- 1921-02-09#3 folgewort »Gattin« Kopf Berta Fröhlich (1862–1922, female)
-- 1921-02-09#4 folgewort »Frau« Kopf Siegfried von Strakosch-Feldringen (1867–1933, male, Industrieller/Unternehmer)
-- 1921-02-09#5 folgewort »Frau« Kopf Theodor Schnabel (1855–1924, male, Industrieller)
-- 1921-02-09#6 folgewort »Frau« Kopf Michael Hainisch (1858–1940, male, Politiker)
-- 1921-02-15#1 familienform »Sterns« Kopf Arthur Stern
-- 1921-02-20#1 besitz »seiner Tochter« Kopf Felix Salten (1869–1945, male, Schriftsteller/Journalist)
-- 1921-02-22#1 familienform »Vallos« Kopf Eduard Vallo
-- 1921-02-23#1 familienform »Saltens« Kopf Felix Salten
-- 1921-02-25#1 besitz »ihrer Tochter« Kopf Helene Binder (1865–1960, female)
-- 1921-02-26#1 familienform »Vallo’s« Kopf Eduard Vallo
-- 1921-02-27#1 folgewort »Frau« Kopf Rudolf Allers (1883–1963, male, Psychiater)
+- implied-person_160|?? [Frau von Hans Eppinger]
+- implied-person_161|?? [Frau von Theodor Schnabel]
+- implied-person_162|?? [Frau von Michael Hainisch]
 
 ## C: Index-Person ohne Anker im Text (3)
 - 1921-02-04 pmb13484 Gabriele Arnau (1873–1928, male, Sprechlehrer)
