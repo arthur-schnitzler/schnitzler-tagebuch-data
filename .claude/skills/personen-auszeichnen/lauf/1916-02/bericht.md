@@ -1,7 +1,7 @@
 # Bericht 1916-02
 
 ## Angewendet
-set_ref: 7, wrap: 1
+set_ref: 7, wrap: 1, implied: 7, index: 7
 
 Automatisch (Stufe A, Grund im Protokoll): 2
 
@@ -12,6 +12,13 @@ Automatisch (Stufe A, Grund im Protokoll): 2
 - 1916-02-13 set_ref pmb4823 »Friedrichs« – Friedrich II., Zeit Friedrichs
 - 1916-02-13 set_ref pmb13648 »B.« – der alte B. = Julius Bachrach, Vater
 - 1916-02-20 set_ref pmb2473 »Großvater« – Großvater (Traum)
+- 1916-02-02 implied pmb2642 »Speidels« – Gäste/Besuch/Begleitung: Haushalt bzw. Ehepartner
+- 1916-02-16 implied pmb25409 »Steiners« – Gäste/Besuch/Begleitung: Haushalt bzw. Ehepartner
+- 1916-02-19 implied pmb24292 »Schmidls« – Gäste/Besuch/Begleitung: Haushalt bzw. Ehepartner
+- 1916-02-19 implied implied-person_135 »Frau« – Ehepartner ohne PMB-Beleg
+- 1916-02-22 implied pmb9734 »Schmutzers« – Gäste/Besuch/Begleitung: Haushalt bzw. Ehepartner
+- 1916-02-27 implied pmb24292 »Schmidls« – Gäste/Besuch/Begleitung: Haushalt bzw. Ehepartner
+- 1916-02-27 implied pmb23918 »Saltens« – Gäste/Besuch/Begleitung: Haushalt bzw. Ehepartner
 
 ## Liste implied-persons.txt (aktueller Stand)
 - implied-person_1|?? [Frau von Leopold Schmidt]
@@ -148,22 +155,7 @@ Automatisch (Stufe A, Grund im Protokoll): 2
 - implied-person_132|?? [Frau von Oskar Nedbal]
 - implied-person_133|?? [Frau von Alfred Topolanski]
 - implied-person_134|?? [Frau von Paul Schiff]
-
-## implied-Auslöser, nicht entschieden (14)
-- 1916-02-02#1 familienform »Speidels« Kopf Felix Speidel
-- 1916-02-03#2 familienform »Chiavaccis« Kopf Vincenz Chiavacci
-- 1916-02-11#1 familienform »Steiners« Kopf Franz Steiner
-- 1916-02-13#1 familienform »Hebbels« Kopf Friedrich Hebbel
-- 1916-02-16#1 familienform »Steiners« Kopf Franz Steiner
-- 1916-02-18#1 familienform »Aram’s« Kopf Kurt Aram
-- 1916-02-18#2 familienform »Brahms« Kopf Otto Brahm
-- 1916-02-19#1 familienform »Schmidls« Kopf Hugo Schmidl
-- 1916-02-19#2 folgewort »Frau« Kopf Lemberger (–, not-set)
-- 1916-02-20#1 besitz »seine Frau« Kopf Fritz Wittels (1880–1950, male, Schriftsteller/Psychoanalytiker)
-- 1916-02-22#1 familienform »Wallners« Kopf Carl Wallner
-- 1916-02-22#2 familienform »Schmutzers« Kopf Ferdinand Schmutzer
-- 1916-02-27#1 familienform »Schmidls« Kopf Hugo Schmidl
-- 1916-02-27#2 familienform »Saltens« Kopf Felix Salten
+- implied-person_135|?? [Frau von Dr. Lemberger]
 
 ## Auffälligkeit bestehender Auszeichnung (Aufgabe 1) (1)
 - 1916-02-23 art=ausreisser rs=pNt_47554 text=Frl. Schubert ref=pmb24526 ueblich=pmb12729 belege=40/40
