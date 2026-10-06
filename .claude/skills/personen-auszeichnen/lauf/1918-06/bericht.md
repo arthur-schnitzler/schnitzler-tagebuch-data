@@ -1,0 +1,189 @@
+# Bericht 1918-06
+
+## Angewendet
+set_ref: 19, wrap: 1, implied: 9, index: 7
+
+Automatisch (Stufe A, Grund im Protokoll): 4
+
+### Entscheidungen mit Begründung (Stufe B und implizite Personen, zur Prüfung)
+- 1918-06-05 set_ref pmb22728 »K.« – K. = Kolap (Frieda Pollak), im Text desselben Tags genannt
+- 1918-06-05 set_ref pmb22728 »K.« – K. = Kolap (Frieda Pollak), im Text desselben Tags genannt
+- 1918-06-05 set_ref pmb22728 »K.« – K. = Kolap (Frieda Pollak), im Text desselben Tags genannt
+- 1918-06-05 set_ref pmb12692/pmb2238 »Kinder« – Die Kinder
+- 1918-06-05 set_ref pmb10574 »W.s« – W.s = Wittels, Verständnis für sie
+- 1918-06-09 set_ref pmb12711 »Schott« – Schott mit Frau
+- 1918-06-24 set_ref pmb20266 »Leitner« – Cara Leitner
+- 1918-06-24 set_ref pmb3095/pmb3091 »Z.s« – Z.s
+- 1918-06-06 set_ref pmb3091 »Z.s« – Z.s = Zuckerkandls, Otto im Index
+- 1918-06-10 set_ref pmb22689/pmb22686 »Hr. Fr. v. Parnegg« – Hr. Fr. v. Parnegg
+- 1918-06-11 set_ref pmb19126 »K. K.« – K. K. = Kaiser Karl
+- 1918-06-11 set_ref pmb19126 »K. K.« – K. K.
+- 1918-06-11 set_ref pmb2996 »Czaren« – Czar
+- 1918-06-18 set_ref pmb12692/pmb2238 »Kinder« – Kinder
+- 1918-06-18 wrap pmb12692/pmb2238 »Kinder« – Kinder
+- 1918-06-18 set_ref pmb3095 »Zuckerkandls« – bei Zuckerkandls
+- 1918-06-02 implied implied-person_145 »Schotts« – Haushalt/Folgewort, Beleg im Vorschlag
+- 1918-06-02 implied pmb24508 »Frau« – Haushalt/Folgewort, Beleg im Vorschlag
+- 1918-06-02 implied pmb24508 »Frau« – Haushalt/Folgewort, Beleg im Vorschlag
+- 1918-06-07 implied pmb2642 »Speidels« – Haushalt/Folgewort, Beleg im Vorschlag
+- 1918-06-09 implied implied-person_145 »Frau« – Haushalt/Folgewort, Beleg im Vorschlag
+- 1918-06-10 implied pmb9734 »Schmutzers« – Haushalt/Folgewort, Beleg im Vorschlag
+- 1918-06-18 implied pmb3091 »Zuckerkandls« – Haushalt/Folgewort, Beleg im Vorschlag
+- 1918-06-24 implied implied-person_113 »Frau« – Haushalt/Folgewort, Beleg im Vorschlag
+- 1918-06-27 implied pmb3095 »Frau« – Haushalt/Folgewort, Beleg im Vorschlag
+
+## Liste implied-persons.txt (aktueller Stand)
+- implied-person_1|?? [Frau von Leopold Schmidt]
+- implied-person_2|?? [Frau von Oskar Benjamin Frankl]
+- implied-person_3|?? [Frau von Hermann Riedel]
+- implied-person_4|?? [Bruder von Jacques Lawner]
+- implied-person_5|?? [Schwester von Maximilian Bern]
+- implied-person_6|?? [Frau von Leonhard Labatt]
+- implied-person_7|?? [Mutter von Laura Eissler]
+- implied-person_8|?? [Frau von Gustav Walter]
+- implied-person_9|?? [Bruder von Anton Rückauf]
+- implied-person_10|?? [Frau von Wiesholz]
+- implied-person_11|?? [Frau von Eugen Schwarzenberg]
+- implied-person_12|?? [Mutter von Gisela Mayer]
+- implied-person_13|?? [Mutter von Melanie Soudek]
+- implied-person_14|?? [Frau von Hermann Cohn]
+- implied-person_15|?? [Frau von Leopold Postawka]
+- implied-person_16|?? [Frau von Ferry Bératon]
+- implied-person_17|?? [Mutter von Josefine Moller]
+- implied-person_18|?? [Frau von Hermann Oppenheim]
+- implied-person_19|?? [Frau von Cornel Engel]
+- implied-person_20|?? [Frau von Eduard Brüll]
+- implied-person_21|?? [Frau von Wilhelm Zierer]
+- implied-person_22|?? [Mutter von Karl Friese]
+- implied-person_23|?? [Frau von Friedrich Elbogen]
+- implied-person_24|?? [Frau von Friedrich von Weichs-Glon]
+- implied-person_25|?? [Frau von Gustav Schwarzkopf]
+- implied-person_26|?? [Mann von Emma Frid]
+- implied-person_27|?? [Frau von Oskar Friedrich Eirich]
+- implied-person_28|?? [Frau von Franz Oppenheimer]
+- implied-person_29|?? [Mann von Irma Hasterlik]
+- implied-person_30|?? [Frau von Walter Wilson Cobbett]
+- implied-person_31|?? [Mann von Melanie Soudek]
+- implied-person_32|?? [Frau von Alexander von Weilen]
+- implied-person_33|?? [Frau von Felix Kauders]
+- implied-person_34|?? [Frau von Maximilian Felix Fechner]
+- implied-person_35|?? [Frau von Wilhelm Degré]
+- implied-person_36|?? [Frau von Ernst Urban]
+- implied-person_37|?? [Frau von Alois Strasser]
+- implied-person_38|?? [Sohn von Paul Lindau]
+- implied-person_39|?? [Frau von Alexander Jaray]
+- implied-person_40|?? [Frau von Moriz Carl Millmann]
+- implied-person_41|?? [Frau von Otto Eysler]
+- implied-person_42|?? [Frau von Otto von Krumhaar]
+- implied-person_43|?? [Frau von Hirsch]
+- implied-person_44|?? [Tochter von Nemay]
+- implied-person_45|?? [Frau von Philipp Stein]
+- implied-person_46|?? [Tochter von Claire Tagger]
+- implied-person_47|?? [Frau von Arthur von Gutmann-Gelse]
+- implied-person_48|?? [Frau von Alexander Fleischer]
+- implied-person_49|?? [Tochter von Hermann Eissler]
+- implied-person_50|?? [Frau von Evgenij N. Čirikov]
+- implied-person_51|?? [Bruder von Oskar Mayer]
+- implied-person_52|?? [Mutter von Elsa Marguerite Galafrès]
+- implied-person_53|?? [Mutter von Dora Erl]
+- implied-person_54|?? [Frau von Willi Handl]
+- implied-person_55|?? [Frau von Alfred Fröhlich]
+- implied-person_56|?? [Frau von Leopold Bauer]
+- implied-person_57|?? [Frau von Ferdinand Gregori]
+- implied-person_58|?? [Frau von Oskar Heidt]
+- implied-person_59|?? [Frau von Johann Ress]
+- implied-person_60|?? [Frau von Marco Brociner]
+- implied-person_61|?? [Frau von Jacques Eisenstein]
+- implied-person_62|?? [Frau von Emil Wolf]
+- implied-person_63|?? [Frau von Felix Schlichter]
+- implied-person_64|?? [Frau von Richard Huldschiner]
+- implied-person_65|?? [Sohn von Nettie von Scanavi]
+- implied-person_66|?? [Mutter von Felix Speidel]
+- implied-person_67|?? [Frau von Artur Specht]
+- implied-person_68|?? [Frau von M. Kolloden]
+- implied-person_69|?? [Schwester von Dominik Wölfel]
+- implied-person_70|?? [Frau von Vincenz Chiavacci]
+- implied-person_71|?? [Frau von Richard M. Meyer]
+- implied-person_72|?? [Frau von Oscar Straus]
+- implied-person_73|?? [Frau von Paul Wiegler]
+- implied-person_74|?? [Tochter von Helene Louise Jaeger]
+- implied-person_75|?? [Frau von Ludwig Julius Eisenberg]
+- implied-person_76|?? [Frau von Hugo Schönbrunn]
+- implied-person_77|?? [Frau von Frederick Diller Owsley]
+- implied-person_78|?? [Frau von Konrad Mautner]
+- implied-person_79|?? [Frau von Julius Lehnert]
+- implied-person_80|?? [Frau von Ludwig Ferdinand Graf]
+- implied-person_81|?? [Frau von Ernst von Dohnányi]
+- implied-person_82|?? [Frau von Otto Carl Waldemar Benzon]
+- implied-person_83|?? [Frau von Josef von Winter]
+- implied-person_84|?? [Mutter von Leonie Guttmann]
+- implied-person_85|?? [Frau von Josef Peter]
+- implied-person_86|?? [Frau von Jacob Pollak]
+- implied-person_87|?? [Vater von Josef Kainz]
+- implied-person_88|?? [Frau von Leo Birinski]
+- implied-person_89|?? [Sohn von Arthur Foges]
+- implied-person_90|?? [Frau von Wilhelm Bauer]
+- implied-person_91|?? [Frau von Moriz Baumfeld]
+- implied-person_92|?? [Frau von Franz Neumann]
+- implied-person_93|?? [Frau von Edmund Kapper]
+- implied-person_94|?? [Frau von Rudolf von Kahler]
+- implied-person_95|?? [Tochter von Richard Heuberger]
+- implied-person_96|?? [Frau von Hans Prinzhorn]
+- implied-person_97|?? [Frau von Rudolf Hans Bartsch]
+- implied-person_98|?? [Frau von Gustav Waldau]
+- implied-person_99|?? [Frau von Rolf Randolf]
+- implied-person_100|?? [Frau von Arnost Ziegler]
+- implied-person_101|?? [Frau von Hugo Grab]
+- implied-person_102|?? [Mutter von Friedrich Dlabač]
+- implied-person_103|?? [Mutter von Grace Palotta]
+- implied-person_104|?? [Mutter von Siegfried Trebitsch]
+- implied-person_105|?? [Frau von Carl Kraus]
+- implied-person_106|?? [Frau von Oskar Baum]
+- implied-person_107|?? [Frau von Leo Blech]
+- implied-person_108|?? [Frau von Carl Sternheim]
+- implied-person_109|?? [Frau von Wolfgang Schumann]
+- implied-person_110|?? [Frau von Robert Michel]
+- implied-person_111|?? [Frau von Georg Stollberg]
+- implied-person_112|?? [Frau von Julius Bittner]
+- implied-person_113|?? [Frau von Julius Szeps]
+- implied-person_114|?? [Vater von Josef Plat]
+- implied-person_115|?? [Mann von Jeannette Radway]
+- implied-person_116|?? [Frau von Karl Kupelwieser]
+- implied-person_117|?? [Frau von Guido Engelmann]
+- implied-person_118|?? [Frau von Rudolf Allers]
+- implied-person_119|?? [Frau von Siegmund Schratter]
+- implied-person_120|?? [Frau von Richard Robert]
+- implied-person_121|?? [Frau von Gustav Glück]
+- implied-person_122|?? [Frau von Adolf Lantz]
+- implied-person_123|?? [Frau von Josef Simon]
+- implied-person_124|?? [Frau von Leo Ebermann]
+- implied-person_125|?? [Frau von Julius Tandler]
+- implied-person_126|?? [Frau von Wilhelm Schmidtbonn]
+- implied-person_127|?? [Frau von William Miller]
+- implied-person_128|?? [Mann von Elsa von Klarwill]
+- implied-person_129|?? [Frau von Karl Ludwig Schröder]
+- implied-person_130|?? [Frau von Arthur Eloesser]
+- implied-person_131|?? [Sohn von Marie Gutheil-Schoder]
+- implied-person_132|?? [Frau von Oskar Nedbal]
+- implied-person_133|?? [Frau von Alfred Topolanski]
+- implied-person_134|?? [Frau von Paul Schiff]
+- implied-person_135|?? [Frau von Dr. Lemberger]
+- implied-person_136|?? [Frau von Hans Marr]
+- implied-person_137|?? [Frau von Arthur Hellmer]
+- implied-person_138|?? [Frau von Theodor Beer]
+- implied-person_139|?? [Frau von Adolf B. Drucker]
+- implied-person_140|?? [Frau von Friedrich Otto Hertz]
+- implied-person_141|?? [Frau von Alfred Mandl]
+- implied-person_142|?? [Frau von Hendrik Jan de Marez Oyens]
+- implied-person_143|?? [Sohn von Heinrich Glücksmann]
+- implied-person_144|?? [Frau von Otto Tressler]
+- implied-person_145|?? [Frau von Werner Schott]
+
+## C: Index-Person ohne Anker im Text (6)
+- 1918-06-09 pmb10863 Richard Beer-Hofmann (1866–1945, male, Schriftsteller)
+- 1918-06-09 pmb17832 Anna Hansa (1877–1967, female)
+- 1918-06-09 pmb9810 Erich Fritz Schweinburg (1890–1959, male, Schriftsteller)
+- 1918-06-18 pmb12711 Werner Schott (1891–1965, male, Schauspieler)
+- 1918-06-24 pmb19126 Karl I. von Österreich-Ungarn (1887–1922, male, Kaiser/Offizier)
+- 1918-06-24 pmb22728 Frieda Pollak (1881–1937, female, Sekretär)
+
