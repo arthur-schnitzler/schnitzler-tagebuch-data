@@ -1,0 +1,194 @@
+# Bericht 1915-12
+
+## Angewendet
+set_ref: 21, implied: 16, index: 13, ausserhalb_register: 1
+
+Automatisch (Stufe A, Grund im Protokoll): 10
+
+### Entscheidungen mit Begründung (Stufe B und implizite Personen, zur Prüfung)
+- 1915-12-14 set_ref pmb22552 »Rudolf« – Rudolf Pick, Sohn Gustav Picks
+- 1915-12-14 set_ref pmb22546 »Pick« – der alte Pick = Gustav Pick
+- 1915-12-25 set_ref pmb18559 »Horowitz« – Herr Horowitz
+- 1915-12-31 set_ref pmb25405 »Steiner« – Steiner = Franz Steiner (Margit, Lori)
+- 1915-12-12 set_ref pmb27270 »Frl. Wittels« – Frl. Wittels = Schwester von Dr. W.
+- 1915-12-12 set_ref pmb10574 »Dr. W.« – Dr. W. = Fritz Wittels
+- 1915-12-24 set_ref pmb26340 »U.« – U. = Rudolf Urbantschitsch
+- 1915-12-24 set_ref pmb26340 »U.« – Gattin U. = Frau von Rudolf U.
+- 1915-12-27 set_ref pmb26337 »Frau U.« – Frau U. = Friederike
+- 1915-12-29 set_ref pmb10574 »Dr. Wittels« – Dr. Wittels
+- 1915-12-29 set_ref pmb27270 »Frl. W.« – Frl. W. = Schwester
+- 1915-12-02 implied pmb9734 »Schmutzers« – Gäste zum Nachtmahl: Ehepaar Schmutzer
+- 1915-12-02 implied pmb23918 »Salten’s« – Gäste: Saltens
+- 1915-12-05 implied pmb13058 »Wassermanns« – Wassermanns beim Essen
+- 1915-12-08 implied pmb25409 »Steiners« – zu Steiners
+- 1915-12-08 implied pmb25623 »Frau« – seine Frau = Pauline Strauss (Er ging früh = Strauss)
+- 1915-12-10 implied pmb13058 »Wassermanns« – zu Wassermanns
+- 1915-12-10 implied pmb3190 »Oppenheimers« – bei Oppenheimers
+- 1915-12-14 implied implied-person_134 »Frau« – Paul Schiff und Frau
+- 1915-12-20 implied pmb3223 »Auernheimers« – Mit O. Auernheimers
+- 1915-12-22 implied pmb23918 »Saltens« – Mit Saltens
+- 1915-12-25 implied pmb10860 »Beer-Hofmanns« – Zu Beer-Hofmanns
+- 1915-12-25 implied pmb2642 »Speidels« – Speidels
+- 1915-12-25 implied pmb12689 »Schmutzers« – zu Schmutzers
+- 1915-12-25 implied pmb182118 »Mutter« – seine Mutter = Mutter von Auernheimer
+- 1915-12-29 implied pmb27270 »Schwester« – Dr. Wittels und Schwester
+- 1915-12-31 implied pmb13058 »Wassermanns« – zu Wassermanns
+
+## Liste implied-persons.txt (aktueller Stand)
+- implied-person_1|?? [Frau von Leopold Schmidt]
+- implied-person_2|?? [Frau von Oskar Benjamin Frankl]
+- implied-person_3|?? [Frau von Hermann Riedel]
+- implied-person_4|?? [Bruder von Jacques Lawner]
+- implied-person_5|?? [Schwester von Maximilian Bern]
+- implied-person_6|?? [Frau von Leonhard Labatt]
+- implied-person_7|?? [Mutter von Laura Eissler]
+- implied-person_8|?? [Frau von Gustav Walter]
+- implied-person_9|?? [Bruder von Anton Rückauf]
+- implied-person_10|?? [Frau von Wiesholz]
+- implied-person_11|?? [Frau von Eugen Schwarzenberg]
+- implied-person_12|?? [Mutter von Gisela Mayer]
+- implied-person_13|?? [Mutter von Melanie Soudek]
+- implied-person_14|?? [Frau von Hermann Cohn]
+- implied-person_15|?? [Frau von Leopold Postawka]
+- implied-person_16|?? [Frau von Ferry Bératon]
+- implied-person_17|?? [Mutter von Josefine Moller]
+- implied-person_18|?? [Frau von Hermann Oppenheim]
+- implied-person_19|?? [Frau von Cornel Engel]
+- implied-person_20|?? [Frau von Eduard Brüll]
+- implied-person_21|?? [Frau von Wilhelm Zierer]
+- implied-person_22|?? [Mutter von Karl Friese]
+- implied-person_23|?? [Frau von Friedrich Elbogen]
+- implied-person_24|?? [Frau von Friedrich von Weichs-Glon]
+- implied-person_25|?? [Frau von Gustav Schwarzkopf]
+- implied-person_26|?? [Mann von Emma Frid]
+- implied-person_27|?? [Frau von Oskar Friedrich Eirich]
+- implied-person_28|?? [Frau von Franz Oppenheimer]
+- implied-person_29|?? [Mann von Irma Hasterlik]
+- implied-person_30|?? [Frau von Walter Wilson Cobbett]
+- implied-person_31|?? [Mann von Melanie Soudek]
+- implied-person_32|?? [Frau von Alexander von Weilen]
+- implied-person_33|?? [Frau von Felix Kauders]
+- implied-person_34|?? [Frau von Maximilian Felix Fechner]
+- implied-person_35|?? [Frau von Wilhelm Degré]
+- implied-person_36|?? [Frau von Ernst Urban]
+- implied-person_37|?? [Frau von Alois Strasser]
+- implied-person_38|?? [Sohn von Paul Lindau]
+- implied-person_39|?? [Frau von Alexander Jaray]
+- implied-person_40|?? [Frau von Moriz Carl Millmann]
+- implied-person_41|?? [Frau von Otto Eysler]
+- implied-person_42|?? [Frau von Otto von Krumhaar]
+- implied-person_43|?? [Frau von Hirsch]
+- implied-person_44|?? [Tochter von Nemay]
+- implied-person_45|?? [Frau von Philipp Stein]
+- implied-person_46|?? [Tochter von Claire Tagger]
+- implied-person_47|?? [Frau von Arthur von Gutmann-Gelse]
+- implied-person_48|?? [Frau von Alexander Fleischer]
+- implied-person_49|?? [Tochter von Hermann Eissler]
+- implied-person_50|?? [Frau von Evgenij N. Čirikov]
+- implied-person_51|?? [Bruder von Oskar Mayer]
+- implied-person_52|?? [Mutter von Elsa Marguerite Galafrès]
+- implied-person_53|?? [Mutter von Dora Erl]
+- implied-person_54|?? [Frau von Willi Handl]
+- implied-person_55|?? [Frau von Alfred Fröhlich]
+- implied-person_56|?? [Frau von Leopold Bauer]
+- implied-person_57|?? [Frau von Ferdinand Gregori]
+- implied-person_58|?? [Frau von Oskar Heidt]
+- implied-person_59|?? [Frau von Johann Ress]
+- implied-person_60|?? [Frau von Marco Brociner]
+- implied-person_61|?? [Frau von Jacques Eisenstein]
+- implied-person_62|?? [Frau von Emil Wolf]
+- implied-person_63|?? [Frau von Felix Schlichter]
+- implied-person_64|?? [Frau von Richard Huldschiner]
+- implied-person_65|?? [Sohn von Nettie von Scanavi]
+- implied-person_66|?? [Mutter von Felix Speidel]
+- implied-person_67|?? [Frau von Artur Specht]
+- implied-person_68|?? [Frau von M. Kolloden]
+- implied-person_69|?? [Schwester von Dominik Wölfel]
+- implied-person_70|?? [Frau von Vincenz Chiavacci]
+- implied-person_71|?? [Frau von Richard M. Meyer]
+- implied-person_72|?? [Frau von Oscar Straus]
+- implied-person_73|?? [Frau von Paul Wiegler]
+- implied-person_74|?? [Tochter von Helene Louise Jaeger]
+- implied-person_75|?? [Frau von Ludwig Julius Eisenberg]
+- implied-person_76|?? [Frau von Hugo Schönbrunn]
+- implied-person_77|?? [Frau von Frederick Diller Owsley]
+- implied-person_78|?? [Frau von Konrad Mautner]
+- implied-person_79|?? [Frau von Julius Lehnert]
+- implied-person_80|?? [Frau von Ludwig Ferdinand Graf]
+- implied-person_81|?? [Frau von Ernst von Dohnányi]
+- implied-person_82|?? [Frau von Otto Carl Waldemar Benzon]
+- implied-person_83|?? [Frau von Josef von Winter]
+- implied-person_84|?? [Mutter von Leonie Guttmann]
+- implied-person_85|?? [Frau von Josef Peter]
+- implied-person_86|?? [Frau von Jacob Pollak]
+- implied-person_87|?? [Vater von Josef Kainz]
+- implied-person_88|?? [Frau von Leo Birinski]
+- implied-person_89|?? [Sohn von Arthur Foges]
+- implied-person_90|?? [Frau von Wilhelm Bauer]
+- implied-person_91|?? [Frau von Moriz Baumfeld]
+- implied-person_92|?? [Frau von Franz Neumann]
+- implied-person_93|?? [Frau von Edmund Kapper]
+- implied-person_94|?? [Frau von Rudolf von Kahler]
+- implied-person_95|?? [Tochter von Richard Heuberger]
+- implied-person_96|?? [Frau von Hans Prinzhorn]
+- implied-person_97|?? [Frau von Rudolf Hans Bartsch]
+- implied-person_98|?? [Frau von Gustav Waldau]
+- implied-person_99|?? [Frau von Rolf Randolf]
+- implied-person_100|?? [Frau von Arnost Ziegler]
+- implied-person_101|?? [Frau von Hugo Grab]
+- implied-person_102|?? [Mutter von Friedrich Dlabač]
+- implied-person_103|?? [Mutter von Grace Palotta]
+- implied-person_104|?? [Mutter von Siegfried Trebitsch]
+- implied-person_105|?? [Frau von Carl Kraus]
+- implied-person_106|?? [Frau von Oskar Baum]
+- implied-person_107|?? [Frau von Leo Blech]
+- implied-person_108|?? [Frau von Carl Sternheim]
+- implied-person_109|?? [Frau von Wolfgang Schumann]
+- implied-person_110|?? [Frau von Robert Michel]
+- implied-person_111|?? [Frau von Georg Stollberg]
+- implied-person_112|?? [Frau von Julius Bittner]
+- implied-person_113|?? [Frau von Julius Szeps]
+- implied-person_114|?? [Vater von Josef Plat]
+- implied-person_115|?? [Mann von Jeannette Radway]
+- implied-person_116|?? [Frau von Karl Kupelwieser]
+- implied-person_117|?? [Frau von Guido Engelmann]
+- implied-person_118|?? [Frau von Rudolf Allers]
+- implied-person_119|?? [Frau von Siegmund Schratter]
+- implied-person_120|?? [Frau von Richard Robert]
+- implied-person_121|?? [Frau von Gustav Glück]
+- implied-person_122|?? [Frau von Adolf Lantz]
+- implied-person_123|?? [Frau von Josef Simon]
+- implied-person_124|?? [Frau von Leo Ebermann]
+- implied-person_125|?? [Frau von Julius Tandler]
+- implied-person_126|?? [Frau von Wilhelm Schmidtbonn]
+- implied-person_127|?? [Frau von William Miller]
+- implied-person_128|?? [Mann von Elsa von Klarwill]
+- implied-person_129|?? [Frau von Karl Ludwig Schröder]
+- implied-person_130|?? [Frau von Arthur Eloesser]
+- implied-person_131|?? [Sohn von Marie Gutheil-Schoder]
+- implied-person_132|?? [Frau von Oskar Nedbal]
+- implied-person_133|?? [Frau von Alfred Topolanski]
+- implied-person_134|?? [Frau von Paul Schiff]
+
+## Auffälligkeit bestehender Auszeichnung (Aufgabe 1) (8)
+- 1915-12-06 art=ausreisser rs=pNt_46984 text=St. ref=pmb12848 ueblich=pmb13653 belege=66/69
+- 1915-12-10 art=nicht_im_register rs=pNt_96368 text=Oppenheimers ref=pmb3190 name=Marie Henriette Oppenheimer
+- 1915-12-12 art=ausreisser rs=pNt_47042 text=Frl. Wittels ref=pmb27270 ueblich=pmb10574 belege=31/31
+- 1915-12-14 art=ausreisser rs=pNt_47055 text=Hugos ref=pmb11737 ueblich=pmb11740 belege=9/9
+- 1915-12-25 art=nicht_im_register rs=pNt_96375 text=Mutter ref=pmb182118 name=Charlotte Auernheimer
+- 1915-12-27 art=ausreisser rs=pNt_47161 text=Frau U. ref=pmb26337 ueblich=pmb26340 belege=75/75
+- 1915-12-28 art=ausreisser rs=pNt_47164 text=Frau Reik ref=pmb23191 ueblich=pmb12495 belege=14/14
+- 1915-12-30 art=ausreisser rs=pNt_47179 text=Frau U. ref=pmb26337 ueblich=pmb26340 belege=75/75
+
+## C: Index-Person ohne Anker im Text (10)
+- 1915-12-08 pmb12417 Friedrich Gustav Piffl (1864–1932, male, Kardinal/Erzbischof)
+- 1915-12-08 pmb24648 Max Schwarzkopf (1857–1928, male, Rechtsanwalt)
+- 1915-12-08 pmb13079 Richard Weiskirchner (1861–1926, male, Politiker)
+- 1915-12-14 pmb11740 Hugo von Hofmannsthal (1874–1929, male, Schriftsteller/Philologe)
+- 1915-12-16 pmb7994 Norbert Jacques (1880–1954, male, Schriftsteller)
+- 1915-12-18 pmb17584 Albertine von Gutmann-Gelse (1853–1945, female)
+- 1915-12-24 pmb26337 Friederike Urbantschitsch (1879–1970, female)
+- 1915-12-25 pmb18558 Horowitz (–, female)
+- 1915-12-27 pmb26340 Rudolf Urbantschitsch (1879–1964, male, Mediziner/Psychoanalytiker)
+- 1915-12-31 pmb22010 Leonore Nossal (1873–1942, female)
+
