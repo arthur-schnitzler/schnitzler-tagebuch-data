@@ -64,6 +64,11 @@ anwenden, sondern im Bericht nennen. Bestehende `@ref` änderst du nie; Auffäll
   mit Herkunft und Stand); Teil des Skills, rund 2 MB.
 - `references/cloud-lauf.md`: Gesamtlauf unbeaufsichtigt in der Claude-Cloud (Routine): Aufbau, Prompt, Prüfen. Dazu `H fortschritt`
   (welche Monate sind erledigt) und `H sichern <Monat>` (Entscheidungen, Bericht und Fortschritt nach `lauf/`).
+- `scripts/offene_fragen.py` (mit Vorlage `offene_fragen.html`): sammelt nach einem Gesamtlauf die offenen Punkte (neue
+  implied-Personen mit Bezugsperson und Beziehung, Register-Lücken, Index-Personen ohne Textstelle, auffällige Altbestände,
+  nicht entschiedene Auslöser) und baut `temp/personen-auszeichnen/offene-fragen/offene-fragen.html`, ein Arbeitswerkzeug für
+  die Redaktion. Dessen Export ist eine Entscheidungsdatei, die `H apply` direkt annimmt. Dazu `neue-personen.csv` und
+  `register-luecken.csv`. Liest nur.
 - `scripts/test_skill.py`: Regressionstest (nach Änderungen an den Skripten).
 
 Die Edition kennt drei Auszeichnungsarten, die du nicht vermischst: `type="person"` (Name genannt), `type="allusively"`
