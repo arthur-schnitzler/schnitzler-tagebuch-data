@@ -81,6 +81,7 @@ pre { background: var(--bg); border: 1px solid var(--line); border-radius: 6px; 
 .liste button.fertig::after { content: " \2713"; color: var(--ok); }
 .nav { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 10px; }
 .text { font-family: var(--f-serif); font-size: 15.5px; line-height: 1.7; white-space: pre-wrap; overflow-wrap: anywhere; max-width: 75ch; background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 12px 14px; margin: 10px 0; user-select: text; }
+.text .rs[data-id] { cursor: pointer; }
 .text .rs { background: var(--rs); border-bottom: 2px solid var(--rs-line); border-radius: 2px; cursor: default; }
 .text .rs.impl { border-bottom-style: dashed; }
 .text .rs.noref { background: transparent; border-bottom: 2px solid var(--warn); }
@@ -299,7 +300,7 @@ function viewFaelle(v, tab) {
   const ui = S.ui[tab] = S.ui[tab] || { f: 'offen', q: '', k: null };
   const label = { c: x => x.tag + '  ' + x.info.name, pr: x => x.tag + '  ' + (x.text || x.ref), au: x => x.tag + '  ' + x.text, sa: x => x.tag + '  ' + (x.text || x.id) }[tab];
   const hilfe = {
-    c: 'Diese Personen stehen im Index des Tages, aber im Text ist keine Stelle mit ihrem <span class="mono">@ref</span> ausgezeichnet. Gelb markiert sind mögliche Namensformen. Steht dort schon ein <span class="mono">rs</span> ohne Ref (orange unterstrichen), klicken Sie es an und ergänzen den Ref. Sonst markieren Sie die Stelle im Text und wählen, wie sie ausgezeichnet wird. Hellblau ist schon ausgezeichneter Text.',
+    c: 'Diese Personen stehen im Index des Tages, aber im Text ist keine Stelle mit ihrem <span class="mono">@ref</span> ausgezeichnet. Gelb markiert sind mögliche Namensformen. Steht dort schon ein <span class="mono">rs</span> ohne Ref (orange unterstrichen), klicken Sie es an und ergänzen den Ref. Sonst markieren Sie die Stelle mit der Maus im Text und wählen, wie sie ausgezeichnet wird. Gehört die Person zu einem schon ausgezeichneten Wort (hellblau, z. B. „Hajeks“ für zwei Personen), klicken Sie es an und hängen sie an den vorhandenen Ref an.',
     pr: 'Bestehende Auszeichnungen, die auffallen (selten so zugeordnet, Person vor der Geburt erwähnt, Ref nicht im Index). Die Stelle ist hervorgehoben. Der Skill ändert bestehende Refs nie selbst: Korrekturen gehen als Liste in die Redaktion.',
     au: 'Mitgemeinte Personen („ihre Schwester“, „bei Prager’s“), bei denen der Lauf den Bezug nicht klären konnte. Markieren Sie das Wort, das ausgezeichnet werden soll, und wählen Sie die Person aus dem Register oder beschreiben Sie eine neue.',
     sa: 'Sichere automatische Vorschläge, die der Lauf nicht übernommen hat. Prüfen und übernehmen.'
@@ -336,20 +337,20 @@ function viewFaelle(v, tab) {
     if (!x) { box.innerHTML = '<p>Keine Fälle in dieser Auswahl.</p>'; return; }
     ui.k = T[tab].key(x); save();
     box.innerHTML = '<div class="nav"><button id="vor">‹ zurück</button><span class="muted">Fall ' + (cur.i + 1) + ' von ' + cur.xs.length + '</span><button id="weiter">weiter ›</button></div><div id="fall"></div>';
-    $('#vor').onclick = () => { if (cur.i > 0) { cur.i--; cur.sel = null; cur.rsSet = []; zeigeFall(); } };
-    $('#weiter').onclick = () => { if (cur.i < cur.xs.length - 1) { cur.i++; cur.sel = null; cur.rsSet = []; zeigeFall(); } };
+    $('#vor').onclick = () => { if (cur.i > 0) { cur.i--; cur.sel = null; cur.rsSet = []; cur.addSet = []; zeigeFall(); } };
+    $('#weiter').onclick = () => { if (cur.i < cur.xs.length - 1) { cur.i++; cur.sel = null; cur.rsSet = []; cur.addSet = []; zeigeFall(); } };
     ({ c: fallC, pr: fallPr, au: fallAu, sa: fallSa })[tab](x, $('#fall'));
   }
   function entscheide(x, d) {
     const k = T[tab].key(x); if (d) S.dec[k] = Object.assign({ ts: Date.now() }, d); else delete S.dec[k];
     save(); kopf();
     const b = document.querySelector('#liste button[data-n="' + cur.i + '"]'); if (b) b.classList.toggle('fertig', erledigt(tab, x));
-    if (d && d.art !== 'spaeter' && ui.f === 'offen') neu(null, cur.i); else if (d && d.art !== 'spaeter') { if (cur.i < cur.xs.length - 1) cur.i++; cur.sel = null; cur.rsSet = []; zeigeFall(); } else zeigeFall();
+    if (d && d.art !== 'spaeter' && ui.f === 'offen') neu(null, cur.i); else if (d && d.art !== 'spaeter') { if (cur.i < cur.xs.length - 1) cur.i++; cur.sel = null; cur.rsSet = []; cur.addSet = []; zeigeFall(); } else zeigeFall();
   }
   $('#ff').onchange = e => { ui.f = e.target.value; ui.k = null; save(); neu(null); };
   $('#fq').oninput = e => { ui.q = e.target.value; ui.k = null; save(); neu(null); };
   if (tab === 'pr') $('#fart').onchange = e => { ui.art = e.target.value; ui.k = null; save(); neu(null); };
-  $('#liste').onclick = e => { const b = e.target.closest('button'); if (b) { cur.i = +b.dataset.n; cur.sel = null; cur.rsSet = []; zeigeFall(); } };
+  $('#liste').onclick = e => { const b = e.target.closest('button'); if (b) { cur.i = +b.dataset.n; cur.sel = null; cur.rsSet = []; cur.addSet = []; zeigeFall(); } };
 
   /* Textmarkierung → Auswahl */
   function auswahlBox(box) {
@@ -367,13 +368,18 @@ function viewFaelle(v, tab) {
       cur.sel = { a, b }; cur.rsId = null; aktualisiere();
     }
     tx.addEventListener('mouseup', aus); tx.addEventListener('keyup', aus); tx.addEventListener('touchend', () => setTimeout(aus, 50));
-    cur.rsSet = cur.rsSet || [];
+    cur.rsSet = cur.rsSet || []; cur.addSet = cur.addSet || [];
     const schalte = id => { const k = cur.rsSet.indexOf(id); if (k >= 0) cur.rsSet.splice(k, 1); else cur.rsSet.push(id); aktualisiere(); };
+    const schalteAdd = id => { const k = cur.addSet.indexOf(id); if (k >= 0) cur.addSet.splice(k, 1); else cur.addSet.push(id); aktualisiere(); };
     cur.schalte = schalte;
     tx.addEventListener('click', e => {
       const s = e.target.closest('.rs[data-id]'); if (!s || !getSelection().isCollapsed) return;
       if (tab === 'au') { cur.rsId = s.dataset.id; cur.sel = null; aktualisiere(); }
-      else if (tab === 'c' && s.classList.contains('noref')) schalte(s.dataset.id);
+      else if (tab === 'c') {
+        const r = D.texte[cur.xs[cur.i].tag].rs.find(q => q[5] === s.dataset.id);
+        if (!r || !(r[2] === 'person' || r[2] === 'allusively')) return;
+        if (s.classList.contains('noref')) schalte(s.dataset.id); else schalteAdd(s.dataset.id);
+      }
     });
     function ueberRs(a, b) { const dt = D.texte[cur.xs[cur.i].tag]; return dt.rs.filter(r => r[0] < b && a < r[1]).concat((dt.gs || []).filter(g => g[0] < b && a < g[1]).map(g => [g[0], g[1], 'gesperrt', '', 'x'])); }
     function aktualisiere() {
@@ -385,17 +391,21 @@ function viewFaelle(v, tab) {
         if (u.length && tab !== 'au') h += '<div class="hinweis">Die Auswahl liegt in einem schon vorhandenen <span class="mono">rs</span>' + (u.some(r => !r[4]) ? ' ohne ref: dort lieber den Ref ergänzen (orange unterstrichenen Text anklicken).' : ' mit ref oder in gesperrtem Text (Datum, Titel, Ort). Das kann der Skill nicht umschließen.') + '</div>';
       } else if (cur.rsId) h = 'Ausgewählt: bestehendes rs <b class="sel">' + esc(cur.rsId) + '</b> <button type="button" id="selweg">aufheben</button>';
       if (cur.rsSet.length) h += '<div>Ref ergänzen an: ' + cur.rsSet.map(id => { const r = dt.rs.find(q => q[5] === id); return '<b class="sel">»' + esc(r ? t.slice(r[0], r[1]) : id) + '«</b>'; }).join(', ') + ' <button type="button" id="rsweg">aufheben</button></div>';
+      if (cur.addSet.length) h += '<div>Person anhängen an: ' + cur.addSet.map(id => { const r = dt.rs.find(q => q[5] === id); return '<b class="sel">»' + esc(r ? t.slice(r[0], r[1]) : id) + '«</b> <span class="muted mono">' + esc(r ? r[4].replace(/#/g, '') : '') + '</span>'; }).join(', ') + ' <button type="button" id="addweg">aufheben</button></div>';
       if (!h) h = '<span class="muted">Noch nichts im Text markiert.</span>';
       info.innerHTML = h;
       tx.querySelectorAll('.gewaehlt').forEach(n => n.classList.remove('gewaehlt'));
       if (cur.sel) tx.querySelectorAll('[data-o]').forEach(n => { const o = +n.dataset.o, e2 = o + n.textContent.length; if (o >= cur.sel.a && e2 <= cur.sel.b) n.classList.add('gewaehlt'); });
       if (cur.rsId) tx.querySelectorAll('[data-id="' + cur.rsId + '"]').forEach(n => n.classList.add('gewaehlt'));
       cur.rsSet.forEach(id => tx.querySelectorAll('[data-id="' + id + '"]').forEach(n => n.classList.add('gewaehlt')));
+      cur.addSet.forEach(id => tx.querySelectorAll('[data-id="' + id + '"]').forEach(n => n.classList.add('gewaehlt')));
       const w = $('#selweg', box); if (w) w.onclick = () => { cur.sel = null; cur.rsId = null; getSelection().removeAllRanges(); aktualisiere(); };
       const w2 = $('#rsweg', box); if (w2) w2.onclick = () => { cur.rsSet = []; aktualisiere(); };
+      const w3 = $('#addweg', box); if (w3) w3.onclick = () => { cur.addSet = []; aktualisiere(); };
       const frei = cur.sel && !ueberRs(cur.sel.a, cur.sel.b).length;
       box.querySelectorAll('[data-braucht-sel]').forEach(b => { b.disabled = !frei; });
       box.querySelectorAll('[data-braucht-rs]').forEach(b => { b.disabled = !cur.rsSet.length; });
+      box.querySelectorAll('[data-braucht-add]').forEach(b => { b.disabled = !cur.addSet.length; });
     }
     cur.aktualisiere = aktualisiere; aktualisiere();
   }
@@ -414,7 +424,7 @@ function viewFaelle(v, tab) {
       '<p class="muted" style="margin:0">Index dieses Tages: ' + idx.length + ' Personen' + (x.hint.length ? '' : ' · <b>keine Namensform im Text gefunden</b>') + '</p>' +
       (x.kand_rs.length ? '<p style="margin:6px 0 0">Stelle ohne Ref vorhanden: ' + x.kand_rs.map(r => '<button type="button" data-rs="' + esc(r.id) + '">»' + esc(r.text) + '« <span class="muted mono">' + esc(r.id) + '</span></button>').join(' ') + '</p>' : '') +
       '<div class="text" id="tx"></div><div class="sel-info" style="min-height:1.6em"></div>' +
-      '<div class="aktionen"><div class="grp"><button class="primary" data-braucht-rs="1" data-a="setref">Ref an gewähltem rs ergänzen</button></div><div class="grp"><button class="primary" data-braucht-sel="1" data-a="wrap-person">Name auszeichnen</button><button data-braucht-sel="1" data-a="wrap-allus">Verwandtschaftswort</button><button data-braucht-sel="1" data-a="implied">mitgemeint (implied)</button></div>' +
+      '<div class="aktionen"><div class="grp"><button class="primary" data-braucht-rs="1" data-a="setref">Ref an gewähltem rs ergänzen</button><button class="primary" data-braucht-add="1" data-a="addref">Person an gewähltes rs anhängen</button></div><div class="grp"><button class="primary" data-braucht-sel="1" data-a="wrap-person">Name auszeichnen</button><button data-braucht-sel="1" data-a="wrap-allus">Verwandtschaftswort</button><button data-braucht-sel="1" data-a="implied">mitgemeint (implied)</button></div>' +
       '<div class="grp"><button data-a="keine">im Text nicht vorhanden</button><button data-a="index-falsch">Index prüfen</button><button data-a="spaeter">später</button></div></div>';
     textAnzeigen($('#tx', box), x.tag, x.hint.map(h => ({ a: h[0], b: h[1], cls: 'hit' })));
     auswahlBox(box);
@@ -422,12 +432,13 @@ function viewFaelle(v, tab) {
     box.querySelector('.aktionen').onclick = e => {
       const b = e.target.closest('button'); if (!b || b.disabled) return; const a = b.dataset.a, t = D.texte[x.tag].t;
       if (a === 'setref') entscheide(x, { art: 'setref', ids: cur.rsSet.slice() });
+      else if (a === 'addref') entscheide(x, { art: 'addref', ids: cur.addSet.slice() });
       else if (a === 'wrap-person' || a === 'wrap-allus' || a === 'implied') {
         const an = ankerFuer(t, cur.sel.a, cur.sel.b);
         entscheide(x, a === 'implied' ? { art: 'implied', anker: an } : { art: 'wrap', typ: a === 'wrap-person' ? 'person' : 'allusively', anker: an });
       } else entscheide(x, { art: a === 'keine' ? 'keine' : a === 'index-falsch' ? 'index_falsch' : 'spaeter' });
     };
-    if (d) entschBox(x, box, d => ({ setref: 'Ref ergänzt an ' + (d.ids || []).join(', '), wrap: 'Auszeichnung ' + (d.typ === 'person' ? 'als Name' : 'als Verwandtschaftswort') + ' »' + (d.anker && d.anker.text) + '«', implied: 'mitgemeint, Stelle »' + (d.anker && d.anker.text) + '«', keine: 'im Text nicht vorhanden (keine Änderung)', index_falsch: 'Index-Eintrag zu prüfen', spaeter: 'später' }[d.art]));
+    if (d) entschBox(x, box, d => ({ setref: 'Ref ergänzt an ' + (d.ids || []).join(', '), addref: 'Person angehängt an ' + (d.ids || []).join(', '), wrap: 'Auszeichnung ' + (d.typ === 'person' ? 'als Name' : 'als Verwandtschaftswort') + ' »' + (d.anker && d.anker.text) + '«', implied: 'mitgemeint, Stelle »' + (d.anker && d.anker.text) + '«', keine: 'im Text nicht vorhanden (keine Änderung)', index_falsch: 'Index-Eintrag zu prüfen', spaeter: 'später' }[d.art]));
   }
 
   function fallPr(x, box) {
@@ -492,6 +503,7 @@ function baueOps() {
   const ops = [];
   D.index_ohne_anker.forEach(x => { const d = S.dec['c|' + x.tag + '|' + x.pmb]; if (!d) return;
     if (d.art === 'wrap') ops.push({ op: 'wrap', tag: x.tag, anker: d.anker, ref: x.pmb, typ: d.typ, grund: 'Redaktion (Werkzeug): ' + (d.typ === 'person' ? 'Name' : 'Verwandtschaftswort') + ' von Hand gewählt' });
+    if (d.art === 'addref') (d.ids || []).forEach(id => ops.push({ op: 'add_ref', tag: x.tag, id: id, ref: x.pmb, grund: 'Redaktion (Werkzeug): weitere Person an vorhandenen ref angehängt' }));
     if (d.art === 'setref') (d.ids || []).forEach(id => ops.push({ op: 'set_ref', tag: x.tag, id: id, ref: x.pmb, grund: 'Redaktion (Werkzeug): Ref am vorhandenen rs ergänzt' }));
     if (d.art === 'implied') ops.push({ op: 'implied', tag: x.tag, anker: d.anker, ref: x.pmb, grund: 'Redaktion (Werkzeug): mitgemeint, von Hand gewählt' }); });
   D.ausloeser.forEach(x => { const d = S.dec['a|' + x.k]; if (!d || d.art !== 'implied') return;
