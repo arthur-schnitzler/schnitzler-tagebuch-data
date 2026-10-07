@@ -1160,6 +1160,7 @@ class Plan:
         self.intervalle = []
         self.neue_ids = []
         self.setref_ids = []
+        self.addref_ids = []
 
     def _s(self):
         self.seq += 1
@@ -1236,7 +1237,7 @@ def pruefe_invarianten(alt, neu_raw, plan):
         raise PaError(f"{alt.name}: Textfluss des body hat sich verändert", "invariante")
     if alt.raw[:alt.body.start] != neu_raw[:alt.body.start]:
         raise PaError(f"{alt.name}: Text vor dem body hat sich verändert", "invariante")
-    if normiert(alt, set(), set()) != normiert(neu, set(plan.neue_ids), set(plan.setref_ids)):
+    if normiert(alt, set(), set(plan.addref_ids)) != normiert(neu, set(plan.neue_ids), set(plan.setref_ids) | set(plan.addref_ids)):
         raise PaError(f"{alt.name}: Datei weicht über die geplanten Einfügungen hinaus ab", "invariante")
     return neu
 
@@ -1335,6 +1336,27 @@ def op_set_ref(plan, op, ctx, tag):
     return "set_ref", (doc.text_von(el), refs)
 
 
+def op_add_ref(plan, op, ctx, tag):
+    """Hängt weitere Personen an den ref eines rs an, das schon einen ref hat (z. B. »Hajeks« = Markus und Gisela).
+    Bestehende Refs bleiben stehen; es kommt nur etwas hinzu."""
+    doc = plan.doc
+    el = doc.finde_id(op.get("id", ""))
+    if el.name != "rs" or el.attrs.get("type") not in ("person", "allusively"):
+        raise PaError(f"{tag}: {op['id']} ist kein rs vom Typ person/allusively", "id")
+    if "ref" not in el.attrs:
+        raise PaError(f"{tag}: {op['id']} hat noch keinen ref; dafür gibt es set_ref", "ref")
+    if op["id"] in plan.setref_ids or op["id"] in plan.addref_ids:
+        raise PaError(f"{tag}: {op['id']} wird in diesem Lauf schon geändert – mehrere Personen als Liste in einer Operation angeben", "ref")
+    refs = ctx.refs(op, doc, tag)
+    vorhanden = {r.lstrip("#") for r in el.attrs["ref"].split()}
+    neu = [r for r in refs if r not in vorhanden]
+    if not neu:
+        return "übersprungen (ref schon vorhanden)", None
+    plan.attr(el.spans["ref"] - 1, " " + _refstr(neu))
+    plan.addref_ids.append(op["id"])
+    return "add_ref", (doc.text_von(el), neu)
+
+
 def op_wrap(plan, op, ctx, tag):
     doc = plan.doc
     a = op.get("anker") or {}
@@ -1392,7 +1414,7 @@ def op_index_add(plan, op, ctx, tag):
     return "index_add", ("", refs)
 
 
-OPS = {"set_ref": op_set_ref, "wrap": op_wrap, "implied": op_implied, "index_add": op_index_add}
+OPS = {"set_ref": op_set_ref, "add_ref": op_add_ref, "wrap": op_wrap, "implied": op_implied, "index_add": op_index_add}
 
 
 # ----------------------------------------------------------------------------------------------
@@ -2620,13 +2642,21 @@ def cmd_verify(args):
         neue = {el.attrs["xml:id"] for el in neu.els if el.name == "rs" and el.attrs.get("xml:id") and el.attrs["xml:id"] not in ids_alt}
         gesetzt = {el.attrs["xml:id"] for el in neu.els if el.name == "rs" and el.attrs.get("xml:id") in ids_alt
                    and el.attrs.get("ref") and not next(a for a in alt.els if a.attrs.get("xml:id") == el.attrs["xml:id"]).attrs.get("ref")}
-        if normiert(alt, set(), set()) != normiert(neu, neue, gesetzt):
+        alt_refs = {el.attrs["xml:id"]: el.attrs.get("ref", "").split() for el in alt.els if el.name == "rs" and el.attrs.get("xml:id")}
+        erweitert = set()                                           # vorhandener ref, nur um weitere Personen ergänzt
+        for el in neu.els:
+            xid = el.attrs.get("xml:id")
+            if el.name == "rs" and xid in alt_refs and alt_refs[xid]:
+                n_refs = el.attrs.get("ref", "").split()
+                if len(n_refs) > len(alt_refs[xid]) and n_refs[:len(alt_refs[xid])] == alt_refs[xid]:
+                    erweitert.add(xid)
+        if normiert(alt, set(), erweitert) != normiert(neu, neue, gesetzt | erweitert):
             probleme.append(f"{tag}: Änderung über neue rs, neue Kindelemente und neue ref-Attribute hinaus")
         neue_ids_alle |= neue
         tagesindex = {r for r, _ in idx_neu.get(tag, [])}
         for el in neu.els:
             xid = el.attrs.get("xml:id")
-            if el.name != "rs" or xid not in neue | gesetzt:
+            if el.name != "rs" or xid not in neue | gesetzt | erweitert:
                 continue
             typ = el.attrs.get("type")
             if typ not in ("person", "allusively"):

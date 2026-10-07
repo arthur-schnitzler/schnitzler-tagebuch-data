@@ -246,6 +246,20 @@ rc, out, err = apply_ops(OPS1, dateiname="ops2.json")
 pruefe("zweiter Lauf ist ein No-op (Idempotenz)", rc == 0 and "übersprungen" in out and "Dateien: 0" in out)
 pruefe("zweiter Lauf ändert die Dateien nicht", lese(root, "1900-01-01") == x1 and lese(root, "1900-01-05") == x5)
 
+print("add_ref (weitere Person an vorhandenen ref)")
+AR = [{"op": "add_ref", "tag": "1900-01-01", "id": "rst_00001", "ref": "pmb10863", "grund": "Test"}]
+rc, out, err = apply_ops(AR, dateiname="addref.json")
+pruefe("add_ref hängt die Person hinten an den ref an", rc == 0 and 'xml:id="rst_00001" ref="#pmb12701 #pmb10863">Mama</rs>' in lese(root, "1900-01-01"))
+with contextlib.redirect_stdout(io.StringIO()):
+    rc = pa.cmd_verify(argparse.Namespace(bereich=None))
+pruefe("verify akzeptiert die Erweiterung eines ref", rc == 0)
+git(root, "add", "-A")
+git(root, "commit", "-q", "-m", "add_ref")
+rc, out, err = apply_ops(AR, dateiname="addref2.json")
+pruefe("add_ref ist idempotent", rc == 0 and "übersprungen" in out)
+rc, out, err = apply_ops([{"op": "add_ref", "tag": "1900-01-02", "id": "bibl_00001", "ref": "pmb2167"}], dateiname="addref3.json")
+pruefe("add_ref nur an person/allusively-rs", rc == 1 and "kein rs" in err)
+
 print("Ablehnungen")
 rc, out, err = apply_ops([{"op": "set_ref", "tag": "1900-01-01", "id": "pNt_00001", "ref": "pmb10863"}], dateiname="a.json")
 pruefe("bestehendes ref wird nie geändert", rc == 1 and "nie geändert" in err)

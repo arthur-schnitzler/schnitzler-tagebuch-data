@@ -154,7 +154,7 @@ Eine JSON-Liste. Der Normalfall verweist auf eine Kandidaten-Kennung:
 - `verwerfen: true`: Der Vorschlag wird nicht mehr angeboten (steht in `temp/personen-auszeichnen/verworfen.json`).
 - **Freie Operation**, nur wenn der Scan keinen Kandidaten liefert, du aber eine sichere Stelle siehst:
   `{"op":"wrap","tag":"1903-05-01","anker":{"text":"Papas","vorher":"Grab "},"ref":"pmb12695","typ":"allusively","grund":"…"}`.
-  Weitere Operationen: `set_ref` (`id`, `ref`), `implied` (`anker` oder `um_rs`, `ref` oder `neu`), `index_add`.
+  Weitere Operationen: `set_ref` (`id`, `ref`; nur an rs ohne ref), `add_ref` (`id`, `ref`: hängt weitere Personen an den vorhandenen ref eines rs an, z. B. »Hajeks« = zwei Personen), `implied` (`anker` oder `um_rs`, `ref` oder `neu`), `index_add`.
   Der Anker steht im **Klartext ohne die Markierungen ⟦…⟧**, besser mit kurzem `vorher`/`nachher` (höchstens 12 Zeichen,
   ohne Zeilenumbruch) oder mit `nr` (n-ter freier Treffer).
 - Ein `ref` muss zu den Index-Refs des Tages (oder zu den Refs im Text desselben Tages) gehören; sonst weist `apply` ihn
