@@ -2633,7 +2633,7 @@ def cmd_verify(args):
                 probleme.append(f"{tag}: {xid} hat type={typ!r}")
             if xid in neue and not re.fullmatch(r"pNt_\d{5,}" if typ == "person" else r"rst_\d{5,}", xid):
                 probleme.append(f"{tag}: {xid} passt nicht zum Schema für type={typ}")
-            if el.attrs.get("subtype") not in (None, "implied"):
+            if xid in neue and el.attrs.get("subtype") not in (None, "implied"):      # vorhandene rs behalten ihren subtype (z. B. »att«)
                 probleme.append(f"{tag}: {xid} hat subtype={el.attrs.get('subtype')!r}")
             refs = [r.lstrip("#") for r in el.attrs.get("ref", "").split()]
             if not refs:

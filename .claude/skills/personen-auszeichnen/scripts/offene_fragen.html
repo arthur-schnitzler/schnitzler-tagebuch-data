@@ -1,0 +1,538 @@
+<title>Offene Personenfragen</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Serif:wght@400;500&display=swap">
+<style>
+/* Werkbank: Kopfzeile mit Reitern, darunter je Reiter eine Tabelle oder die Fallansicht (Liste links, Tagestext rechts).
+   Tinte, Aktenblau, Gelb für Fundstellen, Hellblau für schon ausgezeichneten Text. */
+:root {
+  --bg: #f2f4f7; --surface: #ffffff; --ink: #1b2430; --muted: #5a6677; --line: #d6dbe3;
+  --accent: #1d4f91; --accent-ink: #ffffff; --accent-soft: #e3ecf8;
+  --hit: #ffe9a3; --rs: #d4e4fb; --rs-line: #8fb0e0; --focus: #ffd24d;
+  --ok: #1c7a4b; --ok-soft: #dff3e8; --warn: #9a5a00; --warn-soft: #fdeccd; --bad: #b3261e;
+  --f-sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-serif: "IBM Plex Serif", Georgia, "Times New Roman", serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #12161c; --surface: #1a2029; --ink: #e5e9ef; --muted: #9ba6b6; --line: #2f3845;
+    --accent: #7fb0f2; --accent-ink: #0d1b2f; --accent-soft: #20324b;
+    --hit: #5b4a12; --rs: #25406b; --rs-line: #4a74b3; --focus: #8a6d00;
+    --ok: #5fcf97; --ok-soft: #173a2a; --warn: #f0b45a; --warn-soft: #3d2d10; --bad: #ff8d84; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #12161c; --surface: #1a2029; --ink: #e5e9ef; --muted: #9ba6b6; --line: #2f3845;
+  --accent: #7fb0f2; --accent-ink: #0d1b2f; --accent-soft: #20324b;
+  --hit: #5b4a12; --rs: #25406b; --rs-line: #4a74b3; --focus: #8a6d00;
+  --ok: #5fcf97; --ok-soft: #173a2a; --warn: #f0b45a; --warn-soft: #3d2d10; --bad: #ff8d84; color-scheme: dark;
+}
+body { background: var(--bg); color: var(--ink); font: 14px/1.45 var(--f-sans); padding-inline: 16px; padding-block: 0 48px; }
+* { box-sizing: border-box; }
+a { color: var(--accent); }
+h1 { font-size: 17px; margin: 0; font-weight: 600; letter-spacing: .01em; }
+h2 { font-size: 16px; margin: 0; font-weight: 600; }
+.muted { color: var(--muted); }
+.mono { font-family: var(--f-mono); font-size: 12.5px; }
+button, select, input, textarea { font: inherit; color: inherit; }
+button { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 5px 10px; cursor: pointer; }
+button:hover { border-color: var(--accent); }
+button.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+button.ok { background: var(--ok-soft); border-color: var(--ok); color: var(--ok); }
+button:disabled { opacity: .45; cursor: not-allowed; }
+input[type="text"], input[type="search"], select, textarea { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 5px 8px; min-width: 0; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); padding-block: 12px 0; border-bottom: 1px solid var(--line); margin-inline: -16px; padding-inline: 16px; }
+.top .line { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 16px; }
+.top .stand { margin-left: auto; font-size: 12.5px; }
+.tabs { display: flex; gap: 2px; overflow-x: auto; margin-top: 8px; }
+.tab { border: 0; border-bottom: 3px solid transparent; border-radius: 0; background: none; padding: 7px 11px; white-space: nowrap; }
+.tab[aria-selected="true"] { border-bottom-color: var(--accent); font-weight: 600; }
+.tab .n { font-size: 12px; color: var(--muted); margin-left: 4px; font-variant-numeric: tabular-nums; }
+main { padding-block: 16px; }
+.bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 12px; }
+.bar input[type="search"] { width: 16rem; max-width: 100%; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; }
+.hilfe { margin-bottom: 12px; }
+.hilfe summary { cursor: pointer; color: var(--accent); }
+.hilfe p, .hilfe pre { margin: 8px 0 0; max-width: 70ch; }
+pre { background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 8px 10px; overflow-x: auto; font-family: var(--f-mono); font-size: 12.5px; }
+/* Tabellen als Raster */
+.tbl { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.tr { display: grid; gap: 4px 12px; padding: 9px 12px; border-top: 1px solid var(--line); align-items: start; }
+.tr:first-child { border-top: 0; }
+.tr.th { background: var(--bg); font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+.cols-neu { grid-template-columns: 8.5rem minmax(0, 1.5fr) minmax(0, 1.3fr) 3.5rem 9rem 8rem; }
+.cols-luecken { grid-template-columns: 6.5rem minmax(0, 1.2fr) minmax(0, 1.4fr) minmax(0, 1fr) 6rem; }
+@media (max-width: 860px) { .cols-neu, .cols-luecken { grid-template-columns: 1fr 1fr; } .tr.th { display: none; } }
+.tr.fertig { background: var(--ok-soft); }
+.det { grid-column: 1 / -1; margin-top: 4px; padding: 8px 10px; border-left: 3px solid var(--line); }
+.beleg { margin: 0 0 8px; font-family: var(--f-serif); font-size: 14px; }
+.beleg b, mark { background: var(--hit); font-weight: 500; padding: 0 1px; border-radius: 2px; color: inherit; }
+.tag { display: inline-block; border: 1px solid var(--line); border-radius: 10px; padding: 0 7px; font-size: 12px; color: var(--muted); }
+.tag.ok { color: var(--ok); border-color: var(--ok); }
+.tag.warn { color: var(--warn); border-color: var(--warn); }
+/* Fallansicht */
+.fall { display: grid; grid-template-columns: minmax(0, 17rem) minmax(0, 1fr); gap: 16px; align-items: start; }
+@media (max-width: 900px) { .fall { grid-template-columns: 1fr; } .liste { display: none; } }
+.liste { max-height: 74vh; overflow: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; }
+.liste button { display: block; width: 100%; text-align: left; border: 0; border-top: 1px solid var(--line); border-radius: 0; background: none; padding: 6px 10px; font-size: 13px; }
+.liste button:first-child { border-top: 0; }
+.liste button.akt { background: var(--accent-soft); }
+.liste button.fertig::after { content: " \2713"; color: var(--ok); }
+.nav { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 10px; }
+.text { font-family: var(--f-serif); font-size: 15.5px; line-height: 1.7; white-space: pre-wrap; overflow-wrap: anywhere; max-width: 75ch; background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 12px 14px; margin: 10px 0; user-select: text; }
+.text .rs { background: var(--rs); border-bottom: 2px solid var(--rs-line); border-radius: 2px; cursor: default; }
+.text .rs.impl { border-bottom-style: dashed; }
+.text .rs.noref { background: transparent; border-bottom: 2px solid var(--warn); }
+.text .hit { background: var(--hit); }
+.text .sperr { text-decoration: underline dotted var(--muted); text-underline-offset: 3px; }
+.text .fokus { background: var(--focus); outline: 1px solid var(--warn); }
+.text .gewaehlt { background: var(--accent); color: var(--accent-ink); border-radius: 2px; }
+.aktionen { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 8px; }
+.aktionen .grp { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding-right: 12px; margin-right: 4px; border-right: 1px solid var(--line); }
+.aktionen .grp:last-child { border-right: 0; }
+.entsch { margin-top: 10px; padding: 8px 10px; border-radius: 6px; background: var(--ok-soft); color: var(--ok); }
+.entsch button { margin-left: 8px; }
+.hinweis { padding: 8px 10px; border-radius: 6px; background: var(--warn-soft); color: var(--warn); margin-top: 10px; }
+.pkres { display: flex; flex-direction: column; gap: 2px; margin-top: 4px; max-width: 28rem; }
+.pkres button { text-align: left; }
+.sel { font-family: var(--f-mono); font-size: 12.5px; }
+.out textarea { width: 100%; min-height: 9rem; font-family: var(--f-mono); font-size: 12px; }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); gap: 14px; }
+</style>
+<!--BODY-->
+<div class="top">
+  <div class="line">
+    <h1>Offene Personenfragen im Schnitzler-Tagebuch</h1>
+    <span class="muted" id="erzeugt"></span>
+    <span class="stand" id="stand"></span>
+  </div>
+  <div class="tabs" role="tablist" id="tabs"></div>
+</div>
+<main id="view"></main>
+<script>
+(function () {
+'use strict';
+const IM_ARTIFACT = /*__ARTIFACT__*/false;
+const D = /*__DATEN__*/null;
+if (!D) { document.getElementById('view').textContent = 'Keine Daten eingebettet.'; return; }
+const $ = (s, r) => (r || document).querySelector(s);
+const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const KEY = 'offene-fragen-v1';
+let S = { dec: {}, ui: { tab: 'neu' } }, speicherOk = true;
+try { const r = localStorage.getItem(KEY); if (r) { const p = JSON.parse(r); S.dec = p.dec || {}; S.ui = p.ui || S.ui; } } catch (e) { speicherOk = false; }
+function save() { try { localStorage.setItem(KEY, JSON.stringify(S)); speicherOk = true; } catch (e) { speicherOk = false; } kopf(); }
+
+const PMB = n => 'https://pmb.acdh.oeaw.ac.at/entity/' + String(n).replace(/\D/g, '') + '/';
+const WEB = t => 'https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__' + t + '.html';
+const XML = t => 'https://github.com/arthur-schnitzler/schnitzler-tagebuch-data/blob/claude/personen-lauf/editions/entry__' + t + '.xml';
+const REG = {}; D.register_suche.forEach(r => { REG[r[0]] = r; });
+const pname = id => (D.personen[id] && D.personen[id].name) || (REG[id] && REG[id][1]) || id;
+const pinfo = id => { const p = D.personen[id]; if (p) return p.name + (p.jahre ? ' (' + p.jahre + ')' : ''); const r = REG[id]; return r ? r[1] + (r[2] ? ' (' + r[2] + ')' : '') : id; };
+const plink = id => '<a href="' + PMB(id) + '" target="_blank" rel="noopener">' + esc(pinfo(id)) + '</a> <span class="muted mono">' + esc(id) + '</span>';
+const tlink = t => '<a href="' + WEB(t) + '" target="_blank" rel="noopener">' + t + '</a>';
+
+/* ---- Reiter und ihre Fälle ---- */
+const T = {
+  neu: { label: 'Neue Personen', items: D.neue_personen, key: x => 'n|' + x.id },
+  luecken: { label: 'Register-Lücken', items: D.register_luecken, key: x => 'l|' + x.pmb },
+  c: { label: 'Index ohne Textstelle', items: D.index_ohne_anker, key: x => 'c|' + x.tag + '|' + x.pmb },
+  pr: { label: 'Altbestand prüfen', items: D.pruefbefunde, key: x => 'p|' + x.tag + '|' + x.art + '|' + (x.rs || x.ref) + '|' + x.ref },
+  au: { label: 'Auslöser', items: D.ausloeser, key: x => 'a|' + x.k },
+  sa: { label: 'Stufe-A-Vorschläge', items: D.stufe_a, key: x => 's|' + x.tag + '|' + x.id },
+  erg: { label: 'Ergebnis', items: [] }
+};
+const dec = (t, x) => S.dec[T[t].key(x)];
+function erledigt(t, x) {
+  const d = dec(t, x); if (!d) return false;
+  if (t === 'neu') return !!(d.pmb || d.status === 'nein');
+  if (t === 'luecken') return !!d.ok;
+  return !!d.art && d.art !== 'spaeter';
+}
+function zaehle(t) { let n = 0; T[t].items.forEach(x => { if (erledigt(t, x)) n++; }); return n; }
+
+function kopf() {
+  $('#erzeugt').textContent = 'Stand der Daten: ' + D.erzeugt.replace('T', ' ');
+  let g = 0, a = 0; ['neu', 'luecken', 'c', 'pr', 'au', 'sa'].forEach(t => { g += T[t].items.length; a += zaehle(t); });
+  $('#stand').innerHTML = a + ' von ' + g + ' Punkten bearbeitet' + (speicherOk ? ' · im Browser gespeichert' : ' · <span style="color:var(--bad)">Speichern im Browser nicht möglich: bitte unter „Ergebnis“ sichern</span>');
+  $('#tabs').innerHTML = Object.keys(T).map(t => '<button class="tab" role="tab" data-tab="' + t + '" aria-selected="' + (S.ui.tab === t) + '">' + T[t].label +
+    (t === 'erg' ? '' : '<span class="n">' + zaehle(t) + '/' + T[t].items.length + '</span>') + '</button>').join('');
+}
+$('#tabs').addEventListener('click', e => { const b = e.target.closest('.tab'); if (b) { S.ui.tab = b.dataset.tab; save(); zeige(); } });
+
+/* ---- Werkzeuge ---- */
+function kopieren(text, ok) {
+  const fertig = () => { if (ok) ok(); };
+  try { navigator.clipboard.writeText(text).then(fertig, () => fallback()); } catch (e) { fallback(); }
+  function fallback() { const ta = document.createElement('textarea'); ta.value = text; document.body.appendChild(ta); ta.select(); try { document.execCommand('copy'); } catch (e) {} ta.remove(); fertig(); }
+}
+function datei(name, text, mime) {
+  try { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([text], { type: mime || 'text/plain' })); a.download = name; document.body.appendChild(a); a.click(); a.remove(); } catch (e) {}
+}
+const csvZelle = s => '"' + String(s == null ? '' : s).replace(/"/g, '""') + '"';
+const csv = rows => rows.map(r => r.map(csvZelle).join(';')).join('\n');
+
+function textAnzeigen(box, tag, marks) {
+  const d = D.texte[tag];
+  if (!d) { box.textContent = '(Text für diesen Tag nicht eingebettet)'; return; }
+  const t = d.t, cuts = new Set([0, t.length]);
+  const rs = d.rs.map(r => ({ a: r[0], b: r[1], cls: 'rs' + (r[3] === 'implied' ? ' impl' : '') + (r[4] ? '' : ' noref'),
+    title: (r[2] || 'rs') + (r[3] ? '/' + r[3] : '') + (r[4] ? ' → ' + r[4].replace(/#/g, '') : ' (ohne ref)'), id: r[5] }));
+  const sp = (d.gs || []).map(g => ({ a: g[0], b: g[1], cls: 'sperr', title: 'gesperrt: hier kann der Skill nichts umschließen' }));
+  const alle = rs.concat(sp, marks || []);
+  alle.forEach(m => { cuts.add(Math.max(0, m.a)); cuts.add(Math.min(t.length, m.b)); });
+  const pts = Array.from(cuts).sort((x, y) => x - y); let h = '';
+  for (let i = 0; i < pts.length - 1; i++) {
+    const x = pts[i], y = pts[i + 1]; if (x === y) continue;
+    const cov = alle.filter(m => m.a <= x && m.b >= y), txt = esc(t.slice(x, y));
+    if (!cov.length) { h += '<span data-o="' + x + '">' + txt + '</span>'; continue; }
+    const ti = cov.find(m => m.title), id = cov.find(m => m.id);
+    h += '<span data-o="' + x + '" class="' + cov.map(m => m.cls).join(' ') + '"' + (ti ? ' title="' + esc(ti.title) + '"' : '') + (id ? ' data-id="' + esc(id.id) + '"' : '') + '>' + txt + '</span>';
+  }
+  box.innerHTML = h;
+}
+function pos(node, o) {
+  const von = n => { const e = n.nodeType === 3 ? n.parentElement : n; return e && e.closest ? e.closest('[data-o]') : null; };
+  if (node.nodeType === 3) { const sp = von(node); return sp ? +sp.dataset.o + o : null; }
+  if (o < node.childNodes.length) { const c = node.childNodes[o]; const sp = c.nodeType === 3 ? von(c) : (c.matches && c.matches('[data-o]') ? c : c.querySelector && c.querySelector('[data-o]')); return sp ? +sp.dataset.o : null; }
+  const l = node.lastChild; if (!l) return null; const sp = l.nodeType === 3 ? von(l) : l; return sp && sp.dataset && sp.dataset.o !== undefined ? +sp.dataset.o + sp.textContent.length : null;
+}
+const wort = ch => !!ch && /[\p{L}\p{N}]/u.test(ch);
+function ankerFuer(flat, a, b) {
+  const text = flat.slice(a, b), teil = wort(flat[a - 1]) || wort(flat[b]);
+  const treffer = (v, n) => { const s = v + text + n, out = []; let i = flat.indexOf(s); while (i >= 0) { const x = i + v.length, y = x + text.length; if (teil || !(wort(flat[x - 1]) || wort(flat[y]))) out.push(x); i = flat.indexOf(s, i + 1); } return out; };
+  for (const n of [0, 4, 8, 12, 20, 32]) {
+    let v = flat.slice(Math.max(0, a - n), a), w = flat.slice(b, b + n);
+    const nl = v.lastIndexOf('\n'); if (nl >= 0) v = v.slice(nl + 1);
+    const nr = w.indexOf('\n'); if (nr >= 0) w = w.slice(0, nr);
+    const t = treffer(v, w);
+    if (t.length === 1 && t[0] === a) { const d = { text }; if (v) d.vorher = v; if (w) d.nachher = w; if (teil) d.teilwort = true; return d; }
+  }
+  const t = treffer('', ''), k = t.indexOf(a), d = { text };
+  if (k >= 0) d.nr = k + 1; if (teil) d.teilwort = true; return d;
+}
+function picker(box, onPick, platz) {
+  box.innerHTML = '<input type="search" class="pk" placeholder="' + esc(platz || 'Person suchen: Name oder pmb-Nummer') + '"><div class="pkres"></div>';
+  const inp = $('.pk', box), res = $('.pkres', box);
+  inp.addEventListener('input', () => {
+    const q = inp.value.trim().toLowerCase(); if (q.length < 2) { res.innerHTML = ''; return; }
+    const out = []; for (const r of D.register_suche) { if (r[1].toLowerCase().includes(q) || r[0].indexOf(q) >= 0) { out.push(r); if (out.length >= 12) break; } }
+    const m = q.match(/^(?:pmb)?(\d{2,})$/);
+    res.innerHTML = out.map(r => '<button type="button" class="pkb" data-p="' + r[0] + '">' + esc(r[1]) + ' <span class="muted">' + esc(r[2]) + ' · ' + r[0] + '</span></button>').join('') +
+      (m ? '<button type="button" class="pkb" data-p="pmb' + m[1] + '">pmb' + m[1] + ' verwenden</button>' : '');
+  });
+  res.addEventListener('click', e => { const b = e.target.closest('.pkb'); if (b) onPick(b.dataset.p); });
+}
+
+/* ---- Reiter 1: Neue Personen ---- */
+function viewNeu(v) {
+  const rels = Array.from(new Set(D.neue_personen.map(x => x.beziehung))).sort();
+  v.innerHTML = '<details class="card hilfe"><summary>Wie arbeite ich hier?</summary><p>Jede Zeile ist eine Person, die im Text mitgemeint ist (z. B. „Hofmannsthal und Frau“), die es in der PMB noch nicht gibt. ' +
+    'Legen Sie sie in der PMB an, tragen Sie rechts die neue pmb-Nummer ein, und exportieren Sie unter „Ergebnis“ die Zuordnung <span class="mono">implied-person_N → pmbN</span> für den Ersetzungslauf. ' +
+    '„Beleg“ zeigt die Stellen im Text. „nicht nötig“ markiert Fälle, die kein eigener PMB-Eintrag werden sollen.</p></details>' +
+    '<div class="bar"><input type="search" id="q" placeholder="Suche: Name, implied-person_N, pmb"> <select id="frel" aria-label="Beziehung"><option value="">alle Beziehungen</option>' + rels.map(r => '<option>' + esc(r) + '</option>').join('') + '</select> ' +
+    '<select id="fst" aria-label="Status"><option value="">alle</option><option value="offen">offen</option><option value="erledigt">erledigt</option></select> <span id="cnt" class="muted"></span></div><div class="tbl" id="tbl"></div>';
+  const ui = S.ui.neu = S.ui.neu || { q: '', rel: '', st: 'offen' };
+  $('#q').value = ui.q; $('#frel').value = ui.rel; $('#fst').value = ui.st;
+  function liste() {
+    const q = ui.q.toLowerCase();
+    const xs = D.neue_personen.filter(x => (!ui.rel || x.beziehung === ui.rel) &&
+      (!ui.st || (ui.st === 'offen') === !erledigt('neu', x)) &&
+      (!q || (x.id + ' ' + x.beschreibung + ' ' + (x.kopf || '')).toLowerCase().includes(q)));
+    $('#cnt').textContent = xs.length + ' angezeigt';
+    $('#tbl').innerHTML = '<div class="tr th cols-neu"><span>Kennung</span><span>Beschreibung</span><span>Bezugsperson</span><span>Belege</span><span>neue pmb-Nr.</span><span>Status</span></div>' +
+      xs.map(x => {
+        const d = S.dec['n|' + x.id] || {};
+        return '<div class="tr cols-neu' + (erledigt('neu', x) ? ' fertig' : '') + '" data-id="' + x.id + '"><span class="mono">' + x.id + '</span>' +
+          '<span><b>' + esc(x.beziehung) + '</b> von ' + esc(x.kopf_name) + '<br><span class="muted">' + esc(x.erster) + (x.letzter !== x.erster ? ' bis ' + esc(x.letzter) : '') + '</span></span>' +
+          '<span>' + (x.kopf ? plink(x.kopf) + (x.kopf_info && x.kopf_info.beruf ? '<br><span class="muted">' + esc(x.kopf_info.beruf) + '</span>' : '') : '<span class="muted">nicht gefunden</span>') + '</span>' +
+          '<span><button data-act="beleg" aria-label="Belege zeigen">' + x.anzahl + '</button></span>' +
+          '<span><input type="text" inputmode="numeric" data-act="pmb" placeholder="pmb…" value="' + esc(d.pmb || '') + '" aria-label="neue pmb-Nummer für ' + x.id + '" style="width:100%"></span>' +
+          '<span><select data-act="status" aria-label="Status"><option value="">offen</option><option value="nein"' + (d.status === 'nein' ? ' selected' : '') + '>nicht nötig</option></select></span>' +
+          '<div class="det" hidden></div></div>';
+      }).join('');
+  }
+  liste();
+  $('#q').oninput = e => { ui.q = e.target.value; save(); liste(); };
+  $('#frel').onchange = e => { ui.rel = e.target.value; save(); liste(); };
+  $('#fst').onchange = e => { ui.st = e.target.value; save(); liste(); };
+  const tbl = $('#tbl');
+  tbl.addEventListener('click', e => {
+    const b = e.target.closest('[data-act="beleg"]'); if (!b) return;
+    const row = b.closest('.tr'), x = D.neue_personen.find(p => p.id === row.dataset.id), det = $('.det', row);
+    if (!det.hidden) { det.hidden = true; return; }
+    det.innerHTML = '<p class="muted">PMB-Eintrag anlegen als: <b>' + esc(x.pmb_beziehung) + '</b> · Bezeichnung für die Liste: <span class="mono">?? [' + esc(x.beschreibung) + ']</span></p>' +
+      x.belege.map(bz => { const c = bz.ctx; return '<p class="beleg">' + tlink(bz.tag) + ' · ' + esc(c.slice(0, bz.von)) + '<b>' + esc(c.slice(bz.von, bz.bis)) + '</b>' + esc(c.slice(bz.bis)) + '</p>'; }).join('') +
+      (x.tage.length > x.belege.length ? '<p class="muted">weitere Tage: ' + x.tage.slice(x.belege.length).slice(0, 40).map(tlink).join(', ') + '</p>' : '') +
+      (x.kopf_beziehungen.length ? '<p class="muted">PMB kennt zur Bezugsperson: ' + x.kopf_beziehungen.slice(0, 8).map(r => esc(r.rolle) + ' ' + esc(r.name) + ' ' + esc(r.pmb) + (r.im_register ? '' : ' (nicht im Register)')).join('; ') + '</p>' : '');
+    det.hidden = false;
+  });
+  tbl.addEventListener('change', e => {
+    const row = e.target.closest('.tr'); if (!row) return; const k = 'n|' + row.dataset.id, d = S.dec[k] = S.dec[k] || {};
+    if (e.target.dataset.act === 'pmb') { const n = e.target.value.replace(/\D/g, ''); d.pmb = n ? 'pmb' + n : ''; e.target.value = n; }
+    if (e.target.dataset.act === 'status') d.status = e.target.value;
+    if (!d.pmb && !d.status) delete S.dec[k];
+    save(); row.classList.toggle('fertig', !!(d.pmb || d.status === 'nein'));
+  });
+}
+
+/* ---- Reiter 2: Register-Lücken ---- */
+function viewLuecken(v) {
+  v.innerHTML = '<details class="card hilfe"><summary>Wie arbeite ich hier?</summary><p>Diese PMB-Personen kommen im Tagebuch vor (als Mitgemeinte oder im Index), stehen aber nicht in <span class="mono">indices/listperson.xml</span>, weil die PMB sie dem Tagebuch nicht zuordnet. ' +
+    'Nehmen Sie sie in der PMB in die Sammlung des Tagebuchs auf; der nächste Mittwochslauf übernimmt sie ins Register. Haken setzen, wenn erledigt.</p></details><div class="tbl" id="tbl"></div>';
+  $('#tbl').innerHTML = '<div class="tr th cols-luecken"><span>PMB</span><span>Name</span><span>Beziehung</span><span>Häufigkeit</span><span>aufgenommen</span></div>' + D.register_luecken.map(x => {
+    const d = S.dec['l|' + x.pmb] || {};
+    return '<div class="tr cols-luecken' + (d.ok ? ' fertig' : '') + '" data-pmb="' + x.pmb + '"><span><a href="' + PMB(x.pmb) + '" target="_blank" rel="noopener" class="mono">' + x.pmb + '</a></span><span>' + esc(x.name) + '</span><span>' + esc(x.beziehung) + '</span>' +
+      '<span class="muted">' + esc(x.zaehlung) + '<br>' + (x.tage.length ? tlink(x.tage[0]) : '') + (x.tage.length > 1 ? ' … ' + tlink(x.tage[x.tage.length - 1]) : '') + '</span>' +
+      '<span><input type="checkbox" data-act="ok" ' + (d.ok ? 'checked' : '') + ' aria-label="' + esc(x.name) + ' aufgenommen"></span></div>';
+  }).join('');
+  $('#tbl').addEventListener('change', e => {
+    const row = e.target.closest('.tr'); if (!row || e.target.dataset.act !== 'ok') return;
+    const k = 'l|' + row.dataset.pmb; if (e.target.checked) S.dec[k] = { ok: true }; else delete S.dec[k];
+    save(); row.classList.toggle('fertig', e.target.checked);
+  });
+}
+
+/* ---- Fallansicht (Reiter 3 bis 6) ---- */
+let cur = null;     // { tab, items(gefiltert), i, sel, rsId }
+function viewFaelle(v, tab) {
+  const ui = S.ui[tab] = S.ui[tab] || { f: 'offen', q: '', k: null };
+  const label = { c: x => x.tag + '  ' + x.info.name, pr: x => x.tag + '  ' + (x.text || x.ref), au: x => x.tag + '  ' + x.text, sa: x => x.tag + '  ' + (x.text || x.id) }[tab];
+  const hilfe = {
+    c: 'Diese Personen stehen im Index des Tages, aber im Text ist keine Stelle mit ihrem <span class="mono">@ref</span> ausgezeichnet. Gelb markiert sind mögliche Namensformen. Steht dort schon ein <span class="mono">rs</span> ohne Ref (orange unterstrichen), klicken Sie es an und ergänzen den Ref. Sonst markieren Sie die Stelle im Text und wählen, wie sie ausgezeichnet wird. Hellblau ist schon ausgezeichneter Text.',
+    pr: 'Bestehende Auszeichnungen, die auffallen (selten so zugeordnet, Person vor der Geburt erwähnt, Ref nicht im Index). Die Stelle ist hervorgehoben. Der Skill ändert bestehende Refs nie selbst: Korrekturen gehen als Liste in die Redaktion.',
+    au: 'Mitgemeinte Personen („ihre Schwester“, „bei Prager’s“), bei denen der Lauf den Bezug nicht klären konnte. Markieren Sie das Wort, das ausgezeichnet werden soll, und wählen Sie die Person aus dem Register oder beschreiben Sie eine neue.',
+    sa: 'Sichere automatische Vorschläge, die der Lauf nicht übernommen hat. Prüfen und übernehmen.'
+  }[tab];
+  v.innerHTML = '<details class="card hilfe"><summary>Wie arbeite ich hier?</summary><p>' + hilfe + '</p></details>' +
+    '<div class="bar"><select id="ff" aria-label="Filter"><option value="offen">offene</option><option value="erledigt">erledigte</option><option value="alle">alle</option></select>' +
+    (tab === 'pr' ? '<select id="fart" aria-label="Art"><option value="">alle Arten</option></select>' : '') +
+    '<input type="search" id="fq" placeholder="Suche: Name, Tag, pmb"> <span class="muted" id="fcnt"></span></div><div class="fall"><div class="liste" id="liste"></div><div class="card" id="detail"></div></div>';
+  $('#ff').value = ui.f; $('#fq').value = ui.q;
+  if (tab === 'pr') { const arts = Array.from(new Set(D.pruefbefunde.map(x => x.art))); $('#fart').innerHTML += arts.map(a => '<option value="' + a + '">' + ARTEN[a] + '</option>').join(''); $('#fart').value = ui.art || ''; }
+  function filter() {
+    const q = ui.q.toLowerCase();
+    return T[tab].items.filter(x => {
+      if (ui.f === 'offen' && erledigt(tab, x)) return false;
+      if (ui.f === 'erledigt' && !erledigt(tab, x)) return false;
+      if (tab === 'pr' && ui.art && x.art !== ui.art) return false;
+      if (q) { const hay = (x.tag + ' ' + (x.info ? x.info.name + ' ' + x.pmb : '') + ' ' + (x.text || '') + ' ' + (x.ref || '')).toLowerCase(); if (!hay.includes(q)) return false; }
+      return true;
+    });
+  }
+  function neu(behalte, posi) {
+    const xs = filter(); let i = 0;
+    if (posi !== undefined) i = Math.min(posi, Math.max(0, xs.length - 1));
+    else if (ui.k) { const j = xs.findIndex(x => T[tab].key(x) === ui.k); i = j >= 0 ? j : 0; }
+    cur = { tab, xs, i, sel: null, rsId: null, rsSet: [] };
+    $('#fcnt').textContent = xs.length + ' Fälle';
+    $('#liste').innerHTML = xs.slice(0, 1500).map((x, n) => '<button data-n="' + n + '" class="' + (erledigt(tab, x) ? 'fertig' : '') + '">' + esc(label(x)) + '</button>').join('');
+    zeigeFall();
+  }
+  function zeigeFall() {
+    const box = $('#detail'); const x = cur.xs[cur.i];
+    document.querySelectorAll('#liste button').forEach(b => b.classList.toggle('akt', +b.dataset.n === cur.i));
+    const akt = $('#liste .akt'); if (akt && akt.scrollIntoView) akt.scrollIntoView({ block: 'nearest' });
+    if (!x) { box.innerHTML = '<p>Keine Fälle in dieser Auswahl.</p>'; return; }
+    ui.k = T[tab].key(x); save();
+    box.innerHTML = '<div class="nav"><button id="vor">‹ zurück</button><span class="muted">Fall ' + (cur.i + 1) + ' von ' + cur.xs.length + '</span><button id="weiter">weiter ›</button></div><div id="fall"></div>';
+    $('#vor').onclick = () => { if (cur.i > 0) { cur.i--; cur.sel = null; cur.rsSet = []; zeigeFall(); } };
+    $('#weiter').onclick = () => { if (cur.i < cur.xs.length - 1) { cur.i++; cur.sel = null; cur.rsSet = []; zeigeFall(); } };
+    ({ c: fallC, pr: fallPr, au: fallAu, sa: fallSa })[tab](x, $('#fall'));
+  }
+  function entscheide(x, d) {
+    const k = T[tab].key(x); if (d) S.dec[k] = Object.assign({ ts: Date.now() }, d); else delete S.dec[k];
+    save(); kopf();
+    const b = document.querySelector('#liste button[data-n="' + cur.i + '"]'); if (b) b.classList.toggle('fertig', erledigt(tab, x));
+    if (d && d.art !== 'spaeter' && ui.f === 'offen') neu(null, cur.i); else if (d && d.art !== 'spaeter') { if (cur.i < cur.xs.length - 1) cur.i++; cur.sel = null; cur.rsSet = []; zeigeFall(); } else zeigeFall();
+  }
+  $('#ff').onchange = e => { ui.f = e.target.value; ui.k = null; save(); neu(null); };
+  $('#fq').oninput = e => { ui.q = e.target.value; ui.k = null; save(); neu(null); };
+  if (tab === 'pr') $('#fart').onchange = e => { ui.art = e.target.value; ui.k = null; save(); neu(null); };
+  $('#liste').onclick = e => { const b = e.target.closest('button'); if (b) { cur.i = +b.dataset.n; cur.sel = null; cur.rsSet = []; zeigeFall(); } };
+
+  /* Textmarkierung → Auswahl */
+  function auswahlBox(box) {
+    const tx = $('.text', box); if (!tx) return;
+    const info = $('.sel-info', box);
+    function aus() {
+      const s = getSelection(); if (!s.rangeCount || s.isCollapsed) return;
+      const r = s.getRangeAt(0); if (!tx.contains(r.startContainer) || !tx.contains(r.endContainer)) return;
+      let a = pos(r.startContainer, r.startOffset), b = pos(r.endContainer, r.endOffset);
+      if (a == null || b == null) return; if (b < a) { const z = a; a = b; b = z; }
+      const t = D.texte[cur.xs[cur.i].tag].t;
+      while (a < b && /[\s.,;:!?»«“”„‚‘’()\[\]]/.test(t[a])) a++;
+      while (b > a && /[\s.,;:!?»«“”„‚‘’()\[\]]/.test(t[b - 1])) b--;
+      if (b <= a) return;
+      cur.sel = { a, b }; cur.rsId = null; aktualisiere();
+    }
+    tx.addEventListener('mouseup', aus); tx.addEventListener('keyup', aus); tx.addEventListener('touchend', () => setTimeout(aus, 50));
+    cur.rsSet = cur.rsSet || [];
+    const schalte = id => { const k = cur.rsSet.indexOf(id); if (k >= 0) cur.rsSet.splice(k, 1); else cur.rsSet.push(id); aktualisiere(); };
+    cur.schalte = schalte;
+    tx.addEventListener('click', e => {
+      const s = e.target.closest('.rs[data-id]'); if (!s || !getSelection().isCollapsed) return;
+      if (tab === 'au') { cur.rsId = s.dataset.id; cur.sel = null; aktualisiere(); }
+      else if (tab === 'c' && s.classList.contains('noref')) schalte(s.dataset.id);
+    });
+    function ueberRs(a, b) { const dt = D.texte[cur.xs[cur.i].tag]; return dt.rs.filter(r => r[0] < b && a < r[1]).concat((dt.gs || []).filter(g => g[0] < b && a < g[1]).map(g => [g[0], g[1], 'gesperrt', '', 'x'])); }
+    function aktualisiere() {
+      if (!info) return; const dt = D.texte[cur.xs[cur.i].tag], t = dt.t;
+      let h = '';
+      if (cur.sel) {
+        h = 'Auswahl: <b class="sel">»' + esc(t.slice(cur.sel.a, cur.sel.b)) + '«</b> <button type="button" id="selweg">aufheben</button>';
+        const u = ueberRs(cur.sel.a, cur.sel.b);
+        if (u.length && tab !== 'au') h += '<div class="hinweis">Die Auswahl liegt in einem schon vorhandenen <span class="mono">rs</span>' + (u.some(r => !r[4]) ? ' ohne ref: dort lieber den Ref ergänzen (orange unterstrichenen Text anklicken).' : ' mit ref oder in gesperrtem Text (Datum, Titel, Ort). Das kann der Skill nicht umschließen.') + '</div>';
+      } else if (cur.rsId) h = 'Ausgewählt: bestehendes rs <b class="sel">' + esc(cur.rsId) + '</b> <button type="button" id="selweg">aufheben</button>';
+      if (cur.rsSet.length) h += '<div>Ref ergänzen an: ' + cur.rsSet.map(id => { const r = dt.rs.find(q => q[5] === id); return '<b class="sel">»' + esc(r ? t.slice(r[0], r[1]) : id) + '«</b>'; }).join(', ') + ' <button type="button" id="rsweg">aufheben</button></div>';
+      if (!h) h = '<span class="muted">Noch nichts im Text markiert.</span>';
+      info.innerHTML = h;
+      tx.querySelectorAll('.gewaehlt').forEach(n => n.classList.remove('gewaehlt'));
+      if (cur.sel) tx.querySelectorAll('[data-o]').forEach(n => { const o = +n.dataset.o, e2 = o + n.textContent.length; if (o >= cur.sel.a && e2 <= cur.sel.b) n.classList.add('gewaehlt'); });
+      if (cur.rsId) tx.querySelectorAll('[data-id="' + cur.rsId + '"]').forEach(n => n.classList.add('gewaehlt'));
+      cur.rsSet.forEach(id => tx.querySelectorAll('[data-id="' + id + '"]').forEach(n => n.classList.add('gewaehlt')));
+      const w = $('#selweg', box); if (w) w.onclick = () => { cur.sel = null; cur.rsId = null; getSelection().removeAllRanges(); aktualisiere(); };
+      const w2 = $('#rsweg', box); if (w2) w2.onclick = () => { cur.rsSet = []; aktualisiere(); };
+      const frei = cur.sel && !ueberRs(cur.sel.a, cur.sel.b).length;
+      box.querySelectorAll('[data-braucht-sel]').forEach(b => { b.disabled = !frei; });
+      box.querySelectorAll('[data-braucht-rs]').forEach(b => { b.disabled = !cur.rsSet.length; });
+    }
+    cur.aktualisiere = aktualisiere; aktualisiere();
+  }
+  function entschBox(x, box, text) {
+    const d = dec(tab, x); const el = document.createElement('div'); el.className = 'entsch';
+    el.innerHTML = '✓ ' + esc(text(d)) + ' <button type="button">zurücknehmen</button>'; box.appendChild(el);
+    $('button', el).onclick = () => entscheide(x, null);
+  }
+  const kopfZeile = x => '<p class="muted" style="margin:0 0 6px">' + tlink(x.tag) + ' · <a href="' + XML(x.tag) + '" target="_blank" rel="noopener">XML</a></p>';
+
+  function fallC(x, box) {
+    const d = dec('c', x), idx = (D.texte[x.tag] || {}).idx || [];
+    box.innerHTML = kopfZeile(x) + '<h2>' + esc(x.info.name) + '</h2><p style="margin:2px 0 8px">' + plink(x.pmb) + ' <span class="muted">' + esc([x.info.jahre, x.info.beruf].filter(Boolean).join(' · ')) + '</span>' +
+      (x.implied_index ? ' <span class="tag warn">im Index als mitgemeint</span>' : '') + (x.im_register ? '' : ' <span class="tag warn">nicht im Register</span>') + '</p>' +
+      (x.verwandt.length ? '<p class="muted" style="margin:0 0 6px">Verwandt mit Person im Text: ' + x.verwandt.map(r => esc(r.rolle) + ' ' + esc(r.name) + ' ' + r.pmb).join('; ') + '</p>' : '') +
+      '<p class="muted" style="margin:0">Index dieses Tages: ' + idx.length + ' Personen' + (x.hint.length ? '' : ' · <b>keine Namensform im Text gefunden</b>') + '</p>' +
+      (x.kand_rs.length ? '<p style="margin:6px 0 0">Stelle ohne Ref vorhanden: ' + x.kand_rs.map(r => '<button type="button" data-rs="' + esc(r.id) + '">»' + esc(r.text) + '« <span class="muted mono">' + esc(r.id) + '</span></button>').join(' ') + '</p>' : '') +
+      '<div class="text" id="tx"></div><div class="sel-info" style="min-height:1.6em"></div>' +
+      '<div class="aktionen"><div class="grp"><button class="primary" data-braucht-rs="1" data-a="setref">Ref an gewähltem rs ergänzen</button></div><div class="grp"><button class="primary" data-braucht-sel="1" data-a="wrap-person">Name auszeichnen</button><button data-braucht-sel="1" data-a="wrap-allus">Verwandtschaftswort</button><button data-braucht-sel="1" data-a="implied">mitgemeint (implied)</button></div>' +
+      '<div class="grp"><button data-a="keine">im Text nicht vorhanden</button><button data-a="index-falsch">Index prüfen</button><button data-a="spaeter">später</button></div></div>';
+    textAnzeigen($('#tx', box), x.tag, x.hint.map(h => ({ a: h[0], b: h[1], cls: 'hit' })));
+    auswahlBox(box);
+    box.querySelectorAll('[data-rs]').forEach(b => { b.onclick = () => cur.schalte(b.dataset.rs); });
+    box.querySelector('.aktionen').onclick = e => {
+      const b = e.target.closest('button'); if (!b || b.disabled) return; const a = b.dataset.a, t = D.texte[x.tag].t;
+      if (a === 'setref') entscheide(x, { art: 'setref', ids: cur.rsSet.slice() });
+      else if (a === 'wrap-person' || a === 'wrap-allus' || a === 'implied') {
+        const an = ankerFuer(t, cur.sel.a, cur.sel.b);
+        entscheide(x, a === 'implied' ? { art: 'implied', anker: an } : { art: 'wrap', typ: a === 'wrap-person' ? 'person' : 'allusively', anker: an });
+      } else entscheide(x, { art: a === 'keine' ? 'keine' : a === 'index-falsch' ? 'index_falsch' : 'spaeter' });
+    };
+    if (d) entschBox(x, box, d => ({ setref: 'Ref ergänzt an ' + (d.ids || []).join(', '), wrap: 'Auszeichnung ' + (d.typ === 'person' ? 'als Name' : 'als Verwandtschaftswort') + ' »' + (d.anker && d.anker.text) + '«', implied: 'mitgemeint, Stelle »' + (d.anker && d.anker.text) + '«', keine: 'im Text nicht vorhanden (keine Änderung)', index_falsch: 'Index-Eintrag zu prüfen', spaeter: 'später' }[d.art]));
+  }
+
+  function fallPr(x, box) {
+    const d = dec('pr', x); const alt = x.zus && x.zus.ueblich;
+    const erkl = { ausreisser: 'Diese Person wird hier ungewöhnlich zugeordnet: Das Wort steht sonst fast immer für eine andere Person.', vor_geburt: 'Die Person wird vor ihrem Geburtsjahr erwähnt.',
+      nicht_im_index: 'Der Ref steht im Eintrag, aber nicht im Tagesindex.', alt_id_im_index: 'Im Tagesindex steht eine alte ID (person_N).', ref_unbekannt: 'Der Ref steht nicht in listperson.xml.' }[x.art];
+    box.innerHTML = kopfZeile(x) + '<h2>' + ARTEN[x.art] + '</h2><p style="margin:2px 0 6px">' + esc(erkl) + '</p>' +
+      '<p style="margin:0 0 6px">' + (x.text ? 'Stelle »<b>' + esc(x.text) + '</b>« ' : '') + (x.ref ? 'ist ausgezeichnet als ' + plink(x.ref) : '') + (x.rs ? ' <span class="muted mono">' + esc(x.rs) + '</span>' : '') + '</p>' +
+      (alt ? '<p style="margin:0 0 6px">üblich für dieses Wort: ' + plink(alt) + ' <span class="muted">(' + esc(x.zus.belege || '') + ')</span></p>' : '') +
+      (x.zus && x.zus.geb ? '<p class="muted" style="margin:0 0 6px">geboren ' + esc(x.zus.geb) + '</p>' : '') +
+      '<div class="text" id="tx"></div><div class="aktionen" id="ak"><div class="grp"><button class="ok" data-a="ok">Ref ist richtig</button>' +
+      (alt ? '<button data-a="alt">auf ' + esc(pname(alt)) + ' ändern</button>' : '') + (x.art === 'nicht_im_index' ? '<button data-a="index">Index ergänzen</button>' : '') +
+      '<button data-a="entfernen">Ref ist falsch (entfernen)</button><button data-a="spaeter">später</button></div></div><div style="margin-top:8px"><span class="muted">oder andere Person wählen:</span><div id="pk"></div></div>';
+    const marks = x.rs ? (D.texte[x.tag] ? D.texte[x.tag].rs.filter(r => r[5] === x.rs).map(r => ({ a: r[0], b: r[1], cls: 'fokus' })) : []) : [];
+    textAnzeigen($('#tx', box), x.tag, marks);
+    const f = $('.fokus', box); if (f && f.scrollIntoView) f.scrollIntoView({ block: 'center' });
+    picker($('#pk', box), p => entscheide(x, { art: 'aendern', neu: p }));
+    $('#ak', box).onclick = e => {
+      const b = e.target.closest('button'); if (!b) return; const a = b.dataset.a;
+      entscheide(x, a === 'alt' ? { art: 'aendern', neu: alt } : a === 'index' ? { art: 'index_add' } : { art: a });
+    };
+    if (d) entschBox(x, box, d => ({ ok: 'Ref bleibt', aendern: 'Ref ändern in ' + pinfo(d.neu), entfernen: 'Ref entfernen', index_add: 'Index wird ergänzt', spaeter: 'später' }[d.art]));
+  }
+
+  function fallAu(x, box) {
+    const d = dec('au', x), dt = D.texte[x.tag], t = dt ? dt.t : '';
+    const letztesWort = () => { if (!x.pos) return null; const m = t.slice(x.pos[0], x.pos[1]).match(/[\p{L}.’'-]+$/u); return m ? [x.pos[1] - m[0].length, x.pos[1]] : null; };
+    const rsUm = x.pos && dt ? dt.rs.find(r => r[5] && r[3] !== 'implied' && r[0] >= x.pos[0] - 1 && r[1] <= x.pos[1] + 1 && (r[1] - r[0]) >= (x.pos[1] - x.pos[0]) - 2) : null;
+    box.innerHTML = kopfZeile(x) + '<h2>Mitgemeint: »' + esc(x.text) + '«</h2><p style="margin:2px 0 6px"><span class="tag">' + esc({ besitz: 'Besitzwort', familienform: 'Familienform', folgewort: 'Wort nach Person' }[x.art] || x.art) + '</span> ' + esc(x.rest) + '</p>' +
+      '<div class="text" id="tx"></div><div class="sel-info" style="min-height:1.6em"></div><div id="pk"></div><p style="margin:8px 0 0"><label>oder neue Person (Beschreibung, z. B. „Schwester von Anna Reich“): <input type="text" id="neutext" style="width:min(22rem,100%)"></label></p>' +
+      '<div class="aktionen"><div class="grp"><button class="primary" id="gibref" disabled>Person wählen und eintragen</button><button id="gibneu" disabled>als neue Person eintragen</button></div><div class="grp"><button data-a="verwerfen">verwerfen (kein Fall)</button><button data-a="spaeter">später</button></div></div><div id="hin"></div>';
+    textAnzeigen($('#tx', box), x.tag, x.pos ? [{ a: x.pos[0], b: x.pos[1], cls: 'hit' }] : []);
+    auswahlBox(box);
+    if (rsUm && x.art === 'familienform') { cur.rsId = rsUm[5]; cur.aktualisiere(); }
+    else { const w = letztesWort(); if (w) { cur.sel = { a: w[0], b: w[1] }; cur.aktualisiere(); } }
+    let gewaehlt = null;
+    const aktiv = () => { $('#gibref', box).disabled = !(gewaehlt && (cur.sel || cur.rsId)); $('#gibneu', box).disabled = !($('#neutext', box).value.trim() && (cur.sel || cur.rsId)); };
+    picker($('#pk', box), p => { gewaehlt = p; $('#gibref', box).textContent = 'als ' + pname(p) + ' eintragen'; aktiv(); });
+    $('#neutext', box).oninput = aktiv; box.addEventListener('mouseup', () => setTimeout(aktiv, 80)); box.addEventListener('click', () => setTimeout(aktiv, 80));
+    const op = extra => { const r = { art: 'implied' }; if (cur.rsId && !cur.sel) r.um_rs = cur.rsId; else r.anker = ankerFuer(t, cur.sel.a, cur.sel.b); return Object.assign(r, extra); };
+    $('#gibref', box).onclick = () => { if (gewaehlt) entscheide(x, op({ ref: gewaehlt })); };
+    $('#gibneu', box).onclick = () => { const s = $('#neutext', box).value.trim(); if (s) entscheide(x, op({ neu: s })); };
+    box.querySelectorAll('[data-a]').forEach(b => { b.onclick = () => entscheide(x, { art: b.dataset.a }); });
+    if (d) entschBox(x, box, d => d.art === 'implied' ? 'mitgemeint: ' + (d.ref ? pinfo(d.ref) : 'neue Person „' + d.neu + '“') + ' (' + (d.um_rs ? 'um ' + d.um_rs : '»' + (d.anker && d.anker.text) + '«') + ')' : d.art === 'verwerfen' ? 'verworfen' : 'später');
+  }
+
+  function fallSa(x, box) {
+    const d = dec('sa', x);
+    box.innerHTML = kopfZeile(x) + '<h2>Vorschlag: »' + esc(x.text) + '« → ' + esc(pname(x.ref)) + '</h2><p style="margin:2px 0 6px">' + plink(x.ref) + '</p><p class="muted" style="margin:0 0 6px">' + esc(x.grund) + '</p><div class="text" id="tx"></div>' +
+      '<div class="aktionen"><button class="ok" data-a="ja">übernehmen</button><button data-a="nein">ablehnen</button><button data-a="spaeter">später</button></div>';
+    textAnzeigen($('#tx', box), x.tag, D.texte[x.tag] ? D.texte[x.tag].rs.filter(r => r[5] === x.id).map(r => ({ a: r[0], b: r[1], cls: 'fokus' })) : []);
+    const f = $('.fokus', box); if (f && f.scrollIntoView) f.scrollIntoView({ block: 'center' });
+    box.querySelectorAll('[data-a]').forEach(b => { b.onclick = () => entscheide(x, { art: b.dataset.a }); });
+    if (d) entschBox(x, box, d => ({ ja: 'wird übernommen', nein: 'abgelehnt', spaeter: 'später' }[d.art]));
+  }
+  neu(null);
+}
+const ARTEN = { ausreisser: 'Ungewöhnliche Zuordnung', vor_geburt: 'Person vor der Geburt erwähnt', nicht_im_index: 'Ref nicht im Index', alt_id_im_index: 'Alte ID im Index', ref_unbekannt: 'Ref unbekannt' };
+
+/* ---- Ergebnis ---- */
+function baueOps() {
+  const ops = [];
+  D.index_ohne_anker.forEach(x => { const d = S.dec['c|' + x.tag + '|' + x.pmb]; if (!d) return;
+    if (d.art === 'wrap') ops.push({ op: 'wrap', tag: x.tag, anker: d.anker, ref: x.pmb, typ: d.typ, grund: 'Redaktion (Werkzeug): ' + (d.typ === 'person' ? 'Name' : 'Verwandtschaftswort') + ' von Hand gewählt' });
+    if (d.art === 'setref') (d.ids || []).forEach(id => ops.push({ op: 'set_ref', tag: x.tag, id: id, ref: x.pmb, grund: 'Redaktion (Werkzeug): Ref am vorhandenen rs ergänzt' }));
+    if (d.art === 'implied') ops.push({ op: 'implied', tag: x.tag, anker: d.anker, ref: x.pmb, grund: 'Redaktion (Werkzeug): mitgemeint, von Hand gewählt' }); });
+  D.ausloeser.forEach(x => { const d = S.dec['a|' + x.k]; if (!d || d.art !== 'implied') return;
+    const o = { op: 'implied', tag: x.tag }; if (d.um_rs) o.um_rs = d.um_rs; else o.anker = d.anker;
+    if (d.ref) o.ref = d.ref; else o.neu = d.neu; o.grund = 'Redaktion (Werkzeug): ' + x.art + ' »' + x.text + '«'; ops.push(o); });
+  D.stufe_a.forEach(x => { const d = S.dec['s|' + x.tag + '|' + x.id]; if (d && d.art === 'ja') ops.push({ op: 'set_ref', tag: x.tag, id: x.id, ref: x.ref, grund: 'Redaktion (Werkzeug): Stufe-A-Vorschlag übernommen' }); });
+  D.pruefbefunde.forEach(x => { const d = S.dec['p|' + x.tag + '|' + x.art + '|' + (x.rs || x.ref) + '|' + x.ref]; if (d && d.art === 'index_add') ops.push({ op: 'index_add', tag: x.tag, ref: x.ref, grund: 'Redaktion (Werkzeug): Ref steht im Text, fehlte im Index' }); });
+  ops.sort((a, b) => a.tag < b.tag ? -1 : a.tag > b.tag ? 1 : 0);
+  return ops;
+}
+function viewErg(v) {
+  const ops = baueOps();
+  const korr = [['Tag', 'xml:id', 'Text', 'alter Ref', 'neuer Ref', 'Aktion']];
+  D.pruefbefunde.forEach(x => { const d = S.dec['p|' + x.tag + '|' + x.art + '|' + (x.rs || x.ref) + '|' + x.ref]; if (d && (d.art === 'aendern' || d.art === 'entfernen')) korr.push([x.tag, x.rs, x.text, x.ref, d.art === 'aendern' ? d.neu : '', d.art === 'aendern' ? 'ändern' : 'entfernen']); });
+  const map = []; D.neue_personen.forEach(x => { const d = S.dec['n|' + x.id]; if (d && d.pmb) map.push(x.id + ';' + d.pmb); });
+  const hinweise = [['Tag', 'pmb', 'Name', 'Entscheidung']];
+  D.index_ohne_anker.forEach(x => { const d = S.dec['c|' + x.tag + '|' + x.pmb]; if (d && (d.art === 'keine' || d.art === 'index_falsch')) hinweise.push([x.tag, x.pmb, x.info.name, d.art === 'keine' ? 'im Text nicht vorhanden' : 'Index-Eintrag prüfen']); });
+  const luecken = D.register_luecken.filter(x => (S.dec['l|' + x.pmb] || {}).ok).map(x => x.pmb);
+  const bloecke = [
+    { id: 'ops', titel: 'Entscheidungen für den Skill (apply)', text: JSON.stringify(ops, null, 1), n: ops.length, datei: 'entscheidungen-redaktion.json', mime: 'application/json',
+      hilfe: 'Speichern Sie die Datei im Repo (auf dem Branch mit den Ergebnissen, Arbeitsverzeichnis sauber) und rufen Sie auf:' , cmd: 'python3 .claude/skills/personen-auszeichnen/scripts/pa.py apply entscheidungen-redaktion.json --dry-run\npython3 .claude/skills/personen-auszeichnen/scripts/pa.py apply entscheidungen-redaktion.json --ruhig' },
+    { id: 'map', titel: 'Zuordnung implied-person → pmb (für den Ersetzungslauf)', text: 'implied-person;pmb\n' + map.join('\n'), n: map.length, datei: 'implied-zu-pmb.csv', mime: 'text/csv' },
+    { id: 'korr', titel: 'Korrekturliste bestehender Refs (von Hand in Oxygen)', text: csv(korr), n: korr.length - 1, datei: 'korrekturen-refs.csv', mime: 'text/csv' },
+    { id: 'hin', titel: 'Index-Einträge ohne Textstelle (Notizen)', text: csv(hinweise), n: hinweise.length - 1, datei: 'index-ohne-textstelle.csv', mime: 'text/csv' },
+    { id: 'luecken', titel: 'In die PMB-Sammlung aufgenommen', text: luecken.join('\n'), n: luecken.length, datei: 'register-luecken-erledigt.txt', mime: 'text/plain' },
+    { id: 'sich', titel: 'Sicherung aller Entscheidungen', text: JSON.stringify({ dec: S.dec }), n: Object.keys(S.dec).length, datei: 'sicherung-offene-fragen.json', mime: 'application/json',
+      hilfe: 'Der Browser speichert Ihre Arbeit nur lokal. Legen Sie gelegentlich eine Sicherung ab; zum Einspielen den Text unten einfügen.' }
+  ];
+  v.innerHTML = '<div class="grid2">' + bloecke.map(b => '<div class="card out" id="b-' + b.id + '"><h2>' + esc(b.titel) + ' <span class="tag">' + b.n + '</span></h2>' + (b.hilfe ? '<p class="muted">' + esc(b.hilfe) + '</p>' : '') + (b.cmd ? '<pre>' + esc(b.cmd) + '</pre>' : '') +
+    '<textarea readonly aria-label="' + esc(b.titel) + '">' + esc(b.text) + '</textarea><div class="aktionen"><button class="primary" data-k="' + b.id + '">kopieren</button>' + (IM_ARTIFACT ? '' : '<button data-d="' + b.id + '">als Datei speichern</button>') + '<span class="muted" data-m="' + b.id + '"></span></div></div>').join('') + '</div>' +
+    '<div class="card" style="margin-top:14px"><h2>Sicherung einspielen</h2><p class="muted">Fügen Sie eine zuvor kopierte Sicherung ein. Vorhandene Entscheidungen mit gleicher Kennung werden überschrieben.</p><textarea id="ein" style="width:100%;min-height:5rem" aria-label="Sicherung einfügen"></textarea><div class="aktionen"><button id="einb">einspielen</button><span class="muted" id="einm"></span></div></div>' +
+    '<p class="muted" style="margin-top:12px">' + (IM_ARTIFACT ? 'Hinweis: Hier lassen sich keine Dateien speichern. Kopieren Sie den Text und fügen Sie ihn in eine Datei im Repo ein. In der lokal geöffneten HTML-Datei gibt es zusätzlich „als Datei speichern“.' : 'Die Entscheidungen liegen nur in diesem Browser. Legen Sie gelegentlich eine Sicherung ab.') + '</p>';
+  v.querySelectorAll('[data-k]').forEach(b => { b.onclick = () => { const bl = bloecke.find(x => x.id === b.dataset.k); kopieren(bl.text, () => { $('[data-m="' + bl.id + '"]').textContent = 'kopiert'; }); }; });
+  v.querySelectorAll('[data-d]').forEach(b => { b.onclick = () => { const bl = bloecke.find(x => x.id === b.dataset.d); datei(bl.datei, bl.text, bl.mime); $('[data-m="' + bl.id + '"]').textContent = 'Speichern angestoßen'; }; });
+  $('#einb').onclick = () => { try { const p = JSON.parse($('#ein').value); Object.assign(S.dec, p.dec || {}); save(); $('#einm').textContent = Object.keys(p.dec || {}).length + ' Entscheidungen eingespielt'; } catch (e) { $('#einm').textContent = 'Das ist keine gültige Sicherung.'; } };
+}
+
+function zeige() {
+  kopf(); const v = $('#view'), t = S.ui.tab;
+  if (t === 'neu') viewNeu(v); else if (t === 'luecken') viewLuecken(v); else if (t === 'erg') viewErg(v); else viewFaelle(v, t);
+}
+zeige();
+})();
+</script>
