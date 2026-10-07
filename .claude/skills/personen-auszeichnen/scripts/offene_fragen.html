@@ -113,6 +113,7 @@ pre { background: var(--bg); border: 1px solid var(--line); border-radius: 6px; 
 <script>
 (function () {
 'use strict';
+const IM_ARTIFACT = /*__ARTIFACT__*/false;
 const D = /*__DATEN__*/null;
 if (!D) { document.getElementById('view').textContent = 'Keine Daten eingebettet.'; return; }
 const $ = (s, r) => (r || document).querySelector(s);
@@ -520,9 +521,9 @@ function viewErg(v) {
       hilfe: 'Der Browser speichert Ihre Arbeit nur lokal. Legen Sie gelegentlich eine Sicherung ab; zum Einspielen den Text unten einfügen.' }
   ];
   v.innerHTML = '<div class="grid2">' + bloecke.map(b => '<div class="card out" id="b-' + b.id + '"><h2>' + esc(b.titel) + ' <span class="tag">' + b.n + '</span></h2>' + (b.hilfe ? '<p class="muted">' + esc(b.hilfe) + '</p>' : '') + (b.cmd ? '<pre>' + esc(b.cmd) + '</pre>' : '') +
-    '<textarea readonly aria-label="' + esc(b.titel) + '">' + esc(b.text) + '</textarea><div class="aktionen"><button class="primary" data-k="' + b.id + '">kopieren</button><button data-d="' + b.id + '">als Datei speichern</button><span class="muted" data-m="' + b.id + '"></span></div></div>').join('') + '</div>' +
+    '<textarea readonly aria-label="' + esc(b.titel) + '">' + esc(b.text) + '</textarea><div class="aktionen"><button class="primary" data-k="' + b.id + '">kopieren</button>' + (IM_ARTIFACT ? '' : '<button data-d="' + b.id + '">als Datei speichern</button>') + '<span class="muted" data-m="' + b.id + '"></span></div></div>').join('') + '</div>' +
     '<div class="card" style="margin-top:14px"><h2>Sicherung einspielen</h2><p class="muted">Fügen Sie eine zuvor kopierte Sicherung ein. Vorhandene Entscheidungen mit gleicher Kennung werden überschrieben.</p><textarea id="ein" style="width:100%;min-height:5rem" aria-label="Sicherung einfügen"></textarea><div class="aktionen"><button id="einb">einspielen</button><span class="muted" id="einm"></span></div></div>' +
-    '<p class="muted" style="margin-top:12px">Hinweis: Im Fenster von claude.ai blockiert der Browser das Speichern von Dateien; dort bitte „kopieren“ benutzen. In der lokal geöffneten HTML-Datei funktioniert beides.</p>';
+    '<p class="muted" style="margin-top:12px">' + (IM_ARTIFACT ? 'Hinweis: Hier lassen sich keine Dateien speichern. Kopieren Sie den Text und fügen Sie ihn in eine Datei im Repo ein. In der lokal geöffneten HTML-Datei gibt es zusätzlich „als Datei speichern“.' : 'Die Entscheidungen liegen nur in diesem Browser. Legen Sie gelegentlich eine Sicherung ab.') + '</p>';
   v.querySelectorAll('[data-k]').forEach(b => { b.onclick = () => { const bl = bloecke.find(x => x.id === b.dataset.k); kopieren(bl.text, () => { $('[data-m="' + bl.id + '"]').textContent = 'kopiert'; }); }; });
   v.querySelectorAll('[data-d]').forEach(b => { b.onclick = () => { const bl = bloecke.find(x => x.id === b.dataset.d); datei(bl.datei, bl.text, bl.mime); $('[data-m="' + bl.id + '"]').textContent = 'Speichern angestoßen'; }; });
   $('#einb').onclick = () => { try { const p = JSON.parse($('#ein').value); Object.assign(S.dec, p.dec || {}); save(); $('#einm').textContent = Object.keys(p.dec || {}).length + ' Entscheidungen eingespielt'; } catch (e) { $('#einm').textContent = 'Das ist keine gültige Sicherung.'; } };

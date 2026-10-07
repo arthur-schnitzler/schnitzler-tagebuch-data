@@ -346,7 +346,8 @@ def main():
         (ordner / "offene-fragen.html").write_text(
             '<!doctype html>\n<html lang="de">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1">\n'
             + kopf + "</head>\n<body>\n" + rumpf + "</body>\n</html>\n", encoding="utf-8")
-        (ordner / "offene-fragen-artifact.html").write_text(t.replace("<!--BODY-->", ""), encoding="utf-8")
+        (ordner / "offene-fragen-artifact.html").write_text(
+            t.replace("<!--BODY-->", "").replace("/*__ARTIFACT__*/false", "true"), encoding="utf-8")
     n = daten
     print(f"neue Personen: {len(n['neue_personen'])}; Register-Lücken: {len(n['register_luecken'])}; "
           f"Index ohne Anker: {len(n['index_ohne_anker'])}; Prüfbefunde: {len(n['pruefbefunde'])}; "
