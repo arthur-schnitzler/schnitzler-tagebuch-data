@@ -12210,6 +12210,11 @@
                         <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/183869/</idno>
                         <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb183869.html</idno>
                      </event>
+                     <event n="Theateraufführung" key="405551" when-iso="1894-07-18">
+                        <desc n="1370">teilnehmend</desc>
+                        <label>Aufführung von Der Hüttenbesitzer, 18.7.1894</label>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/405551/</idno>
+                     </event>
                      <event n="Private Lesung" key="195195" when-iso="1894-11-04">
                         <desc n="1370">teilnehmend</desc>
                         <label>Private Lesung aus dem Tagebuch, 4.11.1894</label>
@@ -32073,7 +32078,12 @@
                      </settlement>
                   </death>
                   <sex value="male"/>
+                  <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
                   <occupation key="99">Journalist/Journalistin</occupation>
+                  <occupation key="127">Theaterkritiker/Theaterkritikerin</occupation>
+                  <occupation key="201">Musikkritiker/Musikkritikerin</occupation>
+                  <occupation key="370">Dichter/Dichterin</occupation>
+                  <occupation key="1535">Librettist/Librettistin</occupation>
                   <idno type="URL" subtype="gnd">https://d-nb.info/gnd/11603498X</idno>
                   <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11857.html</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11857/</idno>
@@ -34640,6 +34650,12 @@
                      <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb87755.html</idno>
                   </affiliation>
                   <listEvent>
+                     <event n="Theaterpremiere" key="208582" when-iso="1892-10-31">
+                        <desc n="1370">teilnehmend</desc>
+                        <label>Premiere von Die Orientreise, 31.10.1892</label>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/208582/</idno>
+                        <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb208582.html</idno>
+                     </event>
                      <event n="Theateraufführung" key="40436" when-iso="1893-01-14">
                         <desc n="1256">mitwirkend</desc>
                         <label>Aufführung von Die Räuber, 14.1.1893</label>
@@ -63809,6 +63825,11 @@
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb13180.html</idno>
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb13180.html</idno>
                   <listEvent>
+                     <event n="Theateraufführung" key="405551" when-iso="1894-07-18">
+                        <desc n="1256">mitwirkend</desc>
+                        <label>Aufführung von Der Hüttenbesitzer, 18.7.1894</label>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/405551/</idno>
+                     </event>
                      <event n="Theaterpremiere" key="94354" when-iso="1895-05-02">
                         <desc n="1256">mitwirkend</desc>
                         <label>Premiere von Tabarin und Verbotene Früchte, 2.5.1895</label>
@@ -66227,9 +66248,11 @@
                </person>
                <person xml:id="pmb13346">
                   <persName>
-                     <forename>George</forename>
+                     <forename>Georg</forename>
                      <surname>Altmann</surname>
                   </persName>
+                  <persName type="person_namensvariante_nachname">Altman</persName>
+                  <persName type="person_namensvariante_vorname">George</persName>
                   <birth>
                      <date when-iso="1884-06-15">1884-06-15</date>
                      <settlement key="168">
@@ -66254,8 +66277,14 @@
                   <idno type="URL" subtype="schaubuehne">https://schaubuehne.oeaw.ac.at/register.html?author=2623</idno>
                   <idno type="URL" subtype="wedekind-korrespondenz">https://briefedition.wedekind.h-da.de/view/person/single.xhtml?id=8085403</idno>
                   <idno type="URL" subtype="schnitzler-fischer">https://biblio.ub.uni-freiburg.de/sf/#pmb13346</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/336895/</idno>
+                  <idno type="URL" subtype="dla-marbach">https://www.dla-marbach.de/find/opac/id/PE00008972</idno>
+                  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118648462</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1477463</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Georg_Altmann</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb13346.html</idno>
                   <listBibl>
+                     <bibl type="collections" n="86">Arthur Schnitzler (DLA-Marbach)</bibl>
                      <bibl type="collections" n="85">Arthur Schnitzler und der S. Fischer Verlag, Briefdatenbank</bibl>
                      <bibl type="collections" n="42">Die Schaubühne</bibl>
                      <bibl type="collections" n="82">Frank Wedekinds Korrespondenz</bibl>
@@ -139784,6 +139813,8 @@
                      <forename>Marie</forename>
                      <surname>Krall</surname>
                   </persName>
+                  <persName type="person_geburtsname_vorname">Maria Theresia</persName>
+                  <persName type="person_pseudonym">Mizzi König</persName>
                   <birth>
                      <date when-iso="1869-12-14">1869-12-14</date>
                      <settlement key="50">
@@ -139811,6 +139842,9 @@
                   <listBibl>
                      <bibl type="collections" n="77">Karl Kraus: SemanticKraus</bibl>
                   </listBibl>
+                  <figure>
+                     <graphic url="https://upload.wikimedia.org/wikipedia/commons/8/83/Marie_Krall_%281869%E2%80%931945%29.tif?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original"/>
+                  </figure>
                </person>
                <person xml:id="pmb19671">
                   <persName>
@@ -154932,7 +154966,7 @@ Ort?</note>
                         </location>
                      </settlement>
                      <settlement key="89">
-                        <placeName type="pref">Sanatorium Loew</placeName>
+                        <placeName type="pref">Sanatorium Dr. Anton Loew</placeName>
                         <location>
                            <geo>48,216264483348 16,347492624475</geo>
                         </location>
@@ -155436,6 +155470,13 @@ Ort?</note>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/183393/</idno>
                      <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb183393.html</idno>
                   </affiliation>
+                  <listEvent>
+                     <event n="Theateraufführung" key="405551" when-iso="1894-07-18">
+                        <desc n="1370">teilnehmend</desc>
+                        <label>Aufführung von Der Hüttenbesitzer, 18.7.1894</label>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/405551/</idno>
+                     </event>
+                  </listEvent>
                   <listBibl>
                      <bibl type="collections" n="35">Der Brenner</bibl>
                      <bibl type="collections" n="12">Karl Kraus: Die Fackel</bibl>
@@ -158047,8 +158088,8 @@ Ort?</note>
                      <orgName key="334383">Antonio Delfino</orgName>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/334383/</idno>
                      <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q601781</idno>
-                     <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb334383.html</idno>
                      <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Antonio_Delfino_(Schiff)</idno>
+                     <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb334383.html</idno>
                   </affiliation>
                   <affiliation from-iso="1928-04-14" to-iso="1928-04-30">
                      <term key="1153">in Bezug zu</term>
@@ -165803,6 +165844,11 @@ Ort?</note>
                         <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/208547/</idno>
                         <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb208547.html</idno>
                      </event>
+                     <event n="Vereinstreffen" key="89338" when-iso="1892-03-29">
+                        <desc n="1370">teilnehmend</desc>
+                        <label>Vereinsabend Verein für modernes Leben, 29.3.1892</label>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/89338/</idno>
+                     </event>
                      <event n="Theaterpremiere" key="208548" when-iso="1892-04-02">
                         <desc n="1370">teilnehmend</desc>
                         <label>Premiere von Die Ehre, 2.4.1892</label>
@@ -166119,7 +166165,7 @@ Ort?</note>
                      </event>
                      <event n="Theaterpremiere" key="208582" when-iso="1892-10-31">
                         <desc n="1370">teilnehmend</desc>
-                        <label>Premiere von Die Orientreise. Schwank in drei Akten, 31.10.1892</label>
+                        <label>Premiere von Die Orientreise, 31.10.1892</label>
                         <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/208582/</idno>
                         <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb208582.html</idno>
                      </event>
@@ -166166,6 +166212,11 @@ Ort?</note>
                         <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/208586/</idno>
                         <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb208586.html</idno>
                      </event>
+                     <event n="Philharmonisches Konzert" key="405507" when-iso="1892-12-04">
+                        <desc n="1370">teilnehmend</desc>
+                        <label>3. Abonnementkonzert, 4.12.1892</label>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/405507/</idno>
+                     </event>
                      <event n="Opernaufführung" key="208587" when-iso="1892-12-05">
                         <desc n="1370">teilnehmend</desc>
                         <label>Aufführung von Don Giovanni, 5.12.1892</label>
@@ -166184,11 +166235,21 @@ Ort?</note>
                         <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/208588/</idno>
                         <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb208588.html</idno>
                      </event>
+                     <event n="Theateraufführung" key="405512" when-iso="1892-12-14">
+                        <desc n="1370">teilnehmend</desc>
+                        <label>Aufführung von Die Jüdin von Toledo, 14.12.1892</label>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/405512/</idno>
+                     </event>
                      <event n="Private Lesung" key="192651" when-iso="1892-12-20">
                         <desc n="1256">mitwirkend</desc>
                         <label>Private Lesung von Episode, 20.12.1892</label>
                         <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/192651/</idno>
                         <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb192651.html</idno>
+                     </event>
+                     <event n="Theateraufführung" key="405519" when-iso="1892-12-29">
+                        <desc n="1370">teilnehmend</desc>
+                        <label>?? [Theaterbesuch], 29.12.1892</label>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/405519/</idno>
                      </event>
                      <event n="Quartett" key="208589" when-iso="1893-01-03">
                         <desc n="1370">teilnehmend</desc>
@@ -168157,6 +168218,11 @@ Ort?</note>
                         <label>Aufführung von Das Stiftungsfest, 9.8.1895</label>
                         <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/208764/</idno>
                         <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb208764.html</idno>
+                     </event>
+                     <event n="Marionettentheater" key="405561" when-iso="1895-08-11">
+                        <desc n="1370">teilnehmend</desc>
+                        <label>Aufführung eines Marionettentheaters, 11.8.1895</label>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/405561/</idno>
                      </event>
                      <event n="Opernaufführung" key="208765" when-iso="1895-08-12">
                         <desc n="1370">teilnehmend</desc>
@@ -198405,6 +198471,9 @@ Ort?</note>
                      <date when-iso="1851-05-01">1851-05-01</date>
                      <settlement key="21405">
                         <placeName type="pref">Sátoraljaújhely</placeName>
+                        <location>
+                           <geo>48,39492 21,65871</geo>
+                        </location>
                      </settlement>
                   </birth>
                   <death>
@@ -202704,6 +202773,11 @@ Ort?</note>
                         <label>Soirée des Wiener Volksbildungsvereins, 22.3.1895</label>
                         <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/199091/</idno>
                         <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb199091.html</idno>
+                     </event>
+                     <event n="Marionettentheater" key="405561" when-iso="1895-08-11">
+                        <desc n="1370">teilnehmend</desc>
+                        <label>Aufführung eines Marionettentheaters, 11.8.1895</label>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/405561/</idno>
                      </event>
                      <event n="Theateraufführung" key="42426" when-iso="1895-10-10">
                         <desc n="1370">teilnehmend</desc>
@@ -213720,8 +213794,8 @@ Ort?</note>
                      <orgName key="334383">Antonio Delfino</orgName>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/334383/</idno>
                      <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q601781</idno>
-                     <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb334383.html</idno>
                      <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Antonio_Delfino_(Schiff)</idno>
+                     <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb334383.html</idno>
                   </affiliation>
                   <affiliation from-iso="1928-04-14" to-iso="1928-04-30">
                      <term key="1153">in Bezug zu</term>
@@ -228908,7 +228982,7 @@ Ort?</note>
                   </persName>
                   <birth>
                      <date when-iso="1861-07-28">1861-07-28</date>
-                     <settlement key="51157">
+                     <settlement key="21405">
                         <placeName type="pref">Sátoraljaújhely</placeName>
                         <location>
                            <geo>48,39492 21,65871</geo>
@@ -249715,6 +249789,13 @@ Franz Seraph (* 27. März 1844 Landstraße 135 [3, Münzgasse 3], † 22. Novemb
                   <idno type="URL" subtype="oebl">https://doi.org/10.1553/0X0028162D</idno>
                   <idno type="URL" subtype="tillich-briefe">https://tillich-briefe.acdh.oeaw.ac.at/tillich_person_id__4590.html</idno>
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb2513.html</idno>
+                  <listEvent>
+                     <event n="Theateraufführung" key="405551" when-iso="1894-07-18">
+                        <desc n="1370">teilnehmend</desc>
+                        <label>Aufführung von Der Hüttenbesitzer, 18.7.1894</label>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/405551/</idno>
+                     </event>
+                  </listEvent>
                   <listBibl>
                      <bibl type="collections" n="30">Hanslick Online</bibl>
                      <bibl type="collections" n="12">Karl Kraus: Die Fackel</bibl>
@@ -267727,7 +267808,7 @@ Neffe von Emma Altmann, Alt-Aussee</note>
                   </death>
                   <sex value="female"/>
                   <occupation key="171">Mäzen/Mäzenin</occupation>
-                  <occupation key="732">Verwalter/Verwalterin</occupation>
+                  <occupation key="5077">Nachlassverwalter/Nachlassverwalterin</occupation>
                   <idno type="URL" subtype="hanslick-online">https://hanslick.acdh.oeaw.ac.at/hsl_person_id_1672.html</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/26555/</idno>
                   <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp48165</idno>
@@ -294766,6 +294847,11 @@ Neffe von Emma Altmann, Alt-Aussee</note>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb3784.html</idno>
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb3784.html</idno>
                   <listEvent>
+                     <event n="Marionettentheater" key="405561" when-iso="1895-08-11">
+                        <desc n="1370">teilnehmend</desc>
+                        <label>Aufführung eines Marionettentheaters, 11.8.1895</label>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/405561/</idno>
+                     </event>
                      <event n="Theateraufführung" key="168841" when-iso="1896-11-13">
                         <desc n="1370">teilnehmend</desc>
                         <label>Aufführung von Judith, 13.11.1896</label>
@@ -301945,6 +302031,14 @@ Neffe von Emma Altmann, Alt-Aussee</note>
                   <idno type="URL" subtype="wedekind-korrespondenz">https://briefedition.wedekind.h-da.de/view/person/single.xhtml?id=10879615</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb4983.html</idno>
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb4983.html</idno>
+                  <listEvent>
+                     <event n="Theateraufführung" key="208770" when-iso="1895-08-28">
+                        <desc n="1256">mitwirkend</desc>
+                        <label>Aufführung von Die Geschwister, Clavigo, 28.8.1895</label>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/208770/</idno>
+                        <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb208770.html</idno>
+                     </event>
+                  </listEvent>
                   <listBibl>
                      <bibl type="collections" n="82">Frank Wedekinds Korrespondenz</bibl>
                      <bibl type="collections" n="12">Karl Kraus: Die Fackel</bibl>

@@ -539,8 +539,8 @@
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb113.html</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2464508</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb113.html</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb113.html</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/T%C3%BCrkenschanzpark</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb113.html</idno>
                <listBibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
@@ -38282,22 +38282,31 @@
                </note>
             </place>
             <place xml:id="pmb91137">
-               <placeName>Leopoldskron</placeName>
-               <desc type="entity_type">P.PPLX</desc>
-               <desc type="entity_type_id">1234</desc>
+               <placeName>Salzburg-Leopoldskron</placeName>
+               <placeName type="alternative-name">Leopoldskron</placeName>
+               <placeName type="legacy-name-merge">Leopoldskron</placeName>
+               <desc type="entity_type">Teil eines besiedelten Ortes (A.BSOX)</desc>
+               <desc type="entity_type_id">18</desc>
                <location type="coords">
-                  <geo>47,78333 13,03333</geo>
+                  <geo>47,786389 13,030556</geo>
                </location>
                <location type="located_in_place">
                   <placeName ref="pmb41240">Österreich</placeName>
                   <geo>47,33333 13,33333</geo>
                </location>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91137/</idno>
+               <location type="located_in_place">
+                  <placeName ref="pmb30">Salzburg</placeName>
+                  <geo>47,80067 13,04532</geo>
+               </location>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4353493-4</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/34839/</idno>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2772616/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91137/</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Leopoldskron</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb91137.html</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb91137.html</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1819983</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb34839.html</idno>
                <listBibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
@@ -46261,24 +46270,39 @@
                </listBibl>
             </place>
             <place xml:id="pmb91875">
-               <placeName>Tures</placeName>
-               <desc type="entity_type">P.PPL</desc>
-               <desc type="entity_type_id">1412</desc>
+               <placeName>Sand in Taufers</placeName>
+               <placeName type="alternative-name">Sand in Taufers</placeName>
+               <placeName type="legacy-name">Campo Tures</placeName>
+               <placeName type="legacy-name-merge">Sand in Taufers</placeName>
+               <placeName type="legacy-name-merge">Tures</placeName>
+               <desc type="entity_type">P.PPLA3</desc>
+               <desc type="entity_type_id">1128</desc>
                <location type="coords">
-                  <geo>46,9112 11,94835</geo>
+                  <geo>46,90844 11,96036</geo>
                </location>
                <location type="located_in_place">
                   <placeName ref="pmb40306">Italien</placeName>
                   <geo>42,83333 12,83333</geo>
                </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2244/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/46965/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4562394-6</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Sand_in_Taufers</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/106819/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q376944</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91875/</idno>
-               <idno type="URL" subtype="geonames">https://sws.geonames.org/9033196/</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb91875.html</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb91875.html</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/6535889/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb46965.html</idno>
                <listBibl>
-                  <bibl type="collections" n="13">No WikiData-ID found</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
+               <note type="image">
+                  <figure>
+                     <graphic url="https://iiif.onb.ac.at/images/AKON/AK098_045/045/full/,600/0/native.jpg"/>
+                  </figure>
+               </note>
             </place>
             <place xml:id="pmb91877">
                <placeName>Telde</placeName>
@@ -48526,9 +48550,9 @@
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92085/</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q681099</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Windischgarsten</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb39930.html</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92085.html</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb92085.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb39930.html</idno>
                <listBibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
