@@ -1,0 +1,51 @@
+{
+ "erzeugt": "2026-10-04",
+ "quelle_stand": "2026-10-04",
+ "quelle": {
+  "relations.csv": {
+   "bytes": 63015883,
+   "sha1": "1b5db60deaf384354fa97ce785c6919b016efc0e",
+   "zeilen": 235590
+  },
+  "listperson.xml": {
+   "bytes": 60882753,
+   "sha1": "e95d75fb43fc42768d427b88e8b97f5692a629f2"
+  }
+ },
+ "relationen": 3547,
+ "personen": 3119,
+ "personen_ohne_eintrag_in_liste": [],
+ "typen": {
+  "ist Kind von": 795,
+  "ist Geschwister von": 758,
+  "ist Elternteil von": 649,
+  "ist verheiratet mit": 584,
+  "ist verheiratet mit (bis zum Tod)": 134,
+  "ist verheiratet mit (verwitwet)": 131,
+  "ist verheiratet mit (Scheidung)": 101,
+  "ist Cousin/Cousine von": 76,
+  "ist verschwägert mit": 65,
+  "ist Onkel/Tante von": 53,
+  "ist Neffe/Nichte von": 51,
+  "ist Halbgeschwister von": 23,
+  "ist biologisches Kind von": 18,
+  "ist verwandt zu": 18,
+  "ist Enkel/Enkelin von": 16,
+  "ist verlobt mit": 11,
+  "ist adoptiertes Kind von": 11,
+  "ist Großelternteil von": 10,
+  "ist biologisches Elternteil von": 9,
+  "ist Stiefgeschwister von": 7,
+  "ist durch Adoption Elternteil von": 5,
+  "ist Stiefelternteil von": 5,
+  "ist Stiefkind von": 5,
+  "ist Schwiegerkind von": 4,
+  "ist Schwiegerelternteil von": 3,
+  "ist Großonkel/Großtante von": 2,
+  "möglicherweise biologisches Kind von": 2,
+  "ist Großneffe/Großnichte von": 1
+ },
+ "davon_im_tagebuch_register": 1857,
+ "ausserhalb_register": 1262,
+ "hinweis": "Ungekürzte Quellen: PMB-Downloads relations.csv und listperson.xml; Befehl: pa.py kuerzen --quelle <Ordner>"
+}
