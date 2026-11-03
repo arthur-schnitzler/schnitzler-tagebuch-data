@@ -1,0 +1,8 @@
+{
+  "domain": "schnitzler-tagebuch",
+  "uri_template": "https://schnitzler-tagebuch.acdh.oeaw.ac.at/{xml_id}.html",
+  "index_glob": "indices/list*.xml",
+  "exclude": [],
+  "id_pattern": "^pmb(\\d+)$",
+  "output": "csv/pmb_uris-in-use.csv"
+}

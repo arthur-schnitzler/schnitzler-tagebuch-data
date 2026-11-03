@@ -131,6 +131,25 @@ jobs:
             echo "indices_committed=false" >> $GITHUB_OUTPUT
           fi
 
+      # Schritt 5b: Aus den aktualisierten Indexdateien die csv/pmb_uris-in-use.csv erzeugen,
+      # die die PMB abruft (manage.py sync_uris_in_use), um ihre URIs für dieses Projekt abzugleichen
+      - name: Erzeuge csv/pmb_uris-in-use.csv
+        id: uris
+        run: |
+          python3 process_list_xml.py
+
+          if [ -n "$(git status --porcelain csv/pmb_uris-in-use.csv)" ]; then
+            echo "Änderungen in csv/pmb_uris-in-use.csv gefunden. Committing..."
+            git config --global user.name 'github-actions[bot]'
+            git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+            git add csv/pmb_uris-in-use.csv
+            git commit -m "Automatisches Update der csv/pmb_uris-in-use.csv"
+            echo "csv_committed=true" >> $GITHUB_OUTPUT
+          else
+            echo "Keine Änderungen in csv/pmb_uris-in-use.csv festgestellt."
+            echo "csv_committed=false" >> $GITHUB_OUTPUT
+          fi
+
       # Schritt 6: PMB-Listen wieder aufräumen, damit sie nicht im Repo landen
       - name: Cleanup heruntergeladene PMB-Listen
         if: always()
@@ -138,7 +157,7 @@ jobs:
 
       # Schritt 7: Änderungen zurück ins Repository pushen (nur wenn Änderungen committet wurden)
       - name: Push changes
-        if: steps.process.outputs.indices_committed == 'true'
+        if: steps.process.outputs.indices_committed == 'true' || steps.uris.outputs.csv_committed == 'true'
         run: |
           echo "Pushe Änderungen zurück ins Repository..."
           git push
