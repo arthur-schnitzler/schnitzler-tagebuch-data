@@ -2042,7 +2042,6 @@
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb158.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/158/</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb158.html</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92162.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92162/</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q131445571</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb158.html</idno>
@@ -4405,25 +4404,41 @@
                </note>
             </place>
             <place xml:id="pmb34194">
-               <placeName>Bad Fusch</placeName>
-               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
-               <desc type="entity_type_id">14</desc>
+               <placeName>Fusch an der Großglocknerstraße</placeName>
+               <placeName type="legacy-name-merge">Fusch an der Großglocknerstrasse</placeName>
+               <placeName type="legacy-name-merge">Fusch an der Grossglocknerstrasse</placeName>
+               <placeName type="legacy-name-merge">Fusch an der Großglocknerstraße</placeName>
+               <desc type="entity_type">P.PPL</desc>
+               <desc type="entity_type_id">1412</desc>
                <location type="coords">
-                  <geo>47,19939 12,85366</geo>
-               </location>
-               <location type="located_in_place">
-                  <placeName ref="pmb34194">Fusch an der Großglocknerstraße</placeName>
                   <geo>47,22729 12,82727</geo>
                </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb697">Salzburg [Land]</placeName>
+                  <geo>47,41667 13,25</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/34194/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2779089/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb573.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/573/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q694084</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Fusch_an_der_Gro%C3%9Fglocknerstra%C3%9Fe</idno>
+               <idno type="URL" subtype="schnitzler-fischer">https://biblio.ub.uni-freiburg.de/sf/#pmb34194</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb34194.html</idno>
-               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb34194.html</idno>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/305739/</idno>
-               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q137362582</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb305739.html</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
-                  <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
+                  <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
+               <note type="references"> </note>
+               <note type="image">
+                  <figure>
+                     <graphic url="https://iiif.onb.ac.at/images/AKON/AK058_243/243/full/,600/0/native.jpg"/>
+                  </figure>
+               </note>
             </place>
             <place xml:id="pmb34199">
                <placeName>Cortina d’Ampezzo</placeName>
@@ -8332,6 +8347,7 @@
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/261831/</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb40482.html</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb40482.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb2715.html</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
@@ -8500,7 +8516,6 @@
                <idno type="URL" subtype="wiengeschichtewiki">https://www.geschichtewiki.wien.gv.at/Gentzgasse</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb40694.html</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb40694.html</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb40694.html</idno>
                <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb40694.html</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb40694.html</idno>
                <listBibl>
@@ -9419,20 +9434,22 @@
                </note>
             </place>
             <place xml:id="pmb41463">
-               <placeName>Schulgasse [Wien]</placeName>
-               <desc type="entity_type">Straße (K.STR)</desc>
-               <desc type="entity_type_id">26</desc>
+               <placeName>Schulgasse 8 [Bad Ischl]</placeName>
+               <desc type="entity_type">Wohngebäude (K.WHS)</desc>
+               <desc type="entity_type_id">36</desc>
                <location type="coords">
-                  <geo>48,226495 16,336654</geo>
+                  <geo>47,712523 13,621877</geo>
                </location>
                <location type="located_in_place">
-                  <placeName ref="pmb68">XVIII., Währing</placeName>
-                  <geo>48,23333 16,31667</geo>
+                  <placeName ref="pmb213">Bad Ischl</placeName>
+                  <geo>47,71109 13,61893</geo>
                </location>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/365281/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41463/</idno>
+               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb41463.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb41463.html</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb41463.html</idno>
                <listBibl>
-                  <bibl type="collections" n="24">manually created entity</bibl>
+                  <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
             </place>
             <place xml:id="pmb415">
@@ -10186,6 +10203,7 @@
                <placeName type="alternative-name">Brixen</placeName>
                <placeName type="alternative-name">Brixen in Südtirol</placeName>
                <placeName type="legacy-name-merge">Brixen</placeName>
+               <placeName type="legacy-name-merge">Brixen</placeName>
                <desc type="entity_type">P.PPLA3</desc>
                <desc type="entity_type_id">1128</desc>
                <location type="coords">
@@ -10197,13 +10215,16 @@
                </location>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/3181550/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43040/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4008306-8</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb43040.html</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb43040.html</idno>
                <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00004132</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/98367/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q185541</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Brixen</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb43040.html</idno>
                <listBibl>
                   <bibl type="collections" n="77">Karl Kraus: SemanticKraus</bibl>
-                  <bibl type="collections" n="13">No WikiData-ID found</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
                <note type="image">
@@ -12511,6 +12532,7 @@
                <placeName type="legacy-name-merge">Wels, Oberöst.</placeName>
                <placeName type="alternative-name">Wels</placeName>
                <placeName type="legacy-name">Wels</placeName>
+               <placeName type="legacy-name-merge">Wels</placeName>
                <desc type="entity_type">P.PPLA2</desc>
                <desc type="entity_type_id">1134</desc>
                <location type="coords">
@@ -12524,19 +12546,22 @@
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44397/</idno>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2761524/</idno>
                <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb44397.html</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4107955-3</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb44397.html</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb44397.html</idno>
                <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00001858</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/102141/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q178582</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wels_(Stadt)</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb44397.html</idno>
                <listBibl>
                   <bibl type="collections" n="5">Karl Kraus: Rechtsakten</bibl>
                   <bibl type="collections" n="77">Karl Kraus: SemanticKraus</bibl>
-                  <bibl type="collections" n="13">No WikiData-ID found</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
                <note type="image">
                   <figure>
-                     <graphic url="https://iiif.onb.ac.at/images/AKON/AK075_431/431/full/,600/0/native.jpg"/>
+                     <graphic url="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Wels_-_Ansicht_v_Marienwarte_-_2023_11_02-2.jpg/250px-Wels_-_Ansicht_v_Marienwarte_-_2023_11_02-2.jpg"/>
                   </figure>
                </note>
             </place>
@@ -13251,6 +13276,7 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2572091</idno>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/3188105/</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb45260.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb19862.html</idno>
                <listBibl>
                   <bibl type="collections" n="85">Arthur Schnitzler und der S. Fischer Verlag, Briefdatenbank</bibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
@@ -14033,6 +14059,7 @@
             <place xml:id="pmb46447">
                <placeName>Bad Hall</placeName>
                <placeName type="legacy-name-merge">Bad Hall, Oberösterreich</placeName>
+               <placeName type="legacy-name-merge">Bad Hall</placeName>
                <desc type="entity_type">P.PPL</desc>
                <desc type="entity_type_id">1412</desc>
                <location type="coords">
@@ -14044,18 +14071,21 @@
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/46447/</idno>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2782054/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4023018-1</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb46447.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/263270/</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb46447.html</idno>
                <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00000071</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/96529/</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Bad_Hall</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q259086</idno>
                <listBibl>
                   <bibl type="collections" n="77">Karl Kraus: SemanticKraus</bibl>
-                  <bibl type="collections" n="13">No WikiData-ID found</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
                <note type="image">
                   <figure>
-                     <graphic url="https://iiif.onb.ac.at/images/AKON/AK105_256/256/full/,600/0/native.jpg"/>
+                     <graphic url="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Bad_Hall_0022_D-Pano.jpg/250px-Bad_Hall_0022_D-Pano.jpg"/>
                   </figure>
                </note>
             </place>
@@ -17963,6 +17993,7 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q987465</idno>
                <idno type="URL" subtype="schnitzler-fischer">https://biblio.ub.uni-freiburg.de/sf/#pmb50822</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb50822.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb65723.html</idno>
                <listBibl>
                   <bibl type="collections" n="85">Arthur Schnitzler und der S. Fischer Verlag, Briefdatenbank</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
@@ -21154,31 +21185,19 @@
                </listBibl>
             </place>
             <place xml:id="pmb57525">
-               <placeName>Kurfürstenstraße [Berlin]</placeName>
+               <placeName>Kurfürstenstraße [Breslau]</placeName>
                <desc type="entity_type">Straße (K.STR)</desc>
                <desc type="entity_type_id">26</desc>
-               <location type="coords">
-                  <geo>52,5047382 13,3424248</geo>
-               </location>
                <location type="located_in_place">
-                  <placeName ref="pmb168">Berlin</placeName>
-                  <geo>52,52437 13,41053</geo>
+                  <placeName ref="pmb677">Breslau</placeName>
+                  <geo>51,10773 17,03533</geo>
                </location>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58526/</idno>
-               <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb58526.html</idno>
-               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1557494</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Kurf%C3%BCrstenstra%C3%9Fe_(Berlin-Tiergarten)</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/57525/</idno>
+               <idno type="URL" subtype="legalkraus">https://www.kraus.wienbibliothek.at/legalkraus/pmb57525.html</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb57525.html</idno>
-               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb58526.html</idno>
                <listBibl>
                   <bibl type="collections" n="5">Karl Kraus: Rechtsakten</bibl>
-                  <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
-               <note type="image">
-                  <figure>
-                     <graphic url="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/TiergartenKurf%C3%BCrstenstra%C3%9Fe.jpg/250px-TiergartenKurf%C3%BCrstenstra%C3%9Fe.jpg"/>
-                  </figure>
-               </note>
             </place>
             <place xml:id="pmb577">
                <placeName>Irland</placeName>
@@ -21713,7 +21732,6 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wiener_Neustadt</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb587.html</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb587.html</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb587.html</idno>
                <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/DWplace00097</idno>
                <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/pmb587</idno>
                <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00003426</idno>
@@ -24161,8 +24179,6 @@
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb65.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/103044/</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/F%C3%BCnfhaus</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb90673.html</idno>
-               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb90673.html</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1481965</idno>
                <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/pmb65</idno>
                <idno type="URL" subtype="schoenberg-ue">https://www.schoenberg-ue.at/ue/places/place.9.11.4</idno>
@@ -24394,35 +24410,6 @@
                <note type="image">
                   <figure>
                      <graphic url="https://iiif.onb.ac.at/images/AKON/AK026_233/233/full/,600/0/native.jpg"/>
-                  </figure>
-               </note>
-            </place>
-            <place xml:id="pmb65723">
-               <placeName>Ritten</placeName>
-               <desc type="entity_type">A.ADM3</desc>
-               <desc type="entity_type_id">1124</desc>
-               <location type="coords">
-                  <geo>46,54039 11,457027</geo>
-               </location>
-               <location type="located_in_place">
-                  <placeName ref="pmb969">Südtirol</placeName>
-                  <geo>46,71667 11,5</geo>
-               </location>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/246116/</idno>
-               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q474441</idno>
-               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4050147-4</idno>
-               <idno type="URL" subtype="geonames">https://sws.geonames.org/6536015/</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ritten_(Gemeinde)</idno>
-               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb246116.html</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb65723.html</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb246116.html</idno>
-               <listBibl>
-                  <bibl type="collections" n="24">manually created entity</bibl>
-                  <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
-               </listBibl>
-               <note type="image">
-                  <figure>
-                     <graphic url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Ritten_1.jpg/250px-Ritten_1.jpg"/>
                   </figure>
                </note>
             </place>
@@ -24845,6 +24832,7 @@
             <place xml:id="pmb68">
                <placeName>XVIII., Währing</placeName>
                <placeName type="legacy-name-merge">Währing</placeName>
+               <placeName type="legacy-name-merge">Währing</placeName>
                <desc type="entity_type">A.ADM3</desc>
                <desc type="entity_type_id">1124</desc>
                <location type="coords">
@@ -24870,7 +24858,11 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/W%C3%A4hring</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb68.html</idno>
                <idno type="URL" subtype="schoenberg-ue">https://www.schoenberg-ue.at/ue/places/place.9.11.15</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1749983</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4078991-3</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb68.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/345948/</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/W%C3%A4hring_(Wiener_Bezirksteil)</idno>
                <listBibl>
                   <bibl type="collections" n="5">Karl Kraus: Rechtsakten</bibl>
                   <bibl type="collections" n="87">Schönberg-Briefe: Universal-Edition und Dreililien</bibl>
@@ -24982,6 +24974,7 @@
                <placeName>XIX., Döbling</placeName>
                <placeName type="legacy-name-merge">Döbling</placeName>
                <placeName type="legacy-name-merge">Wien-Döbling</placeName>
+               <placeName type="legacy-name-merge">Dobling</placeName>
                <desc type="entity_type">A.ADM3</desc>
                <desc type="entity_type_id">1124</desc>
                <location type="coords">
@@ -25009,10 +25002,14 @@
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb69.html</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb69.html</idno>
                <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb69.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/341393/</idno>
+               <idno type="URL" subtype="schoenberg-ue">https://www.schoenberg-ue.at/ue/places/place.9.11.3</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3324498/</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb69.html</idno>
                <listBibl>
                   <bibl type="collections" n="5">Karl Kraus: Rechtsakten</bibl>
                   <bibl type="collections" n="77">Karl Kraus: SemanticKraus</bibl>
+                  <bibl type="collections" n="87">Schönberg-Briefe: Universal-Edition und Dreililien</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
                <note type="image">
@@ -26021,6 +26018,7 @@
                <placeName>Karlovy Vary</placeName>
                <placeName type="ort_fruherer-name">Karlsbad</placeName>
                <placeName type="legacy-name-merge">Karlsbad</placeName>
+               <placeName type="ort_namensvariante">Carlsbad</placeName>
                <desc type="entity_type">P.PPLA</desc>
                <desc type="entity_type_id">1415</desc>
                <location type="coords">
@@ -26445,6 +26443,7 @@
                <idno type="URL" subtype="schnitzler-fischer">https://biblio.ub.uni-freiburg.de/sf/#pmb863</idno>
                <idno type="URL" subtype="schoenberg-ue">https://www.schoenberg-ue.at/ue/places/place.2.12</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb863.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92197.html</idno>
                <listBibl>
                   <bibl type="collections" n="85">Arthur Schnitzler und der S. Fischer Verlag, Briefdatenbank</bibl>
                   <bibl type="collections" n="5">Karl Kraus: Rechtsakten</bibl>
@@ -26816,6 +26815,8 @@
                <idno type="URL" subtype="schoenberg-ue">https://www.schoenberg-ue.at/ue/places/place.5.9</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/406110/</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb873.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb341319.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb91944.html</idno>
                <listBibl>
                   <bibl type="collections" n="85">Arthur Schnitzler und der S. Fischer Verlag, Briefdatenbank</bibl>
                   <bibl type="collections" n="77">Karl Kraus: SemanticKraus</bibl>
@@ -28989,6 +28990,7 @@
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb90227.html</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb52304.html</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb52304.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb90227.html</idno>
                <listBibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
@@ -29708,6 +29710,7 @@
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb90290.html</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb53227.html</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb53227.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb90290.html</idno>
                <listBibl>
                   <bibl type="collections" n="13">No WikiData-ID found</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
@@ -29817,6 +29820,7 @@
                <placeName type="legacy-name-merge">Elberfeld</placeName>
                <placeName type="legacy-name-merge">Elberfeld</placeName>
                <placeName type="legacy-name-merge">Wuppertal-Elberfeld</placeName>
+               <placeName type="legacy-name-merge">Wuppertal-Elberfeld</placeName>
                <desc type="entity_type">P.PPLX</desc>
                <desc type="entity_type_id">1234</desc>
                <location type="coords">
@@ -29838,6 +29842,7 @@
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4079408-8</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Elberfeld</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb903.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/262521/</idno>
                <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00004233</idno>
                <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00002990</idno>
                <idno type="URL" subtype="schnitzler-fischer">https://biblio.ub.uni-freiburg.de/sf/#pmb903</idno>
@@ -31480,7 +31485,7 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Canal_Grande</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/90440/</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb90440.html</idno>
-               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb90440.html</idno>
+               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb34052.html</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb34052.html</idno>
                <listBibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
@@ -34023,8 +34028,8 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berlin-Friedenau</idno>
                <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00002162</idno>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2924770/</idno>
-               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb90657.html</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q692390</idno>
+               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb115779.html</idno>
                <idno type="URL" subtype="schoenberg-ue">https://www.schoenberg-ue.at/ue/places/place.2.14</idno>
                <listBibl>
                   <bibl type="collections" n="77">Karl Kraus: SemanticKraus</bibl>
@@ -34087,6 +34092,7 @@
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb100524.html</idno>
                <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00002698</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb100524.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb90661.html</idno>
                <listBibl>
                   <bibl type="collections" n="77">Karl Kraus: SemanticKraus</bibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
@@ -34645,6 +34651,7 @@
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2778633/</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb90705.html</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb291.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb90705.html</idno>
                <listBibl>
                   <bibl type="collections" n="13">No WikiData-ID found</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
@@ -34720,6 +34727,7 @@
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb90711.html</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q724170</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb90711.html</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb90711.html</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                   <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
@@ -34751,7 +34759,6 @@
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb90713.html</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q169090</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb90713.html</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb90713.html</idno>
                <listBibl>
                   <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
@@ -35310,6 +35317,7 @@
             </place>
             <place xml:id="pmb90763">
                <placeName>Greifenstein</placeName>
+               <placeName type="legacy-name-merge">Greifenstein</placeName>
                <desc type="entity_type">P.PPL</desc>
                <desc type="entity_type_id">1412</desc>
                <location type="coords">
@@ -35323,11 +35331,13 @@
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2778047/</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb90763.html</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb90763.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/623760/</idno>
                <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00001823</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1545468</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb90763.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Greifenstein_(Gemeinde_St._Andr%C3%A4-W%C3%B6rdern)</idno>
                <listBibl>
                   <bibl type="collections" n="77">Karl Kraus: SemanticKraus</bibl>
-                  <bibl type="collections" n="13">No WikiData-ID found</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
                <note type="image">
@@ -36234,7 +36244,6 @@
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/90835/</idno>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/7115995/</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb90835.html</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92272.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92272/</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb90835.html</idno>
                <listBibl>
@@ -36398,6 +36407,7 @@
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb90849.html</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb53848.html</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb53848.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb90849.html</idno>
                <listBibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
@@ -37267,7 +37277,6 @@
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/1034788558</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb64.html</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb90913.html</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb64.html</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q690335</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Penzing_(Wien)</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/95722/</idno>
@@ -40012,10 +40021,10 @@
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4353493-4</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/34839/</idno>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2772616/</idno>
+               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb34839.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91137/</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Leopoldskron</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb91137.html</idno>
-               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb91137.html</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1819983</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb34839.html</idno>
                <listBibl>
@@ -40280,7 +40289,6 @@
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91161/</idno>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/3147088/</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb91161.html</idno>
-               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb91161.html</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q186822</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Lofoten</idno>
                <listBibl>
@@ -41130,6 +41138,7 @@
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91229/</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb41083.html</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb41083.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb91229.html</idno>
                <listBibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
@@ -42566,9 +42575,9 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q504724</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Niederdorf_(S%C3%BCdtirol)</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/262011/</idno>
+               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb40556.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91350/</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb91350.html</idno>
-               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb91350.html</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb40556.html</idno>
                <listBibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
@@ -48476,9 +48485,9 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q376944</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91875/</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb91875.html</idno>
-               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb91875.html</idno>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/6535889/</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb46965.html</idno>
+               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb46965.html</idno>
                <listBibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
@@ -49395,25 +49404,32 @@
                </note>
             </place>
             <place xml:id="pmb91963">
-               <placeName>Unterkritzendorf</placeName>
-               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
-               <desc type="entity_type_id">14</desc>
+               <placeName>Haltestelle Unter Kritzendorf</placeName>
+               <desc type="entity_type">S.RSTP</desc>
+               <desc type="entity_type_id">2052</desc>
                <location type="coords">
-                  <geo>48,323949 16,308802</geo>
+                  <geo>48,31667 16,31667</geo>
                </location>
                <location type="located_in_place">
-                  <placeName ref="pmb91077">Kritzendorf</placeName>
-                  <geo>48,32932 16,30011</geo>
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
                </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb253058">Unterkritzendorf</placeName>
+                  <geo>48,323949 16,308802</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91963/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3324052/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q99337531</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb91963.html</idno>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/253058/</idno>
-               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q110646366</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Unterkritzendorf</idno>
-               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb253058.html</idno>
                <listBibl>
-                  <bibl type="collections" n="24">manually created entity</bibl>
-                  <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
+                  <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
                </listBibl>
+               <note type="image">
+                  <figure>
+                     <graphic url="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Bahnhof_Unterkritzendorf_02.jpg/250px-Bahnhof_Unterkritzendorf_02.jpg"/>
+                  </figure>
+               </note>
             </place>
             <place xml:id="pmb91965">
                <placeName>Udine</placeName>
@@ -49680,26 +49696,41 @@
             <place xml:id="pmb91987">
                <placeName>Utrecht</placeName>
                <placeName type="alternative-name">Utrecht</placeName>
-               <desc type="entity_type">P.PPLA</desc>
-               <desc type="entity_type_id">1415</desc>
+               <placeName type="legacy-name-merge">Utrecht</placeName>
+               <placeName type="legacy-name-merge">Utrecht</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
                <location type="coords">
-                  <geo>52,09083 5,12222</geo>
+                  <geo>52,0908333333333 5,12166666666667</geo>
                </location>
                <location type="located_in_place">
                   <placeName ref="pmb44016">Niederlande</placeName>
                   <geo>52,25 5,75</geo>
                </location>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91987/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/9619/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41599/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/60146/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2745909/</idno>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2745912/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q803</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4062222-8</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2745911/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q776</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Provinz_Utrecht</idno>
+               <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00003326</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/158500/</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Utrecht</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91987/</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb91987.html</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb91987.html</idno>
                <listBibl>
-                  <bibl type="collections" n="13">No WikiData-ID found</bibl>
+                  <bibl type="collections" n="77">Karl Kraus: SemanticKraus</bibl>
+                  <bibl type="collections" n="24">manually created entity</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
                <note type="image">
                   <figure>
-                     <graphic url="https://iiif.onb.ac.at/images/AKON/AK087_081/081/full/,600/0/native.jpg"/>
+                     <graphic url="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Neude_met_Domtoren.JPG/250px-Neude_met_Domtoren.JPG"/>
                   </figure>
                </note>
             </place>
@@ -50853,7 +50884,7 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q681099</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Windischgarsten</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92085.html</idno>
-               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb92085.html</idno>
+               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb39930.html</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb39930.html</idno>
                <listBibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
@@ -52185,6 +52216,7 @@
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92180.html</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb92180.html</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb92180.html</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb92180.html</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
                   <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
@@ -52425,13 +52457,6 @@
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92196/</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92196.html</idno>
-            </place>
-            <place xml:id="pmb92197">
-               <placeName>D.</placeName>
-               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
-               <desc type="entity_type_id">14</desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168000/</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92197.html</idno>
             </place>
             <place xml:id="pmb92199">
                <placeName>Darwingasse</placeName>
@@ -54389,7 +54414,6 @@
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92460/</idno>
                <idno type="URL" subtype="wiengeschichtewiki">https://www.geschichtewiki.wien.gv.at/Praterstraße</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92306.html</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92460.html</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2107895</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Praterstra%C3%9Fe</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb50933.html</idno>
@@ -54620,27 +54644,24 @@
                </note>
             </place>
             <place xml:id="pmb92319">
-               <placeName>Café Kaisergarten</placeName>
-               <desc type="entity_type">Kaffeehaus (K.KAF)</desc>
-               <desc type="entity_type_id">20</desc>
+               <placeName>Kaiserwiese</placeName>
+               <placeName type="ort_namensvariante">Kaisergarten</placeName>
+               <desc type="entity_type">Park (K.PRK)</desc>
+               <desc type="entity_type_id">19</desc>
                <location type="coords">
-                  <geo>48,203202 16,364423</geo>
+                  <geo>48,2172 16,39437</geo>
                </location>
                <location type="located_in_place">
-                  <placeName ref="pmb51">I., Innere Stadt</placeName>
-                  <geo>48,20769 16,37049</geo>
+                  <placeName ref="pmb8">Prater</placeName>
+                  <geo>48,194558 16,430054</geo>
                </location>
                <location type="located_in_place">
-                  <placeName ref="pmb717">Opernring</placeName>
-                  <geo>48,202859933076 16,366977055984</geo>
+                  <placeName ref="pmb52">II., Leopoldstadt</placeName>
+                  <geo>48,21667 16,4</geo>
                </location>
+               <idno type="URL" subtype="wiengeschichtewiki">https://www.geschichtewiki.wien.gv.at/Kaisergarten_(2)</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92319/</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92319.html</idno>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/182675/</idno>
-               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb182675.html</idno>
-               <listBibl>
-                  <bibl type="collections" n="24">manually created entity</bibl>
-                  <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
-               </listBibl>
             </place>
             <place xml:id="pmb92320">
                <placeName>Heinestraße</placeName>
@@ -55959,36 +55980,30 @@
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92401.html</idno>
             </place>
             <place xml:id="pmb92402">
-               <placeName>Michelbeuern-Kino [II]</placeName>
-               <placeName type="ort_namensvariante">Michelbeuerntheater</placeName>
+               <placeName>Edison-Kino</placeName>
+               <placeName type="ort_namensvariante">Michelbeuern-Kino</placeName>
                <desc type="entity_type">Kino (K.KNO)</desc>
                <desc type="entity_type_id">46</desc>
                <location type="coords">
-                  <geo>48,227627 16,327784</geo>
+                  <geo>48,22275 16,34862</geo>
                </location>
                <location type="located_in_place">
-                  <placeName ref="pmb50">Wien</placeName>
-                  <geo>48,208333 16,373056</geo>
+                  <placeName ref="pmb92401">Michelbeuern</placeName>
+                  <geo>48,2219 16,3511</geo>
                </location>
                <location type="located_in_place">
-                  <placeName ref="pmb68">XVIII., Währing</placeName>
-                  <geo>48,23333 16,31667</geo>
+                  <placeName ref="pmb59">IX., Alsergrund</placeName>
+                  <geo>48,22387 16,35641</geo>
                </location>
-               <location type="located_in_place">
-                  <placeName ref="pmb92349">Kreuzgasse</placeName>
-                  <geo>50,936904 6,951649</geo>
-               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/292/</idno>
+               <idno type="URL" subtype="wiengeschichtewiki">https://www.geschichtewiki.wien.gv.at/Edison_Kino_-_Michelbeuernkino</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92402/</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92402.html</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb292.html</idno>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/190582/</idno>
-               <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb190582.html</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb190582.html</idno>
                <listBibl>
                   <bibl type="collections" n="24">manually created entity</bibl>
-                  <bibl type="collections" n="43">Wiener Schnitzler – Schnitzlers Wien</bibl>
                </listBibl>
                <note type="apis_dates">
-                  <date notBefore-iso="1919-01-01" when-iso="1919-01-01">1919</date>
+                  <date from-iso="1907-01-01" to-iso="1917-01-01">1907 – 1917</date>
                </note>
             </place>
             <place xml:id="pmb92403">
@@ -56033,7 +56048,6 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q844337</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/San_Miniato_al_Monte</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92404.html</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb91630.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92404/</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb52728.html</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb52728.html</idno>
@@ -56287,7 +56301,6 @@
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/49972/</idno>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/3069305/</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4262747-3</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb49972.html</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q3584</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Nov%C3%BD_Ji%C4%8D%C3%ADn</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/94868/</idno>
@@ -60553,7 +60566,6 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/M%C3%B6dling</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb968.html</idno>
                <idno type="URL" subtype="wienerschnitzler">https://wienerschnitzler.org/pmb968.html</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb968.html</idno>
                <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/DWplace00340</idno>
                <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00004930</idno>
                <idno type="URL" subtype="semantickraus">https://sk.acdh.oeaw.ac.at/fa_place00000354</idno>
