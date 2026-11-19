@@ -13,11 +13,16 @@
          und dem projektspezifischen Wrapper. Pro Lauf greift genau eines der
          drei root-Templates. -->
 
+    <!-- Die neue xml:id ist die aktuelle PMB-Nummer des Eintrags (aus der
+         PMB-xml:id, z. B. place__41062 -> pmb41062), nicht die in der PMB
+         hinterlegte schnitzler-tagebuch-URL: Nach einem Merge in der PMB
+         bleibt dort die URL der aufgegangenen Entität stehen (pmb41063.html),
+         die alte Nummer würde sonst bei jedem Lauf wieder in die Indizes
+         geschrieben. Über csv/pmb_uris-in-use.csv gleicht die PMB die URL
+         danach selbst an. -->
     <xsl:function name="tei:new-id" as="xs:string">
         <xsl:param name="entry" as="element()"/>
-        <xsl:variable name="url"
-            select="normalize-space($entry/tei:idno[@subtype='schnitzler-tagebuch'][1])"/>
-        <xsl:value-of select="replace(replace($url, 'https://schnitzler-tagebuch\.acdh\.oeaw\.ac\.at/', ''), '\.html$', '')"/>
+        <xsl:value-of select="concat('pmb', replace($entry/@xml:id, '^.*__', ''))"/>
     </xsl:function>
 
     <!-- ============================================================= -->
