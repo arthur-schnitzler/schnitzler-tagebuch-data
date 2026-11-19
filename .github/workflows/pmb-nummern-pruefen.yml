@@ -1,0 +1,20 @@
+# Prüft monatlich, ob alle PMB-Nummern noch aktuell sind (z. B. nach Merges in
+# der PMB), und schreibt veraltete Nummern direkt um. Nummern, die es in der
+# PMB nicht mehr gibt, lassen den Lauf fehlschlagen (Liste in der Zusammenfassung).
+# Skript und Ablauf: https://github.com/arthur-schnitzler/schnitzler-interviews-data/tree/main/python
+
+name: PMB-Nummern prüfen
+
+on:
+  schedule:
+    - cron: '0 4 1 * *'
+  workflow_dispatch:
+
+jobs:
+  pmb:
+    uses: arthur-schnitzler/schnitzler-interviews-data/.github/workflows/pmb-nummern-pruefen.yml@main
+    permissions:
+      contents: write
+      pull-requests: write
+    with:
+      paths: editions indices
